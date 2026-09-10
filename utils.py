@@ -19,18 +19,24 @@ Please note that:
    If there are any bugs or improvement suggestions, you can submit pull requests.
    We would greatly appreciate and look forward to your contributions!!
 """
+import os
 import re
 import bs4
 import json
 import arxiv
+import threading
+import time
 import urllib
 import zipfile
 import warnings
 import requests
+import xml.etree.ElementTree as ET
 from datetime   import datetime
+from email.utils import parsedate_to_datetime
+from requests.adapters import HTTPAdapter
 warnings.simplefilter("always")
 
-GOOGLE_KEY   = 'your google keys'
+GOOGLE_KEY = os.environ.get("SERPER_API_KEY", "")
 arxiv_client = arxiv.Client(delay_seconds = 0.05)
 id2paper     = json.load(open("data/paper_database/id2paper.json"))
 paper_db     = zipfile.ZipFile("data/paper_database/cs_paper_2nd.zip", "r")
@@ -56,7 +62,7 @@ def google_search_arxiv_id(query, num=10, end_date=None):
         'X-API-KEY': GOOGLE_KEY,
         'Content-Type': 'application/json'
     }
-    assert headers['X-API-KEY'] != 'your google keys', "add your google search key!!!"
+    assert GOOGLE_KEY, "set SERPER_API_KEY environment variable"
 
     for _ in range(3):
         try:
@@ -304,7 +310,7 @@ def search_paper_by_arxiv_id(arxiv_id):
     """
     if arxiv_id in id2paper:
         title_key = keep_letters(id2paper[arxiv_id])
-        if title_key in paper_db.namelist():
+        if title_key in _paper_db_names:
             with paper_db.open(title_key) as f:
                 data = json.loads(f.read().decode("utf-8"))
             return {
@@ -344,62 +350,310 @@ def search_paper_by_arxiv_id(arxiv_id):
             break
     return res
     
-def search_arxiv_id_by_title(title):
+ARXIV_TITLE_FALLBACK_PATCH = "REPRO_LOCAL_ONLY_001"
+ARXIV_TITLE_MAX_CONCURRENCY = 1
+ARXIV_TITLE_MAX_ATTEMPTS = 3
+ARXIV_TITLE_TIMEOUT = (5, 30)
+ARXIV_TITLE_REQUEST_INTERVAL_SECONDS = 3.0
+ARXIV_TITLE_429_COOLDOWN_SECONDS = 6.0
+ARXIV_TITLE_CONSECUTIVE_429_SKIP_THRESHOLD = 20
+_arxiv_title_semaphore = threading.BoundedSemaphore(ARXIV_TITLE_MAX_CONCURRENCY)
+_arxiv_title_session = requests.Session()
+_arxiv_title_session.mount(
+    "https://",
+    HTTPAdapter(pool_connections=1, pool_maxsize=1, max_retries=0, pool_block=True),
+)
+_arxiv_title_session.headers.update({"User-Agent": "PaSa arXiv API title fallback"})
+_arxiv_title_lock = threading.Lock()
+_arxiv_title_rate_condition = threading.Condition()
+_arxiv_title_next_request_start = 0.0
+_arxiv_title_request_starts = []
+_arxiv_title_cache = {}
+_arxiv_title_inflight = {}
+_arxiv_title_stats = {
+    "total_lookups": 0,
+    "unique_titles": 0,
+    "cache_hits": 0,
+    "http_requests": 0,
+    "http_200": 0,
+    "http_429": 0,
+    "timeouts": 0,
+    "connection_reset": 0,
+    "remote_disconnect": 0,
+    "request_errors": 0,
+    "retries": 0,
+    "global_cooldowns": 0,
+    "consecutive_http_429": 0,
+    "max_consecutive_http_429": 0,
+    "consecutive_429_skips": 0,
+    "final_failures": 0,
+}
+_arxiv_title_failed_titles = {}
+_paper_db_names = set(paper_db.namelist())
+
+def _build_local_title_index():
+    unique_titles, ambiguous_titles = {}, set()
+    for arxiv_id, title in id2paper.items():
+        normalized_title = keep_letters(title)
+        if not normalized_title or normalized_title in ambiguous_titles:
+            continue
+        if normalized_title in unique_titles:
+            unique_titles.pop(normalized_title)
+            ambiguous_titles.add(normalized_title)
+        else:
+            unique_titles[normalized_title] = arxiv_id
+    local_titles = {
+        title: arxiv_id
+        for title, arxiv_id in unique_titles.items()
+        if title in _paper_db_names
+    }
+    return local_titles, ambiguous_titles
+
+_local_title_index, _local_title_ambiguous = _build_local_title_index()
+_local_title_stats = {
+    "LOCAL_TITLE_LOOKUPS": 0,
+    "LOCAL_TITLE_HITS": 0,
+    "LOCAL_TITLE_MISSES": 0,
+    "LOCAL_TITLE_AMBIGUOUS": 0,
+    "ARXIV_FALLBACKS": 0,
+    "ARXIV_API_FALLBACKS": 0,
+}
+
+def get_local_title_lookup_stats():
+    with _arxiv_title_lock:
+        stats = dict(_local_title_stats)
+        stats["LOCAL_TITLE_INDEX_SIZE"] = len(_local_title_index)
+        stats["LOCAL_TITLE_AMBIGUOUS_KEYS"] = len(_local_title_ambiguous)
+        return stats
+
+def _normalized_title(title):
+    return title.lower().strip('.').replace(' ', '').replace('\n', '')
+
+def _update_arxiv_title_stats(name, value=1):
+    with _arxiv_title_lock:
+        _arxiv_title_stats[name] += value
+
+def _record_arxiv_title_http_status(status_code):
+    with _arxiv_title_lock:
+        if status_code == 429:
+            _arxiv_title_stats["consecutive_http_429"] += 1
+            _arxiv_title_stats["max_consecutive_http_429"] = max(
+                _arxiv_title_stats["max_consecutive_http_429"],
+                _arxiv_title_stats["consecutive_http_429"],
+            )
+        else:
+            _arxiv_title_stats["consecutive_http_429"] = 0
+        return _arxiv_title_stats["consecutive_http_429"]
+
+def get_arxiv_title_lookup_stats():
+    with _arxiv_title_lock:
+        stats = dict(_arxiv_title_stats)
+        starts = list(_arxiv_title_request_starts)
+        stats["failed_titles"] = dict(_arxiv_title_failed_titles)
+        stats["cache_size"] = len(_arxiv_title_cache)
+        stats["patch_id"] = ARXIV_TITLE_FALLBACK_PATCH
+        stats["max_concurrency"] = ARXIV_TITLE_MAX_CONCURRENCY
+        stats["max_attempts"] = ARXIV_TITLE_MAX_ATTEMPTS
+        stats["timeout"] = ARXIV_TITLE_TIMEOUT
+        stats["request_interval_seconds"] = ARXIV_TITLE_REQUEST_INTERVAL_SECONDS
+        stats["http_429_cooldown_seconds"] = ARXIV_TITLE_429_COOLDOWN_SECONDS
+        stats["consecutive_429_skip_threshold"] = (
+            ARXIV_TITLE_CONSECUTIVE_429_SKIP_THRESHOLD
+        )
+        stats["minimum_request_start_spacing_seconds"] = (
+            min(b - a for a, b in zip(starts, starts[1:]))
+            if len(starts) > 1 else None
+        )
+        left = 0
+        max_requests = 0
+        for right, started in enumerate(starts):
+            while starts[left] < started - 1.0:
+                left += 1
+            max_requests = max(max_requests, right - left + 1)
+        stats["max_requests_in_any_1s_window"] = max_requests
+        return stats
+
+def _retry_after_seconds(response):
+    value = response.headers.get("Retry-After")
+    if not value:
+        return None
+    try:
+        return max(0.0, float(value))
+    except ValueError:
+        try:
+            retry_at = parsedate_to_datetime(value)
+            return max(0.0, (retry_at - datetime.now(retry_at.tzinfo)).total_seconds())
+        except (TypeError, ValueError, OverflowError):
+            return None
+
+def _wait_for_arxiv_title_request_slot():
+    global _arxiv_title_next_request_start
+    with _arxiv_title_rate_condition:
+        while True:
+            now = time.monotonic()
+            wait = _arxiv_title_next_request_start - now
+            if wait <= 0:
+                started = time.monotonic()
+                _arxiv_title_next_request_start = (
+                    started + ARXIV_TITLE_REQUEST_INTERVAL_SECONDS
+                )
+                break
+            _arxiv_title_rate_condition.wait(wait)
+    with _arxiv_title_lock:
+        _arxiv_title_request_starts.append(started)
+
+def _apply_arxiv_title_global_cooldown(response):
+    global _arxiv_title_next_request_start
+    retry_after = _retry_after_seconds(response)
+    cooldown = max(
+        ARXIV_TITLE_429_COOLDOWN_SECONDS,
+        retry_after if retry_after is not None else 0.0,
+    )
+    with _arxiv_title_rate_condition:
+        _arxiv_title_next_request_start = max(
+            _arxiv_title_next_request_start,
+            time.monotonic() + cooldown,
+        )
+        _arxiv_title_rate_condition.notify_all()
+    _update_arxiv_title_stats("global_cooldowns")
+
+def _search_arxiv_id_by_title_uncached(title):
     """
     Search arxiv id by title.
     :param title: title of the paper
     :return: arxiv id of the paper
     """
-    url = "https://arxiv.org/search/?" + urllib.parse.urlencode({
-        'query': title,
-        'searchtype': 'title', 
-        'abstracts': 'hide', 
-        'size': 200, 
-    })
+    url = "https://export.arxiv.org/api/query"
+    params = {
+        "search_query": f'ti:"{title}"',
+        "start": 0,
+        "max_results": 10,
+    }
     
-    try:
-        response = requests.get(url)
+    for attempt in range(ARXIV_TITLE_MAX_ATTEMPTS):
+        response = None
+        try:
+            with _arxiv_title_semaphore:
+                _wait_for_arxiv_title_request_slot()
+                _update_arxiv_title_stats("http_requests")
+                response = _arxiv_title_session.get(
+                    url,
+                    params=params,
+                    timeout=ARXIV_TITLE_TIMEOUT,
+                )
+                consecutive_429 = _record_arxiv_title_http_status(
+                    response.status_code
+                )
+        except requests.Timeout as e:
+            _record_arxiv_title_http_status(None)
+            _update_arxiv_title_stats("timeouts")
+            reason = type(e).__name__
+            if attempt + 1 < ARXIV_TITLE_MAX_ATTEMPTS:
+                _update_arxiv_title_stats("retries")
+                continue
+            return None, reason
+        except requests.RequestException as e:
+            _record_arxiv_title_http_status(None)
+            error = str(e).lower()
+            if "connection reset" in error:
+                _update_arxiv_title_stats("connection_reset")
+                reason = "connection reset"
+            elif "remote end closed" in error or "remotedisconnected" in error:
+                _update_arxiv_title_stats("remote_disconnect")
+                reason = "remote disconnect"
+            else:
+                _update_arxiv_title_stats("request_errors")
+                reason = type(e).__name__
+            if attempt + 1 < ARXIV_TITLE_MAX_ATTEMPTS:
+                _update_arxiv_title_stats("retries")
+                continue
+            return None, reason
+
         if response.status_code == 200:
-            html_content = response.text
-            soup = bs4.BeautifulSoup(html_content, 'html.parser')
-            results = []
+            _update_arxiv_title_stats("http_200")
+            try:
+                root = ET.fromstring(response.content)
+            except ET.ParseError:
+                return None, "Atom parse failure"
 
-            if soup.find('meta', charset=True): # paper list
-                if soup.find('p', class_="is-size-4 has-text-warning") and "Sorry" in soup.find('p', class_="is-size-4 has-text-warning").text.strip():
-                    warnings.warn(f"Failed to find results by Arxiv Advanced Search: {title}")
-                    return None
-                
-                p_tags = soup.find_all("li", class_="arxiv-result")
-                for p_tag in p_tags:
-                    title = p_tag.find("p", class_="title is-5 mathjax").text.strip()
-                    id = p_tag.find('p', class_='list-title is-inline-block').find('a').text.strip('arXiv:')
-                    if title and id:
-                        results.append((title, id))
-            if soup.find('html', xmlns=True): # a single paper
-                p_tag = soup.find("head").find("title")
-                match = re.match(r'\[(.*?)\]\s*(.*)', soup.title.string)
-                if match:
-                    id = match.group(1)
-                    title = match.group(2)
-                    if title and id:
-                        results = [(title, id)]
+            namespace = {"atom": "http://www.w3.org/2005/Atom"}
+            if root.tag != "{http://www.w3.org/2005/Atom}feed":
+                return None, "unexpected Atom root"
 
-            if results:
-                for (result, id) in results:
-                    title_find = result.lower().strip('.').replace(' ', '').replace('\n', '')
-                    title_search = title.lower().strip('.').replace(' ', '').replace('\n', '')
-                    if title_find == title_search:
-                        return id
-                return None
-        
-            warnings.warn(f"Failed to parse the html: {url}")
-            return None
+            exact_ids = set()
+            for entry in root.findall("atom:entry", namespace):
+                result_title = " ".join(
+                    entry.findtext("atom:title", default="", namespaces=namespace).split()
+                )
+                entry_id = entry.findtext(
+                    "atom:id", default="", namespaces=namespace
+                ).strip()
+                if not result_title or not entry_id:
+                    continue
+                if _normalized_title(result_title) != _normalized_title(title):
+                    continue
+                arxiv_id = entry_id.rstrip("/").split("/")[-1]
+                arxiv_id = re.sub(r"v\d+$", "", arxiv_id)
+                if arxiv_id:
+                    exact_ids.add(arxiv_id)
+
+            if len(exact_ids) == 1:
+                return exact_ids.pop(), None
+            if len(exact_ids) > 1:
+                return None, "ambiguous exact title matches"
+            if root.findall("atom:entry", namespace):
+                return None, "title mismatch"
+            return None, "no results"
+        elif response.status_code == 429:
+            _update_arxiv_title_stats("http_429")
+            _apply_arxiv_title_global_cooldown(response)
+            if consecutive_429 >= ARXIV_TITLE_CONSECUTIVE_429_SKIP_THRESHOLD:
+                _update_arxiv_title_stats("consecutive_429_skips")
+                return None, "HTTP 429 (consecutive threshold reached)"
+            if attempt + 1 < ARXIV_TITLE_MAX_ATTEMPTS:
+                _update_arxiv_title_stats("retries")
+                continue
+            return None, "HTTP 429"
         else:
-            warnings.warn(f"Failed to retrieve content. Status code: {response.status_code}")
-            return None
-    except requests.RequestException as e:
-        warnings.warn(f"An error occurred while search_arxiv_id_by_title: {e}")
-        return None
+            return None, f"HTTP {response.status_code}"
+
+    return None, "retry limit reached"
+
+def search_arxiv_id_by_title(title):
+    normalized_title = _normalized_title(title)
+    with _arxiv_title_lock:
+        _arxiv_title_stats["total_lookups"] += 1
+        if normalized_title in _arxiv_title_cache:
+            _arxiv_title_stats["cache_hits"] += 1
+            return _arxiv_title_cache[normalized_title]
+        event = _arxiv_title_inflight.get(normalized_title)
+        if event is None:
+            event = threading.Event()
+            _arxiv_title_inflight[normalized_title] = event
+            _arxiv_title_stats["unique_titles"] += 1
+            owner = True
+        else:
+            owner = False
+
+    if not owner:
+        event.wait()
+        with _arxiv_title_lock:
+            _arxiv_title_stats["cache_hits"] += 1
+            return _arxiv_title_cache[normalized_title]
+
+    arxiv_id, failure_reason = None, "unexpected error"
+    try:
+        arxiv_id, failure_reason = _search_arxiv_id_by_title_uncached(title)
+        return arxiv_id
+    finally:
+        with _arxiv_title_lock:
+            _arxiv_title_cache[normalized_title] = arxiv_id
+            if arxiv_id is None:
+                _arxiv_title_stats["final_failures"] += 1
+                _arxiv_title_failed_titles[title] = failure_reason
+            _arxiv_title_inflight.pop(normalized_title).set()
+        if arxiv_id is None:
+            warnings.warn(f"arXiv title lookup failed ({failure_reason}): {title}")
 
 def search_paper_by_title(title):
     """
@@ -407,7 +661,19 @@ def search_paper_by_title(title):
     :param title: title of the paper
     :return: paper list
     """
-    title_id = search_arxiv_id_by_title(title)
+    normalized_title = keep_letters(title)
+    with _arxiv_title_lock:
+        _local_title_stats["LOCAL_TITLE_LOOKUPS"] += 1
+        if normalized_title in _local_title_ambiguous:
+            _local_title_stats["LOCAL_TITLE_AMBIGUOUS"] += 1
+            title_id = None
+        elif normalized_title in _local_title_index:
+            _local_title_stats["LOCAL_TITLE_HITS"] += 1
+            title_id = _local_title_index[normalized_title]
+        else:
+            _local_title_stats["LOCAL_TITLE_MISSES"] += 1
+            title_id = None
+
     if title_id is None:
         return None
     title_id = title_id.split('v')[0]

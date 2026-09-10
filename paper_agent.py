@@ -24,6 +24,9 @@ from utils      import (
     search_section_by_arxiv_id
 )
 
+REPRO_SELECTOR_SERIALIZATION_PATCH = "REPRO_SELECTOR_SERIALIZATION_001"
+SELECTOR_INFERENCE_LOCK = threading.Lock()
+
 class PaperAgent:
     def __init__(
         self,
@@ -69,13 +72,24 @@ class PaperAgent:
     
     @staticmethod
     def do_parallel(func, args, num):
-        threads = []
+        threads, errors, error_lock = [], [], threading.Lock()
+
+        def worker():
+            try:
+                func(*args)
+            except BaseException as error:
+                with error_lock:
+                    errors.append((error, error.__traceback__))
+
         for _ in range(num):
-            thread = threading.Thread(target=func, args=args)
+            thread = threading.Thread(target=worker)
             thread.start()
             threads.append(thread)
         for thread in threads:
             thread.join()
+        if errors:
+            error, traceback = errors[0]
+            raise error.with_traceback(traceback)
 
     def search_paper(self, queries):
         while queries:
@@ -95,7 +109,8 @@ class PaperAgent:
                     self.lock.release()
             
             select_prompts  = [self.prompts["get_selected"].format(title=paper["title"], abstract=paper["abstract"], user_query=self.user_query) for paper in searched_papers]
-            scores = self.selector.infer_score(select_prompts)
+            with SELECTOR_INFERENCE_LOCK:
+                scores = self.selector.infer_score(select_prompts)
             with self.lock:
                 for score, paper in zip(scores, searched_papers):
                     self.root.extra["crawler_recall_papers"].append(paper["title"])
@@ -181,7 +196,8 @@ class PaperAgent:
                     section_sources_ori.append([section, ref])
             select_prompts, section_sources, lock = [], [], threading.Lock()
             PaperAgent.do_parallel(self.search_ref, (section_sources_ori, select_prompts, section_sources, lock), self.threads_num * 3)
-            scores = self.selector.infer_score(select_prompts)
+            with SELECTOR_INFERENCE_LOCK:
+                scores = self.selector.infer_score(select_prompts)
             for score, (section, ref_paper) in zip(scores, section_sources):
                 self.root.extra["crawler_recall_papers"].append(ref_paper["title"])
                 if score > 0.5:
