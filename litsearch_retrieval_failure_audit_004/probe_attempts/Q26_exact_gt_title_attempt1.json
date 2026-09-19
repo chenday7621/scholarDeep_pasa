@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q26",
+  "group": "inline-citation",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2106.08433",
+  "request_payload": {
+    "q": "Combining Lexical and Dense Retrieval for Computationally Efficient Multi-hop Question Answering before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 52,
+  "started_utc": "2026-09-17T12:34:24.362572+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1789648185",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "b6f402d81d2d4f20df8a8888dfd9988c",
+    "date": "Thu, 17 Sep 2026 12:29:45 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3467",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3467,
+  "response_bytes_sha256": "ceaec46b5fce64848ee66fea6d94cc9d421be3ce4e9f6ff29969c58e3251984a",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb21iaW5pbmcgTGV4aWNhbCBhbmQgRGVuc2UgUmV0cmlldmFsIGZvciBDb21wdXRhdGlvbmFsbHkgRWZmaWNpZW50IE11bHRpLWhvcCBRdWVzdGlvbiBBbnN3ZXJpbmcgYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQ29tYmluaW5nIExleGljYWwgYW5kIERlbnNlIFJldHJpZXZhbCBmb3IgQ29tcHV0YXRpb25hbGx5IC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMTA2LjA4NDMzIiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgaW50cm9kdWNlIGEgaHlicmlkIChsZXhpY2FsIGFuZCBkZW5zZSkgcmV0cmlldmFsIGFwcHJvYWNoIHRoYXQgaXMgaGlnaGx5IGNvbXBldGl0aXZlIHdpdGggdGhlIHN0YXRlLW9mLXRoZS1hcnQgZGVuc2UgcmV0cmlldmFsIG1vZGVscywiLCJkYXRlIjoiSnVuIDE1LCAyMDIxIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJNdWx0aS1ob3AgUXVlc3Rpb24gQW5zd2VyaW5nIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjA0LjA5MTQwdjIiLCJzbmlwcGV0IjoiVGhlIGdvYWwgb2YgTUhRQSBpcyB0byBwcmVkaWN0IHRoZSBjb3JyZWN0IGFuc3dlciB0byBhIHF1ZXN0aW9uIHRoYXQgcmVxdWlyZXMgbXVsdGlwbGUgcmVhc29uaW5nICdob3BzJyBhY3Jvc3MgZ2l2ZW4gY29udGV4dHMgKHRleHQsIHRhYmxlLCBrbm93bGVkZ2UgZ3JhcGggZXRjIC4uLiIsImRhdGUiOiJNYXkgMzEsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlJldHJpZXZhbOKAk1JlYXNvbmluZyBQcm9jZXNzZXMgZm9yIE11bHRpLWhvcCBRdWVzdGlvbiBBbnN3ZXJpbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAxLjAwNTM2djEiLCJzbmlwcGV0IjoiTXVsdGktaG9wIHF1ZXN0aW9uIGFuc3dlcmluZyAoUUEpIHJlcXVpcmVzIGEgc3lzdGVtIHRvIGNvbWJpbmUgaW5mb3JtYXRpb24gZnJvbSBtdWx0aXBsZSBwaWVjZXMgb2YgZXZpZGVuY2UgdG8gYW5zd2VyIGEgc2luZ2xlIHF1ZXN0aW9uLiIsImRhdGUiOiJKYW4gMiwgMjAyNiIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQW5zd2VyaW5nIENvbXBsZXggT3Blbi1Eb21haW4gUXVlc3Rpb25zIHdpdGggTXVsdGktSG9wIERlbnNlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjAwOS4xMjc1NiIsInNuaXBwZXQiOiJXZSBwcm9wb3NlIGEgc2ltcGxlIGFuZCBlZmZpY2llbnQgbXVsdGktaG9wIGRlbnNlIHJldHJpZXZhbCBhcHByb2FjaCBmb3IgYW5zd2VyaW5nIGNvbXBsZXggb3Blbi1kb21haW4gcXVlc3Rpb25zLCB3aGljaCBhY2hpZXZlcyBzdGF0ZS1vZi10aGUtYXJ0IHBlcmZvcm1hbmNlIG9uIC4uLiIsImRhdGUiOiJTZXAgMjcsIDIwMjAiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkdyZXBTZWVrOiBUcmFpbmluZyBTZWFyY2ggQWdlbnRzIGZvciBEaXJlY3QgQ29ycHVzIEludGVyYWN0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA1LjI5MzA3djEiLCJzbmlwcGV0IjoiRXhwZXJpbWVudHMgYWNyb3NzIHNldmVuIG9wZW4tZG9tYWluIHF1ZXN0aW9uIGFuc3dlcmluZyBiZW5jaG1hcmtzIHNob3cgdGhhdCBHcmVwU2VlayBhY2hpZXZlcyB0aGUgc3Ryb25nZXN0IG92ZXJhbGwgdG9rZW4tbGV2ZWwgRiAxIEZfezF9IGFuZCBFeGFjdCBNYXRjaC4gT3VyIC4uLiIsImRhdGUiOiJNYXkgMjgsIDIwMjYiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkhvcFJBRzogTXVsdGktSG9wIFJlYXNvbmluZyBmb3IgTG9naWMtQXdhcmUgUmV0cmlldmFsIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMi4xMjQ0MnYxIiwic25pcHBldCI6IkhvcFJBRyBjb25zdHJ1Y3RzIGEgcGFzc2FnZSBncmFwaCwgd2l0aCB0ZXh0IGNodW5rcyBhcyB2ZXJ0aWNlcyBhbmQgbG9naWNhbCBjb25uZWN0aW9ucyBlc3RhYmxpc2hlZCB2aWEgTExNLWdlbmVyYXRlZCBwc2V1ZG8tcXVlcmllcyBhcyBlZGdlcy4iLCJkYXRlIjoiRmViIDE4LCAyMDI1IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBSZXRyaWV2YWwgQXVnbWVudGVkIEJpb21lZGljYWwgUXVlc3Rpb24gQW5zd2VyaW5nIHdpdGggV2VhayAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI2MDguMDE0NjgiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBkZXZlbG9wIGEgYmlvbWVkaWNhbCBRQSBwaXBlbGluZSB0aGF0IGludGVncmF0ZXMgbXVsdGktc291cmNlIHF1ZXJ5IGV4cGFuc2lvbiwgcmV0cmlldmFsIGZ1c2lvbiwgTWluaUxNLWJhc2VkIG5ldXJhbCByZXJhbmtpbmcsIHdlYWstcXVlc3Rpb24gLi4uIiwiZGF0ZSI6IkF1ZyA0LCAyMDI2IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJFeHA0RnVzZTogQSBSYW5rIEZ1c2lvbiBGcmFtZXdvcmsgZm9yIEVuaGFuY2VkIFNwYXJzZSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDYuMDQ3NjB2MSIsInNuaXBwZXQiOiJFbmhhbmNpbmcgbXVsdGktbW9kYWwgbXVsdGktaG9wIHF1ZXN0aW9uIGFuc3dlcmluZyB2aWEgc3RydWN0dXJlZCBrbm93bGVkZ2UgYW5kIHVuaWZpZWQgcmV0cmlldmFsLWdlbmVyYXRpb24uIEluIFByb2NlZWRpbmdzIG9mIHRoZSAzMXN0IEFDTSBJbnRlcm5hdGlvbmFsIC4uLiIsImRhdGUiOiJKdW4gNSwgMjAyNSIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiUmV0aGlua2luZyBBZ2VudGljIFJBRzogVG93YXJkIExMTS1Ecml2ZW4gTG9naWNhbCBSZXRyaWV2YWwgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNS4yNzEyM3YxIiwic25pcHBldCI6IlRvIGZ1cnRoZXIgaW1wcm92ZSByZXRyaWV2YWwgcmVjYWxsIGFuZCBwcmVjaXNpb24sIGRlbnNlIHJldHJpZXZhbCBpcyBvZnRlbiBjb21iaW5lZCB3aXRoIHNwYXJzZSBsZXhpY2FsIG1hdGNoaW5nIG1ldGhvZHMsIGdpdmluZyByaXNlIHRvIGh5YnJpZCByZXRyaWV2YWwgLi4uIiwiZGF0ZSI6Ik1heSAyNiwgMjAyNiIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gQW5hbHlzaW5nIHRoZSBSb2J1c3RuZXNzIG9mIER1YWwgRW5jb2RlcnMgZm9yIERlbnNlIFJldHJpZXZhbCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMDUuMDIzMDMiLCJzbmlwcGV0IjoiQ29tYmluaW5nIExleGljYWwgYW5kIERlbnNlIFJldHJpZXZhbCBmb3IgQ29tcHV0YXRpb25hbGx5LiBFZmZpY2llbnQgTXVsdGktaG9wIFF1ZXN0aW9uIEFuc3dlcmluZy4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIFNlY29uZCBXb3Jrc2hvcCBvbi4gU2ltcGxlIGFuZCAuLi4iLCJkYXRlIjoiTWF5IDQsIDIwMjIiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Combining Lexical and Dense Retrieval for Computationally Efficient Multi-hop Question Answering before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Combining Lexical and Dense Retrieval for Computationally ... - arXiv",
+        "link": "https://arxiv.org/abs/2106.08433",
+        "snippet": "In this work, we introduce a hybrid (lexical and dense) retrieval approach that is highly competitive with the state-of-the-art dense retrieval models,",
+        "date": "Jun 15, 2021",
+        "position": 1
+      },
+      {
+        "title": "Multi-hop Question Answering - arXiv",
+        "link": "https://arxiv.org/html/2204.09140v2",
+        "snippet": "The goal of MHQA is to predict the correct answer to a question that requires multiple reasoning 'hops' across given contexts (text, table, knowledge graph etc ...",
+        "date": "May 31, 2024",
+        "position": 2
+      },
+      {
+        "title": "Retrieval–Reasoning Processes for Multi-hop Question Answering",
+        "link": "https://arxiv.org/html/2601.00536v1",
+        "snippet": "Multi-hop question answering (QA) requires a system to combine information from multiple pieces of evidence to answer a single question.",
+        "date": "Jan 2, 2026",
+        "position": 3
+      },
+      {
+        "title": "Answering Complex Open-Domain Questions with Multi-Hop Dense ...",
+        "link": "https://arxiv.org/abs/2009.12756",
+        "snippet": "We propose a simple and efficient multi-hop dense retrieval approach for answering complex open-domain questions, which achieves state-of-the-art performance on ...",
+        "date": "Sep 27, 2020",
+        "position": 4
+      },
+      {
+        "title": "GrepSeek: Training Search Agents for Direct Corpus Interaction - arXiv",
+        "link": "https://arxiv.org/html/2605.29307v1",
+        "snippet": "Experiments across seven open-domain question answering benchmarks show that GrepSeek achieves the strongest overall token-level F 1 F_{1} and Exact Match. Our ...",
+        "date": "May 28, 2026",
+        "position": 5
+      },
+      {
+        "title": "HopRAG: Multi-Hop Reasoning for Logic-Aware Retrieval ... - arXiv",
+        "link": "https://arxiv.org/html/2502.12442v1",
+        "snippet": "HopRAG constructs a passage graph, with text chunks as vertices and logical connections established via LLM-generated pseudo-queries as edges.",
+        "date": "Feb 18, 2025",
+        "position": 6
+      },
+      {
+        "title": "[PDF] Retrieval Augmented Biomedical Question Answering with Weak ...",
+        "link": "https://arxiv.org/pdf/2608.01468",
+        "snippet": "In this work, we develop a biomedical QA pipeline that integrates multi-source query expansion, retrieval fusion, MiniLM-based neural reranking, weak-question ...",
+        "date": "Aug 4, 2026",
+        "position": 7
+      },
+      {
+        "title": "Exp4Fuse: A Rank Fusion Framework for Enhanced Sparse ... - arXiv",
+        "link": "https://arxiv.org/html/2506.04760v1",
+        "snippet": "Enhancing multi-modal multi-hop question answering via structured knowledge and unified retrieval-generation. In Proceedings of the 31st ACM International ...",
+        "date": "Jun 5, 2025",
+        "position": 8
+      },
+      {
+        "title": "Rethinking Agentic RAG: Toward LLM-Driven Logical Retrieval ...",
+        "link": "https://arxiv.org/html/2605.27123v1",
+        "snippet": "To further improve retrieval recall and precision, dense retrieval is often combined with sparse lexical matching methods, giving rise to hybrid retrieval ...",
+        "date": "May 26, 2026",
+        "position": 9
+      },
+      {
+        "title": "[PDF] Analysing the Robustness of Dual Encoders for Dense Retrieval ...",
+        "link": "https://arxiv.org/pdf/2205.02303",
+        "snippet": "Combining Lexical and Dense Retrieval for Computationally. Efficient Multi-hop Question Answering. In Proceedings of the Second Workshop on. Simple and ...",
+        "date": "May 4, 2022",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Combining Lexical and Dense Retrieval for Computationally ... - arXiv",
+      "snippet": "In this work, we introduce a hybrid (lexical and dense) retrieval approach that is highly competitive with the state-of-the-art dense retrieval models,",
+      "link": "https://arxiv.org/abs/2106.08433",
+      "arxiv_id": "2106.08433"
+    },
+    {
+      "rank": 2,
+      "title": "Multi-hop Question Answering - arXiv",
+      "snippet": "The goal of MHQA is to predict the correct answer to a question that requires multiple reasoning 'hops' across given contexts (text, table, knowledge graph etc ...",
+      "link": "https://arxiv.org/html/2204.09140v2",
+      "arxiv_id": "2204.09140"
+    },
+    {
+      "rank": 3,
+      "title": "Retrieval–Reasoning Processes for Multi-hop Question Answering",
+      "snippet": "Multi-hop question answering (QA) requires a system to combine information from multiple pieces of evidence to answer a single question.",
+      "link": "https://arxiv.org/html/2601.00536v1",
+      "arxiv_id": "2601.00536"
+    },
+    {
+      "rank": 4,
+      "title": "Answering Complex Open-Domain Questions with Multi-Hop Dense ...",
+      "snippet": "We propose a simple and efficient multi-hop dense retrieval approach for answering complex open-domain questions, which achieves state-of-the-art performance on ...",
+      "link": "https://arxiv.org/abs/2009.12756",
+      "arxiv_id": "2009.12756"
+    },
+    {
+      "rank": 5,
+      "title": "GrepSeek: Training Search Agents for Direct Corpus Interaction - arXiv",
+      "snippet": "Experiments across seven open-domain question answering benchmarks show that GrepSeek achieves the strongest overall token-level F 1 F_{1} and Exact Match. Our ...",
+      "link": "https://arxiv.org/html/2605.29307v1",
+      "arxiv_id": "2605.29307"
+    },
+    {
+      "rank": 6,
+      "title": "HopRAG: Multi-Hop Reasoning for Logic-Aware Retrieval ... - arXiv",
+      "snippet": "HopRAG constructs a passage graph, with text chunks as vertices and logical connections established via LLM-generated pseudo-queries as edges.",
+      "link": "https://arxiv.org/html/2502.12442v1",
+      "arxiv_id": "2502.12442"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] Retrieval Augmented Biomedical Question Answering with Weak ...",
+      "snippet": "In this work, we develop a biomedical QA pipeline that integrates multi-source query expansion, retrieval fusion, MiniLM-based neural reranking, weak-question ...",
+      "link": "https://arxiv.org/pdf/2608.01468",
+      "arxiv_id": "2608.01468"
+    },
+    {
+      "rank": 8,
+      "title": "Exp4Fuse: A Rank Fusion Framework for Enhanced Sparse ... - arXiv",
+      "snippet": "Enhancing multi-modal multi-hop question answering via structured knowledge and unified retrieval-generation. In Proceedings of the 31st ACM International ...",
+      "link": "https://arxiv.org/html/2506.04760v1",
+      "arxiv_id": "2506.04760"
+    },
+    {
+      "rank": 9,
+      "title": "Rethinking Agentic RAG: Toward LLM-Driven Logical Retrieval ...",
+      "snippet": "To further improve retrieval recall and precision, dense retrieval is often combined with sparse lexical matching methods, giving rise to hybrid retrieval ...",
+      "link": "https://arxiv.org/html/2605.27123v1",
+      "arxiv_id": "2605.27123"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] Analysing the Robustness of Dual Encoders for Dense Retrieval ...",
+      "snippet": "Combining Lexical and Dense Retrieval for Computationally. Efficient Multi-hop Question Answering. In Proceedings of the Second Workshop on. Simple and ...",
+      "link": "https://arxiv.org/pdf/2205.02303",
+      "arxiv_id": "2205.02303"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:25.486475+00:00",
+  "elapsed_seconds": 1.1239029355347157
+}

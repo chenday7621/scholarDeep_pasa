@@ -1,0 +1,75 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "status": "PASS",
+  "validated_utc": "2026-09-17T13:34:25.495951+00:00",
+  "checks": {
+    "source_003b_artifact_and_protocol_hashes": true,
+    "source_003b_222_paired_snapshots_and_444_raw_responses": true,
+    "miss_panel_rederived_38_with_16_22_groups": true,
+    "offline_evidence_panel_and_172_native_queries": true,
+    "diagnostic_plans_frozen_before_114_plus_45_requests": true,
+    "all_159_probe_payloads_raw_bytes_hashes_and_hits": true,
+    "probe_hits_recomputed_exact31_core31_question2_depth0of15": true,
+    "probe_run_manifests_complete_without_retries": true,
+    "diagnostic_result_index_recomputed": true,
+    "classifications_and_group_counts_recomputed": true,
+    "ranking_depth_requires_positive_evidence_and_is_zero": true,
+    "frozen_page_source_adherence_recomputed": true,
+    "failure_summary_recomputed_and_consistent": true,
+    "report_exists_and_answers_required_sections": true,
+    "paper_agent_unchanged": true
+  },
+  "counts": {
+    "miss_questions": 38,
+    "author_written": 16,
+    "inline_citation": 22,
+    "native_queries": 172,
+    "source_snapshot_queries": 222,
+    "source_raw_responses": 444,
+    "diagnostic_page1_responses": 114,
+    "diagnostic_depth_responses": 45,
+    "diagnostic_total_responses": 159,
+    "exact_title_hit_questions": 31,
+    "core_phrase_hit_questions": 31,
+    "original_question_hit_questions": 2,
+    "depth_hit_questions": 0,
+    "categories": {
+      "QUERY_DIRECTION_MISS": 11,
+      "RANKING_DEPTH_MISS": 0,
+      "SOURCE_INDEX_MISS": 7,
+      "UNCERTAIN": 20
+    },
+    "groups": {
+      "author-written": {
+        "QUERY_DIRECTION_MISS": 3,
+        "RANKING_DEPTH_MISS": 0,
+        "SOURCE_INDEX_MISS": 1,
+        "UNCERTAIN": 12
+      },
+      "inline-citation": {
+        "QUERY_DIRECTION_MISS": 8,
+        "RANKING_DEPTH_MISS": 0,
+        "SOURCE_INDEX_MISS": 6,
+        "UNCERTAIN": 8
+      }
+    }
+  },
+  "protected_hashes": {
+    "paper_agent.py": "54a9e5829726ed0275cf7ed1f82f0ab83f0371687a97d1c75b6d5e2be3837993",
+    "003b_snapshot_manifest.json": "f101297bca8b4142a3949f222d710d02c619d82eba89008e545f01b32d48cc63",
+    "003b_PREREGISTRATION.md": "d084f7a5fe253e7f00e06b7d3222f51f96c503df886303c579c542787264d2f8",
+    "003b_MAPPING_AMENDMENT.md": "65e0c52874e1822c869b9d9e8170b9aff22777ede644639129e906665d5b53f9"
+  },
+  "artifact_hashes": {
+    "input_manifest.json": "8dfb7c7cac747dd3a8e750077c61f2eef235790e7fc37d21720eb11e7829e111",
+    "offline_evidence.json": "6781e90f05caf54347f4eb3ce25fa34db259d0417a2428d54f0f727a1cb9d7d1",
+    "probe_plan.json": "6495996e622af2dbfbef22f74a8d01b47d5e7f11711690fa1d96912944da51a3",
+    "depth_probe_plan.json": "2cd5f15b6cb10a7870ff968cffe08aa7014eb0a60ab2ccd83f588f3147cee450",
+    "probe_run_manifest.json": "fb6732a643b0a56b5212a02a36ab027e1468a50945921ea00065e1829b32c9f1",
+    "depth_probe_run_manifest.json": "345c95083cfeb2a3fdad18dd5bf60786bcad77ed07e82157097c6186d8ee91c4",
+    "diagnostic_probe_results.json": "61166112243d01e207cddad9ce165a5f4aa0e91b6381bdcdd3f28104220803c8",
+    "failure_cases.json": "eb49e8a7fe62d0869e9b72a3363f34f37d28f966f5a154ac1887d337ba1380fe",
+    "failure_summary.json": "4e85566adfb8cd1e827ee44e5665af24ca6a6c553218ca3e12f8115a70d8aeac",
+    "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004.md": "af908fa6703697b2659000fbe243578660867fddd3b13b0c500ea1d93c85699b"
+  }
+}

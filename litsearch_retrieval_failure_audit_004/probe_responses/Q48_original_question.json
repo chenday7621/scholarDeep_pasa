@@ -1,0 +1,229 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q48",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "1704.07398",
+  "request_payload": {
+    "q": "Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 111,
+  "started_utc": "2026-09-17T12:35:29.574518+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1789648250",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "c45a046a65bef1d0f4942827947730b7",
+    "date": "Thu, 17 Sep 2026 12:30:51 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "4511",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 4511,
+  "response_bytes_sha256": "d99c9f4d304f5d09e151f9907b5e53ba64f0c0f1275ecd7ab0ddde028a8dc40a",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb3VsZCB5b3UgZGlyZWN0IG1lIHRvd2FyZHMgYSBzdHVkeSB0aGF0IGV4cGxvcmVzIHRoZSBwb3RlbnRpYWwgdG8gcHJlZGljdCBhIHJlYWRlcidzIG5hdGl2ZSBsYW5ndWFnZSBiYXNlZCBvbiB0aGVpciBleWUgbW92ZW1lbnQgcGF0dGVybnMgd2hpbGUgcmVhZGluZyBFbmdsaXNoIHRleHRzPyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJDb250cm9sbGluZyBSZWFkaW5nIEVhc2Ugd2l0aCBHYXplLUd1aWRlZCBUZXh0IEdlbmVyYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDEuMTc3ODF2MSIsInNuaXBwZXQiOiJPdXIgbWV0aG9kIGVtcGxveXMgYSBtb2RlbCB0aGF0IHByZWRpY3RzIGh1bWFuIGdhemUgcGF0dGVybnMgdG8gc3RlZXIgbGFuZ3VhZ2UgbW9kZWwgb3V0cHV0cyB0b3dhcmRzIGVsaWNpdGluZyBjZXJ0YWluIHJlYWRpbmcgYmVoYXZpb3JzLiBXZSBldmFsdWF0ZSB0aGUgLi4uIiwiZGF0ZSI6IkphbiAyNSwgMjAyNiIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiU3VycHJpc2FsIFRha2VzIEl0IEFsbDogRXllIFRyYWNraW5nIEJhc2VkIENvZ25pdGl2ZSBFdmFsdWF0aW9uIG9mIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDIuMTExNTB2MSIsInNuaXBwZXQiOiJJbiBwc3ljaG9saW5ndWlzdGljcywgcmVhZGluZyB0aW1lcyBhbmQgb3RoZXIgZXllIG1vdmVtZW50IG1lYXN1cmVzIGFyZSB3aWRlbHkgYWNrbm93bGVkZ2VkIHRvIGJlIGhpZ2hseSBpbmZvcm1hdGl2ZSBvZiBjb2duaXRpdmUgbG9hZCBkdXJpbmcgbGFuZ3VhZ2UgLi4uIiwiZGF0ZSI6IkZlYiAxNiwgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiTGFuZ3VhZ2UgUHJvZmljaWVuY3kgQXNzZXNzbWVudCBmcm9tIEV5ZSBNb3ZlbWVudHMgaW4gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDguMzA1ODMiLCJzbmlwcGV0IjoiV2UgZmluZCB0aGF0IGV5ZSBtb3ZlbWVudCBiYXNlZCBwcm9maWNpZW5jeSBzY29yZXMgYXJlIGluZGVlZCBiaWFzZWQgdG93YXJkcyBMMXMgdGhhdCBhcmUgbGluZ3Vpc3RpY2FsbHkgY2xvc2VyIHRvIEVuZ2xpc2guIFdlIHByb3Bvc2UgYSBzY29yZSBkZWJpYXNpbmcgLi4uIiwiZGF0ZSI6IkF1ZyAzMSwgMjAyNiIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gQ29udHJvbGxpbmcgUmVhZGluZyBFYXNlIHdpdGggR2F6ZS1HdWlkZWQgVGV4dCBHZW5lcmF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI2MDEuMTc3ODEiLCJzbmlwcGV0IjoiVGhlIGdvYWwgb2Ygb3VyIHN0dWR5IGlzIHRvIG1lYXN1cmUgdGhlIGVmZmVjdCBvZiBnYXplLWd1aWRlZCB0ZXh0IGdlbmVyYXRpb24sIHJlYWRpbmcgYmVoYXZpb3IsIGFuZCBzdWJqZWN0aXZlIHBlcmNlcHRpb24gYnkgaHVtYW4gcmVhZGVycy4gVG8gdGhpcyBlbmQsIHdlIC4uLiIsImRhdGUiOiJKYW4gMjUsIDIwMjYiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI1MDIuMTEwNjF2MSBbY3MuQ0xdIDE2IEZlYiAyMDI1IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTAyLjExMDYxIiwic25pcHBldCI6Ik91ciBzdHVkeSBwcmVzZW50cyB0aGUgZmlyc3QgYXR0ZW1wdCB0byBkZWNvZGUgdGhlIG51bWJlciBvZiBwcmlvciBpbnRlcmFjdGlvbnMgb2YgYSByZWFkZXIgd2l0aCBhIHRleHQgZnJvbSB0aGVpciBleWUgbW92ZW1lbnRzLiBXZSBkZW1vbnN0cmF0ZSB0aGF0IGl0IGlzIC4uLiIsImRhdGUiOiJGZWIgMTYsIDIwMjUiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6Ik9uIHRoZSBFZmZlY3Qgb2YgQW50aWNpcGF0aW9uIG9uIFJlYWRpbmcgVGltZXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMTEuMTQzMDF2MiIsInNuaXBwZXQiOiJXZSBydW4gb3VyIGFuYWx5c2VzIGluIGZvdXIgbmF0dXJhbGlzdGljIGRhdGFzZXRzOiB0d28gc2VsZi1wYWNlZCByZWFkaW5nIGFuZCB0d28gZXllLXRyYWNraW5nLiBJbiBsaW5lIHdpdGggcHJpb3Igd29yaywgd2UgZmluZCBhIHNpZ25pZmljYW50IGVmZmVjdCBvZiBhIC4uLiIsImRhdGUiOiJKdWwgMTQsIDIwMjMiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkRvIENhbnRvbmVzZS1BZGFwdGVkIExhbmd1YWdlIE1vZGVscyBCZXR0ZXIgUHJlZGljdCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDkuMDIxNjN2MSIsInNuaXBwZXQiOiJSZWFkZXJzIGFsbG9jYXRlIGRpZmZlcmVudCBhbW91bnRzIG9mIHRpbWUgdG8gZGlmZmVyZW50IHdvcmRzLCBtYWtpbmcgZXllIHRyYWNraW5nIGEgc2Vuc2l0aXZlIG1lYXN1cmUgb2Ygb25saW5lIGxhbmd1YWdlIHByb2Nlc3NpbmcgKEF0dGFyZG8gYW5kIFBpY2tlcmluZywgLi4uIiwiZGF0ZSI6IlNlcCAyLCAyMDI2IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJMTE1zIGFzIEVkdWNhdGlvbmFsIEFuYWx5c3RzOiBUcmFuc2Zvcm1pbmcgTXVsdGltb2RhbCBEYXRhIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMy4wMjA5OXYxIiwic25pcHBldCI6IlRoaXMgc3R1ZHkgZXhwbG9yZXMgaG93IExMTXMgY2FuIHByb2Nlc3MgZXllLXRyYWNraW5nIGRhdGEgdG8gZ2VuZXJhdGUgcGVkYWdvZ2ljYWxseSB1c2VmdWwgcmVwb3J0cywgZW5zdXJpbmcgQUktYXNzaXN0ZWQgcmVhZGluZyBhc3Nlc3NtZW50IHJlbWFpbnMgLi4uIiwiZGF0ZSI6Ik1hciAzLCAyMDI1Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjIuMSBFeWUtVHJhY2tpbmcgQW5kLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMy4wMjA5OXYxIzp+OnRleHQ9Mi4xJTIwRXllJTJEVHJhY2tpbmclMjBhbmQlMjBNdWx0aW1vZGFsJTIwTGVhcm5pbmclMjBBbmFseXRpY3MsLUV5ZSUyRHRyYWNraW5nJTIwaXMlMjB3aWRlbHkifSx7InRpdGxlIjoiMyBNZXRob2RvbG9neSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDMuMDIwOTl2MSM6fjp0ZXh0PS4tLDMlMjBNZXRob2RvbG9neSJ9LHsidGl0bGUiOiI0LjIgTGxtIEFuZCBIdW1hbiBFdmFsdWF0aW9uLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMy4wMjA5OXYxIzp+OnRleHQ9NC4yJTIwTExNJTIwYW5kJTIwSHVtYW4lMjBFdmFsdWF0aW9uJTIwb2YlMjBBc3Nlc3NtZW50JTIwUmVwb3J0cywtVG8lMjBhc3Nlc3MlMjB0aGUlMjBxdWFsaXR5JTIwb2YifV0sInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gRGVjb2RpbmcgT3Blbi1FbmRlZCBJbmZvcm1hdGlvbiBTZWVraW5nIEdvYWxzIGZyb20gRXllIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA1LjAyODcyIiwic25pcHBldCI6IkV5ZSBtb3ZlbWVudHMgaW4gcmVhZGluZyBhcmUgYSBrZXkgbWV0aG9kb2xvZ3kgZm9yIHN0dWR5aW5nIHRoZSBjb2duaXRpdmUgYmFzaXMgb2YgcmVhZGluZyBhbmQgbGFuZ3VhZ2UgcHJvY2Vzc2luZy4gV2hlbiB3ZSByZWFkLCBvdXIgZXllcyBtb3ZlIG92ZXIgdGhlIHRleHQgaW4gLi4uIiwiZGF0ZSI6Ik5vdiAxNSwgMjAyNSIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiQ29tcHV0YXRpb25hbCBTZW50ZW5jZS1sZXZlbCBNZXRyaWNzIGZvciBQcmVkaWN0aW5nIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xNTgyMnYyIiwic25pcHBldCI6IkZvciBpbnN0YW5jZSwgdGhlIE11bHRpbGluZ3VhbCBFeWUtbW92ZW1lbnQgQ29ycHVzIChNRUNPKSBpcyBhIGNvbGxlY3Rpb24gb2YgZXllLXRyYWNraW5nIGRhdGEgdGhhdCBoYXMgYmVlbiBjb2xsZWN0ZWQgZnJvbSBwYXJ0aWNpcGFudHMgcmVhZGluZyB0ZXh0cyBpbiAxMyAuLi4iLCJkYXRlIjoiQXByIDE1LCAyMDI0Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IkFwcGVuZGljZXMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE1ODIydjIjOn46dGV4dD1BcHBlbmRpY2VzLC1BLiUyMERpZmZlcmVuY2VzJTIwYmV0d2VlbiUyMHJlYWRpbmcifSx7InRpdGxlIjoiQy4gQmVydCBBcHByb3hpbWF0ZXMgSHVtYW4uLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE1ODIydjIjOn46dGV4dD1DLiUyMEJFUlQlMjBhcHByb3hpbWF0ZXMlMjBodW1hbiUyMHJlYWRpbmclMjBiZWhhdmlvciJ9LHsidGl0bGUiOiJELiBBdHRlbnRpb24tQXdhcmUgQXBwcm9hY2guLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE1ODIydjIjOn46dGV4dD1ELiUyMEF0dGVudGlvbiUyRGF3YXJlJTIwYXBwcm9hY2glMjBhbmQlMjBpdHMlMjBtZW1vcnklMjBjYXBhYmlsaXR5In1dLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Controlling Reading Ease with Gaze-Guided Text Generation - arXiv",
+        "link": "https://arxiv.org/html/2601.17781v1",
+        "snippet": "Our method employs a model that predicts human gaze patterns to steer language model outputs towards eliciting certain reading behaviors. We evaluate the ...",
+        "date": "Jan 25, 2026",
+        "position": 1
+      },
+      {
+        "title": "Surprisal Takes It All: Eye Tracking Based Cognitive Evaluation of ...",
+        "link": "https://arxiv.org/html/2502.11150v1",
+        "snippet": "In psycholinguistics, reading times and other eye movement measures are widely acknowledged to be highly informative of cognitive load during language ...",
+        "date": "Feb 16, 2025",
+        "position": 2
+      },
+      {
+        "title": "Language Proficiency Assessment from Eye Movements in ... - arXiv",
+        "link": "https://arxiv.org/abs/2608.30583",
+        "snippet": "We find that eye movement based proficiency scores are indeed biased towards L1s that are linguistically closer to English. We propose a score debiasing ...",
+        "date": "Aug 31, 2026",
+        "position": 3
+      },
+      {
+        "title": "[PDF] Controlling Reading Ease with Gaze-Guided Text Generation - arXiv",
+        "link": "https://arxiv.org/pdf/2601.17781",
+        "snippet": "The goal of our study is to measure the effect of gaze-guided text generation, reading behavior, and subjective perception by human readers. To this end, we ...",
+        "date": "Jan 25, 2026",
+        "position": 4
+      },
+      {
+        "title": "[PDF] arXiv:2502.11061v1 [cs.CL] 16 Feb 2025",
+        "link": "https://arxiv.org/pdf/2502.11061",
+        "snippet": "Our study presents the first attempt to decode the number of prior interactions of a reader with a text from their eye movements. We demonstrate that it is ...",
+        "date": "Feb 16, 2025",
+        "position": 5
+      },
+      {
+        "title": "On the Effect of Anticipation on Reading Times - arXiv",
+        "link": "https://arxiv.org/html/2211.14301v2",
+        "snippet": "We run our analyses in four naturalistic datasets: two self-paced reading and two eye-tracking. In line with prior work, we find a significant effect of a ...",
+        "date": "Jul 14, 2023",
+        "position": 6
+      },
+      {
+        "title": "Do Cantonese-Adapted Language Models Better Predict ... - arXiv",
+        "link": "https://arxiv.org/html/2609.02163v1",
+        "snippet": "Readers allocate different amounts of time to different words, making eye tracking a sensitive measure of online language processing (Attardo and Pickering, ...",
+        "date": "Sep 2, 2026",
+        "position": 7
+      },
+      {
+        "title": "LLMs as Educational Analysts: Transforming Multimodal Data ... - arXiv",
+        "link": "https://arxiv.org/html/2503.02099v1",
+        "snippet": "This study explores how LLMs can process eye-tracking data to generate pedagogically useful reports, ensuring AI-assisted reading assessment remains ...",
+        "date": "Mar 3, 2025",
+        "sitelinks": [
+          {
+            "title": "2.1 Eye-Tracking And...",
+            "link": "https://arxiv.org/html/2503.02099v1#:~:text=2.1%20Eye%2DTracking%20and%20Multimodal%20Learning%20Analytics,-Eye%2Dtracking%20is%20widely"
+          },
+          {
+            "title": "3 Methodology",
+            "link": "https://arxiv.org/html/2503.02099v1#:~:text=.-,3%20Methodology"
+          },
+          {
+            "title": "4.2 Llm And Human Evaluation...",
+            "link": "https://arxiv.org/html/2503.02099v1#:~:text=4.2%20LLM%20and%20Human%20Evaluation%20of%20Assessment%20Reports,-To%20assess%20the%20quality%20of"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "[PDF] Decoding Open-Ended Information Seeking Goals from Eye ... - arXiv",
+        "link": "https://arxiv.org/pdf/2505.02872",
+        "snippet": "Eye movements in reading are a key methodology for studying the cognitive basis of reading and language processing. When we read, our eyes move over the text in ...",
+        "date": "Nov 15, 2025",
+        "position": 9
+      },
+      {
+        "title": "Computational Sentence-level Metrics for Predicting ... - arXiv",
+        "link": "https://arxiv.org/html/2403.15822v2",
+        "snippet": "For instance, the Multilingual Eye-movement Corpus (MECO) is a collection of eye-tracking data that has been collected from participants reading texts in 13 ...",
+        "date": "Apr 15, 2024",
+        "sitelinks": [
+          {
+            "title": "Appendices",
+            "link": "https://arxiv.org/html/2403.15822v2#:~:text=Appendices,-A.%20Differences%20between%20reading"
+          },
+          {
+            "title": "C. Bert Approximates Human...",
+            "link": "https://arxiv.org/html/2403.15822v2#:~:text=C.%20BERT%20approximates%20human%20reading%20behavior"
+          },
+          {
+            "title": "D. Attention-Aware Approach...",
+            "link": "https://arxiv.org/html/2403.15822v2#:~:text=D.%20Attention%2Daware%20approach%20and%20its%20memory%20capability"
+          }
+        ],
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Controlling Reading Ease with Gaze-Guided Text Generation - arXiv",
+      "snippet": "Our method employs a model that predicts human gaze patterns to steer language model outputs towards eliciting certain reading behaviors. We evaluate the ...",
+      "link": "https://arxiv.org/html/2601.17781v1",
+      "arxiv_id": "2601.17781"
+    },
+    {
+      "rank": 2,
+      "title": "Surprisal Takes It All: Eye Tracking Based Cognitive Evaluation of ...",
+      "snippet": "In psycholinguistics, reading times and other eye movement measures are widely acknowledged to be highly informative of cognitive load during language ...",
+      "link": "https://arxiv.org/html/2502.11150v1",
+      "arxiv_id": "2502.11150"
+    },
+    {
+      "rank": 3,
+      "title": "Language Proficiency Assessment from Eye Movements in ... - arXiv",
+      "snippet": "We find that eye movement based proficiency scores are indeed biased towards L1s that are linguistically closer to English. We propose a score debiasing ...",
+      "link": "https://arxiv.org/abs/2608.30583",
+      "arxiv_id": "2608.30583"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] Controlling Reading Ease with Gaze-Guided Text Generation - arXiv",
+      "snippet": "The goal of our study is to measure the effect of gaze-guided text generation, reading behavior, and subjective perception by human readers. To this end, we ...",
+      "link": "https://arxiv.org/pdf/2601.17781",
+      "arxiv_id": "2601.17781"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] arXiv:2502.11061v1 [cs.CL] 16 Feb 2025",
+      "snippet": "Our study presents the first attempt to decode the number of prior interactions of a reader with a text from their eye movements. We demonstrate that it is ...",
+      "link": "https://arxiv.org/pdf/2502.11061",
+      "arxiv_id": "2502.11061"
+    },
+    {
+      "rank": 6,
+      "title": "On the Effect of Anticipation on Reading Times - arXiv",
+      "snippet": "We run our analyses in four naturalistic datasets: two self-paced reading and two eye-tracking. In line with prior work, we find a significant effect of a ...",
+      "link": "https://arxiv.org/html/2211.14301v2",
+      "arxiv_id": "2211.14301"
+    },
+    {
+      "rank": 7,
+      "title": "Do Cantonese-Adapted Language Models Better Predict ... - arXiv",
+      "snippet": "Readers allocate different amounts of time to different words, making eye tracking a sensitive measure of online language processing (Attardo and Pickering, ...",
+      "link": "https://arxiv.org/html/2609.02163v1",
+      "arxiv_id": "2609.02163"
+    },
+    {
+      "rank": 8,
+      "title": "LLMs as Educational Analysts: Transforming Multimodal Data ... - arXiv",
+      "snippet": "This study explores how LLMs can process eye-tracking data to generate pedagogically useful reports, ensuring AI-assisted reading assessment remains ...",
+      "link": "https://arxiv.org/html/2503.02099v1",
+      "arxiv_id": "2503.02099"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] Decoding Open-Ended Information Seeking Goals from Eye ... - arXiv",
+      "snippet": "Eye movements in reading are a key methodology for studying the cognitive basis of reading and language processing. When we read, our eyes move over the text in ...",
+      "link": "https://arxiv.org/pdf/2505.02872",
+      "arxiv_id": "2505.02872"
+    },
+    {
+      "rank": 10,
+      "title": "Computational Sentence-level Metrics for Predicting ... - arXiv",
+      "snippet": "For instance, the Multilingual Eye-movement Corpus (MECO) is a collection of eye-tracking data that has been collected from participants reading texts in 13 ...",
+      "link": "https://arxiv.org/html/2403.15822v2",
+      "arxiv_id": "2403.15822"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:31.183837+00:00",
+  "elapsed_seconds": 1.6093236990272999,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q48_original_question_attempt1.json",
+      "sha256": "9c10fc8d88e7de995426ef273d1eeaaab033ff6dc425545bd2e934d4d2773082",
+      "status": "PASS"
+    }
+  ]
+}

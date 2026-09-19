@@ -1,0 +1,201 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q29",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2305.17696",
+  "request_payload": {
+    "q": "*Could you suggest a dataset with legally or ethically contentious content, and labels for acceptable and non-acceptable questions. before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 60,
+  "started_utc": "2026-09-17T12:34:32.675332+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648195",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "097f5e642cf69560ef4e195cadbc4142",
+    "date": "Thu, 17 Sep 2026 12:29:54 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3550",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3550,
+  "response_bytes_sha256": "c4cd7c906a00f204b8325bb585a9aff203bddf827bd8090617c244e9ab2b4774",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiIqQ291bGQgeW91IHN1Z2dlc3QgYSBkYXRhc2V0IHdpdGggbGVnYWxseSBvciBldGhpY2FsbHkgY29udGVudGlvdXMgY29udGVudCwgYW5kIGxhYmVscyBmb3IgYWNjZXB0YWJsZSBhbmQgbm9uLWFjY2VwdGFibGUgcXVlc3Rpb25zLiBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJXZWIgU2NyYXBpbmcgZm9yIFJlc2VhcmNoOiBMZWdhbCwgRXRoaWNhbCwgSW5zdGl0dXRpb25hbCwgYW5kIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMC4yMzQzMnYxIiwic25pcHBldCI6IlRoaXMgcGFwZXIgcHJvcG9zZXMgYSBjb21wcmVoZW5zaXZlIGZyYW1ld29yayBmb3Igd2ViIHNjcmFwaW5nIGluIHNvY2lhbCBzY2llbmNlIHJlc2VhcmNoIGZvciBVLlMuLWJhc2VkIHJlc2VhcmNoZXJzLCBleGFtaW5pbmcgdGhlIGxlZ2FsLCBldGhpY2FsLCAuLi4iLCJkYXRlIjoiT2N0IDMwLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJUaGUgTGFyZ2VzdCBDb2xsZWN0aW9uIG9mIEV0aGljYWwgRGF0YSBmb3IgTExNIFByZS1UcmFpbmluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNi4wMTczMnYzIiwic25pcHBldCI6IkNvbW1vbiBDb3JwdXMsIHRoZSBsYXJnZXN0IG9wZW4gZGF0YXNldC4gVGhlIGRhdGEgYXNzZW1ibGVkIGluIENvbW1vbiBDb3JwdXMgYXJlIGVpdGhlciB1bmNvcHlyaWdodGVkIG9yIHVuZGVyIG9wZW4gbGljZW5zZXMsIHRvdGFsaW5nIGFib3V0IHR3byB0cmlsbGlvbiAuLi4iLCJkYXRlIjoiTWF5IDE1LCAyMDI2IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJEby1Ob3QtQW5zd2VyOiBBIERhdGFzZXQgZm9yIEV2YWx1YXRpbmcgU2FmZWd1YXJkcyBpbiBMTE1zIC0gYXI1aXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIzMDguMTMzODciLCJzbmlwcGV0IjoiRXhpc3RpbmcgbW9kZWwgZXZhbHVhdGlvbnMgaGF2ZSBiZWVuIGRldmlzZWQgdG8gbWVhc3VyZSBnZW5kZXIgYW5kIHJhY2lhbCBiaWFzZXMsIHRydXRoZnVsbmVzcywgdG94aWNpdHksIGFuZCByZXByb2R1Y3Rpb24gb2YgY29weXJpZ2h0ZWQgY29udGVudCwgb3V0cHV0cyAuLi4iLCJkYXRlIjoiU2VwIDE4LCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJXb3JzZSB0aGFuIFplcm8tc2hvdD8gQSBGYWN0LUNoZWNraW5nIERhdGFzZXQgZm9yIEV2YWx1YXRpbmcgdGhlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDIuMTYxMDF2NSIsInNuaXBwZXQiOiJSQUd1YXJkLCBhIGJlbmNobWFyayBkYXRhc2V0IGJhc2VkIG9uIHBvbGl0aWNhbCBjbGFpbXMgYW5kIHRoZWlyIHZlcmlmaWNhdGlvbnMgZnJvbSBQb2xpdGlGYWN0IHRoYXQgaW5jb3Jwb3JhdGVzIHJlYWwtd29ybGQgbWlzaW5mb3JtYXRpb24uIiwiZGF0ZSI6IkphbiAxNywgMjAyNiIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiR2VuZXJhdGl2ZSBBSSBUcmFpbmluZyBhbmQgQ29weXJpZ2h0IExhdyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMi4xNTg1OHYyIiwic25pcHBldCI6IkhpZ2gtcXVhbGl0eSwgZGl2ZXJzZSBkYXRhc2V0cyBhbGxvdyBtb2RlbHMgdG8gY2FwdHVyZSB0aGUgaW50cmljYWNpZXMgb2YgbXVzaWNhbCBzdHlsZXMsIGdlbnJlcywgYW5kIHRlY2huaXF1ZXMuIEhvd2V2ZXIsIHRoZSByZWxpYW5jZSBvbiBleHRlbnNpdmUgY29weXJpZ2h0ZWQgLi4uIiwiZGF0ZSI6Ik1hciAxNywgMjAyNiIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiVkxlZ2FsLUJlbmNoOiBDb2duaXRpdmVseSBHcm91bmRlZCBCZW5jaG1hcmsgZm9yIFZpZXRuYW1lc2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMi4xNDU1NHYzIiwic25pcHBldCI6Ik92ZXJ2aWV3IG9mIFZMZWdhbC1CZW5jaDogVGhlIGJlbmNobWFyayBldmFsdWF0ZXMgbGVnYWwgTExNcyBhY3Jvc3MgZml2ZSBsZXZlbHMsIGZyb20gYmFzaWMgcmVjb2duaXRpb24gdG8gZXRoaWNhbCByZWFzb25pbmcsIHVzaW5nIGZvdXIgcXVlc3Rpb24gdGVtcGxhdGVzOiAuLi4iLCJkYXRlIjoiRGVjIDIyLCAyMDI1IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJFYWdsZTogRXRoaWNhbCBEYXRhc2V0IEdpdmVuIGZyb20gUmVhbCBJbnRlcmFjdGlvbnMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwMi4xNDI1OCIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBjcmVhdGUgRWFnbGUgZGF0YXNldHMgZXh0cmFjdGVkIGZyb20gcmVhbCBpbnRlcmFjdGlvbnMgYmV0d2VlbiBDaGF0R1BUIGFuZCB1c2VycyB0aGF0IGV4aGliaXQgc29jaWFsIGJpYXNlcywgdG94aWNpdHksIGFuZCBpbW1vcmFsIHByb2JsZW1zLiIsImRhdGUiOiJGZWIgMjIsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkNoYWxsZW5nZXMgYW5kIE9wcG9ydHVuaXRpZXMgZm9yIExMTS1CYXNlZCBRdWFsaXRhdGl2ZSBDb2RpbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA5LjExMTA5djEiLCJzbmlwcGV0IjoiR2l2ZW4gdGhlIGdyb3VwaW5nIHN0cnVjdHVyZSBvZiBvdXIgZGF0YSDigJQgY29tcHJpc2luZyBmb3VyIGRhdGFzZXRzIHdpdGggZml2ZSBsYWJlbHMgaW4gZWFjaCBkYXRhc2V0IOKAlCB3ZSBtb2RlbGVkIHRoZXNlIGdyb3VwaW5ncyBhcyBjb250cm9sbGVkIHJhbmRvbSBlZmZlY3RzLiIsImRhdGUiOiI2IGRheXMgYWdvIiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJDSURFUjogQSBEYXRhc2V0IG9mIENvbnRleHR1YWwgRGlzY2xvc3VyZSBCb3VuZGFyaWVzIGZvciBQcml2YWN5IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDguMDkxNjR2MSIsInNuaXBwZXQiOiJDSURFUiBjb25zaXN0cyBvZiAxLDY1MCBjb250ZXh0dWFsIGRpc2Nsb3N1cmUgYm91bmRhcmllcyAoMTQsODUwIGh1bWFuIGFubm90YXRpb25zKSBhY3Jvc3MgNjAgc2NlbmFyaW9zLCBpbnN0YW50aWF0ZWQgaW50byAzMjAgZGlzdGluY3QgZGF0YS1zaGFyaW5nIGNvbnRleHRzIGJ5IC4uLiIsImRhdGUiOiJBdWcgMTAsIDIwMjYiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlR3byBDb250cmFzdGluZyBEYXRhIEFubm90YXRpb24gUGFyYWRpZ21zIGZvciBTdWJqZWN0aXZlIE5MUCBUYXNrcyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIxMTIuMDc0NzV2MiIsInNuaXBwZXQiOiJJbiB0aGlzIGFydGljbGUsIHdlIGFyZ3VlIHRoYXQgZGF0YXNldCBjcmVhdG9ycyBzaG91bGQgY29uc2lkZXIgdGhlIHJvbGUgb2YgYW5ub3RhdG9yIHN1YmplY3Rpdml0eSBpbiB0aGUgYW5ub3RhdGlvbiBwcm9jZXNzIGFuZCBlaXRoZXIgZXhwbGljaXRseSBlbmNvdXJhZ2UgaXQgLi4uIiwiZGF0ZSI6IkFwciAyOSwgMjAyMiIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "*Could you suggest a dataset with legally or ethically contentious content, and labels for acceptable and non-acceptable questions. before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Web Scraping for Research: Legal, Ethical, Institutional, and ... - arXiv",
+        "link": "https://arxiv.org/html/2410.23432v1",
+        "snippet": "This paper proposes a comprehensive framework for web scraping in social science research for U.S.-based researchers, examining the legal, ethical, ...",
+        "date": "Oct 30, 2024",
+        "position": 1
+      },
+      {
+        "title": "The Largest Collection of Ethical Data for LLM Pre-Training - arXiv",
+        "link": "https://arxiv.org/html/2506.01732v3",
+        "snippet": "Common Corpus, the largest open dataset. The data assembled in Common Corpus are either uncopyrighted or under open licenses, totaling about two trillion ...",
+        "date": "May 15, 2026",
+        "position": 2
+      },
+      {
+        "title": "Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2308.13387",
+        "snippet": "Existing model evaluations have been devised to measure gender and racial biases, truthfulness, toxicity, and reproduction of copyrighted content, outputs ...",
+        "date": "Sep 18, 2023",
+        "position": 3
+      },
+      {
+        "title": "Worse than Zero-shot? A Fact-Checking Dataset for Evaluating the ...",
+        "link": "https://arxiv.org/html/2502.16101v5",
+        "snippet": "RAGuard, a benchmark dataset based on political claims and their verifications from PolitiFact that incorporates real-world misinformation.",
+        "date": "Jan 17, 2026",
+        "position": 4
+      },
+      {
+        "title": "Generative AI Training and Copyright Law - arXiv",
+        "link": "https://arxiv.org/html/2502.15858v2",
+        "snippet": "High-quality, diverse datasets allow models to capture the intricacies of musical styles, genres, and techniques. However, the reliance on extensive copyrighted ...",
+        "date": "Mar 17, 2026",
+        "position": 5
+      },
+      {
+        "title": "VLegal-Bench: Cognitively Grounded Benchmark for Vietnamese ...",
+        "link": "https://arxiv.org/html/2512.14554v3",
+        "snippet": "Overview of VLegal-Bench: The benchmark evaluates legal LLMs across five levels, from basic recognition to ethical reasoning, using four question templates: ...",
+        "date": "Dec 22, 2025",
+        "position": 6
+      },
+      {
+        "title": "Eagle: Ethical Dataset Given from Real Interactions - arXiv",
+        "link": "https://arxiv.org/abs/2402.14258",
+        "snippet": "In this paper, we create Eagle datasets extracted from real interactions between ChatGPT and users that exhibit social biases, toxicity, and immoral problems.",
+        "date": "Feb 22, 2024",
+        "position": 7
+      },
+      {
+        "title": "Challenges and Opportunities for LLM-Based Qualitative Coding",
+        "link": "https://arxiv.org/html/2609.11109v1",
+        "snippet": "Given the grouping structure of our data — comprising four datasets with five labels in each dataset — we modeled these groupings as controlled random effects.",
+        "date": "6 days ago",
+        "position": 8
+      },
+      {
+        "title": "CIDER: A Dataset of Contextual Disclosure Boundaries for Privacy ...",
+        "link": "https://arxiv.org/html/2608.09164v1",
+        "snippet": "CIDER consists of 1,650 contextual disclosure boundaries (14,850 human annotations) across 60 scenarios, instantiated into 320 distinct data-sharing contexts by ...",
+        "date": "Aug 10, 2026",
+        "position": 9
+      },
+      {
+        "title": "Two Contrasting Data Annotation Paradigms for Subjective NLP Tasks",
+        "link": "https://arxiv.org/html/2112.07475v2",
+        "snippet": "In this article, we argue that dataset creators should consider the role of annotator subjectivity in the annotation process and either explicitly encourage it ...",
+        "date": "Apr 29, 2022",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Web Scraping for Research: Legal, Ethical, Institutional, and ... - arXiv",
+      "snippet": "This paper proposes a comprehensive framework for web scraping in social science research for U.S.-based researchers, examining the legal, ethical, ...",
+      "link": "https://arxiv.org/html/2410.23432v1",
+      "arxiv_id": "2410.23432"
+    },
+    {
+      "rank": 2,
+      "title": "The Largest Collection of Ethical Data for LLM Pre-Training - arXiv",
+      "snippet": "Common Corpus, the largest open dataset. The data assembled in Common Corpus are either uncopyrighted or under open licenses, totaling about two trillion ...",
+      "link": "https://arxiv.org/html/2506.01732v3",
+      "arxiv_id": "2506.01732"
+    },
+    {
+      "rank": 3,
+      "title": "Do-Not-Answer: A Dataset for Evaluating Safeguards in LLMs - ar5iv",
+      "snippet": "Existing model evaluations have been devised to measure gender and racial biases, truthfulness, toxicity, and reproduction of copyrighted content, outputs ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2308.13387",
+      "arxiv_id": "2308.13387"
+    },
+    {
+      "rank": 4,
+      "title": "Worse than Zero-shot? A Fact-Checking Dataset for Evaluating the ...",
+      "snippet": "RAGuard, a benchmark dataset based on political claims and their verifications from PolitiFact that incorporates real-world misinformation.",
+      "link": "https://arxiv.org/html/2502.16101v5",
+      "arxiv_id": "2502.16101"
+    },
+    {
+      "rank": 5,
+      "title": "Generative AI Training and Copyright Law - arXiv",
+      "snippet": "High-quality, diverse datasets allow models to capture the intricacies of musical styles, genres, and techniques. However, the reliance on extensive copyrighted ...",
+      "link": "https://arxiv.org/html/2502.15858v2",
+      "arxiv_id": "2502.15858"
+    },
+    {
+      "rank": 6,
+      "title": "VLegal-Bench: Cognitively Grounded Benchmark for Vietnamese ...",
+      "snippet": "Overview of VLegal-Bench: The benchmark evaluates legal LLMs across five levels, from basic recognition to ethical reasoning, using four question templates: ...",
+      "link": "https://arxiv.org/html/2512.14554v3",
+      "arxiv_id": "2512.14554"
+    },
+    {
+      "rank": 7,
+      "title": "Eagle: Ethical Dataset Given from Real Interactions - arXiv",
+      "snippet": "In this paper, we create Eagle datasets extracted from real interactions between ChatGPT and users that exhibit social biases, toxicity, and immoral problems.",
+      "link": "https://arxiv.org/abs/2402.14258",
+      "arxiv_id": "2402.14258"
+    },
+    {
+      "rank": 8,
+      "title": "Challenges and Opportunities for LLM-Based Qualitative Coding",
+      "snippet": "Given the grouping structure of our data — comprising four datasets with five labels in each dataset — we modeled these groupings as controlled random effects.",
+      "link": "https://arxiv.org/html/2609.11109v1",
+      "arxiv_id": "2609.11109"
+    },
+    {
+      "rank": 9,
+      "title": "CIDER: A Dataset of Contextual Disclosure Boundaries for Privacy ...",
+      "snippet": "CIDER consists of 1,650 contextual disclosure boundaries (14,850 human annotations) across 60 scenarios, instantiated into 320 distinct data-sharing contexts by ...",
+      "link": "https://arxiv.org/html/2608.09164v1",
+      "arxiv_id": "2608.09164"
+    },
+    {
+      "rank": 10,
+      "title": "Two Contrasting Data Annotation Paradigms for Subjective NLP Tasks",
+      "snippet": "In this article, we argue that dataset creators should consider the role of annotator subjectivity in the annotation process and either explicitly encourage it ...",
+      "link": "https://arxiv.org/html/2112.07475v2",
+      "arxiv_id": "2112.07475"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:33.772078+00:00",
+  "elapsed_seconds": 1.0967459417879581,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q29_original_question_attempt1.json",
+      "sha256": "20cb4034d44ffee96afa9da4a73ea73a8659ed16b5030509e78ad16feaa1ace9",
+      "status": "PASS"
+    }
+  ]
+}

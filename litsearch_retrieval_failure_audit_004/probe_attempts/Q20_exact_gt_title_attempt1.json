@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q20",
+  "group": "author-written",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2307.07380",
+  "request_payload": {
+    "q": "Composition-contrastive Learning for Sentence Embeddings before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 40,
+  "started_utc": "2026-09-17T12:34:09.451000+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648170",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "177b07e5a7fae3c53bc9978101f3fc4b",
+    "date": "Thu, 17 Sep 2026 12:29:32 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3360",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3360,
+  "response_bytes_sha256": "8297699d820607c0bd399dab17a3378b25c379a15fa60f3ebf8f76e0097291be",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb21wb3NpdGlvbi1jb250cmFzdGl2ZSBMZWFybmluZyBmb3IgU2VudGVuY2UgRW1iZWRkaW5ncyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJbUERGXSBhclhpdjoyMzA3LjA3MzgwdjEgW2NzLkNMXSAxNCBKdWwgMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNy4wNzM4MCIsInNuaXBwZXQiOiJIZXJlLCB3ZSBtYWtlIGEgY2FzZSBmb3IgY29tcG9zaXRpb24gYXMgYXVnLSBtZW50YXRpb24sIGJ5IGV4cGxvaXRpbmcgaXRzIHByZXNlbmNlIGluIGxhbmd1YWdlIGFzIGEgc2lnbmFsIGZvciBsZWFybmluZyBzZW50ZW5jZSBlbmNvZGVycy4gV2UgY29uZHVjdCBhIHNlcmllcyAuLi4iLCJkYXRlIjoiSnVsIDE0LCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJBIER1YWwtZG9tYWluIENvbnRyYXN0aXZlIEZyYW1ld29yayBmb3IgUmVwcmVzZW50YXRpb24gTGVhcm5pbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAyLjA5MDY2djEiLCJzbmlwcGV0IjoiSXQgaXMgYSBub3ZlbCBmcmFtZXdvcmsgZGVzaWduZWQgdG8gZGlzZW50YW5nbGUgYW5kIGVuaGFuY2UgdGhlIHNwZWN0cmFsIHN0cnVjdHVyZSBvZiB0aGUgZmVhdHVyZSBzcGFjZSB3aXRoaW4gbXVsdGltb2RhbCBjb250cmFzdGl2ZSBsZWFybmluZy4iLCJkYXRlIjoiRmViIDksIDIwMjYiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDkuMDg5Mjl2MiBbY3MuQ0xdIDMxIEphbiAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA5LjA4OTI5Iiwic25pcHBldCI6IlJlY2VudCB0cmVuZHMgaW4gbGVhcm5pbmcgYm90aCBtb25vLSBsaW5ndWFsIGFuZCBtdWx0aS1saW5ndWFsIHNlbnRlbmNlIGVtYmVkZGluZ3MgYXJlIG1haW5seSBiYXNlZCBvbiBjb250cmFzdGl2ZSBsZWFybmluZyAoQ0wpIGFtb25nIGFuIGFuY2hvciwgb25lIHBvc2l0aXZlLCAuLi4iLCJkYXRlIjoiSmFuIDMxLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNTA1LjEyODMxdjEgW2NzLkNMXSAxOSBNYXkgMjAyNSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUwNS4xMjgzMSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBpbnRyb2R1Y2UgQ29udHJhc3RpdmUgUHJvbXB0aW5nLCBhIHBsdWctYW5kLXBsYXkgaW5mZXJlbmNlLXRpbWUgc3RlZXJpbmcgbWV0aG9kLCB0byBleHRyYWN0IGhpZ2gtcXVhbGl0eSBzZW50ZW5jZSBlbWJlZGRpbmdzIGZyb20gTExNcyIsImRhdGUiOiJNYXkgMTksIDIwMjUiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIFNjYWxpbmcgU2VudGVuY2UgRW1iZWRkaW5ncyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA3LjE2NjQ1Iiwic25pcHBldCI6ImNvbnRyYXN0aXZlIGxlYXJuaW5nIGlzIGFuIGVmZmVjdGl2ZSBhcHByb2FjaCBmb3IgbGVhcm5pbmcgc2VudGVuY2UgZW1iZWRkaW5ncyB1c2luZyBCRVJUIGluIGJvdGggdW5zdXBlcnZpc2VkIGFuZCBzdXBlcnZpc2VkIHNldHRpbmdzLiIsImRhdGUiOiJKdWwgMzEsIDIwMjMiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkV2YWx1YXRpbmcgVW5zdXBlcnZpc2VkIERpbWVuc2lvbmFsaXR5IFJlZHVjdGlvbiBNZXRob2RzIGZvciAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE0MDAxdjEiLCJzbmlwcGV0IjoiT3VyIGV4cGVyaW1lbnRhbCByZXN1bHRzIHNob3cgdGhhdCBzaW1wbGUgbWV0aG9kcyBzdWNoIGFzIFByaW5jaXBhbCBDb21wb25lbnQgQW5hbHlzaXMgKFBDQSkgY2FuIHJlZHVjZSB0aGUgZGltZW5zaW9uYWxpdHkgb2Ygc2VudGVuY2UgZW1iZWRkaW5ncyBieSBhbG1vc3QgNTAgJSAuLi4iLCJkYXRlIjoiTWFyIDIwLCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBJZGVudGljYWwgYW5kIEZyYXRlcm5hbCBUd2luczogRmluZS1HcmFpbmVkIFNlbWFudGljIENvbnRyYXN0aXZlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNy4xMDkzMiIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIHRoZSBJRkNMLCBhbiBpZGVudGljYWwgYW5kIGZyYXRlcm5hbCB0d2lucyBvZiBjb250cmFzdGl2ZSBsZWFybmluZywgd2hpY2ggbGVhcm5zIHRoZSBzZW50ZW5jZSByZXByZXNlbnRhdGlvbnMgaW4gYSBtb3JlIGZpbmUtZ3JhaW5lZCAuLi4iLCJkYXRlIjoiQXVnIDIwLCAyMDIzIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMzA1LjE0NTk5djIgW2NzLkNMXSA1IE5vdiAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA1LjE0NTk5Iiwic25pcHBldCI6IldlIHByb3Bvc2UgSU5URVJTRU5ULCBhbiBlbmQtdG8tIGVuZCBmcmFtZXdvcmsgZm9yIGxlYXJuaW5nIGludGVycHJldGFibGUgc2VuLSB0ZW5jZSBlbWJlZGRpbmdzIHRoYXQgc3VwcG9ydHMgY29tcG9zaXRpb25hbCBzZW50ZW5jZSBvcGVyYXRpb25zIGluIHRoZSBlbWJlZGRpbmcgLi4uIiwiZGF0ZSI6Ik5vdiA1LCAyMDIzIiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBTdHJ1Y3RDb2g6IFN0cnVjdHVyZWQgQ29udHJhc3RpdmUgTGVhcm5pbmcgZm9yIENvbnRleHQtQXdhcmUgVGV4dCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDkuMDIwMzMiLCJzbmlwcGV0IjoiU2ltQ1NFIFsyNl0gZW5oYW5jZXMgcmVwcmVzZW50YXRpb24gbGVhcm5pbmcgd2l0aCBjb250cmFzdGl2ZSBvYmplY3RpdmVzIGFwcGxpZWQgdG8gc2VudGVuY2UgZW1iZWRkaW5ncywgcmVzdWx0aW5nIGluIGZpbmVyIG1hdGNoaW5nIHBlcmZvcm1hbmNlLiBGb3IgZ3JhcGgtIC4uLiIsImRhdGUiOiJTZXAgMiwgMjAyNSIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMwOS4xMTY5MnYxIFtjcy5DTF0gMjAgU2VwIDIwMjMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDkuMTE2OTIiLCJzbmlwcGV0IjoiVGhlIGludHJhLWRvY3VtZW50IGNvbnRyYXN0aXZlIGxlYXJuaW5nIHBoYXNlIHdpbGwgYmUgaW1wbGVtZW50ZWQgdXBvbiBtaXhlZCBzZW50ZW5jZSBlbWJlZGRpbmdzLiBzZWNvbmQgcGhhc2UgYnJpbmdzIGJhY2sgaHVtYW4gYW5ub3RhdGlvbnMgdG8gYmV0dGVyIGNhbGlicmF0ZSAuLi4iLCJkYXRlIjoiU2VwIDIwLCAyMDIzIiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Composition-contrastive Learning for Sentence Embeddings before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[PDF] arXiv:2307.07380v1 [cs.CL] 14 Jul 2023",
+        "link": "https://arxiv.org/pdf/2307.07380",
+        "snippet": "Here, we make a case for composition as aug- mentation, by exploiting its presence in language as a signal for learning sentence encoders. We conduct a series ...",
+        "date": "Jul 14, 2023",
+        "position": 1
+      },
+      {
+        "title": "A Dual-domain Contrastive Framework for Representation Learning",
+        "link": "https://arxiv.org/html/2602.09066v1",
+        "snippet": "It is a novel framework designed to disentangle and enhance the spectral structure of the feature space within multimodal contrastive learning.",
+        "date": "Feb 9, 2026",
+        "position": 2
+      },
+      {
+        "title": "[PDF] arXiv:2309.08929v2 [cs.CL] 31 Jan 2024",
+        "link": "https://arxiv.org/pdf/2309.08929",
+        "snippet": "Recent trends in learning both mono- lingual and multi-lingual sentence embeddings are mainly based on contrastive learning (CL) among an anchor, one positive, ...",
+        "date": "Jan 31, 2024",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2505.12831v1 [cs.CL] 19 May 2025",
+        "link": "https://arxiv.org/pdf/2505.12831",
+        "snippet": "In this paper, we introduce Contrastive Prompting, a plug-and-play inference-time steering method, to extract high-quality sentence embeddings from LLMs",
+        "date": "May 19, 2025",
+        "position": 4
+      },
+      {
+        "title": "[PDF] Scaling Sentence Embeddings with Large Language Models - arXiv",
+        "link": "https://arxiv.org/pdf/2307.16645",
+        "snippet": "contrastive learning is an effective approach for learning sentence embeddings using BERT in both unsupervised and supervised settings.",
+        "date": "Jul 31, 2023",
+        "position": 5
+      },
+      {
+        "title": "Evaluating Unsupervised Dimensionality Reduction Methods for ...",
+        "link": "https://arxiv.org/html/2403.14001v1",
+        "snippet": "Our experimental results show that simple methods such as Principal Component Analysis (PCA) can reduce the dimensionality of sentence embeddings by almost 50 % ...",
+        "date": "Mar 20, 2024",
+        "position": 6
+      },
+      {
+        "title": "[PDF] Identical and Fraternal Twins: Fine-Grained Semantic Contrastive ...",
+        "link": "https://arxiv.org/pdf/2307.10932",
+        "snippet": "In this paper, we propose the IFCL, an identical and fraternal twins of contrastive learning, which learns the sentence representations in a more fine-grained ...",
+        "date": "Aug 20, 2023",
+        "position": 7
+      },
+      {
+        "title": "[PDF] arXiv:2305.14599v2 [cs.CL] 5 Nov 2023",
+        "link": "https://arxiv.org/pdf/2305.14599",
+        "snippet": "We propose INTERSENT, an end-to- end framework for learning interpretable sen- tence embeddings that supports compositional sentence operations in the embedding ...",
+        "date": "Nov 5, 2023",
+        "position": 8
+      },
+      {
+        "title": "[PDF] StructCoh: Structured Contrastive Learning for Context-Aware Text ...",
+        "link": "https://arxiv.org/pdf/2509.02033",
+        "snippet": "SimCSE [26] enhances representation learning with contrastive objectives applied to sentence embeddings, resulting in finer matching performance. For graph- ...",
+        "date": "Sep 2, 2025",
+        "position": 9
+      },
+      {
+        "title": "[PDF] arXiv:2309.11692v1 [cs.CL] 20 Sep 2023",
+        "link": "https://arxiv.org/pdf/2309.11692",
+        "snippet": "The intra-document contrastive learning phase will be implemented upon mixed sentence embeddings. second phase brings back human annotations to better calibrate ...",
+        "date": "Sep 20, 2023",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[PDF] arXiv:2307.07380v1 [cs.CL] 14 Jul 2023",
+      "snippet": "Here, we make a case for composition as aug- mentation, by exploiting its presence in language as a signal for learning sentence encoders. We conduct a series ...",
+      "link": "https://arxiv.org/pdf/2307.07380",
+      "arxiv_id": "2307.07380"
+    },
+    {
+      "rank": 2,
+      "title": "A Dual-domain Contrastive Framework for Representation Learning",
+      "snippet": "It is a novel framework designed to disentangle and enhance the spectral structure of the feature space within multimodal contrastive learning.",
+      "link": "https://arxiv.org/html/2602.09066v1",
+      "arxiv_id": "2602.09066"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] arXiv:2309.08929v2 [cs.CL] 31 Jan 2024",
+      "snippet": "Recent trends in learning both mono- lingual and multi-lingual sentence embeddings are mainly based on contrastive learning (CL) among an anchor, one positive, ...",
+      "link": "https://arxiv.org/pdf/2309.08929",
+      "arxiv_id": "2309.08929"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2505.12831v1 [cs.CL] 19 May 2025",
+      "snippet": "In this paper, we introduce Contrastive Prompting, a plug-and-play inference-time steering method, to extract high-quality sentence embeddings from LLMs",
+      "link": "https://arxiv.org/pdf/2505.12831",
+      "arxiv_id": "2505.12831"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] Scaling Sentence Embeddings with Large Language Models - arXiv",
+      "snippet": "contrastive learning is an effective approach for learning sentence embeddings using BERT in both unsupervised and supervised settings.",
+      "link": "https://arxiv.org/pdf/2307.16645",
+      "arxiv_id": "2307.16645"
+    },
+    {
+      "rank": 6,
+      "title": "Evaluating Unsupervised Dimensionality Reduction Methods for ...",
+      "snippet": "Our experimental results show that simple methods such as Principal Component Analysis (PCA) can reduce the dimensionality of sentence embeddings by almost 50 % ...",
+      "link": "https://arxiv.org/html/2403.14001v1",
+      "arxiv_id": "2403.14001"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] Identical and Fraternal Twins: Fine-Grained Semantic Contrastive ...",
+      "snippet": "In this paper, we propose the IFCL, an identical and fraternal twins of contrastive learning, which learns the sentence representations in a more fine-grained ...",
+      "link": "https://arxiv.org/pdf/2307.10932",
+      "arxiv_id": "2307.10932"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] arXiv:2305.14599v2 [cs.CL] 5 Nov 2023",
+      "snippet": "We propose INTERSENT, an end-to- end framework for learning interpretable sen- tence embeddings that supports compositional sentence operations in the embedding ...",
+      "link": "https://arxiv.org/pdf/2305.14599",
+      "arxiv_id": "2305.14599"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] StructCoh: Structured Contrastive Learning for Context-Aware Text ...",
+      "snippet": "SimCSE [26] enhances representation learning with contrastive objectives applied to sentence embeddings, resulting in finer matching performance. For graph- ...",
+      "link": "https://arxiv.org/pdf/2509.02033",
+      "arxiv_id": "2509.02033"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] arXiv:2309.11692v1 [cs.CL] 20 Sep 2023",
+      "snippet": "The intra-document contrastive learning phase will be implemented upon mixed sentence embeddings. second phase brings back human annotations to better calibrate ...",
+      "link": "https://arxiv.org/pdf/2309.11692",
+      "arxiv_id": "2309.11692"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:11.943352+00:00",
+  "elapsed_seconds": 2.4923585578799248
+}

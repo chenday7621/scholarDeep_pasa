@@ -1,0 +1,104 @@
+{
+  "global_attempt_sequence": 226,
+  "query_id": "Q37",
+  "query_key": "anchor",
+  "attempt": 1,
+  "query_text": "Give me some papers showing that LLM agents can do schedule planning.",
+  "request_payload": {
+    "q": "Give me some papers showing that LLM agents can do schedule planning. before:2024-09-24 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q37_anchor_attempt1.json",
+  "started_utc": "2026-09-15T06:29:37.651775+00:00",
+  "http_status": 200,
+  "response_text": "{\"searchParameters\":{\"q\":\"Give me some papers showing that LLM agents can do schedule planning. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2402.02716] Understanding the planning of LLM agents: A survey\",\"link\":\"https://arxiv.org/abs/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.\",\"date\":\"Feb 5, 2024\",\"position\":1},{\"title\":\"Understanding the planning of LLM agents: A survey - ar5iv - arXiv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.\",\"date\":\"Apr 15, 2024\",\"position\":2},{\"title\":\"Meta-Task Planning for Language Agents - arXiv\",\"link\":\"https://arxiv.org/html/2405.16510v1\",\"snippet\":\"This paper introduces Meta-Task Planning (MTP), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex task planning\",\"date\":\"May 26, 2024\",\"position\":3},{\"title\":\"LLM Agent Operating System - arXiv\",\"link\":\"https://arxiv.org/html/2403.16971v1\",\"snippet\":\"The scheduling function of AIOS lays the groundwork for the development of more advanced algorithms. Future research could focus on algorithms\",\"date\":\"Mar 25, 2024\",\"position\":4},{\"title\":\"Can We Rely on LLM Agents to Draft Long-Horizon Plans? Let's ...\",\"link\":\"https://arxiv.org/abs/2408.06318\",\"snippet\":\"Abstract page for arXiv paper 2408.06318: Can We Rely on LLM Agents to Draft Long-Horizon Plans? Let's Take TravelPlanner as an Example.\",\"date\":\"Aug 12, 2024\",\"position\":5},{\"title\":\"TwoStep: Multi-agent Task Planning using Classical Planners and ...\",\"link\":\"https://arxiv.org/html/2403.17246v1\",\"snippet\":\"Several works have shown that LLMs can guide agent actions by acting as planners [8, 9] , but such stochastic, generative approaches lose the success ...\",\"date\":\"Mar 25, 2024\",\"position\":6},{\"title\":\"[2302.12173] Not what you've signed up for - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2302.12173\",\"snippet\":\"The functionalities of recent LLMs can be flexibly modulated via natural language prompts. In this paper, we construct the first examples of such attacks. on ...\",\"date\":\"Apr 4, 2023\",\"position\":7},{\"title\":\"LLM-Planner: Few-Shot Grounded Planning for Embodied Agents ...\",\"link\":\"https://arxiv.org/abs/2212.04088\",\"snippet\":\"Abstract:This study focuses on using large language models (LLMs) as a planner for embodied agents that can follow natural language instructions to complete ...\",\"date\":\"Dec 8, 2022\",\"position\":8},{\"title\":\"[PDF] AgentGen: Enhancing Planning Abilities for Large Language Model ...\",\"link\":\"https://arxiv.org/pdf/2408.00764?\",\"snippet\":\"This paper investigates enhancing the planning abilities of LLM-based agents through instruction tuning, referred to as agent train- ing. Recent studies on ...\",\"date\":\"Aug 1, 2024\",\"position\":9},{\"title\":\"Planning with Multi-Constraints via Collaborative Language Agents\",\"link\":\"https://arxiv.org/abs/2405.16510\",\"snippet\":\"This paper introduces Planning with Multi-Constraints (PMC), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex ...\",\"date\":\"May 26, 2024\",\"position\":10}],\"credits\":1}",
+  "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJHaXZlIG1lIHNvbWUgcGFwZXJzIHNob3dpbmcgdGhhdCBMTE0gYWdlbnRzIGNhbiBkbyBzY2hlZHVsZSBwbGFubmluZy4gYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiWzI0MDIuMDI3MTZdIFVuZGVyc3RhbmRpbmcgdGhlIHBsYW5uaW5nIG9mIExMTSBhZ2VudHM6IEEgc3VydmV5IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDAyLjAyNzE2Iiwic25pcHBldCI6IlRoaXMgc3VydmV5IHByb3ZpZGVzIHRoZSBmaXJzdCBzeXN0ZW1hdGljIHZpZXcgb2YgTExNLWJhc2VkIGFnZW50cyBwbGFubmluZywgY292ZXJpbmcgcmVjZW50IHdvcmtzIGFpbWluZyB0byBpbXByb3ZlIHBsYW5uaW5nIGFiaWxpdHkuIiwiZGF0ZSI6IkZlYiA1LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJVbmRlcnN0YW5kaW5nIHRoZSBwbGFubmluZyBvZiBMTE0gYWdlbnRzOiBBIHN1cnZleSAtIGFyNWl2IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzI0MDIuMDI3MTYiLCJzbmlwcGV0IjoiVGhpcyBzdXJ2ZXkgcHJvdmlkZXMgdGhlIGZpcnN0IHN5c3RlbWF0aWMgdmlldyBvZiBMTE0tYmFzZWQgYWdlbnRzIHBsYW5uaW5nLCBjb3ZlcmluZyByZWNlbnQgd29ya3MgYWltaW5nIHRvIGltcHJvdmUgcGxhbm5pbmcgYWJpbGl0eS4iLCJkYXRlIjoiQXByIDE1LCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJNZXRhLVRhc2sgUGxhbm5pbmcgZm9yIExhbmd1YWdlIEFnZW50cyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xNjUxMHYxIiwic25pcHBldCI6IlRoaXMgcGFwZXIgaW50cm9kdWNlcyBNZXRhLVRhc2sgUGxhbm5pbmcgKE1UUCksIGEgemVyby1zaG90IG1ldGhvZG9sb2d5IGZvciBjb2xsYWJvcmF0aXZlIExMTS1iYXNlZCBtdWx0aS1hZ2VudCBzeXN0ZW1zIHRoYXQgc2ltcGxpZmllcyBjb21wbGV4IHRhc2sgcGxhbm5pbmciLCJkYXRlIjoiTWF5IDI2LCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJMTE0gQWdlbnQgT3BlcmF0aW5nIFN5c3RlbSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xNjk3MXYxIiwic25pcHBldCI6IlRoZSBzY2hlZHVsaW5nIGZ1bmN0aW9uIG9mIEFJT1MgbGF5cyB0aGUgZ3JvdW5kd29yayBmb3IgdGhlIGRldmVsb3BtZW50IG9mIG1vcmUgYWR2YW5jZWQgYWxnb3JpdGhtcy4gRnV0dXJlIHJlc2VhcmNoIGNvdWxkIGZvY3VzIG9uIGFsZ29yaXRobXMiLCJkYXRlIjoiTWFyIDI1LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJDYW4gV2UgUmVseSBvbiBMTE0gQWdlbnRzIHRvIERyYWZ0IExvbmctSG9yaXpvbiBQbGFucz8gTGV0J3MgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA4LjA2MzE4Iiwic25pcHBldCI6IkFic3RyYWN0IHBhZ2UgZm9yIGFyWGl2IHBhcGVyIDI0MDguMDYzMTg6IENhbiBXZSBSZWx5IG9uIExMTSBBZ2VudHMgdG8gRHJhZnQgTG9uZy1Ib3Jpem9uIFBsYW5zPyBMZXQncyBUYWtlIFRyYXZlbFBsYW5uZXIgYXMgYW4gRXhhbXBsZS4iLCJkYXRlIjoiQXVnIDEyLCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJUd29TdGVwOiBNdWx0aS1hZ2VudCBUYXNrIFBsYW5uaW5nIHVzaW5nIENsYXNzaWNhbCBQbGFubmVycyBhbmQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xNzI0NnYxIiwic25pcHBldCI6IlNldmVyYWwgd29ya3MgaGF2ZSBzaG93biB0aGF0IExMTXMgY2FuIGd1aWRlIGFnZW50IGFjdGlvbnMgYnkgYWN0aW5nIGFzIHBsYW5uZXJzIFs4LCA5XSAsIGJ1dCBzdWNoIHN0b2NoYXN0aWMsIGdlbmVyYXRpdmUgYXBwcm9hY2hlcyBsb3NlIHRoZSBzdWNjZXNzIC4uLiIsImRhdGUiOiJNYXIgMjUsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlsyMzAyLjEyMTczXSBOb3Qgd2hhdCB5b3UndmUgc2lnbmVkIHVwIGZvciAtIGFyNWl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMzAyLjEyMTczIiwic25pcHBldCI6IlRoZSBmdW5jdGlvbmFsaXRpZXMgb2YgcmVjZW50IExMTXMgY2FuIGJlIGZsZXhpYmx5IG1vZHVsYXRlZCB2aWEgbmF0dXJhbCBsYW5ndWFnZSBwcm9tcHRzLiBJbiB0aGlzIHBhcGVyLCB3ZSBjb25zdHJ1Y3QgdGhlIGZpcnN0IGV4YW1wbGVzIG9mIHN1Y2ggYXR0YWNrcy4gb24gLi4uIiwiZGF0ZSI6IkFwciA0LCAyMDIzIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJMTE0tUGxhbm5lcjogRmV3LVNob3QgR3JvdW5kZWQgUGxhbm5pbmcgZm9yIEVtYm9kaWVkIEFnZW50cyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIyMTIuMDQwODgiLCJzbmlwcGV0IjoiQWJzdHJhY3Q6VGhpcyBzdHVkeSBmb2N1c2VzIG9uIHVzaW5nIGxhcmdlIGxhbmd1YWdlIG1vZGVscyAoTExNcykgYXMgYSBwbGFubmVyIGZvciBlbWJvZGllZCBhZ2VudHMgdGhhdCBjYW4gZm9sbG93IG5hdHVyYWwgbGFuZ3VhZ2UgaW5zdHJ1Y3Rpb25zIHRvIGNvbXBsZXRlIC4uLiIsImRhdGUiOiJEZWMgOCwgMjAyMiIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gQWdlbnRHZW46IEVuaGFuY2luZyBQbGFubmluZyBBYmlsaXRpZXMgZm9yIExhcmdlIExhbmd1YWdlIE1vZGVsIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwOC4wMDc2ND8iLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBpbnZlc3RpZ2F0ZXMgZW5oYW5jaW5nIHRoZSBwbGFubmluZyBhYmlsaXRpZXMgb2YgTExNLWJhc2VkIGFnZW50cyB0aHJvdWdoIGluc3RydWN0aW9uIHR1bmluZywgcmVmZXJyZWQgdG8gYXMgYWdlbnQgdHJhaW4tIGluZy4gUmVjZW50IHN0dWRpZXMgb24gLi4uIiwiZGF0ZSI6IkF1ZyAxLCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJQbGFubmluZyB3aXRoIE11bHRpLUNvbnN0cmFpbnRzIHZpYSBDb2xsYWJvcmF0aXZlIExhbmd1YWdlIEFnZW50cyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNS4xNjUxMCIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIGludHJvZHVjZXMgUGxhbm5pbmcgd2l0aCBNdWx0aS1Db25zdHJhaW50cyAoUE1DKSwgYSB6ZXJvLXNob3QgbWV0aG9kb2xvZ3kgZm9yIGNvbGxhYm9yYXRpdmUgTExNLWJhc2VkIG11bHRpLWFnZW50IHN5c3RlbXMgdGhhdCBzaW1wbGlmaWVzIGNvbXBsZXggLi4uIiwiZGF0ZSI6Ik1heSAyNiwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "response_sha256": "529a1188aeccd17a3a126328d55ec4d4a18179730639f736c648eccac59589cd",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Give me some papers showing that LLM agents can do schedule planning. before:2024-09-24 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[2402.02716] Understanding the planning of LLM agents: A survey",
+        "link": "https://arxiv.org/abs/2402.02716",
+        "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.",
+        "date": "Feb 5, 2024",
+        "position": 1
+      },
+      {
+        "title": "Understanding the planning of LLM agents: A survey - ar5iv - arXiv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2402.02716",
+        "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.",
+        "date": "Apr 15, 2024",
+        "position": 2
+      },
+      {
+        "title": "Meta-Task Planning for Language Agents - arXiv",
+        "link": "https://arxiv.org/html/2405.16510v1",
+        "snippet": "This paper introduces Meta-Task Planning (MTP), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex task planning",
+        "date": "May 26, 2024",
+        "position": 3
+      },
+      {
+        "title": "LLM Agent Operating System - arXiv",
+        "link": "https://arxiv.org/html/2403.16971v1",
+        "snippet": "The scheduling function of AIOS lays the groundwork for the development of more advanced algorithms. Future research could focus on algorithms",
+        "date": "Mar 25, 2024",
+        "position": 4
+      },
+      {
+        "title": "Can We Rely on LLM Agents to Draft Long-Horizon Plans? Let's ...",
+        "link": "https://arxiv.org/abs/2408.06318",
+        "snippet": "Abstract page for arXiv paper 2408.06318: Can We Rely on LLM Agents to Draft Long-Horizon Plans? Let's Take TravelPlanner as an Example.",
+        "date": "Aug 12, 2024",
+        "position": 5
+      },
+      {
+        "title": "TwoStep: Multi-agent Task Planning using Classical Planners and ...",
+        "link": "https://arxiv.org/html/2403.17246v1",
+        "snippet": "Several works have shown that LLMs can guide agent actions by acting as planners [8, 9] , but such stochastic, generative approaches lose the success ...",
+        "date": "Mar 25, 2024",
+        "position": 6
+      },
+      {
+        "title": "[2302.12173] Not what you've signed up for - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2302.12173",
+        "snippet": "The functionalities of recent LLMs can be flexibly modulated via natural language prompts. In this paper, we construct the first examples of such attacks. on ...",
+        "date": "Apr 4, 2023",
+        "position": 7
+      },
+      {
+        "title": "LLM-Planner: Few-Shot Grounded Planning for Embodied Agents ...",
+        "link": "https://arxiv.org/abs/2212.04088",
+        "snippet": "Abstract:This study focuses on using large language models (LLMs) as a planner for embodied agents that can follow natural language instructions to complete ...",
+        "date": "Dec 8, 2022",
+        "position": 8
+      },
+      {
+        "title": "[PDF] AgentGen: Enhancing Planning Abilities for Large Language Model ...",
+        "link": "https://arxiv.org/pdf/2408.00764?",
+        "snippet": "This paper investigates enhancing the planning abilities of LLM-based agents through instruction tuning, referred to as agent train- ing. Recent studies on ...",
+        "date": "Aug 1, 2024",
+        "position": 9
+      },
+      {
+        "title": "Planning with Multi-Constraints via Collaborative Language Agents",
+        "link": "https://arxiv.org/abs/2405.16510",
+        "snippet": "This paper introduces Planning with Multi-Constraints (PMC), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex ...",
+        "date": "May 26, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "status": "PASS",
+  "finished_utc": "2026-09-15T06:29:38.856348+00:00",
+  "elapsed_seconds": 1.2045720852911472
+}

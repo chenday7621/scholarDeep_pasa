@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q32",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2204.00408",
+  "request_payload": {
+    "q": "Could you recommend research that employs a relaxed l0 regularization for structured pruning to downsize language models with transformer architectures? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 69,
+  "started_utc": "2026-09-17T12:34:43.454246+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648205",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "8f0be0871f44c8be91c256cae003336c",
+    "date": "Thu, 17 Sep 2026 12:30:05 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3525",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3525,
+  "response_bytes_sha256": "77aba176f9c5996da9c17a66b8b0e3e934503a95cd46b61a66cb2ed7652ed183",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb3VsZCB5b3UgcmVjb21tZW5kIHJlc2VhcmNoIHRoYXQgZW1wbG95cyBhIHJlbGF4ZWQgbDAgcmVndWxhcml6YXRpb24gZm9yIHN0cnVjdHVyZWQgcHJ1bmluZyB0byBkb3duc2l6ZSBsYW5ndWFnZSBtb2RlbHMgd2l0aCB0cmFuc2Zvcm1lciBhcmNoaXRlY3R1cmVzPyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJTdHJ1Y3R1cmVkIFBydW5pbmcgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8xOTEwLjA0NzMydjIiLCJzbmlwcGV0IjoiSW4gYWRkaXRpb24sIHdlIGZ1cnRoZXIgaW5jcmVhc2UgcGVyZm9ybWFuY2UgdmlhIGFuIGltcHJvdmVkIGwgMCBsX3swfSByZWd1bGFyaXphdGlvbiAoTG91aXpvcyBldCBhbC4sIDIwMTgpIHRlY2huaXF1ZSB3aGljaCB1c2VzIGFuIGF1Z21lbnRlZCBMYWdyYW5naWFuIG1ldGhvZCAuLi4iLCJkYXRlIjoiTWFyIDI4LCAyMDIxIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJBdXRvbWF0aWMgSm9pbnQgU3RydWN0dXJlZCBQcnVuaW5nIGFuZCBRdWFudGl6YXRpb24gZm9yIEVmZmljaWVudCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAyLjE2NjM4djEiLCJzbmlwcGV0IjoiU3RydWN0dXJlZCBwcnVuaW5nIGFuZCBxdWFudGl6YXRpb24gYXJlIGZ1bmRhbWVudGFsIHRlY2huaXF1ZXMgdXNlZCB0byByZWR1Y2UgdGhlIHNpemUgb2YgZGVlcCBuZXVyYWwgbmV0d29ya3MgKEROTnMpLCBhbmQgdHlwaWNhbGx5IGFyZSBhcHBsaWVkIGluZGVwZW5kZW50bHkuIiwiZGF0ZSI6IkZlYiAyMywgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gVHJhbnNmb3JtZXIgQ29tcHJlc3Npb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDU5NjR2MiIsInNuaXBwZXQiOiJUaGlzIHN1cnZleSBwcm92aWRlcyBhIGNvbXByZWhlbnNpdmUgcmV2aWV3IG9mIHJlY2VudCBjb21wcmVzc2lvbiBtZXRob2RzLCB3aXRoIGEgc3BlY2lmaWMgZm9jdXMgb24gdGhlaXIgYXBwbGljYXRpb24gdG8gVHJhbnNmb3JtZXItYmFzZWQgbW9kZWxzLiBGb3IgbGFyZ2UgLi4uIiwiZGF0ZSI6IkFwciA3LCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJBIENvbXBhcmF0aXZlIFN0dWR5IG9mIFBydW5pbmcgTWV0aG9kcyBpbiBUcmFuc2Zvcm1lci1iYXNlZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDEyLjEyODgzdjEiLCJzbmlwcGV0IjoiUHJ1bmluZyBoYXMgdmFyaW91cyBwdXJwb3Nlcywgc3VjaCBhcyByZWR1Y2luZyB0aGUgbW9kZWwgc2l6ZSBhbmQgdGhlcmVieSBjb21wdXRhdGlvbmFsIGRlbWFuZHMsIGluY3JlYXNpbmcgaW5mZXJlbmNlIHNwZWVkIG9yIGFzIGEgZm9ybSBvZiByZWd1bGFyaXphdGlvbi4iLCJkYXRlIjoiRGVjIDE3LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJTdHJ1Y3R1cmVkIFBydW5pbmcgb2YgQkVSVC1iYXNlZCBRdWVzdGlvbiBBbnN3ZXJpbmcgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8xOTEwLjA2MzYwdjMiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgaW52ZXN0aWdhdGUgY29tcHJlc3NpbmcgQkVSVC0gYW5kIFJvQkVSVGEtYmFzZWQgcXVlc3Rpb24gYW5zd2VyaW5nIHN5c3RlbXMgYnkgc3RydWN0dXJlZCBwcnVuaW5nIG9mIHBhcmFtZXRlcnMgZnJvbSB0aGUgdW5kZXJseWluZyB0cmFuc2Zvcm1lciAuLi4iLCJkYXRlIjoiQXByIDExLCAyMDIxIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJDb21wcmVzcyBMTE1zIHdpdGggTG93LVJhbmsgRGVsdGFzIGJldHdlZW4gU2hhcmVkIFdlaWdodHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAxLjE4NTk2djIiLCJzbmlwcGV0IjoiV2UgaW50cm9kdWNlIERlbHRhTExNLCBhIG5ldyBwb3N0LXRyYWluaW5nIGNvbXByZXNzaW9uIHRlY2huaXF1ZSB0byByZWR1Y2UgdGhlIG1lbW9yeSBmb290cHJpbnQgb2YgTExNcy4gV2UgcHJvcG9zZSBhbiBhbHRlcm5hdGl2ZSB3YXkgb2Ygc3RydWN0dXJpbmcgTExNcyIsImRhdGUiOiJGZWIgMjQsIDIwMjUiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIFZpc2lvbiBUcmFuc2Zvcm1lciBQcnVuaW5nIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIxMDQuMDg1MDAiLCJzbmlwcGV0IjoiSGVyZSB3ZSBwcmVzZW50IGEgdmlzaW9uIHRyYW5zZm9ybWVyIHBydW5pbmcgYXBwcm9hY2gsIHdoaWNoIGlkZW50aWZpZXMgdGhlIGltcGFjdHMgb2YgZGltZW5zaW9ucyBpbiBlYWNoIGxheWVyIG9mIHRyYW5zZm9ybWVyIGFuZCB0aGVuIGV4ZWN1dGVzIHBydW5pbmcgLi4uIiwiZGF0ZSI6IkF1ZyAxNCwgMjAyMSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gVVBvcDogVW5pZmllZCBhbmQgUHJvZ3Jlc3NpdmUgUHJ1bmluZyBmb3IgQ29tcHJlc3NpbmcgVmlzaW9uIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwMS4xMzc0MSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHByb3Bvc2VzIHRoZSBVbmlmaWVkIGFuZCBQcm9ncmVzc2l2ZSBQcnVuaW5nIChVUG9wKSBhcyBhIHVuaXZlcnNhbCB2aXNvbi1sYW5ndWFnZSBUcmFuc2Zvcm1lciBjb21wcmVzc2lvbiBmcmFtZXdvcmssIHRvIGZpbmUtdHVuZSBvbiBkb3duc3RyZWFtIC4uLiIsImRhdGUiOiJKdW4gOSwgMjAyMyIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gRGVlcCBOZXVyYWwgTmV0d29yayBQcnVuaW5nOiBUYXhvbm9teSwgQ29tcGFyaXNvbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA4LjA2NzY3djIiLCJzbmlwcGV0IjoiU3BhcnNpdHkgcmVndWxhcml6YXRpb24gdGVjaG5pcXVlIFs1OF0gaXMgY29tbW9ubHkgdXNlZCBpbiBQRFQgbWV0aG9kcy4gVGhpcyBjYXRlZ29yeSBvZiBtZXRob2RzIHN0YXJ0cyB3aXRoIGRlbnNlIG5ldHdvcmtzLCBpbXBvc2VzIHNwYXJzZSBjb25zdHJhaW50cyBvbiBsb3NzIC4uLiIsImRhdGUiOiJBdWcgOSwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gVHdvLVN0YWdlIFJlZ3VsYXJpemF0aW9uLUJhc2VkIFN0cnVjdHVyZWQgUHJ1bmluZyBmb3IgTExNcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA1LjE4MjMyIiwic25pcHBldCI6IlRocm91Z2ggZXh0ZW5zaXZlIGV4LSBwZXJpbWVudGF0aW9uIHdlIHNob3cgdGhhdCBUUlNQIG91dHBlcmZvcm1zIHN0cm9uZyBsYXllci13aXNlIHN0cnVjdHVyZWQgcHJ1bmluZyBtZXRob2RzIHdpdGhvdXQgcmVxdWlyaW5nIHJldHJhaW5pbmcuIEFzIGEgbGF5ZXItd2lzZS4iLCJkYXRlIjoiQXByIDE4LCAyMDI2IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Could you recommend research that employs a relaxed l0 regularization for structured pruning to downsize language models with transformer architectures? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Structured Pruning of Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/1910.04732v2",
+        "snippet": "In addition, we further increase performance via an improved l 0 l_{0} regularization (Louizos et al., 2018) technique which uses an augmented Lagrangian method ...",
+        "date": "Mar 28, 2021",
+        "position": 1
+      },
+      {
+        "title": "Automatic Joint Structured Pruning and Quantization for Efficient ...",
+        "link": "https://arxiv.org/html/2502.16638v1",
+        "snippet": "Structured pruning and quantization are fundamental techniques used to reduce the size of deep neural networks (DNNs), and typically are applied independently.",
+        "date": "Feb 23, 2025",
+        "position": 2
+      },
+      {
+        "title": "A Survey on Transformer Compression - arXiv",
+        "link": "https://arxiv.org/html/2402.05964v2",
+        "snippet": "This survey provides a comprehensive review of recent compression methods, with a specific focus on their application to Transformer-based models. For large ...",
+        "date": "Apr 7, 2024",
+        "position": 3
+      },
+      {
+        "title": "A Comparative Study of Pruning Methods in Transformer-based ...",
+        "link": "https://arxiv.org/html/2412.12883v1",
+        "snippet": "Pruning has various purposes, such as reducing the model size and thereby computational demands, increasing inference speed or as a form of regularization.",
+        "date": "Dec 17, 2024",
+        "position": 4
+      },
+      {
+        "title": "Structured Pruning of BERT-based Question Answering Models - arXiv",
+        "link": "https://arxiv.org/html/1910.06360v3",
+        "snippet": "In this paper, we investigate compressing BERT- and RoBERTa-based question answering systems by structured pruning of parameters from the underlying transformer ...",
+        "date": "Apr 11, 2021",
+        "position": 5
+      },
+      {
+        "title": "Compress LLMs with Low-Rank Deltas between Shared Weights",
+        "link": "https://arxiv.org/html/2501.18596v2",
+        "snippet": "We introduce DeltaLLM, a new post-training compression technique to reduce the memory footprint of LLMs. We propose an alternative way of structuring LLMs",
+        "date": "Feb 24, 2025",
+        "position": 6
+      },
+      {
+        "title": "[PDF] Vision Transformer Pruning - arXiv",
+        "link": "https://arxiv.org/pdf/2104.08500",
+        "snippet": "Here we present a vision transformer pruning approach, which identifies the impacts of dimensions in each layer of transformer and then executes pruning ...",
+        "date": "Aug 14, 2021",
+        "position": 7
+      },
+      {
+        "title": "[PDF] UPop: Unified and Progressive Pruning for Compressing Vision ...",
+        "link": "https://arxiv.org/pdf/2301.13741",
+        "snippet": "This paper proposes the Unified and Progressive Pruning (UPop) as a universal vison-language Transformer compression framework, to fine-tune on downstream ...",
+        "date": "Jun 9, 2023",
+        "position": 8
+      },
+      {
+        "title": "A Survey on Deep Neural Network Pruning: Taxonomy, Comparison ...",
+        "link": "https://arxiv.org/html/2308.06767v2",
+        "snippet": "Sparsity regularization technique [58] is commonly used in PDT methods. This category of methods starts with dense networks, imposes sparse constraints on loss ...",
+        "date": "Aug 9, 2024",
+        "position": 9
+      },
+      {
+        "title": "[PDF] Two-Stage Regularization-Based Structured Pruning for LLMs - arXiv",
+        "link": "https://arxiv.org/pdf/2505.18232",
+        "snippet": "Through extensive ex- perimentation we show that TRSP outperforms strong layer-wise structured pruning methods without requiring retraining. As a layer-wise.",
+        "date": "Apr 18, 2026",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Structured Pruning of Large Language Models - arXiv",
+      "snippet": "In addition, we further increase performance via an improved l 0 l_{0} regularization (Louizos et al., 2018) technique which uses an augmented Lagrangian method ...",
+      "link": "https://arxiv.org/html/1910.04732v2",
+      "arxiv_id": "1910.04732"
+    },
+    {
+      "rank": 2,
+      "title": "Automatic Joint Structured Pruning and Quantization for Efficient ...",
+      "snippet": "Structured pruning and quantization are fundamental techniques used to reduce the size of deep neural networks (DNNs), and typically are applied independently.",
+      "link": "https://arxiv.org/html/2502.16638v1",
+      "arxiv_id": "2502.16638"
+    },
+    {
+      "rank": 3,
+      "title": "A Survey on Transformer Compression - arXiv",
+      "snippet": "This survey provides a comprehensive review of recent compression methods, with a specific focus on their application to Transformer-based models. For large ...",
+      "link": "https://arxiv.org/html/2402.05964v2",
+      "arxiv_id": "2402.05964"
+    },
+    {
+      "rank": 4,
+      "title": "A Comparative Study of Pruning Methods in Transformer-based ...",
+      "snippet": "Pruning has various purposes, such as reducing the model size and thereby computational demands, increasing inference speed or as a form of regularization.",
+      "link": "https://arxiv.org/html/2412.12883v1",
+      "arxiv_id": "2412.12883"
+    },
+    {
+      "rank": 5,
+      "title": "Structured Pruning of BERT-based Question Answering Models - arXiv",
+      "snippet": "In this paper, we investigate compressing BERT- and RoBERTa-based question answering systems by structured pruning of parameters from the underlying transformer ...",
+      "link": "https://arxiv.org/html/1910.06360v3",
+      "arxiv_id": "1910.06360"
+    },
+    {
+      "rank": 6,
+      "title": "Compress LLMs with Low-Rank Deltas between Shared Weights",
+      "snippet": "We introduce DeltaLLM, a new post-training compression technique to reduce the memory footprint of LLMs. We propose an alternative way of structuring LLMs",
+      "link": "https://arxiv.org/html/2501.18596v2",
+      "arxiv_id": "2501.18596"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] Vision Transformer Pruning - arXiv",
+      "snippet": "Here we present a vision transformer pruning approach, which identifies the impacts of dimensions in each layer of transformer and then executes pruning ...",
+      "link": "https://arxiv.org/pdf/2104.08500",
+      "arxiv_id": "2104.08500"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] UPop: Unified and Progressive Pruning for Compressing Vision ...",
+      "snippet": "This paper proposes the Unified and Progressive Pruning (UPop) as a universal vison-language Transformer compression framework, to fine-tune on downstream ...",
+      "link": "https://arxiv.org/pdf/2301.13741",
+      "arxiv_id": "2301.13741"
+    },
+    {
+      "rank": 9,
+      "title": "A Survey on Deep Neural Network Pruning: Taxonomy, Comparison ...",
+      "snippet": "Sparsity regularization technique [58] is commonly used in PDT methods. This category of methods starts with dense networks, imposes sparse constraints on loss ...",
+      "link": "https://arxiv.org/html/2308.06767v2",
+      "arxiv_id": "2308.06767"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] Two-Stage Regularization-Based Structured Pruning for LLMs - arXiv",
+      "snippet": "Through extensive ex- perimentation we show that TRSP outperforms strong layer-wise structured pruning methods without requiring retraining. As a layer-wise.",
+      "link": "https://arxiv.org/pdf/2505.18232",
+      "arxiv_id": "2505.18232"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:44.845164+00:00",
+  "elapsed_seconds": 1.3909218274056911
+}

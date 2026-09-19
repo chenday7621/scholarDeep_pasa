@@ -1,0 +1,217 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q05",
+  "group": "author-written",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2305.17682",
+  "request_payload": {
+    "q": "One Network, Many Masks: Towards More Parameter-Efficient Transfer Learning before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 7,
+  "started_utc": "2026-09-17T12:33:29.153689+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1789648130",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "a97ebefc942c35cab4d17ba350dbac81",
+    "date": "Thu, 17 Sep 2026 12:28:50 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3835",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3835,
+  "response_bytes_sha256": "f5404d99808a40a529cd30283e08be78c743f1211492906922222466ed5c9688",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJPbmUgTmV0d29yaywgTWFueSBNYXNrczogVG93YXJkcyBNb3JlIFBhcmFtZXRlci1FZmZpY2llbnQgVHJhbnNmZXIgTGVhcm5pbmcgYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMwNS4xNzY4MnYyIFtjcy5DTF0gMTIgSnVuIDIwMjMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDUuMTc2ODIiLCJzbmlwcGV0IjoiT25lIE5ldHdvcmssIE1hbnkgTWFza3M6IFRvd2FyZHMgTW9yZSBQYXJhbWV0ZXItRWZmaWNpZW50IFRyYW5zZmVyIExlYXJuaW5nLiBXZSBwcm9wb3NlIFBST1BFVEwsIGEgaGlnaGx5IHBhcmFtZXRlci0gZWZmaWNpZW50IHRyYW5zZmVyIGxlYXJuaW5nIG1ldGhvZCB0aGF0IC4uLiIsImRhdGUiOiJKdW4gMTIsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlRvd2FyZHMgYSBVbmlmaWVkIFZpZXcgb24gVmlzdWFsIFBhcmFtZXRlci1FZmZpY2llbnQgVHJhbnNmZXIgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIxMC4wMDc4OHYyIiwic25pcHBldCI6IlBhcmFtZXRlciBlZmZpY2llbnQgdHJhbnNmZXIgbGVhcm5pbmcgKFBFVEwpIGFpbXMgYXQgbWFraW5nIGdvb2QgdXNlIG9mIHRoZSByZXByZXNlbnRhdGlvbiBrbm93bGVkZ2UgaW4gdGhlIHByZS10cmFpbmVkIGxhcmdlIG1vZGVscyBieSBmaW5lLXR1bmluZyBhIHNtYWxsIC4uLiIsImRhdGUiOiJNYXIgMiwgMjAyMyIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiW1BERl0gVHJhaW5pbmcgTmV1cmFsIE5ldHdvcmtzIHdpdGggRml4ZWQgU3BhcnNlIE1hc2tzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIxMTEuMDk4MzkiLCJzbmlwcGV0IjoiV2UgZGVtb25zdHJhdGUgdGhlIGVmZmVjdGl2ZW5lc3Mgb2YgdXNpbmcgYSBGSVNIIE1hc2sgaW4gYSB3aWRlIHZhcmlldHkgb2Ygc2V0dGluZ3MsIGluY2x1ZGluZyBwYXJhbWV0ZXItZWZmaWNpZW50IHRyYW5zZmVyIGxlYXJuaW5nLCBkaXN0cmlidXRlZCB0cmFpbmluZyB3aXRoIC4uLiIsImRhdGUiOiJOb3YgMTgsIDIwMjEiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IlBhcmFtZXRlci1FZmZpY2llbnQgRmluZS1UdW5pbmcgZm9yIExhcmdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xNDYwOHYxIiwic25pcHBldCI6IlRvd2FyZHMgYSB1bmlmaWVkIHZpZXcgb2YgcGFyYW1ldGVyLWVmZmljaWVudCB0cmFuc2ZlciBsZWFybmluZy4gT25lIG5ldHdvcmssIG1hbnkgbWFza3M6IFRvd2FyZHMgbW9yZSBwYXJhbWV0ZXItZWZmaWNpZW50IHRyYW5zZmVyIGxlYXJuaW5nLiIsImRhdGUiOiJNYXIgMjEsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlBhcmFtZXRlci1FZmZpY2llbnQgRmluZS1UdW5pbmcgaW4gTGFyZ2UgTW9kZWxzOiBBIFN1cnZleSBvZiAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTAuMTk4Nzh2MyIsInNuaXBwZXQiOiJGaW5lLVR1bmluZyAoUEVGVCkgaXMgYSB0cmFuc2ZlciDigJxPbmUgbmV0d29yaywgbWFueSBtYXNrczogVG93YXJkcyBtb3JlIHBhcmFtZXRlci1lZmZpY2llbnQgdHJhbnNmZXIgbGVhcm5pbmcs4oCdIGFyWGl2IHByZXByaW50IiwiZGF0ZSI6IkFwciAyNCwgMjAyNSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiUGFyYW1ldGVyLUVmZmljaWVudCBUcmFuc2ZlciBMZWFybmluZyBmb3IgVmlzaW9uLWFuZC1MYW5ndWFnZSBUYXNrcyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIxMTIuMDY4MjV2MiIsInNuaXBwZXQiOiJUaGUgSHlwZXJmb3JtZXIgc2hhcmVzIGluZm9ybWF0aW9uIGFjcm9zcyB0YXNrcyBpbiB0aGUgaHlwZXItbmV0d29yaywgdGh1cyByZXN1bHRpbmcgaW4gdGhhdCBpdCBpcyBtb3JlIHBhcmFtZXRlci1lZmZpY2llbnQgdGhhbiB0aGUgTXVsdGlwbGUgQWRhcHRlcnMgKDEyLjIyJSAuLi4iLCJkYXRlIjoiTWFyIDI0LCAyMDIyIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJPcnRob2dvbmFsIEZpbmV0dW5pbmcgTWFkZSBTY2FsYWJsZSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNi4xOTg0N3YxIiwic25pcHBldCI6Ik9ydGhvZ29uYWwgZmluZXR1bmluZyAoT0ZUKSBvZmZlcnMgaGlnaGx5IHBhcmFtZXRlci1lZmZpY2llbnQgYWRhcHRhdGlvbiB3aGlsZSBwcmV2ZW50aW5nIGNhdGFzdHJvcGhpYyBmb3JnZXR0aW5nLCBidXQgaXRzIGhpZ2ggcnVudGltZSBhbmQgbWVtb3J5IGRlbWFuZHMgbGltaXQgLi4uIiwiZGF0ZSI6Ikp1biAyNCwgMjAyNSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiTXVsdGlsaW5ndWFsIFVuc3VwZXJ2aXNlZCBOZXVyYWwgTWFjaGluZSBUcmFuc2xhdGlvbiB3aXRoIC4uLiAtIGFyNWl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMTEwLjEwNDcyIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHByb3Bvc2UgYSAyLXN0ZXAgYXBwcm9hY2ggYmFzZWQgb24gZGVub2lzaW5nIGFkYXB0ZXJzIHRoYXQgZW5hYmxlIG1vZHVsYXIgbXVsdGlsaW5ndWFsIHVuc3VwZXJ2aXNlZCBOTVQgd2l0aG91dCBiYWNrLXRyYW5zbGF0aW9uLiIsImRhdGUiOiJPY3QgMjcsIDIwMjEiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkxTVDogTGFkZGVyIFNpZGUtVHVuaW5nIGZvciBQYXJhbWV0ZXIgYW5kIE1lbW9yeSBFZmZpY2llbnQgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjA2LjA2NTIydjIiLCJzbmlwcGV0IjoiVW5saWtlIGV4aXN0aW5nIHBhcmFtZXRlci1lZmZpY2llbnQgbWV0aG9kcyB0aGF0IGluc2VydCBhZGRpdGlvbmFsIHBhcmFtZXRlcnMgaW5zaWRlIGJhY2tib25lIG5ldHdvcmtzLCB3ZSB0cmFpbiBhIGxhZGRlciBzaWRlIG5ldHdvcmssIGEgc21hbGwgYW5kIHNlcGFyYXRlIC4uLiIsImRhdGUiOiJPY3QgMzEsIDIwMjIiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiTHN0OiBMYWRkZXIgU2lkZS1UdW5pbmcgRm9yIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwNi4wNjUyMnYyIzp+OnRleHQ9MjAyMi0sTFNUJTNBJTIwTGFkZGVyJTIwU2lkZSUyRFR1bmluZyUyMGZvciJ9LHsidGl0bGUiOiIzIExhZGRlciBTaWRlLVR1bmluZyAobHN0KSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDYuMDY1MjJ2MiM6fjp0ZXh0PTMlMjBMYWRkZXIlMjBTaWRlJTJEVHVuaW5nJTIwJTI4TFNUJTI5LC1XZSUyMGludHJvZHVjZSUyMExhZGRlciUyMFNpZGUlMkQifSx7InRpdGxlIjoiQWNrbm93bGVkZ21lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwNi4wNjUyMnYyIzp+OnRleHQ9QWNrbm93bGVkZ21lbnRzIn1dLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIENvbnRpbnVhbCBMZWFybmluZyB2aWEgU3BhcnNlIE1lbW9yeSBGaW5ldHVuaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTEwLjE1MTAzIiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgbGV2ZXJhZ2UgdGhlIGJlbmVmaXQgdGhhdCBtZW1vcnkgbGF5ZXJzIHByb3ZpZGUgbXVjaCBtb3JlIGdyYW51bGFyIGNvbnRyb2wgb3ZlciBob3cgaW5mb3JtYXRpb24gaXMgYWNjZXNzZWQgYW5kIHN0b3JlZCBpbiBwYXJhbWV0ZXJzOiByYXRoZXIgLi4uIiwiZGF0ZSI6Ik9jdCAyMCwgMjAyNSIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "One Network, Many Masks: Towards More Parameter-Efficient Transfer Learning before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[PDF] arXiv:2305.17682v2 [cs.CL] 12 Jun 2023",
+        "link": "https://arxiv.org/pdf/2305.17682",
+        "snippet": "One Network, Many Masks: Towards More Parameter-Efficient Transfer Learning. We propose PROPETL, a highly parameter- efficient transfer learning method that ...",
+        "date": "Jun 12, 2023",
+        "position": 1
+      },
+      {
+        "title": "Towards a Unified View on Visual Parameter-Efficient Transfer ...",
+        "link": "https://arxiv.org/html/2210.00788v2",
+        "snippet": "Parameter efficient transfer learning (PETL) aims at making good use of the representation knowledge in the pre-trained large models by fine-tuning a small ...",
+        "date": "Mar 2, 2023",
+        "position": 2
+      },
+      {
+        "title": "[PDF] Training Neural Networks with Fixed Sparse Masks - arXiv",
+        "link": "https://arxiv.org/pdf/2111.09839",
+        "snippet": "We demonstrate the effectiveness of using a FISH Mask in a wide variety of settings, including parameter-efficient transfer learning, distributed training with ...",
+        "date": "Nov 18, 2021",
+        "position": 3
+      },
+      {
+        "title": "Parameter-Efficient Fine-Tuning for Large Models - arXiv",
+        "link": "https://arxiv.org/html/2403.14608v1",
+        "snippet": "Towards a unified view of parameter-efficient transfer learning. One network, many masks: Towards more parameter-efficient transfer learning.",
+        "date": "Mar 21, 2024",
+        "position": 4
+      },
+      {
+        "title": "Parameter-Efficient Fine-Tuning in Large Models: A Survey of ... - arXiv",
+        "link": "https://arxiv.org/html/2410.19878v3",
+        "snippet": "Fine-Tuning (PEFT) is a transfer “One network, many masks: Towards more parameter-efficient transfer learning,” arXiv preprint",
+        "date": "Apr 24, 2025",
+        "position": 5
+      },
+      {
+        "title": "Parameter-Efficient Transfer Learning for Vision-and-Language Tasks",
+        "link": "https://arxiv.org/html/2112.06825v2",
+        "snippet": "The Hyperformer shares information across tasks in the hyper-network, thus resulting in that it is more parameter-efficient than the Multiple Adapters (12.22% ...",
+        "date": "Mar 24, 2022",
+        "position": 6
+      },
+      {
+        "title": "Orthogonal Finetuning Made Scalable - arXiv",
+        "link": "https://arxiv.org/html/2506.19847v1",
+        "snippet": "Orthogonal finetuning (OFT) offers highly parameter-efficient adaptation while preventing catastrophic forgetting, but its high runtime and memory demands limit ...",
+        "date": "Jun 24, 2025",
+        "position": 7
+      },
+      {
+        "title": "Multilingual Unsupervised Neural Machine Translation with ... - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2110.10472",
+        "snippet": "In this paper, we propose a 2-step approach based on denoising adapters that enable modular multilingual unsupervised NMT without back-translation.",
+        "date": "Oct 27, 2021",
+        "position": 8
+      },
+      {
+        "title": "LST: Ladder Side-Tuning for Parameter and Memory Efficient ... - arXiv",
+        "link": "https://arxiv.org/html/2206.06522v2",
+        "snippet": "Unlike existing parameter-efficient methods that insert additional parameters inside backbone networks, we train a ladder side network, a small and separate ...",
+        "date": "Oct 31, 2022",
+        "sitelinks": [
+          {
+            "title": "Lst: Ladder Side-Tuning For",
+            "link": "https://arxiv.org/html/2206.06522v2#:~:text=2022-,LST%3A%20Ladder%20Side%2DTuning%20for"
+          },
+          {
+            "title": "3 Ladder Side-Tuning (lst)",
+            "link": "https://arxiv.org/html/2206.06522v2#:~:text=3%20Ladder%20Side%2DTuning%20%28LST%29,-We%20introduce%20Ladder%20Side%2D"
+          },
+          {
+            "title": "Acknowledgments",
+            "link": "https://arxiv.org/html/2206.06522v2#:~:text=Acknowledgments"
+          }
+        ],
+        "position": 9
+      },
+      {
+        "title": "[PDF] Continual Learning via Sparse Memory Finetuning",
+        "link": "https://arxiv.org/pdf/2510.15103",
+        "snippet": "In this work, we leverage the benefit that memory layers provide much more granular control over how information is accessed and stored in parameters: rather ...",
+        "date": "Oct 20, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[PDF] arXiv:2305.17682v2 [cs.CL] 12 Jun 2023",
+      "snippet": "One Network, Many Masks: Towards More Parameter-Efficient Transfer Learning. We propose PROPETL, a highly parameter- efficient transfer learning method that ...",
+      "link": "https://arxiv.org/pdf/2305.17682",
+      "arxiv_id": "2305.17682"
+    },
+    {
+      "rank": 2,
+      "title": "Towards a Unified View on Visual Parameter-Efficient Transfer ...",
+      "snippet": "Parameter efficient transfer learning (PETL) aims at making good use of the representation knowledge in the pre-trained large models by fine-tuning a small ...",
+      "link": "https://arxiv.org/html/2210.00788v2",
+      "arxiv_id": "2210.00788"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] Training Neural Networks with Fixed Sparse Masks - arXiv",
+      "snippet": "We demonstrate the effectiveness of using a FISH Mask in a wide variety of settings, including parameter-efficient transfer learning, distributed training with ...",
+      "link": "https://arxiv.org/pdf/2111.09839",
+      "arxiv_id": "2111.09839"
+    },
+    {
+      "rank": 4,
+      "title": "Parameter-Efficient Fine-Tuning for Large Models - arXiv",
+      "snippet": "Towards a unified view of parameter-efficient transfer learning. One network, many masks: Towards more parameter-efficient transfer learning.",
+      "link": "https://arxiv.org/html/2403.14608v1",
+      "arxiv_id": "2403.14608"
+    },
+    {
+      "rank": 5,
+      "title": "Parameter-Efficient Fine-Tuning in Large Models: A Survey of ... - arXiv",
+      "snippet": "Fine-Tuning (PEFT) is a transfer “One network, many masks: Towards more parameter-efficient transfer learning,” arXiv preprint",
+      "link": "https://arxiv.org/html/2410.19878v3",
+      "arxiv_id": "2410.19878"
+    },
+    {
+      "rank": 6,
+      "title": "Parameter-Efficient Transfer Learning for Vision-and-Language Tasks",
+      "snippet": "The Hyperformer shares information across tasks in the hyper-network, thus resulting in that it is more parameter-efficient than the Multiple Adapters (12.22% ...",
+      "link": "https://arxiv.org/html/2112.06825v2",
+      "arxiv_id": "2112.06825"
+    },
+    {
+      "rank": 7,
+      "title": "Orthogonal Finetuning Made Scalable - arXiv",
+      "snippet": "Orthogonal finetuning (OFT) offers highly parameter-efficient adaptation while preventing catastrophic forgetting, but its high runtime and memory demands limit ...",
+      "link": "https://arxiv.org/html/2506.19847v1",
+      "arxiv_id": "2506.19847"
+    },
+    {
+      "rank": 8,
+      "title": "Multilingual Unsupervised Neural Machine Translation with ... - ar5iv",
+      "snippet": "In this paper, we propose a 2-step approach based on denoising adapters that enable modular multilingual unsupervised NMT without back-translation.",
+      "link": "https://ar5iv.labs.arxiv.org/html/2110.10472",
+      "arxiv_id": "2110.10472"
+    },
+    {
+      "rank": 9,
+      "title": "LST: Ladder Side-Tuning for Parameter and Memory Efficient ... - arXiv",
+      "snippet": "Unlike existing parameter-efficient methods that insert additional parameters inside backbone networks, we train a ladder side network, a small and separate ...",
+      "link": "https://arxiv.org/html/2206.06522v2",
+      "arxiv_id": "2206.06522"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] Continual Learning via Sparse Memory Finetuning",
+      "snippet": "In this work, we leverage the benefit that memory layers provide much more granular control over how information is accessed and stored in parameters: rather ...",
+      "link": "https://arxiv.org/pdf/2510.15103",
+      "arxiv_id": "2510.15103"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:30.510713+00:00",
+  "elapsed_seconds": 1.3570269346237183,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q05_exact_gt_title_attempt1.json",
+      "sha256": "a90b4b0dc393a2f10ad9b5e254dee78e0d2afec1d489c4fea35d0e0dff6d7885",
+      "status": "PASS"
+    }
+  ]
+}

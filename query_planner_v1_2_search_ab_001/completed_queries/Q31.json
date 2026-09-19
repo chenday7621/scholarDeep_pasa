@@ -1,0 +1,1376 @@
+{
+  "query_id": "Q31",
+  "query_index": 31,
+  "dataset_qid": "RealScholarQuery_31",
+  "original_question": "DPO training for large-scale vision-language models.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Survey papers on DPO training for vision-language models",
+    "Effects of DPO training on large-scale vision-language models",
+    "Comparative studies on DPO and other methods for training large-scale vision-language models",
+    "Application of DPO in large-scale vision-language model training",
+    "Challenges in DPO training for large-scale vision-language models"
+  ],
+  "anchor": "DPO training for large-scale vision-language models.",
+  "source_generation_id": "Q31_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Survey papers on DPO training for vision-language models",
+        "Effects of DPO training on large-scale vision-language models",
+        "Comparative studies on DPO and other methods for training large-scale vision-language models",
+        "Application of DPO in large-scale vision-language model training",
+        "Challenges in DPO training for large-scale vision-language models"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "DPO training for large-scale vision-language models.",
+        "Survey papers on DPO training for vision-language models",
+        "Effects of DPO training on large-scale vision-language models",
+        "Comparative studies on DPO and other methods for training large-scale vision-language models",
+        "Application of DPO in large-scale vision-language model training"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Survey papers on DPO training for vision-language models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 186,
+          "query_id": "Q31",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Survey papers on DPO training for vision-language models",
+          "request_payload": {
+            "q": "Survey papers on DPO training for vision-language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q31_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:28:34.993836+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on DPO training for vision-language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Continual Learning of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.16789v2\",\"snippet\":\"Vertically, it can be roughly divided into three stages of continual training LLMs, and we will present a one-by-one survey of each stage in Section 4. In ...\",\"date\":\"Apr 25, 2024\",\"position\":1},{\"title\":\"Aligning Preference with Denoising Performance at Each Step - arXiv\",\"link\":\"https://arxiv.org/html/2406.04314v1\",\"snippet\":\"In this paper, we study human preference learning for post-training diffusion models. Existing methods propagate the same preference labels obtained from ...\",\"date\":\"Jun 6, 2024\",\"position\":2},{\"title\":\"Vision Language Models in Autonomous Driving: A Survey and ...\",\"link\":\"https://arxiv.org/html/2310.14414v2\",\"snippet\":\"This paper encompasses five major aspects of autonomous driving, i.e., Perception and understanding, Navigation and planning, decision-making and control,\",\"date\":\"Jun 20, 2024\",\"position\":3},{\"title\":\"[PDF] Fixing Failure Modes of Preference Optimisation with DPO-Positive\",\"link\":\"https://arxiv.org/pdf/2402.13228\",\"snippet\":\"Abstract. Direct Preference Optimisation (DPO) is effective at significantly improving the performance of large language models (LLMs) on downstream tasks ...\",\"date\":\"Jul 3, 2024\",\"position\":4},{\"title\":\"Using Human Feedback to Fine-tune Diffusion Models without Any ...\",\"link\":\"https://arxiv.org/html/2311.13231v3\",\"snippet\":\"The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model.\",\"date\":\"Mar 23, 2024\",\"position\":5},{\"title\":\"mDPO: Conditional Preference Optimization for Multimodal ... - arXiv\",\"link\":\"https://arxiv.org/html/2406.11839v2\",\"snippet\":\"Detailed analyses reveal that conditional preference plays a crucial role in enhancing the effectiveness of DPO for multimodal LLMs. Fine-grained and ...\",\"date\":\"Jun 17, 2024\",\"position\":6},{\"title\":\"Factuality of Large Language Models in the Year 2024 - arXiv\",\"link\":\"https://arxiv.org/html/2402.02420v2\",\"snippet\":\"In this survey, we critically analyze existing work with the aim to identify the major challenges and their associated causes, pointing out to potential ...\",\"date\":\"Feb 9, 2024\",\"position\":7},{\"title\":\"The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs\",\"link\":\"https://arxiv.org/html/2408.13296v1\",\"snippet\":\"The seven stages include Dataset Preparation, Model Initialisation, Training Environment Setup, Fine-Tuning, Evaluation and Validation, Deployment, and ...\",\"date\":\"Aug 23, 2024\",\"position\":8},{\"title\":\"Relative Preference Optimization: Enhancing LLM Alignment ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.10958v1\",\"snippet\":\"DPO's primary benefit lies in its stable training process, providing a more direct means of aligning models with human preferences. However, DPO's applicability ...\",\"date\":\"Feb 12, 2024\",\"sitelinks\":[{\"title\":\"3.2 Weighting Strategies\",\"link\":\"https://arxiv.org/html/2402.10958v1#:~:text=3.2%20Weighting%20Strategies,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"4 Experiments\",\"link\":\"https://arxiv.org/html/2402.10958v1#:~:text=4%20Experiments,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"4.2 Ablation Study\",\"link\":\"https://arxiv.org/html/2402.10958v1#:~:text=4.2%20Ablation%20Study,-Report%20issue%20for%20preceding%20element\"}],\"position\":9},{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, ...\",\"date\":\"Feb 20, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIERQTyB0cmFpbmluZyBmb3IgdmlzaW9uLWxhbmd1YWdlIG1vZGVscyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJDb250aW51YWwgTGVhcm5pbmcgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjE2Nzg5djIiLCJzbmlwcGV0IjoiVmVydGljYWxseSwgaXQgY2FuIGJlIHJvdWdobHkgZGl2aWRlZCBpbnRvIHRocmVlIHN0YWdlcyBvZiBjb250aW51YWwgdHJhaW5pbmcgTExNcywgYW5kIHdlIHdpbGwgcHJlc2VudCBhIG9uZS1ieS1vbmUgc3VydmV5IG9mIGVhY2ggc3RhZ2UgaW4gU2VjdGlvbiA0LiBJbiAuLi4iLCJkYXRlIjoiQXByIDI1LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJBbGlnbmluZyBQcmVmZXJlbmNlIHdpdGggRGVub2lzaW5nIFBlcmZvcm1hbmNlIGF0IEVhY2ggU3RlcCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4wNDMxNHYxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHN0dWR5IGh1bWFuIHByZWZlcmVuY2UgbGVhcm5pbmcgZm9yIHBvc3QtdHJhaW5pbmcgZGlmZnVzaW9uIG1vZGVscy4gRXhpc3RpbmcgbWV0aG9kcyBwcm9wYWdhdGUgdGhlIHNhbWUgcHJlZmVyZW5jZSBsYWJlbHMgb2J0YWluZWQgZnJvbSAuLi4iLCJkYXRlIjoiSnVuIDYsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlZpc2lvbiBMYW5ndWFnZSBNb2RlbHMgaW4gQXV0b25vbW91cyBEcml2aW5nOiBBIFN1cnZleSBhbmQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMC4xNDQxNHYyIiwic25pcHBldCI6IlRoaXMgcGFwZXIgZW5jb21wYXNzZXMgZml2ZSBtYWpvciBhc3BlY3RzIG9mIGF1dG9ub21vdXMgZHJpdmluZywgaS5lLiwgUGVyY2VwdGlvbiBhbmQgdW5kZXJzdGFuZGluZywgTmF2aWdhdGlvbiBhbmQgcGxhbm5pbmcsIGRlY2lzaW9uLW1ha2luZyBhbmQgY29udHJvbCwiLCJkYXRlIjoiSnVuIDIwLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSBGaXhpbmcgRmFpbHVyZSBNb2RlcyBvZiBQcmVmZXJlbmNlIE9wdGltaXNhdGlvbiB3aXRoIERQTy1Qb3NpdGl2ZSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMi4xMzIyOCIsInNuaXBwZXQiOiJBYnN0cmFjdC4gRGlyZWN0IFByZWZlcmVuY2UgT3B0aW1pc2F0aW9uIChEUE8pIGlzIGVmZmVjdGl2ZSBhdCBzaWduaWZpY2FudGx5IGltcHJvdmluZyB0aGUgcGVyZm9ybWFuY2Ugb2YgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSBvbiBkb3duc3RyZWFtIHRhc2tzIC4uLiIsImRhdGUiOiJKdWwgMywgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiVXNpbmcgSHVtYW4gRmVlZGJhY2sgdG8gRmluZS10dW5lIERpZmZ1c2lvbiBNb2RlbHMgd2l0aG91dCBBbnkgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMS4xMzIzMXYzIiwic25pcHBldCI6IlRoZSBkaXJlY3QgcHJlZmVyZW5jZSBvcHRpbWl6YXRpb24gKERQTykgbWV0aG9kLCBlZmZlY3RpdmUgaW4gZmluZS10dW5pbmcgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzLCBlbGltaW5hdGVzIHRoZSBuZWNlc3NpdHkgZm9yIGEgcmV3YXJkIG1vZGVsLiIsImRhdGUiOiJNYXIgMjMsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6Im1EUE86IENvbmRpdGlvbmFsIFByZWZlcmVuY2UgT3B0aW1pemF0aW9uIGZvciBNdWx0aW1vZGFsIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4xMTgzOXYyIiwic25pcHBldCI6IkRldGFpbGVkIGFuYWx5c2VzIHJldmVhbCB0aGF0IGNvbmRpdGlvbmFsIHByZWZlcmVuY2UgcGxheXMgYSBjcnVjaWFsIHJvbGUgaW4gZW5oYW5jaW5nIHRoZSBlZmZlY3RpdmVuZXNzIG9mIERQTyBmb3IgbXVsdGltb2RhbCBMTE1zLiBGaW5lLWdyYWluZWQgYW5kIC4uLiIsImRhdGUiOiJKdW4gMTcsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkZhY3R1YWxpdHkgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGluIHRoZSBZZWFyIDIwMjQgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDI0MjB2MiIsInNuaXBwZXQiOiJJbiB0aGlzIHN1cnZleSwgd2UgY3JpdGljYWxseSBhbmFseXplIGV4aXN0aW5nIHdvcmsgd2l0aCB0aGUgYWltIHRvIGlkZW50aWZ5IHRoZSBtYWpvciBjaGFsbGVuZ2VzIGFuZCB0aGVpciBhc3NvY2lhdGVkIGNhdXNlcywgcG9pbnRpbmcgb3V0IHRvIHBvdGVudGlhbCAuLi4iLCJkYXRlIjoiRmViIDksIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlRoZSBVbHRpbWF0ZSBHdWlkZSB0byBGaW5lLVR1bmluZyBMTE1zIGZyb20gQmFzaWNzIHRvIEJyZWFrdGhyb3VnaHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjEzMjk2djEiLCJzbmlwcGV0IjoiVGhlIHNldmVuIHN0YWdlcyBpbmNsdWRlIERhdGFzZXQgUHJlcGFyYXRpb24sIE1vZGVsIEluaXRpYWxpc2F0aW9uLCBUcmFpbmluZyBFbnZpcm9ubWVudCBTZXR1cCwgRmluZS1UdW5pbmcsIEV2YWx1YXRpb24gYW5kIFZhbGlkYXRpb24sIERlcGxveW1lbnQsIGFuZCAuLi4iLCJkYXRlIjoiQXVnIDIzLCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJSZWxhdGl2ZSBQcmVmZXJlbmNlIE9wdGltaXphdGlvbjogRW5oYW5jaW5nIExMTSBBbGlnbm1lbnQgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjEwOTU4djEiLCJzbmlwcGV0IjoiRFBPJ3MgcHJpbWFyeSBiZW5lZml0IGxpZXMgaW4gaXRzIHN0YWJsZSB0cmFpbmluZyBwcm9jZXNzLCBwcm92aWRpbmcgYSBtb3JlIGRpcmVjdCBtZWFucyBvZiBhbGlnbmluZyBtb2RlbHMgd2l0aCBodW1hbiBwcmVmZXJlbmNlcy4gSG93ZXZlciwgRFBPJ3MgYXBwbGljYWJpbGl0eSAuLi4iLCJkYXRlIjoiRmViIDEyLCAyMDI0Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjMuMiBXZWlnaHRpbmcgU3RyYXRlZ2llcyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTA5NTh2MSM6fjp0ZXh0PTMuMiUyMFdlaWdodGluZyUyMFN0cmF0ZWdpZXMsLVJlcG9ydCUyMGlzc3VlJTIwZm9yJTIwcHJlY2VkaW5nJTIwZWxlbWVudCJ9LHsidGl0bGUiOiI0IEV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4xMDk1OHYxIzp+OnRleHQ9NCUyMEV4cGVyaW1lbnRzLC1SZXBvcnQlMjBpc3N1ZSUyMGZvciUyMHByZWNlZGluZyUyMGVsZW1lbnQifSx7InRpdGxlIjoiNC4yIEFibGF0aW9uIFN0dWR5IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4xMDk1OHYxIzp+OnRleHQ9NC4yJTIwQWJsYXRpb24lMjBTdHVkeSwtUmVwb3J0JTIwaXNzdWUlMjBmb3IlMjBwcmVjZWRpbmclMjBlbGVtZW50In1dLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkxhcmdlIExhbmd1YWdlIE1vZGVsczogQSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDYxOTZ2MiIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSByZXZpZXcgc29tZSBvZiB0aGUgbW9zdCBwcm9taW5lbnQgTExNcywgaW5jbHVkaW5nIHRocmVlIHBvcHVsYXIgTExNIGZhbWlsaWVzIChHUFQsIExMYU1BLCBQYUxNKSwgYW5kIGRpc2N1c3MgdGhlaXIgY2hhcmFjdGVyaXN0aWNzLCAuLi4iLCJkYXRlIjoiRmViIDIwLCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "81740a5a43f138128841e8cc0f584c700f1eaf97fd35f030308c8fe9e787b404",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey papers on DPO training for vision-language models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Continual Learning of Large Language Models - arXiv",
+                "link": "https://arxiv.org/html/2404.16789v2",
+                "snippet": "Vertically, it can be roughly divided into three stages of continual training LLMs, and we will present a one-by-one survey of each stage in Section 4. In ...",
+                "date": "Apr 25, 2024",
+                "position": 1
+              },
+              {
+                "title": "Aligning Preference with Denoising Performance at Each Step - arXiv",
+                "link": "https://arxiv.org/html/2406.04314v1",
+                "snippet": "In this paper, we study human preference learning for post-training diffusion models. Existing methods propagate the same preference labels obtained from ...",
+                "date": "Jun 6, 2024",
+                "position": 2
+              },
+              {
+                "title": "Vision Language Models in Autonomous Driving: A Survey and ...",
+                "link": "https://arxiv.org/html/2310.14414v2",
+                "snippet": "This paper encompasses five major aspects of autonomous driving, i.e., Perception and understanding, Navigation and planning, decision-making and control,",
+                "date": "Jun 20, 2024",
+                "position": 3
+              },
+              {
+                "title": "[PDF] Fixing Failure Modes of Preference Optimisation with DPO-Positive",
+                "link": "https://arxiv.org/pdf/2402.13228",
+                "snippet": "Abstract. Direct Preference Optimisation (DPO) is effective at significantly improving the performance of large language models (LLMs) on downstream tasks ...",
+                "date": "Jul 3, 2024",
+                "position": 4
+              },
+              {
+                "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+                "link": "https://arxiv.org/html/2311.13231v3",
+                "snippet": "The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model.",
+                "date": "Mar 23, 2024",
+                "position": 5
+              },
+              {
+                "title": "mDPO: Conditional Preference Optimization for Multimodal ... - arXiv",
+                "link": "https://arxiv.org/html/2406.11839v2",
+                "snippet": "Detailed analyses reveal that conditional preference plays a crucial role in enhancing the effectiveness of DPO for multimodal LLMs. Fine-grained and ...",
+                "date": "Jun 17, 2024",
+                "position": 6
+              },
+              {
+                "title": "Factuality of Large Language Models in the Year 2024 - arXiv",
+                "link": "https://arxiv.org/html/2402.02420v2",
+                "snippet": "In this survey, we critically analyze existing work with the aim to identify the major challenges and their associated causes, pointing out to potential ...",
+                "date": "Feb 9, 2024",
+                "position": 7
+              },
+              {
+                "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+                "link": "https://arxiv.org/html/2408.13296v1",
+                "snippet": "The seven stages include Dataset Preparation, Model Initialisation, Training Environment Setup, Fine-Tuning, Evaluation and Validation, Deployment, and ...",
+                "date": "Aug 23, 2024",
+                "position": 8
+              },
+              {
+                "title": "Relative Preference Optimization: Enhancing LLM Alignment ... - arXiv",
+                "link": "https://arxiv.org/html/2402.10958v1",
+                "snippet": "DPO's primary benefit lies in its stable training process, providing a more direct means of aligning models with human preferences. However, DPO's applicability ...",
+                "date": "Feb 12, 2024",
+                "sitelinks": [
+                  {
+                    "title": "3.2 Weighting Strategies",
+                    "link": "https://arxiv.org/html/2402.10958v1#:~:text=3.2%20Weighting%20Strategies,-Report%20issue%20for%20preceding%20element"
+                  },
+                  {
+                    "title": "4 Experiments",
+                    "link": "https://arxiv.org/html/2402.10958v1#:~:text=4%20Experiments,-Report%20issue%20for%20preceding%20element"
+                  },
+                  {
+                    "title": "4.2 Ablation Study",
+                    "link": "https://arxiv.org/html/2402.10958v1#:~:text=4.2%20Ablation%20Study,-Report%20issue%20for%20preceding%20element"
+                  }
+                ],
+                "position": 9
+              },
+              {
+                "title": "Large Language Models: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2402.06196v2",
+                "snippet": "In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, ...",
+                "date": "Feb 20, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:36.759058+00:00",
+          "elapsed_seconds": 1.7652166560292244
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2310.14414",
+        "2311.13231",
+        "2402.02420",
+        "2402.06196",
+        "2402.10958",
+        "2402.13228",
+        "2404.16789",
+        "2406.04314",
+        "2406.11839",
+        "2408.13296"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2404.16789",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2404.16789v2",
+          "title": "Continual Learning of Large Language Models - arXiv",
+          "snippet": "Vertically, it can be roughly divided into three stages of continual training LLMs, and we will present a one-by-one survey of each stage in Section 4. In ..."
+        },
+        {
+          "arxiv_id": "2406.04314",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2406.04314v1",
+          "title": "Aligning Preference with Denoising Performance at Each Step - arXiv",
+          "snippet": "In this paper, we study human preference learning for post-training diffusion models. Existing methods propagate the same preference labels obtained from ..."
+        },
+        {
+          "arxiv_id": "2310.14414",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2310.14414v2",
+          "title": "Vision Language Models in Autonomous Driving: A Survey and ...",
+          "snippet": "This paper encompasses five major aspects of autonomous driving, i.e., Perception and understanding, Navigation and planning, decision-making and control,"
+        },
+        {
+          "arxiv_id": "2402.13228",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2402.13228",
+          "title": "[PDF] Fixing Failure Modes of Preference Optimisation with DPO-Positive",
+          "snippet": "Abstract. Direct Preference Optimisation (DPO) is effective at significantly improving the performance of large language models (LLMs) on downstream tasks ..."
+        },
+        {
+          "arxiv_id": "2311.13231",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2311.13231v3",
+          "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+          "snippet": "The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model."
+        },
+        {
+          "arxiv_id": "2406.11839",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2406.11839v2",
+          "title": "mDPO: Conditional Preference Optimization for Multimodal ... - arXiv",
+          "snippet": "Detailed analyses reveal that conditional preference plays a crucial role in enhancing the effectiveness of DPO for multimodal LLMs. Fine-grained and ..."
+        },
+        {
+          "arxiv_id": "2402.02420",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2402.02420v2",
+          "title": "Factuality of Large Language Models in the Year 2024 - arXiv",
+          "snippet": "In this survey, we critically analyze existing work with the aim to identify the major challenges and their associated causes, pointing out to potential ..."
+        },
+        {
+          "arxiv_id": "2408.13296",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2408.13296v1",
+          "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+          "snippet": "The seven stages include Dataset Preparation, Model Initialisation, Training Environment Setup, Fine-Tuning, Evaluation and Validation, Deployment, and ..."
+        },
+        {
+          "arxiv_id": "2402.10958",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2402.10958v1",
+          "title": "Relative Preference Optimization: Enhancing LLM Alignment ... - arXiv",
+          "snippet": "DPO's primary benefit lies in its stable training process, providing a more direct means of aligning models with human preferences. However, DPO's applicability ..."
+        },
+        {
+          "arxiv_id": "2402.06196",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2402.06196v2",
+          "title": "Large Language Models: A Survey - arXiv",
+          "snippet": "In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey papers on DPO training for vision-language models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Effects of DPO training on large-scale vision-language models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 187,
+          "query_id": "Q31",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Effects of DPO training on large-scale vision-language models",
+          "request_payload": {
+            "q": "Effects of DPO training on large-scale vision-language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q31_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:28:36.941516+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Effects of DPO training on large-scale vision-language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"CLIP-DPO: Vision-Language Models as a Source of Preference for ...\",\"link\":\"https://arxiv.org/html/2408.10433v1\",\"snippet\":\"LVLMs or Large Vision Language Models are prone to hallucinating details like objects and their properties or relations, limiting their real-world deployment.\",\"date\":\"Aug 19, 2024\",\"position\":1},{\"title\":\"Direct Preference Optimization of Video Large Multimodal Models ...\",\"link\":\"https://arxiv.org/html/2404.01258v1\",\"snippet\":\"Preference modeling techniques, such as direct preference optimization (DPO), has shown effective in enhancing the generalization abilities of large language ...\",\"date\":\"Apr 1, 2024\",\"position\":2},{\"title\":\"mDPO: Conditional Preference Optimization for Multimodal ... - arXiv\",\"link\":\"https://arxiv.org/html/2406.11839v2\",\"snippet\":\"Recent studies have found inconsistent improvements in model capabilities when applying DPO to multimodal LLMs, often attributing this issue to the quality of ...\",\"date\":\"Jun 17, 2024\",\"position\":3},{\"title\":\"Continual Learning of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.16789v2\",\"snippet\":\"Typically, MLLMs consist of modality-specific sub-modules such as pre-trained vision encoders, large language models, and projectors for cross-model alignment.\",\"date\":\"Apr 25, 2024\",\"position\":4},{\"title\":\"Using Human Feedback to Fine-tune Diffusion Models without Any ...\",\"link\":\"https://arxiv.org/html/2311.13231v3\",\"snippet\":\"The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model.\",\"date\":\"Mar 23, 2024\",\"position\":5},{\"title\":\"Are Vision Language Models Texture or Shape Biased and Can We ...\",\"link\":\"https://arxiv.org/html/2403.09193v1\",\"snippet\":\"vision models have been shown to be exceptionally misaligned with human perception, referred to as the texture vs. shape bias\",\"date\":\"Mar 14, 2024\",\"position\":6},{\"title\":\"[PDF] Fixing Failure Modes of Preference Optimisation with DPO-Positive\",\"link\":\"https://arxiv.org/pdf/2402.13228\",\"snippet\":\"Direct Preference Optimisation (DPO) is effective at significantly improving the performance of large language models (LLMs) on downstream tasks such as ...\",\"date\":\"Jul 3, 2024\",\"position\":7},{\"title\":\"Factuality of Large Language Models in the Year 2024 - arXiv\",\"link\":\"https://arxiv.org/html/2402.02420v2\",\"snippet\":\"The quality of the pre-training data plays a crucial role and misinformation could potentially cause LLMs. RETRO shows better accuracy and is less prone to ...\",\"date\":\"Feb 9, 2024\",\"sitelinks\":[{\"title\":\"1 Introduction\",\"link\":\"https://arxiv.org/html/2402.02420v2#:~:text=1%20Introduction,-Large%20language%20models%20%28LLMs\"},{\"title\":\"3 Evaluating Factuality\",\"link\":\"https://arxiv.org/html/2402.02420v2#:~:text=3%20Evaluating%20Factuality,-Evaluating%20LLM%20factuality%20on%20open\"},{\"title\":\"4 Improving Factuality\",\"link\":\"https://arxiv.org/html/2402.02420v2#:~:text=4%20Improving%20Factuality,-Improving%20the%20factuality%20of%20an\"}],\"position\":8},{\"title\":\"The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs\",\"link\":\"https://arxiv.org/html/2408.13296v1\",\"snippet\":\"Fine-tuning a Large Language Model (LLM) starts with adapting the pre-trained model for specific tasks by updating its parameters using a new dataset. This ...\",\"date\":\"Aug 23, 2024\",\"position\":9},{\"title\":\"Building and better understanding vision-language models - arXiv\",\"link\":\"https://arxiv.org/html/2408.12637v1\",\"snippet\":\"The authors suggest that bypassing a vision encoder pre-trained on billions of images could lead to longer training times to achieve similar performance.\",\"date\":\"Aug 22, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJFZmZlY3RzIG9mIERQTyB0cmFpbmluZyBvbiBsYXJnZS1zY2FsZSB2aXNpb24tbGFuZ3VhZ2UgbW9kZWxzIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkNMSVAtRFBPOiBWaXNpb24tTGFuZ3VhZ2UgTW9kZWxzIGFzIGEgU291cmNlIG9mIFByZWZlcmVuY2UgZm9yIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTA0MzN2MSIsInNuaXBwZXQiOiJMVkxNcyBvciBMYXJnZSBWaXNpb24gTGFuZ3VhZ2UgTW9kZWxzIGFyZSBwcm9uZSB0byBoYWxsdWNpbmF0aW5nIGRldGFpbHMgbGlrZSBvYmplY3RzIGFuZCB0aGVpciBwcm9wZXJ0aWVzIG9yIHJlbGF0aW9ucywgbGltaXRpbmcgdGhlaXIgcmVhbC13b3JsZCBkZXBsb3ltZW50LiIsImRhdGUiOiJBdWcgMTksIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkRpcmVjdCBQcmVmZXJlbmNlIE9wdGltaXphdGlvbiBvZiBWaWRlbyBMYXJnZSBNdWx0aW1vZGFsIE1vZGVscyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjAxMjU4djEiLCJzbmlwcGV0IjoiUHJlZmVyZW5jZSBtb2RlbGluZyB0ZWNobmlxdWVzLCBzdWNoIGFzIGRpcmVjdCBwcmVmZXJlbmNlIG9wdGltaXphdGlvbiAoRFBPKSwgaGFzIHNob3duIGVmZmVjdGl2ZSBpbiBlbmhhbmNpbmcgdGhlIGdlbmVyYWxpemF0aW9uIGFiaWxpdGllcyBvZiBsYXJnZSBsYW5ndWFnZSAuLi4iLCJkYXRlIjoiQXByIDEsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6Im1EUE86IENvbmRpdGlvbmFsIFByZWZlcmVuY2UgT3B0aW1pemF0aW9uIGZvciBNdWx0aW1vZGFsIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4xMTgzOXYyIiwic25pcHBldCI6IlJlY2VudCBzdHVkaWVzIGhhdmUgZm91bmQgaW5jb25zaXN0ZW50IGltcHJvdmVtZW50cyBpbiBtb2RlbCBjYXBhYmlsaXRpZXMgd2hlbiBhcHBseWluZyBEUE8gdG8gbXVsdGltb2RhbCBMTE1zLCBvZnRlbiBhdHRyaWJ1dGluZyB0aGlzIGlzc3VlIHRvIHRoZSBxdWFsaXR5IG9mIC4uLiIsImRhdGUiOiJKdW4gMTcsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkNvbnRpbnVhbCBMZWFybmluZyBvZiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMTY3ODl2MiIsInNuaXBwZXQiOiJUeXBpY2FsbHksIE1MTE1zIGNvbnNpc3Qgb2YgbW9kYWxpdHktc3BlY2lmaWMgc3ViLW1vZHVsZXMgc3VjaCBhcyBwcmUtdHJhaW5lZCB2aXNpb24gZW5jb2RlcnMsIGxhcmdlIGxhbmd1YWdlIG1vZGVscywgYW5kIHByb2plY3RvcnMgZm9yIGNyb3NzLW1vZGVsIGFsaWdubWVudC4iLCJkYXRlIjoiQXByIDI1LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJVc2luZyBIdW1hbiBGZWVkYmFjayB0byBGaW5lLXR1bmUgRGlmZnVzaW9uIE1vZGVscyB3aXRob3V0IEFueSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjEzMjMxdjMiLCJzbmlwcGV0IjoiVGhlIGRpcmVjdCBwcmVmZXJlbmNlIG9wdGltaXphdGlvbiAoRFBPKSBtZXRob2QsIGVmZmVjdGl2ZSBpbiBmaW5lLXR1bmluZyBsYXJnZSBsYW5ndWFnZSBtb2RlbHMsIGVsaW1pbmF0ZXMgdGhlIG5lY2Vzc2l0eSBmb3IgYSByZXdhcmQgbW9kZWwuIiwiZGF0ZSI6Ik1hciAyMywgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiQXJlIFZpc2lvbiBMYW5ndWFnZSBNb2RlbHMgVGV4dHVyZSBvciBTaGFwZSBCaWFzZWQgYW5kIENhbiBXZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjA5MTkzdjEiLCJzbmlwcGV0IjoidmlzaW9uIG1vZGVscyBoYXZlIGJlZW4gc2hvd24gdG8gYmUgZXhjZXB0aW9uYWxseSBtaXNhbGlnbmVkIHdpdGggaHVtYW4gcGVyY2VwdGlvbiwgcmVmZXJyZWQgdG8gYXMgdGhlIHRleHR1cmUgdnMuIHNoYXBlIGJpYXMiLCJkYXRlIjoiTWFyIDE0LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBGaXhpbmcgRmFpbHVyZSBNb2RlcyBvZiBQcmVmZXJlbmNlIE9wdGltaXNhdGlvbiB3aXRoIERQTy1Qb3NpdGl2ZSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMi4xMzIyOCIsInNuaXBwZXQiOiJEaXJlY3QgUHJlZmVyZW5jZSBPcHRpbWlzYXRpb24gKERQTykgaXMgZWZmZWN0aXZlIGF0IHNpZ25pZmljYW50bHkgaW1wcm92aW5nIHRoZSBwZXJmb3JtYW5jZSBvZiBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpIG9uIGRvd25zdHJlYW0gdGFza3Mgc3VjaCBhcyAuLi4iLCJkYXRlIjoiSnVsIDMsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkZhY3R1YWxpdHkgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGluIHRoZSBZZWFyIDIwMjQgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDI0MjB2MiIsInNuaXBwZXQiOiJUaGUgcXVhbGl0eSBvZiB0aGUgcHJlLXRyYWluaW5nIGRhdGEgcGxheXMgYSBjcnVjaWFsIHJvbGUgYW5kIG1pc2luZm9ybWF0aW9uIGNvdWxkIHBvdGVudGlhbGx5IGNhdXNlIExMTXMuIFJFVFJPIHNob3dzIGJldHRlciBhY2N1cmFjeSBhbmQgaXMgbGVzcyBwcm9uZSB0byAuLi4iLCJkYXRlIjoiRmViIDksIDIwMjQiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiMSBJbnRyb2R1Y3Rpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjAyNDIwdjIjOn46dGV4dD0xJTIwSW50cm9kdWN0aW9uLC1MYXJnZSUyMGxhbmd1YWdlJTIwbW9kZWxzJTIwJTI4TExNcyJ9LHsidGl0bGUiOiIzIEV2YWx1YXRpbmcgRmFjdHVhbGl0eSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDI0MjB2MiM6fjp0ZXh0PTMlMjBFdmFsdWF0aW5nJTIwRmFjdHVhbGl0eSwtRXZhbHVhdGluZyUyMExMTSUyMGZhY3R1YWxpdHklMjBvbiUyMG9wZW4ifSx7InRpdGxlIjoiNCBJbXByb3ZpbmcgRmFjdHVhbGl0eSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDI0MjB2MiM6fjp0ZXh0PTQlMjBJbXByb3ZpbmclMjBGYWN0dWFsaXR5LC1JbXByb3ZpbmclMjB0aGUlMjBmYWN0dWFsaXR5JTIwb2YlMjBhbiJ9XSwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJUaGUgVWx0aW1hdGUgR3VpZGUgdG8gRmluZS1UdW5pbmcgTExNcyBmcm9tIEJhc2ljcyB0byBCcmVha3Rocm91Z2hzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOC4xMzI5NnYxIiwic25pcHBldCI6IkZpbmUtdHVuaW5nIGEgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWwgKExMTSkgc3RhcnRzIHdpdGggYWRhcHRpbmcgdGhlIHByZS10cmFpbmVkIG1vZGVsIGZvciBzcGVjaWZpYyB0YXNrcyBieSB1cGRhdGluZyBpdHMgcGFyYW1ldGVycyB1c2luZyBhIG5ldyBkYXRhc2V0LiBUaGlzIC4uLiIsImRhdGUiOiJBdWcgMjMsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkJ1aWxkaW5nIGFuZCBiZXR0ZXIgdW5kZXJzdGFuZGluZyB2aXNpb24tbGFuZ3VhZ2UgbW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjEyNjM3djEiLCJzbmlwcGV0IjoiVGhlIGF1dGhvcnMgc3VnZ2VzdCB0aGF0IGJ5cGFzc2luZyBhIHZpc2lvbiBlbmNvZGVyIHByZS10cmFpbmVkIG9uIGJpbGxpb25zIG9mIGltYWdlcyBjb3VsZCBsZWFkIHRvIGxvbmdlciB0cmFpbmluZyB0aW1lcyB0byBhY2hpZXZlIHNpbWlsYXIgcGVyZm9ybWFuY2UuIiwiZGF0ZSI6IkF1ZyAyMiwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "81f4204694041a95ab9df83b3aed29169746015a950cef5a8778540c3451223f",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Effects of DPO training on large-scale vision-language models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "CLIP-DPO: Vision-Language Models as a Source of Preference for ...",
+                "link": "https://arxiv.org/html/2408.10433v1",
+                "snippet": "LVLMs or Large Vision Language Models are prone to hallucinating details like objects and their properties or relations, limiting their real-world deployment.",
+                "date": "Aug 19, 2024",
+                "position": 1
+              },
+              {
+                "title": "Direct Preference Optimization of Video Large Multimodal Models ...",
+                "link": "https://arxiv.org/html/2404.01258v1",
+                "snippet": "Preference modeling techniques, such as direct preference optimization (DPO), has shown effective in enhancing the generalization abilities of large language ...",
+                "date": "Apr 1, 2024",
+                "position": 2
+              },
+              {
+                "title": "mDPO: Conditional Preference Optimization for Multimodal ... - arXiv",
+                "link": "https://arxiv.org/html/2406.11839v2",
+                "snippet": "Recent studies have found inconsistent improvements in model capabilities when applying DPO to multimodal LLMs, often attributing this issue to the quality of ...",
+                "date": "Jun 17, 2024",
+                "position": 3
+              },
+              {
+                "title": "Continual Learning of Large Language Models - arXiv",
+                "link": "https://arxiv.org/html/2404.16789v2",
+                "snippet": "Typically, MLLMs consist of modality-specific sub-modules such as pre-trained vision encoders, large language models, and projectors for cross-model alignment.",
+                "date": "Apr 25, 2024",
+                "position": 4
+              },
+              {
+                "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+                "link": "https://arxiv.org/html/2311.13231v3",
+                "snippet": "The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model.",
+                "date": "Mar 23, 2024",
+                "position": 5
+              },
+              {
+                "title": "Are Vision Language Models Texture or Shape Biased and Can We ...",
+                "link": "https://arxiv.org/html/2403.09193v1",
+                "snippet": "vision models have been shown to be exceptionally misaligned with human perception, referred to as the texture vs. shape bias",
+                "date": "Mar 14, 2024",
+                "position": 6
+              },
+              {
+                "title": "[PDF] Fixing Failure Modes of Preference Optimisation with DPO-Positive",
+                "link": "https://arxiv.org/pdf/2402.13228",
+                "snippet": "Direct Preference Optimisation (DPO) is effective at significantly improving the performance of large language models (LLMs) on downstream tasks such as ...",
+                "date": "Jul 3, 2024",
+                "position": 7
+              },
+              {
+                "title": "Factuality of Large Language Models in the Year 2024 - arXiv",
+                "link": "https://arxiv.org/html/2402.02420v2",
+                "snippet": "The quality of the pre-training data plays a crucial role and misinformation could potentially cause LLMs. RETRO shows better accuracy and is less prone to ...",
+                "date": "Feb 9, 2024",
+                "sitelinks": [
+                  {
+                    "title": "1 Introduction",
+                    "link": "https://arxiv.org/html/2402.02420v2#:~:text=1%20Introduction,-Large%20language%20models%20%28LLMs"
+                  },
+                  {
+                    "title": "3 Evaluating Factuality",
+                    "link": "https://arxiv.org/html/2402.02420v2#:~:text=3%20Evaluating%20Factuality,-Evaluating%20LLM%20factuality%20on%20open"
+                  },
+                  {
+                    "title": "4 Improving Factuality",
+                    "link": "https://arxiv.org/html/2402.02420v2#:~:text=4%20Improving%20Factuality,-Improving%20the%20factuality%20of%20an"
+                  }
+                ],
+                "position": 8
+              },
+              {
+                "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+                "link": "https://arxiv.org/html/2408.13296v1",
+                "snippet": "Fine-tuning a Large Language Model (LLM) starts with adapting the pre-trained model for specific tasks by updating its parameters using a new dataset. This ...",
+                "date": "Aug 23, 2024",
+                "position": 9
+              },
+              {
+                "title": "Building and better understanding vision-language models - arXiv",
+                "link": "https://arxiv.org/html/2408.12637v1",
+                "snippet": "The authors suggest that bypassing a vision encoder pre-trained on billions of images could lead to longer training times to achieve similar performance.",
+                "date": "Aug 22, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:37.954852+00:00",
+          "elapsed_seconds": 1.0133333541452885
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2311.13231",
+        "2402.02420",
+        "2402.13228",
+        "2403.09193",
+        "2404.01258",
+        "2404.16789",
+        "2406.11839",
+        "2408.10433",
+        "2408.12637",
+        "2408.13296"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2408.10433",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2408.10433v1",
+          "title": "CLIP-DPO: Vision-Language Models as a Source of Preference for ...",
+          "snippet": "LVLMs or Large Vision Language Models are prone to hallucinating details like objects and their properties or relations, limiting their real-world deployment."
+        },
+        {
+          "arxiv_id": "2404.01258",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2404.01258v1",
+          "title": "Direct Preference Optimization of Video Large Multimodal Models ...",
+          "snippet": "Preference modeling techniques, such as direct preference optimization (DPO), has shown effective in enhancing the generalization abilities of large language ..."
+        },
+        {
+          "arxiv_id": "2406.11839",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2406.11839v2",
+          "title": "mDPO: Conditional Preference Optimization for Multimodal ... - arXiv",
+          "snippet": "Recent studies have found inconsistent improvements in model capabilities when applying DPO to multimodal LLMs, often attributing this issue to the quality of ..."
+        },
+        {
+          "arxiv_id": "2404.16789",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2404.16789v2",
+          "title": "Continual Learning of Large Language Models - arXiv",
+          "snippet": "Typically, MLLMs consist of modality-specific sub-modules such as pre-trained vision encoders, large language models, and projectors for cross-model alignment."
+        },
+        {
+          "arxiv_id": "2311.13231",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2311.13231v3",
+          "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+          "snippet": "The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model."
+        },
+        {
+          "arxiv_id": "2403.09193",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2403.09193v1",
+          "title": "Are Vision Language Models Texture or Shape Biased and Can We ...",
+          "snippet": "vision models have been shown to be exceptionally misaligned with human perception, referred to as the texture vs. shape bias"
+        },
+        {
+          "arxiv_id": "2402.13228",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2402.13228",
+          "title": "[PDF] Fixing Failure Modes of Preference Optimisation with DPO-Positive",
+          "snippet": "Direct Preference Optimisation (DPO) is effective at significantly improving the performance of large language models (LLMs) on downstream tasks such as ..."
+        },
+        {
+          "arxiv_id": "2402.02420",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2402.02420v2",
+          "title": "Factuality of Large Language Models in the Year 2024 - arXiv",
+          "snippet": "The quality of the pre-training data plays a crucial role and misinformation could potentially cause LLMs. RETRO shows better accuracy and is less prone to ..."
+        },
+        {
+          "arxiv_id": "2408.13296",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2408.13296v1",
+          "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+          "snippet": "Fine-tuning a Large Language Model (LLM) starts with adapting the pre-trained model for specific tasks by updating its parameters using a new dataset. This ..."
+        },
+        {
+          "arxiv_id": "2408.12637",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2408.12637v1",
+          "title": "Building and better understanding vision-language models - arXiv",
+          "snippet": "The authors suggest that bypassing a vision encoder pre-trained on billions of images could lead to longer training times to achieve similar performance."
+        }
+      ],
+      "request_payload": {
+        "q": "Effects of DPO training on large-scale vision-language models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Comparative studies on DPO and other methods for training large-scale vision-language models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 188,
+          "query_id": "Q31",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Comparative studies on DPO and other methods for training large-scale vision-language models",
+          "request_payload": {
+            "q": "Comparative studies on DPO and other methods for training large-scale vision-language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q31_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:28:38.136933+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Comparative studies on DPO and other methods for training large-scale vision-language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study\",\"link\":\"https://arxiv.org/html/2404.10719v1\",\"snippet\":\"DPO may not be superior to PPO. DPO performs poorly, producing only a 55.4 % 55.4\\\\% safety rate and low helpfulness reward.\",\"date\":\"Apr 16, 2024\",\"position\":1},{\"title\":\"Direct Preference Optimization: Your Language Model is Secretly a ...\",\"link\":\"https://arxiv.org/abs/2305.18290\",\"snippet\":\"Our experiments show that DPO can fine-tune LMs to align with human preferences as well as or better than existing methods.\",\"date\":\"May 29, 2023\",\"position\":2},{\"title\":\"Unpacking DPO and PPO: Disentangling Best Practices for Learning ...\",\"link\":\"https://arxiv.org/html/2406.09279v1\",\"snippet\":\"PPO outperforms DPO by up to 2.5% in math and 1.2% in general domains. High-quality preference data leads to improvements of up to 8% in instruction\",\"date\":\"Jun 13, 2024\",\"position\":3},{\"title\":\"[PDF] Direct Preference Optimization: Your Language Model is ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2305.18290\",\"snippet\":\"Our experiments show that DPO is at least as effective as existing methods, including PPO-based RLHF, for learning from preferences in tasks such as sentiment ...\",\"date\":\"Jul 29, 2024\",\"position\":4},{\"title\":\"Using Human Feedback to Fine-tune Diffusion Models without Any ...\",\"link\":\"https://arxiv.org/html/2311.13231v3\",\"snippet\":\"The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model.\",\"date\":\"Mar 23, 2024\",\"position\":5},{\"title\":\"mDPO: Conditional Preference Optimization for Multimodal ... - arXiv\",\"link\":\"https://arxiv.org/html/2406.11839v2\",\"snippet\":\"Recent studies have found inconsistent improvements in model capabilities when applying DPO to multimodal LLMs, often attributing this issue to the quality of ...\",\"date\":\"Jun 17, 2024\",\"position\":6},{\"title\":\"Aligning Preference with Denoising Performance at Each Step - arXiv\",\"link\":\"https://arxiv.org/html/2406.04314v1\",\"snippet\":\"We illustrate the comparison results with DDPO, D3PO, and Diffusion-DPO based on SD-1.5 in Table 2. We conclude that our SPO achieves the best performance ...\",\"date\":\"Jun 6, 2024\",\"position\":7},{\"title\":\"Continual Learning of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.16789v2\",\"snippet\":\"Vertically, it can be roughly divided into three stages of continual training LLMs, and we will present a one-by-one survey of each stage in Section 4. In ...\",\"date\":\"Apr 25, 2024\",\"position\":8},{\"title\":\"The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs\",\"link\":\"https://arxiv.org/html/2408.13296v1\",\"snippet\":\"This figure illustrates the Direct Preference Optimisation (DPO) technique used in fine-tuning large language models. The process begins with preference ...\",\"date\":\"Aug 23, 2024\",\"position\":9},{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"Compared to PLMs reviewed above, LLMs are not only much larger in model size, but also exhibit stronger language understanding and generation and emergent ...\",\"date\":\"Feb 20, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb21wYXJhdGl2ZSBzdHVkaWVzIG9uIERQTyBhbmQgb3RoZXIgbWV0aG9kcyBmb3IgdHJhaW5pbmcgbGFyZ2Utc2NhbGUgdmlzaW9uLWxhbmd1YWdlIG1vZGVscyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJJcyBEUE8gU3VwZXJpb3IgdG8gUFBPIGZvciBMTE0gQWxpZ25tZW50PyBBIENvbXByZWhlbnNpdmUgU3R1ZHkiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjEwNzE5djEiLCJzbmlwcGV0IjoiRFBPIG1heSBub3QgYmUgc3VwZXJpb3IgdG8gUFBPLiBEUE8gcGVyZm9ybXMgcG9vcmx5LCBwcm9kdWNpbmcgb25seSBhIDU1LjQgJSA1NS40XFwlIHNhZmV0eSByYXRlIGFuZCBsb3cgaGVscGZ1bG5lc3MgcmV3YXJkLiIsImRhdGUiOiJBcHIgMTYsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkRpcmVjdCBQcmVmZXJlbmNlIE9wdGltaXphdGlvbjogWW91ciBMYW5ndWFnZSBNb2RlbCBpcyBTZWNyZXRseSBhIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNS4xODI5MCIsInNuaXBwZXQiOiJPdXIgZXhwZXJpbWVudHMgc2hvdyB0aGF0IERQTyBjYW4gZmluZS10dW5lIExNcyB0byBhbGlnbiB3aXRoIGh1bWFuIHByZWZlcmVuY2VzIGFzIHdlbGwgYXMgb3IgYmV0dGVyIHRoYW4gZXhpc3RpbmcgbWV0aG9kcy4iLCJkYXRlIjoiTWF5IDI5LCAyMDIzIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJVbnBhY2tpbmcgRFBPIGFuZCBQUE86IERpc2VudGFuZ2xpbmcgQmVzdCBQcmFjdGljZXMgZm9yIExlYXJuaW5nIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMDkyNzl2MSIsInNuaXBwZXQiOiJQUE8gb3V0cGVyZm9ybXMgRFBPIGJ5IHVwIHRvIDIuNSUgaW4gbWF0aCBhbmQgMS4yJSBpbiBnZW5lcmFsIGRvbWFpbnMuIEhpZ2gtcXVhbGl0eSBwcmVmZXJlbmNlIGRhdGEgbGVhZHMgdG8gaW1wcm92ZW1lbnRzIG9mIHVwIHRvIDglIGluIGluc3RydWN0aW9uIiwiZGF0ZSI6Ikp1biAxMywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gRGlyZWN0IFByZWZlcmVuY2UgT3B0aW1pemF0aW9uOiBZb3VyIExhbmd1YWdlIE1vZGVsIGlzIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA1LjE4MjkwIiwic25pcHBldCI6Ik91ciBleHBlcmltZW50cyBzaG93IHRoYXQgRFBPIGlzIGF0IGxlYXN0IGFzIGVmZmVjdGl2ZSBhcyBleGlzdGluZyBtZXRob2RzLCBpbmNsdWRpbmcgUFBPLWJhc2VkIFJMSEYsIGZvciBsZWFybmluZyBmcm9tIHByZWZlcmVuY2VzIGluIHRhc2tzIHN1Y2ggYXMgc2VudGltZW50IC4uLiIsImRhdGUiOiJKdWwgMjksIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlVzaW5nIEh1bWFuIEZlZWRiYWNrIHRvIEZpbmUtdHVuZSBEaWZmdXNpb24gTW9kZWxzIHdpdGhvdXQgQW55IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMTMyMzF2MyIsInNuaXBwZXQiOiJUaGUgZGlyZWN0IHByZWZlcmVuY2Ugb3B0aW1pemF0aW9uIChEUE8pIG1ldGhvZCwgZWZmZWN0aXZlIGluIGZpbmUtdHVuaW5nIGxhcmdlIGxhbmd1YWdlIG1vZGVscywgZWxpbWluYXRlcyB0aGUgbmVjZXNzaXR5IGZvciBhIHJld2FyZCBtb2RlbC4iLCJkYXRlIjoiTWFyIDIzLCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJtRFBPOiBDb25kaXRpb25hbCBQcmVmZXJlbmNlIE9wdGltaXphdGlvbiBmb3IgTXVsdGltb2RhbCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTE4Mzl2MiIsInNuaXBwZXQiOiJSZWNlbnQgc3R1ZGllcyBoYXZlIGZvdW5kIGluY29uc2lzdGVudCBpbXByb3ZlbWVudHMgaW4gbW9kZWwgY2FwYWJpbGl0aWVzIHdoZW4gYXBwbHlpbmcgRFBPIHRvIG11bHRpbW9kYWwgTExNcywgb2Z0ZW4gYXR0cmlidXRpbmcgdGhpcyBpc3N1ZSB0byB0aGUgcXVhbGl0eSBvZiAuLi4iLCJkYXRlIjoiSnVuIDE3LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJBbGlnbmluZyBQcmVmZXJlbmNlIHdpdGggRGVub2lzaW5nIFBlcmZvcm1hbmNlIGF0IEVhY2ggU3RlcCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4wNDMxNHYxIiwic25pcHBldCI6IldlIGlsbHVzdHJhdGUgdGhlIGNvbXBhcmlzb24gcmVzdWx0cyB3aXRoIEREUE8sIEQzUE8sIGFuZCBEaWZmdXNpb24tRFBPIGJhc2VkIG9uIFNELTEuNSBpbiBUYWJsZSAyLiBXZSBjb25jbHVkZSB0aGF0IG91ciBTUE8gYWNoaWV2ZXMgdGhlIGJlc3QgcGVyZm9ybWFuY2UgLi4uIiwiZGF0ZSI6Ikp1biA2LCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJDb250aW51YWwgTGVhcm5pbmcgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjE2Nzg5djIiLCJzbmlwcGV0IjoiVmVydGljYWxseSwgaXQgY2FuIGJlIHJvdWdobHkgZGl2aWRlZCBpbnRvIHRocmVlIHN0YWdlcyBvZiBjb250aW51YWwgdHJhaW5pbmcgTExNcywgYW5kIHdlIHdpbGwgcHJlc2VudCBhIG9uZS1ieS1vbmUgc3VydmV5IG9mIGVhY2ggc3RhZ2UgaW4gU2VjdGlvbiA0LiBJbiAuLi4iLCJkYXRlIjoiQXByIDI1LCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJUaGUgVWx0aW1hdGUgR3VpZGUgdG8gRmluZS1UdW5pbmcgTExNcyBmcm9tIEJhc2ljcyB0byBCcmVha3Rocm91Z2hzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOC4xMzI5NnYxIiwic25pcHBldCI6IlRoaXMgZmlndXJlIGlsbHVzdHJhdGVzIHRoZSBEaXJlY3QgUHJlZmVyZW5jZSBPcHRpbWlzYXRpb24gKERQTykgdGVjaG5pcXVlIHVzZWQgaW4gZmluZS10dW5pbmcgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzLiBUaGUgcHJvY2VzcyBiZWdpbnMgd2l0aCBwcmVmZXJlbmNlIC4uLiIsImRhdGUiOiJBdWcgMjMsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkxhcmdlIExhbmd1YWdlIE1vZGVsczogQSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDYxOTZ2MiIsInNuaXBwZXQiOiJDb21wYXJlZCB0byBQTE1zIHJldmlld2VkIGFib3ZlLCBMTE1zIGFyZSBub3Qgb25seSBtdWNoIGxhcmdlciBpbiBtb2RlbCBzaXplLCBidXQgYWxzbyBleGhpYml0IHN0cm9uZ2VyIGxhbmd1YWdlIHVuZGVyc3RhbmRpbmcgYW5kIGdlbmVyYXRpb24gYW5kIGVtZXJnZW50IC4uLiIsImRhdGUiOiJGZWIgMjAsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "91dc36cb2a8304b00c6c0e91ed763a5d1861379485ec7675458e13b6c3601284",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Comparative studies on DPO and other methods for training large-scale vision-language models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study",
+                "link": "https://arxiv.org/html/2404.10719v1",
+                "snippet": "DPO may not be superior to PPO. DPO performs poorly, producing only a 55.4 % 55.4\\% safety rate and low helpfulness reward.",
+                "date": "Apr 16, 2024",
+                "position": 1
+              },
+              {
+                "title": "Direct Preference Optimization: Your Language Model is Secretly a ...",
+                "link": "https://arxiv.org/abs/2305.18290",
+                "snippet": "Our experiments show that DPO can fine-tune LMs to align with human preferences as well as or better than existing methods.",
+                "date": "May 29, 2023",
+                "position": 2
+              },
+              {
+                "title": "Unpacking DPO and PPO: Disentangling Best Practices for Learning ...",
+                "link": "https://arxiv.org/html/2406.09279v1",
+                "snippet": "PPO outperforms DPO by up to 2.5% in math and 1.2% in general domains. High-quality preference data leads to improvements of up to 8% in instruction",
+                "date": "Jun 13, 2024",
+                "position": 3
+              },
+              {
+                "title": "[PDF] Direct Preference Optimization: Your Language Model is ... - arXiv",
+                "link": "https://arxiv.org/pdf/2305.18290",
+                "snippet": "Our experiments show that DPO is at least as effective as existing methods, including PPO-based RLHF, for learning from preferences in tasks such as sentiment ...",
+                "date": "Jul 29, 2024",
+                "position": 4
+              },
+              {
+                "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+                "link": "https://arxiv.org/html/2311.13231v3",
+                "snippet": "The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model.",
+                "date": "Mar 23, 2024",
+                "position": 5
+              },
+              {
+                "title": "mDPO: Conditional Preference Optimization for Multimodal ... - arXiv",
+                "link": "https://arxiv.org/html/2406.11839v2",
+                "snippet": "Recent studies have found inconsistent improvements in model capabilities when applying DPO to multimodal LLMs, often attributing this issue to the quality of ...",
+                "date": "Jun 17, 2024",
+                "position": 6
+              },
+              {
+                "title": "Aligning Preference with Denoising Performance at Each Step - arXiv",
+                "link": "https://arxiv.org/html/2406.04314v1",
+                "snippet": "We illustrate the comparison results with DDPO, D3PO, and Diffusion-DPO based on SD-1.5 in Table 2. We conclude that our SPO achieves the best performance ...",
+                "date": "Jun 6, 2024",
+                "position": 7
+              },
+              {
+                "title": "Continual Learning of Large Language Models - arXiv",
+                "link": "https://arxiv.org/html/2404.16789v2",
+                "snippet": "Vertically, it can be roughly divided into three stages of continual training LLMs, and we will present a one-by-one survey of each stage in Section 4. In ...",
+                "date": "Apr 25, 2024",
+                "position": 8
+              },
+              {
+                "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+                "link": "https://arxiv.org/html/2408.13296v1",
+                "snippet": "This figure illustrates the Direct Preference Optimisation (DPO) technique used in fine-tuning large language models. The process begins with preference ...",
+                "date": "Aug 23, 2024",
+                "position": 9
+              },
+              {
+                "title": "Large Language Models: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2402.06196v2",
+                "snippet": "Compared to PLMs reviewed above, LLMs are not only much larger in model size, but also exhibit stronger language understanding and generation and emergent ...",
+                "date": "Feb 20, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:39.397730+00:00",
+          "elapsed_seconds": 1.2607943713665009
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2305.18290",
+        "2311.13231",
+        "2402.06196",
+        "2404.10719",
+        "2404.16789",
+        "2406.04314",
+        "2406.09279",
+        "2406.11839",
+        "2408.13296"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2404.10719",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2404.10719v1",
+          "title": "Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study",
+          "snippet": "DPO may not be superior to PPO. DPO performs poorly, producing only a 55.4 % 55.4\\% safety rate and low helpfulness reward."
+        },
+        {
+          "arxiv_id": "2305.18290",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2305.18290",
+          "title": "Direct Preference Optimization: Your Language Model is Secretly a ...",
+          "snippet": "Our experiments show that DPO can fine-tune LMs to align with human preferences as well as or better than existing methods."
+        },
+        {
+          "arxiv_id": "2406.09279",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2406.09279v1",
+          "title": "Unpacking DPO and PPO: Disentangling Best Practices for Learning ...",
+          "snippet": "PPO outperforms DPO by up to 2.5% in math and 1.2% in general domains. High-quality preference data leads to improvements of up to 8% in instruction"
+        },
+        {
+          "arxiv_id": "2305.18290",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2305.18290",
+          "title": "[PDF] Direct Preference Optimization: Your Language Model is ... - arXiv",
+          "snippet": "Our experiments show that DPO is at least as effective as existing methods, including PPO-based RLHF, for learning from preferences in tasks such as sentiment ..."
+        },
+        {
+          "arxiv_id": "2311.13231",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2311.13231v3",
+          "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+          "snippet": "The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model."
+        },
+        {
+          "arxiv_id": "2406.11839",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2406.11839v2",
+          "title": "mDPO: Conditional Preference Optimization for Multimodal ... - arXiv",
+          "snippet": "Recent studies have found inconsistent improvements in model capabilities when applying DPO to multimodal LLMs, often attributing this issue to the quality of ..."
+        },
+        {
+          "arxiv_id": "2406.04314",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2406.04314v1",
+          "title": "Aligning Preference with Denoising Performance at Each Step - arXiv",
+          "snippet": "We illustrate the comparison results with DDPO, D3PO, and Diffusion-DPO based on SD-1.5 in Table 2. We conclude that our SPO achieves the best performance ..."
+        },
+        {
+          "arxiv_id": "2404.16789",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2404.16789v2",
+          "title": "Continual Learning of Large Language Models - arXiv",
+          "snippet": "Vertically, it can be roughly divided into three stages of continual training LLMs, and we will present a one-by-one survey of each stage in Section 4. In ..."
+        },
+        {
+          "arxiv_id": "2408.13296",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2408.13296v1",
+          "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+          "snippet": "This figure illustrates the Direct Preference Optimisation (DPO) technique used in fine-tuning large language models. The process begins with preference ..."
+        },
+        {
+          "arxiv_id": "2402.06196",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2402.06196v2",
+          "title": "Large Language Models: A Survey - arXiv",
+          "snippet": "Compared to PLMs reviewed above, LLMs are not only much larger in model size, but also exhibit stronger language understanding and generation and emergent ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Comparative studies on DPO and other methods for training large-scale vision-language models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Application of DPO in large-scale vision-language model training",
+      "attempts": [
+        {
+          "global_attempt_sequence": 189,
+          "query_id": "Q31",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Application of DPO in large-scale vision-language model training",
+          "request_payload": {
+            "q": "Application of DPO in large-scale vision-language model training before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q31_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:28:39.581203+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Application of DPO in large-scale vision-language model training before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"CLIP-DPO: Vision-Language Models as a Source of Preference for ...\",\"link\":\"https://arxiv.org/html/2408.10433v1\",\"snippet\":\"To address this and improve their robustness, we present CLIP-DPO, a preference optimization method that leverages contrastively pre-trained Vision-Language (VL) ...\",\"date\":\"Aug 19, 2024\",\"position\":1},{\"title\":\"Using Human Feedback to Fine-tune Diffusion Models without Any ...\",\"link\":\"https://arxiv.org/html/2311.13231v3\",\"snippet\":\"The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model.\",\"date\":\"Mar 23, 2024\",\"position\":2},{\"title\":\"mDPO: Conditional Preference Optimization for Multimodal ... - arXiv\",\"link\":\"https://arxiv.org/html/2406.11839v2\",\"snippet\":\"Direct preference optimization (DPO) has shown to be an effective method for large language model (LLM) mDPO outperforms standard DPO in multimodal scenarios, ...\",\"date\":\"Jun 17, 2024\",\"position\":3},{\"title\":\"Vision Language Models in Autonomous Driving: A Survey and ...\",\"link\":\"https://arxiv.org/html/2310.14414v2\",\"snippet\":\"Training large vision language models for autonomous driving not only requires large-scale data from the internet but also some sensitive data\",\"date\":\"Jun 20, 2024\",\"position\":4},{\"title\":\"Building and better understanding vision-language models - arXiv\",\"link\":\"https://arxiv.org/html/2408.12637v1\",\"snippet\":\"The primary goal of pre-training is to align the backbone models and train the newly initialized parameters in the model. This is achieved using large-scale ...\",\"date\":\"Aug 22, 2024\",\"position\":5},{\"title\":\"Detecting and Preventing Hallucinations in Large Vision Language ...\",\"link\":\"https://arxiv.org/html/2308.06394v3\",\"snippet\":\"InstructBLIP can be optimized using Fine-grained DPO (FDPO) using the M-HalDetect dataset to reduce hallucination rates by 41%.\",\"date\":\"Feb 11, 2024\",\"position\":6},{\"title\":\"Continual Learning of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.16789v2\",\"snippet\":\"Continual Pre-Training (CPT), involves continuous pre-training of LLMs by the supplier on newly-collected data alongside existing data (Section 4.1).\",\"date\":\"Apr 25, 2024\",\"position\":7},{\"title\":\"Are Vision Language Models Texture or Shape Biased and Can We ...\",\"link\":\"https://arxiv.org/html/2403.09193v1\",\"snippet\":\"Vision language models (VLMs) new applications from zero-shot image classification, over to image captioning, and visual question answering.\",\"date\":\"Mar 14, 2024\",\"position\":8},{\"title\":\"The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs\",\"link\":\"https://arxiv.org/html/2408.13296v1\",\"snippet\":\"Fine-tuning a Large Language Model (LLM) starts with adapting the pre-trained model for specific tasks by updating its parameters using a new dataset. This ...\",\"date\":\"Aug 23, 2024\",\"position\":9},{\"title\":\"Phi-3 Technical Report: A Highly Capable Language Model ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.14219v3\",\"snippet\":\"We use DPO to steer the model away from unwanted behavior, by using those outputs as “rejected” responses. Besides improvement in math, coding, reasoning, ...\",\"date\":\"May 23, 2024\",\"sitelinks\":[{\"title\":\"Phi-3 Technical Report\",\"link\":\"https://arxiv.org/html/2404.14219v3#:~:text=2024-,Phi%2D3%20Technical%20Report%3A\"},{\"title\":\"2 Technical Specifications\",\"link\":\"https://arxiv.org/html/2404.14219v3#:~:text=2%20Technical%20Specifications,-The%20phi%2D3%2D\"},{\"title\":\"6 Phi-3-Vision\",\"link\":\"https://arxiv.org/html/2404.14219v3#:~:text=.-,6%20Phi%2D3%2DVision\"}],\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBcHBsaWNhdGlvbiBvZiBEUE8gaW4gbGFyZ2Utc2NhbGUgdmlzaW9uLWxhbmd1YWdlIG1vZGVsIHRyYWluaW5nIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkNMSVAtRFBPOiBWaXNpb24tTGFuZ3VhZ2UgTW9kZWxzIGFzIGEgU291cmNlIG9mIFByZWZlcmVuY2UgZm9yIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTA0MzN2MSIsInNuaXBwZXQiOiJUbyBhZGRyZXNzIHRoaXMgYW5kIGltcHJvdmUgdGhlaXIgcm9idXN0bmVzcywgd2UgcHJlc2VudCBDTElQLURQTywgYSBwcmVmZXJlbmNlIG9wdGltaXphdGlvbiBtZXRob2QgdGhhdCBsZXZlcmFnZXMgY29udHJhc3RpdmVseSBwcmUtdHJhaW5lZCBWaXNpb24tTGFuZ3VhZ2UgKFZMKSAuLi4iLCJkYXRlIjoiQXVnIDE5LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJVc2luZyBIdW1hbiBGZWVkYmFjayB0byBGaW5lLXR1bmUgRGlmZnVzaW9uIE1vZGVscyB3aXRob3V0IEFueSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjEzMjMxdjMiLCJzbmlwcGV0IjoiVGhlIGRpcmVjdCBwcmVmZXJlbmNlIG9wdGltaXphdGlvbiAoRFBPKSBtZXRob2QsIGVmZmVjdGl2ZSBpbiBmaW5lLXR1bmluZyBsYXJnZSBsYW5ndWFnZSBtb2RlbHMsIGVsaW1pbmF0ZXMgdGhlIG5lY2Vzc2l0eSBmb3IgYSByZXdhcmQgbW9kZWwuIiwiZGF0ZSI6Ik1hciAyMywgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoibURQTzogQ29uZGl0aW9uYWwgUHJlZmVyZW5jZSBPcHRpbWl6YXRpb24gZm9yIE11bHRpbW9kYWwgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjExODM5djIiLCJzbmlwcGV0IjoiRGlyZWN0IHByZWZlcmVuY2Ugb3B0aW1pemF0aW9uIChEUE8pIGhhcyBzaG93biB0byBiZSBhbiBlZmZlY3RpdmUgbWV0aG9kIGZvciBsYXJnZSBsYW5ndWFnZSBtb2RlbCAoTExNKSBtRFBPIG91dHBlcmZvcm1zIHN0YW5kYXJkIERQTyBpbiBtdWx0aW1vZGFsIHNjZW5hcmlvcywgLi4uIiwiZGF0ZSI6Ikp1biAxNywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiVmlzaW9uIExhbmd1YWdlIE1vZGVscyBpbiBBdXRvbm9tb3VzIERyaXZpbmc6IEEgU3VydmV5IGFuZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEwLjE0NDE0djIiLCJzbmlwcGV0IjoiVHJhaW5pbmcgbGFyZ2UgdmlzaW9uIGxhbmd1YWdlIG1vZGVscyBmb3IgYXV0b25vbW91cyBkcml2aW5nIG5vdCBvbmx5IHJlcXVpcmVzIGxhcmdlLXNjYWxlIGRhdGEgZnJvbSB0aGUgaW50ZXJuZXQgYnV0IGFsc28gc29tZSBzZW5zaXRpdmUgZGF0YSIsImRhdGUiOiJKdW4gMjAsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkJ1aWxkaW5nIGFuZCBiZXR0ZXIgdW5kZXJzdGFuZGluZyB2aXNpb24tbGFuZ3VhZ2UgbW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjEyNjM3djEiLCJzbmlwcGV0IjoiVGhlIHByaW1hcnkgZ29hbCBvZiBwcmUtdHJhaW5pbmcgaXMgdG8gYWxpZ24gdGhlIGJhY2tib25lIG1vZGVscyBhbmQgdHJhaW4gdGhlIG5ld2x5IGluaXRpYWxpemVkIHBhcmFtZXRlcnMgaW4gdGhlIG1vZGVsLiBUaGlzIGlzIGFjaGlldmVkIHVzaW5nIGxhcmdlLXNjYWxlIC4uLiIsImRhdGUiOiJBdWcgMjIsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkRldGVjdGluZyBhbmQgUHJldmVudGluZyBIYWxsdWNpbmF0aW9ucyBpbiBMYXJnZSBWaXNpb24gTGFuZ3VhZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4wNjM5NHYzIiwic25pcHBldCI6Ikluc3RydWN0QkxJUCBjYW4gYmUgb3B0aW1pemVkIHVzaW5nIEZpbmUtZ3JhaW5lZCBEUE8gKEZEUE8pIHVzaW5nIHRoZSBNLUhhbERldGVjdCBkYXRhc2V0IHRvIHJlZHVjZSBoYWxsdWNpbmF0aW9uIHJhdGVzIGJ5IDQxJS4iLCJkYXRlIjoiRmViIDExLCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJDb250aW51YWwgTGVhcm5pbmcgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjE2Nzg5djIiLCJzbmlwcGV0IjoiQ29udGludWFsIFByZS1UcmFpbmluZyAoQ1BUKSwgaW52b2x2ZXMgY29udGludW91cyBwcmUtdHJhaW5pbmcgb2YgTExNcyBieSB0aGUgc3VwcGxpZXIgb24gbmV3bHktY29sbGVjdGVkIGRhdGEgYWxvbmdzaWRlIGV4aXN0aW5nIGRhdGEgKFNlY3Rpb24gNC4xKS4iLCJkYXRlIjoiQXByIDI1LCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJBcmUgVmlzaW9uIExhbmd1YWdlIE1vZGVscyBUZXh0dXJlIG9yIFNoYXBlIEJpYXNlZCBhbmQgQ2FuIFdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMDkxOTN2MSIsInNuaXBwZXQiOiJWaXNpb24gbGFuZ3VhZ2UgbW9kZWxzIChWTE1zKSBuZXcgYXBwbGljYXRpb25zIGZyb20gemVyby1zaG90IGltYWdlIGNsYXNzaWZpY2F0aW9uLCBvdmVyIHRvIGltYWdlIGNhcHRpb25pbmcsIGFuZCB2aXN1YWwgcXVlc3Rpb24gYW5zd2VyaW5nLiIsImRhdGUiOiJNYXIgMTQsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IlRoZSBVbHRpbWF0ZSBHdWlkZSB0byBGaW5lLVR1bmluZyBMTE1zIGZyb20gQmFzaWNzIHRvIEJyZWFrdGhyb3VnaHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjEzMjk2djEiLCJzbmlwcGV0IjoiRmluZS10dW5pbmcgYSBMYXJnZSBMYW5ndWFnZSBNb2RlbCAoTExNKSBzdGFydHMgd2l0aCBhZGFwdGluZyB0aGUgcHJlLXRyYWluZWQgbW9kZWwgZm9yIHNwZWNpZmljIHRhc2tzIGJ5IHVwZGF0aW5nIGl0cyBwYXJhbWV0ZXJzIHVzaW5nIGEgbmV3IGRhdGFzZXQuIFRoaXMgLi4uIiwiZGF0ZSI6IkF1ZyAyMywgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiUGhpLTMgVGVjaG5pY2FsIFJlcG9ydDogQSBIaWdobHkgQ2FwYWJsZSBMYW5ndWFnZSBNb2RlbCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMTQyMTl2MyIsInNuaXBwZXQiOiJXZSB1c2UgRFBPIHRvIHN0ZWVyIHRoZSBtb2RlbCBhd2F5IGZyb20gdW53YW50ZWQgYmVoYXZpb3IsIGJ5IHVzaW5nIHRob3NlIG91dHB1dHMgYXMg4oCccmVqZWN0ZWTigJ0gcmVzcG9uc2VzLiBCZXNpZGVzIGltcHJvdmVtZW50IGluIG1hdGgsIGNvZGluZywgcmVhc29uaW5nLCAuLi4iLCJkYXRlIjoiTWF5IDIzLCAyMDI0Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IlBoaS0zIFRlY2huaWNhbCBSZXBvcnQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjE0MjE5djMjOn46dGV4dD0yMDI0LSxQaGklMkQzJTIwVGVjaG5pY2FsJTIwUmVwb3J0JTNBIn0seyJ0aXRsZSI6IjIgVGVjaG5pY2FsIFNwZWNpZmljYXRpb25zIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4xNDIxOXYzIzp+OnRleHQ9MiUyMFRlY2huaWNhbCUyMFNwZWNpZmljYXRpb25zLC1UaGUlMjBwaGklMkQzJTJEIn0seyJ0aXRsZSI6IjYgUGhpLTMtVmlzaW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4xNDIxOXYzIzp+OnRleHQ9Li0sNiUyMFBoaSUyRDMlMkRWaXNpb24ifV0sInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "2a1a505f81fc13af112427a877c310b16a2e61f33c28115d4a5f309a4f442450",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Application of DPO in large-scale vision-language model training before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "CLIP-DPO: Vision-Language Models as a Source of Preference for ...",
+                "link": "https://arxiv.org/html/2408.10433v1",
+                "snippet": "To address this and improve their robustness, we present CLIP-DPO, a preference optimization method that leverages contrastively pre-trained Vision-Language (VL) ...",
+                "date": "Aug 19, 2024",
+                "position": 1
+              },
+              {
+                "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+                "link": "https://arxiv.org/html/2311.13231v3",
+                "snippet": "The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model.",
+                "date": "Mar 23, 2024",
+                "position": 2
+              },
+              {
+                "title": "mDPO: Conditional Preference Optimization for Multimodal ... - arXiv",
+                "link": "https://arxiv.org/html/2406.11839v2",
+                "snippet": "Direct preference optimization (DPO) has shown to be an effective method for large language model (LLM) mDPO outperforms standard DPO in multimodal scenarios, ...",
+                "date": "Jun 17, 2024",
+                "position": 3
+              },
+              {
+                "title": "Vision Language Models in Autonomous Driving: A Survey and ...",
+                "link": "https://arxiv.org/html/2310.14414v2",
+                "snippet": "Training large vision language models for autonomous driving not only requires large-scale data from the internet but also some sensitive data",
+                "date": "Jun 20, 2024",
+                "position": 4
+              },
+              {
+                "title": "Building and better understanding vision-language models - arXiv",
+                "link": "https://arxiv.org/html/2408.12637v1",
+                "snippet": "The primary goal of pre-training is to align the backbone models and train the newly initialized parameters in the model. This is achieved using large-scale ...",
+                "date": "Aug 22, 2024",
+                "position": 5
+              },
+              {
+                "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+                "link": "https://arxiv.org/html/2308.06394v3",
+                "snippet": "InstructBLIP can be optimized using Fine-grained DPO (FDPO) using the M-HalDetect dataset to reduce hallucination rates by 41%.",
+                "date": "Feb 11, 2024",
+                "position": 6
+              },
+              {
+                "title": "Continual Learning of Large Language Models - arXiv",
+                "link": "https://arxiv.org/html/2404.16789v2",
+                "snippet": "Continual Pre-Training (CPT), involves continuous pre-training of LLMs by the supplier on newly-collected data alongside existing data (Section 4.1).",
+                "date": "Apr 25, 2024",
+                "position": 7
+              },
+              {
+                "title": "Are Vision Language Models Texture or Shape Biased and Can We ...",
+                "link": "https://arxiv.org/html/2403.09193v1",
+                "snippet": "Vision language models (VLMs) new applications from zero-shot image classification, over to image captioning, and visual question answering.",
+                "date": "Mar 14, 2024",
+                "position": 8
+              },
+              {
+                "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+                "link": "https://arxiv.org/html/2408.13296v1",
+                "snippet": "Fine-tuning a Large Language Model (LLM) starts with adapting the pre-trained model for specific tasks by updating its parameters using a new dataset. This ...",
+                "date": "Aug 23, 2024",
+                "position": 9
+              },
+              {
+                "title": "Phi-3 Technical Report: A Highly Capable Language Model ... - arXiv",
+                "link": "https://arxiv.org/html/2404.14219v3",
+                "snippet": "We use DPO to steer the model away from unwanted behavior, by using those outputs as “rejected” responses. Besides improvement in math, coding, reasoning, ...",
+                "date": "May 23, 2024",
+                "sitelinks": [
+                  {
+                    "title": "Phi-3 Technical Report",
+                    "link": "https://arxiv.org/html/2404.14219v3#:~:text=2024-,Phi%2D3%20Technical%20Report%3A"
+                  },
+                  {
+                    "title": "2 Technical Specifications",
+                    "link": "https://arxiv.org/html/2404.14219v3#:~:text=2%20Technical%20Specifications,-The%20phi%2D3%2D"
+                  },
+                  {
+                    "title": "6 Phi-3-Vision",
+                    "link": "https://arxiv.org/html/2404.14219v3#:~:text=.-,6%20Phi%2D3%2DVision"
+                  }
+                ],
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:40.526859+00:00",
+          "elapsed_seconds": 0.9456526599824429
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2308.06394",
+        "2310.14414",
+        "2311.13231",
+        "2403.09193",
+        "2404.14219",
+        "2404.16789",
+        "2406.11839",
+        "2408.10433",
+        "2408.12637",
+        "2408.13296"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2408.10433",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2408.10433v1",
+          "title": "CLIP-DPO: Vision-Language Models as a Source of Preference for ...",
+          "snippet": "To address this and improve their robustness, we present CLIP-DPO, a preference optimization method that leverages contrastively pre-trained Vision-Language (VL) ..."
+        },
+        {
+          "arxiv_id": "2311.13231",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2311.13231v3",
+          "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+          "snippet": "The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model."
+        },
+        {
+          "arxiv_id": "2406.11839",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2406.11839v2",
+          "title": "mDPO: Conditional Preference Optimization for Multimodal ... - arXiv",
+          "snippet": "Direct preference optimization (DPO) has shown to be an effective method for large language model (LLM) mDPO outperforms standard DPO in multimodal scenarios, ..."
+        },
+        {
+          "arxiv_id": "2310.14414",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2310.14414v2",
+          "title": "Vision Language Models in Autonomous Driving: A Survey and ...",
+          "snippet": "Training large vision language models for autonomous driving not only requires large-scale data from the internet but also some sensitive data"
+        },
+        {
+          "arxiv_id": "2408.12637",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2408.12637v1",
+          "title": "Building and better understanding vision-language models - arXiv",
+          "snippet": "The primary goal of pre-training is to align the backbone models and train the newly initialized parameters in the model. This is achieved using large-scale ..."
+        },
+        {
+          "arxiv_id": "2308.06394",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2308.06394v3",
+          "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+          "snippet": "InstructBLIP can be optimized using Fine-grained DPO (FDPO) using the M-HalDetect dataset to reduce hallucination rates by 41%."
+        },
+        {
+          "arxiv_id": "2404.16789",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2404.16789v2",
+          "title": "Continual Learning of Large Language Models - arXiv",
+          "snippet": "Continual Pre-Training (CPT), involves continuous pre-training of LLMs by the supplier on newly-collected data alongside existing data (Section 4.1)."
+        },
+        {
+          "arxiv_id": "2403.09193",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2403.09193v1",
+          "title": "Are Vision Language Models Texture or Shape Biased and Can We ...",
+          "snippet": "Vision language models (VLMs) new applications from zero-shot image classification, over to image captioning, and visual question answering."
+        },
+        {
+          "arxiv_id": "2408.13296",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2408.13296v1",
+          "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+          "snippet": "Fine-tuning a Large Language Model (LLM) starts with adapting the pre-trained model for specific tasks by updating its parameters using a new dataset. This ..."
+        },
+        {
+          "arxiv_id": "2404.14219",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2404.14219v3",
+          "title": "Phi-3 Technical Report: A Highly Capable Language Model ... - arXiv",
+          "snippet": "We use DPO to steer the model away from unwanted behavior, by using those outputs as “rejected” responses. Besides improvement in math, coding, reasoning, ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Application of DPO in large-scale vision-language model training before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Challenges in DPO training for large-scale vision-language models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 191,
+          "query_id": "Q31",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Challenges in DPO training for large-scale vision-language models",
+          "request_payload": {
+            "q": "Challenges in DPO training for large-scale vision-language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q31_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:28:42.067693+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Challenges in DPO training for large-scale vision-language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"mDPO: Conditional Preference Optimization for Multimodal ... - arXiv\",\"link\":\"https://arxiv.org/html/2406.11839v2\",\"snippet\":\"Recent studies have found inconsistent improvements in model capabilities when applying DPO to multimodal LLMs, often attributing this issue to the quality of ...\",\"date\":\"Jun 17, 2024\",\"position\":1},{\"title\":\"Continual Learning of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.16789v2\",\"snippet\":\"... challenges in LLMs remains an open question. For instance, during large-scale continual pre-training, large institutions can typically afford the storage ...\",\"date\":\"Apr 25, 2024\",\"position\":2},{\"title\":\"Using Human Feedback to Fine-tune Diffusion Models without Any ...\",\"link\":\"https://arxiv.org/html/2311.13231v3\",\"snippet\":\"The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model.\",\"date\":\"Mar 23, 2024\",\"position\":3},{\"title\":\"The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs\",\"link\":\"https://arxiv.org/html/2408.13296v1\",\"snippet\":\"The main chapters include an in-depth look at the fine-tuning pipeline, practical applications, model alignment, evaluation metrics, and challenges.\",\"date\":\"Aug 23, 2024\",\"position\":4},{\"title\":\"Factuality of Large Language Models in the Year 2024 - arXiv\",\"link\":\"https://arxiv.org/html/2402.02420v2\",\"snippet\":\"Large language models , the task becomes increasingly challenging with the expansion of dataset scale and the growing demand for linguistic diversity.\",\"date\":\"Feb 9, 2024\",\"position\":5},{\"title\":\"[PDF] Fixing Failure Modes of Preference Optimisation with DPO-Positive\",\"link\":\"https://arxiv.org/pdf/2402.13228\",\"snippet\":\"Direct Preference Optimisation (DPO) is effective at significantly improving the performance of large language models (LLMs) on downstream tasks such as ...\",\"date\":\"Jul 3, 2024\",\"position\":6},{\"title\":\"KwaiYiiMath: Technical Report - arXiv\",\"link\":\"https://arxiv.org/html/2310.07488v2\",\"snippet\":\"By pre-training on large-scale corpora with language modeling objective, LLMs can acquire essential language understanding and generation abilities Brown et al.\",\"date\":\"Oct 11, 2023\",\"position\":7},{\"title\":\"Exploring Autonomous Agents through the Lens of Large Language ...\",\"link\":\"https://arxiv.org/html/2404.04442v1\",\"snippet\":\"However, they face challenges such as multimodality, human value alignment, hallucinations, and evaluation. Techniques like prompting, reasoning, tool ...\",\"date\":\"Apr 5, 2024\",\"position\":8},{\"title\":\"Best Practices and Lessons Learned on Synthetic Data for ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.07503v1\",\"snippet\":\"These cases demonstrate that synthetic data, if not applied correctly, can actually increase hallucinations in language models. On the other hand, recent work ...\",\"date\":\"Apr 11, 2024\",\"position\":9},{\"title\":\"Building and better understanding vision-language models - arXiv\",\"link\":\"https://arxiv.org/html/2408.12637v1\",\"snippet\":\"Training VLMs typically occurs in multiple stages, primarily due to (a) the limited availability of high-quality data at scale, (b) memory constraints for ...\",\"date\":\"Aug 22, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDaGFsbGVuZ2VzIGluIERQTyB0cmFpbmluZyBmb3IgbGFyZ2Utc2NhbGUgdmlzaW9uLWxhbmd1YWdlIG1vZGVscyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJtRFBPOiBDb25kaXRpb25hbCBQcmVmZXJlbmNlIE9wdGltaXphdGlvbiBmb3IgTXVsdGltb2RhbCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTE4Mzl2MiIsInNuaXBwZXQiOiJSZWNlbnQgc3R1ZGllcyBoYXZlIGZvdW5kIGluY29uc2lzdGVudCBpbXByb3ZlbWVudHMgaW4gbW9kZWwgY2FwYWJpbGl0aWVzIHdoZW4gYXBwbHlpbmcgRFBPIHRvIG11bHRpbW9kYWwgTExNcywgb2Z0ZW4gYXR0cmlidXRpbmcgdGhpcyBpc3N1ZSB0byB0aGUgcXVhbGl0eSBvZiAuLi4iLCJkYXRlIjoiSnVuIDE3LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJDb250aW51YWwgTGVhcm5pbmcgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjE2Nzg5djIiLCJzbmlwcGV0IjoiLi4uIGNoYWxsZW5nZXMgaW4gTExNcyByZW1haW5zIGFuIG9wZW4gcXVlc3Rpb24uIEZvciBpbnN0YW5jZSwgZHVyaW5nIGxhcmdlLXNjYWxlIGNvbnRpbnVhbCBwcmUtdHJhaW5pbmcsIGxhcmdlIGluc3RpdHV0aW9ucyBjYW4gdHlwaWNhbGx5IGFmZm9yZCB0aGUgc3RvcmFnZSAuLi4iLCJkYXRlIjoiQXByIDI1LCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJVc2luZyBIdW1hbiBGZWVkYmFjayB0byBGaW5lLXR1bmUgRGlmZnVzaW9uIE1vZGVscyB3aXRob3V0IEFueSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjEzMjMxdjMiLCJzbmlwcGV0IjoiVGhlIGRpcmVjdCBwcmVmZXJlbmNlIG9wdGltaXphdGlvbiAoRFBPKSBtZXRob2QsIGVmZmVjdGl2ZSBpbiBmaW5lLXR1bmluZyBsYXJnZSBsYW5ndWFnZSBtb2RlbHMsIGVsaW1pbmF0ZXMgdGhlIG5lY2Vzc2l0eSBmb3IgYSByZXdhcmQgbW9kZWwuIiwiZGF0ZSI6Ik1hciAyMywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiVGhlIFVsdGltYXRlIEd1aWRlIHRvIEZpbmUtVHVuaW5nIExMTXMgZnJvbSBCYXNpY3MgdG8gQnJlYWt0aHJvdWdocyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTMyOTZ2MSIsInNuaXBwZXQiOiJUaGUgbWFpbiBjaGFwdGVycyBpbmNsdWRlIGFuIGluLWRlcHRoIGxvb2sgYXQgdGhlIGZpbmUtdHVuaW5nIHBpcGVsaW5lLCBwcmFjdGljYWwgYXBwbGljYXRpb25zLCBtb2RlbCBhbGlnbm1lbnQsIGV2YWx1YXRpb24gbWV0cmljcywgYW5kIGNoYWxsZW5nZXMuIiwiZGF0ZSI6IkF1ZyAyMywgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiRmFjdHVhbGl0eSBvZiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgaW4gdGhlIFllYXIgMjAyNCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wMjQyMHYyIiwic25pcHBldCI6IkxhcmdlIGxhbmd1YWdlIG1vZGVscyAsIHRoZSB0YXNrIGJlY29tZXMgaW5jcmVhc2luZ2x5IGNoYWxsZW5naW5nIHdpdGggdGhlIGV4cGFuc2lvbiBvZiBkYXRhc2V0IHNjYWxlIGFuZCB0aGUgZ3Jvd2luZyBkZW1hbmQgZm9yIGxpbmd1aXN0aWMgZGl2ZXJzaXR5LiIsImRhdGUiOiJGZWIgOSwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiW1BERl0gRml4aW5nIEZhaWx1cmUgTW9kZXMgb2YgUHJlZmVyZW5jZSBPcHRpbWlzYXRpb24gd2l0aCBEUE8tUG9zaXRpdmUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDIuMTMyMjgiLCJzbmlwcGV0IjoiRGlyZWN0IFByZWZlcmVuY2UgT3B0aW1pc2F0aW9uIChEUE8pIGlzIGVmZmVjdGl2ZSBhdCBzaWduaWZpY2FudGx5IGltcHJvdmluZyB0aGUgcGVyZm9ybWFuY2Ugb2YgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSBvbiBkb3duc3RyZWFtIHRhc2tzIHN1Y2ggYXMgLi4uIiwiZGF0ZSI6Ikp1bCAzLCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJLd2FpWWlpTWF0aDogVGVjaG5pY2FsIFJlcG9ydCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMC4wNzQ4OHYyIiwic25pcHBldCI6IkJ5IHByZS10cmFpbmluZyBvbiBsYXJnZS1zY2FsZSBjb3Jwb3JhIHdpdGggbGFuZ3VhZ2UgbW9kZWxpbmcgb2JqZWN0aXZlLCBMTE1zIGNhbiBhY3F1aXJlIGVzc2VudGlhbCBsYW5ndWFnZSB1bmRlcnN0YW5kaW5nIGFuZCBnZW5lcmF0aW9uIGFiaWxpdGllcyBCcm93biBldCBhbC4iLCJkYXRlIjoiT2N0IDExLCAyMDIzIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJFeHBsb3JpbmcgQXV0b25vbW91cyBBZ2VudHMgdGhyb3VnaCB0aGUgTGVucyBvZiBMYXJnZSBMYW5ndWFnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjA0NDQydjEiLCJzbmlwcGV0IjoiSG93ZXZlciwgdGhleSBmYWNlIGNoYWxsZW5nZXMgc3VjaCBhcyBtdWx0aW1vZGFsaXR5LCBodW1hbiB2YWx1ZSBhbGlnbm1lbnQsIGhhbGx1Y2luYXRpb25zLCBhbmQgZXZhbHVhdGlvbi4gVGVjaG5pcXVlcyBsaWtlIHByb21wdGluZywgcmVhc29uaW5nLCB0b29sIC4uLiIsImRhdGUiOiJBcHIgNSwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiQmVzdCBQcmFjdGljZXMgYW5kIExlc3NvbnMgTGVhcm5lZCBvbiBTeW50aGV0aWMgRGF0YSBmb3IgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjA3NTAzdjEiLCJzbmlwcGV0IjoiVGhlc2UgY2FzZXMgZGVtb25zdHJhdGUgdGhhdCBzeW50aGV0aWMgZGF0YSwgaWYgbm90IGFwcGxpZWQgY29ycmVjdGx5LCBjYW4gYWN0dWFsbHkgaW5jcmVhc2UgaGFsbHVjaW5hdGlvbnMgaW4gbGFuZ3VhZ2UgbW9kZWxzLiBPbiB0aGUgb3RoZXIgaGFuZCwgcmVjZW50IHdvcmsgLi4uIiwiZGF0ZSI6IkFwciAxMSwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiQnVpbGRpbmcgYW5kIGJldHRlciB1bmRlcnN0YW5kaW5nIHZpc2lvbi1sYW5ndWFnZSBtb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTI2Mzd2MSIsInNuaXBwZXQiOiJUcmFpbmluZyBWTE1zIHR5cGljYWxseSBvY2N1cnMgaW4gbXVsdGlwbGUgc3RhZ2VzLCBwcmltYXJpbHkgZHVlIHRvIChhKSB0aGUgbGltaXRlZCBhdmFpbGFiaWxpdHkgb2YgaGlnaC1xdWFsaXR5IGRhdGEgYXQgc2NhbGUsIChiKSBtZW1vcnkgY29uc3RyYWludHMgZm9yIC4uLiIsImRhdGUiOiJBdWcgMjIsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "ff0d4ac6191ed1a29759a94c7b98340d223c77e3b1feb99b269d09512981b10b",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Challenges in DPO training for large-scale vision-language models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "mDPO: Conditional Preference Optimization for Multimodal ... - arXiv",
+                "link": "https://arxiv.org/html/2406.11839v2",
+                "snippet": "Recent studies have found inconsistent improvements in model capabilities when applying DPO to multimodal LLMs, often attributing this issue to the quality of ...",
+                "date": "Jun 17, 2024",
+                "position": 1
+              },
+              {
+                "title": "Continual Learning of Large Language Models - arXiv",
+                "link": "https://arxiv.org/html/2404.16789v2",
+                "snippet": "... challenges in LLMs remains an open question. For instance, during large-scale continual pre-training, large institutions can typically afford the storage ...",
+                "date": "Apr 25, 2024",
+                "position": 2
+              },
+              {
+                "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+                "link": "https://arxiv.org/html/2311.13231v3",
+                "snippet": "The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model.",
+                "date": "Mar 23, 2024",
+                "position": 3
+              },
+              {
+                "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+                "link": "https://arxiv.org/html/2408.13296v1",
+                "snippet": "The main chapters include an in-depth look at the fine-tuning pipeline, practical applications, model alignment, evaluation metrics, and challenges.",
+                "date": "Aug 23, 2024",
+                "position": 4
+              },
+              {
+                "title": "Factuality of Large Language Models in the Year 2024 - arXiv",
+                "link": "https://arxiv.org/html/2402.02420v2",
+                "snippet": "Large language models , the task becomes increasingly challenging with the expansion of dataset scale and the growing demand for linguistic diversity.",
+                "date": "Feb 9, 2024",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Fixing Failure Modes of Preference Optimisation with DPO-Positive",
+                "link": "https://arxiv.org/pdf/2402.13228",
+                "snippet": "Direct Preference Optimisation (DPO) is effective at significantly improving the performance of large language models (LLMs) on downstream tasks such as ...",
+                "date": "Jul 3, 2024",
+                "position": 6
+              },
+              {
+                "title": "KwaiYiiMath: Technical Report - arXiv",
+                "link": "https://arxiv.org/html/2310.07488v2",
+                "snippet": "By pre-training on large-scale corpora with language modeling objective, LLMs can acquire essential language understanding and generation abilities Brown et al.",
+                "date": "Oct 11, 2023",
+                "position": 7
+              },
+              {
+                "title": "Exploring Autonomous Agents through the Lens of Large Language ...",
+                "link": "https://arxiv.org/html/2404.04442v1",
+                "snippet": "However, they face challenges such as multimodality, human value alignment, hallucinations, and evaluation. Techniques like prompting, reasoning, tool ...",
+                "date": "Apr 5, 2024",
+                "position": 8
+              },
+              {
+                "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+                "link": "https://arxiv.org/html/2404.07503v1",
+                "snippet": "These cases demonstrate that synthetic data, if not applied correctly, can actually increase hallucinations in language models. On the other hand, recent work ...",
+                "date": "Apr 11, 2024",
+                "position": 9
+              },
+              {
+                "title": "Building and better understanding vision-language models - arXiv",
+                "link": "https://arxiv.org/html/2408.12637v1",
+                "snippet": "Training VLMs typically occurs in multiple stages, primarily due to (a) the limited availability of high-quality data at scale, (b) memory constraints for ...",
+                "date": "Aug 22, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:43.793193+00:00",
+          "elapsed_seconds": 1.7254992872476578
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2310.07488",
+        "2311.13231",
+        "2402.02420",
+        "2402.13228",
+        "2404.04442",
+        "2404.07503",
+        "2404.16789",
+        "2406.11839",
+        "2408.12637",
+        "2408.13296"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2406.11839",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2406.11839v2",
+          "title": "mDPO: Conditional Preference Optimization for Multimodal ... - arXiv",
+          "snippet": "Recent studies have found inconsistent improvements in model capabilities when applying DPO to multimodal LLMs, often attributing this issue to the quality of ..."
+        },
+        {
+          "arxiv_id": "2404.16789",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2404.16789v2",
+          "title": "Continual Learning of Large Language Models - arXiv",
+          "snippet": "... challenges in LLMs remains an open question. For instance, during large-scale continual pre-training, large institutions can typically afford the storage ..."
+        },
+        {
+          "arxiv_id": "2311.13231",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2311.13231v3",
+          "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+          "snippet": "The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model."
+        },
+        {
+          "arxiv_id": "2408.13296",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2408.13296v1",
+          "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+          "snippet": "The main chapters include an in-depth look at the fine-tuning pipeline, practical applications, model alignment, evaluation metrics, and challenges."
+        },
+        {
+          "arxiv_id": "2402.02420",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2402.02420v2",
+          "title": "Factuality of Large Language Models in the Year 2024 - arXiv",
+          "snippet": "Large language models , the task becomes increasingly challenging with the expansion of dataset scale and the growing demand for linguistic diversity."
+        },
+        {
+          "arxiv_id": "2402.13228",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2402.13228",
+          "title": "[PDF] Fixing Failure Modes of Preference Optimisation with DPO-Positive",
+          "snippet": "Direct Preference Optimisation (DPO) is effective at significantly improving the performance of large language models (LLMs) on downstream tasks such as ..."
+        },
+        {
+          "arxiv_id": "2310.07488",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2310.07488v2",
+          "title": "KwaiYiiMath: Technical Report - arXiv",
+          "snippet": "By pre-training on large-scale corpora with language modeling objective, LLMs can acquire essential language understanding and generation abilities Brown et al."
+        },
+        {
+          "arxiv_id": "2404.04442",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2404.04442v1",
+          "title": "Exploring Autonomous Agents through the Lens of Large Language ...",
+          "snippet": "However, they face challenges such as multimodality, human value alignment, hallucinations, and evaluation. Techniques like prompting, reasoning, tool ..."
+        },
+        {
+          "arxiv_id": "2404.07503",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2404.07503v1",
+          "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+          "snippet": "These cases demonstrate that synthetic data, if not applied correctly, can actually increase hallucinations in language models. On the other hand, recent work ..."
+        },
+        {
+          "arxiv_id": "2408.12637",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2408.12637v1",
+          "title": "Building and better understanding vision-language models - arXiv",
+          "snippet": "Training VLMs typically occurs in multiple stages, primarily due to (a) the limited availability of high-quality data at scale, (b) memory constraints for ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Challenges in DPO training for large-scale vision-language models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "DPO training for large-scale vision-language models.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 190,
+          "query_id": "Q31",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "DPO training for large-scale vision-language models.",
+          "request_payload": {
+            "q": "DPO training for large-scale vision-language models. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q31_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:28:40.711436+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"DPO training for large-scale vision-language models. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"CLIP-DPO: Vision-Language Models as a Source of Preference for ...\",\"link\":\"https://arxiv.org/html/2408.10433v1\",\"snippet\":\"CLIP-DPO, a preference optimization method that leverages contrastively pre-trained Vision-Language (VL) embedding models, such as CLIP, for DPO-based ...\",\"date\":\"Aug 19, 2024\",\"position\":1},{\"title\":\"Direct Preference Optimization of Video Large Multimodal Models ...\",\"link\":\"https://arxiv.org/html/2404.01258v1\",\"snippet\":\"We demonstrate the effective application of DPO to improve model performance by leveraging the language model feedback as reward, which substantially improves ...\",\"date\":\"Apr 1, 2024\",\"position\":2},{\"title\":\"Using Human Feedback to Fine-tune Diffusion Models without Any ...\",\"link\":\"https://arxiv.org/html/2311.13231v3\",\"snippet\":\"The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model.\",\"date\":\"Mar 23, 2024\",\"position\":3},{\"title\":\"mDPO: Conditional Preference Optimization for Multimodal ... - arXiv\",\"link\":\"https://arxiv.org/html/2406.11839v2\",\"snippet\":\"Direct preference optimization (DPO) has shown to be an effective method for large language model (LLM) alignment. Recent works have attempted to apply DPO to ...\",\"date\":\"Jun 17, 2024\",\"position\":4},{\"title\":\"Continual Learning of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.16789v2\",\"snippet\":\"LLM training can be vertically divided into three stages: (i) Continual Pre-Training (CPT), (ii) Domain-Adaptive Pre-training (DAP), and (iii) Continual Fine- ...\",\"date\":\"Apr 25, 2024\",\"position\":5},{\"title\":\"Building and better understanding vision-language models - arXiv\",\"link\":\"https://arxiv.org/html/2408.12637v1\",\"snippet\":\"The primary goal of pre-training is to align the backbone models and train the newly initialized parameters in the model. This is achieved using large-scale ...\",\"date\":\"Aug 22, 2024\",\"position\":6},{\"title\":\"Aligning Preference with Denoising Performance at Each Step - arXiv\",\"link\":\"https://arxiv.org/html/2406.04314v1\",\"snippet\":\"Direct Preference Optimization (DPO) has extended its success from aligning large language models (LLMs) to aligning text-to-image diffusion models with human ...\",\"date\":\"Jun 6, 2024\",\"position\":7},{\"title\":\"The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs\",\"link\":\"https://arxiv.org/html/2408.13296v1\",\"snippet\":\"This technical report thoroughly examines the process of fine-tuning Large Language Models (LLMs), integrating theoretical insights and practical applications.\",\"date\":\"Aug 23, 2024\",\"position\":8},{\"title\":\"[PDF] Fixing Failure Modes of Preference Optimisation with DPO-Positive\",\"link\":\"https://arxiv.org/pdf/2402.13228\",\"snippet\":\"Direct Preference Optimisation (DPO) is effective at significantly improving the performance of large language models (LLMs) on downstream tasks such as ...\",\"date\":\"Jul 3, 2024\",\"position\":9},{\"title\":\"Factuality of Large Language Models in the Year 2024 - arXiv\",\"link\":\"https://arxiv.org/html/2402.02420v2\",\"snippet\":\"An auto-regressive LLM is trained from scratch with a retrieval module that is practically scalable to large-scale pre-training by retrieving billions of tokens ...\",\"date\":\"Feb 9, 2024\",\"sitelinks\":[{\"title\":\"1 Introduction\",\"link\":\"https://arxiv.org/html/2402.02420v2#:~:text=1%20Introduction,-Large%20language%20models%20%28LLMs\"},{\"title\":\"3 Evaluating Factuality\",\"link\":\"https://arxiv.org/html/2402.02420v2#:~:text=3%20Evaluating%20Factuality,-Evaluating%20LLM%20factuality%20on%20open\"},{\"title\":\"4 Improving Factuality\",\"link\":\"https://arxiv.org/html/2402.02420v2#:~:text=4%20Improving%20Factuality,-Improving%20the%20factuality%20of%20an\"}],\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJEUE8gdHJhaW5pbmcgZm9yIGxhcmdlLXNjYWxlIHZpc2lvbi1sYW5ndWFnZSBtb2RlbHMuIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkNMSVAtRFBPOiBWaXNpb24tTGFuZ3VhZ2UgTW9kZWxzIGFzIGEgU291cmNlIG9mIFByZWZlcmVuY2UgZm9yIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTA0MzN2MSIsInNuaXBwZXQiOiJDTElQLURQTywgYSBwcmVmZXJlbmNlIG9wdGltaXphdGlvbiBtZXRob2QgdGhhdCBsZXZlcmFnZXMgY29udHJhc3RpdmVseSBwcmUtdHJhaW5lZCBWaXNpb24tTGFuZ3VhZ2UgKFZMKSBlbWJlZGRpbmcgbW9kZWxzLCBzdWNoIGFzIENMSVAsIGZvciBEUE8tYmFzZWQgLi4uIiwiZGF0ZSI6IkF1ZyAxOSwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiRGlyZWN0IFByZWZlcmVuY2UgT3B0aW1pemF0aW9uIG9mIFZpZGVvIExhcmdlIE11bHRpbW9kYWwgTW9kZWxzIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMDEyNTh2MSIsInNuaXBwZXQiOiJXZSBkZW1vbnN0cmF0ZSB0aGUgZWZmZWN0aXZlIGFwcGxpY2F0aW9uIG9mIERQTyB0byBpbXByb3ZlIG1vZGVsIHBlcmZvcm1hbmNlIGJ5IGxldmVyYWdpbmcgdGhlIGxhbmd1YWdlIG1vZGVsIGZlZWRiYWNrIGFzIHJld2FyZCwgd2hpY2ggc3Vic3RhbnRpYWxseSBpbXByb3ZlcyAuLi4iLCJkYXRlIjoiQXByIDEsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlVzaW5nIEh1bWFuIEZlZWRiYWNrIHRvIEZpbmUtdHVuZSBEaWZmdXNpb24gTW9kZWxzIHdpdGhvdXQgQW55IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMTMyMzF2MyIsInNuaXBwZXQiOiJUaGUgZGlyZWN0IHByZWZlcmVuY2Ugb3B0aW1pemF0aW9uIChEUE8pIG1ldGhvZCwgZWZmZWN0aXZlIGluIGZpbmUtdHVuaW5nIGxhcmdlIGxhbmd1YWdlIG1vZGVscywgZWxpbWluYXRlcyB0aGUgbmVjZXNzaXR5IGZvciBhIHJld2FyZCBtb2RlbC4iLCJkYXRlIjoiTWFyIDIzLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJtRFBPOiBDb25kaXRpb25hbCBQcmVmZXJlbmNlIE9wdGltaXphdGlvbiBmb3IgTXVsdGltb2RhbCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTE4Mzl2MiIsInNuaXBwZXQiOiJEaXJlY3QgcHJlZmVyZW5jZSBvcHRpbWl6YXRpb24gKERQTykgaGFzIHNob3duIHRvIGJlIGFuIGVmZmVjdGl2ZSBtZXRob2QgZm9yIGxhcmdlIGxhbmd1YWdlIG1vZGVsIChMTE0pIGFsaWdubWVudC4gUmVjZW50IHdvcmtzIGhhdmUgYXR0ZW1wdGVkIHRvIGFwcGx5IERQTyB0byAuLi4iLCJkYXRlIjoiSnVuIDE3LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJDb250aW51YWwgTGVhcm5pbmcgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjE2Nzg5djIiLCJzbmlwcGV0IjoiTExNIHRyYWluaW5nIGNhbiBiZSB2ZXJ0aWNhbGx5IGRpdmlkZWQgaW50byB0aHJlZSBzdGFnZXM6IChpKSBDb250aW51YWwgUHJlLVRyYWluaW5nIChDUFQpLCAoaWkpIERvbWFpbi1BZGFwdGl2ZSBQcmUtdHJhaW5pbmcgKERBUCksIGFuZCAoaWlpKSBDb250aW51YWwgRmluZS0gLi4uIiwiZGF0ZSI6IkFwciAyNSwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiQnVpbGRpbmcgYW5kIGJldHRlciB1bmRlcnN0YW5kaW5nIHZpc2lvbi1sYW5ndWFnZSBtb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTI2Mzd2MSIsInNuaXBwZXQiOiJUaGUgcHJpbWFyeSBnb2FsIG9mIHByZS10cmFpbmluZyBpcyB0byBhbGlnbiB0aGUgYmFja2JvbmUgbW9kZWxzIGFuZCB0cmFpbiB0aGUgbmV3bHkgaW5pdGlhbGl6ZWQgcGFyYW1ldGVycyBpbiB0aGUgbW9kZWwuIFRoaXMgaXMgYWNoaWV2ZWQgdXNpbmcgbGFyZ2Utc2NhbGUgLi4uIiwiZGF0ZSI6IkF1ZyAyMiwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQWxpZ25pbmcgUHJlZmVyZW5jZSB3aXRoIERlbm9pc2luZyBQZXJmb3JtYW5jZSBhdCBFYWNoIFN0ZXAgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMDQzMTR2MSIsInNuaXBwZXQiOiJEaXJlY3QgUHJlZmVyZW5jZSBPcHRpbWl6YXRpb24gKERQTykgaGFzIGV4dGVuZGVkIGl0cyBzdWNjZXNzIGZyb20gYWxpZ25pbmcgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSB0byBhbGlnbmluZyB0ZXh0LXRvLWltYWdlIGRpZmZ1c2lvbiBtb2RlbHMgd2l0aCBodW1hbiAuLi4iLCJkYXRlIjoiSnVuIDYsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlRoZSBVbHRpbWF0ZSBHdWlkZSB0byBGaW5lLVR1bmluZyBMTE1zIGZyb20gQmFzaWNzIHRvIEJyZWFrdGhyb3VnaHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjEzMjk2djEiLCJzbmlwcGV0IjoiVGhpcyB0ZWNobmljYWwgcmVwb3J0IHRob3JvdWdobHkgZXhhbWluZXMgdGhlIHByb2Nlc3Mgb2YgZmluZS10dW5pbmcgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIChMTE1zKSwgaW50ZWdyYXRpbmcgdGhlb3JldGljYWwgaW5zaWdodHMgYW5kIHByYWN0aWNhbCBhcHBsaWNhdGlvbnMuIiwiZGF0ZSI6IkF1ZyAyMywgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gRml4aW5nIEZhaWx1cmUgTW9kZXMgb2YgUHJlZmVyZW5jZSBPcHRpbWlzYXRpb24gd2l0aCBEUE8tUG9zaXRpdmUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDIuMTMyMjgiLCJzbmlwcGV0IjoiRGlyZWN0IFByZWZlcmVuY2UgT3B0aW1pc2F0aW9uIChEUE8pIGlzIGVmZmVjdGl2ZSBhdCBzaWduaWZpY2FudGx5IGltcHJvdmluZyB0aGUgcGVyZm9ybWFuY2Ugb2YgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSBvbiBkb3duc3RyZWFtIHRhc2tzIHN1Y2ggYXMgLi4uIiwiZGF0ZSI6Ikp1bCAzLCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJGYWN0dWFsaXR5IG9mIExhcmdlIExhbmd1YWdlIE1vZGVscyBpbiB0aGUgWWVhciAyMDI0IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjAyNDIwdjIiLCJzbmlwcGV0IjoiQW4gYXV0by1yZWdyZXNzaXZlIExMTSBpcyB0cmFpbmVkIGZyb20gc2NyYXRjaCB3aXRoIGEgcmV0cmlldmFsIG1vZHVsZSB0aGF0IGlzIHByYWN0aWNhbGx5IHNjYWxhYmxlIHRvIGxhcmdlLXNjYWxlIHByZS10cmFpbmluZyBieSByZXRyaWV2aW5nIGJpbGxpb25zIG9mIHRva2VucyAuLi4iLCJkYXRlIjoiRmViIDksIDIwMjQiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiMSBJbnRyb2R1Y3Rpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjAyNDIwdjIjOn46dGV4dD0xJTIwSW50cm9kdWN0aW9uLC1MYXJnZSUyMGxhbmd1YWdlJTIwbW9kZWxzJTIwJTI4TExNcyJ9LHsidGl0bGUiOiIzIEV2YWx1YXRpbmcgRmFjdHVhbGl0eSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDI0MjB2MiM6fjp0ZXh0PTMlMjBFdmFsdWF0aW5nJTIwRmFjdHVhbGl0eSwtRXZhbHVhdGluZyUyMExMTSUyMGZhY3R1YWxpdHklMjBvbiUyMG9wZW4ifSx7InRpdGxlIjoiNCBJbXByb3ZpbmcgRmFjdHVhbGl0eSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDI0MjB2MiM6fjp0ZXh0PTQlMjBJbXByb3ZpbmclMjBGYWN0dWFsaXR5LC1JbXByb3ZpbmclMjB0aGUlMjBmYWN0dWFsaXR5JTIwb2YlMjBhbiJ9XSwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "ec3335f4d5be016ebab1970d52ae9651f2f092a56e41781353b4038ee62c5445",
+          "structured_response": {
+            "searchParameters": {
+              "q": "DPO training for large-scale vision-language models. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "CLIP-DPO: Vision-Language Models as a Source of Preference for ...",
+                "link": "https://arxiv.org/html/2408.10433v1",
+                "snippet": "CLIP-DPO, a preference optimization method that leverages contrastively pre-trained Vision-Language (VL) embedding models, such as CLIP, for DPO-based ...",
+                "date": "Aug 19, 2024",
+                "position": 1
+              },
+              {
+                "title": "Direct Preference Optimization of Video Large Multimodal Models ...",
+                "link": "https://arxiv.org/html/2404.01258v1",
+                "snippet": "We demonstrate the effective application of DPO to improve model performance by leveraging the language model feedback as reward, which substantially improves ...",
+                "date": "Apr 1, 2024",
+                "position": 2
+              },
+              {
+                "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+                "link": "https://arxiv.org/html/2311.13231v3",
+                "snippet": "The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model.",
+                "date": "Mar 23, 2024",
+                "position": 3
+              },
+              {
+                "title": "mDPO: Conditional Preference Optimization for Multimodal ... - arXiv",
+                "link": "https://arxiv.org/html/2406.11839v2",
+                "snippet": "Direct preference optimization (DPO) has shown to be an effective method for large language model (LLM) alignment. Recent works have attempted to apply DPO to ...",
+                "date": "Jun 17, 2024",
+                "position": 4
+              },
+              {
+                "title": "Continual Learning of Large Language Models - arXiv",
+                "link": "https://arxiv.org/html/2404.16789v2",
+                "snippet": "LLM training can be vertically divided into three stages: (i) Continual Pre-Training (CPT), (ii) Domain-Adaptive Pre-training (DAP), and (iii) Continual Fine- ...",
+                "date": "Apr 25, 2024",
+                "position": 5
+              },
+              {
+                "title": "Building and better understanding vision-language models - arXiv",
+                "link": "https://arxiv.org/html/2408.12637v1",
+                "snippet": "The primary goal of pre-training is to align the backbone models and train the newly initialized parameters in the model. This is achieved using large-scale ...",
+                "date": "Aug 22, 2024",
+                "position": 6
+              },
+              {
+                "title": "Aligning Preference with Denoising Performance at Each Step - arXiv",
+                "link": "https://arxiv.org/html/2406.04314v1",
+                "snippet": "Direct Preference Optimization (DPO) has extended its success from aligning large language models (LLMs) to aligning text-to-image diffusion models with human ...",
+                "date": "Jun 6, 2024",
+                "position": 7
+              },
+              {
+                "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+                "link": "https://arxiv.org/html/2408.13296v1",
+                "snippet": "This technical report thoroughly examines the process of fine-tuning Large Language Models (LLMs), integrating theoretical insights and practical applications.",
+                "date": "Aug 23, 2024",
+                "position": 8
+              },
+              {
+                "title": "[PDF] Fixing Failure Modes of Preference Optimisation with DPO-Positive",
+                "link": "https://arxiv.org/pdf/2402.13228",
+                "snippet": "Direct Preference Optimisation (DPO) is effective at significantly improving the performance of large language models (LLMs) on downstream tasks such as ...",
+                "date": "Jul 3, 2024",
+                "position": 9
+              },
+              {
+                "title": "Factuality of Large Language Models in the Year 2024 - arXiv",
+                "link": "https://arxiv.org/html/2402.02420v2",
+                "snippet": "An auto-regressive LLM is trained from scratch with a retrieval module that is practically scalable to large-scale pre-training by retrieving billions of tokens ...",
+                "date": "Feb 9, 2024",
+                "sitelinks": [
+                  {
+                    "title": "1 Introduction",
+                    "link": "https://arxiv.org/html/2402.02420v2#:~:text=1%20Introduction,-Large%20language%20models%20%28LLMs"
+                  },
+                  {
+                    "title": "3 Evaluating Factuality",
+                    "link": "https://arxiv.org/html/2402.02420v2#:~:text=3%20Evaluating%20Factuality,-Evaluating%20LLM%20factuality%20on%20open"
+                  },
+                  {
+                    "title": "4 Improving Factuality",
+                    "link": "https://arxiv.org/html/2402.02420v2#:~:text=4%20Improving%20Factuality,-Improving%20the%20factuality%20of%20an"
+                  }
+                ],
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:41.882905+00:00",
+          "elapsed_seconds": 1.1714663244783878
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2311.13231",
+        "2402.02420",
+        "2402.13228",
+        "2404.01258",
+        "2404.16789",
+        "2406.04314",
+        "2406.11839",
+        "2408.10433",
+        "2408.12637",
+        "2408.13296"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2408.10433",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2408.10433v1",
+          "title": "CLIP-DPO: Vision-Language Models as a Source of Preference for ...",
+          "snippet": "CLIP-DPO, a preference optimization method that leverages contrastively pre-trained Vision-Language (VL) embedding models, such as CLIP, for DPO-based ..."
+        },
+        {
+          "arxiv_id": "2404.01258",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2404.01258v1",
+          "title": "Direct Preference Optimization of Video Large Multimodal Models ...",
+          "snippet": "We demonstrate the effective application of DPO to improve model performance by leveraging the language model feedback as reward, which substantially improves ..."
+        },
+        {
+          "arxiv_id": "2311.13231",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2311.13231v3",
+          "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+          "snippet": "The direct preference optimization (DPO) method, effective in fine-tuning large language models, eliminates the necessity for a reward model."
+        },
+        {
+          "arxiv_id": "2406.11839",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2406.11839v2",
+          "title": "mDPO: Conditional Preference Optimization for Multimodal ... - arXiv",
+          "snippet": "Direct preference optimization (DPO) has shown to be an effective method for large language model (LLM) alignment. Recent works have attempted to apply DPO to ..."
+        },
+        {
+          "arxiv_id": "2404.16789",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2404.16789v2",
+          "title": "Continual Learning of Large Language Models - arXiv",
+          "snippet": "LLM training can be vertically divided into three stages: (i) Continual Pre-Training (CPT), (ii) Domain-Adaptive Pre-training (DAP), and (iii) Continual Fine- ..."
+        },
+        {
+          "arxiv_id": "2408.12637",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2408.12637v1",
+          "title": "Building and better understanding vision-language models - arXiv",
+          "snippet": "The primary goal of pre-training is to align the backbone models and train the newly initialized parameters in the model. This is achieved using large-scale ..."
+        },
+        {
+          "arxiv_id": "2406.04314",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2406.04314v1",
+          "title": "Aligning Preference with Denoising Performance at Each Step - arXiv",
+          "snippet": "Direct Preference Optimization (DPO) has extended its success from aligning large language models (LLMs) to aligning text-to-image diffusion models with human ..."
+        },
+        {
+          "arxiv_id": "2408.13296",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2408.13296v1",
+          "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+          "snippet": "This technical report thoroughly examines the process of fine-tuning Large Language Models (LLMs), integrating theoretical insights and practical applications."
+        },
+        {
+          "arxiv_id": "2402.13228",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2402.13228",
+          "title": "[PDF] Fixing Failure Modes of Preference Optimisation with DPO-Positive",
+          "snippet": "Direct Preference Optimisation (DPO) is effective at significantly improving the performance of large language models (LLMs) on downstream tasks such as ..."
+        },
+        {
+          "arxiv_id": "2402.02420",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2402.02420v2",
+          "title": "Factuality of Large Language Models in the Year 2024 - arXiv",
+          "snippet": "An auto-regressive LLM is trained from scratch with a retrieval module that is practically scalable to large-scale pre-training by retrieving billions of tokens ..."
+        }
+      ],
+      "request_payload": {
+        "q": "DPO training for large-scale vision-language models. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "anchor",
+    "q5"
+  ]
+}

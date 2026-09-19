@@ -1,0 +1,208 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q31",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2007.02871",
+  "request_payload": {
+    "q": "Could you suggest a triplet-formatted structured dataset suitable for training table-to-text generation models? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 66,
+  "started_utc": "2026-09-17T12:34:39.479211+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1789648200",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "82aa1c84c268f92191c256cae0033d67",
+    "date": "Thu, 17 Sep 2026 12:30:01 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3902",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3902,
+  "response_bytes_sha256": "6b2976d27ef5a9c0506bce37d9d01babbfa1cb3243260871568f620729ea0c12",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb3VsZCB5b3Ugc3VnZ2VzdCBhIHRyaXBsZXQtZm9ybWF0dGVkIHN0cnVjdHVyZWQgZGF0YXNldCBzdWl0YWJsZSBmb3IgdHJhaW5pbmcgdGFibGUtdG8tdGV4dCBnZW5lcmF0aW9uIG1vZGVscz8gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiTExNIGRyaXZlbiBUZXh0LXRvLVRhYmxlIEdlbmVyYXRpb24gdGhyb3VnaCBTdWItVGFza3MgR3VpZGFuY2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwOC4wODY1M3YxIiwic25pcHBldCI6IldlIGRlbW9uc3RyYXRlZCB0aGF0IHRoaXMgc3RydWN0dXJlZCBndWlkYW5jZSBzaWduaWZpY2FudGx5IGltcHJvdmVzIG1vZGVsIHBlcmZvcm1hbmNlIGZvciB0ZXh0LXRvLXRhYmxlIGdlbmVyYXRpb24sIGNvbXBhcmVkIHRvIHN0YW5kYXJkIHByb21wdGluZyAuLi4iLCJkYXRlIjoiQXVnIDEyLCAyMDI1IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJUYWJsZSBhcyBhIE1vZGFsaXR5IGZvciBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MTIuMDA5NDd2MiIsInNuaXBwZXQiOiJFbXBpcmljYWwgcmVzdWx0cyBvbiB2YXJpb3VzIGJlbmNobWFya2luZyBkYXRhc2V0cywgaW5jbHVkaW5nIEhpVGFiLCBXaWtpVFEsIFdpa2lTUUwsIEZlVGFRQSwgYW5kIFN0cnVjdFFBLCBoYXZlIGRlbW9uc3RyYXRlZCBzaWduaWZpY2FudCBpbXByb3ZlbWVudHMgb24gLi4uIiwiZGF0ZSI6IkphbiA3LCAyMDI2IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJMYXJnZSBMYW5ndWFnZSBNb2RlbHMoTExNcykgb24gVGFidWxhciBEYXRhIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjE3OTQ0djIiLCJzbmlwcGV0IjoiU2luY2UgTExNcyBhcmUgc2VxdWVuY2UtdG8tc2VxdWVuY2UgbW9kZWxzLCBpbiBvcmRlciB0byBmZWVkIHRhYnVsYXIgZGF0YSBhcyBpbnB1dHMgaW50byBhbiBMTE0sIHdlIGhhdmUgdG8gY29udmVydCB0aGUgc3RydWN0dXJlZCB0YWJ1bGFyIGRhdGEgaW50byBhIHRleHQgLi4uIiwiZGF0ZSI6Ik1hciAxLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJUcmFuc2Zvcm1pbmcgRXh0ZXJuYWwgS25vd2xlZGdlIGludG8gVHJpcGxldHMgZm9yIEVuaGFuY2VkIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNC4xMjYxMHYxIiwic25pcHBldCI6IkV4cGVyaW1lbnRhbCByZXN1bHRzIGFjcm9zcyBtdWx0aXBsZSBiZW5jaG1hcmsgZGF0YXNldHMgZGVtb25zdHJhdGUgdGhhdCBUcmktUkFHIHNpZ25pZmljYW50bHkgaW1wcm92ZXMgcmV0cmlldmFsIHF1YWxpdHkgYW5kIHJlYXNvbmluZyBlZmZpY2llbmN5LCB3aGlsZSAuLi4iLCJkYXRlIjoiQXByIDE0LCAyMDI2IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJFeHBsb3JpbmcgdGhlIEltcGFjdCBvZiBUYWJsZS10by1UZXh0IE1ldGhvZHMgb24gQXVnbWVudGluZyBMTE0gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4xMjg2OXYyIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGFkZHJlc3MgdGhpcyByZXNlYXJjaCBnYXAgaW4gdHdvIHN0ZXBzLiBGaXJzdCwgd2UgaW5ub3ZhdGl2ZWx5IGludGVncmF0ZSB0YWJsZS10by10ZXh0IGdlbmVyYXRpb24gaW50byB0aGUgZnJhbWV3b3JrIG9mIGVuaGFuY2luZyBMTE0tYmFzZWQgUUEgLi4uIiwiZGF0ZSI6IkFwciA5LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJHUklUOiBUZWFjaGluZyBNTExNcyB0byBUaGluayB3aXRoIEltYWdlcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNS4xNTg3OXYxIiwic25pcHBldCI6IlRvIGRlbW9uc3RyYXRlIHRoZSBkYXRhIGVmZmljaWVuY3kgb2Ygb3VyIEdSSVQgbWV0aG9kLCB3ZSBjb2xsZWN0IGEgc21hbGwgdHJhaW5pbmcgZGF0YXNldCBjb25zaXN0aW5nIG9mIG9ubHkgMjAgdW5pcXVlIGltYWdlLXF1ZXJ5LWFuc3dlciB0cmlwbGV0cy4gVGhlc2UgLi4uIiwiZGF0ZSI6Ik1heSAyMSwgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjUwMS4xNDQ5N3YyIFtjcy5DTF0gMTQgRmViIDIwMjUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDEuMTQ0OTciLCJzbmlwcGV0IjoiSW4gdGhlIHBlcnNwZWN0aXZlIG9mIGZpbmUtdHVuaW5nIGZvciBpbXByb3ZpbmcgdGhlIHBlcmZvcm1hbmNlIG9mIGdyYXBoLXRvLXRleHQgZ2VuZXJhdGlvbiwgd2UgY29uc3RydWN0IFBsYW5HVEcgKFBsYW5uaW5nIGZvciBHcmFwaC10by1UZXh0LiBHZW5lcmF0aW9uKSwgYSAuLi4iLCJkYXRlIjoiRmViIDE0LCAyMDI1IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJSZXByZXNlbnRhdGlvbiBMZWFybmluZyBmb3IgVGFidWxhciBEYXRhOiBBIENvbXByZWhlbnNpdmUgU3VydmV5IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNC4xNjEwOXYxIiwic25pcHBldCI6IlRoZXNlIGdlbmVyYWwgbW9kZWxzIGNhbiBkaXJlY3RseSBhcHBseSB0aGVpciBsZWFybmVkIHJlcHJlc2VudGF0aW9ucyB0byBkb3duc3RyZWFtIHRhYnVsYXIgZGF0YXNldHMgd2l0aG91dCBhZGRpdGlvbmFsIGZpbmUtdHVuaW5nLCBhY2hpZXZpbmcgcm9idXN0IC4uLiIsImRhdGUiOiJBcHIgMTcsIDIwMjUiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIFRvd2FyZHMgRXhwbGFpbmFibGUgQ29udmVyc2F0aW9uYWwgUmVjb21tZW5kZXIgU3lzdGVtcyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4xODM2MyIsInNuaXBwZXQiOiJXZSBjb21wYXJlIHRyYWluaW5nLWJhc2VkIGFuZCBwcm9tcHQtYmFzZWQgYXBwcm9hY2hlcyB0byBwZXJmb3JtIGV4cGxhbmF0aW9uIGdlbmVyYXRpb24sIGkuZS4sIGdpdmVuIHRoZSBjb250ZXh0IGFuZCB0aGUgZ3JvdW5kLXRydXRoIHJlY29tbWVuZGVkIG1vdmllcyB0byAuLi4iLCJkYXRlIjoiTWF5IDI3LCAyMDIzIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJTdHJ1Y3R1cmVkIEVudGl0eSBFeHRyYWN0aW9uIFVzaW5nIExhcmdlIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNDQzN3YzIiwic25pcHBldCI6Ik91ciBtb2RlbCBkZWNvbXBvc2VzIHRoZSBlbnRpcmUgaW5mb3JtYXRpb24gZXh0cmFjdGlvbiB0YXNrIGludG8gbXVsdGlwbGUgc3RhZ2VzLCBlbmFibGluZyBwYXJhbGxlbCBwcmVkaWN0aW9ucyB3aXRoaW4gZWFjaCBzdGFnZSBmb3IgZW5oYW5jZWQgZm9jdXMgYW5kIC4uLiIsImRhdGUiOiJBcHIgMTcsIDIwMjQiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiMyBTdHJ1Y3R1cmVkIEVudGl0eS4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDQ0Mzd2MyM6fjp0ZXh0PTMlMjBTdHJ1Y3R1cmVkJTIwRW50aXR5JTIwRXh0cmFjdGlvbiwtSW4lMjB0aGlzJTIwc2VjdGlvbiUyQyUyMHdlIn0seyJ0aXRsZSI6IjYgUmVzdWx0cyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDQ0Mzd2MyM6fjp0ZXh0PTYlMjBSZXN1bHRzLC1JbiUyMHRoaXMlMjBzZWN0aW9uJTJDJTIwd2UifSx7InRpdGxlIjoiNi4xIFF1YW50aXRhdGl2ZSBFdmFsdWF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNDQzN3YzIzp+OnRleHQ9Ni4xJTIwUXVhbnRpdGF0aXZlJTIwRXZhbHVhdGlvbiwtVGFibGUlMjAxJTNBJTIwU3VtbWFyeSUyMG9mIn1dLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Could you suggest a triplet-formatted structured dataset suitable for training table-to-text generation models? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "LLM driven Text-to-Table Generation through Sub-Tasks Guidance ...",
+        "link": "https://arxiv.org/html/2508.08653v1",
+        "snippet": "We demonstrated that this structured guidance significantly improves model performance for text-to-table generation, compared to standard prompting ...",
+        "date": "Aug 12, 2025",
+        "position": 1
+      },
+      {
+        "title": "Table as a Modality for Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2512.00947v2",
+        "snippet": "Empirical results on various benchmarking datasets, including HiTab, WikiTQ, WikiSQL, FeTaQA, and StructQA, have demonstrated significant improvements on ...",
+        "date": "Jan 7, 2026",
+        "position": 2
+      },
+      {
+        "title": "Large Language Models(LLMs) on Tabular Data - arXiv",
+        "link": "https://arxiv.org/html/2402.17944v2",
+        "snippet": "Since LLMs are sequence-to-sequence models, in order to feed tabular data as inputs into an LLM, we have to convert the structured tabular data into a text ...",
+        "date": "Mar 1, 2024",
+        "position": 3
+      },
+      {
+        "title": "Transforming External Knowledge into Triplets for Enhanced ... - arXiv",
+        "link": "https://arxiv.org/html/2604.12610v1",
+        "snippet": "Experimental results across multiple benchmark datasets demonstrate that Tri-RAG significantly improves retrieval quality and reasoning efficiency, while ...",
+        "date": "Apr 14, 2026",
+        "position": 4
+      },
+      {
+        "title": "Exploring the Impact of Table-to-Text Methods on Augmenting LLM ...",
+        "link": "https://arxiv.org/html/2402.12869v2",
+        "snippet": "In this paper, we address this research gap in two steps. First, we innovatively integrate table-to-text generation into the framework of enhancing LLM-based QA ...",
+        "date": "Apr 9, 2024",
+        "position": 5
+      },
+      {
+        "title": "GRIT: Teaching MLLMs to Think with Images - arXiv",
+        "link": "https://arxiv.org/html/2505.15879v1",
+        "snippet": "To demonstrate the data efficiency of our GRIT method, we collect a small training dataset consisting of only 20 unique image-query-answer triplets. These ...",
+        "date": "May 21, 2025",
+        "position": 6
+      },
+      {
+        "title": "[PDF] arXiv:2501.14497v2 [cs.CL] 14 Feb 2025",
+        "link": "https://arxiv.org/pdf/2501.14497",
+        "snippet": "In the perspective of fine-tuning for improving the performance of graph-to-text generation, we construct PlanGTG (Planning for Graph-to-Text. Generation), a ...",
+        "date": "Feb 14, 2025",
+        "position": 7
+      },
+      {
+        "title": "Representation Learning for Tabular Data: A Comprehensive Survey",
+        "link": "https://arxiv.org/html/2504.16109v1",
+        "snippet": "These general models can directly apply their learned representations to downstream tabular datasets without additional fine-tuning, achieving robust ...",
+        "date": "Apr 17, 2025",
+        "position": 8
+      },
+      {
+        "title": "[PDF] Towards Explainable Conversational Recommender Systems",
+        "link": "https://arxiv.org/pdf/2305.18363",
+        "snippet": "We compare training-based and prompt-based approaches to perform explanation generation, i.e., given the context and the ground-truth recommended movies to ...",
+        "date": "May 27, 2023",
+        "position": 9
+      },
+      {
+        "title": "Structured Entity Extraction Using Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2402.04437v3",
+        "snippet": "Our model decomposes the entire information extraction task into multiple stages, enabling parallel predictions within each stage for enhanced focus and ...",
+        "date": "Apr 17, 2024",
+        "sitelinks": [
+          {
+            "title": "3 Structured Entity...",
+            "link": "https://arxiv.org/html/2402.04437v3#:~:text=3%20Structured%20Entity%20Extraction,-In%20this%20section%2C%20we"
+          },
+          {
+            "title": "6 Results",
+            "link": "https://arxiv.org/html/2402.04437v3#:~:text=6%20Results,-In%20this%20section%2C%20we"
+          },
+          {
+            "title": "6.1 Quantitative Evaluation",
+            "link": "https://arxiv.org/html/2402.04437v3#:~:text=6.1%20Quantitative%20Evaluation,-Table%201%3A%20Summary%20of"
+          }
+        ],
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "LLM driven Text-to-Table Generation through Sub-Tasks Guidance ...",
+      "snippet": "We demonstrated that this structured guidance significantly improves model performance for text-to-table generation, compared to standard prompting ...",
+      "link": "https://arxiv.org/html/2508.08653v1",
+      "arxiv_id": "2508.08653"
+    },
+    {
+      "rank": 2,
+      "title": "Table as a Modality for Large Language Models - arXiv",
+      "snippet": "Empirical results on various benchmarking datasets, including HiTab, WikiTQ, WikiSQL, FeTaQA, and StructQA, have demonstrated significant improvements on ...",
+      "link": "https://arxiv.org/html/2512.00947v2",
+      "arxiv_id": "2512.00947"
+    },
+    {
+      "rank": 3,
+      "title": "Large Language Models(LLMs) on Tabular Data - arXiv",
+      "snippet": "Since LLMs are sequence-to-sequence models, in order to feed tabular data as inputs into an LLM, we have to convert the structured tabular data into a text ...",
+      "link": "https://arxiv.org/html/2402.17944v2",
+      "arxiv_id": "2402.17944"
+    },
+    {
+      "rank": 4,
+      "title": "Transforming External Knowledge into Triplets for Enhanced ... - arXiv",
+      "snippet": "Experimental results across multiple benchmark datasets demonstrate that Tri-RAG significantly improves retrieval quality and reasoning efficiency, while ...",
+      "link": "https://arxiv.org/html/2604.12610v1",
+      "arxiv_id": "2604.12610"
+    },
+    {
+      "rank": 5,
+      "title": "Exploring the Impact of Table-to-Text Methods on Augmenting LLM ...",
+      "snippet": "In this paper, we address this research gap in two steps. First, we innovatively integrate table-to-text generation into the framework of enhancing LLM-based QA ...",
+      "link": "https://arxiv.org/html/2402.12869v2",
+      "arxiv_id": "2402.12869"
+    },
+    {
+      "rank": 6,
+      "title": "GRIT: Teaching MLLMs to Think with Images - arXiv",
+      "snippet": "To demonstrate the data efficiency of our GRIT method, we collect a small training dataset consisting of only 20 unique image-query-answer triplets. These ...",
+      "link": "https://arxiv.org/html/2505.15879v1",
+      "arxiv_id": "2505.15879"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] arXiv:2501.14497v2 [cs.CL] 14 Feb 2025",
+      "snippet": "In the perspective of fine-tuning for improving the performance of graph-to-text generation, we construct PlanGTG (Planning for Graph-to-Text. Generation), a ...",
+      "link": "https://arxiv.org/pdf/2501.14497",
+      "arxiv_id": "2501.14497"
+    },
+    {
+      "rank": 8,
+      "title": "Representation Learning for Tabular Data: A Comprehensive Survey",
+      "snippet": "These general models can directly apply their learned representations to downstream tabular datasets without additional fine-tuning, achieving robust ...",
+      "link": "https://arxiv.org/html/2504.16109v1",
+      "arxiv_id": "2504.16109"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] Towards Explainable Conversational Recommender Systems",
+      "snippet": "We compare training-based and prompt-based approaches to perform explanation generation, i.e., given the context and the ground-truth recommended movies to ...",
+      "link": "https://arxiv.org/pdf/2305.18363",
+      "arxiv_id": "2305.18363"
+    },
+    {
+      "rank": 10,
+      "title": "Structured Entity Extraction Using Large Language Models - arXiv",
+      "snippet": "Our model decomposes the entire information extraction task into multiple stages, enabling parallel predictions within each stage for enhanced focus and ...",
+      "link": "https://arxiv.org/html/2402.04437v3",
+      "arxiv_id": "2402.04437"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:41.603967+00:00",
+  "elapsed_seconds": 2.1247630268335342
+}

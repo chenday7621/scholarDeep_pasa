@@ -1,0 +1,104 @@
+{
+  "global_attempt_sequence": 214,
+  "query_id": "Q35",
+  "query_key": "anchor",
+  "attempt": 1,
+  "query_text": "Give me papers about LLM quantized pretraining.",
+  "request_payload": {
+    "q": "Give me papers about LLM quantized pretraining. before:2024-09-24 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q35_anchor_attempt1.json",
+  "started_utc": "2026-09-15T06:29:21.716881+00:00",
+  "http_status": 200,
+  "response_text": "{\"searchParameters\":{\"q\":\"Give me papers about LLM quantized pretraining. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Evaluating the Generalization Ability of Quantized LLMs - arXiv\",\"link\":\"https://arxiv.org/html/2406.12928v1\",\"snippet\":\"It's worth noting that in this paper, we consider applying quantization directly on the pretrained LLMs instead of performing quantization-aware finetuning for ...\",\"date\":\"Jun 15, 2024\",\"position\":1},{\"title\":\"[2305.14314] QLoRA: Efficient Finetuning of Quantized LLMs - arXiv\",\"link\":\"https://arxiv.org/abs/2305.14314\",\"snippet\":\"We present QLoRA, an efficient finetuning approach that reduces memory usage enough to finetune a 65B parameter model on a single 48GB GPU while preserving full ...\",\"date\":\"May 23, 2023\",\"position\":2},{\"title\":\"A Comprehensive Evaluation of Quantization Strategiesfor Large ...\",\"link\":\"https://arxiv.org/html/2402.16775v1\",\"snippet\":\"Our experimental results indicate that LLMs with 4-bit quantization can retain performance comparable to their non-quantized counterparts, and perplexity can ...\",\"date\":\"Feb 26, 2024\",\"position\":3},{\"title\":\"Surprising Effectiveness of Pretraining Ternary Language Models at ...\",\"link\":\"https://arxiv.org/abs/2407.12327\",\"snippet\":\"This paper addresses these challenges by investigating the pretraining of low-bitwidth models specifically Ternary Language Models (TriLMs)\",\"date\":\"Jul 17, 2024\",\"position\":4},{\"title\":\"A Comprehensive Evaluation of Quantized Instruction-Tuned Large ...\",\"link\":\"https://arxiv.org/html/2409.11055v1\",\"snippet\":\"This paper evaluates the performance of instruction-tuned LLMs across various quantization methods—GPTQ, AWQ, SmoothQuant, and FP8—on models ranging from 7B to ...\",\"date\":\"Sep 17, 2024\",\"position\":5},{\"title\":\"[2406.06385] Low-Rank Quantization-Aware Training for LLMs - arXiv\",\"link\":\"https://arxiv.org/abs/2406.06385\",\"snippet\":\"Quantization-aware training (QAT) methods, generally produce the best quantized performance, however it comes at the cost of potentially long training time ...\",\"date\":\"Jun 10, 2024\",\"position\":6},{\"title\":\"Evaluating Quantized Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2402.18158v2\",\"snippet\":\"In this paper, we focus on the effects of quantization techniques on LLMs. Many of our findings can help the industry and academia reduce the large carbon ...\",\"date\":\"Jun 6, 2024\",\"position\":7},{\"title\":\"Efficient and Accurate Transformer Pretraining with INT8 Data Flow ...\",\"link\":\"https://arxiv.org/html/2403.12422v1\",\"snippet\":\"Fully quantized training (FQT) is a promising approach to speed up pretraining. However, most FQT methods adopt a quantize-compute-dequantize procedure, which ...\",\"date\":\"Mar 19, 2024\",\"position\":8},{\"title\":\"[PDF] QLORA: Efficient Finetuning of Quantized LLMs - arXiv\",\"link\":\"https://arxiv.org/pdf/2305.14314\",\"snippet\":\"We present QLORA, an efficient finetuning approach that reduces memory us- age enough to finetune a 65B parameter model on a single 48GB GPU while.\",\"date\":\"May 23, 2023\",\"position\":9},{\"title\":\"SpQR: A Sparse-Quantized Representation for Near-Lossless LLM ...\",\"link\":\"https://arxiv.org/abs/2306.03078\",\"snippet\":\"Recent advances in large language model (LLM) pretraining have led to high-quality LLMs with impressive abilities. By compressing such LLMs via quantization to ...\",\"date\":\"Jun 5, 2023\",\"position\":10}],\"credits\":1}",
+  "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJHaXZlIG1lIHBhcGVycyBhYm91dCBMTE0gcXVhbnRpemVkIHByZXRyYWluaW5nLiBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJFdmFsdWF0aW5nIHRoZSBHZW5lcmFsaXphdGlvbiBBYmlsaXR5IG9mIFF1YW50aXplZCBMTE1zIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjEyOTI4djEiLCJzbmlwcGV0IjoiSXQncyB3b3J0aCBub3RpbmcgdGhhdCBpbiB0aGlzIHBhcGVyLCB3ZSBjb25zaWRlciBhcHBseWluZyBxdWFudGl6YXRpb24gZGlyZWN0bHkgb24gdGhlIHByZXRyYWluZWQgTExNcyBpbnN0ZWFkIG9mIHBlcmZvcm1pbmcgcXVhbnRpemF0aW9uLWF3YXJlIGZpbmV0dW5pbmcgZm9yIC4uLiIsImRhdGUiOiJKdW4gMTUsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlsyMzA1LjE0MzE0XSBRTG9SQTogRWZmaWNpZW50IEZpbmV0dW5pbmcgb2YgUXVhbnRpemVkIExMTXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNS4xNDMxNCIsInNuaXBwZXQiOiJXZSBwcmVzZW50IFFMb1JBLCBhbiBlZmZpY2llbnQgZmluZXR1bmluZyBhcHByb2FjaCB0aGF0IHJlZHVjZXMgbWVtb3J5IHVzYWdlIGVub3VnaCB0byBmaW5ldHVuZSBhIDY1QiBwYXJhbWV0ZXIgbW9kZWwgb24gYSBzaW5nbGUgNDhHQiBHUFUgd2hpbGUgcHJlc2VydmluZyBmdWxsIC4uLiIsImRhdGUiOiJNYXkgMjMsIDIwMjMiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkEgQ29tcHJlaGVuc2l2ZSBFdmFsdWF0aW9uIG9mIFF1YW50aXphdGlvbiBTdHJhdGVnaWVzZm9yIExhcmdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTY3NzV2MSIsInNuaXBwZXQiOiJPdXIgZXhwZXJpbWVudGFsIHJlc3VsdHMgaW5kaWNhdGUgdGhhdCBMTE1zIHdpdGggNC1iaXQgcXVhbnRpemF0aW9uIGNhbiByZXRhaW4gcGVyZm9ybWFuY2UgY29tcGFyYWJsZSB0byB0aGVpciBub24tcXVhbnRpemVkIGNvdW50ZXJwYXJ0cywgYW5kIHBlcnBsZXhpdHkgY2FuIC4uLiIsImRhdGUiOiJGZWIgMjYsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IlN1cnByaXNpbmcgRWZmZWN0aXZlbmVzcyBvZiBQcmV0cmFpbmluZyBUZXJuYXJ5IExhbmd1YWdlIE1vZGVscyBhdCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDcuMTIzMjciLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBhZGRyZXNzZXMgdGhlc2UgY2hhbGxlbmdlcyBieSBpbnZlc3RpZ2F0aW5nIHRoZSBwcmV0cmFpbmluZyBvZiBsb3ctYml0d2lkdGggbW9kZWxzIHNwZWNpZmljYWxseSBUZXJuYXJ5IExhbmd1YWdlIE1vZGVscyAoVHJpTE1zKSIsImRhdGUiOiJKdWwgMTcsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkEgQ29tcHJlaGVuc2l2ZSBFdmFsdWF0aW9uIG9mIFF1YW50aXplZCBJbnN0cnVjdGlvbi1UdW5lZCBMYXJnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA5LjExMDU1djEiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBldmFsdWF0ZXMgdGhlIHBlcmZvcm1hbmNlIG9mIGluc3RydWN0aW9uLXR1bmVkIExMTXMgYWNyb3NzIHZhcmlvdXMgcXVhbnRpemF0aW9uIG1ldGhvZHPigJRHUFRRLCBBV1EsIFNtb290aFF1YW50LCBhbmQgRlA44oCUb24gbW9kZWxzIHJhbmdpbmcgZnJvbSA3QiB0byAuLi4iLCJkYXRlIjoiU2VwIDE3LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbMjQwNi4wNjM4NV0gTG93LVJhbmsgUXVhbnRpemF0aW9uLUF3YXJlIFRyYWluaW5nIGZvciBMTE1zIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDYuMDYzODUiLCJzbmlwcGV0IjoiUXVhbnRpemF0aW9uLWF3YXJlIHRyYWluaW5nIChRQVQpIG1ldGhvZHMsIGdlbmVyYWxseSBwcm9kdWNlIHRoZSBiZXN0IHF1YW50aXplZCBwZXJmb3JtYW5jZSwgaG93ZXZlciBpdCBjb21lcyBhdCB0aGUgY29zdCBvZiBwb3RlbnRpYWxseSBsb25nIHRyYWluaW5nIHRpbWUgLi4uIiwiZGF0ZSI6Ikp1biAxMCwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiRXZhbHVhdGluZyBRdWFudGl6ZWQgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjE4MTU4djIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgZm9jdXMgb24gdGhlIGVmZmVjdHMgb2YgcXVhbnRpemF0aW9uIHRlY2huaXF1ZXMgb24gTExNcy4gTWFueSBvZiBvdXIgZmluZGluZ3MgY2FuIGhlbHAgdGhlIGluZHVzdHJ5IGFuZCBhY2FkZW1pYSByZWR1Y2UgdGhlIGxhcmdlIGNhcmJvbiAuLi4iLCJkYXRlIjoiSnVuIDYsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkVmZmljaWVudCBhbmQgQWNjdXJhdGUgVHJhbnNmb3JtZXIgUHJldHJhaW5pbmcgd2l0aCBJTlQ4IERhdGEgRmxvdyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjEyNDIydjEiLCJzbmlwcGV0IjoiRnVsbHkgcXVhbnRpemVkIHRyYWluaW5nIChGUVQpIGlzIGEgcHJvbWlzaW5nIGFwcHJvYWNoIHRvIHNwZWVkIHVwIHByZXRyYWluaW5nLiBIb3dldmVyLCBtb3N0IEZRVCBtZXRob2RzIGFkb3B0IGEgcXVhbnRpemUtY29tcHV0ZS1kZXF1YW50aXplIHByb2NlZHVyZSwgd2hpY2ggLi4uIiwiZGF0ZSI6Ik1hciAxOSwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gUUxPUkE6IEVmZmljaWVudCBGaW5ldHVuaW5nIG9mIFF1YW50aXplZCBMTE1zIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDUuMTQzMTQiLCJzbmlwcGV0IjoiV2UgcHJlc2VudCBRTE9SQSwgYW4gZWZmaWNpZW50IGZpbmV0dW5pbmcgYXBwcm9hY2ggdGhhdCByZWR1Y2VzIG1lbW9yeSB1cy0gYWdlIGVub3VnaCB0byBmaW5ldHVuZSBhIDY1QiBwYXJhbWV0ZXIgbW9kZWwgb24gYSBzaW5nbGUgNDhHQiBHUFUgd2hpbGUuIiwiZGF0ZSI6Ik1heSAyMywgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiU3BRUjogQSBTcGFyc2UtUXVhbnRpemVkIFJlcHJlc2VudGF0aW9uIGZvciBOZWFyLUxvc3NsZXNzIExMTSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDYuMDMwNzgiLCJzbmlwcGV0IjoiUmVjZW50IGFkdmFuY2VzIGluIGxhcmdlIGxhbmd1YWdlIG1vZGVsIChMTE0pIHByZXRyYWluaW5nIGhhdmUgbGVkIHRvIGhpZ2gtcXVhbGl0eSBMTE1zIHdpdGggaW1wcmVzc2l2ZSBhYmlsaXRpZXMuIEJ5IGNvbXByZXNzaW5nIHN1Y2ggTExNcyB2aWEgcXVhbnRpemF0aW9uIHRvIC4uLiIsImRhdGUiOiJKdW4gNSwgMjAyMyIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "response_sha256": "8b0e222ed5155cc01990996dea3e88b98f23bb07b0671adab705faeb9d922db1",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Give me papers about LLM quantized pretraining. before:2024-09-24 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Evaluating the Generalization Ability of Quantized LLMs - arXiv",
+        "link": "https://arxiv.org/html/2406.12928v1",
+        "snippet": "It's worth noting that in this paper, we consider applying quantization directly on the pretrained LLMs instead of performing quantization-aware finetuning for ...",
+        "date": "Jun 15, 2024",
+        "position": 1
+      },
+      {
+        "title": "[2305.14314] QLoRA: Efficient Finetuning of Quantized LLMs - arXiv",
+        "link": "https://arxiv.org/abs/2305.14314",
+        "snippet": "We present QLoRA, an efficient finetuning approach that reduces memory usage enough to finetune a 65B parameter model on a single 48GB GPU while preserving full ...",
+        "date": "May 23, 2023",
+        "position": 2
+      },
+      {
+        "title": "A Comprehensive Evaluation of Quantization Strategiesfor Large ...",
+        "link": "https://arxiv.org/html/2402.16775v1",
+        "snippet": "Our experimental results indicate that LLMs with 4-bit quantization can retain performance comparable to their non-quantized counterparts, and perplexity can ...",
+        "date": "Feb 26, 2024",
+        "position": 3
+      },
+      {
+        "title": "Surprising Effectiveness of Pretraining Ternary Language Models at ...",
+        "link": "https://arxiv.org/abs/2407.12327",
+        "snippet": "This paper addresses these challenges by investigating the pretraining of low-bitwidth models specifically Ternary Language Models (TriLMs)",
+        "date": "Jul 17, 2024",
+        "position": 4
+      },
+      {
+        "title": "A Comprehensive Evaluation of Quantized Instruction-Tuned Large ...",
+        "link": "https://arxiv.org/html/2409.11055v1",
+        "snippet": "This paper evaluates the performance of instruction-tuned LLMs across various quantization methods—GPTQ, AWQ, SmoothQuant, and FP8—on models ranging from 7B to ...",
+        "date": "Sep 17, 2024",
+        "position": 5
+      },
+      {
+        "title": "[2406.06385] Low-Rank Quantization-Aware Training for LLMs - arXiv",
+        "link": "https://arxiv.org/abs/2406.06385",
+        "snippet": "Quantization-aware training (QAT) methods, generally produce the best quantized performance, however it comes at the cost of potentially long training time ...",
+        "date": "Jun 10, 2024",
+        "position": 6
+      },
+      {
+        "title": "Evaluating Quantized Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2402.18158v2",
+        "snippet": "In this paper, we focus on the effects of quantization techniques on LLMs. Many of our findings can help the industry and academia reduce the large carbon ...",
+        "date": "Jun 6, 2024",
+        "position": 7
+      },
+      {
+        "title": "Efficient and Accurate Transformer Pretraining with INT8 Data Flow ...",
+        "link": "https://arxiv.org/html/2403.12422v1",
+        "snippet": "Fully quantized training (FQT) is a promising approach to speed up pretraining. However, most FQT methods adopt a quantize-compute-dequantize procedure, which ...",
+        "date": "Mar 19, 2024",
+        "position": 8
+      },
+      {
+        "title": "[PDF] QLORA: Efficient Finetuning of Quantized LLMs - arXiv",
+        "link": "https://arxiv.org/pdf/2305.14314",
+        "snippet": "We present QLORA, an efficient finetuning approach that reduces memory us- age enough to finetune a 65B parameter model on a single 48GB GPU while.",
+        "date": "May 23, 2023",
+        "position": 9
+      },
+      {
+        "title": "SpQR: A Sparse-Quantized Representation for Near-Lossless LLM ...",
+        "link": "https://arxiv.org/abs/2306.03078",
+        "snippet": "Recent advances in large language model (LLM) pretraining have led to high-quality LLMs with impressive abilities. By compressing such LLMs via quantization to ...",
+        "date": "Jun 5, 2023",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "status": "PASS",
+  "finished_utc": "2026-09-15T06:29:22.476839+00:00",
+  "elapsed_seconds": 0.7599528469145298
+}

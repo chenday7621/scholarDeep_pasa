@@ -1,0 +1,73 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 38,
+  "question_id": "Q41",
+  "group": "inline-citation",
+  "native_query_index": 0,
+  "native_query": "Survey paper on token alignment in speech processing using inverse document frequency",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "2010.02295",
+  "page": 4,
+  "payload": {
+    "q": "Survey paper on token alignment in speech processing using inverse document frequency before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 4
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 38,
+  "started_utc": "2026-09-17T12:45:15.805913+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648840",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "a43774fde2b91d44d57825c8787e34e1",
+    "date": "Thu, 17 Sep 2026 12:40:37 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "565",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 565,
+  "response_bytes_sha256": "7220a0d566db77995383dc6c7023e2c31dab3cc43c9e64e192f13faa536d02d9",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXIgb24gdG9rZW4gYWxpZ25tZW50IGluIHNwZWVjaCBwcm9jZXNzaW5nIHVzaW5nIGludmVyc2UgZG9jdW1lbnQgZnJlcXVlbmN5IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjQsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlByaW9yaXR5IFByb2Nlc3NpbmcgRm9ybSB8IE9mZmljZSBvZiB0aGUgQXR0b3JuZXkgR2VuZXJhbCIsImxpbmsiOiJodHRwczovL3d3dy50ZXhhc2F0dG9ybmV5Z2VuZXJhbC5nb3YvY3JpbWUtdmljdGltcy9wcmlvcml0eS1wcm9jZXNzaW5nLWZvcm0iLCJzbmlwcGV0IjoiVG8gcXVhbGlmeSBmb3IgUHJpb3JpdHkgUHJvY2Vzc2luZywgYW4gYXBwbGljYXRpb24gbXVzdCBpbmNsdWRlIGFsbCByZXF1aXJlZCBkb2N1bWVudHMgYW5kIG1lZXQgc3BlY2lmaWMgY3JpdGVyaWEuIFBsZWFzZSByZXZpZXcgdGhlIGRldGFpbGVkIGNyaXRlcmlhIG9uIHRoZSAuLi4iLCJwb3NpdGlvbiI6MX1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Survey paper on token alignment in speech processing using inverse document frequency before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 4,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Priority Processing Form | Office of the Attorney General",
+        "link": "https://www.texasattorneygeneral.gov/crime-victims/priority-processing-form",
+        "snippet": "To qualify for Priority Processing, an application must include all required documents and meet specific criteria. Please review the detailed criteria on the ...",
+        "position": 1
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank_on_page": 1,
+      "nominal_rank": 31,
+      "title": "Priority Processing Form | Office of the Attorney General",
+      "snippet": "To qualify for Priority Processing, an application must include all required documents and meet specific criteria. Please review the detailed criteria on the ...",
+      "link": "https://www.texasattorneygeneral.gov/crime-victims/priority-processing-form",
+      "arxiv_id": null
+    }
+  ],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:45:17.390343+00:00",
+  "elapsed_seconds": 1.5844658315181732
+}

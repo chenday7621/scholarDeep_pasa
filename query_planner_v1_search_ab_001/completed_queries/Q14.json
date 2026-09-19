@@ -1,0 +1,1228 @@
+{
+  "query_id": "Q14",
+  "query_index": 14,
+  "dataset_qid": "RealScholarQuery_14",
+  "original_question": "Find papers that use LLMs or LLM-based agents to automatically write surveys or summaries for multiple scholarly documents.",
+  "published_time": "20241001",
+  "before_date": "2024-09-24",
+  "groups": {
+    "A": {
+      "prompt": "Please generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Find papers that use LLMs or LLM-based agents to automatically write surveys or summaries for multiple scholarly documents.",
+      "searches": [
+        {
+          "query_sequence": 1,
+          "crawler_query": "Use of LLMs in automatic survey writing",
+          "request_payload": {
+            "q": "Use of LLMs in automatic survey writing before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 94,
+              "query_id": "Q14",
+              "group": "A",
+              "query_sequence": 1,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Use of LLMs in automatic survey writing before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:54:50.840594+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Use of LLMs in automatic survey writing before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"AutoSurvey: Large Language Models Can Automatically Write Surveys\",\"link\":\"https://arxiv.org/abs/2406.10252\",\"snippet\":\"While large language models (LLMs) offer promise in automating this process, challenges such as context window limitations, parametric knowledge constraints, ...\",\"date\":\"Jun 10, 2024\",\"position\":1},{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"The most widely used LLM architectures are encoder-only, decoder-only, and encoder-decoder. Most of them are based on Transformer (as the building block).\",\"date\":\"Feb 20, 2024\",\"position\":2},{\"title\":\"Reasoning with Large Language Models,a Survey - arXiv\",\"link\":\"https://arxiv.org/html/2407.11511v1\",\"snippet\":\"LLMs are quite good at code generation, and these approaches typically achieve good performance. The use of code also allows the approaches to call external ...\",\"date\":\"Jul 16, 2024\",\"position\":3},{\"title\":\"A Survey on LLM-Generated Text Detection: Necessity, Methods ...\",\"link\":\"https://arxiv.org/html/2310.14724v3\",\"snippet\":\"LLM-generated text often exhibits qualities of enhanced organization, logical structure, formality, and objectivity in comparison to human-written text.\",\"date\":\"Apr 19, 2024\",\"position\":4},{\"title\":\"Large Language Models for Information Retrieval: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.07107v3\",\"snippet\":\"LLMs can be used to enhance traditional IR components, such as query rewriter, retriever, reranker, and reader. (2) LLMs can also be used as search agents\",\"date\":\"Aug 16, 2023\",\"position\":5},{\"title\":\"Large Language Models for Education: A Survey and Outlook - arXiv\",\"link\":\"https://arxiv.org/html/2403.18105v2\",\"snippet\":\"LLMs can serve as a writing or reading assistant for education. LLMs for automatic scoring in open-ended questions and writing essays using prompt tuning ...\",\"date\":\"Apr 1, 2024\",\"position\":6},{\"title\":\"[PDF] Authorship Without Writing: Large Language Models and the “Senior ...\",\"link\":\"https://arxiv.org/pdf/2509.05390\",\"snippet\":\"In this paper, we explore an analogy between this form of authorship and the use of. LLMs to generate research manuscripts. We conceptualize LLM use (provided ...\",\"date\":\"Nov 15, 2022\",\"position\":7},{\"title\":\"A Survey on Evaluating Large Language Models in Code ... - arXiv\",\"link\":\"https://arxiv.org/html/2408.16498v1\",\"snippet\":\"This paper provides a comprehensive review of the current methods and metrics used to evaluate the performance of Large Language Models (LLMs) in code ...\",\"date\":\"Aug 29, 2024\",\"position\":8},{\"title\":\"Large Language Models and Games:A Survey and Roadmap - arXiv\",\"link\":\"https://arxiv.org/html/2402.18659v1\",\"snippet\":\"In principle, LLMs could be used to generate more succinct retellings or highlight reels of these game events. Prompting current LLMs for stories, without any ...\",\"date\":\"Feb 28, 2024\",\"position\":9},{\"title\":\"Combining Knowledge Graphs and Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2407.06564v1\",\"snippet\":\"They excel in text generation, enabling applications such as automated essay writing, report generation, and creative storytelling. LLMs provide highly ...\",\"date\":\"Jul 9, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "c8ee5c2f5cc776c41b002f4c87a880d2076329dbbfaa034430bf9aa0780c9b3a",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Use of LLMs in automatic survey writing before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "AutoSurvey: Large Language Models Can Automatically Write Surveys",
+                    "link": "https://arxiv.org/abs/2406.10252",
+                    "snippet": "While large language models (LLMs) offer promise in automating this process, challenges such as context window limitations, parametric knowledge constraints, ...",
+                    "date": "Jun 10, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2402.06196v2",
+                    "snippet": "The most widely used LLM architectures are encoder-only, decoder-only, and encoder-decoder. Most of them are based on Transformer (as the building block).",
+                    "date": "Feb 20, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Reasoning with Large Language Models,a Survey - arXiv",
+                    "link": "https://arxiv.org/html/2407.11511v1",
+                    "snippet": "LLMs are quite good at code generation, and these approaches typically achieve good performance. The use of code also allows the approaches to call external ...",
+                    "date": "Jul 16, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "A Survey on LLM-Generated Text Detection: Necessity, Methods ...",
+                    "link": "https://arxiv.org/html/2310.14724v3",
+                    "snippet": "LLM-generated text often exhibits qualities of enhanced organization, logical structure, formality, and objectivity in comparison to human-written text.",
+                    "date": "Apr 19, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2308.07107v3",
+                    "snippet": "LLMs can be used to enhance traditional IR components, such as query rewriter, retriever, reranker, and reader. (2) LLMs can also be used as search agents",
+                    "date": "Aug 16, 2023",
+                    "position": 5
+                  },
+                  {
+                    "title": "Large Language Models for Education: A Survey and Outlook - arXiv",
+                    "link": "https://arxiv.org/html/2403.18105v2",
+                    "snippet": "LLMs can serve as a writing or reading assistant for education. LLMs for automatic scoring in open-ended questions and writing essays using prompt tuning ...",
+                    "date": "Apr 1, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "[PDF] Authorship Without Writing: Large Language Models and the “Senior ...",
+                    "link": "https://arxiv.org/pdf/2509.05390",
+                    "snippet": "In this paper, we explore an analogy between this form of authorship and the use of. LLMs to generate research manuscripts. We conceptualize LLM use (provided ...",
+                    "date": "Nov 15, 2022",
+                    "position": 7
+                  },
+                  {
+                    "title": "A Survey on Evaluating Large Language Models in Code ... - arXiv",
+                    "link": "https://arxiv.org/html/2408.16498v1",
+                    "snippet": "This paper provides a comprehensive review of the current methods and metrics used to evaluate the performance of Large Language Models (LLMs) in code ...",
+                    "date": "Aug 29, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "Large Language Models and Games:A Survey and Roadmap - arXiv",
+                    "link": "https://arxiv.org/html/2402.18659v1",
+                    "snippet": "In principle, LLMs could be used to generate more succinct retellings or highlight reels of these game events. Prompting current LLMs for stories, without any ...",
+                    "date": "Feb 28, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Combining Knowledge Graphs and Large Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2407.06564v1",
+                    "snippet": "They excel in text generation, enabling applications such as automated essay writing, report generation, and creative storytelling. LLMs provide highly ...",
+                    "date": "Jul 9, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:54:51.653411+00:00",
+              "elapsed_seconds": 0.8128262348473072,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q14_A_01_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2308.07107",
+            "2310.14724",
+            "2402.06196",
+            "2402.18659",
+            "2403.18105",
+            "2406.10252",
+            "2407.06564",
+            "2407.11511",
+            "2408.16498",
+            "2509.05390"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2406.10252",
+              "organic_index": 0,
+              "position": 1,
+              "title": "AutoSurvey: Large Language Models Can Automatically Write Surveys",
+              "link": "https://arxiv.org/abs/2406.10252",
+              "snippet": "While large language models (LLMs) offer promise in automating this process, challenges such as context window limitations, parametric knowledge constraints, ..."
+            },
+            {
+              "arxiv_id": "2402.06196",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2402.06196v2",
+              "snippet": "The most widely used LLM architectures are encoder-only, decoder-only, and encoder-decoder. Most of them are based on Transformer (as the building block)."
+            },
+            {
+              "arxiv_id": "2407.11511",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Reasoning with Large Language Models,a Survey - arXiv",
+              "link": "https://arxiv.org/html/2407.11511v1",
+              "snippet": "LLMs are quite good at code generation, and these approaches typically achieve good performance. The use of code also allows the approaches to call external ..."
+            },
+            {
+              "arxiv_id": "2310.14724",
+              "organic_index": 3,
+              "position": 4,
+              "title": "A Survey on LLM-Generated Text Detection: Necessity, Methods ...",
+              "link": "https://arxiv.org/html/2310.14724v3",
+              "snippet": "LLM-generated text often exhibits qualities of enhanced organization, logical structure, formality, and objectivity in comparison to human-written text."
+            },
+            {
+              "arxiv_id": "2308.07107",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2308.07107v3",
+              "snippet": "LLMs can be used to enhance traditional IR components, such as query rewriter, retriever, reranker, and reader. (2) LLMs can also be used as search agents"
+            },
+            {
+              "arxiv_id": "2403.18105",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Large Language Models for Education: A Survey and Outlook - arXiv",
+              "link": "https://arxiv.org/html/2403.18105v2",
+              "snippet": "LLMs can serve as a writing or reading assistant for education. LLMs for automatic scoring in open-ended questions and writing essays using prompt tuning ..."
+            },
+            {
+              "arxiv_id": "2509.05390",
+              "organic_index": 6,
+              "position": 7,
+              "title": "[PDF] Authorship Without Writing: Large Language Models and the “Senior ...",
+              "link": "https://arxiv.org/pdf/2509.05390",
+              "snippet": "In this paper, we explore an analogy between this form of authorship and the use of. LLMs to generate research manuscripts. We conceptualize LLM use (provided ..."
+            },
+            {
+              "arxiv_id": "2408.16498",
+              "organic_index": 7,
+              "position": 8,
+              "title": "A Survey on Evaluating Large Language Models in Code ... - arXiv",
+              "link": "https://arxiv.org/html/2408.16498v1",
+              "snippet": "This paper provides a comprehensive review of the current methods and metrics used to evaluate the performance of Large Language Models (LLMs) in code ..."
+            },
+            {
+              "arxiv_id": "2402.18659",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Large Language Models and Games:A Survey and Roadmap - arXiv",
+              "link": "https://arxiv.org/html/2402.18659v1",
+              "snippet": "In principle, LLMs could be used to generate more succinct retellings or highlight reels of these game events. Prompting current LLMs for stories, without any ..."
+            },
+            {
+              "arxiv_id": "2407.06564",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Combining Knowledge Graphs and Large Language Models - arXiv",
+              "link": "https://arxiv.org/html/2407.06564v1",
+              "snippet": "They excel in text generation, enabling applications such as automated essay writing, report generation, and creative storytelling. LLMs provide highly ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 2,
+          "crawler_query": "Survey papers on the use of LLMs in scholarly document summarization",
+          "request_payload": {
+            "q": "Survey papers on the use of LLMs in scholarly document summarization before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 95,
+              "query_id": "Q14",
+              "group": "A",
+              "query_sequence": 2,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Survey papers on the use of LLMs in scholarly document summarization before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:54:51.653828+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on the use of LLMs in scholarly document summarization before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"A Systematic Survey of Text Summarization: From Statistical ... - arXiv\",\"link\":\"https://arxiv.org/html/2406.11289v1\",\"snippet\":\"Van Veen et al. (2023) use LLMs to summarize clinical documents, including radiology reports, patient questions, progress notes, and doctor-patient dialogue.\",\"date\":\"Jun 17, 2024\",\"position\":1},{\"title\":\"On Learning to Summarize with Large Language Models as ... - arXiv\",\"link\":\"https://arxiv.org/abs/2305.14239\",\"snippet\":\"Abstract:Recent studies have found that summaries generated by large language models (LLMs) are favored by human annotators over the original reference ...\",\"date\":\"May 23, 2023\",\"position\":2},{\"title\":\"LLM-Supported Planning, Drafting, and Revising of Research-Paper ...\",\"link\":\"https://arxiv.org/html/2406.10370v1\",\"snippet\":\"Papers-to-Posts is the first LLM-powered long-document summarization tool to support direct control of content selection through a source outline, maintaining ...\",\"date\":\"Jun 14, 2024\",\"position\":3},{\"title\":\"[PDF] From Statistical Methods to Large Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2406.11289\",\"snippet\":\"This survey paper aims to provide a comprehensive overview of the state-of-the-art summariza- tion research endeavors in the new era of LLMs.\",\"date\":\"Jun 17, 2024\",\"position\":4},{\"title\":\"LitLLM: A Toolkit for Scientific Literature Review - arXiv\",\"link\":\"https://arxiv.org/html/2402.01788v1\",\"snippet\":\"LitLLM is an interactive tool to help scientists write the literature review or related work section of a scientific paper starting from a user-provided ...\",\"date\":\"Feb 2, 2024\",\"position\":5},{\"title\":\"A Comparative Study of Quality Evaluation Methods for Text ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.00747v1\",\"snippet\":\"To bridge this gap, this paper proposes a novel method based on large language models (LLMs) for evaluating text summarization. We also conducts a comparative ...\",\"date\":\"Jun 30, 2024\",\"position\":6},{\"title\":\"[PDF] Metadata Enrichment of Long Text Documents using Large ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2506.20918\",\"snippet\":\"Paper-QA searches, retrieves, and summarizes scientific documents with the aid of LLMs, while incorporating metadata to increase the relevance and accuracy of ...\",\"date\":\"Jul 15, 2012\",\"position\":7},{\"title\":\"Knowledge Graph Prompting for Multi-Document Question Answering\",\"link\":\"https://arxiv.org/html/2308.11730v3\",\"snippet\":\"To fill this crucial gap, we propose a Knowledge Graph Prompting (KGP) method to formulate the right context in prompting LLMs for MD-QA, which consists of a ...\",\"date\":\"Dec 25, 2023\",\"position\":8},{\"title\":\"Mapping the Increasing Use of LLMs in Scientific Papers - arXiv\",\"link\":\"https://arxiv.org/html/2404.01268v1\",\"snippet\":\"Measuring the extent of LLM-use on scientific publishing has urgent applications. Concerns about accuracy, plagiarism, anonymity, and ownership have prompted ...\",\"date\":\"Apr 1, 2024\",\"position\":9},{\"title\":\"[2310.10449] Text Summarization Using Large Language Models\",\"link\":\"https://arxiv.org/abs/2310.10449\",\"snippet\":\"Leveraging Large Language Models (LLMs) has shown remarkable promise in enhancing summarization techniques. This paper embarks on an exploration of text ...\",\"date\":\"Oct 16, 2023\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "ba006cf7058f8ea3ec694c543fda294b3af97a779d248305488a2ade5243fccf",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Survey papers on the use of LLMs in scholarly document summarization before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "A Systematic Survey of Text Summarization: From Statistical ... - arXiv",
+                    "link": "https://arxiv.org/html/2406.11289v1",
+                    "snippet": "Van Veen et al. (2023) use LLMs to summarize clinical documents, including radiology reports, patient questions, progress notes, and doctor-patient dialogue.",
+                    "date": "Jun 17, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "On Learning to Summarize with Large Language Models as ... - arXiv",
+                    "link": "https://arxiv.org/abs/2305.14239",
+                    "snippet": "Abstract:Recent studies have found that summaries generated by large language models (LLMs) are favored by human annotators over the original reference ...",
+                    "date": "May 23, 2023",
+                    "position": 2
+                  },
+                  {
+                    "title": "LLM-Supported Planning, Drafting, and Revising of Research-Paper ...",
+                    "link": "https://arxiv.org/html/2406.10370v1",
+                    "snippet": "Papers-to-Posts is the first LLM-powered long-document summarization tool to support direct control of content selection through a source outline, maintaining ...",
+                    "date": "Jun 14, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "[PDF] From Statistical Methods to Large Language Models - arXiv",
+                    "link": "https://arxiv.org/pdf/2406.11289",
+                    "snippet": "This survey paper aims to provide a comprehensive overview of the state-of-the-art summariza- tion research endeavors in the new era of LLMs.",
+                    "date": "Jun 17, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "LitLLM: A Toolkit for Scientific Literature Review - arXiv",
+                    "link": "https://arxiv.org/html/2402.01788v1",
+                    "snippet": "LitLLM is an interactive tool to help scientists write the literature review or related work section of a scientific paper starting from a user-provided ...",
+                    "date": "Feb 2, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "A Comparative Study of Quality Evaluation Methods for Text ... - arXiv",
+                    "link": "https://arxiv.org/html/2407.00747v1",
+                    "snippet": "To bridge this gap, this paper proposes a novel method based on large language models (LLMs) for evaluating text summarization. We also conducts a comparative ...",
+                    "date": "Jun 30, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "[PDF] Metadata Enrichment of Long Text Documents using Large ... - arXiv",
+                    "link": "https://arxiv.org/pdf/2506.20918",
+                    "snippet": "Paper-QA searches, retrieves, and summarizes scientific documents with the aid of LLMs, while incorporating metadata to increase the relevance and accuracy of ...",
+                    "date": "Jul 15, 2012",
+                    "position": 7
+                  },
+                  {
+                    "title": "Knowledge Graph Prompting for Multi-Document Question Answering",
+                    "link": "https://arxiv.org/html/2308.11730v3",
+                    "snippet": "To fill this crucial gap, we propose a Knowledge Graph Prompting (KGP) method to formulate the right context in prompting LLMs for MD-QA, which consists of a ...",
+                    "date": "Dec 25, 2023",
+                    "position": 8
+                  },
+                  {
+                    "title": "Mapping the Increasing Use of LLMs in Scientific Papers - arXiv",
+                    "link": "https://arxiv.org/html/2404.01268v1",
+                    "snippet": "Measuring the extent of LLM-use on scientific publishing has urgent applications. Concerns about accuracy, plagiarism, anonymity, and ownership have prompted ...",
+                    "date": "Apr 1, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "[2310.10449] Text Summarization Using Large Language Models",
+                    "link": "https://arxiv.org/abs/2310.10449",
+                    "snippet": "Leveraging Large Language Models (LLMs) has shown remarkable promise in enhancing summarization techniques. This paper embarks on an exploration of text ...",
+                    "date": "Oct 16, 2023",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:54:54.362211+00:00",
+              "elapsed_seconds": 2.7083916775882244,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q14_A_02_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2305.14239",
+            "2308.11730",
+            "2310.10449",
+            "2402.01788",
+            "2404.01268",
+            "2406.10370",
+            "2406.11289",
+            "2407.00747",
+            "2506.20918"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2406.11289",
+              "organic_index": 0,
+              "position": 1,
+              "title": "A Systematic Survey of Text Summarization: From Statistical ... - arXiv",
+              "link": "https://arxiv.org/html/2406.11289v1",
+              "snippet": "Van Veen et al. (2023) use LLMs to summarize clinical documents, including radiology reports, patient questions, progress notes, and doctor-patient dialogue."
+            },
+            {
+              "arxiv_id": "2305.14239",
+              "organic_index": 1,
+              "position": 2,
+              "title": "On Learning to Summarize with Large Language Models as ... - arXiv",
+              "link": "https://arxiv.org/abs/2305.14239",
+              "snippet": "Abstract:Recent studies have found that summaries generated by large language models (LLMs) are favored by human annotators over the original reference ..."
+            },
+            {
+              "arxiv_id": "2406.10370",
+              "organic_index": 2,
+              "position": 3,
+              "title": "LLM-Supported Planning, Drafting, and Revising of Research-Paper ...",
+              "link": "https://arxiv.org/html/2406.10370v1",
+              "snippet": "Papers-to-Posts is the first LLM-powered long-document summarization tool to support direct control of content selection through a source outline, maintaining ..."
+            },
+            {
+              "arxiv_id": "2406.11289",
+              "organic_index": 3,
+              "position": 4,
+              "title": "[PDF] From Statistical Methods to Large Language Models - arXiv",
+              "link": "https://arxiv.org/pdf/2406.11289",
+              "snippet": "This survey paper aims to provide a comprehensive overview of the state-of-the-art summariza- tion research endeavors in the new era of LLMs."
+            },
+            {
+              "arxiv_id": "2402.01788",
+              "organic_index": 4,
+              "position": 5,
+              "title": "LitLLM: A Toolkit for Scientific Literature Review - arXiv",
+              "link": "https://arxiv.org/html/2402.01788v1",
+              "snippet": "LitLLM is an interactive tool to help scientists write the literature review or related work section of a scientific paper starting from a user-provided ..."
+            },
+            {
+              "arxiv_id": "2407.00747",
+              "organic_index": 5,
+              "position": 6,
+              "title": "A Comparative Study of Quality Evaluation Methods for Text ... - arXiv",
+              "link": "https://arxiv.org/html/2407.00747v1",
+              "snippet": "To bridge this gap, this paper proposes a novel method based on large language models (LLMs) for evaluating text summarization. We also conducts a comparative ..."
+            },
+            {
+              "arxiv_id": "2506.20918",
+              "organic_index": 6,
+              "position": 7,
+              "title": "[PDF] Metadata Enrichment of Long Text Documents using Large ... - arXiv",
+              "link": "https://arxiv.org/pdf/2506.20918",
+              "snippet": "Paper-QA searches, retrieves, and summarizes scientific documents with the aid of LLMs, while incorporating metadata to increase the relevance and accuracy of ..."
+            },
+            {
+              "arxiv_id": "2308.11730",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Knowledge Graph Prompting for Multi-Document Question Answering",
+              "link": "https://arxiv.org/html/2308.11730v3",
+              "snippet": "To fill this crucial gap, we propose a Knowledge Graph Prompting (KGP) method to formulate the right context in prompting LLMs for MD-QA, which consists of a ..."
+            },
+            {
+              "arxiv_id": "2404.01268",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Mapping the Increasing Use of LLMs in Scientific Papers - arXiv",
+              "link": "https://arxiv.org/html/2404.01268v1",
+              "snippet": "Measuring the extent of LLM-use on scientific publishing has urgent applications. Concerns about accuracy, plagiarism, anonymity, and ownership have prompted ..."
+            },
+            {
+              "arxiv_id": "2310.10449",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[2310.10449] Text Summarization Using Large Language Models",
+              "link": "https://arxiv.org/abs/2310.10449",
+              "snippet": "Leveraging Large Language Models (LLMs) has shown remarkable promise in enhancing summarization techniques. This paper embarks on an exploration of text ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 3,
+          "crawler_query": "Papers on LLM-based agents for writing summaries of scholarly articles",
+          "request_payload": {
+            "q": "Papers on LLM-based agents for writing summaries of scholarly articles before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 96,
+              "query_id": "Q14",
+              "group": "A",
+              "query_sequence": 3,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Papers on LLM-based agents for writing summaries of scholarly articles before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:54:54.363175+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Papers on LLM-based agents for writing summaries of scholarly articles before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"LitLLM: A Toolkit for Scientific Literature Review - arXiv\",\"link\":\"https://arxiv.org/html/2402.01788v1\",\"snippet\":\"LitLLM is an interactive tool to help scientists write the literature review or related work section of a scientific paper starting from a user-provided ...\",\"date\":\"Feb 2, 2024\",\"position\":1},{\"title\":\"MARG: Multi-Agent Review Generation for Scientific Papers - arXiv\",\"link\":\"https://arxiv.org/html/2401.04259v1\",\"snippet\":\"We propose multi-agent review generation (MARG), a method for generating peer-review feedback by prompting an LLM (GPT-4). We find that by using multiple ...\",\"date\":\"Jan 8, 2024\",\"position\":2},{\"title\":\"A Systematic Survey of Text Summarization: From Statistical ... - arXiv\",\"link\":\"https://arxiv.org/html/2406.11289v1\",\"snippet\":\"This survey paper serves as the first comprehensive study of the task of text summarization in the new era of LLMs. We propose the first taxonomy of LLM-based ...\",\"date\":\"Jun 17, 2024\",\"position\":3},{\"title\":\"Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...\",\"link\":\"https://arxiv.org/html/2409.04109v1\",\"snippet\":\"LLM systems can take the very first step of producing novel, expert-level ideas, let alone perform the entire research process. our idea writers have an ...\",\"date\":\"Sep 6, 2024\",\"position\":4},{\"title\":\"[2403.02574] ChatCite: LLM Agent with Human Workflow Guidance ...\",\"link\":\"https://arxiv.org/abs/2403.02574\",\"snippet\":\"The previous LLM-based studies on literature review mainly focused on the complete process, including literature retrieval, screening, and summarization.\",\"date\":\"Mar 5, 2024\",\"position\":5},{\"title\":\"Exploring Large Language Model based Intelligent Agents - arXiv\",\"link\":\"https://arxiv.org/html/2401.03428v1\",\"snippet\":\"This paper surveys current research to provide an in-depth overview of LLM-based intelligent agents within single-agent and multi-agent systems.\",\"date\":\"Jan 7, 2024\",\"position\":6},{\"title\":\"A Survey on LLM-Based Agentic Workflows and LLM-Profiled ... - arXiv\",\"link\":\"https://arxiv.org/html/2406.05804v1\",\"snippet\":\"This survey summarize the common workflows, Wang et al. (2024) provide a comprehensive review of LLM agents, exploring their capabilities across profiling, ...\",\"date\":\"Jun 9, 2024\",\"position\":7},{\"title\":\"Retrieval-Augmented Generative Agent for Scientific Research - arXiv\",\"link\":\"https://arxiv.org/html/2312.07559v2\",\"snippet\":\"We call this PaperQA, an agent-based RAG transforms a scientific question into an answer with cited sources. The agent utilizes three tools – search, gather ...\",\"date\":\"Dec 14, 2023\",\"position\":8},{\"title\":\"From LLMs to LLM-based Agents for Software Engineering - arXiv\",\"link\":\"https://arxiv.org/html/2408.02479v1\",\"snippet\":\"In this context, we have collected nineteen research papers on LLM-based agents in this field. This survey will provides a general review of these studies ...\",\"date\":\"Aug 5, 2024\",\"position\":9},{\"title\":\"[PDF] arXiv:2403.02574v1 [cs.IR] 5 Mar 2024\",\"link\":\"https://arxiv.org/pdf/2403.02574\",\"snippet\":\"In order to better eval- uate the quality of the generated summaries, we devised a LLM-based automatic evaluation metric, G-Score, in refer to the human evalua-.\",\"date\":\"Mar 5, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "8d9166b58ca6552edb4eacae4d4305640975286198635592fd3aa4c884a5469b",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Papers on LLM-based agents for writing summaries of scholarly articles before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "LitLLM: A Toolkit for Scientific Literature Review - arXiv",
+                    "link": "https://arxiv.org/html/2402.01788v1",
+                    "snippet": "LitLLM is an interactive tool to help scientists write the literature review or related work section of a scientific paper starting from a user-provided ...",
+                    "date": "Feb 2, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "MARG: Multi-Agent Review Generation for Scientific Papers - arXiv",
+                    "link": "https://arxiv.org/html/2401.04259v1",
+                    "snippet": "We propose multi-agent review generation (MARG), a method for generating peer-review feedback by prompting an LLM (GPT-4). We find that by using multiple ...",
+                    "date": "Jan 8, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "A Systematic Survey of Text Summarization: From Statistical ... - arXiv",
+                    "link": "https://arxiv.org/html/2406.11289v1",
+                    "snippet": "This survey paper serves as the first comprehensive study of the task of text summarization in the new era of LLMs. We propose the first taxonomy of LLM-based ...",
+                    "date": "Jun 17, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...",
+                    "link": "https://arxiv.org/html/2409.04109v1",
+                    "snippet": "LLM systems can take the very first step of producing novel, expert-level ideas, let alone perform the entire research process. our idea writers have an ...",
+                    "date": "Sep 6, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "[2403.02574] ChatCite: LLM Agent with Human Workflow Guidance ...",
+                    "link": "https://arxiv.org/abs/2403.02574",
+                    "snippet": "The previous LLM-based studies on literature review mainly focused on the complete process, including literature retrieval, screening, and summarization.",
+                    "date": "Mar 5, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "Exploring Large Language Model based Intelligent Agents - arXiv",
+                    "link": "https://arxiv.org/html/2401.03428v1",
+                    "snippet": "This paper surveys current research to provide an in-depth overview of LLM-based intelligent agents within single-agent and multi-agent systems.",
+                    "date": "Jan 7, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "A Survey on LLM-Based Agentic Workflows and LLM-Profiled ... - arXiv",
+                    "link": "https://arxiv.org/html/2406.05804v1",
+                    "snippet": "This survey summarize the common workflows, Wang et al. (2024) provide a comprehensive review of LLM agents, exploring their capabilities across profiling, ...",
+                    "date": "Jun 9, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Retrieval-Augmented Generative Agent for Scientific Research - arXiv",
+                    "link": "https://arxiv.org/html/2312.07559v2",
+                    "snippet": "We call this PaperQA, an agent-based RAG transforms a scientific question into an answer with cited sources. The agent utilizes three tools – search, gather ...",
+                    "date": "Dec 14, 2023",
+                    "position": 8
+                  },
+                  {
+                    "title": "From LLMs to LLM-based Agents for Software Engineering - arXiv",
+                    "link": "https://arxiv.org/html/2408.02479v1",
+                    "snippet": "In this context, we have collected nineteen research papers on LLM-based agents in this field. This survey will provides a general review of these studies ...",
+                    "date": "Aug 5, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "[PDF] arXiv:2403.02574v1 [cs.IR] 5 Mar 2024",
+                    "link": "https://arxiv.org/pdf/2403.02574",
+                    "snippet": "In order to better eval- uate the quality of the generated summaries, we devised a LLM-based automatic evaluation metric, G-Score, in refer to the human evalua-.",
+                    "date": "Mar 5, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:54:56.032607+00:00",
+              "elapsed_seconds": 1.669431697577238,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q14_A_03_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2312.07559",
+            "2401.03428",
+            "2401.04259",
+            "2402.01788",
+            "2403.02574",
+            "2406.05804",
+            "2406.11289",
+            "2408.02479",
+            "2409.04109"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2402.01788",
+              "organic_index": 0,
+              "position": 1,
+              "title": "LitLLM: A Toolkit for Scientific Literature Review - arXiv",
+              "link": "https://arxiv.org/html/2402.01788v1",
+              "snippet": "LitLLM is an interactive tool to help scientists write the literature review or related work section of a scientific paper starting from a user-provided ..."
+            },
+            {
+              "arxiv_id": "2401.04259",
+              "organic_index": 1,
+              "position": 2,
+              "title": "MARG: Multi-Agent Review Generation for Scientific Papers - arXiv",
+              "link": "https://arxiv.org/html/2401.04259v1",
+              "snippet": "We propose multi-agent review generation (MARG), a method for generating peer-review feedback by prompting an LLM (GPT-4). We find that by using multiple ..."
+            },
+            {
+              "arxiv_id": "2406.11289",
+              "organic_index": 2,
+              "position": 3,
+              "title": "A Systematic Survey of Text Summarization: From Statistical ... - arXiv",
+              "link": "https://arxiv.org/html/2406.11289v1",
+              "snippet": "This survey paper serves as the first comprehensive study of the task of text summarization in the new era of LLMs. We propose the first taxonomy of LLM-based ..."
+            },
+            {
+              "arxiv_id": "2409.04109",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...",
+              "link": "https://arxiv.org/html/2409.04109v1",
+              "snippet": "LLM systems can take the very first step of producing novel, expert-level ideas, let alone perform the entire research process. our idea writers have an ..."
+            },
+            {
+              "arxiv_id": "2403.02574",
+              "organic_index": 4,
+              "position": 5,
+              "title": "[2403.02574] ChatCite: LLM Agent with Human Workflow Guidance ...",
+              "link": "https://arxiv.org/abs/2403.02574",
+              "snippet": "The previous LLM-based studies on literature review mainly focused on the complete process, including literature retrieval, screening, and summarization."
+            },
+            {
+              "arxiv_id": "2401.03428",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Exploring Large Language Model based Intelligent Agents - arXiv",
+              "link": "https://arxiv.org/html/2401.03428v1",
+              "snippet": "This paper surveys current research to provide an in-depth overview of LLM-based intelligent agents within single-agent and multi-agent systems."
+            },
+            {
+              "arxiv_id": "2406.05804",
+              "organic_index": 6,
+              "position": 7,
+              "title": "A Survey on LLM-Based Agentic Workflows and LLM-Profiled ... - arXiv",
+              "link": "https://arxiv.org/html/2406.05804v1",
+              "snippet": "This survey summarize the common workflows, Wang et al. (2024) provide a comprehensive review of LLM agents, exploring their capabilities across profiling, ..."
+            },
+            {
+              "arxiv_id": "2312.07559",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Retrieval-Augmented Generative Agent for Scientific Research - arXiv",
+              "link": "https://arxiv.org/html/2312.07559v2",
+              "snippet": "We call this PaperQA, an agent-based RAG transforms a scientific question into an answer with cited sources. The agent utilizes three tools – search, gather ..."
+            },
+            {
+              "arxiv_id": "2408.02479",
+              "organic_index": 8,
+              "position": 9,
+              "title": "From LLMs to LLM-based Agents for Software Engineering - arXiv",
+              "link": "https://arxiv.org/html/2408.02479v1",
+              "snippet": "In this context, we have collected nineteen research papers on LLM-based agents in this field. This survey will provides a general review of these studies ..."
+            },
+            {
+              "arxiv_id": "2403.02574",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[PDF] arXiv:2403.02574v1 [cs.IR] 5 Mar 2024",
+              "link": "https://arxiv.org/pdf/2403.02574",
+              "snippet": "In order to better eval- uate the quality of the generated summaries, we devised a LLM-based automatic evaluation metric, G-Score, in refer to the human evalua-."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 4,
+          "crawler_query": "Research on using language models for automatic synthesis of literature reviews",
+          "request_payload": {
+            "q": "Research on using language models for automatic synthesis of literature reviews before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 97,
+              "query_id": "Q14",
+              "group": "A",
+              "query_sequence": 4,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Research on using language models for automatic synthesis of literature reviews before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:54:56.033099+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Research on using language models for automatic synthesis of literature reviews before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[PDF] automating research synthesis with domain-specific large language ...\",\"link\":\"https://arxiv.org/pdf/2404.08680\",\"snippet\":\"This research pioneers the use of finetuned Large Language Models (LLMs) to automate Systematic. Literature Reviews (SLRs), presenting a significant and ...\",\"date\":\"2024年4月8日\",\"position\":1},{\"title\":\"Artificial Intelligence for Literature Reviews: Opportunities ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.08565v2\",\"snippet\":\"Abstract. This paper presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs).\",\"date\":\"2024年8月6日\",\"position\":2},{\"title\":\"[PDF] A Systematic Literature Review on Large Language Models ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2405.01466\",\"snippet\":\"We analyze all collected papers and identify 78 distinct. Page 13. A Systematic Literature Review on Large Language Models for Automated Program Repair. 1:13.\",\"date\":\"2024年5月2日\",\"position\":3},{\"title\":\"System for Systematic Literature Review Using Multiple AI agents\",\"link\":\"https://arxiv.org/html/2403.08399v1\",\"snippet\":\"The emergence of Large Language Models (LLMs) in Artificial Intelligence (AI) presents new opportunities for automating and streamlining the SLR process Rasheed ...\",\"date\":\"2024年3月13日\",\"position\":4},{\"title\":\"[PDF] ai literature review suite - arXiv\",\"link\":\"https://arxiv.org/pdf/2308.02443\",\"snippet\":\"The Literature Synthesis module uses a large language model to distill, compare, and contrast the grouped works obtained from the Literature Clusters module, ...\",\"date\":\"2023年7月27日\",\"position\":5},{\"title\":\"Large Language Models for Software Engineering: A Systematic ...\",\"link\":\"https://arxiv.org/html/2308.10620v5\",\"snippet\":\"We are the first to present a comprehensive systematic literature review based on 229 papers published between 2017 and 2023 that focus on the use of LLM-based ...\",\"date\":\"2023年8月3日\",\"position\":6},{\"title\":\"A Review of Large Language Models and Autonomous Agents in ...\",\"link\":\"https://arxiv.org/html/2407.01603v1\",\"snippet\":\"In chemistry, LLMs are able to accurately predict properties, design new molecules, optimize synthesis pathways, and accelerate drug and material discovery. A ...\",\"date\":\"2024年6月26日\",\"position\":7},{\"title\":\"Large Language Models for Software Engineering: A Systematic ...\",\"link\":\"https://arxiv.org/html/2308.10620v6\",\"snippet\":\"A systematic literature review on the use of deep learning in software engineering research. ACM Transactions on Software Engineering and Methodology (TOSEM) ...\",\"date\":\"2024年4月10日\",\"position\":8},{\"title\":\"[PDF] can large language models replace humans in the - arXiv\",\"link\":\"https://arxiv.org/pdf/2310.17526\",\"snippet\":\"Large language models (LLMs) could offer a way to speed up and automate systematic reviews, but their performance in such tasks has not been comprehensively ...\",\"date\":\"2023年10月30日\",\"position\":9},{\"title\":\"Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...\",\"link\":\"https://arxiv.org/html/2409.04109v1\",\"snippet\":\"Recent advancements in large language models (LLMs) have sparked optimism about their potential to accelerate scientific discovery, with a growing number of ...\",\"date\":\"2024年9月6日\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "fa987faf1eaec3e277b8d59c3892ac6faa5924f008f545220bbe65eddcaba7d0",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Research on using language models for automatic synthesis of literature reviews before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "[PDF] automating research synthesis with domain-specific large language ...",
+                    "link": "https://arxiv.org/pdf/2404.08680",
+                    "snippet": "This research pioneers the use of finetuned Large Language Models (LLMs) to automate Systematic. Literature Reviews (SLRs), presenting a significant and ...",
+                    "date": "2024年4月8日",
+                    "position": 1
+                  },
+                  {
+                    "title": "Artificial Intelligence for Literature Reviews: Opportunities ... - arXiv",
+                    "link": "https://arxiv.org/html/2402.08565v2",
+                    "snippet": "Abstract. This paper presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs).",
+                    "date": "2024年8月6日",
+                    "position": 2
+                  },
+                  {
+                    "title": "[PDF] A Systematic Literature Review on Large Language Models ... - arXiv",
+                    "link": "https://arxiv.org/pdf/2405.01466",
+                    "snippet": "We analyze all collected papers and identify 78 distinct. Page 13. A Systematic Literature Review on Large Language Models for Automated Program Repair. 1:13.",
+                    "date": "2024年5月2日",
+                    "position": 3
+                  },
+                  {
+                    "title": "System for Systematic Literature Review Using Multiple AI agents",
+                    "link": "https://arxiv.org/html/2403.08399v1",
+                    "snippet": "The emergence of Large Language Models (LLMs) in Artificial Intelligence (AI) presents new opportunities for automating and streamlining the SLR process Rasheed ...",
+                    "date": "2024年3月13日",
+                    "position": 4
+                  },
+                  {
+                    "title": "[PDF] ai literature review suite - arXiv",
+                    "link": "https://arxiv.org/pdf/2308.02443",
+                    "snippet": "The Literature Synthesis module uses a large language model to distill, compare, and contrast the grouped works obtained from the Literature Clusters module, ...",
+                    "date": "2023年7月27日",
+                    "position": 5
+                  },
+                  {
+                    "title": "Large Language Models for Software Engineering: A Systematic ...",
+                    "link": "https://arxiv.org/html/2308.10620v5",
+                    "snippet": "We are the first to present a comprehensive systematic literature review based on 229 papers published between 2017 and 2023 that focus on the use of LLM-based ...",
+                    "date": "2023年8月3日",
+                    "position": 6
+                  },
+                  {
+                    "title": "A Review of Large Language Models and Autonomous Agents in ...",
+                    "link": "https://arxiv.org/html/2407.01603v1",
+                    "snippet": "In chemistry, LLMs are able to accurately predict properties, design new molecules, optimize synthesis pathways, and accelerate drug and material discovery. A ...",
+                    "date": "2024年6月26日",
+                    "position": 7
+                  },
+                  {
+                    "title": "Large Language Models for Software Engineering: A Systematic ...",
+                    "link": "https://arxiv.org/html/2308.10620v6",
+                    "snippet": "A systematic literature review on the use of deep learning in software engineering research. ACM Transactions on Software Engineering and Methodology (TOSEM) ...",
+                    "date": "2024年4月10日",
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] can large language models replace humans in the - arXiv",
+                    "link": "https://arxiv.org/pdf/2310.17526",
+                    "snippet": "Large language models (LLMs) could offer a way to speed up and automate systematic reviews, but their performance in such tasks has not been comprehensively ...",
+                    "date": "2023年10月30日",
+                    "position": 9
+                  },
+                  {
+                    "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...",
+                    "link": "https://arxiv.org/html/2409.04109v1",
+                    "snippet": "Recent advancements in large language models (LLMs) have sparked optimism about their potential to accelerate scientific discovery, with a growing number of ...",
+                    "date": "2024年9月6日",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:54:57.177851+00:00",
+              "elapsed_seconds": 1.144756592810154,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q14_A_04_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2308.02443",
+            "2308.10620",
+            "2310.17526",
+            "2402.08565",
+            "2403.08399",
+            "2404.08680",
+            "2405.01466",
+            "2407.01603",
+            "2409.04109"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2404.08680",
+              "organic_index": 0,
+              "position": 1,
+              "title": "[PDF] automating research synthesis with domain-specific large language ...",
+              "link": "https://arxiv.org/pdf/2404.08680",
+              "snippet": "This research pioneers the use of finetuned Large Language Models (LLMs) to automate Systematic. Literature Reviews (SLRs), presenting a significant and ..."
+            },
+            {
+              "arxiv_id": "2402.08565",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Artificial Intelligence for Literature Reviews: Opportunities ... - arXiv",
+              "link": "https://arxiv.org/html/2402.08565v2",
+              "snippet": "Abstract. This paper presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs)."
+            },
+            {
+              "arxiv_id": "2405.01466",
+              "organic_index": 2,
+              "position": 3,
+              "title": "[PDF] A Systematic Literature Review on Large Language Models ... - arXiv",
+              "link": "https://arxiv.org/pdf/2405.01466",
+              "snippet": "We analyze all collected papers and identify 78 distinct. Page 13. A Systematic Literature Review on Large Language Models for Automated Program Repair. 1:13."
+            },
+            {
+              "arxiv_id": "2403.08399",
+              "organic_index": 3,
+              "position": 4,
+              "title": "System for Systematic Literature Review Using Multiple AI agents",
+              "link": "https://arxiv.org/html/2403.08399v1",
+              "snippet": "The emergence of Large Language Models (LLMs) in Artificial Intelligence (AI) presents new opportunities for automating and streamlining the SLR process Rasheed ..."
+            },
+            {
+              "arxiv_id": "2308.02443",
+              "organic_index": 4,
+              "position": 5,
+              "title": "[PDF] ai literature review suite - arXiv",
+              "link": "https://arxiv.org/pdf/2308.02443",
+              "snippet": "The Literature Synthesis module uses a large language model to distill, compare, and contrast the grouped works obtained from the Literature Clusters module, ..."
+            },
+            {
+              "arxiv_id": "2308.10620",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Large Language Models for Software Engineering: A Systematic ...",
+              "link": "https://arxiv.org/html/2308.10620v5",
+              "snippet": "We are the first to present a comprehensive systematic literature review based on 229 papers published between 2017 and 2023 that focus on the use of LLM-based ..."
+            },
+            {
+              "arxiv_id": "2407.01603",
+              "organic_index": 6,
+              "position": 7,
+              "title": "A Review of Large Language Models and Autonomous Agents in ...",
+              "link": "https://arxiv.org/html/2407.01603v1",
+              "snippet": "In chemistry, LLMs are able to accurately predict properties, design new molecules, optimize synthesis pathways, and accelerate drug and material discovery. A ..."
+            },
+            {
+              "arxiv_id": "2308.10620",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Large Language Models for Software Engineering: A Systematic ...",
+              "link": "https://arxiv.org/html/2308.10620v6",
+              "snippet": "A systematic literature review on the use of deep learning in software engineering research. ACM Transactions on Software Engineering and Methodology (TOSEM) ..."
+            },
+            {
+              "arxiv_id": "2310.17526",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] can large language models replace humans in the - arXiv",
+              "link": "https://arxiv.org/pdf/2310.17526",
+              "snippet": "Large language models (LLMs) could offer a way to speed up and automate systematic reviews, but their performance in such tasks has not been comprehensively ..."
+            },
+            {
+              "arxiv_id": "2409.04109",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...",
+              "link": "https://arxiv.org/html/2409.04109v1",
+              "snippet": "Recent advancements in large language models (LLMs) have sparked optimism about their potential to accelerate scientific discovery, with a growing number of ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 5,
+          "crawler_query": "Articles on the application of LLM-based agents in multi-document summary",
+          "request_payload": {
+            "q": "Articles on the application of LLM-based agents in multi-document summary before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 98,
+              "query_id": "Q14",
+              "group": "A",
+              "query_sequence": 5,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Articles on the application of LLM-based agents in multi-document summary before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:54:57.178400+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Articles on the application of LLM-based agents in multi-document summary before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2402.01680] Large Language Model based Multi-Agents - arXiv\",\"link\":\"https://arxiv.org/abs/2402.01680\",\"snippet\":\"LLM-based multi-agent systems have achieved considerable progress in complex problem-solving and world simulation.\",\"date\":\"Jan 21, 2024\",\"position\":1},{\"title\":\"LLM Based Multi-Agent Generation of Semi-structured Documents ...\",\"link\":\"https://arxiv.org/html/2402.14871v1\",\"snippet\":\"In this work, we propose a novel approach that combines the LLMs with prompt engineering and multi-agent systems for generating new documents compliant with a ...\",\"date\":\"Feb 21, 2024\",\"position\":2},{\"title\":\"LLM Agent Operating System - arXiv\",\"link\":\"https://arxiv.org/html/2403.16971v1\",\"snippet\":\"LLM-based multi-agent systems (MAS) leverage the interaction among multiple agents for problem solving. The relationship among the multiple agents could be ...\",\"date\":\"Mar 25, 2024\",\"position\":3},{\"title\":\"From LLMs to LLM-based Agents for Software Engineering - arXiv\",\"link\":\"https://arxiv.org/html/2408.02479v1\",\"snippet\":\"In software engineering, LLM-based agents show promise in areas such as autonomous debugging, code refactoring, and adaptive test generation, demonstrating ...\",\"date\":\"Aug 5, 2024\",\"position\":4},{\"title\":\"Exploring Large Language Model based Intelligent Agents - arXiv\",\"link\":\"https://arxiv.org/html/2401.03428v1\",\"snippet\":\"This paper surveys current research to provide an in-depth overview of LLM-based intelligent agents within single-agent and multi-agent systems.\",\"date\":\"Jan 7, 2024\",\"position\":5},{\"title\":\"LLM Based Multi-Document Summarization Exploiting Main-Event ...\",\"link\":\"https://arxiv.org/abs/2310.03414\",\"snippet\":\"LLM Based Multi-Document Summarization Exploiting Main-Event Biased Monotone Submodular Content Extraction. Authors:Litton J Kurisinkel, Nancy F. Chen.\",\"date\":\"Oct 5, 2023\",\"position\":6},{\"title\":\"Knowledge Graph Prompting for Multi-Document Question Answering\",\"link\":\"https://arxiv.org/html/2308.11730v3\",\"snippet\":\"For graph traversal, we design an LLM-based graph traversal agent that navigates across nodes and gathers supporting passages assisting LLMs in MD-QA.\",\"date\":\"Dec 25, 2023\",\"position\":7},{\"title\":\"Large Language Model based Multi-Agents: A Survey of Progress ...\",\"link\":\"https://arxiv.org/html/2402.01680v1\",\"snippet\":\"LLM-based multi-agent systems have achieved considerable progress in complex problem-solving and world simulation. We summarize two kinds of applications in ...\",\"date\":\"Jan 21, 2024\",\"position\":8},{\"title\":\"Exploring LLM-based Agents for Root Cause Analysis - arXiv\",\"link\":\"https://arxiv.org/html/2403.04123v1\",\"snippet\":\"In this work, we explore the use of LLM based agents for RCA to address this limitation. We present a thorough empirical evaluation of a \\\\react agent equipped ...\",\"date\":\"Mar 7, 2024\",\"position\":9},{\"title\":\"[2302.12173] Not what you've signed up for - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2302.12173\",\"snippet\":\"We argue that LLM-Integrated Applications blur the line between data and instructions. We reveal new attack vectors, using Indirect Prompt Injection, that ...\",\"date\":\"Apr 4, 2023\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "bbdb7a4da57b4f737ae37f8d02dda127954faaa61175a520d8969b665eb77261",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Articles on the application of LLM-based agents in multi-document summary before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "[2402.01680] Large Language Model based Multi-Agents - arXiv",
+                    "link": "https://arxiv.org/abs/2402.01680",
+                    "snippet": "LLM-based multi-agent systems have achieved considerable progress in complex problem-solving and world simulation.",
+                    "date": "Jan 21, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "LLM Based Multi-Agent Generation of Semi-structured Documents ...",
+                    "link": "https://arxiv.org/html/2402.14871v1",
+                    "snippet": "In this work, we propose a novel approach that combines the LLMs with prompt engineering and multi-agent systems for generating new documents compliant with a ...",
+                    "date": "Feb 21, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "LLM Agent Operating System - arXiv",
+                    "link": "https://arxiv.org/html/2403.16971v1",
+                    "snippet": "LLM-based multi-agent systems (MAS) leverage the interaction among multiple agents for problem solving. The relationship among the multiple agents could be ...",
+                    "date": "Mar 25, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "From LLMs to LLM-based Agents for Software Engineering - arXiv",
+                    "link": "https://arxiv.org/html/2408.02479v1",
+                    "snippet": "In software engineering, LLM-based agents show promise in areas such as autonomous debugging, code refactoring, and adaptive test generation, demonstrating ...",
+                    "date": "Aug 5, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Exploring Large Language Model based Intelligent Agents - arXiv",
+                    "link": "https://arxiv.org/html/2401.03428v1",
+                    "snippet": "This paper surveys current research to provide an in-depth overview of LLM-based intelligent agents within single-agent and multi-agent systems.",
+                    "date": "Jan 7, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "LLM Based Multi-Document Summarization Exploiting Main-Event ...",
+                    "link": "https://arxiv.org/abs/2310.03414",
+                    "snippet": "LLM Based Multi-Document Summarization Exploiting Main-Event Biased Monotone Submodular Content Extraction. Authors:Litton J Kurisinkel, Nancy F. Chen.",
+                    "date": "Oct 5, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "Knowledge Graph Prompting for Multi-Document Question Answering",
+                    "link": "https://arxiv.org/html/2308.11730v3",
+                    "snippet": "For graph traversal, we design an LLM-based graph traversal agent that navigates across nodes and gathers supporting passages assisting LLMs in MD-QA.",
+                    "date": "Dec 25, 2023",
+                    "position": 7
+                  },
+                  {
+                    "title": "Large Language Model based Multi-Agents: A Survey of Progress ...",
+                    "link": "https://arxiv.org/html/2402.01680v1",
+                    "snippet": "LLM-based multi-agent systems have achieved considerable progress in complex problem-solving and world simulation. We summarize two kinds of applications in ...",
+                    "date": "Jan 21, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "Exploring LLM-based Agents for Root Cause Analysis - arXiv",
+                    "link": "https://arxiv.org/html/2403.04123v1",
+                    "snippet": "In this work, we explore the use of LLM based agents for RCA to address this limitation. We present a thorough empirical evaluation of a \\react agent equipped ...",
+                    "date": "Mar 7, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "[2302.12173] Not what you've signed up for - ar5iv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2302.12173",
+                    "snippet": "We argue that LLM-Integrated Applications blur the line between data and instructions. We reveal new attack vectors, using Indirect Prompt Injection, that ...",
+                    "date": "Apr 4, 2023",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:54:58.301390+00:00",
+              "elapsed_seconds": 1.1229918412864208,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q14_A_05_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2302.12173",
+            "2308.11730",
+            "2310.03414",
+            "2401.03428",
+            "2402.01680",
+            "2402.14871",
+            "2403.04123",
+            "2403.16971",
+            "2408.02479"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2402.01680",
+              "organic_index": 0,
+              "position": 1,
+              "title": "[2402.01680] Large Language Model based Multi-Agents - arXiv",
+              "link": "https://arxiv.org/abs/2402.01680",
+              "snippet": "LLM-based multi-agent systems have achieved considerable progress in complex problem-solving and world simulation."
+            },
+            {
+              "arxiv_id": "2402.14871",
+              "organic_index": 1,
+              "position": 2,
+              "title": "LLM Based Multi-Agent Generation of Semi-structured Documents ...",
+              "link": "https://arxiv.org/html/2402.14871v1",
+              "snippet": "In this work, we propose a novel approach that combines the LLMs with prompt engineering and multi-agent systems for generating new documents compliant with a ..."
+            },
+            {
+              "arxiv_id": "2403.16971",
+              "organic_index": 2,
+              "position": 3,
+              "title": "LLM Agent Operating System - arXiv",
+              "link": "https://arxiv.org/html/2403.16971v1",
+              "snippet": "LLM-based multi-agent systems (MAS) leverage the interaction among multiple agents for problem solving. The relationship among the multiple agents could be ..."
+            },
+            {
+              "arxiv_id": "2408.02479",
+              "organic_index": 3,
+              "position": 4,
+              "title": "From LLMs to LLM-based Agents for Software Engineering - arXiv",
+              "link": "https://arxiv.org/html/2408.02479v1",
+              "snippet": "In software engineering, LLM-based agents show promise in areas such as autonomous debugging, code refactoring, and adaptive test generation, demonstrating ..."
+            },
+            {
+              "arxiv_id": "2401.03428",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Exploring Large Language Model based Intelligent Agents - arXiv",
+              "link": "https://arxiv.org/html/2401.03428v1",
+              "snippet": "This paper surveys current research to provide an in-depth overview of LLM-based intelligent agents within single-agent and multi-agent systems."
+            },
+            {
+              "arxiv_id": "2310.03414",
+              "organic_index": 5,
+              "position": 6,
+              "title": "LLM Based Multi-Document Summarization Exploiting Main-Event ...",
+              "link": "https://arxiv.org/abs/2310.03414",
+              "snippet": "LLM Based Multi-Document Summarization Exploiting Main-Event Biased Monotone Submodular Content Extraction. Authors:Litton J Kurisinkel, Nancy F. Chen."
+            },
+            {
+              "arxiv_id": "2308.11730",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Knowledge Graph Prompting for Multi-Document Question Answering",
+              "link": "https://arxiv.org/html/2308.11730v3",
+              "snippet": "For graph traversal, we design an LLM-based graph traversal agent that navigates across nodes and gathers supporting passages assisting LLMs in MD-QA."
+            },
+            {
+              "arxiv_id": "2402.01680",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Large Language Model based Multi-Agents: A Survey of Progress ...",
+              "link": "https://arxiv.org/html/2402.01680v1",
+              "snippet": "LLM-based multi-agent systems have achieved considerable progress in complex problem-solving and world simulation. We summarize two kinds of applications in ..."
+            },
+            {
+              "arxiv_id": "2403.04123",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Exploring LLM-based Agents for Root Cause Analysis - arXiv",
+              "link": "https://arxiv.org/html/2403.04123v1",
+              "snippet": "In this work, we explore the use of LLM based agents for RCA to address this limitation. We present a thorough empirical evaluation of a \\react agent equipped ..."
+            },
+            {
+              "arxiv_id": "2302.12173",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[2302.12173] Not what you've signed up for - ar5iv",
+              "link": "https://ar5iv.labs.arxiv.org/html/2302.12173",
+              "snippet": "We argue that LLM-Integrated Applications blur the line between data and instructions. We reveal new attack vectors, using Indirect Prompt Injection, that ..."
+            }
+          ],
+          "organic_result_count": 10
+        }
+      ],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Find papers that use LLMs or LLM-based agents to automatically write surveys or summaries for multiple scholarly documents.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "becb544926d698b3101eb255b318f009b27bbd0b622d0481a6cc38fbad93b19b",
+      "raw_output": "[Search]Use of LLMs in automatic survey writing\n[Search]Survey papers on the use of LLMs in scholarly document summarization\n[Search]Papers on LLM-based agents for writing summaries of scholarly articles\n[Search]Research on using language models for automatic synthesis of literature reviews\n[Search]Articles on the application of LLM-based agents in multi-document summary\n[StopSearch]",
+      "raw_output_with_special_tokens": "[Search]Use of LLMs in automatic survey writing\n[Search]Survey papers on the use of LLMs in scholarly document summarization\n[Search]Papers on LLM-based agents for writing summaries of scholarly articles\n[Search]Research on using language models for automatic synthesis of literature reviews\n[Search]Articles on the application of LLM-based agents in multi-document summary\n[StopSearch]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        5890,
+        60,
+        10253,
+        315,
+        444,
+        10994,
+        82,
+        304,
+        16962,
+        10572,
+        4378,
+        198,
+        58,
+        5890,
+        60,
+        68015,
+        15689,
+        389,
+        279,
+        990,
+        315,
+        444,
+        10994,
+        82,
+        304,
+        62581,
+        2197,
+        28285,
+        2022,
+        198,
+        58,
+        5890,
+        60,
+        47,
+        9532,
+        389,
+        444,
+        10994,
+        5980,
+        13009,
+        369,
+        4378,
+        68922,
+        315,
+        62581,
+        9709,
+        198,
+        58,
+        5890,
+        60,
+        27428,
+        389,
+        1667,
+        4128,
+        4119,
+        369,
+        16962,
+        38875,
+        315,
+        17206,
+        8379,
+        198,
+        58,
+        5890,
+        60,
+        46135,
+        389,
+        279,
+        3766,
+        315,
+        444,
+        10994,
+        5980,
+        13009,
+        304,
+        7299,
+        82233,
+        12126,
+        198,
+        58,
+        10674,
+        5890,
+        60,
+        151645
+      ],
+      "generated_token_count": 85,
+      "ended_with_eos": true,
+      "input_token_count": 78,
+      "generation_seconds": 2.855403535068035,
+      "all_parsed_queries": [
+        "Use of LLMs in automatic survey writing",
+        "Survey papers on the use of LLMs in scholarly document summarization",
+        "Papers on LLM-based agents for writing summaries of scholarly articles",
+        "Research on using language models for automatic synthesis of literature reviews",
+        "Articles on the application of LLM-based agents in multi-document summary"
+      ],
+      "queries": [
+        "Use of LLMs in automatic survey writing",
+        "Survey papers on the use of LLMs in scholarly document summarization",
+        "Papers on LLM-based agents for writing summaries of scholarly articles",
+        "Research on using language models for automatic synthesis of literature reviews",
+        "Articles on the application of LLM-based agents in multi-document summary"
+      ],
+      "discarded_queries": []
+    },
+    "B": {
+      "prompt": "Please generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Find papers that use LLMs or LLM-based agents to automatically write surveys or summaries for multiple scholarly documents.",
+      "searches": [],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Find papers that use LLMs or LLM-based agents to automatically write surveys or summaries for multiple scholarly documents.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "824522be451863f2df95764522f97875dbdc0fbe63dc9bed10e57a93bbec3664",
+      "raw_output": "[Expand]Use of LLMs in automatic survey writing[Expand]Application of LLM-based agents in summarizing scholarly documents[StopExpand]",
+      "raw_output_with_special_tokens": "[Expand]Use of LLMs in automatic survey writing[Expand]Application of LLM-based agents in summarizing scholarly documents[StopExpand]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        38946,
+        60,
+        10253,
+        315,
+        444,
+        10994,
+        82,
+        304,
+        16962,
+        10572,
+        4378,
+        58,
+        38946,
+        60,
+        4988,
+        315,
+        444,
+        10994,
+        5980,
+        13009,
+        304,
+        28285,
+        4849,
+        62581,
+        9293,
+        58,
+        10674,
+        38946,
+        60,
+        151645
+      ],
+      "generated_token_count": 31,
+      "ended_with_eos": true,
+      "input_token_count": 168,
+      "generation_seconds": 1.0463266745209694,
+      "all_parsed_queries": [],
+      "queries": [],
+      "discarded_queries": []
+    }
+  },
+  "started_utc": "2026-09-14T02:54:46.934455+00:00",
+  "search_order_first_group": "A",
+  "search_started_utc": "2026-09-14T02:54:50.840558+00:00",
+  "search_finished_utc": "2026-09-14T02:54:58.301971+00:00",
+  "search_seconds": 7.461442470550537,
+  "finished_utc": "2026-09-14T02:54:58.301988+00:00",
+  "elapsed_seconds": 11.36753799021244
+}

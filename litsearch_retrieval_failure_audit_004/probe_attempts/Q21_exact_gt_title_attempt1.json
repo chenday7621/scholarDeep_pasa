@@ -1,0 +1,198 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q21",
+  "group": "author-written",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2305.17444",
+  "request_payload": {
+    "q": "Query-Efficient Black-Box Red Teaming via Bayesian Optimization before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 43,
+  "started_utc": "2026-09-17T12:34:15.223663+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648180",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "5745adbfa2a0bd4e3bc9978101f3f94e",
+    "date": "Thu, 17 Sep 2026 12:29:36 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3346",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3346,
+  "response_bytes_sha256": "64baf2b19f4e9f4f26bac42480424e0cb9c30c08c0c9511a1849f69ba3c26c7a",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJRdWVyeS1FZmZpY2llbnQgQmxhY2stQm94IFJlZCBUZWFtaW5nIHZpYSBCYXllc2lhbiBPcHRpbWl6YXRpb24gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiUXVlcnktRWZmaWNpZW50IEJsYWNrLUJveCBSZWQgVGVhbWluZyB2aWEgQmF5ZXNpYW4gT3B0aW1pemF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzA1LjE3NDQ0Iiwic25pcHBldCI6IldlIGZvY3VzIG9uIHRoZSBwcm9ibGVtIG9mIGJsYWNrLWJveCByZWQgdGVhbWluZywgd2hlcmUgYSByZWQgdGVhbSBnZW5lcmF0ZXMgdGVzdCBjYXNlcyBhbmQgaW50ZXJhY3RzIHdpdGggdGhlIHZpY3RpbSBtb2RlbCB0byBkaXNjb3ZlciBhIGRpdmVyc2Ugc2V0IG9mIC4uLiIsImRhdGUiOiJNYXkgMjcsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlF1ZXJ5LUVmZmljaWVudCBCbGFjay1Cb3ggUmVkIFRlYW1pbmcgdmlhIEJheWVzaWFuIE9wdGltaXphdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDUuMTc0NDR2MSIsInNuaXBwZXQiOiJXZSBmb2N1cyBvbiB0aGUgcHJvYmxlbSBvZiBibGFjay1ib3ggcmVkIHRlYW1pbmcsIHdoZXJlIGEgcmVkIHRlYW0gZ2VuZXJhdGVzIHRlc3QgY2FzZXMgYW5kIGludGVyYWN0cyB3aXRoIHRoZSB2aWN0aW0gbW9kZWwgdG8gZGlzY292ZXIgYSBkaXZlcnNlIHNldCBvZiAuLi4iLCJkYXRlIjoiTWF5IDI3LCAyMDIzIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMzA1LjE3NDQ0djEgW2NzLkFJXSAyNyBNYXkgMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4xNzQ0NCIsInNuaXBwZXQiOiJUbyB0aGlzIGVuZCwgd2UgcHJvcG9zZSBCYXllc2lhbiByZWQgdGVhbWluZyAoQlJUKSwgbm92ZWwgcXVlcnktZWZmaWNpZW50IGJsYWNrLSBib3ggcmVkIHRlYW1pbmcgbWV0aG9kcyBiYXNlZCBvbiBCYXllc2lhbiBvcHRpbWl6YXRpb24sIHdoaWNoIGl0ZXJhdGl2ZWx5IC4uLiIsImRhdGUiOiJNYXkgMjcsIDIwMjMiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIEVmZmljaWVudCBCbGFjay1ib3ggQWR2ZXJzYXJpYWwgQXR0YWNrcyB2aWEgQmF5ZXNpYW4gT3B0aW1pemF0aW9uIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNS4xOTA5OCIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHN0dWRpZXMgdGhlIGNoYWxsZW5naW5nIGJsYWNrLWJveCBhZC0gdmVyc2FyaWFsIGF0dGFjayB0aGF0IGFpbXMgdG8gZ2VuZXJhdGUgYWR2ZXJzYXJpYWwgZXhhbXBsZXMgYWdhaW5zdCBhIGJsYWNrLWJveCBtb2RlbCIsImRhdGUiOiJNYXkgMjksIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkltcHJvdmVkIFRlY2huaXF1ZXMgZm9yIE9wdGltaXphdGlvbi1CYXNlZCBKYWlsYnJlYWtpbmcgb24gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjIxMDE4djEiLCJzbmlwcGV0IjoiQmF5ZXNpYW4gUmVkIFRlYW1pbmcsIGNhbGxlZCBCUlQsIHdoaWNoIGlzIGEgYmxhY2stYm94IHJlZCB0ZWFtaW5nIG1ldGhvZCBmb3IgamFpbGJyZWFraW5nIHVzaW5nIEJheWVzaWFuIG9wdGltaXphdGlvbiB0byBpdGVyYXRpdmVseSBpZGVudGlmeSBkaXZlcnNlIHBvc2l0aXZlIC4uLiIsImRhdGUiOiJNYXkgMzEsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIEluLUNvbnRleHQgRXhwZXJpZW5jZSBSZXBsYXkgRmFjaWxpdGF0ZXMgU2FmZXR5IFJlZC1UZWFtaW5nIG9mIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQxMS4xNjc2OSIsInNuaXBwZXQiOiJPdXIgbWV0aG9kb2xvZ3kgaW50ZWdyYXRlcyB0aHJlZSBrZXkgY29tcG9uZW50cyB3aXRoaW4gYSBCYXllc2lhbiBPcHRpbWl6YXRpb24gKEJPKSBmcmFtZXdvcmsgdG8gZW5oYW5jZSBibGFjay0gYm94IHJlZC10ZWFtaW5nIChTZWN0aW9uIDMuMikuIiwiZGF0ZSI6IkZlYiAxMiwgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQk9TSDogQW4gRWZmaWNpZW50IE1ldGEgQWxnb3JpdGhtIGZvciBEZWNpc2lvbi1iYXNlZCBBdHRhY2tzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8xOTA5LjA0Mjg4djMiLCJzbmlwcGV0Ijoid2UgcHJvcG9zZSBhbiBlZmZpY2llbnQgbWV0YSBhbGdvcml0aG0gY2FsbGVkIEJPU0gtYXR0YWNrLCB3aGljaCB0cmVtZW5kb3VzbHkgaW1wcm92ZXMgZXhpc3RpbmcgYWxnb3JpdGhtcyB0aHJvdWdoIEJheWVzaWFuIE9wdGltaXphdGlvbiAoQk8pIGFuZCBTdWNjZXNzaXZlIC4uLiIsImRhdGUiOiJPY3QgMTQsIDIwMTkiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlJlZC1UZWFtaW5nIGZvciBHZW5lcmF0aXZlIEFJOlNpbHZlciBCdWxsZXQgb3IgU2VjdXJpdHkgVGhlYXRlcj8iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAxLjE1ODk3djMiLCJzbmlwcGV0IjoiUXVlcnktZWZmaWNpZW50IGJsYWNrLWJveCByZWQgdGVhbWluZyB2aWEgYmF5ZXNpYW4gb3B0aW1pemF0aW9uLiBJbnRyb2R1Y2luZyBzdXBlcmFsaWdubWVudC4iLCJkYXRlIjoiQXVnIDI3LCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDA1LjE4NTQwdjIgW2NzLkNMXSAyOCBGZWIgMjAyNSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNS4xODU0MCIsInNuaXBwZXQiOiJRdWVyeS1lZmZpY2llbnQgYmxhY2stYm94IHJlZCB0ZWFtaW5nIHZpYSBCYXllc2lhbiBvcHRpbWl6YXRpb24uIEluIFByb2NlZWQtIGluZ3Mgb2YgdGhlIDYxc3QgQW5udWFsIE1lZXRpbmcgb2YgdGhlIEFzc29jaWF0aW9uIGZvciBDb21wdXRhdGlvbmFsIC4uLiIsImRhdGUiOiJGZWIgMjgsIDIwMjUiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6Ilplcm9TaG90T3B0OiBUb3dhcmRzIFplcm8tU2hvdCBQcmV0cmFpbmVkIE1vZGVscyBmb3IgRWZmaWNpZW50IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MTAuMDMwNTF2MSIsInNuaXBwZXQiOiJUaGVyZWZvcmUsIHdlIGZvY3VzIG9uIGltcHJvdmluZyBjb250aW51b3VzIGJsYWNrLWJveCBvcHRpbWl6YXRpb24gdW5kZXIgc3RyaWN0IGV2YWx1YXRpb24gY29uc3RyYWludHMuIEJheWVzaWFuIG9wdGltaXphdGlvbiAoQk8pIFs0XSByZWR1Y2VzIHRoaXMgYnVyZGVuIGJ5IC4uLiIsImRhdGUiOiJPY3QgMywgMjAyNSIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Query-Efficient Black-Box Red Teaming via Bayesian Optimization before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Query-Efficient Black-Box Red Teaming via Bayesian Optimization",
+        "link": "https://arxiv.org/abs/2305.17444",
+        "snippet": "We focus on the problem of black-box red teaming, where a red team generates test cases and interacts with the victim model to discover a diverse set of ...",
+        "date": "May 27, 2023",
+        "position": 1
+      },
+      {
+        "title": "Query-Efficient Black-Box Red Teaming via Bayesian Optimization",
+        "link": "https://arxiv.org/html/2305.17444v1",
+        "snippet": "We focus on the problem of black-box red teaming, where a red team generates test cases and interacts with the victim model to discover a diverse set of ...",
+        "date": "May 27, 2023",
+        "position": 2
+      },
+      {
+        "title": "[PDF] arXiv:2305.17444v1 [cs.AI] 27 May 2023",
+        "link": "https://arxiv.org/pdf/2305.17444",
+        "snippet": "To this end, we propose Bayesian red teaming (BRT), novel query-efficient black- box red teaming methods based on Bayesian optimization, which iteratively ...",
+        "date": "May 27, 2023",
+        "position": 3
+      },
+      {
+        "title": "[PDF] Efficient Black-box Adversarial Attacks via Bayesian Optimization ...",
+        "link": "https://arxiv.org/pdf/2405.19098",
+        "snippet": "This paper studies the challenging black-box ad- versarial attack that aims to generate adversarial examples against a black-box model",
+        "date": "May 29, 2024",
+        "position": 4
+      },
+      {
+        "title": "Improved Techniques for Optimization-Based Jailbreaking on ... - arXiv",
+        "link": "https://arxiv.org/html/2405.21018v1",
+        "snippet": "Bayesian Red Teaming, called BRT, which is a black-box red teaming method for jailbreaking using Bayesian optimization to iteratively identify diverse positive ...",
+        "date": "May 31, 2024",
+        "position": 5
+      },
+      {
+        "title": "[PDF] In-Context Experience Replay Facilitates Safety Red-Teaming of ...",
+        "link": "https://arxiv.org/pdf/2411.16769",
+        "snippet": "Our methodology integrates three key components within a Bayesian Optimization (BO) framework to enhance black- box red-teaming (Section 3.2).",
+        "date": "Feb 12, 2025",
+        "position": 6
+      },
+      {
+        "title": "BOSH: An Efficient Meta Algorithm for Decision-based Attacks - arXiv",
+        "link": "https://arxiv.org/html/1909.04288v3",
+        "snippet": "we propose an efficient meta algorithm called BOSH-attack, which tremendously improves existing algorithms through Bayesian Optimization (BO) and Successive ...",
+        "date": "Oct 14, 2019",
+        "position": 7
+      },
+      {
+        "title": "Red-Teaming for Generative AI:Silver Bullet or Security Theater?",
+        "link": "https://arxiv.org/html/2401.15897v3",
+        "snippet": "Query-efficient black-box red teaming via bayesian optimization. Introducing superalignment.",
+        "date": "Aug 27, 2024",
+        "position": 8
+      },
+      {
+        "title": "[PDF] arXiv:2405.18540v2 [cs.CL] 28 Feb 2025",
+        "link": "https://arxiv.org/pdf/2405.18540",
+        "snippet": "Query-efficient black-box red teaming via Bayesian optimization. In Proceed- ings of the 61st Annual Meeting of the Association for Computational ...",
+        "date": "Feb 28, 2025",
+        "position": 9
+      },
+      {
+        "title": "ZeroShotOpt: Towards Zero-Shot Pretrained Models for Efficient ...",
+        "link": "https://arxiv.org/html/2510.03051v1",
+        "snippet": "Therefore, we focus on improving continuous black-box optimization under strict evaluation constraints. Bayesian optimization (BO) [4] reduces this burden by ...",
+        "date": "Oct 3, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Query-Efficient Black-Box Red Teaming via Bayesian Optimization",
+      "snippet": "We focus on the problem of black-box red teaming, where a red team generates test cases and interacts with the victim model to discover a diverse set of ...",
+      "link": "https://arxiv.org/abs/2305.17444",
+      "arxiv_id": "2305.17444"
+    },
+    {
+      "rank": 2,
+      "title": "Query-Efficient Black-Box Red Teaming via Bayesian Optimization",
+      "snippet": "We focus on the problem of black-box red teaming, where a red team generates test cases and interacts with the victim model to discover a diverse set of ...",
+      "link": "https://arxiv.org/html/2305.17444v1",
+      "arxiv_id": "2305.17444"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] arXiv:2305.17444v1 [cs.AI] 27 May 2023",
+      "snippet": "To this end, we propose Bayesian red teaming (BRT), novel query-efficient black- box red teaming methods based on Bayesian optimization, which iteratively ...",
+      "link": "https://arxiv.org/pdf/2305.17444",
+      "arxiv_id": "2305.17444"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] Efficient Black-box Adversarial Attacks via Bayesian Optimization ...",
+      "snippet": "This paper studies the challenging black-box ad- versarial attack that aims to generate adversarial examples against a black-box model",
+      "link": "https://arxiv.org/pdf/2405.19098",
+      "arxiv_id": "2405.19098"
+    },
+    {
+      "rank": 5,
+      "title": "Improved Techniques for Optimization-Based Jailbreaking on ... - arXiv",
+      "snippet": "Bayesian Red Teaming, called BRT, which is a black-box red teaming method for jailbreaking using Bayesian optimization to iteratively identify diverse positive ...",
+      "link": "https://arxiv.org/html/2405.21018v1",
+      "arxiv_id": "2405.21018"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] In-Context Experience Replay Facilitates Safety Red-Teaming of ...",
+      "snippet": "Our methodology integrates three key components within a Bayesian Optimization (BO) framework to enhance black- box red-teaming (Section 3.2).",
+      "link": "https://arxiv.org/pdf/2411.16769",
+      "arxiv_id": "2411.16769"
+    },
+    {
+      "rank": 7,
+      "title": "BOSH: An Efficient Meta Algorithm for Decision-based Attacks - arXiv",
+      "snippet": "we propose an efficient meta algorithm called BOSH-attack, which tremendously improves existing algorithms through Bayesian Optimization (BO) and Successive ...",
+      "link": "https://arxiv.org/html/1909.04288v3",
+      "arxiv_id": "1909.04288"
+    },
+    {
+      "rank": 8,
+      "title": "Red-Teaming for Generative AI:Silver Bullet or Security Theater?",
+      "snippet": "Query-efficient black-box red teaming via bayesian optimization. Introducing superalignment.",
+      "link": "https://arxiv.org/html/2401.15897v3",
+      "arxiv_id": "2401.15897"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] arXiv:2405.18540v2 [cs.CL] 28 Feb 2025",
+      "snippet": "Query-efficient black-box red teaming via Bayesian optimization. In Proceed- ings of the 61st Annual Meeting of the Association for Computational ...",
+      "link": "https://arxiv.org/pdf/2405.18540",
+      "arxiv_id": "2405.18540"
+    },
+    {
+      "rank": 10,
+      "title": "ZeroShotOpt: Towards Zero-Shot Pretrained Models for Efficient ...",
+      "snippet": "Therefore, we focus on improving continuous black-box optimization under strict evaluation constraints. Bayesian optimization (BO) [4] reduces this burden by ...",
+      "link": "https://arxiv.org/html/2510.03051v1",
+      "arxiv_id": "2510.03051"
+    }
+  ],
+  "gold_hit_ranks": [
+    1,
+    2,
+    3
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:16.354409+00:00",
+  "elapsed_seconds": 1.130748488008976
+}

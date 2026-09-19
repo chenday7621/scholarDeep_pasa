@@ -1,0 +1,164 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 12,
+  "question_id": "Q11",
+  "group": "author-written",
+  "native_query_index": 1,
+  "native_query": "Survey papers on financial time series and text data models",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "2310.04948",
+  "page": 5,
+  "payload": {
+    "q": "Survey papers on financial time series and text data models before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 5
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 12,
+  "started_utc": "2026-09-17T12:44:01.493317+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648765",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "24d09b517c3c3c0c989c293eef40c104",
+    "date": "Thu, 17 Sep 2026 12:39:27 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "4098",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 4098,
+  "response_bytes_sha256": "55b1071ff71328a3faa5431e0095f883e1b7132064d45cae89007e0b43555cfc",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIGZpbmFuY2lhbCB0aW1lIHNlcmllcyBhbmQgdGV4dCBkYXRhIG1vZGVscyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjo1LCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJbMjQwNy4xMzI3OF0gRGVlcCBUaW1lIFNlcmllcyBNb2RlbHM6IEEgQ29tcHJlaGVuc2l2ZSBTdXJ2ZXkgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA3LjEzMjc4Iiwic25pcHBldCI6IlRpbWUgc2VyaWVzLCBjaGFyYWN0ZXJpemVkIGJ5IGEgc2VxdWVuY2Ugb2YgZGF0YSBwb2ludHMgb3JnYW5pemVkIGluIGEgZGlzY3JldGUtdGltZSBvcmRlciwgYXJlIHViaXF1aXRvdXMgaW4gcmVhbC13b3JsZCBzY2VuYXJpb3MuIFVubGlrZSBvdGhlciBkYXRhIG1vZGFsaXRpZXMsIHRpbWUgc2VyaWVzIHByZXNlbnQgdW5pcXVlIGNoYWxsZW5nZXMgaW4gbGVhcm5pbmcgYW5kIG1vZGVsaW5nIGR1ZSB0byB0aGVpciBpbnRyaWNhdGUgYW5kIGR5bmFtaWMgbmF0dXJlLCBpbmNsdWRpbmcgdGhlIGVudGFuZ2xlbWVudCBvZiBub25saW5lYXIgcGF0dGVybnMgYW5kIHRpbWUtdmFyaWFudCB0cmVuZHMuIFJlY2VudCB5ZWFycyBoYXZlIHdpdG5lc3NlZCByZW1hcmthYmxlIGJyZWFrdGhyb3VnaHMgLi4uIiwiZGF0ZSI6Ikp1bCAxOCwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiWzIzMDkuMDM0MDldIExhcmdlIExhbmd1YWdlIE1vZGVscyBhcyBPcHRpbWl6ZXJzIC0gYXJYaXYub3JnIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzA5LjAzNDA5Iiwic25pcHBldCI6Ik9wdGltaXphdGlvbiBpcyB1YmlxdWl0b3VzLiBXaGlsZSBkZXJpdmF0aXZlLWJhc2VkIGFsZ29yaXRobXMgaGF2ZSBiZWVuIHBvd2VyZnVsIHRvb2xzIGZvciB2YXJpb3VzIHByb2JsZW1zLCB0aGUgYWJzZW5jZSBvZiBncmFkaWVudCBpbXBvc2VzIGNoYWxsZW5nZXMgb24gbWFueSByZWFsLXdvcmxkIGFwcGxpY2F0aW9ucy4gSW4gdGhpcyB3b3JrLCB3ZSBwcm9wb3NlIE9wdGltaXphdGlvbiBieSBQUk9tcHRpbmcgKE9QUk8pLCBhIHNpbXBsZSBhbmQgZWZmZWN0aXZlIGFwcHJvYWNoIHRvIGxldmVyYWdlIGxhcmdlIGxhbmd1YWdlIG1vZGVscyAoTExNcykgYXMgb3B0aW1pemVycywgd2hlcmUgdGhlIG9wdGltaXphdGlvbiB0YXNrIGlzIGRlc2NyaWJlZCBpbiBuYXR1cmFsIGxhbmd1YWdlLiBJbiAuLi4iLCJkYXRlIjoiU2VwIDcsIDIwMjMiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkZvdW5kYXRpb24gTW9kZWxzIGZvciBUaW1lIFNlcmllcyBBbmFseXNpczogQSBUdXRvcmlhbCBhbmQgU3VydmV5IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xNDczNXYzIiwic25pcHBldCI6IkFic3RyYWN0LiBUaW1lIHNlcmllcyBhbmFseXNpcyBzdGFuZHMgYXMgYSBmb2NhbCBwb2ludCB3aXRoaW4gdGhlIGRhdGEgbWluaW5nIGNvbW11bml0eSwgc2VydmluZyBhcyBhIGNvcm5lcnN0b25lIGZvciBleHRyYWN0aW5nIHZhbHVhYmxlIGluc2lnaHRzIGNydWNpYWwgdG8gYSBteXJpYWQgb2YgcmVhbC13b3JsZCBhcHBsaWNhdGlvbnMuIFJlY2VudCBhZHZhbmNlcyBpbiBGb3VuZGF0aW9uIE1vZGVscyAoRk1zKSBoYXZlIGZ1bmRhbWVudGFsbHkgcmVzaGFwZWQgdGhlIHBhcmFkaWdtIG9mIG1vZGVsIGRlc2lnbiBmb3IgdGltZSBzZXJpZXMgYW5hbHlzaXMsIGJvb3N0aW5nIHZhcmlvdXMgZG93bnN0cmVhbSB0YXNrcyBpbiBwcmFjdGljZS4gVGhlc2UgaW5ub3ZhdGl2ZSBhcHByb2FjaGVzIC4uLiIsImRhdGUiOiJKdW4gMTgsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IlsyNTEwLjAyNDEwXSBPcGVuVFNMTTogVGltZS1TZXJpZXMgTGFuZ3VhZ2UgTW9kZWxzIGZvciAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI1MTAuMDI0MTAiLCJzbmlwcGV0IjoiTExNcyBoYXZlIGVtZXJnZWQgYXMgcG93ZXJmdWwgdG9vbHMgZm9yIGludGVycHJldGluZyBtdWx0aW1vZGFsIGRhdGEuIEluIG1lZGljaW5lLCB0aGV5IGhvbGQgcGFydGljdWxhciBwcm9taXNlIGZvciBzeW50aGVzaXppbmcgbGFyZ2Ugdm9sdW1lcyBvZiBjbGluaWNhbCBpbmZvcm1hdGlvbiBpbnRvIGFjdGlvbmFibGUgaW5zaWdodHMgYW5kIGRpZ2l0YWwgaGVhbHRoIGFwcGxpY2F0aW9ucy4gWWV0LCBhIG1ham9yIGxpbWl0YXRpb24gcmVtYWlucyB0aGVpciBpbmFiaWxpdHkgdG8gaGFuZGxlIHRpbWUgc2VyaWVzLiBUbyBvdmVyY29tZSB0aGlzIGdhcCwgd2UgcHJlc2VudCBPcGVuVFNMTSwgYSBmYW1pbHkgb2YgVGltZSBTZXJpZXMgTGFuZ3VhZ2UgTW9kZWxzIChUU0xNcykgY3JlYXRlZCAuLi4iLCJkYXRlIjoiT2N0IDIsIDIwMjUiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlRpbWUgU2VyaWVzIEFuYWx5c2lzIGFuZCBNb2RlbGluZyB0byBGb3JlY2FzdDogYSBTdXJ2ZXkiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIxMDQuMDAxNjQiLCJzbmlwcGV0IjoiVGltZSBzZXJpZXMgbW9kZWxpbmcgZm9yIHByZWRpY3RpdmUgcHVycG9zZSBoYXMgYmVlbiBhbiBhY3RpdmUgcmVzZWFyY2ggYXJlYSBvZiBtYWNoaW5lIGxlYXJuaW5nIGZvciBtYW55IHllYXJzLiBIb3dldmVyLCBubyBzdWZmaWNpZW50bHkgY29tcHJlaGVuc2l2ZSBhbmQgbWVhbndoaWxlIHN1YnN0YW50aXZlIHN1cnZleSB3YXMgb2ZmZXJlZCBzbyBmYXIuIFRoaXMgc3VydmV5IHN0cml2ZXMgdG8gbWVldCB0aGlzIG5lZWQuIEEgdW5pZmllZCBwcmVzZW50YXRpb24gaGFzIGJlZW4gYWRvcHRlZCBmb3IgZW50aXJlIHBhcnRzIG9mIHRoaXMgY29tcGlsYXRpb24uIEEgcmVkIHRocmVhZCBndWlkZXMgdGhlIHJlYWRlciBmcm9tIHRpbWUgc2VyaWVzIHByZXByb2Nlc3NpbmcgdG8gLi4uIiwiZGF0ZSI6Ik1hciAzMSwgMjAyMSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiWzIzMDYuMTM1NDldIEEgU3VydmV5IG9uIE11bHRpbW9kYWwgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzA2LjEzNTQ5Iiwic25pcHBldCI6IlJlY2VudGx5LCBNdWx0aW1vZGFsIExhcmdlIExhbmd1YWdlIE1vZGVsIChNTExNKSByZXByZXNlbnRlZCBieSBHUFQtNFYgaGFzIGJlZW4gYSBuZXcgcmlzaW5nIHJlc2VhcmNoIGhvdHNwb3QsIHdoaWNoIHVzZXMgcG93ZXJmdWwgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIChMTE1zKSBhcyBhIGJyYWluIHRvIHBlcmZvcm0gbXVsdGltb2RhbCB0YXNrcy4gVGhlIHN1cnByaXNpbmcgZW1lcmdlbnQgY2FwYWJpbGl0aWVzIG9mIE1MTE0sIHN1Y2ggYXMgd3JpdGluZyBzdG9yaWVzIGJhc2VkIG9uIGltYWdlcyBhbmQgT0NSLWZyZWUgbWF0aCByZWFzb25pbmcsIGFyZSByYXJlIGluIHRyYWRpdGlvbmFsIG11bHRpbW9kYWwgbWV0aG9kcywgc3VnZ2VzdGluZyBhIHBvdGVudGlhbCBwYXRoIHRvIC4uLiIsImRhdGUiOiJKdW4gMjMsIDIwMjMiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkEgQ29tcHJlaGVuc2l2ZSBPdmVydmlldyBvZiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDcuMDY0MzUiLCJzbmlwcGV0IjoiTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIChMTE1zKSBoYXZlIHJlY2VudGx5IGRlbW9uc3RyYXRlZCByZW1hcmthYmxlIGNhcGFiaWxpdGllcyBpbiBuYXR1cmFsIGxhbmd1YWdlIHByb2Nlc3NpbmcgdGFza3MgYW5kIGJleW9uZC4gVGhpcyBzdWNjZXNzIG9mIExMTXMgaGFzIGxlZCB0byBhIGxhcmdlIGluZmx1eCBvZiByZXNlYXJjaCBjb250cmlidXRpb25zIGluIHRoaXMgZGlyZWN0aW9uLiBUaGVzZSB3b3JrcyBlbmNvbXBhc3MgZGl2ZXJzZSB0b3BpY3Mgc3VjaCBhcyBhcmNoaXRlY3R1cmFsIGlubm92YXRpb25zLCBiZXR0ZXIgdHJhaW5pbmcgc3RyYXRlZ2llcywgY29udGV4dCBsZW5ndGggaW1wcm92ZW1lbnRzLCBmaW5lLXR1bmluZywgbXVsdGktbW9kYWwgTExNcywgcm9ib3RpY3MgLi4uIiwiZGF0ZSI6Ikp1bCAxMiwgMjAyMyIsInBvc2l0aW9uIjo3fV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Survey papers on financial time series and text data models before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 5,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[2407.13278] Deep Time Series Models: A Comprehensive Survey ...",
+        "link": "https://arxiv.org/abs/2407.13278",
+        "snippet": "Time series, characterized by a sequence of data points organized in a discrete-time order, are ubiquitous in real-world scenarios. Unlike other data modalities, time series present unique challenges in learning and modeling due to their intricate and dynamic nature, including the entanglement of nonlinear patterns and time-variant trends. Recent years have witnessed remarkable breakthroughs ...",
+        "date": "Jul 18, 2024",
+        "position": 1
+      },
+      {
+        "title": "[2309.03409] Large Language Models as Optimizers - arXiv.org",
+        "link": "https://arxiv.org/abs/2309.03409",
+        "snippet": "Optimization is ubiquitous. While derivative-based algorithms have been powerful tools for various problems, the absence of gradient imposes challenges on many real-world applications. In this work, we propose Optimization by PROmpting (OPRO), a simple and effective approach to leverage large language models (LLMs) as optimizers, where the optimization task is described in natural language. In ...",
+        "date": "Sep 7, 2023",
+        "position": 2
+      },
+      {
+        "title": "Foundation Models for Time Series Analysis: A Tutorial and Survey",
+        "link": "https://arxiv.org/html/2403.14735v3",
+        "snippet": "Abstract. Time series analysis stands as a focal point within the data mining community, serving as a cornerstone for extracting valuable insights crucial to a myriad of real-world applications. Recent advances in Foundation Models (FMs) have fundamentally reshaped the paradigm of model design for time series analysis, boosting various downstream tasks in practice. These innovative approaches ...",
+        "date": "Jun 18, 2024",
+        "position": 3
+      },
+      {
+        "title": "[2510.02410] OpenTSLM: Time-Series Language Models for ...",
+        "link": "https://arxiv.org/abs/2510.02410",
+        "snippet": "LLMs have emerged as powerful tools for interpreting multimodal data. In medicine, they hold particular promise for synthesizing large volumes of clinical information into actionable insights and digital health applications. Yet, a major limitation remains their inability to handle time series. To overcome this gap, we present OpenTSLM, a family of Time Series Language Models (TSLMs) created ...",
+        "date": "Oct 2, 2025",
+        "position": 4
+      },
+      {
+        "title": "Time Series Analysis and Modeling to Forecast: a Survey",
+        "link": "https://arxiv.org/abs/2104.00164",
+        "snippet": "Time series modeling for predictive purpose has been an active research area of machine learning for many years. However, no sufficiently comprehensive and meanwhile substantive survey was offered so far. This survey strives to meet this need. A unified presentation has been adopted for entire parts of this compilation. A red thread guides the reader from time series preprocessing to ...",
+        "date": "Mar 31, 2021",
+        "position": 5
+      },
+      {
+        "title": "[2306.13549] A Survey on Multimodal Large Language Models",
+        "link": "https://arxiv.org/abs/2306.13549",
+        "snippet": "Recently, Multimodal Large Language Model (MLLM) represented by GPT-4V has been a new rising research hotspot, which uses powerful Large Language Models (LLMs) as a brain to perform multimodal tasks. The surprising emergent capabilities of MLLM, such as writing stories based on images and OCR-free math reasoning, are rare in traditional multimodal methods, suggesting a potential path to ...",
+        "date": "Jun 23, 2023",
+        "position": 6
+      },
+      {
+        "title": "A Comprehensive Overview of Large Language Models",
+        "link": "https://arxiv.org/abs/2307.06435",
+        "snippet": "Large Language Models (LLMs) have recently demonstrated remarkable capabilities in natural language processing tasks and beyond. This success of LLMs has led to a large influx of research contributions in this direction. These works encompass diverse topics such as architectural innovations, better training strategies, context length improvements, fine-tuning, multi-modal LLMs, robotics ...",
+        "date": "Jul 12, 2023",
+        "position": 7
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank_on_page": 1,
+      "nominal_rank": 41,
+      "title": "[2407.13278] Deep Time Series Models: A Comprehensive Survey ...",
+      "snippet": "Time series, characterized by a sequence of data points organized in a discrete-time order, are ubiquitous in real-world scenarios. Unlike other data modalities, time series present unique challenges in learning and modeling due to their intricate and dynamic nature, including the entanglement of nonlinear patterns and time-variant trends. Recent years have witnessed remarkable breakthroughs ...",
+      "link": "https://arxiv.org/abs/2407.13278",
+      "arxiv_id": "2407.13278"
+    },
+    {
+      "rank_on_page": 2,
+      "nominal_rank": 42,
+      "title": "[2309.03409] Large Language Models as Optimizers - arXiv.org",
+      "snippet": "Optimization is ubiquitous. While derivative-based algorithms have been powerful tools for various problems, the absence of gradient imposes challenges on many real-world applications. In this work, we propose Optimization by PROmpting (OPRO), a simple and effective approach to leverage large language models (LLMs) as optimizers, where the optimization task is described in natural language. In ...",
+      "link": "https://arxiv.org/abs/2309.03409",
+      "arxiv_id": "2309.03409"
+    },
+    {
+      "rank_on_page": 3,
+      "nominal_rank": 43,
+      "title": "Foundation Models for Time Series Analysis: A Tutorial and Survey",
+      "snippet": "Abstract. Time series analysis stands as a focal point within the data mining community, serving as a cornerstone for extracting valuable insights crucial to a myriad of real-world applications. Recent advances in Foundation Models (FMs) have fundamentally reshaped the paradigm of model design for time series analysis, boosting various downstream tasks in practice. These innovative approaches ...",
+      "link": "https://arxiv.org/html/2403.14735v3",
+      "arxiv_id": "2403.14735"
+    },
+    {
+      "rank_on_page": 4,
+      "nominal_rank": 44,
+      "title": "[2510.02410] OpenTSLM: Time-Series Language Models for ...",
+      "snippet": "LLMs have emerged as powerful tools for interpreting multimodal data. In medicine, they hold particular promise for synthesizing large volumes of clinical information into actionable insights and digital health applications. Yet, a major limitation remains their inability to handle time series. To overcome this gap, we present OpenTSLM, a family of Time Series Language Models (TSLMs) created ...",
+      "link": "https://arxiv.org/abs/2510.02410",
+      "arxiv_id": "2510.02410"
+    },
+    {
+      "rank_on_page": 5,
+      "nominal_rank": 45,
+      "title": "Time Series Analysis and Modeling to Forecast: a Survey",
+      "snippet": "Time series modeling for predictive purpose has been an active research area of machine learning for many years. However, no sufficiently comprehensive and meanwhile substantive survey was offered so far. This survey strives to meet this need. A unified presentation has been adopted for entire parts of this compilation. A red thread guides the reader from time series preprocessing to ...",
+      "link": "https://arxiv.org/abs/2104.00164",
+      "arxiv_id": "2104.00164"
+    },
+    {
+      "rank_on_page": 6,
+      "nominal_rank": 46,
+      "title": "[2306.13549] A Survey on Multimodal Large Language Models",
+      "snippet": "Recently, Multimodal Large Language Model (MLLM) represented by GPT-4V has been a new rising research hotspot, which uses powerful Large Language Models (LLMs) as a brain to perform multimodal tasks. The surprising emergent capabilities of MLLM, such as writing stories based on images and OCR-free math reasoning, are rare in traditional multimodal methods, suggesting a potential path to ...",
+      "link": "https://arxiv.org/abs/2306.13549",
+      "arxiv_id": "2306.13549"
+    },
+    {
+      "rank_on_page": 7,
+      "nominal_rank": 47,
+      "title": "A Comprehensive Overview of Large Language Models",
+      "snippet": "Large Language Models (LLMs) have recently demonstrated remarkable capabilities in natural language processing tasks and beyond. This success of LLMs has led to a large influx of research contributions in this direction. These works encompass diverse topics such as architectural innovations, better training strategies, context length improvements, fine-tuning, multi-modal LLMs, robotics ...",
+      "link": "https://arxiv.org/abs/2307.06435",
+      "arxiv_id": "2307.06435"
+    }
+  ],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:44:07.753551+00:00",
+  "elapsed_seconds": 6.260270807892084
+}

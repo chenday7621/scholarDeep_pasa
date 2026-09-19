@@ -1,0 +1,204 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q29",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2305.17696",
+  "request_payload": {
+    "q": "square scale sensitive questions acceptable responses before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 59,
+  "started_utc": "2026-09-17T12:34:31.806508+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648195",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "d6b58db50b27443cef4e195cadbc4fb5",
+    "date": "Thu, 17 Sep 2026 12:29:53 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3457",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3457,
+  "response_bytes_sha256": "8ad646f0d33f1539cabfcf97677a5fb7a6cd23d1d87536cf6a50f4817ed992ce",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJzcXVhcmUgc2NhbGUgc2Vuc2l0aXZlIHF1ZXN0aW9ucyBhY2NlcHRhYmxlIHJlc3BvbnNlcyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJTUXVBUmU6IEEgTGFyZ2UtU2NhbGUgRGF0YXNldCBvZiBTZW5zaXRpdmUgUXVlc3Rpb25zIGFuZCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNS4xNzY5NiIsInNuaXBwZXQiOiIuLi4gKFNRdUFSZSkgZGF0YXNldCwgYSBsYXJnZS1zY2FsZSBLb3JlYW4gZGF0YXNldCBvZiA0OWsgc2Vuc2l0aXZlIHF1ZXN0aW9ucyB3aXRoIDQyayBhY2NlcHRhYmxlIGFuZCA0Nmsgbm9uLWFjY2VwdGFibGUgcmVzcG9uc2VzLiBUaGUgZGF0YXNldCB3YXMgY29uc3RydWN0ZWQgLi4uIiwiZGF0ZSI6Ik1heSAyOCwgMjAyMyIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMwNS4xNzY5NnYxIFtjcy5DTF0gMjggTWF5IDIwMjMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDUuMTc2OTYiLCJzbmlwcGV0IjoiV2UgcHJlc2VudCAoU1FVQVJFKSBhIGxhcmdlLXNjYWxlIEtvcmVhbiBkYXRhc2V0IG9mIDQ5ayBzZW5zaXRpdmUgcXVlc3Rpb25zIHdpdGggNDJrIGFjY2VwdGFibGUgYW5kIDQ2ayBub24tYWNjZXB0YWJsZSByZXNwb25zZXMuIFRoaXMgaXMgdGhlIGZpcnN0IGRhdGFzZXQgLi4uIiwiZGF0ZSI6Ik1heSAyOCwgMjAyMyIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwNC4wODY3MnYyIFtjcy5JUl0gMTggRmViIDIwMjUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDQuMDg2NzI/Iiwic25pcHBldCI6ImRpcmVjdGx5IHJlbGF0ZXMgdG8gU1F1QVJlIChMZWUgZXQgYWwuLCAyMDIzYSksIHdoaWNoIHByb3ZpZGVzIGRhdGFzZXRzIG9mIHNlbnNpdGl2ZSBxdWVzdGlvbnMgYW5kIGFjY2VwdGFibGUgKG9yIG5vdCBhY2NlcHRhYmxlKSByZXNwb25zZXMgaW4gS29yZWFuLiIsImRhdGUiOiJGZWIgMTgsIDIwMjUiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IktTQUZFLU1NOiBBIE11bHRpbW9kYWwgU2FmZXR5IEJlbmNobWFyayB2aWEgTG9jYWxpemVkIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNS4yODAxM3YxIiwic25pcHBldCI6IlNRdUFSZTogYSBsYXJnZS1zY2FsZSBkYXRhc2V0IG9mIHNlbnNpdGl2ZSBxdWVzdGlvbnMgYW5kIGFjY2VwdGFibGUgcmVzcG9uc2VzIGNyZWF0ZWQgdGhyb3VnaCBodW1hbi1tYWNoaW5lIGNvbGxhYm9yYXRpb24uIEluIFByb2NlZWRpbmdzIG9mIHRoZSA2MXN0IEFubnVhbCAuLi4iLCJkYXRlIjoiTWF5IDI3LCAyMDI2IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJBIFN1cnZleSBvbiBIYXJtZnVsIENvbnRlbnQgR2VuZXJhdGlvbiBhbmQgU2FmZXR5IE1pdGlnYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDguMDU3NzV2MSIsInNuaXBwZXQiOiJTUXVBUmU6IEEgbGFyZ2Utc2NhbGUgZGF0YXNldCBvZiBzZW5zaXRpdmUgcXVlc3Rpb25zIGFuZCBhY2NlcHRhYmxlIHJlc3BvbnNlcyBjcmVhdGVkIHRocm91Z2ggaHVtYW4tbWFjaGluZSBjb2xsYWJvcmF0aW9uLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgNjFzdCBBbm51YWwgLi4uIiwiZGF0ZSI6IkF1ZyA3LCAyMDI1IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBBdXRvbWF0aWMgQ29uc3RydWN0aW9uIG9mIGEgS29yZWFuIFRveGljIEluc3RydWN0aW9uIERhdGFzZXQgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMTEuMTgyMTUiLCJzbmlwcGV0IjoiU3F1YXJlOiBBIGxhcmdlLXNjYWxlIGRhdGFzZXQgb2Ygc2Vuc2l0aXZlIHF1ZXN0aW9ucyBhbmQgYWNjZXB0YWJsZSByZXNwb25zZXMgY3JlYXRlZCB0aHJvdWdoIGh1bWFuLW1hY2hpbmUgY29sbGFib3JhdGlvbiwgMjAyM2EuIEh3YXJhbiBMZWUsIFNlb2toZWUgSG9uZyAuLi4iLCJkYXRlIjoiTm92IDMwLCAyMDIzIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJBc3ltcHRvdGljIFJpc2sgQ2FsaWJyYXRpb24gZm9yIFNlbGVjdGl2ZSBRdWVzdGlvbiBBbnN3ZXJpbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDguMTIwMDh2MSIsInNuaXBwZXQiOiJDb25mb3JtYWwgTGFuZ3VhZ2UgTW9kZWxpbmcgY2FsaWJyYXRlcyBzYW1wbGluZyBhbmQgZmlsdGVyaW5nIHJ1bGVzIHRvIGNvbnN0cnVjdCBjYW5kaWRhdGUgcmVzcG9uc2Ugc2V0cyBjb250YWluaW5nIGFuIGFjY2VwdGFibGUgYW5zd2VyIHdpdGggaGlnaCBwcm9iYWJpbGl0eSAoIC4uLiIsImRhdGUiOiJBdWcgMTIsIDIwMjYiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkxMTS1DSTogQXNzZXNzaW5nIENvbnRleHR1YWwgSW50ZWdyaXR5IE5vcm1zIGluIExhbmd1YWdlIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDkuMDM3MzV2MSIsInNuaXBwZXQiOiJUaGUgcmVzcG9uc2VzIGZyb20gTExNcyBhcmUgc2Vuc2l0aXZlIHRvIHRoZSB0ZW1wZXJhdHVyZSBwYXJhbWV0ZXIgKCB0IHQgKSAuLi4gc2NhbGUgaW4gdGhlIHJlc3BvbnNlIHN1Y2ggYXMg4oCcc21vb3RobHkgYWNjZXB0YWJsZeKAnSBvciDigJxzdHJpY3RseSBhY2NlcHRhYmxlLiIsImRhdGUiOiJTZXAgNSwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiQmVuY2htYXJraW5nIExMTXMgZm9yIER5bmFtaWMgVXNlciBQcm9maWxpbmcgYW5kIFBlcnNvbmFsaXplZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA0LjE0MjI1djIiLCJzbmlwcGV0IjoiT25lIHBvc3NpYmxlIGRpcmVjdGlvbiBmb3IgZnV0dXJlIHdvcmsgY291bGQgYmUgZGVzaWduaW5nIHF1ZXN0aW9uLWFuc3dlciBwYWlycyB0aGF0IHNwZWNpZmljYWxseSBpbnZvbHZlIHNlbnNpdGl2ZSB1c2VyIGluZm9ybWF0aW9uLiBSZXBvcnQgaXNzdWUgZm9yIC4uLiIsImRhdGUiOiJPY3QgMjcsIDIwMjUiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkNhbiBJIFRydXN0IFlvdT8gQSBVc2VyIFN0dWR5IG9mIFJvYm90IE1lZGlhdGlvbiBvZiBhIFN1cHBvcnQgR3JvdXAiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMDAyLjA0NjcxdjEiLCJzbmlwcGV0IjoiVGhpcyBwYXR0ZXJuIG9mIHF1ZXN0aW9ucyBhbmQgZGlzY2xvc3VyZXMgc3RhcnRpbmcgYXQgbG93IHNlbnNpdGl2aXR5IGFuZCBtb3ZpbmcgdG8gaGlnaCBzZW5zaXRpdml0eSBhbGxvd2VkIHBhcnRpY2lwYW50cyB0byBiZWNvbWUgY29tZm9ydGFibGUgc2hhcmluZyBhbmQgLi4uIiwiZGF0ZSI6IkZlYiAxMSwgMjAyMCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "square scale sensitive questions acceptable responses before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "SQuARe: A Large-Scale Dataset of Sensitive Questions and ... - arXiv",
+        "link": "https://arxiv.org/abs/2305.17696",
+        "snippet": "... (SQuARe) dataset, a large-scale Korean dataset of 49k sensitive questions with 42k acceptable and 46k non-acceptable responses. The dataset was constructed ...",
+        "date": "May 28, 2023",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2305.17696v1 [cs.CL] 28 May 2023",
+        "link": "https://arxiv.org/pdf/2305.17696",
+        "snippet": "We present (SQUARE) a large-scale Korean dataset of 49k sensitive questions with 42k acceptable and 46k non-acceptable responses. This is the first dataset ...",
+        "date": "May 28, 2023",
+        "position": 2
+      },
+      {
+        "title": "[PDF] arXiv:2404.08672v2 [cs.IR] 18 Feb 2025",
+        "link": "https://arxiv.org/pdf/2404.08672?",
+        "snippet": "directly relates to SQuARe (Lee et al., 2023a), which provides datasets of sensitive questions and acceptable (or not acceptable) responses in Korean.",
+        "date": "Feb 18, 2025",
+        "position": 3
+      },
+      {
+        "title": "KSAFE-MM: A Multimodal Safety Benchmark via Localized ... - arXiv",
+        "link": "https://arxiv.org/html/2605.28013v1",
+        "snippet": "SQuARe: a large-scale dataset of sensitive questions and acceptable responses created through human-machine collaboration. In Proceedings of the 61st Annual ...",
+        "date": "May 27, 2026",
+        "position": 4
+      },
+      {
+        "title": "A Survey on Harmful Content Generation and Safety Mitigation - arXiv",
+        "link": "https://arxiv.org/html/2508.05775v1",
+        "snippet": "SQuARe: A large-scale dataset of sensitive questions and acceptable responses created through human-machine collaboration. In Proceedings of the 61st Annual ...",
+        "date": "Aug 7, 2025",
+        "position": 5
+      },
+      {
+        "title": "[PDF] Automatic Construction of a Korean Toxic Instruction Dataset ... - arXiv",
+        "link": "https://arxiv.org/pdf/2311.18215",
+        "snippet": "Square: A large-scale dataset of sensitive questions and acceptable responses created through human-machine collaboration, 2023a. Hwaran Lee, Seokhee Hong ...",
+        "date": "Nov 30, 2023",
+        "position": 6
+      },
+      {
+        "title": "Asymptotic Risk Calibration for Selective Question Answering - arXiv",
+        "link": "https://arxiv.org/html/2608.12008v1",
+        "snippet": "Conformal Language Modeling calibrates sampling and filtering rules to construct candidate response sets containing an acceptable answer with high probability ( ...",
+        "date": "Aug 12, 2026",
+        "position": 7
+      },
+      {
+        "title": "LLM-CI: Assessing Contextual Integrity Norms in Language Models",
+        "link": "https://arxiv.org/html/2409.03735v1",
+        "snippet": "The responses from LLMs are sensitive to the temperature parameter ( t t ) ... scale in the response such as “smoothly acceptable” or “strictly acceptable.",
+        "date": "Sep 5, 2024",
+        "position": 8
+      },
+      {
+        "title": "Benchmarking LLMs for Dynamic User Profiling and Personalized ...",
+        "link": "https://arxiv.org/html/2504.14225v2",
+        "snippet": "One possible direction for future work could be designing question-answer pairs that specifically involve sensitive user information. Report issue for ...",
+        "date": "Oct 27, 2025",
+        "position": 9
+      },
+      {
+        "title": "Can I Trust You? A User Study of Robot Mediation of a Support Group",
+        "link": "https://arxiv.org/html/2002.04671v1",
+        "snippet": "This pattern of questions and disclosures starting at low sensitivity and moving to high sensitivity allowed participants to become comfortable sharing and ...",
+        "date": "Feb 11, 2020",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "SQuARe: A Large-Scale Dataset of Sensitive Questions and ... - arXiv",
+      "snippet": "... (SQuARe) dataset, a large-scale Korean dataset of 49k sensitive questions with 42k acceptable and 46k non-acceptable responses. The dataset was constructed ...",
+      "link": "https://arxiv.org/abs/2305.17696",
+      "arxiv_id": "2305.17696"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2305.17696v1 [cs.CL] 28 May 2023",
+      "snippet": "We present (SQUARE) a large-scale Korean dataset of 49k sensitive questions with 42k acceptable and 46k non-acceptable responses. This is the first dataset ...",
+      "link": "https://arxiv.org/pdf/2305.17696",
+      "arxiv_id": "2305.17696"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] arXiv:2404.08672v2 [cs.IR] 18 Feb 2025",
+      "snippet": "directly relates to SQuARe (Lee et al., 2023a), which provides datasets of sensitive questions and acceptable (or not acceptable) responses in Korean.",
+      "link": "https://arxiv.org/pdf/2404.08672?",
+      "arxiv_id": "2404.08672"
+    },
+    {
+      "rank": 4,
+      "title": "KSAFE-MM: A Multimodal Safety Benchmark via Localized ... - arXiv",
+      "snippet": "SQuARe: a large-scale dataset of sensitive questions and acceptable responses created through human-machine collaboration. In Proceedings of the 61st Annual ...",
+      "link": "https://arxiv.org/html/2605.28013v1",
+      "arxiv_id": "2605.28013"
+    },
+    {
+      "rank": 5,
+      "title": "A Survey on Harmful Content Generation and Safety Mitigation - arXiv",
+      "snippet": "SQuARe: A large-scale dataset of sensitive questions and acceptable responses created through human-machine collaboration. In Proceedings of the 61st Annual ...",
+      "link": "https://arxiv.org/html/2508.05775v1",
+      "arxiv_id": "2508.05775"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] Automatic Construction of a Korean Toxic Instruction Dataset ... - arXiv",
+      "snippet": "Square: A large-scale dataset of sensitive questions and acceptable responses created through human-machine collaboration, 2023a. Hwaran Lee, Seokhee Hong ...",
+      "link": "https://arxiv.org/pdf/2311.18215",
+      "arxiv_id": "2311.18215"
+    },
+    {
+      "rank": 7,
+      "title": "Asymptotic Risk Calibration for Selective Question Answering - arXiv",
+      "snippet": "Conformal Language Modeling calibrates sampling and filtering rules to construct candidate response sets containing an acceptable answer with high probability ( ...",
+      "link": "https://arxiv.org/html/2608.12008v1",
+      "arxiv_id": "2608.12008"
+    },
+    {
+      "rank": 8,
+      "title": "LLM-CI: Assessing Contextual Integrity Norms in Language Models",
+      "snippet": "The responses from LLMs are sensitive to the temperature parameter ( t t ) ... scale in the response such as “smoothly acceptable” or “strictly acceptable.",
+      "link": "https://arxiv.org/html/2409.03735v1",
+      "arxiv_id": "2409.03735"
+    },
+    {
+      "rank": 9,
+      "title": "Benchmarking LLMs for Dynamic User Profiling and Personalized ...",
+      "snippet": "One possible direction for future work could be designing question-answer pairs that specifically involve sensitive user information. Report issue for ...",
+      "link": "https://arxiv.org/html/2504.14225v2",
+      "arxiv_id": "2504.14225"
+    },
+    {
+      "rank": 10,
+      "title": "Can I Trust You? A User Study of Robot Mediation of a Support Group",
+      "snippet": "This pattern of questions and disclosures starting at low sensitivity and moving to high sensitivity allowed participants to become comfortable sharing and ...",
+      "link": "https://arxiv.org/html/2002.04671v1",
+      "arxiv_id": "2002.04671"
+    }
+  ],
+  "gold_hit_ranks": [
+    1,
+    2
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:32.674690+00:00",
+  "elapsed_seconds": 0.8681820668280125,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q29_gt_core_phrase_attempt1.json",
+      "sha256": "13beec093515985250b3f4fbe7c884cd770e80db19c6f17b8e2f0d8bb03ef0a6",
+      "status": "PASS"
+    }
+  ]
+}

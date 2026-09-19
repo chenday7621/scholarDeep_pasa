@@ -1,0 +1,104 @@
+{
+  "global_attempt_sequence": 55,
+  "query_id": "Q8",
+  "query_key": "anchor",
+  "attempt": 1,
+  "query_text": "Do you know some papers about using reward shaping methods to train large language model agent.",
+  "request_payload": {
+    "q": "Do you know some papers about using reward shaping methods to train large language model agent. before:2024-09-24 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q8_anchor_attempt1.json",
+  "started_utc": "2026-09-15T06:25:39.925677+00:00",
+  "http_status": 200,
+  "response_text": "{\"searchParameters\":{\"q\":\"Do you know some papers about using reward shaping methods to train large language model agent. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Comprehensive Overview of Reward Engineering and Shaping in ...\",\"link\":\"https://arxiv.org/html/2408.10215v1\",\"snippet\":\"This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning algorithms ...\",\"date\":\"Jul 22, 2024\",\"position\":1},{\"title\":\"Extracting Heuristics from Large Language Models for Reward ...\",\"link\":\"https://arxiv.org/abs/2405.15194\",\"snippet\":\"reward shaping is a well-studied approach to introduce intrinsic rewards that can help the RL agent converge to an optimal policy faster.\",\"date\":\"May 24, 2024\",\"position\":2},{\"title\":\"Improving Sample Efficiency of Reinforcement Learning with ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.03964v1\",\"snippet\":\"In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ...\",\"date\":\"Jul 4, 2024\",\"position\":3},{\"title\":\"[2303.00001] Reward Design with Language Models - arXiv\",\"link\":\"https://arxiv.org/abs/2303.00001\",\"snippet\":\"This paper explores how to simplify reward design by prompting a large language model (LLM) such as GPT-3 as a proxy reward function,\",\"date\":\"Feb 27, 2023\",\"position\":4},{\"title\":\"Reinforcement Learning Agent Training with Goals for Real World ...\",\"link\":\"https://arxiv.org/html/2107.10390v1\",\"snippet\":\"In this paper we propose a specification language (Inkling Goal Specification) for complex control and optimization tasks, which is very close to natural ...\",\"date\":\"Jul 21, 2021\",\"position\":5},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.\",\"date\":\"Jan 27, 2022\",\"position\":6},{\"title\":\"Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv\",\"link\":\"https://arxiv.org/html/1801.02209v2\",\"snippet\":\"Our strong reward shaping supervises the agent at training. We empirically observe that stronger reward shaping leads to better performances on both training ...\",\"date\":\"Apr 8, 2018\",\"position\":7},{\"title\":\"Secrets of RLHF in Large Language ModelsPart II: Reward Modeling\",\"link\":\"https://arxiv.org/html/2401.06080v2\",\"snippet\":\"RLHF involves two main steps: first, using preference data collected from a large number of crowdsource workers to train a reward model.\",\"date\":\"Jan 12, 2024\",\"position\":8},{\"title\":\"[PDF] grounded language instruction through demonstration in rl - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.02991\",\"snippet\":\"We further demonstrate the necessity for training the student agent with not just one, but multiple teacher agents. Experiments on a complex sparse reward ...\",\"date\":\"Jan 3, 2024\",\"position\":9},{\"title\":\"An Introduction to Reinforcement Learning: Fundamental Concepts ...\",\"link\":\"https://arxiv.org/html/2408.07712v1\",\"snippet\":\"We provide a detailed explanation of key components of RL such as states, actions, policies, and reward signals so that the reader can build a foundational ...\",\"date\":\"Aug 13, 2024\",\"position\":10}],\"credits\":1}",
+  "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJEbyB5b3Uga25vdyBzb21lIHBhcGVycyBhYm91dCB1c2luZyByZXdhcmQgc2hhcGluZyBtZXRob2RzIHRvIHRyYWluIGxhcmdlIGxhbmd1YWdlIG1vZGVsIGFnZW50LiBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJDb21wcmVoZW5zaXZlIE92ZXJ2aWV3IG9mIFJld2FyZCBFbmdpbmVlcmluZyBhbmQgU2hhcGluZyBpbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjEwMjE1djEiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBlbXBoYXNpemVzIHRoZSBpbXBvcnRhbmNlIG9mIHJld2FyZCBlbmdpbmVlcmluZyBhbmQgcmV3YXJkIHNoYXBpbmcgaW4gZW5oYW5jaW5nIHRoZSBlZmZpY2llbmN5IGFuZCBlZmZlY3RpdmVuZXNzIG9mIHJlaW5mb3JjZW1lbnQgbGVhcm5pbmcgYWxnb3JpdGhtcyAuLi4iLCJkYXRlIjoiSnVsIDIyLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJFeHRyYWN0aW5nIEhldXJpc3RpY3MgZnJvbSBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgZm9yIFJld2FyZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDUuMTUxOTQiLCJzbmlwcGV0IjoicmV3YXJkIHNoYXBpbmcgaXMgYSB3ZWxsLXN0dWRpZWQgYXBwcm9hY2ggdG8gaW50cm9kdWNlIGludHJpbnNpYyByZXdhcmRzIHRoYXQgY2FuIGhlbHAgdGhlIFJMIGFnZW50IGNvbnZlcmdlIHRvIGFuIG9wdGltYWwgcG9saWN5IGZhc3Rlci4iLCJkYXRlIjoiTWF5IDI0LCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJJbXByb3ZpbmcgU2FtcGxlIEVmZmljaWVuY3kgb2YgUmVpbmZvcmNlbWVudCBMZWFybmluZyB3aXRoIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4wMzk2NHYxIiwic25pcHBldCI6IkluIG91ciBwYXBlciwgd2UgcHJvcG9zZSBhIGdlbmVyYWwgZnJhbWV3b3JrIHRvIHV0aWxpemUgYmFja2dyb3VuZCBrbm93bGVkZ2UgZm9yIHJld2FyZCBzaGFwaW5nLCB0aGVyZWJ5IGltcHJvdmluZyBzYW1wbGUgZWZmaWNpZW5jeSBmb3IgdmFyaW91cyBkb3duc3RyZWFtIFJMIC4uLiIsImRhdGUiOiJKdWwgNCwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiWzIzMDMuMDAwMDFdIFJld2FyZCBEZXNpZ24gd2l0aCBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwMy4wMDAwMSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIGV4cGxvcmVzIGhvdyB0byBzaW1wbGlmeSByZXdhcmQgZGVzaWduIGJ5IHByb21wdGluZyBhIGxhcmdlIGxhbmd1YWdlIG1vZGVsIChMTE0pIHN1Y2ggYXMgR1BULTMgYXMgYSBwcm94eSByZXdhcmQgZnVuY3Rpb24sIiwiZGF0ZSI6IkZlYiAyNywgMjAyMyIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiUmVpbmZvcmNlbWVudCBMZWFybmluZyBBZ2VudCBUcmFpbmluZyB3aXRoIEdvYWxzIGZvciBSZWFsIFdvcmxkIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIxMDcuMTAzOTB2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyIHdlIHByb3Bvc2UgYSBzcGVjaWZpY2F0aW9uIGxhbmd1YWdlIChJbmtsaW5nIEdvYWwgU3BlY2lmaWNhdGlvbikgZm9yIGNvbXBsZXggY29udHJvbCBhbmQgb3B0aW1pemF0aW9uIHRhc2tzLCB3aGljaCBpcyB2ZXJ5IGNsb3NlIHRvIG5hdHVyYWwgLi4uIiwiZGF0ZSI6Ikp1bCAyMSwgMjAyMSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiVHJhaW5pbmcgbGFuZ3VhZ2UgbW9kZWxzIHRvIGZvbGxvdyBpbnN0cnVjdGlvbnMgd2l0aCBodW1hbiBmZWVkYmFjayIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjIwMy4wMjE1NSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBzaG93IGFuIGF2ZW51ZSBmb3IgYWxpZ25pbmcgbGFuZ3VhZ2UgbW9kZWxzIHdpdGggdXNlciBpbnRlbnQgb24gYSB3aWRlIHJhbmdlIG9mIHRhc2tzIGJ5IGZpbmUtdHVuaW5nIHdpdGggaHVtYW4gZmVlZGJhY2suIiwiZGF0ZSI6IkphbiAyNywgMjAyMiIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQnVpbGRpbmcgR2VuZXJhbGl6YWJsZSBBZ2VudHMgd2l0aCBhIFJlYWxpc3RpYyBhbmQgUmljaCAzRCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE4MDEuMDIyMDl2MiIsInNuaXBwZXQiOiJPdXIgc3Ryb25nIHJld2FyZCBzaGFwaW5nIHN1cGVydmlzZXMgdGhlIGFnZW50IGF0IHRyYWluaW5nLiBXZSBlbXBpcmljYWxseSBvYnNlcnZlIHRoYXQgc3Ryb25nZXIgcmV3YXJkIHNoYXBpbmcgbGVhZHMgdG8gYmV0dGVyIHBlcmZvcm1hbmNlcyBvbiBib3RoIHRyYWluaW5nIC4uLiIsImRhdGUiOiJBcHIgOCwgMjAxOCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiU2VjcmV0cyBvZiBSTEhGIGluIExhcmdlIExhbmd1YWdlIE1vZGVsc1BhcnQgSUk6IFJld2FyZCBNb2RlbGluZyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMDYwODB2MiIsInNuaXBwZXQiOiJSTEhGIGludm9sdmVzIHR3byBtYWluIHN0ZXBzOiBmaXJzdCwgdXNpbmcgcHJlZmVyZW5jZSBkYXRhIGNvbGxlY3RlZCBmcm9tIGEgbGFyZ2UgbnVtYmVyIG9mIGNyb3dkc291cmNlIHdvcmtlcnMgdG8gdHJhaW4gYSByZXdhcmQgbW9kZWwuIiwiZGF0ZSI6IkphbiAxMiwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gZ3JvdW5kZWQgbGFuZ3VhZ2UgaW5zdHJ1Y3Rpb24gdGhyb3VnaCBkZW1vbnN0cmF0aW9uIGluIHJsIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDEuMDI5OTEiLCJzbmlwcGV0IjoiV2UgZnVydGhlciBkZW1vbnN0cmF0ZSB0aGUgbmVjZXNzaXR5IGZvciB0cmFpbmluZyB0aGUgc3R1ZGVudCBhZ2VudCB3aXRoIG5vdCBqdXN0IG9uZSwgYnV0IG11bHRpcGxlIHRlYWNoZXIgYWdlbnRzLiBFeHBlcmltZW50cyBvbiBhIGNvbXBsZXggc3BhcnNlIHJld2FyZCAuLi4iLCJkYXRlIjoiSmFuIDMsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkFuIEludHJvZHVjdGlvbiB0byBSZWluZm9yY2VtZW50IExlYXJuaW5nOiBGdW5kYW1lbnRhbCBDb25jZXB0cyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjA3NzEydjEiLCJzbmlwcGV0IjoiV2UgcHJvdmlkZSBhIGRldGFpbGVkIGV4cGxhbmF0aW9uIG9mIGtleSBjb21wb25lbnRzIG9mIFJMIHN1Y2ggYXMgc3RhdGVzLCBhY3Rpb25zLCBwb2xpY2llcywgYW5kIHJld2FyZCBzaWduYWxzIHNvIHRoYXQgdGhlIHJlYWRlciBjYW4gYnVpbGQgYSBmb3VuZGF0aW9uYWwgLi4uIiwiZGF0ZSI6IkF1ZyAxMywgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "response_sha256": "e907935148288a2fcf7fc1cd1c829f78ec6ff3bd4d394ace7bd3b44d45f3d852",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Do you know some papers about using reward shaping methods to train large language model agent. before:2024-09-24 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+        "link": "https://arxiv.org/html/2408.10215v1",
+        "snippet": "This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning algorithms ...",
+        "date": "Jul 22, 2024",
+        "position": 1
+      },
+      {
+        "title": "Extracting Heuristics from Large Language Models for Reward ...",
+        "link": "https://arxiv.org/abs/2405.15194",
+        "snippet": "reward shaping is a well-studied approach to introduce intrinsic rewards that can help the RL agent converge to an optimal policy faster.",
+        "date": "May 24, 2024",
+        "position": 2
+      },
+      {
+        "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+        "link": "https://arxiv.org/html/2407.03964v1",
+        "snippet": "In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ...",
+        "date": "Jul 4, 2024",
+        "position": 3
+      },
+      {
+        "title": "[2303.00001] Reward Design with Language Models - arXiv",
+        "link": "https://arxiv.org/abs/2303.00001",
+        "snippet": "This paper explores how to simplify reward design by prompting a large language model (LLM) such as GPT-3 as a proxy reward function,",
+        "date": "Feb 27, 2023",
+        "position": 4
+      },
+      {
+        "title": "Reinforcement Learning Agent Training with Goals for Real World ...",
+        "link": "https://arxiv.org/html/2107.10390v1",
+        "snippet": "In this paper we propose a specification language (Inkling Goal Specification) for complex control and optimization tasks, which is very close to natural ...",
+        "date": "Jul 21, 2021",
+        "position": 5
+      },
+      {
+        "title": "Training language models to follow instructions with human feedback",
+        "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+        "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.",
+        "date": "Jan 27, 2022",
+        "position": 6
+      },
+      {
+        "title": "Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv",
+        "link": "https://arxiv.org/html/1801.02209v2",
+        "snippet": "Our strong reward shaping supervises the agent at training. We empirically observe that stronger reward shaping leads to better performances on both training ...",
+        "date": "Apr 8, 2018",
+        "position": 7
+      },
+      {
+        "title": "Secrets of RLHF in Large Language ModelsPart II: Reward Modeling",
+        "link": "https://arxiv.org/html/2401.06080v2",
+        "snippet": "RLHF involves two main steps: first, using preference data collected from a large number of crowdsource workers to train a reward model.",
+        "date": "Jan 12, 2024",
+        "position": 8
+      },
+      {
+        "title": "[PDF] grounded language instruction through demonstration in rl - arXiv",
+        "link": "https://arxiv.org/pdf/2401.02991",
+        "snippet": "We further demonstrate the necessity for training the student agent with not just one, but multiple teacher agents. Experiments on a complex sparse reward ...",
+        "date": "Jan 3, 2024",
+        "position": 9
+      },
+      {
+        "title": "An Introduction to Reinforcement Learning: Fundamental Concepts ...",
+        "link": "https://arxiv.org/html/2408.07712v1",
+        "snippet": "We provide a detailed explanation of key components of RL such as states, actions, policies, and reward signals so that the reader can build a foundational ...",
+        "date": "Aug 13, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "status": "PASS",
+  "finished_utc": "2026-09-15T06:25:41.124926+00:00",
+  "elapsed_seconds": 1.1992495208978653
+}

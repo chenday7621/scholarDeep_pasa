@@ -1,0 +1,203 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q43",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2112.08340",
+  "request_payload": {
+    "q": "genie generative information extraction before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 95,
+  "started_utc": "2026-09-17T12:35:12.054117+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648235",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "9b33fa5b38b91ac132a5a46ec8979e49",
+    "date": "Thu, 17 Sep 2026 12:30:33 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3340",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3340,
+  "response_bytes_sha256": "007437f41118fa33d221b7d141bb587624351b80f293db1a10dcd1889f19d0d7",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJnZW5pZSBnZW5lcmF0aXZlIGluZm9ybWF0aW9uIGV4dHJhY3Rpb24gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiR2VuZXJhdGl2ZSBOb3RlIEluZm9ybWF0aW9uIEV4dHJhY3Rpb24gbW9kZWwgZm9yIHN0cnVjdHVyaW5nIEVIUiBkYXRhIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNTAxLjE4NDM1Iiwic25pcHBldCI6IkdFTklFIHByb2Nlc3NlcyBlbnRpcmUgcGFyYWdyYXBocyBpbiBhIHNpbmdsZSBwYXNzLCBleHRyYWN0aW5nIGVudGl0aWVzLCBhc3NlcnRpb24gc3RhdHVzZXMsIGxvY2F0aW9ucywgbW9kaWZpZXJzLCB2YWx1ZXMsIGFuZCBwdXJwb3NlcyB3aXRoIGhpZ2ggYWNjdXJhY3kuIiwiZGF0ZSI6IkphbiAzMCwgMjAyNSIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjExMi4wODM0MHYzIFtjcy5DTF0gMTMgQXByIDIwMjIiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIxMTIuMDgzNDAiLCJzbmlwcGV0IjoiV2UgaW50cm9kdWNlIEdlbklFIChnZW5lcmF0aXZlIGluZm9ybWF0aW9uIGV4dHJhY3Rpb24pLCB0aGUgZmlyc3QgZW5kLXRvLWVuZCBhdXRvcmVncmVzc2l2ZSBmb3JtdWxhdGlvbiBvZiBjbG9zZWQgaW5mb3JtYXRpb24gZXh0cmFjdGlvbi4iLCJkYXRlIjoiQXByIDEzLCAyMDIyIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJbUERGXSBHZW5lcmF0aXZlIE5vdGUgSW5mb3JtYXRpb24gRXh0cmFjdGlvbiBtb2RlbCBmb3Igc3RydWN0dXJpbmcgRUhSIGRhdGEiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDEuMTg0MzU/Iiwic25pcHBldCI6IkdFTklFIHByb2Nlc3NlcyBlbnRpcmUgcGFyYWdyYXBocyBpbiBhIHNpbmdsZSBwYXNzLCBleHRyYWN0aW5nIGVudGl0aWVzLCBhc3NlcnRpb24gc3RhdHVzZXMsIGxvY2F0aW9ucywgbW9kaWZpZXJzLCB2YWx1ZXMsIGFuZCBwdXJwb3NlcyB3aXRoIGhpZ2ggYWNjdXJhY3kuIiwiZGF0ZSI6IkphbiAzMCwgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGZvciBHZW5lcmF0aXZlIEluZm9ybWF0aW9uIEV4dHJhY3Rpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTIuMTc2MTd2MyIsInNuaXBwZXQiOiJJbmZvcm1hdGlvbiBleHRyYWN0aW9uIChJRSkgYWltcyB0byBleHRyYWN0IHN0cnVjdHVyYWwga25vd2xlZGdlIGZyb20gcGxhaW4gbmF0dXJhbCBsYW5ndWFnZSB0ZXh0cy4gR2VuSUU6IEdlbmVyYXRpdmUgaW5mb3JtYXRpb24gZXh0cmFjdGlvbi4iLCJkYXRlIjoiT2N0IDMxLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJTdHJ1Y3R1cmVkIEVudGl0eSBFeHRyYWN0aW9uIFVzaW5nIExhcmdlIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNDQzN3YzIiwic25pcHBldCI6IkdlbmllOiBHZW5lcmF0aXZlIGluZm9ybWF0aW9uIGV4dHJhY3Rpb24uIGF0aXZlIGdyaWQgbGFiZWxpbmcgYW5kIGNvb3JkaW5hdGlvbiBhbmFseXNpcyBmb3Igb3BlbiBpbmZvcm1hdGlvbiBleHRyYWN0aW9uLiIsImRhdGUiOiJBcHIgMTcsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIExhcmdlIExhbmd1YWdlIE1vZGVscyBmb3IgR2VuZXJhdGl2ZSBJbmZvcm1hdGlvbiBFeHRyYWN0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMTIuMTc2MTciLCJzbmlwcGV0IjoiSW5mb3JtYXRpb24gZXh0cmFjdGlvbiAoSUUpIGFpbXMgdG8gZXgtIHRyYWN0IHN0cnVjdHVyYWwga25vd2xlZGdlIGZyb20gcGxhaW4gbmF0dXJhbCBsYW4tIGd1YWdlIHRleHRzLiBHZW5JRTogR2VuZXJhdGl2ZSBpbmZvcm1hdGlvbiBleHRyYWN0aW9uLiIsImRhdGUiOiJPY3QgMzEsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkVudEdQVDogRW50aXR5IExpbmtpbmcgd2l0aCBHZW5lcmF0aXZlIExhcmdlIExhbmd1YWdlIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDY3Mzh2MiIsInNuaXBwZXQiOiJFeGlzdGluZyBwcm9tcHQtYmFzZWQgbWV0aG9kcyBmb3IgaW5mb3JtYXRpb24gZXh0cmFjdGlvbiBjYW4gYmUgY2F0ZWdvcml6ZWQgaW50byB0aHJlZSBtYWluIHBhcmFkaWdtczogdHlwZS1vcmllbnRlZCwgc3Bhbi1vcmllbnRlZCwgYW5kIGdlbmVyYXRpb24uIFR5cGUtIC4uLiIsImRhdGUiOiJEZWMgNywgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwMS4wMTMyNnYyIFtjcy5DTF0gMTUgSmFuIDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDEuMDEzMjYiLCJzbmlwcGV0IjoiUmVjZW50IGFkdmFuY2VtZW50cyBpbiBnZW5lcmF0aXZlIEluZm9ybWF0aW9uIEV4dHJhY3Rpb24gKElFKSBlbXBoYXNpemUgdGhlIHVzZSBvZiBsYW5ndWFnZSBtb2RlbHMgKExNcykgdG8gcHJvLSBkdWNlIGVudGl0aWVzIGFuZCByZWxhdGlvbnMsIEdlbklFOiBHZW5lcmF0aXZlIC4uLiIsImRhdGUiOiJKYW4gMTUsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkFuIGFnZW50aWMgc3lzdGVtIHdpdGggcmVpbmZvcmNlbWVudC1sZWFybmVkIHN1YnN5c3RlbSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDUuMTM1MDR2MSIsInNuaXBwZXQiOiJUaGlzIHNlbGYtY29ycmVjdGl2ZSBhZGFwdGl2ZSBzeXN0ZW0gaGFuZGxlcyBkaXZlcnNlIGRvY3VtZW50cywgZmlsZSBmb3JtYXRzLCBsYXlvdXRzLCBhbmQgTExNcywgYWltaW5nIHRvIGF1dG9tYXRlIGFjY3VyYXRlIGluZm9ybWF0aW9uIGV4dHJhY3Rpb24gd2l0aG91dCB0aGUgLi4uIiwiZGF0ZSI6Ik1heSAxNiwgMjAyNSIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiRXh0cmFjdCwgRGVmaW5lLCBDYW5vbmljYWxpemU6IEFuIExMTS1iYXNlZCBGcmFtZXdvcmsgZm9yIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4wMzg2OHYxIiwic25pcHBldCI6IkdlbklFOiBHZW5lcmF0aXZlIGluZm9ybWF0aW9uIGV4dHJhY3Rpb24uIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDIyIENvbmZlcmVuY2Ugb2YgdGhlIE5vcnRoIEFtZXJpY2FuIENoYXB0ZXIgb2YgdGhlIEFzc29jaWF0aW9uIGZvciBDb21wdXRhdGlvbmFsIC4uLiIsImRhdGUiOiJBcHIgNSwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "genie generative information extraction before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Generative Note Information Extraction model for structuring EHR data",
+        "link": "https://arxiv.org/abs/2501.18435",
+        "snippet": "GENIE processes entire paragraphs in a single pass, extracting entities, assertion statuses, locations, modifiers, values, and purposes with high accuracy.",
+        "date": "Jan 30, 2025",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2112.08340v3 [cs.CL] 13 Apr 2022",
+        "link": "https://arxiv.org/pdf/2112.08340",
+        "snippet": "We introduce GenIE (generative information extraction), the first end-to-end autoregressive formulation of closed information extraction.",
+        "date": "Apr 13, 2022",
+        "position": 2
+      },
+      {
+        "title": "[PDF] Generative Note Information Extraction model for structuring EHR data",
+        "link": "https://arxiv.org/pdf/2501.18435?",
+        "snippet": "GENIE processes entire paragraphs in a single pass, extracting entities, assertion statuses, locations, modifiers, values, and purposes with high accuracy.",
+        "date": "Jan 30, 2025",
+        "position": 3
+      },
+      {
+        "title": "Large Language Models for Generative Information Extraction - arXiv",
+        "link": "https://arxiv.org/html/2312.17617v3",
+        "snippet": "Information extraction (IE) aims to extract structural knowledge from plain natural language texts. GenIE: Generative information extraction.",
+        "date": "Oct 31, 2024",
+        "position": 4
+      },
+      {
+        "title": "Structured Entity Extraction Using Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2402.04437v3",
+        "snippet": "Genie: Generative information extraction. ative grid labeling and coordination analysis for open information extraction.",
+        "date": "Apr 17, 2024",
+        "position": 5
+      },
+      {
+        "title": "[PDF] Large Language Models for Generative Information Extraction - arXiv",
+        "link": "https://arxiv.org/pdf/2312.17617",
+        "snippet": "Information extraction (IE) aims to ex- tract structural knowledge from plain natural lan- guage texts. GenIE: Generative information extraction.",
+        "date": "Oct 31, 2024",
+        "position": 6
+      },
+      {
+        "title": "EntGPT: Entity Linking with Generative Large Language Models",
+        "link": "https://arxiv.org/html/2402.06738v2",
+        "snippet": "Existing prompt-based methods for information extraction can be categorized into three main paradigms: type-oriented, span-oriented, and generation. Type- ...",
+        "date": "Dec 7, 2024",
+        "position": 7
+      },
+      {
+        "title": "[PDF] arXiv:2401.01326v2 [cs.CL] 15 Jan 2024",
+        "link": "https://arxiv.org/pdf/2401.01326",
+        "snippet": "Recent advancements in generative Information Extraction (IE) emphasize the use of language models (LMs) to pro- duce entities and relations, GenIE: Generative ...",
+        "date": "Jan 15, 2024",
+        "position": 8
+      },
+      {
+        "title": "An agentic system with reinforcement-learned subsystem ... - arXiv",
+        "link": "https://arxiv.org/html/2505.13504v1",
+        "snippet": "This self-corrective adaptive system handles diverse documents, file formats, layouts, and LLMs, aiming to automate accurate information extraction without the ...",
+        "date": "May 16, 2025",
+        "position": 9
+      },
+      {
+        "title": "Extract, Define, Canonicalize: An LLM-based Framework for ... - arXiv",
+        "link": "https://arxiv.org/html/2404.03868v1",
+        "snippet": "GenIE: Generative information extraction. In Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational ...",
+        "date": "Apr 5, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Generative Note Information Extraction model for structuring EHR data",
+      "snippet": "GENIE processes entire paragraphs in a single pass, extracting entities, assertion statuses, locations, modifiers, values, and purposes with high accuracy.",
+      "link": "https://arxiv.org/abs/2501.18435",
+      "arxiv_id": "2501.18435"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2112.08340v3 [cs.CL] 13 Apr 2022",
+      "snippet": "We introduce GenIE (generative information extraction), the first end-to-end autoregressive formulation of closed information extraction.",
+      "link": "https://arxiv.org/pdf/2112.08340",
+      "arxiv_id": "2112.08340"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] Generative Note Information Extraction model for structuring EHR data",
+      "snippet": "GENIE processes entire paragraphs in a single pass, extracting entities, assertion statuses, locations, modifiers, values, and purposes with high accuracy.",
+      "link": "https://arxiv.org/pdf/2501.18435?",
+      "arxiv_id": "2501.18435"
+    },
+    {
+      "rank": 4,
+      "title": "Large Language Models for Generative Information Extraction - arXiv",
+      "snippet": "Information extraction (IE) aims to extract structural knowledge from plain natural language texts. GenIE: Generative information extraction.",
+      "link": "https://arxiv.org/html/2312.17617v3",
+      "arxiv_id": "2312.17617"
+    },
+    {
+      "rank": 5,
+      "title": "Structured Entity Extraction Using Large Language Models - arXiv",
+      "snippet": "Genie: Generative information extraction. ative grid labeling and coordination analysis for open information extraction.",
+      "link": "https://arxiv.org/html/2402.04437v3",
+      "arxiv_id": "2402.04437"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] Large Language Models for Generative Information Extraction - arXiv",
+      "snippet": "Information extraction (IE) aims to ex- tract structural knowledge from plain natural lan- guage texts. GenIE: Generative information extraction.",
+      "link": "https://arxiv.org/pdf/2312.17617",
+      "arxiv_id": "2312.17617"
+    },
+    {
+      "rank": 7,
+      "title": "EntGPT: Entity Linking with Generative Large Language Models",
+      "snippet": "Existing prompt-based methods for information extraction can be categorized into three main paradigms: type-oriented, span-oriented, and generation. Type- ...",
+      "link": "https://arxiv.org/html/2402.06738v2",
+      "arxiv_id": "2402.06738"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] arXiv:2401.01326v2 [cs.CL] 15 Jan 2024",
+      "snippet": "Recent advancements in generative Information Extraction (IE) emphasize the use of language models (LMs) to pro- duce entities and relations, GenIE: Generative ...",
+      "link": "https://arxiv.org/pdf/2401.01326",
+      "arxiv_id": "2401.01326"
+    },
+    {
+      "rank": 9,
+      "title": "An agentic system with reinforcement-learned subsystem ... - arXiv",
+      "snippet": "This self-corrective adaptive system handles diverse documents, file formats, layouts, and LLMs, aiming to automate accurate information extraction without the ...",
+      "link": "https://arxiv.org/html/2505.13504v1",
+      "arxiv_id": "2505.13504"
+    },
+    {
+      "rank": 10,
+      "title": "Extract, Define, Canonicalize: An LLM-based Framework for ... - arXiv",
+      "snippet": "GenIE: Generative information extraction. In Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational ...",
+      "link": "https://arxiv.org/html/2404.03868v1",
+      "arxiv_id": "2404.03868"
+    }
+  ],
+  "gold_hit_ranks": [
+    2
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:12.993329+00:00",
+  "elapsed_seconds": 0.9392133355140686,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q43_gt_core_phrase_attempt1.json",
+      "sha256": "f969ec63aee040d1889fa4dcb7a9d52c6458f033d87267d13f5cde48ecd2e029",
+      "status": "PASS"
+    }
+  ]
+}

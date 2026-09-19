@@ -1,0 +1,160 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 8,
+  "question_id": "Q09",
+  "group": "author-written",
+  "native_query_index": 4,
+  "native_query": "Origins of distribution shift concerns in RLHF",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "2308.02585",
+  "page": 4,
+  "payload": {
+    "q": "Origins of distribution shift concerns in RLHF before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 4
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 8,
+  "started_utc": "2026-09-17T12:43:48.723908+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648750",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "5963e99ac01f7366d135b9ecc7df1ca9",
+    "date": "Thu, 17 Sep 2026 12:39:12 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3581",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3581,
+  "response_bytes_sha256": "73ebfbe13bae9a5de4e9cdbb87a0236d4fa382666f1ae6a5f0ca7e9f4b11405c",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJPcmlnaW5zIG9mIGRpc3RyaWJ1dGlvbiBzaGlmdCBjb25jZXJucyBpbiBSTEhGIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjQsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlJldHJpZXZhbC1BdWdtZW50ZWQgR2VuZXJhdGlvbiBmb3IgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzOiBBIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTIuMTA5OTciLCJzbmlwcGV0IjoiQWJzdHJhY3QgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIChMTE1zKSBzaG93Y2FzZSBpbXByZXNzaXZlIGNhcGFiaWxpdGllcyBidXQgZW5jb3VudGVyIGNoYWxsZW5nZXMgbGlrZSBoYWxsdWNpbmF0aW9uLCBvdXRkYXRlZCBrbm93bGVkZ2UsIGFuZCBub24tdHJhbnNwYXJlbnQsIHVudHJhY2VhYmxlIHJlYXNvbmluZyBwcm9jZXNzZXMuIFJldHJpZXZhbC1BdWdtZW50ZWQgR2VuZXJhdGlvbiAoUkFHKSBoYXMgZW1lcmdlZCBhcyBhIHByb21pc2luZyBzb2x1dGlvbiBieSBpbmNvcnBvcmF0aW5nIGtub3dsZWRnZSBmcm9tIGV4dGVybmFsIGRhdGFiYXNlcy4gVGhpcyBlbmhhbmNlcyB0aGUgYWNjdXJhY3kgYW5kIGNyZWRpYmlsaXR5IG9mIHRoZSBnZW5lcmF0aW9uLCBwYXJ0aWN1bGFybHkgZm9yIC4uLiIsImRhdGUiOiJNYXIgMjcsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlsyNTA4LjE4NTg4XSBIaXN0b3J5IFJoeW1lczogQWNjZWxlcmF0aW5nIExMTSBSZWluZm9yY2VtZW50IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjUwOC4xODU4OCIsInNuaXBwZXQiOiJXaXRoIHRoZSByYXBpZCBhZHZhbmNlbWVudCBvZiBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpLCByZWluZm9yY2VtZW50IGxlYXJuaW5nIChSTCkgaGFzIGVtZXJnZWQgYXMgYSBwaXZvdGFsIG1ldGhvZG9sb2d5IGZvciBlbmhhbmNpbmcgdGhlIHJlYXNvbmluZyBjYXBhYmlsaXRpZXMgb2YgTExNcy4gVW5saWtlIHRyYWRpdGlvbmFsIHByZS10cmFpbmluZyBhcHByb2FjaGVzLCBSTCBlbmNvbXBhc3NlcyBtdWx0aXBsZSBzdGFnZXM6IHJvbGxvdXQsIHJld2FyZCwgYW5kIHRyYWluaW5nLCB3aGljaCBuZWNlc3NpdGF0ZXMgY29sbGFib3JhdGlvbiBhbW9uZyB2YXJpb3VzIHdvcmtlciB0eXBlcy4gSG93ZXZlciwgY3VycmVudCBSTCBzeXN0ZW1zIGNvbnRpbnVlIHRvIGdyYXBwbGUgd2l0aCAuLi4iLCJkYXRlIjoiQXVnIDI2LCAyMDI1IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJSRUlORk9SQ0UrKzogQSBTaW1wbGUgYW5kIEVmZmljaWVudCBBcHByb2FjaCBmb3IgQWxpZ25pbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMS4wMzI2MnYxIiwic25pcHBldCI6IlRoZSBleHBlcmltZW50YWwgcmVzdWx0cyB2YWxpZGF0ZSB0aGUgZWZmZWN0aXZlbmVzcyBvZiBSRUlORk9SQ0UrKyBhcyBhIHNpbXBsZXIgeWV0IGVmZmljaWVudCBhbHRlcm5hdGl2ZSB0byBQUE8gYW5kIEdSUE8gZm9yIFJMSEYuIEZ1dHVyZSB3b3JrIHdpbGwgZXhwbG9yZSBzY2FsaW5nIHRoZSBhcHByb2FjaCB0byBsYXJnZXIgZGF0YXNldHMgYW5kIGludmVzdGlnYXRpbmcgaXRzIHBlcmZvcm1hbmNlIGluIG1vcmUgY29tcGxleCBhbGlnbm1lbnQgc2NlbmFyaW9zLiIsImRhdGUiOiJKYW4gNCwgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiSW5zdHJ1Y3Rpb24gVHVuaW5nIGZvciBMYXJnZSBMYW5ndWFnZSBNb2RlbHM6IEEgU3VydmV5IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4xMDc5MnY5Iiwic25pcHBldCI6IkluIHByYWN0aWNlLCBtb3N0IGltcGxlbWVudGF0aW9ucyBzdGlsbCB1c2UgYW4gU0ZULXR1bmVkIG1vZGVsIGJlZm9yZSBydW5uaW5nIERQTywgZWNob2luZyB0aGUgUkxIRiBwaXBlbGluZS4gVGh1cywgd2hpbGUgRFBPIHNpbXBsaWZpZXMgYWxpZ25tZW50LCBpdCBoYXMgbm90IGVsaW1pbmF0ZWQgdGhlIG5lZWQgZm9yIHN1cGVydmlzZWQgdHVuaW5nIGluIG1hbnkgY2FzZXMuIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJSRVdBUkQtUk9CVVNUIFJMSEYgSU4gTExNUyAtIGFyWGl2Lm9yZyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwOS4xNTM2MCIsInNuaXBwZXQiOiJUaGUgcHJvcG9zZWQgcmV3YXJkLXJvYnVzdCBSTEhGIGZyYW1ld29yayBjb25zaXN0ZW50bHkgb3V0LXBlcmZvcm1zIHN0YW5kYXJkIFJMSEYgYWNyb3NzIHNldmVyYWwgd2lkZWx5LXVzZWQgYmVuY2htYXJrcy4gSW4gbG9uZyBydW4gdHJhaW5pbmcgcHJvY2Vzc2VzLCB0aGUgcHJvcG9zZWQgbWV0aG9kIHNob3dzIHN0cm9uZ2VyIHN0YWJpbGl0eSBhbmQgYmV0dGVyIHBlcmZvcm1hbmNlIGNvbXBhcmVkIHdpdGggdGhlIGJhc2VsaW5lcy4gQmV5b25kIHByZXNlbnRpbmcgZW1waXJpY2FsIHBlcmZvcm1hbmNlIHJlc3VsdHMsIHdlIGFsc28gYWltIHRvIHByb3ZpZGUgZGVlcGVyIHRoZW9yZXRpY2FsIGluc2lnaHRzLiIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiRGlzdG9ydGVkIFBlcnNwZWN0aXZlcyBvZiBMTE0tU2ltdWxhdGVkIFByZWZlcmVuY2VzOiBDYW4gQUkgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNjA1LjE4MzExIiwic25pcHBldCI6IkFsdGhvdWdoIExMTXMgYXJlIGZpbmUtdHVuZWQgdGhyb3VnaCByZWluZm9yY2VtZW50IGxlYXJuaW5nIGZyb20gaHVtYW4gZmVlZGJhY2sgKFJMSEYpIHRvIG1ha2UgdGhlIG91dHB1dCBpdHNlbGYgaW4gbGluZSB3aXRoIHVzZXIgcHJlZmVyZW5jZSAoZS5nLiwgbW9yZSBzdHJ1Y3R1cmVkIG9yIGZhY3R1YWwpIChTcGFycmVuYmVyZyBldCBhbC4sIDIwMjQ7IFBheW5lLCAyMDI2KSwgdGhpcyBkb2VzIG5vdCBpbmhlcmVudGx5IHRyYW5zbGF0ZSBpbnRvIGFuIGFiaWxpdHkgdG8gcmVwcm9kdWNlIGNvbnRleHR1YWxseSBhd2FyZSBwcmVmZXJlbmNlcyBvbiB0aGVpciBzdWJqZWN0LiIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQmUgRnJpZW5kbHksIE5vdCBGcmllbmRzOiBIb3cgTExNIFN5Y29waGFuY3kgU2hhcGVzIFVzZXIgVHJ1c3QiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDIuMTA4NDQiLCJzbmlwcGV0IjoiQWJzdHJhY3QgTExNLXBvd2VyZWQgY29udmVyc2F0aW9uYWwgYWdlbnRzIGFyZSBpbmNyZWFzaW5nbHkgaW5mbHVlbmNpbmcgb3VyIGRlY2lzaW9uLW1ha2luZywgcmFpc2luZyBjb25jZXJucyBhYm91dCDigJxzeWNvcGhhbmN54oCdLXRoZSB0ZW5kZW5jeSBmb3IgTExNcyB0byBleGNlc3NpdmVseSBhZ3JlZSB3aXRoIHVzZXJzIGV2ZW4gYXQgdGhlIGV4cGVuc2Ugb2YgdHJ1dGhmdWxuZXNzLiBXaGlsZSBwcmlvciB3b3JrIGhhcyBwcmltYXJpbHkgZXhhbWluZWQgTExNIHN5Y29waGFuY3kgYXMgYSBtb2RlbCBiZWhhdmlvciwgb3VyIHVuZGVyc3RhbmRpbmcgb2YgaG93IHVzZXJzIHBlcmNlaXZlIHRoaXMgcGhlbm9tZW5vbiBhbmQgaXRzIGltcGFjdCBvbiB1c2VyIHRydXN0IHJlbWFpbnMgLi4uIiwicG9zaXRpb24iOjd9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Origins of distribution shift concerns in RLHF before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 4,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Retrieval-Augmented Generation for Large Language Models: A ...",
+        "link": "https://arxiv.org/html/2312.10997",
+        "snippet": "Abstract Large Language Models (LLMs) showcase impressive capabilities but encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the generation, particularly for ...",
+        "date": "Mar 27, 2024",
+        "position": 1
+      },
+      {
+        "title": "[2508.18588] History Rhymes: Accelerating LLM Reinforcement ...",
+        "link": "https://arxiv.org/abs/2508.18588",
+        "snippet": "With the rapid advancement of large language models (LLMs), reinforcement learning (RL) has emerged as a pivotal methodology for enhancing the reasoning capabilities of LLMs. Unlike traditional pre-training approaches, RL encompasses multiple stages: rollout, reward, and training, which necessitates collaboration among various worker types. However, current RL systems continue to grapple with ...",
+        "date": "Aug 26, 2025",
+        "position": 2
+      },
+      {
+        "title": "REINFORCE++: A Simple and Efficient Approach for Aligning ...",
+        "link": "https://arxiv.org/html/2501.03262v1",
+        "snippet": "The experimental results validate the effectiveness of REINFORCE++ as a simpler yet efficient alternative to PPO and GRPO for RLHF. Future work will explore scaling the approach to larger datasets and investigating its performance in more complex alignment scenarios.",
+        "date": "Jan 4, 2025",
+        "position": 3
+      },
+      {
+        "title": "Instruction Tuning for Large Language Models: A Survey",
+        "link": "https://arxiv.org/html/2308.10792v9",
+        "snippet": "In practice, most implementations still use an SFT-tuned model before running DPO, echoing the RLHF pipeline. Thus, while DPO simplifies alignment, it has not eliminated the need for supervised tuning in many cases.",
+        "position": 4
+      },
+      {
+        "title": "REWARD-ROBUST RLHF IN LLMS - arXiv.org",
+        "link": "https://arxiv.org/pdf/2409.15360",
+        "snippet": "The proposed reward-robust RLHF framework consistently out-performs standard RLHF across several widely-used benchmarks. In long run training processes, the proposed method shows stronger stability and better performance compared with the baselines. Beyond presenting empirical performance results, we also aim to provide deeper theoretical insights.",
+        "position": 5
+      },
+      {
+        "title": "Distorted Perspectives of LLM-Simulated Preferences: Can AI ...",
+        "link": "https://arxiv.org/pdf/2605.18311",
+        "snippet": "Although LLMs are fine-tuned through reinforcement learning from human feedback (RLHF) to make the output itself in line with user preference (e.g., more structured or factual) (Sparrenberg et al., 2024; Payne, 2026), this does not inherently translate into an ability to reproduce contextually aware preferences on their subject.",
+        "position": 6
+      },
+      {
+        "title": "Be Friendly, Not Friends: How LLM Sycophancy Shapes User Trust",
+        "link": "https://arxiv.org/pdf/2502.10844",
+        "snippet": "Abstract LLM-powered conversational agents are increasingly influencing our decision-making, raising concerns about “sycophancy”-the tendency for LLMs to excessively agree with users even at the expense of truthfulness. While prior work has primarily examined LLM sycophancy as a model behavior, our understanding of how users perceive this phenomenon and its impact on user trust remains ...",
+        "position": 7
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank_on_page": 1,
+      "nominal_rank": 31,
+      "title": "Retrieval-Augmented Generation for Large Language Models: A ...",
+      "snippet": "Abstract Large Language Models (LLMs) showcase impressive capabilities but encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the generation, particularly for ...",
+      "link": "https://arxiv.org/html/2312.10997",
+      "arxiv_id": "2312.10997"
+    },
+    {
+      "rank_on_page": 2,
+      "nominal_rank": 32,
+      "title": "[2508.18588] History Rhymes: Accelerating LLM Reinforcement ...",
+      "snippet": "With the rapid advancement of large language models (LLMs), reinforcement learning (RL) has emerged as a pivotal methodology for enhancing the reasoning capabilities of LLMs. Unlike traditional pre-training approaches, RL encompasses multiple stages: rollout, reward, and training, which necessitates collaboration among various worker types. However, current RL systems continue to grapple with ...",
+      "link": "https://arxiv.org/abs/2508.18588",
+      "arxiv_id": "2508.18588"
+    },
+    {
+      "rank_on_page": 3,
+      "nominal_rank": 33,
+      "title": "REINFORCE++: A Simple and Efficient Approach for Aligning ...",
+      "snippet": "The experimental results validate the effectiveness of REINFORCE++ as a simpler yet efficient alternative to PPO and GRPO for RLHF. Future work will explore scaling the approach to larger datasets and investigating its performance in more complex alignment scenarios.",
+      "link": "https://arxiv.org/html/2501.03262v1",
+      "arxiv_id": "2501.03262"
+    },
+    {
+      "rank_on_page": 4,
+      "nominal_rank": 34,
+      "title": "Instruction Tuning for Large Language Models: A Survey",
+      "snippet": "In practice, most implementations still use an SFT-tuned model before running DPO, echoing the RLHF pipeline. Thus, while DPO simplifies alignment, it has not eliminated the need for supervised tuning in many cases.",
+      "link": "https://arxiv.org/html/2308.10792v9",
+      "arxiv_id": "2308.10792"
+    },
+    {
+      "rank_on_page": 5,
+      "nominal_rank": 35,
+      "title": "REWARD-ROBUST RLHF IN LLMS - arXiv.org",
+      "snippet": "The proposed reward-robust RLHF framework consistently out-performs standard RLHF across several widely-used benchmarks. In long run training processes, the proposed method shows stronger stability and better performance compared with the baselines. Beyond presenting empirical performance results, we also aim to provide deeper theoretical insights.",
+      "link": "https://arxiv.org/pdf/2409.15360",
+      "arxiv_id": "2409.15360"
+    },
+    {
+      "rank_on_page": 6,
+      "nominal_rank": 36,
+      "title": "Distorted Perspectives of LLM-Simulated Preferences: Can AI ...",
+      "snippet": "Although LLMs are fine-tuned through reinforcement learning from human feedback (RLHF) to make the output itself in line with user preference (e.g., more structured or factual) (Sparrenberg et al., 2024; Payne, 2026), this does not inherently translate into an ability to reproduce contextually aware preferences on their subject.",
+      "link": "https://arxiv.org/pdf/2605.18311",
+      "arxiv_id": "2605.18311"
+    },
+    {
+      "rank_on_page": 7,
+      "nominal_rank": 37,
+      "title": "Be Friendly, Not Friends: How LLM Sycophancy Shapes User Trust",
+      "snippet": "Abstract LLM-powered conversational agents are increasingly influencing our decision-making, raising concerns about “sycophancy”-the tendency for LLMs to excessively agree with users even at the expense of truthfulness. While prior work has primarily examined LLM sycophancy as a model behavior, our understanding of how users perceive this phenomenon and its impact on user trust remains ...",
+      "link": "https://arxiv.org/pdf/2502.10844",
+      "arxiv_id": "2502.10844"
+    }
+  ],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:43:52.825251+00:00",
+  "elapsed_seconds": 4.10137652605772
+}

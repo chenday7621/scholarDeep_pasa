@@ -1,0 +1,1346 @@
+{
+  "query_id": "Q2",
+  "query_index": 2,
+  "dataset_qid": "RealScholarQuery_2",
+  "original_question": "List all papers that use autoregressive transformer to generate videos.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Autoregressive transformer models in video generation research papers",
+    "Research on using autoregressive transformers for video editing and composition",
+    "Papers on video generation using autoregressive transformer",
+    "Studies on autoregressive transformer in video creation",
+    "Use of autoregressive transformer in video generation papers"
+  ],
+  "anchor": "List all papers that use autoregressive transformer to generate videos.",
+  "source_generation_id": "Q2_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Autoregressive transformer models in video generation research papers",
+        "Research on using autoregressive transformers for video editing and composition",
+        "Papers on video generation using autoregressive transformer",
+        "Studies on autoregressive transformer in video creation",
+        "Use of autoregressive transformer in video generation papers"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "List all papers that use autoregressive transformer to generate videos.",
+        "Autoregressive transformer models in video generation research papers",
+        "Research on using autoregressive transformers for video editing and composition",
+        "Papers on video generation using autoregressive transformer",
+        "Studies on autoregressive transformer in video creation"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Autoregressive transformer models in video generation research papers",
+      "attempts": [
+        {
+          "global_attempt_sequence": 14,
+          "query_id": "Q2",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Autoregressive transformer models in video generation research papers",
+          "request_payload": {
+            "q": "Autoregressive transformer models in video generation research papers before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q2_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:24:47.879012+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Autoregressive transformer models in video generation research papers before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"A Survey on Long Video Generation: Challenges, Methods ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.16407v1\",\"snippet\":\"We detail the four types of popular video generation models, including Diffusion, Autoregressive, Generative Adversarial Networks (GAN), and Mask Modeling.\",\"date\":\"Mar 25, 2024\",\"position\":1},{\"title\":\"[1906.02634] Scaling Autoregressive Video Models - arXiv\",\"link\":\"https://arxiv.org/abs/1906.02634\",\"snippet\":\"In contrast, we show that conceptually simple autoregressive video generation models based on a three-dimensional self-attention mechanism achieve ...\",\"date\":\"Jun 6, 2019\",\"position\":2},{\"title\":\"From Sora What We Can See: A Survey of Text-to-Video Generation\",\"link\":\"https://arxiv.org/html/2405.10674v1\",\"snippet\":\"By capturing the dependencies between elements in a sequence, autoregressive models can generate or predict subsequent elements in a sequence, making them ...\",\"date\":\"May 17, 2024\",\"position\":3},{\"title\":\"Autoregressive Model Beats Diffusion: Llama for Scalable Image ...\",\"link\":\"https://arxiv.org/html/2406.06525v1\",\"snippet\":\"In this work, we are committed to pushing the envelope of autoregressive models on image generation further: continuing its research methodology and ...\",\"date\":\"Jun 10, 2024\",\"position\":4},{\"title\":\"Scalable Image Generation via Next-Scale Prediction - arXiv\",\"link\":\"https://arxiv.org/abs/2404.02905\",\"snippet\":\"We present Visual AutoRegressive modeling (VAR), a new generation paradigm that redefines the autoregressive learning on images as coarse-to-fine \\\"next-scale ...\",\"date\":\"Apr 3, 2024\",\"position\":5},{\"title\":\"Scalable Image Generation via Next-Scale Prediction - arXiv\",\"link\":\"https://arxiv.org/html/2404.02905v1\",\"snippet\":\"Abstract. We present Visual AutoRegressive modeling (VAR), a new generation paradigm that redefines the autoregressive learning on images as coarse-to-fine ...\",\"date\":\"Apr 3, 2024\",\"position\":6},{\"title\":\"A Survey on Generative AI and LLM for Video Generation ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.16038v1\",\"snippet\":\"In the context of video generation, autoregressive models can be used to generate video frames sequentially, conditioning each frame on the previously generated ...\",\"date\":\"Jan 30, 2024\",\"position\":7},{\"title\":\"Autoregressive Image Generation without Vector Quantization - arXiv\",\"link\":\"https://arxiv.org/html/2406.11838v1\",\"snippet\":\"In this work, we propose to model the per-token probability distribution using a diffusion procedure, which allows us to apply autoregressive models in a ...\",\"date\":\"Jun 17, 2024\",\"position\":8},{\"title\":\"Delving Deep into Diffusion Transformers for Image and Video ...\",\"link\":\"https://arxiv.org/html/2312.04557v1\",\"snippet\":\"In this study, we explore Transformer-based diffusion models for image and video generation. ... Scaling autoregressive models for content-rich text-to-image ...\",\"date\":\"Dec 7, 2023\",\"position\":9},{\"title\":\"Vision Transformers: State of the Art and Research Challenges - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2207.03041\",\"snippet\":\"This paper presents a comprehensive overview of the literature on different architecture designs and training tricks (including self-supervised learning) for ...\",\"date\":\"Jul 8, 2022\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBdXRvcmVncmVzc2l2ZSB0cmFuc2Zvcm1lciBtb2RlbHMgaW4gdmlkZW8gZ2VuZXJhdGlvbiByZXNlYXJjaCBwYXBlcnMgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQSBTdXJ2ZXkgb24gTG9uZyBWaWRlbyBHZW5lcmF0aW9uOiBDaGFsbGVuZ2VzLCBNZXRob2RzIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xNjQwN3YxIiwic25pcHBldCI6IldlIGRldGFpbCB0aGUgZm91ciB0eXBlcyBvZiBwb3B1bGFyIHZpZGVvIGdlbmVyYXRpb24gbW9kZWxzLCBpbmNsdWRpbmcgRGlmZnVzaW9uLCBBdXRvcmVncmVzc2l2ZSwgR2VuZXJhdGl2ZSBBZHZlcnNhcmlhbCBOZXR3b3JrcyAoR0FOKSwgYW5kIE1hc2sgTW9kZWxpbmcuIiwiZGF0ZSI6Ik1hciAyNSwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiWzE5MDYuMDI2MzRdIFNjYWxpbmcgQXV0b3JlZ3Jlc3NpdmUgVmlkZW8gTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzE5MDYuMDI2MzQiLCJzbmlwcGV0IjoiSW4gY29udHJhc3QsIHdlIHNob3cgdGhhdCBjb25jZXB0dWFsbHkgc2ltcGxlIGF1dG9yZWdyZXNzaXZlIHZpZGVvIGdlbmVyYXRpb24gbW9kZWxzIGJhc2VkIG9uIGEgdGhyZWUtZGltZW5zaW9uYWwgc2VsZi1hdHRlbnRpb24gbWVjaGFuaXNtIGFjaGlldmUgLi4uIiwiZGF0ZSI6Ikp1biA2LCAyMDE5IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJGcm9tIFNvcmEgV2hhdCBXZSBDYW4gU2VlOiBBIFN1cnZleSBvZiBUZXh0LXRvLVZpZGVvIEdlbmVyYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjEwNjc0djEiLCJzbmlwcGV0IjoiQnkgY2FwdHVyaW5nIHRoZSBkZXBlbmRlbmNpZXMgYmV0d2VlbiBlbGVtZW50cyBpbiBhIHNlcXVlbmNlLCBhdXRvcmVncmVzc2l2ZSBtb2RlbHMgY2FuIGdlbmVyYXRlIG9yIHByZWRpY3Qgc3Vic2VxdWVudCBlbGVtZW50cyBpbiBhIHNlcXVlbmNlLCBtYWtpbmcgdGhlbSAuLi4iLCJkYXRlIjoiTWF5IDE3LCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJBdXRvcmVncmVzc2l2ZSBNb2RlbCBCZWF0cyBEaWZmdXNpb246IExsYW1hIGZvciBTY2FsYWJsZSBJbWFnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjA2NTI1djEiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBhcmUgY29tbWl0dGVkIHRvIHB1c2hpbmcgdGhlIGVudmVsb3BlIG9mIGF1dG9yZWdyZXNzaXZlIG1vZGVscyBvbiBpbWFnZSBnZW5lcmF0aW9uIGZ1cnRoZXI6IGNvbnRpbnVpbmcgaXRzIHJlc2VhcmNoIG1ldGhvZG9sb2d5IGFuZCAuLi4iLCJkYXRlIjoiSnVuIDEwLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJTY2FsYWJsZSBJbWFnZSBHZW5lcmF0aW9uIHZpYSBOZXh0LVNjYWxlIFByZWRpY3Rpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNC4wMjkwNSIsInNuaXBwZXQiOiJXZSBwcmVzZW50IFZpc3VhbCBBdXRvUmVncmVzc2l2ZSBtb2RlbGluZyAoVkFSKSwgYSBuZXcgZ2VuZXJhdGlvbiBwYXJhZGlnbSB0aGF0IHJlZGVmaW5lcyB0aGUgYXV0b3JlZ3Jlc3NpdmUgbGVhcm5pbmcgb24gaW1hZ2VzIGFzIGNvYXJzZS10by1maW5lIFwibmV4dC1zY2FsZSAuLi4iLCJkYXRlIjoiQXByIDMsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IlNjYWxhYmxlIEltYWdlIEdlbmVyYXRpb24gdmlhIE5leHQtU2NhbGUgUHJlZGljdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4wMjkwNXYxIiwic25pcHBldCI6IkFic3RyYWN0LiBXZSBwcmVzZW50IFZpc3VhbCBBdXRvUmVncmVzc2l2ZSBtb2RlbGluZyAoVkFSKSwgYSBuZXcgZ2VuZXJhdGlvbiBwYXJhZGlnbSB0aGF0IHJlZGVmaW5lcyB0aGUgYXV0b3JlZ3Jlc3NpdmUgbGVhcm5pbmcgb24gaW1hZ2VzIGFzIGNvYXJzZS10by1maW5lIC4uLiIsImRhdGUiOiJBcHIgMywgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gR2VuZXJhdGl2ZSBBSSBhbmQgTExNIGZvciBWaWRlbyBHZW5lcmF0aW9uIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4xNjAzOHYxIiwic25pcHBldCI6IkluIHRoZSBjb250ZXh0IG9mIHZpZGVvIGdlbmVyYXRpb24sIGF1dG9yZWdyZXNzaXZlIG1vZGVscyBjYW4gYmUgdXNlZCB0byBnZW5lcmF0ZSB2aWRlbyBmcmFtZXMgc2VxdWVudGlhbGx5LCBjb25kaXRpb25pbmcgZWFjaCBmcmFtZSBvbiB0aGUgcHJldmlvdXNseSBnZW5lcmF0ZWQgLi4uIiwiZGF0ZSI6IkphbiAzMCwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiQXV0b3JlZ3Jlc3NpdmUgSW1hZ2UgR2VuZXJhdGlvbiB3aXRob3V0IFZlY3RvciBRdWFudGl6YXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTE4Mzh2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIHByb3Bvc2UgdG8gbW9kZWwgdGhlIHBlci10b2tlbiBwcm9iYWJpbGl0eSBkaXN0cmlidXRpb24gdXNpbmcgYSBkaWZmdXNpb24gcHJvY2VkdXJlLCB3aGljaCBhbGxvd3MgdXMgdG8gYXBwbHkgYXV0b3JlZ3Jlc3NpdmUgbW9kZWxzIGluIGEgLi4uIiwiZGF0ZSI6Ikp1biAxNywgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiRGVsdmluZyBEZWVwIGludG8gRGlmZnVzaW9uIFRyYW5zZm9ybWVycyBmb3IgSW1hZ2UgYW5kIFZpZGVvIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTIuMDQ1NTd2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHN0dWR5LCB3ZSBleHBsb3JlIFRyYW5zZm9ybWVyLWJhc2VkIGRpZmZ1c2lvbiBtb2RlbHMgZm9yIGltYWdlIGFuZCB2aWRlbyBnZW5lcmF0aW9uLiAuLi4gU2NhbGluZyBhdXRvcmVncmVzc2l2ZSBtb2RlbHMgZm9yIGNvbnRlbnQtcmljaCB0ZXh0LXRvLWltYWdlIC4uLiIsImRhdGUiOiJEZWMgNywgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiVmlzaW9uIFRyYW5zZm9ybWVyczogU3RhdGUgb2YgdGhlIEFydCBhbmQgUmVzZWFyY2ggQ2hhbGxlbmdlcyAtIGFyNWl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMjA3LjAzMDQxIiwic25pcHBldCI6IlRoaXMgcGFwZXIgcHJlc2VudHMgYSBjb21wcmVoZW5zaXZlIG92ZXJ2aWV3IG9mIHRoZSBsaXRlcmF0dXJlIG9uIGRpZmZlcmVudCBhcmNoaXRlY3R1cmUgZGVzaWducyBhbmQgdHJhaW5pbmcgdHJpY2tzIChpbmNsdWRpbmcgc2VsZi1zdXBlcnZpc2VkIGxlYXJuaW5nKSBmb3IgLi4uIiwiZGF0ZSI6Ikp1bCA4LCAyMDIyIiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "585d90c522d95dda5ccaeffb66ed251edcd6d29a6f254df0c704aa0781db6f6b",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Autoregressive transformer models in video generation research papers before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+                "link": "https://arxiv.org/html/2403.16407v1",
+                "snippet": "We detail the four types of popular video generation models, including Diffusion, Autoregressive, Generative Adversarial Networks (GAN), and Mask Modeling.",
+                "date": "Mar 25, 2024",
+                "position": 1
+              },
+              {
+                "title": "[1906.02634] Scaling Autoregressive Video Models - arXiv",
+                "link": "https://arxiv.org/abs/1906.02634",
+                "snippet": "In contrast, we show that conceptually simple autoregressive video generation models based on a three-dimensional self-attention mechanism achieve ...",
+                "date": "Jun 6, 2019",
+                "position": 2
+              },
+              {
+                "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+                "link": "https://arxiv.org/html/2405.10674v1",
+                "snippet": "By capturing the dependencies between elements in a sequence, autoregressive models can generate or predict subsequent elements in a sequence, making them ...",
+                "date": "May 17, 2024",
+                "position": 3
+              },
+              {
+                "title": "Autoregressive Model Beats Diffusion: Llama for Scalable Image ...",
+                "link": "https://arxiv.org/html/2406.06525v1",
+                "snippet": "In this work, we are committed to pushing the envelope of autoregressive models on image generation further: continuing its research methodology and ...",
+                "date": "Jun 10, 2024",
+                "position": 4
+              },
+              {
+                "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+                "link": "https://arxiv.org/abs/2404.02905",
+                "snippet": "We present Visual AutoRegressive modeling (VAR), a new generation paradigm that redefines the autoregressive learning on images as coarse-to-fine \"next-scale ...",
+                "date": "Apr 3, 2024",
+                "position": 5
+              },
+              {
+                "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+                "link": "https://arxiv.org/html/2404.02905v1",
+                "snippet": "Abstract. We present Visual AutoRegressive modeling (VAR), a new generation paradigm that redefines the autoregressive learning on images as coarse-to-fine ...",
+                "date": "Apr 3, 2024",
+                "position": 6
+              },
+              {
+                "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+                "link": "https://arxiv.org/html/2404.16038v1",
+                "snippet": "In the context of video generation, autoregressive models can be used to generate video frames sequentially, conditioning each frame on the previously generated ...",
+                "date": "Jan 30, 2024",
+                "position": 7
+              },
+              {
+                "title": "Autoregressive Image Generation without Vector Quantization - arXiv",
+                "link": "https://arxiv.org/html/2406.11838v1",
+                "snippet": "In this work, we propose to model the per-token probability distribution using a diffusion procedure, which allows us to apply autoregressive models in a ...",
+                "date": "Jun 17, 2024",
+                "position": 8
+              },
+              {
+                "title": "Delving Deep into Diffusion Transformers for Image and Video ...",
+                "link": "https://arxiv.org/html/2312.04557v1",
+                "snippet": "In this study, we explore Transformer-based diffusion models for image and video generation. ... Scaling autoregressive models for content-rich text-to-image ...",
+                "date": "Dec 7, 2023",
+                "position": 9
+              },
+              {
+                "title": "Vision Transformers: State of the Art and Research Challenges - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2207.03041",
+                "snippet": "This paper presents a comprehensive overview of the literature on different architecture designs and training tricks (including self-supervised learning) for ...",
+                "date": "Jul 8, 2022",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:24:48.856467+00:00",
+          "elapsed_seconds": 0.97745805606246
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1906.02634",
+        "2207.03041",
+        "2312.04557",
+        "2403.16407",
+        "2404.02905",
+        "2404.16038",
+        "2405.10674",
+        "2406.06525",
+        "2406.11838"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.16407",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2403.16407v1",
+          "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+          "snippet": "We detail the four types of popular video generation models, including Diffusion, Autoregressive, Generative Adversarial Networks (GAN), and Mask Modeling."
+        },
+        {
+          "arxiv_id": "1906.02634",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/1906.02634",
+          "title": "[1906.02634] Scaling Autoregressive Video Models - arXiv",
+          "snippet": "In contrast, we show that conceptually simple autoregressive video generation models based on a three-dimensional self-attention mechanism achieve ..."
+        },
+        {
+          "arxiv_id": "2405.10674",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2405.10674v1",
+          "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+          "snippet": "By capturing the dependencies between elements in a sequence, autoregressive models can generate or predict subsequent elements in a sequence, making them ..."
+        },
+        {
+          "arxiv_id": "2406.06525",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2406.06525v1",
+          "title": "Autoregressive Model Beats Diffusion: Llama for Scalable Image ...",
+          "snippet": "In this work, we are committed to pushing the envelope of autoregressive models on image generation further: continuing its research methodology and ..."
+        },
+        {
+          "arxiv_id": "2404.02905",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2404.02905",
+          "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+          "snippet": "We present Visual AutoRegressive modeling (VAR), a new generation paradigm that redefines the autoregressive learning on images as coarse-to-fine \"next-scale ..."
+        },
+        {
+          "arxiv_id": "2404.02905",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2404.02905v1",
+          "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+          "snippet": "Abstract. We present Visual AutoRegressive modeling (VAR), a new generation paradigm that redefines the autoregressive learning on images as coarse-to-fine ..."
+        },
+        {
+          "arxiv_id": "2404.16038",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2404.16038v1",
+          "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+          "snippet": "In the context of video generation, autoregressive models can be used to generate video frames sequentially, conditioning each frame on the previously generated ..."
+        },
+        {
+          "arxiv_id": "2406.11838",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2406.11838v1",
+          "title": "Autoregressive Image Generation without Vector Quantization - arXiv",
+          "snippet": "In this work, we propose to model the per-token probability distribution using a diffusion procedure, which allows us to apply autoregressive models in a ..."
+        },
+        {
+          "arxiv_id": "2312.04557",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2312.04557v1",
+          "title": "Delving Deep into Diffusion Transformers for Image and Video ...",
+          "snippet": "In this study, we explore Transformer-based diffusion models for image and video generation. ... Scaling autoregressive models for content-rich text-to-image ..."
+        },
+        {
+          "arxiv_id": "2207.03041",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://ar5iv.labs.arxiv.org/html/2207.03041",
+          "title": "Vision Transformers: State of the Art and Research Challenges - ar5iv",
+          "snippet": "This paper presents a comprehensive overview of the literature on different architecture designs and training tricks (including self-supervised learning) for ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Autoregressive transformer models in video generation research papers before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Research on using autoregressive transformers for video editing and composition",
+      "attempts": [
+        {
+          "global_attempt_sequence": 15,
+          "query_id": "Q2",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Research on using autoregressive transformers for video editing and composition",
+          "request_payload": {
+            "q": "Research on using autoregressive transformers for video editing and composition before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q2_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:24:48.880596+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Research on using autoregressive transformers for video editing and composition before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Muse: Text-To-Image Generation via Masked Generative Transformers\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2301.00704\",\"snippet\":\"We present Muse, a text-to-image Transformer model that achieves state-of-the-art image generation performance while being significantly more efficient than ...\",\"date\":\"Jun 15, 2022\",\"position\":1},{\"title\":\"[PDF] Towards Consistent Video Editing with Text-to-Image Diffusion Models\",\"link\":\"https://arxiv.org/pdf/2305.17431\",\"snippet\":\"Existing works have advanced Text-to-Image (TTI) diffusion models for video editing in a one-shot learning manner. solving tasks in video domain.\",\"date\":\"May 27, 2023\",\"position\":2},{\"title\":\"Autoregressive Transformers are Zero-Shot Video Imitators - arXiv\",\"link\":\"https://arxiv.org/abs/2407.07356\",\"snippet\":\"In this paper, we explore utilizing visual signals as a new interface for models to interact with the environment. The results show that our models can ...\",\"date\":\"Jul 10, 2024\",\"position\":3},{\"title\":\"[PDF] A Survey on Video Diffusion Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2310.10647\",\"snippet\":\"auto-regressive Transformers, in image generation and editing, Video generation and editing are the top two research areas using diffusion models.\",\"date\":\"Sep 14, 2024\",\"position\":4},{\"title\":\"Delving Deep into Diffusion Transformers for Image and Video ...\",\"link\":\"https://arxiv.org/html/2312.04557v1\",\"snippet\":\"In this work, we provide a thorough exploration of transformer-based diffusion models for text-conditioned image and video generation.\",\"date\":\"Dec 7, 2023\",\"position\":5},{\"title\":\"Scalable Image Generation via Next-Scale Prediction - arXiv\",\"link\":\"https://arxiv.org/html/2404.02905v1\",\"snippet\":\"This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well:\",\"date\":\"Apr 3, 2024\",\"position\":6},{\"title\":\"From Sora What We Can See: A Survey of Text-to-Video Generation\",\"link\":\"https://arxiv.org/html/2405.10674v1\",\"snippet\":\"By capturing the dependencies between elements in a sequence, autoregressive models can generate or predict subsequent elements in a sequence, making them ...\",\"date\":\"May 17, 2024\",\"position\":7},{\"title\":\"From Efficient Multimodal Models to World Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2407.00118v1\",\"snippet\":\"Autoregressive models hold a significant place in the generative field, This method uses LLM models to generate synthetic video instruction pairs, then trains ...\",\"date\":\"Jun 27, 2024\",\"position\":8},{\"title\":\"[PDF] arXiv:2303.11251v1 [cs.CV] 20 Mar 2023\",\"link\":\"https://arxiv.org/pdf/2303.11251\",\"snippet\":\"Autoregressive transformers have shown remarkable success in video generation. However, the transformers are prohibited from directly learning the long-term ...\",\"date\":\"Mar 21, 2023\",\"position\":9},{\"title\":\"WorldDreamer: Towards General World Models for Video ... - arXiv\",\"link\":\"https://arxiv.org/html/2401.09985v1\",\"snippet\":\"The Transformer-based video generation methods are derived from the general family of LLMs [37, 38, 5, 12] . Typically, these methods employ autoregressive ...\",\"date\":\"Jan 18, 2024\",\"sitelinks\":[{\"title\":\"3 Worlddreamer\",\"link\":\"https://arxiv.org/html/2401.09985v1#:~:text=3%20WorldDreamer,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"3.2 Model Architecture\",\"link\":\"https://arxiv.org/html/2401.09985v1#:~:text=3.2%20Model%20Architecture,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"4 Experiment\",\"link\":\"https://arxiv.org/html/2401.09985v1#:~:text=4%20Experiment,-Report%20issue%20for%20preceding%20element\"}],\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZXNlYXJjaCBvbiB1c2luZyBhdXRvcmVncmVzc2l2ZSB0cmFuc2Zvcm1lcnMgZm9yIHZpZGVvIGVkaXRpbmcgYW5kIGNvbXBvc2l0aW9uIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6Ik11c2U6IFRleHQtVG8tSW1hZ2UgR2VuZXJhdGlvbiB2aWEgTWFza2VkIEdlbmVyYXRpdmUgVHJhbnNmb3JtZXJzIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMzAxLjAwNzA0Iiwic25pcHBldCI6IldlIHByZXNlbnQgTXVzZSwgYSB0ZXh0LXRvLWltYWdlIFRyYW5zZm9ybWVyIG1vZGVsIHRoYXQgYWNoaWV2ZXMgc3RhdGUtb2YtdGhlLWFydCBpbWFnZSBnZW5lcmF0aW9uIHBlcmZvcm1hbmNlIHdoaWxlIGJlaW5nIHNpZ25pZmljYW50bHkgbW9yZSBlZmZpY2llbnQgdGhhbiAuLi4iLCJkYXRlIjoiSnVuIDE1LCAyMDIyIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBUb3dhcmRzIENvbnNpc3RlbnQgVmlkZW8gRWRpdGluZyB3aXRoIFRleHQtdG8tSW1hZ2UgRGlmZnVzaW9uIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4xNzQzMSIsInNuaXBwZXQiOiJFeGlzdGluZyB3b3JrcyBoYXZlIGFkdmFuY2VkIFRleHQtdG8tSW1hZ2UgKFRUSSkgZGlmZnVzaW9uIG1vZGVscyBmb3IgdmlkZW8gZWRpdGluZyBpbiBhIG9uZS1zaG90IGxlYXJuaW5nIG1hbm5lci4gc29sdmluZyB0YXNrcyBpbiB2aWRlbyBkb21haW4uIiwiZGF0ZSI6Ik1heSAyNywgMjAyMyIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiQXV0b3JlZ3Jlc3NpdmUgVHJhbnNmb3JtZXJzIGFyZSBaZXJvLVNob3QgVmlkZW8gSW1pdGF0b3JzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDcuMDczNTYiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgZXhwbG9yZSB1dGlsaXppbmcgdmlzdWFsIHNpZ25hbHMgYXMgYSBuZXcgaW50ZXJmYWNlIGZvciBtb2RlbHMgdG8gaW50ZXJhY3Qgd2l0aCB0aGUgZW52aXJvbm1lbnQuIFRoZSByZXN1bHRzIHNob3cgdGhhdCBvdXIgbW9kZWxzIGNhbiAuLi4iLCJkYXRlIjoiSnVsIDEwLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSBBIFN1cnZleSBvbiBWaWRlbyBEaWZmdXNpb24gTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMTAuMTA2NDciLCJzbmlwcGV0IjoiYXV0by1yZWdyZXNzaXZlIFRyYW5zZm9ybWVycywgaW4gaW1hZ2UgZ2VuZXJhdGlvbiBhbmQgZWRpdGluZywgVmlkZW8gZ2VuZXJhdGlvbiBhbmQgZWRpdGluZyBhcmUgdGhlIHRvcCB0d28gcmVzZWFyY2ggYXJlYXMgdXNpbmcgZGlmZnVzaW9uIG1vZGVscy4iLCJkYXRlIjoiU2VwIDE0LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJEZWx2aW5nIERlZXAgaW50byBEaWZmdXNpb24gVHJhbnNmb3JtZXJzIGZvciBJbWFnZSBhbmQgVmlkZW8gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4wNDU1N3YxIiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgcHJvdmlkZSBhIHRob3JvdWdoIGV4cGxvcmF0aW9uIG9mIHRyYW5zZm9ybWVyLWJhc2VkIGRpZmZ1c2lvbiBtb2RlbHMgZm9yIHRleHQtY29uZGl0aW9uZWQgaW1hZ2UgYW5kIHZpZGVvIGdlbmVyYXRpb24uIiwiZGF0ZSI6IkRlYyA3LCAyMDIzIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJTY2FsYWJsZSBJbWFnZSBHZW5lcmF0aW9uIHZpYSBOZXh0LVNjYWxlIFByZWRpY3Rpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMDI5MDV2MSIsInNuaXBwZXQiOiJUaGlzIHNpbXBsZSwgaW50dWl0aXZlIG1ldGhvZG9sb2d5IGFsbG93cyBhdXRvcmVncmVzc2l2ZSAoQVIpIHRyYW5zZm9ybWVycyB0byBsZWFybiB2aXN1YWwgZGlzdHJpYnV0aW9ucyBmYXN0IGFuZCBjYW4gZ2VuZXJhbGl6ZSB3ZWxsOiIsImRhdGUiOiJBcHIgMywgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiRnJvbSBTb3JhIFdoYXQgV2UgQ2FuIFNlZTogQSBTdXJ2ZXkgb2YgVGV4dC10by1WaWRlbyBHZW5lcmF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xMDY3NHYxIiwic25pcHBldCI6IkJ5IGNhcHR1cmluZyB0aGUgZGVwZW5kZW5jaWVzIGJldHdlZW4gZWxlbWVudHMgaW4gYSBzZXF1ZW5jZSwgYXV0b3JlZ3Jlc3NpdmUgbW9kZWxzIGNhbiBnZW5lcmF0ZSBvciBwcmVkaWN0IHN1YnNlcXVlbnQgZWxlbWVudHMgaW4gYSBzZXF1ZW5jZSwgbWFraW5nIHRoZW0gLi4uIiwiZGF0ZSI6Ik1heSAxNywgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiRnJvbSBFZmZpY2llbnQgTXVsdGltb2RhbCBNb2RlbHMgdG8gV29ybGQgTW9kZWxzOiBBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4wMDExOHYxIiwic25pcHBldCI6IkF1dG9yZWdyZXNzaXZlIG1vZGVscyBob2xkIGEgc2lnbmlmaWNhbnQgcGxhY2UgaW4gdGhlIGdlbmVyYXRpdmUgZmllbGQsIFRoaXMgbWV0aG9kIHVzZXMgTExNIG1vZGVscyB0byBnZW5lcmF0ZSBzeW50aGV0aWMgdmlkZW8gaW5zdHJ1Y3Rpb24gcGFpcnMsIHRoZW4gdHJhaW5zIC4uLiIsImRhdGUiOiJKdW4gMjcsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDMuMTEyNTF2MSBbY3MuQ1ZdIDIwIE1hciAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzAzLjExMjUxIiwic25pcHBldCI6IkF1dG9yZWdyZXNzaXZlIHRyYW5zZm9ybWVycyBoYXZlIHNob3duIHJlbWFya2FibGUgc3VjY2VzcyBpbiB2aWRlbyBnZW5lcmF0aW9uLiBIb3dldmVyLCB0aGUgdHJhbnNmb3JtZXJzIGFyZSBwcm9oaWJpdGVkIGZyb20gZGlyZWN0bHkgbGVhcm5pbmcgdGhlIGxvbmctdGVybSAuLi4iLCJkYXRlIjoiTWFyIDIxLCAyMDIzIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJXb3JsZERyZWFtZXI6IFRvd2FyZHMgR2VuZXJhbCBXb3JsZCBNb2RlbHMgZm9yIFZpZGVvIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4wOTk4NXYxIiwic25pcHBldCI6IlRoZSBUcmFuc2Zvcm1lci1iYXNlZCB2aWRlbyBnZW5lcmF0aW9uIG1ldGhvZHMgYXJlIGRlcml2ZWQgZnJvbSB0aGUgZ2VuZXJhbCBmYW1pbHkgb2YgTExNcyBbMzcsIDM4LCA1LCAxMl0gLiBUeXBpY2FsbHksIHRoZXNlIG1ldGhvZHMgZW1wbG95IGF1dG9yZWdyZXNzaXZlIC4uLiIsImRhdGUiOiJKYW4gMTgsIDIwMjQiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiMyBXb3JsZGRyZWFtZXIiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAxLjA5OTg1djEjOn46dGV4dD0zJTIwV29ybGREcmVhbWVyLC1SZXBvcnQlMjBpc3N1ZSUyMGZvciUyMHByZWNlZGluZyUyMGVsZW1lbnQifSx7InRpdGxlIjoiMy4yIE1vZGVsIEFyY2hpdGVjdHVyZSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMDk5ODV2MSM6fjp0ZXh0PTMuMiUyME1vZGVsJTIwQXJjaGl0ZWN0dXJlLC1SZXBvcnQlMjBpc3N1ZSUyMGZvciUyMHByZWNlZGluZyUyMGVsZW1lbnQifSx7InRpdGxlIjoiNCBFeHBlcmltZW50IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4wOTk4NXYxIzp+OnRleHQ9NCUyMEV4cGVyaW1lbnQsLVJlcG9ydCUyMGlzc3VlJTIwZm9yJTIwcHJlY2VkaW5nJTIwZWxlbWVudCJ9XSwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "2ac538e648ca4ef10ef7995ff634aae134249c4504fa6249a6e368f417ada672",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Research on using autoregressive transformers for video editing and composition before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Muse: Text-To-Image Generation via Masked Generative Transformers",
+                "link": "https://ar5iv.labs.arxiv.org/html/2301.00704",
+                "snippet": "We present Muse, a text-to-image Transformer model that achieves state-of-the-art image generation performance while being significantly more efficient than ...",
+                "date": "Jun 15, 2022",
+                "position": 1
+              },
+              {
+                "title": "[PDF] Towards Consistent Video Editing with Text-to-Image Diffusion Models",
+                "link": "https://arxiv.org/pdf/2305.17431",
+                "snippet": "Existing works have advanced Text-to-Image (TTI) diffusion models for video editing in a one-shot learning manner. solving tasks in video domain.",
+                "date": "May 27, 2023",
+                "position": 2
+              },
+              {
+                "title": "Autoregressive Transformers are Zero-Shot Video Imitators - arXiv",
+                "link": "https://arxiv.org/abs/2407.07356",
+                "snippet": "In this paper, we explore utilizing visual signals as a new interface for models to interact with the environment. The results show that our models can ...",
+                "date": "Jul 10, 2024",
+                "position": 3
+              },
+              {
+                "title": "[PDF] A Survey on Video Diffusion Models - arXiv",
+                "link": "https://arxiv.org/pdf/2310.10647",
+                "snippet": "auto-regressive Transformers, in image generation and editing, Video generation and editing are the top two research areas using diffusion models.",
+                "date": "Sep 14, 2024",
+                "position": 4
+              },
+              {
+                "title": "Delving Deep into Diffusion Transformers for Image and Video ...",
+                "link": "https://arxiv.org/html/2312.04557v1",
+                "snippet": "In this work, we provide a thorough exploration of transformer-based diffusion models for text-conditioned image and video generation.",
+                "date": "Dec 7, 2023",
+                "position": 5
+              },
+              {
+                "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+                "link": "https://arxiv.org/html/2404.02905v1",
+                "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well:",
+                "date": "Apr 3, 2024",
+                "position": 6
+              },
+              {
+                "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+                "link": "https://arxiv.org/html/2405.10674v1",
+                "snippet": "By capturing the dependencies between elements in a sequence, autoregressive models can generate or predict subsequent elements in a sequence, making them ...",
+                "date": "May 17, 2024",
+                "position": 7
+              },
+              {
+                "title": "From Efficient Multimodal Models to World Models: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2407.00118v1",
+                "snippet": "Autoregressive models hold a significant place in the generative field, This method uses LLM models to generate synthetic video instruction pairs, then trains ...",
+                "date": "Jun 27, 2024",
+                "position": 8
+              },
+              {
+                "title": "[PDF] arXiv:2303.11251v1 [cs.CV] 20 Mar 2023",
+                "link": "https://arxiv.org/pdf/2303.11251",
+                "snippet": "Autoregressive transformers have shown remarkable success in video generation. However, the transformers are prohibited from directly learning the long-term ...",
+                "date": "Mar 21, 2023",
+                "position": 9
+              },
+              {
+                "title": "WorldDreamer: Towards General World Models for Video ... - arXiv",
+                "link": "https://arxiv.org/html/2401.09985v1",
+                "snippet": "The Transformer-based video generation methods are derived from the general family of LLMs [37, 38, 5, 12] . Typically, these methods employ autoregressive ...",
+                "date": "Jan 18, 2024",
+                "sitelinks": [
+                  {
+                    "title": "3 Worlddreamer",
+                    "link": "https://arxiv.org/html/2401.09985v1#:~:text=3%20WorldDreamer,-Report%20issue%20for%20preceding%20element"
+                  },
+                  {
+                    "title": "3.2 Model Architecture",
+                    "link": "https://arxiv.org/html/2401.09985v1#:~:text=3.2%20Model%20Architecture,-Report%20issue%20for%20preceding%20element"
+                  },
+                  {
+                    "title": "4 Experiment",
+                    "link": "https://arxiv.org/html/2401.09985v1#:~:text=4%20Experiment,-Report%20issue%20for%20preceding%20element"
+                  }
+                ],
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:24:50.044464+00:00",
+          "elapsed_seconds": 1.1638674587011337
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2301.00704",
+        "2303.11251",
+        "2305.17431",
+        "2310.10647",
+        "2312.04557",
+        "2401.09985",
+        "2404.02905",
+        "2405.10674",
+        "2407.00118",
+        "2407.07356"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2301.00704",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://ar5iv.labs.arxiv.org/html/2301.00704",
+          "title": "Muse: Text-To-Image Generation via Masked Generative Transformers",
+          "snippet": "We present Muse, a text-to-image Transformer model that achieves state-of-the-art image generation performance while being significantly more efficient than ..."
+        },
+        {
+          "arxiv_id": "2305.17431",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/pdf/2305.17431",
+          "title": "[PDF] Towards Consistent Video Editing with Text-to-Image Diffusion Models",
+          "snippet": "Existing works have advanced Text-to-Image (TTI) diffusion models for video editing in a one-shot learning manner. solving tasks in video domain."
+        },
+        {
+          "arxiv_id": "2407.07356",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2407.07356",
+          "title": "Autoregressive Transformers are Zero-Shot Video Imitators - arXiv",
+          "snippet": "In this paper, we explore utilizing visual signals as a new interface for models to interact with the environment. The results show that our models can ..."
+        },
+        {
+          "arxiv_id": "2310.10647",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2310.10647",
+          "title": "[PDF] A Survey on Video Diffusion Models - arXiv",
+          "snippet": "auto-regressive Transformers, in image generation and editing, Video generation and editing are the top two research areas using diffusion models."
+        },
+        {
+          "arxiv_id": "2312.04557",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2312.04557v1",
+          "title": "Delving Deep into Diffusion Transformers for Image and Video ...",
+          "snippet": "In this work, we provide a thorough exploration of transformer-based diffusion models for text-conditioned image and video generation."
+        },
+        {
+          "arxiv_id": "2404.02905",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2404.02905v1",
+          "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+          "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well:"
+        },
+        {
+          "arxiv_id": "2405.10674",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2405.10674v1",
+          "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+          "snippet": "By capturing the dependencies between elements in a sequence, autoregressive models can generate or predict subsequent elements in a sequence, making them ..."
+        },
+        {
+          "arxiv_id": "2407.00118",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2407.00118v1",
+          "title": "From Efficient Multimodal Models to World Models: A Survey - arXiv",
+          "snippet": "Autoregressive models hold a significant place in the generative field, This method uses LLM models to generate synthetic video instruction pairs, then trains ..."
+        },
+        {
+          "arxiv_id": "2303.11251",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2303.11251",
+          "title": "[PDF] arXiv:2303.11251v1 [cs.CV] 20 Mar 2023",
+          "snippet": "Autoregressive transformers have shown remarkable success in video generation. However, the transformers are prohibited from directly learning the long-term ..."
+        },
+        {
+          "arxiv_id": "2401.09985",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2401.09985v1",
+          "title": "WorldDreamer: Towards General World Models for Video ... - arXiv",
+          "snippet": "The Transformer-based video generation methods are derived from the general family of LLMs [37, 38, 5, 12] . Typically, these methods employ autoregressive ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Research on using autoregressive transformers for video editing and composition before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Papers on video generation using autoregressive transformer",
+      "attempts": [
+        {
+          "global_attempt_sequence": 16,
+          "query_id": "Q2",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Papers on video generation using autoregressive transformer",
+          "request_payload": {
+            "q": "Papers on video generation using autoregressive transformer before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q2_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:24:50.067472+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Papers on video generation using autoregressive transformer before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[1906.02634] Scaling Autoregressive Video Models - arXiv\",\"link\":\"https://arxiv.org/abs/1906.02634\",\"snippet\":\"we show that conceptually simple autoregressive video generation models based on a three-dimensional self-attention mechanism achieve competitive results\",\"date\":\"Jun 6, 2019\",\"position\":1},{\"title\":\"A Survey on Long Video Generation: Challenges, Methods ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.16407v1\",\"snippet\":\"We detail the four types of popular video generation models, including Diffusion, Autoregressive, Generative Adversarial Networks (GAN), and Mask Modeling.\",\"date\":\"Mar 25, 2024\",\"position\":2},{\"title\":\"Scalable Image Generation via Next-Scale Prediction - arXiv\",\"link\":\"https://arxiv.org/html/2404.02905v1\",\"snippet\":\"This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well: VAR, for the first time, ...\",\"date\":\"Apr 3, 2024\",\"position\":3},{\"title\":\"Autoregressive Transformers are Zero-Shot Video Imitators - arXiv\",\"link\":\"https://arxiv.org/abs/2407.07356\",\"snippet\":\"In this paper, we explore utilizing visual signals as a new interface for models to interact with the environment. Specifically, we choose videos as a ...\",\"date\":\"Jul 10, 2024\",\"position\":4},{\"title\":\"Patch-based Object-centric Transformers for Efficient Video ... - arXiv\",\"link\":\"https://arxiv.org/abs/2206.04003\",\"snippet\":\"We build upon prior work in video prediction via an autoregressive transformer over the discrete latent space of compressed videos,\",\"date\":\"Jun 8, 2022\",\"position\":5},{\"title\":\"Autoregressive Model Beats Diffusion: Llama for Scalable Image ...\",\"link\":\"https://arxiv.org/html/2406.06525v1\",\"snippet\":\"LlamaGen, a new family of image generation models. Delving deep into diffusion transformers for image and video generation. Autoregressive image generation ...\",\"date\":\"Jun 10, 2024\",\"position\":6},{\"title\":\"Scalable Image Generation via Next-Scale Prediction - arXiv\",\"link\":\"https://arxiv.org/abs/2404.02905\",\"snippet\":\"This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and generalize well: VAR, for the first time, ...\",\"date\":\"Apr 3, 2024\",\"position\":7},{\"title\":\"Autoregressive Image Generation without Vector Quantization - arXiv\",\"link\":\"https://arxiv.org/html/2406.11838v1\",\"snippet\":\"Conventional wisdom holds that autoregressive models for image generation are typically accompanied by vector-quantized tokens.\",\"date\":\"Jun 17, 2024\",\"position\":8},{\"title\":\"Introducing GPT-style Autoregressive Generation in Video Diffusion ...\",\"link\":\"https://arxiv.org/abs/2406.10981\",\"snippet\":\"A majority of video diffusion models (VDMs) generate long videos in an autoregressive manner, i.e., generating subsequent clips conditioned on last frames of ...\",\"date\":\"Jun 16, 2024\",\"position\":9},{\"title\":\"From Sora What We Can See: A Survey of Text-to-Video Generation\",\"link\":\"https://arxiv.org/html/2405.10674v1\",\"snippet\":\"By capturing the dependencies between elements in a sequence, autoregressive models can generate or predict subsequent elements in a sequence, making them ...\",\"date\":\"May 17, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJQYXBlcnMgb24gdmlkZW8gZ2VuZXJhdGlvbiB1c2luZyBhdXRvcmVncmVzc2l2ZSB0cmFuc2Zvcm1lciBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJbMTkwNi4wMjYzNF0gU2NhbGluZyBBdXRvcmVncmVzc2l2ZSBWaWRlbyBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMTkwNi4wMjYzNCIsInNuaXBwZXQiOiJ3ZSBzaG93IHRoYXQgY29uY2VwdHVhbGx5IHNpbXBsZSBhdXRvcmVncmVzc2l2ZSB2aWRlbyBnZW5lcmF0aW9uIG1vZGVscyBiYXNlZCBvbiBhIHRocmVlLWRpbWVuc2lvbmFsIHNlbGYtYXR0ZW50aW9uIG1lY2hhbmlzbSBhY2hpZXZlIGNvbXBldGl0aXZlIHJlc3VsdHMiLCJkYXRlIjoiSnVuIDYsIDIwMTkiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkEgU3VydmV5IG9uIExvbmcgVmlkZW8gR2VuZXJhdGlvbjogQ2hhbGxlbmdlcywgTWV0aG9kcyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMTY0MDd2MSIsInNuaXBwZXQiOiJXZSBkZXRhaWwgdGhlIGZvdXIgdHlwZXMgb2YgcG9wdWxhciB2aWRlbyBnZW5lcmF0aW9uIG1vZGVscywgaW5jbHVkaW5nIERpZmZ1c2lvbiwgQXV0b3JlZ3Jlc3NpdmUsIEdlbmVyYXRpdmUgQWR2ZXJzYXJpYWwgTmV0d29ya3MgKEdBTiksIGFuZCBNYXNrIE1vZGVsaW5nLiIsImRhdGUiOiJNYXIgMjUsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlNjYWxhYmxlIEltYWdlIEdlbmVyYXRpb24gdmlhIE5leHQtU2NhbGUgUHJlZGljdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4wMjkwNXYxIiwic25pcHBldCI6IlRoaXMgc2ltcGxlLCBpbnR1aXRpdmUgbWV0aG9kb2xvZ3kgYWxsb3dzIGF1dG9yZWdyZXNzaXZlIChBUikgdHJhbnNmb3JtZXJzIHRvIGxlYXJuIHZpc3VhbCBkaXN0cmlidXRpb25zIGZhc3QgYW5kIGNhbiBnZW5lcmFsaXplIHdlbGw6IFZBUiwgZm9yIHRoZSBmaXJzdCB0aW1lLCAuLi4iLCJkYXRlIjoiQXByIDMsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkF1dG9yZWdyZXNzaXZlIFRyYW5zZm9ybWVycyBhcmUgWmVyby1TaG90IFZpZGVvIEltaXRhdG9ycyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA3LjA3MzU2Iiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGV4cGxvcmUgdXRpbGl6aW5nIHZpc3VhbCBzaWduYWxzIGFzIGEgbmV3IGludGVyZmFjZSBmb3IgbW9kZWxzIHRvIGludGVyYWN0IHdpdGggdGhlIGVudmlyb25tZW50LiBTcGVjaWZpY2FsbHksIHdlIGNob29zZSB2aWRlb3MgYXMgYSAuLi4iLCJkYXRlIjoiSnVsIDEwLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJQYXRjaC1iYXNlZCBPYmplY3QtY2VudHJpYyBUcmFuc2Zvcm1lcnMgZm9yIEVmZmljaWVudCBWaWRlbyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjIwNi4wNDAwMyIsInNuaXBwZXQiOiJXZSBidWlsZCB1cG9uIHByaW9yIHdvcmsgaW4gdmlkZW8gcHJlZGljdGlvbiB2aWEgYW4gYXV0b3JlZ3Jlc3NpdmUgdHJhbnNmb3JtZXIgb3ZlciB0aGUgZGlzY3JldGUgbGF0ZW50IHNwYWNlIG9mIGNvbXByZXNzZWQgdmlkZW9zLCIsImRhdGUiOiJKdW4gOCwgMjAyMiIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiQXV0b3JlZ3Jlc3NpdmUgTW9kZWwgQmVhdHMgRGlmZnVzaW9uOiBMbGFtYSBmb3IgU2NhbGFibGUgSW1hZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4wNjUyNXYxIiwic25pcHBldCI6IkxsYW1hR2VuLCBhIG5ldyBmYW1pbHkgb2YgaW1hZ2UgZ2VuZXJhdGlvbiBtb2RlbHMuIERlbHZpbmcgZGVlcCBpbnRvIGRpZmZ1c2lvbiB0cmFuc2Zvcm1lcnMgZm9yIGltYWdlIGFuZCB2aWRlbyBnZW5lcmF0aW9uLiBBdXRvcmVncmVzc2l2ZSBpbWFnZSBnZW5lcmF0aW9uIC4uLiIsImRhdGUiOiJKdW4gMTAsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlNjYWxhYmxlIEltYWdlIEdlbmVyYXRpb24gdmlhIE5leHQtU2NhbGUgUHJlZGljdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA0LjAyOTA1Iiwic25pcHBldCI6IlRoaXMgc2ltcGxlLCBpbnR1aXRpdmUgbWV0aG9kb2xvZ3kgYWxsb3dzIGF1dG9yZWdyZXNzaXZlIChBUikgdHJhbnNmb3JtZXJzIHRvIGxlYXJuIHZpc3VhbCBkaXN0cmlidXRpb25zIGZhc3QgYW5kIGdlbmVyYWxpemUgd2VsbDogVkFSLCBmb3IgdGhlIGZpcnN0IHRpbWUsIC4uLiIsImRhdGUiOiJBcHIgMywgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiQXV0b3JlZ3Jlc3NpdmUgSW1hZ2UgR2VuZXJhdGlvbiB3aXRob3V0IFZlY3RvciBRdWFudGl6YXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTE4Mzh2MSIsInNuaXBwZXQiOiJDb252ZW50aW9uYWwgd2lzZG9tIGhvbGRzIHRoYXQgYXV0b3JlZ3Jlc3NpdmUgbW9kZWxzIGZvciBpbWFnZSBnZW5lcmF0aW9uIGFyZSB0eXBpY2FsbHkgYWNjb21wYW5pZWQgYnkgdmVjdG9yLXF1YW50aXplZCB0b2tlbnMuIiwiZGF0ZSI6Ikp1biAxNywgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiSW50cm9kdWNpbmcgR1BULXN0eWxlIEF1dG9yZWdyZXNzaXZlIEdlbmVyYXRpb24gaW4gVmlkZW8gRGlmZnVzaW9uIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNi4xMDk4MSIsInNuaXBwZXQiOiJBIG1ham9yaXR5IG9mIHZpZGVvIGRpZmZ1c2lvbiBtb2RlbHMgKFZETXMpIGdlbmVyYXRlIGxvbmcgdmlkZW9zIGluIGFuIGF1dG9yZWdyZXNzaXZlIG1hbm5lciwgaS5lLiwgZ2VuZXJhdGluZyBzdWJzZXF1ZW50IGNsaXBzIGNvbmRpdGlvbmVkIG9uIGxhc3QgZnJhbWVzIG9mIC4uLiIsImRhdGUiOiJKdW4gMTYsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkZyb20gU29yYSBXaGF0IFdlIENhbiBTZWU6IEEgU3VydmV5IG9mIFRleHQtdG8tVmlkZW8gR2VuZXJhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMTA2NzR2MSIsInNuaXBwZXQiOiJCeSBjYXB0dXJpbmcgdGhlIGRlcGVuZGVuY2llcyBiZXR3ZWVuIGVsZW1lbnRzIGluIGEgc2VxdWVuY2UsIGF1dG9yZWdyZXNzaXZlIG1vZGVscyBjYW4gZ2VuZXJhdGUgb3IgcHJlZGljdCBzdWJzZXF1ZW50IGVsZW1lbnRzIGluIGEgc2VxdWVuY2UsIG1ha2luZyB0aGVtIC4uLiIsImRhdGUiOiJNYXkgMTcsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "ac7c174685247125ce017ffe009889304f7343360f4881fc64372356fd7671e6",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Papers on video generation using autoregressive transformer before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "[1906.02634] Scaling Autoregressive Video Models - arXiv",
+                "link": "https://arxiv.org/abs/1906.02634",
+                "snippet": "we show that conceptually simple autoregressive video generation models based on a three-dimensional self-attention mechanism achieve competitive results",
+                "date": "Jun 6, 2019",
+                "position": 1
+              },
+              {
+                "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+                "link": "https://arxiv.org/html/2403.16407v1",
+                "snippet": "We detail the four types of popular video generation models, including Diffusion, Autoregressive, Generative Adversarial Networks (GAN), and Mask Modeling.",
+                "date": "Mar 25, 2024",
+                "position": 2
+              },
+              {
+                "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+                "link": "https://arxiv.org/html/2404.02905v1",
+                "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well: VAR, for the first time, ...",
+                "date": "Apr 3, 2024",
+                "position": 3
+              },
+              {
+                "title": "Autoregressive Transformers are Zero-Shot Video Imitators - arXiv",
+                "link": "https://arxiv.org/abs/2407.07356",
+                "snippet": "In this paper, we explore utilizing visual signals as a new interface for models to interact with the environment. Specifically, we choose videos as a ...",
+                "date": "Jul 10, 2024",
+                "position": 4
+              },
+              {
+                "title": "Patch-based Object-centric Transformers for Efficient Video ... - arXiv",
+                "link": "https://arxiv.org/abs/2206.04003",
+                "snippet": "We build upon prior work in video prediction via an autoregressive transformer over the discrete latent space of compressed videos,",
+                "date": "Jun 8, 2022",
+                "position": 5
+              },
+              {
+                "title": "Autoregressive Model Beats Diffusion: Llama for Scalable Image ...",
+                "link": "https://arxiv.org/html/2406.06525v1",
+                "snippet": "LlamaGen, a new family of image generation models. Delving deep into diffusion transformers for image and video generation. Autoregressive image generation ...",
+                "date": "Jun 10, 2024",
+                "position": 6
+              },
+              {
+                "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+                "link": "https://arxiv.org/abs/2404.02905",
+                "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and generalize well: VAR, for the first time, ...",
+                "date": "Apr 3, 2024",
+                "position": 7
+              },
+              {
+                "title": "Autoregressive Image Generation without Vector Quantization - arXiv",
+                "link": "https://arxiv.org/html/2406.11838v1",
+                "snippet": "Conventional wisdom holds that autoregressive models for image generation are typically accompanied by vector-quantized tokens.",
+                "date": "Jun 17, 2024",
+                "position": 8
+              },
+              {
+                "title": "Introducing GPT-style Autoregressive Generation in Video Diffusion ...",
+                "link": "https://arxiv.org/abs/2406.10981",
+                "snippet": "A majority of video diffusion models (VDMs) generate long videos in an autoregressive manner, i.e., generating subsequent clips conditioned on last frames of ...",
+                "date": "Jun 16, 2024",
+                "position": 9
+              },
+              {
+                "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+                "link": "https://arxiv.org/html/2405.10674v1",
+                "snippet": "By capturing the dependencies between elements in a sequence, autoregressive models can generate or predict subsequent elements in a sequence, making them ...",
+                "date": "May 17, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:24:51.598054+00:00",
+          "elapsed_seconds": 1.5305868983268738
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1906.02634",
+        "2206.04003",
+        "2403.16407",
+        "2404.02905",
+        "2405.10674",
+        "2406.06525",
+        "2406.10981",
+        "2406.11838",
+        "2407.07356"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "1906.02634",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/1906.02634",
+          "title": "[1906.02634] Scaling Autoregressive Video Models - arXiv",
+          "snippet": "we show that conceptually simple autoregressive video generation models based on a three-dimensional self-attention mechanism achieve competitive results"
+        },
+        {
+          "arxiv_id": "2403.16407",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2403.16407v1",
+          "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+          "snippet": "We detail the four types of popular video generation models, including Diffusion, Autoregressive, Generative Adversarial Networks (GAN), and Mask Modeling."
+        },
+        {
+          "arxiv_id": "2404.02905",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2404.02905v1",
+          "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+          "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well: VAR, for the first time, ..."
+        },
+        {
+          "arxiv_id": "2407.07356",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2407.07356",
+          "title": "Autoregressive Transformers are Zero-Shot Video Imitators - arXiv",
+          "snippet": "In this paper, we explore utilizing visual signals as a new interface for models to interact with the environment. Specifically, we choose videos as a ..."
+        },
+        {
+          "arxiv_id": "2206.04003",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2206.04003",
+          "title": "Patch-based Object-centric Transformers for Efficient Video ... - arXiv",
+          "snippet": "We build upon prior work in video prediction via an autoregressive transformer over the discrete latent space of compressed videos,"
+        },
+        {
+          "arxiv_id": "2406.06525",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2406.06525v1",
+          "title": "Autoregressive Model Beats Diffusion: Llama for Scalable Image ...",
+          "snippet": "LlamaGen, a new family of image generation models. Delving deep into diffusion transformers for image and video generation. Autoregressive image generation ..."
+        },
+        {
+          "arxiv_id": "2404.02905",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/abs/2404.02905",
+          "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+          "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and generalize well: VAR, for the first time, ..."
+        },
+        {
+          "arxiv_id": "2406.11838",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2406.11838v1",
+          "title": "Autoregressive Image Generation without Vector Quantization - arXiv",
+          "snippet": "Conventional wisdom holds that autoregressive models for image generation are typically accompanied by vector-quantized tokens."
+        },
+        {
+          "arxiv_id": "2406.10981",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2406.10981",
+          "title": "Introducing GPT-style Autoregressive Generation in Video Diffusion ...",
+          "snippet": "A majority of video diffusion models (VDMs) generate long videos in an autoregressive manner, i.e., generating subsequent clips conditioned on last frames of ..."
+        },
+        {
+          "arxiv_id": "2405.10674",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2405.10674v1",
+          "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+          "snippet": "By capturing the dependencies between elements in a sequence, autoregressive models can generate or predict subsequent elements in a sequence, making them ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Papers on video generation using autoregressive transformer before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Studies on autoregressive transformer in video creation",
+      "attempts": [
+        {
+          "global_attempt_sequence": 17,
+          "query_id": "Q2",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Studies on autoregressive transformer in video creation",
+          "request_payload": {
+            "q": "Studies on autoregressive transformer in video creation before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q2_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:24:51.621983+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Studies on autoregressive transformer in video creation before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"A Survey on Long Video Generation: Challenges, Methods ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.16407v1\",\"snippet\":\"In the autoregressive paradigm, the process of long video generation is streamlined into sequentially creating video clips informed by preceding conditions, ...\",\"date\":\"Mar 25, 2024\",\"position\":1},{\"title\":\"From Sora What We Can See: A Survey of Text-to-Video Generation\",\"link\":\"https://arxiv.org/html/2405.10674v1\",\"snippet\":\"Recent advancements in T2V generation have prominently featured autoregressive-based transformers as well, recognized for their superior efficiency in handling ...\",\"date\":\"May 17, 2024\",\"position\":2},{\"title\":\"Scalable Image Generation via Next-Scale Prediction - arXiv\",\"link\":\"https://arxiv.org/html/2404.02905v1\",\"snippet\":\"This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well: VAR, for the first time, ...\",\"date\":\"Apr 3, 2024\",\"position\":3},{\"title\":\"A Survey on Video Prediction: From Deterministic to Generative ...\",\"link\":\"https://arxiv.org/html/2401.14718v3\",\"snippet\":\"Video Transformer [89] applies transformers to create an autoregressive model, pioneering the application of transformer architectures in the context of video ...\",\"date\":\"Jul 22, 2024\",\"position\":4},{\"title\":\"A Survey on Generative AI and LLM for Video Generation ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.16038v1\",\"snippet\":\"In the context of video generation, autoregressive models can be used to generate video frames sequentially, conditioning each frame on the previously ...\",\"date\":\"Jan 30, 2024\",\"position\":5},{\"title\":\"Delving Deep into Diffusion Transformers for Image and Video ...\",\"link\":\"https://arxiv.org/html/2312.04557v1\",\"snippet\":\"In this study, we explore Transformer-based diffusion models for image and video generation. Scaling autoregressive models for content-rich text-to-image ...\",\"date\":\"Dec 7, 2023\",\"position\":6},{\"title\":\"[PDF] ARVideo: Autoregressive Pretraining for Self-Supervised Video ...\",\"link\":\"https://arxiv.org/pdf/2405.15160\",\"snippet\":\"This paper presents a new self-supervised video representation learning frame- work ARVideo, which autoregressively predict the next video token in a tailored ...\",\"date\":\"May 24, 2024\",\"position\":7},{\"title\":\"Video In-context Learning - arXiv\",\"link\":\"https://arxiv.org/html/2407.07356v1\",\"snippet\":\"In this paper, we propose and study video in-context learning, train an autoregressive Transformer on video datasets.\",\"date\":\"Jul 10, 2024\",\"position\":8},{\"title\":\"Autoregressive Model Beats Diffusion: Llama for Scalable Image ...\",\"link\":\"https://arxiv.org/html/2406.06525v1\",\"snippet\":\"We reexamine design spaces of image tokenizers, scalability properties of image generation models, and their training data quality. The outcome of this ...\",\"date\":\"Jun 10, 2024\",\"position\":9},{\"title\":\"[PDF] Large-scale Pretraining for Text-to-Video Generation via Transformers\",\"link\":\"https://arxiv.org/pdf/2205.15868\",\"snippet\":\"It is natural to investigate the potential of autoregressive transformers on text- to-video generation. Previous works followed this basic framework [35, 9], ...\",\"date\":\"May 29, 2022\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdHVkaWVzIG9uIGF1dG9yZWdyZXNzaXZlIHRyYW5zZm9ybWVyIGluIHZpZGVvIGNyZWF0aW9uIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkEgU3VydmV5IG9uIExvbmcgVmlkZW8gR2VuZXJhdGlvbjogQ2hhbGxlbmdlcywgTWV0aG9kcyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMTY0MDd2MSIsInNuaXBwZXQiOiJJbiB0aGUgYXV0b3JlZ3Jlc3NpdmUgcGFyYWRpZ20sIHRoZSBwcm9jZXNzIG9mIGxvbmcgdmlkZW8gZ2VuZXJhdGlvbiBpcyBzdHJlYW1saW5lZCBpbnRvIHNlcXVlbnRpYWxseSBjcmVhdGluZyB2aWRlbyBjbGlwcyBpbmZvcm1lZCBieSBwcmVjZWRpbmcgY29uZGl0aW9ucywgLi4uIiwiZGF0ZSI6Ik1hciAyNSwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiRnJvbSBTb3JhIFdoYXQgV2UgQ2FuIFNlZTogQSBTdXJ2ZXkgb2YgVGV4dC10by1WaWRlbyBHZW5lcmF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xMDY3NHYxIiwic25pcHBldCI6IlJlY2VudCBhZHZhbmNlbWVudHMgaW4gVDJWIGdlbmVyYXRpb24gaGF2ZSBwcm9taW5lbnRseSBmZWF0dXJlZCBhdXRvcmVncmVzc2l2ZS1iYXNlZCB0cmFuc2Zvcm1lcnMgYXMgd2VsbCwgcmVjb2duaXplZCBmb3IgdGhlaXIgc3VwZXJpb3IgZWZmaWNpZW5jeSBpbiBoYW5kbGluZyAuLi4iLCJkYXRlIjoiTWF5IDE3LCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJTY2FsYWJsZSBJbWFnZSBHZW5lcmF0aW9uIHZpYSBOZXh0LVNjYWxlIFByZWRpY3Rpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMDI5MDV2MSIsInNuaXBwZXQiOiJUaGlzIHNpbXBsZSwgaW50dWl0aXZlIG1ldGhvZG9sb2d5IGFsbG93cyBhdXRvcmVncmVzc2l2ZSAoQVIpIHRyYW5zZm9ybWVycyB0byBsZWFybiB2aXN1YWwgZGlzdHJpYnV0aW9ucyBmYXN0IGFuZCBjYW4gZ2VuZXJhbGl6ZSB3ZWxsOiBWQVIsIGZvciB0aGUgZmlyc3QgdGltZSwgLi4uIiwiZGF0ZSI6IkFwciAzLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJBIFN1cnZleSBvbiBWaWRlbyBQcmVkaWN0aW9uOiBGcm9tIERldGVybWluaXN0aWMgdG8gR2VuZXJhdGl2ZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAxLjE0NzE4djMiLCJzbmlwcGV0IjoiVmlkZW8gVHJhbnNmb3JtZXIgWzg5XSBhcHBsaWVzIHRyYW5zZm9ybWVycyB0byBjcmVhdGUgYW4gYXV0b3JlZ3Jlc3NpdmUgbW9kZWwsIHBpb25lZXJpbmcgdGhlIGFwcGxpY2F0aW9uIG9mIHRyYW5zZm9ybWVyIGFyY2hpdGVjdHVyZXMgaW4gdGhlIGNvbnRleHQgb2YgdmlkZW8gLi4uIiwiZGF0ZSI6Ikp1bCAyMiwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gR2VuZXJhdGl2ZSBBSSBhbmQgTExNIGZvciBWaWRlbyBHZW5lcmF0aW9uIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4xNjAzOHYxIiwic25pcHBldCI6IkluIHRoZSBjb250ZXh0IG9mIHZpZGVvIGdlbmVyYXRpb24sIGF1dG9yZWdyZXNzaXZlIG1vZGVscyBjYW4gYmUgdXNlZCB0byBnZW5lcmF0ZSB2aWRlbyBmcmFtZXMgc2VxdWVudGlhbGx5LCBjb25kaXRpb25pbmcgZWFjaCBmcmFtZSBvbiB0aGUgcHJldmlvdXNseSAuLi4iLCJkYXRlIjoiSmFuIDMwLCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJEZWx2aW5nIERlZXAgaW50byBEaWZmdXNpb24gVHJhbnNmb3JtZXJzIGZvciBJbWFnZSBhbmQgVmlkZW8gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4wNDU1N3YxIiwic25pcHBldCI6IkluIHRoaXMgc3R1ZHksIHdlIGV4cGxvcmUgVHJhbnNmb3JtZXItYmFzZWQgZGlmZnVzaW9uIG1vZGVscyBmb3IgaW1hZ2UgYW5kIHZpZGVvIGdlbmVyYXRpb24uIFNjYWxpbmcgYXV0b3JlZ3Jlc3NpdmUgbW9kZWxzIGZvciBjb250ZW50LXJpY2ggdGV4dC10by1pbWFnZSAuLi4iLCJkYXRlIjoiRGVjIDcsIDIwMjMiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIEFSVmlkZW86IEF1dG9yZWdyZXNzaXZlIFByZXRyYWluaW5nIGZvciBTZWxmLVN1cGVydmlzZWQgVmlkZW8gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA1LjE1MTYwIiwic25pcHBldCI6IlRoaXMgcGFwZXIgcHJlc2VudHMgYSBuZXcgc2VsZi1zdXBlcnZpc2VkIHZpZGVvIHJlcHJlc2VudGF0aW9uIGxlYXJuaW5nIGZyYW1lLSB3b3JrIEFSVmlkZW8sIHdoaWNoIGF1dG9yZWdyZXNzaXZlbHkgcHJlZGljdCB0aGUgbmV4dCB2aWRlbyB0b2tlbiBpbiBhIHRhaWxvcmVkIC4uLiIsImRhdGUiOiJNYXkgMjQsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlZpZGVvIEluLWNvbnRleHQgTGVhcm5pbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMDczNTZ2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIGFuZCBzdHVkeSB2aWRlbyBpbi1jb250ZXh0IGxlYXJuaW5nLCB0cmFpbiBhbiBhdXRvcmVncmVzc2l2ZSBUcmFuc2Zvcm1lciBvbiB2aWRlbyBkYXRhc2V0cy4iLCJkYXRlIjoiSnVsIDEwLCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJBdXRvcmVncmVzc2l2ZSBNb2RlbCBCZWF0cyBEaWZmdXNpb246IExsYW1hIGZvciBTY2FsYWJsZSBJbWFnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjA2NTI1djEiLCJzbmlwcGV0IjoiV2UgcmVleGFtaW5lIGRlc2lnbiBzcGFjZXMgb2YgaW1hZ2UgdG9rZW5pemVycywgc2NhbGFiaWxpdHkgcHJvcGVydGllcyBvZiBpbWFnZSBnZW5lcmF0aW9uIG1vZGVscywgYW5kIHRoZWlyIHRyYWluaW5nIGRhdGEgcXVhbGl0eS4gVGhlIG91dGNvbWUgb2YgdGhpcyAuLi4iLCJkYXRlIjoiSnVuIDEwLCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBMYXJnZS1zY2FsZSBQcmV0cmFpbmluZyBmb3IgVGV4dC10by1WaWRlbyBHZW5lcmF0aW9uIHZpYSBUcmFuc2Zvcm1lcnMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMDUuMTU4NjgiLCJzbmlwcGV0IjoiSXQgaXMgbmF0dXJhbCB0byBpbnZlc3RpZ2F0ZSB0aGUgcG90ZW50aWFsIG9mIGF1dG9yZWdyZXNzaXZlIHRyYW5zZm9ybWVycyBvbiB0ZXh0LSB0by12aWRlbyBnZW5lcmF0aW9uLiBQcmV2aW91cyB3b3JrcyBmb2xsb3dlZCB0aGlzIGJhc2ljIGZyYW1ld29yayBbMzUsIDldLCAuLi4iLCJkYXRlIjoiTWF5IDI5LCAyMDIyIiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "a2b8b0dbe8d1be35a0e504786662ec5ee9f3534b5be931cd0a42926b60b8bdbb",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Studies on autoregressive transformer in video creation before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+                "link": "https://arxiv.org/html/2403.16407v1",
+                "snippet": "In the autoregressive paradigm, the process of long video generation is streamlined into sequentially creating video clips informed by preceding conditions, ...",
+                "date": "Mar 25, 2024",
+                "position": 1
+              },
+              {
+                "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+                "link": "https://arxiv.org/html/2405.10674v1",
+                "snippet": "Recent advancements in T2V generation have prominently featured autoregressive-based transformers as well, recognized for their superior efficiency in handling ...",
+                "date": "May 17, 2024",
+                "position": 2
+              },
+              {
+                "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+                "link": "https://arxiv.org/html/2404.02905v1",
+                "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well: VAR, for the first time, ...",
+                "date": "Apr 3, 2024",
+                "position": 3
+              },
+              {
+                "title": "A Survey on Video Prediction: From Deterministic to Generative ...",
+                "link": "https://arxiv.org/html/2401.14718v3",
+                "snippet": "Video Transformer [89] applies transformers to create an autoregressive model, pioneering the application of transformer architectures in the context of video ...",
+                "date": "Jul 22, 2024",
+                "position": 4
+              },
+              {
+                "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+                "link": "https://arxiv.org/html/2404.16038v1",
+                "snippet": "In the context of video generation, autoregressive models can be used to generate video frames sequentially, conditioning each frame on the previously ...",
+                "date": "Jan 30, 2024",
+                "position": 5
+              },
+              {
+                "title": "Delving Deep into Diffusion Transformers for Image and Video ...",
+                "link": "https://arxiv.org/html/2312.04557v1",
+                "snippet": "In this study, we explore Transformer-based diffusion models for image and video generation. Scaling autoregressive models for content-rich text-to-image ...",
+                "date": "Dec 7, 2023",
+                "position": 6
+              },
+              {
+                "title": "[PDF] ARVideo: Autoregressive Pretraining for Self-Supervised Video ...",
+                "link": "https://arxiv.org/pdf/2405.15160",
+                "snippet": "This paper presents a new self-supervised video representation learning frame- work ARVideo, which autoregressively predict the next video token in a tailored ...",
+                "date": "May 24, 2024",
+                "position": 7
+              },
+              {
+                "title": "Video In-context Learning - arXiv",
+                "link": "https://arxiv.org/html/2407.07356v1",
+                "snippet": "In this paper, we propose and study video in-context learning, train an autoregressive Transformer on video datasets.",
+                "date": "Jul 10, 2024",
+                "position": 8
+              },
+              {
+                "title": "Autoregressive Model Beats Diffusion: Llama for Scalable Image ...",
+                "link": "https://arxiv.org/html/2406.06525v1",
+                "snippet": "We reexamine design spaces of image tokenizers, scalability properties of image generation models, and their training data quality. The outcome of this ...",
+                "date": "Jun 10, 2024",
+                "position": 9
+              },
+              {
+                "title": "[PDF] Large-scale Pretraining for Text-to-Video Generation via Transformers",
+                "link": "https://arxiv.org/pdf/2205.15868",
+                "snippet": "It is natural to investigate the potential of autoregressive transformers on text- to-video generation. Previous works followed this basic framework [35, 9], ...",
+                "date": "May 29, 2022",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:24:53.418978+00:00",
+          "elapsed_seconds": 1.7970008477568626
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2205.15868",
+        "2312.04557",
+        "2401.14718",
+        "2403.16407",
+        "2404.02905",
+        "2404.16038",
+        "2405.10674",
+        "2405.15160",
+        "2406.06525",
+        "2407.07356"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.16407",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2403.16407v1",
+          "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+          "snippet": "In the autoregressive paradigm, the process of long video generation is streamlined into sequentially creating video clips informed by preceding conditions, ..."
+        },
+        {
+          "arxiv_id": "2405.10674",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2405.10674v1",
+          "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+          "snippet": "Recent advancements in T2V generation have prominently featured autoregressive-based transformers as well, recognized for their superior efficiency in handling ..."
+        },
+        {
+          "arxiv_id": "2404.02905",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2404.02905v1",
+          "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+          "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well: VAR, for the first time, ..."
+        },
+        {
+          "arxiv_id": "2401.14718",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2401.14718v3",
+          "title": "A Survey on Video Prediction: From Deterministic to Generative ...",
+          "snippet": "Video Transformer [89] applies transformers to create an autoregressive model, pioneering the application of transformer architectures in the context of video ..."
+        },
+        {
+          "arxiv_id": "2404.16038",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2404.16038v1",
+          "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+          "snippet": "In the context of video generation, autoregressive models can be used to generate video frames sequentially, conditioning each frame on the previously ..."
+        },
+        {
+          "arxiv_id": "2312.04557",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2312.04557v1",
+          "title": "Delving Deep into Diffusion Transformers for Image and Video ...",
+          "snippet": "In this study, we explore Transformer-based diffusion models for image and video generation. Scaling autoregressive models for content-rich text-to-image ..."
+        },
+        {
+          "arxiv_id": "2405.15160",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2405.15160",
+          "title": "[PDF] ARVideo: Autoregressive Pretraining for Self-Supervised Video ...",
+          "snippet": "This paper presents a new self-supervised video representation learning frame- work ARVideo, which autoregressively predict the next video token in a tailored ..."
+        },
+        {
+          "arxiv_id": "2407.07356",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2407.07356v1",
+          "title": "Video In-context Learning - arXiv",
+          "snippet": "In this paper, we propose and study video in-context learning, train an autoregressive Transformer on video datasets."
+        },
+        {
+          "arxiv_id": "2406.06525",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2406.06525v1",
+          "title": "Autoregressive Model Beats Diffusion: Llama for Scalable Image ...",
+          "snippet": "We reexamine design spaces of image tokenizers, scalability properties of image generation models, and their training data quality. The outcome of this ..."
+        },
+        {
+          "arxiv_id": "2205.15868",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2205.15868",
+          "title": "[PDF] Large-scale Pretraining for Text-to-Video Generation via Transformers",
+          "snippet": "It is natural to investigate the potential of autoregressive transformers on text- to-video generation. Previous works followed this basic framework [35, 9], ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Studies on autoregressive transformer in video creation before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Use of autoregressive transformer in video generation papers",
+      "attempts": [
+        {
+          "global_attempt_sequence": 18,
+          "query_id": "Q2",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Use of autoregressive transformer in video generation papers",
+          "request_payload": {
+            "q": "Use of autoregressive transformer in video generation papers before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q2_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:24:53.443597+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Use of autoregressive transformer in video generation papers before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"A Survey on Long Video Generation: Challenges, Methods ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.16407v1\",\"snippet\":\"We detail the four types of popular video generation models, including Diffusion, Autoregressive, Generative Adversarial Networks (GAN), and Mask Modeling.\",\"date\":\"Mar 25, 2024\",\"position\":1},{\"title\":\"Scalable Image Generation via Next-Scale Prediction - arXiv\",\"link\":\"https://arxiv.org/html/2404.02905v1\",\"snippet\":\"This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well: VAR, for the first time, ...\",\"date\":\"Apr 3, 2024\",\"position\":2},{\"title\":\"Autoregressive Model Beats Diffusion: Llama for Scalable Image ...\",\"link\":\"https://arxiv.org/html/2406.06525v1\",\"snippet\":\"Witnessed the scalability of autoregressive models on large language models, pioneering works attempt to explore autoregressive models in image generation, for ...\",\"date\":\"Jun 10, 2024\",\"position\":3},{\"title\":\"Introducing GPT-style Autoregressive Generation in Video Diffusion ...\",\"link\":\"https://arxiv.org/abs/2406.10981\",\"snippet\":\"A majority of video diffusion models (VDMs) generate long videos in an autoregressive manner, generation into VDMs, and use past frames as prompt to generate ...\",\"date\":\"Jun 16, 2024\",\"position\":4},{\"title\":\"Autoregressive Transformers are Zero-Shot Video Imitators - arXiv\",\"link\":\"https://arxiv.org/abs/2407.07356\",\"snippet\":\"In this paper, we explore utilizing visual signals as a new interface for models to interact with the environment.\",\"date\":\"Jul 10, 2024\",\"position\":5},{\"title\":\"Autoregressive Image Generation without Vector Quantization - arXiv\",\"link\":\"https://arxiv.org/html/2406.11838v1\",\"snippet\":\"Conventional wisdom holds that autoregressive models for image generation are typically accompanied by vector-quantized tokens.\",\"date\":\"Jun 17, 2024\",\"position\":6},{\"title\":\"Scalable Image Generation via Next-Scale Prediction - arXiv\",\"link\":\"https://arxiv.org/abs/2404.02905\",\"snippet\":\"This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and generalize well: VAR, for the first time, ...\",\"date\":\"Apr 3, 2024\",\"position\":7},{\"title\":\"From Sora What We Can See: A Survey of Text-to-Video Generation\",\"link\":\"https://arxiv.org/html/2405.10674v1\",\"snippet\":\"By capturing the dependencies between elements in a sequence, autoregressive models can generate or predict subsequent elements in a sequence, making them ...\",\"date\":\"May 17, 2024\",\"position\":8},{\"title\":\"Patch-based Object-centric Transformers for Efficient Video ... - arXiv\",\"link\":\"https://arxiv.org/abs/2206.04003\",\"snippet\":\"Abstract:In this work, we present Patch-based Object-centric Video Transformer (POVT), a novel region-based video generation architecture that leverages ...\",\"date\":\"Jun 8, 2022\",\"position\":9},{\"title\":\"[1906.02634] Scaling Autoregressive Video Models - arXiv\",\"link\":\"https://arxiv.org/abs/1906.02634\",\"snippet\":\"In contrast, we show that conceptually simple autoregressive video generation models based on a three-dimensional self-attention mechanism achieve competitive ...\",\"date\":\"Jun 6, 2019\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJVc2Ugb2YgYXV0b3JlZ3Jlc3NpdmUgdHJhbnNmb3JtZXIgaW4gdmlkZW8gZ2VuZXJhdGlvbiBwYXBlcnMgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQSBTdXJ2ZXkgb24gTG9uZyBWaWRlbyBHZW5lcmF0aW9uOiBDaGFsbGVuZ2VzLCBNZXRob2RzIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xNjQwN3YxIiwic25pcHBldCI6IldlIGRldGFpbCB0aGUgZm91ciB0eXBlcyBvZiBwb3B1bGFyIHZpZGVvIGdlbmVyYXRpb24gbW9kZWxzLCBpbmNsdWRpbmcgRGlmZnVzaW9uLCBBdXRvcmVncmVzc2l2ZSwgR2VuZXJhdGl2ZSBBZHZlcnNhcmlhbCBOZXR3b3JrcyAoR0FOKSwgYW5kIE1hc2sgTW9kZWxpbmcuIiwiZGF0ZSI6Ik1hciAyNSwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiU2NhbGFibGUgSW1hZ2UgR2VuZXJhdGlvbiB2aWEgTmV4dC1TY2FsZSBQcmVkaWN0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjAyOTA1djEiLCJzbmlwcGV0IjoiVGhpcyBzaW1wbGUsIGludHVpdGl2ZSBtZXRob2RvbG9neSBhbGxvd3MgYXV0b3JlZ3Jlc3NpdmUgKEFSKSB0cmFuc2Zvcm1lcnMgdG8gbGVhcm4gdmlzdWFsIGRpc3RyaWJ1dGlvbnMgZmFzdCBhbmQgY2FuIGdlbmVyYWxpemUgd2VsbDogVkFSLCBmb3IgdGhlIGZpcnN0IHRpbWUsIC4uLiIsImRhdGUiOiJBcHIgMywgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiQXV0b3JlZ3Jlc3NpdmUgTW9kZWwgQmVhdHMgRGlmZnVzaW9uOiBMbGFtYSBmb3IgU2NhbGFibGUgSW1hZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4wNjUyNXYxIiwic25pcHBldCI6IldpdG5lc3NlZCB0aGUgc2NhbGFiaWxpdHkgb2YgYXV0b3JlZ3Jlc3NpdmUgbW9kZWxzIG9uIGxhcmdlIGxhbmd1YWdlIG1vZGVscywgcGlvbmVlcmluZyB3b3JrcyBhdHRlbXB0IHRvIGV4cGxvcmUgYXV0b3JlZ3Jlc3NpdmUgbW9kZWxzIGluIGltYWdlIGdlbmVyYXRpb24sIGZvciAuLi4iLCJkYXRlIjoiSnVuIDEwLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJJbnRyb2R1Y2luZyBHUFQtc3R5bGUgQXV0b3JlZ3Jlc3NpdmUgR2VuZXJhdGlvbiBpbiBWaWRlbyBEaWZmdXNpb24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA2LjEwOTgxIiwic25pcHBldCI6IkEgbWFqb3JpdHkgb2YgdmlkZW8gZGlmZnVzaW9uIG1vZGVscyAoVkRNcykgZ2VuZXJhdGUgbG9uZyB2aWRlb3MgaW4gYW4gYXV0b3JlZ3Jlc3NpdmUgbWFubmVyLCBnZW5lcmF0aW9uIGludG8gVkRNcywgYW5kIHVzZSBwYXN0IGZyYW1lcyBhcyBwcm9tcHQgdG8gZ2VuZXJhdGUgLi4uIiwiZGF0ZSI6Ikp1biAxNiwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiQXV0b3JlZ3Jlc3NpdmUgVHJhbnNmb3JtZXJzIGFyZSBaZXJvLVNob3QgVmlkZW8gSW1pdGF0b3JzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDcuMDczNTYiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgZXhwbG9yZSB1dGlsaXppbmcgdmlzdWFsIHNpZ25hbHMgYXMgYSBuZXcgaW50ZXJmYWNlIGZvciBtb2RlbHMgdG8gaW50ZXJhY3Qgd2l0aCB0aGUgZW52aXJvbm1lbnQuIiwiZGF0ZSI6Ikp1bCAxMCwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiQXV0b3JlZ3Jlc3NpdmUgSW1hZ2UgR2VuZXJhdGlvbiB3aXRob3V0IFZlY3RvciBRdWFudGl6YXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTE4Mzh2MSIsInNuaXBwZXQiOiJDb252ZW50aW9uYWwgd2lzZG9tIGhvbGRzIHRoYXQgYXV0b3JlZ3Jlc3NpdmUgbW9kZWxzIGZvciBpbWFnZSBnZW5lcmF0aW9uIGFyZSB0eXBpY2FsbHkgYWNjb21wYW5pZWQgYnkgdmVjdG9yLXF1YW50aXplZCB0b2tlbnMuIiwiZGF0ZSI6Ikp1biAxNywgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiU2NhbGFibGUgSW1hZ2UgR2VuZXJhdGlvbiB2aWEgTmV4dC1TY2FsZSBQcmVkaWN0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDQuMDI5MDUiLCJzbmlwcGV0IjoiVGhpcyBzaW1wbGUsIGludHVpdGl2ZSBtZXRob2RvbG9neSBhbGxvd3MgYXV0b3JlZ3Jlc3NpdmUgKEFSKSB0cmFuc2Zvcm1lcnMgdG8gbGVhcm4gdmlzdWFsIGRpc3RyaWJ1dGlvbnMgZmFzdCBhbmQgZ2VuZXJhbGl6ZSB3ZWxsOiBWQVIsIGZvciB0aGUgZmlyc3QgdGltZSwgLi4uIiwiZGF0ZSI6IkFwciAzLCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJGcm9tIFNvcmEgV2hhdCBXZSBDYW4gU2VlOiBBIFN1cnZleSBvZiBUZXh0LXRvLVZpZGVvIEdlbmVyYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjEwNjc0djEiLCJzbmlwcGV0IjoiQnkgY2FwdHVyaW5nIHRoZSBkZXBlbmRlbmNpZXMgYmV0d2VlbiBlbGVtZW50cyBpbiBhIHNlcXVlbmNlLCBhdXRvcmVncmVzc2l2ZSBtb2RlbHMgY2FuIGdlbmVyYXRlIG9yIHByZWRpY3Qgc3Vic2VxdWVudCBlbGVtZW50cyBpbiBhIHNlcXVlbmNlLCBtYWtpbmcgdGhlbSAuLi4iLCJkYXRlIjoiTWF5IDE3LCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJQYXRjaC1iYXNlZCBPYmplY3QtY2VudHJpYyBUcmFuc2Zvcm1lcnMgZm9yIEVmZmljaWVudCBWaWRlbyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjIwNi4wNDAwMyIsInNuaXBwZXQiOiJBYnN0cmFjdDpJbiB0aGlzIHdvcmssIHdlIHByZXNlbnQgUGF0Y2gtYmFzZWQgT2JqZWN0LWNlbnRyaWMgVmlkZW8gVHJhbnNmb3JtZXIgKFBPVlQpLCBhIG5vdmVsIHJlZ2lvbi1iYXNlZCB2aWRlbyBnZW5lcmF0aW9uIGFyY2hpdGVjdHVyZSB0aGF0IGxldmVyYWdlcyAuLi4iLCJkYXRlIjoiSnVuIDgsIDIwMjIiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlsxOTA2LjAyNjM0XSBTY2FsaW5nIEF1dG9yZWdyZXNzaXZlIFZpZGVvIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8xOTA2LjAyNjM0Iiwic25pcHBldCI6IkluIGNvbnRyYXN0LCB3ZSBzaG93IHRoYXQgY29uY2VwdHVhbGx5IHNpbXBsZSBhdXRvcmVncmVzc2l2ZSB2aWRlbyBnZW5lcmF0aW9uIG1vZGVscyBiYXNlZCBvbiBhIHRocmVlLWRpbWVuc2lvbmFsIHNlbGYtYXR0ZW50aW9uIG1lY2hhbmlzbSBhY2hpZXZlIGNvbXBldGl0aXZlIC4uLiIsImRhdGUiOiJKdW4gNiwgMjAxOSIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "a979ab49e026b49b855eaa96b419fd808b5b1e83dc66e0e59de46407ecdc63ad",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Use of autoregressive transformer in video generation papers before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+                "link": "https://arxiv.org/html/2403.16407v1",
+                "snippet": "We detail the four types of popular video generation models, including Diffusion, Autoregressive, Generative Adversarial Networks (GAN), and Mask Modeling.",
+                "date": "Mar 25, 2024",
+                "position": 1
+              },
+              {
+                "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+                "link": "https://arxiv.org/html/2404.02905v1",
+                "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well: VAR, for the first time, ...",
+                "date": "Apr 3, 2024",
+                "position": 2
+              },
+              {
+                "title": "Autoregressive Model Beats Diffusion: Llama for Scalable Image ...",
+                "link": "https://arxiv.org/html/2406.06525v1",
+                "snippet": "Witnessed the scalability of autoregressive models on large language models, pioneering works attempt to explore autoregressive models in image generation, for ...",
+                "date": "Jun 10, 2024",
+                "position": 3
+              },
+              {
+                "title": "Introducing GPT-style Autoregressive Generation in Video Diffusion ...",
+                "link": "https://arxiv.org/abs/2406.10981",
+                "snippet": "A majority of video diffusion models (VDMs) generate long videos in an autoregressive manner, generation into VDMs, and use past frames as prompt to generate ...",
+                "date": "Jun 16, 2024",
+                "position": 4
+              },
+              {
+                "title": "Autoregressive Transformers are Zero-Shot Video Imitators - arXiv",
+                "link": "https://arxiv.org/abs/2407.07356",
+                "snippet": "In this paper, we explore utilizing visual signals as a new interface for models to interact with the environment.",
+                "date": "Jul 10, 2024",
+                "position": 5
+              },
+              {
+                "title": "Autoregressive Image Generation without Vector Quantization - arXiv",
+                "link": "https://arxiv.org/html/2406.11838v1",
+                "snippet": "Conventional wisdom holds that autoregressive models for image generation are typically accompanied by vector-quantized tokens.",
+                "date": "Jun 17, 2024",
+                "position": 6
+              },
+              {
+                "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+                "link": "https://arxiv.org/abs/2404.02905",
+                "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and generalize well: VAR, for the first time, ...",
+                "date": "Apr 3, 2024",
+                "position": 7
+              },
+              {
+                "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+                "link": "https://arxiv.org/html/2405.10674v1",
+                "snippet": "By capturing the dependencies between elements in a sequence, autoregressive models can generate or predict subsequent elements in a sequence, making them ...",
+                "date": "May 17, 2024",
+                "position": 8
+              },
+              {
+                "title": "Patch-based Object-centric Transformers for Efficient Video ... - arXiv",
+                "link": "https://arxiv.org/abs/2206.04003",
+                "snippet": "Abstract:In this work, we present Patch-based Object-centric Video Transformer (POVT), a novel region-based video generation architecture that leverages ...",
+                "date": "Jun 8, 2022",
+                "position": 9
+              },
+              {
+                "title": "[1906.02634] Scaling Autoregressive Video Models - arXiv",
+                "link": "https://arxiv.org/abs/1906.02634",
+                "snippet": "In contrast, we show that conceptually simple autoregressive video generation models based on a three-dimensional self-attention mechanism achieve competitive ...",
+                "date": "Jun 6, 2019",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:24:54.844520+00:00",
+          "elapsed_seconds": 1.400926310569048
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1906.02634",
+        "2206.04003",
+        "2403.16407",
+        "2404.02905",
+        "2405.10674",
+        "2406.06525",
+        "2406.10981",
+        "2406.11838",
+        "2407.07356"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.16407",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2403.16407v1",
+          "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+          "snippet": "We detail the four types of popular video generation models, including Diffusion, Autoregressive, Generative Adversarial Networks (GAN), and Mask Modeling."
+        },
+        {
+          "arxiv_id": "2404.02905",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2404.02905v1",
+          "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+          "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well: VAR, for the first time, ..."
+        },
+        {
+          "arxiv_id": "2406.06525",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2406.06525v1",
+          "title": "Autoregressive Model Beats Diffusion: Llama for Scalable Image ...",
+          "snippet": "Witnessed the scalability of autoregressive models on large language models, pioneering works attempt to explore autoregressive models in image generation, for ..."
+        },
+        {
+          "arxiv_id": "2406.10981",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2406.10981",
+          "title": "Introducing GPT-style Autoregressive Generation in Video Diffusion ...",
+          "snippet": "A majority of video diffusion models (VDMs) generate long videos in an autoregressive manner, generation into VDMs, and use past frames as prompt to generate ..."
+        },
+        {
+          "arxiv_id": "2407.07356",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2407.07356",
+          "title": "Autoregressive Transformers are Zero-Shot Video Imitators - arXiv",
+          "snippet": "In this paper, we explore utilizing visual signals as a new interface for models to interact with the environment."
+        },
+        {
+          "arxiv_id": "2406.11838",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2406.11838v1",
+          "title": "Autoregressive Image Generation without Vector Quantization - arXiv",
+          "snippet": "Conventional wisdom holds that autoregressive models for image generation are typically accompanied by vector-quantized tokens."
+        },
+        {
+          "arxiv_id": "2404.02905",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/abs/2404.02905",
+          "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+          "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and generalize well: VAR, for the first time, ..."
+        },
+        {
+          "arxiv_id": "2405.10674",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2405.10674v1",
+          "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+          "snippet": "By capturing the dependencies between elements in a sequence, autoregressive models can generate or predict subsequent elements in a sequence, making them ..."
+        },
+        {
+          "arxiv_id": "2206.04003",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2206.04003",
+          "title": "Patch-based Object-centric Transformers for Efficient Video ... - arXiv",
+          "snippet": "Abstract:In this work, we present Patch-based Object-centric Video Transformer (POVT), a novel region-based video generation architecture that leverages ..."
+        },
+        {
+          "arxiv_id": "1906.02634",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/abs/1906.02634",
+          "title": "[1906.02634] Scaling Autoregressive Video Models - arXiv",
+          "snippet": "In contrast, we show that conceptually simple autoregressive video generation models based on a three-dimensional self-attention mechanism achieve competitive ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Use of autoregressive transformer in video generation papers before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "List all papers that use autoregressive transformer to generate videos.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 19,
+          "query_id": "Q2",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "List all papers that use autoregressive transformer to generate videos.",
+          "request_payload": {
+            "q": "List all papers that use autoregressive transformer to generate videos. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q2_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:24:54.872413+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"List all papers that use autoregressive transformer to generate videos. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"A Survey on Long Video Generation: Challenges, Methods ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.16407v1\",\"snippet\":\"We detail the four types of popular video generation models, including Diffusion, Autoregressive, Generative Adversarial Networks (GAN), and Mask Modeling.\",\"date\":\"Mar 25, 2024\",\"position\":1},{\"title\":\"Scalable Image Generation via Next-Scale Prediction - arXiv\",\"link\":\"https://arxiv.org/html/2404.02905v1\",\"snippet\":\"This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well: VAR, for the first time, ...\",\"date\":\"Apr 3, 2024\",\"position\":2},{\"title\":\"From Sora What We Can See: A Survey of Text-to-Video Generation\",\"link\":\"https://arxiv.org/html/2405.10674v1\",\"snippet\":\"autoregressive models can generate or predict subsequent elements in a sequence, applications such as language modeling, time series forecasting, and ...\",\"date\":\"May 17, 2024\",\"position\":3},{\"title\":\"Autoregressive Transformers are Zero-Shot Video Imitators - arXiv\",\"link\":\"https://arxiv.org/abs/2407.07356\",\"snippet\":\"The results show that our models can generate high-quality video clips that accurately align with the semantic guidance provided by the demonstration videos ...\",\"date\":\"Jul 10, 2024\",\"position\":4},{\"title\":\"𝜎-GPTs: A New Approach to Autoregressive Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.09562v1\",\"snippet\":\"Our investigation involves training and generating sequences in a randomly shuffled order using transformers. While changing the sequence order is more ...\",\"date\":\"Apr 15, 2024\",\"position\":5},{\"title\":\"Autoregressive Image Generation without Vector Quantization - arXiv\",\"link\":\"https://arxiv.org/html/2406.11838v1\",\"snippet\":\"Conventional wisdom holds that autoregressive models for image generation are typically accompanied by vector-quantized tokens.\",\"date\":\"Jun 17, 2024\",\"position\":6},{\"title\":\"Language Model Beats Diffusion— Tokenizer is Key to Visual ... - arXiv\",\"link\":\"https://arxiv.org/html/2310.05737v2\",\"snippet\":\"In this paper, we introduce MAGVIT-v2, a video tokenizer designed to generate concise and expressive tokens for both videos and images using a common token ...\",\"date\":\"Mar 13, 2024\",\"position\":7},{\"title\":\"[1906.02634] Scaling Autoregressive Video Models - arXiv\",\"link\":\"https://arxiv.org/abs/1906.02634\",\"snippet\":\"PDF of the paper titled Scaling Autoregressive Video Models, by Dirk Weissenborn … conceptually simple autoregressive video generation models. View a PDF of ...\",\"date\":\"Jun 6, 2019\",\"position\":8},{\"title\":\"Delving Deep into Diffusion Transformers for Image and Video ...\",\"link\":\"https://arxiv.org/html/2312.04557v1\",\"snippet\":\"Recently, Transformer-based Diffusion models have attracted increasing research interest. Among these, U-ViT [3] treats all inputs as tokens by integrating ...\",\"date\":\"Dec 7, 2023\",\"position\":9},{\"title\":\"A Survey on Generative AI and LLM for Video Generation ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.16038v1\",\"snippet\":\"In the context of video generation, autoregressive models can be used to generate video frames sequentially, conditioning each frame on the previously generated ...\",\"date\":\"Jan 30, 2024\",\"sitelinks\":[{\"title\":\"Iv Technologies\",\"link\":\"https://arxiv.org/html/2404.16038v1#:~:text=.-,IV%20Technologies\"},{\"title\":\"Iv-A Generative Ai For Video...\",\"link\":\"https://arxiv.org/html/2404.16038v1#:~:text=IV%2DA%20Generative%20AI%20for%20Video%20Content%20Generation,-Generative%20AI%20has%20emerged%20as\"},{\"title\":\"V Applications\",\"link\":\"https://arxiv.org/html/2404.16038v1#:~:text=.-,V%20Applications\"}],\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJMaXN0IGFsbCBwYXBlcnMgdGhhdCB1c2UgYXV0b3JlZ3Jlc3NpdmUgdHJhbnNmb3JtZXIgdG8gZ2VuZXJhdGUgdmlkZW9zLiBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJBIFN1cnZleSBvbiBMb25nIFZpZGVvIEdlbmVyYXRpb246IENoYWxsZW5nZXMsIE1ldGhvZHMgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE2NDA3djEiLCJzbmlwcGV0IjoiV2UgZGV0YWlsIHRoZSBmb3VyIHR5cGVzIG9mIHBvcHVsYXIgdmlkZW8gZ2VuZXJhdGlvbiBtb2RlbHMsIGluY2x1ZGluZyBEaWZmdXNpb24sIEF1dG9yZWdyZXNzaXZlLCBHZW5lcmF0aXZlIEFkdmVyc2FyaWFsIE5ldHdvcmtzIChHQU4pLCBhbmQgTWFzayBNb2RlbGluZy4iLCJkYXRlIjoiTWFyIDI1LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJTY2FsYWJsZSBJbWFnZSBHZW5lcmF0aW9uIHZpYSBOZXh0LVNjYWxlIFByZWRpY3Rpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMDI5MDV2MSIsInNuaXBwZXQiOiJUaGlzIHNpbXBsZSwgaW50dWl0aXZlIG1ldGhvZG9sb2d5IGFsbG93cyBhdXRvcmVncmVzc2l2ZSAoQVIpIHRyYW5zZm9ybWVycyB0byBsZWFybiB2aXN1YWwgZGlzdHJpYnV0aW9ucyBmYXN0IGFuZCBjYW4gZ2VuZXJhbGl6ZSB3ZWxsOiBWQVIsIGZvciB0aGUgZmlyc3QgdGltZSwgLi4uIiwiZGF0ZSI6IkFwciAzLCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJGcm9tIFNvcmEgV2hhdCBXZSBDYW4gU2VlOiBBIFN1cnZleSBvZiBUZXh0LXRvLVZpZGVvIEdlbmVyYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjEwNjc0djEiLCJzbmlwcGV0IjoiYXV0b3JlZ3Jlc3NpdmUgbW9kZWxzIGNhbiBnZW5lcmF0ZSBvciBwcmVkaWN0IHN1YnNlcXVlbnQgZWxlbWVudHMgaW4gYSBzZXF1ZW5jZSwgYXBwbGljYXRpb25zIHN1Y2ggYXMgbGFuZ3VhZ2UgbW9kZWxpbmcsIHRpbWUgc2VyaWVzIGZvcmVjYXN0aW5nLCBhbmQgLi4uIiwiZGF0ZSI6Ik1heSAxNywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQXV0b3JlZ3Jlc3NpdmUgVHJhbnNmb3JtZXJzIGFyZSBaZXJvLVNob3QgVmlkZW8gSW1pdGF0b3JzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDcuMDczNTYiLCJzbmlwcGV0IjoiVGhlIHJlc3VsdHMgc2hvdyB0aGF0IG91ciBtb2RlbHMgY2FuIGdlbmVyYXRlIGhpZ2gtcXVhbGl0eSB2aWRlbyBjbGlwcyB0aGF0IGFjY3VyYXRlbHkgYWxpZ24gd2l0aCB0aGUgc2VtYW50aWMgZ3VpZGFuY2UgcHJvdmlkZWQgYnkgdGhlIGRlbW9uc3RyYXRpb24gdmlkZW9zIC4uLiIsImRhdGUiOiJKdWwgMTAsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IvCdnI4tR1BUczogQSBOZXcgQXBwcm9hY2ggdG8gQXV0b3JlZ3Jlc3NpdmUgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjA5NTYydjEiLCJzbmlwcGV0IjoiT3VyIGludmVzdGlnYXRpb24gaW52b2x2ZXMgdHJhaW5pbmcgYW5kIGdlbmVyYXRpbmcgc2VxdWVuY2VzIGluIGEgcmFuZG9tbHkgc2h1ZmZsZWQgb3JkZXIgdXNpbmcgdHJhbnNmb3JtZXJzLiBXaGlsZSBjaGFuZ2luZyB0aGUgc2VxdWVuY2Ugb3JkZXIgaXMgbW9yZSAuLi4iLCJkYXRlIjoiQXByIDE1LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJBdXRvcmVncmVzc2l2ZSBJbWFnZSBHZW5lcmF0aW9uIHdpdGhvdXQgVmVjdG9yIFF1YW50aXphdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4xMTgzOHYxIiwic25pcHBldCI6IkNvbnZlbnRpb25hbCB3aXNkb20gaG9sZHMgdGhhdCBhdXRvcmVncmVzc2l2ZSBtb2RlbHMgZm9yIGltYWdlIGdlbmVyYXRpb24gYXJlIHR5cGljYWxseSBhY2NvbXBhbmllZCBieSB2ZWN0b3ItcXVhbnRpemVkIHRva2Vucy4iLCJkYXRlIjoiSnVuIDE3LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJMYW5ndWFnZSBNb2RlbCBCZWF0cyBEaWZmdXNpb27igJQgVG9rZW5pemVyIGlzIEtleSB0byBWaXN1YWwgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEwLjA1NzM3djIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgaW50cm9kdWNlIE1BR1ZJVC12MiwgYSB2aWRlbyB0b2tlbml6ZXIgZGVzaWduZWQgdG8gZ2VuZXJhdGUgY29uY2lzZSBhbmQgZXhwcmVzc2l2ZSB0b2tlbnMgZm9yIGJvdGggdmlkZW9zIGFuZCBpbWFnZXMgdXNpbmcgYSBjb21tb24gdG9rZW4gLi4uIiwiZGF0ZSI6Ik1hciAxMywgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiWzE5MDYuMDI2MzRdIFNjYWxpbmcgQXV0b3JlZ3Jlc3NpdmUgVmlkZW8gTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzE5MDYuMDI2MzQiLCJzbmlwcGV0IjoiUERGIG9mIHRoZSBwYXBlciB0aXRsZWQgU2NhbGluZyBBdXRvcmVncmVzc2l2ZSBWaWRlbyBNb2RlbHMsIGJ5IERpcmsgV2Vpc3NlbmJvcm4g4oCmIGNvbmNlcHR1YWxseSBzaW1wbGUgYXV0b3JlZ3Jlc3NpdmUgdmlkZW8gZ2VuZXJhdGlvbiBtb2RlbHMuIFZpZXcgYSBQREYgb2YgLi4uIiwiZGF0ZSI6Ikp1biA2LCAyMDE5IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJEZWx2aW5nIERlZXAgaW50byBEaWZmdXNpb24gVHJhbnNmb3JtZXJzIGZvciBJbWFnZSBhbmQgVmlkZW8gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4wNDU1N3YxIiwic25pcHBldCI6IlJlY2VudGx5LCBUcmFuc2Zvcm1lci1iYXNlZCBEaWZmdXNpb24gbW9kZWxzIGhhdmUgYXR0cmFjdGVkIGluY3JlYXNpbmcgcmVzZWFyY2ggaW50ZXJlc3QuIEFtb25nIHRoZXNlLCBVLVZpVCBbM10gdHJlYXRzIGFsbCBpbnB1dHMgYXMgdG9rZW5zIGJ5IGludGVncmF0aW5nIC4uLiIsImRhdGUiOiJEZWMgNywgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gR2VuZXJhdGl2ZSBBSSBhbmQgTExNIGZvciBWaWRlbyBHZW5lcmF0aW9uIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4xNjAzOHYxIiwic25pcHBldCI6IkluIHRoZSBjb250ZXh0IG9mIHZpZGVvIGdlbmVyYXRpb24sIGF1dG9yZWdyZXNzaXZlIG1vZGVscyBjYW4gYmUgdXNlZCB0byBnZW5lcmF0ZSB2aWRlbyBmcmFtZXMgc2VxdWVudGlhbGx5LCBjb25kaXRpb25pbmcgZWFjaCBmcmFtZSBvbiB0aGUgcHJldmlvdXNseSBnZW5lcmF0ZWQgLi4uIiwiZGF0ZSI6IkphbiAzMCwgMjAyNCIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiJJdiBUZWNobm9sb2dpZXMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjE2MDM4djEjOn46dGV4dD0uLSxJViUyMFRlY2hub2xvZ2llcyJ9LHsidGl0bGUiOiJJdi1BIEdlbmVyYXRpdmUgQWkgRm9yIFZpZGVvLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4xNjAzOHYxIzp+OnRleHQ9SVYlMkRBJTIwR2VuZXJhdGl2ZSUyMEFJJTIwZm9yJTIwVmlkZW8lMjBDb250ZW50JTIwR2VuZXJhdGlvbiwtR2VuZXJhdGl2ZSUyMEFJJTIwaGFzJTIwZW1lcmdlZCUyMGFzIn0seyJ0aXRsZSI6IlYgQXBwbGljYXRpb25zIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4xNjAzOHYxIzp+OnRleHQ9Li0sViUyMEFwcGxpY2F0aW9ucyJ9XSwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "3494aea0a45cedfe723c5c30ec21b314b2d9538b3467f05978a9e8a6b4b40a32",
+          "structured_response": {
+            "searchParameters": {
+              "q": "List all papers that use autoregressive transformer to generate videos. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+                "link": "https://arxiv.org/html/2403.16407v1",
+                "snippet": "We detail the four types of popular video generation models, including Diffusion, Autoregressive, Generative Adversarial Networks (GAN), and Mask Modeling.",
+                "date": "Mar 25, 2024",
+                "position": 1
+              },
+              {
+                "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+                "link": "https://arxiv.org/html/2404.02905v1",
+                "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well: VAR, for the first time, ...",
+                "date": "Apr 3, 2024",
+                "position": 2
+              },
+              {
+                "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+                "link": "https://arxiv.org/html/2405.10674v1",
+                "snippet": "autoregressive models can generate or predict subsequent elements in a sequence, applications such as language modeling, time series forecasting, and ...",
+                "date": "May 17, 2024",
+                "position": 3
+              },
+              {
+                "title": "Autoregressive Transformers are Zero-Shot Video Imitators - arXiv",
+                "link": "https://arxiv.org/abs/2407.07356",
+                "snippet": "The results show that our models can generate high-quality video clips that accurately align with the semantic guidance provided by the demonstration videos ...",
+                "date": "Jul 10, 2024",
+                "position": 4
+              },
+              {
+                "title": "𝜎-GPTs: A New Approach to Autoregressive Models - arXiv",
+                "link": "https://arxiv.org/html/2404.09562v1",
+                "snippet": "Our investigation involves training and generating sequences in a randomly shuffled order using transformers. While changing the sequence order is more ...",
+                "date": "Apr 15, 2024",
+                "position": 5
+              },
+              {
+                "title": "Autoregressive Image Generation without Vector Quantization - arXiv",
+                "link": "https://arxiv.org/html/2406.11838v1",
+                "snippet": "Conventional wisdom holds that autoregressive models for image generation are typically accompanied by vector-quantized tokens.",
+                "date": "Jun 17, 2024",
+                "position": 6
+              },
+              {
+                "title": "Language Model Beats Diffusion— Tokenizer is Key to Visual ... - arXiv",
+                "link": "https://arxiv.org/html/2310.05737v2",
+                "snippet": "In this paper, we introduce MAGVIT-v2, a video tokenizer designed to generate concise and expressive tokens for both videos and images using a common token ...",
+                "date": "Mar 13, 2024",
+                "position": 7
+              },
+              {
+                "title": "[1906.02634] Scaling Autoregressive Video Models - arXiv",
+                "link": "https://arxiv.org/abs/1906.02634",
+                "snippet": "PDF of the paper titled Scaling Autoregressive Video Models, by Dirk Weissenborn … conceptually simple autoregressive video generation models. View a PDF of ...",
+                "date": "Jun 6, 2019",
+                "position": 8
+              },
+              {
+                "title": "Delving Deep into Diffusion Transformers for Image and Video ...",
+                "link": "https://arxiv.org/html/2312.04557v1",
+                "snippet": "Recently, Transformer-based Diffusion models have attracted increasing research interest. Among these, U-ViT [3] treats all inputs as tokens by integrating ...",
+                "date": "Dec 7, 2023",
+                "position": 9
+              },
+              {
+                "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+                "link": "https://arxiv.org/html/2404.16038v1",
+                "snippet": "In the context of video generation, autoregressive models can be used to generate video frames sequentially, conditioning each frame on the previously generated ...",
+                "date": "Jan 30, 2024",
+                "sitelinks": [
+                  {
+                    "title": "Iv Technologies",
+                    "link": "https://arxiv.org/html/2404.16038v1#:~:text=.-,IV%20Technologies"
+                  },
+                  {
+                    "title": "Iv-A Generative Ai For Video...",
+                    "link": "https://arxiv.org/html/2404.16038v1#:~:text=IV%2DA%20Generative%20AI%20for%20Video%20Content%20Generation,-Generative%20AI%20has%20emerged%20as"
+                  },
+                  {
+                    "title": "V Applications",
+                    "link": "https://arxiv.org/html/2404.16038v1#:~:text=.-,V%20Applications"
+                  }
+                ],
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:24:56.694115+00:00",
+          "elapsed_seconds": 1.8217009641230106
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1906.02634",
+        "2310.05737",
+        "2312.04557",
+        "2403.16407",
+        "2404.02905",
+        "2404.09562",
+        "2404.16038",
+        "2405.10674",
+        "2406.11838",
+        "2407.07356"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.16407",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2403.16407v1",
+          "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+          "snippet": "We detail the four types of popular video generation models, including Diffusion, Autoregressive, Generative Adversarial Networks (GAN), and Mask Modeling."
+        },
+        {
+          "arxiv_id": "2404.02905",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2404.02905v1",
+          "title": "Scalable Image Generation via Next-Scale Prediction - arXiv",
+          "snippet": "This simple, intuitive methodology allows autoregressive (AR) transformers to learn visual distributions fast and can generalize well: VAR, for the first time, ..."
+        },
+        {
+          "arxiv_id": "2405.10674",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2405.10674v1",
+          "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+          "snippet": "autoregressive models can generate or predict subsequent elements in a sequence, applications such as language modeling, time series forecasting, and ..."
+        },
+        {
+          "arxiv_id": "2407.07356",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2407.07356",
+          "title": "Autoregressive Transformers are Zero-Shot Video Imitators - arXiv",
+          "snippet": "The results show that our models can generate high-quality video clips that accurately align with the semantic guidance provided by the demonstration videos ..."
+        },
+        {
+          "arxiv_id": "2404.09562",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2404.09562v1",
+          "title": "𝜎-GPTs: A New Approach to Autoregressive Models - arXiv",
+          "snippet": "Our investigation involves training and generating sequences in a randomly shuffled order using transformers. While changing the sequence order is more ..."
+        },
+        {
+          "arxiv_id": "2406.11838",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2406.11838v1",
+          "title": "Autoregressive Image Generation without Vector Quantization - arXiv",
+          "snippet": "Conventional wisdom holds that autoregressive models for image generation are typically accompanied by vector-quantized tokens."
+        },
+        {
+          "arxiv_id": "2310.05737",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2310.05737v2",
+          "title": "Language Model Beats Diffusion— Tokenizer is Key to Visual ... - arXiv",
+          "snippet": "In this paper, we introduce MAGVIT-v2, a video tokenizer designed to generate concise and expressive tokens for both videos and images using a common token ..."
+        },
+        {
+          "arxiv_id": "1906.02634",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/1906.02634",
+          "title": "[1906.02634] Scaling Autoregressive Video Models - arXiv",
+          "snippet": "PDF of the paper titled Scaling Autoregressive Video Models, by Dirk Weissenborn … conceptually simple autoregressive video generation models. View a PDF of ..."
+        },
+        {
+          "arxiv_id": "2312.04557",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2312.04557v1",
+          "title": "Delving Deep into Diffusion Transformers for Image and Video ...",
+          "snippet": "Recently, Transformer-based Diffusion models have attracted increasing research interest. Among these, U-ViT [3] treats all inputs as tokens by integrating ..."
+        },
+        {
+          "arxiv_id": "2404.16038",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2404.16038v1",
+          "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+          "snippet": "In the context of video generation, autoregressive models can be used to generate video frames sequentially, conditioning each frame on the previously generated ..."
+        }
+      ],
+      "request_payload": {
+        "q": "List all papers that use autoregressive transformer to generate videos. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "anchor"
+  ]
+}

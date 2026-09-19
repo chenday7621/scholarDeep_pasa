@@ -1,0 +1,104 @@
+{
+  "global_attempt_sequence": 72,
+  "query_id": "Q11",
+  "query_key": "anchor",
+  "attempt": 1,
+  "query_text": "Give me all visual-LLM models that are MoE architecture",
+  "request_payload": {
+    "q": "Give me all visual-LLM models that are MoE architecture before:2024-09-24 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q11_anchor_attempt1.json",
+  "started_utc": "2026-09-15T06:25:58.440923+00:00",
+  "http_status": 200,
+  "response_text": "{\"searchParameters\":{\"q\":\"Give me all visual-LLM models that are MoE architecture before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"The Evolution of Multimodal Model Architectures - arXiv\",\"link\":\"https://arxiv.org/html/2405.17927v1\",\"snippet\":\"The architecture is made up of visual encoder, resampler, LLM, feature-synchronizer and a diffusion model. Image and text are given as input, and model can ...\",\"date\":\"May 28, 2024\",\"position\":1},{\"title\":\"MoE-LLaVA: Mixture of Experts for Large Vision-Language Models\",\"link\":\"https://arxiv.org/abs/2401.15947\",\"snippet\":\"Furthermore, we present the MoE-LLaVA, a MoE-based sparse LVLM architecture, which uniquely activates only the top-k experts through routers during deployment, ...\",\"date\":\"Jan 29, 2024\",\"position\":2},{\"title\":\"MoME: Mixture of Multimodal Experts for Generalist ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.12709v1\",\"snippet\":\"Specifically, we design three MLLMs (consists of vision encoder, projection, and LLM), which share the same architecture except vision encoders. These three ...\",\"date\":\"Jul 17, 2024\",\"position\":3},{\"title\":\"A Comprehensive Overview of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2307.06435v9\",\"snippet\":\"MoE architectures are less prone to catastrophic forgetting, therefore are more suited for continual learning [92] . Extracting smaller sub-models for ...\",\"date\":\"Apr 9, 2024\",\"position\":4},{\"title\":\"Revisiting MoE and Dense Speed-Accuracy Comparisons for LLM ...\",\"link\":\"https://arxiv.org/html/2405.15052v1\",\"snippet\":\"Our MoE architecture shares the same architecture as the dense LLM, except replacing FFNs with their sparse counterparts in MoE layers.\",\"date\":\"May 23, 2024\",\"position\":5},{\"title\":\"OpenMoE: An Early Effort on Open Mixture-of-Experts Language ...\",\"link\":\"https://arxiv.org/html/2402.01739v2\",\"snippet\":\"OpenMoE, a series of fully open-sourced and reproducible decoder-only MoE LLMs, ranging from 650M to 34B parameters and trained on up to over 1T tokens.\",\"date\":\"Mar 27, 2024\",\"position\":6},{\"title\":\"EVLM: An Efficient Vision-Language Model for Visual Understanding\",\"link\":\"https://arxiv.org/html/2407.14177v1\",\"snippet\":\"In the field of multi-modal language models, the majority of methods are built on an architecture similar to LLaVA. These models use a single-layer ViT feature ...\",\"date\":\"Jul 19, 2024\",\"position\":7},{\"title\":\"A Survey on Mixture of Experts - arXiv\",\"link\":\"https://arxiv.org/html/2407.06204v2\",\"snippet\":\"The incorporation of MoE architectures into large language models (LLMs) is now a prevalent practice, allowing these models to achieve significant parameter ...\",\"date\":\"Aug 8, 2024\",\"position\":8},{\"title\":\"Uni-MoE: Scaling Unified Multimodal LLMs with Mixture of Experts\",\"link\":\"https://arxiv.org/abs/2405.11273\",\"snippet\":\"We also implement a sparse MoE architecture within the LLMs to enable efficient training and inference through modality-level data parallelism and expert-level ...\",\"date\":\"May 18, 2024\",\"position\":9},{\"title\":\"MoE-Mamba: Efficient Selective State Space Models with Mixture of ...\",\"link\":\"https://arxiv.org/html/2401.04081v2\",\"snippet\":\"We compare MoE-Mamba to three baselines: Mamba, Transformer, and Transformer-MoE. All models in our experiments are decoder-only. In the standard Transformer ...\",\"date\":\"Feb 26, 2024\",\"position\":10}],\"credits\":1}",
+  "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJHaXZlIG1lIGFsbCB2aXN1YWwtTExNIG1vZGVscyB0aGF0IGFyZSBNb0UgYXJjaGl0ZWN0dXJlIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlRoZSBFdm9sdXRpb24gb2YgTXVsdGltb2RhbCBNb2RlbCBBcmNoaXRlY3R1cmVzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjE3OTI3djEiLCJzbmlwcGV0IjoiVGhlIGFyY2hpdGVjdHVyZSBpcyBtYWRlIHVwIG9mIHZpc3VhbCBlbmNvZGVyLCByZXNhbXBsZXIsIExMTSwgZmVhdHVyZS1zeW5jaHJvbml6ZXIgYW5kIGEgZGlmZnVzaW9uIG1vZGVsLiBJbWFnZSBhbmQgdGV4dCBhcmUgZ2l2ZW4gYXMgaW5wdXQsIGFuZCBtb2RlbCBjYW4gLi4uIiwiZGF0ZSI6Ik1heSAyOCwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiTW9FLUxMYVZBOiBNaXh0dXJlIG9mIEV4cGVydHMgZm9yIExhcmdlIFZpc2lvbi1MYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDEuMTU5NDciLCJzbmlwcGV0IjoiRnVydGhlcm1vcmUsIHdlIHByZXNlbnQgdGhlIE1vRS1MTGFWQSwgYSBNb0UtYmFzZWQgc3BhcnNlIExWTE0gYXJjaGl0ZWN0dXJlLCB3aGljaCB1bmlxdWVseSBhY3RpdmF0ZXMgb25seSB0aGUgdG9wLWsgZXhwZXJ0cyB0aHJvdWdoIHJvdXRlcnMgZHVyaW5nIGRlcGxveW1lbnQsIC4uLiIsImRhdGUiOiJKYW4gMjksIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6Ik1vTUU6IE1peHR1cmUgb2YgTXVsdGltb2RhbCBFeHBlcnRzIGZvciBHZW5lcmFsaXN0IC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4xMjcwOXYxIiwic25pcHBldCI6IlNwZWNpZmljYWxseSwgd2UgZGVzaWduIHRocmVlIE1MTE1zIChjb25zaXN0cyBvZiB2aXNpb24gZW5jb2RlciwgcHJvamVjdGlvbiwgYW5kIExMTSksIHdoaWNoIHNoYXJlIHRoZSBzYW1lIGFyY2hpdGVjdHVyZSBleGNlcHQgdmlzaW9uIGVuY29kZXJzLiBUaGVzZSB0aHJlZSAuLi4iLCJkYXRlIjoiSnVsIDE3LCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJBIENvbXByZWhlbnNpdmUgT3ZlcnZpZXcgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA3LjA2NDM1djkiLCJzbmlwcGV0IjoiTW9FIGFyY2hpdGVjdHVyZXMgYXJlIGxlc3MgcHJvbmUgdG8gY2F0YXN0cm9waGljIGZvcmdldHRpbmcsIHRoZXJlZm9yZSBhcmUgbW9yZSBzdWl0ZWQgZm9yIGNvbnRpbnVhbCBsZWFybmluZyBbOTJdIC4gRXh0cmFjdGluZyBzbWFsbGVyIHN1Yi1tb2RlbHMgZm9yIC4uLiIsImRhdGUiOiJBcHIgOSwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiUmV2aXNpdGluZyBNb0UgYW5kIERlbnNlIFNwZWVkLUFjY3VyYWN5IENvbXBhcmlzb25zIGZvciBMTE0gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xNTA1MnYxIiwic25pcHBldCI6Ik91ciBNb0UgYXJjaGl0ZWN0dXJlIHNoYXJlcyB0aGUgc2FtZSBhcmNoaXRlY3R1cmUgYXMgdGhlIGRlbnNlIExMTSwgZXhjZXB0IHJlcGxhY2luZyBGRk5zIHdpdGggdGhlaXIgc3BhcnNlIGNvdW50ZXJwYXJ0cyBpbiBNb0UgbGF5ZXJzLiIsImRhdGUiOiJNYXkgMjMsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6Ik9wZW5Nb0U6IEFuIEVhcmx5IEVmZm9ydCBvbiBPcGVuIE1peHR1cmUtb2YtRXhwZXJ0cyBMYW5ndWFnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjAxNzM5djIiLCJzbmlwcGV0IjoiT3Blbk1vRSwgYSBzZXJpZXMgb2YgZnVsbHkgb3Blbi1zb3VyY2VkIGFuZCByZXByb2R1Y2libGUgZGVjb2Rlci1vbmx5IE1vRSBMTE1zLCByYW5naW5nIGZyb20gNjUwTSB0byAzNEIgcGFyYW1ldGVycyBhbmQgdHJhaW5lZCBvbiB1cCB0byBvdmVyIDFUIHRva2Vucy4iLCJkYXRlIjoiTWFyIDI3LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJFVkxNOiBBbiBFZmZpY2llbnQgVmlzaW9uLUxhbmd1YWdlIE1vZGVsIGZvciBWaXN1YWwgVW5kZXJzdGFuZGluZyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMTQxNzd2MSIsInNuaXBwZXQiOiJJbiB0aGUgZmllbGQgb2YgbXVsdGktbW9kYWwgbGFuZ3VhZ2UgbW9kZWxzLCB0aGUgbWFqb3JpdHkgb2YgbWV0aG9kcyBhcmUgYnVpbHQgb24gYW4gYXJjaGl0ZWN0dXJlIHNpbWlsYXIgdG8gTExhVkEuIFRoZXNlIG1vZGVscyB1c2UgYSBzaW5nbGUtbGF5ZXIgVmlUIGZlYXR1cmUgLi4uIiwiZGF0ZSI6Ikp1bCAxOSwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gTWl4dHVyZSBvZiBFeHBlcnRzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjA2MjA0djIiLCJzbmlwcGV0IjoiVGhlIGluY29ycG9yYXRpb24gb2YgTW9FIGFyY2hpdGVjdHVyZXMgaW50byBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpIGlzIG5vdyBhIHByZXZhbGVudCBwcmFjdGljZSwgYWxsb3dpbmcgdGhlc2UgbW9kZWxzIHRvIGFjaGlldmUgc2lnbmlmaWNhbnQgcGFyYW1ldGVyIC4uLiIsImRhdGUiOiJBdWcgOCwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiVW5pLU1vRTogU2NhbGluZyBVbmlmaWVkIE11bHRpbW9kYWwgTExNcyB3aXRoIE1peHR1cmUgb2YgRXhwZXJ0cyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNS4xMTI3MyIsInNuaXBwZXQiOiJXZSBhbHNvIGltcGxlbWVudCBhIHNwYXJzZSBNb0UgYXJjaGl0ZWN0dXJlIHdpdGhpbiB0aGUgTExNcyB0byBlbmFibGUgZWZmaWNpZW50IHRyYWluaW5nIGFuZCBpbmZlcmVuY2UgdGhyb3VnaCBtb2RhbGl0eS1sZXZlbCBkYXRhIHBhcmFsbGVsaXNtIGFuZCBleHBlcnQtbGV2ZWwgLi4uIiwiZGF0ZSI6Ik1heSAxOCwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiTW9FLU1hbWJhOiBFZmZpY2llbnQgU2VsZWN0aXZlIFN0YXRlIFNwYWNlIE1vZGVscyB3aXRoIE1peHR1cmUgb2YgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4wNDA4MXYyIiwic25pcHBldCI6IldlIGNvbXBhcmUgTW9FLU1hbWJhIHRvIHRocmVlIGJhc2VsaW5lczogTWFtYmEsIFRyYW5zZm9ybWVyLCBhbmQgVHJhbnNmb3JtZXItTW9FLiBBbGwgbW9kZWxzIGluIG91ciBleHBlcmltZW50cyBhcmUgZGVjb2Rlci1vbmx5LiBJbiB0aGUgc3RhbmRhcmQgVHJhbnNmb3JtZXIgLi4uIiwiZGF0ZSI6IkZlYiAyNiwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "response_sha256": "c3c5171ec391cc8e67d592026e961c58939d77333d56063116d58cdebef7e675",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Give me all visual-LLM models that are MoE architecture before:2024-09-24 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "The Evolution of Multimodal Model Architectures - arXiv",
+        "link": "https://arxiv.org/html/2405.17927v1",
+        "snippet": "The architecture is made up of visual encoder, resampler, LLM, feature-synchronizer and a diffusion model. Image and text are given as input, and model can ...",
+        "date": "May 28, 2024",
+        "position": 1
+      },
+      {
+        "title": "MoE-LLaVA: Mixture of Experts for Large Vision-Language Models",
+        "link": "https://arxiv.org/abs/2401.15947",
+        "snippet": "Furthermore, we present the MoE-LLaVA, a MoE-based sparse LVLM architecture, which uniquely activates only the top-k experts through routers during deployment, ...",
+        "date": "Jan 29, 2024",
+        "position": 2
+      },
+      {
+        "title": "MoME: Mixture of Multimodal Experts for Generalist ... - arXiv",
+        "link": "https://arxiv.org/html/2407.12709v1",
+        "snippet": "Specifically, we design three MLLMs (consists of vision encoder, projection, and LLM), which share the same architecture except vision encoders. These three ...",
+        "date": "Jul 17, 2024",
+        "position": 3
+      },
+      {
+        "title": "A Comprehensive Overview of Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2307.06435v9",
+        "snippet": "MoE architectures are less prone to catastrophic forgetting, therefore are more suited for continual learning [92] . Extracting smaller sub-models for ...",
+        "date": "Apr 9, 2024",
+        "position": 4
+      },
+      {
+        "title": "Revisiting MoE and Dense Speed-Accuracy Comparisons for LLM ...",
+        "link": "https://arxiv.org/html/2405.15052v1",
+        "snippet": "Our MoE architecture shares the same architecture as the dense LLM, except replacing FFNs with their sparse counterparts in MoE layers.",
+        "date": "May 23, 2024",
+        "position": 5
+      },
+      {
+        "title": "OpenMoE: An Early Effort on Open Mixture-of-Experts Language ...",
+        "link": "https://arxiv.org/html/2402.01739v2",
+        "snippet": "OpenMoE, a series of fully open-sourced and reproducible decoder-only MoE LLMs, ranging from 650M to 34B parameters and trained on up to over 1T tokens.",
+        "date": "Mar 27, 2024",
+        "position": 6
+      },
+      {
+        "title": "EVLM: An Efficient Vision-Language Model for Visual Understanding",
+        "link": "https://arxiv.org/html/2407.14177v1",
+        "snippet": "In the field of multi-modal language models, the majority of methods are built on an architecture similar to LLaVA. These models use a single-layer ViT feature ...",
+        "date": "Jul 19, 2024",
+        "position": 7
+      },
+      {
+        "title": "A Survey on Mixture of Experts - arXiv",
+        "link": "https://arxiv.org/html/2407.06204v2",
+        "snippet": "The incorporation of MoE architectures into large language models (LLMs) is now a prevalent practice, allowing these models to achieve significant parameter ...",
+        "date": "Aug 8, 2024",
+        "position": 8
+      },
+      {
+        "title": "Uni-MoE: Scaling Unified Multimodal LLMs with Mixture of Experts",
+        "link": "https://arxiv.org/abs/2405.11273",
+        "snippet": "We also implement a sparse MoE architecture within the LLMs to enable efficient training and inference through modality-level data parallelism and expert-level ...",
+        "date": "May 18, 2024",
+        "position": 9
+      },
+      {
+        "title": "MoE-Mamba: Efficient Selective State Space Models with Mixture of ...",
+        "link": "https://arxiv.org/html/2401.04081v2",
+        "snippet": "We compare MoE-Mamba to three baselines: Mamba, Transformer, and Transformer-MoE. All models in our experiments are decoder-only. In the standard Transformer ...",
+        "date": "Feb 26, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "status": "PASS",
+  "finished_utc": "2026-09-15T06:25:59.270832+00:00",
+  "elapsed_seconds": 0.8299078829586506
+}

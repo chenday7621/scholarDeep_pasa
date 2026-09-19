@@ -1,0 +1,2146 @@
+{
+  "query_id": "Q0",
+  "query_index": 0,
+  "dataset_qid": "RealScholarQuery_0",
+  "original_question": "Give me papers which show that using a smaller dataset in large language model pre-training can result in better models than using bigger datasets.",
+  "published_time": "20241001",
+  "before_date": "2024-09-24",
+  "groups": {
+    "A": {
+      "prompt": "Please generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Give me papers which show that using a smaller dataset in large language model pre-training can result in better models than using bigger datasets.",
+      "searches": [
+        {
+          "query_sequence": 1,
+          "crawler_query": "Papers on the effectiveness of smaller datasets in language model pre-training",
+          "request_payload": {
+            "q": "Papers on the effectiveness of smaller datasets in language model pre-training before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 1,
+              "query_id": "Q0",
+              "group": "A",
+              "query_sequence": 1,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Papers on the effectiveness of smaller datasets in language model pre-training before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:51:57.378847+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Papers on the effectiveness of smaller datasets in language model pre-training before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Pre-training Small Base LMs with Fewer Tokens - arXiv\",\"link\":\"https://arxiv.org/html/2404.08634v1\",\"snippet\":\"In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ...\",\"date\":\"Apr 12, 2024\",\"position\":1},{\"title\":\"On the Transferability of Pre-trained Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2109.03537v2\",\"snippet\":\"Based on our analysis, we find that models pre-trained with artificial datasets are prone to learn spurious correlation in downstream tasks.\",\"date\":\"Feb 18, 2022\",\"position\":2},{\"title\":\"Analyzing the Relationship between Pre-Training and Fine-Tuning ...\",\"link\":\"https://arxiv.org/html/2408.06663v1\",\"snippet\":\"While model pre-training can be done by a few groups with large resources interested in developing new models, fine-tuning depends on the task and is of broad ...\",\"date\":\"Aug 13, 2024\",\"position\":3},{\"title\":\"Domain-Specific Pretraining of Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2407.14076v1\",\"snippet\":\"Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ...\",\"date\":\"Jul 19, 2024\",\"position\":4},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"Solaiman and Dennison, 2021 fine-tune LMs on a small, value-targeted dataset, which improves the models' ability to adhere to these values on a question ...\",\"date\":\"Jan 27, 2022\",\"position\":5},{\"title\":\"Will we run out of data? Limits of LLM scaling based on human ...\",\"link\":\"https://arxiv.org/html/2211.04325v2\",\"snippet\":\"These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ...\",\"date\":\"Jun 4, 2024\",\"position\":6},{\"title\":\"Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...\",\"link\":\"https://arxiv.org/html/2406.08660v2\",\"snippet\":\"We find that fine-tuning with application-specific training data achieves superior performance in all cases.\",\"date\":\"Aug 16, 2024\",\"position\":7},{\"title\":\"Neural Search: Learning Query and Product Representations in ...\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2107.08291\",\"snippet\":\"We will first describe the settings and the framework used to train GRU based neural models and then explain the pre-training and fine-tuning of the RoBERTa ...\",\"date\":\"Jul 15, 2021\",\"position\":8},{\"title\":\"[PDF] Data-Centric AI in the Age of Large Language Models\",\"link\":\"https://arxiv.org/pdf/2406.14473\",\"snippet\":\"ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs).\",\"date\":\"Jun 20, 2024\",\"position\":9},{\"title\":\"Deep Learning for Opinion Mining and Topic Classification of ... - arXiv\",\"link\":\"https://arxiv.org/html/2304.03394\",\"snippet\":\"We performed extensive comparative analysis of several DL techniques (such as CNNs and LSTMs, using word embeddings, but also state-of-the-art models, BERT, ...\",\"date\":\"Jun 16, 2023\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "e4cc9e7f7fb41cce70a08bad390476a83ba2b15fe3f01a69138b3abf011c777d",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Papers on the effectiveness of smaller datasets in language model pre-training before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+                    "link": "https://arxiv.org/html/2404.08634v1",
+                    "snippet": "In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ...",
+                    "date": "Apr 12, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "On the Transferability of Pre-trained Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2109.03537v2",
+                    "snippet": "Based on our analysis, we find that models pre-trained with artificial datasets are prone to learn spurious correlation in downstream tasks.",
+                    "date": "Feb 18, 2022",
+                    "position": 2
+                  },
+                  {
+                    "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+                    "link": "https://arxiv.org/html/2408.06663v1",
+                    "snippet": "While model pre-training can be done by a few groups with large resources interested in developing new models, fine-tuning depends on the task and is of broad ...",
+                    "date": "Aug 13, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Domain-Specific Pretraining of Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2407.14076v1",
+                    "snippet": "Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ...",
+                    "date": "Jul 19, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "Solaiman and Dennison, 2021 fine-tune LMs on a small, value-targeted dataset, which improves the models' ability to adhere to these values on a question ...",
+                    "date": "Jan 27, 2022",
+                    "position": 5
+                  },
+                  {
+                    "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+                    "link": "https://arxiv.org/html/2211.04325v2",
+                    "snippet": "These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ...",
+                    "date": "Jun 4, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...",
+                    "link": "https://arxiv.org/html/2406.08660v2",
+                    "snippet": "We find that fine-tuning with application-specific training data achieves superior performance in all cases.",
+                    "date": "Aug 16, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Neural Search: Learning Query and Product Representations in ...",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2107.08291",
+                    "snippet": "We will first describe the settings and the framework used to train GRU based neural models and then explain the pre-training and fine-tuning of the RoBERTa ...",
+                    "date": "Jul 15, 2021",
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+                    "link": "https://arxiv.org/pdf/2406.14473",
+                    "snippet": "ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs).",
+                    "date": "Jun 20, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Deep Learning for Opinion Mining and Topic Classification of ... - arXiv",
+                    "link": "https://arxiv.org/html/2304.03394",
+                    "snippet": "We performed extensive comparative analysis of several DL techniques (such as CNNs and LSTMs, using word embeddings, but also state-of-the-art models, BERT, ...",
+                    "date": "Jun 16, 2023",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:00.215043+00:00",
+              "elapsed_seconds": 2.8362213037908077,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q0_A_01_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2107.08291",
+            "2109.03537",
+            "2203.02155",
+            "2211.04325",
+            "2304.03394",
+            "2404.08634",
+            "2406.08660",
+            "2406.14473",
+            "2407.14076",
+            "2408.06663"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2404.08634",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+              "link": "https://arxiv.org/html/2404.08634v1",
+              "snippet": "In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ..."
+            },
+            {
+              "arxiv_id": "2109.03537",
+              "organic_index": 1,
+              "position": 2,
+              "title": "On the Transferability of Pre-trained Language Models - arXiv",
+              "link": "https://arxiv.org/html/2109.03537v2",
+              "snippet": "Based on our analysis, we find that models pre-trained with artificial datasets are prone to learn spurious correlation in downstream tasks."
+            },
+            {
+              "arxiv_id": "2408.06663",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+              "link": "https://arxiv.org/html/2408.06663v1",
+              "snippet": "While model pre-training can be done by a few groups with large resources interested in developing new models, fine-tuning depends on the task and is of broad ..."
+            },
+            {
+              "arxiv_id": "2407.14076",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Domain-Specific Pretraining of Language Models - arXiv",
+              "link": "https://arxiv.org/html/2407.14076v1",
+              "snippet": "Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "Solaiman and Dennison, 2021 fine-tune LMs on a small, value-targeted dataset, which improves the models' ability to adhere to these values on a question ..."
+            },
+            {
+              "arxiv_id": "2211.04325",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+              "link": "https://arxiv.org/html/2211.04325v2",
+              "snippet": "These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ..."
+            },
+            {
+              "arxiv_id": "2406.08660",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...",
+              "link": "https://arxiv.org/html/2406.08660v2",
+              "snippet": "We find that fine-tuning with application-specific training data achieves superior performance in all cases."
+            },
+            {
+              "arxiv_id": "2107.08291",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Neural Search: Learning Query and Product Representations in ...",
+              "link": "https://ar5iv.labs.arxiv.org/html/2107.08291",
+              "snippet": "We will first describe the settings and the framework used to train GRU based neural models and then explain the pre-training and fine-tuning of the RoBERTa ..."
+            },
+            {
+              "arxiv_id": "2406.14473",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+              "link": "https://arxiv.org/pdf/2406.14473",
+              "snippet": "ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs)."
+            },
+            {
+              "arxiv_id": "2304.03394",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Deep Learning for Opinion Mining and Topic Classification of ... - arXiv",
+              "link": "https://arxiv.org/html/2304.03394",
+              "snippet": "We performed extensive comparative analysis of several DL techniques (such as CNNs and LSTMs, using word embeddings, but also state-of-the-art models, BERT, ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 2,
+          "crawler_query": "Advantages of using smaller datasets in large language model pre-training",
+          "request_payload": {
+            "q": "Advantages of using smaller datasets in large language model pre-training before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 3,
+              "query_id": "Q0",
+              "group": "A",
+              "query_sequence": 2,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Advantages of using smaller datasets in large language model pre-training before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:01.376050+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Advantages of using smaller datasets in large language model pre-training before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Pre-training Small Base LMs with Fewer Tokens - arXiv\",\"link\":\"https://arxiv.org/html/2404.08634v1\",\"snippet\":\"We study the effectiveness of a simple approach to develop a small base language model (LM) starting from an existing large base LM: first inherit a few ...\",\"date\":\"Apr 12, 2024\",\"position\":1},{\"title\":\"Domain-Specific Pretraining of Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2407.14076v1\",\"snippet\":\"Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ...\",\"date\":\"Jul 19, 2024\",\"position\":2},{\"title\":\"Will we run out of data? Limits of LLM scaling based on human ...\",\"link\":\"https://arxiv.org/html/2211.04325v2\",\"snippet\":\"We argue that synthetic data generation, transfer learning from data-rich domains, and data efficiency improvements might support further progress.\",\"date\":\"Jun 4, 2024\",\"position\":3},{\"title\":\"Analyzing the Relationship between Pre-Training and Fine-Tuning ...\",\"link\":\"https://arxiv.org/html/2408.06663v1\",\"snippet\":\"For some datasets learned with pre-training alone, the model can easily understand the task format, and the nature of the task is probably supported by the pre ...\",\"date\":\"Aug 13, 2024\",\"position\":4},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"When trained on this filtered dataset, their LMs generate less harmful text, at the cost of a slight decrease in language modeling performance.\",\"date\":\"Jan 27, 2022\",\"position\":5},{\"title\":\"Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...\",\"link\":\"https://arxiv.org/html/2406.08660v2\",\"snippet\":\"Pre-training is much more resource-intensive than fine-tuning: Learning the complexities of natural language requires long exposure to large volumes of text.\",\"date\":\"Aug 16, 2024\",\"position\":6},{\"title\":\"Give Us the Facts: Enhancing Large Language Models with ... - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489\",\"snippet\":\"Recently, researchers have found that scaling model size or data size can improve model capacities on downstream tasks. Moreover, they found that when the ...\",\"date\":\"Nov 30, 2022\",\"position\":7},{\"title\":\"Financial Sentiment Analysis with Pre-trained Language Models\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1908.10063\",\"snippet\":\"We hypothesize that pre-trained language models can help with this problem because they require fewer labeled examples and they can be further trained on ...\",\"date\":\"Jun 25, 2019\",\"position\":8},{\"title\":\"Large Language Models(LLMs) on Tabular Data - arXiv\",\"link\":\"https://arxiv.org/html/2402.17944v2\",\"snippet\":\"Recent breakthroughs in large language modeling have facilitated rigorous exploration of their application in diverse tasks related to tabular data modeling, ...\",\"date\":\"Mar 1, 2024\",\"position\":9},{\"title\":\"[1705.06950] The Kinetics Human Action Video Dataset - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1705.06950\",\"snippet\":\"Our companion paper Carreira17 explores the benefit of pre-training an action classification network on Kinetics, and then using the features from the network ...\",\"date\":\"May 21, 2017\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "76245432bd440482d5bf0e1b645dfa303d22b13344a9ae9e42856602de376e72",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Advantages of using smaller datasets in large language model pre-training before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+                    "link": "https://arxiv.org/html/2404.08634v1",
+                    "snippet": "We study the effectiveness of a simple approach to develop a small base language model (LM) starting from an existing large base LM: first inherit a few ...",
+                    "date": "Apr 12, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Domain-Specific Pretraining of Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2407.14076v1",
+                    "snippet": "Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ...",
+                    "date": "Jul 19, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+                    "link": "https://arxiv.org/html/2211.04325v2",
+                    "snippet": "We argue that synthetic data generation, transfer learning from data-rich domains, and data efficiency improvements might support further progress.",
+                    "date": "Jun 4, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+                    "link": "https://arxiv.org/html/2408.06663v1",
+                    "snippet": "For some datasets learned with pre-training alone, the model can easily understand the task format, and the nature of the task is probably supported by the pre ...",
+                    "date": "Aug 13, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "When trained on this filtered dataset, their LMs generate less harmful text, at the cost of a slight decrease in language modeling performance.",
+                    "date": "Jan 27, 2022",
+                    "position": 5
+                  },
+                  {
+                    "title": "Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...",
+                    "link": "https://arxiv.org/html/2406.08660v2",
+                    "snippet": "Pre-training is much more resource-intensive than fine-tuning: Learning the complexities of natural language requires long exposure to large volumes of text.",
+                    "date": "Aug 16, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Give Us the Facts: Enhancing Large Language Models with ... - ar5iv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2306.11489",
+                    "snippet": "Recently, researchers have found that scaling model size or data size can improve model capacities on downstream tasks. Moreover, they found that when the ...",
+                    "date": "Nov 30, 2022",
+                    "position": 7
+                  },
+                  {
+                    "title": "Financial Sentiment Analysis with Pre-trained Language Models",
+                    "link": "https://ar5iv.labs.arxiv.org/html/1908.10063",
+                    "snippet": "We hypothesize that pre-trained language models can help with this problem because they require fewer labeled examples and they can be further trained on ...",
+                    "date": "Jun 25, 2019",
+                    "position": 8
+                  },
+                  {
+                    "title": "Large Language Models(LLMs) on Tabular Data - arXiv",
+                    "link": "https://arxiv.org/html/2402.17944v2",
+                    "snippet": "Recent breakthroughs in large language modeling have facilitated rigorous exploration of their application in diverse tasks related to tabular data modeling, ...",
+                    "date": "Mar 1, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "[1705.06950] The Kinetics Human Action Video Dataset - ar5iv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/1705.06950",
+                    "snippet": "Our companion paper Carreira17 explores the benefit of pre-training an action classification network on Kinetics, and then using the features from the network ...",
+                    "date": "May 21, 2017",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:03.204986+00:00",
+              "elapsed_seconds": 1.8289384543895721,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q0_A_02_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "1705.06950",
+            "1908.10063",
+            "2203.02155",
+            "2211.04325",
+            "2306.11489",
+            "2402.17944",
+            "2404.08634",
+            "2406.08660",
+            "2407.14076",
+            "2408.06663"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2404.08634",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+              "link": "https://arxiv.org/html/2404.08634v1",
+              "snippet": "We study the effectiveness of a simple approach to develop a small base language model (LM) starting from an existing large base LM: first inherit a few ..."
+            },
+            {
+              "arxiv_id": "2407.14076",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Domain-Specific Pretraining of Language Models - arXiv",
+              "link": "https://arxiv.org/html/2407.14076v1",
+              "snippet": "Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ..."
+            },
+            {
+              "arxiv_id": "2211.04325",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+              "link": "https://arxiv.org/html/2211.04325v2",
+              "snippet": "We argue that synthetic data generation, transfer learning from data-rich domains, and data efficiency improvements might support further progress."
+            },
+            {
+              "arxiv_id": "2408.06663",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+              "link": "https://arxiv.org/html/2408.06663v1",
+              "snippet": "For some datasets learned with pre-training alone, the model can easily understand the task format, and the nature of the task is probably supported by the pre ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "When trained on this filtered dataset, their LMs generate less harmful text, at the cost of a slight decrease in language modeling performance."
+            },
+            {
+              "arxiv_id": "2406.08660",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...",
+              "link": "https://arxiv.org/html/2406.08660v2",
+              "snippet": "Pre-training is much more resource-intensive than fine-tuning: Learning the complexities of natural language requires long exposure to large volumes of text."
+            },
+            {
+              "arxiv_id": "2306.11489",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Give Us the Facts: Enhancing Large Language Models with ... - ar5iv",
+              "link": "https://ar5iv.labs.arxiv.org/html/2306.11489",
+              "snippet": "Recently, researchers have found that scaling model size or data size can improve model capacities on downstream tasks. Moreover, they found that when the ..."
+            },
+            {
+              "arxiv_id": "1908.10063",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Financial Sentiment Analysis with Pre-trained Language Models",
+              "link": "https://ar5iv.labs.arxiv.org/html/1908.10063",
+              "snippet": "We hypothesize that pre-trained language models can help with this problem because they require fewer labeled examples and they can be further trained on ..."
+            },
+            {
+              "arxiv_id": "2402.17944",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Large Language Models(LLMs) on Tabular Data - arXiv",
+              "link": "https://arxiv.org/html/2402.17944v2",
+              "snippet": "Recent breakthroughs in large language modeling have facilitated rigorous exploration of their application in diverse tasks related to tabular data modeling, ..."
+            },
+            {
+              "arxiv_id": "1705.06950",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[1705.06950] The Kinetics Human Action Video Dataset - ar5iv",
+              "link": "https://ar5iv.labs.arxiv.org/html/1705.06950",
+              "snippet": "Our companion paper Carreira17 explores the benefit of pre-training an action classification network on Kinetics, and then using the features from the network ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 3,
+          "crawler_query": "Benefits of limited dataset in pre-training of language models",
+          "request_payload": {
+            "q": "Benefits of limited dataset in pre-training of language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 5,
+              "query_id": "Q0",
+              "group": "A",
+              "query_sequence": 3,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Benefits of limited dataset in pre-training of language models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:04.546182+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Benefits of limited dataset in pre-training of language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Domain-Specific Pretraining of Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2407.14076v1\",\"snippet\":\"Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ...\",\"date\":\"Jul 19, 2024\",\"position\":1},{\"title\":\"Analyzing the Relationship between Pre-Training and Fine-Tuning ...\",\"link\":\"https://arxiv.org/html/2408.06663v1\",\"snippet\":\"Work to improve pre-trained models includes larger training sets ・ as different efficient fine-tuning strategies. many techniques facilitate time-, memory-, ...\",\"date\":\"Aug 13, 2024\",\"position\":2},{\"title\":\"Will we run out of data? Limits of LLM scaling based on human ...\",\"link\":\"https://arxiv.org/html/2211.04325v2\",\"snippet\":\"These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ...\",\"date\":\"Jun 4, 2024\",\"position\":3},{\"title\":\"Pre-training Small Base LMs with Fewer Tokens - arXiv\",\"link\":\"https://arxiv.org/html/2404.08634v1\",\"snippet\":\"We study the effectiveness of a simple approach to develop a small base language model (LM) starting from an existing large base LM: first inherit a few ...\",\"date\":\"Apr 12, 2024\",\"position\":4},{\"title\":\"[PDF] A Preliminary Exploration of Low Training Data Instruction Tuning\",\"link\":\"https://arxiv.org/pdf/2305.09246\",\"snippet\":\"The results suggest that task-specific models can be trained using less than 0.5% of the original dataset, with a 2% improvement in performance over those.\",\"date\":\"May 17, 2023\",\"position\":5},{\"title\":\"Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs\",\"link\":\"https://arxiv.org/html/2312.05934v3\",\"snippet\":\"Our findings reveal that while unsupervised fine-tuning offers some improvement, RAG consistently outperforms it, both for existing knowledge encountered ...\",\"date\":\"Jan 30, 2024\",\"position\":6},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP ...\",\"date\":\"Jan 27, 2022\",\"position\":7},{\"title\":\"LegiLM: A Fine-Tuned Legal Language Model for Data Compliance\",\"link\":\"https://arxiv.org/html/2409.13721v1\",\"snippet\":\"The development of LegiLM is supported by the creation of a comprehensive dataset, including GDPR regulations, case law, and actual data-sharing contracts. This ...\",\"date\":\"Sep 9, 2024\",\"sitelinks\":[{\"title\":\"Legilm: A Fine-Tuned Legal...\",\"link\":\"https://arxiv.org/html/2409.13721v1#:~:text=LegiLM%3A%20A%20Fine%2DTuned%20Legal%20Language%20Model%20for%20Data%20Compliance,-Linkai%20Zhu%20Lu%20Yang%20Chaofan\"},{\"title\":\"1 Introduction\",\"link\":\"https://arxiv.org/html/2409.13721v1#:~:text=1%20Introduction,-Recent%20progress%20in%20large%20language\"},{\"title\":\"2 Related Work\",\"link\":\"https://arxiv.org/html/2409.13721v1#:~:text=2%20Related%20Work,-The%20development%20of%20Chinese%20Legal\"}],\"position\":8},{\"title\":\"[2212.09058] BEATs: Audio Pre-Training with Acoustic Tokenizers\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2212.09058\",\"snippet\":\"In comparison, the discrete label prediction objective can improve the audio modeling efficiency by providing semantic-rich tokens as the pre-training targets ...\",\"date\":\"Jan 3, 2023\",\"sitelinks\":[{\"title\":\"3 Beats\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2212.09058#:~:text=3%20BEATs\"},{\"title\":\"4 Experiment\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2212.09058#:~:text=4%20Experiment\"},{\"title\":\"4.4 Comparing Different...\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2212.09058#:~:text=4.4%20Comparing%20Different%20BEATs%20Tokenizers\"}],\"position\":9},{\"title\":\"[PDF] Data-Centric AI in the Age of Large Language Models\",\"link\":\"https://arxiv.org/pdf/2406.14473\",\"snippet\":\"ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs).\",\"date\":\"Jun 20, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "e17802a985ccfa52113e7c8cac6e07563f7f5ae3657cc4dfa834e31662e222c6",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Benefits of limited dataset in pre-training of language models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Domain-Specific Pretraining of Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2407.14076v1",
+                    "snippet": "Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ...",
+                    "date": "Jul 19, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+                    "link": "https://arxiv.org/html/2408.06663v1",
+                    "snippet": "Work to improve pre-trained models includes larger training sets ・ as different efficient fine-tuning strategies. many techniques facilitate time-, memory-, ...",
+                    "date": "Aug 13, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+                    "link": "https://arxiv.org/html/2211.04325v2",
+                    "snippet": "These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ...",
+                    "date": "Jun 4, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+                    "link": "https://arxiv.org/html/2404.08634v1",
+                    "snippet": "We study the effectiveness of a simple approach to develop a small base language model (LM) starting from an existing large base LM: first inherit a few ...",
+                    "date": "Apr 12, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "[PDF] A Preliminary Exploration of Low Training Data Instruction Tuning",
+                    "link": "https://arxiv.org/pdf/2305.09246",
+                    "snippet": "The results suggest that task-specific models can be trained using less than 0.5% of the original dataset, with a 2% improvement in performance over those.",
+                    "date": "May 17, 2023",
+                    "position": 5
+                  },
+                  {
+                    "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs",
+                    "link": "https://arxiv.org/html/2312.05934v3",
+                    "snippet": "Our findings reveal that while unsupervised fine-tuning offers some improvement, RAG consistently outperforms it, both for existing knowledge encountered ...",
+                    "date": "Jan 30, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP ...",
+                    "date": "Jan 27, 2022",
+                    "position": 7
+                  },
+                  {
+                    "title": "LegiLM: A Fine-Tuned Legal Language Model for Data Compliance",
+                    "link": "https://arxiv.org/html/2409.13721v1",
+                    "snippet": "The development of LegiLM is supported by the creation of a comprehensive dataset, including GDPR regulations, case law, and actual data-sharing contracts. This ...",
+                    "date": "Sep 9, 2024",
+                    "sitelinks": [
+                      {
+                        "title": "Legilm: A Fine-Tuned Legal...",
+                        "link": "https://arxiv.org/html/2409.13721v1#:~:text=LegiLM%3A%20A%20Fine%2DTuned%20Legal%20Language%20Model%20for%20Data%20Compliance,-Linkai%20Zhu%20Lu%20Yang%20Chaofan"
+                      },
+                      {
+                        "title": "1 Introduction",
+                        "link": "https://arxiv.org/html/2409.13721v1#:~:text=1%20Introduction,-Recent%20progress%20in%20large%20language"
+                      },
+                      {
+                        "title": "2 Related Work",
+                        "link": "https://arxiv.org/html/2409.13721v1#:~:text=2%20Related%20Work,-The%20development%20of%20Chinese%20Legal"
+                      }
+                    ],
+                    "position": 8
+                  },
+                  {
+                    "title": "[2212.09058] BEATs: Audio Pre-Training with Acoustic Tokenizers",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2212.09058",
+                    "snippet": "In comparison, the discrete label prediction objective can improve the audio modeling efficiency by providing semantic-rich tokens as the pre-training targets ...",
+                    "date": "Jan 3, 2023",
+                    "sitelinks": [
+                      {
+                        "title": "3 Beats",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2212.09058#:~:text=3%20BEATs"
+                      },
+                      {
+                        "title": "4 Experiment",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2212.09058#:~:text=4%20Experiment"
+                      },
+                      {
+                        "title": "4.4 Comparing Different...",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2212.09058#:~:text=4.4%20Comparing%20Different%20BEATs%20Tokenizers"
+                      }
+                    ],
+                    "position": 9
+                  },
+                  {
+                    "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+                    "link": "https://arxiv.org/pdf/2406.14473",
+                    "snippet": "ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs).",
+                    "date": "Jun 20, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:05.619838+00:00",
+              "elapsed_seconds": 1.073665551841259,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q0_A_03_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2203.02155",
+            "2211.04325",
+            "2212.09058",
+            "2305.09246",
+            "2312.05934",
+            "2404.08634",
+            "2406.14473",
+            "2407.14076",
+            "2408.06663",
+            "2409.13721"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2407.14076",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Domain-Specific Pretraining of Language Models - arXiv",
+              "link": "https://arxiv.org/html/2407.14076v1",
+              "snippet": "Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ..."
+            },
+            {
+              "arxiv_id": "2408.06663",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+              "link": "https://arxiv.org/html/2408.06663v1",
+              "snippet": "Work to improve pre-trained models includes larger training sets ・ as different efficient fine-tuning strategies. many techniques facilitate time-, memory-, ..."
+            },
+            {
+              "arxiv_id": "2211.04325",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+              "link": "https://arxiv.org/html/2211.04325v2",
+              "snippet": "These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ..."
+            },
+            {
+              "arxiv_id": "2404.08634",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+              "link": "https://arxiv.org/html/2404.08634v1",
+              "snippet": "We study the effectiveness of a simple approach to develop a small base language model (LM) starting from an existing large base LM: first inherit a few ..."
+            },
+            {
+              "arxiv_id": "2305.09246",
+              "organic_index": 4,
+              "position": 5,
+              "title": "[PDF] A Preliminary Exploration of Low Training Data Instruction Tuning",
+              "link": "https://arxiv.org/pdf/2305.09246",
+              "snippet": "The results suggest that task-specific models can be trained using less than 0.5% of the original dataset, with a 2% improvement in performance over those."
+            },
+            {
+              "arxiv_id": "2312.05934",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs",
+              "link": "https://arxiv.org/html/2312.05934v3",
+              "snippet": "Our findings reveal that while unsupervised fine-tuning offers some improvement, RAG consistently outperforms it, both for existing knowledge encountered ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP ..."
+            },
+            {
+              "arxiv_id": "2409.13721",
+              "organic_index": 7,
+              "position": 8,
+              "title": "LegiLM: A Fine-Tuned Legal Language Model for Data Compliance",
+              "link": "https://arxiv.org/html/2409.13721v1",
+              "snippet": "The development of LegiLM is supported by the creation of a comprehensive dataset, including GDPR regulations, case law, and actual data-sharing contracts. This ..."
+            },
+            {
+              "arxiv_id": "2212.09058",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[2212.09058] BEATs: Audio Pre-Training with Acoustic Tokenizers",
+              "link": "https://ar5iv.labs.arxiv.org/html/2212.09058",
+              "snippet": "In comparison, the discrete label prediction objective can improve the audio modeling efficiency by providing semantic-rich tokens as the pre-training targets ..."
+            },
+            {
+              "arxiv_id": "2406.14473",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+              "link": "https://arxiv.org/pdf/2406.14473",
+              "snippet": "ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs)."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 4,
+          "crawler_query": "Survey papers on large language model pre-training using smaller dataset",
+          "request_payload": {
+            "q": "Survey papers on large language model pre-training using smaller dataset before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 7,
+              "query_id": "Q0",
+              "group": "A",
+              "query_sequence": 4,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Survey papers on large language model pre-training using smaller dataset before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:07.242072+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on large language model pre-training using smaller dataset before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"Training with LoRA is much faster, memory-efficient, and produces smaller model weights (a few hundred MBs), that are easier to store and share.\",\"date\":\"Feb 20, 2024\",\"position\":1},{\"title\":\"Pre-training Small Base LMs with Fewer Tokens - arXiv\",\"link\":\"https://arxiv.org/html/2404.08634v1\",\"snippet\":\"In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ...\",\"date\":\"Apr 12, 2024\",\"position\":2},{\"title\":\"Instruction Tuning for Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.10792v5\",\"snippet\":\"In this work, we make a systematic review of the literature, including the general methodology of IT, the construction of IT datasets, the training of IT models ...\",\"date\":\"Mar 14, 2024\",\"position\":3},{\"title\":\"Continual Learning of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.16789v1\",\"snippet\":\"This survey sheds light on the relatively understudied domain of continually pre-training, adapting, and fine-tuning large language models,\",\"date\":\"Apr 25, 2024\",\"position\":4},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.\",\"date\":\"Jan 27, 2022\",\"position\":5},{\"title\":\"Data Management For Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.01700v2\",\"snippet\":\"Organizing a well-suited training dataset using collected data, which we define as data management, is vitally important and challenging in both the pretraining ...\",\"date\":\"Dec 26, 2023\",\"position\":6},{\"title\":\"Super Tiny Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2405.14159v1\",\"snippet\":\"This paper introduces a series of research efforts focused on Super Tiny Language Models (STLMs), This is a roughly 370Mb dataset consisting in articles ...\",\"date\":\"May 23, 2024\",\"position\":7},{\"title\":\"[PDF] Data-Centric AI in the Age of Large Language Models\",\"link\":\"https://arxiv.org/pdf/2406.14473\",\"snippet\":\"This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs). pretraining and fine-tuning) models with less ...\",\"date\":\"Jun 20, 2024\",\"position\":8},{\"title\":\"Large Language Models for Information Retrieval: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.07107v3\",\"snippet\":\"Fine-tuning adjusts pre-trained LLMs on specific datasets or tasks to improve domain-specific performance, mitigating the general nature of LLM world knowledge.\",\"date\":\"Aug 16, 2023\",\"position\":9},{\"title\":\"Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...\",\"link\":\"https://arxiv.org/html/2406.08660v2\",\"snippet\":\"Generative AI offers a simple, prompt-based alternative to fine-tuning smaller BERT-style LLMs for text classification tasks. This promises to eliminate the ...\",\"date\":\"Aug 16, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "bdc1d473e7c6eda1b836808e13b4d225932fae686e2daba64469fb2929c7761c",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Survey papers on large language model pre-training using smaller dataset before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2402.06196v2",
+                    "snippet": "Training with LoRA is much faster, memory-efficient, and produces smaller model weights (a few hundred MBs), that are easier to store and share.",
+                    "date": "Feb 20, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+                    "link": "https://arxiv.org/html/2404.08634v1",
+                    "snippet": "In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ...",
+                    "date": "Apr 12, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Instruction Tuning for Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2308.10792v5",
+                    "snippet": "In this work, we make a systematic review of the literature, including the general methodology of IT, the construction of IT datasets, the training of IT models ...",
+                    "date": "Mar 14, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Continual Learning of Large Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2404.16789v1",
+                    "snippet": "This survey sheds light on the relatively understudied domain of continually pre-training, adapting, and fine-tuning large language models,",
+                    "date": "Apr 25, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.",
+                    "date": "Jan 27, 2022",
+                    "position": 5
+                  },
+                  {
+                    "title": "Data Management For Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2312.01700v2",
+                    "snippet": "Organizing a well-suited training dataset using collected data, which we define as data management, is vitally important and challenging in both the pretraining ...",
+                    "date": "Dec 26, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "Super Tiny Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2405.14159v1",
+                    "snippet": "This paper introduces a series of research efforts focused on Super Tiny Language Models (STLMs), This is a roughly 370Mb dataset consisting in articles ...",
+                    "date": "May 23, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+                    "link": "https://arxiv.org/pdf/2406.14473",
+                    "snippet": "This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs). pretraining and fine-tuning) models with less ...",
+                    "date": "Jun 20, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2308.07107v3",
+                    "snippet": "Fine-tuning adjusts pre-trained LLMs on specific datasets or tasks to improve domain-specific performance, mitigating the general nature of LLM world knowledge.",
+                    "date": "Aug 16, 2023",
+                    "position": 9
+                  },
+                  {
+                    "title": "Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...",
+                    "link": "https://arxiv.org/html/2406.08660v2",
+                    "snippet": "Generative AI offers a simple, prompt-based alternative to fine-tuning smaller BERT-style LLMs for text classification tasks. This promises to eliminate the ...",
+                    "date": "Aug 16, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:08.529573+00:00",
+              "elapsed_seconds": 1.2875062301754951,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q0_A_04_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2203.02155",
+            "2308.07107",
+            "2308.10792",
+            "2312.01700",
+            "2402.06196",
+            "2404.08634",
+            "2404.16789",
+            "2405.14159",
+            "2406.08660",
+            "2406.14473"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2402.06196",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2402.06196v2",
+              "snippet": "Training with LoRA is much faster, memory-efficient, and produces smaller model weights (a few hundred MBs), that are easier to store and share."
+            },
+            {
+              "arxiv_id": "2404.08634",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+              "link": "https://arxiv.org/html/2404.08634v1",
+              "snippet": "In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ..."
+            },
+            {
+              "arxiv_id": "2308.10792",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Instruction Tuning for Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2308.10792v5",
+              "snippet": "In this work, we make a systematic review of the literature, including the general methodology of IT, the construction of IT datasets, the training of IT models ..."
+            },
+            {
+              "arxiv_id": "2404.16789",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Continual Learning of Large Language Models - arXiv",
+              "link": "https://arxiv.org/html/2404.16789v1",
+              "snippet": "This survey sheds light on the relatively understudied domain of continually pre-training, adapting, and fine-tuning large language models,"
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback."
+            },
+            {
+              "arxiv_id": "2312.01700",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Data Management For Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2312.01700v2",
+              "snippet": "Organizing a well-suited training dataset using collected data, which we define as data management, is vitally important and challenging in both the pretraining ..."
+            },
+            {
+              "arxiv_id": "2405.14159",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Super Tiny Language Models - arXiv",
+              "link": "https://arxiv.org/html/2405.14159v1",
+              "snippet": "This paper introduces a series of research efforts focused on Super Tiny Language Models (STLMs), This is a roughly 370Mb dataset consisting in articles ..."
+            },
+            {
+              "arxiv_id": "2406.14473",
+              "organic_index": 7,
+              "position": 8,
+              "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+              "link": "https://arxiv.org/pdf/2406.14473",
+              "snippet": "This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs). pretraining and fine-tuning) models with less ..."
+            },
+            {
+              "arxiv_id": "2308.07107",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2308.07107v3",
+              "snippet": "Fine-tuning adjusts pre-trained LLMs on specific datasets or tasks to improve domain-specific performance, mitigating the general nature of LLM world knowledge."
+            },
+            {
+              "arxiv_id": "2406.08660",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...",
+              "link": "https://arxiv.org/html/2406.08660v2",
+              "snippet": "Generative AI offers a simple, prompt-based alternative to fine-tuning smaller BERT-style LLMs for text classification tasks. This promises to eliminate the ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 5,
+          "crawler_query": "Effects of dataset size on language model pre-training effectiveness",
+          "request_payload": {
+            "q": "Effects of dataset size on language model pre-training effectiveness before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 9,
+              "query_id": "Q0",
+              "group": "A",
+              "query_sequence": 5,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Effects of dataset size on language model pre-training effectiveness before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:10.490614+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Effects of dataset size on language model pre-training effectiveness before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Will we run out of data? Limits of LLM scaling based on human ...\",\"link\":\"https://arxiv.org/html/2211.04325v2\",\"snippet\":\"These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ...\",\"date\":\"Jun 4, 2024\",\"position\":1},{\"title\":\"Pre-training Small Base LMs with Fewer Tokens - arXiv\",\"link\":\"https://arxiv.org/html/2404.08634v1\",\"snippet\":\"In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ...\",\"date\":\"Apr 12, 2024\",\"position\":2},{\"title\":\"Getting the most out of your tokenizer for pre-training and domain ...\",\"link\":\"https://arxiv.org/html/2402.01035v2\",\"snippet\":\"Vocabulary size, or number of tokens, is a key hyper-parameter that impacts the cost-efficiency of a Transformer model. While a larger vocabulary increases the ...\",\"date\":\"Feb 7, 2024\",\"position\":3},{\"title\":\"LLM Dataset Inference Did you train on my dataset? - arXiv\",\"link\":\"https://arxiv.org/html/2406.06443v1\",\"snippet\":\"We introduce dataset inference for large language models to detect datasets used for training. ... Detecting pretraining data from large language models.\",\"date\":\"Jun 10, 2024\",\"position\":4},{\"title\":\"Scaling Laws with Vocabulary:Larger Models Deserve Larger ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.13623v1\",\"snippet\":\"A larger vocabulary size improves tokenization fertility, i.e., splitting sentences into fewer tokens, thereby improving the tokenization efficiency.\",\"date\":\"Jul 18, 2024\",\"position\":5},{\"title\":\"[PDF] A Pretrainer's Guide to Training Data: Measuring the Effects ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2305.13169\",\"snippet\":\"We measure how pretraining data curation choices affect downstream performance. Figure 1 illustrates our approach: each experiment starts with a pretraining ...\",\"date\":\"Nov 13, 2023\",\"position\":6},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that ...\",\"date\":\"Jan 27, 2022\",\"position\":7},{\"title\":\"On the Transferability of Pre-trained Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2109.03537v2\",\"snippet\":\"Our results also reveal that models achieve better downstream performance when pre-trained on a dataset with a longer range of implicit dependencies. Based on ...\",\"date\":\"Feb 18, 2022\",\"position\":8},{\"title\":\"BloombergGPT: A Large Language Model for Finance - arXiv\",\"link\":\"https://arxiv.org/html/2303.17564v3\",\"snippet\":\"2022a investigated the impact of deduplication on model performance for several datasets and found that deduplication reduces the emission of memorized training ...\",\"date\":\"Dec 21, 2023\",\"position\":9},{\"title\":\"Financial Sentiment Analysis with Pre-trained Language Models\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1908.10063\",\"snippet\":\"We hypothesize that pre-trained language models can help with this problem because they require fewer labeled examples and they can be further trained on domain ...\",\"date\":\"Jun 25, 2019\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "c96a6af3a0a3181902c7c1657ce41171a2e1ac04ff4e75c5cb3a6d3bb2038d3f",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Effects of dataset size on language model pre-training effectiveness before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+                    "link": "https://arxiv.org/html/2211.04325v2",
+                    "snippet": "These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ...",
+                    "date": "Jun 4, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+                    "link": "https://arxiv.org/html/2404.08634v1",
+                    "snippet": "In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ...",
+                    "date": "Apr 12, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Getting the most out of your tokenizer for pre-training and domain ...",
+                    "link": "https://arxiv.org/html/2402.01035v2",
+                    "snippet": "Vocabulary size, or number of tokens, is a key hyper-parameter that impacts the cost-efficiency of a Transformer model. While a larger vocabulary increases the ...",
+                    "date": "Feb 7, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "LLM Dataset Inference Did you train on my dataset? - arXiv",
+                    "link": "https://arxiv.org/html/2406.06443v1",
+                    "snippet": "We introduce dataset inference for large language models to detect datasets used for training. ... Detecting pretraining data from large language models.",
+                    "date": "Jun 10, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Scaling Laws with Vocabulary:Larger Models Deserve Larger ... - arXiv",
+                    "link": "https://arxiv.org/html/2407.13623v1",
+                    "snippet": "A larger vocabulary size improves tokenization fertility, i.e., splitting sentences into fewer tokens, thereby improving the tokenization efficiency.",
+                    "date": "Jul 18, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "[PDF] A Pretrainer's Guide to Training Data: Measuring the Effects ... - arXiv",
+                    "link": "https://arxiv.org/pdf/2305.13169",
+                    "snippet": "We measure how pretraining data curation choices affect downstream performance. Figure 1 illustrates our approach: each experiment starts with a pretraining ...",
+                    "date": "Nov 13, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that ...",
+                    "date": "Jan 27, 2022",
+                    "position": 7
+                  },
+                  {
+                    "title": "On the Transferability of Pre-trained Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2109.03537v2",
+                    "snippet": "Our results also reveal that models achieve better downstream performance when pre-trained on a dataset with a longer range of implicit dependencies. Based on ...",
+                    "date": "Feb 18, 2022",
+                    "position": 8
+                  },
+                  {
+                    "title": "BloombergGPT: A Large Language Model for Finance - arXiv",
+                    "link": "https://arxiv.org/html/2303.17564v3",
+                    "snippet": "2022a investigated the impact of deduplication on model performance for several datasets and found that deduplication reduces the emission of memorized training ...",
+                    "date": "Dec 21, 2023",
+                    "position": 9
+                  },
+                  {
+                    "title": "Financial Sentiment Analysis with Pre-trained Language Models",
+                    "link": "https://ar5iv.labs.arxiv.org/html/1908.10063",
+                    "snippet": "We hypothesize that pre-trained language models can help with this problem because they require fewer labeled examples and they can be further trained on domain ...",
+                    "date": "Jun 25, 2019",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:11.468532+00:00",
+              "elapsed_seconds": 0.9779662229120731,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q0_A_05_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "1908.10063",
+            "2109.03537",
+            "2203.02155",
+            "2211.04325",
+            "2303.17564",
+            "2305.13169",
+            "2402.01035",
+            "2404.08634",
+            "2406.06443",
+            "2407.13623"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2211.04325",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+              "link": "https://arxiv.org/html/2211.04325v2",
+              "snippet": "These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ..."
+            },
+            {
+              "arxiv_id": "2404.08634",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+              "link": "https://arxiv.org/html/2404.08634v1",
+              "snippet": "In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ..."
+            },
+            {
+              "arxiv_id": "2402.01035",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Getting the most out of your tokenizer for pre-training and domain ...",
+              "link": "https://arxiv.org/html/2402.01035v2",
+              "snippet": "Vocabulary size, or number of tokens, is a key hyper-parameter that impacts the cost-efficiency of a Transformer model. While a larger vocabulary increases the ..."
+            },
+            {
+              "arxiv_id": "2406.06443",
+              "organic_index": 3,
+              "position": 4,
+              "title": "LLM Dataset Inference Did you train on my dataset? - arXiv",
+              "link": "https://arxiv.org/html/2406.06443v1",
+              "snippet": "We introduce dataset inference for large language models to detect datasets used for training. ... Detecting pretraining data from large language models."
+            },
+            {
+              "arxiv_id": "2407.13623",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Scaling Laws with Vocabulary:Larger Models Deserve Larger ... - arXiv",
+              "link": "https://arxiv.org/html/2407.13623v1",
+              "snippet": "A larger vocabulary size improves tokenization fertility, i.e., splitting sentences into fewer tokens, thereby improving the tokenization efficiency."
+            },
+            {
+              "arxiv_id": "2305.13169",
+              "organic_index": 5,
+              "position": 6,
+              "title": "[PDF] A Pretrainer's Guide to Training Data: Measuring the Effects ... - arXiv",
+              "link": "https://arxiv.org/pdf/2305.13169",
+              "snippet": "We measure how pretraining data curation choices affect downstream performance. Figure 1 illustrates our approach: each experiment starts with a pretraining ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that ..."
+            },
+            {
+              "arxiv_id": "2109.03537",
+              "organic_index": 7,
+              "position": 8,
+              "title": "On the Transferability of Pre-trained Language Models - arXiv",
+              "link": "https://arxiv.org/html/2109.03537v2",
+              "snippet": "Our results also reveal that models achieve better downstream performance when pre-trained on a dataset with a longer range of implicit dependencies. Based on ..."
+            },
+            {
+              "arxiv_id": "2303.17564",
+              "organic_index": 8,
+              "position": 9,
+              "title": "BloombergGPT: A Large Language Model for Finance - arXiv",
+              "link": "https://arxiv.org/html/2303.17564v3",
+              "snippet": "2022a investigated the impact of deduplication on model performance for several datasets and found that deduplication reduces the emission of memorized training ..."
+            },
+            {
+              "arxiv_id": "1908.10063",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Financial Sentiment Analysis with Pre-trained Language Models",
+              "link": "https://ar5iv.labs.arxiv.org/html/1908.10063",
+              "snippet": "We hypothesize that pre-trained language models can help with this problem because they require fewer labeled examples and they can be further trained on domain ..."
+            }
+          ],
+          "organic_result_count": 10
+        }
+      ],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Give me papers which show that using a smaller dataset in large language model pre-training can result in better models than using bigger datasets.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "987c8f1cd6333e2af8258f7cc1cfa98339c3c2556c68a886fc666f8b5ccfe3d8",
+      "raw_output": "[Search]Papers on the effectiveness of smaller datasets in language model pre-training\n[Search]Advantages of using smaller datasets in large language model pre-training\n[Search]Benefits of limited dataset in pre-training of language models\n[Search]Survey papers on large language model pre-training using smaller dataset\n[Search]Effects of dataset size on language model pre-training effectiveness\n[StopSearch]",
+      "raw_output_with_special_tokens": "[Search]Papers on the effectiveness of smaller datasets in language model pre-training\n[Search]Advantages of using smaller datasets in large language model pre-training\n[Search]Benefits of limited dataset in pre-training of language models\n[Search]Survey papers on large language model pre-training using smaller dataset\n[Search]Effects of dataset size on language model pre-training effectiveness\n[StopSearch]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        5890,
+        60,
+        47,
+        9532,
+        389,
+        279,
+        26279,
+        315,
+        9155,
+        29425,
+        304,
+        4128,
+        1614,
+        855,
+        85370,
+        198,
+        58,
+        5890,
+        60,
+        23453,
+        37786,
+        315,
+        1667,
+        9155,
+        29425,
+        304,
+        3460,
+        4128,
+        1614,
+        855,
+        85370,
+        198,
+        58,
+        5890,
+        60,
+        84323,
+        315,
+        7199,
+        10337,
+        304,
+        855,
+        85370,
+        315,
+        4128,
+        4119,
+        198,
+        58,
+        5890,
+        60,
+        68015,
+        15689,
+        389,
+        3460,
+        4128,
+        1614,
+        855,
+        85370,
+        1667,
+        9155,
+        10337,
+        198,
+        58,
+        5890,
+        60,
+        39782,
+        315,
+        10337,
+        1379,
+        389,
+        4128,
+        1614,
+        855,
+        85370,
+        26279,
+        198,
+        58,
+        10674,
+        5890,
+        60,
+        151645
+      ],
+      "generated_token_count": 81,
+      "ended_with_eos": true,
+      "input_token_count": 81,
+      "generation_seconds": 3.1385516077280045,
+      "all_parsed_queries": [
+        "Papers on the effectiveness of smaller datasets in language model pre-training",
+        "Advantages of using smaller datasets in large language model pre-training",
+        "Benefits of limited dataset in pre-training of language models",
+        "Survey papers on large language model pre-training using smaller dataset",
+        "Effects of dataset size on language model pre-training effectiveness"
+      ],
+      "queries": [
+        "Papers on the effectiveness of smaller datasets in language model pre-training",
+        "Advantages of using smaller datasets in large language model pre-training",
+        "Benefits of limited dataset in pre-training of language models",
+        "Survey papers on large language model pre-training using smaller dataset",
+        "Effects of dataset size on language model pre-training effectiveness"
+      ],
+      "discarded_queries": []
+    },
+    "B": {
+      "prompt": "Please generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Give me papers which show that using a smaller dataset in large language model pre-training can result in better models than using bigger datasets.",
+      "searches": [
+        {
+          "query_sequence": 1,
+          "crawler_query": "Papers on the effectiveness of smaller datasets in language model pre-training",
+          "request_payload": {
+            "q": "Papers on the effectiveness of smaller datasets in language model pre-training before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 2,
+              "query_id": "Q0",
+              "group": "B",
+              "query_sequence": 1,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Papers on the effectiveness of smaller datasets in language model pre-training before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:00.215948+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Papers on the effectiveness of smaller datasets in language model pre-training before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Pre-training Small Base LMs with Fewer Tokens - arXiv\",\"link\":\"https://arxiv.org/html/2404.08634v1\",\"snippet\":\"In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ...\",\"date\":\"Apr 12, 2024\",\"position\":1},{\"title\":\"On the Transferability of Pre-trained Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2109.03537v2\",\"snippet\":\"Based on our analysis, we find that models pre-trained with artificial datasets are prone to learn spurious correlation in downstream tasks.\",\"date\":\"Feb 18, 2022\",\"position\":2},{\"title\":\"Analyzing the Relationship between Pre-Training and Fine-Tuning ...\",\"link\":\"https://arxiv.org/html/2408.06663v1\",\"snippet\":\"While model pre-training can be done by a few groups with large resources interested in developing new models, fine-tuning depends on the task and is of broad ...\",\"date\":\"Aug 13, 2024\",\"position\":3},{\"title\":\"Domain-Specific Pretraining of Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2407.14076v1\",\"snippet\":\"Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ...\",\"date\":\"Jul 19, 2024\",\"position\":4},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"Solaiman and Dennison, 2021 fine-tune LMs on a small, value-targeted dataset, which improves the models' ability to adhere to these values on a question ...\",\"date\":\"Jan 27, 2022\",\"position\":5},{\"title\":\"Will we run out of data? Limits of LLM scaling based on human ...\",\"link\":\"https://arxiv.org/html/2211.04325v2\",\"snippet\":\"These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ...\",\"date\":\"Jun 4, 2024\",\"position\":6},{\"title\":\"Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...\",\"link\":\"https://arxiv.org/html/2406.08660v2\",\"snippet\":\"We find that fine-tuning with application-specific training data achieves superior performance in all cases.\",\"date\":\"Aug 16, 2024\",\"position\":7},{\"title\":\"Neural Search: Learning Query and Product Representations in ...\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2107.08291\",\"snippet\":\"We will first describe the settings and the framework used to train GRU based neural models and then explain the pre-training and fine-tuning of the RoBERTa ...\",\"date\":\"Jul 15, 2021\",\"position\":8},{\"title\":\"[PDF] Data-Centric AI in the Age of Large Language Models\",\"link\":\"https://arxiv.org/pdf/2406.14473\",\"snippet\":\"ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs).\",\"date\":\"Jun 20, 2024\",\"position\":9},{\"title\":\"Deep Learning for Opinion Mining and Topic Classification of ... - arXiv\",\"link\":\"https://arxiv.org/html/2304.03394\",\"snippet\":\"We performed extensive comparative analysis of several DL techniques (such as CNNs and LSTMs, using word embeddings, but also state-of-the-art models, BERT, ...\",\"date\":\"Jun 16, 2023\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "e4cc9e7f7fb41cce70a08bad390476a83ba2b15fe3f01a69138b3abf011c777d",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Papers on the effectiveness of smaller datasets in language model pre-training before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+                    "link": "https://arxiv.org/html/2404.08634v1",
+                    "snippet": "In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ...",
+                    "date": "Apr 12, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "On the Transferability of Pre-trained Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2109.03537v2",
+                    "snippet": "Based on our analysis, we find that models pre-trained with artificial datasets are prone to learn spurious correlation in downstream tasks.",
+                    "date": "Feb 18, 2022",
+                    "position": 2
+                  },
+                  {
+                    "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+                    "link": "https://arxiv.org/html/2408.06663v1",
+                    "snippet": "While model pre-training can be done by a few groups with large resources interested in developing new models, fine-tuning depends on the task and is of broad ...",
+                    "date": "Aug 13, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Domain-Specific Pretraining of Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2407.14076v1",
+                    "snippet": "Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ...",
+                    "date": "Jul 19, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "Solaiman and Dennison, 2021 fine-tune LMs on a small, value-targeted dataset, which improves the models' ability to adhere to these values on a question ...",
+                    "date": "Jan 27, 2022",
+                    "position": 5
+                  },
+                  {
+                    "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+                    "link": "https://arxiv.org/html/2211.04325v2",
+                    "snippet": "These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ...",
+                    "date": "Jun 4, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...",
+                    "link": "https://arxiv.org/html/2406.08660v2",
+                    "snippet": "We find that fine-tuning with application-specific training data achieves superior performance in all cases.",
+                    "date": "Aug 16, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Neural Search: Learning Query and Product Representations in ...",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2107.08291",
+                    "snippet": "We will first describe the settings and the framework used to train GRU based neural models and then explain the pre-training and fine-tuning of the RoBERTa ...",
+                    "date": "Jul 15, 2021",
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+                    "link": "https://arxiv.org/pdf/2406.14473",
+                    "snippet": "ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs).",
+                    "date": "Jun 20, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Deep Learning for Opinion Mining and Topic Classification of ... - arXiv",
+                    "link": "https://arxiv.org/html/2304.03394",
+                    "snippet": "We performed extensive comparative analysis of several DL techniques (such as CNNs and LSTMs, using word embeddings, but also state-of-the-art models, BERT, ...",
+                    "date": "Jun 16, 2023",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:01.375111+00:00",
+              "elapsed_seconds": 1.1591576263308525,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q0_B_01_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2107.08291",
+            "2109.03537",
+            "2203.02155",
+            "2211.04325",
+            "2304.03394",
+            "2404.08634",
+            "2406.08660",
+            "2406.14473",
+            "2407.14076",
+            "2408.06663"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2404.08634",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+              "link": "https://arxiv.org/html/2404.08634v1",
+              "snippet": "In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ..."
+            },
+            {
+              "arxiv_id": "2109.03537",
+              "organic_index": 1,
+              "position": 2,
+              "title": "On the Transferability of Pre-trained Language Models - arXiv",
+              "link": "https://arxiv.org/html/2109.03537v2",
+              "snippet": "Based on our analysis, we find that models pre-trained with artificial datasets are prone to learn spurious correlation in downstream tasks."
+            },
+            {
+              "arxiv_id": "2408.06663",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+              "link": "https://arxiv.org/html/2408.06663v1",
+              "snippet": "While model pre-training can be done by a few groups with large resources interested in developing new models, fine-tuning depends on the task and is of broad ..."
+            },
+            {
+              "arxiv_id": "2407.14076",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Domain-Specific Pretraining of Language Models - arXiv",
+              "link": "https://arxiv.org/html/2407.14076v1",
+              "snippet": "Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "Solaiman and Dennison, 2021 fine-tune LMs on a small, value-targeted dataset, which improves the models' ability to adhere to these values on a question ..."
+            },
+            {
+              "arxiv_id": "2211.04325",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+              "link": "https://arxiv.org/html/2211.04325v2",
+              "snippet": "These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ..."
+            },
+            {
+              "arxiv_id": "2406.08660",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...",
+              "link": "https://arxiv.org/html/2406.08660v2",
+              "snippet": "We find that fine-tuning with application-specific training data achieves superior performance in all cases."
+            },
+            {
+              "arxiv_id": "2107.08291",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Neural Search: Learning Query and Product Representations in ...",
+              "link": "https://ar5iv.labs.arxiv.org/html/2107.08291",
+              "snippet": "We will first describe the settings and the framework used to train GRU based neural models and then explain the pre-training and fine-tuning of the RoBERTa ..."
+            },
+            {
+              "arxiv_id": "2406.14473",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+              "link": "https://arxiv.org/pdf/2406.14473",
+              "snippet": "ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs)."
+            },
+            {
+              "arxiv_id": "2304.03394",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Deep Learning for Opinion Mining and Topic Classification of ... - arXiv",
+              "link": "https://arxiv.org/html/2304.03394",
+              "snippet": "We performed extensive comparative analysis of several DL techniques (such as CNNs and LSTMs, using word embeddings, but also state-of-the-art models, BERT, ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 2,
+          "crawler_query": "Advantages of using smaller datasets in large language model pre-training",
+          "request_payload": {
+            "q": "Advantages of using smaller datasets in large language model pre-training before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 4,
+              "query_id": "Q0",
+              "group": "B",
+              "query_sequence": 2,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Advantages of using smaller datasets in large language model pre-training before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:03.205467+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Advantages of using smaller datasets in large language model pre-training before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Pre-training Small Base LMs with Fewer Tokens - arXiv\",\"link\":\"https://arxiv.org/html/2404.08634v1\",\"snippet\":\"We study the effectiveness of a simple approach to develop a small base language model (LM) starting from an existing large base LM: first inherit a few ...\",\"date\":\"Apr 12, 2024\",\"position\":1},{\"title\":\"Domain-Specific Pretraining of Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2407.14076v1\",\"snippet\":\"Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ...\",\"date\":\"Jul 19, 2024\",\"position\":2},{\"title\":\"Will we run out of data? Limits of LLM scaling based on human ...\",\"link\":\"https://arxiv.org/html/2211.04325v2\",\"snippet\":\"We argue that synthetic data generation, transfer learning from data-rich domains, and data efficiency improvements might support further progress.\",\"date\":\"Jun 4, 2024\",\"position\":3},{\"title\":\"Analyzing the Relationship between Pre-Training and Fine-Tuning ...\",\"link\":\"https://arxiv.org/html/2408.06663v1\",\"snippet\":\"For some datasets learned with pre-training alone, the model can easily understand the task format, and the nature of the task is probably supported by the pre ...\",\"date\":\"Aug 13, 2024\",\"position\":4},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"When trained on this filtered dataset, their LMs generate less harmful text, at the cost of a slight decrease in language modeling performance.\",\"date\":\"Jan 27, 2022\",\"position\":5},{\"title\":\"Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...\",\"link\":\"https://arxiv.org/html/2406.08660v2\",\"snippet\":\"Pre-training is much more resource-intensive than fine-tuning: Learning the complexities of natural language requires long exposure to large volumes of text.\",\"date\":\"Aug 16, 2024\",\"position\":6},{\"title\":\"Give Us the Facts: Enhancing Large Language Models with ... - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489\",\"snippet\":\"Recently, researchers have found that scaling model size or data size can improve model capacities on downstream tasks. Moreover, they found that when the ...\",\"date\":\"Nov 30, 2022\",\"position\":7},{\"title\":\"Financial Sentiment Analysis with Pre-trained Language Models\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1908.10063\",\"snippet\":\"We hypothesize that pre-trained language models can help with this problem because they require fewer labeled examples and they can be further trained on ...\",\"date\":\"Jun 25, 2019\",\"position\":8},{\"title\":\"Large Language Models(LLMs) on Tabular Data - arXiv\",\"link\":\"https://arxiv.org/html/2402.17944v2\",\"snippet\":\"Recent breakthroughs in large language modeling have facilitated rigorous exploration of their application in diverse tasks related to tabular data modeling, ...\",\"date\":\"Mar 1, 2024\",\"position\":9},{\"title\":\"[1705.06950] The Kinetics Human Action Video Dataset - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1705.06950\",\"snippet\":\"Our companion paper Carreira17 explores the benefit of pre-training an action classification network on Kinetics, and then using the features from the network ...\",\"date\":\"May 21, 2017\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "76245432bd440482d5bf0e1b645dfa303d22b13344a9ae9e42856602de376e72",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Advantages of using smaller datasets in large language model pre-training before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+                    "link": "https://arxiv.org/html/2404.08634v1",
+                    "snippet": "We study the effectiveness of a simple approach to develop a small base language model (LM) starting from an existing large base LM: first inherit a few ...",
+                    "date": "Apr 12, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Domain-Specific Pretraining of Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2407.14076v1",
+                    "snippet": "Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ...",
+                    "date": "Jul 19, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+                    "link": "https://arxiv.org/html/2211.04325v2",
+                    "snippet": "We argue that synthetic data generation, transfer learning from data-rich domains, and data efficiency improvements might support further progress.",
+                    "date": "Jun 4, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+                    "link": "https://arxiv.org/html/2408.06663v1",
+                    "snippet": "For some datasets learned with pre-training alone, the model can easily understand the task format, and the nature of the task is probably supported by the pre ...",
+                    "date": "Aug 13, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "When trained on this filtered dataset, their LMs generate less harmful text, at the cost of a slight decrease in language modeling performance.",
+                    "date": "Jan 27, 2022",
+                    "position": 5
+                  },
+                  {
+                    "title": "Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...",
+                    "link": "https://arxiv.org/html/2406.08660v2",
+                    "snippet": "Pre-training is much more resource-intensive than fine-tuning: Learning the complexities of natural language requires long exposure to large volumes of text.",
+                    "date": "Aug 16, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Give Us the Facts: Enhancing Large Language Models with ... - ar5iv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2306.11489",
+                    "snippet": "Recently, researchers have found that scaling model size or data size can improve model capacities on downstream tasks. Moreover, they found that when the ...",
+                    "date": "Nov 30, 2022",
+                    "position": 7
+                  },
+                  {
+                    "title": "Financial Sentiment Analysis with Pre-trained Language Models",
+                    "link": "https://ar5iv.labs.arxiv.org/html/1908.10063",
+                    "snippet": "We hypothesize that pre-trained language models can help with this problem because they require fewer labeled examples and they can be further trained on ...",
+                    "date": "Jun 25, 2019",
+                    "position": 8
+                  },
+                  {
+                    "title": "Large Language Models(LLMs) on Tabular Data - arXiv",
+                    "link": "https://arxiv.org/html/2402.17944v2",
+                    "snippet": "Recent breakthroughs in large language modeling have facilitated rigorous exploration of their application in diverse tasks related to tabular data modeling, ...",
+                    "date": "Mar 1, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "[1705.06950] The Kinetics Human Action Video Dataset - ar5iv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/1705.06950",
+                    "snippet": "Our companion paper Carreira17 explores the benefit of pre-training an action classification network on Kinetics, and then using the features from the network ...",
+                    "date": "May 21, 2017",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:04.545589+00:00",
+              "elapsed_seconds": 1.3401802144944668,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q0_B_02_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "1705.06950",
+            "1908.10063",
+            "2203.02155",
+            "2211.04325",
+            "2306.11489",
+            "2402.17944",
+            "2404.08634",
+            "2406.08660",
+            "2407.14076",
+            "2408.06663"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2404.08634",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+              "link": "https://arxiv.org/html/2404.08634v1",
+              "snippet": "We study the effectiveness of a simple approach to develop a small base language model (LM) starting from an existing large base LM: first inherit a few ..."
+            },
+            {
+              "arxiv_id": "2407.14076",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Domain-Specific Pretraining of Language Models - arXiv",
+              "link": "https://arxiv.org/html/2407.14076v1",
+              "snippet": "Small models benefit from comparatively fast inference times, lower latency, and less expensive training. Their reasonably small size allows them to be hosted ..."
+            },
+            {
+              "arxiv_id": "2211.04325",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+              "link": "https://arxiv.org/html/2211.04325v2",
+              "snippet": "We argue that synthetic data generation, transfer learning from data-rich domains, and data efficiency improvements might support further progress."
+            },
+            {
+              "arxiv_id": "2408.06663",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+              "link": "https://arxiv.org/html/2408.06663v1",
+              "snippet": "For some datasets learned with pre-training alone, the model can easily understand the task format, and the nature of the task is probably supported by the pre ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "When trained on this filtered dataset, their LMs generate less harmful text, at the cost of a slight decrease in language modeling performance."
+            },
+            {
+              "arxiv_id": "2406.08660",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...",
+              "link": "https://arxiv.org/html/2406.08660v2",
+              "snippet": "Pre-training is much more resource-intensive than fine-tuning: Learning the complexities of natural language requires long exposure to large volumes of text."
+            },
+            {
+              "arxiv_id": "2306.11489",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Give Us the Facts: Enhancing Large Language Models with ... - ar5iv",
+              "link": "https://ar5iv.labs.arxiv.org/html/2306.11489",
+              "snippet": "Recently, researchers have found that scaling model size or data size can improve model capacities on downstream tasks. Moreover, they found that when the ..."
+            },
+            {
+              "arxiv_id": "1908.10063",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Financial Sentiment Analysis with Pre-trained Language Models",
+              "link": "https://ar5iv.labs.arxiv.org/html/1908.10063",
+              "snippet": "We hypothesize that pre-trained language models can help with this problem because they require fewer labeled examples and they can be further trained on ..."
+            },
+            {
+              "arxiv_id": "2402.17944",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Large Language Models(LLMs) on Tabular Data - arXiv",
+              "link": "https://arxiv.org/html/2402.17944v2",
+              "snippet": "Recent breakthroughs in large language modeling have facilitated rigorous exploration of their application in diverse tasks related to tabular data modeling, ..."
+            },
+            {
+              "arxiv_id": "1705.06950",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[1705.06950] The Kinetics Human Action Video Dataset - ar5iv",
+              "link": "https://ar5iv.labs.arxiv.org/html/1705.06950",
+              "snippet": "Our companion paper Carreira17 explores the benefit of pre-training an action classification network on Kinetics, and then using the features from the network ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 3,
+          "crawler_query": "Studies on the impact of dataset size in language model pre-training",
+          "request_payload": {
+            "q": "Studies on the impact of dataset size in language model pre-training before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 6,
+              "query_id": "Q0",
+              "group": "B",
+              "query_sequence": 3,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Studies on the impact of dataset size in language model pre-training before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:05.620672+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Studies on the impact of dataset size in language model pre-training before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Will we run out of data? Limits of LLM scaling based on human ...\",\"link\":\"https://arxiv.org/html/2211.04325v2\",\"snippet\":\"These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ...\",\"date\":\"Jun 4, 2024\",\"position\":1},{\"title\":\"Pre-training Small Base LMs with Fewer Tokens - arXiv\",\"link\":\"https://arxiv.org/html/2404.08634v1\",\"snippet\":\"In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ...\",\"date\":\"Apr 12, 2024\",\"position\":2},{\"title\":\"Data Management For Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.01700v2\",\"snippet\":\"In this section, we first review the research studying pretraining dataset scaling law with/without data repetition. Then, data quality regarding deduplication, ...\",\"date\":\"Dec 26, 2023\",\"position\":3},{\"title\":\"LLM Dataset Inference Did you train on my dataset? - arXiv\",\"link\":\"https://arxiv.org/html/2406.06443v1\",\"snippet\":\"as the size of the training set increases, the success of membership inference degrades to random chance.\",\"date\":\"Jun 10, 2024\",\"position\":4},{\"title\":\"Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv\",\"link\":\"https://arxiv.org/html/2406.14833v2\",\"snippet\":\"In this section, we first study the behavior of large language models (LLMs) during continual pre-training by measuring them at regular intervals. We observe ...\",\"date\":\"Jun 27, 2024\",\"position\":5},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that ...\",\"date\":\"Jan 27, 2022\",\"position\":6},{\"title\":\"Analyzing the Relationship between Pre-Training and Fine-Tuning ...\",\"link\":\"https://arxiv.org/html/2408.06663v1\",\"snippet\":\"The rise of large language models (LLMs) introducing new paradigms for data collection and model training. Work to improve pre-trained models includes larger ...\",\"date\":\"Aug 13, 2024\",\"position\":7},{\"title\":\"On the Transferability of Pre-trained Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2109.03537v2\",\"snippet\":\"Pre-training language models (LMs) on large-scale unlabeled text data makes the model much easier to achieve exceptional downstream performance. Based on our ...\",\"date\":\"Feb 18, 2022\",\"position\":8},{\"title\":\"Fine-Tuning Large Language Models with Sequential Instructions\",\"link\":\"https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com\",\"snippet\":\"Moreover, we observed that sequential instruction-tuned models exhibit robustness to unseen intermediate tasks and various prompt templates. Notably, these ...\",\"date\":\"Mar 12, 2024\",\"position\":9},{\"title\":\"[PDF] Data-Centric AI in the Age of Large Language Models\",\"link\":\"https://arxiv.org/pdf/2406.14473\",\"snippet\":\"ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs).\",\"date\":\"Jun 20, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "7b1081cdedf0292ceac4f9b6d3ad4d15a7468e36d9d3735dfde2b4997f6370ab",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Studies on the impact of dataset size in language model pre-training before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+                    "link": "https://arxiv.org/html/2211.04325v2",
+                    "snippet": "These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ...",
+                    "date": "Jun 4, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+                    "link": "https://arxiv.org/html/2404.08634v1",
+                    "snippet": "In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ...",
+                    "date": "Apr 12, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Data Management For Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2312.01700v2",
+                    "snippet": "In this section, we first review the research studying pretraining dataset scaling law with/without data repetition. Then, data quality regarding deduplication, ...",
+                    "date": "Dec 26, 2023",
+                    "position": 3
+                  },
+                  {
+                    "title": "LLM Dataset Inference Did you train on my dataset? - arXiv",
+                    "link": "https://arxiv.org/html/2406.06443v1",
+                    "snippet": "as the size of the training set increases, the success of membership inference degrades to random chance.",
+                    "date": "Jun 10, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv",
+                    "link": "https://arxiv.org/html/2406.14833v2",
+                    "snippet": "In this section, we first study the behavior of large language models (LLMs) during continual pre-training by measuring them at regular intervals. We observe ...",
+                    "date": "Jun 27, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that ...",
+                    "date": "Jan 27, 2022",
+                    "position": 6
+                  },
+                  {
+                    "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+                    "link": "https://arxiv.org/html/2408.06663v1",
+                    "snippet": "The rise of large language models (LLMs) introducing new paradigms for data collection and model training. Work to improve pre-trained models includes larger ...",
+                    "date": "Aug 13, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "On the Transferability of Pre-trained Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2109.03537v2",
+                    "snippet": "Pre-training language models (LMs) on large-scale unlabeled text data makes the model much easier to achieve exceptional downstream performance. Based on our ...",
+                    "date": "Feb 18, 2022",
+                    "position": 8
+                  },
+                  {
+                    "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+                    "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+                    "snippet": "Moreover, we observed that sequential instruction-tuned models exhibit robustness to unseen intermediate tasks and various prompt templates. Notably, these ...",
+                    "date": "Mar 12, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+                    "link": "https://arxiv.org/pdf/2406.14473",
+                    "snippet": "ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs).",
+                    "date": "Jun 20, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:07.241624+00:00",
+              "elapsed_seconds": 1.6209595501422882,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q0_B_03_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2109.03537",
+            "2203.02155",
+            "2211.04325",
+            "2312.01700",
+            "2403.07794",
+            "2404.08634",
+            "2406.06443",
+            "2406.14473",
+            "2406.14833",
+            "2408.06663"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2211.04325",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+              "link": "https://arxiv.org/html/2211.04325v2",
+              "snippet": "These relationships imply that increasing the size of training datasets is crucial for efficiently improving the performance of LLMs. In this paper, we argue ..."
+            },
+            {
+              "arxiv_id": "2404.08634",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+              "link": "https://arxiv.org/html/2404.08634v1",
+              "snippet": "In this paper we investigate what can be achieved when pre-training small base language models (LMs) of size 1.5B parameters with just 1 billion tokens of pre- ..."
+            },
+            {
+              "arxiv_id": "2312.01700",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Data Management For Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2312.01700v2",
+              "snippet": "In this section, we first review the research studying pretraining dataset scaling law with/without data repetition. Then, data quality regarding deduplication, ..."
+            },
+            {
+              "arxiv_id": "2406.06443",
+              "organic_index": 3,
+              "position": 4,
+              "title": "LLM Dataset Inference Did you train on my dataset? - arXiv",
+              "link": "https://arxiv.org/html/2406.06443v1",
+              "snippet": "as the size of the training set increases, the success of membership inference degrades to random chance."
+            },
+            {
+              "arxiv_id": "2406.14833",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv",
+              "link": "https://arxiv.org/html/2406.14833v2",
+              "snippet": "In this section, we first study the behavior of large language models (LLMs) during continual pre-training by measuring them at regular intervals. We observe ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that ..."
+            },
+            {
+              "arxiv_id": "2408.06663",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+              "link": "https://arxiv.org/html/2408.06663v1",
+              "snippet": "The rise of large language models (LLMs) introducing new paradigms for data collection and model training. Work to improve pre-trained models includes larger ..."
+            },
+            {
+              "arxiv_id": "2109.03537",
+              "organic_index": 7,
+              "position": 8,
+              "title": "On the Transferability of Pre-trained Language Models - arXiv",
+              "link": "https://arxiv.org/html/2109.03537v2",
+              "snippet": "Pre-training language models (LMs) on large-scale unlabeled text data makes the model much easier to achieve exceptional downstream performance. Based on our ..."
+            },
+            {
+              "arxiv_id": "2403.07794",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+              "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+              "snippet": "Moreover, we observed that sequential instruction-tuned models exhibit robustness to unseen intermediate tasks and various prompt templates. Notably, these ..."
+            },
+            {
+              "arxiv_id": "2406.14473",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+              "link": "https://arxiv.org/pdf/2406.14473",
+              "snippet": "ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs)."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 4,
+          "crawler_query": "Efficacy of smaller datasets in pre-training large language models",
+          "request_payload": {
+            "q": "Efficacy of smaller datasets in pre-training large language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 8,
+              "query_id": "Q0",
+              "group": "B",
+              "query_sequence": 4,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Efficacy of smaller datasets in pre-training large language models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:08.530178+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Efficacy of smaller datasets in pre-training large language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Pre-training Small Base LMs with Fewer Tokens - arXiv\",\"link\":\"https://arxiv.org/html/2404.08634v1\",\"snippet\":\"Abstract. We study the effectiveness of a simple approach to develop a small base language model (LM) starting from an existing large base LM: first inherit ...\",\"date\":\"Apr 12, 2024\",\"position\":1},{\"title\":\"Will we run out of data? Limits of LLM scaling based on human ...\",\"link\":\"https://arxiv.org/html/2211.04325v2\",\"snippet\":\"Our findings indicate that if current LLM development trends continue, models will be trained on datasets roughly equal in size to the available stock of public ...\",\"date\":\"Jun 4, 2024\",\"position\":2},{\"title\":\"Reuse, Don't Retrain: A Recipe for Continued Pretraining of ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.07263v1\",\"snippet\":\"In this work, we detail a set of guidelines that cover how to design efficacious data distributions and learning rate schedules for continued pretraining of ...\",\"date\":\"Jul 9, 2024\",\"position\":3},{\"title\":\"Analyzing the Relationship between Pre-Training and Fine-Tuning ...\",\"link\":\"https://arxiv.org/html/2408.06663v1\",\"snippet\":\"Work to improve pre-trained models includes larger training sets ・ many techniques facilitate time-, memory-, and data-efficient model training ・ this second ...\",\"date\":\"Aug 13, 2024\",\"position\":4},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that ...\",\"date\":\"Jan 27, 2022\",\"position\":5},{\"title\":\"How to Train Data-Efficient LLMs - arXiv\",\"link\":\"https://arxiv.org/html/2402.09668v1\",\"snippet\":\"We find that Ask-LLM can train better models (vs. training on the entire dataset) even after removing up to 90 90 % of training samples, while also consistently ...\",\"date\":\"Feb 15, 2024\",\"position\":6},{\"title\":\"[PDF] Data-Centric AI in the Age of Large Language Models\",\"link\":\"https://arxiv.org/pdf/2406.14473\",\"snippet\":\"Distilling step-by-step! outperforming larger language models with less training data and smaller model sizes.\",\"date\":\"Jun 20, 2024\",\"position\":7},{\"title\":\"Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv\",\"link\":\"https://arxiv.org/html/2406.14833v2\",\"snippet\":\"Continually pre-training the LLM on a subset with a proper size for multiple epochs, resulting in faster performance recovery than pre-training the LLM on a ...\",\"date\":\"Jun 27, 2024\",\"position\":8},{\"title\":\"[PDF] A Pretrainer's Guide to Training Data: Measuring the Effects ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2305.13169\",\"snippet\":\"Most modern large language models use some form of quality and/or toxicity filtering for their pretraining datasets (Table 1). To curb toxicity, T5 uses n-gram ...\",\"date\":\"Nov 13, 2023\",\"position\":9},{\"title\":\"HuaTuo (华驼): Tuning LLaMA Model with Chinese Medical ... - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2304.06975\",\"snippet\":\"Recent advancements in large language models (LLMs) have demonstrated their superiority over previous-generation paradigms, such as pre-training and fine-tuning ...\",\"date\":\"Jan 9, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "ab5e56e1ec8e63be4c4f0f4395e4b1417b14f2ccdfd4e98c46144324dc0eb6e5",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Efficacy of smaller datasets in pre-training large language models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+                    "link": "https://arxiv.org/html/2404.08634v1",
+                    "snippet": "Abstract. We study the effectiveness of a simple approach to develop a small base language model (LM) starting from an existing large base LM: first inherit ...",
+                    "date": "Apr 12, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+                    "link": "https://arxiv.org/html/2211.04325v2",
+                    "snippet": "Our findings indicate that if current LLM development trends continue, models will be trained on datasets roughly equal in size to the available stock of public ...",
+                    "date": "Jun 4, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Reuse, Don't Retrain: A Recipe for Continued Pretraining of ... - arXiv",
+                    "link": "https://arxiv.org/html/2407.07263v1",
+                    "snippet": "In this work, we detail a set of guidelines that cover how to design efficacious data distributions and learning rate schedules for continued pretraining of ...",
+                    "date": "Jul 9, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+                    "link": "https://arxiv.org/html/2408.06663v1",
+                    "snippet": "Work to improve pre-trained models includes larger training sets ・ many techniques facilitate time-, memory-, and data-efficient model training ・ this second ...",
+                    "date": "Aug 13, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that ...",
+                    "date": "Jan 27, 2022",
+                    "position": 5
+                  },
+                  {
+                    "title": "How to Train Data-Efficient LLMs - arXiv",
+                    "link": "https://arxiv.org/html/2402.09668v1",
+                    "snippet": "We find that Ask-LLM can train better models (vs. training on the entire dataset) even after removing up to 90 90 % of training samples, while also consistently ...",
+                    "date": "Feb 15, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+                    "link": "https://arxiv.org/pdf/2406.14473",
+                    "snippet": "Distilling step-by-step! outperforming larger language models with less training data and smaller model sizes.",
+                    "date": "Jun 20, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv",
+                    "link": "https://arxiv.org/html/2406.14833v2",
+                    "snippet": "Continually pre-training the LLM on a subset with a proper size for multiple epochs, resulting in faster performance recovery than pre-training the LLM on a ...",
+                    "date": "Jun 27, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] A Pretrainer's Guide to Training Data: Measuring the Effects ... - arXiv",
+                    "link": "https://arxiv.org/pdf/2305.13169",
+                    "snippet": "Most modern large language models use some form of quality and/or toxicity filtering for their pretraining datasets (Table 1). To curb toxicity, T5 uses n-gram ...",
+                    "date": "Nov 13, 2023",
+                    "position": 9
+                  },
+                  {
+                    "title": "HuaTuo (华驼): Tuning LLaMA Model with Chinese Medical ... - ar5iv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2304.06975",
+                    "snippet": "Recent advancements in large language models (LLMs) have demonstrated their superiority over previous-generation paradigms, such as pre-training and fine-tuning ...",
+                    "date": "Jan 9, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:10.490090+00:00",
+              "elapsed_seconds": 1.9599096067249775,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q0_B_04_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2203.02155",
+            "2211.04325",
+            "2304.06975",
+            "2305.13169",
+            "2402.09668",
+            "2404.08634",
+            "2406.14473",
+            "2406.14833",
+            "2407.07263",
+            "2408.06663"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2404.08634",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Pre-training Small Base LMs with Fewer Tokens - arXiv",
+              "link": "https://arxiv.org/html/2404.08634v1",
+              "snippet": "Abstract. We study the effectiveness of a simple approach to develop a small base language model (LM) starting from an existing large base LM: first inherit ..."
+            },
+            {
+              "arxiv_id": "2211.04325",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+              "link": "https://arxiv.org/html/2211.04325v2",
+              "snippet": "Our findings indicate that if current LLM development trends continue, models will be trained on datasets roughly equal in size to the available stock of public ..."
+            },
+            {
+              "arxiv_id": "2407.07263",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Reuse, Don't Retrain: A Recipe for Continued Pretraining of ... - arXiv",
+              "link": "https://arxiv.org/html/2407.07263v1",
+              "snippet": "In this work, we detail a set of guidelines that cover how to design efficacious data distributions and learning rate schedules for continued pretraining of ..."
+            },
+            {
+              "arxiv_id": "2408.06663",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+              "link": "https://arxiv.org/html/2408.06663v1",
+              "snippet": "Work to improve pre-trained models includes larger training sets ・ many techniques facilitate time-, memory-, and data-efficient model training ・ this second ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that ..."
+            },
+            {
+              "arxiv_id": "2402.09668",
+              "organic_index": 5,
+              "position": 6,
+              "title": "How to Train Data-Efficient LLMs - arXiv",
+              "link": "https://arxiv.org/html/2402.09668v1",
+              "snippet": "We find that Ask-LLM can train better models (vs. training on the entire dataset) even after removing up to 90 90 % of training samples, while also consistently ..."
+            },
+            {
+              "arxiv_id": "2406.14473",
+              "organic_index": 6,
+              "position": 7,
+              "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+              "link": "https://arxiv.org/pdf/2406.14473",
+              "snippet": "Distilling step-by-step! outperforming larger language models with less training data and smaller model sizes."
+            },
+            {
+              "arxiv_id": "2406.14833",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv",
+              "link": "https://arxiv.org/html/2406.14833v2",
+              "snippet": "Continually pre-training the LLM on a subset with a proper size for multiple epochs, resulting in faster performance recovery than pre-training the LLM on a ..."
+            },
+            {
+              "arxiv_id": "2305.13169",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] A Pretrainer's Guide to Training Data: Measuring the Effects ... - arXiv",
+              "link": "https://arxiv.org/pdf/2305.13169",
+              "snippet": "Most modern large language models use some form of quality and/or toxicity filtering for their pretraining datasets (Table 1). To curb toxicity, T5 uses n-gram ..."
+            },
+            {
+              "arxiv_id": "2304.06975",
+              "organic_index": 9,
+              "position": 10,
+              "title": "HuaTuo (华驼): Tuning LLaMA Model with Chinese Medical ... - ar5iv",
+              "link": "https://ar5iv.labs.arxiv.org/html/2304.06975",
+              "snippet": "Recent advancements in large language models (LLMs) have demonstrated their superiority over previous-generation paradigms, such as pre-training and fine-tuning ..."
+            }
+          ],
+          "organic_result_count": 10
+        }
+      ],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Give me papers which show that using a smaller dataset in large language model pre-training can result in better models than using bigger datasets.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "a0760b7cfd7265adc48008469fb5331c97c71a0f19bd98864cdceb5764db4dab",
+      "raw_output": "[Search]Papers on the effectiveness of smaller datasets in language model pre-training\n[Search]Advantages of using smaller datasets in large language model pre-training\n[Search]Studies on the impact of dataset size in language model pre-training\n[Search]Efficacy of smaller datasets in pre-training large language models\n[StopSearch]",
+      "raw_output_with_special_tokens": "[Search]Papers on the effectiveness of smaller datasets in language model pre-training\n[Search]Advantages of using smaller datasets in large language model pre-training\n[Search]Studies on the impact of dataset size in language model pre-training\n[Search]Efficacy of smaller datasets in pre-training large language models\n[StopSearch]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        5890,
+        60,
+        47,
+        9532,
+        389,
+        279,
+        26279,
+        315,
+        9155,
+        29425,
+        304,
+        4128,
+        1614,
+        855,
+        85370,
+        198,
+        58,
+        5890,
+        60,
+        23453,
+        37786,
+        315,
+        1667,
+        9155,
+        29425,
+        304,
+        3460,
+        4128,
+        1614,
+        855,
+        85370,
+        198,
+        58,
+        5890,
+        60,
+        93507,
+        389,
+        279,
+        5421,
+        315,
+        10337,
+        1379,
+        304,
+        4128,
+        1614,
+        855,
+        85370,
+        198,
+        58,
+        5890,
+        60,
+        36,
+        20615,
+        2757,
+        315,
+        9155,
+        29425,
+        304,
+        855,
+        85370,
+        3460,
+        4128,
+        4119,
+        198,
+        58,
+        10674,
+        5890,
+        60,
+        151645
+      ],
+      "generated_token_count": 70,
+      "ended_with_eos": true,
+      "input_token_count": 171,
+      "generation_seconds": 1.871174093335867,
+      "all_parsed_queries": [
+        "Papers on the effectiveness of smaller datasets in language model pre-training",
+        "Advantages of using smaller datasets in large language model pre-training",
+        "Studies on the impact of dataset size in language model pre-training",
+        "Efficacy of smaller datasets in pre-training large language models"
+      ],
+      "queries": [
+        "Papers on the effectiveness of smaller datasets in language model pre-training",
+        "Advantages of using smaller datasets in large language model pre-training",
+        "Studies on the impact of dataset size in language model pre-training",
+        "Efficacy of smaller datasets in pre-training large language models"
+      ],
+      "discarded_queries": []
+    }
+  },
+  "started_utc": "2026-09-14T02:51:52.357309+00:00",
+  "search_order_first_group": "A",
+  "search_started_utc": "2026-09-14T02:51:57.378822+00:00",
+  "search_finished_utc": "2026-09-14T02:52:11.469143+00:00",
+  "search_seconds": 14.090344198048115,
+  "finished_utc": "2026-09-14T02:52:11.469160+00:00",
+  "elapsed_seconds": 19.11185760423541
+}

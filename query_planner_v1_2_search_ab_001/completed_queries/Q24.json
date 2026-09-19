@@ -1,0 +1,1318 @@
+{
+  "query_id": "Q24",
+  "query_index": 24,
+  "dataset_qid": "RealScholarQuery_24",
+  "original_question": "Show me all research papers on machine translation agents.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Machine translation agents research papers",
+    "Papers on machine translation using agents",
+    "Survey papers on machine translation",
+    "Research on machine learning in machine translation",
+    "Latest advancements in machine translation agents"
+  ],
+  "anchor": "Show me all research papers on machine translation agents.",
+  "source_generation_id": "Q24_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Machine translation agents research papers",
+        "Papers on machine translation using agents",
+        "Survey papers on machine translation",
+        "Research on machine learning in machine translation",
+        "Latest advancements in machine translation agents"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "Show me all research papers on machine translation agents.",
+        "Machine translation agents research papers",
+        "Papers on machine translation using agents",
+        "Survey papers on machine translation",
+        "Research on machine learning in machine translation"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Machine translation agents research papers",
+      "attempts": [
+        {
+          "global_attempt_sequence": 145,
+          "query_id": "Q24",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Machine translation agents research papers",
+          "request_payload": {
+            "q": "Machine translation agents research papers before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q24_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:27:40.206263+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Machine translation agents research papers before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"(Perhaps) Beyond Human Translation: Harnessing Multi-Agent ...\",\"link\":\"https://arxiv.org/abs/2405.11804\",\"snippet\":\"In this work, we introduce TransAgents, a novel multi-agent framework that simulates the roles and collaborative practices of a human translation company,\",\"date\":\"May 20, 2024\",\"position\":1},{\"title\":\"A Survey on Multi-modal Machine Translation: Tasks, Methods and ...\",\"link\":\"https://arxiv.org/html/2405.12669v2\",\"snippet\":\"In contrast, our work fully concentrates on MMT, summarizing up to 99 previous papers and thoroughly including representative studies to date. Moreover ...\",\"date\":\"May 23, 2024\",\"position\":2},{\"title\":\"[1704.06960] Translating Neuralese - ar5iv - arXiv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1704.06960\",\"snippet\":\"Here we propose to interpret agents' messages by translating them. Unlike in typical machine translation problems, we have no parallel data to learn from.\",\"date\":\"Mar 20, 2024\",\"position\":3},{\"title\":\"[PDF] Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...\",\"link\":\"https://arxiv.org/pdf/2406.06910\",\"snippet\":\"In this paper, we introduce Agent-SiMT, a novel framework that harnesses existing Transformer-based SiMT methods and LLMs to collaboratively achieve SiMT.\",\"date\":\"Jun 12, 2024\",\"position\":4},{\"title\":\"GPT-4 vs. Human Translators: A Comprehensive Evaluation of ...\",\"link\":\"https://arxiv.org/html/2407.03658v1\",\"snippet\":\"This study comprehensively evaluates the translation quality of Large Language Models (LLMs), specifically GPT-4, against human translators of varying expertise ...\",\"date\":\"Jul 4, 2024\",\"position\":5},{\"title\":\"[PDF] Temporal Dynamics of Emotion and Cognition in Human Translation\",\"link\":\"https://arxiv.org/pdf/2405.03111\",\"snippet\":\"Abstract. The article develops a generative model of the human translating mind, grounded in empirical translation process data.\",\"date\":\"May 7, 2024\",\"position\":6},{\"title\":\"Quick Back-Translation for Unsupervised Machine Translation - arXiv\",\"link\":\"https://arxiv.org/html/2312.00912v1\",\"snippet\":\"In this paper, we address both autoregressive inference and data diversification limitations with a novel, framework for UMT, called Quick Back-Translation (QBT) ...\",\"date\":\"Dec 1, 2023\",\"position\":7},{\"title\":\"[PDF] arXiv:2305.04118v3 [cs.CL] 29 Nov 2023\",\"link\":\"https://arxiv.org/pdf/2305.04118\",\"snippet\":\"LLM-based translation can potentially mimic the human translation process which might take preparatory steps to ensure high- quality translation.\",\"date\":\"Nov 29, 2023\",\"position\":8},{\"title\":\"A Reinforced Generation of Adversarial Examples for Neural ... - arXiv\",\"link\":\"https://arxiv.org/html/1911.03677v2\",\"snippet\":\"Neural machine translation systems tend to fail on less decent inputs despite its significant efficacy, which may significantly harm the credibility of these ...\",\"date\":\"May 26, 2020\",\"position\":9},{\"title\":\"A Neural Machine Translation Approach to Generating Natural ...\",\"link\":\"https://arxiv.org/html/1702.07826v2\",\"snippet\":\"Abstract. We introduce AI rationalization, an approach for generating explanations of autonomous system behavior as if a human had performed the behavior.\",\"date\":\"Dec 19, 2017\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJNYWNoaW5lIHRyYW5zbGF0aW9uIGFnZW50cyByZXNlYXJjaCBwYXBlcnMgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiKFBlcmhhcHMpIEJleW9uZCBIdW1hbiBUcmFuc2xhdGlvbjogSGFybmVzc2luZyBNdWx0aS1BZ2VudCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDUuMTE4MDQiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBpbnRyb2R1Y2UgVHJhbnNBZ2VudHMsIGEgbm92ZWwgbXVsdGktYWdlbnQgZnJhbWV3b3JrIHRoYXQgc2ltdWxhdGVzIHRoZSByb2xlcyBhbmQgY29sbGFib3JhdGl2ZSBwcmFjdGljZXMgb2YgYSBodW1hbiB0cmFuc2xhdGlvbiBjb21wYW55LCIsImRhdGUiOiJNYXkgMjAsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkEgU3VydmV5IG9uIE11bHRpLW1vZGFsIE1hY2hpbmUgVHJhbnNsYXRpb246IFRhc2tzLCBNZXRob2RzIGFuZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjEyNjY5djIiLCJzbmlwcGV0IjoiSW4gY29udHJhc3QsIG91ciB3b3JrIGZ1bGx5IGNvbmNlbnRyYXRlcyBvbiBNTVQsIHN1bW1hcml6aW5nIHVwIHRvIDk5IHByZXZpb3VzIHBhcGVycyBhbmQgdGhvcm91Z2hseSBpbmNsdWRpbmcgcmVwcmVzZW50YXRpdmUgc3R1ZGllcyB0byBkYXRlLiBNb3Jlb3ZlciAuLi4iLCJkYXRlIjoiTWF5IDIzLCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJbMTcwNC4wNjk2MF0gVHJhbnNsYXRpbmcgTmV1cmFsZXNlIC0gYXI1aXYgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMTcwNC4wNjk2MCIsInNuaXBwZXQiOiJIZXJlIHdlIHByb3Bvc2UgdG8gaW50ZXJwcmV0IGFnZW50cycgbWVzc2FnZXMgYnkgdHJhbnNsYXRpbmcgdGhlbS4gVW5saWtlIGluIHR5cGljYWwgbWFjaGluZSB0cmFuc2xhdGlvbiBwcm9ibGVtcywgd2UgaGF2ZSBubyBwYXJhbGxlbCBkYXRhIHRvIGxlYXJuIGZyb20uIiwiZGF0ZSI6Ik1hciAyMCwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gQWdlbnQtU2lNVDogQWdlbnQtYXNzaXN0ZWQgU2ltdWx0YW5lb3VzIE1hY2hpbmUgVHJhbnNsYXRpb24gd2l0aCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDYuMDY5MTAiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgaW50cm9kdWNlIEFnZW50LVNpTVQsIGEgbm92ZWwgZnJhbWV3b3JrIHRoYXQgaGFybmVzc2VzIGV4aXN0aW5nIFRyYW5zZm9ybWVyLWJhc2VkIFNpTVQgbWV0aG9kcyBhbmQgTExNcyB0byBjb2xsYWJvcmF0aXZlbHkgYWNoaWV2ZSBTaU1ULiIsImRhdGUiOiJKdW4gMTIsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkdQVC00IHZzLiBIdW1hbiBUcmFuc2xhdG9yczogQSBDb21wcmVoZW5zaXZlIEV2YWx1YXRpb24gb2YgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4wMzY1OHYxIiwic25pcHBldCI6IlRoaXMgc3R1ZHkgY29tcHJlaGVuc2l2ZWx5IGV2YWx1YXRlcyB0aGUgdHJhbnNsYXRpb24gcXVhbGl0eSBvZiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKExMTXMpLCBzcGVjaWZpY2FsbHkgR1BULTQsIGFnYWluc3QgaHVtYW4gdHJhbnNsYXRvcnMgb2YgdmFyeWluZyBleHBlcnRpc2UgLi4uIiwiZGF0ZSI6Ikp1bCA0LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBUZW1wb3JhbCBEeW5hbWljcyBvZiBFbW90aW9uIGFuZCBDb2duaXRpb24gaW4gSHVtYW4gVHJhbnNsYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDUuMDMxMTEiLCJzbmlwcGV0IjoiQWJzdHJhY3QuIFRoZSBhcnRpY2xlIGRldmVsb3BzIGEgZ2VuZXJhdGl2ZSBtb2RlbCBvZiB0aGUgaHVtYW4gdHJhbnNsYXRpbmcgbWluZCwgZ3JvdW5kZWQgaW4gZW1waXJpY2FsIHRyYW5zbGF0aW9uIHByb2Nlc3MgZGF0YS4iLCJkYXRlIjoiTWF5IDcsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlF1aWNrIEJhY2stVHJhbnNsYXRpb24gZm9yIFVuc3VwZXJ2aXNlZCBNYWNoaW5lIFRyYW5zbGF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEyLjAwOTEydjEiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgYWRkcmVzcyBib3RoIGF1dG9yZWdyZXNzaXZlIGluZmVyZW5jZSBhbmQgZGF0YSBkaXZlcnNpZmljYXRpb24gbGltaXRhdGlvbnMgd2l0aCBhIG5vdmVsLCBmcmFtZXdvcmsgZm9yIFVNVCwgY2FsbGVkIFF1aWNrIEJhY2stVHJhbnNsYXRpb24gKFFCVCkgLi4uIiwiZGF0ZSI6IkRlYyAxLCAyMDIzIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMzA1LjA0MTE4djMgW2NzLkNMXSAyOSBOb3YgMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4wNDExOCIsInNuaXBwZXQiOiJMTE0tYmFzZWQgdHJhbnNsYXRpb24gY2FuIHBvdGVudGlhbGx5IG1pbWljIHRoZSBodW1hbiB0cmFuc2xhdGlvbiBwcm9jZXNzIHdoaWNoIG1pZ2h0IHRha2UgcHJlcGFyYXRvcnkgc3RlcHMgdG8gZW5zdXJlIGhpZ2gtIHF1YWxpdHkgdHJhbnNsYXRpb24uIiwiZGF0ZSI6Ik5vdiAyOSwgMjAyMyIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiQSBSZWluZm9yY2VkIEdlbmVyYXRpb24gb2YgQWR2ZXJzYXJpYWwgRXhhbXBsZXMgZm9yIE5ldXJhbCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE5MTEuMDM2Nzd2MiIsInNuaXBwZXQiOiJOZXVyYWwgbWFjaGluZSB0cmFuc2xhdGlvbiBzeXN0ZW1zIHRlbmQgdG8gZmFpbCBvbiBsZXNzIGRlY2VudCBpbnB1dHMgZGVzcGl0ZSBpdHMgc2lnbmlmaWNhbnQgZWZmaWNhY3ksIHdoaWNoIG1heSBzaWduaWZpY2FudGx5IGhhcm0gdGhlIGNyZWRpYmlsaXR5IG9mIHRoZXNlIC4uLiIsImRhdGUiOiJNYXkgMjYsIDIwMjAiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkEgTmV1cmFsIE1hY2hpbmUgVHJhbnNsYXRpb24gQXBwcm9hY2ggdG8gR2VuZXJhdGluZyBOYXR1cmFsIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE3MDIuMDc4MjZ2MiIsInNuaXBwZXQiOiJBYnN0cmFjdC4gV2UgaW50cm9kdWNlIEFJIHJhdGlvbmFsaXphdGlvbiwgYW4gYXBwcm9hY2ggZm9yIGdlbmVyYXRpbmcgZXhwbGFuYXRpb25zIG9mIGF1dG9ub21vdXMgc3lzdGVtIGJlaGF2aW9yIGFzIGlmIGEgaHVtYW4gaGFkIHBlcmZvcm1lZCB0aGUgYmVoYXZpb3IuIiwiZGF0ZSI6IkRlYyAxOSwgMjAxNyIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "6d775e3dc19cc2977b2553e059eaed969bf74ad87905370fb3b9bed79f3cb160",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Machine translation agents research papers before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "(Perhaps) Beyond Human Translation: Harnessing Multi-Agent ...",
+                "link": "https://arxiv.org/abs/2405.11804",
+                "snippet": "In this work, we introduce TransAgents, a novel multi-agent framework that simulates the roles and collaborative practices of a human translation company,",
+                "date": "May 20, 2024",
+                "position": 1
+              },
+              {
+                "title": "A Survey on Multi-modal Machine Translation: Tasks, Methods and ...",
+                "link": "https://arxiv.org/html/2405.12669v2",
+                "snippet": "In contrast, our work fully concentrates on MMT, summarizing up to 99 previous papers and thoroughly including representative studies to date. Moreover ...",
+                "date": "May 23, 2024",
+                "position": 2
+              },
+              {
+                "title": "[1704.06960] Translating Neuralese - ar5iv - arXiv",
+                "link": "https://ar5iv.labs.arxiv.org/html/1704.06960",
+                "snippet": "Here we propose to interpret agents' messages by translating them. Unlike in typical machine translation problems, we have no parallel data to learn from.",
+                "date": "Mar 20, 2024",
+                "position": 3
+              },
+              {
+                "title": "[PDF] Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...",
+                "link": "https://arxiv.org/pdf/2406.06910",
+                "snippet": "In this paper, we introduce Agent-SiMT, a novel framework that harnesses existing Transformer-based SiMT methods and LLMs to collaboratively achieve SiMT.",
+                "date": "Jun 12, 2024",
+                "position": 4
+              },
+              {
+                "title": "GPT-4 vs. Human Translators: A Comprehensive Evaluation of ...",
+                "link": "https://arxiv.org/html/2407.03658v1",
+                "snippet": "This study comprehensively evaluates the translation quality of Large Language Models (LLMs), specifically GPT-4, against human translators of varying expertise ...",
+                "date": "Jul 4, 2024",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Temporal Dynamics of Emotion and Cognition in Human Translation",
+                "link": "https://arxiv.org/pdf/2405.03111",
+                "snippet": "Abstract. The article develops a generative model of the human translating mind, grounded in empirical translation process data.",
+                "date": "May 7, 2024",
+                "position": 6
+              },
+              {
+                "title": "Quick Back-Translation for Unsupervised Machine Translation - arXiv",
+                "link": "https://arxiv.org/html/2312.00912v1",
+                "snippet": "In this paper, we address both autoregressive inference and data diversification limitations with a novel, framework for UMT, called Quick Back-Translation (QBT) ...",
+                "date": "Dec 1, 2023",
+                "position": 7
+              },
+              {
+                "title": "[PDF] arXiv:2305.04118v3 [cs.CL] 29 Nov 2023",
+                "link": "https://arxiv.org/pdf/2305.04118",
+                "snippet": "LLM-based translation can potentially mimic the human translation process which might take preparatory steps to ensure high- quality translation.",
+                "date": "Nov 29, 2023",
+                "position": 8
+              },
+              {
+                "title": "A Reinforced Generation of Adversarial Examples for Neural ... - arXiv",
+                "link": "https://arxiv.org/html/1911.03677v2",
+                "snippet": "Neural machine translation systems tend to fail on less decent inputs despite its significant efficacy, which may significantly harm the credibility of these ...",
+                "date": "May 26, 2020",
+                "position": 9
+              },
+              {
+                "title": "A Neural Machine Translation Approach to Generating Natural ...",
+                "link": "https://arxiv.org/html/1702.07826v2",
+                "snippet": "Abstract. We introduce AI rationalization, an approach for generating explanations of autonomous system behavior as if a human had performed the behavior.",
+                "date": "Dec 19, 2017",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:27:41.114176+00:00",
+          "elapsed_seconds": 0.9079085364937782
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1702.07826",
+        "1704.06960",
+        "1911.03677",
+        "2305.04118",
+        "2312.00912",
+        "2405.03111",
+        "2405.11804",
+        "2405.12669",
+        "2406.06910",
+        "2407.03658"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2405.11804",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2405.11804",
+          "title": "(Perhaps) Beyond Human Translation: Harnessing Multi-Agent ...",
+          "snippet": "In this work, we introduce TransAgents, a novel multi-agent framework that simulates the roles and collaborative practices of a human translation company,"
+        },
+        {
+          "arxiv_id": "2405.12669",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2405.12669v2",
+          "title": "A Survey on Multi-modal Machine Translation: Tasks, Methods and ...",
+          "snippet": "In contrast, our work fully concentrates on MMT, summarizing up to 99 previous papers and thoroughly including representative studies to date. Moreover ..."
+        },
+        {
+          "arxiv_id": "1704.06960",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://ar5iv.labs.arxiv.org/html/1704.06960",
+          "title": "[1704.06960] Translating Neuralese - ar5iv - arXiv",
+          "snippet": "Here we propose to interpret agents' messages by translating them. Unlike in typical machine translation problems, we have no parallel data to learn from."
+        },
+        {
+          "arxiv_id": "2406.06910",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2406.06910",
+          "title": "[PDF] Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...",
+          "snippet": "In this paper, we introduce Agent-SiMT, a novel framework that harnesses existing Transformer-based SiMT methods and LLMs to collaboratively achieve SiMT."
+        },
+        {
+          "arxiv_id": "2407.03658",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2407.03658v1",
+          "title": "GPT-4 vs. Human Translators: A Comprehensive Evaluation of ...",
+          "snippet": "This study comprehensively evaluates the translation quality of Large Language Models (LLMs), specifically GPT-4, against human translators of varying expertise ..."
+        },
+        {
+          "arxiv_id": "2405.03111",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2405.03111",
+          "title": "[PDF] Temporal Dynamics of Emotion and Cognition in Human Translation",
+          "snippet": "Abstract. The article develops a generative model of the human translating mind, grounded in empirical translation process data."
+        },
+        {
+          "arxiv_id": "2312.00912",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2312.00912v1",
+          "title": "Quick Back-Translation for Unsupervised Machine Translation - arXiv",
+          "snippet": "In this paper, we address both autoregressive inference and data diversification limitations with a novel, framework for UMT, called Quick Back-Translation (QBT) ..."
+        },
+        {
+          "arxiv_id": "2305.04118",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2305.04118",
+          "title": "[PDF] arXiv:2305.04118v3 [cs.CL] 29 Nov 2023",
+          "snippet": "LLM-based translation can potentially mimic the human translation process which might take preparatory steps to ensure high- quality translation."
+        },
+        {
+          "arxiv_id": "1911.03677",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/1911.03677v2",
+          "title": "A Reinforced Generation of Adversarial Examples for Neural ... - arXiv",
+          "snippet": "Neural machine translation systems tend to fail on less decent inputs despite its significant efficacy, which may significantly harm the credibility of these ..."
+        },
+        {
+          "arxiv_id": "1702.07826",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/1702.07826v2",
+          "title": "A Neural Machine Translation Approach to Generating Natural ...",
+          "snippet": "Abstract. We introduce AI rationalization, an approach for generating explanations of autonomous system behavior as if a human had performed the behavior."
+        }
+      ],
+      "request_payload": {
+        "q": "Machine translation agents research papers before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Papers on machine translation using agents",
+      "attempts": [
+        {
+          "global_attempt_sequence": 146,
+          "query_id": "Q24",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Papers on machine translation using agents",
+          "request_payload": {
+            "q": "Papers on machine translation using agents before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q24_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:27:41.256646+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Papers on machine translation using agents before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[1704.06960] Translating Neuralese - ar5iv - arXiv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1704.06960\",\"snippet\":\"Here we propose to interpret agents' messages by translating them. Unlike in typical machine translation problems, we have no parallel data to learn from.\",\"date\":\"Mar 20, 2024\",\"position\":1},{\"title\":\"[PDF] Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...\",\"link\":\"https://arxiv.org/pdf/2406.06910\",\"snippet\":\"In this paper, we introduce Agent-SiMT, a novel framework that harnesses existing Transformer-based SiMT methods and LLMs to collaboratively achieve SiMT.\",\"date\":\"Jun 12, 2024\",\"position\":2},{\"title\":\"Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...\",\"link\":\"https://arxiv.org/abs/2406.06910\",\"snippet\":\"View a PDF of the paper titled Agent-SiMT: Agent-assisted Simultaneous Machine Translation with Large Language Models, by Shoutao Guo and 4 other authors.\",\"date\":\"Jun 11, 2024\",\"position\":3},{\"title\":\"A Survey on Multi-modal Machine Translation: Tasks, Methods and ...\",\"link\":\"https://arxiv.org/html/2405.12669v2\",\"snippet\":\"In this paper, we begin by offering an exhaustive overview of 99 prior works, comprehensively summarizing representative studies from the perspectives of ...\",\"date\":\"May 23, 2024\",\"position\":4},{\"title\":\"(Perhaps) Beyond Human Translation: Harnessing Multi-Agent ...\",\"link\":\"https://arxiv.org/abs/2405.11804\",\"snippet\":\"In this work, we introduce TransAgents, a novel multi-agent framework that simulates the roles and collaborative practices of a human translation company,\",\"date\":\"May 20, 2024\",\"position\":5},{\"title\":\"Learning to Translate in Real-time with Neural Machine Translation\",\"link\":\"https://arxiv.org/abs/1610.00388\",\"snippet\":\"We propose a neural machine translation (NMT) framework for simultaneous translation in which an agent learns to make decisions on when to translate from the ...\",\"date\":\"Oct 3, 2016\",\"position\":6},{\"title\":\"A Neural Machine Translation Approach to Generating Natural ...\",\"link\":\"https://arxiv.org/html/1702.07826v2\",\"snippet\":\"We describe a rationalization technique that uses neural machine translation to translate internal state-action representations of an autonomous agent into ...\",\"date\":\"Dec 19, 2017\",\"position\":7},{\"title\":\"[PDF] Dual Learning for Machine Translation - arXiv\",\"link\":\"https://arxiv.org/pdf/1611.00179\",\"snippet\":\"In this paper, we propose a dual-learning mechanism that can leverage monolingual data (in both the source and target languages) in a more effective way.\",\"date\":\"Nov 1, 2016\",\"position\":8},{\"title\":\"A Reinforced Generation of Adversarial Examples for Neural ... - arXiv\",\"link\":\"https://arxiv.org/html/1911.03677v2\",\"snippet\":\"We conduct experiments of adversarial attacks on two mainstream neural machine translation architectures, RNN-search, and Transformer. The results show that our ...\",\"date\":\"May 26, 2020\",\"position\":9},{\"title\":\"[1611.00179] Dual Learning for Machine Translation - arXiv\",\"link\":\"https://arxiv.org/abs/1611.00179\",\"snippet\":\"In the dual-learning mechanism, we use one agent to represent the model for the primal task and the other agent to represent the model for the dual task ...\",\"date\":\"Nov 1, 2016\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJQYXBlcnMgb24gbWFjaGluZSB0cmFuc2xhdGlvbiB1c2luZyBhZ2VudHMgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiWzE3MDQuMDY5NjBdIFRyYW5zbGF0aW5nIE5ldXJhbGVzZSAtIGFyNWl2IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzE3MDQuMDY5NjAiLCJzbmlwcGV0IjoiSGVyZSB3ZSBwcm9wb3NlIHRvIGludGVycHJldCBhZ2VudHMnIG1lc3NhZ2VzIGJ5IHRyYW5zbGF0aW5nIHRoZW0uIFVubGlrZSBpbiB0eXBpY2FsIG1hY2hpbmUgdHJhbnNsYXRpb24gcHJvYmxlbXMsIHdlIGhhdmUgbm8gcGFyYWxsZWwgZGF0YSB0byBsZWFybiBmcm9tLiIsImRhdGUiOiJNYXIgMjAsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IltQREZdIEFnZW50LVNpTVQ6IEFnZW50LWFzc2lzdGVkIFNpbXVsdGFuZW91cyBNYWNoaW5lIFRyYW5zbGF0aW9uIHdpdGggLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA2LjA2OTEwIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGludHJvZHVjZSBBZ2VudC1TaU1ULCBhIG5vdmVsIGZyYW1ld29yayB0aGF0IGhhcm5lc3NlcyBleGlzdGluZyBUcmFuc2Zvcm1lci1iYXNlZCBTaU1UIG1ldGhvZHMgYW5kIExMTXMgdG8gY29sbGFib3JhdGl2ZWx5IGFjaGlldmUgU2lNVC4iLCJkYXRlIjoiSnVuIDEyLCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJBZ2VudC1TaU1UOiBBZ2VudC1hc3Npc3RlZCBTaW11bHRhbmVvdXMgTWFjaGluZSBUcmFuc2xhdGlvbiB3aXRoIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNi4wNjkxMCIsInNuaXBwZXQiOiJWaWV3IGEgUERGIG9mIHRoZSBwYXBlciB0aXRsZWQgQWdlbnQtU2lNVDogQWdlbnQtYXNzaXN0ZWQgU2ltdWx0YW5lb3VzIE1hY2hpbmUgVHJhbnNsYXRpb24gd2l0aCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMsIGJ5IFNob3V0YW8gR3VvIGFuZCA0IG90aGVyIGF1dGhvcnMuIiwiZGF0ZSI6Ikp1biAxMSwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gTXVsdGktbW9kYWwgTWFjaGluZSBUcmFuc2xhdGlvbjogVGFza3MsIE1ldGhvZHMgYW5kIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMTI2Njl2MiIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBiZWdpbiBieSBvZmZlcmluZyBhbiBleGhhdXN0aXZlIG92ZXJ2aWV3IG9mIDk5IHByaW9yIHdvcmtzLCBjb21wcmVoZW5zaXZlbHkgc3VtbWFyaXppbmcgcmVwcmVzZW50YXRpdmUgc3R1ZGllcyBmcm9tIHRoZSBwZXJzcGVjdGl2ZXMgb2YgLi4uIiwiZGF0ZSI6Ik1heSAyMywgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiKFBlcmhhcHMpIEJleW9uZCBIdW1hbiBUcmFuc2xhdGlvbjogSGFybmVzc2luZyBNdWx0aS1BZ2VudCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDUuMTE4MDQiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBpbnRyb2R1Y2UgVHJhbnNBZ2VudHMsIGEgbm92ZWwgbXVsdGktYWdlbnQgZnJhbWV3b3JrIHRoYXQgc2ltdWxhdGVzIHRoZSByb2xlcyBhbmQgY29sbGFib3JhdGl2ZSBwcmFjdGljZXMgb2YgYSBodW1hbiB0cmFuc2xhdGlvbiBjb21wYW55LCIsImRhdGUiOiJNYXkgMjAsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkxlYXJuaW5nIHRvIFRyYW5zbGF0ZSBpbiBSZWFsLXRpbWUgd2l0aCBOZXVyYWwgTWFjaGluZSBUcmFuc2xhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMTYxMC4wMDM4OCIsInNuaXBwZXQiOiJXZSBwcm9wb3NlIGEgbmV1cmFsIG1hY2hpbmUgdHJhbnNsYXRpb24gKE5NVCkgZnJhbWV3b3JrIGZvciBzaW11bHRhbmVvdXMgdHJhbnNsYXRpb24gaW4gd2hpY2ggYW4gYWdlbnQgbGVhcm5zIHRvIG1ha2UgZGVjaXNpb25zIG9uIHdoZW4gdG8gdHJhbnNsYXRlIGZyb20gdGhlIC4uLiIsImRhdGUiOiJPY3QgMywgMjAxNiIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQSBOZXVyYWwgTWFjaGluZSBUcmFuc2xhdGlvbiBBcHByb2FjaCB0byBHZW5lcmF0aW5nIE5hdHVyYWwgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTcwMi4wNzgyNnYyIiwic25pcHBldCI6IldlIGRlc2NyaWJlIGEgcmF0aW9uYWxpemF0aW9uIHRlY2huaXF1ZSB0aGF0IHVzZXMgbmV1cmFsIG1hY2hpbmUgdHJhbnNsYXRpb24gdG8gdHJhbnNsYXRlIGludGVybmFsIHN0YXRlLWFjdGlvbiByZXByZXNlbnRhdGlvbnMgb2YgYW4gYXV0b25vbW91cyBhZ2VudCBpbnRvIC4uLiIsImRhdGUiOiJEZWMgMTksIDIwMTciLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIER1YWwgTGVhcm5pbmcgZm9yIE1hY2hpbmUgVHJhbnNsYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMTYxMS4wMDE3OSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIGEgZHVhbC1sZWFybmluZyBtZWNoYW5pc20gdGhhdCBjYW4gbGV2ZXJhZ2UgbW9ub2xpbmd1YWwgZGF0YSAoaW4gYm90aCB0aGUgc291cmNlIGFuZCB0YXJnZXQgbGFuZ3VhZ2VzKSBpbiBhIG1vcmUgZWZmZWN0aXZlIHdheS4iLCJkYXRlIjoiTm92IDEsIDIwMTYiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkEgUmVpbmZvcmNlZCBHZW5lcmF0aW9uIG9mIEFkdmVyc2FyaWFsIEV4YW1wbGVzIGZvciBOZXVyYWwgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8xOTExLjAzNjc3djIiLCJzbmlwcGV0IjoiV2UgY29uZHVjdCBleHBlcmltZW50cyBvZiBhZHZlcnNhcmlhbCBhdHRhY2tzIG9uIHR3byBtYWluc3RyZWFtIG5ldXJhbCBtYWNoaW5lIHRyYW5zbGF0aW9uIGFyY2hpdGVjdHVyZXMsIFJOTi1zZWFyY2gsIGFuZCBUcmFuc2Zvcm1lci4gVGhlIHJlc3VsdHMgc2hvdyB0aGF0IG91ciAuLi4iLCJkYXRlIjoiTWF5IDI2LCAyMDIwIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbMTYxMS4wMDE3OV0gRHVhbCBMZWFybmluZyBmb3IgTWFjaGluZSBUcmFuc2xhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8xNjExLjAwMTc5Iiwic25pcHBldCI6IkluIHRoZSBkdWFsLWxlYXJuaW5nIG1lY2hhbmlzbSwgd2UgdXNlIG9uZSBhZ2VudCB0byByZXByZXNlbnQgdGhlIG1vZGVsIGZvciB0aGUgcHJpbWFsIHRhc2sgYW5kIHRoZSBvdGhlciBhZ2VudCB0byByZXByZXNlbnQgdGhlIG1vZGVsIGZvciB0aGUgZHVhbCB0YXNrIC4uLiIsImRhdGUiOiJOb3YgMSwgMjAxNiIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "6b3f8b123d7df8717e6a1b5f2396afbba4f30f7eedd8c06adc2a148119cbface",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Papers on machine translation using agents before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "[1704.06960] Translating Neuralese - ar5iv - arXiv",
+                "link": "https://ar5iv.labs.arxiv.org/html/1704.06960",
+                "snippet": "Here we propose to interpret agents' messages by translating them. Unlike in typical machine translation problems, we have no parallel data to learn from.",
+                "date": "Mar 20, 2024",
+                "position": 1
+              },
+              {
+                "title": "[PDF] Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...",
+                "link": "https://arxiv.org/pdf/2406.06910",
+                "snippet": "In this paper, we introduce Agent-SiMT, a novel framework that harnesses existing Transformer-based SiMT methods and LLMs to collaboratively achieve SiMT.",
+                "date": "Jun 12, 2024",
+                "position": 2
+              },
+              {
+                "title": "Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...",
+                "link": "https://arxiv.org/abs/2406.06910",
+                "snippet": "View a PDF of the paper titled Agent-SiMT: Agent-assisted Simultaneous Machine Translation with Large Language Models, by Shoutao Guo and 4 other authors.",
+                "date": "Jun 11, 2024",
+                "position": 3
+              },
+              {
+                "title": "A Survey on Multi-modal Machine Translation: Tasks, Methods and ...",
+                "link": "https://arxiv.org/html/2405.12669v2",
+                "snippet": "In this paper, we begin by offering an exhaustive overview of 99 prior works, comprehensively summarizing representative studies from the perspectives of ...",
+                "date": "May 23, 2024",
+                "position": 4
+              },
+              {
+                "title": "(Perhaps) Beyond Human Translation: Harnessing Multi-Agent ...",
+                "link": "https://arxiv.org/abs/2405.11804",
+                "snippet": "In this work, we introduce TransAgents, a novel multi-agent framework that simulates the roles and collaborative practices of a human translation company,",
+                "date": "May 20, 2024",
+                "position": 5
+              },
+              {
+                "title": "Learning to Translate in Real-time with Neural Machine Translation",
+                "link": "https://arxiv.org/abs/1610.00388",
+                "snippet": "We propose a neural machine translation (NMT) framework for simultaneous translation in which an agent learns to make decisions on when to translate from the ...",
+                "date": "Oct 3, 2016",
+                "position": 6
+              },
+              {
+                "title": "A Neural Machine Translation Approach to Generating Natural ...",
+                "link": "https://arxiv.org/html/1702.07826v2",
+                "snippet": "We describe a rationalization technique that uses neural machine translation to translate internal state-action representations of an autonomous agent into ...",
+                "date": "Dec 19, 2017",
+                "position": 7
+              },
+              {
+                "title": "[PDF] Dual Learning for Machine Translation - arXiv",
+                "link": "https://arxiv.org/pdf/1611.00179",
+                "snippet": "In this paper, we propose a dual-learning mechanism that can leverage monolingual data (in both the source and target languages) in a more effective way.",
+                "date": "Nov 1, 2016",
+                "position": 8
+              },
+              {
+                "title": "A Reinforced Generation of Adversarial Examples for Neural ... - arXiv",
+                "link": "https://arxiv.org/html/1911.03677v2",
+                "snippet": "We conduct experiments of adversarial attacks on two mainstream neural machine translation architectures, RNN-search, and Transformer. The results show that our ...",
+                "date": "May 26, 2020",
+                "position": 9
+              },
+              {
+                "title": "[1611.00179] Dual Learning for Machine Translation - arXiv",
+                "link": "https://arxiv.org/abs/1611.00179",
+                "snippet": "In the dual-learning mechanism, we use one agent to represent the model for the primal task and the other agent to represent the model for the dual task ...",
+                "date": "Nov 1, 2016",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:27:42.371533+00:00",
+          "elapsed_seconds": 1.114885177463293
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1610.00388",
+        "1611.00179",
+        "1702.07826",
+        "1704.06960",
+        "1911.03677",
+        "2405.11804",
+        "2405.12669",
+        "2406.06910"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "1704.06960",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://ar5iv.labs.arxiv.org/html/1704.06960",
+          "title": "[1704.06960] Translating Neuralese - ar5iv - arXiv",
+          "snippet": "Here we propose to interpret agents' messages by translating them. Unlike in typical machine translation problems, we have no parallel data to learn from."
+        },
+        {
+          "arxiv_id": "2406.06910",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/pdf/2406.06910",
+          "title": "[PDF] Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...",
+          "snippet": "In this paper, we introduce Agent-SiMT, a novel framework that harnesses existing Transformer-based SiMT methods and LLMs to collaboratively achieve SiMT."
+        },
+        {
+          "arxiv_id": "2406.06910",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2406.06910",
+          "title": "Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...",
+          "snippet": "View a PDF of the paper titled Agent-SiMT: Agent-assisted Simultaneous Machine Translation with Large Language Models, by Shoutao Guo and 4 other authors."
+        },
+        {
+          "arxiv_id": "2405.12669",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2405.12669v2",
+          "title": "A Survey on Multi-modal Machine Translation: Tasks, Methods and ...",
+          "snippet": "In this paper, we begin by offering an exhaustive overview of 99 prior works, comprehensively summarizing representative studies from the perspectives of ..."
+        },
+        {
+          "arxiv_id": "2405.11804",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2405.11804",
+          "title": "(Perhaps) Beyond Human Translation: Harnessing Multi-Agent ...",
+          "snippet": "In this work, we introduce TransAgents, a novel multi-agent framework that simulates the roles and collaborative practices of a human translation company,"
+        },
+        {
+          "arxiv_id": "1610.00388",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/abs/1610.00388",
+          "title": "Learning to Translate in Real-time with Neural Machine Translation",
+          "snippet": "We propose a neural machine translation (NMT) framework for simultaneous translation in which an agent learns to make decisions on when to translate from the ..."
+        },
+        {
+          "arxiv_id": "1702.07826",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/1702.07826v2",
+          "title": "A Neural Machine Translation Approach to Generating Natural ...",
+          "snippet": "We describe a rationalization technique that uses neural machine translation to translate internal state-action representations of an autonomous agent into ..."
+        },
+        {
+          "arxiv_id": "1611.00179",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/1611.00179",
+          "title": "[PDF] Dual Learning for Machine Translation - arXiv",
+          "snippet": "In this paper, we propose a dual-learning mechanism that can leverage monolingual data (in both the source and target languages) in a more effective way."
+        },
+        {
+          "arxiv_id": "1911.03677",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/1911.03677v2",
+          "title": "A Reinforced Generation of Adversarial Examples for Neural ... - arXiv",
+          "snippet": "We conduct experiments of adversarial attacks on two mainstream neural machine translation architectures, RNN-search, and Transformer. The results show that our ..."
+        },
+        {
+          "arxiv_id": "1611.00179",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/abs/1611.00179",
+          "title": "[1611.00179] Dual Learning for Machine Translation - arXiv",
+          "snippet": "In the dual-learning mechanism, we use one agent to represent the model for the primal task and the other agent to represent the model for the dual task ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Papers on machine translation using agents before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Survey papers on machine translation",
+      "attempts": [
+        {
+          "global_attempt_sequence": 147,
+          "query_id": "Q24",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Survey papers on machine translation",
+          "request_payload": {
+            "q": "Survey papers on machine translation before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q24_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:27:42.516362+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on machine translation before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"A Comprehensive Survey of Multilingual Neural Machine Translation\",\"link\":\"https://arxiv.org/abs/2001.01115\",\"snippet\":\"Abstract:We present a survey on multilingual neural machine translation (MNMT), which has gained a lot of traction in the recent years.\",\"date\":\"Jan 4, 2020\",\"position\":1},{\"title\":\"[2405.12669] A Survey on Multi-modal Machine Translation - arXiv\",\"link\":\"https://arxiv.org/abs/2405.12669\",\"snippet\":\"Access Paper: View a PDF of the paper titled A Survey on Multi-modal Machine Translation: Tasks, Methods and Challenges, by Huangjun Shen and 5 other authors.\",\"date\":\"May 21, 2024\",\"position\":2},{\"title\":\"A Brief Survey for Machine Translation Quality Estimation - arXiv\",\"link\":\"https://arxiv.org/abs/2403.14118\",\"snippet\":\"This article provides a comprehensive overview of QE datasets, annotation methods, shared tasks, methodologies, challenges, and future research directions.\",\"date\":\"Mar 21, 2024\",\"position\":3},{\"title\":\"A Survey on Multi-modal Machine Translation: Tasks, Methods and ...\",\"link\":\"https://arxiv.org/html/2405.12669v2\",\"snippet\":\"In this paper, we begin by offering an exhaustive overview of 99 prior works, comprehensively summarizing representative studies from the perspectives of ...\",\"date\":\"May 23, 2024\",\"position\":4},{\"title\":\"[1912.02047] Neural Machine Translation: A Review and Survey\",\"link\":\"https://arxiv.org/abs/1912.02047\",\"snippet\":\"In this work we will trace back the origins of modern NMT architectures to word and sentence embeddings and earlier examples of the encoder-decoder network ...\",\"date\":\"Dec 4, 2019\",\"position\":5},{\"title\":\"A Survey on Document-level Neural Machine Translation - arXiv\",\"link\":\"https://arxiv.org/abs/1912.08494\",\"snippet\":\"The aim of this survey paper is to highlight the major works that have been undertaken in the space of document-level machine translation after the neural ...\",\"date\":\"Dec 18, 2019\",\"position\":6},{\"title\":\"[2107.04239] A Survey on Low-Resource Neural Machine Translation\",\"link\":\"https://arxiv.org/abs/2107.04239\",\"snippet\":\"In this paper, we provide a survey for low-resource NMT and classify related works into three categories according to the auxiliary data they\",\"date\":\"Jul 9, 2021\",\"position\":7},{\"title\":\"A Survey of Deep Learning Techniques for Neural Machine ... - arXiv\",\"link\":\"https://arxiv.org/abs/2002.07526\",\"snippet\":\"This literature survey traces back the origin and principal development timeline of NMT, investigates the important branches, categorizes different research ...\",\"date\":\"Feb 18, 2020\",\"position\":8},{\"title\":\"Neural Machine Translation for Low-Resource Languages: A Survey\",\"link\":\"https://arxiv.org/abs/2106.15115\",\"snippet\":\"This paper presents a detailed survey of research advancements in low-resource language NMT (LRL-NMT), along with a quantitative analysis aimed at identifying ...\",\"date\":\"Jun 29, 2021\",\"position\":9},{\"title\":\"A Brief Survey of Multilingual Neural Machine Translation - arXiv\",\"link\":\"https://arxiv.org/abs/1905.05395\",\"snippet\":\"In this paper, we present an in-depth survey of existing literature on MNMT. We categorize various approaches based on the resource scenarios as well as ...\",\"date\":\"May 14, 2019\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIG1hY2hpbmUgdHJhbnNsYXRpb24gYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQSBDb21wcmVoZW5zaXZlIFN1cnZleSBvZiBNdWx0aWxpbmd1YWwgTmV1cmFsIE1hY2hpbmUgVHJhbnNsYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIwMDEuMDExMTUiLCJzbmlwcGV0IjoiQWJzdHJhY3Q6V2UgcHJlc2VudCBhIHN1cnZleSBvbiBtdWx0aWxpbmd1YWwgbmV1cmFsIG1hY2hpbmUgdHJhbnNsYXRpb24gKE1OTVQpLCB3aGljaCBoYXMgZ2FpbmVkIGEgbG90IG9mIHRyYWN0aW9uIGluIHRoZSByZWNlbnQgeWVhcnMuIiwiZGF0ZSI6IkphbiA0LCAyMDIwIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbMjQwNS4xMjY2OV0gQSBTdXJ2ZXkgb24gTXVsdGktbW9kYWwgTWFjaGluZSBUcmFuc2xhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA1LjEyNjY5Iiwic25pcHBldCI6IkFjY2VzcyBQYXBlcjogVmlldyBhIFBERiBvZiB0aGUgcGFwZXIgdGl0bGVkIEEgU3VydmV5IG9uIE11bHRpLW1vZGFsIE1hY2hpbmUgVHJhbnNsYXRpb246IFRhc2tzLCBNZXRob2RzIGFuZCBDaGFsbGVuZ2VzLCBieSBIdWFuZ2p1biBTaGVuIGFuZCA1IG90aGVyIGF1dGhvcnMuIiwiZGF0ZSI6Ik1heSAyMSwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiQSBCcmllZiBTdXJ2ZXkgZm9yIE1hY2hpbmUgVHJhbnNsYXRpb24gUXVhbGl0eSBFc3RpbWF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDMuMTQxMTgiLCJzbmlwcGV0IjoiVGhpcyBhcnRpY2xlIHByb3ZpZGVzIGEgY29tcHJlaGVuc2l2ZSBvdmVydmlldyBvZiBRRSBkYXRhc2V0cywgYW5ub3RhdGlvbiBtZXRob2RzLCBzaGFyZWQgdGFza3MsIG1ldGhvZG9sb2dpZXMsIGNoYWxsZW5nZXMsIGFuZCBmdXR1cmUgcmVzZWFyY2ggZGlyZWN0aW9ucy4iLCJkYXRlIjoiTWFyIDIxLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJBIFN1cnZleSBvbiBNdWx0aS1tb2RhbCBNYWNoaW5lIFRyYW5zbGF0aW9uOiBUYXNrcywgTWV0aG9kcyBhbmQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xMjY2OXYyIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGJlZ2luIGJ5IG9mZmVyaW5nIGFuIGV4aGF1c3RpdmUgb3ZlcnZpZXcgb2YgOTkgcHJpb3Igd29ya3MsIGNvbXByZWhlbnNpdmVseSBzdW1tYXJpemluZyByZXByZXNlbnRhdGl2ZSBzdHVkaWVzIGZyb20gdGhlIHBlcnNwZWN0aXZlcyBvZiAuLi4iLCJkYXRlIjoiTWF5IDIzLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbMTkxMi4wMjA0N10gTmV1cmFsIE1hY2hpbmUgVHJhbnNsYXRpb246IEEgUmV2aWV3IGFuZCBTdXJ2ZXkiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzE5MTIuMDIwNDciLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrIHdlIHdpbGwgdHJhY2UgYmFjayB0aGUgb3JpZ2lucyBvZiBtb2Rlcm4gTk1UIGFyY2hpdGVjdHVyZXMgdG8gd29yZCBhbmQgc2VudGVuY2UgZW1iZWRkaW5ncyBhbmQgZWFybGllciBleGFtcGxlcyBvZiB0aGUgZW5jb2Rlci1kZWNvZGVyIG5ldHdvcmsgLi4uIiwiZGF0ZSI6IkRlYyA0LCAyMDE5IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJBIFN1cnZleSBvbiBEb2N1bWVudC1sZXZlbCBOZXVyYWwgTWFjaGluZSBUcmFuc2xhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8xOTEyLjA4NDk0Iiwic25pcHBldCI6IlRoZSBhaW0gb2YgdGhpcyBzdXJ2ZXkgcGFwZXIgaXMgdG8gaGlnaGxpZ2h0IHRoZSBtYWpvciB3b3JrcyB0aGF0IGhhdmUgYmVlbiB1bmRlcnRha2VuIGluIHRoZSBzcGFjZSBvZiBkb2N1bWVudC1sZXZlbCBtYWNoaW5lIHRyYW5zbGF0aW9uIGFmdGVyIHRoZSBuZXVyYWwgLi4uIiwiZGF0ZSI6IkRlYyAxOCwgMjAxOSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiWzIxMDcuMDQyMzldIEEgU3VydmV5IG9uIExvdy1SZXNvdXJjZSBOZXVyYWwgTWFjaGluZSBUcmFuc2xhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjEwNy4wNDIzOSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm92aWRlIGEgc3VydmV5IGZvciBsb3ctcmVzb3VyY2UgTk1UIGFuZCBjbGFzc2lmeSByZWxhdGVkIHdvcmtzIGludG8gdGhyZWUgY2F0ZWdvcmllcyBhY2NvcmRpbmcgdG8gdGhlIGF1eGlsaWFyeSBkYXRhIHRoZXkiLCJkYXRlIjoiSnVsIDksIDIwMjEiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkEgU3VydmV5IG9mIERlZXAgTGVhcm5pbmcgVGVjaG5pcXVlcyBmb3IgTmV1cmFsIE1hY2hpbmUgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIwMDIuMDc1MjYiLCJzbmlwcGV0IjoiVGhpcyBsaXRlcmF0dXJlIHN1cnZleSB0cmFjZXMgYmFjayB0aGUgb3JpZ2luIGFuZCBwcmluY2lwYWwgZGV2ZWxvcG1lbnQgdGltZWxpbmUgb2YgTk1ULCBpbnZlc3RpZ2F0ZXMgdGhlIGltcG9ydGFudCBicmFuY2hlcywgY2F0ZWdvcml6ZXMgZGlmZmVyZW50IHJlc2VhcmNoIC4uLiIsImRhdGUiOiJGZWIgMTgsIDIwMjAiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6Ik5ldXJhbCBNYWNoaW5lIFRyYW5zbGF0aW9uIGZvciBMb3ctUmVzb3VyY2UgTGFuZ3VhZ2VzOiBBIFN1cnZleSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjEwNi4xNTExNSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHByZXNlbnRzIGEgZGV0YWlsZWQgc3VydmV5IG9mIHJlc2VhcmNoIGFkdmFuY2VtZW50cyBpbiBsb3ctcmVzb3VyY2UgbGFuZ3VhZ2UgTk1UIChMUkwtTk1UKSwgYWxvbmcgd2l0aCBhIHF1YW50aXRhdGl2ZSBhbmFseXNpcyBhaW1lZCBhdCBpZGVudGlmeWluZyAuLi4iLCJkYXRlIjoiSnVuIDI5LCAyMDIxIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJBIEJyaWVmIFN1cnZleSBvZiBNdWx0aWxpbmd1YWwgTmV1cmFsIE1hY2hpbmUgVHJhbnNsYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMTkwNS4wNTM5NSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcmVzZW50IGFuIGluLWRlcHRoIHN1cnZleSBvZiBleGlzdGluZyBsaXRlcmF0dXJlIG9uIE1OTVQuIFdlIGNhdGVnb3JpemUgdmFyaW91cyBhcHByb2FjaGVzIGJhc2VkIG9uIHRoZSByZXNvdXJjZSBzY2VuYXJpb3MgYXMgd2VsbCBhcyAuLi4iLCJkYXRlIjoiTWF5IDE0LCAyMDE5IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "460a580c8b1d5e7f353ce84f476fc0de005293fdf6921dd959f23f1e75250b0b",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey papers on machine translation before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "A Comprehensive Survey of Multilingual Neural Machine Translation",
+                "link": "https://arxiv.org/abs/2001.01115",
+                "snippet": "Abstract:We present a survey on multilingual neural machine translation (MNMT), which has gained a lot of traction in the recent years.",
+                "date": "Jan 4, 2020",
+                "position": 1
+              },
+              {
+                "title": "[2405.12669] A Survey on Multi-modal Machine Translation - arXiv",
+                "link": "https://arxiv.org/abs/2405.12669",
+                "snippet": "Access Paper: View a PDF of the paper titled A Survey on Multi-modal Machine Translation: Tasks, Methods and Challenges, by Huangjun Shen and 5 other authors.",
+                "date": "May 21, 2024",
+                "position": 2
+              },
+              {
+                "title": "A Brief Survey for Machine Translation Quality Estimation - arXiv",
+                "link": "https://arxiv.org/abs/2403.14118",
+                "snippet": "This article provides a comprehensive overview of QE datasets, annotation methods, shared tasks, methodologies, challenges, and future research directions.",
+                "date": "Mar 21, 2024",
+                "position": 3
+              },
+              {
+                "title": "A Survey on Multi-modal Machine Translation: Tasks, Methods and ...",
+                "link": "https://arxiv.org/html/2405.12669v2",
+                "snippet": "In this paper, we begin by offering an exhaustive overview of 99 prior works, comprehensively summarizing representative studies from the perspectives of ...",
+                "date": "May 23, 2024",
+                "position": 4
+              },
+              {
+                "title": "[1912.02047] Neural Machine Translation: A Review and Survey",
+                "link": "https://arxiv.org/abs/1912.02047",
+                "snippet": "In this work we will trace back the origins of modern NMT architectures to word and sentence embeddings and earlier examples of the encoder-decoder network ...",
+                "date": "Dec 4, 2019",
+                "position": 5
+              },
+              {
+                "title": "A Survey on Document-level Neural Machine Translation - arXiv",
+                "link": "https://arxiv.org/abs/1912.08494",
+                "snippet": "The aim of this survey paper is to highlight the major works that have been undertaken in the space of document-level machine translation after the neural ...",
+                "date": "Dec 18, 2019",
+                "position": 6
+              },
+              {
+                "title": "[2107.04239] A Survey on Low-Resource Neural Machine Translation",
+                "link": "https://arxiv.org/abs/2107.04239",
+                "snippet": "In this paper, we provide a survey for low-resource NMT and classify related works into three categories according to the auxiliary data they",
+                "date": "Jul 9, 2021",
+                "position": 7
+              },
+              {
+                "title": "A Survey of Deep Learning Techniques for Neural Machine ... - arXiv",
+                "link": "https://arxiv.org/abs/2002.07526",
+                "snippet": "This literature survey traces back the origin and principal development timeline of NMT, investigates the important branches, categorizes different research ...",
+                "date": "Feb 18, 2020",
+                "position": 8
+              },
+              {
+                "title": "Neural Machine Translation for Low-Resource Languages: A Survey",
+                "link": "https://arxiv.org/abs/2106.15115",
+                "snippet": "This paper presents a detailed survey of research advancements in low-resource language NMT (LRL-NMT), along with a quantitative analysis aimed at identifying ...",
+                "date": "Jun 29, 2021",
+                "position": 9
+              },
+              {
+                "title": "A Brief Survey of Multilingual Neural Machine Translation - arXiv",
+                "link": "https://arxiv.org/abs/1905.05395",
+                "snippet": "In this paper, we present an in-depth survey of existing literature on MNMT. We categorize various approaches based on the resource scenarios as well as ...",
+                "date": "May 14, 2019",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:27:44.296909+00:00",
+          "elapsed_seconds": 1.7805461660027504
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1905.05395",
+        "1912.02047",
+        "1912.08494",
+        "2001.01115",
+        "2002.07526",
+        "2106.15115",
+        "2107.04239",
+        "2403.14118",
+        "2405.12669"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2001.01115",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2001.01115",
+          "title": "A Comprehensive Survey of Multilingual Neural Machine Translation",
+          "snippet": "Abstract:We present a survey on multilingual neural machine translation (MNMT), which has gained a lot of traction in the recent years."
+        },
+        {
+          "arxiv_id": "2405.12669",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2405.12669",
+          "title": "[2405.12669] A Survey on Multi-modal Machine Translation - arXiv",
+          "snippet": "Access Paper: View a PDF of the paper titled A Survey on Multi-modal Machine Translation: Tasks, Methods and Challenges, by Huangjun Shen and 5 other authors."
+        },
+        {
+          "arxiv_id": "2403.14118",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2403.14118",
+          "title": "A Brief Survey for Machine Translation Quality Estimation - arXiv",
+          "snippet": "This article provides a comprehensive overview of QE datasets, annotation methods, shared tasks, methodologies, challenges, and future research directions."
+        },
+        {
+          "arxiv_id": "2405.12669",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2405.12669v2",
+          "title": "A Survey on Multi-modal Machine Translation: Tasks, Methods and ...",
+          "snippet": "In this paper, we begin by offering an exhaustive overview of 99 prior works, comprehensively summarizing representative studies from the perspectives of ..."
+        },
+        {
+          "arxiv_id": "1912.02047",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/1912.02047",
+          "title": "[1912.02047] Neural Machine Translation: A Review and Survey",
+          "snippet": "In this work we will trace back the origins of modern NMT architectures to word and sentence embeddings and earlier examples of the encoder-decoder network ..."
+        },
+        {
+          "arxiv_id": "1912.08494",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/abs/1912.08494",
+          "title": "A Survey on Document-level Neural Machine Translation - arXiv",
+          "snippet": "The aim of this survey paper is to highlight the major works that have been undertaken in the space of document-level machine translation after the neural ..."
+        },
+        {
+          "arxiv_id": "2107.04239",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/abs/2107.04239",
+          "title": "[2107.04239] A Survey on Low-Resource Neural Machine Translation",
+          "snippet": "In this paper, we provide a survey for low-resource NMT and classify related works into three categories according to the auxiliary data they"
+        },
+        {
+          "arxiv_id": "2002.07526",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2002.07526",
+          "title": "A Survey of Deep Learning Techniques for Neural Machine ... - arXiv",
+          "snippet": "This literature survey traces back the origin and principal development timeline of NMT, investigates the important branches, categorizes different research ..."
+        },
+        {
+          "arxiv_id": "2106.15115",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2106.15115",
+          "title": "Neural Machine Translation for Low-Resource Languages: A Survey",
+          "snippet": "This paper presents a detailed survey of research advancements in low-resource language NMT (LRL-NMT), along with a quantitative analysis aimed at identifying ..."
+        },
+        {
+          "arxiv_id": "1905.05395",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/abs/1905.05395",
+          "title": "A Brief Survey of Multilingual Neural Machine Translation - arXiv",
+          "snippet": "In this paper, we present an in-depth survey of existing literature on MNMT. We categorize various approaches based on the resource scenarios as well as ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey papers on machine translation before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Research on machine learning in machine translation",
+      "attempts": [
+        {
+          "global_attempt_sequence": 148,
+          "query_id": "Q24",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Research on machine learning in machine translation",
+          "request_payload": {
+            "q": "Research on machine learning in machine translation before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q24_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:27:44.441703+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Research on machine learning in machine translation before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"A Survey on Multi-modal Machine Translation: Tasks, Methods and ...\",\"link\":\"https://arxiv.org/html/2405.12669v2\",\"snippet\":\"Therefore, an increasing amount of research focuses on multi-modal machine translation (MMT), which integrates visual information to improve MT. In general, MMT ...\",\"date\":\"May 23, 2024\",\"position\":1},{\"title\":\"Neural Machine Translation by Jointly Learning to Align and ... - arXiv\",\"link\":\"https://arxiv.org/abs/1409.0473\",\"snippet\":\"the neural machine translation aims at building a single neural network that can be jointly tuned to maximize the translation performance.\",\"date\":\"Sep 1, 2014\",\"position\":2},{\"title\":\"A Study of Reinforcement Learning for Neural Machine Translation\",\"link\":\"https://arxiv.org/abs/1808.08866\",\"snippet\":\"Abstract:Recent studies have shown that reinforcement learning (RL) is an effective approach for improving the performance of neural machine translation ...\",\"date\":\"Aug 27, 2018\",\"position\":3},{\"title\":\"[2301.00688] Active Learning for Neural Machine Translation - arXiv\",\"link\":\"https://arxiv.org/abs/2301.00688\",\"snippet\":\"We incorporated a technique known Active Learning with the NMT toolkit Joey NMT to reach sufficient accuracy and robust predictions of low-resource language ...\",\"date\":\"Dec 30, 2022\",\"position\":4},{\"title\":\"[2202.11027] An Overview on Machine Translation Evaluation - arXiv\",\"link\":\"https://arxiv.org/abs/2202.11027\",\"snippet\":\"The evaluation task of MT is not only to evaluate the quality of machine translation, but also to give timely feedback to machine translation researchers on the ...\",\"date\":\"Feb 22, 2022\",\"position\":5},{\"title\":\"The Future of Machine Translation Lies with Large Language Models\",\"link\":\"https://arxiv.org/html/2305.01181v3\",\"snippet\":\"This approach can enhance the quality and accuracy of translations in various settings, such as image or video captioning, automatic speech recognition, and ...\",\"date\":\"Apr 2, 2024\",\"position\":6},{\"title\":\"Automated Multi-Language to English Machine Translation Using ...\",\"link\":\"https://arxiv.org/abs/2404.14680\",\"snippet\":\"Machine learning enabled and automated translation that is accurate and fast is often a large topic of interest in the machine learning and data science ...\",\"date\":\"Apr 23, 2024\",\"position\":7},{\"title\":\"[2312.07250] Neural Machine Translation of Clinical Text - arXiv\",\"link\":\"https://arxiv.org/abs/2312.07250\",\"snippet\":\"Abstract:We conduct investigations on clinical text machine translation by examining multilingual neural network models using deep learning such as ...\",\"date\":\"Dec 12, 2023\",\"position\":8},{\"title\":\"A Shared Task on Bandit Learning for Machine Translation - arXiv\",\"link\":\"https://arxiv.org/html/1707.09050v1\",\"snippet\":\"We introduce and describe the results of a novel shared task on bandit learning for machine translation. ... The goal of the task is to encourage research on ...\",\"date\":\"Jul 27, 2017\",\"position\":9},{\"title\":\"A Survey of Deep Learning Techniques for Neural Machine ... - arXiv\",\"link\":\"https://arxiv.org/abs/2002.07526\",\"snippet\":\"In the sub-field of machine translation, a new approach named Neural Machine Translation (NMT) has emerged and got massive attention from both academia and ...\",\"date\":\"Feb 18, 2020\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZXNlYXJjaCBvbiBtYWNoaW5lIGxlYXJuaW5nIGluIG1hY2hpbmUgdHJhbnNsYXRpb24gYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQSBTdXJ2ZXkgb24gTXVsdGktbW9kYWwgTWFjaGluZSBUcmFuc2xhdGlvbjogVGFza3MsIE1ldGhvZHMgYW5kIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMTI2Njl2MiIsInNuaXBwZXQiOiJUaGVyZWZvcmUsIGFuIGluY3JlYXNpbmcgYW1vdW50IG9mIHJlc2VhcmNoIGZvY3VzZXMgb24gbXVsdGktbW9kYWwgbWFjaGluZSB0cmFuc2xhdGlvbiAoTU1UKSwgd2hpY2ggaW50ZWdyYXRlcyB2aXN1YWwgaW5mb3JtYXRpb24gdG8gaW1wcm92ZSBNVC4gSW4gZ2VuZXJhbCwgTU1UIC4uLiIsImRhdGUiOiJNYXkgMjMsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6Ik5ldXJhbCBNYWNoaW5lIFRyYW5zbGF0aW9uIGJ5IEpvaW50bHkgTGVhcm5pbmcgdG8gQWxpZ24gYW5kIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8xNDA5LjA0NzMiLCJzbmlwcGV0IjoidGhlIG5ldXJhbCBtYWNoaW5lIHRyYW5zbGF0aW9uIGFpbXMgYXQgYnVpbGRpbmcgYSBzaW5nbGUgbmV1cmFsIG5ldHdvcmsgdGhhdCBjYW4gYmUgam9pbnRseSB0dW5lZCB0byBtYXhpbWl6ZSB0aGUgdHJhbnNsYXRpb24gcGVyZm9ybWFuY2UuIiwiZGF0ZSI6IlNlcCAxLCAyMDE0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJBIFN0dWR5IG9mIFJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgZm9yIE5ldXJhbCBNYWNoaW5lIFRyYW5zbGF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8xODA4LjA4ODY2Iiwic25pcHBldCI6IkFic3RyYWN0OlJlY2VudCBzdHVkaWVzIGhhdmUgc2hvd24gdGhhdCByZWluZm9yY2VtZW50IGxlYXJuaW5nIChSTCkgaXMgYW4gZWZmZWN0aXZlIGFwcHJvYWNoIGZvciBpbXByb3ZpbmcgdGhlIHBlcmZvcm1hbmNlIG9mIG5ldXJhbCBtYWNoaW5lIHRyYW5zbGF0aW9uIC4uLiIsImRhdGUiOiJBdWcgMjcsIDIwMTgiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IlsyMzAxLjAwNjg4XSBBY3RpdmUgTGVhcm5pbmcgZm9yIE5ldXJhbCBNYWNoaW5lIFRyYW5zbGF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDEuMDA2ODgiLCJzbmlwcGV0IjoiV2UgaW5jb3Jwb3JhdGVkIGEgdGVjaG5pcXVlIGtub3duIEFjdGl2ZSBMZWFybmluZyB3aXRoIHRoZSBOTVQgdG9vbGtpdCBKb2V5IE5NVCB0byByZWFjaCBzdWZmaWNpZW50IGFjY3VyYWN5IGFuZCByb2J1c3QgcHJlZGljdGlvbnMgb2YgbG93LXJlc291cmNlIGxhbmd1YWdlIC4uLiIsImRhdGUiOiJEZWMgMzAsIDIwMjIiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlsyMjAyLjExMDI3XSBBbiBPdmVydmlldyBvbiBNYWNoaW5lIFRyYW5zbGF0aW9uIEV2YWx1YXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjIwMi4xMTAyNyIsInNuaXBwZXQiOiJUaGUgZXZhbHVhdGlvbiB0YXNrIG9mIE1UIGlzIG5vdCBvbmx5IHRvIGV2YWx1YXRlIHRoZSBxdWFsaXR5IG9mIG1hY2hpbmUgdHJhbnNsYXRpb24sIGJ1dCBhbHNvIHRvIGdpdmUgdGltZWx5IGZlZWRiYWNrIHRvIG1hY2hpbmUgdHJhbnNsYXRpb24gcmVzZWFyY2hlcnMgb24gdGhlIC4uLiIsImRhdGUiOiJGZWIgMjIsIDIwMjIiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IlRoZSBGdXR1cmUgb2YgTWFjaGluZSBUcmFuc2xhdGlvbiBMaWVzIHdpdGggTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwNS4wMTE4MXYzIiwic25pcHBldCI6IlRoaXMgYXBwcm9hY2ggY2FuIGVuaGFuY2UgdGhlIHF1YWxpdHkgYW5kIGFjY3VyYWN5IG9mIHRyYW5zbGF0aW9ucyBpbiB2YXJpb3VzIHNldHRpbmdzLCBzdWNoIGFzIGltYWdlIG9yIHZpZGVvIGNhcHRpb25pbmcsIGF1dG9tYXRpYyBzcGVlY2ggcmVjb2duaXRpb24sIGFuZCAuLi4iLCJkYXRlIjoiQXByIDIsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkF1dG9tYXRlZCBNdWx0aS1MYW5ndWFnZSB0byBFbmdsaXNoIE1hY2hpbmUgVHJhbnNsYXRpb24gVXNpbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA0LjE0NjgwIiwic25pcHBldCI6Ik1hY2hpbmUgbGVhcm5pbmcgZW5hYmxlZCBhbmQgYXV0b21hdGVkIHRyYW5zbGF0aW9uIHRoYXQgaXMgYWNjdXJhdGUgYW5kIGZhc3QgaXMgb2Z0ZW4gYSBsYXJnZSB0b3BpYyBvZiBpbnRlcmVzdCBpbiB0aGUgbWFjaGluZSBsZWFybmluZyBhbmQgZGF0YSBzY2llbmNlIC4uLiIsImRhdGUiOiJBcHIgMjMsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlsyMzEyLjA3MjUwXSBOZXVyYWwgTWFjaGluZSBUcmFuc2xhdGlvbiBvZiBDbGluaWNhbCBUZXh0IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMTIuMDcyNTAiLCJzbmlwcGV0IjoiQWJzdHJhY3Q6V2UgY29uZHVjdCBpbnZlc3RpZ2F0aW9ucyBvbiBjbGluaWNhbCB0ZXh0IG1hY2hpbmUgdHJhbnNsYXRpb24gYnkgZXhhbWluaW5nIG11bHRpbGluZ3VhbCBuZXVyYWwgbmV0d29yayBtb2RlbHMgdXNpbmcgZGVlcCBsZWFybmluZyBzdWNoIGFzIC4uLiIsImRhdGUiOiJEZWMgMTIsIDIwMjMiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkEgU2hhcmVkIFRhc2sgb24gQmFuZGl0IExlYXJuaW5nIGZvciBNYWNoaW5lIFRyYW5zbGF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8xNzA3LjA5MDUwdjEiLCJzbmlwcGV0IjoiV2UgaW50cm9kdWNlIGFuZCBkZXNjcmliZSB0aGUgcmVzdWx0cyBvZiBhIG5vdmVsIHNoYXJlZCB0YXNrIG9uIGJhbmRpdCBsZWFybmluZyBmb3IgbWFjaGluZSB0cmFuc2xhdGlvbi4gLi4uIFRoZSBnb2FsIG9mIHRoZSB0YXNrIGlzIHRvIGVuY291cmFnZSByZXNlYXJjaCBvbiAuLi4iLCJkYXRlIjoiSnVsIDI3LCAyMDE3IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJBIFN1cnZleSBvZiBEZWVwIExlYXJuaW5nIFRlY2huaXF1ZXMgZm9yIE5ldXJhbCBNYWNoaW5lIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMDAyLjA3NTI2Iiwic25pcHBldCI6IkluIHRoZSBzdWItZmllbGQgb2YgbWFjaGluZSB0cmFuc2xhdGlvbiwgYSBuZXcgYXBwcm9hY2ggbmFtZWQgTmV1cmFsIE1hY2hpbmUgVHJhbnNsYXRpb24gKE5NVCkgaGFzIGVtZXJnZWQgYW5kIGdvdCBtYXNzaXZlIGF0dGVudGlvbiBmcm9tIGJvdGggYWNhZGVtaWEgYW5kIC4uLiIsImRhdGUiOiJGZWIgMTgsIDIwMjAiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "445e71d09413fc1837e4aa6d60700c4ec41ed296af6469f91cf27c6600142fee",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Research on machine learning in machine translation before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "A Survey on Multi-modal Machine Translation: Tasks, Methods and ...",
+                "link": "https://arxiv.org/html/2405.12669v2",
+                "snippet": "Therefore, an increasing amount of research focuses on multi-modal machine translation (MMT), which integrates visual information to improve MT. In general, MMT ...",
+                "date": "May 23, 2024",
+                "position": 1
+              },
+              {
+                "title": "Neural Machine Translation by Jointly Learning to Align and ... - arXiv",
+                "link": "https://arxiv.org/abs/1409.0473",
+                "snippet": "the neural machine translation aims at building a single neural network that can be jointly tuned to maximize the translation performance.",
+                "date": "Sep 1, 2014",
+                "position": 2
+              },
+              {
+                "title": "A Study of Reinforcement Learning for Neural Machine Translation",
+                "link": "https://arxiv.org/abs/1808.08866",
+                "snippet": "Abstract:Recent studies have shown that reinforcement learning (RL) is an effective approach for improving the performance of neural machine translation ...",
+                "date": "Aug 27, 2018",
+                "position": 3
+              },
+              {
+                "title": "[2301.00688] Active Learning for Neural Machine Translation - arXiv",
+                "link": "https://arxiv.org/abs/2301.00688",
+                "snippet": "We incorporated a technique known Active Learning with the NMT toolkit Joey NMT to reach sufficient accuracy and robust predictions of low-resource language ...",
+                "date": "Dec 30, 2022",
+                "position": 4
+              },
+              {
+                "title": "[2202.11027] An Overview on Machine Translation Evaluation - arXiv",
+                "link": "https://arxiv.org/abs/2202.11027",
+                "snippet": "The evaluation task of MT is not only to evaluate the quality of machine translation, but also to give timely feedback to machine translation researchers on the ...",
+                "date": "Feb 22, 2022",
+                "position": 5
+              },
+              {
+                "title": "The Future of Machine Translation Lies with Large Language Models",
+                "link": "https://arxiv.org/html/2305.01181v3",
+                "snippet": "This approach can enhance the quality and accuracy of translations in various settings, such as image or video captioning, automatic speech recognition, and ...",
+                "date": "Apr 2, 2024",
+                "position": 6
+              },
+              {
+                "title": "Automated Multi-Language to English Machine Translation Using ...",
+                "link": "https://arxiv.org/abs/2404.14680",
+                "snippet": "Machine learning enabled and automated translation that is accurate and fast is often a large topic of interest in the machine learning and data science ...",
+                "date": "Apr 23, 2024",
+                "position": 7
+              },
+              {
+                "title": "[2312.07250] Neural Machine Translation of Clinical Text - arXiv",
+                "link": "https://arxiv.org/abs/2312.07250",
+                "snippet": "Abstract:We conduct investigations on clinical text machine translation by examining multilingual neural network models using deep learning such as ...",
+                "date": "Dec 12, 2023",
+                "position": 8
+              },
+              {
+                "title": "A Shared Task on Bandit Learning for Machine Translation - arXiv",
+                "link": "https://arxiv.org/html/1707.09050v1",
+                "snippet": "We introduce and describe the results of a novel shared task on bandit learning for machine translation. ... The goal of the task is to encourage research on ...",
+                "date": "Jul 27, 2017",
+                "position": 9
+              },
+              {
+                "title": "A Survey of Deep Learning Techniques for Neural Machine ... - arXiv",
+                "link": "https://arxiv.org/abs/2002.07526",
+                "snippet": "In the sub-field of machine translation, a new approach named Neural Machine Translation (NMT) has emerged and got massive attention from both academia and ...",
+                "date": "Feb 18, 2020",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:27:45.734493+00:00",
+          "elapsed_seconds": 1.2927880138158798
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1409.0473",
+        "1707.09050",
+        "1808.08866",
+        "2002.07526",
+        "2202.11027",
+        "2301.00688",
+        "2305.01181",
+        "2312.07250",
+        "2404.14680",
+        "2405.12669"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2405.12669",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2405.12669v2",
+          "title": "A Survey on Multi-modal Machine Translation: Tasks, Methods and ...",
+          "snippet": "Therefore, an increasing amount of research focuses on multi-modal machine translation (MMT), which integrates visual information to improve MT. In general, MMT ..."
+        },
+        {
+          "arxiv_id": "1409.0473",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/1409.0473",
+          "title": "Neural Machine Translation by Jointly Learning to Align and ... - arXiv",
+          "snippet": "the neural machine translation aims at building a single neural network that can be jointly tuned to maximize the translation performance."
+        },
+        {
+          "arxiv_id": "1808.08866",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/1808.08866",
+          "title": "A Study of Reinforcement Learning for Neural Machine Translation",
+          "snippet": "Abstract:Recent studies have shown that reinforcement learning (RL) is an effective approach for improving the performance of neural machine translation ..."
+        },
+        {
+          "arxiv_id": "2301.00688",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2301.00688",
+          "title": "[2301.00688] Active Learning for Neural Machine Translation - arXiv",
+          "snippet": "We incorporated a technique known Active Learning with the NMT toolkit Joey NMT to reach sufficient accuracy and robust predictions of low-resource language ..."
+        },
+        {
+          "arxiv_id": "2202.11027",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2202.11027",
+          "title": "[2202.11027] An Overview on Machine Translation Evaluation - arXiv",
+          "snippet": "The evaluation task of MT is not only to evaluate the quality of machine translation, but also to give timely feedback to machine translation researchers on the ..."
+        },
+        {
+          "arxiv_id": "2305.01181",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2305.01181v3",
+          "title": "The Future of Machine Translation Lies with Large Language Models",
+          "snippet": "This approach can enhance the quality and accuracy of translations in various settings, such as image or video captioning, automatic speech recognition, and ..."
+        },
+        {
+          "arxiv_id": "2404.14680",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/abs/2404.14680",
+          "title": "Automated Multi-Language to English Machine Translation Using ...",
+          "snippet": "Machine learning enabled and automated translation that is accurate and fast is often a large topic of interest in the machine learning and data science ..."
+        },
+        {
+          "arxiv_id": "2312.07250",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2312.07250",
+          "title": "[2312.07250] Neural Machine Translation of Clinical Text - arXiv",
+          "snippet": "Abstract:We conduct investigations on clinical text machine translation by examining multilingual neural network models using deep learning such as ..."
+        },
+        {
+          "arxiv_id": "1707.09050",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/1707.09050v1",
+          "title": "A Shared Task on Bandit Learning for Machine Translation - arXiv",
+          "snippet": "We introduce and describe the results of a novel shared task on bandit learning for machine translation. ... The goal of the task is to encourage research on ..."
+        },
+        {
+          "arxiv_id": "2002.07526",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/abs/2002.07526",
+          "title": "A Survey of Deep Learning Techniques for Neural Machine ... - arXiv",
+          "snippet": "In the sub-field of machine translation, a new approach named Neural Machine Translation (NMT) has emerged and got massive attention from both academia and ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Research on machine learning in machine translation before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Latest advancements in machine translation agents",
+      "attempts": [
+        {
+          "global_attempt_sequence": 149,
+          "query_id": "Q24",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Latest advancements in machine translation agents",
+          "request_payload": {
+            "q": "Latest advancements in machine translation agents before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q24_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:27:45.880081+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Latest advancements in machine translation agents before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Translating Neuralese - arXiv\",\"link\":\"https://arxiv.org/html/1704.06960v5\",\"snippet\":\"Here we propose to interpret agents' messages by translating them. Unlike in typical machine translation problems, we have no parallel data to learn from.\",\"date\":\"Dec 22, 2018\",\"position\":1},{\"title\":\"Quick Back-Translation for Unsupervised Machine Translation - arXiv\",\"link\":\"https://arxiv.org/html/2312.00912v1\",\"snippet\":\"The field of unsupervised machine translation has seen significant advancement from the marriage of the Transformer and the back-translation algorithm.\",\"date\":\"Dec 1, 2023\",\"position\":2},{\"title\":\"Learning to Translate in Real-time with Neural Machine Translation\",\"link\":\"https://arxiv.org/html/1610.00388v3\",\"snippet\":\"We propose a neural machine translation (NMT) framework for simultaneous translation in which an agent learns to make decisions on when to translate from the ...\",\"date\":\"Jan 10, 2017\",\"position\":3},{\"title\":\"[PDF] Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...\",\"link\":\"https://arxiv.org/pdf/2406.06910\",\"snippet\":\"The two agents collaborate to accomplish SiMT. Experiments demonstrate that Agent-SiMT attains state-of-the-art performance.\",\"date\":\"Jun 12, 2024\",\"position\":4},{\"title\":\"A Survey on Multi-modal Machine Translation: Tasks, Methods and ...\",\"link\":\"https://arxiv.org/html/2405.12669v2\",\"snippet\":\"In recent years, multi-modal machine translation has attracted significant interest in both academia and industry due to its superior performance. 99 prior ...\",\"date\":\"May 23, 2024\",\"position\":5},{\"title\":\"A Reinforced Generation of Adversarial Examples for Neural ... - arXiv\",\"link\":\"https://arxiv.org/html/1911.03677v2\",\"snippet\":\"We conduct experiments of adversarial attacks on two mainstream neural machine translation architectures, RNN-search, and Transformer.\",\"date\":\"May 26, 2020\",\"position\":6},{\"title\":\"[PDF] Expert Small AI Models for Bio-Medical Text Translation - arXiv\",\"link\":\"https://arxiv.org/pdf/2407.12126\",\"snippet\":\"The advancement of artificial intelligence algorithms has paved the way for developing machine translation (MT) systems that can effectively address medical\",\"date\":\"Jul 26, 2024\",\"position\":7},{\"title\":\"[PDF] Dual Learning for Machine Translation - arXiv\",\"link\":\"https://arxiv.org/pdf/1611.00179\",\"snippet\":\"In this paper, we propose a dual-learning mechanism that can leverage monolingual data (in both the source and target languages) in a more effective way. can ...\",\"date\":\"Nov 1, 2016\",\"position\":8},{\"title\":\"Online Learning for Effort Reduction in Interactive Neural Machine ...\",\"link\":\"https://arxiv.org/html/1802.03594v2\",\"snippet\":\"We explore the incremental update of neural machine translation systems during the post-editing or interactive translation processes. Such modifications aim to ...\",\"date\":\"Apr 8, 2019\",\"position\":9},{\"title\":\"Tag-less Back-Translation - arXiv\",\"link\":\"https://arxiv.org/html/1912.10514v3\",\"snippet\":\"The back-translation approach is simple and has been the most effective technique yet for NMT Edunov2018; Hoang2018 . The method involves training a target-to- ...\",\"date\":\"Feb 9, 2021\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJMYXRlc3QgYWR2YW5jZW1lbnRzIGluIG1hY2hpbmUgdHJhbnNsYXRpb24gYWdlbnRzIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlRyYW5zbGF0aW5nIE5ldXJhbGVzZSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTcwNC4wNjk2MHY1Iiwic25pcHBldCI6IkhlcmUgd2UgcHJvcG9zZSB0byBpbnRlcnByZXQgYWdlbnRzJyBtZXNzYWdlcyBieSB0cmFuc2xhdGluZyB0aGVtLiBVbmxpa2UgaW4gdHlwaWNhbCBtYWNoaW5lIHRyYW5zbGF0aW9uIHByb2JsZW1zLCB3ZSBoYXZlIG5vIHBhcmFsbGVsIGRhdGEgdG8gbGVhcm4gZnJvbS4iLCJkYXRlIjoiRGVjIDIyLCAyMDE4IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJRdWljayBCYWNrLVRyYW5zbGF0aW9uIGZvciBVbnN1cGVydmlzZWQgTWFjaGluZSBUcmFuc2xhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4wMDkxMnYxIiwic25pcHBldCI6IlRoZSBmaWVsZCBvZiB1bnN1cGVydmlzZWQgbWFjaGluZSB0cmFuc2xhdGlvbiBoYXMgc2VlbiBzaWduaWZpY2FudCBhZHZhbmNlbWVudCBmcm9tIHRoZSBtYXJyaWFnZSBvZiB0aGUgVHJhbnNmb3JtZXIgYW5kIHRoZSBiYWNrLXRyYW5zbGF0aW9uIGFsZ29yaXRobS4iLCJkYXRlIjoiRGVjIDEsIDIwMjMiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkxlYXJuaW5nIHRvIFRyYW5zbGF0ZSBpbiBSZWFsLXRpbWUgd2l0aCBOZXVyYWwgTWFjaGluZSBUcmFuc2xhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE2MTAuMDAzODh2MyIsInNuaXBwZXQiOiJXZSBwcm9wb3NlIGEgbmV1cmFsIG1hY2hpbmUgdHJhbnNsYXRpb24gKE5NVCkgZnJhbWV3b3JrIGZvciBzaW11bHRhbmVvdXMgdHJhbnNsYXRpb24gaW4gd2hpY2ggYW4gYWdlbnQgbGVhcm5zIHRvIG1ha2UgZGVjaXNpb25zIG9uIHdoZW4gdG8gdHJhbnNsYXRlIGZyb20gdGhlIC4uLiIsImRhdGUiOiJKYW4gMTAsIDIwMTciLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIEFnZW50LVNpTVQ6IEFnZW50LWFzc2lzdGVkIFNpbXVsdGFuZW91cyBNYWNoaW5lIFRyYW5zbGF0aW9uIHdpdGggLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA2LjA2OTEwIiwic25pcHBldCI6IlRoZSB0d28gYWdlbnRzIGNvbGxhYm9yYXRlIHRvIGFjY29tcGxpc2ggU2lNVC4gRXhwZXJpbWVudHMgZGVtb25zdHJhdGUgdGhhdCBBZ2VudC1TaU1UIGF0dGFpbnMgc3RhdGUtb2YtdGhlLWFydCBwZXJmb3JtYW5jZS4iLCJkYXRlIjoiSnVuIDEyLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJBIFN1cnZleSBvbiBNdWx0aS1tb2RhbCBNYWNoaW5lIFRyYW5zbGF0aW9uOiBUYXNrcywgTWV0aG9kcyBhbmQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xMjY2OXYyIiwic25pcHBldCI6IkluIHJlY2VudCB5ZWFycywgbXVsdGktbW9kYWwgbWFjaGluZSB0cmFuc2xhdGlvbiBoYXMgYXR0cmFjdGVkIHNpZ25pZmljYW50IGludGVyZXN0IGluIGJvdGggYWNhZGVtaWEgYW5kIGluZHVzdHJ5IGR1ZSB0byBpdHMgc3VwZXJpb3IgcGVyZm9ybWFuY2UuIDk5IHByaW9yIC4uLiIsImRhdGUiOiJNYXkgMjMsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkEgUmVpbmZvcmNlZCBHZW5lcmF0aW9uIG9mIEFkdmVyc2FyaWFsIEV4YW1wbGVzIGZvciBOZXVyYWwgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8xOTExLjAzNjc3djIiLCJzbmlwcGV0IjoiV2UgY29uZHVjdCBleHBlcmltZW50cyBvZiBhZHZlcnNhcmlhbCBhdHRhY2tzIG9uIHR3byBtYWluc3RyZWFtIG5ldXJhbCBtYWNoaW5lIHRyYW5zbGF0aW9uIGFyY2hpdGVjdHVyZXMsIFJOTi1zZWFyY2gsIGFuZCBUcmFuc2Zvcm1lci4iLCJkYXRlIjoiTWF5IDI2LCAyMDIwIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBFeHBlcnQgU21hbGwgQUkgTW9kZWxzIGZvciBCaW8tTWVkaWNhbCBUZXh0IFRyYW5zbGF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDcuMTIxMjYiLCJzbmlwcGV0IjoiVGhlIGFkdmFuY2VtZW50IG9mIGFydGlmaWNpYWwgaW50ZWxsaWdlbmNlIGFsZ29yaXRobXMgaGFzIHBhdmVkIHRoZSB3YXkgZm9yIGRldmVsb3BpbmcgbWFjaGluZSB0cmFuc2xhdGlvbiAoTVQpIHN5c3RlbXMgdGhhdCBjYW4gZWZmZWN0aXZlbHkgYWRkcmVzcyBtZWRpY2FsIiwiZGF0ZSI6Ikp1bCAyNiwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gRHVhbCBMZWFybmluZyBmb3IgTWFjaGluZSBUcmFuc2xhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8xNjExLjAwMTc5Iiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHByb3Bvc2UgYSBkdWFsLWxlYXJuaW5nIG1lY2hhbmlzbSB0aGF0IGNhbiBsZXZlcmFnZSBtb25vbGluZ3VhbCBkYXRhIChpbiBib3RoIHRoZSBzb3VyY2UgYW5kIHRhcmdldCBsYW5ndWFnZXMpIGluIGEgbW9yZSBlZmZlY3RpdmUgd2F5LiBjYW4gLi4uIiwiZGF0ZSI6Ik5vdiAxLCAyMDE2IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJPbmxpbmUgTGVhcm5pbmcgZm9yIEVmZm9ydCBSZWR1Y3Rpb24gaW4gSW50ZXJhY3RpdmUgTmV1cmFsIE1hY2hpbmUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTgwMi4wMzU5NHYyIiwic25pcHBldCI6IldlIGV4cGxvcmUgdGhlIGluY3JlbWVudGFsIHVwZGF0ZSBvZiBuZXVyYWwgbWFjaGluZSB0cmFuc2xhdGlvbiBzeXN0ZW1zIGR1cmluZyB0aGUgcG9zdC1lZGl0aW5nIG9yIGludGVyYWN0aXZlIHRyYW5zbGF0aW9uIHByb2Nlc3Nlcy4gU3VjaCBtb2RpZmljYXRpb25zIGFpbSB0byAuLi4iLCJkYXRlIjoiQXByIDgsIDIwMTkiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlRhZy1sZXNzIEJhY2stVHJhbnNsYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE5MTIuMTA1MTR2MyIsInNuaXBwZXQiOiJUaGUgYmFjay10cmFuc2xhdGlvbiBhcHByb2FjaCBpcyBzaW1wbGUgYW5kIGhhcyBiZWVuIHRoZSBtb3N0IGVmZmVjdGl2ZSB0ZWNobmlxdWUgeWV0IGZvciBOTVQgRWR1bm92MjAxODsgSG9hbmcyMDE4IC4gVGhlIG1ldGhvZCBpbnZvbHZlcyB0cmFpbmluZyBhIHRhcmdldC10by0gLi4uIiwiZGF0ZSI6IkZlYiA5LCAyMDIxIiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "5f0500469a34ff5302407a5852d0541c39bc54e16e0f4d66d3a3f0c7727a4d87",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Latest advancements in machine translation agents before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Translating Neuralese - arXiv",
+                "link": "https://arxiv.org/html/1704.06960v5",
+                "snippet": "Here we propose to interpret agents' messages by translating them. Unlike in typical machine translation problems, we have no parallel data to learn from.",
+                "date": "Dec 22, 2018",
+                "position": 1
+              },
+              {
+                "title": "Quick Back-Translation for Unsupervised Machine Translation - arXiv",
+                "link": "https://arxiv.org/html/2312.00912v1",
+                "snippet": "The field of unsupervised machine translation has seen significant advancement from the marriage of the Transformer and the back-translation algorithm.",
+                "date": "Dec 1, 2023",
+                "position": 2
+              },
+              {
+                "title": "Learning to Translate in Real-time with Neural Machine Translation",
+                "link": "https://arxiv.org/html/1610.00388v3",
+                "snippet": "We propose a neural machine translation (NMT) framework for simultaneous translation in which an agent learns to make decisions on when to translate from the ...",
+                "date": "Jan 10, 2017",
+                "position": 3
+              },
+              {
+                "title": "[PDF] Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...",
+                "link": "https://arxiv.org/pdf/2406.06910",
+                "snippet": "The two agents collaborate to accomplish SiMT. Experiments demonstrate that Agent-SiMT attains state-of-the-art performance.",
+                "date": "Jun 12, 2024",
+                "position": 4
+              },
+              {
+                "title": "A Survey on Multi-modal Machine Translation: Tasks, Methods and ...",
+                "link": "https://arxiv.org/html/2405.12669v2",
+                "snippet": "In recent years, multi-modal machine translation has attracted significant interest in both academia and industry due to its superior performance. 99 prior ...",
+                "date": "May 23, 2024",
+                "position": 5
+              },
+              {
+                "title": "A Reinforced Generation of Adversarial Examples for Neural ... - arXiv",
+                "link": "https://arxiv.org/html/1911.03677v2",
+                "snippet": "We conduct experiments of adversarial attacks on two mainstream neural machine translation architectures, RNN-search, and Transformer.",
+                "date": "May 26, 2020",
+                "position": 6
+              },
+              {
+                "title": "[PDF] Expert Small AI Models for Bio-Medical Text Translation - arXiv",
+                "link": "https://arxiv.org/pdf/2407.12126",
+                "snippet": "The advancement of artificial intelligence algorithms has paved the way for developing machine translation (MT) systems that can effectively address medical",
+                "date": "Jul 26, 2024",
+                "position": 7
+              },
+              {
+                "title": "[PDF] Dual Learning for Machine Translation - arXiv",
+                "link": "https://arxiv.org/pdf/1611.00179",
+                "snippet": "In this paper, we propose a dual-learning mechanism that can leverage monolingual data (in both the source and target languages) in a more effective way. can ...",
+                "date": "Nov 1, 2016",
+                "position": 8
+              },
+              {
+                "title": "Online Learning for Effort Reduction in Interactive Neural Machine ...",
+                "link": "https://arxiv.org/html/1802.03594v2",
+                "snippet": "We explore the incremental update of neural machine translation systems during the post-editing or interactive translation processes. Such modifications aim to ...",
+                "date": "Apr 8, 2019",
+                "position": 9
+              },
+              {
+                "title": "Tag-less Back-Translation - arXiv",
+                "link": "https://arxiv.org/html/1912.10514v3",
+                "snippet": "The back-translation approach is simple and has been the most effective technique yet for NMT Edunov2018; Hoang2018 . The method involves training a target-to- ...",
+                "date": "Feb 9, 2021",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:27:46.924619+00:00",
+          "elapsed_seconds": 1.0445374809205532
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1610.00388",
+        "1611.00179",
+        "1704.06960",
+        "1802.03594",
+        "1911.03677",
+        "1912.10514",
+        "2312.00912",
+        "2405.12669",
+        "2406.06910",
+        "2407.12126"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "1704.06960",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/1704.06960v5",
+          "title": "Translating Neuralese - arXiv",
+          "snippet": "Here we propose to interpret agents' messages by translating them. Unlike in typical machine translation problems, we have no parallel data to learn from."
+        },
+        {
+          "arxiv_id": "2312.00912",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2312.00912v1",
+          "title": "Quick Back-Translation for Unsupervised Machine Translation - arXiv",
+          "snippet": "The field of unsupervised machine translation has seen significant advancement from the marriage of the Transformer and the back-translation algorithm."
+        },
+        {
+          "arxiv_id": "1610.00388",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/1610.00388v3",
+          "title": "Learning to Translate in Real-time with Neural Machine Translation",
+          "snippet": "We propose a neural machine translation (NMT) framework for simultaneous translation in which an agent learns to make decisions on when to translate from the ..."
+        },
+        {
+          "arxiv_id": "2406.06910",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2406.06910",
+          "title": "[PDF] Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...",
+          "snippet": "The two agents collaborate to accomplish SiMT. Experiments demonstrate that Agent-SiMT attains state-of-the-art performance."
+        },
+        {
+          "arxiv_id": "2405.12669",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2405.12669v2",
+          "title": "A Survey on Multi-modal Machine Translation: Tasks, Methods and ...",
+          "snippet": "In recent years, multi-modal machine translation has attracted significant interest in both academia and industry due to its superior performance. 99 prior ..."
+        },
+        {
+          "arxiv_id": "1911.03677",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/1911.03677v2",
+          "title": "A Reinforced Generation of Adversarial Examples for Neural ... - arXiv",
+          "snippet": "We conduct experiments of adversarial attacks on two mainstream neural machine translation architectures, RNN-search, and Transformer."
+        },
+        {
+          "arxiv_id": "2407.12126",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2407.12126",
+          "title": "[PDF] Expert Small AI Models for Bio-Medical Text Translation - arXiv",
+          "snippet": "The advancement of artificial intelligence algorithms has paved the way for developing machine translation (MT) systems that can effectively address medical"
+        },
+        {
+          "arxiv_id": "1611.00179",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/1611.00179",
+          "title": "[PDF] Dual Learning for Machine Translation - arXiv",
+          "snippet": "In this paper, we propose a dual-learning mechanism that can leverage monolingual data (in both the source and target languages) in a more effective way. can ..."
+        },
+        {
+          "arxiv_id": "1802.03594",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/1802.03594v2",
+          "title": "Online Learning for Effort Reduction in Interactive Neural Machine ...",
+          "snippet": "We explore the incremental update of neural machine translation systems during the post-editing or interactive translation processes. Such modifications aim to ..."
+        },
+        {
+          "arxiv_id": "1912.10514",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/1912.10514v3",
+          "title": "Tag-less Back-Translation - arXiv",
+          "snippet": "The back-translation approach is simple and has been the most effective technique yet for NMT Edunov2018; Hoang2018 . The method involves training a target-to- ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Latest advancements in machine translation agents before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "Show me all research papers on machine translation agents.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 150,
+          "query_id": "Q24",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "Show me all research papers on machine translation agents.",
+          "request_payload": {
+            "q": "Show me all research papers on machine translation agents. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q24_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:27:47.069205+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Show me all research papers on machine translation agents. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Translating Neuralese - arXiv\",\"link\":\"https://arxiv.org/html/1704.06960v5\",\"snippet\":\"Here we propose to interpret agents' messages by translating them. Unlike in typical machine translation problems, we have no parallel data to learn from. have ...\",\"date\":\"Dec 22, 2018\",\"position\":1},{\"title\":\"A Survey on Multi-modal Machine Translation: Tasks, Methods and ...\",\"link\":\"https://arxiv.org/html/2405.12669v2\",\"snippet\":\"In this paper, we begin by offering an exhaustive overview of 99 prior works, comprehensively summarizing representative studies from the perspectives of ...\",\"date\":\"May 23, 2024\",\"position\":2},{\"title\":\"GPT-4 vs. Human Translators: A Comprehensive Evaluation of ...\",\"link\":\"https://arxiv.org/html/2407.03658v1\",\"snippet\":\"This study comprehensively evaluates the translation quality of Large Language Models (LLMs), specifically GPT-4, against human translators of varying expertise ...\",\"date\":\"Jul 4, 2024\",\"position\":3},{\"title\":\"A Reinforced Generation of Adversarial Examples for Neural ... - arXiv\",\"link\":\"https://arxiv.org/html/1911.03677v2\",\"snippet\":\"We conduct experiments of adversarial attacks on two mainstream neural machine translation architectures, RNN-search, and Transformer.\",\"date\":\"May 26, 2020\",\"position\":4},{\"title\":\"(Perhaps) Beyond Human Translation: Harnessing Multi-Agent ...\",\"link\":\"https://arxiv.org/abs/2405.11804\",\"snippet\":\"In this work, we introduce TransAgents, a novel multi-agent framework that simulates the roles and collaborative practices of a human translation company,\",\"date\":\"May 20, 2024\",\"position\":5},{\"title\":\"[PDF] Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...\",\"link\":\"https://arxiv.org/pdf/2406.06910\",\"snippet\":\"Simultaneous Machine Translation (SiMT) generates target translations while reading the source sentence. It relies on a policy to determine the optimal ...\",\"date\":\"Jun 12, 2024\",\"position\":6},{\"title\":\"Quick Back-Translation for Unsupervised Machine Translation - arXiv\",\"link\":\"https://arxiv.org/html/2312.00912v1\",\"snippet\":\"The field of unsupervised machine translation has seen significant advancement from the marriage of the Transformer and the back-translation algorithm.\",\"date\":\"Dec 1, 2023\",\"position\":7},{\"title\":\"Learning to Translate in Real-time with Neural Machine Translation\",\"link\":\"https://arxiv.org/html/1610.00388v3\",\"snippet\":\"In this paper, we propose a unified design for learning to perform neural simultaneous machine translation.\",\"date\":\"Jan 10, 2017\",\"position\":8},{\"title\":\"Tag-less Back-Translation - arXiv\",\"link\":\"https://arxiv.org/html/1912.10514v3\",\"snippet\":\"Neural Machine Translation (NMT) Bahdanau2014; Gehring2017; Vaswani2017 has been the state-of-the-art approach for machine translation in recent years ...\",\"date\":\"Feb 9, 2021\",\"position\":9},{\"title\":\"[PDF] Temporal Dynamics of Emotion and Cognition in Human Translation\",\"link\":\"https://arxiv.org/pdf/2405.03111\",\"snippet\":\"Abstract. The article develops a generative model of the human translating mind, grounded in empirical translation process data.\",\"date\":\"May 7, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTaG93IG1lIGFsbCByZXNlYXJjaCBwYXBlcnMgb24gbWFjaGluZSB0cmFuc2xhdGlvbiBhZ2VudHMuIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlRyYW5zbGF0aW5nIE5ldXJhbGVzZSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTcwNC4wNjk2MHY1Iiwic25pcHBldCI6IkhlcmUgd2UgcHJvcG9zZSB0byBpbnRlcnByZXQgYWdlbnRzJyBtZXNzYWdlcyBieSB0cmFuc2xhdGluZyB0aGVtLiBVbmxpa2UgaW4gdHlwaWNhbCBtYWNoaW5lIHRyYW5zbGF0aW9uIHByb2JsZW1zLCB3ZSBoYXZlIG5vIHBhcmFsbGVsIGRhdGEgdG8gbGVhcm4gZnJvbS4gaGF2ZSAuLi4iLCJkYXRlIjoiRGVjIDIyLCAyMDE4IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJBIFN1cnZleSBvbiBNdWx0aS1tb2RhbCBNYWNoaW5lIFRyYW5zbGF0aW9uOiBUYXNrcywgTWV0aG9kcyBhbmQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xMjY2OXYyIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGJlZ2luIGJ5IG9mZmVyaW5nIGFuIGV4aGF1c3RpdmUgb3ZlcnZpZXcgb2YgOTkgcHJpb3Igd29ya3MsIGNvbXByZWhlbnNpdmVseSBzdW1tYXJpemluZyByZXByZXNlbnRhdGl2ZSBzdHVkaWVzIGZyb20gdGhlIHBlcnNwZWN0aXZlcyBvZiAuLi4iLCJkYXRlIjoiTWF5IDIzLCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJHUFQtNCB2cy4gSHVtYW4gVHJhbnNsYXRvcnM6IEEgQ29tcHJlaGVuc2l2ZSBFdmFsdWF0aW9uIG9mIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMDM2NTh2MSIsInNuaXBwZXQiOiJUaGlzIHN0dWR5IGNvbXByZWhlbnNpdmVseSBldmFsdWF0ZXMgdGhlIHRyYW5zbGF0aW9uIHF1YWxpdHkgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIChMTE1zKSwgc3BlY2lmaWNhbGx5IEdQVC00LCBhZ2FpbnN0IGh1bWFuIHRyYW5zbGF0b3JzIG9mIHZhcnlpbmcgZXhwZXJ0aXNlIC4uLiIsImRhdGUiOiJKdWwgNCwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQSBSZWluZm9yY2VkIEdlbmVyYXRpb24gb2YgQWR2ZXJzYXJpYWwgRXhhbXBsZXMgZm9yIE5ldXJhbCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE5MTEuMDM2Nzd2MiIsInNuaXBwZXQiOiJXZSBjb25kdWN0IGV4cGVyaW1lbnRzIG9mIGFkdmVyc2FyaWFsIGF0dGFja3Mgb24gdHdvIG1haW5zdHJlYW0gbmV1cmFsIG1hY2hpbmUgdHJhbnNsYXRpb24gYXJjaGl0ZWN0dXJlcywgUk5OLXNlYXJjaCwgYW5kIFRyYW5zZm9ybWVyLiIsImRhdGUiOiJNYXkgMjYsIDIwMjAiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IihQZXJoYXBzKSBCZXlvbmQgSHVtYW4gVHJhbnNsYXRpb246IEhhcm5lc3NpbmcgTXVsdGktQWdlbnQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA1LjExODA0Iiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgaW50cm9kdWNlIFRyYW5zQWdlbnRzLCBhIG5vdmVsIG11bHRpLWFnZW50IGZyYW1ld29yayB0aGF0IHNpbXVsYXRlcyB0aGUgcm9sZXMgYW5kIGNvbGxhYm9yYXRpdmUgcHJhY3RpY2VzIG9mIGEgaHVtYW4gdHJhbnNsYXRpb24gY29tcGFueSwiLCJkYXRlIjoiTWF5IDIwLCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBBZ2VudC1TaU1UOiBBZ2VudC1hc3Npc3RlZCBTaW11bHRhbmVvdXMgTWFjaGluZSBUcmFuc2xhdGlvbiB3aXRoIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNi4wNjkxMCIsInNuaXBwZXQiOiJTaW11bHRhbmVvdXMgTWFjaGluZSBUcmFuc2xhdGlvbiAoU2lNVCkgZ2VuZXJhdGVzIHRhcmdldCB0cmFuc2xhdGlvbnMgd2hpbGUgcmVhZGluZyB0aGUgc291cmNlIHNlbnRlbmNlLiBJdCByZWxpZXMgb24gYSBwb2xpY3kgdG8gZGV0ZXJtaW5lIHRoZSBvcHRpbWFsIC4uLiIsImRhdGUiOiJKdW4gMTIsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlF1aWNrIEJhY2stVHJhbnNsYXRpb24gZm9yIFVuc3VwZXJ2aXNlZCBNYWNoaW5lIFRyYW5zbGF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEyLjAwOTEydjEiLCJzbmlwcGV0IjoiVGhlIGZpZWxkIG9mIHVuc3VwZXJ2aXNlZCBtYWNoaW5lIHRyYW5zbGF0aW9uIGhhcyBzZWVuIHNpZ25pZmljYW50IGFkdmFuY2VtZW50IGZyb20gdGhlIG1hcnJpYWdlIG9mIHRoZSBUcmFuc2Zvcm1lciBhbmQgdGhlIGJhY2stdHJhbnNsYXRpb24gYWxnb3JpdGhtLiIsImRhdGUiOiJEZWMgMSwgMjAyMyIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiTGVhcm5pbmcgdG8gVHJhbnNsYXRlIGluIFJlYWwtdGltZSB3aXRoIE5ldXJhbCBNYWNoaW5lIFRyYW5zbGF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTYxMC4wMDM4OHYzIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHByb3Bvc2UgYSB1bmlmaWVkIGRlc2lnbiBmb3IgbGVhcm5pbmcgdG8gcGVyZm9ybSBuZXVyYWwgc2ltdWx0YW5lb3VzIG1hY2hpbmUgdHJhbnNsYXRpb24uIiwiZGF0ZSI6IkphbiAxMCwgMjAxNyIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiVGFnLWxlc3MgQmFjay1UcmFuc2xhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTkxMi4xMDUxNHYzIiwic25pcHBldCI6Ik5ldXJhbCBNYWNoaW5lIFRyYW5zbGF0aW9uIChOTVQpIEJhaGRhbmF1MjAxNDsgR2VocmluZzIwMTc7IFZhc3dhbmkyMDE3IGhhcyBiZWVuIHRoZSBzdGF0ZS1vZi10aGUtYXJ0IGFwcHJvYWNoIGZvciBtYWNoaW5lIHRyYW5zbGF0aW9uIGluIHJlY2VudCB5ZWFycyAuLi4iLCJkYXRlIjoiRmViIDksIDIwMjEiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIFRlbXBvcmFsIER5bmFtaWNzIG9mIEVtb3Rpb24gYW5kIENvZ25pdGlvbiBpbiBIdW1hbiBUcmFuc2xhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNS4wMzExMSIsInNuaXBwZXQiOiJBYnN0cmFjdC4gVGhlIGFydGljbGUgZGV2ZWxvcHMgYSBnZW5lcmF0aXZlIG1vZGVsIG9mIHRoZSBodW1hbiB0cmFuc2xhdGluZyBtaW5kLCBncm91bmRlZCBpbiBlbXBpcmljYWwgdHJhbnNsYXRpb24gcHJvY2VzcyBkYXRhLiIsImRhdGUiOiJNYXkgNywgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "fa81a78271a3d898f2c08c51c020bd0ce12369ea2e37b366a07d49847c163319",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Show me all research papers on machine translation agents. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Translating Neuralese - arXiv",
+                "link": "https://arxiv.org/html/1704.06960v5",
+                "snippet": "Here we propose to interpret agents' messages by translating them. Unlike in typical machine translation problems, we have no parallel data to learn from. have ...",
+                "date": "Dec 22, 2018",
+                "position": 1
+              },
+              {
+                "title": "A Survey on Multi-modal Machine Translation: Tasks, Methods and ...",
+                "link": "https://arxiv.org/html/2405.12669v2",
+                "snippet": "In this paper, we begin by offering an exhaustive overview of 99 prior works, comprehensively summarizing representative studies from the perspectives of ...",
+                "date": "May 23, 2024",
+                "position": 2
+              },
+              {
+                "title": "GPT-4 vs. Human Translators: A Comprehensive Evaluation of ...",
+                "link": "https://arxiv.org/html/2407.03658v1",
+                "snippet": "This study comprehensively evaluates the translation quality of Large Language Models (LLMs), specifically GPT-4, against human translators of varying expertise ...",
+                "date": "Jul 4, 2024",
+                "position": 3
+              },
+              {
+                "title": "A Reinforced Generation of Adversarial Examples for Neural ... - arXiv",
+                "link": "https://arxiv.org/html/1911.03677v2",
+                "snippet": "We conduct experiments of adversarial attacks on two mainstream neural machine translation architectures, RNN-search, and Transformer.",
+                "date": "May 26, 2020",
+                "position": 4
+              },
+              {
+                "title": "(Perhaps) Beyond Human Translation: Harnessing Multi-Agent ...",
+                "link": "https://arxiv.org/abs/2405.11804",
+                "snippet": "In this work, we introduce TransAgents, a novel multi-agent framework that simulates the roles and collaborative practices of a human translation company,",
+                "date": "May 20, 2024",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...",
+                "link": "https://arxiv.org/pdf/2406.06910",
+                "snippet": "Simultaneous Machine Translation (SiMT) generates target translations while reading the source sentence. It relies on a policy to determine the optimal ...",
+                "date": "Jun 12, 2024",
+                "position": 6
+              },
+              {
+                "title": "Quick Back-Translation for Unsupervised Machine Translation - arXiv",
+                "link": "https://arxiv.org/html/2312.00912v1",
+                "snippet": "The field of unsupervised machine translation has seen significant advancement from the marriage of the Transformer and the back-translation algorithm.",
+                "date": "Dec 1, 2023",
+                "position": 7
+              },
+              {
+                "title": "Learning to Translate in Real-time with Neural Machine Translation",
+                "link": "https://arxiv.org/html/1610.00388v3",
+                "snippet": "In this paper, we propose a unified design for learning to perform neural simultaneous machine translation.",
+                "date": "Jan 10, 2017",
+                "position": 8
+              },
+              {
+                "title": "Tag-less Back-Translation - arXiv",
+                "link": "https://arxiv.org/html/1912.10514v3",
+                "snippet": "Neural Machine Translation (NMT) Bahdanau2014; Gehring2017; Vaswani2017 has been the state-of-the-art approach for machine translation in recent years ...",
+                "date": "Feb 9, 2021",
+                "position": 9
+              },
+              {
+                "title": "[PDF] Temporal Dynamics of Emotion and Cognition in Human Translation",
+                "link": "https://arxiv.org/pdf/2405.03111",
+                "snippet": "Abstract. The article develops a generative model of the human translating mind, grounded in empirical translation process data.",
+                "date": "May 7, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:27:48.073618+00:00",
+          "elapsed_seconds": 1.0044115111231804
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1610.00388",
+        "1704.06960",
+        "1911.03677",
+        "1912.10514",
+        "2312.00912",
+        "2405.03111",
+        "2405.11804",
+        "2405.12669",
+        "2406.06910",
+        "2407.03658"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "1704.06960",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/1704.06960v5",
+          "title": "Translating Neuralese - arXiv",
+          "snippet": "Here we propose to interpret agents' messages by translating them. Unlike in typical machine translation problems, we have no parallel data to learn from. have ..."
+        },
+        {
+          "arxiv_id": "2405.12669",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2405.12669v2",
+          "title": "A Survey on Multi-modal Machine Translation: Tasks, Methods and ...",
+          "snippet": "In this paper, we begin by offering an exhaustive overview of 99 prior works, comprehensively summarizing representative studies from the perspectives of ..."
+        },
+        {
+          "arxiv_id": "2407.03658",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2407.03658v1",
+          "title": "GPT-4 vs. Human Translators: A Comprehensive Evaluation of ...",
+          "snippet": "This study comprehensively evaluates the translation quality of Large Language Models (LLMs), specifically GPT-4, against human translators of varying expertise ..."
+        },
+        {
+          "arxiv_id": "1911.03677",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/1911.03677v2",
+          "title": "A Reinforced Generation of Adversarial Examples for Neural ... - arXiv",
+          "snippet": "We conduct experiments of adversarial attacks on two mainstream neural machine translation architectures, RNN-search, and Transformer."
+        },
+        {
+          "arxiv_id": "2405.11804",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2405.11804",
+          "title": "(Perhaps) Beyond Human Translation: Harnessing Multi-Agent ...",
+          "snippet": "In this work, we introduce TransAgents, a novel multi-agent framework that simulates the roles and collaborative practices of a human translation company,"
+        },
+        {
+          "arxiv_id": "2406.06910",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2406.06910",
+          "title": "[PDF] Agent-SiMT: Agent-assisted Simultaneous Machine Translation with ...",
+          "snippet": "Simultaneous Machine Translation (SiMT) generates target translations while reading the source sentence. It relies on a policy to determine the optimal ..."
+        },
+        {
+          "arxiv_id": "2312.00912",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2312.00912v1",
+          "title": "Quick Back-Translation for Unsupervised Machine Translation - arXiv",
+          "snippet": "The field of unsupervised machine translation has seen significant advancement from the marriage of the Transformer and the back-translation algorithm."
+        },
+        {
+          "arxiv_id": "1610.00388",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/1610.00388v3",
+          "title": "Learning to Translate in Real-time with Neural Machine Translation",
+          "snippet": "In this paper, we propose a unified design for learning to perform neural simultaneous machine translation."
+        },
+        {
+          "arxiv_id": "1912.10514",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/1912.10514v3",
+          "title": "Tag-less Back-Translation - arXiv",
+          "snippet": "Neural Machine Translation (NMT) Bahdanau2014; Gehring2017; Vaswani2017 has been the state-of-the-art approach for machine translation in recent years ..."
+        },
+        {
+          "arxiv_id": "2405.03111",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2405.03111",
+          "title": "[PDF] Temporal Dynamics of Emotion and Cognition in Human Translation",
+          "snippet": "Abstract. The article develops a generative model of the human translating mind, grounded in empirical translation process data."
+        }
+      ],
+      "request_payload": {
+        "q": "Show me all research papers on machine translation agents. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "anchor"
+  ]
+}

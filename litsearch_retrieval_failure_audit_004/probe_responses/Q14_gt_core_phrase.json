@@ -1,0 +1,203 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q14",
+  "group": "author-written",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2212.10020",
+  "request_payload": {
+    "q": "blind spots metrics before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 29,
+  "started_utc": "2026-09-17T12:33:56.375265+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648160",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "60dbd2969a7c314e6d8c0e0b5fa81caa",
+    "date": "Thu, 17 Sep 2026 12:29:17 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3388",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3388,
+  "response_bytes_sha256": "09d9ea4acf674ded7799c72186f28282d6642e5ce9067be3762a1916f45183ab",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJibGluZCBzcG90cyBtZXRyaWNzIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6Ik9uIHRoZSBCbGluZCBTcG90cyBvZiBNb2RlbC1CYXNlZCBFdmFsdWF0aW9uIE1ldHJpY3MgZm9yIFRleHQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMjEyLjEwMDIwIiwic25pcHBldCI6Ik91ciBleHBlcmltZW50cyByZXZlYWwgaW50ZXJlc3RpbmcgaW5zZW5zaXRpdml0aWVzLCBiaWFzZXMsIG9yIGV2ZW4gbG9vcGhvbGVzIGluIGV4aXN0aW5nIG1ldHJpY3MuIHdlIGludmVzdGlnYXRlIHRoZSByZWFzb25zIGJlaGluZCB0aGVzZSBibGluZCBzcG90cyIsImRhdGUiOiJEZWMgMjAsIDIwMjIiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkNoZWFwIFZlcmlmaWVycywgTGFyZ2UgQmxpbmQgU3BvdHM6IE1lYXN1cmluZyB0aGUgUmVsaWFiaWxpdHkgQ29zdCBvZiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA5LjAxMzQ1djIiLCJzbmlwcGV0IjoiSW5mZXJlbmNlIGNhc2NhZGVzIGN1dCBjb3N0IGJ5IGFuc3dlcmluZyBtb3N0IHF1ZXJpZXMgd2l0aCBhIGNoZWFwIG1vZGVsIGFuZCBlc2NhbGF0aW5nIGEgaGFyZCB0YWlsIHRvIGEgZnJvbnRpZXIgbW9kZWwgdGhhdCBhY3RzIGFzIHZlcmlmaWVyLiIsImRhdGUiOiJTZXAgNCwgMjAyNiIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiTWV0cmljcyBUaGF0IFdyaXRlIFRoZW1zZWx2ZXM6IEV2b2x2aW5nIGFuIEV2YWx1YXRvciBmcm9tIEl0cyBPd24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNjA4LjE4NzQ0Iiwic25pcHBldCI6InRoZSBtZXRyaWMgd2UgZXZvbHZlIGlzIGEgcG9vbCBvZiBzbWFsbCBQeXRob24gb3BlcmF0b3JzIHRoYXQgZWFjaCBmbGFnIGEgY2FuZGlkYXRlIGZvciBvbmUgbmFtZWQgZGVmZWN0LCBvciBhYnN0YWluLCBhbmQgdm90ZS4iLCJkYXRlIjoiQXVnIDE5LCAyMDI2IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJDaGVhcCBWZXJpZmllcnMsIExhcmdlIEJsaW5kIFNwb3RzOiBNZWFzdXJpbmcgdGhlIFJlbGlhYmlsaXR5IENvc3Qgb2YgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNjA5LjAxMzQ1Iiwic25pcHBldCI6IjQ2JSBvZiBoYXJkLU1BVEggcXVlcmllcyBhZ2FpbnN0IGEgMzklIHRydWUgZXJyb3IgcmF0ZSwgZXZlcnkgbWV0cmljIGNvbXB1dGVkIHRocm91Z2ggdGhlIHZlcmlmaWVyLCByZWFkcyBhIGZsYXQgMyUgZXJyb3Igd2hpbGUgdHJ1ZSBkZWxpdmVyZWQgZXJyb3Igc3dpbmdzIHVwIC4uLiIsImRhdGUiOiJTZXAgMSwgMjAyNiIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiW1BERl0gQ2hlYXAgVmVyaWZpZXJzLCBMYXJnZSBCbGluZCBTcG90czogTWVhc3VyaW5nIHRoZSBSZWxpYWJpbGl0eSBDb3N0IG9mIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjYwOS4wMTM0NSIsInNuaXBwZXQiOiJBcyB0aGUgbG9vcCBjb25jZW50cmF0ZXMgZXJyb3IgaW50byBWICdzIGJsaW5kIHNwb3QsIHRoZXNlIG1ldHJpY3MgaW1wcm92ZSBvciBob2xkIHN0ZWFkeSDigJQgZmV3ZXIgZXNjYWxhdGlvbnMsIG5lYXItcGVyZmVjdCBhcHBhcmVudCBhY2NlcHQtc3RyZWFtIHF1YWxpdHkgLi4uIiwiZGF0ZSI6IkF1ZyAzMSwgMjAyNiIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiUHJvdG90eXBpY2FsaXR5IEJpYXMgUmV2ZWFscyBCbGluZHNwb3RzIGluIE11bHRpbW9kYWwgRXZhbHVhdGlvbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDEuMDQ5NDYiLCJzbmlwcGV0IjoiV2UgaWRlbnRpZnkgcHJvdG90eXBpY2FsaXR5IGJpYXMgYXMgYSBzeXN0ZW1hdGljIGJsaW5kc3BvdCBpbiBtdWx0aW1vZGFsIGV2YWx1YXRpb246IG1ldHJpY3MgY2FuIHByZWZlciBhIHNlbWFudGljYWxseSBpbmNvcnJlY3QgYnV0IHZpc3VhbGx5IG9yIHNvY2lhbGx5IC4uLiIsImRhdGUiOiJKYW4gOCwgMjAyNiIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiWzI2MDQuMDUwNTddIEJsaW5kLVNwb3QgTWFzczogQSBHb29kLVR1cmluZyBGcmFtZXdvcmsgZm9yIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNjA0LjA1MDU3Iiwic25pcHBldCI6IkJsaW5kLXNwb3QgbWFzcyBpcyBhIEdvb2QtVHVyaW5nIGZyYW1ld29yayBmb3IgcXVhbnRpZnlpbmcgZGVwbG95bWVudCBjb3ZlcmFnZSByaXNrIGluIG1hY2hpbmUgbGVhcm5pbmcuIEluIG1vZGVybiBNTCBzeXN0ZW1zLCBvcGVyYXRpb25hbCBzdGF0ZSBkaXN0cmlidXRpb25zIC4uLiIsImRhdGUiOiJBcHIgNiwgMjAyNiIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiUHJvdG90eXBpY2FsaXR5IEJpYXMgUmV2ZWFscyBCbGluZHNwb3RzIGluIE11bHRpbW9kYWwgRXZhbHVhdGlvbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAxLjA0OTQ2djEiLCJzbmlwcGV0IjoiT3VyIHJlc3VsdHMgc2hvdyB0aGF0IHdpZGVseSB1c2VkIG1ldHJpY3MsIGluY2x1ZGluZyBDTElQU2NvcmUsIFBpY2tTY29yZSwgYW5kIFZRQS1iYXNlZCBzY29yZXMsIGZyZXF1ZW50bHkgbWlzcmFuayB0aGVzZSBwYWlycywiLCJkYXRlIjoiSmFuIDgsIDIwMjYiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6Ik9jY2x1c2lvbiBDb25zaWRlcmF0aW9ucyBmb3IgSW1wcm92ZWQgQXV0b25vbW91cyBEcml2aW5nIFNhZmV0eSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwMi4wMTUwNyIsInNuaXBwZXQiOiJUbyBhZGRyZXNzIHRoaXMgcHJvYmxlbSwgd2UgcHJvcG9zZSBhIHNvZnR3YXJlIG1vZHVsZSB0aGF0IGhhbmRsZXMgYmxpbmQgc3BvdHMgKEJTKSBjcmVhdGVkIGJ5IHN0YXRpYyBhbmQgZHluYW1pYyBvYnN0YWNsZXMgaW4gdXJiYW4gZW52aXJvbm1lbnRzLiBXZSBpZGVudGlmeSAuLi4iLCJkYXRlIjoiRmViIDIsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlNwb3RsaWdodHMgYW5kIEJsaW5kc3BvdHM6IEV2YWx1YXRpbmcgTWFjaGluZS1HZW5lcmF0ZWQgVGV4dCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDQuMTY2MDciLCJzbmlwcGV0IjoiV2UgcHJvdmlkZSBhbiBlbXBpcmljYWwgYW5hbHlzaXMgb2YgbW9kZWwgcGVyZm9ybWFuY2UsIHRoZSBpbmZsdWVuY2Ugb2YgdHJhaW5pbmcgYW5kIGV2YWx1YXRpb24gZGF0YSwgYW5kIHRoZSBpbXBhY3Qgb2Yga2V5IG1ldHJpY3MuIFdlIGZpbmQgdGhhdCBubyBzaW5nbGUgLi4uIiwiZGF0ZSI6IkFwciAxNywgMjAyNiIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "blind spots metrics before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "On the Blind Spots of Model-Based Evaluation Metrics for Text ...",
+        "link": "https://arxiv.org/abs/2212.10020",
+        "snippet": "Our experiments reveal interesting insensitivities, biases, or even loopholes in existing metrics. we investigate the reasons behind these blind spots",
+        "date": "Dec 20, 2022",
+        "position": 1
+      },
+      {
+        "title": "Cheap Verifiers, Large Blind Spots: Measuring the Reliability Cost of ...",
+        "link": "https://arxiv.org/html/2609.01345v2",
+        "snippet": "Inference cascades cut cost by answering most queries with a cheap model and escalating a hard tail to a frontier model that acts as verifier.",
+        "date": "Sep 4, 2026",
+        "position": 2
+      },
+      {
+        "title": "Metrics That Write Themselves: Evolving an Evaluator from Its Own ...",
+        "link": "https://arxiv.org/abs/2608.18744",
+        "snippet": "the metric we evolve is a pool of small Python operators that each flag a candidate for one named defect, or abstain, and vote.",
+        "date": "Aug 19, 2026",
+        "position": 3
+      },
+      {
+        "title": "Cheap Verifiers, Large Blind Spots: Measuring the Reliability Cost of ...",
+        "link": "https://arxiv.org/abs/2609.01345",
+        "snippet": "46% of hard-MATH queries against a 39% true error rate, every metric computed through the verifier, reads a flat 3% error while true delivered error swings up ...",
+        "date": "Sep 1, 2026",
+        "position": 4
+      },
+      {
+        "title": "[PDF] Cheap Verifiers, Large Blind Spots: Measuring the Reliability Cost of ...",
+        "link": "https://arxiv.org/pdf/2609.01345",
+        "snippet": "As the loop concentrates error into V 's blind spot, these metrics improve or hold steady — fewer escalations, near-perfect apparent accept-stream quality ...",
+        "date": "Aug 31, 2026",
+        "position": 5
+      },
+      {
+        "title": "Prototypicality Bias Reveals Blindspots in Multimodal Evaluation ...",
+        "link": "https://arxiv.org/abs/2601.04946",
+        "snippet": "We identify prototypicality bias as a systematic blindspot in multimodal evaluation: metrics can prefer a semantically incorrect but visually or socially ...",
+        "date": "Jan 8, 2026",
+        "position": 6
+      },
+      {
+        "title": "[2604.05057] Blind-Spot Mass: A Good-Turing Framework for ... - arXiv",
+        "link": "https://arxiv.org/abs/2604.05057",
+        "snippet": "Blind-spot mass is a Good-Turing framework for quantifying deployment coverage risk in machine learning. In modern ML systems, operational state distributions ...",
+        "date": "Apr 6, 2026",
+        "position": 7
+      },
+      {
+        "title": "Prototypicality Bias Reveals Blindspots in Multimodal Evaluation ...",
+        "link": "https://arxiv.org/html/2601.04946v1",
+        "snippet": "Our results show that widely used metrics, including CLIPScore, PickScore, and VQA-based scores, frequently misrank these pairs,",
+        "date": "Jan 8, 2026",
+        "position": 8
+      },
+      {
+        "title": "Occlusion Considerations for Improved Autonomous Driving Safety",
+        "link": "https://arxiv.org/abs/2402.01507",
+        "snippet": "To address this problem, we propose a software module that handles blind spots (BS) created by static and dynamic obstacles in urban environments. We identify ...",
+        "date": "Feb 2, 2024",
+        "position": 9
+      },
+      {
+        "title": "Spotlights and Blindspots: Evaluating Machine-Generated Text ...",
+        "link": "https://arxiv.org/abs/2604.16607",
+        "snippet": "We provide an empirical analysis of model performance, the influence of training and evaluation data, and the impact of key metrics. We find that no single ...",
+        "date": "Apr 17, 2026",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "On the Blind Spots of Model-Based Evaluation Metrics for Text ...",
+      "snippet": "Our experiments reveal interesting insensitivities, biases, or even loopholes in existing metrics. we investigate the reasons behind these blind spots",
+      "link": "https://arxiv.org/abs/2212.10020",
+      "arxiv_id": "2212.10020"
+    },
+    {
+      "rank": 2,
+      "title": "Cheap Verifiers, Large Blind Spots: Measuring the Reliability Cost of ...",
+      "snippet": "Inference cascades cut cost by answering most queries with a cheap model and escalating a hard tail to a frontier model that acts as verifier.",
+      "link": "https://arxiv.org/html/2609.01345v2",
+      "arxiv_id": "2609.01345"
+    },
+    {
+      "rank": 3,
+      "title": "Metrics That Write Themselves: Evolving an Evaluator from Its Own ...",
+      "snippet": "the metric we evolve is a pool of small Python operators that each flag a candidate for one named defect, or abstain, and vote.",
+      "link": "https://arxiv.org/abs/2608.18744",
+      "arxiv_id": "2608.18744"
+    },
+    {
+      "rank": 4,
+      "title": "Cheap Verifiers, Large Blind Spots: Measuring the Reliability Cost of ...",
+      "snippet": "46% of hard-MATH queries against a 39% true error rate, every metric computed through the verifier, reads a flat 3% error while true delivered error swings up ...",
+      "link": "https://arxiv.org/abs/2609.01345",
+      "arxiv_id": "2609.01345"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] Cheap Verifiers, Large Blind Spots: Measuring the Reliability Cost of ...",
+      "snippet": "As the loop concentrates error into V 's blind spot, these metrics improve or hold steady — fewer escalations, near-perfect apparent accept-stream quality ...",
+      "link": "https://arxiv.org/pdf/2609.01345",
+      "arxiv_id": "2609.01345"
+    },
+    {
+      "rank": 6,
+      "title": "Prototypicality Bias Reveals Blindspots in Multimodal Evaluation ...",
+      "snippet": "We identify prototypicality bias as a systematic blindspot in multimodal evaluation: metrics can prefer a semantically incorrect but visually or socially ...",
+      "link": "https://arxiv.org/abs/2601.04946",
+      "arxiv_id": "2601.04946"
+    },
+    {
+      "rank": 7,
+      "title": "[2604.05057] Blind-Spot Mass: A Good-Turing Framework for ... - arXiv",
+      "snippet": "Blind-spot mass is a Good-Turing framework for quantifying deployment coverage risk in machine learning. In modern ML systems, operational state distributions ...",
+      "link": "https://arxiv.org/abs/2604.05057",
+      "arxiv_id": "2604.05057"
+    },
+    {
+      "rank": 8,
+      "title": "Prototypicality Bias Reveals Blindspots in Multimodal Evaluation ...",
+      "snippet": "Our results show that widely used metrics, including CLIPScore, PickScore, and VQA-based scores, frequently misrank these pairs,",
+      "link": "https://arxiv.org/html/2601.04946v1",
+      "arxiv_id": "2601.04946"
+    },
+    {
+      "rank": 9,
+      "title": "Occlusion Considerations for Improved Autonomous Driving Safety",
+      "snippet": "To address this problem, we propose a software module that handles blind spots (BS) created by static and dynamic obstacles in urban environments. We identify ...",
+      "link": "https://arxiv.org/abs/2402.01507",
+      "arxiv_id": "2402.01507"
+    },
+    {
+      "rank": 10,
+      "title": "Spotlights and Blindspots: Evaluating Machine-Generated Text ...",
+      "snippet": "We provide an empirical analysis of model performance, the influence of training and evaluation data, and the impact of key metrics. We find that no single ...",
+      "link": "https://arxiv.org/abs/2604.16607",
+      "arxiv_id": "2604.16607"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:57.106030+00:00",
+  "elapsed_seconds": 0.7307646572589874,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q14_gt_core_phrase_attempt1.json",
+      "sha256": "e6320a77d38121e0196c58061185659f9cf851c8504df7aa827abc9ec1aad0a0",
+      "status": "PASS"
+    }
+  ]
+}

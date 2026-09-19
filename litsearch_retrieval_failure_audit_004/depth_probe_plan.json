@@ -1,0 +1,691 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "status": "FROZEN_BEFORE_DEPTH_REQUESTS",
+  "frozen_utc": "2026-09-17T12:43:35.538751+00:00",
+  "input_manifest_sha256": "8dfb7c7cac747dd3a8e750077c61f2eef235790e7fc37d21720eb11e7829e111",
+  "offline_evidence_sha256": "6781e90f05caf54347f4eb3ce25fa34db259d0417a2428d54f0f727a1cb9d7d1",
+  "probe_plan_sha256": "6495996e622af2dbfbef22f74a8d01b47d5e7f11711690fa1d96912944da51a3",
+  "diagnostic_probe_results_not_yet_created": true,
+  "gt_aware": true,
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "selection_rule": "Cases whose exact-title Page1 probe hits GT, native-query union covers >=0.75 of question-supported GT elements, and either best native-to-GT-metadata TF-IDF >=0.15 or frozen result-to-GT max >=0.20; choose highest GT-metadata TF-IDF native query, tie original index; request Page3-5.",
+  "requests_at_freeze": 0,
+  "probes": [
+    {
+      "sequence": 1,
+      "question_id": "Q03",
+      "group": "author-written",
+      "native_query_index": 3,
+      "native_query": "Adversarial training using DRO without adversarial samples",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2306.15164",
+      "page": 3,
+      "payload": {
+        "q": "Adversarial training using DRO without adversarial samples before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 2,
+      "question_id": "Q03",
+      "group": "author-written",
+      "native_query_index": 3,
+      "native_query": "Adversarial training using DRO without adversarial samples",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2306.15164",
+      "page": 4,
+      "payload": {
+        "q": "Adversarial training using DRO without adversarial samples before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 3,
+      "question_id": "Q03",
+      "group": "author-written",
+      "native_query_index": 3,
+      "native_query": "Adversarial training using DRO without adversarial samples",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2306.15164",
+      "page": 5,
+      "payload": {
+        "q": "Adversarial training using DRO without adversarial samples before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 4,
+      "question_id": "Q05",
+      "group": "author-written",
+      "native_query_index": 0,
+      "native_query": "Survey paper on shared adapter module across layers",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2305.17682",
+      "page": 3,
+      "payload": {
+        "q": "Survey paper on shared adapter module across layers before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 5,
+      "question_id": "Q05",
+      "group": "author-written",
+      "native_query_index": 0,
+      "native_query": "Survey paper on shared adapter module across layers",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2305.17682",
+      "page": 4,
+      "payload": {
+        "q": "Survey paper on shared adapter module across layers before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 6,
+      "question_id": "Q05",
+      "group": "author-written",
+      "native_query_index": 0,
+      "native_query": "Survey paper on shared adapter module across layers",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2305.17682",
+      "page": 5,
+      "payload": {
+        "q": "Survey paper on shared adapter module across layers before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 7,
+      "question_id": "Q09",
+      "group": "author-written",
+      "native_query_index": 4,
+      "native_query": "Origins of distribution shift concerns in RLHF",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2308.02585",
+      "page": 3,
+      "payload": {
+        "q": "Origins of distribution shift concerns in RLHF before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 8,
+      "question_id": "Q09",
+      "group": "author-written",
+      "native_query_index": 4,
+      "native_query": "Origins of distribution shift concerns in RLHF",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2308.02585",
+      "page": 4,
+      "payload": {
+        "q": "Origins of distribution shift concerns in RLHF before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 9,
+      "question_id": "Q09",
+      "group": "author-written",
+      "native_query_index": 4,
+      "native_query": "Origins of distribution shift concerns in RLHF",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2308.02585",
+      "page": 5,
+      "payload": {
+        "q": "Origins of distribution shift concerns in RLHF before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 10,
+      "question_id": "Q11",
+      "group": "author-written",
+      "native_query_index": 1,
+      "native_query": "Survey papers on financial time series and text data models",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2310.04948",
+      "page": 3,
+      "payload": {
+        "q": "Survey papers on financial time series and text data models before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 11,
+      "question_id": "Q11",
+      "group": "author-written",
+      "native_query_index": 1,
+      "native_query": "Survey papers on financial time series and text data models",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2310.04948",
+      "page": 4,
+      "payload": {
+        "q": "Survey papers on financial time series and text data models before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 12,
+      "question_id": "Q11",
+      "group": "author-written",
+      "native_query_index": 1,
+      "native_query": "Survey papers on financial time series and text data models",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2310.04948",
+      "page": 5,
+      "payload": {
+        "q": "Survey papers on financial time series and text data models before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 13,
+      "question_id": "Q14",
+      "group": "author-written",
+      "native_query_index": 0,
+      "native_query": "Survey paper on the development of MAUVE metric",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2212.10020",
+      "page": 3,
+      "payload": {
+        "q": "Survey paper on the development of MAUVE metric before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 14,
+      "question_id": "Q14",
+      "group": "author-written",
+      "native_query_index": 0,
+      "native_query": "Survey paper on the development of MAUVE metric",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2212.10020",
+      "page": 4,
+      "payload": {
+        "q": "Survey paper on the development of MAUVE metric before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 15,
+      "question_id": "Q14",
+      "group": "author-written",
+      "native_query_index": 0,
+      "native_query": "Survey paper on the development of MAUVE metric",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2212.10020",
+      "page": 5,
+      "payload": {
+        "q": "Survey paper on the development of MAUVE metric before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 16,
+      "question_id": "Q16",
+      "group": "author-written",
+      "native_query_index": 0,
+      "native_query": "Survey papers on video instruction decomposition into sub instructions",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2303.14897",
+      "page": 3,
+      "payload": {
+        "q": "Survey papers on video instruction decomposition into sub instructions before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 17,
+      "question_id": "Q16",
+      "group": "author-written",
+      "native_query_index": 0,
+      "native_query": "Survey papers on video instruction decomposition into sub instructions",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2303.14897",
+      "page": 4,
+      "payload": {
+        "q": "Survey papers on video instruction decomposition into sub instructions before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 18,
+      "question_id": "Q16",
+      "group": "author-written",
+      "native_query_index": 0,
+      "native_query": "Survey papers on video instruction decomposition into sub instructions",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2303.14897",
+      "page": 5,
+      "payload": {
+        "q": "Survey papers on video instruction decomposition into sub instructions before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 19,
+      "question_id": "Q18",
+      "group": "author-written",
+      "native_query_index": 2,
+      "native_query": "First paper on fine-tuning LLMs with chain-of-thoughts for math reasoning",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2309.05653",
+      "page": 3,
+      "payload": {
+        "q": "First paper on fine-tuning LLMs with chain-of-thoughts for math reasoning before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 20,
+      "question_id": "Q18",
+      "group": "author-written",
+      "native_query_index": 2,
+      "native_query": "First paper on fine-tuning LLMs with chain-of-thoughts for math reasoning",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2309.05653",
+      "page": 4,
+      "payload": {
+        "q": "First paper on fine-tuning LLMs with chain-of-thoughts for math reasoning before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 21,
+      "question_id": "Q18",
+      "group": "author-written",
+      "native_query_index": 2,
+      "native_query": "First paper on fine-tuning LLMs with chain-of-thoughts for math reasoning",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2309.05653",
+      "page": 5,
+      "payload": {
+        "q": "First paper on fine-tuning LLMs with chain-of-thoughts for math reasoning before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 22,
+      "question_id": "Q26",
+      "group": "inline-citation",
+      "native_query_index": 0,
+      "native_query": "Survey paper on per-hop retrieval evaluation in multi-hop question answering",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2106.08433",
+      "page": 3,
+      "payload": {
+        "q": "Survey paper on per-hop retrieval evaluation in multi-hop question answering before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 23,
+      "question_id": "Q26",
+      "group": "inline-citation",
+      "native_query_index": 0,
+      "native_query": "Survey paper on per-hop retrieval evaluation in multi-hop question answering",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2106.08433",
+      "page": 4,
+      "payload": {
+        "q": "Survey paper on per-hop retrieval evaluation in multi-hop question answering before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 24,
+      "question_id": "Q26",
+      "group": "inline-citation",
+      "native_query_index": 0,
+      "native_query": "Survey paper on per-hop retrieval evaluation in multi-hop question answering",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2106.08433",
+      "page": 5,
+      "payload": {
+        "q": "Survey paper on per-hop retrieval evaluation in multi-hop question answering before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 25,
+      "question_id": "Q31",
+      "group": "inline-citation",
+      "native_query_index": 3,
+      "native_query": "Research on structured dataset for table-to-text model training",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2007.02871",
+      "page": 3,
+      "payload": {
+        "q": "Research on structured dataset for table-to-text model training before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 26,
+      "question_id": "Q31",
+      "group": "inline-citation",
+      "native_query_index": 3,
+      "native_query": "Research on structured dataset for table-to-text model training",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2007.02871",
+      "page": 4,
+      "payload": {
+        "q": "Research on structured dataset for table-to-text model training before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 27,
+      "question_id": "Q31",
+      "group": "inline-citation",
+      "native_query_index": 3,
+      "native_query": "Research on structured dataset for table-to-text model training",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2007.02871",
+      "page": 5,
+      "payload": {
+        "q": "Research on structured dataset for table-to-text model training before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 28,
+      "question_id": "Q32",
+      "group": "inline-citation",
+      "native_query_index": 0,
+      "native_query": "Use of relaxed l0 regularization for structured pruning in transformer models",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2204.00408",
+      "page": 3,
+      "payload": {
+        "q": "Use of relaxed l0 regularization for structured pruning in transformer models before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 29,
+      "question_id": "Q32",
+      "group": "inline-citation",
+      "native_query_index": 0,
+      "native_query": "Use of relaxed l0 regularization for structured pruning in transformer models",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2204.00408",
+      "page": 4,
+      "payload": {
+        "q": "Use of relaxed l0 regularization for structured pruning in transformer models before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 30,
+      "question_id": "Q32",
+      "group": "inline-citation",
+      "native_query_index": 0,
+      "native_query": "Use of relaxed l0 regularization for structured pruning in transformer models",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2204.00408",
+      "page": 5,
+      "payload": {
+        "q": "Use of relaxed l0 regularization for structured pruning in transformer models before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 31,
+      "question_id": "Q36",
+      "group": "inline-citation",
+      "native_query_index": 1,
+      "native_query": "Survey papers on distinguishing AI-generated text from human-authored text",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2107.00061",
+      "page": 3,
+      "payload": {
+        "q": "Survey papers on distinguishing AI-generated text from human-authored text before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 32,
+      "question_id": "Q36",
+      "group": "inline-citation",
+      "native_query_index": 1,
+      "native_query": "Survey papers on distinguishing AI-generated text from human-authored text",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2107.00061",
+      "page": 4,
+      "payload": {
+        "q": "Survey papers on distinguishing AI-generated text from human-authored text before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 33,
+      "question_id": "Q36",
+      "group": "inline-citation",
+      "native_query_index": 1,
+      "native_query": "Survey papers on distinguishing AI-generated text from human-authored text",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2107.00061",
+      "page": 5,
+      "payload": {
+        "q": "Survey papers on distinguishing AI-generated text from human-authored text before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 34,
+      "question_id": "Q37",
+      "group": "inline-citation",
+      "native_query_index": 2,
+      "native_query": "Research papers on prompt engineering methods in large language models for in-context learning",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2111.01998",
+      "page": 3,
+      "payload": {
+        "q": "Research papers on prompt engineering methods in large language models for in-context learning before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 35,
+      "question_id": "Q37",
+      "group": "inline-citation",
+      "native_query_index": 2,
+      "native_query": "Research papers on prompt engineering methods in large language models for in-context learning",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2111.01998",
+      "page": 4,
+      "payload": {
+        "q": "Research papers on prompt engineering methods in large language models for in-context learning before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 36,
+      "question_id": "Q37",
+      "group": "inline-citation",
+      "native_query_index": 2,
+      "native_query": "Research papers on prompt engineering methods in large language models for in-context learning",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2111.01998",
+      "page": 5,
+      "payload": {
+        "q": "Research papers on prompt engineering methods in large language models for in-context learning before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 37,
+      "question_id": "Q41",
+      "group": "inline-citation",
+      "native_query_index": 0,
+      "native_query": "Survey paper on token alignment in speech processing using inverse document frequency",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2010.02295",
+      "page": 3,
+      "payload": {
+        "q": "Survey paper on token alignment in speech processing using inverse document frequency before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 38,
+      "question_id": "Q41",
+      "group": "inline-citation",
+      "native_query_index": 0,
+      "native_query": "Survey paper on token alignment in speech processing using inverse document frequency",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2010.02295",
+      "page": 4,
+      "payload": {
+        "q": "Survey paper on token alignment in speech processing using inverse document frequency before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 39,
+      "question_id": "Q41",
+      "group": "inline-citation",
+      "native_query_index": 0,
+      "native_query": "Survey paper on token alignment in speech processing using inverse document frequency",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2010.02295",
+      "page": 5,
+      "payload": {
+        "q": "Survey paper on token alignment in speech processing using inverse document frequency before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 40,
+      "question_id": "Q42",
+      "group": "inline-citation",
+      "native_query_index": 4,
+      "native_query": "Pre-trained multilingual text-to-text transformer for text summarization",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2010.11934",
+      "page": 3,
+      "payload": {
+        "q": "Pre-trained multilingual text-to-text transformer for text summarization before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 41,
+      "question_id": "Q42",
+      "group": "inline-citation",
+      "native_query_index": 4,
+      "native_query": "Pre-trained multilingual text-to-text transformer for text summarization",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2010.11934",
+      "page": 4,
+      "payload": {
+        "q": "Pre-trained multilingual text-to-text transformer for text summarization before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 42,
+      "question_id": "Q42",
+      "group": "inline-citation",
+      "native_query_index": 4,
+      "native_query": "Pre-trained multilingual text-to-text transformer for text summarization",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "2010.11934",
+      "page": 5,
+      "payload": {
+        "q": "Pre-trained multilingual text-to-text transformer for text summarization before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    },
+    {
+      "sequence": 43,
+      "question_id": "Q46",
+      "group": "inline-citation",
+      "native_query_index": 0,
+      "native_query": "Survey papers on Named Entity Recognition across multiple languages",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "1909.01441",
+      "page": 3,
+      "payload": {
+        "q": "Survey papers on Named Entity Recognition across multiple languages before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 3
+      }
+    },
+    {
+      "sequence": 44,
+      "question_id": "Q46",
+      "group": "inline-citation",
+      "native_query_index": 0,
+      "native_query": "Survey papers on Named Entity Recognition across multiple languages",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "1909.01441",
+      "page": 4,
+      "payload": {
+        "q": "Survey papers on Named Entity Recognition across multiple languages before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 4
+      }
+    },
+    {
+      "sequence": 45,
+      "question_id": "Q46",
+      "group": "inline-citation",
+      "native_query_index": 0,
+      "native_query": "Survey papers on Named Entity Recognition across multiple languages",
+      "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+      "gold_arxiv_id": "1909.01441",
+      "page": 5,
+      "payload": {
+        "q": "Survey papers on Named Entity Recognition across multiple languages before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 5
+      }
+    }
+  ]
+}

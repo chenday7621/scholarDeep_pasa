@@ -1,0 +1,236 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q39",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2210.17432",
+  "request_payload": {
+    "q": "Could you suggest research that examines the effects of starting language models with weights from pretrained nondiffusion models on the convergence behavior of diffusion losses? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 84,
+  "started_utc": "2026-09-17T12:35:00.613565+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648225",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "7f6e2e4a2795bf97adaafcea648af295",
+    "date": "Thu, 17 Sep 2026 12:30:21 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "4862",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 4862,
+  "response_bytes_sha256": "bbaef48485f5bb909d5f3a2bc44dab58e2f104975b0f34a0ee3df6d426f35f88",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb3VsZCB5b3Ugc3VnZ2VzdCByZXNlYXJjaCB0aGF0IGV4YW1pbmVzIHRoZSBlZmZlY3RzIG9mIHN0YXJ0aW5nIGxhbmd1YWdlIG1vZGVscyB3aXRoIHdlaWdodHMgZnJvbSBwcmV0cmFpbmVkIG5vbmRpZmZ1c2lvbiBtb2RlbHMgb24gdGhlIGNvbnZlcmdlbmNlIGJlaGF2aW9yIG9mIGRpZmZ1c2lvbiBsb3NzZXM/IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkRpZmZ1c2lvbiBNb2RlbHMgZm9yIFRhYnVsYXIgRGF0YTogQ2hhbGxlbmdlcywgQ3VycmVudCBQcm9ncmVzcyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAyLjE3MTE5djEiLCJzbmlwcGV0IjoiRGlmZnVzaW9uIE1vZGVscyBvZmZlciBzZXZlcmFsIGFkdmFudGFnZXMgdGhhdCBtYWtlIHRoZW0gYSBwcmVmZXJyZWQgY2hvaWNlIGZvciBtYW55IGdlbmVyYXRpdmUgdGFza3MuIFVubGlrZSBHQU5zLCB3aGljaCBvZnRlbiBzdWZmZXIgZnJvbSBtb2RlIGNvbGxhcHNlIGFuZCAuLi4iLCJkYXRlIjoiRmViIDI0LCAyMDI1IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJTT0RpZmY6IFNlbWFudGljLU9yaWVudGVkIERpZmZ1c2lvbiBNb2RlbCBmb3IgSlBFRyBDb21wcmVzc2lvbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA4LjA3MzQ2djEiLCJzbmlwcGV0IjoiV2UgcHJvcG9zZSBTT0RpZmYsIGEgbm92ZWwgT1NEIG1vZGVsIGZvciBKUEVHIGNvbXByZXNzaW9uIGFydGlmYWN0cyByZW1vdmFsLCB3aGljaCBleHBsb3JlcyB0aGUgZ3VpZGluZyByb2xlIG9mIHJpY2ggZW1iZWRkZWQgdmlzdWFsIGZlYXR1cmVzIGluIHRoZSBkaWZmdXNpb24gLi4uIiwiZGF0ZSI6IkF1ZyAxMCwgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiTXVsdGltb2RhbCBEaWZmdXNpb24gVHJhbnNmb3JtZXI6IExlYXJuaW5nIFZlcnNhdGlsZSBCZWhhdmlvciBmcm9tIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMDU5OTZ2MSIsInNuaXBwZXQiOiJUaGlzIHdvcmsgaW50cm9kdWNlcyBhIG5vdmVsIGFwcHJvYWNoIHRoYXQgZWZmaWNpZW50bHkgbGVhcm5zIGZyb20gbXVsdGltb2RhbCBnb2FscywgYW5kIGhlbmNlIGVmZmljaWVudGx5IGxldmVyYWdlcyBkYXRhc2V0cyB3aXRoIHNwYXJzZSBsYW5ndWFnZSBhbm5vdGF0aW9ucy4iLCJkYXRlIjoiSnVsIDgsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkRpZmZ1c2lvbiBQb2xpY3kgUG9saWN5IE9wdGltaXphdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOS4wMDU4OHYxIiwic25pcHBldCI6IldlIHNob3cgdGhhdCBmb3IgZmluZS10dW5pbmcgYSBwcmUtdHJhaW5lZCBEaWZmdXNpb24gUG9saWN5LCBEUFBPIHlpZWxkcyBjb25zaXN0ZW50IGFuZCBtYXJrZWQgaW1wcm92ZW1lbnRzIGluIHRyYWluaW5nIHN0YWJpbGl0eSBhbmQgZmluYWwgcG9saWN5IHBlcmZvcm1hbmNlIiwiZGF0ZSI6IlNlcCAxLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJXaGF0IE1ha2VzIGEgR29vZCBEaWZmdXNpb24gUGxhbm5lciBmb3IgRGVjaXNpb24gTWFraW5nPyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMy4wMDUzNXYxIiwic25pcHBldCI6IkRpZmZ1c2lvbiBtb2RlbHMgaGF2ZSByZWNlbnRseSBzaG93biBzaWduaWZpY2FudCBwb3RlbnRpYWwgaW4gc29sdmluZyBkZWNpc2lvbi1tYWtpbmcgcHJvYmxlbXMsIHBhcnRpY3VsYXJseSBpbiBnZW5lcmF0aW5nIGJlaGF2aW9yIHBsYW5zIOKAkyBhbHNvIGtub3duIGFzIC4uLiIsImRhdGUiOiJNYXIgMSwgMjAyNSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiRGlmZnVzaW9uIE1vZGVsczogQSBDb21wcmVoZW5zaXZlIFN1cnZleSBvZiBNZXRob2RzIGFuZCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDkuMDA3OTZ2MTUiLCJzbmlwcGV0IjoiSW4gdGhpcyBzdXJ2ZXksIHdlIHByb3ZpZGUgYW4gb3ZlcnZpZXcgb2YgdGhlIHJhcGlkbHkgZXhwYW5kaW5nIGJvZHkgb2Ygd29yayBvbiBkaWZmdXNpb24gbW9kZWxzLCBjYXRlZ29yaXppbmcgdGhlIHJlc2VhcmNoIGludG8gdGhyZWUga2V5IGFyZWFzOiBlZmZpY2llbnQgLi4uIiwiZGF0ZSI6IlNlcCAyNywgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiR3VpZGluZyBEaWZmdXNpb24gTW9kZWxzIHdpdGggUmVpbmZvcmNlbWVudCBMZWFybmluZyBmb3IgU3RhYmxlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDguMTY1MjF2MSIsInNuaXBwZXQiOiJSTFBGIHNpZ25pZmljYW50bHkgaW1wcm92ZXMgdGhlIHF1YWxpdHkgb2YgdGhlIGdlbmVyYXRlZCBtb2xlY3VsZXMsIG91dHBlcmZvcm1pbmcgYm90aCBiYXNlbGluZSBFRE0gYW5kIHN1cGVydmlzZWQgZmluZS10dW5lZCB2YXJpYW50cy4iLCJkYXRlIjoiQXVnIDIyLCAyMDI1IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJNdXNlOiBUZXh0LVRvLUltYWdlIEdlbmVyYXRpb24gdmlhIE1hc2tlZCBHZW5lcmF0aXZlIFRyYW5zZm9ybWVycyIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjMwMS4wMDcwNCIsInNuaXBwZXQiOiJUaGUgdXNlIG9mIGEgcHJlLXRyYWluZWQgTExNIGVuYWJsZXMgZmluZS1ncmFpbmVkIGxhbmd1YWdlIHVuZGVyc3RhbmRpbmcsIHRyYW5zbGF0aW5nIHRvIGhpZ2gtZmlkZWxpdHkgaW1hZ2UgZ2VuZXJhdGlvbiBhbmQgdGhlIHVuZGVyc3RhbmRpbmcgb2YgdmlzdWFsIGNvbmNlcHRzIC4uLiIsImRhdGUiOiJKdW4gMTUsIDIwMjIiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiMiBNb2RlbCIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjMwMS4wMDcwNCM6fjp0ZXh0PTIlMjBNb2RlbCJ9LHsidGl0bGUiOiIzIFJlc3VsdHMiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIzMDEuMDA3MDQjOn46dGV4dD0zJTIwUmVzdWx0cyJ9LHsidGl0bGUiOiIzLjIgUXVhbnRpdGF0aXZlIFBlcmZvcm1hbmNlIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMzAxLjAwNzA0Izp+OnRleHQ9My4yJTIwUXVhbnRpdGF0aXZlJTIwUGVyZm9ybWFuY2UifV0sInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiQ29uc2lzdGVudCBhbmQgQ29udHJvbGxhYmxlIEltYWdlLXRvLVZpZGVvIFN5bnRoZXNpcyBmb3IgQ2hhcmFjdGVyIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMTcxMTd2MiIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBsZXZlcmFnZSB0aGUgcG93ZXIgb2YgZGlmZnVzaW9uIG1vZGVscyBhbmQgcHJvcG9zZSBhIG5vdmVsIGZyYW1ld29yayB0YWlsb3JlZCBmb3IgY2hhcmFjdGVyIGFuaW1hdGlvbi4gVG8gcHJlc2VydmUgY29uc2lzdGVuY3kgb2YgaW50cmljYXRlIC4uLiIsImRhdGUiOiJEZWMgNywgMjAyMyIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiJBbmltYXRlIEFueW9uZTogQ29uc2lzdGVudC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMTcxMTd2MiM6fjp0ZXh0PUFuaW1hdGUlMjBBbnlvbmUlM0ElMjBDb25zaXN0ZW50JTIwYW5kJTIwQ29udHJvbGxhYmxlJTIwSW1hZ2UlMkR0byUyRFZpZGVvJTIwU3ludGhlc2lzJTIwZm9yJTIwQ2hhcmFjdGVyJTIwQW5pbWF0aW9uLC1MaSUyMEh1JTIwWGluJTIwR2FvJTIwUGVuZyJ9LHsidGl0bGUiOiIzIE1ldGhvZHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjE3MTE3djIjOn46dGV4dD0zJTIwTWV0aG9kcywtV2UlMjB0YXJnZXQlMjBhdCUyMHBvc2UlMkQifSx7InRpdGxlIjoiNCBFeHBlcmltZW50cyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMTcxMTd2MiM6fjp0ZXh0PS4tLDQlMjBFeHBlcmltZW50cyJ9XSwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJEaXN0aWxsYXRpb24tRnJlZSBPbmUtU3RlcCBEaWZmdXNpb24gZm9yIFJlYWwtV29ybGQgSW1hZ2UgU3VwZXIgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMC4wNDIyNHYyIiwic25pcHBldCI6IkN1cnJlbnQgYXBwcm9hY2hlcyBhcmUgdHJ5aW5nIHRvIGRlcml2ZSBvbmUtc3RlcCBkaWZmdXNpb24gbW9kZWxzIGZyb20gbXVsdGktc3RlcCBjb3VudGVycGFydHMgdGhyb3VnaCBrbm93bGVkZ2UgZGlzdGlsbGF0aW9uLiBIb3dldmVyLCB0aGVzZSBtZXRob2RzIGluY3VyIC4uLiIsImRhdGUiOiJPY3QgMTAsIDIwMjQiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiRGlzdGlsbGF0aW9uLUZyZWUgT25lLVN0ZXAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDEwLjA0MjI0djIjOn46dGV4dD0yMDI0LSxEaXN0aWxsYXRpb24lMkRGcmVlJTIwT25lJTJEU3RlcCUyMERpZmZ1c2lvbiUyMGZvciJ9LHsidGl0bGUiOiI0IEV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMC4wNDIyNHYyIzp+OnRleHQ9NCUyMEV4cGVyaW1lbnRzLC1XZSUyMGNvbmR1Y3QlMjBjb21wcmVoZW5zaXZlJTIwZXhwZXJpbWVudHMlMjB0byJ9LHsidGl0bGUiOiI0LjMgQWJsYXRpb24gU3R1ZHkiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDEwLjA0MjI0djIjOn46dGV4dD00LjMlMjBBYmxhdGlvbiUyMFN0dWR5LC1UcmFpbmluZyUyMERhdGElMjBTY2FsaW5nLiUyMFdlIn1dLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Could you suggest research that examines the effects of starting language models with weights from pretrained nondiffusion models on the convergence behavior of diffusion losses? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Diffusion Models for Tabular Data: Challenges, Current Progress ...",
+        "link": "https://arxiv.org/html/2502.17119v1",
+        "snippet": "Diffusion Models offer several advantages that make them a preferred choice for many generative tasks. Unlike GANs, which often suffer from mode collapse and ...",
+        "date": "Feb 24, 2025",
+        "position": 1
+      },
+      {
+        "title": "SODiff: Semantic-Oriented Diffusion Model for JPEG Compression ...",
+        "link": "https://arxiv.org/html/2508.07346v1",
+        "snippet": "We propose SODiff, a novel OSD model for JPEG compression artifacts removal, which explores the guiding role of rich embedded visual features in the diffusion ...",
+        "date": "Aug 10, 2025",
+        "position": 2
+      },
+      {
+        "title": "Multimodal Diffusion Transformer: Learning Versatile Behavior from ...",
+        "link": "https://arxiv.org/html/2407.05996v1",
+        "snippet": "This work introduces a novel approach that efficiently learns from multimodal goals, and hence efficiently leverages datasets with sparse language annotations.",
+        "date": "Jul 8, 2024",
+        "position": 3
+      },
+      {
+        "title": "Diffusion Policy Policy Optimization - arXiv",
+        "link": "https://arxiv.org/html/2409.00588v1",
+        "snippet": "We show that for fine-tuning a pre-trained Diffusion Policy, DPPO yields consistent and marked improvements in training stability and final policy performance",
+        "date": "Sep 1, 2024",
+        "position": 4
+      },
+      {
+        "title": "What Makes a Good Diffusion Planner for Decision Making? - arXiv",
+        "link": "https://arxiv.org/html/2503.00535v1",
+        "snippet": "Diffusion models have recently shown significant potential in solving decision-making problems, particularly in generating behavior plans – also known as ...",
+        "date": "Mar 1, 2025",
+        "position": 5
+      },
+      {
+        "title": "Diffusion Models: A Comprehensive Survey of Methods and ... - arXiv",
+        "link": "https://arxiv.org/html/2209.00796v15",
+        "snippet": "In this survey, we provide an overview of the rapidly expanding body of work on diffusion models, categorizing the research into three key areas: efficient ...",
+        "date": "Sep 27, 2025",
+        "position": 6
+      },
+      {
+        "title": "Guiding Diffusion Models with Reinforcement Learning for Stable ...",
+        "link": "https://arxiv.org/html/2508.16521v1",
+        "snippet": "RLPF significantly improves the quality of the generated molecules, outperforming both baseline EDM and supervised fine-tuned variants.",
+        "date": "Aug 22, 2025",
+        "position": 7
+      },
+      {
+        "title": "Muse: Text-To-Image Generation via Masked Generative Transformers",
+        "link": "https://ar5iv.labs.arxiv.org/html/2301.00704",
+        "snippet": "The use of a pre-trained LLM enables fine-grained language understanding, translating to high-fidelity image generation and the understanding of visual concepts ...",
+        "date": "Jun 15, 2022",
+        "sitelinks": [
+          {
+            "title": "2 Model",
+            "link": "https://ar5iv.labs.arxiv.org/html/2301.00704#:~:text=2%20Model"
+          },
+          {
+            "title": "3 Results",
+            "link": "https://ar5iv.labs.arxiv.org/html/2301.00704#:~:text=3%20Results"
+          },
+          {
+            "title": "3.2 Quantitative Performance",
+            "link": "https://ar5iv.labs.arxiv.org/html/2301.00704#:~:text=3.2%20Quantitative%20Performance"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "Consistent and Controllable Image-to-Video Synthesis for Character ...",
+        "link": "https://arxiv.org/html/2311.17117v2",
+        "snippet": "In this paper, we leverage the power of diffusion models and propose a novel framework tailored for character animation. To preserve consistency of intricate ...",
+        "date": "Dec 7, 2023",
+        "sitelinks": [
+          {
+            "title": "Animate Anyone: Consistent...",
+            "link": "https://arxiv.org/html/2311.17117v2#:~:text=Animate%20Anyone%3A%20Consistent%20and%20Controllable%20Image%2Dto%2DVideo%20Synthesis%20for%20Character%20Animation,-Li%20Hu%20Xin%20Gao%20Peng"
+          },
+          {
+            "title": "3 Methods",
+            "link": "https://arxiv.org/html/2311.17117v2#:~:text=3%20Methods,-We%20target%20at%20pose%2D"
+          },
+          {
+            "title": "4 Experiments",
+            "link": "https://arxiv.org/html/2311.17117v2#:~:text=.-,4%20Experiments"
+          }
+        ],
+        "position": 9
+      },
+      {
+        "title": "Distillation-Free One-Step Diffusion for Real-World Image Super ...",
+        "link": "https://arxiv.org/html/2410.04224v2",
+        "snippet": "Current approaches are trying to derive one-step diffusion models from multi-step counterparts through knowledge distillation. However, these methods incur ...",
+        "date": "Oct 10, 2024",
+        "sitelinks": [
+          {
+            "title": "Distillation-Free One-Step...",
+            "link": "https://arxiv.org/html/2410.04224v2#:~:text=2024-,Distillation%2DFree%20One%2DStep%20Diffusion%20for"
+          },
+          {
+            "title": "4 Experiments",
+            "link": "https://arxiv.org/html/2410.04224v2#:~:text=4%20Experiments,-We%20conduct%20comprehensive%20experiments%20to"
+          },
+          {
+            "title": "4.3 Ablation Study",
+            "link": "https://arxiv.org/html/2410.04224v2#:~:text=4.3%20Ablation%20Study,-Training%20Data%20Scaling.%20We"
+          }
+        ],
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Diffusion Models for Tabular Data: Challenges, Current Progress ...",
+      "snippet": "Diffusion Models offer several advantages that make them a preferred choice for many generative tasks. Unlike GANs, which often suffer from mode collapse and ...",
+      "link": "https://arxiv.org/html/2502.17119v1",
+      "arxiv_id": "2502.17119"
+    },
+    {
+      "rank": 2,
+      "title": "SODiff: Semantic-Oriented Diffusion Model for JPEG Compression ...",
+      "snippet": "We propose SODiff, a novel OSD model for JPEG compression artifacts removal, which explores the guiding role of rich embedded visual features in the diffusion ...",
+      "link": "https://arxiv.org/html/2508.07346v1",
+      "arxiv_id": "2508.07346"
+    },
+    {
+      "rank": 3,
+      "title": "Multimodal Diffusion Transformer: Learning Versatile Behavior from ...",
+      "snippet": "This work introduces a novel approach that efficiently learns from multimodal goals, and hence efficiently leverages datasets with sparse language annotations.",
+      "link": "https://arxiv.org/html/2407.05996v1",
+      "arxiv_id": "2407.05996"
+    },
+    {
+      "rank": 4,
+      "title": "Diffusion Policy Policy Optimization - arXiv",
+      "snippet": "We show that for fine-tuning a pre-trained Diffusion Policy, DPPO yields consistent and marked improvements in training stability and final policy performance",
+      "link": "https://arxiv.org/html/2409.00588v1",
+      "arxiv_id": "2409.00588"
+    },
+    {
+      "rank": 5,
+      "title": "What Makes a Good Diffusion Planner for Decision Making? - arXiv",
+      "snippet": "Diffusion models have recently shown significant potential in solving decision-making problems, particularly in generating behavior plans – also known as ...",
+      "link": "https://arxiv.org/html/2503.00535v1",
+      "arxiv_id": "2503.00535"
+    },
+    {
+      "rank": 6,
+      "title": "Diffusion Models: A Comprehensive Survey of Methods and ... - arXiv",
+      "snippet": "In this survey, we provide an overview of the rapidly expanding body of work on diffusion models, categorizing the research into three key areas: efficient ...",
+      "link": "https://arxiv.org/html/2209.00796v15",
+      "arxiv_id": "2209.00796"
+    },
+    {
+      "rank": 7,
+      "title": "Guiding Diffusion Models with Reinforcement Learning for Stable ...",
+      "snippet": "RLPF significantly improves the quality of the generated molecules, outperforming both baseline EDM and supervised fine-tuned variants.",
+      "link": "https://arxiv.org/html/2508.16521v1",
+      "arxiv_id": "2508.16521"
+    },
+    {
+      "rank": 8,
+      "title": "Muse: Text-To-Image Generation via Masked Generative Transformers",
+      "snippet": "The use of a pre-trained LLM enables fine-grained language understanding, translating to high-fidelity image generation and the understanding of visual concepts ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2301.00704",
+      "arxiv_id": "2301.00704"
+    },
+    {
+      "rank": 9,
+      "title": "Consistent and Controllable Image-to-Video Synthesis for Character ...",
+      "snippet": "In this paper, we leverage the power of diffusion models and propose a novel framework tailored for character animation. To preserve consistency of intricate ...",
+      "link": "https://arxiv.org/html/2311.17117v2",
+      "arxiv_id": "2311.17117"
+    },
+    {
+      "rank": 10,
+      "title": "Distillation-Free One-Step Diffusion for Real-World Image Super ...",
+      "snippet": "Current approaches are trying to derive one-step diffusion models from multi-step counterparts through knowledge distillation. However, these methods incur ...",
+      "link": "https://arxiv.org/html/2410.04224v2",
+      "arxiv_id": "2410.04224"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:01.593699+00:00",
+  "elapsed_seconds": 0.9801389612257481
+}

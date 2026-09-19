@@ -1,0 +1,164 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 21,
+  "question_id": "Q18",
+  "group": "author-written",
+  "native_query_index": 2,
+  "native_query": "First paper on fine-tuning LLMs with chain-of-thoughts for math reasoning",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "2309.05653",
+  "page": 5,
+  "payload": {
+    "q": "First paper on fine-tuning LLMs with chain-of-thoughts for math reasoning before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 5
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 21,
+  "started_utc": "2026-09-17T12:44:27.164688+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648790",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "47b52624b2db4fbd677636e18d8a2861",
+    "date": "Thu, 17 Sep 2026 12:39:51 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3952",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3952,
+  "response_bytes_sha256": "eb02aa65643a263061a20619c8b2f9d2071ea5f39988d05474db0defae9a5702",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJGaXJzdCBwYXBlciBvbiBmaW5lLXR1bmluZyBMTE1zIHdpdGggY2hhaW4tb2YtdGhvdWdodHMgZm9yIG1hdGggcmVhc29uaW5nIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjUsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlsyNDAxLjE1NTY5XSBFZmZpY2llbnQgVHVuaW5nIGFuZCBJbmZlcmVuY2UgZm9yIExhcmdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwMS4xNTU2OSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIEVOR0lORSwgYSBwYXJhbWV0ZXItIGFuZCBtZW1vcnktZWZmaWNpZW50IGZpbmUtdHVuaW5nIG1ldGhvZCBmb3IgdGV4dHVhbCBncmFwaHMgd2l0aCBhbiBMTE0gZW5jb2Rlci4gVGhlIGtleSBpbnNpZ2h0IGlzIHRvIGNvbWJpbmUgdGhlIExMTXMgYW5kIEdOTnMgdGhyb3VnaCBhIHR1bmFibGUgc2lkZSBzdHJ1Y3R1cmUsIHdoaWNoIHNpZ25pZmljYW50bHkgcmVkdWNlcyB0aGUgdHJhaW5pbmcgY29tcGxleGl0eSB3aXRob3V0IGltcGFpcmluZyB0aGUgam9pbnQgbW9kZWwncyBjYXBhY2l0eS4iLCJkYXRlIjoiSmFuIDI4LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbMjMwMy4xMDUxMl0gQWRhTG9SQTogQWRhcHRpdmUgQnVkZ2V0IEFsbG9jYXRpb24gZm9yIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwMy4xMDUxMiIsInNuaXBwZXQiOiJGaW5lLXR1bmluZyBsYXJnZSBwcmUtdHJhaW5lZCBsYW5ndWFnZSBtb2RlbHMgb24gZG93bnN0cmVhbSB0YXNrcyBoYXMgYmVjb21lIGFuIGltcG9ydGFudCBwYXJhZGlnbSBpbiBOTFAuIEhvd2V2ZXIsIGNvbW1vbiBwcmFjdGljZSBmaW5lLXR1bmVzIGFsbCBvZiB0aGUgcGFyYW1ldGVycyBpbiBhIHByZS10cmFpbmVkIG1vZGVsLCB3aGljaCBiZWNvbWVzIHByb2hpYml0aXZlIHdoZW4gYSBsYXJnZSBudW1iZXIgb2YgZG93bnN0cmVhbSB0YXNrcyBhcmUgcHJlc2VudC4gVGhlcmVmb3JlLCBtYW55IGZpbmUtdHVuaW5nIG1ldGhvZHMgYXJlIHByb3Bvc2VkIHRvIGxlYXJuIGluY3JlbWVudGFsIHVwZGF0ZXMgb2YgcHJlLXRyYWluZWQgd2VpZ2h0cyBpbiBhIHBhcmFtZXRlciBlZmZpY2llbnQgLi4uIiwiZGF0ZSI6Ik1hciAxOCwgMjAyMyIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiWzI0MDguMTMyOTZ2MV0gVGhlIFVsdGltYXRlIEd1aWRlIHRvIEZpbmUtVHVuaW5nIExMTXMgZnJvbSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDguMTMyOTZ2MSIsInNuaXBwZXQiOiJUaGlzIHJlcG9ydCBleGFtaW5lcyB0aGUgZmluZS10dW5pbmcgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIChMTE1zKSwgaW50ZWdyYXRpbmcgdGhlb3JldGljYWwgaW5zaWdodHMgd2l0aCBwcmFjdGljYWwgYXBwbGljYXRpb25zLiBJdCBvdXRsaW5lcyB0aGUgaGlzdG9yaWNhbCBldm9sdXRpb24gb2YgTExNcyBmcm9tIHRyYWRpdGlvbmFsIE5hdHVyYWwgTGFuZ3VhZ2UgUHJvY2Vzc2luZyAoTkxQKSBtb2RlbHMgdG8gdGhlaXIgcGl2b3RhbCByb2xlIGluIEFJLiBBIGNvbXBhcmlzb24gb2YgZmluZS10dW5pbmcgbWV0aG9kb2xvZ2llcywgaW5jbHVkaW5nIHN1cGVydmlzZWQsIHVuc3VwZXJ2aXNlZCwgYW5kIGluc3RydWN0aW9uLWJhc2VkIGFwcHJvYWNoZXMsIGhpZ2hsaWdodHMgdGhlaXIgLi4uIiwiZGF0ZSI6IkF1ZyAyMywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiWzIxMDkuMDE5MDNdIFJvYnVzdCBmaW5lLXR1bmluZyBvZiB6ZXJvLXNob3QgbW9kZWxzIC0gYXJYaXYub3JnIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMTA5LjAxOTAzIiwic25pcHBldCI6IkxhcmdlIHByZS10cmFpbmVkIG1vZGVscyBzdWNoIGFzIENMSVAgb3IgQUxJR04gb2ZmZXIgY29uc2lzdGVudCBhY2N1cmFjeSBhY3Jvc3MgYSByYW5nZSBvZiBkYXRhIGRpc3RyaWJ1dGlvbnMgd2hlbiBwZXJmb3JtaW5nIHplcm8tc2hvdCBpbmZlcmVuY2UgKGkuZS4sIHdpdGhvdXQgZmluZS10dW5pbmcgb24gYSBzcGVjaWZpYyBkYXRhc2V0KS4gQWx0aG91Z2ggZXhpc3RpbmcgZmluZS10dW5pbmcgbWV0aG9kcyBzdWJzdGFudGlhbGx5IGltcHJvdmUgYWNjdXJhY3kgb24gYSBnaXZlbiB0YXJnZXQgZGlzdHJpYnV0aW9uLCB0aGV5IG9mdGVuIHJlZHVjZSByb2J1c3RuZXNzIHRvIGRpc3RyaWJ1dGlvbiBzaGlmdHMuIFdlIGFkZHJlc3MgdGhpcyB0ZW5zaW9uIGJ5IGludHJvZHVjaW5nIGEgLi4uIiwiZGF0ZSI6IlNlcCA0LCAyMDIxIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJGaW5lLVR1bmluZyBMYW5ndWFnZSBNb2RlbHMgZnJvbSBIdW1hbiBQcmVmZXJlbmNlcyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMTkwOS4wODU5MyIsInNuaXBwZXQiOiJWaWV3IGEgUERGIG9mIHRoZSBwYXBlciB0aXRsZWQgRmluZS1UdW5pbmcgTGFuZ3VhZ2UgTW9kZWxzIGZyb20gSHVtYW4gUHJlZmVyZW5jZXMsIGJ5IERhbmllbCBNLiBaaWVnbGVyIGFuZCA3IG90aGVyIGF1dGhvcnMgVmlldyBQREZIVE1MIChleHBlcmltZW50YWwpIEFic3RyYWN0OlJld2FyZCBsZWFybmluZyBlbmFibGVzIHRoZSBhcHBsaWNhdGlvbiBvZiByZWluZm9yY2VtZW50IGxlYXJuaW5nIChSTCkgdG8gdGFza3Mgd2hlcmUgcmV3YXJkIGlzIGRlZmluZWQgYnkgaHVtYW4ganVkZ21lbnQsIGJ1aWxkaW5nIGEgbW9kZWwgb2YgcmV3YXJkIGJ5IGFza2luZyBodW1hbnMgcXVlc3Rpb25zLiIsImRhdGUiOiJTZXAgMTgsIDIwMTkiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IlsyNDA4LjA4MzQ1XSA1JT4xMDAlOiBCcmVha2luZyBQZXJmb3JtYW5jZSBTaGFja2xlcyBvZiBGdWxsLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA4LjA4MzQ1Iiwic25pcHBldCI6IlByZS10cmFpbmluZyAmIGZpbmUtdHVuaW5nIGNhbiBlbmhhbmNlIHRoZSB0cmFuc2ZlcnJpbmcgZWZmaWNpZW5jeSBhbmQgcGVyZm9ybWFuY2UgaW4gdmlzdWFsIHRhc2tzLiBSZWNlbnQgZGVsdGEtdHVuaW5nIG1ldGhvZHMgcHJvdmlkZSBtb3JlIG9wdGlvbnMgZm9yIHZpc3VhbCBjbGFzc2lmaWNhdGlvbiB0YXNrcy4gRGVzcGl0ZSB0aGVpciBzdWNjZXNzLCBleGlzdGluZyB2aXN1YWwgZGVsdGEtdHVuaW5nIGFydCBmYWlscyB0byBleGNlZWQgdGhlIHVwcGVyIGxpbWl0IG9mIGZ1bGwgZmluZS10dW5pbmcgb24gY2hhbGxlbmdpbmcgdGFza3MgbGlrZSBvYmplY3QgZGV0ZWN0aW9uIGFuZCBzZWdtZW50YXRpb24uIFRvIGZpbmQgYSBjb21wZXRpdGl2ZSBhbHRlcm5hdGl2ZSB0byBmdWxsIC4uLiIsImRhdGUiOiJBdWcgMTUsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkxvUkE6IExvdy1SYW5rIEFkYXB0YXRpb24gb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMTA2LjA5Njg1Iiwic25pcHBldCI6IkFuIGltcG9ydGFudCBwYXJhZGlnbSBvZiBuYXR1cmFsIGxhbmd1YWdlIHByb2Nlc3NpbmcgY29uc2lzdHMgb2YgbGFyZ2Utc2NhbGUgcHJlLXRyYWluaW5nIG9uIGdlbmVyYWwgZG9tYWluIGRhdGEgYW5kIGFkYXB0YXRpb24gdG8gcGFydGljdWxhciB0YXNrcyBvciBkb21haW5zLiBBcyB3ZSBwcmUtdHJhaW4gbGFyZ2VyIG1vZGVscywgZnVsbCBmaW5lLXR1bmluZywgd2hpY2ggcmV0cmFpbnMgYWxsIG1vZGVsIHBhcmFtZXRlcnMsIGJlY29tZXMgbGVzcyBmZWFzaWJsZS4gVXNpbmcgR1BULTMgMTc1QiBhcyBhbiBleGFtcGxlIC0tIGRlcGxveWluZyBpbmRlcGVuZGVudCBpbnN0YW5jZXMgb2YgZmluZS10dW5lZCBtb2RlbHMsIGVhY2ggd2l0aCAxNzVCIHBhcmFtZXRlcnMsIGlzIC4uLiIsImRhdGUiOiJKdW4gMTcsIDIwMjEiLCJwb3NpdGlvbiI6N31dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "First paper on fine-tuning LLMs with chain-of-thoughts for math reasoning before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 5,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[2401.15569] Efficient Tuning and Inference for Large ...",
+        "link": "https://arxiv.org/abs/2401.15569",
+        "snippet": "In this paper, we propose ENGINE, a parameter- and memory-efficient fine-tuning method for textual graphs with an LLM encoder. The key insight is to combine the LLMs and GNNs through a tunable side structure, which significantly reduces the training complexity without impairing the joint model's capacity.",
+        "date": "Jan 28, 2024",
+        "position": 1
+      },
+      {
+        "title": "[2303.10512] AdaLoRA: Adaptive Budget Allocation for ...",
+        "link": "https://arxiv.org/abs/2303.10512",
+        "snippet": "Fine-tuning large pre-trained language models on downstream tasks has become an important paradigm in NLP. However, common practice fine-tunes all of the parameters in a pre-trained model, which becomes prohibitive when a large number of downstream tasks are present. Therefore, many fine-tuning methods are proposed to learn incremental updates of pre-trained weights in a parameter efficient ...",
+        "date": "Mar 18, 2023",
+        "position": 2
+      },
+      {
+        "title": "[2408.13296v1] The Ultimate Guide to Fine-Tuning LLMs from ...",
+        "link": "https://arxiv.org/abs/2408.13296v1",
+        "snippet": "This report examines the fine-tuning of Large Language Models (LLMs), integrating theoretical insights with practical applications. It outlines the historical evolution of LLMs from traditional Natural Language Processing (NLP) models to their pivotal role in AI. A comparison of fine-tuning methodologies, including supervised, unsupervised, and instruction-based approaches, highlights their ...",
+        "date": "Aug 23, 2024",
+        "position": 3
+      },
+      {
+        "title": "[2109.01903] Robust fine-tuning of zero-shot models - arXiv.org",
+        "link": "https://arxiv.org/abs/2109.01903",
+        "snippet": "Large pre-trained models such as CLIP or ALIGN offer consistent accuracy across a range of data distributions when performing zero-shot inference (i.e., without fine-tuning on a specific dataset). Although existing fine-tuning methods substantially improve accuracy on a given target distribution, they often reduce robustness to distribution shifts. We address this tension by introducing a ...",
+        "date": "Sep 4, 2021",
+        "position": 4
+      },
+      {
+        "title": "Fine-Tuning Language Models from Human Preferences",
+        "link": "https://arxiv.org/abs/1909.08593",
+        "snippet": "View a PDF of the paper titled Fine-Tuning Language Models from Human Preferences, by Daniel M. Ziegler and 7 other authors View PDFHTML (experimental) Abstract:Reward learning enables the application of reinforcement learning (RL) to tasks where reward is defined by human judgment, building a model of reward by asking humans questions.",
+        "date": "Sep 18, 2019",
+        "position": 5
+      },
+      {
+        "title": "[2408.08345] 5%>100%: Breaking Performance Shackles of Full...",
+        "link": "https://arxiv.org/abs/2408.08345",
+        "snippet": "Pre-training & fine-tuning can enhance the transferring efficiency and performance in visual tasks. Recent delta-tuning methods provide more options for visual classification tasks. Despite their success, existing visual delta-tuning art fails to exceed the upper limit of full fine-tuning on challenging tasks like object detection and segmentation. To find a competitive alternative to full ...",
+        "date": "Aug 15, 2024",
+        "position": 6
+      },
+      {
+        "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+        "link": "https://arxiv.org/abs/2106.09685",
+        "snippet": "An important paradigm of natural language processing consists of large-scale pre-training on general domain data and adaptation to particular tasks or domains. As we pre-train larger models, full fine-tuning, which retrains all model parameters, becomes less feasible. Using GPT-3 175B as an example -- deploying independent instances of fine-tuned models, each with 175B parameters, is ...",
+        "date": "Jun 17, 2021",
+        "position": 7
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank_on_page": 1,
+      "nominal_rank": 41,
+      "title": "[2401.15569] Efficient Tuning and Inference for Large ...",
+      "snippet": "In this paper, we propose ENGINE, a parameter- and memory-efficient fine-tuning method for textual graphs with an LLM encoder. The key insight is to combine the LLMs and GNNs through a tunable side structure, which significantly reduces the training complexity without impairing the joint model's capacity.",
+      "link": "https://arxiv.org/abs/2401.15569",
+      "arxiv_id": "2401.15569"
+    },
+    {
+      "rank_on_page": 2,
+      "nominal_rank": 42,
+      "title": "[2303.10512] AdaLoRA: Adaptive Budget Allocation for ...",
+      "snippet": "Fine-tuning large pre-trained language models on downstream tasks has become an important paradigm in NLP. However, common practice fine-tunes all of the parameters in a pre-trained model, which becomes prohibitive when a large number of downstream tasks are present. Therefore, many fine-tuning methods are proposed to learn incremental updates of pre-trained weights in a parameter efficient ...",
+      "link": "https://arxiv.org/abs/2303.10512",
+      "arxiv_id": "2303.10512"
+    },
+    {
+      "rank_on_page": 3,
+      "nominal_rank": 43,
+      "title": "[2408.13296v1] The Ultimate Guide to Fine-Tuning LLMs from ...",
+      "snippet": "This report examines the fine-tuning of Large Language Models (LLMs), integrating theoretical insights with practical applications. It outlines the historical evolution of LLMs from traditional Natural Language Processing (NLP) models to their pivotal role in AI. A comparison of fine-tuning methodologies, including supervised, unsupervised, and instruction-based approaches, highlights their ...",
+      "link": "https://arxiv.org/abs/2408.13296v1",
+      "arxiv_id": "2408.13296"
+    },
+    {
+      "rank_on_page": 4,
+      "nominal_rank": 44,
+      "title": "[2109.01903] Robust fine-tuning of zero-shot models - arXiv.org",
+      "snippet": "Large pre-trained models such as CLIP or ALIGN offer consistent accuracy across a range of data distributions when performing zero-shot inference (i.e., without fine-tuning on a specific dataset). Although existing fine-tuning methods substantially improve accuracy on a given target distribution, they often reduce robustness to distribution shifts. We address this tension by introducing a ...",
+      "link": "https://arxiv.org/abs/2109.01903",
+      "arxiv_id": "2109.01903"
+    },
+    {
+      "rank_on_page": 5,
+      "nominal_rank": 45,
+      "title": "Fine-Tuning Language Models from Human Preferences",
+      "snippet": "View a PDF of the paper titled Fine-Tuning Language Models from Human Preferences, by Daniel M. Ziegler and 7 other authors View PDFHTML (experimental) Abstract:Reward learning enables the application of reinforcement learning (RL) to tasks where reward is defined by human judgment, building a model of reward by asking humans questions.",
+      "link": "https://arxiv.org/abs/1909.08593",
+      "arxiv_id": "1909.08593"
+    },
+    {
+      "rank_on_page": 6,
+      "nominal_rank": 46,
+      "title": "[2408.08345] 5%>100%: Breaking Performance Shackles of Full...",
+      "snippet": "Pre-training & fine-tuning can enhance the transferring efficiency and performance in visual tasks. Recent delta-tuning methods provide more options for visual classification tasks. Despite their success, existing visual delta-tuning art fails to exceed the upper limit of full fine-tuning on challenging tasks like object detection and segmentation. To find a competitive alternative to full ...",
+      "link": "https://arxiv.org/abs/2408.08345",
+      "arxiv_id": "2408.08345"
+    },
+    {
+      "rank_on_page": 7,
+      "nominal_rank": 47,
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "snippet": "An important paradigm of natural language processing consists of large-scale pre-training on general domain data and adaptation to particular tasks or domains. As we pre-train larger models, full fine-tuning, which retrains all model parameters, becomes less feasible. Using GPT-3 175B as an example -- deploying independent instances of fine-tuned models, each with 175B parameters, is ...",
+      "link": "https://arxiv.org/abs/2106.09685",
+      "arxiv_id": "2106.09685"
+    }
+  ],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:44:31.977023+00:00",
+  "elapsed_seconds": 4.812370050698519
+}

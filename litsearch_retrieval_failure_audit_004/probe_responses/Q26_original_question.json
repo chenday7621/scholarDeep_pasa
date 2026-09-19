@@ -1,0 +1,201 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q26",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2106.08433",
+  "request_payload": {
+    "q": "In multi-hop question answering, is there a paper that explores \"per-hop\" retrieval evaluation that treats each hop of retrieval independently? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 54,
+  "started_utc": "2026-09-17T12:34:26.210976+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648190",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "ffbd813d35283dcedf8a8888dfd99d85",
+    "date": "Thu, 17 Sep 2026 12:29:47 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3559",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3559,
+  "response_bytes_sha256": "11863a46c0b62e239d5ff6f68108812fa7c32692981fa00555df16ba2e9acbb4",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJJbiBtdWx0aS1ob3AgcXVlc3Rpb24gYW5zd2VyaW5nLCBpcyB0aGVyZSBhIHBhcGVyIHRoYXQgZXhwbG9yZXMgXCJwZXItaG9wXCIgcmV0cmlldmFsIGV2YWx1YXRpb24gdGhhdCB0cmVhdHMgZWFjaCBob3Agb2YgcmV0cmlldmFsIGluZGVwZW5kZW50bHk/IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlJldHJpZXZhbOKAk1JlYXNvbmluZyBQcm9jZXNzZXMgZm9yIE11bHRpLWhvcCBRdWVzdGlvbiBBbnN3ZXJpbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAxLjAwNTM2djEiLCJzbmlwcGV0IjoiKDIwMjEpICwgYW5kIHN0ZXAtd2lzZSBkZW5zZSByZXRyaWV2ZXJzIGZvciBIb3Rwb3RRQSBhbmQgMldpa2lNdWx0aUhvcFFBIHN0aWxsIG9wZXJhdGUgb3ZlciBmbGF0IGluZGljZXMsIGV2ZW4gd2hlbiB0aGV5IHRyYWluIHNlcGFyYXRlIHJldHJpZXZlcnMgcGVyIGhvcC4iLCJkYXRlIjoiSmFuIDIsIDIwMjYiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6Ik11bHRpLWhvcCBRdWVzdGlvbiBBbnN3ZXJpbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDQuMDkxNDB2MiIsInNuaXBwZXQiOiIuLi4gYWxsIHRoZSBzdXBwb3J0aW5nIGZhY3RzIHdpdGhpbiB0b3AgayBrIHJldHJpZXZlZCBkb2N1bWVudHMuIFsxNzNdIGRlZmluZSB0aGUgcGVyLWhvcCByZXRyaWV2YWwgZXZhbHVhdGlvbiB0aGF0IHRyZWF0cyBlYWNoIGhvcCBvZiByZXRyaWV2YWwgaW5kZXBlbmRlbnRseS4iLCJkYXRlIjoiTWF5IDMxLCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJXaGVuIEl0ZXJhdGl2ZSBSQUcgQmVhdHMgSWRlYWwgRXZpZGVuY2U6IEEgRGlhZ25vc3RpYyBTdHVkeSBpbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAxLjE5ODI3djQiLCJzbmlwcGV0IjoiUmFmaWVpICgyMDI1KSBQUklTTTogYWdlbnRpYyByZXRyaWV2YWwgd2l0aCBsbG1zIGZvciBtdWx0aS1ob3AgcXVlc3Rpb24gYW5zd2VyaW5nLiAuLi4gKDMpIExhdGUtSGl0IHBlciBIb3Ag4oCTIERlZmluaXRpb246IEZvciBvcmFjbGUgaG9wIGsgayAsIGZpbmQgdGhlIEZJUlNUIHN0ZXAgLi4uIiwiZGF0ZSI6Ikp1biAxMCwgMjAyNiIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiRXZhbHVhdGluZyBNdWx0aS1Ib3AgUmVhc29uaW5nIGluIExhcmdlIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNC4xNjQxNHYyIiwic25pcHBldCI6Ik91ciBkYXRhc2V0IGNvbXByaXNlcyA5NzEgcXVlc3Rpb25zIHNwYW5uaW5nIDEgdG8gNCBob3BzIChPbiBhdmVyYWdlLCAyNDUgcXVlc3Rpb25zIHBlciBob3ApLCBnZW5lcmF0ZWQgdXNpbmcgdGhlIGFwcHJvYWNoIGRlc2NyaWJlZCBpbiBTZWN0aW9uIDMuMi4gVGhlIGZ1bGwgLi4uIiwiZGF0ZSI6IkF1ZyA2LCAyMDI1IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJHcmVwU2VlazogVHJhaW5pbmcgU2VhcmNoIEFnZW50cyBmb3IgRGlyZWN0IENvcnB1cyBJbnRlcmFjdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNS4yOTMwN3YxIiwic25pcHBldCI6Ii4uLiBxdWVzdGlvbiBhbnN3ZXJpbmcgYmVuY2htYXJrcyBzcGFubmluZyBib3RoIHNpbmdsZS0gYW5kIG11bHRpLWhvcCBxdWVzdGlvbnMuIC4uLiBFYWNoIHJldHJpZXZlZCBkb2N1bWVudCBpcyB2YWxpZGF0ZWQgdXNpbmcgYSBwZXItaG9wIGVudGFpbG1lbnQganVkZ2UgLi4uIiwiZGF0ZSI6Ik1heSAyOCwgMjAyNiIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiW1BERl0gTXVsdGktaG9wIFF1ZXN0aW9uIEFuc3dlcmluZyBhclhpdjoyMjA0LjA5MTQwdjIgW2NzLkNMXSAzMSBNYXkgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjA0LjA5MTQwIiwic25pcHBldCI6IigyMDIxYSkgZGVmaW5lIHRoZSBwZXItaG9wIHJldHJpZXZhbCBldmFsdWF0aW9uIHRoYXQgdHJlYXRzIGVhY2ggaG9wIG9mIHJldHJpZXZhbCBpbmRlcGVuZGVudGx5LiBGaXJzdCBob3AgcmV0cmlldmFsIHBlcmZvcm1hbmNlIGlzIG1lYXN1cmVkIGJ5IGZyYWN0aW9uIG9mIC4uLiIsImRhdGUiOiJNYXkgMzEsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIENyZWRpYmxlIFBsYW4tRHJpdmVuIFJBRyBNZXRob2QgZm9yIE11bHRpLUhvcCBRdWVzdGlvbiBBbnN3ZXJpbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDQuMTY3ODciLCJzbmlwcGV0IjoiRHVyaW5nIHJldHJpZXZhbCwgUkFQVE9SIGV2YWx1YXRlcyB0aGUgcmVsZXZhbmNlIG9mIGVhY2ggbm9kZSBpbiB0aGUgLi4uIEZvciB0aGUgdHJhaW5pbmcgc2V0LCB3ZSBzZWxlY3RlZCAxLDE3MSBpbnN0YW5jZXMgcGVyIGhvcCBsZXZlbCBmcm9tIHRoZSB0cmFpbmluZy4iLCJkYXRlIjoiSmFuIDEzLCAyMDI2IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJUaGUgQW5zd2VyIFBhdGggYW5kIHRoZSBHcm91bmRpbmcgSW5zdHJ1Y3Rpb25pbiBMTE0gUXVlc3Rpb24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwOS4xMDIzN3YxIiwic25pcHBldCI6IkVhY2ggbXVsdGktaG9wIFNQQVJRTCBxdWVyeSB3YXMgZGVjb21wb3NlZCBpbnRvIHBlci1ob3Agc3RlcHMsIGFuZCBlYWNoIHN0ZXAgcmVjZWl2ZWQgb25seSBpdHMgb3JhY2xlLWNvcnJlY3QgdHJpcGxlcyBwbHVzIHRoZSBwcmVjZWRpbmcgc3RlcCdzIGFuc3dlci4iLCJkYXRlIjoiNyBkYXlzIGFnbyIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gUmV0cmlldmFsLS1SZWFzb25pbmcgUHJvY2Vzc2VzIGZvciBNdWx0aS1ob3AgUXVlc3Rpb24gQW5zd2VyaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNjAxLjAwNTM2Iiwic25pcHBldCI6ImV2ZW4gd2hlbiB0aGV5IHRyYWluIHNlcGFyYXRlIHJldHJpZXZlcnMgcGVyIGhvcC4gSGllcmFyY2hpY2FsIC8gU3VtbWFyeS1UcmVlIEluZGljZXMuIEhpZXJhci0gY2hpY2FsIGluZGljZXMgb3JnYW5pemUgZG9jdW1lbnRzIGludG8gbXVsdGktbGV2ZWwgY2x1c3RlcnMgLi4uIiwiZGF0ZSI6IkphbiAyLCAyMDI2IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJTZWFyY2gtb24tR3JhcGg6IEl0ZXJhdGl2ZSBJbmZvcm1lZCBOYXZpZ2F0aW9uIGZvciBMYXJnZSBMYW5ndWFnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTEwLjA4ODI1djEiLCJzbmlwcGV0IjoiT3VyIGNvbnNpc3RlbnQgcGVyZm9ybWFuY2UgYWNyb3NzIGNvbXBsZXhpdHkgbGV2ZWxzIGxpa2VseSBzdGVtcyBmcm9tIG91ciBmb2N1c2VkIG5hdmlnYXRpb24gc3RyYXRlZ3nigJRieSBzZWxlY3Rpbmcgb25lIHJlbGF0aW9uIHBlciBob3AgcmF0aGVyIHRoYW4gZXhwbG9yaW5nIC4uLiIsImRhdGUiOiJPY3QgOSwgMjAyNSIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "In multi-hop question answering, is there a paper that explores \"per-hop\" retrieval evaluation that treats each hop of retrieval independently? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Retrieval–Reasoning Processes for Multi-hop Question Answering",
+        "link": "https://arxiv.org/html/2601.00536v1",
+        "snippet": "(2021) , and step-wise dense retrievers for HotpotQA and 2WikiMultiHopQA still operate over flat indices, even when they train separate retrievers per hop.",
+        "date": "Jan 2, 2026",
+        "position": 1
+      },
+      {
+        "title": "Multi-hop Question Answering - arXiv",
+        "link": "https://arxiv.org/html/2204.09140v2",
+        "snippet": "... all the supporting facts within top k k retrieved documents. [173] define the per-hop retrieval evaluation that treats each hop of retrieval independently.",
+        "date": "May 31, 2024",
+        "position": 2
+      },
+      {
+        "title": "When Iterative RAG Beats Ideal Evidence: A Diagnostic Study in ...",
+        "link": "https://arxiv.org/html/2601.19827v4",
+        "snippet": "Rafiei (2025) PRISM: agentic retrieval with llms for multi-hop question answering. ... (3) Late-Hit per Hop – Definition: For oracle hop k k , find the FIRST step ...",
+        "date": "Jun 10, 2026",
+        "position": 3
+      },
+      {
+        "title": "Evaluating Multi-Hop Reasoning in Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2504.16414v2",
+        "snippet": "Our dataset comprises 971 questions spanning 1 to 4 hops (On average, 245 questions per hop), generated using the approach described in Section 3.2. The full ...",
+        "date": "Aug 6, 2025",
+        "position": 4
+      },
+      {
+        "title": "GrepSeek: Training Search Agents for Direct Corpus Interaction - arXiv",
+        "link": "https://arxiv.org/html/2605.29307v1",
+        "snippet": "... question answering benchmarks spanning both single- and multi-hop questions. ... Each retrieved document is validated using a per-hop entailment judge ...",
+        "date": "May 28, 2026",
+        "position": 5
+      },
+      {
+        "title": "[PDF] Multi-hop Question Answering arXiv:2204.09140v2 [cs.CL] 31 May ...",
+        "link": "https://arxiv.org/pdf/2204.09140",
+        "snippet": "(2021a) define the per-hop retrieval evaluation that treats each hop of retrieval independently. First hop retrieval performance is measured by fraction of ...",
+        "date": "May 31, 2024",
+        "position": 6
+      },
+      {
+        "title": "[PDF] Credible Plan-Driven RAG Method for Multi-Hop Question Answering",
+        "link": "https://arxiv.org/pdf/2504.16787",
+        "snippet": "During retrieval, RAPTOR evaluates the relevance of each node in the ... For the training set, we selected 1,171 instances per hop level from the training.",
+        "date": "Jan 13, 2026",
+        "position": 7
+      },
+      {
+        "title": "The Answer Path and the Grounding Instructionin LLM Question ...",
+        "link": "https://arxiv.org/html/2609.10237v1",
+        "snippet": "Each multi-hop SPARQL query was decomposed into per-hop steps, and each step received only its oracle-correct triples plus the preceding step's answer.",
+        "date": "7 days ago",
+        "position": 8
+      },
+      {
+        "title": "[PDF] Retrieval--Reasoning Processes for Multi-hop Question Answering",
+        "link": "https://arxiv.org/pdf/2601.00536",
+        "snippet": "even when they train separate retrievers per hop. Hierarchical / Summary-Tree Indices. Hierar- chical indices organize documents into multi-level clusters ...",
+        "date": "Jan 2, 2026",
+        "position": 9
+      },
+      {
+        "title": "Search-on-Graph: Iterative Informed Navigation for Large Language ...",
+        "link": "https://arxiv.org/html/2510.08825v1",
+        "snippet": "Our consistent performance across complexity levels likely stems from our focused navigation strategy—by selecting one relation per hop rather than exploring ...",
+        "date": "Oct 9, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Retrieval–Reasoning Processes for Multi-hop Question Answering",
+      "snippet": "(2021) , and step-wise dense retrievers for HotpotQA and 2WikiMultiHopQA still operate over flat indices, even when they train separate retrievers per hop.",
+      "link": "https://arxiv.org/html/2601.00536v1",
+      "arxiv_id": "2601.00536"
+    },
+    {
+      "rank": 2,
+      "title": "Multi-hop Question Answering - arXiv",
+      "snippet": "... all the supporting facts within top k k retrieved documents. [173] define the per-hop retrieval evaluation that treats each hop of retrieval independently.",
+      "link": "https://arxiv.org/html/2204.09140v2",
+      "arxiv_id": "2204.09140"
+    },
+    {
+      "rank": 3,
+      "title": "When Iterative RAG Beats Ideal Evidence: A Diagnostic Study in ...",
+      "snippet": "Rafiei (2025) PRISM: agentic retrieval with llms for multi-hop question answering. ... (3) Late-Hit per Hop – Definition: For oracle hop k k , find the FIRST step ...",
+      "link": "https://arxiv.org/html/2601.19827v4",
+      "arxiv_id": "2601.19827"
+    },
+    {
+      "rank": 4,
+      "title": "Evaluating Multi-Hop Reasoning in Large Language Models - arXiv",
+      "snippet": "Our dataset comprises 971 questions spanning 1 to 4 hops (On average, 245 questions per hop), generated using the approach described in Section 3.2. The full ...",
+      "link": "https://arxiv.org/html/2504.16414v2",
+      "arxiv_id": "2504.16414"
+    },
+    {
+      "rank": 5,
+      "title": "GrepSeek: Training Search Agents for Direct Corpus Interaction - arXiv",
+      "snippet": "... question answering benchmarks spanning both single- and multi-hop questions. ... Each retrieved document is validated using a per-hop entailment judge ...",
+      "link": "https://arxiv.org/html/2605.29307v1",
+      "arxiv_id": "2605.29307"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] Multi-hop Question Answering arXiv:2204.09140v2 [cs.CL] 31 May ...",
+      "snippet": "(2021a) define the per-hop retrieval evaluation that treats each hop of retrieval independently. First hop retrieval performance is measured by fraction of ...",
+      "link": "https://arxiv.org/pdf/2204.09140",
+      "arxiv_id": "2204.09140"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] Credible Plan-Driven RAG Method for Multi-Hop Question Answering",
+      "snippet": "During retrieval, RAPTOR evaluates the relevance of each node in the ... For the training set, we selected 1,171 instances per hop level from the training.",
+      "link": "https://arxiv.org/pdf/2504.16787",
+      "arxiv_id": "2504.16787"
+    },
+    {
+      "rank": 8,
+      "title": "The Answer Path and the Grounding Instructionin LLM Question ...",
+      "snippet": "Each multi-hop SPARQL query was decomposed into per-hop steps, and each step received only its oracle-correct triples plus the preceding step's answer.",
+      "link": "https://arxiv.org/html/2609.10237v1",
+      "arxiv_id": "2609.10237"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] Retrieval--Reasoning Processes for Multi-hop Question Answering",
+      "snippet": "even when they train separate retrievers per hop. Hierarchical / Summary-Tree Indices. Hierar- chical indices organize documents into multi-level clusters ...",
+      "link": "https://arxiv.org/pdf/2601.00536",
+      "arxiv_id": "2601.00536"
+    },
+    {
+      "rank": 10,
+      "title": "Search-on-Graph: Iterative Informed Navigation for Large Language ...",
+      "snippet": "Our consistent performance across complexity levels likely stems from our focused navigation strategy—by selecting one relation per hop rather than exploring ...",
+      "link": "https://arxiv.org/html/2510.08825v1",
+      "arxiv_id": "2510.08825"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:27.413137+00:00",
+  "elapsed_seconds": 1.2021634466946125,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q26_original_question_attempt1.json",
+      "sha256": "805d113a375998d9b3acfddea1882d0c0f76449542d2ba699135676e767f4726",
+      "status": "PASS"
+    }
+  ]
+}

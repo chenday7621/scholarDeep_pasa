@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q10",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2208.10734",
+  "request_payload": {
+    "q": "Which paper used both automatically generated and manual templates with word tuples to adapt language models from one timestamp to another? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 21,
+  "started_utc": "2026-09-17T12:33:47.140798+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648150",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "7021865ff2bd705dfac65050aaa74bf8",
+    "date": "Thu, 17 Sep 2026 12:29:08 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3524",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3524,
+  "response_bytes_sha256": "2dd8b715affc280049c83578cbf4ca74262e2d1470e3e3708cd5ad317b27cb14",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJXaGljaCBwYXBlciB1c2VkIGJvdGggYXV0b21hdGljYWxseSBnZW5lcmF0ZWQgYW5kIG1hbnVhbCB0ZW1wbGF0ZXMgd2l0aCB3b3JkIHR1cGxlcyB0byBhZGFwdCBsYW5ndWFnZSBtb2RlbHMgZnJvbSBvbmUgdGltZXN0YW1wIHRvIGFub3RoZXI/IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkEgU3lzdGVtYXRpYyBQcm9tcHQgVGVtcGxhdGUgQW5hbHlzaXMgZm9yIFJlYWwtd29ybGQgTExNYXBwcyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDQuMDIwNTJ2MSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHByZXNlbnRzIGEgY29tcHJlaGVuc2l2ZSBhbmFseXNpcyBvZiBwcm9tcHQgdGVtcGxhdGVzIGluIHByYWN0aWNhbCBMTE1hcHBzLiBXZSBjb25zdHJ1Y3QgYSBkYXRhc2V0IG9mIHJlYWwtd29ybGQgdGVtcGxhdGVzIGZyb20gb3Blbi1zb3VyY2UgTExNYXBwcywgLi4uIiwiZGF0ZSI6IkFwciAyLCAyMDI1IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJTZWxmLUFkYXB0aW5nIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNi4xMDk0M3YxIiwic25pcHBldCI6IldlIGludHJvZHVjZSBTZWxmLUFkYXB0aW5nIExMTXMgKFNFQUwpLCBhIGZyYW1ld29yayB0aGF0IGVuYWJsZXMgTExNcyB0byBzZWxmLWFkYXB0IGJ5IGdlbmVyYXRpbmcgdGhlaXIgb3duIGZpbmV0dW5pbmcgZGF0YSBhbmQgdXBkYXRlIGRpcmVjdGl2ZXMuIiwiZGF0ZSI6Ikp1biAxMiwgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiTExNUGFyc2VyOiBBbiBFeHBsb3JhdG9yeSBTdHVkeSBvbiBVc2luZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4xODAwMXYxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGV4cGxvcmUgdGhlIHBvdGVudGlhbCBvZiB1c2luZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKExMTXMpIGZvciBsb2cgcGFyc2luZyBhbmQgcHJvcG9zZSBMTE1QYXJzZXIsIGFuIExMTS1iYXNlZCBsb2cgcGFyc2VyIGJhc2VkIG9uIGdlbmVyYXRpdmUgLi4uIiwiZGF0ZSI6IkFwciAyNywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiTExNIEJhc2VkIE11bHRpLUFnZW50IEdlbmVyYXRpb24gb2YgU2VtaS1zdHJ1Y3R1cmVkIERvY3VtZW50cyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjE0ODcxdjEiLCJzbmlwcGV0IjoiVGhlIG1haW4gY29udHJpYnV0aW9uIG9mIHRoaXMgd29yayBjb25jZXJucyByZXBsYWNpbmcgdGhlIGNvbW1vbmx5IHVzZWQgbWFudWFsIHByb21wdGluZyB3aXRoIGEgdGFzayBkZXNjcmlwdGlvbiBnZW5lcmF0ZWQgYnkgc2VtYW50aWMgcmV0cmlldmFsIGZyb20gYW4gTExNLiIsImRhdGUiOiJGZWIgMjEsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlByb21wdCBFbmdpbmVlcmluZyBhIFByb21wdCBFbmdpbmVlciAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMS4wNTY2MXYzIiwic25pcHBldCI6IldoaWxlIHJlY2VudCB3b3JrcyBpbmRpY2F0ZSB0aGF0IGxhcmdlIGxhbmd1YWdlIG1vZGVscyBjYW4gYmUgbWV0YS1wcm9tcHRlZCB0byBwZXJmb3JtIGF1dG9tYXRpYyBwcm9tcHQgZW5naW5lZXJpbmcsIHdlIGFyZ3VlIHRoYXQgdGhlaXIgcG90ZW50aWFsIGlzIGxpbWl0ZWQgLi4uIiwiZGF0ZSI6Ikp1bCAzLCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJBIFVuaWZpZWQgTGFuZ3VhZ2UgTW9kZWwgZm9yIExhcmdlIFNjYWxlIFNlYXJjaCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDMuMTc1MzN2MSIsInNuaXBwZXQiOiJMYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpIGFyZSBpbmNyZWFzaW5nbHkgYXBwbGllZCB0byByZWNvbW1lbmRhdGlvbiwgcmV0cmlldmFsLCBhbmQgcmVhc29uaW5nLCB5ZXQgZGVwbG95aW5nIGEgc2luZ2xlIGVuZC10by1lbmQgbW9kZWwgdGhhdCBjYW4gam9pbnRseSAuLi4iLCJkYXRlIjoiTWFyIDE4LCAyMDI2IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJNb250cmVhbCBGb3JjZWQgQWxpZ25lciBhbmQgdGhlIHN0YXRlIG9mIHNwZWVjaC10by10ZXh0IC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNi4xODQ2NnYxIiwic25pcHBldCI6IkFic3RyYWN0LiBUaGUgTW9udHJlYWwgRm9yY2VkIEFsaWduZXIgKE1GQSkgd2FzIHJlbGVhc2VkIGluIDIwMTYgYW5kIGhhcyBzaW5jZSBiZWNvbWUgdGhlIG1vc3Qgd2lkZWx5IHVzZWQgdG9vbCBmb3IgZm9yY2VkIGFsaWdubWVudCBpbiByZXNlYXJjaCBhbmQgLi4uIiwiZGF0ZSI6Ikp1biAxNiwgMjAyNiIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gQXV0b21hdGluZyBQcm9qZWN0IFBsYW5uaW5nIFVzaW5nIExhcmdlIExhbmd1YWdlIE1vZGVsIFByb2dyYW1zIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA2LjAzMTk3Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgdGFrZXMgdGhlIGNvbmNlcHQgb2YgQXV0b25vbW91cyBBZ2VudHMgYmVzdCBkZXNjcmliZWQgaW4gdGhlIFwiVm95YWdlclwiIHBhcGVyIChXYW5nIGV0IGFsLiBbMjAyM2FdKSBzZXZlcmFsIHN0ZXBzIGZ1cnRoZXIgYW5kIHVzZXMgbGFuZ3VhZ2UgbW9kZWxzIHRvIC4uLiIsImRhdGUiOiJKdW4gNSwgMjAyMyIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gRXZhbHVhdGluZyBMTE1zIG9uIFNlcXVlbnRpYWwgQVBJIENhbGwgVGhyb3VnaCBBdXRvbWF0ZWQgVGVzdCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDcuMDk0ODEiLCJzbmlwcGV0IjoiRm9yIGJvdGggbW9kZWxzLCB3ZSB1c2UgdGhlIGluc3RydWN0aW9uLXR1bmVkIHZlcnNpb25zLiBUaGUgcmVtYWluaW5nIG1vZGVscywgR2VtaW5pIGZyb20gR29vZ2xlIGFuZCB0aGUuIEdQVC00LjEgZmFtaWx5IGZyb20gT3BlbkFJLCBhcmUgY29tbWVyY2lhbCBMTE1zLiIsImRhdGUiOiJEZWMgMiwgMjAyNSIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gVGVhY2hpbmcgTExNcyB0byBQbGFuOiBMb2dpY2FsIENoYWluLW9mLVRob3VnaHQgSW5zdHJ1Y3Rpb24gVHVuaW5nIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUwOS4xMzM1MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcmVzZW50IGEgbm92ZWwgaW5zdHJ1Yy0gdGlvbiB0dW5pbmcgZnJhbWV3b3JrLCBQRERMLUlOU1RSVUNULCBkZXNpZ25lZCB0byBlbmhhbmNlIExMTXMnIHN5bWJvbGljIHBsYW5uaW5nIGNhcGFiaWxpdGllcyB0aHJvdWdoIGxvZ2ljYWwgY2hhaW4tIC4uLiIsImRhdGUiOiJTZXAgMTQsIDIwMjUiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Which paper used both automatically generated and manual templates with word tuples to adapt language models from one timestamp to another? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "A Systematic Prompt Template Analysis for Real-world LLMapps",
+        "link": "https://arxiv.org/html/2504.02052v1",
+        "snippet": "This paper presents a comprehensive analysis of prompt templates in practical LLMapps. We construct a dataset of real-world templates from open-source LLMapps, ...",
+        "date": "Apr 2, 2025",
+        "position": 1
+      },
+      {
+        "title": "Self-Adapting Language Models - arXiv",
+        "link": "https://arxiv.org/html/2506.10943v1",
+        "snippet": "We introduce Self-Adapting LLMs (SEAL), a framework that enables LLMs to self-adapt by generating their own finetuning data and update directives.",
+        "date": "Jun 12, 2025",
+        "position": 2
+      },
+      {
+        "title": "LLMParser: An Exploratory Study on Using Large Language Models ...",
+        "link": "https://arxiv.org/html/2404.18001v1",
+        "snippet": "In this paper, we explore the potential of using Large Language Models (LLMs) for log parsing and propose LLMParser, an LLM-based log parser based on generative ...",
+        "date": "Apr 27, 2024",
+        "position": 3
+      },
+      {
+        "title": "LLM Based Multi-Agent Generation of Semi-structured Documents ...",
+        "link": "https://arxiv.org/html/2402.14871v1",
+        "snippet": "The main contribution of this work concerns replacing the commonly used manual prompting with a task description generated by semantic retrieval from an LLM.",
+        "date": "Feb 21, 2024",
+        "position": 4
+      },
+      {
+        "title": "Prompt Engineering a Prompt Engineer - arXiv",
+        "link": "https://arxiv.org/html/2311.05661v3",
+        "snippet": "While recent works indicate that large language models can be meta-prompted to perform automatic prompt engineering, we argue that their potential is limited ...",
+        "date": "Jul 3, 2024",
+        "position": 5
+      },
+      {
+        "title": "A Unified Language Model for Large Scale Search ... - arXiv",
+        "link": "https://arxiv.org/html/2603.17533v1",
+        "snippet": "Large language models (LLMs) are increasingly applied to recommendation, retrieval, and reasoning, yet deploying a single end-to-end model that can jointly ...",
+        "date": "Mar 18, 2026",
+        "position": 6
+      },
+      {
+        "title": "Montreal Forced Aligner and the state of speech-to-text ... - arXiv",
+        "link": "https://arxiv.org/html/2606.18466v1",
+        "snippet": "Abstract. The Montreal Forced Aligner (MFA) was released in 2016 and has since become the most widely used tool for forced alignment in research and ...",
+        "date": "Jun 16, 2026",
+        "position": 7
+      },
+      {
+        "title": "[PDF] Automating Project Planning Using Large Language Model Programs",
+        "link": "https://arxiv.org/pdf/2306.03197",
+        "snippet": "This paper takes the concept of Autonomous Agents best described in the \"Voyager\" paper (Wang et al. [2023a]) several steps further and uses language models to ...",
+        "date": "Jun 5, 2023",
+        "position": 8
+      },
+      {
+        "title": "[PDF] Evaluating LLMs on Sequential API Call Through Automated Test ...",
+        "link": "https://arxiv.org/pdf/2507.09481",
+        "snippet": "For both models, we use the instruction-tuned versions. The remaining models, Gemini from Google and the. GPT-4.1 family from OpenAI, are commercial LLMs.",
+        "date": "Dec 2, 2025",
+        "position": 9
+      },
+      {
+        "title": "[PDF] Teaching LLMs to Plan: Logical Chain-of-Thought Instruction Tuning ...",
+        "link": "https://arxiv.org/pdf/2509.13351",
+        "snippet": "In this paper, we present a novel instruc- tion tuning framework, PDDL-INSTRUCT, designed to enhance LLMs' symbolic planning capabilities through logical chain- ...",
+        "date": "Sep 14, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "A Systematic Prompt Template Analysis for Real-world LLMapps",
+      "snippet": "This paper presents a comprehensive analysis of prompt templates in practical LLMapps. We construct a dataset of real-world templates from open-source LLMapps, ...",
+      "link": "https://arxiv.org/html/2504.02052v1",
+      "arxiv_id": "2504.02052"
+    },
+    {
+      "rank": 2,
+      "title": "Self-Adapting Language Models - arXiv",
+      "snippet": "We introduce Self-Adapting LLMs (SEAL), a framework that enables LLMs to self-adapt by generating their own finetuning data and update directives.",
+      "link": "https://arxiv.org/html/2506.10943v1",
+      "arxiv_id": "2506.10943"
+    },
+    {
+      "rank": 3,
+      "title": "LLMParser: An Exploratory Study on Using Large Language Models ...",
+      "snippet": "In this paper, we explore the potential of using Large Language Models (LLMs) for log parsing and propose LLMParser, an LLM-based log parser based on generative ...",
+      "link": "https://arxiv.org/html/2404.18001v1",
+      "arxiv_id": "2404.18001"
+    },
+    {
+      "rank": 4,
+      "title": "LLM Based Multi-Agent Generation of Semi-structured Documents ...",
+      "snippet": "The main contribution of this work concerns replacing the commonly used manual prompting with a task description generated by semantic retrieval from an LLM.",
+      "link": "https://arxiv.org/html/2402.14871v1",
+      "arxiv_id": "2402.14871"
+    },
+    {
+      "rank": 5,
+      "title": "Prompt Engineering a Prompt Engineer - arXiv",
+      "snippet": "While recent works indicate that large language models can be meta-prompted to perform automatic prompt engineering, we argue that their potential is limited ...",
+      "link": "https://arxiv.org/html/2311.05661v3",
+      "arxiv_id": "2311.05661"
+    },
+    {
+      "rank": 6,
+      "title": "A Unified Language Model for Large Scale Search ... - arXiv",
+      "snippet": "Large language models (LLMs) are increasingly applied to recommendation, retrieval, and reasoning, yet deploying a single end-to-end model that can jointly ...",
+      "link": "https://arxiv.org/html/2603.17533v1",
+      "arxiv_id": "2603.17533"
+    },
+    {
+      "rank": 7,
+      "title": "Montreal Forced Aligner and the state of speech-to-text ... - arXiv",
+      "snippet": "Abstract. The Montreal Forced Aligner (MFA) was released in 2016 and has since become the most widely used tool for forced alignment in research and ...",
+      "link": "https://arxiv.org/html/2606.18466v1",
+      "arxiv_id": "2606.18466"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] Automating Project Planning Using Large Language Model Programs",
+      "snippet": "This paper takes the concept of Autonomous Agents best described in the \"Voyager\" paper (Wang et al. [2023a]) several steps further and uses language models to ...",
+      "link": "https://arxiv.org/pdf/2306.03197",
+      "arxiv_id": "2306.03197"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] Evaluating LLMs on Sequential API Call Through Automated Test ...",
+      "snippet": "For both models, we use the instruction-tuned versions. The remaining models, Gemini from Google and the. GPT-4.1 family from OpenAI, are commercial LLMs.",
+      "link": "https://arxiv.org/pdf/2507.09481",
+      "arxiv_id": "2507.09481"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] Teaching LLMs to Plan: Logical Chain-of-Thought Instruction Tuning ...",
+      "snippet": "In this paper, we present a novel instruc- tion tuning framework, PDDL-INSTRUCT, designed to enhance LLMs' symbolic planning capabilities through logical chain- ...",
+      "link": "https://arxiv.org/pdf/2509.13351",
+      "arxiv_id": "2509.13351"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:48.206960+00:00",
+  "elapsed_seconds": 1.0661626495420933
+}

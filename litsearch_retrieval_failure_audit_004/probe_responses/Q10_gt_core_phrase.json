@@ -1,0 +1,215 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q10",
+  "group": "author-written",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2208.10734",
+  "request_payload": {
+    "q": "dynamic contextualised word embeddings template temporal before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 20,
+  "started_utc": "2026-09-17T12:33:46.164263+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648150",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "7a5df146f652a78dfac65050aaa74a91",
+    "date": "Thu, 17 Sep 2026 12:29:07 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3693",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3693,
+  "response_bytes_sha256": "da4de89669f2711a69c24c21134e71299b8efeb0870b01a1f46bae339c8f9c4e",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJkeW5hbWljIGNvbnRleHR1YWxpc2VkIHdvcmQgZW1iZWRkaW5ncyB0ZW1wbGF0ZSB0ZW1wb3JhbCBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJDb250ZXh0LUF3YXJlIFRlbXBvcmFsIEVtYmVkZGluZyBvZiBPYmplY3RzIGluIFZpZGVvIERhdGEgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTI3ODl2MSIsInNuaXBwZXQiOiJPdXIgdGVtcG9yYWwgY29udGV4dHVhbCBlbWJlZGRpbmcgbW9kZWwgYnJpbmdzIHRoZSB2aXN1YWwgb2JqZWN0cyB0aGF0IGFyZSB3aXRoaW4gYSBzaW1pbGFyIGNvbnRleHQgdG9nZXRoZXIgaW4gdGhlIGVtYmVkZGluZyBzcGFjZS4gRnVydGhlcm1vcmUsIHRoaXMgbW9kZWwgLi4uIiwiZGF0ZSI6IkF1ZyAyMywgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiVFJBQ0lORyBUSEUgRVZPTFVUSU9OIE9GIFdPUkQgRU1CRURESU5HIFRFQ0hOSVFVRVMgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwMy4xMzI3MXYxIiwic25pcHBldCI6IlRoaXMgd29yayB0cmFjZXMgdGhlIGV2b2x1dGlvbiBvZiB3b3JkLWVtYmVkZGluZyB0ZWNobmlxdWVzIHdpdGhpbiB0aGUgbmF0dXJhbCBsYW5ndWFnZSBwcm9jZXNzaW5nIChOTFApIGxpdGVyYXR1cmUuIFdlIGNvbGxlY3QiLCJkYXRlIjoiRmViIDI3LCAyMDI2IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJFbWJlZDJEZXRlY3Q6IFRlbXBvcmFsbHkgQ2x1c3RlcmVkIEVtYmVkZGVkIFdvcmRzIGZvciBFdmVudCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMDA2LjA1OTA4djQiLCJzbmlwcGV0IjoiRW1iZWQyRGV0ZWN0IGlzIHRoZSBvbmx5IG1ldGhvZCB3aGljaCB1c2VzIHNlbGYtbGVhcm5lZCB3b3JkIGVtYmVkZGluZy1iYXNlZCB0ZW1wb3JhbCBjbHVzdGVyIHNpbWlsYXJpdHkgZm9yIGV2ZW50IGRldGVjdGlvbiBpbiBzb2NpYWwgbWVkaWEuIiwiZGF0ZSI6Ik1heSAyNSwgMjAyMSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiRnJvbSBXb3JkIFZlY3RvcnMgdG8gTXVsdGltb2RhbCBFbWJlZGRpbmdzOiBUZWNobmlxdWVzIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMS4wNTAzNnYxIiwic25pcHBldCI6IldvcmQgZW1iZWRkaW5ncyBhZGRyZXNzIHRoZSBsaW1pdGF0aW9ucyBvZiBvbmUtaG90IGVuY29kaW5nIGJ5IHJlcHJlc2VudGluZyB3b3JkcyBhcyBkZW5zZSwgbG93LWRpbWVuc2lvbmFsIHZlY3RvcnMgbGVhcm5lZCBmcm9tIGxhcmdlIGNvcnBvcmEiLCJkYXRlIjoiTm92IDYsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlRlbXBvcmFsIEF0dGVudGlvbiBmb3IgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjAyLjAyMDkzdjIiLCJzbmlwcGV0IjoiVGVtcG9yYWwgYXR0ZW50aW9uIGNhbiBiZSBhcHBsaWVkIHRvIGFueSB0cmFuc2Zvcm1lciBtb2RlbCDigKYgdGhlIG1vZGVsIGNyZWF0ZXMgdGltZS1zcGVjaWZpYyBjb250ZXh0dWFsaXplZCB3b3JkIGVtYmVkZGluZ3MuIER5bmFtaWMgY29udGV4dHVhbGl6ZWQgd29yZCAuLi4iLCJkYXRlIjoiTWF5IDMsIDIwMjIiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6Ik9uIFNlbGYtaW1wcm92aW5nIFRva2VuIEVtYmVkZGluZ3MgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDQuMTQ4MDh2MSIsInNuaXBwZXQiOiJUaGlzIGFydGljbGUgaW50cm9kdWNlcyBhIG5vdmVsIGFuZCBmYXN0IG1ldGhvZCBmb3IgcmVmaW5pbmcgcHJlLXRyYWluZWQgc3RhdGljIHdvcmQgb3IsIG1vcmUgZ2VuZXJhbGx5LCB0b2tlbiBlbWJlZGRpbmdzLiIsImRhdGUiOiJBcHIgMjEsIDIwMjUiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkFuIExMTS1Ecml2ZW4gRnJhbWV3b3JrIGZvciBDb250ZXh0LWF3YXJlIFRpbWUgU2VyaWVzIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwOC4wOTE5MXYxIiwic25pcHBldCI6IlRoaXMgdW5pZmllZCBlbWJlZGRpbmcgbWVjaGFuaXNtIGVuYWJsZXMgc2VhbWxlc3MgZnVzaW9uIG9mIHRpbWUgc2VyaWVzIGFuZCBjb250ZXh0dWFsIGZlYXR1cmVzIHdoaWxlIG1haW50YWluaW5nIGFsaWdubWVudCB3aXRoIHRoZSBwcmUtdHJhaW5lZCBtb2RlbC4iLCJkYXRlIjoiQXVnIDgsIDIwMjUiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIEEgU3VydmV5IG9uIENvbnRleHR1YWxpc2VkIFNlbWFudGljIFNoaWZ0IERldGVjdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA0LjAxNjY2Iiwic25pcHBldCI6IlR5cGljYWxseSwgc3RhdGljIGVtYmVkZGluZ3MgYXJlIHVzZWQgdG8gZGV0ZWN0IGhvdyBhIHdvcmQgY2hhbmdlcyBpbiBpdHMgZG9taW5hbnQgc2Vuc2UsIHdpdGhvdXQgY29uc2lkZXJpbmcgdGhlIHBvc3NpYmxlIGFkZGl0aW9uYWwsIHN1Ym9yZGluYXRlIHNlbnNlcy8gLi4uIiwiZGF0ZSI6Ikp1biAxMSwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMwNS4wODY1NHYxIFtjcy5DTF0gMTUgTWF5IDIwMjMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDUuMDg2NTQiLCJzbmlwcGV0IjoiQ29udGV4dHVhbGlzZWQgd29yZCBlbWJlZGRpbmdzIHN1Y2ggYXMgdGhlIG9uZXMgcHJvZHVjZWQgYnkuIE1MTXMgaGF2ZSBzaG93biB0byBjb25jaXNlbHkgYW5kIGFjY3VyYXRlbHkgZW5jb2RlIGNvbnRleHR1YWwgaW5mb3JtYXRpb24gcmVsYXRlZCB0byBhIHRhcmdldCB3b3JkIC4uLiIsImRhdGUiOiJNYXkgMTUsIDIwMjMiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkFyY2FuZVFBOiBEeW5hbWljIFByb2dyYW0gSW5kdWN0aW9uIGFuZCBDb250ZXh0dWFsaXplZCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDQuMDgxMDl2MyIsInNuaXBwZXQiOiJPbmUgdW5pcXVlIGZlYXR1cmUgdG8gbm90ZSBpcyB0aGF0IHRoZSBlbmNvZGluZyBpcyBhbHNvIGR5bmFtaWM6IGF0IGVhY2ggcHJlZGljdGlvbiBzdGVwLCBvbmx5IHRoZSBzZXQgb2YgYWRtaXNzaWJsZSBzY2hlbWEgaXRlbXMgZGV0ZXJtaW5lZCBieSB0aGUgZHluYW1pYyAuLi4iLCJkYXRlIjoiT2N0IDI0LCAyMDIyIiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjEgSW50cm9kdWN0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwNC4wODEwOXYzIzp+OnRleHQ9MSUyMEludHJvZHVjdGlvbiwtTW9kZXJuJTIwa25vd2xlZGdlJTIwYmFzZXMlMjAlMjhLQnMifSx7InRpdGxlIjoiNCBBcHByb2FjaCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDQuMDgxMDl2MyM6fjp0ZXh0PS4tLDQlMjBBcHByb2FjaCJ9LHsidGl0bGUiOiI1IEV4cGVyaW1lbnRhbCBTZXR1cCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDQuMDgxMDl2MyM6fjp0ZXh0PTUlMjBFeHBlcmltZW50YWwlMjBTZXR1cCwtV2UlMjBldmFsdWF0ZSUyMEFyY2FuZVFBJTIwb24lMjB0aHJlZSJ9XSwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "dynamic contextualised word embeddings template temporal before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Context-Aware Temporal Embedding of Objects in Video Data - arXiv",
+        "link": "https://arxiv.org/html/2408.12789v1",
+        "snippet": "Our temporal contextual embedding model brings the visual objects that are within a similar context together in the embedding space. Furthermore, this model ...",
+        "date": "Aug 23, 2024",
+        "position": 1
+      },
+      {
+        "title": "TRACING THE EVOLUTION OF WORD EMBEDDING TECHNIQUES ...",
+        "link": "https://arxiv.org/html/2603.13271v1",
+        "snippet": "This work traces the evolution of word-embedding techniques within the natural language processing (NLP) literature. We collect",
+        "date": "Feb 27, 2026",
+        "position": 2
+      },
+      {
+        "title": "Embed2Detect: Temporally Clustered Embedded Words for Event ...",
+        "link": "https://arxiv.org/html/2006.05908v4",
+        "snippet": "Embed2Detect is the only method which uses self-learned word embedding-based temporal cluster similarity for event detection in social media.",
+        "date": "May 25, 2021",
+        "position": 3
+      },
+      {
+        "title": "From Word Vectors to Multimodal Embeddings: Techniques ... - arXiv",
+        "link": "https://arxiv.org/html/2411.05036v1",
+        "snippet": "Word embeddings address the limitations of one-hot encoding by representing words as dense, low-dimensional vectors learned from large corpora",
+        "date": "Nov 6, 2024",
+        "position": 4
+      },
+      {
+        "title": "Temporal Attention for Language Models - arXiv",
+        "link": "https://arxiv.org/html/2202.02093v2",
+        "snippet": "Temporal attention can be applied to any transformer model … the model creates time-specific contextualized word embeddings. Dynamic contextualized word ...",
+        "date": "May 3, 2022",
+        "position": 5
+      },
+      {
+        "title": "On Self-improving Token Embeddings - arXiv",
+        "link": "https://arxiv.org/html/2504.14808v1",
+        "snippet": "This article introduces a novel and fast method for refining pre-trained static word or, more generally, token embeddings.",
+        "date": "Apr 21, 2025",
+        "position": 6
+      },
+      {
+        "title": "An LLM-Driven Framework for Context-aware Time Series ... - arXiv",
+        "link": "https://arxiv.org/html/2508.09191v1",
+        "snippet": "This unified embedding mechanism enables seamless fusion of time series and contextual features while maintaining alignment with the pre-trained model.",
+        "date": "Aug 8, 2025",
+        "position": 7
+      },
+      {
+        "title": "[PDF] A Survey on Contextualised Semantic Shift Detection - arXiv",
+        "link": "https://arxiv.org/pdf/2304.01666",
+        "snippet": "Typically, static embeddings are used to detect how a word changes in its dominant sense, without considering the possible additional, subordinate senses/ ...",
+        "date": "Jun 11, 2024",
+        "position": 8
+      },
+      {
+        "title": "[PDF] arXiv:2305.08654v1 [cs.CL] 15 May 2023",
+        "link": "https://arxiv.org/pdf/2305.08654",
+        "snippet": "Contextualised word embeddings such as the ones produced by. MLMs have shown to concisely and accurately encode contextual information related to a target word ...",
+        "date": "May 15, 2023",
+        "position": 9
+      },
+      {
+        "title": "ArcaneQA: Dynamic Program Induction and Contextualized ... - arXiv",
+        "link": "https://arxiv.org/html/2204.08109v3",
+        "snippet": "One unique feature to note is that the encoding is also dynamic: at each prediction step, only the set of admissible schema items determined by the dynamic ...",
+        "date": "Oct 24, 2022",
+        "sitelinks": [
+          {
+            "title": "1 Introduction",
+            "link": "https://arxiv.org/html/2204.08109v3#:~:text=1%20Introduction,-Modern%20knowledge%20bases%20%28KBs"
+          },
+          {
+            "title": "4 Approach",
+            "link": "https://arxiv.org/html/2204.08109v3#:~:text=.-,4%20Approach"
+          },
+          {
+            "title": "5 Experimental Setup",
+            "link": "https://arxiv.org/html/2204.08109v3#:~:text=5%20Experimental%20Setup,-We%20evaluate%20ArcaneQA%20on%20three"
+          }
+        ],
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Context-Aware Temporal Embedding of Objects in Video Data - arXiv",
+      "snippet": "Our temporal contextual embedding model brings the visual objects that are within a similar context together in the embedding space. Furthermore, this model ...",
+      "link": "https://arxiv.org/html/2408.12789v1",
+      "arxiv_id": "2408.12789"
+    },
+    {
+      "rank": 2,
+      "title": "TRACING THE EVOLUTION OF WORD EMBEDDING TECHNIQUES ...",
+      "snippet": "This work traces the evolution of word-embedding techniques within the natural language processing (NLP) literature. We collect",
+      "link": "https://arxiv.org/html/2603.13271v1",
+      "arxiv_id": "2603.13271"
+    },
+    {
+      "rank": 3,
+      "title": "Embed2Detect: Temporally Clustered Embedded Words for Event ...",
+      "snippet": "Embed2Detect is the only method which uses self-learned word embedding-based temporal cluster similarity for event detection in social media.",
+      "link": "https://arxiv.org/html/2006.05908v4",
+      "arxiv_id": "2006.05908"
+    },
+    {
+      "rank": 4,
+      "title": "From Word Vectors to Multimodal Embeddings: Techniques ... - arXiv",
+      "snippet": "Word embeddings address the limitations of one-hot encoding by representing words as dense, low-dimensional vectors learned from large corpora",
+      "link": "https://arxiv.org/html/2411.05036v1",
+      "arxiv_id": "2411.05036"
+    },
+    {
+      "rank": 5,
+      "title": "Temporal Attention for Language Models - arXiv",
+      "snippet": "Temporal attention can be applied to any transformer model … the model creates time-specific contextualized word embeddings. Dynamic contextualized word ...",
+      "link": "https://arxiv.org/html/2202.02093v2",
+      "arxiv_id": "2202.02093"
+    },
+    {
+      "rank": 6,
+      "title": "On Self-improving Token Embeddings - arXiv",
+      "snippet": "This article introduces a novel and fast method for refining pre-trained static word or, more generally, token embeddings.",
+      "link": "https://arxiv.org/html/2504.14808v1",
+      "arxiv_id": "2504.14808"
+    },
+    {
+      "rank": 7,
+      "title": "An LLM-Driven Framework for Context-aware Time Series ... - arXiv",
+      "snippet": "This unified embedding mechanism enables seamless fusion of time series and contextual features while maintaining alignment with the pre-trained model.",
+      "link": "https://arxiv.org/html/2508.09191v1",
+      "arxiv_id": "2508.09191"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] A Survey on Contextualised Semantic Shift Detection - arXiv",
+      "snippet": "Typically, static embeddings are used to detect how a word changes in its dominant sense, without considering the possible additional, subordinate senses/ ...",
+      "link": "https://arxiv.org/pdf/2304.01666",
+      "arxiv_id": "2304.01666"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] arXiv:2305.08654v1 [cs.CL] 15 May 2023",
+      "snippet": "Contextualised word embeddings such as the ones produced by. MLMs have shown to concisely and accurately encode contextual information related to a target word ...",
+      "link": "https://arxiv.org/pdf/2305.08654",
+      "arxiv_id": "2305.08654"
+    },
+    {
+      "rank": 10,
+      "title": "ArcaneQA: Dynamic Program Induction and Contextualized ... - arXiv",
+      "snippet": "One unique feature to note is that the encoding is also dynamic: at each prediction step, only the set of admissible schema items determined by the dynamic ...",
+      "link": "https://arxiv.org/html/2204.08109v3",
+      "arxiv_id": "2204.08109"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:47.140111+00:00",
+  "elapsed_seconds": 0.9758485518395901,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q10_gt_core_phrase_attempt1.json",
+      "sha256": "34be302c5276ae5fa92000f24250c38c2f8713c350ffe4e2d365ff08867935c0",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,2151 @@
+{
+  "query_id": "Q8",
+  "query_index": 8,
+  "dataset_qid": "RealScholarQuery_8",
+  "original_question": "Do you know some papers about using reward shaping methods to train large language model agent.",
+  "published_time": "20241001",
+  "before_date": "2024-09-24",
+  "groups": {
+    "A": {
+      "prompt": "Please generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Do you know some papers about using reward shaping methods to train large language model agent.",
+      "searches": [
+        {
+          "query_sequence": 1,
+          "crawler_query": "Reward shaping techniques in large language model training",
+          "request_payload": {
+            "q": "Reward shaping techniques in large language model training before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 53,
+              "query_id": "Q8",
+              "group": "A",
+              "query_sequence": 1,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Reward shaping techniques in large language model training before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:35.271508+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Reward shaping techniques in large language model training before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Comprehensive Overview of Reward Engineering and Shaping in ...\",\"link\":\"https://arxiv.org/html/2408.10215v1\",\"snippet\":\"Reward shaping involves modifying the reward function to improve the learning process without altering the optimal policy. One common approach is potential- ...\",\"date\":\"Jul 22, 2024\",\"position\":1},{\"title\":\"Text2Reward: Reward Shaping with Language Models for ... - arXiv\",\"link\":\"https://arxiv.org/abs/2309.11489\",\"snippet\":\"Text2Reward, a data-free framework that automates the generation and shaping of dense reward functions based on large language models (LLMs).\",\"date\":\"Sep 20, 2023\",\"position\":2},{\"title\":\"[2303.00001] Reward Design with Language Models - arXiv\",\"link\":\"https://arxiv.org/abs/2303.00001\",\"snippet\":\"This paper explores how to simplify reward design by prompting a large language model (LLM) such as GPT-3 as a proxy reward function, where the user provides a ...\",\"date\":\"Feb 27, 2023\",\"position\":3},{\"title\":\"Secrets of RLHF in Large Language ModelsPart II: Reward Modeling\",\"link\":\"https://arxiv.org/html/2401.06080v2\",\"snippet\":\"RLHF involves two main steps: first, using preference data collected from a large number of crowdsource workers to train a reward model. Secondly, using ...\",\"date\":\"Jan 12, 2024\",\"position\":4},{\"title\":\"[PDF] Temporal Video-Language Alignment Network for Reward Shaping ...\",\"link\":\"https://arxiv.org/pdf/2302.03954\",\"snippet\":\"Utilizing natural language instructions to provide intermediate rewards to RL agents in a process known as reward shaping can help the agent in performance.\",\"date\":\"Mar 27, 2023\",\"position\":5},{\"title\":\"Dense Reward for Free in Reinforcement Learning from Human ...\",\"link\":\"https://arxiv.org/html/2402.00782v1\",\"snippet\":\"We demonstrate that, theoretically, this approach is equivalent to potential-based reward shaping, ensuring that the optimal policy remains unchanged.\",\"date\":\"Feb 1, 2024\",\"position\":6},{\"title\":\"Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv\",\"link\":\"https://arxiv.org/html/1801.02209v2\",\"snippet\":\"To provide additional supervision during training, we resort to an informative reward shaping: we compute the approximate shortest distance from the target room ...\",\"date\":\"Apr 8, 2018\",\"position\":7},{\"title\":\"Improving Sample Efficiency of Reinforcement Learning with ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.03964v1\",\"snippet\":\"In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ...\",\"date\":\"Jul 4, 2024\",\"position\":8},{\"title\":\"DRLC: Reinforcement Learning with Dense Rewards from LLM Critic\",\"link\":\"https://arxiv.org/html/2401.07382v1\",\"snippet\":\"Experimental results show that incorporating artificial dense rewards in training yields consistent performance gains over the PPO baseline with holistic ...\",\"date\":\"Jan 14, 2024\",\"position\":9},{\"title\":\"Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...\",\"link\":\"https://arxiv.org/html/2409.12798v1\",\"snippet\":\"Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative. HRL decomposes complex ...\",\"date\":\"Sep 19, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "f1565b297ff3245082429127c206581d3e1a5d3e00767f4f4207f51aa0ec63f6",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Reward shaping techniques in large language model training before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+                    "link": "https://arxiv.org/html/2408.10215v1",
+                    "snippet": "Reward shaping involves modifying the reward function to improve the learning process without altering the optimal policy. One common approach is potential- ...",
+                    "date": "Jul 22, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Text2Reward: Reward Shaping with Language Models for ... - arXiv",
+                    "link": "https://arxiv.org/abs/2309.11489",
+                    "snippet": "Text2Reward, a data-free framework that automates the generation and shaping of dense reward functions based on large language models (LLMs).",
+                    "date": "Sep 20, 2023",
+                    "position": 2
+                  },
+                  {
+                    "title": "[2303.00001] Reward Design with Language Models - arXiv",
+                    "link": "https://arxiv.org/abs/2303.00001",
+                    "snippet": "This paper explores how to simplify reward design by prompting a large language model (LLM) such as GPT-3 as a proxy reward function, where the user provides a ...",
+                    "date": "Feb 27, 2023",
+                    "position": 3
+                  },
+                  {
+                    "title": "Secrets of RLHF in Large Language ModelsPart II: Reward Modeling",
+                    "link": "https://arxiv.org/html/2401.06080v2",
+                    "snippet": "RLHF involves two main steps: first, using preference data collected from a large number of crowdsource workers to train a reward model. Secondly, using ...",
+                    "date": "Jan 12, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "[PDF] Temporal Video-Language Alignment Network for Reward Shaping ...",
+                    "link": "https://arxiv.org/pdf/2302.03954",
+                    "snippet": "Utilizing natural language instructions to provide intermediate rewards to RL agents in a process known as reward shaping can help the agent in performance.",
+                    "date": "Mar 27, 2023",
+                    "position": 5
+                  },
+                  {
+                    "title": "Dense Reward for Free in Reinforcement Learning from Human ...",
+                    "link": "https://arxiv.org/html/2402.00782v1",
+                    "snippet": "We demonstrate that, theoretically, this approach is equivalent to potential-based reward shaping, ensuring that the optimal policy remains unchanged.",
+                    "date": "Feb 1, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv",
+                    "link": "https://arxiv.org/html/1801.02209v2",
+                    "snippet": "To provide additional supervision during training, we resort to an informative reward shaping: we compute the approximate shortest distance from the target room ...",
+                    "date": "Apr 8, 2018",
+                    "position": 7
+                  },
+                  {
+                    "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+                    "link": "https://arxiv.org/html/2407.03964v1",
+                    "snippet": "In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ...",
+                    "date": "Jul 4, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+                    "link": "https://arxiv.org/html/2401.07382v1",
+                    "snippet": "Experimental results show that incorporating artificial dense rewards in training yields consistent performance gains over the PPO baseline with holistic ...",
+                    "date": "Jan 14, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...",
+                    "link": "https://arxiv.org/html/2409.12798v1",
+                    "snippet": "Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative. HRL decomposes complex ...",
+                    "date": "Sep 19, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:36.371617+00:00",
+              "elapsed_seconds": 1.100121296942234,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q8_A_01_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "1801.02209",
+            "2302.03954",
+            "2303.00001",
+            "2309.11489",
+            "2401.06080",
+            "2401.07382",
+            "2402.00782",
+            "2407.03964",
+            "2408.10215",
+            "2409.12798"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2408.10215",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+              "link": "https://arxiv.org/html/2408.10215v1",
+              "snippet": "Reward shaping involves modifying the reward function to improve the learning process without altering the optimal policy. One common approach is potential- ..."
+            },
+            {
+              "arxiv_id": "2309.11489",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Text2Reward: Reward Shaping with Language Models for ... - arXiv",
+              "link": "https://arxiv.org/abs/2309.11489",
+              "snippet": "Text2Reward, a data-free framework that automates the generation and shaping of dense reward functions based on large language models (LLMs)."
+            },
+            {
+              "arxiv_id": "2303.00001",
+              "organic_index": 2,
+              "position": 3,
+              "title": "[2303.00001] Reward Design with Language Models - arXiv",
+              "link": "https://arxiv.org/abs/2303.00001",
+              "snippet": "This paper explores how to simplify reward design by prompting a large language model (LLM) such as GPT-3 as a proxy reward function, where the user provides a ..."
+            },
+            {
+              "arxiv_id": "2401.06080",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Secrets of RLHF in Large Language ModelsPart II: Reward Modeling",
+              "link": "https://arxiv.org/html/2401.06080v2",
+              "snippet": "RLHF involves two main steps: first, using preference data collected from a large number of crowdsource workers to train a reward model. Secondly, using ..."
+            },
+            {
+              "arxiv_id": "2302.03954",
+              "organic_index": 4,
+              "position": 5,
+              "title": "[PDF] Temporal Video-Language Alignment Network for Reward Shaping ...",
+              "link": "https://arxiv.org/pdf/2302.03954",
+              "snippet": "Utilizing natural language instructions to provide intermediate rewards to RL agents in a process known as reward shaping can help the agent in performance."
+            },
+            {
+              "arxiv_id": "2402.00782",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Dense Reward for Free in Reinforcement Learning from Human ...",
+              "link": "https://arxiv.org/html/2402.00782v1",
+              "snippet": "We demonstrate that, theoretically, this approach is equivalent to potential-based reward shaping, ensuring that the optimal policy remains unchanged."
+            },
+            {
+              "arxiv_id": "1801.02209",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv",
+              "link": "https://arxiv.org/html/1801.02209v2",
+              "snippet": "To provide additional supervision during training, we resort to an informative reward shaping: we compute the approximate shortest distance from the target room ..."
+            },
+            {
+              "arxiv_id": "2407.03964",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+              "link": "https://arxiv.org/html/2407.03964v1",
+              "snippet": "In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ..."
+            },
+            {
+              "arxiv_id": "2401.07382",
+              "organic_index": 8,
+              "position": 9,
+              "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+              "link": "https://arxiv.org/html/2401.07382v1",
+              "snippet": "Experimental results show that incorporating artificial dense rewards in training yields consistent performance gains over the PPO baseline with holistic ..."
+            },
+            {
+              "arxiv_id": "2409.12798",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...",
+              "link": "https://arxiv.org/html/2409.12798v1",
+              "snippet": "Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative. HRL decomposes complex ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 2,
+          "crawler_query": "Application of reward shaping in language model agent training",
+          "request_payload": {
+            "q": "Application of reward shaping in language model agent training before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 55,
+              "query_id": "Q8",
+              "group": "A",
+              "query_sequence": 2,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Application of reward shaping in language model agent training before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:37.828065+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Application of reward shaping in language model agent training before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Comprehensive Overview of Reward Engineering and Shaping in ...\",\"link\":\"https://arxiv.org/html/2408.10215v1\",\"snippet\":\"Reward shaping involves modifying the reward function to improve the learning process without altering the optimal policy. Reward shaping: is a technique ...\",\"date\":\"Jul 22, 2024\",\"position\":1},{\"title\":\"[2303.00001] Reward Design with Language Models - arXiv\",\"link\":\"https://arxiv.org/abs/2303.00001\",\"snippet\":\"This paper explores how to simplify reward design by prompting a large language model (LLM) During training, the LLM evaluates an RL agent's behavior against ...\",\"date\":\"Feb 27, 2023\",\"position\":2},{\"title\":\"Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...\",\"link\":\"https://arxiv.org/html/2409.12798v1\",\"snippet\":\"Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative.\",\"date\":\"Sep 19, 2024\",\"position\":3},{\"title\":\"Reinforcement Learning Agent Training with Goals for Real World ...\",\"link\":\"https://arxiv.org/html/2107.10390v1\",\"snippet\":\"Furthermore, the user often needs to manually shape the reward to guide the agent towards learning the problem, however, reward shaping can be very error prone,\",\"date\":\"Jul 21, 2021\",\"position\":4},{\"title\":\"[PDF] Temporal Video-Language Alignment Network for Reward Shaping ...\",\"link\":\"https://arxiv.org/pdf/2302.03954\",\"snippet\":\"RL algorithms utilize the concepts of rewards (positive or negative reinforcements) to help agents in learning to optimize their behaviors in an environment ...\",\"date\":\"Mar 27, 2023\",\"position\":5},{\"title\":\"Asking and Answering Questions for Automatic Reward Shaping in ...\",\"link\":\"https://arxiv.org/abs/2206.09674\",\"snippet\":\"In this paper, we leverage this idea and propose an automated reward shaping method where the agent extracts auxiliary objectives from the general language goal ...\",\"date\":\"Jun 20, 2022\",\"position\":6},{\"title\":\"[PDF] grounded language instruction through demonstration in rl - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.02991\",\"snippet\":\"Wang et al. [2019] used the agreement between trajectory and expert provided language instructions for reward shaping in sparse reward tasks.\",\"date\":\"Jan 3, 2024\",\"position\":7},{\"title\":\"Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv\",\"link\":\"https://arxiv.org/html/1801.02209v2\",\"snippet\":\"To provide additional supervision during training, we resort to an informative reward shaping: we compute the approximate shortest distance from the target room ...\",\"date\":\"Apr 8, 2018\",\"position\":8},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"We then train a reward model (RM) on this dataset to predict which model output our labelers would prefer. Finally, we use this RM as a reward function and fine ...\",\"date\":\"Jan 27, 2022\",\"position\":9},{\"title\":\"DRLC: Reinforcement Learning with Dense Rewards from LLM Critic\",\"link\":\"https://arxiv.org/html/2401.07382v1\",\"snippet\":\"Reinforcement learning (RL) can align language models with non-differentiable reward signals, such as human preferences. However, a major challenge arises ...\",\"date\":\"Jan 14, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "bd92d25ec0ea8e26c3d0416b9c43e25363a8b75e59e55c772c29d5ce80905145",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Application of reward shaping in language model agent training before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+                    "link": "https://arxiv.org/html/2408.10215v1",
+                    "snippet": "Reward shaping involves modifying the reward function to improve the learning process without altering the optimal policy. Reward shaping: is a technique ...",
+                    "date": "Jul 22, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "[2303.00001] Reward Design with Language Models - arXiv",
+                    "link": "https://arxiv.org/abs/2303.00001",
+                    "snippet": "This paper explores how to simplify reward design by prompting a large language model (LLM) During training, the LLM evaluates an RL agent's behavior against ...",
+                    "date": "Feb 27, 2023",
+                    "position": 2
+                  },
+                  {
+                    "title": "Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...",
+                    "link": "https://arxiv.org/html/2409.12798v1",
+                    "snippet": "Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative.",
+                    "date": "Sep 19, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Reinforcement Learning Agent Training with Goals for Real World ...",
+                    "link": "https://arxiv.org/html/2107.10390v1",
+                    "snippet": "Furthermore, the user often needs to manually shape the reward to guide the agent towards learning the problem, however, reward shaping can be very error prone,",
+                    "date": "Jul 21, 2021",
+                    "position": 4
+                  },
+                  {
+                    "title": "[PDF] Temporal Video-Language Alignment Network for Reward Shaping ...",
+                    "link": "https://arxiv.org/pdf/2302.03954",
+                    "snippet": "RL algorithms utilize the concepts of rewards (positive or negative reinforcements) to help agents in learning to optimize their behaviors in an environment ...",
+                    "date": "Mar 27, 2023",
+                    "position": 5
+                  },
+                  {
+                    "title": "Asking and Answering Questions for Automatic Reward Shaping in ...",
+                    "link": "https://arxiv.org/abs/2206.09674",
+                    "snippet": "In this paper, we leverage this idea and propose an automated reward shaping method where the agent extracts auxiliary objectives from the general language goal ...",
+                    "date": "Jun 20, 2022",
+                    "position": 6
+                  },
+                  {
+                    "title": "[PDF] grounded language instruction through demonstration in rl - arXiv",
+                    "link": "https://arxiv.org/pdf/2401.02991",
+                    "snippet": "Wang et al. [2019] used the agreement between trajectory and expert provided language instructions for reward shaping in sparse reward tasks.",
+                    "date": "Jan 3, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv",
+                    "link": "https://arxiv.org/html/1801.02209v2",
+                    "snippet": "To provide additional supervision during training, we resort to an informative reward shaping: we compute the approximate shortest distance from the target room ...",
+                    "date": "Apr 8, 2018",
+                    "position": 8
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "We then train a reward model (RM) on this dataset to predict which model output our labelers would prefer. Finally, we use this RM as a reward function and fine ...",
+                    "date": "Jan 27, 2022",
+                    "position": 9
+                  },
+                  {
+                    "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+                    "link": "https://arxiv.org/html/2401.07382v1",
+                    "snippet": "Reinforcement learning (RL) can align language models with non-differentiable reward signals, such as human preferences. However, a major challenge arises ...",
+                    "date": "Jan 14, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:39.626583+00:00",
+              "elapsed_seconds": 1.7985132709145546,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q8_A_02_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "1801.02209",
+            "2107.10390",
+            "2203.02155",
+            "2206.09674",
+            "2302.03954",
+            "2303.00001",
+            "2401.02991",
+            "2401.07382",
+            "2408.10215",
+            "2409.12798"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2408.10215",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+              "link": "https://arxiv.org/html/2408.10215v1",
+              "snippet": "Reward shaping involves modifying the reward function to improve the learning process without altering the optimal policy. Reward shaping: is a technique ..."
+            },
+            {
+              "arxiv_id": "2303.00001",
+              "organic_index": 1,
+              "position": 2,
+              "title": "[2303.00001] Reward Design with Language Models - arXiv",
+              "link": "https://arxiv.org/abs/2303.00001",
+              "snippet": "This paper explores how to simplify reward design by prompting a large language model (LLM) During training, the LLM evaluates an RL agent's behavior against ..."
+            },
+            {
+              "arxiv_id": "2409.12798",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...",
+              "link": "https://arxiv.org/html/2409.12798v1",
+              "snippet": "Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative."
+            },
+            {
+              "arxiv_id": "2107.10390",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Reinforcement Learning Agent Training with Goals for Real World ...",
+              "link": "https://arxiv.org/html/2107.10390v1",
+              "snippet": "Furthermore, the user often needs to manually shape the reward to guide the agent towards learning the problem, however, reward shaping can be very error prone,"
+            },
+            {
+              "arxiv_id": "2302.03954",
+              "organic_index": 4,
+              "position": 5,
+              "title": "[PDF] Temporal Video-Language Alignment Network for Reward Shaping ...",
+              "link": "https://arxiv.org/pdf/2302.03954",
+              "snippet": "RL algorithms utilize the concepts of rewards (positive or negative reinforcements) to help agents in learning to optimize their behaviors in an environment ..."
+            },
+            {
+              "arxiv_id": "2206.09674",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Asking and Answering Questions for Automatic Reward Shaping in ...",
+              "link": "https://arxiv.org/abs/2206.09674",
+              "snippet": "In this paper, we leverage this idea and propose an automated reward shaping method where the agent extracts auxiliary objectives from the general language goal ..."
+            },
+            {
+              "arxiv_id": "2401.02991",
+              "organic_index": 6,
+              "position": 7,
+              "title": "[PDF] grounded language instruction through demonstration in rl - arXiv",
+              "link": "https://arxiv.org/pdf/2401.02991",
+              "snippet": "Wang et al. [2019] used the agreement between trajectory and expert provided language instructions for reward shaping in sparse reward tasks."
+            },
+            {
+              "arxiv_id": "1801.02209",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv",
+              "link": "https://arxiv.org/html/1801.02209v2",
+              "snippet": "To provide additional supervision during training, we resort to an informative reward shaping: we compute the approximate shortest distance from the target room ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "We then train a reward model (RM) on this dataset to predict which model output our labelers would prefer. Finally, we use this RM as a reward function and fine ..."
+            },
+            {
+              "arxiv_id": "2401.07382",
+              "organic_index": 9,
+              "position": 10,
+              "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+              "link": "https://arxiv.org/html/2401.07382v1",
+              "snippet": "Reinforcement learning (RL) can align language models with non-differentiable reward signals, such as human preferences. However, a major challenge arises ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 3,
+          "crawler_query": "Effectiveness of reward shaping methods in training large language models",
+          "request_payload": {
+            "q": "Effectiveness of reward shaping methods in training large language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 57,
+              "query_id": "Q8",
+              "group": "A",
+              "query_sequence": 3,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Effectiveness of reward shaping methods in training large language models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:40.849317+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Effectiveness of reward shaping methods in training large language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Comprehensive Overview of Reward Engineering and Shaping in ...\",\"link\":\"https://arxiv.org/html/2408.10215v1\",\"snippet\":\"This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning algorithms ...\",\"date\":\"Jul 22, 2024\",\"position\":1},{\"title\":\"Extracting Heuristics from Large Language Models for Reward ...\",\"link\":\"https://arxiv.org/abs/2405.15194\",\"snippet\":\"To improve the sample efficiency, reward shaping is a well-studied approach to introduce intrinsic rewards that can help the RL agent converge to an optimal ...\",\"date\":\"May 24, 2024\",\"position\":2},{\"title\":\"Text2Reward: Reward Shaping with Language Models for ... - arXiv\",\"link\":\"https://arxiv.org/abs/2309.11489\",\"snippet\":\"To address this, we introduce Text2Reward, a data-free framework that automates the generation and shaping of dense reward functions based on large language ...\",\"date\":\"Sep 20, 2023\",\"position\":3},{\"title\":\"Improving Sample Efficiency of Reinforcement Learning with ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.03964v1\",\"snippet\":\"In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ...\",\"date\":\"Jul 4, 2024\",\"position\":4},{\"title\":\"Secrets of RLHF in Large Language ModelsPart II: Reward Modeling\",\"link\":\"https://arxiv.org/html/2401.06080v2\",\"snippet\":\"Reward models are trained as proxies for human preferences to drive reinforcement learning optimization.\",\"date\":\"Jan 12, 2024\",\"position\":5},{\"title\":\"Dense Reward for Free in Reinforcement Learning from Human ...\",\"link\":\"https://arxiv.org/html/2402.00782v1\",\"snippet\":\"We demonstrate that, theoretically, this approach is equivalent to potential-based reward shaping, ensuring that the optimal policy remains unchanged.\",\"date\":\"Feb 1, 2024\",\"position\":6},{\"title\":\"DRLC: Reinforcement Learning with Dense Rewards from LLM Critic\",\"link\":\"https://arxiv.org/html/2401.07382v1\",\"snippet\":\"Experimental results show that incorporating artificial dense rewards in training yields consistent performance gains over the PPO baseline with holistic ...\",\"date\":\"Jan 14, 2024\",\"position\":7},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"This technique uses human preferences as a reward signal to fine-tune our models. use this RM as a reward function and fine-tune our supervised learning ...\",\"date\":\"Jan 27, 2022\",\"position\":8},{\"title\":\"Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv\",\"link\":\"https://arxiv.org/html/1801.02209v2\",\"snippet\":\"We empirically observe that stronger reward shaping leads to better performances on both training and testing. ... After training on a large number of ...\",\"date\":\"Apr 8, 2018\",\"position\":9},{\"title\":\"Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...\",\"link\":\"https://arxiv.org/html/2409.12798v1\",\"snippet\":\"Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative. HRL decomposes complex ...\",\"date\":\"Sep 19, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "7bc63810799b59290676791a39d0e7243aeef665b1c9fc4234a225490a557330",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Effectiveness of reward shaping methods in training large language models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+                    "link": "https://arxiv.org/html/2408.10215v1",
+                    "snippet": "This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning algorithms ...",
+                    "date": "Jul 22, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Extracting Heuristics from Large Language Models for Reward ...",
+                    "link": "https://arxiv.org/abs/2405.15194",
+                    "snippet": "To improve the sample efficiency, reward shaping is a well-studied approach to introduce intrinsic rewards that can help the RL agent converge to an optimal ...",
+                    "date": "May 24, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Text2Reward: Reward Shaping with Language Models for ... - arXiv",
+                    "link": "https://arxiv.org/abs/2309.11489",
+                    "snippet": "To address this, we introduce Text2Reward, a data-free framework that automates the generation and shaping of dense reward functions based on large language ...",
+                    "date": "Sep 20, 2023",
+                    "position": 3
+                  },
+                  {
+                    "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+                    "link": "https://arxiv.org/html/2407.03964v1",
+                    "snippet": "In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ...",
+                    "date": "Jul 4, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Secrets of RLHF in Large Language ModelsPart II: Reward Modeling",
+                    "link": "https://arxiv.org/html/2401.06080v2",
+                    "snippet": "Reward models are trained as proxies for human preferences to drive reinforcement learning optimization.",
+                    "date": "Jan 12, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "Dense Reward for Free in Reinforcement Learning from Human ...",
+                    "link": "https://arxiv.org/html/2402.00782v1",
+                    "snippet": "We demonstrate that, theoretically, this approach is equivalent to potential-based reward shaping, ensuring that the optimal policy remains unchanged.",
+                    "date": "Feb 1, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+                    "link": "https://arxiv.org/html/2401.07382v1",
+                    "snippet": "Experimental results show that incorporating artificial dense rewards in training yields consistent performance gains over the PPO baseline with holistic ...",
+                    "date": "Jan 14, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "This technique uses human preferences as a reward signal to fine-tune our models. use this RM as a reward function and fine-tune our supervised learning ...",
+                    "date": "Jan 27, 2022",
+                    "position": 8
+                  },
+                  {
+                    "title": "Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv",
+                    "link": "https://arxiv.org/html/1801.02209v2",
+                    "snippet": "We empirically observe that stronger reward shaping leads to better performances on both training and testing. ... After training on a large number of ...",
+                    "date": "Apr 8, 2018",
+                    "position": 9
+                  },
+                  {
+                    "title": "Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...",
+                    "link": "https://arxiv.org/html/2409.12798v1",
+                    "snippet": "Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative. HRL decomposes complex ...",
+                    "date": "Sep 19, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:42.528738+00:00",
+              "elapsed_seconds": 1.6794322282075882,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q8_A_03_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "1801.02209",
+            "2203.02155",
+            "2309.11489",
+            "2401.06080",
+            "2401.07382",
+            "2402.00782",
+            "2405.15194",
+            "2407.03964",
+            "2408.10215",
+            "2409.12798"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2408.10215",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+              "link": "https://arxiv.org/html/2408.10215v1",
+              "snippet": "This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning algorithms ..."
+            },
+            {
+              "arxiv_id": "2405.15194",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Extracting Heuristics from Large Language Models for Reward ...",
+              "link": "https://arxiv.org/abs/2405.15194",
+              "snippet": "To improve the sample efficiency, reward shaping is a well-studied approach to introduce intrinsic rewards that can help the RL agent converge to an optimal ..."
+            },
+            {
+              "arxiv_id": "2309.11489",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Text2Reward: Reward Shaping with Language Models for ... - arXiv",
+              "link": "https://arxiv.org/abs/2309.11489",
+              "snippet": "To address this, we introduce Text2Reward, a data-free framework that automates the generation and shaping of dense reward functions based on large language ..."
+            },
+            {
+              "arxiv_id": "2407.03964",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+              "link": "https://arxiv.org/html/2407.03964v1",
+              "snippet": "In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ..."
+            },
+            {
+              "arxiv_id": "2401.06080",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Secrets of RLHF in Large Language ModelsPart II: Reward Modeling",
+              "link": "https://arxiv.org/html/2401.06080v2",
+              "snippet": "Reward models are trained as proxies for human preferences to drive reinforcement learning optimization."
+            },
+            {
+              "arxiv_id": "2402.00782",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Dense Reward for Free in Reinforcement Learning from Human ...",
+              "link": "https://arxiv.org/html/2402.00782v1",
+              "snippet": "We demonstrate that, theoretically, this approach is equivalent to potential-based reward shaping, ensuring that the optimal policy remains unchanged."
+            },
+            {
+              "arxiv_id": "2401.07382",
+              "organic_index": 6,
+              "position": 7,
+              "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+              "link": "https://arxiv.org/html/2401.07382v1",
+              "snippet": "Experimental results show that incorporating artificial dense rewards in training yields consistent performance gains over the PPO baseline with holistic ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "This technique uses human preferences as a reward signal to fine-tune our models. use this RM as a reward function and fine-tune our supervised learning ..."
+            },
+            {
+              "arxiv_id": "1801.02209",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv",
+              "link": "https://arxiv.org/html/1801.02209v2",
+              "snippet": "We empirically observe that stronger reward shaping leads to better performances on both training and testing. ... After training on a large number of ..."
+            },
+            {
+              "arxiv_id": "2409.12798",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...",
+              "link": "https://arxiv.org/html/2409.12798v1",
+              "snippet": "Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative. HRL decomposes complex ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 4,
+          "crawler_query": "Research on using small extrinsic rewards for aligning large language models with user intent",
+          "request_payload": {
+            "q": "Research on using small extrinsic rewards for aligning large language models with user intent before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 59,
+              "query_id": "Q8",
+              "group": "A",
+              "query_sequence": 4,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Research on using small extrinsic rewards for aligning large language models with user intent before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:43.833457+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Research on using small extrinsic rewards for aligning large language models with user intent before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"RLHF uses a reward model to learn alignment from human feedback. This reward model, after being tuned, is able to rate different outputs and score them\",\"date\":\"Feb 20, 2024\",\"position\":1},{\"title\":\"Continual Learning of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.16789v1\",\"snippet\":\"models are trained to make decisions reinforced by human feedback, using a reward system to guide them towards desirable outcomes. alignment with human ...\",\"date\":\"Apr 25, 2024\",\"position\":2},{\"title\":\"[PDF] A Survey of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2303.18223\",\"snippet\":\"This survey provides an up-to-date review of the literature on LLMs, Despite that InstructGPT used a small reward model (6B GPT model), increasing work [99] ...\",\"date\":\"Apr 9, 2023\",\"position\":3},{\"title\":\"Safeguarding Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2406.02622v1\",\"snippet\":\"Furthermore, the research by [156] highlights the risks of fine-tuning language models using small datasets containing personally identifiable information (PII) ...\",\"date\":\"Jun 3, 2024\",\"position\":4},{\"title\":\"[PDF] SoK: Memorization in General-Purpose Large Language Models\",\"link\":\"https://arxiv.org/pdf/2310.18362\",\"snippet\":\"We propose a taxonomy for memorization in LLMs that covers verbatim text, facts, ideas and algorithms, writing styles, distributional properties, and alignment ...\",\"date\":\"Oct 24, 2023\",\"position\":5},{\"title\":\"[PDF] Trustworthy Alignment of Retrieval-Augmented Large Language ...\",\"link\":\"https://arxiv.org/pdf/2410.16843\",\"snippet\":\"Inspired by aligning language models with human preference, we take the first step towards aligning retrieval- augmented language models to a status where it.\",\"date\":\"Jun 11, 2024\",\"position\":6},{\"title\":\"Continual Learning of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.16789v2\",\"snippet\":\"RL-based approaches … are trained to make decisions reinforced by human feedback, using a reward system to guide them towards desirable outcomes. l Multimodal ...\",\"date\":\"Apr 25, 2024\",\"position\":7},{\"title\":\"A Survey on Large Language Models for Code Generation - arXiv\",\"link\":\"https://arxiv.org/html/2406.00515v1\",\"snippet\":\"The landscape of LLMs for code generation is characterized by a spectrum of models, with certain models like ChatGPT (Ouyang et al., 2022) , GPT4 (Achiam et al.\",\"date\":\"Jun 1, 2024\",\"position\":8},{\"title\":\"A Comprehensive Survey of Hallucination Mitigation Techniques in ...\",\"link\":\"https://arxiv.org/html/2401.01313v1\",\"snippet\":\"Researchers have proposed various strategies, encompassing feedback mechanisms, external information retrieval, and early refinement in language model ...\",\"date\":\"Jan 2, 2024\",\"position\":9},{\"title\":\"Making Large Language Models Better Planners with Reasoning ...\",\"link\":\"https://arxiv.org/html/2408.13890v1\",\"snippet\":\"This work presents a LLM-based AD model RDA-Driver with reasoning-decision alignment, which offers better interpretability and robustness. To our knowledge, ...\",\"date\":\"Aug 25, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "8e40fd529249606393667e8156aa01de76e283c4b882a2ff05e2b1772af4eed8",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Research on using small extrinsic rewards for aligning large language models with user intent before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2402.06196v2",
+                    "snippet": "RLHF uses a reward model to learn alignment from human feedback. This reward model, after being tuned, is able to rate different outputs and score them",
+                    "date": "Feb 20, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Continual Learning of Large Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2404.16789v1",
+                    "snippet": "models are trained to make decisions reinforced by human feedback, using a reward system to guide them towards desirable outcomes. alignment with human ...",
+                    "date": "Apr 25, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "[PDF] A Survey of Large Language Models - arXiv",
+                    "link": "https://arxiv.org/pdf/2303.18223",
+                    "snippet": "This survey provides an up-to-date review of the literature on LLMs, Despite that InstructGPT used a small reward model (6B GPT model), increasing work [99] ...",
+                    "date": "Apr 9, 2023",
+                    "position": 3
+                  },
+                  {
+                    "title": "Safeguarding Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2406.02622v1",
+                    "snippet": "Furthermore, the research by [156] highlights the risks of fine-tuning language models using small datasets containing personally identifiable information (PII) ...",
+                    "date": "Jun 3, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "[PDF] SoK: Memorization in General-Purpose Large Language Models",
+                    "link": "https://arxiv.org/pdf/2310.18362",
+                    "snippet": "We propose a taxonomy for memorization in LLMs that covers verbatim text, facts, ideas and algorithms, writing styles, distributional properties, and alignment ...",
+                    "date": "Oct 24, 2023",
+                    "position": 5
+                  },
+                  {
+                    "title": "[PDF] Trustworthy Alignment of Retrieval-Augmented Large Language ...",
+                    "link": "https://arxiv.org/pdf/2410.16843",
+                    "snippet": "Inspired by aligning language models with human preference, we take the first step towards aligning retrieval- augmented language models to a status where it.",
+                    "date": "Jun 11, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Continual Learning of Large Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2404.16789v2",
+                    "snippet": "RL-based approaches … are trained to make decisions reinforced by human feedback, using a reward system to guide them towards desirable outcomes. l Multimodal ...",
+                    "date": "Apr 25, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "A Survey on Large Language Models for Code Generation - arXiv",
+                    "link": "https://arxiv.org/html/2406.00515v1",
+                    "snippet": "The landscape of LLMs for code generation is characterized by a spectrum of models, with certain models like ChatGPT (Ouyang et al., 2022) , GPT4 (Achiam et al.",
+                    "date": "Jun 1, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "A Comprehensive Survey of Hallucination Mitigation Techniques in ...",
+                    "link": "https://arxiv.org/html/2401.01313v1",
+                    "snippet": "Researchers have proposed various strategies, encompassing feedback mechanisms, external information retrieval, and early refinement in language model ...",
+                    "date": "Jan 2, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Making Large Language Models Better Planners with Reasoning ...",
+                    "link": "https://arxiv.org/html/2408.13890v1",
+                    "snippet": "This work presents a LLM-based AD model RDA-Driver with reasoning-decision alignment, which offers better interpretability and robustness. To our knowledge, ...",
+                    "date": "Aug 25, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:46.008071+00:00",
+              "elapsed_seconds": 2.17461234331131,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q8_A_04_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2303.18223",
+            "2310.18362",
+            "2401.01313",
+            "2402.06196",
+            "2404.16789",
+            "2406.00515",
+            "2406.02622",
+            "2408.13890",
+            "2410.16843"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2402.06196",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2402.06196v2",
+              "snippet": "RLHF uses a reward model to learn alignment from human feedback. This reward model, after being tuned, is able to rate different outputs and score them"
+            },
+            {
+              "arxiv_id": "2404.16789",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Continual Learning of Large Language Models - arXiv",
+              "link": "https://arxiv.org/html/2404.16789v1",
+              "snippet": "models are trained to make decisions reinforced by human feedback, using a reward system to guide them towards desirable outcomes. alignment with human ..."
+            },
+            {
+              "arxiv_id": "2303.18223",
+              "organic_index": 2,
+              "position": 3,
+              "title": "[PDF] A Survey of Large Language Models - arXiv",
+              "link": "https://arxiv.org/pdf/2303.18223",
+              "snippet": "This survey provides an up-to-date review of the literature on LLMs, Despite that InstructGPT used a small reward model (6B GPT model), increasing work [99] ..."
+            },
+            {
+              "arxiv_id": "2406.02622",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Safeguarding Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2406.02622v1",
+              "snippet": "Furthermore, the research by [156] highlights the risks of fine-tuning language models using small datasets containing personally identifiable information (PII) ..."
+            },
+            {
+              "arxiv_id": "2310.18362",
+              "organic_index": 4,
+              "position": 5,
+              "title": "[PDF] SoK: Memorization in General-Purpose Large Language Models",
+              "link": "https://arxiv.org/pdf/2310.18362",
+              "snippet": "We propose a taxonomy for memorization in LLMs that covers verbatim text, facts, ideas and algorithms, writing styles, distributional properties, and alignment ..."
+            },
+            {
+              "arxiv_id": "2410.16843",
+              "organic_index": 5,
+              "position": 6,
+              "title": "[PDF] Trustworthy Alignment of Retrieval-Augmented Large Language ...",
+              "link": "https://arxiv.org/pdf/2410.16843",
+              "snippet": "Inspired by aligning language models with human preference, we take the first step towards aligning retrieval- augmented language models to a status where it."
+            },
+            {
+              "arxiv_id": "2404.16789",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Continual Learning of Large Language Models - arXiv",
+              "link": "https://arxiv.org/html/2404.16789v2",
+              "snippet": "RL-based approaches … are trained to make decisions reinforced by human feedback, using a reward system to guide them towards desirable outcomes. l Multimodal ..."
+            },
+            {
+              "arxiv_id": "2406.00515",
+              "organic_index": 7,
+              "position": 8,
+              "title": "A Survey on Large Language Models for Code Generation - arXiv",
+              "link": "https://arxiv.org/html/2406.00515v1",
+              "snippet": "The landscape of LLMs for code generation is characterized by a spectrum of models, with certain models like ChatGPT (Ouyang et al., 2022) , GPT4 (Achiam et al."
+            },
+            {
+              "arxiv_id": "2401.01313",
+              "organic_index": 8,
+              "position": 9,
+              "title": "A Comprehensive Survey of Hallucination Mitigation Techniques in ...",
+              "link": "https://arxiv.org/html/2401.01313v1",
+              "snippet": "Researchers have proposed various strategies, encompassing feedback mechanisms, external information retrieval, and early refinement in language model ..."
+            },
+            {
+              "arxiv_id": "2408.13890",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Making Large Language Models Better Planners with Reasoning ...",
+              "link": "https://arxiv.org/html/2408.13890v1",
+              "snippet": "This work presents a LLM-based AD model RDA-Driver with reasoning-decision alignment, which offers better interpretability and robustness. To our knowledge, ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 5,
+          "crawler_query": "Exploring the use of self-rewarding mechanisms in training large language models",
+          "request_payload": {
+            "q": "Exploring the use of self-rewarding mechanisms in training large language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 61,
+              "query_id": "Q8",
+              "group": "A",
+              "query_sequence": 5,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Exploring the use of self-rewarding mechanisms in training large language models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:46.976128+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Exploring the use of self-rewarding mechanisms in training large language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2401.10020] Self-Rewarding Language Models - arXiv\",\"link\":\"https://arxiv.org/abs/2401.10020\",\"snippet\":\"In this work, we study Self-Rewarding Language Models, where the language model itself is used via LLM-as-a-Judge prompting to provide its own rewards during ...\",\"date\":\"Jan 18, 2024\",\"position\":1},{\"title\":\"Self-Rewarding Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2401.10020v1/\",\"snippet\":\"In this work, we study Self-Rewarding Language Models, where the language model itself is used via LLM-as-a-Judge prompting to provide its own rewards during ...\",\"date\":\"Jan 18, 2024\",\"position\":2},{\"title\":\"Self-Improving Alignment with LLM-as-a-Meta-Judge - arXiv\",\"link\":\"https://arxiv.org/abs/2407.19594\",\"snippet\":\"recent self-rewarding mechanisms (Yuan et al., 2024) have shown that LLMs can improve by judging their own responses instead of relying on human labelers.\",\"date\":\"Jul 28, 2024\",\"position\":3},{\"title\":\"[2404.10346] Self-Explore: Enhancing Mathematical Reasoning in ...\",\"link\":\"https://arxiv.org/abs/2404.10346\",\"snippet\":\"Abstract:Training on large amounts of rationales (i.e., CoT Fine-tuning) is effective at improving the reasoning capabilities of large language models (LLMs).\",\"date\":\"Apr 16, 2024\",\"position\":4},{\"title\":\"Secrets of RLHF in Large Language ModelsPart II: Reward Modeling\",\"link\":\"https://arxiv.org/html/2401.06080v2\",\"snippet\":\"Reward models are trained as proxies for human preferences to drive reinforcement learning optimization. While reward models are often considered central to ...\",\"date\":\"Jan 12, 2024\",\"position\":5},{\"title\":\"A Survey on Knowledge Distillation of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2402.13116v1\",\"snippet\":\"This survey presents an in-depth exploration of knowledge distillation (KD) techniques within the realm of Large Language Models (LLMs), spotlighting the ...\",\"date\":\"Feb 20, 2024\",\"position\":6},{\"title\":\"Learning Reward for Robot Skills Using Large Language Models via ...\",\"link\":\"https://arxiv.org/abs/2405.07162\",\"snippet\":\"We first use the LLM to propose features and parameterization of the reward, then update the parameters through an iterative self-alignment process.\",\"date\":\"May 12, 2024\",\"position\":7},{\"title\":\"[2405.14622] Calibrated Self-Rewarding Vision Language Models\",\"link\":\"https://arxiv.org/abs/2405.14622\",\"snippet\":\"In the reward modeling, we employ a step-wise strategy and incorporate visual constraints into the self-rewarding process to place greater emphasis on visual ...\",\"date\":\"May 23, 2024\",\"position\":8},{\"title\":\"[PDF] Code as Reward: Empowering Reinforcement Learning with VLMs\",\"link\":\"https://arxiv.org/pdf/2402.04764\",\"snippet\":\"VLMs are particularly useful for crafting rewards functions in RL, as they directly work at the intersection of visual observations and language descriptions.\",\"date\":\"Feb 7, 2024\",\"position\":9},{\"title\":\"Best Practices and Lessons Learned on Synthetic Data for ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.07503v1\",\"snippet\":\"Large language models can self-improve. In H. Bouamor, J. Pino, and K. Bali, editors, Proceedings of the 2023 Conference on Empirical Methods in Natural ...\",\"date\":\"Apr 11, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "89734230cd39c0db6ff275632faeea7a503b85bbb632b4ca7569b75b30a3358b",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Exploring the use of self-rewarding mechanisms in training large language models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "[2401.10020] Self-Rewarding Language Models - arXiv",
+                    "link": "https://arxiv.org/abs/2401.10020",
+                    "snippet": "In this work, we study Self-Rewarding Language Models, where the language model itself is used via LLM-as-a-Judge prompting to provide its own rewards during ...",
+                    "date": "Jan 18, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Self-Rewarding Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2401.10020v1/",
+                    "snippet": "In this work, we study Self-Rewarding Language Models, where the language model itself is used via LLM-as-a-Judge prompting to provide its own rewards during ...",
+                    "date": "Jan 18, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Self-Improving Alignment with LLM-as-a-Meta-Judge - arXiv",
+                    "link": "https://arxiv.org/abs/2407.19594",
+                    "snippet": "recent self-rewarding mechanisms (Yuan et al., 2024) have shown that LLMs can improve by judging their own responses instead of relying on human labelers.",
+                    "date": "Jul 28, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "[2404.10346] Self-Explore: Enhancing Mathematical Reasoning in ...",
+                    "link": "https://arxiv.org/abs/2404.10346",
+                    "snippet": "Abstract:Training on large amounts of rationales (i.e., CoT Fine-tuning) is effective at improving the reasoning capabilities of large language models (LLMs).",
+                    "date": "Apr 16, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Secrets of RLHF in Large Language ModelsPart II: Reward Modeling",
+                    "link": "https://arxiv.org/html/2401.06080v2",
+                    "snippet": "Reward models are trained as proxies for human preferences to drive reinforcement learning optimization. While reward models are often considered central to ...",
+                    "date": "Jan 12, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "A Survey on Knowledge Distillation of Large Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2402.13116v1",
+                    "snippet": "This survey presents an in-depth exploration of knowledge distillation (KD) techniques within the realm of Large Language Models (LLMs), spotlighting the ...",
+                    "date": "Feb 20, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Learning Reward for Robot Skills Using Large Language Models via ...",
+                    "link": "https://arxiv.org/abs/2405.07162",
+                    "snippet": "We first use the LLM to propose features and parameterization of the reward, then update the parameters through an iterative self-alignment process.",
+                    "date": "May 12, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "[2405.14622] Calibrated Self-Rewarding Vision Language Models",
+                    "link": "https://arxiv.org/abs/2405.14622",
+                    "snippet": "In the reward modeling, we employ a step-wise strategy and incorporate visual constraints into the self-rewarding process to place greater emphasis on visual ...",
+                    "date": "May 23, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] Code as Reward: Empowering Reinforcement Learning with VLMs",
+                    "link": "https://arxiv.org/pdf/2402.04764",
+                    "snippet": "VLMs are particularly useful for crafting rewards functions in RL, as they directly work at the intersection of visual observations and language descriptions.",
+                    "date": "Feb 7, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+                    "link": "https://arxiv.org/html/2404.07503v1",
+                    "snippet": "Large language models can self-improve. In H. Bouamor, J. Pino, and K. Bali, editors, Proceedings of the 2023 Conference on Empirical Methods in Natural ...",
+                    "date": "Apr 11, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:48.360024+00:00",
+              "elapsed_seconds": 1.3839027173817158,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q8_A_05_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2401.06080",
+            "2401.10020",
+            "2402.04764",
+            "2402.13116",
+            "2404.07503",
+            "2404.10346",
+            "2405.07162",
+            "2405.14622",
+            "2407.19594"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2401.10020",
+              "organic_index": 0,
+              "position": 1,
+              "title": "[2401.10020] Self-Rewarding Language Models - arXiv",
+              "link": "https://arxiv.org/abs/2401.10020",
+              "snippet": "In this work, we study Self-Rewarding Language Models, where the language model itself is used via LLM-as-a-Judge prompting to provide its own rewards during ..."
+            },
+            {
+              "arxiv_id": "2401.10020",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Self-Rewarding Language Models - arXiv",
+              "link": "https://arxiv.org/html/2401.10020v1/",
+              "snippet": "In this work, we study Self-Rewarding Language Models, where the language model itself is used via LLM-as-a-Judge prompting to provide its own rewards during ..."
+            },
+            {
+              "arxiv_id": "2407.19594",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Self-Improving Alignment with LLM-as-a-Meta-Judge - arXiv",
+              "link": "https://arxiv.org/abs/2407.19594",
+              "snippet": "recent self-rewarding mechanisms (Yuan et al., 2024) have shown that LLMs can improve by judging their own responses instead of relying on human labelers."
+            },
+            {
+              "arxiv_id": "2404.10346",
+              "organic_index": 3,
+              "position": 4,
+              "title": "[2404.10346] Self-Explore: Enhancing Mathematical Reasoning in ...",
+              "link": "https://arxiv.org/abs/2404.10346",
+              "snippet": "Abstract:Training on large amounts of rationales (i.e., CoT Fine-tuning) is effective at improving the reasoning capabilities of large language models (LLMs)."
+            },
+            {
+              "arxiv_id": "2401.06080",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Secrets of RLHF in Large Language ModelsPart II: Reward Modeling",
+              "link": "https://arxiv.org/html/2401.06080v2",
+              "snippet": "Reward models are trained as proxies for human preferences to drive reinforcement learning optimization. While reward models are often considered central to ..."
+            },
+            {
+              "arxiv_id": "2402.13116",
+              "organic_index": 5,
+              "position": 6,
+              "title": "A Survey on Knowledge Distillation of Large Language Models - arXiv",
+              "link": "https://arxiv.org/html/2402.13116v1",
+              "snippet": "This survey presents an in-depth exploration of knowledge distillation (KD) techniques within the realm of Large Language Models (LLMs), spotlighting the ..."
+            },
+            {
+              "arxiv_id": "2405.07162",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Learning Reward for Robot Skills Using Large Language Models via ...",
+              "link": "https://arxiv.org/abs/2405.07162",
+              "snippet": "We first use the LLM to propose features and parameterization of the reward, then update the parameters through an iterative self-alignment process."
+            },
+            {
+              "arxiv_id": "2405.14622",
+              "organic_index": 7,
+              "position": 8,
+              "title": "[2405.14622] Calibrated Self-Rewarding Vision Language Models",
+              "link": "https://arxiv.org/abs/2405.14622",
+              "snippet": "In the reward modeling, we employ a step-wise strategy and incorporate visual constraints into the self-rewarding process to place greater emphasis on visual ..."
+            },
+            {
+              "arxiv_id": "2402.04764",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] Code as Reward: Empowering Reinforcement Learning with VLMs",
+              "link": "https://arxiv.org/pdf/2402.04764",
+              "snippet": "VLMs are particularly useful for crafting rewards functions in RL, as they directly work at the intersection of visual observations and language descriptions."
+            },
+            {
+              "arxiv_id": "2404.07503",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+              "link": "https://arxiv.org/html/2404.07503v1",
+              "snippet": "Large language models can self-improve. In H. Bouamor, J. Pino, and K. Bali, editors, Proceedings of the 2023 Conference on Empirical Methods in Natural ..."
+            }
+          ],
+          "organic_result_count": 10
+        }
+      ],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Do you know some papers about using reward shaping methods to train large language model agent.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "8936238f3e88c0cfc84f7e15542d04776a087023daa0e38882ce38fc7b0cff41",
+      "raw_output": "[Search]Reward shaping techniques in large language model training\n[Search]Application of reward shaping in language model agent training\n[Search]Effectiveness of reward shaping methods in training large language models\n[Search]Research on using small extrinsic rewards for aligning large language models with user intent\n[Search]Exploring the use of self-rewarding mechanisms in training large language models\n[StopSearch]",
+      "raw_output_with_special_tokens": "[Search]Reward shaping techniques in large language model training\n[Search]Application of reward shaping in language model agent training\n[Search]Effectiveness of reward shaping methods in training large language models\n[Search]Research on using small extrinsic rewards for aligning large language models with user intent\n[Search]Exploring the use of self-rewarding mechanisms in training large language models\n[StopSearch]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        5890,
+        60,
+        59622,
+        45520,
+        12538,
+        304,
+        3460,
+        4128,
+        1614,
+        4862,
+        198,
+        58,
+        5890,
+        60,
+        4988,
+        315,
+        11313,
+        45520,
+        304,
+        4128,
+        1614,
+        8315,
+        4862,
+        198,
+        58,
+        5890,
+        60,
+        7738,
+        12781,
+        315,
+        11313,
+        45520,
+        5413,
+        304,
+        4862,
+        3460,
+        4128,
+        4119,
+        198,
+        58,
+        5890,
+        60,
+        27428,
+        389,
+        1667,
+        2613,
+        11482,
+        27592,
+        21160,
+        369,
+        5285,
+        287,
+        3460,
+        4128,
+        4119,
+        448,
+        1196,
+        7385,
+        198,
+        58,
+        5890,
+        60,
+        43953,
+        5503,
+        279,
+        990,
+        315,
+        656,
+        5504,
+        1606,
+        287,
+        23783,
+        304,
+        4862,
+        3460,
+        4128,
+        4119,
+        198,
+        58,
+        10674,
+        5890,
+        60,
+        151645
+      ],
+      "generated_token_count": 84,
+      "ended_with_eos": true,
+      "input_token_count": 72,
+      "generation_seconds": 2.8187356516718864,
+      "all_parsed_queries": [
+        "Reward shaping techniques in large language model training",
+        "Application of reward shaping in language model agent training",
+        "Effectiveness of reward shaping methods in training large language models",
+        "Research on using small extrinsic rewards for aligning large language models with user intent",
+        "Exploring the use of self-rewarding mechanisms in training large language models"
+      ],
+      "queries": [
+        "Reward shaping techniques in large language model training",
+        "Application of reward shaping in language model agent training",
+        "Effectiveness of reward shaping methods in training large language models",
+        "Research on using small extrinsic rewards for aligning large language models with user intent",
+        "Exploring the use of self-rewarding mechanisms in training large language models"
+      ],
+      "discarded_queries": []
+    },
+    "B": {
+      "prompt": "Please generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Do you know some papers about using reward shaping methods to train large language model agent.",
+      "searches": [
+        {
+          "query_sequence": 1,
+          "crawler_query": "Research on large language model agent training using reward shaping",
+          "request_payload": {
+            "q": "Research on large language model agent training using reward shaping before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 54,
+              "query_id": "Q8",
+              "group": "B",
+              "query_sequence": 1,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Research on large language model agent training using reward shaping before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:36.372059+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Research on large language model agent training using reward shaping before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Extracting Heuristics from Large Language Models for Reward ...\",\"link\":\"https://arxiv.org/abs/2405.15194\",\"snippet\":\"reward shaping is a well-studied approach to introduce intrinsic rewards that can help the RL agent converge to an optimal policy faster.\",\"date\":\"May 24, 2024\",\"position\":1},{\"title\":\"Comprehensive Overview of Reward Engineering and Shaping in ...\",\"link\":\"https://arxiv.org/html/2408.10215v1\",\"snippet\":\"Reward shaping: is a technique inspired by animal training where supplemental rewards are provided to make a problem easier to learn.\",\"date\":\"Jul 22, 2024\",\"position\":2},{\"title\":\"Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...\",\"link\":\"https://arxiv.org/html/2409.12798v1\",\"snippet\":\"Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative. HRL decomposes complex ...\",\"date\":\"Sep 19, 2024\",\"position\":3},{\"title\":\"Improving Sample Efficiency of Reinforcement Learning with ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.03964v1\",\"snippet\":\"In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ...\",\"date\":\"Jul 4, 2024\",\"position\":4},{\"title\":\"Text2Reward: Reward Shaping with Language Models for ... - arXiv\",\"link\":\"https://arxiv.org/abs/2309.11489\",\"snippet\":\"Text2Reward, a data-free framework that automates the generation and shaping of dense reward functions based on large language models (LLMs).\",\"date\":\"Sep 20, 2023\",\"position\":5},{\"title\":\"[2303.00001] Reward Design with Language Models - arXiv\",\"link\":\"https://arxiv.org/abs/2303.00001\",\"snippet\":\"This paper explores how to simplify reward design by prompting a large language model (LLM) such as GPT-3 as a proxy reward function,\",\"date\":\"Feb 27, 2023\",\"position\":6},{\"title\":\"DRLC: Reinforcement Learning with Dense Rewards from LLM Critic\",\"link\":\"https://arxiv.org/html/2401.07382v1\",\"snippet\":\"In this paper, we introduce a novel framework leveraging the critique ability of LLMs to produce dense rewards throughout the learning process.\",\"date\":\"Jan 14, 2024\",\"position\":7},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.\",\"date\":\"Jan 27, 2022\",\"position\":8},{\"title\":\"Reinforcement Learning in the Era of LLMs - arXiv\",\"link\":\"https://arxiv.org/html/2310.06147\",\"snippet\":\"In RL, an agent learns through interacting with an environment and receiving feedback in the form of rewards. The fundamental objective of RL is to find a ...\",\"date\":\"Oct 9, 2023\",\"position\":9},{\"title\":\"Using Natural Language for Reward Shaping in Reinforcement ...\",\"link\":\"https://arxiv.org/abs/1903.02020\",\"snippet\":\"In this work, we address this problem by using natural language instructions to perform reward shaping. We propose the LanguagE-Action Reward Network (LEARN), a ...\",\"date\":\"Mar 5, 2019\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "02261e8462ece8a87c50ab1d03d080710a98e5a4d7ab1cc82fd56a5c88ebcfbc",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Research on large language model agent training using reward shaping before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Extracting Heuristics from Large Language Models for Reward ...",
+                    "link": "https://arxiv.org/abs/2405.15194",
+                    "snippet": "reward shaping is a well-studied approach to introduce intrinsic rewards that can help the RL agent converge to an optimal policy faster.",
+                    "date": "May 24, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+                    "link": "https://arxiv.org/html/2408.10215v1",
+                    "snippet": "Reward shaping: is a technique inspired by animal training where supplemental rewards are provided to make a problem easier to learn.",
+                    "date": "Jul 22, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...",
+                    "link": "https://arxiv.org/html/2409.12798v1",
+                    "snippet": "Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative. HRL decomposes complex ...",
+                    "date": "Sep 19, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+                    "link": "https://arxiv.org/html/2407.03964v1",
+                    "snippet": "In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ...",
+                    "date": "Jul 4, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Text2Reward: Reward Shaping with Language Models for ... - arXiv",
+                    "link": "https://arxiv.org/abs/2309.11489",
+                    "snippet": "Text2Reward, a data-free framework that automates the generation and shaping of dense reward functions based on large language models (LLMs).",
+                    "date": "Sep 20, 2023",
+                    "position": 5
+                  },
+                  {
+                    "title": "[2303.00001] Reward Design with Language Models - arXiv",
+                    "link": "https://arxiv.org/abs/2303.00001",
+                    "snippet": "This paper explores how to simplify reward design by prompting a large language model (LLM) such as GPT-3 as a proxy reward function,",
+                    "date": "Feb 27, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+                    "link": "https://arxiv.org/html/2401.07382v1",
+                    "snippet": "In this paper, we introduce a novel framework leveraging the critique ability of LLMs to produce dense rewards throughout the learning process.",
+                    "date": "Jan 14, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.",
+                    "date": "Jan 27, 2022",
+                    "position": 8
+                  },
+                  {
+                    "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+                    "link": "https://arxiv.org/html/2310.06147",
+                    "snippet": "In RL, an agent learns through interacting with an environment and receiving feedback in the form of rewards. The fundamental objective of RL is to find a ...",
+                    "date": "Oct 9, 2023",
+                    "position": 9
+                  },
+                  {
+                    "title": "Using Natural Language for Reward Shaping in Reinforcement ...",
+                    "link": "https://arxiv.org/abs/1903.02020",
+                    "snippet": "In this work, we address this problem by using natural language instructions to perform reward shaping. We propose the LanguagE-Action Reward Network (LEARN), a ...",
+                    "date": "Mar 5, 2019",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:37.827421+00:00",
+              "elapsed_seconds": 1.4553693197667599,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q8_B_01_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "1903.02020",
+            "2203.02155",
+            "2303.00001",
+            "2309.11489",
+            "2310.06147",
+            "2401.07382",
+            "2405.15194",
+            "2407.03964",
+            "2408.10215",
+            "2409.12798"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2405.15194",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Extracting Heuristics from Large Language Models for Reward ...",
+              "link": "https://arxiv.org/abs/2405.15194",
+              "snippet": "reward shaping is a well-studied approach to introduce intrinsic rewards that can help the RL agent converge to an optimal policy faster."
+            },
+            {
+              "arxiv_id": "2408.10215",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+              "link": "https://arxiv.org/html/2408.10215v1",
+              "snippet": "Reward shaping: is a technique inspired by animal training where supplemental rewards are provided to make a problem easier to learn."
+            },
+            {
+              "arxiv_id": "2409.12798",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...",
+              "link": "https://arxiv.org/html/2409.12798v1",
+              "snippet": "Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative. HRL decomposes complex ..."
+            },
+            {
+              "arxiv_id": "2407.03964",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+              "link": "https://arxiv.org/html/2407.03964v1",
+              "snippet": "In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ..."
+            },
+            {
+              "arxiv_id": "2309.11489",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Text2Reward: Reward Shaping with Language Models for ... - arXiv",
+              "link": "https://arxiv.org/abs/2309.11489",
+              "snippet": "Text2Reward, a data-free framework that automates the generation and shaping of dense reward functions based on large language models (LLMs)."
+            },
+            {
+              "arxiv_id": "2303.00001",
+              "organic_index": 5,
+              "position": 6,
+              "title": "[2303.00001] Reward Design with Language Models - arXiv",
+              "link": "https://arxiv.org/abs/2303.00001",
+              "snippet": "This paper explores how to simplify reward design by prompting a large language model (LLM) such as GPT-3 as a proxy reward function,"
+            },
+            {
+              "arxiv_id": "2401.07382",
+              "organic_index": 6,
+              "position": 7,
+              "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+              "link": "https://arxiv.org/html/2401.07382v1",
+              "snippet": "In this paper, we introduce a novel framework leveraging the critique ability of LLMs to produce dense rewards throughout the learning process."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback."
+            },
+            {
+              "arxiv_id": "2310.06147",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+              "link": "https://arxiv.org/html/2310.06147",
+              "snippet": "In RL, an agent learns through interacting with an environment and receiving feedback in the form of rewards. The fundamental objective of RL is to find a ..."
+            },
+            {
+              "arxiv_id": "1903.02020",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Using Natural Language for Reward Shaping in Reinforcement ...",
+              "link": "https://arxiv.org/abs/1903.02020",
+              "snippet": "In this work, we address this problem by using natural language instructions to perform reward shaping. We propose the LanguagE-Action Reward Network (LEARN), a ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 2,
+          "crawler_query": "Exploration of reward shaping techniques in language model training",
+          "request_payload": {
+            "q": "Exploration of reward shaping techniques in language model training before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 56,
+              "query_id": "Q8",
+              "group": "B",
+              "query_sequence": 2,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Exploration of reward shaping techniques in language model training before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:39.627230+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Exploration of reward shaping techniques in language model training before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Comprehensive Overview of Reward Engineering and Shaping in ...\",\"link\":\"https://arxiv.org/html/2408.10215v1\",\"snippet\":\"Reward shaping involves modifying the reward function to improve the learning process without altering the optimal policy. Reward shaping: is a technique ...\",\"date\":\"Jul 22, 2024\",\"position\":1},{\"title\":\"Secrets of RLHF in Large Language ModelsPart II: Reward Modeling\",\"link\":\"https://arxiv.org/html/2401.06080v2\",\"snippet\":\"RLHF involves two main steps: first, using preference data collected from a large number of crowdsource workers to train a reward model. Secondly, using ...\",\"date\":\"Jan 12, 2024\",\"position\":2},{\"title\":\"CCE: Sample Efficient Sparse Reward Policy Learning for Robotic ...\",\"link\":\"https://arxiv.org/html/2306.06192v8\",\"snippet\":\"To produce more rewards which the algorithm can learn from, reward-shaping methods based on intrinsic rewards have been proposed. Methods in [13] and [25] ...\",\"date\":\"Sep 24, 2024\",\"position\":3},{\"title\":\"[PDF] Temporal Video-Language Alignment Network for Reward Shaping ...\",\"link\":\"https://arxiv.org/pdf/2302.03954\",\"snippet\":\"The experiments performed show that using natural language-based rewards improves the policy learned and the time taken for the training process. Further, using ...\",\"date\":\"Mar 27, 2023\",\"position\":4},{\"title\":\"DRLC: Reinforcement Learning with Dense Rewards from LLM Critic\",\"link\":\"https://arxiv.org/html/2401.07382v1\",\"snippet\":\"In this paper, we introduce a novel framework leveraging the critique ability of LLMs to produce dense rewards throughout the learning process.\",\"date\":\"Jan 14, 2024\",\"position\":5},{\"title\":\"[PDF] arXiv:2206.09674v2 [cs.CL] 5 Oct 2022\",\"link\":\"https://arxiv.org/pdf/2206.09674\",\"snippet\":\"Language for exploration and reward shaping. Reward shaping is a form of guidance that supplies additional rewards to the agent to direct its learning process.\",\"date\":\"Oct 6, 2022\",\"position\":6},{\"title\":\"An Introduction to Reinforcement Learning: Fundamental Concepts ...\",\"link\":\"https://arxiv.org/html/2408.07712v1\",\"snippet\":\"We provide a detailed explanation of key components of RL such as states, actions, policies, and reward signals so that the reader can build a foundational ...\",\"date\":\"Aug 13, 2024\",\"position\":7},{\"title\":\"Vision-Language Navigation:A Survey and Taxonomy - arXiv\",\"link\":\"https://arxiv.org/html/2108.11544v3\",\"snippet\":\"Zhou and Small [125] devise a adversarial inverse reinforcement learning method to learn a language-conditioned policy and reward function.\",\"date\":\"Apr 2, 2022\",\"position\":8},{\"title\":\"Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv\",\"link\":\"https://arxiv.org/html/1801.02209v2\",\"snippet\":\"To provide additional supervision during training, we resort to an informative reward shaping: we compute the approximate shortest distance from the target room ...\",\"date\":\"Apr 8, 2018\",\"sitelinks\":[{\"title\":\"1 Introduction\",\"link\":\"https://arxiv.org/html/1801.02209v2#:~:text=1%20Introduction,-Recently%2C%20deep%20reinforcement%20learning\"},{\"title\":\"5 Gated-Attention Networks...\",\"link\":\"https://arxiv.org/html/1801.02209v2#:~:text=5%20Gated%2DAttention%20Networks%20for%20Multi%2DTarget%20Learning,-The%20RoomNav%20task%20can%20be\"},{\"title\":\"6 Experimental Results\",\"link\":\"https://arxiv.org/html/1801.02209v2#:~:text=6%20Experimental%20Results,-We%20report%20experimental%20results%20for\"}],\"position\":9},{\"title\":\"[PDF] grounded language instruction through demonstration in rl - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.02991\",\"snippet\":\"[2019] used the agreement between trajectory and expert provided language instructions for reward shaping in sparse reward tasks. Chan et al. Chan et al ...\",\"date\":\"Jan 3, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "efe1ec8eeaf2873f24ecbf533e797513f99a64a9b5f241a29329fa61d841726f",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Exploration of reward shaping techniques in language model training before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+                    "link": "https://arxiv.org/html/2408.10215v1",
+                    "snippet": "Reward shaping involves modifying the reward function to improve the learning process without altering the optimal policy. Reward shaping: is a technique ...",
+                    "date": "Jul 22, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Secrets of RLHF in Large Language ModelsPart II: Reward Modeling",
+                    "link": "https://arxiv.org/html/2401.06080v2",
+                    "snippet": "RLHF involves two main steps: first, using preference data collected from a large number of crowdsource workers to train a reward model. Secondly, using ...",
+                    "date": "Jan 12, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "CCE: Sample Efficient Sparse Reward Policy Learning for Robotic ...",
+                    "link": "https://arxiv.org/html/2306.06192v8",
+                    "snippet": "To produce more rewards which the algorithm can learn from, reward-shaping methods based on intrinsic rewards have been proposed. Methods in [13] and [25] ...",
+                    "date": "Sep 24, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "[PDF] Temporal Video-Language Alignment Network for Reward Shaping ...",
+                    "link": "https://arxiv.org/pdf/2302.03954",
+                    "snippet": "The experiments performed show that using natural language-based rewards improves the policy learned and the time taken for the training process. Further, using ...",
+                    "date": "Mar 27, 2023",
+                    "position": 4
+                  },
+                  {
+                    "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+                    "link": "https://arxiv.org/html/2401.07382v1",
+                    "snippet": "In this paper, we introduce a novel framework leveraging the critique ability of LLMs to produce dense rewards throughout the learning process.",
+                    "date": "Jan 14, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "[PDF] arXiv:2206.09674v2 [cs.CL] 5 Oct 2022",
+                    "link": "https://arxiv.org/pdf/2206.09674",
+                    "snippet": "Language for exploration and reward shaping. Reward shaping is a form of guidance that supplies additional rewards to the agent to direct its learning process.",
+                    "date": "Oct 6, 2022",
+                    "position": 6
+                  },
+                  {
+                    "title": "An Introduction to Reinforcement Learning: Fundamental Concepts ...",
+                    "link": "https://arxiv.org/html/2408.07712v1",
+                    "snippet": "We provide a detailed explanation of key components of RL such as states, actions, policies, and reward signals so that the reader can build a foundational ...",
+                    "date": "Aug 13, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Vision-Language Navigation:A Survey and Taxonomy - arXiv",
+                    "link": "https://arxiv.org/html/2108.11544v3",
+                    "snippet": "Zhou and Small [125] devise a adversarial inverse reinforcement learning method to learn a language-conditioned policy and reward function.",
+                    "date": "Apr 2, 2022",
+                    "position": 8
+                  },
+                  {
+                    "title": "Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv",
+                    "link": "https://arxiv.org/html/1801.02209v2",
+                    "snippet": "To provide additional supervision during training, we resort to an informative reward shaping: we compute the approximate shortest distance from the target room ...",
+                    "date": "Apr 8, 2018",
+                    "sitelinks": [
+                      {
+                        "title": "1 Introduction",
+                        "link": "https://arxiv.org/html/1801.02209v2#:~:text=1%20Introduction,-Recently%2C%20deep%20reinforcement%20learning"
+                      },
+                      {
+                        "title": "5 Gated-Attention Networks...",
+                        "link": "https://arxiv.org/html/1801.02209v2#:~:text=5%20Gated%2DAttention%20Networks%20for%20Multi%2DTarget%20Learning,-The%20RoomNav%20task%20can%20be"
+                      },
+                      {
+                        "title": "6 Experimental Results",
+                        "link": "https://arxiv.org/html/1801.02209v2#:~:text=6%20Experimental%20Results,-We%20report%20experimental%20results%20for"
+                      }
+                    ],
+                    "position": 9
+                  },
+                  {
+                    "title": "[PDF] grounded language instruction through demonstration in rl - arXiv",
+                    "link": "https://arxiv.org/pdf/2401.02991",
+                    "snippet": "[2019] used the agreement between trajectory and expert provided language instructions for reward shaping in sparse reward tasks. Chan et al. Chan et al ...",
+                    "date": "Jan 3, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:40.848832+00:00",
+              "elapsed_seconds": 1.2216001562774181,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q8_B_02_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "1801.02209",
+            "2108.11544",
+            "2206.09674",
+            "2302.03954",
+            "2306.06192",
+            "2401.02991",
+            "2401.06080",
+            "2401.07382",
+            "2408.07712",
+            "2408.10215"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2408.10215",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+              "link": "https://arxiv.org/html/2408.10215v1",
+              "snippet": "Reward shaping involves modifying the reward function to improve the learning process without altering the optimal policy. Reward shaping: is a technique ..."
+            },
+            {
+              "arxiv_id": "2401.06080",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Secrets of RLHF in Large Language ModelsPart II: Reward Modeling",
+              "link": "https://arxiv.org/html/2401.06080v2",
+              "snippet": "RLHF involves two main steps: first, using preference data collected from a large number of crowdsource workers to train a reward model. Secondly, using ..."
+            },
+            {
+              "arxiv_id": "2306.06192",
+              "organic_index": 2,
+              "position": 3,
+              "title": "CCE: Sample Efficient Sparse Reward Policy Learning for Robotic ...",
+              "link": "https://arxiv.org/html/2306.06192v8",
+              "snippet": "To produce more rewards which the algorithm can learn from, reward-shaping methods based on intrinsic rewards have been proposed. Methods in [13] and [25] ..."
+            },
+            {
+              "arxiv_id": "2302.03954",
+              "organic_index": 3,
+              "position": 4,
+              "title": "[PDF] Temporal Video-Language Alignment Network for Reward Shaping ...",
+              "link": "https://arxiv.org/pdf/2302.03954",
+              "snippet": "The experiments performed show that using natural language-based rewards improves the policy learned and the time taken for the training process. Further, using ..."
+            },
+            {
+              "arxiv_id": "2401.07382",
+              "organic_index": 4,
+              "position": 5,
+              "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+              "link": "https://arxiv.org/html/2401.07382v1",
+              "snippet": "In this paper, we introduce a novel framework leveraging the critique ability of LLMs to produce dense rewards throughout the learning process."
+            },
+            {
+              "arxiv_id": "2206.09674",
+              "organic_index": 5,
+              "position": 6,
+              "title": "[PDF] arXiv:2206.09674v2 [cs.CL] 5 Oct 2022",
+              "link": "https://arxiv.org/pdf/2206.09674",
+              "snippet": "Language for exploration and reward shaping. Reward shaping is a form of guidance that supplies additional rewards to the agent to direct its learning process."
+            },
+            {
+              "arxiv_id": "2408.07712",
+              "organic_index": 6,
+              "position": 7,
+              "title": "An Introduction to Reinforcement Learning: Fundamental Concepts ...",
+              "link": "https://arxiv.org/html/2408.07712v1",
+              "snippet": "We provide a detailed explanation of key components of RL such as states, actions, policies, and reward signals so that the reader can build a foundational ..."
+            },
+            {
+              "arxiv_id": "2108.11544",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Vision-Language Navigation:A Survey and Taxonomy - arXiv",
+              "link": "https://arxiv.org/html/2108.11544v3",
+              "snippet": "Zhou and Small [125] devise a adversarial inverse reinforcement learning method to learn a language-conditioned policy and reward function."
+            },
+            {
+              "arxiv_id": "1801.02209",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Building Generalizable Agents with a Realistic and Rich 3D ... - arXiv",
+              "link": "https://arxiv.org/html/1801.02209v2",
+              "snippet": "To provide additional supervision during training, we resort to an informative reward shaping: we compute the approximate shortest distance from the target room ..."
+            },
+            {
+              "arxiv_id": "2401.02991",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[PDF] grounded language instruction through demonstration in rl - arXiv",
+              "link": "https://arxiv.org/pdf/2401.02991",
+              "snippet": "[2019] used the agreement between trajectory and expert provided language instructions for reward shaping in sparse reward tasks. Chan et al. Chan et al ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 3,
+          "crawler_query": "Papers on applying reward shaping in language model education",
+          "request_payload": {
+            "q": "Papers on applying reward shaping in language model education before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 58,
+              "query_id": "Q8",
+              "group": "B",
+              "query_sequence": 3,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Papers on applying reward shaping in language model education before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:42.529244+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Papers on applying reward shaping in language model education before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Comprehensive Overview of Reward Engineering and Shaping in ...\",\"link\":\"https://arxiv.org/html/2408.10215v1\",\"snippet\":\"This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning algorithms ...\",\"date\":\"Jul 22, 2024\",\"position\":1},{\"title\":\"Improving Sample Efficiency of Reinforcement Learning with ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.03964v1\",\"snippet\":\"In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ...\",\"date\":\"Jul 4, 2024\",\"position\":2},{\"title\":\"DRLC: Reinforcement Learning with Dense Rewards from LLM Critic\",\"link\":\"https://arxiv.org/html/2401.07382v1\",\"snippet\":\"In this paper, we introduce a novel framework leveraging the critique ability of LLMs to produce dense rewards throughout the learning process.\",\"date\":\"Jan 14, 2024\",\"position\":3},{\"title\":\"[PDF] Temporal Video-Language Alignment Network for Reward Shaping ...\",\"link\":\"https://arxiv.org/pdf/2302.03954\",\"snippet\":\"RL algorithms utilize the concepts of rewards (positive or negative reinforcements) to help agents in learning to optimize their behaviors in an environment ...\",\"date\":\"Mar 27, 2023\",\"position\":4},{\"title\":\"Large Language Models for Education: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2405.13001v1\",\"snippet\":\"Developing a reward model that simulates human preferences to rank the decoded results, and constructing a ranking sequence to obtain a scoring model.\",\"date\":\"May 12, 2024\",\"position\":5},{\"title\":\"An Introduction to Reinforcement Learning: Fundamental Concepts ...\",\"link\":\"https://arxiv.org/html/2408.07712v1\",\"snippet\":\"We provide a detailed explanation of key components of RL such as states, actions, policies, and reward signals so that the reader can build a foundational ...\",\"date\":\"Aug 13, 2024\",\"position\":6},{\"title\":\"Dense Reward for Free in Reinforcement Learning from Human ...\",\"link\":\"https://arxiv.org/html/2402.00782v1\",\"snippet\":\"We demonstrate that, theoretically, this approach is equivalent to potential-based reward shaping, ensuring that the optimal policy remains unchanged.\",\"date\":\"Feb 1, 2024\",\"position\":7},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.\",\"date\":\"Jan 27, 2022\",\"position\":8},{\"title\":\"[PDF] Sample Efficient Reinforcement Learning by Automatically ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.14226\",\"snippet\":\"This paper makes the following contributions: 1) we design a two-level RL learning framework to accurately and automatically discover and exploit reward ...\",\"date\":\"Jan 25, 2024\",\"position\":9},{\"title\":\"Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...\",\"link\":\"https://arxiv.org/html/2409.12798v1\",\"snippet\":\"Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative. HRL decomposes complex ...\",\"date\":\"Sep 19, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "5f72bd2712b8569e99fe719c4a36335711de8b84fb47208c9f496db6e61c8726",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Papers on applying reward shaping in language model education before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+                    "link": "https://arxiv.org/html/2408.10215v1",
+                    "snippet": "This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning algorithms ...",
+                    "date": "Jul 22, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+                    "link": "https://arxiv.org/html/2407.03964v1",
+                    "snippet": "In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ...",
+                    "date": "Jul 4, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+                    "link": "https://arxiv.org/html/2401.07382v1",
+                    "snippet": "In this paper, we introduce a novel framework leveraging the critique ability of LLMs to produce dense rewards throughout the learning process.",
+                    "date": "Jan 14, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "[PDF] Temporal Video-Language Alignment Network for Reward Shaping ...",
+                    "link": "https://arxiv.org/pdf/2302.03954",
+                    "snippet": "RL algorithms utilize the concepts of rewards (positive or negative reinforcements) to help agents in learning to optimize their behaviors in an environment ...",
+                    "date": "Mar 27, 2023",
+                    "position": 4
+                  },
+                  {
+                    "title": "Large Language Models for Education: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2405.13001v1",
+                    "snippet": "Developing a reward model that simulates human preferences to rank the decoded results, and constructing a ranking sequence to obtain a scoring model.",
+                    "date": "May 12, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "An Introduction to Reinforcement Learning: Fundamental Concepts ...",
+                    "link": "https://arxiv.org/html/2408.07712v1",
+                    "snippet": "We provide a detailed explanation of key components of RL such as states, actions, policies, and reward signals so that the reader can build a foundational ...",
+                    "date": "Aug 13, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Dense Reward for Free in Reinforcement Learning from Human ...",
+                    "link": "https://arxiv.org/html/2402.00782v1",
+                    "snippet": "We demonstrate that, theoretically, this approach is equivalent to potential-based reward shaping, ensuring that the optimal policy remains unchanged.",
+                    "date": "Feb 1, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.",
+                    "date": "Jan 27, 2022",
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] Sample Efficient Reinforcement Learning by Automatically ... - arXiv",
+                    "link": "https://arxiv.org/pdf/2401.14226",
+                    "snippet": "This paper makes the following contributions: 1) we design a two-level RL learning framework to accurately and automatically discover and exploit reward ...",
+                    "date": "Jan 25, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...",
+                    "link": "https://arxiv.org/html/2409.12798v1",
+                    "snippet": "Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative. HRL decomposes complex ...",
+                    "date": "Sep 19, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:43.832847+00:00",
+              "elapsed_seconds": 1.3036084324121475,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q8_B_03_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2203.02155",
+            "2302.03954",
+            "2401.07382",
+            "2401.14226",
+            "2402.00782",
+            "2405.13001",
+            "2407.03964",
+            "2408.07712",
+            "2408.10215",
+            "2409.12798"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2408.10215",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+              "link": "https://arxiv.org/html/2408.10215v1",
+              "snippet": "This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning algorithms ..."
+            },
+            {
+              "arxiv_id": "2407.03964",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+              "link": "https://arxiv.org/html/2407.03964v1",
+              "snippet": "In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ..."
+            },
+            {
+              "arxiv_id": "2401.07382",
+              "organic_index": 2,
+              "position": 3,
+              "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+              "link": "https://arxiv.org/html/2401.07382v1",
+              "snippet": "In this paper, we introduce a novel framework leveraging the critique ability of LLMs to produce dense rewards throughout the learning process."
+            },
+            {
+              "arxiv_id": "2302.03954",
+              "organic_index": 3,
+              "position": 4,
+              "title": "[PDF] Temporal Video-Language Alignment Network for Reward Shaping ...",
+              "link": "https://arxiv.org/pdf/2302.03954",
+              "snippet": "RL algorithms utilize the concepts of rewards (positive or negative reinforcements) to help agents in learning to optimize their behaviors in an environment ..."
+            },
+            {
+              "arxiv_id": "2405.13001",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Large Language Models for Education: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2405.13001v1",
+              "snippet": "Developing a reward model that simulates human preferences to rank the decoded results, and constructing a ranking sequence to obtain a scoring model."
+            },
+            {
+              "arxiv_id": "2408.07712",
+              "organic_index": 5,
+              "position": 6,
+              "title": "An Introduction to Reinforcement Learning: Fundamental Concepts ...",
+              "link": "https://arxiv.org/html/2408.07712v1",
+              "snippet": "We provide a detailed explanation of key components of RL such as states, actions, policies, and reward signals so that the reader can build a foundational ..."
+            },
+            {
+              "arxiv_id": "2402.00782",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Dense Reward for Free in Reinforcement Learning from Human ...",
+              "link": "https://arxiv.org/html/2402.00782v1",
+              "snippet": "We demonstrate that, theoretically, this approach is equivalent to potential-based reward shaping, ensuring that the optimal policy remains unchanged."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback."
+            },
+            {
+              "arxiv_id": "2401.14226",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] Sample Efficient Reinforcement Learning by Automatically ... - arXiv",
+              "link": "https://arxiv.org/pdf/2401.14226",
+              "snippet": "This paper makes the following contributions: 1) we design a two-level RL learning framework to accurately and automatically discover and exploit reward ..."
+            },
+            {
+              "arxiv_id": "2409.12798",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Assessing the Zero-Shot Capabilities of LLMs for Action Evaluation ...",
+              "link": "https://arxiv.org/html/2409.12798v1",
+              "snippet": "Reward shaping involves providing an additional synthetic reward to guide the agent's actions when natural rewards are uninformative. HRL decomposes complex ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 4,
+          "crawler_query": "Studies on reward-based training in language model agents",
+          "request_payload": {
+            "q": "Studies on reward-based training in language model agents before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 60,
+              "query_id": "Q8",
+              "group": "B",
+              "query_sequence": 4,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Studies on reward-based training in language model agents before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:46.008691+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Studies on reward-based training in language model agents before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Self-Rewarding Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2401.10020v1/\",\"snippet\":\"In this work, we study Self-Rewarding Language Models, where the language model itself is used via LLM-as-a-Judge prompting to provide its own rewards during ...\",\"date\":\"Jan 18, 2024\",\"position\":1},{\"title\":\"Secrets of RLHF in Large Language ModelsPart II: Reward Modeling\",\"link\":\"https://arxiv.org/html/2401.06080v2\",\"snippet\":\"RLHF involves two main steps: first, using preference data collected from a large number of crowdsource workers to train a reward model. Secondly, using ...\",\"date\":\"Jan 12, 2024\",\"position\":2},{\"title\":\"DRLC: Reinforcement Learning with Dense Rewards from LLM Critic\",\"link\":\"https://arxiv.org/html/2401.07382v1\",\"snippet\":\"In this paper, we introduce a novel framework leveraging the critique ability of LLMs to produce dense rewards throughout the learning process. Experimental ...\",\"date\":\"Jan 14, 2024\",\"position\":3},{\"title\":\"LLM-based Multi-Agent Reinforcement Learning: Current and ... - arXiv\",\"link\":\"https://arxiv.org/html/2405.11106v1\",\"snippet\":\"LLM can be applied to Reinforcement Learning (RL) and achieve decent results, the extension of LLM-based RL to Multi-Agent System (MAS\",\"date\":\"May 17, 2024\",\"position\":4},{\"title\":\"Comprehensive Overview of Reward Engineering and Shaping in ...\",\"link\":\"https://arxiv.org/html/2408.10215v1\",\"snippet\":\"This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning ...\",\"date\":\"Jul 22, 2024\",\"position\":5},{\"title\":\"[PDF] arXiv:2302.10342v1 [cs.CL] 20 Feb 2023\",\"link\":\"https://arxiv.org/pdf/2302.10342\",\"snippet\":\"Our work mainly focuses on the ToD task, where we study reward-function learning and reward utilization for training E2E dialogue agents.\",\"date\":\"Feb 20, 2023\",\"position\":6},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"This technique uses human preferences as a reward signal to fine-tune our models. We then train a reward model (RM) on this dataset. Scalable agent alignment ...\",\"date\":\"Jan 27, 2022\",\"position\":7},{\"title\":\"Reflexion: Language Agents with Verbal Reinforcement Learning\",\"link\":\"https://arxiv.org/html/2303.11366\",\"snippet\":\"We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback.\",\"date\":\"Oct 10, 2023\",\"sitelinks\":[{\"title\":\"4 Experiments\",\"link\":\"https://arxiv.org/html/2303.11366#:~:text=4%20Experiments,-We%20evaluate%20various%20natural%20language\"},{\"title\":\"4.1 Sequential Decision...\",\"link\":\"https://arxiv.org/html/2303.11366#:~:text=4.1%20Sequential%20decision%20making%3A%20ALFWorld,-AlfWorld%20is%20a%20suite%20of\"},{\"title\":\"4.2 Reasoning: Hotpotqa\",\"link\":\"https://arxiv.org/html/2303.11366#:~:text=4.2%20Reasoning%3A%20HotpotQA,-HotPotQA%20%28Yang%20et%20al.\"}],\"position\":8},{\"title\":\"[PDF] A Review of Cooperation in Multi-agent Learning - arXiv\",\"link\":\"https://arxiv.org/pdf/2312.05162\",\"snippet\":\"Research in this area aims to understand both how agents can coordinate effectively when goals are aligned and how they may cooperate in settings where gains ...\",\"date\":\"Dec 8, 2023\",\"position\":9},{\"title\":\"Give Us the Facts: Enhancing Large Language Models with ... - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489\",\"snippet\":\"To overcome these limitations, researchers have proposed enhancing data-driven PLMs with knowledge-based KGs to incorporate explicit factual knowledge into PLMs ...\",\"date\":\"Nov 30, 2022\",\"sitelinks\":[{\"title\":\"Ii Background\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=II%20Background\"},{\"title\":\"Ii-D Pros And Cons Of Llms\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=II%2DD%20Pros%20and%20Cons%20of%20LLMs\"},{\"title\":\"Iii Kgplms\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=III%20KGPLMs\"}],\"position\":10}],\"credits\":1}",
+              "response_sha256": "e04580c74ef5d3c16e979059680c67dceaf1383d7a11e8a4f8115079363b700a",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Studies on reward-based training in language model agents before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Self-Rewarding Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2401.10020v1/",
+                    "snippet": "In this work, we study Self-Rewarding Language Models, where the language model itself is used via LLM-as-a-Judge prompting to provide its own rewards during ...",
+                    "date": "Jan 18, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Secrets of RLHF in Large Language ModelsPart II: Reward Modeling",
+                    "link": "https://arxiv.org/html/2401.06080v2",
+                    "snippet": "RLHF involves two main steps: first, using preference data collected from a large number of crowdsource workers to train a reward model. Secondly, using ...",
+                    "date": "Jan 12, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+                    "link": "https://arxiv.org/html/2401.07382v1",
+                    "snippet": "In this paper, we introduce a novel framework leveraging the critique ability of LLMs to produce dense rewards throughout the learning process. Experimental ...",
+                    "date": "Jan 14, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "LLM-based Multi-Agent Reinforcement Learning: Current and ... - arXiv",
+                    "link": "https://arxiv.org/html/2405.11106v1",
+                    "snippet": "LLM can be applied to Reinforcement Learning (RL) and achieve decent results, the extension of LLM-based RL to Multi-Agent System (MAS",
+                    "date": "May 17, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+                    "link": "https://arxiv.org/html/2408.10215v1",
+                    "snippet": "This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning ...",
+                    "date": "Jul 22, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "[PDF] arXiv:2302.10342v1 [cs.CL] 20 Feb 2023",
+                    "link": "https://arxiv.org/pdf/2302.10342",
+                    "snippet": "Our work mainly focuses on the ToD task, where we study reward-function learning and reward utilization for training E2E dialogue agents.",
+                    "date": "Feb 20, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "This technique uses human preferences as a reward signal to fine-tune our models. We then train a reward model (RM) on this dataset. Scalable agent alignment ...",
+                    "date": "Jan 27, 2022",
+                    "position": 7
+                  },
+                  {
+                    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+                    "link": "https://arxiv.org/html/2303.11366",
+                    "snippet": "We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback.",
+                    "date": "Oct 10, 2023",
+                    "sitelinks": [
+                      {
+                        "title": "4 Experiments",
+                        "link": "https://arxiv.org/html/2303.11366#:~:text=4%20Experiments,-We%20evaluate%20various%20natural%20language"
+                      },
+                      {
+                        "title": "4.1 Sequential Decision...",
+                        "link": "https://arxiv.org/html/2303.11366#:~:text=4.1%20Sequential%20decision%20making%3A%20ALFWorld,-AlfWorld%20is%20a%20suite%20of"
+                      },
+                      {
+                        "title": "4.2 Reasoning: Hotpotqa",
+                        "link": "https://arxiv.org/html/2303.11366#:~:text=4.2%20Reasoning%3A%20HotpotQA,-HotPotQA%20%28Yang%20et%20al."
+                      }
+                    ],
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] A Review of Cooperation in Multi-agent Learning - arXiv",
+                    "link": "https://arxiv.org/pdf/2312.05162",
+                    "snippet": "Research in this area aims to understand both how agents can coordinate effectively when goals are aligned and how they may cooperate in settings where gains ...",
+                    "date": "Dec 8, 2023",
+                    "position": 9
+                  },
+                  {
+                    "title": "Give Us the Facts: Enhancing Large Language Models with ... - ar5iv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2306.11489",
+                    "snippet": "To overcome these limitations, researchers have proposed enhancing data-driven PLMs with knowledge-based KGs to incorporate explicit factual knowledge into PLMs ...",
+                    "date": "Nov 30, 2022",
+                    "sitelinks": [
+                      {
+                        "title": "Ii Background",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=II%20Background"
+                      },
+                      {
+                        "title": "Ii-D Pros And Cons Of Llms",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=II%2DD%20Pros%20and%20Cons%20of%20LLMs"
+                      },
+                      {
+                        "title": "Iii Kgplms",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=III%20KGPLMs"
+                      }
+                    ],
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:46.975574+00:00",
+              "elapsed_seconds": 0.9668836556375027,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q8_B_04_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2203.02155",
+            "2302.10342",
+            "2303.11366",
+            "2306.11489",
+            "2312.05162",
+            "2401.06080",
+            "2401.07382",
+            "2401.10020",
+            "2405.11106",
+            "2408.10215"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2401.10020",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Self-Rewarding Language Models - arXiv",
+              "link": "https://arxiv.org/html/2401.10020v1/",
+              "snippet": "In this work, we study Self-Rewarding Language Models, where the language model itself is used via LLM-as-a-Judge prompting to provide its own rewards during ..."
+            },
+            {
+              "arxiv_id": "2401.06080",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Secrets of RLHF in Large Language ModelsPart II: Reward Modeling",
+              "link": "https://arxiv.org/html/2401.06080v2",
+              "snippet": "RLHF involves two main steps: first, using preference data collected from a large number of crowdsource workers to train a reward model. Secondly, using ..."
+            },
+            {
+              "arxiv_id": "2401.07382",
+              "organic_index": 2,
+              "position": 3,
+              "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+              "link": "https://arxiv.org/html/2401.07382v1",
+              "snippet": "In this paper, we introduce a novel framework leveraging the critique ability of LLMs to produce dense rewards throughout the learning process. Experimental ..."
+            },
+            {
+              "arxiv_id": "2405.11106",
+              "organic_index": 3,
+              "position": 4,
+              "title": "LLM-based Multi-Agent Reinforcement Learning: Current and ... - arXiv",
+              "link": "https://arxiv.org/html/2405.11106v1",
+              "snippet": "LLM can be applied to Reinforcement Learning (RL) and achieve decent results, the extension of LLM-based RL to Multi-Agent System (MAS"
+            },
+            {
+              "arxiv_id": "2408.10215",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+              "link": "https://arxiv.org/html/2408.10215v1",
+              "snippet": "This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning ..."
+            },
+            {
+              "arxiv_id": "2302.10342",
+              "organic_index": 5,
+              "position": 6,
+              "title": "[PDF] arXiv:2302.10342v1 [cs.CL] 20 Feb 2023",
+              "link": "https://arxiv.org/pdf/2302.10342",
+              "snippet": "Our work mainly focuses on the ToD task, where we study reward-function learning and reward utilization for training E2E dialogue agents."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "This technique uses human preferences as a reward signal to fine-tune our models. We then train a reward model (RM) on this dataset. Scalable agent alignment ..."
+            },
+            {
+              "arxiv_id": "2303.11366",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+              "link": "https://arxiv.org/html/2303.11366",
+              "snippet": "We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback."
+            },
+            {
+              "arxiv_id": "2312.05162",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] A Review of Cooperation in Multi-agent Learning - arXiv",
+              "link": "https://arxiv.org/pdf/2312.05162",
+              "snippet": "Research in this area aims to understand both how agents can coordinate effectively when goals are aligned and how they may cooperate in settings where gains ..."
+            },
+            {
+              "arxiv_id": "2306.11489",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Give Us the Facts: Enhancing Large Language Models with ... - ar5iv",
+              "link": "https://ar5iv.labs.arxiv.org/html/2306.11489",
+              "snippet": "To overcome these limitations, researchers have proposed enhancing data-driven PLMs with knowledge-based KGs to incorporate explicit factual knowledge into PLMs ..."
+            }
+          ],
+          "organic_result_count": 10
+        }
+      ],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Do you know some papers about using reward shaping methods to train large language model agent.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "119834cd58896309a42e4bfbaa521c68ed955f20f6fbdc956d4bf0c31be67ab7",
+      "raw_output": "[Search]Research on large language model agent training using reward shaping\n[Search]Exploration of reward shaping techniques in language model training\n[Search]Papers on applying reward shaping in language model education\n[Search]Studies on reward-based training in language model agents\n[StopSearch]",
+      "raw_output_with_special_tokens": "[Search]Research on large language model agent training using reward shaping\n[Search]Exploration of reward shaping techniques in language model training\n[Search]Papers on applying reward shaping in language model education\n[Search]Studies on reward-based training in language model agents\n[StopSearch]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        5890,
+        60,
+        27428,
+        389,
+        3460,
+        4128,
+        1614,
+        8315,
+        4862,
+        1667,
+        11313,
+        45520,
+        198,
+        58,
+        5890,
+        60,
+        43953,
+        7614,
+        315,
+        11313,
+        45520,
+        12538,
+        304,
+        4128,
+        1614,
+        4862,
+        198,
+        58,
+        5890,
+        60,
+        47,
+        9532,
+        389,
+        18950,
+        11313,
+        45520,
+        304,
+        4128,
+        1614,
+        6731,
+        198,
+        58,
+        5890,
+        60,
+        93507,
+        389,
+        11313,
+        5980,
+        4862,
+        304,
+        4128,
+        1614,
+        13009,
+        198,
+        58,
+        10674,
+        5890,
+        60,
+        151645
+      ],
+      "generated_token_count": 60,
+      "ended_with_eos": true,
+      "input_token_count": 162,
+      "generation_seconds": 2.0165199413895607,
+      "all_parsed_queries": [
+        "Research on large language model agent training using reward shaping",
+        "Exploration of reward shaping techniques in language model training",
+        "Papers on applying reward shaping in language model education",
+        "Studies on reward-based training in language model agents"
+      ],
+      "queries": [
+        "Research on large language model agent training using reward shaping",
+        "Exploration of reward shaping techniques in language model training",
+        "Papers on applying reward shaping in language model education",
+        "Studies on reward-based training in language model agents"
+      ],
+      "discarded_queries": []
+    }
+  },
+  "started_utc": "2026-09-14T02:53:30.431757+00:00",
+  "search_order_first_group": "A",
+  "search_started_utc": "2026-09-14T02:53:35.271472+00:00",
+  "search_finished_utc": "2026-09-14T02:53:48.360615+00:00",
+  "search_seconds": 13.089172806590796,
+  "finished_utc": "2026-09-14T02:53:48.360632+00:00",
+  "elapsed_seconds": 17.928881842643023
+}

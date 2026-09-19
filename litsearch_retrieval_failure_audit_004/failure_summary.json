@@ -1,0 +1,180 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "status": "COMPLETE",
+  "created_utc": "2026-09-17T13:27:56.149685+00:00",
+  "miss_questions": 38,
+  "categories": {
+    "QUERY_DIRECTION_MISS": {
+      "count": 11,
+      "fraction": 0.2894736842105263
+    },
+    "RANKING_DEPTH_MISS": {
+      "count": 0,
+      "fraction": 0.0
+    },
+    "SOURCE_INDEX_MISS": {
+      "count": 7,
+      "fraction": 0.18421052631578946
+    },
+    "UNCERTAIN": {
+      "count": 20,
+      "fraction": 0.5263157894736842
+    }
+  },
+  "groups": {
+    "author-written": {
+      "questions": 16,
+      "categories": {
+        "QUERY_DIRECTION_MISS": {
+          "count": 3,
+          "fraction": 0.1875
+        },
+        "RANKING_DEPTH_MISS": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "SOURCE_INDEX_MISS": {
+          "count": 1,
+          "fraction": 0.0625
+        },
+        "UNCERTAIN": {
+          "count": 12,
+          "fraction": 0.75
+        }
+      },
+      "failure_modes": {
+        "OVERGENERALIZATION": 4,
+        "KEY_METHOD_ENTITY_OMISSION": 3,
+        "SEMANTIC_DIRECTION_PLAUSIBLE": 11,
+        "HIDDEN_TITLE_TERMINOLOGY": 9,
+        "TASK_FRAMING_DRIFT": 1,
+        "EXACT_TITLE_SOURCE_FAILURE": 1,
+        "RANKING_VOLATILITY": 2,
+        "CONSTRAINT_FRAGMENTATION": 1
+      },
+      "high_confidence": 4
+    },
+    "inline-citation": {
+      "questions": 22,
+      "categories": {
+        "QUERY_DIRECTION_MISS": {
+          "count": 8,
+          "fraction": 0.36363636363636365
+        },
+        "RANKING_DEPTH_MISS": {
+          "count": 0,
+          "fraction": 0.0
+        },
+        "SOURCE_INDEX_MISS": {
+          "count": 6,
+          "fraction": 0.2727272727272727
+        },
+        "UNCERTAIN": {
+          "count": 8,
+          "fraction": 0.36363636363636365
+        }
+      },
+      "failure_modes": {
+        "TASK_FRAMING_DRIFT": 3,
+        "KEY_METHOD_ENTITY_OMISSION": 6,
+        "OVERGENERALIZATION": 8,
+        "SEMANTIC_DIRECTION_PLAUSIBLE": 8,
+        "HIDDEN_TITLE_TERMINOLOGY": 6,
+        "RELATION_CONDITION_LOSS": 3,
+        "CONSTRAINT_FRAGMENTATION": 2,
+        "EXACT_TITLE_SOURCE_FAILURE": 6
+      },
+      "high_confidence": 12
+    }
+  },
+  "failure_modes": {
+    "SEMANTIC_DIRECTION_PLAUSIBLE": 19,
+    "HIDDEN_TITLE_TERMINOLOGY": 15,
+    "OVERGENERALIZATION": 12,
+    "KEY_METHOD_ENTITY_OMISSION": 9,
+    "EXACT_TITLE_SOURCE_FAILURE": 7,
+    "TASK_FRAMING_DRIFT": 4,
+    "CONSTRAINT_FRAGMENTATION": 3,
+    "RELATION_CONDITION_LOSS": 3,
+    "RANKING_VOLATILITY": 2
+  },
+  "query_direction_failure_modes": {
+    "OVERGENERALIZATION": 10,
+    "KEY_METHOD_ENTITY_OMISSION": 9,
+    "TASK_FRAMING_DRIFT": 4,
+    "RELATION_CONDITION_LOSS": 3,
+    "CONSTRAINT_FRAGMENTATION": 2
+  },
+  "native_query_surface_patterns": {
+    "native_queries": 172,
+    "survey_queries": 37,
+    "survey_query_fraction": 0.21511627906976744,
+    "questions_with_survey_query": 36
+  },
+  "confidence": {
+    "high": 16,
+    "medium": 22
+  },
+  "automatic_manual_agreement": {
+    "same": 30,
+    "overridden": 8
+  },
+  "diagnostic_probes": {
+    "page1_requests": 114,
+    "depth_requests": 45,
+    "total_requests": 159,
+    "http_attempts": 159,
+    "exact_title_hit_questions": 31,
+    "core_phrase_hit_questions": 31,
+    "original_question_hit_questions": 2,
+    "depth_eligible_questions": 15,
+    "depth_hit_questions": 0
+  },
+  "frozen_source_adherence": {
+    "page1": {
+      "organic": 1706,
+      "arxiv_parseable": 1706,
+      "arxiv_ratio": 1.0
+    },
+    "page2": {
+      "organic": 1579,
+      "arxiv_parseable": 277,
+      "arxiv_ratio": 0.17542748575047498
+    }
+  },
+  "hypothesis_assessment": {
+    "hypothesis": "The main bottleneck is native query quality/direction rather than Page2 having no value.",
+    "verdict": "NOT_SUPPORTED_AS_PRIMARY_EXPLANATION",
+    "reason": "Only 11/38 are confidently query-direction misses; 20/38 remain uncertain, 7/38 fail even exact/core identity search, and no GT appeared in Page3-5 for 15 direction-plausible native-query diagnostics. Among the 18 attributable cases, query-direction misses outnumber source-index misses 11 to 7, but this is insufficient to call query quality the dominant explanation for all 38. Frozen Page2 also has only 17.5% parseable arXiv URLs versus 100% on Page1, so current provider pagination behavior is itself a material confound."
+  },
+  "next_experiment_priority": [
+    {
+      "rank": 1,
+      "experiment": "FEEDBACK_REQUERY",
+      "scope": "Preregister on QUERY_DIRECTION_MISS cases; use question plus frozen Page1 evidence without GT; target missing bridge terms and constraint preservation."
+    },
+    {
+      "rank": 2,
+      "experiment": "CITATION_EXPANSION",
+      "scope": "Preregister on UNCERTAIN cases with topical Page1 neighbors and hidden title terminology; evaluate whether citations bridge to GT."
+    },
+    {
+      "rank": 3,
+      "experiment": "ALTERNATIVE_RETRIEVAL_SOURCE",
+      "scope": "Target seven SOURCE_INDEX_MISS cases and compare arXiv-native/Semantic Scholar retrieval against frozen Serper behavior."
+    },
+    {
+      "rank": 4,
+      "experiment": "DEEPER_PAGEN",
+      "scope": "Low priority: fixed Page3-5 diagnostics found 0/15 GT for direction-plausible native queries, and frozen Page2 source adherence degraded sharply."
+    }
+  ],
+  "artifacts": {
+    "input_manifest.json": "8dfb7c7cac747dd3a8e750077c61f2eef235790e7fc37d21720eb11e7829e111",
+    "offline_evidence.json": "6781e90f05caf54347f4eb3ce25fa34db259d0417a2428d54f0f727a1cb9d7d1",
+    "probe_plan.json": "6495996e622af2dbfbef22f74a8d01b47d5e7f11711690fa1d96912944da51a3",
+    "depth_probe_plan.json": "2cd5f15b6cb10a7870ff968cffe08aa7014eb0a60ab2ccd83f588f3147cee450",
+    "diagnostic_probe_results.json": "61166112243d01e207cddad9ce165a5f4aa0e91b6381bdcdd3f28104220803c8",
+    "failure_cases.json": "eb49e8a7fe62d0869e9b72a3363f34f37d28f966f5a154ac1887d337ba1380fe"
+  }
+}

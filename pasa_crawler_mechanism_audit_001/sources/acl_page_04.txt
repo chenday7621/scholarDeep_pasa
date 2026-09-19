@@ -1,0 +1,84 @@
+Query: Could you provide me some studies that proposed hierarchical neural models to capture spatiotemporal features in sign
+videos?
+Query Date: 2023-05-02
+Answer Papers:
+[1] TSPNet: Hierarchical Feature Learning via Temporal Semantic Pyramid for Sign Language Translation (2010.05468)
+[2] Sign Language Translation with Hierarchical Spatio-Temporal Graph Neural Network (2111.07258)
+Source: SLTUnet: A Simple Unified Model for Sign Language Translation, ICLR 2023
+Query: Which studies have focused on nonstationary RL using value-based methods, specifically Upper Confidence Bound (UCB)
+based algorithms?
+Query Date: 2023-08-10
+Answer Papers:
+[1] Reinforcement Learning for Non-Stationary Markov Decision Processes: The Blessing of (More) Optimism (2006.14389)
+[2] Efficient Learning in Non-Stationary Linear Markov Decision Processes (2010.12870)
+[3] Nonstationary Reinforcement Learning with Linear Function Approximation (2010.04244)
+Source: Provably Efficient Algorithm for Nonstationary Low-Rank MDPs, NeurIPS 2023
+Query: Which studies have been conducted in long-form text generation, specifically in story generation?
+Query Date: 2024-01-26
+Answer Papers:
+[1] Strategies for Structuring Story Generation (1902.01109)
+[2] MEGATRON-CNTRL: Controllable Story Generation with External Knowledge Using Large-Scale Language Models
+(2010.00840)
+Source: ProxyQA: An Alternative Framework for Evaluating Long-Form Text Generation with Large Language Models, ACL 2024
+Table 1: Examples of queries and corresponding papers in AutoScholarQuery.
+Conference |P| | Q| Ans(/Q) Ans-50 Ans-90
+ICLR 2023 888 5204 2.46 2.0 5.0
+ICML 2023 981 5743 2.37 2.0 5.0
+NeurIPS 2023 1948 11761 2.59 2.0 5.0
+CVPR 2024 1336 9528 2.94 2.0 6.0
+ACL 2024 485 3315 2.16 2.0 4.0
+Table 2: Statistics of AutoScholarQuery. |P| and|Q|
+represent the total number of papers and queries col-
+lected for each conference.Ans(/Q) denotes the aver-
+age number of answer papers per query. Ans-50 and
+Ans-90 refers to the 50th and 90th percentiles of answer
+paper counts per query.
+PaSa, Google, Google Scholar, ChatGPT (search-
+enabled GPT-4o), and Google paired with GPT-4o
+for paraphrased queries. As these methods also
+serve as baselines for comparison with PaSa, im-
+plementation details are deferred to Section 5.2.
+The results from all methods were aggregated into
+a pool of candidate papers. Finally, professional
+annotators reviewed all candidate papers for each
+query, selecting those that met the specific require-
+ments of the query to create the final set of relevant
+papers. Annotation guidelines and quality control
+procedures are detailed in Appendix. B. The query
+date of all instances in RealScholarQuery is 2024-
+10-01. Table 9 in Appendix C provides an example
+from RealScholarQuery.
+The annotators included professors from the De-
+partment of Computer Science at a top-tier univer-
+sity in China. On average, each query required the
+annotators to review 76 candidate papers. We paid
+$4 per data entry (a query-paper pair), resulting
+in an average of $304 per query. Given the high
+annotation cost, we completed this process for only
+50 instances. On average, each query is associ-
+ated with 15.82 answer papers. The 50th percentile
+of answer counts per query is 9, while the 90th
+percentile reaches 37.
+4 Methodology
+4.1 Overview
+As illustrated in Figure 1, the PaSa system consists
+of two LLM agents: Crawler and Selector. The
+crawler reads the user’s query, generates multiple
+search queries, and retrieves relevant papers. The
+retrieved papers are added to a paper queue. The
+Crawler further processes each paper in the paper
+queue to identify key citations worth exploring fur-
+ther, appending any newly relevant papers to the
+paper queue. The selector conducts a thorough re-
+view of each paper in the paper queue to assess
+whether it fulfills the user’s query requirements.
+In summary, the Crawler is designed to maxi-
+mize the recall of relevant papers, whereas the Se-
+lector emphasizes precision in identifying papers
+that meet the user’s needs.
+4.2 Crawler
+In RL terminology, the Crawler performs a token-
+level Markov Decision Process (MDP). The ac-
+tion spaceA corresponds to the LLM’s vocabulary,
+where each token represents an action. The LLM
+11666

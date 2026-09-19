@@ -1,0 +1,218 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q37",
+  "group": "inline-citation",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2111.01998",
+  "request_payload": {
+    "q": "OpenPrompt: An Open-source Framework for Prompt-learning before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 79,
+  "started_utc": "2026-09-17T12:34:55.130596+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648220",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "f44b42d6126279cbae113aadfb0dd6b7",
+    "date": "Thu, 17 Sep 2026 12:30:16 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3863",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3863,
+  "response_bytes_sha256": "2f7f902dcdbdc650375fe7219b26ee9a544f610b8d041ee7630a0c82a5e84407",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJPcGVuUHJvbXB0OiBBbiBPcGVuLXNvdXJjZSBGcmFtZXdvcmsgZm9yIFByb21wdC1sZWFybmluZyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJPcGVuUHJvbXB0OiBBbiBPcGVuLXNvdXJjZSBGcmFtZXdvcmsgZm9yIFByb21wdC1sZWFybmluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMTExLjAxOTk4Iiwic25pcHBldCI6Ik9wZW5Qcm9tcHQgaXMgYSByZXNlYXJjaC1mcmllbmRseSBmcmFtZXdvcmsgdGhhdCBpcyBlcXVpcHBlZCB3aXRoIGVmZmljaWVuY3ksIG1vZHVsYXJpdHksIGFuZCBleHRlbmRpYmlsaXR5LCBhbmQgaXRzIGNvbWJpbmFiaWxpdHkgYWxsb3dzIHRoZSBmcmVlZG9tIHRvIGNvbWJpbmUiLCJkYXRlIjoiTm92IDMsIDIwMjEiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIxMTEuMDE5OTh2MSBbY3MuQ0xdIDMgTm92IDIwMjEiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIxMTEuMDE5OTgiLCJzbmlwcGV0IjoiT3BlblByb21wdCwgYW4gb3Blbi0gc291cmNlLCBlYXN5LXRvLXVzZSwgYW5kIGV4dGVuc2libGUgdG9vbGtpdCBmb3IgcHJvbXB0LWxlYXJuaW5nLiBPcGVuUHJvbXB0IG1vZHVsYXJpemVzIHRoZSB3aG9sZSBmcmFtZXdvcmsgb2YgcHJvbXB0LWxlYXJuaW5nIiwiZGF0ZSI6Ik5vdiAzLCAyMDIxIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJBIEZldy1zaG90IEFwcHJvYWNoIHRvIFJlc3VtZSBJbmZvcm1hdGlvbiBFeHRyYWN0aW9uIHZpYSBQcm9tcHRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwOS4wOTQ1MHYyIiwic25pcHBldCI6IkZvciBlZmZpY2llbnQgaXRlcmF0aW9uIG9mIGRpZmZlcmVudCBleHBlcmltZW50cywgd2UgdXNlZCBPcGVucHJvbXB0IDUgNSA1IGh0dHBzOi8vZ2l0aHViLmNvbS90aHVubHAvT3BlblByb21wdCwgYW4gT3Blbi1Tb3VyY2UgRnJhbWV3b3JrIGZvciBQcm9tcHQtbGVhcm5pbmcgWzJdIC4uLiIsImRhdGUiOiJNYXkgMjAsIDIwMjMiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkEgU3VydmV5IG9mIEF1dG9tYXRpYyBQcm9tcHQgT3B0aW1pemF0aW9uIHdpdGggSW5zdHJ1Y3Rpb24tZm9jdXNlZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAyLjE4NzQ2djIiLCJzbmlwcGV0IjoiT3BlblByb21wdCBEaW5nIGV0IGFsLiAoMjAyMSkgaXMgYW4gb3Blbi1zb3VyY2UgdG9vbGtpdCBzcGVjaWZpY2FsbHkgZGVzaWduZWQgZm9yIHByb21wdC1sZWFybmluZy4gSXQgcHJvdmlkZXMgYSBzdGFuZGFyZGl6ZWQgZnJhbWV3b3JrIiwiZGF0ZSI6Ikp1bCAxMiwgMjAyNSIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiT3BlbklDTDogQW4gT3Blbi1Tb3VyY2UgRnJhbWV3b3JrIGZvciBJbi1jb250ZXh0IExlYXJuaW5nIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzAzLjAyOTEzdjEiLCJzbmlwcGV0IjoiV2UgcmVmZXIgdGhlIHJlYWRlcnMgdG8gdGhlIHVzYWdlIG9mIE9wZW5Qcm9tcHQgRGluZyBldCBhbC4gKDIwMjEpIHdoaWNoIGlzIGEgdG9vbGtpdCBzcGVjaWFsbHkgZGVzaWduZWQgZm9yIHByb21wdCBsZWFybmluZy4gSW4gY29tcGFyaXNvbiwgT3BlbklDTCBmb2N1c2VzIC4uLiIsImRhdGUiOiJNYXIgNiwgMjAyMyIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiW1BERl0gTGFyZ2UgTGFuZ3VhZ2UgTW9kZWwgUHJvbXB0IENoYWluaW5nIGZvclxcXFxMb25nIExlZ2FsIERvY3VtZW50IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwOC4wNDEzOCIsInNuaXBwZXQiOiJPcGVuUHJvbXB0IHByb3ZpZGVzIGEgdXNlci1mcmllbmRseSBhbmQgcmVzZWFyY2gtIGZyaWVuZGx5IHRvb2xraXQgZm9yIHByb21wdC1sZWFybmluZyBpbiBwcmUtdHJhaW5lZCBsYW4tIGd1YWdlIG1vZGVscyAoUExNcykuIiwiZGF0ZSI6IkF1ZyA4LCAyMDIzIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBHZW5ldGljIEF1dG8tcHJvbXB0IExlYXJuaW5nIGZvciBQcmUtdHJhaW5lZCBDb2RlIEludGVsbGlnZW5jZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDMuMTM1ODgiLCJzbmlwcGV0IjoiU3VuLC4g4oCcT3BlbnByb21wdDogQW4gb3Blbi1zb3VyY2UgZnJhbWV3b3JrIGZvciBwcm9tcHQtbGVhcm5pbmcs4oCdIGluIFByby0gY2VlZGluZ3Mgb2YgdGhlIDYwdGggQW5udWFsIE1lZXRpbmcgb2YgdGhlIEFzc29jaWF0aW9uIGZvciBDb21wdXRhLSB0aW9uYWwgLi4uIiwiZGF0ZSI6Ik1hciAyMCwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiSGFyZCBQcm9tcHRzIE1hZGUgRWFzeTogR3JhZGllbnQtQmFzZWQgRGlzY3JldGUgT3B0aW1pemF0aW9uIGZvciAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzAyLjAzNjY4djIiLCJzbmlwcGV0IjoiT3BlblByb21wdDogQW4gb3Blbi1zb3VyY2UgZnJhbWV3b3JrIGZvciBwcm9tcHQtbGVhcm5pbmcuIEluIFByb2NlZWRpbmdzIG9mIHRoZSA2MHRoIEFubnVhbCBNZWV0aW5nIG9mIHRoZSBBc3NvY2lhdGlvbiBmb3IgQ29tcHV0YXRpb25hbCBMaW5ndWlzdGljczogU3lzdGVtIC4uLiIsImRhdGUiOiJKdW4gMSwgMjAyMyIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiJIYXJkIFByb21wdHMgTWFkZSBFYXN5IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwMi4wMzY2OHYyIzp+OnRleHQ9MjAyMy0sSGFyZCUyMFByb21wdHMlMjBNYWRlJTIwRWFzeSUzQSJ9LHsidGl0bGUiOiIxIEludHJvZHVjdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDIuMDM2Njh2MiM6fjp0ZXh0PTElMjBJbnRyb2R1Y3Rpb24sLVByb21wdCUyMGVuZ2luZWVyaW5nJTIwaXMlMjB0aGUlMjBhcnQifSx7InRpdGxlIjoiNCBQcm9tcHQgSW52ZXJzaW9uIFdpdGggQ2xpcCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDIuMDM2Njh2MiM6fjp0ZXh0PTQlMjBQcm9tcHQlMjBJbnZlcnNpb24lMjB3aXRoJTIwQ0xJUCwtT3VyJTIwbWV0aG9kJTIwZm9yJTIwbGVhcm5pbmclMjBoYXJkIn1dLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIHByb21wdG9sdXRpb246IEEgVW5pZmllZCwgTW9kdWxhciBGcmFtZXdvcmsgZm9yIFByb21wdCBPcHRpbWl6YXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MTIuMDI4NDAiLCJzbmlwcGV0IjoiT3BlblByb21wdDogQW4gb3Blbi1zb3VyY2UgZnJhbWV3b3JrIGZvciBwcm9tcHQtIGxlYXJuaW5nLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgNjB0aCBBbm51YWwgTWVldC0gaW5nIG9mIHRoZSBBc3NvY2lhdGlvbiBmb3IgQ29tcHV0YXRpb25hbCBMaW5ndWlzdGljcyAuLi4iLCJkYXRlIjoiRmViIDIzLCAyMDI2IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBQcm9tcHQgZW5naW5lZXJpbmcgcGFyYWRpZ21zIGZvciBtZWRpY2FsIGFwcGxpY2F0aW9ucyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA1LjAxMjQ5Iiwic25pcHBldCI6IkluIHRoaXMgd29yaywgMTE0IHJlY2VudCBzdHVkaWVzICgyMDIyLTIwMjQpIGFwcGx5aW5nIHByb21wdCBlbmdpbmVlcmluZyBpbiBtZWRpY2luZSwgY292ZXJpbmcgcHJvbXB0IGxlYXJuaW5nIChQTCksIHByb21wdCB0dW5pbmcgKFBUKSwgYW5kIHByb21wdCBkZXNpZ24gKFBEKSAuLi4iLCJkYXRlIjoiTWF5IDMsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "OpenPrompt: An Open-source Framework for Prompt-learning before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "OpenPrompt: An Open-source Framework for Prompt-learning - arXiv",
+        "link": "https://arxiv.org/abs/2111.01998",
+        "snippet": "OpenPrompt is a research-friendly framework that is equipped with efficiency, modularity, and extendibility, and its combinability allows the freedom to combine",
+        "date": "Nov 3, 2021",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2111.01998v1 [cs.CL] 3 Nov 2021",
+        "link": "https://arxiv.org/pdf/2111.01998",
+        "snippet": "OpenPrompt, an open- source, easy-to-use, and extensible toolkit for prompt-learning. OpenPrompt modularizes the whole framework of prompt-learning",
+        "date": "Nov 3, 2021",
+        "position": 2
+      },
+      {
+        "title": "A Few-shot Approach to Resume Information Extraction via Prompts",
+        "link": "https://arxiv.org/html/2209.09450v2",
+        "snippet": "For efficient iteration of different experiments, we used Openprompt 5 5 5 https://github.com/thunlp/OpenPrompt, an Open-Source Framework for Prompt-learning [2] ...",
+        "date": "May 20, 2023",
+        "position": 3
+      },
+      {
+        "title": "A Survey of Automatic Prompt Optimization with Instruction-focused ...",
+        "link": "https://arxiv.org/html/2502.18746v2",
+        "snippet": "OpenPrompt Ding et al. (2021) is an open-source toolkit specifically designed for prompt-learning. It provides a standardized framework",
+        "date": "Jul 12, 2025",
+        "position": 4
+      },
+      {
+        "title": "OpenICL: An Open-Source Framework for In-context Learning - arXiv",
+        "link": "https://arxiv.org/html/2303.02913v1",
+        "snippet": "We refer the readers to the usage of OpenPrompt Ding et al. (2021) which is a toolkit specially designed for prompt learning. In comparison, OpenICL focuses ...",
+        "date": "Mar 6, 2023",
+        "position": 5
+      },
+      {
+        "title": "[PDF] Large Language Model Prompt Chaining for\\\\Long Legal Document ...",
+        "link": "https://arxiv.org/pdf/2308.04138",
+        "snippet": "OpenPrompt provides a user-friendly and research- friendly toolkit for prompt-learning in pre-trained lan- guage models (PLMs).",
+        "date": "Aug 8, 2023",
+        "position": 6
+      },
+      {
+        "title": "[PDF] Genetic Auto-prompt Learning for Pre-trained Code Intelligence ...",
+        "link": "https://arxiv.org/pdf/2403.13588",
+        "snippet": "Sun,. “Openprompt: An open-source framework for prompt-learning,” in Pro- ceedings of the 60th Annual Meeting of the Association for Computa- tional ...",
+        "date": "Mar 20, 2024",
+        "position": 7
+      },
+      {
+        "title": "Hard Prompts Made Easy: Gradient-Based Discrete Optimization for ...",
+        "link": "https://arxiv.org/html/2302.03668v2",
+        "snippet": "OpenPrompt: An open-source framework for prompt-learning. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: System ...",
+        "date": "Jun 1, 2023",
+        "sitelinks": [
+          {
+            "title": "Hard Prompts Made Easy",
+            "link": "https://arxiv.org/html/2302.03668v2#:~:text=2023-,Hard%20Prompts%20Made%20Easy%3A"
+          },
+          {
+            "title": "1 Introduction",
+            "link": "https://arxiv.org/html/2302.03668v2#:~:text=1%20Introduction,-Prompt%20engineering%20is%20the%20art"
+          },
+          {
+            "title": "4 Prompt Inversion With Clip",
+            "link": "https://arxiv.org/html/2302.03668v2#:~:text=4%20Prompt%20Inversion%20with%20CLIP,-Our%20method%20for%20learning%20hard"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "[PDF] promptolution: A Unified, Modular Framework for Prompt Optimization",
+        "link": "https://arxiv.org/pdf/2512.02840",
+        "snippet": "OpenPrompt: An open-source framework for prompt- learning. In Proceedings of the 60th Annual Meet- ing of the Association for Computational Linguistics ...",
+        "date": "Feb 23, 2026",
+        "position": 9
+      },
+      {
+        "title": "[PDF] Prompt engineering paradigms for medical applications - arXiv",
+        "link": "https://arxiv.org/pdf/2405.01249",
+        "snippet": "In this work, 114 recent studies (2022-2024) applying prompt engineering in medicine, covering prompt learning (PL), prompt tuning (PT), and prompt design (PD) ...",
+        "date": "May 3, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "OpenPrompt: An Open-source Framework for Prompt-learning - arXiv",
+      "snippet": "OpenPrompt is a research-friendly framework that is equipped with efficiency, modularity, and extendibility, and its combinability allows the freedom to combine",
+      "link": "https://arxiv.org/abs/2111.01998",
+      "arxiv_id": "2111.01998"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2111.01998v1 [cs.CL] 3 Nov 2021",
+      "snippet": "OpenPrompt, an open- source, easy-to-use, and extensible toolkit for prompt-learning. OpenPrompt modularizes the whole framework of prompt-learning",
+      "link": "https://arxiv.org/pdf/2111.01998",
+      "arxiv_id": "2111.01998"
+    },
+    {
+      "rank": 3,
+      "title": "A Few-shot Approach to Resume Information Extraction via Prompts",
+      "snippet": "For efficient iteration of different experiments, we used Openprompt 5 5 5 https://github.com/thunlp/OpenPrompt, an Open-Source Framework for Prompt-learning [2] ...",
+      "link": "https://arxiv.org/html/2209.09450v2",
+      "arxiv_id": "2209.09450"
+    },
+    {
+      "rank": 4,
+      "title": "A Survey of Automatic Prompt Optimization with Instruction-focused ...",
+      "snippet": "OpenPrompt Ding et al. (2021) is an open-source toolkit specifically designed for prompt-learning. It provides a standardized framework",
+      "link": "https://arxiv.org/html/2502.18746v2",
+      "arxiv_id": "2502.18746"
+    },
+    {
+      "rank": 5,
+      "title": "OpenICL: An Open-Source Framework for In-context Learning - arXiv",
+      "snippet": "We refer the readers to the usage of OpenPrompt Ding et al. (2021) which is a toolkit specially designed for prompt learning. In comparison, OpenICL focuses ...",
+      "link": "https://arxiv.org/html/2303.02913v1",
+      "arxiv_id": "2303.02913"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] Large Language Model Prompt Chaining for\\\\Long Legal Document ...",
+      "snippet": "OpenPrompt provides a user-friendly and research- friendly toolkit for prompt-learning in pre-trained lan- guage models (PLMs).",
+      "link": "https://arxiv.org/pdf/2308.04138",
+      "arxiv_id": "2308.04138"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] Genetic Auto-prompt Learning for Pre-trained Code Intelligence ...",
+      "snippet": "Sun,. “Openprompt: An open-source framework for prompt-learning,” in Pro- ceedings of the 60th Annual Meeting of the Association for Computa- tional ...",
+      "link": "https://arxiv.org/pdf/2403.13588",
+      "arxiv_id": "2403.13588"
+    },
+    {
+      "rank": 8,
+      "title": "Hard Prompts Made Easy: Gradient-Based Discrete Optimization for ...",
+      "snippet": "OpenPrompt: An open-source framework for prompt-learning. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: System ...",
+      "link": "https://arxiv.org/html/2302.03668v2",
+      "arxiv_id": "2302.03668"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] promptolution: A Unified, Modular Framework for Prompt Optimization",
+      "snippet": "OpenPrompt: An open-source framework for prompt- learning. In Proceedings of the 60th Annual Meet- ing of the Association for Computational Linguistics ...",
+      "link": "https://arxiv.org/pdf/2512.02840",
+      "arxiv_id": "2512.02840"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] Prompt engineering paradigms for medical applications - arXiv",
+      "snippet": "In this work, 114 recent studies (2022-2024) applying prompt engineering in medicine, covering prompt learning (PL), prompt tuning (PT), and prompt design (PD) ...",
+      "link": "https://arxiv.org/pdf/2405.01249",
+      "arxiv_id": "2405.01249"
+    }
+  ],
+  "gold_hit_ranks": [
+    1,
+    2
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:56.186970+00:00",
+  "elapsed_seconds": 1.0563766695559025,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q37_exact_gt_title_attempt1.json",
+      "sha256": "bbd9b2094bd1dc9af34cf20b3ee5fc2eb315d77bf71db71f3c7bc1aa9c668bc3",
+      "status": "PASS"
+    }
+  ]
+}

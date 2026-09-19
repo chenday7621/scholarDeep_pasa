@@ -1,0 +1,215 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q36",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2107.00061",
+  "request_payload": {
+    "q": "Have any research papers investigated human capacity to distinguish AI-generated text from human-authored text? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 78,
+  "started_utc": "2026-09-17T12:34:53.874933+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648215",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "656c66b3652cfc59ae113aadfb0dd8e3",
+    "date": "Thu, 17 Sep 2026 12:30:15 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3860",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3860,
+  "response_bytes_sha256": "fad02d51eac8eb3f8e465364005b33c7b809dcc3887be418c90a3fbeaf9788dc",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJIYXZlIGFueSByZXNlYXJjaCBwYXBlcnMgaW52ZXN0aWdhdGVkIGh1bWFuIGNhcGFjaXR5IHRvIGRpc3Rpbmd1aXNoIEFJLWdlbmVyYXRlZCB0ZXh0IGZyb20gaHVtYW4tYXV0aG9yZWQgdGV4dD8gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiVXNpbmcgTWFjaGluZSBMZWFybmluZyB0byBEaXN0aW5ndWlzaCBIdW1hbi13cml0dGVuIGZyb20gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDEyLjE1MjUzdjEiLCJzbmlwcGV0IjoiU3VwcG9ydCBWZWN0b3IgTWFjaGluZSAoU1ZNKSBtb2RlbHMgaGF2ZSBkZW1vbnN0cmF0ZWQgc3VjY2VzcyBpbiBkaXN0aW5ndWlzaGluZyBiZXR3ZWVuIGh1bWFuLXdyaXR0ZW4gYW5kIEFJLWdlbmVyYXRlZCB0ZXh0LiIsImRhdGUiOiJEZWMgMTUsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkEgQ29tcHJlaGVuc2l2ZSBEYXRhc2V0IGZvciBIdW1hbiB2cy4gQUkgR2VuZXJhdGVkIFRleHQgRGV0ZWN0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMC4yMjg3NHYxIiwic25pcHBldCI6IldlIGVzdGFibGlzaCBiYXNlbGluZSByZXN1bHRzIGZvciB0d28ga2V5IHRhc2tzOiBkaXN0aW5ndWlzaGluZyBodW1hbi13cml0dGVuIGZyb20gQUktZ2VuZXJhdGVkIHRleHQsIGFjaGlldmluZyBhbiBhY2N1cmFjeSBvZiA1OC4zNSUsIGFuZCBhdHRyaWJ1dGluZyBBSSB0ZXh0cyIsImRhdGUiOiJPY3QgMjYsIDIwMjUiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlsyMzAzLjExMTU2XSBDYW4gQUktR2VuZXJhdGVkIFRleHQgYmUgUmVsaWFibHkgRGV0ZWN0ZWQ/IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDMuMTExNTYiLCJzbmlwcGV0IjoiV2UgZGVtb25zdHJhdGUgdGhhdCBhbiBhdHRhY2tlciBjYW4gaW5mZXIgaGlkZGVuIEFJIHRleHQgc2lnbmF0dXJlcyB3aXRob3V0IHdoaXRlLWJveCBhY2Nlc3MgdG8gdGhlIGRldGVjdGlvbiBtZXRob2QsIHBvdGVudGlhbGx5IGxlYWRpbmcgdG8gcmVwdXRhdGlvbmFsIHJpc2tzIC4uLiIsImRhdGUiOiJNYXIgMTcsIDIwMjMiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkRpc3Rpbmd1aXNoaW5nIEFJLUdlbmVyYXRlZCBhbmQgSHVtYW4tV3JpdHRlbiBUZXh0IC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNS4wMTgwMHYxIiwic25pcHBldCI6IlRoaXMgc3R1ZHkgZGVtb25zdHJhdGVzIHRoYXQgaW50ZWdyYXRpbmcgc3R5bG9tZXRyaWMgYW5hbHlzaXMgd2l0aCBwc3ljaG9saW5ndWlzdGljIHRoZW9yeSBvZmZlcnMgYW4gaW50ZXJwcmV0YWJsZSBmcmFtZXdvcmsgZm9yIGRpc3Rpbmd1aXNoaW5nIEFJLWdlbmVyYXRlZCAuLi4iLCJkYXRlIjoiTWF5IDMsIDIwMjUiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlBlb3BsZSB3aG8gZnJlcXVlbnRseSB1c2UgQ2hhdEdQVCBmb3Igd3JpdGluZyB0YXNrcyBhcmUgYWNjdXJhdGUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMS4xNTY1NHYyIiwic25pcHBldCI6IkFic3RyYWN0LiBJbiB0aGlzIHBhcGVyLCB3ZSBzdHVkeSBob3cgd2VsbCBodW1hbnMgY2FuIGRldGVjdCB0ZXh0IGdlbmVyYXRlZCBieSBjb21tZXJjaWFsIExMTXMgKEdQVC00bywgQ2xhdWRlLTMuNS1Tb25uZXQsIG8xLVBybykuIFdlIGhpcmUgYW5ub3RhdG9ycyB0byAuLi4iLCJkYXRlIjoiTWF5IDE5LCAyMDI1IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBEaXZlcnNpdHkgQm9vc3RzIEFJLUdlbmVyYXRlZCBUZXh0IERldGVjdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA5LjE4ODgwPyIsInNuaXBwZXQiOiJUbyByb2J1c3RseSBkaXN0aW5ndWlzaCBBSS1nZW5lcmF0ZWQgdGV4dCBmcm9tIGh1bWFuLXdyaXR0ZW4gdGV4dCwgaXQgaXMgaW5zdWZmaWNpZW50IHRvIHJlbHkgc29sZWx5IG9uIGEgc2luZ2xlIG1lYXN1cmUgc3VjaCBhcyBwZXJwbGV4aXR5IChYdSBldCBhbC4sIDIwMjQpLiIsImRhdGUiOiJTZXAgMjYsIDIwMjUiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIEhvdyBnb29kIGFyZSBodW1hbnMgYXQgZGV0ZWN0aW5nIEFJLWdlbmVyYXRlZCBpbWFnZXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUwNy4xODY0MCIsInNuaXBwZXQiOiJBQlNUUkFDVC4gQXMgQUktcG93ZXJlZCBpbWFnZSBnZW5lcmF0aW9uIGltcHJvdmVzLCBhIGtleSBxdWVzdGlvbiBpcyBob3cgd2VsbCBodW1hbiBiZWluZ3MgY2FuIGRpZmZlcmVudGlhdGUgYmV0d2VlbiBcInJlYWxcIiBhbmQgQUktZ2VuZXJhdGVkIG9yIG1vZGlmaWVkIC4uLiIsImRhdGUiOiJNYXkgMTIsIDIwMjUiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkV2ZXJ5b25lIHByZWZlcnMgaHVtYW4gd3JpdGVycywgaW5jbHVkaW5nIEFJIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTEwLjA4ODMxdjEiLCJzbmlwcGV0IjoiQUkgY29udGVudCB3YXMgbWlzbGFiZWxlZCBhcyBodW1hbi1hdXRob3JlZCwgQUkgY29udGVudCBwcmVmZXJlbmNlIGluY3JlYXNlZCB0byA2MS41JSBbOTUlIENJOiA1OC404oCTNjQuNiVdLiBBdXRob3JzaGlwIGxhYmVscyBhcmUgcmV2ZXJzZWQsIG1pc2lkZW50aWZ5aW5nIHRoZSAuLi4iLCJkYXRlIjoiT2N0IDksIDIwMjUiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiNCBDaGFuZ2luZyBUaGUgTmFycmF0aXZlIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMC4wODgzMXYxIzp+OnRleHQ9NCUyMENoYW5naW5nJTIwdGhlJTIwTmFycmF0aXZlLC1CZXlvbmQlMjBtZWFzdXJpbmclMjBwcmVmZXJlbmNlJTIwc2hpZnRzJTJDIn0seyJ0aXRsZSI6IjUgRGlzY3Vzc2lvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MTAuMDg4MzF2MSM6fjp0ZXh0PTUlMjBEaXNjdXNzaW9uLC0lNjAlNjBCZWF1dHklMjBpcyUyMGluJTIwdGhlIn0seyJ0aXRsZSI6IkFja25vd2xlZGdtZW50cyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MTAuMDg4MzF2MSM6fjp0ZXh0PUFja25vd2xlZGdtZW50cyJ9XSwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBBSSBHZW5lcmF0ZWQgVGV4dCBEZXRlY3Rpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjYwMS4wMzgxMiIsInNuaXBwZXQiOiJUaGUgZ29hbCBvZiB0aGlzIHdvcmsgaXMgdG8gZGVzaWduIGFuZCBldmFsdWF0ZSBhIHVuaWZpZWQgc3lzdGVtIGZvciBjbGFzc2lmeWluZyB3aGV0aGVyIGEgZ2l2ZW4gdGV4dCBzYW1wbGUgaXMgQUktIGdlbmVyYXRlZCBvciBodW1hbi13cml0dGVuLiBGb3IgdGhpcyBwdXJwb3NlIC4uLiIsImRhdGUiOiJKYW4gNywgMjAyNiIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gSG93IFdlbGwgRG8gTExNcyBJbWl0YXRlIEh1bWFuIFdyaXRpbmcgU3R5bGU/IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDkuMjQ5MzAiLCJzbmlwcGV0IjoiQWJzdHJhY3TigJRMYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpIGNhbiBnZW5lcmF0ZSBmbHVlbnQgdGV4dCwgYnV0IHRoZWlyIGFiaWxpdHkgdG8gcmVwbGljYXRlIHRoZSBkaXN0aW5jdGl2ZSBzdHlsZSBvZiBhIHNwZWNpZmljIGh1bWFuIGF1dGhvciByZW1haW5zIC4uLiIsImRhdGUiOiJTZXAgMjksIDIwMjUiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Have any research papers investigated human capacity to distinguish AI-generated text from human-authored text? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Using Machine Learning to Distinguish Human-written from ... - arXiv",
+        "link": "https://arxiv.org/html/2412.15253v1",
+        "snippet": "Support Vector Machine (SVM) models have demonstrated success in distinguishing between human-written and AI-generated text.",
+        "date": "Dec 15, 2024",
+        "position": 1
+      },
+      {
+        "title": "A Comprehensive Dataset for Human vs. AI Generated Text Detection",
+        "link": "https://arxiv.org/html/2510.22874v1",
+        "snippet": "We establish baseline results for two key tasks: distinguishing human-written from AI-generated text, achieving an accuracy of 58.35%, and attributing AI texts",
+        "date": "Oct 26, 2025",
+        "position": 2
+      },
+      {
+        "title": "[2303.11156] Can AI-Generated Text be Reliably Detected? - arXiv",
+        "link": "https://arxiv.org/abs/2303.11156",
+        "snippet": "We demonstrate that an attacker can infer hidden AI text signatures without white-box access to the detection method, potentially leading to reputational risks ...",
+        "date": "Mar 17, 2023",
+        "position": 3
+      },
+      {
+        "title": "Distinguishing AI-Generated and Human-Written Text ... - arXiv",
+        "link": "https://arxiv.org/html/2505.01800v1",
+        "snippet": "This study demonstrates that integrating stylometric analysis with psycholinguistic theory offers an interpretable framework for distinguishing AI-generated ...",
+        "date": "May 3, 2025",
+        "position": 4
+      },
+      {
+        "title": "People who frequently use ChatGPT for writing tasks are accurate ...",
+        "link": "https://arxiv.org/html/2501.15654v2",
+        "snippet": "Abstract. In this paper, we study how well humans can detect text generated by commercial LLMs (GPT-4o, Claude-3.5-Sonnet, o1-Pro). We hire annotators to ...",
+        "date": "May 19, 2025",
+        "position": 5
+      },
+      {
+        "title": "[PDF] Diversity Boosts AI-Generated Text Detection - arXiv",
+        "link": "https://arxiv.org/pdf/2509.18880?",
+        "snippet": "To robustly distinguish AI-generated text from human-written text, it is insufficient to rely solely on a single measure such as perplexity (Xu et al., 2024).",
+        "date": "Sep 26, 2025",
+        "position": 6
+      },
+      {
+        "title": "[PDF] How good are humans at detecting AI-generated images - arXiv",
+        "link": "https://arxiv.org/pdf/2507.18640",
+        "snippet": "ABSTRACT. As AI-powered image generation improves, a key question is how well human beings can differentiate between \"real\" and AI-generated or modified ...",
+        "date": "May 12, 2025",
+        "position": 7
+      },
+      {
+        "title": "Everyone prefers human writers, including AI - arXiv",
+        "link": "https://arxiv.org/html/2510.08831v1",
+        "snippet": "AI content was mislabeled as human-authored, AI content preference increased to 61.5% [95% CI: 58.4–64.6%]. Authorship labels are reversed, misidentifying the ...",
+        "date": "Oct 9, 2025",
+        "sitelinks": [
+          {
+            "title": "4 Changing The Narrative",
+            "link": "https://arxiv.org/html/2510.08831v1#:~:text=4%20Changing%20the%20Narrative,-Beyond%20measuring%20preference%20shifts%2C"
+          },
+          {
+            "title": "5 Discussion",
+            "link": "https://arxiv.org/html/2510.08831v1#:~:text=5%20Discussion,-%60%60Beauty%20is%20in%20the"
+          },
+          {
+            "title": "Acknowledgments",
+            "link": "https://arxiv.org/html/2510.08831v1#:~:text=Acknowledgments"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "[PDF] AI Generated Text Detection - arXiv",
+        "link": "https://arxiv.org/pdf/2601.03812",
+        "snippet": "The goal of this work is to design and evaluate a unified system for classifying whether a given text sample is AI- generated or human-written. For this purpose ...",
+        "date": "Jan 7, 2026",
+        "position": 9
+      },
+      {
+        "title": "[PDF] How Well Do LLMs Imitate Human Writing Style? - arXiv",
+        "link": "https://arxiv.org/pdf/2509.24930",
+        "snippet": "Abstract—Large language models (LLMs) can generate fluent text, but their ability to replicate the distinctive style of a specific human author remains ...",
+        "date": "Sep 29, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Using Machine Learning to Distinguish Human-written from ... - arXiv",
+      "snippet": "Support Vector Machine (SVM) models have demonstrated success in distinguishing between human-written and AI-generated text.",
+      "link": "https://arxiv.org/html/2412.15253v1",
+      "arxiv_id": "2412.15253"
+    },
+    {
+      "rank": 2,
+      "title": "A Comprehensive Dataset for Human vs. AI Generated Text Detection",
+      "snippet": "We establish baseline results for two key tasks: distinguishing human-written from AI-generated text, achieving an accuracy of 58.35%, and attributing AI texts",
+      "link": "https://arxiv.org/html/2510.22874v1",
+      "arxiv_id": "2510.22874"
+    },
+    {
+      "rank": 3,
+      "title": "[2303.11156] Can AI-Generated Text be Reliably Detected? - arXiv",
+      "snippet": "We demonstrate that an attacker can infer hidden AI text signatures without white-box access to the detection method, potentially leading to reputational risks ...",
+      "link": "https://arxiv.org/abs/2303.11156",
+      "arxiv_id": "2303.11156"
+    },
+    {
+      "rank": 4,
+      "title": "Distinguishing AI-Generated and Human-Written Text ... - arXiv",
+      "snippet": "This study demonstrates that integrating stylometric analysis with psycholinguistic theory offers an interpretable framework for distinguishing AI-generated ...",
+      "link": "https://arxiv.org/html/2505.01800v1",
+      "arxiv_id": "2505.01800"
+    },
+    {
+      "rank": 5,
+      "title": "People who frequently use ChatGPT for writing tasks are accurate ...",
+      "snippet": "Abstract. In this paper, we study how well humans can detect text generated by commercial LLMs (GPT-4o, Claude-3.5-Sonnet, o1-Pro). We hire annotators to ...",
+      "link": "https://arxiv.org/html/2501.15654v2",
+      "arxiv_id": "2501.15654"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] Diversity Boosts AI-Generated Text Detection - arXiv",
+      "snippet": "To robustly distinguish AI-generated text from human-written text, it is insufficient to rely solely on a single measure such as perplexity (Xu et al., 2024).",
+      "link": "https://arxiv.org/pdf/2509.18880?",
+      "arxiv_id": "2509.18880"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] How good are humans at detecting AI-generated images - arXiv",
+      "snippet": "ABSTRACT. As AI-powered image generation improves, a key question is how well human beings can differentiate between \"real\" and AI-generated or modified ...",
+      "link": "https://arxiv.org/pdf/2507.18640",
+      "arxiv_id": "2507.18640"
+    },
+    {
+      "rank": 8,
+      "title": "Everyone prefers human writers, including AI - arXiv",
+      "snippet": "AI content was mislabeled as human-authored, AI content preference increased to 61.5% [95% CI: 58.4–64.6%]. Authorship labels are reversed, misidentifying the ...",
+      "link": "https://arxiv.org/html/2510.08831v1",
+      "arxiv_id": "2510.08831"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] AI Generated Text Detection - arXiv",
+      "snippet": "The goal of this work is to design and evaluate a unified system for classifying whether a given text sample is AI- generated or human-written. For this purpose ...",
+      "link": "https://arxiv.org/pdf/2601.03812",
+      "arxiv_id": "2601.03812"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] How Well Do LLMs Imitate Human Writing Style? - arXiv",
+      "snippet": "Abstract—Large language models (LLMs) can generate fluent text, but their ability to replicate the distinctive style of a specific human author remains ...",
+      "link": "https://arxiv.org/pdf/2509.24930",
+      "arxiv_id": "2509.24930"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:55.129876+00:00",
+  "elapsed_seconds": 1.2549474090337753,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q36_original_question_attempt1.json",
+      "sha256": "c0e793db3d4ffe817baadfa25bbd847cb98fd5bbb76c10e578d8c6246ad6b4ae",
+      "status": "PASS"
+    }
+  ]
+}

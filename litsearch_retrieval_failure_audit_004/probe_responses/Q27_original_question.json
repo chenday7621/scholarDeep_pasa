@@ -1,0 +1,201 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q27",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2104.14337",
+  "request_payload": {
+    "q": "Which paper presents a platform that emphasizes evaluating the robustness of models on benchmarks? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 57,
+  "started_utc": "2026-09-17T12:34:29.315692+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1789648190",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "1bb9419cbe5f9705ef4e195cadbc4800",
+    "date": "Thu, 17 Sep 2026 12:29:50 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3464",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3464,
+  "response_bytes_sha256": "29ff92300a49383afeffefacc3844e4a76acab7b46c631d7b5af5b107b451e6c",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJXaGljaCBwYXBlciBwcmVzZW50cyBhIHBsYXRmb3JtIHRoYXQgZW1waGFzaXplcyBldmFsdWF0aW5nIHRoZSByb2J1c3RuZXNzIG9mIG1vZGVscyBvbiBiZW5jaG1hcmtzPyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJPbiBSb2J1c3RuZXNzIGFuZCBSZWxpYWJpbGl0eSBvZiBCZW5jaG1hcmstQmFzZWQgRXZhbHVhdGlvbiBvZiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA5LjA0MDEzdjEiLCJzbmlwcGV0IjoiSW4gdGhpcyBzdHVkeSwgd2Ugc3lzdGVtYXRpY2FsbHkgYXNzZXNzIHRoZSByb2J1c3RuZXNzIG9mIExMTXMgdG8gcGFyYXBocmFzZWQgYmVuY2htYXJrIHF1ZXN0aW9ucyBhbmQgaW52ZXN0aWdhdGUgd2hldGhlciBiZW5jaG1hcmstYmFzZWQgZXZhbHVhdGlvbnMgcHJvdmlkZSBhIC4uLiIsImRhdGUiOiJTZXAgNCwgMjAyNSIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiRG9tYWluIFNwZWNpZmljIEJlbmNobWFya3MgZm9yIEV2YWx1YXRpbmcgTXVsdGltb2RhbCBMYXJnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA2LjEyOTU4djEiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBwcmVzZW50cyBhIHN5c3RlbWF0aWMgcmV2aWV3IG9mIGRvbWFpbi1zcGVjaWZpYyBiZW5jaG1hcmtzIGZvciBNdWx0aW1vZGFsIExhcmdlIExhbmd1YWdlIE1vZGVscyAoTUxMTXMpLiBPdXIgcmV2aWV3IGV4YW1pbmVzIGVpZ2h0IGtleSBkaXNjaXBsaW5lcywgLi4uIiwiZGF0ZSI6Ikp1biAxNSwgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gTGFyZ2UgTGFuZ3VhZ2UgTW9kZWwgQmVuY2htYXJrcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwOC4xNTM2MXYxIiwic25pcHBldCI6IlJvdGJlbmNoOiBBIG11bHRpLWxldmVsIGJlbmNobWFyayBmb3IgZXZhbHVhdGluZyB0aGUgcm9idXN0bmVzcyBvZiBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgaW4gdG9vbCBsZWFybmluZywgMjAyNC4gWzI1OF0gV2VpamlhIFNoaSwgQW5pcnVkaCBBaml0aCwgTWVuZ3pob3UgLi4uIiwiZGF0ZSI6IkF1ZyAyMSwgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiSXMgR1BULU9TUyBBbGwgWW91IE5lZWQ/IEJlbmNobWFya2luZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMi4xNDcxN3YxIiwic25pcHBldCI6IlRoaXMgcGFwZXIgY29uZHVjdHMgYSBjb21wcmVoZW5zaXZlIGV2YWx1YXRpb24gb2YgdGhlIEdQVC1PU1MgbW9kZWwgZmFtaWx5IGFsb25nc2lkZSBjb250ZW1wb3JhcnkgTExNcyBhY3Jvc3MgdGVuIGRpdmVyc2UgZmluYW5jaWFsIE5MUCB0YXNrcy4gR1BULU9TUyBtb2RlbHMgLi4uIiwiZGF0ZSI6IkRlYyA5LCAyMDI1IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJBSSBCZW5jaG1hcmtzIGFuZCBEYXRhc2V0cyBmb3IgTExNIEV2YWx1YXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTIuMDEwMjB2MSIsInNuaXBwZXQiOiJSb2J1c3RCZW5jaCBbNV0gaXMgYSBzdGFuZGFyZGl6ZWQgYmVuY2htYXJrIGZvciBldmFsdWF0aW5nIHRoZSBhZHZlcnNhcmlhbCByb2J1c3RuZXNzIG9mIG1hY2hpbmUgbGVhcm5pbmcgbW9kZWxzLiBJdCBlbXBoYXNpemVzIHRoZSBuZWVkIGZvciBhY2N1cmF0ZSBhbmQgLi4uIiwiZGF0ZSI6IkRlYyAyLCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJDb25zaXN0ZW5jeUFJOiBBIEJlbmNobWFyayB0byBBc3Nlc3MgTExNcycgRmFjdHVhbCBDb25zaXN0ZW5jeSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTEwLjEzODUydjIiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBpbnRyb2R1Y2VzIENvbnNpc3RlbmN5QUksIGFuIGluZGVwZW5kZW50IGJlbmNobWFyayBmb3IgbWVhc3VyaW5nIHRoZSBmYWN0dWFsIGNvbnNpc3RlbmN5IG9mIGxhcmdlIGxhbmd1YWdlIG1vZGVscyAoTExNcykgZm9yIGRpZmZlcmVudCBwZXJzb25hcy4iLCJkYXRlIjoiT2N0IDI5LCAyMDI1IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJCZW5jaG1hcmsgVGVzdC1UaW1lIFNjYWxpbmcgb2YgR2VuZXJhbCBMTE0gQWdlbnRzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAyLjE4OTk4djEiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBpbnRyb2R1Y2VzIEdlbmVyYWwgQWdlbnRCZW5jaCwgYSBiZW5jaG1hcmsgZm9yIGV2YWx1YXRpbmcgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWwgYWdlbnRzIGFzIGdlbmVyYWwtcHVycG9zZSBzeXN0ZW1zIHVuZGVyIHVuaWZpZWQgYW5kIHJlYWxpc3RpYyAuLi4iLCJkYXRlIjoiRmViIDIyLCAyMDI2IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJBIENvbXByZWhlbnNpdmUgU3VydmV5IG9uIFNhZmV0eSBFdmFsdWF0aW9uIG9mIExMTXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDYuMTEwOTR2MSIsInNuaXBwZXQiOiJUaGlzIGV2YWx1YXRpb24gcHJpbWFyaWx5IGZvY3VzZXMgb24gYXNzZXNzaW5nIHRoZSBmdW5kYW1lbnRhbCBwZXJmb3JtYW5jZSBvZiB0aGUgbW9kZWwsIGluY2x1ZGluZyBpdHMgYWNjdXJhY3ksIGZsdWVuY3ksIGFuZCByZWFzb25pbmcgY2FwYWJpbGl0aWVzLiBNZXRyaWNzIC4uLiIsImRhdGUiOiJKdW4gNiwgMjAyNSIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiRXZhbHVhdGlvbiBvZiBQZXJzaWFuIFRydXN0d29ydGhpbmVzcyBpbiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA5LjA2ODM4djEiLCJzbmlwcGV0IjoiVGhlIEVQVCBCZW5jaG1hcmsgcHJlc2VudHMgYSBub3ZlbCBmcmFtZXdvcmsgZm9yIGFzc2Vzc2luZyB0aGUgdHJ1c3R3b3J0aGluZXNzIG9mIGxhcmdlIGxhbmd1YWdlIG1vZGVscyB3aXRoaW4gdGhlIFBlcnNpYW4tSXNsYW1pYyBjdWx0dXJhbCBjb250ZXh0LiBUaGlzIC4uLiIsImRhdGUiOiJTZXAgOCwgMjAyNSIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiVGhlIFNjaWVuY2Ugb2YgRXZhbHVhdGluZyBGb3VuZGF0aW9uIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMi4wOTY3MHYxIiwic25pcHBldCI6IkdsdWU6IEEgbXVsdGktdGFzayBiZW5jaG1hcmsgYW5kIGFuYWx5c2lzIHBsYXRmb3JtIGZvciBuYXR1cmFsIC4uLiBBZHZlcnNhcmlhbCBHTFVFOiBBIE11bHRpLVRhc2sgQmVuY2htYXJrIGZvciBSb2J1c3RuZXNzIEV2YWx1YXRpb24gb2YgTGFuZ3VhZ2UgTW9kZWxzLiIsImRhdGUiOiJGZWIgMTIsIDIwMjUiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Which paper presents a platform that emphasizes evaluating the robustness of models on benchmarks? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "On Robustness and Reliability of Benchmark-Based Evaluation of ...",
+        "link": "https://arxiv.org/html/2509.04013v1",
+        "snippet": "In this study, we systematically assess the robustness of LLMs to paraphrased benchmark questions and investigate whether benchmark-based evaluations provide a ...",
+        "date": "Sep 4, 2025",
+        "position": 1
+      },
+      {
+        "title": "Domain Specific Benchmarks for Evaluating Multimodal Large ...",
+        "link": "https://arxiv.org/html/2506.12958v1",
+        "snippet": "This paper presents a systematic review of domain-specific benchmarks for Multimodal Large Language Models (MLLMs). Our review examines eight key disciplines, ...",
+        "date": "Jun 15, 2025",
+        "position": 2
+      },
+      {
+        "title": "A Survey on Large Language Model Benchmarks - arXiv",
+        "link": "https://arxiv.org/html/2508.15361v1",
+        "snippet": "Rotbench: A multi-level benchmark for evaluating the robustness of large language models in tool learning, 2024. [258] Weijia Shi, Anirudh Ajith, Mengzhou ...",
+        "date": "Aug 21, 2025",
+        "position": 3
+      },
+      {
+        "title": "Is GPT-OSS All You Need? Benchmarking Large Language Models ...",
+        "link": "https://arxiv.org/html/2512.14717v1",
+        "snippet": "This paper conducts a comprehensive evaluation of the GPT-OSS model family alongside contemporary LLMs across ten diverse financial NLP tasks. GPT-OSS models ...",
+        "date": "Dec 9, 2025",
+        "position": 4
+      },
+      {
+        "title": "AI Benchmarks and Datasets for LLM Evaluation - arXiv",
+        "link": "https://arxiv.org/html/2412.01020v1",
+        "snippet": "RobustBench [5] is a standardized benchmark for evaluating the adversarial robustness of machine learning models. It emphasizes the need for accurate and ...",
+        "date": "Dec 2, 2024",
+        "position": 5
+      },
+      {
+        "title": "ConsistencyAI: A Benchmark to Assess LLMs' Factual Consistency ...",
+        "link": "https://arxiv.org/html/2510.13852v2",
+        "snippet": "This paper introduces ConsistencyAI, an independent benchmark for measuring the factual consistency of large language models (LLMs) for different personas.",
+        "date": "Oct 29, 2025",
+        "position": 6
+      },
+      {
+        "title": "Benchmark Test-Time Scaling of General LLM Agents - arXiv",
+        "link": "https://arxiv.org/html/2602.18998v1",
+        "snippet": "This paper introduces General AgentBench, a benchmark for evaluating large language model agents as general-purpose systems under unified and realistic ...",
+        "date": "Feb 22, 2026",
+        "position": 7
+      },
+      {
+        "title": "A Comprehensive Survey on Safety Evaluation of LLMs - arXiv",
+        "link": "https://arxiv.org/html/2506.11094v1",
+        "snippet": "This evaluation primarily focuses on assessing the fundamental performance of the model, including its accuracy, fluency, and reasoning capabilities. Metrics ...",
+        "date": "Jun 6, 2025",
+        "position": 8
+      },
+      {
+        "title": "Evaluation of Persian Trustworthiness in Large Language Models",
+        "link": "https://arxiv.org/html/2509.06838v1",
+        "snippet": "The EPT Benchmark presents a novel framework for assessing the trustworthiness of large language models within the Persian-Islamic cultural context. This ...",
+        "date": "Sep 8, 2025",
+        "position": 9
+      },
+      {
+        "title": "The Science of Evaluating Foundation Models - arXiv",
+        "link": "https://arxiv.org/html/2502.09670v1",
+        "snippet": "Glue: A multi-task benchmark and analysis platform for natural ... Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models.",
+        "date": "Feb 12, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "On Robustness and Reliability of Benchmark-Based Evaluation of ...",
+      "snippet": "In this study, we systematically assess the robustness of LLMs to paraphrased benchmark questions and investigate whether benchmark-based evaluations provide a ...",
+      "link": "https://arxiv.org/html/2509.04013v1",
+      "arxiv_id": "2509.04013"
+    },
+    {
+      "rank": 2,
+      "title": "Domain Specific Benchmarks for Evaluating Multimodal Large ...",
+      "snippet": "This paper presents a systematic review of domain-specific benchmarks for Multimodal Large Language Models (MLLMs). Our review examines eight key disciplines, ...",
+      "link": "https://arxiv.org/html/2506.12958v1",
+      "arxiv_id": "2506.12958"
+    },
+    {
+      "rank": 3,
+      "title": "A Survey on Large Language Model Benchmarks - arXiv",
+      "snippet": "Rotbench: A multi-level benchmark for evaluating the robustness of large language models in tool learning, 2024. [258] Weijia Shi, Anirudh Ajith, Mengzhou ...",
+      "link": "https://arxiv.org/html/2508.15361v1",
+      "arxiv_id": "2508.15361"
+    },
+    {
+      "rank": 4,
+      "title": "Is GPT-OSS All You Need? Benchmarking Large Language Models ...",
+      "snippet": "This paper conducts a comprehensive evaluation of the GPT-OSS model family alongside contemporary LLMs across ten diverse financial NLP tasks. GPT-OSS models ...",
+      "link": "https://arxiv.org/html/2512.14717v1",
+      "arxiv_id": "2512.14717"
+    },
+    {
+      "rank": 5,
+      "title": "AI Benchmarks and Datasets for LLM Evaluation - arXiv",
+      "snippet": "RobustBench [5] is a standardized benchmark for evaluating the adversarial robustness of machine learning models. It emphasizes the need for accurate and ...",
+      "link": "https://arxiv.org/html/2412.01020v1",
+      "arxiv_id": "2412.01020"
+    },
+    {
+      "rank": 6,
+      "title": "ConsistencyAI: A Benchmark to Assess LLMs' Factual Consistency ...",
+      "snippet": "This paper introduces ConsistencyAI, an independent benchmark for measuring the factual consistency of large language models (LLMs) for different personas.",
+      "link": "https://arxiv.org/html/2510.13852v2",
+      "arxiv_id": "2510.13852"
+    },
+    {
+      "rank": 7,
+      "title": "Benchmark Test-Time Scaling of General LLM Agents - arXiv",
+      "snippet": "This paper introduces General AgentBench, a benchmark for evaluating large language model agents as general-purpose systems under unified and realistic ...",
+      "link": "https://arxiv.org/html/2602.18998v1",
+      "arxiv_id": "2602.18998"
+    },
+    {
+      "rank": 8,
+      "title": "A Comprehensive Survey on Safety Evaluation of LLMs - arXiv",
+      "snippet": "This evaluation primarily focuses on assessing the fundamental performance of the model, including its accuracy, fluency, and reasoning capabilities. Metrics ...",
+      "link": "https://arxiv.org/html/2506.11094v1",
+      "arxiv_id": "2506.11094"
+    },
+    {
+      "rank": 9,
+      "title": "Evaluation of Persian Trustworthiness in Large Language Models",
+      "snippet": "The EPT Benchmark presents a novel framework for assessing the trustworthiness of large language models within the Persian-Islamic cultural context. This ...",
+      "link": "https://arxiv.org/html/2509.06838v1",
+      "arxiv_id": "2509.06838"
+    },
+    {
+      "rank": 10,
+      "title": "The Science of Evaluating Foundation Models - arXiv",
+      "snippet": "Glue: A multi-task benchmark and analysis platform for natural ... Adversarial GLUE: A Multi-Task Benchmark for Robustness Evaluation of Language Models.",
+      "link": "https://arxiv.org/html/2502.09670v1",
+      "arxiv_id": "2502.09670"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:30.240399+00:00",
+  "elapsed_seconds": 0.9247071892023087,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q27_original_question_attempt1.json",
+      "sha256": "a43253c5ccb88e537da7cddc08e6981ac24d42e1df1072b0ed16dceeeddd4ead",
+      "status": "PASS"
+    }
+  ]
+}

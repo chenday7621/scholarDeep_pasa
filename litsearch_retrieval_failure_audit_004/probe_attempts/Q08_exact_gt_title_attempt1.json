@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q08",
+  "group": "author-written",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2309.15840",
+  "request_payload": {
+    "q": "HOW TO CATCH AN AI LIAR: LIE DETECTION IN BLACK-BOX LLMS BY ASKING UNRELATED QUESTIONS before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 13,
+  "started_utc": "2026-09-17T12:33:34.829860+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648140",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "3b4b6dfdc3d0751c0210d59a7167f1be",
+    "date": "Thu, 17 Sep 2026 12:28:56 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3367",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3367,
+  "response_bytes_sha256": "722a0d5f88719c34ac2b3ddf6d30cea4e2a01cfa01b608d78aadd037a46cdb77",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJIT1cgVE8gQ0FUQ0ggQU4gQUkgTElBUjogTElFIERFVEVDVElPTiBJTiBCTEFDSy1CT1ggTExNUyBCWSBBU0tJTkcgVU5SRUxBVEVEIFFVRVNUSU9OUyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJIb3cgdG8gQ2F0Y2ggYW4gQUkgTGlhcjogTGllIERldGVjdGlvbiBpbiBCbGFjay1Cb3ggTExNcyBieSBBc2tpbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzA5LjE1ODQwIiwic25pcHBldCI6IlRoZSBkZXRlY3RvciB3b3JrcyBieSBhc2tpbmcgYSBwcmVkZWZpbmVkIHNldCBvZiB1bnJlbGF0ZWQgZm9sbG93LXVwIHF1ZXN0aW9ucyBhZnRlciBhIHN1c3BlY3RlZCBsaWUsIGFuZCBmZWVkaW5nIHRoZSBMTE0ncyB5ZXMvbm8gYW5zd2VycyBpbnRvIGEgbG9naXN0aWMgLi4uIiwiZGF0ZSI6IlNlcCAyNiwgMjAyMyIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiRGV0ZWN0aW5nIFN0cmF0ZWdpYyBEZWNlcHRpb24gVXNpbmcgTGluZWFyIFByb2JlcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMi4wMzQwN3YxIiwic25pcHBldCI6IkhvdyB0byBjYXRjaCBhbiBBSSBsaWFyOiBMaWUgZGV0ZWN0aW9uIGluIGJsYWNrLWJveCBMTE1zIGJ5IGFza2luZyB1bnJlbGF0ZWQgcXVlc3Rpb25zLCAyMDIzLiIsImRhdGUiOiJGZWIgNSwgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiW1BERl0gUHJlZGljdGluZyB0aGUgUGVyZm9ybWFuY2Ugb2YgQmxhY2stYm94IExMTXMgdGhyb3VnaCBGb2xsb3ctdXAgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTAxLjAxNTU4Iiwic25pcHBldCI6IkhvdyB0byBjYXRjaCBhbiBBSSBsaWFyOiBMaWUgZGV0ZWN0aW9uIGluIGJsYWNrLWJveCBMTE1zIGJ5IGFza2luZyB1bnJlbGF0ZWQgcXVlc3Rpb25zLiBJbiBUaGUgVHdlbGZ0aCBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gTGVhcm5pbmcgUmVwcmVzZW50YXRpb25zIC4uLiIsImRhdGUiOiJOb3YgMjksIDIwMjUiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIE1lY2hhbmlzdGljIEludGVycHJldGFiaWxpdHkgTmVlZHMgUGhpbG9zb3BoeSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA2LjE4ODUyIiwic25pcHBldCI6IkhvdyB0byBjYXRjaCBhbiBhaSBsaWFyOiBMaWUgZGV0ZWN0aW9uIGluIGJsYWNrLWJveCBsbG1zIGJ5IGFza2luZyB1bnJlbGF0ZWQgcXVlc3Rpb25zLiBUaGUgVHdlbGZ0aCBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gTGVhcm5pbmcgUmVwcmVzZW50YXRpb25zLCAyMDI0LiIsImRhdGUiOiJPY3QgMTUsIDIwMjUiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlRydXN0IE1lLCBJJ20gV3Jvbmc6IEhpZ2gtQ2VydGFpbnR5IEhhbGx1Y2luYXRpb25zIGluIExMTXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDIuMTI5NjR2MSIsInNuaXBwZXQiOiJIb3cgdG8gY2F0Y2ggYW4gYWkgbGlhcjogTGllIGRldGVjdGlvbiBpbiBibGFjay1ib3ggbGxtcyBieSBhc2tpbmcgdW5yZWxhdGVkIHF1ZXN0aW9ucy4gSW4gVGhlIFR3ZWxmdGggSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIExlYXJuaW5nIFJlcHJlc2VudGF0aW9ucy4iLCJkYXRlIjoiRmViIDE4LCAyMDI1IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJQcm9iaW5nIEV2YWx1YXRpb24gQXdhcmVuZXNzIG9mIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNy4wMTc4NnYxIiwic25pcHBldCI6IkhvdyB0byBjYXRjaCBhbiBhaSBsaWFyOiBMaWUgZGV0ZWN0aW9uIGluIGJsYWNrLWJveCBsbG1zIGJ5IGFza2luZyB1bnJlbGF0ZWQgcXVlc3Rpb25zLiBQYXBwdSwgKDIwMjQpIFBhcHB1LCBOLiAoMjAyNCkuIEFpIG1ldHJpY3MgMTAxOiBNZWFzdXJpbmcgdGhlIC4uLiIsImRhdGUiOiJKdWwgMiwgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiW1BERl0gUHJlZmVyZW5jZSBMZWFybmluZyB3aXRoIExpZSBEZXRlY3RvcnMgY2FuIEluZHVjZSBIb25lc3R5IC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA1LjEzNzg3Iiwic25pcHBldCI6IkhvdyB0byBjYXRjaCBhbiBhaSBsaWFyOiBMaWUgZGV0ZWN0aW9uIGluIGJsYWNrLWJveCBsbG1zIGJ5IGFza2luZyB1bnJlbGF0ZWQgcXVlc3Rpb25zLiBJbiBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gTGVhcm5pbmcgUmVwcmVzZW50YXRpb25zLC4gMjAyNC4gWzIxXSAuLi4iLCJkYXRlIjoiTWF5IDIyLCAyMDI1IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJEZWNlcHRpb24gYW5kIE1hbmlwdWxhdGlvbiBpbiBHZW5lcmF0aXZlIEFJIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAxLjExMzM1djEiLCJzbmlwcGV0IjoiSG93IHRvIGNhdGNoIGFuIEFJIGxpYXI6IExpZSBkZXRlY3Rpb24gaW4gYmxhY2stYm94IExMTXMgYnkgYXNraW5nIHVucmVsYXRlZCBxdWVzdGlvbnMuIEFJIGRlY2VwdGlvbjogQSBzdXJ2ZXkgb2YgZXhhbXBsZXMsIHJpc2tzLCBhbmQgcG90ZW50aWFsIHNvbHV0aW9ucy4iLCJkYXRlIjoiSmFuIDIwLCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJDaGFsbGVuZ2VzIHdpdGggdW5zdXBlcnZpc2VkIExMTSBrbm93bGVkZ2UgZGlzY292ZXJ5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEyLjEwMDI5djIiLCJzbmlwcGV0IjoiR2FsLCBPLiBFdmFucywgYW5kIEouIEJyYXVuZXIuIEhvdyB0byBjYXRjaCBhbiBBSSBsaWFyOiBMaWUgZGV0ZWN0aW9uIGluIEJsYWNrLUJveCBMTE1zIGJ5IGFza2luZyB1bnJlbGF0ZWQgcXVlc3Rpb25zLiIsImRhdGUiOiJEZWMgMTgsIDIwMjMiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIFRvd2FyZHMgbWl0aWdhdGluZyBpbmZvcm1hdGlvbiBsZWFrYWdlIHdoZW4gZXZhbHVhdGluZyBzYWZldHkgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA5LjIxMzQ0Iiwic25pcHBldCI6IkhvdyB0byBjYXRjaCBhbiBhaSBsaWFyOiBMaWUgZGV0ZWN0aW9uIGluIGJsYWNrLWJveCBsbG1zIGJ5IGFza2luZyB1bnJlbGF0ZWQgcXVlc3Rpb25zLCAyMDIzLiBbMTVdIEhlbnJ5IFBhcGFkYXRvcyBhbmQgUmFjaGVsIEZyZWVkbWFuLiBMaW5lYXIgcHJvYmUgLi4uIiwiZGF0ZSI6IlNlcCAxNiwgMjAyNSIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "HOW TO CATCH AN AI LIAR: LIE DETECTION IN BLACK-BOX LLMS BY ASKING UNRELATED QUESTIONS before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "How to Catch an AI Liar: Lie Detection in Black-Box LLMs by Asking ...",
+        "link": "https://arxiv.org/abs/2309.15840",
+        "snippet": "The detector works by asking a predefined set of unrelated follow-up questions after a suspected lie, and feeding the LLM's yes/no answers into a logistic ...",
+        "date": "Sep 26, 2023",
+        "position": 1
+      },
+      {
+        "title": "Detecting Strategic Deception Using Linear Probes - arXiv",
+        "link": "https://arxiv.org/html/2502.03407v1",
+        "snippet": "How to catch an AI liar: Lie detection in black-box LLMs by asking unrelated questions, 2023.",
+        "date": "Feb 5, 2025",
+        "position": 2
+      },
+      {
+        "title": "[PDF] Predicting the Performance of Black-box LLMs through Follow-up ...",
+        "link": "https://arxiv.org/pdf/2501.01558",
+        "snippet": "How to catch an AI liar: Lie detection in black-box LLMs by asking unrelated questions. In The Twelfth International Conference on Learning Representations ...",
+        "date": "Nov 29, 2025",
+        "position": 3
+      },
+      {
+        "title": "[PDF] Mechanistic Interpretability Needs Philosophy - arXiv",
+        "link": "https://arxiv.org/pdf/2506.18852",
+        "snippet": "How to catch an ai liar: Lie detection in black-box llms by asking unrelated questions. The Twelfth International Conference on Learning Representations, 2024.",
+        "date": "Oct 15, 2025",
+        "position": 4
+      },
+      {
+        "title": "Trust Me, I'm Wrong: High-Certainty Hallucinations in LLMs - arXiv",
+        "link": "https://arxiv.org/html/2502.12964v1",
+        "snippet": "How to catch an ai liar: Lie detection in black-box llms by asking unrelated questions. In The Twelfth International Conference on Learning Representations.",
+        "date": "Feb 18, 2025",
+        "position": 5
+      },
+      {
+        "title": "Probing Evaluation Awareness of Language Models - arXiv",
+        "link": "https://arxiv.org/html/2507.01786v1",
+        "snippet": "How to catch an ai liar: Lie detection in black-box llms by asking unrelated questions. Pappu, (2024) Pappu, N. (2024). Ai metrics 101: Measuring the ...",
+        "date": "Jul 2, 2025",
+        "position": 6
+      },
+      {
+        "title": "[PDF] Preference Learning with Lie Detectors can Induce Honesty ... - arXiv",
+        "link": "https://arxiv.org/pdf/2505.13787",
+        "snippet": "How to catch an ai liar: Lie detection in black-box llms by asking unrelated questions. In International Conference on Learning Representations,. 2024. [21] ...",
+        "date": "May 22, 2025",
+        "position": 7
+      },
+      {
+        "title": "Deception and Manipulation in Generative AI - arXiv",
+        "link": "https://arxiv.org/html/2401.11335v1",
+        "snippet": "How to catch an AI liar: Lie detection in black-box LLMs by asking unrelated questions. AI deception: A survey of examples, risks, and potential solutions.",
+        "date": "Jan 20, 2024",
+        "position": 8
+      },
+      {
+        "title": "Challenges with unsupervised LLM knowledge discovery - arXiv",
+        "link": "https://arxiv.org/html/2312.10029v2",
+        "snippet": "Gal, O. Evans, and J. Brauner. How to catch an AI liar: Lie detection in Black-Box LLMs by asking unrelated questions.",
+        "date": "Dec 18, 2023",
+        "position": 9
+      },
+      {
+        "title": "[PDF] Towards mitigating information leakage when evaluating safety ...",
+        "link": "https://arxiv.org/pdf/2509.21344",
+        "snippet": "How to catch an ai liar: Lie detection in black-box llms by asking unrelated questions, 2023. [15] Henry Papadatos and Rachel Freedman. Linear probe ...",
+        "date": "Sep 16, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "How to Catch an AI Liar: Lie Detection in Black-Box LLMs by Asking ...",
+      "snippet": "The detector works by asking a predefined set of unrelated follow-up questions after a suspected lie, and feeding the LLM's yes/no answers into a logistic ...",
+      "link": "https://arxiv.org/abs/2309.15840",
+      "arxiv_id": "2309.15840"
+    },
+    {
+      "rank": 2,
+      "title": "Detecting Strategic Deception Using Linear Probes - arXiv",
+      "snippet": "How to catch an AI liar: Lie detection in black-box LLMs by asking unrelated questions, 2023.",
+      "link": "https://arxiv.org/html/2502.03407v1",
+      "arxiv_id": "2502.03407"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] Predicting the Performance of Black-box LLMs through Follow-up ...",
+      "snippet": "How to catch an AI liar: Lie detection in black-box LLMs by asking unrelated questions. In The Twelfth International Conference on Learning Representations ...",
+      "link": "https://arxiv.org/pdf/2501.01558",
+      "arxiv_id": "2501.01558"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] Mechanistic Interpretability Needs Philosophy - arXiv",
+      "snippet": "How to catch an ai liar: Lie detection in black-box llms by asking unrelated questions. The Twelfth International Conference on Learning Representations, 2024.",
+      "link": "https://arxiv.org/pdf/2506.18852",
+      "arxiv_id": "2506.18852"
+    },
+    {
+      "rank": 5,
+      "title": "Trust Me, I'm Wrong: High-Certainty Hallucinations in LLMs - arXiv",
+      "snippet": "How to catch an ai liar: Lie detection in black-box llms by asking unrelated questions. In The Twelfth International Conference on Learning Representations.",
+      "link": "https://arxiv.org/html/2502.12964v1",
+      "arxiv_id": "2502.12964"
+    },
+    {
+      "rank": 6,
+      "title": "Probing Evaluation Awareness of Language Models - arXiv",
+      "snippet": "How to catch an ai liar: Lie detection in black-box llms by asking unrelated questions. Pappu, (2024) Pappu, N. (2024). Ai metrics 101: Measuring the ...",
+      "link": "https://arxiv.org/html/2507.01786v1",
+      "arxiv_id": "2507.01786"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] Preference Learning with Lie Detectors can Induce Honesty ... - arXiv",
+      "snippet": "How to catch an ai liar: Lie detection in black-box llms by asking unrelated questions. In International Conference on Learning Representations,. 2024. [21] ...",
+      "link": "https://arxiv.org/pdf/2505.13787",
+      "arxiv_id": "2505.13787"
+    },
+    {
+      "rank": 8,
+      "title": "Deception and Manipulation in Generative AI - arXiv",
+      "snippet": "How to catch an AI liar: Lie detection in black-box LLMs by asking unrelated questions. AI deception: A survey of examples, risks, and potential solutions.",
+      "link": "https://arxiv.org/html/2401.11335v1",
+      "arxiv_id": "2401.11335"
+    },
+    {
+      "rank": 9,
+      "title": "Challenges with unsupervised LLM knowledge discovery - arXiv",
+      "snippet": "Gal, O. Evans, and J. Brauner. How to catch an AI liar: Lie detection in Black-Box LLMs by asking unrelated questions.",
+      "link": "https://arxiv.org/html/2312.10029v2",
+      "arxiv_id": "2312.10029"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] Towards mitigating information leakage when evaluating safety ...",
+      "snippet": "How to catch an ai liar: Lie detection in black-box llms by asking unrelated questions, 2023. [15] Henry Papadatos and Rachel Freedman. Linear probe ...",
+      "link": "https://arxiv.org/pdf/2509.21344",
+      "arxiv_id": "2509.21344"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:35.940687+00:00",
+  "elapsed_seconds": 1.1108343191444874
+}

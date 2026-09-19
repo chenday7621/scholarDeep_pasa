@@ -1,0 +1,57 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 42,
+  "question_id": "Q42",
+  "group": "inline-citation",
+  "native_query_index": 4,
+  "native_query": "Pre-trained multilingual text-to-text transformer for text summarization",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "2010.11934",
+  "page": 5,
+  "payload": {
+    "q": "Pre-trained multilingual text-to-text transformer for text summarization before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 5
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 42,
+  "started_utc": "2026-09-17T12:45:22.860721+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648845",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "ecd7b52188a6bb9d4c07285ad872b78a",
+    "date": "Thu, 17 Sep 2026 12:40:43 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "211",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 211,
+  "response_bytes_sha256": "7578c7c35791f4be0c49aa5c4b2323181c1b2989f70ce80ebc06f6a00ccddf45",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJQcmUtdHJhaW5lZCBtdWx0aWxpbmd1YWwgdGV4dC10by10ZXh0IHRyYW5zZm9ybWVyIGZvciB0ZXh0IHN1bW1hcml6YXRpb24gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6NSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOltdLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Pre-trained multilingual text-to-text transformer for text summarization before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 5,
+      "engine": "google"
+    },
+    "organic": [],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:45:23.485846+00:00",
+  "elapsed_seconds": 0.6251636557281017
+}

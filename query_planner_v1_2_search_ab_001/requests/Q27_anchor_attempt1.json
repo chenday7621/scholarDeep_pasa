@@ -1,0 +1,118 @@
+{
+  "global_attempt_sequence": 167,
+  "query_id": "Q27",
+  "query_key": "anchor",
+  "attempt": 1,
+  "query_text": "Show me research on rejection sampling finetuning.",
+  "request_payload": {
+    "q": "Show me research on rejection sampling finetuning. before:2024-09-24 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q27_anchor_attempt1.json",
+  "started_utc": "2026-09-15T06:28:09.236476+00:00",
+  "http_status": 200,
+  "response_text": "{\"searchParameters\":{\"q\":\"Show me research on rejection sampling finetuning. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.10038v2\",\"snippet\":\"Extensive experiments show the effectiveness of RS-DPO compared to existing methods including rejection sampling (RS), proximal policy optimization (PPO)\",\"date\":\"Mar 30, 2024\",\"position\":1},{\"title\":\"[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2307.09288\",\"snippet\":\"In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ...\",\"date\":\"Jul 19, 2023\",\"position\":2},{\"title\":\"[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024\",\"link\":\"https://arxiv.org/pdf/2402.03300\",\"snippet\":\"Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions.\",\"date\":\"Apr 27, 2024\",\"position\":3},{\"title\":\"[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024\",\"link\":\"https://arxiv.org/pdf/2404.17140\",\"snippet\":\"Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated.\",\"date\":\"Jun 6, 2024\",\"position\":4},{\"title\":\"Detecting and Preventing Hallucinations in Large Vision Language ...\",\"link\":\"https://arxiv.org/html/2308.06394v3\",\"snippet\":\"We perform human evaluation on both FDPO and rejection sampling, and find that they reduce hallucination rates in InstructBLIP by 41% and 55% respectively.\",\"date\":\"Feb 11, 2024\",\"position\":5},{\"title\":\"Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...\",\"link\":\"https://arxiv.org/html/2405.11870v1\",\"snippet\":\"Our experiments show that IFT performs comparably or even superiorly to sequential recipes of SFT and some typical alignment methods across several tasks, ...\",\"date\":\"May 20, 2024\",\"position\":6},{\"title\":\"V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv\",\"link\":\"https://arxiv.org/html/2402.06457v2\",\"snippet\":\"Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the training dataset 𝒟 SFT \\\\mathcal{D}_{\\\\text{SFT}} to obtain ...\",\"date\":\"Aug 14, 2024\",\"position\":7},{\"title\":\"Policy Filtration in RLHF to Fine-Tune LLM for Code Generation - arXiv\",\"link\":\"https://arxiv.org/html/2409.06957v1\",\"snippet\":\"Reject sampling is a simple but surprisingly strong inference-time strategy, fine-tuning LLMs. Reject sampling (or best-of-N sampling) is a popular and ...\",\"date\":\"Sep 11, 2024\",\"sitelinks\":[{\"title\":\"Policy Filtration In Rlhf To...\",\"link\":\"https://arxiv.org/html/2409.06957v1#:~:text=2024-,Policy%20Filtration%20in%20RLHF%20to%20Fine%2DTune%20LLM\"},{\"title\":\"2 Preliminary\",\"link\":\"https://arxiv.org/html/2409.06957v1#:~:text=2%20Preliminary,-Notations.%20We%20use%20%28\"},{\"title\":\"5 Experiments\",\"link\":\"https://arxiv.org/html/2409.06957v1#:~:text=.-,5%20Experiments\"}],\"position\":8},{\"title\":\"[PDF] A Lightweight Approach to Reward Maximization for Language Models\",\"link\":\"https://arxiv.org/pdf/2402.14688\",\"snippet\":\"Rejection sampling + finetuning. Another line of work finetunes or distills models on top of data that is acquired by rejection sampling (Singh et al., 2023 ...\",\"date\":\"Jun 2, 2024\",\"position\":9},{\"title\":\"[PDF] CPSample: Classifier Protected Sampling for Guarding Training ...\",\"link\":\"https://arxiv.org/pdf/2409.07025?\",\"snippet\":\"We show that CPSample behaves like a built-in rejection sampler, and we demonstrate its capabilities to prevent mode collapse in Stable Diffusion. 1 ...\",\"date\":\"Sep 11, 2024\",\"position\":10}],\"credits\":1}",
+  "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTaG93IG1lIHJlc2VhcmNoIG9uIHJlamVjdGlvbiBzYW1wbGluZyBmaW5ldHVuaW5nLiBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJSUy1EUE86IEEgSHlicmlkIFJlamVjdGlvbiBTYW1wbGluZyBhbmQgRGlyZWN0IFByZWZlcmVuY2UgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjEwMDM4djIiLCJzbmlwcGV0IjoiRXh0ZW5zaXZlIGV4cGVyaW1lbnRzIHNob3cgdGhlIGVmZmVjdGl2ZW5lc3Mgb2YgUlMtRFBPIGNvbXBhcmVkIHRvIGV4aXN0aW5nIG1ldGhvZHMgaW5jbHVkaW5nIHJlamVjdGlvbiBzYW1wbGluZyAoUlMpLCBwcm94aW1hbCBwb2xpY3kgb3B0aW1pemF0aW9uIChQUE8pIiwiZGF0ZSI6Ik1hciAzMCwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiW1BERl0gTGxhbWEgMjogT3BlbiBGb3VuZGF0aW9uIGFuZCBGaW5lLVR1bmVkIENoYXQgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDcuMDkyODgiLCJzbmlwcGV0IjoiSW4gUmVqZWN0aW9uIFNhbXBsaW5nIGZpbmUtdHVuaW5nLCB3ZSBzYW1wbGUgYWxsIHRoZSBvdXRwdXRzIGdpdmVuIHRoZSBpbml0aWFsIHBvbGljeSBvZiBvdXIgbW9kZWwgdG8gY29sbGVjdCBhIG5ldyBkYXRhc2V0LCBiZWZvcmUgYXBwbHlpbmcgdGhlIGZpbmUtdHVuaW5nIC4uLiIsImRhdGUiOiJKdWwgMTksIDIwMjMiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDIuMDMzMDB2MyBbY3MuQ0xdIDI3IEFwciAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAyLjAzMzAwIiwic25pcHBldCI6IlJlamVjdGlvbiBTYW1wbGluZyBGaW5lLXR1bmluZyAoUkZUKTogUkZUIGZ1cnRoZXIgZmluZS10dW5lcyB0aGUgU0ZUIG1vZGVsIG9uIHRoZSBmaWx0ZXJlZCBvdXRwdXRzIHNhbXBsZWQgZnJvbSB0aGUgU0ZUIG1vZGVsIGJhc2VkIG9uIFNGVCBxdWVzdGlvbnMuIiwiZGF0ZSI6IkFwciAyNywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwNC4xNzE0MHYyIFtjcy5DTF0gNiBKdW4gMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNC4xNzE0MCIsInNuaXBwZXQiOiJPdXIgYXBwcm9hY2ggaXMgaW5zcGlyZWQgYnkgcmVqZWN0aW9uIHNhbXBsaW5nIGZpbmUtIHR1bmluZyAoUkZUKTogc2FtcGxpbmcgZGl2ZXJzZSBzb2x1dGlvbnMgZm9yIGVhY2ggcXVlc3Rpb24gYW5kIGZpbmUtdHVuZSBMTE1zIG9uIHRoZSBzZWxmLWdlbmVyYXRlZC4iLCJkYXRlIjoiSnVuIDYsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkRldGVjdGluZyBhbmQgUHJldmVudGluZyBIYWxsdWNpbmF0aW9ucyBpbiBMYXJnZSBWaXNpb24gTGFuZ3VhZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4wNjM5NHYzIiwic25pcHBldCI6IldlIHBlcmZvcm0gaHVtYW4gZXZhbHVhdGlvbiBvbiBib3RoIEZEUE8gYW5kIHJlamVjdGlvbiBzYW1wbGluZywgYW5kIGZpbmQgdGhhdCB0aGV5IHJlZHVjZSBoYWxsdWNpbmF0aW9uIHJhdGVzIGluIEluc3RydWN0QkxJUCBieSA0MSUgYW5kIDU1JSByZXNwZWN0aXZlbHkuIiwiZGF0ZSI6IkZlYiAxMSwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiSW50dWl0aXZlIEZpbmUtVHVuaW5nOiBUb3dhcmRzIFVuaWZ5aW5nIFNGVCBhbmQgUkxIRiBpbnRvIGEgU2luZ2xlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMTE4NzB2MSIsInNuaXBwZXQiOiJPdXIgZXhwZXJpbWVudHMgc2hvdyB0aGF0IElGVCBwZXJmb3JtcyBjb21wYXJhYmx5IG9yIGV2ZW4gc3VwZXJpb3JseSB0byBzZXF1ZW50aWFsIHJlY2lwZXMgb2YgU0ZUIGFuZCBzb21lIHR5cGljYWwgYWxpZ25tZW50IG1ldGhvZHMgYWNyb3NzIHNldmVyYWwgdGFza3MsIC4uLiIsImRhdGUiOiJNYXkgMjAsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlYtU1RhUjogVHJhaW5pbmcgVmVyaWZpZXJzIGZvciBTZWxmLVRhdWdodCBSZWFzb25lcnMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDY0NTd2MiIsInNuaXBwZXQiOiJSZWplY3Rpb24gU2FtcGxpbmcgRmluZS10dW5pbmcgKFl1YW4gZXQgYWwuLCAyMDIzLCBSRlQ7KSBmaXJzdCBmaW5lLXR1bmVzIGEgcHJldHJhaW5lZCBMTSBvbiB0aGUgdHJhaW5pbmcgZGF0YXNldCDwnZKfIFNGVCBcXG1hdGhjYWx7RH1fe1xcdGV4dHtTRlR9fSB0byBvYnRhaW4gLi4uIiwiZGF0ZSI6IkF1ZyAxNCwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiUG9saWN5IEZpbHRyYXRpb24gaW4gUkxIRiB0byBGaW5lLVR1bmUgTExNIGZvciBDb2RlIEdlbmVyYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDkuMDY5NTd2MSIsInNuaXBwZXQiOiJSZWplY3Qgc2FtcGxpbmcgaXMgYSBzaW1wbGUgYnV0IHN1cnByaXNpbmdseSBzdHJvbmcgaW5mZXJlbmNlLXRpbWUgc3RyYXRlZ3ksIGZpbmUtdHVuaW5nIExMTXMuIFJlamVjdCBzYW1wbGluZyAob3IgYmVzdC1vZi1OIHNhbXBsaW5nKSBpcyBhIHBvcHVsYXIgYW5kIC4uLiIsImRhdGUiOiJTZXAgMTEsIDIwMjQiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiUG9saWN5IEZpbHRyYXRpb24gSW4gUmxoZiBUby4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDkuMDY5NTd2MSM6fjp0ZXh0PTIwMjQtLFBvbGljeSUyMEZpbHRyYXRpb24lMjBpbiUyMFJMSEYlMjB0byUyMEZpbmUlMkRUdW5lJTIwTExNIn0seyJ0aXRsZSI6IjIgUHJlbGltaW5hcnkiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA5LjA2OTU3djEjOn46dGV4dD0yJTIwUHJlbGltaW5hcnksLU5vdGF0aW9ucy4lMjBXZSUyMHVzZSUyMCUyOCJ9LHsidGl0bGUiOiI1IEV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOS4wNjk1N3YxIzp+OnRleHQ9Li0sNSUyMEV4cGVyaW1lbnRzIn1dLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIEEgTGlnaHR3ZWlnaHQgQXBwcm9hY2ggdG8gUmV3YXJkIE1heGltaXphdGlvbiBmb3IgTGFuZ3VhZ2UgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAyLjE0Njg4Iiwic25pcHBldCI6IlJlamVjdGlvbiBzYW1wbGluZyArIGZpbmV0dW5pbmcuIEFub3RoZXIgbGluZSBvZiB3b3JrIGZpbmV0dW5lcyBvciBkaXN0aWxscyBtb2RlbHMgb24gdG9wIG9mIGRhdGEgdGhhdCBpcyBhY3F1aXJlZCBieSByZWplY3Rpb24gc2FtcGxpbmcgKFNpbmdoIGV0IGFsLiwgMjAyMyAuLi4iLCJkYXRlIjoiSnVuIDIsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIENQU2FtcGxlOiBDbGFzc2lmaWVyIFByb3RlY3RlZCBTYW1wbGluZyBmb3IgR3VhcmRpbmcgVHJhaW5pbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA5LjA3MDI1PyIsInNuaXBwZXQiOiJXZSBzaG93IHRoYXQgQ1BTYW1wbGUgYmVoYXZlcyBsaWtlIGEgYnVpbHQtaW4gcmVqZWN0aW9uIHNhbXBsZXIsIGFuZCB3ZSBkZW1vbnN0cmF0ZSBpdHMgY2FwYWJpbGl0aWVzIHRvIHByZXZlbnQgbW9kZSBjb2xsYXBzZSBpbiBTdGFibGUgRGlmZnVzaW9uLiAxIC4uLiIsImRhdGUiOiJTZXAgMTEsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "response_sha256": "613c729ca67cb11f67c4b74133d839e57979a93495c0d2928f340996dfc246eb",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Show me research on rejection sampling finetuning. before:2024-09-24 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+        "link": "https://arxiv.org/html/2402.10038v2",
+        "snippet": "Extensive experiments show the effectiveness of RS-DPO compared to existing methods including rejection sampling (RS), proximal policy optimization (PPO)",
+        "date": "Mar 30, 2024",
+        "position": 1
+      },
+      {
+        "title": "[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv",
+        "link": "https://arxiv.org/pdf/2307.09288",
+        "snippet": "In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ...",
+        "date": "Jul 19, 2023",
+        "position": 2
+      },
+      {
+        "title": "[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024",
+        "link": "https://arxiv.org/pdf/2402.03300",
+        "snippet": "Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions.",
+        "date": "Apr 27, 2024",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024",
+        "link": "https://arxiv.org/pdf/2404.17140",
+        "snippet": "Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated.",
+        "date": "Jun 6, 2024",
+        "position": 4
+      },
+      {
+        "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+        "link": "https://arxiv.org/html/2308.06394v3",
+        "snippet": "We perform human evaluation on both FDPO and rejection sampling, and find that they reduce hallucination rates in InstructBLIP by 41% and 55% respectively.",
+        "date": "Feb 11, 2024",
+        "position": 5
+      },
+      {
+        "title": "Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...",
+        "link": "https://arxiv.org/html/2405.11870v1",
+        "snippet": "Our experiments show that IFT performs comparably or even superiorly to sequential recipes of SFT and some typical alignment methods across several tasks, ...",
+        "date": "May 20, 2024",
+        "position": 6
+      },
+      {
+        "title": "V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv",
+        "link": "https://arxiv.org/html/2402.06457v2",
+        "snippet": "Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the training dataset 𝒟 SFT \\mathcal{D}_{\\text{SFT}} to obtain ...",
+        "date": "Aug 14, 2024",
+        "position": 7
+      },
+      {
+        "title": "Policy Filtration in RLHF to Fine-Tune LLM for Code Generation - arXiv",
+        "link": "https://arxiv.org/html/2409.06957v1",
+        "snippet": "Reject sampling is a simple but surprisingly strong inference-time strategy, fine-tuning LLMs. Reject sampling (or best-of-N sampling) is a popular and ...",
+        "date": "Sep 11, 2024",
+        "sitelinks": [
+          {
+            "title": "Policy Filtration In Rlhf To...",
+            "link": "https://arxiv.org/html/2409.06957v1#:~:text=2024-,Policy%20Filtration%20in%20RLHF%20to%20Fine%2DTune%20LLM"
+          },
+          {
+            "title": "2 Preliminary",
+            "link": "https://arxiv.org/html/2409.06957v1#:~:text=2%20Preliminary,-Notations.%20We%20use%20%28"
+          },
+          {
+            "title": "5 Experiments",
+            "link": "https://arxiv.org/html/2409.06957v1#:~:text=.-,5%20Experiments"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "[PDF] A Lightweight Approach to Reward Maximization for Language Models",
+        "link": "https://arxiv.org/pdf/2402.14688",
+        "snippet": "Rejection sampling + finetuning. Another line of work finetunes or distills models on top of data that is acquired by rejection sampling (Singh et al., 2023 ...",
+        "date": "Jun 2, 2024",
+        "position": 9
+      },
+      {
+        "title": "[PDF] CPSample: Classifier Protected Sampling for Guarding Training ...",
+        "link": "https://arxiv.org/pdf/2409.07025?",
+        "snippet": "We show that CPSample behaves like a built-in rejection sampler, and we demonstrate its capabilities to prevent mode collapse in Stable Diffusion. 1 ...",
+        "date": "Sep 11, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "status": "PASS",
+  "finished_utc": "2026-09-15T06:28:10.173126+00:00",
+  "elapsed_seconds": 0.9366478025913239
+}

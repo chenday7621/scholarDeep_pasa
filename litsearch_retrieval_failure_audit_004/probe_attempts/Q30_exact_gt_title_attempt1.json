@@ -1,0 +1,197 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q30",
+  "group": "inline-citation",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2101.00190",
+  "request_payload": {
+    "q": "Prefix-Tuning: Optimizing Continuous Prompts for Generation before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 61,
+  "started_utc": "2026-09-17T12:34:33.772717+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648195",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "4ffabf4fe918b067ef4e195cadbc4e12",
+    "date": "Thu, 17 Sep 2026 12:29:54 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3383",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3383,
+  "response_bytes_sha256": "d8909aee8a5c6a3b4842af10c3e4e7ebb7fb7ea6915534149ab6f5a7142c5191",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJQcmVmaXgtVHVuaW5nOiBPcHRpbWl6aW5nIENvbnRpbnVvdXMgUHJvbXB0cyBmb3IgR2VuZXJhdGlvbiBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJQcmVmaXgtVHVuaW5nOiBPcHRpbWl6aW5nIENvbnRpbnVvdXMgUHJvbXB0cyBmb3IgR2VuZXJhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMTAxLjAwMTkwIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHByb3Bvc2UgcHJlZml4LXR1bmluZywgYSBsaWdodHdlaWdodCBhbHRlcm5hdGl2ZSB0byBmaW5lLXR1bmluZyBmb3IgbmF0dXJhbCBsYW5ndWFnZSBnZW5lcmF0aW9uIHRhc2tzLCB3aGljaCBrZWVwcyBsYW5ndWFnZSBtb2RlbCBwYXJhbWV0ZXJzIC4uLiIsImRhdGUiOiJKYW4gMSwgMjAyMSIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjEwMS4wMDE5MHYxIFtjcy5DTF0gMSBKYW4gMjAyMSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjEwMS4wMDE5MCIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIHByZWZpeC10dW5pbmcsIGEgbGlnaHR3ZWlnaHQgYWx0ZXJuYXRpdmUgdG8gZmluZS10dW5pbmcgZm9yIG5hdC0gdXJhbCBsYW5ndWFnZSBnZW5lcmF0aW9uIHRhc2tzLCB3aGljaCBrZWVwcyBsYW5ndWFnZSBtb2RlbCBwYXJhbWV0ZXJzIC4uLiIsImRhdGUiOiJKYW4gMSwgMjAyMSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiUHJlZml4LVR1bmluZys6IE1vZGVybml6aW5nIFByZWZpeC1UdW5pbmcgdGhyb3VnaCBBdHRlbnRpb24gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA2LjEzNjc0djEiLCJzbmlwcGV0IjoiUHJlZml4LVR1bmluZywgYW4gZWFybHkgYW5kIGVmZmVjdGl2ZSBQRUZUIHRlY2huaXF1ZSwgZGVtb25zdHJhdGVkIHRoZSBhYmlsaXR5IHRvIGFjaGlldmUgcGVyZm9ybWFuY2UgY29tcGFyYWJsZSB0byBmdWxsIGZpbmUtdHVuaW5nIHdpdGggc2lnbmlmaWNhbnRseSByZWR1Y2VkIC4uLiIsImRhdGUiOiJKdW4gMTYsIDIwMjUiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IldoZW4gRG8gUHJvbXB0aW5nIGFuZCBQcmVmaXgtVHVuaW5nIFdvcms/IEEgVGhlb3J5IG9mIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMC4xOTY5OHYyIiwic25pcHBldCI6IlRoZSBzdWNjZXNzIG9mIHNvZnQgcHJvbXB0aW5nIChhbmQgcHJlZml4LXR1bmluZykgaXMgY29tbW9ubHkgYXR0cmlidXRlZCB0byB0aGUgbGFyZ2VyIGNhcGFjaXR5IG9mIHRoZSBjb250aW51b3VzIGVtYmVkZGluZ3MgY29tcGFyZWQgdG8gdGhlIGZpbml0ZSB0b2tlbnMuIFlldCwgLi4uIiwiZGF0ZSI6IkFwciA5LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDEwLjAyMjAwdjUgW2NzLkxHXSAyIEFwciAyMDI1IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDEwLjAyMjAwIiwic25pcHBldCI6IlByb21wdC1iYXNlZCB0ZWNobmlxdWVzLCBzdWNoIGFzIHByb21wdC10dW5pbmcgYW5kIHByZWZpeC10dW5pbmcsIGhhdmUgZ2FpbmVkIHByb21pbmVuY2UgZm9yIHRoZWlyIGVmZmljaWVuY3kgaW4gZmluZS10dW5pbmcgbGFyZ2UgcHJlLXRyYWluZWQgbW9kZWxzLiIsImRhdGUiOiJBcHIgMiwgMjAyNSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiTGVhcm5pbmcgQ29udGV4dHVhbGl6ZWQgUHJvbXB0cyBmb3IgTmF0dXJhbCBMYW5ndWFnZSBHZW5lcmF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwMS4wODY3MHYyIiwic25pcHBldCI6IlRvIGFkZHJlc3MgdGhpcyBpc3N1ZSwgd2UgcHJvcG9zZSBhIG5vdmVsIGNvbnRpbnVvdXMgcHJvbXB0aW5nIGFwcHJvYWNoLCBjYWxsZWQgY29udGV4dC10dW5pbmcsIHRvIGZpbmUtdHVuaW5nIFBMTXMgZm9yIG5hdHVyYWwgbGFuZ3VhZ2UgZ2VuZXJhdGlvbi4iLCJkYXRlIjoiT2N0IDMsIDIwMjIiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkEgU3VydmV5IG9uIFByb21wdCBUdW5pbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDcuMDYwODV2MSIsInNuaXBwZXQiOiJVbmxpa2UgcHJvbXB0IHR1bmluZyB0aGF0IG9ubHkgb3B0aW1pemVzIGVtYmVkZGluZ3MgYXQgdGhlIGlucHV0IGxheWVyLCBQcmVmaXgtVHVuaW5nIGRpcmVjdGx5IG9wdGltaXplcyBwcmVmaXgga2V5cyBhbmQgdmFsdWVzIGFjcm9zcyBhbGwgdHJhbnNmb3JtZXIgbGF5ZXJzLiIsImRhdGUiOiJKdWwgOCwgMjAyNSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMxMC4xOTY5OHYyIFtjcy5MR10gOSBBcHIgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMxMC4xOTY5OCIsInNuaXBwZXQiOiJUaGUgc3VjY2VzcyBvZiBzb2Z0IHByb21wdGluZyAoYW5kIHByZWZpeC10dW5pbmcpIGlzIGNvbW1vbmx5IGF0dHJpYnV0ZWQgdG8gdGhlIGxhcmdlciBjYXBhY2l0eSBvZiB0aGUgY29udGludW91cyBlbWJlZGRpbmdzIGNvbXBhcmVkIHRvIHRoZSBmaW5pdGUgdG9rZW5zLiAuLi4iLCJkYXRlIjoiQXByIDksIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkVtYmVkZGluZy10by1QcmVmaXg6IFBhcmFtZXRlci1FZmZpY2llbnQgUGVyc29uYWxpemF0aW9uIGZvciBQcmUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNS4xNzA1MXYxIiwic25pcHBldCI6IlByZWZpeC10dW5pbmc6IE9wdGltaXppbmcgY29udGludW91cyBwcm9tcHRzIGZvciBnZW5lcmF0aW9uLiBhclhpdiBwcmVwcmludCBhclhpdjoyMTAxLjAwMTkwLCAyMDIxLiAoMjgpIFpoaXdlaSBMaSwgR3VvZG9uZyBMb25nLCBKaW5nIEppYW5nLCBhbmQgQ2hlbmdxaSAuLi4iLCJkYXRlIjoiTWF5IDE2LCAyMDI1IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJBIFVuaWZpZWQgRnJhbWV3b3JrIGZvciBQYXJhbWV0ZXItRWZmaWNpZW50IExhbmd1YWdlIE1vZGVsIFR1bmluZyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIxMTAuMDc1Nzd2MyIsInNuaXBwZXQiOiJQcmVmaXgtdHVuaW5nOiBPcHRpbWl6aW5nIGNvbnRpbnVvdXMgcHJvbXB0cyBmb3IgZ2VuZXJhdGlvbi4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDU5dGggQW5udWFsIE1lZXRpbmcgb2YgdGhlIEFzc29jaWF0aW9uIGZvciBDb21wdXRhdGlvbmFsIExpbmd1aXN0aWNzIGFuZCAuLi4iLCJkYXRlIjoiU2VwIDQsIDIwMjIiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Prefix-Tuning: Optimizing Continuous Prompts for Generation before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation - arXiv",
+        "link": "https://arxiv.org/abs/2101.00190",
+        "snippet": "In this paper, we propose prefix-tuning, a lightweight alternative to fine-tuning for natural language generation tasks, which keeps language model parameters ...",
+        "date": "Jan 1, 2021",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2101.00190v1 [cs.CL] 1 Jan 2021",
+        "link": "https://arxiv.org/pdf/2101.00190",
+        "snippet": "In this paper, we propose prefix-tuning, a lightweight alternative to fine-tuning for nat- ural language generation tasks, which keeps language model parameters ...",
+        "date": "Jan 1, 2021",
+        "position": 2
+      },
+      {
+        "title": "Prefix-Tuning+: Modernizing Prefix-Tuning through Attention ... - arXiv",
+        "link": "https://arxiv.org/html/2506.13674v1",
+        "snippet": "Prefix-Tuning, an early and effective PEFT technique, demonstrated the ability to achieve performance comparable to full fine-tuning with significantly reduced ...",
+        "date": "Jun 16, 2025",
+        "position": 3
+      },
+      {
+        "title": "When Do Prompting and Prefix-Tuning Work? A Theory of ... - arXiv",
+        "link": "https://arxiv.org/html/2310.19698v2",
+        "snippet": "The success of soft prompting (and prefix-tuning) is commonly attributed to the larger capacity of the continuous embeddings compared to the finite tokens. Yet, ...",
+        "date": "Apr 9, 2024",
+        "position": 4
+      },
+      {
+        "title": "[PDF] arXiv:2410.02200v5 [cs.LG] 2 Apr 2025",
+        "link": "https://arxiv.org/pdf/2410.02200",
+        "snippet": "Prompt-based techniques, such as prompt-tuning and prefix-tuning, have gained prominence for their efficiency in fine-tuning large pre-trained models.",
+        "date": "Apr 2, 2025",
+        "position": 5
+      },
+      {
+        "title": "Learning Contextualized Prompts for Natural Language Generation",
+        "link": "https://arxiv.org/html/2201.08670v2",
+        "snippet": "To address this issue, we propose a novel continuous prompting approach, called context-tuning, to fine-tuning PLMs for natural language generation.",
+        "date": "Oct 3, 2022",
+        "position": 6
+      },
+      {
+        "title": "A Survey on Prompt Tuning - arXiv",
+        "link": "https://arxiv.org/html/2507.06085v1",
+        "snippet": "Unlike prompt tuning that only optimizes embeddings at the input layer, Prefix-Tuning directly optimizes prefix keys and values across all transformer layers.",
+        "date": "Jul 8, 2025",
+        "position": 7
+      },
+      {
+        "title": "[PDF] arXiv:2310.19698v2 [cs.LG] 9 Apr 2024",
+        "link": "https://arxiv.org/pdf/2310.19698",
+        "snippet": "The success of soft prompting (and prefix-tuning) is commonly attributed to the larger capacity of the continuous embeddings compared to the finite tokens. ...",
+        "date": "Apr 9, 2024",
+        "position": 8
+      },
+      {
+        "title": "Embedding-to-Prefix: Parameter-Efficient Personalization for Pre ...",
+        "link": "https://arxiv.org/html/2505.17051v1",
+        "snippet": "Prefix-tuning: Optimizing continuous prompts for generation. arXiv preprint arXiv:2101.00190, 2021. (28) Zhiwei Li, Guodong Long, Jing Jiang, and Chengqi ...",
+        "date": "May 16, 2025",
+        "position": 9
+      },
+      {
+        "title": "A Unified Framework for Parameter-Efficient Language Model Tuning",
+        "link": "https://arxiv.org/html/2110.07577v3",
+        "snippet": "Prefix-tuning: Optimizing continuous prompts for generation. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and ...",
+        "date": "Sep 4, 2022",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation - arXiv",
+      "snippet": "In this paper, we propose prefix-tuning, a lightweight alternative to fine-tuning for natural language generation tasks, which keeps language model parameters ...",
+      "link": "https://arxiv.org/abs/2101.00190",
+      "arxiv_id": "2101.00190"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2101.00190v1 [cs.CL] 1 Jan 2021",
+      "snippet": "In this paper, we propose prefix-tuning, a lightweight alternative to fine-tuning for nat- ural language generation tasks, which keeps language model parameters ...",
+      "link": "https://arxiv.org/pdf/2101.00190",
+      "arxiv_id": "2101.00190"
+    },
+    {
+      "rank": 3,
+      "title": "Prefix-Tuning+: Modernizing Prefix-Tuning through Attention ... - arXiv",
+      "snippet": "Prefix-Tuning, an early and effective PEFT technique, demonstrated the ability to achieve performance comparable to full fine-tuning with significantly reduced ...",
+      "link": "https://arxiv.org/html/2506.13674v1",
+      "arxiv_id": "2506.13674"
+    },
+    {
+      "rank": 4,
+      "title": "When Do Prompting and Prefix-Tuning Work? A Theory of ... - arXiv",
+      "snippet": "The success of soft prompting (and prefix-tuning) is commonly attributed to the larger capacity of the continuous embeddings compared to the finite tokens. Yet, ...",
+      "link": "https://arxiv.org/html/2310.19698v2",
+      "arxiv_id": "2310.19698"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] arXiv:2410.02200v5 [cs.LG] 2 Apr 2025",
+      "snippet": "Prompt-based techniques, such as prompt-tuning and prefix-tuning, have gained prominence for their efficiency in fine-tuning large pre-trained models.",
+      "link": "https://arxiv.org/pdf/2410.02200",
+      "arxiv_id": "2410.02200"
+    },
+    {
+      "rank": 6,
+      "title": "Learning Contextualized Prompts for Natural Language Generation",
+      "snippet": "To address this issue, we propose a novel continuous prompting approach, called context-tuning, to fine-tuning PLMs for natural language generation.",
+      "link": "https://arxiv.org/html/2201.08670v2",
+      "arxiv_id": "2201.08670"
+    },
+    {
+      "rank": 7,
+      "title": "A Survey on Prompt Tuning - arXiv",
+      "snippet": "Unlike prompt tuning that only optimizes embeddings at the input layer, Prefix-Tuning directly optimizes prefix keys and values across all transformer layers.",
+      "link": "https://arxiv.org/html/2507.06085v1",
+      "arxiv_id": "2507.06085"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] arXiv:2310.19698v2 [cs.LG] 9 Apr 2024",
+      "snippet": "The success of soft prompting (and prefix-tuning) is commonly attributed to the larger capacity of the continuous embeddings compared to the finite tokens. ...",
+      "link": "https://arxiv.org/pdf/2310.19698",
+      "arxiv_id": "2310.19698"
+    },
+    {
+      "rank": 9,
+      "title": "Embedding-to-Prefix: Parameter-Efficient Personalization for Pre ...",
+      "snippet": "Prefix-tuning: Optimizing continuous prompts for generation. arXiv preprint arXiv:2101.00190, 2021. (28) Zhiwei Li, Guodong Long, Jing Jiang, and Chengqi ...",
+      "link": "https://arxiv.org/html/2505.17051v1",
+      "arxiv_id": "2505.17051"
+    },
+    {
+      "rank": 10,
+      "title": "A Unified Framework for Parameter-Efficient Language Model Tuning",
+      "snippet": "Prefix-tuning: Optimizing continuous prompts for generation. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and ...",
+      "link": "https://arxiv.org/html/2110.07577v3",
+      "arxiv_id": "2110.07577"
+    }
+  ],
+  "gold_hit_ranks": [
+    1,
+    2
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:34.626551+00:00",
+  "elapsed_seconds": 0.8538349606096745
+}

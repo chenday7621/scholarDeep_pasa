@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q31",
+  "group": "inline-citation",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2007.02871",
+  "request_payload": {
+    "q": "DART: Open-Domain Structured Data Record to Text Generation before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 64,
+  "started_utc": "2026-09-17T12:34:37.575573+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648200",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "d67650b5d2ddce38ef4e195cadbc4177",
+    "date": "Thu, 17 Sep 2026 12:29:59 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3291",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3291,
+  "response_bytes_sha256": "538925b164135818bb3bf54446205e2eaeea1247d4c6c741858214319f95f7d1",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJEQVJUOiBPcGVuLURvbWFpbiBTdHJ1Y3R1cmVkIERhdGEgUmVjb3JkIHRvIFRleHQgR2VuZXJhdGlvbiBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJEQVJUOiBPcGVuLURvbWFpbiBTdHJ1Y3R1cmVkIERhdGEgUmVjb3JkIHRvIFRleHQgR2VuZXJhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjAwNy4wMjg3MSIsInNuaXBwZXQiOiJBYnN0cmFjdDpXZSBwcmVzZW50IERBUlQsIGFuIG9wZW4gZG9tYWluIHN0cnVjdHVyZWQgREF0YSBSZWNvcmQgdG8gVGV4dCBnZW5lcmF0aW9uIGRhdGFzZXQgd2l0aCBvdmVyIDgyayBpbnN0YW5jZXMgKERBUlRzKS4gRGF0YS10by1UZXh0IGFubm90YXRpb25zIGNhbiBiZSAuLi4iLCJkYXRlIjoiSnVsIDYsIDIwMjAiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkZlVGFRQTogRnJlZS1mb3JtIFRhYmxlIFF1ZXN0aW9uIEFuc3dlcmluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjEwNC4wMDM2OXYxIiwic25pcHBldCI6IkRBUlQgTmFuIGV0IGFsLiAoMjAyMSkgaXMgYW4gb3Blbi1kb21haW4gRGF0YS10by1UZXh0IGRhdGFzZXQgdGhhdCBjb250YWlucyB0YWJsZS1vbnRvbG9neS1wcmVzZXJ2aW5nIGRhdGEgc2FtcGxlcyB3aXRoIGRpdmVyc2UgcHJlZGljYXRlIHNldCBvY2N1cnJlZCBpbiAuLi4iLCJkYXRlIjoiQXByIDEsIDIwMjEiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkxhcmdlIExhbmd1YWdlIE1vZGVscyBhcmUgZmV3KDEpLXNob3QgVGFibGUgUmVhc29uZXJzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjEwLjA2NzEwdjIiLCJzbmlwcGV0IjoiRGFydDogT3Blbi1kb21haW4gc3RydWN0dXJlZCBkYXRhIHJlY29yZCB0byB0ZXh0IGdlbmVyYXRpb24uIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDIxIENvbmZlcmVuY2Ugb2YgdGhlIE5vcnRoIEFtZXJpY2FuIENoYXB0ZXIgb2YgdGhlIEFzc29jaWF0aW9uIGZvciAuLi4iLCJkYXRlIjoiSmFuIDIzLCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDAyLjE2NjcxdjcgW2NzLkNMXSA3IE9jdCAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAyLjE2NjcxIiwic25pcHBldCI6IkRBUlQ6IE9wZW4tZG9tYWluIHN0cnVjdHVyZWQgZGF0YSByZWNvcmQgdG8gdGV4dCBnZW5lcmF0aW9uLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgMjAyMSBDb25mZXJlbmNlIG9mIHRoZSBOb3J0aCBBbWVyaWNhbiBDaGFwdGVyIG9mIHRoZSBBc3NvY2lhdGlvbiBmb3IuIiwiZGF0ZSI6Ik9jdCA3LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJUYWJ1bGFyIERhdGEgVW5kZXJzdGFuZGluZyB3aXRoIExMTXM6IEEgU3VydmV5IG9mIFJlY2VudCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDguMDAyMTd2MSIsInNuaXBwZXQiOiJEQVJUOiBPcGVuLWRvbWFpbiBzdHJ1Y3R1cmVkIGRhdGEgcmVjb3JkIHRvIHRleHQgZ2VuZXJhdGlvbi4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMjEgQ29uZmVyZW5jZSBvZiB0aGUgTm9ydGggQW1lcmljYW4gQ2hhcHRlciBvZiB0aGUgQXNzb2NpYXRpb24gZm9yIC4uLiIsImRhdGUiOiJKdWwgMzEsIDIwMjUiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MTEuMTQ0NjB2MiBbY3MuQ0xdIDkgRmViIDIwMjUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MTEuMTQ0NjAiLCJzbmlwcGV0IjoiVGhlIHJlbGV2YW50IGRhdGFzZXRzIGZvciB0aGlzIGNhdGVnb3J5IGluY2x1ZGUuIERBUlQgKE5hbiBldCBhbC4sIDIwMjApLiBEYXJ0OiBPcGVuLWRvbWFpbiBzdHJ1Y3R1cmVkIGRhdGEgcmVjb3JkIHRvIHRleHQgZ2VuZXJhdGlvbi4gQSBjb250cm9sbGVkIHRhYmxlLXRvLSAuLi4iLCJkYXRlIjoiRmViIDksIDIwMjUiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI1MDEuMTQ0OTd2MiBbY3MuQ0xdIDE0IEZlYiAyMDI1IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTAxLjE0NDk3Iiwic25pcHBldCI6IkRBUlQ6IE9wZW4tIGRvbWFpbiBzdHJ1Y3R1cmVkIGRhdGEgcmVjb3JkIHRvIHRleHQgZ2VuZXJhdGlvbi4gQnJpZGdpbmcgdGhlIHN0cnVjdHVyYWwgZ2FwIGJldHdlZW4gZW5jb2RpbmcgYW5kIGRlY29kaW5nIGZvciBkYXRhLXRvLXRleHQgZ2VuZXJhdGlvbi4iLCJkYXRlIjoiRmViIDE0LCAyMDI1IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDAxLjAxMTgzdjEgW2NzLkNMXSAyIEphbiAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAxLjAxMTgzIiwic25pcHBldCI6IkRBUlQgaXMgYSBsYXJnZSBkYXRhc2V0IGZvciBvcGVuLWRvbWFpbiB0ZXh0IGdlbmVyYXRpb24gdGhhdCB0cmVhdHMgdGhlIGlucHV0IGFzIGEgc2V0IG9mIFJERiBlbnRpdHktcmVsYXRpb24gdHJpcGxlcy4gT3Blbi1kb21haW4gc3RydWN0dXJlZCBkYXRhIHJlY29yZCB0byAuLi4iLCJkYXRlIjoiSmFuIDIsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDEuMTU1NTV2MSBbY3MuQ0xdIDI4IEphbiAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAxLjE1NTU1Iiwic25pcHBldCI6IkRBUlQ6IE9wZW4tZG9tYWluIHN0cnVjdHVyZWQgZGF0YSByZWNvcmQgdG8gdGV4dCBnZW5lcmF0aW9uLiBJbiBQcm9jZWVkLSBpbmdzIG9mIHRoZSAyMDIxIENvbmZlcmVuY2Ugb2YgdGhlIE5vcnRoIEFtZXJpY2FuLiBDaGFwdGVyIG9mIHRoZSBBc3NvY2lhdGlvbiBmb3IgLi4uIiwiZGF0ZSI6IkphbiAyOCwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMwNy4xMDE3MnYzIFtjcy5DTF0gNSBGZWIgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNy4xMDE3MiIsInNuaXBwZXQiOiJEYXJ0OiBPcGVuLWRvbWFpbiBzdHJ1Y3R1cmVkIGRhdGEgcmVjb3JkIHRvIHRleHQgZ2VuZXJhdGlvbi4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMjEuIENvbmZlcmVuY2Ugb2YgdGhlIE5vcnRoIEFtZXJpY2FuIENoYXB0ZXIgb2YgdGhlLiBBc3NvY2lhdGlvbiBmb3IgLi4uIiwiZGF0ZSI6IkZlYiA1LCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "DART: Open-Domain Structured Data Record to Text Generation before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "DART: Open-Domain Structured Data Record to Text Generation",
+        "link": "https://arxiv.org/abs/2007.02871",
+        "snippet": "Abstract:We present DART, an open domain structured DAta Record to Text generation dataset with over 82k instances (DARTs). Data-to-Text annotations can be ...",
+        "date": "Jul 6, 2020",
+        "position": 1
+      },
+      {
+        "title": "FeTaQA: Free-form Table Question Answering - arXiv",
+        "link": "https://arxiv.org/html/2104.00369v1",
+        "snippet": "DART Nan et al. (2021) is an open-domain Data-to-Text dataset that contains table-ontology-preserving data samples with diverse predicate set occurred in ...",
+        "date": "Apr 1, 2021",
+        "position": 2
+      },
+      {
+        "title": "Large Language Models are few(1)-shot Table Reasoners - arXiv",
+        "link": "https://arxiv.org/html/2210.06710v2",
+        "snippet": "Dart: Open-domain structured data record to text generation. In Proceedings of the 2021 Conference of the North American Chapter of the Association for ...",
+        "date": "Jan 23, 2023",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2402.16671v7 [cs.CL] 7 Oct 2024",
+        "link": "https://arxiv.org/pdf/2402.16671",
+        "snippet": "DART: Open-domain structured data record to text generation. In Proceedings of the 2021 Conference of the North American Chapter of the Association for.",
+        "date": "Oct 7, 2024",
+        "position": 4
+      },
+      {
+        "title": "Tabular Data Understanding with LLMs: A Survey of Recent ... - arXiv",
+        "link": "https://arxiv.org/html/2508.00217v1",
+        "snippet": "DART: Open-domain structured data record to text generation. In Proceedings of the 2021 Conference of the North American Chapter of the Association for ...",
+        "date": "Jul 31, 2025",
+        "position": 5
+      },
+      {
+        "title": "[PDF] arXiv:2411.14460v2 [cs.CL] 9 Feb 2025",
+        "link": "https://arxiv.org/pdf/2411.14460",
+        "snippet": "The relevant datasets for this category include. DART (Nan et al., 2020). Dart: Open-domain structured data record to text generation. A controlled table-to- ...",
+        "date": "Feb 9, 2025",
+        "position": 6
+      },
+      {
+        "title": "[PDF] arXiv:2501.14497v2 [cs.CL] 14 Feb 2025",
+        "link": "https://arxiv.org/pdf/2501.14497",
+        "snippet": "DART: Open- domain structured data record to text generation. Bridging the structural gap between encoding and decoding for data-to-text generation.",
+        "date": "Feb 14, 2025",
+        "position": 7
+      },
+      {
+        "title": "[PDF] arXiv:2401.01183v1 [cs.CL] 2 Jan 2024",
+        "link": "https://arxiv.org/pdf/2401.01183",
+        "snippet": "DART is a large dataset for open-domain text generation that treats the input as a set of RDF entity-relation triples. Open-domain structured data record to ...",
+        "date": "Jan 2, 2024",
+        "position": 8
+      },
+      {
+        "title": "[PDF] arXiv:2401.15555v1 [cs.CL] 28 Jan 2024",
+        "link": "https://arxiv.org/pdf/2401.15555",
+        "snippet": "DART: Open-domain structured data record to text generation. In Proceed- ings of the 2021 Conference of the North American. Chapter of the Association for ...",
+        "date": "Jan 28, 2024",
+        "position": 9
+      },
+      {
+        "title": "[PDF] arXiv:2307.10172v3 [cs.CL] 5 Feb 2024",
+        "link": "https://arxiv.org/pdf/2307.10172",
+        "snippet": "Dart: Open-domain structured data record to text generation. In Proceedings of the 2021. Conference of the North American Chapter of the. Association for ...",
+        "date": "Feb 5, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "DART: Open-Domain Structured Data Record to Text Generation",
+      "snippet": "Abstract:We present DART, an open domain structured DAta Record to Text generation dataset with over 82k instances (DARTs). Data-to-Text annotations can be ...",
+      "link": "https://arxiv.org/abs/2007.02871",
+      "arxiv_id": "2007.02871"
+    },
+    {
+      "rank": 2,
+      "title": "FeTaQA: Free-form Table Question Answering - arXiv",
+      "snippet": "DART Nan et al. (2021) is an open-domain Data-to-Text dataset that contains table-ontology-preserving data samples with diverse predicate set occurred in ...",
+      "link": "https://arxiv.org/html/2104.00369v1",
+      "arxiv_id": "2104.00369"
+    },
+    {
+      "rank": 3,
+      "title": "Large Language Models are few(1)-shot Table Reasoners - arXiv",
+      "snippet": "Dart: Open-domain structured data record to text generation. In Proceedings of the 2021 Conference of the North American Chapter of the Association for ...",
+      "link": "https://arxiv.org/html/2210.06710v2",
+      "arxiv_id": "2210.06710"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2402.16671v7 [cs.CL] 7 Oct 2024",
+      "snippet": "DART: Open-domain structured data record to text generation. In Proceedings of the 2021 Conference of the North American Chapter of the Association for.",
+      "link": "https://arxiv.org/pdf/2402.16671",
+      "arxiv_id": "2402.16671"
+    },
+    {
+      "rank": 5,
+      "title": "Tabular Data Understanding with LLMs: A Survey of Recent ... - arXiv",
+      "snippet": "DART: Open-domain structured data record to text generation. In Proceedings of the 2021 Conference of the North American Chapter of the Association for ...",
+      "link": "https://arxiv.org/html/2508.00217v1",
+      "arxiv_id": "2508.00217"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] arXiv:2411.14460v2 [cs.CL] 9 Feb 2025",
+      "snippet": "The relevant datasets for this category include. DART (Nan et al., 2020). Dart: Open-domain structured data record to text generation. A controlled table-to- ...",
+      "link": "https://arxiv.org/pdf/2411.14460",
+      "arxiv_id": "2411.14460"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] arXiv:2501.14497v2 [cs.CL] 14 Feb 2025",
+      "snippet": "DART: Open- domain structured data record to text generation. Bridging the structural gap between encoding and decoding for data-to-text generation.",
+      "link": "https://arxiv.org/pdf/2501.14497",
+      "arxiv_id": "2501.14497"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] arXiv:2401.01183v1 [cs.CL] 2 Jan 2024",
+      "snippet": "DART is a large dataset for open-domain text generation that treats the input as a set of RDF entity-relation triples. Open-domain structured data record to ...",
+      "link": "https://arxiv.org/pdf/2401.01183",
+      "arxiv_id": "2401.01183"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] arXiv:2401.15555v1 [cs.CL] 28 Jan 2024",
+      "snippet": "DART: Open-domain structured data record to text generation. In Proceed- ings of the 2021 Conference of the North American. Chapter of the Association for ...",
+      "link": "https://arxiv.org/pdf/2401.15555",
+      "arxiv_id": "2401.15555"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] arXiv:2307.10172v3 [cs.CL] 5 Feb 2024",
+      "snippet": "Dart: Open-domain structured data record to text generation. In Proceedings of the 2021. Conference of the North American Chapter of the. Association for ...",
+      "link": "https://arxiv.org/pdf/2307.10172",
+      "arxiv_id": "2307.10172"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:38.704720+00:00",
+  "elapsed_seconds": 1.129150003194809
+}

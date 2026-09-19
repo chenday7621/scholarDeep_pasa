@@ -1,0 +1,646 @@
+{
+  "audit": "PASA_CRAWLER_MECHANISM_AUDIT_001",
+  "scope": "Static analysis only; no model execution, training or new retrieval experiment.",
+  "comparison_baseline": "ACL 2025 final, public training source pinned at 7a266d8, local inference at fe89b48",
+  "status_legend": {
+    "MATCH": "Specified narrow mechanism agrees; for global Finish, both explicitly lack that defined feature (MATCH_ABSENCE).",
+    "PARTIAL": "Core concept partly represented but observation/execution/scope differs; does not assert missing training capability.",
+    "MISSING": "Explicit runtime mechanism absent despite paper definition.",
+    "UNCLEAR": "Primary sources do not establish the claimed paper/checkpoint capability; code behavior may still be definite."
+  },
+  "checkpoint_caveat": "Public recipe/source and model card do not prove exact checkpoint training provenance or behavior. Released SFT file could not be downloaded (HTTP 401).",
+  "evidence_catalog": {
+    "P_STATE": {
+      "kind": "paper",
+      "version": "ACL 2025 final",
+      "location": "§4.2, printed pp.11666–11667; token-level MDP/state/functions",
+      "url": "https://aclanthology.org/2025.acl-long.572.pdf#page=5",
+      "local_text": "sources/acl_page_05.txt"
+    },
+    "P_FUN": {
+      "kind": "paper",
+      "version": "ACL 2025 final",
+      "location": "Table 3 and Fig.2, p.11667; Search/Expand/Stop",
+      "url": "https://aclanthology.org/2025.acl-long.572.pdf#page=5",
+      "local_text": "sources/acl_page_05.txt"
+    },
+    "P_REWARD": {
+      "kind": "paper",
+      "version": "ACL 2025 final",
+      "location": "§4.2 Eq.(1), p.11667",
+      "url": "https://aclanthology.org/2025.acl-long.572.pdf#page=5",
+      "local_text": "sources/acl_page_05.txt"
+    },
+    "P_RETURN": {
+      "kind": "paper",
+      "version": "ACL 2025 final",
+      "location": "§4.2 Eq.(2)–(8), p.11668; session definition and return",
+      "url": "https://aclanthology.org/2025.acl-long.572.pdf#page=6",
+      "local_text": "sources/acl_page_06.txt"
+    },
+    "P_SETUP": {
+      "kind": "paper",
+      "version": "ACL 2025 final",
+      "location": "§5.1–5.2, p.11669; Search, paper management, depth cap",
+      "url": "https://aclanthology.org/2025.acl-long.572.pdf#page=7",
+      "local_text": "sources/acl_page_07.txt"
+    },
+    "P_SFT": {
+      "kind": "paper",
+      "version": "ACL 2025 final",
+      "location": "Appendix D.1, Tables 10–11, p.11675",
+      "url": "https://aclanthology.org/2025.acl-long.572.pdf#page=13",
+      "local_text": "sources/acl_page_13.txt"
+    },
+    "P_PPO": {
+      "kind": "paper",
+      "version": "ACL 2025 final",
+      "location": "Appendix D.2, Table 12, p.11676",
+      "url": "https://aclanthology.org/2025.acl-long.572.pdf#page=14",
+      "local_text": "sources/acl_page_14.txt"
+    },
+    "P_COST": {
+      "kind": "paper",
+      "version": "ACL 2025 final",
+      "location": "Appendix G.2, Table 15, p.11677",
+      "url": "https://aclanthology.org/2025.acl-long.572.pdf#page=15",
+      "local_text": "sources/acl_page_15.txt"
+    },
+    "P_GPT": {
+      "kind": "paper",
+      "version": "ACL 2025 final",
+      "location": "Appendix H.2, Table 20, p.11679; GPT-4o baseline",
+      "url": "https://aclanthology.org/2025.acl-long.572.pdf#page=17",
+      "local_text": "sources/acl_page_17.txt"
+    },
+    "C_RUN": {
+      "kind": "local_code",
+      "file": "../paper_agent.py",
+      "line_start": 234,
+      "line_end": 237,
+      "function": "PaperAgent.run",
+      "url": "/home/chenyi/pasa/paper_agent.py:234"
+    },
+    "C_INIT": {
+      "kind": "local_code",
+      "file": "../paper_agent.py",
+      "line_start": 30,
+      "line_end": 71,
+      "function": "PaperAgent.__init__",
+      "url": "/home/chenyi/pasa/paper_agent.py:30"
+    },
+    "C_SEARCH": {
+      "kind": "local_code",
+      "file": "../paper_agent.py",
+      "line_start": 132,
+      "line_end": 136,
+      "function": "PaperAgent.search",
+      "url": "/home/chenyi/pasa/paper_agent.py:132"
+    },
+    "C_SEARCH_PAPER": {
+      "kind": "local_code",
+      "file": "../paper_agent.py",
+      "line_start": 94,
+      "line_end": 130,
+      "function": "PaperAgent.search_paper",
+      "url": "/home/chenyi/pasa/paper_agent.py:94"
+    },
+    "C_CONTEXT": {
+      "kind": "local_code",
+      "file": "../paper_agent.py",
+      "line_start": 138,
+      "line_end": 156,
+      "function": "PaperAgent.get_paper_content",
+      "url": "/home/chenyi/pasa/paper_agent.py:138"
+    },
+    "C_REF": {
+      "kind": "local_code",
+      "file": "../paper_agent.py",
+      "line_start": 158,
+      "line_end": 179,
+      "function": "PaperAgent.search_ref",
+      "url": "/home/chenyi/pasa/paper_agent.py:158"
+    },
+    "C_DOEXP": {
+      "kind": "local_code",
+      "file": "../paper_agent.py",
+      "line_start": 181,
+      "line_end": 221,
+      "function": "PaperAgent.do_expand",
+      "url": "/home/chenyi/pasa/paper_agent.py:181"
+    },
+    "C_EXPAND": {
+      "kind": "local_code",
+      "file": "../paper_agent.py",
+      "line_start": 223,
+      "line_end": 232,
+      "function": "PaperAgent.expand",
+      "url": "/home/chenyi/pasa/paper_agent.py:223"
+    },
+    "C_INFER": {
+      "kind": "local_code",
+      "file": "../models.py",
+      "line_start": 47,
+      "line_end": 72,
+      "function": "Agent.infer",
+      "url": "/home/chenyi/pasa/models.py:47"
+    },
+    "C_BATCH": {
+      "kind": "local_code",
+      "file": "../models.py",
+      "line_start": 74,
+      "line_end": 102,
+      "function": "Agent.batch_infer",
+      "url": "/home/chenyi/pasa/models.py:74"
+    },
+    "C_SELECTOR": {
+      "kind": "local_code",
+      "file": "../models.py",
+      "line_start": 28,
+      "line_end": 45,
+      "function": "Agent.infer_score",
+      "url": "/home/chenyi/pasa/models.py:28"
+    },
+    "C_PROMPT": {
+      "kind": "local_code",
+      "file": "../agent_prompt.json",
+      "line_start": 1,
+      "line_end": 6,
+      "function": "generate_query/select_section/get_selected",
+      "url": "/home/chenyi/pasa/agent_prompt.json:1"
+    },
+    "C_ENTRY": {
+      "kind": "local_code",
+      "file": "../run_paper_agent.py",
+      "line_start": 29,
+      "line_end": 67,
+      "function": "entry point",
+      "url": "/home/chenyi/pasa/run_paper_agent.py:29"
+    },
+    "C_NODE": {
+      "kind": "local_code",
+      "file": "../paper_node.py",
+      "line_start": 14,
+      "line_end": 41,
+      "function": "PaperNode",
+      "url": "/home/chenyi/pasa/paper_node.py:14"
+    },
+    "C_GOOGLE": {
+      "kind": "local_code",
+      "file": "../utils.py",
+      "line_start": 44,
+      "line_end": 81,
+      "function": "google_search_arxiv_id",
+      "url": "/home/chenyi/pasa/utils.py:44"
+    },
+    "C_SECTIONS": {
+      "kind": "local_code",
+      "file": "../utils.py",
+      "line_start": 255,
+      "line_end": 298,
+      "function": "search_section_by_arxiv_id",
+      "url": "/home/chenyi/pasa/utils.py:255"
+    },
+    "C_ID": {
+      "kind": "local_code",
+      "file": "../utils.py",
+      "line_start": 305,
+      "line_end": 351,
+      "function": "search_paper_by_arxiv_id",
+      "url": "/home/chenyi/pasa/utils.py:305"
+    },
+    "C_TITLE": {
+      "kind": "local_code",
+      "file": "../utils.py",
+      "line_start": 658,
+      "line_end": 680,
+      "function": "search_paper_by_title",
+      "url": "/home/chenyi/pasa/utils.py:658"
+    },
+    "C_METRICS": {
+      "kind": "local_code",
+      "file": "../metrics.py",
+      "line_start": 29,
+      "line_end": 49,
+      "function": "offline action/score aggregation",
+      "url": "/home/chenyi/pasa/metrics.py:29"
+    },
+    "C_RECIPE": {
+      "kind": "local_code",
+      "file": "../README.md",
+      "line_start": 205,
+      "line_end": 248,
+      "function": "Crawler PPO command",
+      "url": "/home/chenyi/pasa/README.md:205"
+    },
+    "T_DATA": {
+      "kind": "training_code",
+      "file": "sources/trl/custom_agent/agent_dataset.py",
+      "line_start": 5,
+      "line_end": 42,
+      "function": "prompts and AgentDataset.__init__",
+      "url": "https://github.com/hyc2026/trl/blob/7a266d8b4be2cbce2ae54082ac99ba97037bfd6b/custom_agent/agent_dataset.py#L5-L42"
+    },
+    "T_VM": {
+      "kind": "training_code",
+      "file": "sources/trl/custom_agent/utils.py",
+      "line_start": 47,
+      "line_end": 87,
+      "function": "gen_value_model_prompt/call_vm",
+      "url": "https://github.com/hyc2026/trl/blob/7a266d8b4be2cbce2ae54082ac99ba97037bfd6b/custom_agent/utils.py#L47-L87"
+    },
+    "T_STUB": {
+      "kind": "training_code",
+      "file": "sources/trl/custom_agent/utils.py",
+      "line_start": 116,
+      "line_end": 118,
+      "function": "call_selector",
+      "url": "https://github.com/hyc2026/trl/blob/7a266d8b4be2cbce2ae54082ac99ba97037bfd6b/custom_agent/utils.py#L116-L118"
+    },
+    "T_ACTION": {
+      "kind": "training_code",
+      "file": "sources/trl/custom_agent/utils.py",
+      "line_start": 138,
+      "line_end": 183,
+      "function": "response_handler action parsing",
+      "url": "https://github.com/hyc2026/trl/blob/7a266d8b4be2cbce2ae54082ac99ba97037bfd6b/custom_agent/utils.py#L138-L183"
+    },
+    "T_REWARD": {
+      "kind": "training_code",
+      "file": "sources/trl/custom_agent/utils.py",
+      "line_start": 185,
+      "line_end": 249,
+      "function": "response_handler rewards/dedup/stop",
+      "url": "https://github.com/hyc2026/trl/blob/7a266d8b4be2cbce2ae54082ac99ba97037bfd6b/custom_agent/utils.py#L185-L249"
+    },
+    "T_NEXT": {
+      "kind": "training_code",
+      "file": "sources/trl/custom_agent/utils.py",
+      "line_start": 255,
+      "line_end": 330,
+      "function": "rollout and next-session construction",
+      "url": "https://github.com/hyc2026/trl/blob/7a266d8b4be2cbce2ae54082ac99ba97037bfd6b/custom_agent/utils.py#L255-L330"
+    },
+    "T_LOOP": {
+      "kind": "training_code",
+      "file": "sources/trl/trl/trainer/ppo_trainer.py",
+      "line_start": 366,
+      "line_end": 423,
+      "function": "PPOTrainer.train generation then rollout",
+      "url": "https://github.com/hyc2026/trl/blob/7a266d8b4be2cbce2ae54082ac99ba97037bfd6b/trl/trainer/ppo_trainer.py#L366-L423"
+    },
+    "T_LOSS": {
+      "kind": "training_code",
+      "file": "sources/trl/trl/trainer/ppo_trainer.py",
+      "line_start": 517,
+      "line_end": 542,
+      "function": "KL/GAE rewards",
+      "url": "https://github.com/hyc2026/trl/blob/7a266d8b4be2cbce2ae54082ac99ba97037bfd6b/trl/trainer/ppo_trainer.py#L517-L542"
+    },
+    "T_CONFIG": {
+      "kind": "training_code",
+      "file": "sources/trl/trl/trainer/ppo_config.py",
+      "line_start": 53,
+      "line_end": 76,
+      "function": "PPOConfig defaults",
+      "url": "https://github.com/hyc2026/trl/blob/7a266d8b4be2cbce2ae54082ac99ba97037bfd6b/trl/trainer/ppo_config.py#L53-L76"
+    }
+  },
+  "items": [
+    {
+      "id": "state",
+      "aspect": "state representation",
+      "status": "PARTIAL",
+      "paper_definition": "形式状态=当前 LLM context + paper queue；Sq 为 query-only，Sq+p 为 query+当前论文元信息。并未明确整个 queue 被序列化成 token。",
+      "checkpoint_training_evidence": "公开训练 prompt 为 query-only 或 query+title+abstract+section names；结果论文用于下一 session。",
+      "current_inference": "Python 保存 queue/touch_ids/score/树；Crawler 输入只有 query 或 query+单篇论文元信息，无队列全集、分数、剩余预算。",
+      "discrepancy": "环境 state 与模型可见 observation 不等价；不能把 Python 内存在的数据算成 Crawler 看见的数据。",
+      "evidence_ids": [
+        "P_STATE",
+        "P_RETURN",
+        "T_DATA",
+        "T_NEXT",
+        "C_INIT",
+        "C_CONTEXT",
+        "C_PROMPT"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "actions",
+      "aspect": "action space",
+      "status": "PARTIAL",
+      "paper_definition": "token-level action 是词表；工具层函数为 Search、Expand、Stop。",
+      "checkpoint_training_evidence": "按外部 typ 只解析 Search 或 Expand；StopSearch/StopExpand 被 reward handler 识别。",
+      "current_inference": "Search 阶段只提取 Search 文本；Expand 阶段只提取 Expand 文本；没有统一三动作 dispatcher。",
+      "discrepancy": "声明的函数接口比实际可执行接口宽；标记也不是单独新增 special token 的证据。",
+      "evidence_ids": [
+        "P_STATE",
+        "P_FUN",
+        "T_ACTION",
+        "T_REWARD",
+        "C_INIT",
+        "C_SEARCH",
+        "C_DOEXP"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "search_decision",
+      "aspect": "Search 决策",
+      "status": "PARTIAL",
+      "paper_definition": "根据当前 context 生成 query 调用 Search；训练协议从 Sq 开始。",
+      "checkpoint_training_evidence": "先产生整个 Search session，再 rollout；正常路径随后只构造 Expand session。",
+      "current_inference": "run 固定先且仅调用一次 search；模型决定 query 文本及可解析数量，不能在 Expand 后重启 Search。",
+      "discrepancy": "阶段调度由 Python 决定；论文方法层未明确禁止回搜，但训练描述不支持宣称已学会回搜。",
+      "evidence_ids": [
+        "P_FUN",
+        "P_SFT",
+        "T_LOOP",
+        "C_RUN",
+        "C_SEARCH"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "query_generation",
+      "aspect": "query generation",
+      "status": "MATCH",
+      "paper_definition": "Search session 是多条互补 query 的序列；偏好 survey 是公开 prompt 的一部分。",
+      "checkpoint_training_evidence": "GPT-4o 合成 query 列表再串接 Search 标记；公开训练 prompt 与当前 prompt 同型。",
+      "current_inference": "一次 infer 自回归生成多个 query，regex 后取至多 search_queries=5；尚无外部检索反馈。",
+      "discrepancy": "MATCH 仅指多 query session 生成；不表示 query 质量、固定五条或工具交互能力一致。",
+      "evidence_ids": [
+        "P_SFT",
+        "T_DATA",
+        "C_SEARCH",
+        "C_INFER",
+        "C_PROMPT"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "feedback",
+      "aspect": "retrieval feedback",
+      "status": "PARTIAL",
+      "paper_definition": "结果入 queue，下一 paper session 的输入依赖检索结果；同一 Search session 是否注入逐次结果未明确。",
+      "checkpoint_training_evidence": "batch_generation 先完成，rollout 后执行 Search；下一轮看到新论文元信息而非上一页完整 SERP。",
+      "current_inference": "Search 结果转成论文对象；后续 Expand 看单篇 title/abstract/section keys，初始 query 生成不会被结果修订。",
+      "discrepancy": "有跨 session 结果条件化；没有同 session 的 search→observation→requery 接口。",
+      "evidence_ids": [
+        "P_RETURN",
+        "P_SFT",
+        "T_LOOP",
+        "T_NEXT",
+        "C_SEARCH",
+        "C_CONTEXT",
+        "C_GOOGLE"
+      ],
+      "uncertainty": "论文的通用 state 定义不足以证明具体 SERP observation schema。"
+    },
+    {
+      "id": "alternation",
+      "aspect": "Search/Expand 是否可交替",
+      "status": "UNCLEAR",
+      "paper_definition": "一条任务轨迹包含 Search 和 Expand 已明确；是否支持同 session 混合或 Expand→Search→Expand 自由交替未明确。",
+      "checkpoint_training_evidence": "模板分 Search/Expand 两种；正常 PPO 调度 Search→Expand→Expand。没有受反馈驱动的混合动作训练证据。",
+      "current_inference": "严格 Search phase→若干 Expand layers，没有回 Search 的边。",
+      "discrepancy": "当前代码不支持自由交替是确定事实；把它命名为恢复论文已证明的交替能力则证据不足。",
+      "evidence_ids": [
+        "P_FUN",
+        "P_SFT",
+        "P_PPO",
+        "T_LOOP",
+        "T_ACTION",
+        "C_RUN"
+      ],
+      "uncertainty": "UNCLEAR 指论文是否要求/实现自由交替，不是代码调用链不清楚。"
+    },
+    {
+      "id": "subsection",
+      "aspect": "subsection selection",
+      "status": "PARTIAL",
+      "paper_definition": "模型选 subsection name；工具把该 subsection 引用论文入队。",
+      "checkpoint_training_evidence": "SFT 按引用命中 GT/10% 多样性选择；公开训练按规范化章节名匹配。",
+      "current_inference": "模型选 keys；仅 exact section name 生效，程序展开该节引用标题，再解析、去重、评分。",
+      "discrepancy": "保留核心选择机制；完整引用入队受元数据可用性、本地 resolver、名称匹配限制。",
+      "evidence_ids": [
+        "P_FUN",
+        "P_SFT",
+        "T_ACTION",
+        "C_CONTEXT",
+        "C_DOEXP",
+        "C_REF",
+        "C_TITLE"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "queue",
+      "aspect": "paper queue",
+      "status": "PARTIAL",
+      "paper_definition": "Search/Expand 追加结果；Stop 换下一 paper；Eq.(2) 依全局 Qt 去重。",
+      "checkpoint_training_evidence": "公开 reward 的 searched_paper_set 在每次 response_handler 内新建；下一批论文由 reward/prob 排序取六条。",
+      "current_inference": "queue 为分层列表；以 Selector 分数排序新 frontier；第一层全取，之后最多20，指针越过未取项。",
+      "discrepancy": "不是逐 Stop 驱动的可持续消费队列；训练局部去重也不等于论文全局 Qt。",
+      "evidence_ids": [
+        "P_FUN",
+        "P_RETURN",
+        "T_REWARD",
+        "T_NEXT",
+        "C_EXPAND",
+        "C_NODE"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "stop",
+      "aspect": "Stop 语义",
+      "status": "MISSING",
+      "paper_definition": "结束当前 session：query-only 时结束搜索 session，paper session 时结束当前 paper；context reset 到 query+下一 paper。",
+      "checkpoint_training_evidence": "训练识别 StopSearch/StopExpand 并给 stop 位置奖励；不是 global Finish。",
+      "current_inference": "没有 Stop parser 或分支；生成由 EOS/token cap 结束，Python 固定执行后续调度；空 Expand 列表仅间接跳过该 paper。",
+      "discrepancy": "缺失的是 Stop 的显式运行时语义，不是说模型不会输出停止标记或不能少选章节。",
+      "evidence_ids": [
+        "P_FUN",
+        "P_RETURN",
+        "T_REWARD",
+        "C_INFER",
+        "C_BATCH",
+        "C_DOEXP",
+        "C_RUN"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "finish",
+      "aspect": "global Finish",
+      "status": "MATCH",
+      "paper_definition": "未定义明确的可学习 global Finish；Stop 不等于任务完成，实践另有深度限制。",
+      "checkpoint_training_evidence": "未见 global Finish 动作或模型输入的总预算；训练以 rounds/长度等外部界限截止。",
+      "current_inference": "run 在固定 layers 迭代后返回；模型无整体结束任务动作。",
+      "discrepancy": "共同缺席（MATCH_ABSENCE）；不能作为已有 Finish 的恢复。",
+      "evidence_ids": [
+        "P_FUN",
+        "P_SETUP",
+        "P_PPO",
+        "T_LOOP",
+        "T_CONFIG",
+        "C_RUN"
+      ],
+      "uncertainty": "论文对 queue 耗尽等所有边界情况没有完整状态机规格。"
+    },
+    {
+      "id": "budget",
+      "aspect": "budget awareness",
+      "status": "PARTIAL",
+      "paper_definition": "cost 是优化目标中的软惩罚；§5.2 有外部探索深度上限，不等于显式剩余预算状态。",
+      "checkpoint_training_evidence": "rounds、max_action、response_length 等外部限制；未见面向模型的 global budget 字段。",
+      "current_inference": "search_queries/search_papers/expand_layers/expand_papers/max_new_tokens 是外部上限，没有预算 observation。",
+      "discrepancy": "两侧均有资源限制，均不能据此声称 budget-aware policy；运行时预算感知是未见于这些证据的新机制。",
+      "evidence_ids": [
+        "P_REWARD",
+        "P_SETUP",
+        "P_PPO",
+        "T_ACTION",
+        "T_LOOP",
+        "T_CONFIG",
+        "C_INIT",
+        "C_INFER"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "cost",
+      "aspect": "action cost",
+      "status": "PARTIAL",
+      "paper_definition": "r=α·新增相关论文数−c；Search/Expand=0.1，Stop=0；附录 G.2 验证降低无效动作。",
+      "checkpoint_training_evidence": "README 覆盖参数匹配论文；公开 handler 又含截断、+cost stop shaping、局部去重和 Selector stub。",
+      "current_inference": "不在线计算 cost 或 reward；训练影响可能保留在输出中；metrics.py 的−0.1是离线统计。",
+      "discrepancy": "无运行时 cost 不是 RL policy 失效的证据；公开训练 reward 不是论文公式的逐项等价实现。",
+      "evidence_ids": [
+        "P_REWARD",
+        "P_PPO",
+        "P_COST",
+        "T_REWARD",
+        "T_STUB",
+        "C_RECIPE",
+        "C_METRICS"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "feedback_loop",
+      "aspect": "multi-step feedback loop",
+      "status": "PARTIAL",
+      "paper_definition": "通过新论文 session 连续探索引用网络；跨 session value 为长期信用分配。",
+      "checkpoint_training_evidence": "有下一轮 paper-context 条件化；无 session 内执行一步再生成一步的外部反馈。",
+      "current_inference": "后层 prompt 依赖前层找到的论文，所以不是完全无反馈；反馈仅在固定分层的论文元信息上。",
+      "discrepancy": "不能称当前 PaSa 完全没有 multi-step；缺少的是统一、可变调度的逐工具反馈闭环。",
+      "evidence_ids": [
+        "P_RETURN",
+        "T_LOOP",
+        "T_NEXT",
+        "C_CONTEXT",
+        "C_EXPAND",
+        "C_RUN"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "trajectory",
+      "aspect": "trajectory execution",
+      "status": "PARTIAL",
+      "paper_definition": "概念上 token MDP + session 分割；展示模板为同类动作串。",
+      "checkpoint_training_evidence": "先 generate 整串再解析执行，与推理批量阶段具有结构相似性。",
+      "current_inference": "两处 generate 都先返回整串，后执行匹配动作；不按文本中的 Search/Expand/Stop 全局顺序解释。",
+      "discrepancy": "概念 token action 执行叙述与实现 generate-then-execute 不等价；也不能把阶段化全部归咎于当前本地补丁。",
+      "evidence_ids": [
+        "P_STATE",
+        "P_FUN",
+        "P_SFT",
+        "T_LOOP",
+        "C_SEARCH",
+        "C_DOEXP",
+        "C_INFER"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "autonomy",
+      "aspect": "inference-time policy autonomy",
+      "status": "PARTIAL",
+      "paper_definition": "模型决定查询与章节，并通过 RL 优化发现相关论文；论文的广义自主描述不能代替具体控制协议。",
+      "checkpoint_training_evidence": "支持两类 session 技能和跨 session value 学习；精确 checkpoint 的任意混合/预算/重查询能力未经证明。",
+      "current_inference": "自主部分=生成 query/选章节/输出数量；调度类型、队列排序、深度、截止、TopK、工具与 Page1 由代码决定。",
+      "discrepancy": "局部策略自主存在，整体调度自主受限。",
+      "evidence_ids": [
+        "P_FUN",
+        "P_SFT",
+        "P_RETURN",
+        "T_LOOP",
+        "C_RUN",
+        "C_EXPAND",
+        "C_GOOGLE"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "long_term",
+      "aspect": "cross-session long-term value",
+      "status": "PARTIAL",
+      "paper_definition": "Eq.(3) 已把新论文的下一 session 估值加入 return，允许经不直接相关论文寻找后续相关文献。",
+      "checkpoint_training_evidence": "call_vm 估计论文 prompt 的值，handler 加 gamma1·value；训练代码的采样/截断另有限制。",
+      "current_inference": "只加载 Crawler/Selector；queue 按 Selector 当前相关性排序，不在推理时调用 value head。",
+      "discrepancy": "长期价值学习本身已属 PaSa；运行时显式长期价值调度并非当前实现，也不能宣称模型完全没有长期倾向。",
+      "evidence_ids": [
+        "P_RETURN",
+        "P_FUN",
+        "T_VM",
+        "T_REWARD",
+        "C_ENTRY",
+        "C_EXPAND",
+        "C_NODE"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "paper_input",
+      "aspect": "paper body / sections / references observation",
+      "status": "PARTIAL",
+      "paper_definition": "可读论文的具体 session 输入列为 title+abstract+outline；不应把抽象 read papers 解释为完整正文进 LLM。",
+      "checkpoint_training_evidence": "模板与公开 gen_value_model_prompt 仅含元信息和 section names。",
+      "current_inference": "正文由工具解析成 section→reference titles；Crawler 只收到 keys，不收到正文或引用列表。",
+      "discrepancy": "工具访问全文与模型阅读全文是两回事；这点不是已证明的论文实现缺失。",
+      "evidence_ids": [
+        "P_FUN",
+        "P_SFT",
+        "T_DATA",
+        "T_VM",
+        "C_CONTEXT",
+        "C_SECTIONS",
+        "C_NODE"
+      ],
+      "uncertainty": ""
+    },
+    {
+      "id": "selector",
+      "aspect": "Selector / reward versus inference scoring",
+      "status": "PARTIAL",
+      "paper_definition": "训练时辅助相关性 reward；推理时判断相关，§4.3 允许单 token 概率用于排序。",
+      "checkpoint_training_evidence": "公开 call_selector 为待部署占位；仅从 release 不能重建生产训练的服务结果。",
+      "current_inference": "计算 True token 全词表 softmax 概率，以>0.5筛选；结果入队不要求通过阈值；score只影响排序，不作为 Crawler prompt。",
+      "discrepancy": "实际推理只算一个 token，不生成解释；Selector 分数和 Crawler 可见反馈须区分。",
+      "evidence_ids": [
+        "P_RETURN",
+        "P_SETUP",
+        "T_STUB",
+        "C_SELECTOR",
+        "C_SEARCH_PAPER",
+        "C_DOEXP",
+        "C_EXPAND"
+      ],
+      "uncertainty": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "validated_utc": "2026-09-14T14:49:00.531737+00:00",
+  "summary": {
+    "completed_questions": 50,
+    "crawler_generation_calls": 50,
+    "search_action_parse_success": 50,
+    "strict_search_format_questions": 50,
+    "native_query_count_distribution": {
+      "4": 2,
+      "5": 48
+    },
+    "A_query_count_distribution": {
+      "4": 2,
+      "5": 48
+    },
+    "B_query_count_distribution": {
+      "5": 50
+    },
+    "native_total": 248,
+    "A_total": 248,
+    "B_total": 250,
+    "faithful_anchor_present_first": 50,
+    "shared_native_prefix_exact": 50,
+    "same_generation_for_A_B": 50,
+    "empty_native_queries": 0,
+    "non_eos_generations": 0,
+    "serper_requests": 0,
+    "sanity_check": "PASS"
+  },
+  "checks": "PASS: 50 original questions, 50 single generations, raw record equality, original prompt, native regex/cap, trim-only anchor, exact A/B native sharing, preserved inputs/checkpoint, no retrieval calls",
+  "artifact_sha256": {
+    "/home/chenyi/pasa/QUERY_PLANNER_V1_2_GENERATION_PROBE_001.json": "a8a7d62bac7055058c6d77aab882fedf2690acb0ee051355f59c757e35530fa4",
+    "/home/chenyi/pasa/QUERY_PLANNER_V1_2_GENERATION_PROBE_001.md": "38546f2533aff955edb415417e17a98bac9f5dbabf3fefcee391db803add15e1",
+    "/home/chenyi/pasa/query_planner_v1_2_generation_probe_001/probe.py": "98cef6bfd537af54ec2a09d016fb1b9875bf658e880b21f047b07666b2b5e95e"
+  }
+}

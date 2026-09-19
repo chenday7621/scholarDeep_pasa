@@ -1,0 +1,215 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q40",
+  "group": "inline-citation",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2104.00783",
+  "request_payload": {
+    "q": "Action-Based Conversations Dataset: A Corpus for Building More In-Depth Task-Oriented Dialogue Systems before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 85,
+  "started_utc": "2026-09-17T12:35:01.594490+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648225",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "276fa8e6e0f0784fadaafcea648af8a4",
+    "date": "Thu, 17 Sep 2026 12:30:22 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3766",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3766,
+  "response_bytes_sha256": "642a773178f4561a426a871284d09a18f8242d0ec3140ad2ce8189f7e231e9f8",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBY3Rpb24tQmFzZWQgQ29udmVyc2F0aW9ucyBEYXRhc2V0OiBBIENvcnB1cyBmb3IgQnVpbGRpbmcgTW9yZSBJbi1EZXB0aCBUYXNrLU9yaWVudGVkIERpYWxvZ3VlIFN5c3RlbXMgYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMwNi4wMTcyOXYxIFtjcy5DTF0gMiBKdW4gMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNi4wMTcyOSIsInNuaXBwZXQiOiJBY3Rpb24tYmFzZWQgY29udmVyc2F0aW9ucyBkYXRhc2V0OiBBIGNvcnB1cyBmb3IgYnVpbGRpbmcgbW9yZSBpbi1kZXB0aCB0YXNrLSBvcmllbnRlZCBkaWFsb2d1ZSBzeXN0ZW1zLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUuIDIwMjEgQ29uZmVyZW5jZSBvZiB0aGUgTm9ydGggLi4uIiwiZGF0ZSI6Ikp1biAyLCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJBIE11bHRpLVR1cm4gRW1vdGlvbmFsbHktUmljaCBTcG9rZW4gRGlhbG9ndWUgRGF0YXNldCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNS4xOTk3OHYxIiwic25pcHBldCI6ImEgbGFyZ2Utc2NhbGUgc3BlZWNoLXRleHQgY29ycHVzIHRoYXQgc3BhbnMgNDEgZG9tYWlucy4gQWN0aW9uLWJhc2VkIGNvbnZlcnNhdGlvbnMgZGF0YXNldDogQSBjb3JwdXMgZm9yIGJ1aWxkaW5nIG1vcmUgaW4tZGVwdGggdGFzay1vcmllbnRlZCBkaWFsb2d1ZSBzeXN0ZW1zLiIsImRhdGUiOiJNYXkgMjYsIDIwMjUiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkFueVRPRDogQSBQcm9ncmFtbWFibGUgVGFzay1PcmllbnRlZCBEaWFsb2cgU3lzdGVtIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjEyLjA5OTM5djIiLCJzbmlwcGV0IjoiQWN0aW9uLWJhc2VkIGNvbnZlcnNhdGlvbnMgZGF0YXNldDogQSBjb3JwdXMgZm9yIGJ1aWxkaW5nIG1vcmUgaW4tZGVwdGggdGFzay1vcmllbnRlZCBkaWFsb2d1ZSBzeXN0ZW1zLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgMjAyMSBDb25mZXJlbmNlIG9mIHRoZSBOb3J0aCAuLi4iLCJkYXRlIjoiRmViIDEzLCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSBCdWlsZGluZyBUYXNrLU9yaWVudGVkIERpYWxvZ3VlIFN5c3RlbSB2aWEgQWN0aW9uLUxldmVsIEdlbmVyYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDQuMDA4ODQiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgcHJvLSBwb3NlIGEgdGFzay1vcmllbnRlZCBkaWFsb2d1ZSBzeXN0ZW0gdmlhIGFjdGlvbi1sZXZlbCBnZW5lcmF0aW9uLiBTcGVjaWZpY2FsbHksIHdlIGZpcnN0IGNvbnN0cnVjdCBkaWFsb2d1ZSBhY3Rpb25zIGZyb20gbGFyZ2Utc2NhbGUuIiwiZGF0ZSI6IkFwciAzLCAyMDIzIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBJbnRlbnQgSW5kdWN0aW9uIGZyb20gQ29udmVyc2F0aW9ucyBmb3IgVGFzay1PcmllbnRlZCBEaWFsb2d1ZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDQuMTI5ODIiLCJzbmlwcGV0IjoiQWN0aW9uLWJhc2VkIGNvbnZlcnNhdGlvbnMgZGF0YXNldDogQSBjb3JwdXMgZm9yIGJ1aWxkaW5nIG1vcmUgaW4tZGVwdGggdGFzay0gb3JpZW50ZWQgZGlhbG9ndWUgc3lzdGVtcy4iLCJkYXRlIjoiQXByIDI2LCAyMDIzIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBTcG9rZW5XT1o6IEEgTGFyZ2UtU2NhbGUgU3BlZWNoLVRleHQgQmVuY2htYXJrIGZvciBTcG9rZW4gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA1LjEzMDQwIiwic25pcHBldCI6IkFjdGlvbi1iYXNlZCBjb252ZXJzYXRpb25zIGRhdGFzZXQ6IEEgY29ycHVzIGZvciBidWlsZGluZyBtb3JlIGluLWRlcHRoIHRhc2stb3JpZW50ZWQgZGlhbG9ndWUgc3lzdGVtcy4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMjEgQ29uZmVyZW5jZSBvZiB0aGUgTm9ydGggLi4uIiwiZGF0ZSI6Ikp1biAyNCwgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gRGlhbG9ndWUgU3lzdGVtczpSZWNlbnQgQWR2YW5jZXMgYW5kIE5ldyBGcm9udGllcnMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8xNzExLjAxNzMxdjMiLCJzbmlwcGV0IjoiVGFzay1vcmllbnRlZCBkaWFsb2d1ZSBzeXN0ZW1zIGhhdmUgYmVlbiBhbiBpbXBvcnRhbnQgYnJhbmNoIG9mIHNwb2tlbiBkaWFsb2d1ZSBzeXN0ZW1zLiBJbiB0aGlzIHNlY3Rpb24sIHdlIHdpbGwgcmV2aWV3IHBpcGVsaW5lIGFuZCBlbmQtdG8tZW5kIG1ldGhvZHMgZm9yIC4uLiIsImRhdGUiOiJKYW4gMTEsIDIwMTgiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MTAuMTQ4NTN2MiBbY3MuQ0xdIDEgTWFyIDIwMjUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MTAuMTQ4NTMiLCJzbmlwcGV0IjoiQWN0aW9uLWJhc2VkIGNvbnZlcnNhdGlvbnMgZGF0YXNldDogQSBjb3JwdXMgZm9yIGJ1aWxkaW5nIG1vcmUgaW4tZGVwdGggdGFzay0gb3JpZW50ZWQgZGlhbG9ndWUgc3lzdGVtcy4iLCJkYXRlIjoiTWFyIDEsIDIwMjUiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDcuMTAxNzJ2MyBbY3MuQ0xdIDUgRmViIDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDcuMTAxNzIiLCJzbmlwcGV0IjoiQWN0aW9uLWJhc2VkIGNvbnZlcnNhdGlvbnMgZGF0YXNldDogQSBjb3JwdXMgZm9yIGJ1aWxkaW5nIG1vcmUgaW4tZGVwdGggdGFzay0gb3JpZW50ZWQgZGlhbG9ndWUgc3lzdGVtcy4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlLiAyMDIxIENvbmZlcmVuY2Ugb2YgdGhlIE5vcnRoIC4uLiIsImRhdGUiOiJGZWIgNSwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiTExNLURyaXZlbiBNdWx0aS1UdXJuIFRhc2stT3JpZW50ZWQgRGlhbG9ndWUgU3ludGhlc2lzIGZvciAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDIuMjM2MTB2MSIsInNuaXBwZXQiOiJPdXIgbWV0aG9kIGdlbmVyYXRlcyBkaWFsb2d1ZXMgZ3JvdW5kZWQgaW4gYXV0aGVudGljIHRhc2sgc2NlbmFyaW9zLCBlbnJpY2hlZCB3aXRoIHJlYWwtd29ybGQgaW5mb3JtYXRpb24sIGFuZCBleGhpYml0aW5nIHN0cm9uZyBjb250ZXh0dWFsIGNvaGVyZW5jZS4iLCJkYXRlIjoiRmViIDI3LCAyMDI2Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjIuMiBNdWx0aS1UcnVuIERpYWxvZ3VlIERhdGEuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAyLjIzNjEwdjEjOn46dGV4dD0yLjIlMjBNdWx0aSUyRHRydW4lMjBkaWFsb2d1ZSUyMGRhdGElMjBnZW5lcmF0aW9uLC1UcmFpbmluZyUyMG1hY2hpbmVzJTIwdG8lMjB1bmRlcnN0YW5kJTIwbmF0dXJhbCJ9LHsidGl0bGUiOiIzIE1ldGhvZCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDIuMjM2MTB2MSM6fjp0ZXh0PS4tLDMlMjBNZXRob2QifSx7InRpdGxlIjoiNCBEYXRhc2V0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwMi4yMzYxMHYxIzp+OnRleHQ9NCUyMERhdGFzZXQsLUJhc2VkJTIwb24lMjB0aGUlMjBhZm9yZW1lbnRpb25lZCUyMGRhdGEifV0sInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Action-Based Conversations Dataset: A Corpus for Building More In-Depth Task-Oriented Dialogue Systems before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[PDF] arXiv:2306.01729v1 [cs.CL] 2 Jun 2023",
+        "link": "https://arxiv.org/pdf/2306.01729",
+        "snippet": "Action-based conversations dataset: A corpus for building more in-depth task- oriented dialogue systems. In Proceedings of the. 2021 Conference of the North ...",
+        "date": "Jun 2, 2023",
+        "position": 1
+      },
+      {
+        "title": "A Multi-Turn Emotionally-Rich Spoken Dialogue Dataset - arXiv",
+        "link": "https://arxiv.org/html/2505.19978v1",
+        "snippet": "a large-scale speech-text corpus that spans 41 domains. Action-based conversations dataset: A corpus for building more in-depth task-oriented dialogue systems.",
+        "date": "May 26, 2025",
+        "position": 2
+      },
+      {
+        "title": "AnyTOD: A Programmable Task-Oriented Dialog System - arXiv",
+        "link": "https://arxiv.org/html/2212.09939v2",
+        "snippet": "Action-based conversations dataset: A corpus for building more in-depth task-oriented dialogue systems. In Proceedings of the 2021 Conference of the North ...",
+        "date": "Feb 13, 2023",
+        "position": 3
+      },
+      {
+        "title": "[PDF] Building Task-Oriented Dialogue System via Action-Level Generation",
+        "link": "https://arxiv.org/pdf/2304.00884",
+        "snippet": "In this paper, we pro- pose a task-oriented dialogue system via action-level generation. Specifically, we first construct dialogue actions from large-scale.",
+        "date": "Apr 3, 2023",
+        "position": 4
+      },
+      {
+        "title": "[PDF] Intent Induction from Conversations for Task-Oriented Dialogue ...",
+        "link": "https://arxiv.org/pdf/2304.12982",
+        "snippet": "Action-based conversations dataset: A corpus for building more in-depth task- oriented dialogue systems.",
+        "date": "Apr 26, 2023",
+        "position": 5
+      },
+      {
+        "title": "[PDF] SpokenWOZ: A Large-Scale Speech-Text Benchmark for Spoken ...",
+        "link": "https://arxiv.org/pdf/2305.13040",
+        "snippet": "Action-based conversations dataset: A corpus for building more in-depth task-oriented dialogue systems. In Proceedings of the 2021 Conference of the North ...",
+        "date": "Jun 24, 2025",
+        "position": 6
+      },
+      {
+        "title": "A Survey on Dialogue Systems:Recent Advances and New Frontiers",
+        "link": "https://arxiv.org/html/1711.01731v3",
+        "snippet": "Task-oriented dialogue systems have been an important branch of spoken dialogue systems. In this section, we will review pipeline and end-to-end methods for ...",
+        "date": "Jan 11, 2018",
+        "position": 7
+      },
+      {
+        "title": "[PDF] arXiv:2410.14853v2 [cs.CL] 1 Mar 2025",
+        "link": "https://arxiv.org/pdf/2410.14853",
+        "snippet": "Action-based conversations dataset: A corpus for building more in-depth task- oriented dialogue systems.",
+        "date": "Mar 1, 2025",
+        "position": 8
+      },
+      {
+        "title": "[PDF] arXiv:2307.10172v3 [cs.CL] 5 Feb 2024",
+        "link": "https://arxiv.org/pdf/2307.10172",
+        "snippet": "Action-based conversations dataset: A corpus for building more in-depth task- oriented dialogue systems. In Proceedings of the. 2021 Conference of the North ...",
+        "date": "Feb 5, 2024",
+        "position": 9
+      },
+      {
+        "title": "LLM-Driven Multi-Turn Task-Oriented Dialogue Synthesis for ... - arXiv",
+        "link": "https://arxiv.org/html/2602.23610v1",
+        "snippet": "Our method generates dialogues grounded in authentic task scenarios, enriched with real-world information, and exhibiting strong contextual coherence.",
+        "date": "Feb 27, 2026",
+        "sitelinks": [
+          {
+            "title": "2.2 Multi-Trun Dialogue Data...",
+            "link": "https://arxiv.org/html/2602.23610v1#:~:text=2.2%20Multi%2Dtrun%20dialogue%20data%20generation,-Training%20machines%20to%20understand%20natural"
+          },
+          {
+            "title": "3 Method",
+            "link": "https://arxiv.org/html/2602.23610v1#:~:text=.-,3%20Method"
+          },
+          {
+            "title": "4 Dataset",
+            "link": "https://arxiv.org/html/2602.23610v1#:~:text=4%20Dataset,-Based%20on%20the%20aforementioned%20data"
+          }
+        ],
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[PDF] arXiv:2306.01729v1 [cs.CL] 2 Jun 2023",
+      "snippet": "Action-based conversations dataset: A corpus for building more in-depth task- oriented dialogue systems. In Proceedings of the. 2021 Conference of the North ...",
+      "link": "https://arxiv.org/pdf/2306.01729",
+      "arxiv_id": "2306.01729"
+    },
+    {
+      "rank": 2,
+      "title": "A Multi-Turn Emotionally-Rich Spoken Dialogue Dataset - arXiv",
+      "snippet": "a large-scale speech-text corpus that spans 41 domains. Action-based conversations dataset: A corpus for building more in-depth task-oriented dialogue systems.",
+      "link": "https://arxiv.org/html/2505.19978v1",
+      "arxiv_id": "2505.19978"
+    },
+    {
+      "rank": 3,
+      "title": "AnyTOD: A Programmable Task-Oriented Dialog System - arXiv",
+      "snippet": "Action-based conversations dataset: A corpus for building more in-depth task-oriented dialogue systems. In Proceedings of the 2021 Conference of the North ...",
+      "link": "https://arxiv.org/html/2212.09939v2",
+      "arxiv_id": "2212.09939"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] Building Task-Oriented Dialogue System via Action-Level Generation",
+      "snippet": "In this paper, we pro- pose a task-oriented dialogue system via action-level generation. Specifically, we first construct dialogue actions from large-scale.",
+      "link": "https://arxiv.org/pdf/2304.00884",
+      "arxiv_id": "2304.00884"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] Intent Induction from Conversations for Task-Oriented Dialogue ...",
+      "snippet": "Action-based conversations dataset: A corpus for building more in-depth task- oriented dialogue systems.",
+      "link": "https://arxiv.org/pdf/2304.12982",
+      "arxiv_id": "2304.12982"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] SpokenWOZ: A Large-Scale Speech-Text Benchmark for Spoken ...",
+      "snippet": "Action-based conversations dataset: A corpus for building more in-depth task-oriented dialogue systems. In Proceedings of the 2021 Conference of the North ...",
+      "link": "https://arxiv.org/pdf/2305.13040",
+      "arxiv_id": "2305.13040"
+    },
+    {
+      "rank": 7,
+      "title": "A Survey on Dialogue Systems:Recent Advances and New Frontiers",
+      "snippet": "Task-oriented dialogue systems have been an important branch of spoken dialogue systems. In this section, we will review pipeline and end-to-end methods for ...",
+      "link": "https://arxiv.org/html/1711.01731v3",
+      "arxiv_id": "1711.01731"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] arXiv:2410.14853v2 [cs.CL] 1 Mar 2025",
+      "snippet": "Action-based conversations dataset: A corpus for building more in-depth task- oriented dialogue systems.",
+      "link": "https://arxiv.org/pdf/2410.14853",
+      "arxiv_id": "2410.14853"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] arXiv:2307.10172v3 [cs.CL] 5 Feb 2024",
+      "snippet": "Action-based conversations dataset: A corpus for building more in-depth task- oriented dialogue systems. In Proceedings of the. 2021 Conference of the North ...",
+      "link": "https://arxiv.org/pdf/2307.10172",
+      "arxiv_id": "2307.10172"
+    },
+    {
+      "rank": 10,
+      "title": "LLM-Driven Multi-Turn Task-Oriented Dialogue Synthesis for ... - arXiv",
+      "snippet": "Our method generates dialogues grounded in authentic task scenarios, enriched with real-world information, and exhibiting strong contextual coherence.",
+      "link": "https://arxiv.org/html/2602.23610v1",
+      "arxiv_id": "2602.23610"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:02.561918+00:00",
+  "elapsed_seconds": 0.9674289636313915,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q40_exact_gt_title_attempt1.json",
+      "sha256": "bf1114abb81cf0930a9222995c75732681dafc05fef70bc015d728d6a6abf726",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q39",
+  "group": "inline-citation",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2210.17432",
+  "request_payload": {
+    "q": "SSD-LM: Semi-autoregressive Simplex-based Diffusion Language Model for Text Generation and Modular Control before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 82,
+  "started_utc": "2026-09-17T12:34:58.816650+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648220",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "d8b2aaae344c9c4eadaafcea648afdb1",
+    "date": "Thu, 17 Sep 2026 12:30:20 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3438",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3438,
+  "response_bytes_sha256": "c74e474c20c414fded0f530cf2ccc72010ae59f79cb9266372dc7c7f40984655",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTU0QtTE06IFNlbWktYXV0b3JlZ3Jlc3NpdmUgU2ltcGxleC1iYXNlZCBEaWZmdXNpb24gTGFuZ3VhZ2UgTW9kZWwgZm9yIFRleHQgR2VuZXJhdGlvbiBhbmQgTW9kdWxhciBDb250cm9sIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlNTRC1MTTogU2VtaS1hdXRvcmVncmVzc2l2ZSBTaW1wbGV4LWJhc2VkIERpZmZ1c2lvbiBMYW5ndWFnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIyMTAuMTc0MzIiLCJzbmlwcGV0IjoiU1NELUxNIGlzIHNlbWktYXV0b3JlZ3Jlc3NpdmUsIGl0ZXJhdGl2ZWx5IGdlbmVyYXRpbmcgYmxvY2tzIG9mIHRleHQsIGFsbG93aW5nIGZvciBmbGV4aWJsZSBvdXRwdXQgbGVuZ3RoIGF0IGRlY29kaW5nIHRpbWUgd2hpbGUgZW5hYmxpbmcgbG9jYWwgYmlkaXJlY3Rpb25hbCAuLi4iLCJkYXRlIjoiT2N0IDMxLCAyMDIyIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMjEwLjE3NDMydjEgW2NzLkNMXSAzMSBPY3QgMjAyMiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIxMC4xNzQzMiIsInNuaXBwZXQiOiJXZSBwcmVzZW50IFNTRC1MTSwgYSBzZW1pLWF1dG9yZWdyZXNzaXZlIGRpZi0gZnVzaW9uIGJhc2VkIGxhbmd1YWdlIG1vZGVsIHRyYWluZWQgdG8gZGVub2lzZSBjb3JydXB0ZWQgc2ltcGxleGVzIG92ZXIgdGhlIG91dHB1dCB2b2NhYnVsYXJ5LiBDb21wYXJlZCB0byBwcmlvciAuLi4iLCJkYXRlIjoiTm92IDEsIDIwMjIiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkEgU3VydmV5IG9uIERpZmZ1c2lvbiBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDguMTA4NzV2MSIsInNuaXBwZXQiOiJUc3ZldGtvdiwg4oCcU3NkLWxtOiBTZW1pLWF1dG9yZWdyZXNzaXZlIHNpbXBsZXgtYmFzZWQgZGlmZnVzaW9uIGxhbmd1YWdlIG1vZGVsIGZvciB0ZXh0IGdlbmVyYXRpb24gYW5kIG1vZHVsYXIgY29udHJvbCzigJ0gaW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDYxc3QgQW5udWFsIC4uLiIsImRhdGUiOiJBdWcgMTQsIDIwMjUiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkxhcmdlIExhbmd1YWdlIERpZmZ1c2lvbiBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDIuMDk5OTJ2MiIsInNuaXBwZXQiOiJTc2QtbG06IFNlbWktYXV0b3JlZ3Jlc3NpdmUgc2ltcGxleC1iYXNlZCBkaWZmdXNpb24gbGFuZ3VhZ2UgbW9kZWwgZm9yIHRleHQgZ2VuZXJhdGlvbiBhbmQgbW9kdWxhciBjb250cm9sLiBEaWZmdXNpb24tbG0gaW1wcm92ZXMgY29udHJvbGxhYmxlIHRleHQgZ2VuZXJhdGlvbi4iLCJkYXRlIjoiRmViIDE4LCAyMDI1IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJEaWZmdXNpb24gTGFuZ3VhZ2UgTW9kZWxzIGZvciBPbmUtU3RlcCBTZXF1ZW5jZSBHZW5lcmF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA2LjAwMjkwdjEiLCJzbmlwcGV0IjoiU1NELUxNOiBTZW1pLWF1dG9yZWdyZXNzaXZlIHNpbXBsZXgtYmFzZWQgZGlmZnVzaW9uIGxhbmd1YWdlIG1vZGVsIGZvciB0ZXh0IGdlbmVyYXRpb24gYW5kIG1vZHVsYXIgY29udHJvbC4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDYxc3QgQW5udWFsIE1lZXRpbmcgb2YgdGhlIC4uLiIsImRhdGUiOiJNYXkgMzAsIDIwMjUiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IjEgTGVzcyBmbGV4aWJpbGl0eSB1bmxvY2tzIGJldHRlciByZWFzb25pbmcgcG90ZW50aWFsLiBMZWZ0OiBXZSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDEuMTUxNjV2MiIsInNuaXBwZXQiOiJTc2QtbG06IFNlbWktYXV0b3JlZ3Jlc3NpdmUgc2ltcGxleC1iYXNlZCBkaWZmdXNpb24gbGFuZ3VhZ2UgbW9kZWwgZm9yIHRleHQgZ2VuZXJhdGlvbiBhbmQgbW9kdWxhciBjb250cm9sLiBEaWZmdXNpb24tbG0gaW1wcm92ZXMgY29udHJvbGxhYmxlIHRleHQgZ2VuZXJhdGlvbi4iLCJkYXRlIjoiSmFuIDI2LCAyMDI2IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJUZXh0TERNOiBMYW5ndWFnZSBNb2RlbGluZyB3aXRoIENvbnRpbnVvdXMgTGF0ZW50IERpZmZ1c2lvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNS4wNzc0OHYxIiwic25pcHBldCI6IlRzdmV0a292IFNzZC1sbTogc2VtaS1hdXRvcmVncmVzc2l2ZSBzaW1wbGV4LWJhc2VkIGRpZmZ1c2lvbiBsYW5ndWFnZSBtb2RlbCBmb3IgdGV4dCBnZW5lcmF0aW9uIGFuZCBtb2R1bGFyIGNvbnRyb2wuIEluIFByb2NlZWRpbmdzIG9mIHRoZSA2MXN0IEFubnVhbCAuLi4iLCJkYXRlIjoiTWF5IDgsIDIwMjYiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIFJlY2xhaW1pbmcgR2xvYmFsIENvaGVyZW5jZSBpbiBTZW1pLUF1dG9yZWdyZXNzaXZlIERpZmZ1c2lvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjYwMS4xMzU5OSIsInNuaXBwZXQiOiJTU0QtTE0gKEhhbiBldCBhbC4sIDIwMjMpIGluaXRpYWxseSBpbnRyb2R1Y2VkIHRoZSBzZW1pLUFSIGRpZmZ1c2lvbiBtb2RlbCwgYWNoaWV2aW5nIGxpbmVhciBpbmZlcmVuY2UgY29tcGxleGl0eSB0aHJvdWdoIGl0ZXJhdGl2ZSB0ZXh0IGJsb2NrIGdlbmVyYXRpb24uIiwiZGF0ZSI6IkphbiAyMSwgMjAyNiIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gQmxvY2sgRGlmZnVzaW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDMuMDk1NzM/Iiwic25pcHBldCI6IlNzZC1sbTogU2VtaS1hdXRvcmVncmVzc2l2ZSBzaW1wbGV4LWJhc2VkIGRpZmZ1c2lvbiBsYW5ndWFnZSBtb2RlbCBmb3IgdGV4dCBnZW5lcmF0aW9uIGFuZCBtb2R1bGFyIGNvbnRyb2wuIGFyWGl2IHByZXByaW50IGFyWGl2OjIyMTAuMTc0MzIsLiAyMDIyIC4uLiIsImRhdGUiOiJNYXIgMTIsIDIwMjUiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlNjYWxpbmcgRGlmZnVzaW9uIExhbmd1YWdlIE1vZGVscyB2aWEgQWRhcHRhdGlvbiBmcm9tIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMC4xNzg5MXYyIiwic25pcHBldCI6IlNTRC1MTTogU2VtaS1hdXRvcmVncmVzc2l2ZSBzaW1wbGV4LWJhc2VkIGRpZmZ1c2lvbiBsYW5ndWFnZSBtb2RlbCBmb3IgdGV4dCBnZW5lcmF0aW9uIGFuZCBtb2R1bGFyIGNvbnRyb2wuIC4uLiBEaWZmdXNpb24tbG0gaW1wcm92ZXMgY29udHJvbGxhYmxlIHRleHQgZ2VuZXJhdGlvbiAuLi4iLCJkYXRlIjoiRmViIDI0LCAyMDI1IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "SSD-LM: Semi-autoregressive Simplex-based Diffusion Language Model for Text Generation and Modular Control before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "SSD-LM: Semi-autoregressive Simplex-based Diffusion Language ...",
+        "link": "https://arxiv.org/abs/2210.17432",
+        "snippet": "SSD-LM is semi-autoregressive, iteratively generating blocks of text, allowing for flexible output length at decoding time while enabling local bidirectional ...",
+        "date": "Oct 31, 2022",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2210.17432v1 [cs.CL] 31 Oct 2022",
+        "link": "https://arxiv.org/pdf/2210.17432",
+        "snippet": "We present SSD-LM, a semi-autoregressive dif- fusion based language model trained to denoise corrupted simplexes over the output vocabulary. Compared to prior ...",
+        "date": "Nov 1, 2022",
+        "position": 2
+      },
+      {
+        "title": "A Survey on Diffusion Language Models - arXiv",
+        "link": "https://arxiv.org/html/2508.10875v1",
+        "snippet": "Tsvetkov, “Ssd-lm: Semi-autoregressive simplex-based diffusion language model for text generation and modular control,” in Proceedings of the 61st Annual ...",
+        "date": "Aug 14, 2025",
+        "position": 3
+      },
+      {
+        "title": "Large Language Diffusion Models - arXiv",
+        "link": "https://arxiv.org/html/2502.09992v2",
+        "snippet": "Ssd-lm: Semi-autoregressive simplex-based diffusion language model for text generation and modular control. Diffusion-lm improves controllable text generation.",
+        "date": "Feb 18, 2025",
+        "position": 4
+      },
+      {
+        "title": "Diffusion Language Models for One-Step Sequence Generation - arXiv",
+        "link": "https://arxiv.org/html/2506.00290v1",
+        "snippet": "SSD-LM: Semi-autoregressive simplex-based diffusion language model for text generation and modular control. In Proceedings of the 61st Annual Meeting of the ...",
+        "date": "May 30, 2025",
+        "position": 5
+      },
+      {
+        "title": "1 Less flexibility unlocks better reasoning potential. Left: We ... - arXiv",
+        "link": "https://arxiv.org/html/2601.15165v2",
+        "snippet": "Ssd-lm: Semi-autoregressive simplex-based diffusion language model for text generation and modular control. Diffusion-lm improves controllable text generation.",
+        "date": "Jan 26, 2026",
+        "position": 6
+      },
+      {
+        "title": "TextLDM: Language Modeling with Continuous Latent Diffusion - arXiv",
+        "link": "https://arxiv.org/html/2605.07748v1",
+        "snippet": "Tsvetkov Ssd-lm: semi-autoregressive simplex-based diffusion language model for text generation and modular control. In Proceedings of the 61st Annual ...",
+        "date": "May 8, 2026",
+        "position": 7
+      },
+      {
+        "title": "[PDF] Reclaiming Global Coherence in Semi-Autoregressive Diffusion",
+        "link": "https://arxiv.org/pdf/2601.13599",
+        "snippet": "SSD-LM (Han et al., 2023) initially introduced the semi-AR diffusion model, achieving linear inference complexity through iterative text block generation.",
+        "date": "Jan 21, 2026",
+        "position": 8
+      },
+      {
+        "title": "[PDF] Block Diffusion - arXiv",
+        "link": "https://arxiv.org/pdf/2503.09573?",
+        "snippet": "Ssd-lm: Semi-autoregressive simplex-based diffusion language model for text generation and modular control. arXiv preprint arXiv:2210.17432,. 2022 ...",
+        "date": "Mar 12, 2025",
+        "position": 9
+      },
+      {
+        "title": "Scaling Diffusion Language Models via Adaptation from ... - arXiv",
+        "link": "https://arxiv.org/html/2410.17891v2",
+        "snippet": "SSD-LM: Semi-autoregressive simplex-based diffusion language model for text generation and modular control. ... Diffusion-lm improves controllable text generation ...",
+        "date": "Feb 24, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "SSD-LM: Semi-autoregressive Simplex-based Diffusion Language ...",
+      "snippet": "SSD-LM is semi-autoregressive, iteratively generating blocks of text, allowing for flexible output length at decoding time while enabling local bidirectional ...",
+      "link": "https://arxiv.org/abs/2210.17432",
+      "arxiv_id": "2210.17432"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2210.17432v1 [cs.CL] 31 Oct 2022",
+      "snippet": "We present SSD-LM, a semi-autoregressive dif- fusion based language model trained to denoise corrupted simplexes over the output vocabulary. Compared to prior ...",
+      "link": "https://arxiv.org/pdf/2210.17432",
+      "arxiv_id": "2210.17432"
+    },
+    {
+      "rank": 3,
+      "title": "A Survey on Diffusion Language Models - arXiv",
+      "snippet": "Tsvetkov, “Ssd-lm: Semi-autoregressive simplex-based diffusion language model for text generation and modular control,” in Proceedings of the 61st Annual ...",
+      "link": "https://arxiv.org/html/2508.10875v1",
+      "arxiv_id": "2508.10875"
+    },
+    {
+      "rank": 4,
+      "title": "Large Language Diffusion Models - arXiv",
+      "snippet": "Ssd-lm: Semi-autoregressive simplex-based diffusion language model for text generation and modular control. Diffusion-lm improves controllable text generation.",
+      "link": "https://arxiv.org/html/2502.09992v2",
+      "arxiv_id": "2502.09992"
+    },
+    {
+      "rank": 5,
+      "title": "Diffusion Language Models for One-Step Sequence Generation - arXiv",
+      "snippet": "SSD-LM: Semi-autoregressive simplex-based diffusion language model for text generation and modular control. In Proceedings of the 61st Annual Meeting of the ...",
+      "link": "https://arxiv.org/html/2506.00290v1",
+      "arxiv_id": "2506.00290"
+    },
+    {
+      "rank": 6,
+      "title": "1 Less flexibility unlocks better reasoning potential. Left: We ... - arXiv",
+      "snippet": "Ssd-lm: Semi-autoregressive simplex-based diffusion language model for text generation and modular control. Diffusion-lm improves controllable text generation.",
+      "link": "https://arxiv.org/html/2601.15165v2",
+      "arxiv_id": "2601.15165"
+    },
+    {
+      "rank": 7,
+      "title": "TextLDM: Language Modeling with Continuous Latent Diffusion - arXiv",
+      "snippet": "Tsvetkov Ssd-lm: semi-autoregressive simplex-based diffusion language model for text generation and modular control. In Proceedings of the 61st Annual ...",
+      "link": "https://arxiv.org/html/2605.07748v1",
+      "arxiv_id": "2605.07748"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] Reclaiming Global Coherence in Semi-Autoregressive Diffusion",
+      "snippet": "SSD-LM (Han et al., 2023) initially introduced the semi-AR diffusion model, achieving linear inference complexity through iterative text block generation.",
+      "link": "https://arxiv.org/pdf/2601.13599",
+      "arxiv_id": "2601.13599"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] Block Diffusion - arXiv",
+      "snippet": "Ssd-lm: Semi-autoregressive simplex-based diffusion language model for text generation and modular control. arXiv preprint arXiv:2210.17432,. 2022 ...",
+      "link": "https://arxiv.org/pdf/2503.09573?",
+      "arxiv_id": "2503.09573"
+    },
+    {
+      "rank": 10,
+      "title": "Scaling Diffusion Language Models via Adaptation from ... - arXiv",
+      "snippet": "SSD-LM: Semi-autoregressive simplex-based diffusion language model for text generation and modular control. ... Diffusion-lm improves controllable text generation ...",
+      "link": "https://arxiv.org/html/2410.17891v2",
+      "arxiv_id": "2410.17891"
+    }
+  ],
+  "gold_hit_ranks": [
+    1,
+    2
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:59.704521+00:00",
+  "elapsed_seconds": 0.8878736384212971,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q39_exact_gt_title_attempt1.json",
+      "sha256": "ff3f93995684b987e23a0e74f5be827e06e0861f0f9ec77102554d5b61a530b1",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 32,
+  "question_id": "Q36",
+  "group": "inline-citation",
+  "native_query_index": 1,
+  "native_query": "Survey papers on distinguishing AI-generated text from human-authored text",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "2107.00061",
+  "page": 4,
+  "payload": {
+    "q": "Survey papers on distinguishing AI-generated text from human-authored text before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 4
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 32,
+  "started_utc": "2026-09-17T12:45:00.337593+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648825",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "87594d8b49c5938331e0e252fcadbd3e",
+    "date": "Thu, 17 Sep 2026 12:40:24 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3574",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3574,
+  "response_bytes_sha256": "483bc085e0dcff284bacdaa9b7eb007d26c2dadc02650f7b6383668a5aeb95b6",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIGRpc3Rpbmd1aXNoaW5nIEFJLWdlbmVyYXRlZCB0ZXh0IGZyb20gaHVtYW4tYXV0aG9yZWQgdGV4dCBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjo0LCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJBIENvbXByZWhlbnNpdmUgRGF0YXNldCBmb3IgSHVtYW4gdnMuIEFJIEdlbmVyYXRlZCBUZXh0IERldGVjdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MTAuMjI4NzR2MSIsInNuaXBwZXQiOiJUaGUgZGF0YXNldCBwcm92aWRlcyBvcmlnaW5hbCBhcnRpY2xlIGFic3RyYWN0cyBhcyBwcm9tcHRzLCBmdWxsIGh1bWFuLWF1dGhvcmVkIG5hcnJhdGl2ZXMuIFdlIGVzdGFibGlzaCBiYXNlbGluZSByZXN1bHRzIGZvciB0d28ga2V5IHRhc2tzOiBkaXN0aW5ndWlzaGluZyBodW1hbi13cml0dGVuIGZyb20gQUktZ2VuZXJhdGVkIHRleHQsIGFjaGlldmluZyBhbiBhY2N1cmFjeSBvZiA1OC4zNSUsIGFuZCBhdHRyaWJ1dGluZyBBSSB0ZXh0cyB0byB0aGVpciBnZW5lcmF0aW5nIG1vZGVscyB3aXRoIGFuIGFjY3VyYWN5IG9mIDguOTIlLiIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiWzIzMDMuMTgyMjNdIEEgU3VydmV5IG9mIExhcmdlIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2Lm9yZyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwMy4xODIyMyIsInNuaXBwZXQiOiJMYW5ndWFnZSBpcyBlc3NlbnRpYWxseSBhIGNvbXBsZXgsIGludHJpY2F0ZSBzeXN0ZW0gb2YgaHVtYW4gZXhwcmVzc2lvbnMgZ292ZXJuZWQgYnkgZ3JhbW1hdGljYWwgcnVsZXMuIEl0IHBvc2VzIGEgc2lnbmlmaWNhbnQgY2hhbGxlbmdlIHRvIGRldmVsb3AgY2FwYWJsZSBBSSBhbGdvcml0aG1zIGZvciBjb21wcmVoZW5kaW5nIGFuZCBncmFzcGluZyBhIGxhbmd1YWdlLiBBcyBhIG1ham9yIGFwcHJvYWNoLCBsYW5ndWFnZSBtb2RlbGluZyBoYXMgYmVlbiB3aWRlbHkgc3R1ZGllZCBmb3IgbGFuZ3VhZ2UgdW5kZXJzdGFuZGluZyBhbmQgZ2VuZXJhdGlvbiBpbiB0aGUgcGFzdCB0d28gZGVjYWRlcywgZXZvbHZpbmcgZnJvbSBzdGF0aXN0aWNhbCBsYW5ndWFnZSBtb2RlbHMgdG8gbmV1cmFsIC4uLiIsImRhdGUiOiJNYXIgMzEsIDIwMjMiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IldhdGVybWFya2luZyBmb3IgQUkgQ29udGVudCBEZXRlY3Rpb246IEEgUmV2aWV3IG9uIFRleHQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNC4wMzc2NXYxIiwic25pcHBldCI6IlRoZSBjaGFsbGVuZ2Ugb2YgZGlzdGluZ3Vpc2hpbmcgQUktZ2VuZXJhdGVkIHRleHQgZnJvbSBodW1hbi1hdXRob3JlZCBjb250ZW50IGhhcyBzcHVycmVkIHRoZSBkZXZlbG9wbWVudCBvZiB3YXRlcm1hcmtpbmcgdGVjaG5pcXVlcywgd2hpY2ggZW1iZWQgdHJhY2VhYmxlIG1hcmtlcnMgd2l0aGluIEFJLWdlbmVyYXRlZCB0ZXh0IHRvIGZhY2lsaXRhdGUgaXRzIGRldGVjdGlvbi4iLCJkYXRlIjoiQXByIDIsIDIwMjUiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkdlbmVyYXRpb24gWuKAmXMgQWJpbGl0eSB0byBEaXNjcmltaW5hdGUgQmV0d2VlbiBBSS1nZW5lcmF0ZWQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAxLjA0MTIwLnBkZiIsInNuaXBwZXQiOiJZZXQsIExMTXMgY2FuIHByb2R1Y2UgY29oZXJlbnQgYW5kIGNvbnRleHR1YWxseSByZWxldmFudCB0ZXh0LCBtYWtpbmcgaXQgY2hhbGxlbmdpbmcgZm9yIHVzZXJzIHRvIGRpc3Rpbmd1aXNoIGJldHdlZW4gQUktZ2VuZXJhdGVkIGFuZCBodW1hbi1hdXRob3JlZCBtZXNzYWdlcy4gTExNcyBhbHNvIGluY2x1ZGUgb3V0ZGF0ZWQga25vd2xlZGdlIGR1ZSB0byB0aGVpciBrbm93bGVkZ2UgY3V0b2YsIHBvb3IgYWJpbGl0eSB0byBkaXNjZXJuIGZhY3R1YWwgYWNjdXJhY3ksIGxpbWl0ZWQgZW1vdGlvbmFsIGludGVsbGlnZW5jZSwgYW5kIGluY29uLXNpc3RlbmN5IGluIHF1YWxpdHkgWzEzLCAxNV0uIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbMjMxMS4xNTU2NV0gRXZhbHVhdGluZyB0aGUgRWZmaWNhY3kgb2YgSHlicmlkIERlZXAgTGVhcm5pbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzExLjE1NTY1Iiwic25pcHBldCI6Ik15IHJlc2VhcmNoIGludmVzdGlnYXRlcyB0aGUgdXNlIG9mIGN1dHRpbmctZWRnZSBoeWJyaWQgZGVlcCBsZWFybmluZyBtb2RlbHMgdG8gYWNjdXJhdGVseSBkaWZmZXJlbnRpYXRlIGJldHdlZW4gQUktZ2VuZXJhdGVkIHRleHQgYW5kIGh1bWFuIHdyaXRpbmcuIEkgYXBwbGllZCBhIHJvYnVzdCBtZXRob2RvbG9neSwgdXRpbGlzaW5nIGEgY2FyZWZ1bGx5IHNlbGVjdGVkIGRhdGFzZXQgY29tcHJpc2luZyBBSSBhbmQgaHVtYW4gdGV4dHMgZnJvbSB2YXJpb3VzIHNvdXJjZXMsIGVhY2ggdGFnZ2VkIHdpdGggaW5zdHJ1Y3Rpb25zLiBBZHZhbmNlZCBuYXR1cmFsIGxhbmd1YWdlIHByb2Nlc3NpbmcgdGVjaG5pcXVlcyBmYWNpbGl0YXRlZCB0aGUgYW5hbHlzaXMgb2YgdGV4dHVhbCBmZWF0dXJlcyAuLi4iLCJkYXRlIjoiTm92IDI3LCAyMDIzIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJhclhpdjoyNTA1LjAxODc3djMgW2NzLkNMXSA3IE1heSAyMDI1IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA1LjAxODc3Iiwic25pcHBldCI6IkZvciBvdXIgZXhwZXJpbWVudGFsIGRlc2lnbiwgR1BULTRvIGdlbmVyYXRlZCBhIGNvcnB1cyBjb21wcmlzaW5nIDY3MiB0ZXh0cyBhY3Jvc3MgdmFyaW91cyBnZW5yZXMgYW5kIHRleHQgdHlwZXMsIGNob3NlbiBzcGVjaWZpY2FsbHkgdG8gcmVmbGVjdCBzdHlsaXN0aWMgZGl2ZXJzaXR5IGNvbXBhcmFibGUgdG8gdGhlIEtvZGl0ZXggY29ycHVzLCBhIHRyYWRpdGlvbmFsIGh1bWFuLWF1dGhvcmVkIGNvbGxlY3Rpb24gZGVzaWduZWQgZXhwbGljaXRseSBmb3IgZ2VucmUgYW5kIHJlZ2lzdGVyIHJpY2huZXNzIFszXS4iLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkRldGVjdGluZyBBSS1HZW5lcmF0ZWQgVGV4dDogRmFjdG9ycyBJbmZsdWVuY2luZyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDYuMTU1ODMiLCJzbmlwcGV0IjoiVGhlIHRhc2sgb2YgQUktZ2VuZXJhdGVkIHRleHQgKEFJR1QpIGRldGVjdGlvbiBpcyB0aGVyZWZvcmUgYm90aCB2ZXJ5IGNoYWxsZW5naW5nLCBhbmQgaGlnaGx5IGNyaXRpY2FsLiBJbiB0aGlzIHN1cnZleSwgd2Ugc3VtbWFyaXplIHN0YXRlLW9mLXRoZSBhcnQgYXBwcm9hY2hlcyB0byBBSUdUIGRldGVjdGlvbiwgaW5jbHVkaW5nIHdhdGVybWFya2luZywgc3RhdGlzdGljYWwgYW5kIHN0eWxpc3RpYyBhbmFseXNpcywgYW5kIG1hY2hpbmUgbGVhcm5pbmcgY2xhc3NpZmljYXRpb24uIFdlIGFsc28gcHJvdmlkZSBpbmZvcm1hdGlvbiBhYm91dCBleGlzdGluZyBkYXRhc2V0cyBmb3IgdGhpcyB0YXNrLiIsImRhdGUiOiJKdW4gMjEsIDIwMjQiLCJwb3NpdGlvbiI6N31dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Survey papers on distinguishing AI-generated text from human-authored text before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 4,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "A Comprehensive Dataset for Human vs. AI Generated Text Detection",
+        "link": "https://arxiv.org/html/2510.22874v1",
+        "snippet": "The dataset provides original article abstracts as prompts, full human-authored narratives. We establish baseline results for two key tasks: distinguishing human-written from AI-generated text, achieving an accuracy of 58.35%, and attributing AI texts to their generating models with an accuracy of 8.92%.",
+        "position": 1
+      },
+      {
+        "title": "[2303.18223] A Survey of Large Language Models - arXiv.org",
+        "link": "https://arxiv.org/abs/2303.18223",
+        "snippet": "Language is essentially a complex, intricate system of human expressions governed by grammatical rules. It poses a significant challenge to develop capable AI algorithms for comprehending and grasping a language. As a major approach, language modeling has been widely studied for language understanding and generation in the past two decades, evolving from statistical language models to neural ...",
+        "date": "Mar 31, 2023",
+        "position": 2
+      },
+      {
+        "title": "Watermarking for AI Content Detection: A Review on Text ...",
+        "link": "https://arxiv.org/html/2504.03765v1",
+        "snippet": "The challenge of distinguishing AI-generated text from human-authored content has spurred the development of watermarking techniques, which embed traceable markers within AI-generated text to facilitate its detection.",
+        "date": "Apr 2, 2025",
+        "position": 3
+      },
+      {
+        "title": "Generation Z’s Ability to Discriminate Between AI-generated ...",
+        "link": "https://arxiv.org/pdf/2401.04120.pdf",
+        "snippet": "Yet, LLMs can produce coherent and contextually relevant text, making it challenging for users to distinguish between AI-generated and human-authored messages. LLMs also include outdated knowledge due to their knowledge cutof, poor ability to discern factual accuracy, limited emotional intelligence, and incon-sistency in quality [13, 15].",
+        "position": 4
+      },
+      {
+        "title": "[2311.15565] Evaluating the Efficacy of Hybrid Deep Learning ...",
+        "link": "https://arxiv.org/abs/2311.15565",
+        "snippet": "My research investigates the use of cutting-edge hybrid deep learning models to accurately differentiate between AI-generated text and human writing. I applied a robust methodology, utilising a carefully selected dataset comprising AI and human texts from various sources, each tagged with instructions. Advanced natural language processing techniques facilitated the analysis of textual features ...",
+        "date": "Nov 27, 2023",
+        "position": 5
+      },
+      {
+        "title": "arXiv:2505.01877v3 [cs.CL] 7 May 2025",
+        "link": "https://arxiv.org/pdf/2505.01877",
+        "snippet": "For our experimental design, GPT-4o generated a corpus comprising 672 texts across various genres and text types, chosen specifically to reflect stylistic diversity comparable to the Koditex corpus, a traditional human-authored collection designed explicitly for genre and register richness [3].",
+        "position": 6
+      },
+      {
+        "title": "Detecting AI-Generated Text: Factors Influencing ...",
+        "link": "https://arxiv.org/abs/2406.15583",
+        "snippet": "The task of AI-generated text (AIGT) detection is therefore both very challenging, and highly critical. In this survey, we summarize state-of-the art approaches to AIGT detection, including watermarking, statistical and stylistic analysis, and machine learning classification. We also provide information about existing datasets for this task.",
+        "date": "Jun 21, 2024",
+        "position": 7
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank_on_page": 1,
+      "nominal_rank": 31,
+      "title": "A Comprehensive Dataset for Human vs. AI Generated Text Detection",
+      "snippet": "The dataset provides original article abstracts as prompts, full human-authored narratives. We establish baseline results for two key tasks: distinguishing human-written from AI-generated text, achieving an accuracy of 58.35%, and attributing AI texts to their generating models with an accuracy of 8.92%.",
+      "link": "https://arxiv.org/html/2510.22874v1",
+      "arxiv_id": "2510.22874"
+    },
+    {
+      "rank_on_page": 2,
+      "nominal_rank": 32,
+      "title": "[2303.18223] A Survey of Large Language Models - arXiv.org",
+      "snippet": "Language is essentially a complex, intricate system of human expressions governed by grammatical rules. It poses a significant challenge to develop capable AI algorithms for comprehending and grasping a language. As a major approach, language modeling has been widely studied for language understanding and generation in the past two decades, evolving from statistical language models to neural ...",
+      "link": "https://arxiv.org/abs/2303.18223",
+      "arxiv_id": "2303.18223"
+    },
+    {
+      "rank_on_page": 3,
+      "nominal_rank": 33,
+      "title": "Watermarking for AI Content Detection: A Review on Text ...",
+      "snippet": "The challenge of distinguishing AI-generated text from human-authored content has spurred the development of watermarking techniques, which embed traceable markers within AI-generated text to facilitate its detection.",
+      "link": "https://arxiv.org/html/2504.03765v1",
+      "arxiv_id": "2504.03765"
+    },
+    {
+      "rank_on_page": 4,
+      "nominal_rank": 34,
+      "title": "Generation Z’s Ability to Discriminate Between AI-generated ...",
+      "snippet": "Yet, LLMs can produce coherent and contextually relevant text, making it challenging for users to distinguish between AI-generated and human-authored messages. LLMs also include outdated knowledge due to their knowledge cutof, poor ability to discern factual accuracy, limited emotional intelligence, and incon-sistency in quality [13, 15].",
+      "link": "https://arxiv.org/pdf/2401.04120.pdf",
+      "arxiv_id": "2401.04120"
+    },
+    {
+      "rank_on_page": 5,
+      "nominal_rank": 35,
+      "title": "[2311.15565] Evaluating the Efficacy of Hybrid Deep Learning ...",
+      "snippet": "My research investigates the use of cutting-edge hybrid deep learning models to accurately differentiate between AI-generated text and human writing. I applied a robust methodology, utilising a carefully selected dataset comprising AI and human texts from various sources, each tagged with instructions. Advanced natural language processing techniques facilitated the analysis of textual features ...",
+      "link": "https://arxiv.org/abs/2311.15565",
+      "arxiv_id": "2311.15565"
+    },
+    {
+      "rank_on_page": 6,
+      "nominal_rank": 36,
+      "title": "arXiv:2505.01877v3 [cs.CL] 7 May 2025",
+      "snippet": "For our experimental design, GPT-4o generated a corpus comprising 672 texts across various genres and text types, chosen specifically to reflect stylistic diversity comparable to the Koditex corpus, a traditional human-authored collection designed explicitly for genre and register richness [3].",
+      "link": "https://arxiv.org/pdf/2505.01877",
+      "arxiv_id": "2505.01877"
+    },
+    {
+      "rank_on_page": 7,
+      "nominal_rank": 37,
+      "title": "Detecting AI-Generated Text: Factors Influencing ...",
+      "snippet": "The task of AI-generated text (AIGT) detection is therefore both very challenging, and highly critical. In this survey, we summarize state-of-the art approaches to AIGT detection, including watermarking, statistical and stylistic analysis, and machine learning classification. We also provide information about existing datasets for this task.",
+      "link": "https://arxiv.org/abs/2406.15583",
+      "arxiv_id": "2406.15583"
+    }
+  ],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:45:04.227922+00:00",
+  "elapsed_seconds": 3.890364721417427
+}

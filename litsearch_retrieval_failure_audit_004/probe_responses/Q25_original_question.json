@@ -1,0 +1,215 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q25",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2104.08315",
+  "request_payload": {
+    "q": "Are there papers that propose contextualized calibration for the probability of answers in language models? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 51,
+  "started_utc": "2026-09-17T12:34:22.650197+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648185",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "c45b2c1e89ccf95cdf8a8888dfd992ce",
+    "date": "Thu, 17 Sep 2026 12:29:44 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3944",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3944,
+  "response_bytes_sha256": "78104a9395755409671d20bf74c23dd247ca508f95654a1744cfdedbeb400d87",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBcmUgdGhlcmUgcGFwZXJzIHRoYXQgcHJvcG9zZSBjb250ZXh0dWFsaXplZCBjYWxpYnJhdGlvbiBmb3IgdGhlIHByb2JhYmlsaXR5IG9mIGFuc3dlcnMgaW4gbGFuZ3VhZ2UgbW9kZWxzPyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJDYWxpYnJhdGluZyBWZXJiYWxpemVkIFByb2JhYmlsaXRpZXMgZm9yIExhcmdlIExhbmd1YWdlIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTAuMDY3MDd2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBleHBsb3JlIHRoZSBjYWxpYnJhdGlvbiBvZiB2ZXJiYWxpemVkIHByb2JhYmlsaXR5IGRpc3RyaWJ1dGlvbnMgZm9yIGRpc2NyaW1pbmF0aXZlIHRhc2tzLiBGaXJzdCwgd2UgaW52ZXN0aWdhdGUgdGhlIGNhcGFiaWxpdHkgb2YgTExNcyB0byAuLi4iLCJkYXRlIjoiT2N0IDksIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkxhcmdlIExhbmd1YWdlIE1vZGVscyBNdXN0IEJlIFRhdWdodCB0byBLbm93IFdoYXQgVGhleSBEb24ndCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjA4MzkxdjEiLCJzbmlwcGV0IjoiV2Ugc3R1ZHkgdGhlIHByb3BlcnRpZXMgb2YgdW5jZXJ0YWludHkgY2FsaWJyYXRpb24gaW4gbGFuZ3VhZ2UgbW9kZWxzLCBhbmQgcHJvcG9zZSBmaW5lLXR1bmluZyBmb3IgYmV0dGVyIHVuY2VydGFpbnR5IGVzdGltYXRlcyB1c2luZyBhIGdyYWRlZCBkYXRhc2V0IG9mIC4uLiIsImRhdGUiOiJKdW4gMTIsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlVuY2VydGFpbnR5IFF1YW50aWZpY2F0aW9uIGFuZCBDb25maWRlbmNlIENhbGlicmF0aW9uIGluIExhcmdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDMuMTU4NTB2MSIsInNuaXBwZXQiOiJRdWFudGlmeWluZyBVbmNlcnRhaW50eSBpbiBBbnN3ZXJzIGZyb20gYW55IExhbmd1YWdlIE1vZGVsIGFuZCBFbmhhbmNpbmcgdGhlaXIgVHJ1c3R3b3J0aGluZXNzLiAuLi4gT24gdGhlIENhbGlicmF0aW9uIG9mIExhbmd1YWdlIE1vZGVscyBmb3IgUXVlc3Rpb24gQW5zd2VyaW5nLiIsImRhdGUiOiJNYXIgMjAsIDIwMjUiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkV2YWx1YXRpbmcgTExNIFF1YW50aXRhdGl2ZSBGb3JlY2FzdGluZyB3aXRoIFByZWRpY3Rpb24gSW50ZXJ2YWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNC4xNTg1OXYxIiwic25pcHBldCI6IkNhbGlicmF0aW9uIGdlbmVyYWxseSBpbXByb3ZlcyBhY3Jvc3MgbW9kZWwgZ2VuZXJhdGlvbnMsIGFuZCBhZ2VudGljIHJldHJpZXZhbCBiZW5lZml0cyB3ZWFrZXIgbW9kZWxzIG1vcmUgdGhhbiBzdHJvbmdlciBvbmVzLiBIb3dldmVyLCBwZXJmb3JtYW5jZSBkZWdyYWRlcyAuLi4iLCJkYXRlIjoiQXByIDE3LCAyMDI2IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJVbmNlcnRhaW50eSBRdWFudGlmaWNhdGlvbiBmb3IgSGFsbHVjaW5hdGlvbiBEZXRlY3Rpb24gaW4gTGFyZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMC4xMjA0MHYxIiwic25pcHBldCI6IlF1YW50aWZ5aW5nIHVuY2VydGFpbnR5IGluIGFuc3dlcnMgZnJvbSBhbnkgbGFuZ3VhZ2UgbW9kZWwgYW5kIGVuaGFuY2luZyB0aGVpciB0cnVzdHdvcnRoaW5lc3MuIEluIEx1bi1XZWkgS3UsIEFuZHJlIE1hcnRpbnMsIGFuZCBWaXZlayBTcmlrdW1hciwgZWRpdG9ycyAuLi4iLCJkYXRlIjoiT2N0IDE0LCAyMDI1IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBFbmFibGluZyBDb2xsYWJvcmF0aXZlIFBhcmFtZXRyaWMgS25vd2xlZGdlIENhbGlicmF0aW9uIGZvciAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUwNC4wNDA2NSIsInNuaXBwZXQiOiJ0aGlzIHBhcGVyIHByb3Bvc2VzIGEgVW5pZmllZCBSZXRyaWV2YWwtQXVnbWVudGVkIFZpc2lvbiBpbnRlcmFjdGlvbiBtZWNoYW5pc20uIENhbiBQcmUtdHJhaW5lZCBWaXNpb24gYW5kIExhbmd1YWdlIE1vZGVscyBBbnN3ZXIgVmlzdWFsIEluZm9ybWF0aW9uLVNlZWtpbmcgLi4uIiwiZGF0ZSI6Ikp1bCAxLCAyMDI1IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBIdW1hbnMgb3ZlcnJlbHkgb24gb3ZlcmNvbmZpZGVudCBsYW5ndWFnZSBtb2RlbHMsIGFjcm9zcyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDcuMDYzMDYiLCJzbmlwcGV0IjoiT3VyIGZpbmRpbmdzIGhpZ2hsaWdodCB0aGUgY2hhbGxlbmdlcyBvZiBtdWx0aWxpbmd1YWwgbGluZ3Vpc3RpYyBjYWxpYnJhdGlvbiBhbmQgc3RyZXNzIHRoZSBpbXBvcnRhbmNlIG9mIGN1bHR1cmFsbHkgYW5kIGxpbmd1aXN0aWNhbGx5IGNvbnRleHR1YWxpemVkIG1vZGVsIC4uLiIsImRhdGUiOiJNYXIgMjcsIDIwMjYiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlVuY2VydGFpbnR5IFF1YW50aWZpY2F0aW9uIGFuZCBDb25maWRlbmNlIENhbGlicmF0aW9uIGluIExhcmdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDMuMTU4NTB2MiIsInNuaXBwZXQiOiJBIGxvdCBvZiBwYXBlcnMgZm9jdXMgb24gZXZhbHVhdGluZyB0aGUgY2FsaWJyYXRpb24gcXVhbGl0eSBvZiBzcGVjaWZpYyBsYW5ndWFnZSBtb2RlbHMgKExNcykgYW5kIHRhc2tzIChXYW5nIGV0IGFsLiwgMjAyMDsgS3VtYXIgYW5kIFNhcmF3YWdpLCAyMDE5KSIsImRhdGUiOiJKdW4gMywgMjAyNSIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiIyLiBQZXJsaW1pbmFyaWVzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMy4xNTg1MHYyIzp+OnRleHQ9Mi4lMjBQZXJsaW1pbmFyaWVzIn0seyJ0aXRsZSI6IjIuMi4gVW5jZXJ0YWludHkgQW5kLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMy4xNTg1MHYyIzp+OnRleHQ9Mi4yLiUyMFVuY2VydGFpbnR5JTIwYW5kJTIwQ29uZmlkZW5jZSUyMGluJTIwTExNcyJ9LHsidGl0bGUiOiIzLiBVcSBNZXRob2RzIEZvciBEaWZmZXJlbnQuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAzLjE1ODUwdjIjOn46dGV4dD0zLiUyMFVRJTIwTWV0aG9kcyUyMGZvciUyMERpZmZlcmVudCUyMERpbWVuc2lvbnMifV0sInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gTXVsdGktcHJvcGVydHkgU3RlZXJpbmcgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIHdpdGggRHluYW1pYyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDYuMTc1NjMiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBjb25kdWN0IGEgY29tcHJlaGVuLSBzaXZlIGV2YWx1YXRpb24gb2YgdmFyaW91cyBhY3RpdmF0aW9uIHN0ZWVyaW5nIHN0cmF0ZWdpZXMsIGhpZ2hsaWdodGluZyB0aGUgcHJvcGVydHktZGVwZW5kZW50IG5hdHVyZSBvZiBvcHRpbWFsIC4uLiIsImRhdGUiOiJKdW4gMjcsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIFVuaVJWUUE6IEEgVW5pZmllZCBGcmFtZXdvcmsgZm9yIFJldHJpZXZhbC1BdWdtZW50ZWQgVmlzaW9uIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUwNC4wNDA2NT8iLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgcHJvcG9zZSBhIFVuaWZpZWQgUmV0cmlldmFsLUF1Z21lbnRlZCBWaXNpb24uIFF1ZXN0aW9uIEFuc3dlciBmcmFtZXdvcmsgKFVuaVJWUUEpLCB3aGljaCBjYW4gZWZmZWN0aXZlbHkgYWRhcHRzIGdlbmVyYWwtcHVycG9zZSBNTExNcyBmb3IgYm90aCAuLi4iLCJkYXRlIjoiQXByIDUsIDIwMjUiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Are there papers that propose contextualized calibration for the probability of answers in language models? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Calibrating Verbalized Probabilities for Large Language Models",
+        "link": "https://arxiv.org/html/2410.06707v1",
+        "snippet": "In this paper, we explore the calibration of verbalized probability distributions for discriminative tasks. First, we investigate the capability of LLMs to ...",
+        "date": "Oct 9, 2024",
+        "position": 1
+      },
+      {
+        "title": "Large Language Models Must Be Taught to Know What They Don't ...",
+        "link": "https://arxiv.org/html/2406.08391v1",
+        "snippet": "We study the properties of uncertainty calibration in language models, and propose fine-tuning for better uncertainty estimates using a graded dataset of ...",
+        "date": "Jun 12, 2024",
+        "position": 2
+      },
+      {
+        "title": "Uncertainty Quantification and Confidence Calibration in Large ...",
+        "link": "https://arxiv.org/html/2503.15850v1",
+        "snippet": "Quantifying Uncertainty in Answers from any Language Model and Enhancing their Trustworthiness. ... On the Calibration of Language Models for Question Answering.",
+        "date": "Mar 20, 2025",
+        "position": 3
+      },
+      {
+        "title": "Evaluating LLM Quantitative Forecasting with Prediction Intervals",
+        "link": "https://arxiv.org/html/2604.15859v1",
+        "snippet": "Calibration generally improves across model generations, and agentic retrieval benefits weaker models more than stronger ones. However, performance degrades ...",
+        "date": "Apr 17, 2026",
+        "position": 4
+      },
+      {
+        "title": "Uncertainty Quantification for Hallucination Detection in Large ...",
+        "link": "https://arxiv.org/html/2510.12040v1",
+        "snippet": "Quantifying uncertainty in answers from any language model and enhancing their trustworthiness. In Lun-Wei Ku, Andre Martins, and Vivek Srikumar, editors ...",
+        "date": "Oct 14, 2025",
+        "position": 5
+      },
+      {
+        "title": "[PDF] Enabling Collaborative Parametric Knowledge Calibration for ... - arXiv",
+        "link": "https://arxiv.org/pdf/2504.04065",
+        "snippet": "this paper proposes a Unified Retrieval-Augmented Vision interaction mechanism. Can Pre-trained Vision and Language Models Answer Visual Information-Seeking ...",
+        "date": "Jul 1, 2025",
+        "position": 6
+      },
+      {
+        "title": "[PDF] Humans overrely on overconfident language models, across ...",
+        "link": "https://arxiv.org/pdf/2507.06306",
+        "snippet": "Our findings highlight the challenges of multilingual linguistic calibration and stress the importance of culturally and linguistically contextualized model ...",
+        "date": "Mar 27, 2026",
+        "position": 7
+      },
+      {
+        "title": "Uncertainty Quantification and Confidence Calibration in Large ...",
+        "link": "https://arxiv.org/html/2503.15850v2",
+        "snippet": "A lot of papers focus on evaluating the calibration quality of specific language models (LMs) and tasks (Wang et al., 2020; Kumar and Sarawagi, 2019)",
+        "date": "Jun 3, 2025",
+        "sitelinks": [
+          {
+            "title": "2. Perliminaries",
+            "link": "https://arxiv.org/html/2503.15850v2#:~:text=2.%20Perliminaries"
+          },
+          {
+            "title": "2.2. Uncertainty And...",
+            "link": "https://arxiv.org/html/2503.15850v2#:~:text=2.2.%20Uncertainty%20and%20Confidence%20in%20LLMs"
+          },
+          {
+            "title": "3. Uq Methods For Different...",
+            "link": "https://arxiv.org/html/2503.15850v2#:~:text=3.%20UQ%20Methods%20for%20Different%20Dimensions"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "[PDF] Multi-property Steering of Large Language Models with Dynamic ...",
+        "link": "https://arxiv.org/pdf/2406.17563",
+        "snippet": "In this work, we conduct a comprehen- sive evaluation of various activation steering strategies, highlighting the property-dependent nature of optimal ...",
+        "date": "Jun 27, 2024",
+        "position": 9
+      },
+      {
+        "title": "[PDF] UniRVQA: A Unified Framework for Retrieval-Augmented Vision ...",
+        "link": "https://arxiv.org/pdf/2504.04065?",
+        "snippet": "In this paper, we propose a Unified Retrieval-Augmented Vision. Question Answer framework (UniRVQA), which can effectively adapts general-purpose MLLMs for both ...",
+        "date": "Apr 5, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Calibrating Verbalized Probabilities for Large Language Models",
+      "snippet": "In this paper, we explore the calibration of verbalized probability distributions for discriminative tasks. First, we investigate the capability of LLMs to ...",
+      "link": "https://arxiv.org/html/2410.06707v1",
+      "arxiv_id": "2410.06707"
+    },
+    {
+      "rank": 2,
+      "title": "Large Language Models Must Be Taught to Know What They Don't ...",
+      "snippet": "We study the properties of uncertainty calibration in language models, and propose fine-tuning for better uncertainty estimates using a graded dataset of ...",
+      "link": "https://arxiv.org/html/2406.08391v1",
+      "arxiv_id": "2406.08391"
+    },
+    {
+      "rank": 3,
+      "title": "Uncertainty Quantification and Confidence Calibration in Large ...",
+      "snippet": "Quantifying Uncertainty in Answers from any Language Model and Enhancing their Trustworthiness. ... On the Calibration of Language Models for Question Answering.",
+      "link": "https://arxiv.org/html/2503.15850v1",
+      "arxiv_id": "2503.15850"
+    },
+    {
+      "rank": 4,
+      "title": "Evaluating LLM Quantitative Forecasting with Prediction Intervals",
+      "snippet": "Calibration generally improves across model generations, and agentic retrieval benefits weaker models more than stronger ones. However, performance degrades ...",
+      "link": "https://arxiv.org/html/2604.15859v1",
+      "arxiv_id": "2604.15859"
+    },
+    {
+      "rank": 5,
+      "title": "Uncertainty Quantification for Hallucination Detection in Large ...",
+      "snippet": "Quantifying uncertainty in answers from any language model and enhancing their trustworthiness. In Lun-Wei Ku, Andre Martins, and Vivek Srikumar, editors ...",
+      "link": "https://arxiv.org/html/2510.12040v1",
+      "arxiv_id": "2510.12040"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] Enabling Collaborative Parametric Knowledge Calibration for ... - arXiv",
+      "snippet": "this paper proposes a Unified Retrieval-Augmented Vision interaction mechanism. Can Pre-trained Vision and Language Models Answer Visual Information-Seeking ...",
+      "link": "https://arxiv.org/pdf/2504.04065",
+      "arxiv_id": "2504.04065"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] Humans overrely on overconfident language models, across ...",
+      "snippet": "Our findings highlight the challenges of multilingual linguistic calibration and stress the importance of culturally and linguistically contextualized model ...",
+      "link": "https://arxiv.org/pdf/2507.06306",
+      "arxiv_id": "2507.06306"
+    },
+    {
+      "rank": 8,
+      "title": "Uncertainty Quantification and Confidence Calibration in Large ...",
+      "snippet": "A lot of papers focus on evaluating the calibration quality of specific language models (LMs) and tasks (Wang et al., 2020; Kumar and Sarawagi, 2019)",
+      "link": "https://arxiv.org/html/2503.15850v2",
+      "arxiv_id": "2503.15850"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] Multi-property Steering of Large Language Models with Dynamic ...",
+      "snippet": "In this work, we conduct a comprehen- sive evaluation of various activation steering strategies, highlighting the property-dependent nature of optimal ...",
+      "link": "https://arxiv.org/pdf/2406.17563",
+      "arxiv_id": "2406.17563"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] UniRVQA: A Unified Framework for Retrieval-Augmented Vision ...",
+      "snippet": "In this paper, we propose a Unified Retrieval-Augmented Vision. Question Answer framework (UniRVQA), which can effectively adapts general-purpose MLLMs for both ...",
+      "link": "https://arxiv.org/pdf/2504.04065?",
+      "arxiv_id": "2504.04065"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:24.361922+00:00",
+  "elapsed_seconds": 1.7117286436259747,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q25_original_question_attempt1.json",
+      "sha256": "21cc79de6a8e016b44430274cc4c379bb8ffd1c2050cb27dc214270e865112df",
+      "status": "PASS"
+    }
+  ]
+}

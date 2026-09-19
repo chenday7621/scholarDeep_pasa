@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q03",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2306.15164",
+  "request_payload": {
+    "q": "Which paper introduce a DRO (distribution robust optimization) like training objective for doing adversarial training without constructing adversarial samples. before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 6,
+  "started_utc": "2026-09-17T12:33:28.169279+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648130",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "661c1e6f25e5ce33b4d17ba350dba703",
+    "date": "Thu, 17 Sep 2026 12:28:49 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3599",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3599,
+  "response_bytes_sha256": "fb509f4408740719a0f35157adc13a5ef9f67dbbd36aa65008b1e96c70660a2b",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJXaGljaCBwYXBlciBpbnRyb2R1Y2UgYSBEUk8gKGRpc3RyaWJ1dGlvbiByb2J1c3Qgb3B0aW1pemF0aW9uKSBsaWtlIHRyYWluaW5nIG9iamVjdGl2ZSBmb3IgZG9pbmcgYWR2ZXJzYXJpYWwgdHJhaW5pbmcgd2l0aG91dCBjb25zdHJ1Y3RpbmcgYWR2ZXJzYXJpYWwgc2FtcGxlcy4gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQWR2ZXJzYXJpYWwgRGlzdHJpYnV0aW9uYWwgVHJhaW5pbmcgZm9yIFJvYnVzdCBEZWVwIExlYXJuaW5nIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMDAyLjA1OTk5djIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgaW50cm9kdWNlIGFkdmVyc2FyaWFsIGRpc3RyaWJ1dGlvbmFsIHRyYWluaW5nIChBRFQpLCBhIG5vdmVsIGZyYW1ld29yayBmb3IgbGVhcm5pbmcgcm9idXN0IG1vZGVscy4gQURUIGlzIGZvcm11bGF0ZWQgYXMgYSBtaW5pbWF4IG9wdGltaXphdGlvbiAuLi4iLCJkYXRlIjoiTm92IDE5LCAyMDIwIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJEUk86IEEgUHl0aG9uIExpYnJhcnkgZm9yIERpc3RyaWJ1dGlvbmFsbHkgUm9idXN0IE9wdGltaXphdGlvbiBpbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA1LjIzNTY1djEiLCJzbmlwcGV0IjoiQWJzdHJhY3QuIFdlIGludHJvZHVjZSBkcm8sIGFuIG9wZW4tc291cmNlIFB5dGhvbiBsaWJyYXJ5IGZvciBkaXN0cmlidXRpb25hbGx5IHJvYnVzdCBvcHRpbWl6YXRpb24gKERSTykgZm9yIHJlZ3Jlc3Npb24gYW5kIGNsYXNzaWZpY2F0aW9uIHByb2JsZW1zLiIsImRhdGUiOiJNYXkgMjksIDIwMjUiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIERpc3RyaWJ1dGlvbmFsbHkgUm9idXN0IE9wdGltaXphdGlvbiB2aWEgR2VuZXJhdGl2ZSBBbWJpZ3VpdHkgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI2MDIuMDg5NzYiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBzdHVkaWVzIERpc3RyaWJ1dGlvbmFsbHkgUm9idXN0IE9wdGltaXphdGlvbiAoRFJPKSwgYSBmdW5kYW1lbnRhbCBmcmFtZXdvcmsgZm9yIGVuaGFuY2luZyB0aGUgcm9idXN0bmVzcyBhbmQgZ2VuZXJhbGl6YXRpb24gb2Ygc3RhdGlzdGljYWwgbGVhcm5pbmcgLi4uIiwiZGF0ZSI6IkZlYiA5LCAyMDI2IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSBEaXN0cmlidXRpb25hbGx5IFJvYnVzdCBPcHRpbWl6YXRpb24gd2l0aCBBZHZlcnNhcmlhbCBEYXRhIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA3LjEwNzE4Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgaW50cm9kdWNlcyBhIHByaW5jaXBsZWQgYXBwcm9hY2ggdG8gc2ltdWx0YW5lb3VzbHkgYWRkcmVzcyBib3RoIGNoYWxsZW5nZXMuIGlzIGEgZ2VuZXJhbCBzdG9jaGFzdGljIG9wdGltaXphdGlvbiBmcmFtZXdvcmssIHdoZXJlIHRoZSBnb2FsIGlzIHRvIC4uLiIsImRhdGUiOiJOb3YgMiwgMjAyNSIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiWzI0MTEuMDI1NDldIERpc3RyaWJ1dGlvbmFsbHkgUm9idXN0IE9wdGltaXphdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDExLjAyNTQ5Iiwic25pcHBldCI6IlBERiBvZiB0aGUgcGFwZXIgdGl0bGVkIERpc3RyaWJ1dGlvbmFsbHkgUm9idXN0IE9wdGltaXphdGlvbiwgYnkgRGFuaWVsIEt1aG4gYW5kIFNvcm9vc2ggU2hhZmllZSBhbmQgV29sZnJhbSDigKYgYWR2ZXJzYXJpYWwgdHJhaW5pbmcgaW4gbWFjaGluZSBsZWFybmluZy4iLCJkYXRlIjoiTm92IDQsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkRpc3RyaWJ1dGlvbmFsbHkgUm9idXN0IFBvbGljeSBMZWFybmluZyB2aWEgQWR2ZXJzYXJpYWwgRW52aXJvbm1lbnQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMTA3LjA2MzUzIiwic25pcHBldCI6IkFic3RyYWN0Ok91ciBnb2FsIGlzIHRvIHRyYWluIGNvbnRyb2wgcG9saWNpZXMgdGhhdCBnZW5lcmFsaXplIHdlbGwgdG8gdW5zZWVuIGVudmlyb25tZW50cy4gSW5zcGlyZWQgYnkgdGhlIERpc3RyaWJ1dGlvbmFsbHkgUm9idXN0IE9wdGltaXphdGlvbiAoRFJPKSAuLi4iLCJkYXRlIjoiSnVsIDEzLCAyMDIxIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJSaXNrLUF2ZXJzZSBXYXNzZXJzdGVpbiBEaXN0cmlidXRpb25hbGx5IFJvYnVzdCBPbmxpbmUgTGVhcm5pbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAyLjIwNDAzdjIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgZm9ybXVsYXRlIHRoZSBwcm9ibGVtIGFzIGFuIG9ubGluZSBzYWRkbGUtcG9pbnQgc3RvY2hhc3RpYyBnYW1lIGJldHdlZW4gYSBkZWNpc2lvbiBtYWtlciBhbmQgYW4gYWR2ZXJzYXJ5IHNlbGVjdGluZyB3b3JzdC1jYXNlIGRpc3RyaWJ1dGlvbnMsIiwiZGF0ZSI6IkF1ZyAxMSwgMjAyNiIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gSU1BUDogSW50cmluc2ljYWxseSBNb3RpdmF0ZWQgQWR2ZXJzYXJpYWwgUG9saWN5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDUuMDI2MDUiLCJzbmlwcGV0IjoiRWZmaWNpZW50LiBBZHZlcnNhcmlhbCBUcmFpbmluZyB3aXRob3V0IEF0dGFja2luZzogV29yc3QtQ2FzZS1Bd2FyZSBSb2J1c3QgUmVpbmZvcmNlLSBtZW50IExlYXJuaW5nLiBhclhpdiBwcmVwcmludCBhclhpdjoyMjEwLjA1OTI3ICgyMDIyKS4gWzMzXSBZZW4tQ2hlbiAuLi4iLCJkYXRlIjoiTWF5IDUsIDIwMjMiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IlsyNjA3LjI0OTgzXSBHZW5lcmF0aXZlIERpc3RyaWJ1dGlvbmFsbHkgUm9idXN0IE9wdGltaXphdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNjA3LjI0OTgzIiwic25pcHBldCI6IldlIHByb3Bvc2UgR2VuZXJhdGl2ZSBEaXN0cmlidXRpb25hbGx5IFJvYnVzdCBPcHRpbWl6YXRpb24gKEdEUk8pLCBhIHByaW5jaXBsZWQgZnJhbWV3b3JrIHRoYXQgYWNjZXB0cyBhbnkgc2FtcGxlYWJsZSBjb25kaXRpb25hbCBnZW5lcmF0b3IgYXMgdGhlIG5vbWluYWwgbW9kZWwgLi4uIiwiZGF0ZSI6Ikp1bCAyNywgMjAyNiIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiQW4gSW5zdGFuY2Utd2lzZSBEaXN0cmlidXRpb25hbGx5IFJvYnVzdCBBVUMgT3B0aW1pemF0aW9uIEZyYW1ld29yayIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMDMwNTV2MSIsInNuaXBwZXQiOiJUaGlzIHRlY2huaXF1ZSBhaW1zIHRvIGRldmVsb3AgYSBtb2RlbCB0aGF0IHBlcmZvcm1zIHdlbGwsIGV2ZW4gdW5kZXIgdGhlIG1vc3QgYWR2ZXJzYXJpYWwgZGlzdHJpYnV0aW9uIHdpdGhpbiBhIHNwZWNpZmllZCBkaXN0YW5jZSBmcm9tIHRoZSBvcmlnaW5hbCB0cmFpbmluZyAuLi4iLCJkYXRlIjoiTm92IDYsIDIwMjMiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Which paper introduce a DRO (distribution robust optimization) like training objective for doing adversarial training without constructing adversarial samples. before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Adversarial Distributional Training for Robust Deep Learning - arXiv",
+        "link": "https://arxiv.org/html/2002.05999v2",
+        "snippet": "In this paper, we introduce adversarial distributional training (ADT), a novel framework for learning robust models. ADT is formulated as a minimax optimization ...",
+        "date": "Nov 19, 2020",
+        "position": 1
+      },
+      {
+        "title": "DRO: A Python Library for Distributionally Robust Optimization in ...",
+        "link": "https://arxiv.org/html/2505.23565v1",
+        "snippet": "Abstract. We introduce dro, an open-source Python library for distributionally robust optimization (DRO) for regression and classification problems.",
+        "date": "May 29, 2025",
+        "position": 2
+      },
+      {
+        "title": "[PDF] Distributionally Robust Optimization via Generative Ambiguity ... - arXiv",
+        "link": "https://arxiv.org/pdf/2602.08976",
+        "snippet": "This paper studies Distributionally Robust Optimization (DRO), a fundamental framework for enhancing the robustness and generalization of statistical learning ...",
+        "date": "Feb 9, 2026",
+        "position": 3
+      },
+      {
+        "title": "[PDF] Distributionally Robust Optimization with Adversarial Data ... - arXiv",
+        "link": "https://arxiv.org/pdf/2507.10718",
+        "snippet": "This paper introduces a principled approach to simultaneously address both challenges. is a general stochastic optimization framework, where the goal is to ...",
+        "date": "Nov 2, 2025",
+        "position": 4
+      },
+      {
+        "title": "[2411.02549] Distributionally Robust Optimization - arXiv",
+        "link": "https://arxiv.org/abs/2411.02549",
+        "snippet": "PDF of the paper titled Distributionally Robust Optimization, by Daniel Kuhn and Soroosh Shafiee and Wolfram … adversarial training in machine learning.",
+        "date": "Nov 4, 2024",
+        "position": 5
+      },
+      {
+        "title": "Distributionally Robust Policy Learning via Adversarial Environment ...",
+        "link": "https://arxiv.org/abs/2107.06353",
+        "snippet": "Abstract:Our goal is to train control policies that generalize well to unseen environments. Inspired by the Distributionally Robust Optimization (DRO) ...",
+        "date": "Jul 13, 2021",
+        "position": 6
+      },
+      {
+        "title": "Risk-Averse Wasserstein Distributionally Robust Online Learning",
+        "link": "https://arxiv.org/html/2602.20403v2",
+        "snippet": "In this paper, we formulate the problem as an online saddle-point stochastic game between a decision maker and an adversary selecting worst-case distributions,",
+        "date": "Aug 11, 2026",
+        "position": 7
+      },
+      {
+        "title": "[PDF] IMAP: Intrinsically Motivated Adversarial Policy - arXiv",
+        "link": "https://arxiv.org/pdf/2305.02605",
+        "snippet": "Efficient. Adversarial Training without Attacking: Worst-Case-Aware Robust Reinforce- ment Learning. arXiv preprint arXiv:2210.05927 (2022). [33] Yen-Chen ...",
+        "date": "May 5, 2023",
+        "position": 8
+      },
+      {
+        "title": "[2607.24983] Generative Distributionally Robust Optimization - arXiv",
+        "link": "https://arxiv.org/abs/2607.24983",
+        "snippet": "We propose Generative Distributionally Robust Optimization (GDRO), a principled framework that accepts any sampleable conditional generator as the nominal model ...",
+        "date": "Jul 27, 2026",
+        "position": 9
+      },
+      {
+        "title": "An Instance-wise Distributionally Robust AUC Optimization Framework",
+        "link": "https://arxiv.org/html/2311.03055v1",
+        "snippet": "This technique aims to develop a model that performs well, even under the most adversarial distribution within a specified distance from the original training ...",
+        "date": "Nov 6, 2023",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Adversarial Distributional Training for Robust Deep Learning - arXiv",
+      "snippet": "In this paper, we introduce adversarial distributional training (ADT), a novel framework for learning robust models. ADT is formulated as a minimax optimization ...",
+      "link": "https://arxiv.org/html/2002.05999v2",
+      "arxiv_id": "2002.05999"
+    },
+    {
+      "rank": 2,
+      "title": "DRO: A Python Library for Distributionally Robust Optimization in ...",
+      "snippet": "Abstract. We introduce dro, an open-source Python library for distributionally robust optimization (DRO) for regression and classification problems.",
+      "link": "https://arxiv.org/html/2505.23565v1",
+      "arxiv_id": "2505.23565"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] Distributionally Robust Optimization via Generative Ambiguity ... - arXiv",
+      "snippet": "This paper studies Distributionally Robust Optimization (DRO), a fundamental framework for enhancing the robustness and generalization of statistical learning ...",
+      "link": "https://arxiv.org/pdf/2602.08976",
+      "arxiv_id": "2602.08976"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] Distributionally Robust Optimization with Adversarial Data ... - arXiv",
+      "snippet": "This paper introduces a principled approach to simultaneously address both challenges. is a general stochastic optimization framework, where the goal is to ...",
+      "link": "https://arxiv.org/pdf/2507.10718",
+      "arxiv_id": "2507.10718"
+    },
+    {
+      "rank": 5,
+      "title": "[2411.02549] Distributionally Robust Optimization - arXiv",
+      "snippet": "PDF of the paper titled Distributionally Robust Optimization, by Daniel Kuhn and Soroosh Shafiee and Wolfram … adversarial training in machine learning.",
+      "link": "https://arxiv.org/abs/2411.02549",
+      "arxiv_id": "2411.02549"
+    },
+    {
+      "rank": 6,
+      "title": "Distributionally Robust Policy Learning via Adversarial Environment ...",
+      "snippet": "Abstract:Our goal is to train control policies that generalize well to unseen environments. Inspired by the Distributionally Robust Optimization (DRO) ...",
+      "link": "https://arxiv.org/abs/2107.06353",
+      "arxiv_id": "2107.06353"
+    },
+    {
+      "rank": 7,
+      "title": "Risk-Averse Wasserstein Distributionally Robust Online Learning",
+      "snippet": "In this paper, we formulate the problem as an online saddle-point stochastic game between a decision maker and an adversary selecting worst-case distributions,",
+      "link": "https://arxiv.org/html/2602.20403v2",
+      "arxiv_id": "2602.20403"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] IMAP: Intrinsically Motivated Adversarial Policy - arXiv",
+      "snippet": "Efficient. Adversarial Training without Attacking: Worst-Case-Aware Robust Reinforce- ment Learning. arXiv preprint arXiv:2210.05927 (2022). [33] Yen-Chen ...",
+      "link": "https://arxiv.org/pdf/2305.02605",
+      "arxiv_id": "2305.02605"
+    },
+    {
+      "rank": 9,
+      "title": "[2607.24983] Generative Distributionally Robust Optimization - arXiv",
+      "snippet": "We propose Generative Distributionally Robust Optimization (GDRO), a principled framework that accepts any sampleable conditional generator as the nominal model ...",
+      "link": "https://arxiv.org/abs/2607.24983",
+      "arxiv_id": "2607.24983"
+    },
+    {
+      "rank": 10,
+      "title": "An Instance-wise Distributionally Robust AUC Optimization Framework",
+      "snippet": "This technique aims to develop a model that performs well, even under the most adversarial distribution within a specified distance from the original training ...",
+      "link": "https://arxiv.org/html/2311.03055v1",
+      "arxiv_id": "2311.03055"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:29.152326+00:00",
+  "elapsed_seconds": 0.9830489680171013
+}

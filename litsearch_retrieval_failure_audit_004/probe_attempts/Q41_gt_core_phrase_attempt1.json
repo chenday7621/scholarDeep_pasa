@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q41",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2010.02295",
+  "request_payload": {
+    "q": "splat speech joint pre spoken understanding before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 89,
+  "started_utc": "2026-09-17T12:35:05.968730+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648230",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "b3dc2ccad6f7b011e5cdd5aeef64f1be",
+    "date": "Thu, 17 Sep 2026 12:30:27 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3097",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3097,
+  "response_bytes_sha256": "ac73d63e8d118db2edb1775ae39cad5a3349ebdfbdb3339370d2ad260e0d03fb",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJzcGxhdCBzcGVlY2ggam9pbnQgcHJlIHNwb2tlbiB1bmRlcnN0YW5kaW5nIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlsyMDEwLjAyMjk1XSBTUExBVDogU3BlZWNoLUxhbmd1YWdlIEpvaW50IFByZS1UcmFpbmluZyBmb3IgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMDEwLjAyMjk1Iiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHByb3Bvc2UgYSBub3ZlbCBzZW1pLXN1cGVydmlzZWQgbGVhcm5pbmcgZnJhbWV3b3JrLCBTUExBVCwgdG8gam9pbnRseSBwcmUtdHJhaW4gdGhlIHNwZWVjaCBhbmQgbGFuZ3VhZ2UgbW9kdWxlcy4iLCJkYXRlIjoiT2N0IDUsIDIwMjAiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkpPSVNUOiBBIEpvaW50IFNwZWVjaCBhbmQgVGV4dCBTdHJlYW1pbmcgTW9kZWwgRm9yIEFTUiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIxMC4wNzM1M3YxIiwic25pcHBldCI6IkpPSVNULCBhbiBhbGdvcml0aG0gdG8gdHJhaW4gYSBzdHJlYW1pbmcsIGNhc2NhZGVkLCBlbmNvZGVyIGVuZC10by1lbmQgKEUyRSkgbW9kZWwgd2l0aCBib3RoIHNwZWVjaCAuIHNwb2tlbiBsYW5ndWFnZSB1bmRlcnN0YW5kaW5nIHRhc2suIOKAnFNQTEFUOiBTcGVlY2gtIC4uLiIsImRhdGUiOiJPY3QgMTMsIDIwMjIiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkJFUlQgTWVldHMgQ1RDOiBOZXcgRm9ybXVsYXRpb24gb2YgRW5kLXRvLUVuZCBTcGVlY2ggLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjEwLjE2NjYzdjIiLCJzbmlwcGV0IjoiU1BMQVQ6IFNwZWVjaC1sYW5ndWFnZSBqb2ludCBwcmUtdHJhaW5pbmcgZm9yIHNwb2tlbiBsYW5ndWFnZSB1bmRlcnN0YW5kaW5nLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgMjAyMSBDb25mZXJlbmNlIG9mIHRoZSBOb3J0aCBBbWVyaWNhbiIsImRhdGUiOiJBcHIgMjAsIDIwMjMiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDMuMDM2MDB2MSBbY3MuQ0xdIDcgTWFyIDIwMjMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDMuMDM2MDAiLCJzbmlwcGV0Ijoi4oCcU1BMQVQ6IHNwZWVjaC1sYW5ndWFnZSBqb2ludCBwcmUtdHJhaW5pbmcgZm9yIHNwb2tlbiBsYW5ndWFnZSB1bmRlcnN0YW5kaW5nLOKAnSBpbiBOQUFDTC1ITFQgMjAyMSwgT25saW5lLCBKdW5lIDYtMTEsIDIwMjEuIiwiZGF0ZSI6Ik1hciA3LCAyMDIzIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMjExLjAzMDI1djEgW2NzLkNMXSA2IE5vdiAyMDIyIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjExLjAzMDI1Iiwic25pcHBldCI6IlpodSwgYW5kIE0uIFplbmcsIOKAnFNQTEFUOiBTcGVlY2gtbGFuZ3VhZ2Ugam9pbnQgcHJlLXRyYWluaW5nIGZvciBzcG9rZW4gbGFuZ3VhZ2UgdW5kZXJzdGFuZGluZyzigJ0gaW4gTkFBQ0wsIDIwMjEuIiwiZGF0ZSI6Ik5vdiA2LCAyMDIyIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBBIGR1YWwgdGFzayBsZWFybmluZyBhcHByb2FjaCB0byBmaW5lLXR1bmUgYSBtdWx0aWxpbmd1YWwgc2VtYW50aWMgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA2LjEyMTQxIiwic25pcHBldCI6IuKAnFNQTEFUOiBTcGVlY2gtTGFuZ3VhZ2UgSm9pbnQgUHJlLVRyYWluaW5nIGZvciBTcG9rZW4gTGFuZ3VhZ2UgVW5kZXJzdGFuZGluZyzigJ0gaW4gTkFBQ0wtIEhMVCwgMjAyMS4iLCJkYXRlIjoiSnVuIDE3LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDAxLjEzNDYzdjMgW2NzLkNMXSAyNCBBdWcgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMS4xMzQ2MyIsInNuaXBwZXQiOiLigJxTUExBVDogU3BlZWNoLUxhbmd1YWdlIEpvaW50IFByZS0gVHJhaW5pbmcgZm9yIFNwb2tlbiBMYW5ndWFnZSBVbmRlcnN0YW5kaW5nLOKAnSBpbiBQcm9jZWVkaW5ncyBvZiB0aGUgMjAyMSBDb25mZXJlbmNlIG9mIHRoZSBOb3J0aCBBbWVyaWNhbiIsImRhdGUiOiJBdWcgMjQsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIyMTEuMTMyODB2MSBbY3MuQ0xdIDIzIE5vdiAyMDIyIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjExLjEzMjgwIiwic25pcHBldCI6IuKAnFNQTEFUOiBTcGVlY2gtbGFuZ3VhZ2Ugam9pbnQgcHJlLXRyYWluaW5nIGZvciBzcG9rZW4gbGFuZ3VhZ2UgdW5kZXJzdGFuZGluZyzigJ0gYXJYaXYgcHJlcHJpbnQgYXJYaXY6MjAxMC4wMjI5NSwgMjAyMC4iLCJkYXRlIjoiTm92IDIzLCAyMDIyIiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMzA1LjE3NDk5djEgW2NzLkNMXSAyNyBNYXkgMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4xNzQ5OSIsInNuaXBwZXQiOiJTcGxhdDogU3BlZWNoLWxhbmd1YWdlIGpvaW50IHByZS10cmFpbmluZyBmb3Igc3Bva2VuIGxhbmd1YWdlIHVuZGVyc3RhbmRpbmcuIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDIxIENvbmZlcmVuY2Ugb2YgdGhlIE5vcnRoIEFtZXJpY2FuIENoYXAtIHRlciBvZiB0aGUgLi4uIiwiZGF0ZSI6Ik1heSAyNywgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjIwMy4wNDkxMXYzIFtjcy5DTF0gMjEgSnVuIDIwMjIiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMDMuMDQ5MTEiLCJzbmlwcGV0IjoiWmVuZywg4oCcU1BMQVQ6IFNwZWVjaC1sYW5ndWFnZSBqb2ludCBwcmUtdHJhaW5pbmcgZm9yIHNwb2tlbiBsYW5ndWFnZSB1bmRlcnN0YW5kaW5nLOKAnSBpbi4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMjEgQ29uZmVyZW5jZSBvZiB0aGUgTm9ydGggQW1lcmljYW4uIENoYXB0ZXIgb2YgLi4uIiwiZGF0ZSI6Ikp1biAyMSwgMjAyMiIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "splat speech joint pre spoken understanding before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[2010.02295] SPLAT: Speech-Language Joint Pre-Training for ...",
+        "link": "https://arxiv.org/abs/2010.02295",
+        "snippet": "In this paper, we propose a novel semi-supervised learning framework, SPLAT, to jointly pre-train the speech and language modules.",
+        "date": "Oct 5, 2020",
+        "position": 1
+      },
+      {
+        "title": "JOIST: A Joint Speech and Text Streaming Model For ASR - arXiv",
+        "link": "https://arxiv.org/html/2210.07353v1",
+        "snippet": "JOIST, an algorithm to train a streaming, cascaded, encoder end-to-end (E2E) model with both speech . spoken language understanding task. “SPLAT: Speech- ...",
+        "date": "Oct 13, 2022",
+        "position": 2
+      },
+      {
+        "title": "BERT Meets CTC: New Formulation of End-to-End Speech ... - arXiv",
+        "link": "https://arxiv.org/html/2210.16663v2",
+        "snippet": "SPLAT: Speech-language joint pre-training for spoken language understanding. In Proceedings of the 2021 Conference of the North American",
+        "date": "Apr 20, 2023",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2303.03600v1 [cs.CL] 7 Mar 2023",
+        "link": "https://arxiv.org/pdf/2303.03600",
+        "snippet": "“SPLAT: speech-language joint pre-training for spoken language understanding,” in NAACL-HLT 2021, Online, June 6-11, 2021.",
+        "date": "Mar 7, 2023",
+        "position": 4
+      },
+      {
+        "title": "[PDF] arXiv:2211.03025v1 [cs.CL] 6 Nov 2022",
+        "link": "https://arxiv.org/pdf/2211.03025",
+        "snippet": "Zhu, and M. Zeng, “SPLAT: Speech-language joint pre-training for spoken language understanding,” in NAACL, 2021.",
+        "date": "Nov 6, 2022",
+        "position": 5
+      },
+      {
+        "title": "[PDF] A dual task learning approach to fine-tune a multilingual semantic ...",
+        "link": "https://arxiv.org/pdf/2406.12141",
+        "snippet": "“SPLAT: Speech-Language Joint Pre-Training for Spoken Language Understanding,” in NAACL- HLT, 2021.",
+        "date": "Jun 17, 2024",
+        "position": 6
+      },
+      {
+        "title": "[PDF] arXiv:2401.13463v3 [cs.CL] 24 Aug 2024",
+        "link": "https://arxiv.org/pdf/2401.13463",
+        "snippet": "“SPLAT: Speech-Language Joint Pre- Training for Spoken Language Understanding,” in Proceedings of the 2021 Conference of the North American",
+        "date": "Aug 24, 2024",
+        "position": 7
+      },
+      {
+        "title": "[PDF] arXiv:2211.13280v1 [cs.CL] 23 Nov 2022",
+        "link": "https://arxiv.org/pdf/2211.13280",
+        "snippet": "“SPLAT: Speech-language joint pre-training for spoken language understanding,” arXiv preprint arXiv:2010.02295, 2020.",
+        "date": "Nov 23, 2022",
+        "position": 8
+      },
+      {
+        "title": "[PDF] arXiv:2305.17499v1 [cs.CL] 27 May 2023",
+        "link": "https://arxiv.org/pdf/2305.17499",
+        "snippet": "Splat: Speech-language joint pre-training for spoken language understanding. In Proceedings of the 2021 Conference of the North American Chap- ter of the ...",
+        "date": "May 27, 2023",
+        "position": 9
+      },
+      {
+        "title": "[PDF] arXiv:2203.04911v3 [cs.CL] 21 Jun 2022",
+        "link": "https://arxiv.org/pdf/2203.04911",
+        "snippet": "Zeng, “SPLAT: Speech-language joint pre-training for spoken language understanding,” in. Proceedings of the 2021 Conference of the North American. Chapter of ...",
+        "date": "Jun 21, 2022",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[2010.02295] SPLAT: Speech-Language Joint Pre-Training for ...",
+      "snippet": "In this paper, we propose a novel semi-supervised learning framework, SPLAT, to jointly pre-train the speech and language modules.",
+      "link": "https://arxiv.org/abs/2010.02295",
+      "arxiv_id": "2010.02295"
+    },
+    {
+      "rank": 2,
+      "title": "JOIST: A Joint Speech and Text Streaming Model For ASR - arXiv",
+      "snippet": "JOIST, an algorithm to train a streaming, cascaded, encoder end-to-end (E2E) model with both speech . spoken language understanding task. “SPLAT: Speech- ...",
+      "link": "https://arxiv.org/html/2210.07353v1",
+      "arxiv_id": "2210.07353"
+    },
+    {
+      "rank": 3,
+      "title": "BERT Meets CTC: New Formulation of End-to-End Speech ... - arXiv",
+      "snippet": "SPLAT: Speech-language joint pre-training for spoken language understanding. In Proceedings of the 2021 Conference of the North American",
+      "link": "https://arxiv.org/html/2210.16663v2",
+      "arxiv_id": "2210.16663"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2303.03600v1 [cs.CL] 7 Mar 2023",
+      "snippet": "“SPLAT: speech-language joint pre-training for spoken language understanding,” in NAACL-HLT 2021, Online, June 6-11, 2021.",
+      "link": "https://arxiv.org/pdf/2303.03600",
+      "arxiv_id": "2303.03600"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] arXiv:2211.03025v1 [cs.CL] 6 Nov 2022",
+      "snippet": "Zhu, and M. Zeng, “SPLAT: Speech-language joint pre-training for spoken language understanding,” in NAACL, 2021.",
+      "link": "https://arxiv.org/pdf/2211.03025",
+      "arxiv_id": "2211.03025"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] A dual task learning approach to fine-tune a multilingual semantic ...",
+      "snippet": "“SPLAT: Speech-Language Joint Pre-Training for Spoken Language Understanding,” in NAACL- HLT, 2021.",
+      "link": "https://arxiv.org/pdf/2406.12141",
+      "arxiv_id": "2406.12141"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] arXiv:2401.13463v3 [cs.CL] 24 Aug 2024",
+      "snippet": "“SPLAT: Speech-Language Joint Pre- Training for Spoken Language Understanding,” in Proceedings of the 2021 Conference of the North American",
+      "link": "https://arxiv.org/pdf/2401.13463",
+      "arxiv_id": "2401.13463"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] arXiv:2211.13280v1 [cs.CL] 23 Nov 2022",
+      "snippet": "“SPLAT: Speech-language joint pre-training for spoken language understanding,” arXiv preprint arXiv:2010.02295, 2020.",
+      "link": "https://arxiv.org/pdf/2211.13280",
+      "arxiv_id": "2211.13280"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] arXiv:2305.17499v1 [cs.CL] 27 May 2023",
+      "snippet": "Splat: Speech-language joint pre-training for spoken language understanding. In Proceedings of the 2021 Conference of the North American Chap- ter of the ...",
+      "link": "https://arxiv.org/pdf/2305.17499",
+      "arxiv_id": "2305.17499"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] arXiv:2203.04911v3 [cs.CL] 21 Jun 2022",
+      "snippet": "Zeng, “SPLAT: Speech-language joint pre-training for spoken language understanding,” in. Proceedings of the 2021 Conference of the North American. Chapter of ...",
+      "link": "https://arxiv.org/pdf/2203.04911",
+      "arxiv_id": "2203.04911"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:06.825289+00:00",
+  "elapsed_seconds": 0.8565623983740807
+}

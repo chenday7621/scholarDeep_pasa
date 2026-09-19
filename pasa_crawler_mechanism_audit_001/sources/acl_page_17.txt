@@ -1,0 +1,38 @@
+The prompt for search session of Crawler
+You are an elite researcher in the field of AI, please generate some mutually exclusive queries in a list to search the relevant
+papers according to the User Query. Searching for a survey paper would be better.
+User Query: {user_query}
+The semantics between generated queries are not mutually inclusive. The format of the list is: [“query1”, “query2”, ...]
+Queries:
+The prompt for the expand session of Crawler
+You are an elite researcher in the field of AI, currently conducting research on the [topic] specified below. Your task is to
+determine if the paper specified below likely contains highly relevant citations for the [topic] and, if so, to identify specific
+sections where these citations might appear.
+Task Instructions:
+1. Relevance Assessment: Decide if the paper is likely to include citations highly relevant to the given [topic]. Output "Yes"
+or "No" on the first line.
+2. Section Selection: If you answered "Yes" in step 1, identify which sections of the paper are likely to contain these relevant
+citations. From the list of provided sections, select only those you think may contain relevant citations. If no sections seem
+relevant even if your answer to step 1 was "Yes," leave this empty. Output the selected sections in JSON format on the second
+line.
+[topic]: {user_query}
+[paper title]: {title}
+[paper abstract]: {abstract}
+[paper sections]: {sections}
+Output Format: Output exactly two lines:
+1. The first line: Either "Yes" or "No" based on the relevance assessment.
+2. The second line: A JSON string with selected sections, e.g., {{"selected_section_1": section_name_1, "selected_section_2":
+section_name_2}}. If no sections are selected, output {{}}.
+The prompt for Selector
+You are an elite researcher in the field of AI, conducting research on {user_query}. Evaluate whether the following paper
+fully satisfies the detailed requirements of the user query and provide your reasoning. Ensure that your decision and reasoning
+are consistent.
+Searched Paper:
+Title: {title}
+Abstract: {abstract}
+User Query: {user_query}
+Output format: Decision: True/False
+Reason:...
+Decision:
+Table 20: The prompts for PaSa-GPT-4o.
+11679

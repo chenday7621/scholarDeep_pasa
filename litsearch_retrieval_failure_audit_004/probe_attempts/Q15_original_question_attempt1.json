@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q15",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2305.13077",
+  "request_payload": {
+    "q": "What paper first adapted ControlNet to generate continuous videos in a training-free manner? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 33,
+  "started_utc": "2026-09-17T12:34:00.532409+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648165",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "d16f7c998ea14d9b7a3ec8f4a4edb1b0",
+    "date": "Thu, 17 Sep 2026 12:29:21 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3480",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3480,
+  "response_bytes_sha256": "829f90e6b8e3a88372a1267c2e292137a7924a209b3145bed2a3e0a7ac97529c",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJXaGF0IHBhcGVyIGZpcnN0IGFkYXB0ZWQgQ29udHJvbE5ldCB0byBnZW5lcmF0ZSBjb250aW51b3VzIHZpZGVvcyBpbiBhIHRyYWluaW5nLWZyZWUgbWFubmVyPyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJFUGlDOiBFZmZpY2llbnQgVmlkZW8gQ2FtZXJhIENvbnRyb2wgTGVhcm5pbmcgd2l0aCBQcmVjaXNlIEFuY2hvciAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA1LjIxODc2djEiLCJzbmlwcGV0IjoiQnkgY29tYmluaW5nIHRoZSBwcm9wb3NlZCBhbmNob3IgdmlkZW8gZGF0YSBhbmQgQ29udHJvbE5ldCBtb2R1bGUsIEVQaUMgYWNoaWV2ZXMgZWZmaWNpZW50IHRyYWluaW5nIHdpdGggc3Vic3RhbnRpYWxseSBmZXdlciBwYXJhbWV0ZXJzLCB0cmFpbmluZyBzdGVwcywgYW5kIC4uLiIsImRhdGUiOiJNYXkgMjgsIDIwMjUiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkV2b2x1dGlvbiBvZiBWaWRlbyBHZW5lcmF0aXZlIEZvdW5kYXRpb25zIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA0LjA2MzM5djEiLCJzbmlwcGV0IjoiU3R5bGVHQU4tViBbMzFdIGV4dGVuZHMgbmV1cmFsIHJlcHJlc2VudGF0aW9uIHBhcmFkaWdtcyB0byBidWlsZCBhIGNvbnRpbnVvdXMtdGltZSB2aWRlbyBnZW5lcmF0b3IgYmFzZWQgb24gU3R5bGVHQU4yLCBhbmQgYWRkcmVzc2VzIHRyYWluaW5nIG9uIHNwYXJzZSB2aWRlb3MgLi4uIiwiZGF0ZSI6IkFwciA3LCAyMDI2IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJDb250cm9sVmlkZW86IFRyYWluaW5nLWZyZWUgQ29udHJvbGxhYmxlIFRleHQtdG8tVmlkZW8gR2VuZXJhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNS4xMzA3NyIsInNuaXBwZXQiOiJDb250cm9sVmlkZW8sIGFkYXB0ZWQgZnJvbSBDb250cm9sTmV0LCBsZXZlcmFnZXMgY29hcnNlbHkgc3RydWN0dXJhbCBjb25zaXN0ZW5jeSBmcm9tIGlucHV0IG1vdGlvbiBzZXF1ZW5jZXMsIGFuZCBpbnRyb2R1Y2VzIHRocmVlIG1vZHVsZXMgdG8gaW1wcm92ZSB2aWRlbyAuLi4iLCJkYXRlIjoiTWF5IDIyLCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJDb250cm9sbGFibGUgVmlkZW8gR2VuZXJhdGlvbjogQSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDcuMTY4Njl2MSIsInNuaXBwZXQiOiJDb250cm9sTmV0LWJhc2VkIGFwcHJvYWNoZXMgWzM3M10gaGF2ZSBhbHNvIGJlZW4gYWRhcHRlZCwgQnkgZ2l2aW5nIGlucHV0IGZvcmNlIGFuZCBpbWFnZXMgYXMgY29uZGl0aW9ucywgaXQgY2FuIGdlbmVyYXRlIGEgdmlkZW8gd2l0aG91dCBhIHRyYWluaW5nIHByb2Nlc3MuIiwiZGF0ZSI6Ikp1bCAyMiwgMjAyNSIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiVHJhaW5pbmctRnJlZSBNb3Rpb24tR3VpZGVkIFZpZGVvIEdlbmVyYXRpb24gd2l0aCBFbmhhbmNlZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAxLjA3NTYzdjEiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgYWRkcmVzcyB0aGUgY2hhbGxlbmdlIG9mIGdlbmVyYXRpbmcgdGVtcG9yYWxseSBjb25zaXN0ZW50IHZpZGVvcyB3aXRoIG1vdGlvbiBndWlkYW5jZS4gV2hpbGUgbWFueSBleGlzdGluZyBtZXRob2RzIGRlcGVuZCBvbiBhZGRpdGlvbmFsIC4uLiIsImRhdGUiOiJKYW4gMTMsIDIwMjUiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkNvbnRyb2xOZVh0OiBQb3dlcmZ1bCBhbmQgRWZmaWNpZW50IENvbnRyb2wgZm9yIEltYWdlIGFuZCBWaWRlbyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjA2MDcwdjMiLCJzbmlwcGV0IjoiQ29udHJvbE5lWHQgY2FuIGludGVncmF0ZSB3aXRoIHZhcmlvdXMgYmFja2JvbmVzIGFuZCBMb1JBIHdlaWdodHMgaW4gYSB0cmFpbmluZy1mcmVlIG1hbm5lciwgZWZmZWN0aXZlbHkgYWx0ZXJpbmcgdGhlIHF1YWxpdHkgYW5kIHN0eWxlcyBvZiBnZW5lcmF0ZWQgaW1hZ2VzLiIsImRhdGUiOiJNYXIgOCwgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiUG9zZS1HdWlkZWQgVGV4dC10by1WaWRlbyBHZW5lcmF0aW9uIHVzaW5nIFBvc2UtRnJlZSBWaWRlb3MiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA0LjAxMTg2djIiLCJzbmlwcGV0IjoiT3ZlcmFsbCwgb3VyIHByb3Bvc2VkIG1ldGhvZCBpcyBlcXVpcHBlZCB3aXRoIGRlbGljYXRlIGRlc2lnbnMgdG8gZ2VuZXJhdGUgdmlkZW9zIHRoYXQgb2ZmZXIgZmxleGlibGUgY29udHJvbCB0aHJvdWdoIHBvc2Ugc2VxdWVuY2UgYW5kIHRleHR1YWwgZGVzY3JpcHRpb25zLiIsImRhdGUiOiJKYW4gMywgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiRnJvbSBTb3JhIFdoYXQgV2UgQ2FuIFNlZTogQSBTdXJ2ZXkgb2YgVGV4dC10by1WaWRlbyBHZW5lcmF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xMDY3NHYxIiwic25pcHBldCI6Ik1ha2UtQS1WaWRlbyBbNzNdIGNhbiBnZW5lcmF0ZSBsb25nIHZpZGVvcyB3aXRoIGhpZ2ggZmlkZWxpdHkgYW5kIGRpdmVyc2l0eSB3aXRob3V0IHRoZSBuZWVkIGZvciBwYWlyZWQgdGV4dC12aWRlbyBkYXRhLiBUZXh0MlBlcmZvcm1lciBbMzFdIGRpdmVyZ2VzIGZyb20gLi4uIiwiZGF0ZSI6Ik1heSAxNywgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiQ29uc2lzdGVudCBhbmQgQ29udHJvbGxhYmxlIEltYWdlLXRvLVZpZGVvIFN5bnRoZXNpcyBmb3IgQ2hhcmFjdGVyIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMTcxMTd2MiIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcmVzZW50IEFuaW1hdGUgQW55b25lLCBhIG1ldGhvZCBjYXBhYmxlIG9mIHRyYW5zZm9ybWluZyBjaGFyYWN0ZXIgaW1hZ2VzIGludG8gYW5pbWF0ZWQgdmlkZW9zIGNvbnRyb2xsZWQgYnkgZGVzaXJlZCBwb3NlIHNlcXVlbmNlcy4gV2UgLi4uIiwiZGF0ZSI6IkRlYyA3LCAyMDIzIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbMjMwNy4xNDA3M10gVmlkZW9Db250cm9sTmV0OiBBIE1vdGlvbi1HdWlkZWQgVmlkZW8tdG8gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDcuMTQwNzMiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCBieSB1c2luZyB0aGUgZGlmZnVzaW9uIG1vZGVsIHdpdGggQ29udHJvbE5ldCwgd2UgcHJvcG9zZWQgYSBuZXcgbW90aW9uLWd1aWRlZCB2aWRlby10by12aWRlbyB0cmFuc2xhdGlvbiBmcmFtZXdvcmsgY2FsbGVkIFZpZGVvQ29udHJvbE5ldCB0byAuLi4iLCJkYXRlIjoiSnVsIDI2LCAyMDIzIiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "What paper first adapted ControlNet to generate continuous videos in a training-free manner? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "EPiC: Efficient Video Camera Control Learning with Precise Anchor ...",
+        "link": "https://arxiv.org/html/2505.21876v1",
+        "snippet": "By combining the proposed anchor video data and ControlNet module, EPiC achieves efficient training with substantially fewer parameters, training steps, and ...",
+        "date": "May 28, 2025",
+        "position": 1
+      },
+      {
+        "title": "Evolution of Video Generative Foundations - arXiv",
+        "link": "https://arxiv.org/html/2604.06339v1",
+        "snippet": "StyleGAN-V [31] extends neural representation paradigms to build a continuous-time video generator based on StyleGAN2, and addresses training on sparse videos ...",
+        "date": "Apr 7, 2026",
+        "position": 2
+      },
+      {
+        "title": "ControlVideo: Training-free Controllable Text-to-Video Generation",
+        "link": "https://arxiv.org/abs/2305.13077",
+        "snippet": "ControlVideo, adapted from ControlNet, leverages coarsely structural consistency from input motion sequences, and introduces three modules to improve video ...",
+        "date": "May 22, 2023",
+        "position": 3
+      },
+      {
+        "title": "Controllable Video Generation: A Survey - arXiv",
+        "link": "https://arxiv.org/html/2507.16869v1",
+        "snippet": "ControlNet-based approaches [373] have also been adapted, By giving input force and images as conditions, it can generate a video without a training process.",
+        "date": "Jul 22, 2025",
+        "position": 4
+      },
+      {
+        "title": "Training-Free Motion-Guided Video Generation with Enhanced ...",
+        "link": "https://arxiv.org/html/2501.07563v1",
+        "snippet": "In this paper, we address the challenge of generating temporally consistent videos with motion guidance. While many existing methods depend on additional ...",
+        "date": "Jan 13, 2025",
+        "position": 5
+      },
+      {
+        "title": "ControlNeXt: Powerful and Efficient Control for Image and Video ...",
+        "link": "https://arxiv.org/html/2408.06070v3",
+        "snippet": "ControlNeXt can integrate with various backbones and LoRA weights in a training-free manner, effectively altering the quality and styles of generated images.",
+        "date": "Mar 8, 2025",
+        "position": 6
+      },
+      {
+        "title": "Pose-Guided Text-to-Video Generation using Pose-Free Videos",
+        "link": "https://arxiv.org/html/2304.01186v2",
+        "snippet": "Overall, our proposed method is equipped with delicate designs to generate videos that offer flexible control through pose sequence and textual descriptions.",
+        "date": "Jan 3, 2024",
+        "position": 7
+      },
+      {
+        "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+        "link": "https://arxiv.org/html/2405.10674v1",
+        "snippet": "Make-A-Video [73] can generate long videos with high fidelity and diversity without the need for paired text-video data. Text2Performer [31] diverges from ...",
+        "date": "May 17, 2024",
+        "position": 8
+      },
+      {
+        "title": "Consistent and Controllable Image-to-Video Synthesis for Character ...",
+        "link": "https://arxiv.org/html/2311.17117v2",
+        "snippet": "In this paper, we present Animate Anyone, a method capable of transforming character images into animated videos controlled by desired pose sequences. We ...",
+        "date": "Dec 7, 2023",
+        "position": 9
+      },
+      {
+        "title": "[2307.14073] VideoControlNet: A Motion-Guided Video-to ... - arXiv",
+        "link": "https://arxiv.org/abs/2307.14073",
+        "snippet": "In this work, by using the diffusion model with ControlNet, we proposed a new motion-guided video-to-video translation framework called VideoControlNet to ...",
+        "date": "Jul 26, 2023",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "EPiC: Efficient Video Camera Control Learning with Precise Anchor ...",
+      "snippet": "By combining the proposed anchor video data and ControlNet module, EPiC achieves efficient training with substantially fewer parameters, training steps, and ...",
+      "link": "https://arxiv.org/html/2505.21876v1",
+      "arxiv_id": "2505.21876"
+    },
+    {
+      "rank": 2,
+      "title": "Evolution of Video Generative Foundations - arXiv",
+      "snippet": "StyleGAN-V [31] extends neural representation paradigms to build a continuous-time video generator based on StyleGAN2, and addresses training on sparse videos ...",
+      "link": "https://arxiv.org/html/2604.06339v1",
+      "arxiv_id": "2604.06339"
+    },
+    {
+      "rank": 3,
+      "title": "ControlVideo: Training-free Controllable Text-to-Video Generation",
+      "snippet": "ControlVideo, adapted from ControlNet, leverages coarsely structural consistency from input motion sequences, and introduces three modules to improve video ...",
+      "link": "https://arxiv.org/abs/2305.13077",
+      "arxiv_id": "2305.13077"
+    },
+    {
+      "rank": 4,
+      "title": "Controllable Video Generation: A Survey - arXiv",
+      "snippet": "ControlNet-based approaches [373] have also been adapted, By giving input force and images as conditions, it can generate a video without a training process.",
+      "link": "https://arxiv.org/html/2507.16869v1",
+      "arxiv_id": "2507.16869"
+    },
+    {
+      "rank": 5,
+      "title": "Training-Free Motion-Guided Video Generation with Enhanced ...",
+      "snippet": "In this paper, we address the challenge of generating temporally consistent videos with motion guidance. While many existing methods depend on additional ...",
+      "link": "https://arxiv.org/html/2501.07563v1",
+      "arxiv_id": "2501.07563"
+    },
+    {
+      "rank": 6,
+      "title": "ControlNeXt: Powerful and Efficient Control for Image and Video ...",
+      "snippet": "ControlNeXt can integrate with various backbones and LoRA weights in a training-free manner, effectively altering the quality and styles of generated images.",
+      "link": "https://arxiv.org/html/2408.06070v3",
+      "arxiv_id": "2408.06070"
+    },
+    {
+      "rank": 7,
+      "title": "Pose-Guided Text-to-Video Generation using Pose-Free Videos",
+      "snippet": "Overall, our proposed method is equipped with delicate designs to generate videos that offer flexible control through pose sequence and textual descriptions.",
+      "link": "https://arxiv.org/html/2304.01186v2",
+      "arxiv_id": "2304.01186"
+    },
+    {
+      "rank": 8,
+      "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+      "snippet": "Make-A-Video [73] can generate long videos with high fidelity and diversity without the need for paired text-video data. Text2Performer [31] diverges from ...",
+      "link": "https://arxiv.org/html/2405.10674v1",
+      "arxiv_id": "2405.10674"
+    },
+    {
+      "rank": 9,
+      "title": "Consistent and Controllable Image-to-Video Synthesis for Character ...",
+      "snippet": "In this paper, we present Animate Anyone, a method capable of transforming character images into animated videos controlled by desired pose sequences. We ...",
+      "link": "https://arxiv.org/html/2311.17117v2",
+      "arxiv_id": "2311.17117"
+    },
+    {
+      "rank": 10,
+      "title": "[2307.14073] VideoControlNet: A Motion-Guided Video-to ... - arXiv",
+      "snippet": "In this work, by using the diffusion model with ControlNet, we proposed a new motion-guided video-to-video translation framework called VideoControlNet to ...",
+      "link": "https://arxiv.org/abs/2307.14073",
+      "arxiv_id": "2307.14073"
+    }
+  ],
+  "gold_hit_ranks": [
+    3
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:01.492422+00:00",
+  "elapsed_seconds": 0.9600182510912418
+}

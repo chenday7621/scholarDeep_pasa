@@ -1,0 +1,112 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q01",
+  "group": "author-written",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2306.00947",
+  "request_payload": {
+    "q": "eel efficiently encoding lattices reranking before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 2,
+  "started_utc": "2026-09-17T12:33:23.946625+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648125",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "41952b216199f6a818d717f391b34392",
+    "date": "Thu, 17 Sep 2026 12:28:45 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "1430",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 1430,
+  "response_bytes_sha256": "8dd4287c7f8f0a479f453ecbbca540adea8718d78ad0ab3e6aaa25ebb5f26524",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJlZWwgZWZmaWNpZW50bHkgZW5jb2RpbmcgbGF0dGljZXMgcmVyYW5raW5nIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDYuMDA5NDd2MSBbY3MuQ0xdIDEgSnVuIDIwMjMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDYuMDA5NDciLCJzbmlwcGV0IjoiV2UgZXhwbG9yZSBhbiBhcHByb2FjaCBmb3IgcmVyYW5raW5nIGh5cG90aGVzZXMgYnkgdXNpbmcgVHJhbnNmb3JtZXJzIHRvIGVmZmljaWVudGx5IGVuY29kZSBsYXR0aWNlcyBvZiBnZW5lcmF0ZWQgb3V0cHV0cywgYSBtZXRob2Qgd2UgY2FsbCBFRUwuIiwiZGF0ZSI6Ikp1biAxLCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBSZXJhbmtpbmcgTGF3cyBmb3IgTGFuZ3VhZ2UgR2VuZXJhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA5LjA3MTMxIiwic25pcHBldCI6IkVlbDogRWZmaWNpZW50bHkgZW5jb2RpbmcgbGF0dGljZXMgZm9yIHJlcmFua2luZy4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDYxc3QgQW5udWFsIE1lZXRpbmcgb2YgdGhlIEFzc29jaWF0aW9uIGZvciBDb21wdXRhdGlvbmFsLiBMaW5ndWlzdGljcyAoVm9sdW1lIDE6IExvbmcgLi4uIiwiZGF0ZSI6IkZlYiAxMCwgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiW1BERl0gRWFybHktRXhpdCBhbmQgSW5zdGFudCBDb25maWRlbmNlIFRyYW5zbGF0aW9uIFF1YWxpdHkgRXN0aW1hdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUwMi4xNDQyOSIsInNuaXBwZXQiOiJFRUw6IEVmZmljaWVudGx5IGVuY29kaW5nIGxhdHRpY2VzIGZvciByZXJhbmstIMK3IGluZy4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDYxc3QgQW5udWFsIE1lZXRpbmcgb2YgdGhlIEFzc29jaWF0aW9uIGZvciBDb21wdXRhdGlvbmFsIExpbmd1aXN0aWNzIChWb2wtIHVtZSAxIC4uLiIsImRhdGUiOiJKdWwgNywgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQxMS4wOTY5NHYyIFtjcy5DTF0gMjkgQXByIDIwMjUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MTEuMDk2OTQ/Iiwic25pcHBldCI6ImxhdHRpY2Ugb3ZlciB3aGljaCBhIHRva2VuLWxldmVsIHJlcmFua2VyIGNhbiBlZmZpY2llbnRseSBzY29yZSBtYW55IGNhbi0gZGlkYXRlcy4gRUVMOiBFZmZpY2llbnRseSBlbmNvZGluZyBsYXR0aWNlcyBmb3IgcmVyYW5rLSBpbmcuIEluIFByb2NlZWRpbmdzIG9mIHRoZSA2MSAuLi4iLCJkYXRlIjoiQXByIDI5LCAyMDI1IiwicG9zaXRpb24iOjR9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "eel efficiently encoding lattices reranking before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[PDF] arXiv:2306.00947v1 [cs.CL] 1 Jun 2023",
+        "link": "https://arxiv.org/pdf/2306.00947",
+        "snippet": "We explore an approach for reranking hypotheses by using Transformers to efficiently encode lattices of generated outputs, a method we call EEL.",
+        "date": "Jun 1, 2023",
+        "position": 1
+      },
+      {
+        "title": "[PDF] Reranking Laws for Language Generation - arXiv",
+        "link": "https://arxiv.org/pdf/2409.07131",
+        "snippet": "Eel: Efficiently encoding lattices for reranking. In Proceedings of the 61st Annual Meeting of the Association for Computational. Linguistics (Volume 1: Long ...",
+        "date": "Feb 10, 2025",
+        "position": 2
+      },
+      {
+        "title": "[PDF] Early-Exit and Instant Confidence Translation Quality Estimation",
+        "link": "https://arxiv.org/pdf/2502.14429",
+        "snippet": "EEL: Efficiently encoding lattices for rerank- · ing. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Vol- ume 1 ...",
+        "date": "Jul 7, 2025",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2411.09694v2 [cs.CL] 29 Apr 2025",
+        "link": "https://arxiv.org/pdf/2411.09694?",
+        "snippet": "lattice over which a token-level reranker can efficiently score many can- didates. EEL: Efficiently encoding lattices for rerank- ing. In Proceedings of the 61 ...",
+        "date": "Apr 29, 2025",
+        "position": 4
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[PDF] arXiv:2306.00947v1 [cs.CL] 1 Jun 2023",
+      "snippet": "We explore an approach for reranking hypotheses by using Transformers to efficiently encode lattices of generated outputs, a method we call EEL.",
+      "link": "https://arxiv.org/pdf/2306.00947",
+      "arxiv_id": "2306.00947"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] Reranking Laws for Language Generation - arXiv",
+      "snippet": "Eel: Efficiently encoding lattices for reranking. In Proceedings of the 61st Annual Meeting of the Association for Computational. Linguistics (Volume 1: Long ...",
+      "link": "https://arxiv.org/pdf/2409.07131",
+      "arxiv_id": "2409.07131"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] Early-Exit and Instant Confidence Translation Quality Estimation",
+      "snippet": "EEL: Efficiently encoding lattices for rerank- · ing. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Vol- ume 1 ...",
+      "link": "https://arxiv.org/pdf/2502.14429",
+      "arxiv_id": "2502.14429"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2411.09694v2 [cs.CL] 29 Apr 2025",
+      "snippet": "lattice over which a token-level reranker can efficiently score many can- didates. EEL: Efficiently encoding lattices for rerank- ing. In Proceedings of the 61 ...",
+      "link": "https://arxiv.org/pdf/2411.09694?",
+      "arxiv_id": "2411.09694"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:24.812821+00:00",
+  "elapsed_seconds": 0.8661964051425457
+}

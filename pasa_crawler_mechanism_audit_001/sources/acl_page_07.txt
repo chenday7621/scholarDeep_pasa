@@ -1,0 +1,95 @@
+serves two purposes: enhancing decision accuracy
+by jointly training the model to generate decisions
+and explanations, and improving user trust by pro-
+viding the reasoning in PaSa application.
+To optimize training efficiency for the Crawler,
+the decision token is presented before the ratio-
+nale, allowing the Selector to act as a single-token
+reward model during the Crawler training. Addi-
+tionally, the token probability of the decision token
+can be used to rank search results. At last, as shown
+in Table 6, the order of the decision and rationale
+does not affect the Selector’s performance.
+We perform imitation learning to optimize the
+Selector. See Appendix E for training data collec-
+tion and training details.
+5 Experiments
+5.1 Experimental Setting
+We sequentially trained the Selector and Crawler,
+both based on the Qwen2.5-7b (Yang et al., 2024),
+to develop the final agent, referred to as PaSa-7b.
+Selector The Selector was fine-tuned using the
+training dataset described in Appendix E. We con-
+ducted supervised fine-tuning for one epoch with
+a learning rate of 1e-5 and a batch size of 4. The
+training runs on 8 NVIDIA-H100 GPUs.
+Crawler The training process involves two
+stages. First, we perform imitation learning for
+1 epoch on 12,989 training data with a learning
+rate of 1e-5 and batch size of 4 per device, using
+8 NVIDIA H100 GPUs. In the second stage, we
+apply PPO training. To ensure stability, we first
+freeze the policy model and train the value model,
+followed by co-training both the policy and value
+models. The hyperparameters used during the train-
+ing process are listed in Table 12 in Appendix D.2.
+During imitation learning, the model encoun-
+ters 5,000 queries, while during the RL training
+phase, the model processes a total of 16,000 queries.
+For more details please refer to Appendix D.1 for
+the imitation learning data construction and Ap-
+pendix D.2 for the PPO training data sampling.
+Implementation of [Search] The LLM predicts
+a query based on the context. Then the agent calls
+Google7 with the parameters site:arxiv.org and
+before:query_date, restricting search results by
+source and publication time.
+7Accessed via the Google Search API provided by https:
+//serper.dev.
+Paper Management We developed a database to
+manage and restore research papers. PaSa retrieves
+paper information from the database. If no match-
+ing record is found, we use ar5iv8 to obtain the full
+paper content, including citations, and then parse
+this data and store it in the database.
+5.2 Baselines and Evaluation
+We evaluate our paper search agent on both the test
+set of AutoScholarQuery and RealScholarQuery.
+We compare PaSa-7b against the following base-
+lines:
+• Google. We use Google to search the query
+directly, with the same parameter settings in
+Section 5.1.
+• Google Scholar. Queries are submitted di-
+rectly to Google Scholar7, with the same pa-
+rameter settings in Section 5.1.
+• Google with GPT-4o. We first employ GPT-
+4o to paraphrase the scholar query. The para-
+phrased query is then searched on Google.
+• ChatGPT. We submit scholar query to Chat-
+GPT9, powered by search-enabled GPT-4o.
+• GPT-o1. Prompt GPT-o1 to process the
+scholar query. Note that it does not have ac-
+cess to external search tools.
+• PaSa-GPT-4o. Implement PaSa as illustrated
+in Figure 1 by prompting GPT-4o. It can per-
+form multiple searches, paper reading, and
+citation network crawling.
+We carefully designed prompts for all baselines
+and they are shown in Appendix H.2. All baselines,
+except PaSa-GPT-4o, represent the best-known
+scholar search methods. These comparisons high-
+light the effectiveness of our agentic approach. The
+comparison with PaSa-GPT-4o isolates the impact
+of RL training.
+As shown in Figure 2, the crawling process of
+PaSa can be visualized as a paper tree. In practice,
+considering the computational expense, we limit
+the Crawler’s exploration depth to three for both
+PaSa-7b and PaSa-GPT-4o.
+For Google-based baselines, we evaluate recall
+using Recall@20, Recall@50, and Recall@100
+metrics for the top-20, top-50, and top-100 search
+8https://ar5iv.org/
+9https://chatgpt.com
+11669

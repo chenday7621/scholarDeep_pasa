@@ -1,0 +1,1402 @@
+{
+  "query_id": "Q30",
+  "query_index": 30,
+  "dataset_qid": "RealScholarQuery_30",
+  "original_question": "I would like to find some research papers about test time training topic, in LLM research area.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Survey papers on test time training in language models",
+    "Test-time training techniques in large language models",
+    "Advancements in test time training for language models",
+    "LLM research on test time training",
+    "Online learning techniques for test-time training in large language models"
+  ],
+  "anchor": "I would like to find some research papers about test time training topic, in LLM research area.",
+  "source_generation_id": "Q30_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Survey papers on test time training in language models",
+        "Test-time training techniques in large language models",
+        "Advancements in test time training for language models",
+        "LLM research on test time training",
+        "Online learning techniques for test-time training in large language models"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "I would like to find some research papers about test time training topic, in LLM research area.",
+        "Survey papers on test time training in language models",
+        "Test-time training techniques in large language models",
+        "Advancements in test time training for language models",
+        "LLM research on test time training"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Survey papers on test time training in language models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 180,
+          "query_id": "Q30",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Survey papers on test time training in language models",
+          "request_payload": {
+            "q": "Survey papers on test time training in language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q30_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:28:26.352964+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on test time training in language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, ...\",\"date\":\"Feb 20, 2024\",\"position\":1},{\"title\":\"Scaling LLM Test-Time Compute Optimally can be More Effective ...\",\"link\":\"https://arxiv.org/abs/2408.03314\",\"snippet\":\"In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non- ...\",\"date\":\"Aug 6, 2024\",\"position\":2},{\"title\":\"Reasoning with Large Language Models,a Survey - arXiv\",\"link\":\"https://arxiv.org/html/2407.11511v1\",\"snippet\":\"Scaling up language models to billions of parameters has opened up possibilities for in-context learning, allowing instruction tuning and few-shot learning ...\",\"date\":\"Jul 16, 2024\",\"position\":3},{\"title\":\"Continual Learning for Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.01364v1\",\"snippet\":\"This paper surveys recent works on continual learning for LLMs. Due to the unique nature of LLMs, we catalog continue learning techniques in a novel multi- ...\",\"date\":\"Feb 2, 2024\",\"position\":4},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.\",\"date\":\"Jan 27, 2022\",\"position\":5},{\"title\":\"An Empirical Study of Unit Test Generation with Large Language ...\",\"link\":\"https://arxiv.org/html/2406.18181v1\",\"snippet\":\"The emergence of Large Language Models (LLMs) offers a new direction for automating unit test generation. Existing research primarily focuses on closed-source ...\",\"date\":\"Jun 26, 2024\",\"position\":6},{\"title\":\"Continual Learning of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.16789v1\",\"snippet\":\"In this survey, we provide a comprehensive overview and detailed discussion of the current research progress on large language models within the context of ...\",\"date\":\"Apr 25, 2024\",\"position\":7},{\"title\":\"Attention with Linear Biases Enables Input Length Extrapolation - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2108.12409\",\"snippet\":\"When constructing a transformer-based language model, a major design decision is the length of training sequences, denoted L L herein, which has to date been ...\",\"date\":\"Aug 25, 2021\",\"position\":8},{\"title\":\"Instruction Tuning for Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.10792v5\",\"snippet\":\"This paper surveys research works in the quickly advancing field of instruction tuning (IT), a crucial technique to enhance the capabilities and controllability ...\",\"date\":\"Mar 14, 2024\",\"position\":9},{\"title\":\"[2303.15361] A Comprehensive Survey on Test-Time Adaptation ...\",\"link\":\"https://arxiv.org/abs/2303.15361\",\"snippet\":\"In this survey, we categorize TTA into several distinct groups based on the form of test data, namely, test-time domain adaptation, test-time batch adaptation, ...\",\"date\":\"Mar 27, 2023\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIHRlc3QgdGltZSB0cmFpbmluZyBpbiBsYW5ndWFnZSBtb2RlbHMgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzOiBBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNjE5NnYyIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHJldmlldyBzb21lIG9mIHRoZSBtb3N0IHByb21pbmVudCBMTE1zLCBpbmNsdWRpbmcgdGhyZWUgcG9wdWxhciBMTE0gZmFtaWxpZXMgKEdQVCwgTExhTUEsIFBhTE0pLCBhbmQgZGlzY3VzcyB0aGVpciBjaGFyYWN0ZXJpc3RpY3MsIC4uLiIsImRhdGUiOiJGZWIgMjAsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlNjYWxpbmcgTExNIFRlc3QtVGltZSBDb21wdXRlIE9wdGltYWxseSBjYW4gYmUgTW9yZSBFZmZlY3RpdmUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA4LjAzMzE0Iiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHN0dWR5IHRoZSBzY2FsaW5nIG9mIGluZmVyZW5jZS10aW1lIGNvbXB1dGF0aW9uIGluIExMTXMsIHdpdGggYSBmb2N1cyBvbiBhbnN3ZXJpbmcgdGhlIHF1ZXN0aW9uOiBpZiBhbiBMTE0gaXMgYWxsb3dlZCB0byB1c2UgYSBmaXhlZCBidXQgbm9uLSAuLi4iLCJkYXRlIjoiQXVnIDYsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlJlYXNvbmluZyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVscyxhIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4xMTUxMXYxIiwic25pcHBldCI6IlNjYWxpbmcgdXAgbGFuZ3VhZ2UgbW9kZWxzIHRvIGJpbGxpb25zIG9mIHBhcmFtZXRlcnMgaGFzIG9wZW5lZCB1cCBwb3NzaWJpbGl0aWVzIGZvciBpbi1jb250ZXh0IGxlYXJuaW5nLCBhbGxvd2luZyBpbnN0cnVjdGlvbiB0dW5pbmcgYW5kIGZldy1zaG90IGxlYXJuaW5nIC4uLiIsImRhdGUiOiJKdWwgMTYsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkNvbnRpbnVhbCBMZWFybmluZyBmb3IgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzOiBBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wMTM2NHYxIiwic25pcHBldCI6IlRoaXMgcGFwZXIgc3VydmV5cyByZWNlbnQgd29ya3Mgb24gY29udGludWFsIGxlYXJuaW5nIGZvciBMTE1zLiBEdWUgdG8gdGhlIHVuaXF1ZSBuYXR1cmUgb2YgTExNcywgd2UgY2F0YWxvZyBjb250aW51ZSBsZWFybmluZyB0ZWNobmlxdWVzIGluIGEgbm92ZWwgbXVsdGktIC4uLiIsImRhdGUiOiJGZWIgMiwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiVHJhaW5pbmcgbGFuZ3VhZ2UgbW9kZWxzIHRvIGZvbGxvdyBpbnN0cnVjdGlvbnMgd2l0aCBodW1hbiBmZWVkYmFjayIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjIwMy4wMjE1NSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBzaG93IGFuIGF2ZW51ZSBmb3IgYWxpZ25pbmcgbGFuZ3VhZ2UgbW9kZWxzIHdpdGggdXNlciBpbnRlbnQgb24gYSB3aWRlIHJhbmdlIG9mIHRhc2tzIGJ5IGZpbmUtdHVuaW5nIHdpdGggaHVtYW4gZmVlZGJhY2suIiwiZGF0ZSI6IkphbiAyNywgMjAyMiIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiQW4gRW1waXJpY2FsIFN0dWR5IG9mIFVuaXQgVGVzdCBHZW5lcmF0aW9uIHdpdGggTGFyZ2UgTGFuZ3VhZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4xODE4MXYxIiwic25pcHBldCI6IlRoZSBlbWVyZ2VuY2Ugb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIChMTE1zKSBvZmZlcnMgYSBuZXcgZGlyZWN0aW9uIGZvciBhdXRvbWF0aW5nIHVuaXQgdGVzdCBnZW5lcmF0aW9uLiBFeGlzdGluZyByZXNlYXJjaCBwcmltYXJpbHkgZm9jdXNlcyBvbiBjbG9zZWQtc291cmNlIC4uLiIsImRhdGUiOiJKdW4gMjYsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkNvbnRpbnVhbCBMZWFybmluZyBvZiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMTY3ODl2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHN1cnZleSwgd2UgcHJvdmlkZSBhIGNvbXByZWhlbnNpdmUgb3ZlcnZpZXcgYW5kIGRldGFpbGVkIGRpc2N1c3Npb24gb2YgdGhlIGN1cnJlbnQgcmVzZWFyY2ggcHJvZ3Jlc3Mgb24gbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIHdpdGhpbiB0aGUgY29udGV4dCBvZiAuLi4iLCJkYXRlIjoiQXByIDI1LCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJBdHRlbnRpb24gd2l0aCBMaW5lYXIgQmlhc2VzIEVuYWJsZXMgSW5wdXQgTGVuZ3RoIEV4dHJhcG9sYXRpb24gLSBhcjVpdiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjEwOC4xMjQwOSIsInNuaXBwZXQiOiJXaGVuIGNvbnN0cnVjdGluZyBhIHRyYW5zZm9ybWVyLWJhc2VkIGxhbmd1YWdlIG1vZGVsLCBhIG1ham9yIGRlc2lnbiBkZWNpc2lvbiBpcyB0aGUgbGVuZ3RoIG9mIHRyYWluaW5nIHNlcXVlbmNlcywgZGVub3RlZCBMIEwgaGVyZWluLCB3aGljaCBoYXMgdG8gZGF0ZSBiZWVuIC4uLiIsImRhdGUiOiJBdWcgMjUsIDIwMjEiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6Ikluc3RydWN0aW9uIFR1bmluZyBmb3IgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzOiBBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4xMDc5MnY1Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgc3VydmV5cyByZXNlYXJjaCB3b3JrcyBpbiB0aGUgcXVpY2tseSBhZHZhbmNpbmcgZmllbGQgb2YgaW5zdHJ1Y3Rpb24gdHVuaW5nIChJVCksIGEgY3J1Y2lhbCB0ZWNobmlxdWUgdG8gZW5oYW5jZSB0aGUgY2FwYWJpbGl0aWVzIGFuZCBjb250cm9sbGFiaWxpdHkgLi4uIiwiZGF0ZSI6Ik1hciAxNCwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiWzIzMDMuMTUzNjFdIEEgQ29tcHJlaGVuc2l2ZSBTdXJ2ZXkgb24gVGVzdC1UaW1lIEFkYXB0YXRpb24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzAzLjE1MzYxIiwic25pcHBldCI6IkluIHRoaXMgc3VydmV5LCB3ZSBjYXRlZ29yaXplIFRUQSBpbnRvIHNldmVyYWwgZGlzdGluY3QgZ3JvdXBzIGJhc2VkIG9uIHRoZSBmb3JtIG9mIHRlc3QgZGF0YSwgbmFtZWx5LCB0ZXN0LXRpbWUgZG9tYWluIGFkYXB0YXRpb24sIHRlc3QtdGltZSBiYXRjaCBhZGFwdGF0aW9uLCAuLi4iLCJkYXRlIjoiTWFyIDI3LCAyMDIzIiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "3eebfd01b04b63afcdbe692624f2da813165649004a23326b08897efb80e43a0",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey papers on test time training in language models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Large Language Models: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2402.06196v2",
+                "snippet": "In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, ...",
+                "date": "Feb 20, 2024",
+                "position": 1
+              },
+              {
+                "title": "Scaling LLM Test-Time Compute Optimally can be More Effective ...",
+                "link": "https://arxiv.org/abs/2408.03314",
+                "snippet": "In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non- ...",
+                "date": "Aug 6, 2024",
+                "position": 2
+              },
+              {
+                "title": "Reasoning with Large Language Models,a Survey - arXiv",
+                "link": "https://arxiv.org/html/2407.11511v1",
+                "snippet": "Scaling up language models to billions of parameters has opened up possibilities for in-context learning, allowing instruction tuning and few-shot learning ...",
+                "date": "Jul 16, 2024",
+                "position": 3
+              },
+              {
+                "title": "Continual Learning for Large Language Models: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2402.01364v1",
+                "snippet": "This paper surveys recent works on continual learning for LLMs. Due to the unique nature of LLMs, we catalog continue learning techniques in a novel multi- ...",
+                "date": "Feb 2, 2024",
+                "position": 4
+              },
+              {
+                "title": "Training language models to follow instructions with human feedback",
+                "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.",
+                "date": "Jan 27, 2022",
+                "position": 5
+              },
+              {
+                "title": "An Empirical Study of Unit Test Generation with Large Language ...",
+                "link": "https://arxiv.org/html/2406.18181v1",
+                "snippet": "The emergence of Large Language Models (LLMs) offers a new direction for automating unit test generation. Existing research primarily focuses on closed-source ...",
+                "date": "Jun 26, 2024",
+                "position": 6
+              },
+              {
+                "title": "Continual Learning of Large Language Models - arXiv",
+                "link": "https://arxiv.org/html/2404.16789v1",
+                "snippet": "In this survey, we provide a comprehensive overview and detailed discussion of the current research progress on large language models within the context of ...",
+                "date": "Apr 25, 2024",
+                "position": 7
+              },
+              {
+                "title": "Attention with Linear Biases Enables Input Length Extrapolation - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2108.12409",
+                "snippet": "When constructing a transformer-based language model, a major design decision is the length of training sequences, denoted L L herein, which has to date been ...",
+                "date": "Aug 25, 2021",
+                "position": 8
+              },
+              {
+                "title": "Instruction Tuning for Large Language Models: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2308.10792v5",
+                "snippet": "This paper surveys research works in the quickly advancing field of instruction tuning (IT), a crucial technique to enhance the capabilities and controllability ...",
+                "date": "Mar 14, 2024",
+                "position": 9
+              },
+              {
+                "title": "[2303.15361] A Comprehensive Survey on Test-Time Adaptation ...",
+                "link": "https://arxiv.org/abs/2303.15361",
+                "snippet": "In this survey, we categorize TTA into several distinct groups based on the form of test data, namely, test-time domain adaptation, test-time batch adaptation, ...",
+                "date": "Mar 27, 2023",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:28.323423+00:00",
+          "elapsed_seconds": 1.9704593047499657
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2108.12409",
+        "2203.02155",
+        "2303.15361",
+        "2308.10792",
+        "2402.01364",
+        "2402.06196",
+        "2404.16789",
+        "2406.18181",
+        "2407.11511",
+        "2408.03314"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2402.06196",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2402.06196v2",
+          "title": "Large Language Models: A Survey - arXiv",
+          "snippet": "In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, ..."
+        },
+        {
+          "arxiv_id": "2408.03314",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2408.03314",
+          "title": "Scaling LLM Test-Time Compute Optimally can be More Effective ...",
+          "snippet": "In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non- ..."
+        },
+        {
+          "arxiv_id": "2407.11511",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2407.11511v1",
+          "title": "Reasoning with Large Language Models,a Survey - arXiv",
+          "snippet": "Scaling up language models to billions of parameters has opened up possibilities for in-context learning, allowing instruction tuning and few-shot learning ..."
+        },
+        {
+          "arxiv_id": "2402.01364",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2402.01364v1",
+          "title": "Continual Learning for Large Language Models: A Survey - arXiv",
+          "snippet": "This paper surveys recent works on continual learning for LLMs. Due to the unique nature of LLMs, we catalog continue learning techniques in a novel multi- ..."
+        },
+        {
+          "arxiv_id": "2203.02155",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+          "title": "Training language models to follow instructions with human feedback",
+          "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback."
+        },
+        {
+          "arxiv_id": "2406.18181",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2406.18181v1",
+          "title": "An Empirical Study of Unit Test Generation with Large Language ...",
+          "snippet": "The emergence of Large Language Models (LLMs) offers a new direction for automating unit test generation. Existing research primarily focuses on closed-source ..."
+        },
+        {
+          "arxiv_id": "2404.16789",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2404.16789v1",
+          "title": "Continual Learning of Large Language Models - arXiv",
+          "snippet": "In this survey, we provide a comprehensive overview and detailed discussion of the current research progress on large language models within the context of ..."
+        },
+        {
+          "arxiv_id": "2108.12409",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://ar5iv.labs.arxiv.org/html/2108.12409",
+          "title": "Attention with Linear Biases Enables Input Length Extrapolation - ar5iv",
+          "snippet": "When constructing a transformer-based language model, a major design decision is the length of training sequences, denoted L L herein, which has to date been ..."
+        },
+        {
+          "arxiv_id": "2308.10792",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2308.10792v5",
+          "title": "Instruction Tuning for Large Language Models: A Survey - arXiv",
+          "snippet": "This paper surveys research works in the quickly advancing field of instruction tuning (IT), a crucial technique to enhance the capabilities and controllability ..."
+        },
+        {
+          "arxiv_id": "2303.15361",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/abs/2303.15361",
+          "title": "[2303.15361] A Comprehensive Survey on Test-Time Adaptation ...",
+          "snippet": "In this survey, we categorize TTA into several distinct groups based on the form of test data, namely, test-time domain adaptation, test-time batch adaptation, ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey papers on test time training in language models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Test-time training techniques in large language models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 181,
+          "query_id": "Q30",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Test-time training techniques in large language models",
+          "request_payload": {
+            "q": "Test-time training techniques in large language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q30_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:28:28.498406+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Test-time training techniques in large language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Test-Time Training on Graphs with Large Language Models (LLMs)\",\"link\":\"https://arxiv.org/abs/2404.13571\",\"snippet\":\"Traditional TTT methods require a demanding unsupervised training strategy to capture the information from test to benefit the main task.\",\"date\":\"Apr 21, 2024\",\"position\":1},{\"title\":\"[PDF] Test-Time Training on Graphs with Large Language Models (LLMs)\",\"link\":\"https://arxiv.org/pdf/2404.13571?\",\"snippet\":\"LLMTTT proposes a two-step hybrid active node selection method. It consists of uncertainty-based active learning to leverage the important signals from the pre ...\",\"date\":\"Apr 21, 2024\",\"position\":2},{\"title\":\"Efficient Test-Time Adaptation of Vision-Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2403.18293v1\",\"snippet\":\"We design TDA, a training-free dynamic adapter that enables effective and efficient test-time adaptation with vision-language models.\",\"date\":\"Mar 27, 2024\",\"position\":3},{\"title\":\"Scaling LLM Test-Time Compute Optimally can be More Effective ...\",\"link\":\"https://arxiv.org/html/2408.03314v1\",\"snippet\":\"In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) ...\",\"date\":\"Aug 6, 2024\",\"position\":4},{\"title\":\"Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv\",\"link\":\"https://arxiv.org/html/2406.14833v2\",\"snippet\":\"Abstract. Continual pre-training has increasingly become the predominant approach for adapting Large Language Models (LLMs) to new domains.\",\"date\":\"Jun 27, 2024\",\"position\":5},{\"title\":\"Fine-Tuning Large Language Models with Sequential Instructions\",\"link\":\"https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com\",\"snippet\":\"SIT models trained solely on one intermediate task can follow both Repeat and Paraphrase instructions during test time.\",\"date\":\"Mar 12, 2024\",\"position\":6},{\"title\":\"[PDF] Learning to (Learn at Test Time): RNNs with Expressive Hidden States\",\"link\":\"https://arxiv.org/pdf/2407.04620\",\"snippet\":\"We present a practical framework for instantiating sequence modeling layers with linear complexity and expressive hidden states. The key idea is to make the ...\",\"date\":\"Jul 5, 2024\",\"position\":7},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.\",\"date\":\"Jan 27, 2022\",\"position\":8},{\"title\":\"Robustifying Language Models with Test-Time Adaptation - arXiv\",\"link\":\"https://arxiv.org/abs/2310.19177\",\"snippet\":\"While prior work focuses on making the language model robust at training time, retraining for robustness is often unrealistic for large-scale foundation models.\",\"date\":\"Oct 29, 2023\",\"position\":9},{\"title\":\"Test-Time Training with Masked Autoencoders - arXiv\",\"link\":\"https://arxiv.org/html/2209.07522v1\",\"snippet\":\"Test-time training adapts to a new test distribution on the fly by optimizing a model for each test input using self-supervision.\",\"date\":\"Sep 15, 2022\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJUZXN0LXRpbWUgdHJhaW5pbmcgdGVjaG5pcXVlcyBpbiBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiVGVzdC1UaW1lIFRyYWluaW5nIG9uIEdyYXBocyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVscyAoTExNcykiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDQuMTM1NzEiLCJzbmlwcGV0IjoiVHJhZGl0aW9uYWwgVFRUIG1ldGhvZHMgcmVxdWlyZSBhIGRlbWFuZGluZyB1bnN1cGVydmlzZWQgdHJhaW5pbmcgc3RyYXRlZ3kgdG8gY2FwdHVyZSB0aGUgaW5mb3JtYXRpb24gZnJvbSB0ZXN0IHRvIGJlbmVmaXQgdGhlIG1haW4gdGFzay4iLCJkYXRlIjoiQXByIDIxLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBUZXN0LVRpbWUgVHJhaW5pbmcgb24gR3JhcGhzIHdpdGggTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIChMTE1zKSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNC4xMzU3MT8iLCJzbmlwcGV0IjoiTExNVFRUIHByb3Bvc2VzIGEgdHdvLXN0ZXAgaHlicmlkIGFjdGl2ZSBub2RlIHNlbGVjdGlvbiBtZXRob2QuIEl0IGNvbnNpc3RzIG9mIHVuY2VydGFpbnR5LWJhc2VkIGFjdGl2ZSBsZWFybmluZyB0byBsZXZlcmFnZSB0aGUgaW1wb3J0YW50IHNpZ25hbHMgZnJvbSB0aGUgcHJlIC4uLiIsImRhdGUiOiJBcHIgMjEsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkVmZmljaWVudCBUZXN0LVRpbWUgQWRhcHRhdGlvbiBvZiBWaXNpb24tTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE4MjkzdjEiLCJzbmlwcGV0IjoiV2UgZGVzaWduIFREQSwgYSB0cmFpbmluZy1mcmVlIGR5bmFtaWMgYWRhcHRlciB0aGF0IGVuYWJsZXMgZWZmZWN0aXZlIGFuZCBlZmZpY2llbnQgdGVzdC10aW1lIGFkYXB0YXRpb24gd2l0aCB2aXNpb24tbGFuZ3VhZ2UgbW9kZWxzLiIsImRhdGUiOiJNYXIgMjcsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IlNjYWxpbmcgTExNIFRlc3QtVGltZSBDb21wdXRlIE9wdGltYWxseSBjYW4gYmUgTW9yZSBFZmZlY3RpdmUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOC4wMzMxNHYxIiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgYW5hbHl6ZSB0d28gcHJpbWFyeSBtZWNoYW5pc21zIHRvIHNjYWxlIHRlc3QtdGltZSBjb21wdXRhdGlvbjogKDEpIHNlYXJjaGluZyBhZ2FpbnN0IGRlbnNlLCBwcm9jZXNzLWJhc2VkIHZlcmlmaWVyIHJld2FyZCBtb2RlbHM7IGFuZCAoMikgLi4uIiwiZGF0ZSI6IkF1ZyA2LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJFZmZpY2llbnQgQ29udGludWFsIFByZS10cmFpbmluZyBieSBNaXRpZ2F0aW5nIHRoZSBTdGFiaWxpdHkgR2FwIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjE0ODMzdjIiLCJzbmlwcGV0IjoiQWJzdHJhY3QuIENvbnRpbnVhbCBwcmUtdHJhaW5pbmcgaGFzIGluY3JlYXNpbmdseSBiZWNvbWUgdGhlIHByZWRvbWluYW50IGFwcHJvYWNoIGZvciBhZGFwdGluZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKExMTXMpIHRvIG5ldyBkb21haW5zLiIsImRhdGUiOiJKdW4gMjcsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkZpbmUtVHVuaW5nIExhcmdlIExhbmd1YWdlIE1vZGVscyB3aXRoIFNlcXVlbnRpYWwgSW5zdHJ1Y3Rpb25zIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4wNzc5NHYxP3JlZj1ibG9nLnByb21wdGxheWVyLmNvbSIsInNuaXBwZXQiOiJTSVQgbW9kZWxzIHRyYWluZWQgc29sZWx5IG9uIG9uZSBpbnRlcm1lZGlhdGUgdGFzayBjYW4gZm9sbG93IGJvdGggUmVwZWF0IGFuZCBQYXJhcGhyYXNlIGluc3RydWN0aW9ucyBkdXJpbmcgdGVzdCB0aW1lLiIsImRhdGUiOiJNYXIgMTIsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIExlYXJuaW5nIHRvIChMZWFybiBhdCBUZXN0IFRpbWUpOiBSTk5zIHdpdGggRXhwcmVzc2l2ZSBIaWRkZW4gU3RhdGVzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA3LjA0NjIwIiwic25pcHBldCI6IldlIHByZXNlbnQgYSBwcmFjdGljYWwgZnJhbWV3b3JrIGZvciBpbnN0YW50aWF0aW5nIHNlcXVlbmNlIG1vZGVsaW5nIGxheWVycyB3aXRoIGxpbmVhciBjb21wbGV4aXR5IGFuZCBleHByZXNzaXZlIGhpZGRlbiBzdGF0ZXMuIFRoZSBrZXkgaWRlYSBpcyB0byBtYWtlIHRoZSAuLi4iLCJkYXRlIjoiSnVsIDUsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlRyYWluaW5nIGxhbmd1YWdlIG1vZGVscyB0byBmb2xsb3cgaW5zdHJ1Y3Rpb25zIHdpdGggaHVtYW4gZmVlZGJhY2siLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIyMDMuMDIxNTUiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2Ugc2hvdyBhbiBhdmVudWUgZm9yIGFsaWduaW5nIGxhbmd1YWdlIG1vZGVscyB3aXRoIHVzZXIgaW50ZW50IG9uIGEgd2lkZSByYW5nZSBvZiB0YXNrcyBieSBmaW5lLXR1bmluZyB3aXRoIGh1bWFuIGZlZWRiYWNrLiIsImRhdGUiOiJKYW4gMjcsIDIwMjIiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IlJvYnVzdGlmeWluZyBMYW5ndWFnZSBNb2RlbHMgd2l0aCBUZXN0LVRpbWUgQWRhcHRhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzEwLjE5MTc3Iiwic25pcHBldCI6IldoaWxlIHByaW9yIHdvcmsgZm9jdXNlcyBvbiBtYWtpbmcgdGhlIGxhbmd1YWdlIG1vZGVsIHJvYnVzdCBhdCB0cmFpbmluZyB0aW1lLCByZXRyYWluaW5nIGZvciByb2J1c3RuZXNzIGlzIG9mdGVuIHVucmVhbGlzdGljIGZvciBsYXJnZS1zY2FsZSBmb3VuZGF0aW9uIG1vZGVscy4iLCJkYXRlIjoiT2N0IDI5LCAyMDIzIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJUZXN0LVRpbWUgVHJhaW5pbmcgd2l0aCBNYXNrZWQgQXV0b2VuY29kZXJzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjA5LjA3NTIydjEiLCJzbmlwcGV0IjoiVGVzdC10aW1lIHRyYWluaW5nIGFkYXB0cyB0byBhIG5ldyB0ZXN0IGRpc3RyaWJ1dGlvbiBvbiB0aGUgZmx5IGJ5IG9wdGltaXppbmcgYSBtb2RlbCBmb3IgZWFjaCB0ZXN0IGlucHV0IHVzaW5nIHNlbGYtc3VwZXJ2aXNpb24uIiwiZGF0ZSI6IlNlcCAxNSwgMjAyMiIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "24b4f0b0505ab73c25d6f8708b0e1d306a760bd9b0a6d02e030b211ae7c6806f",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Test-time training techniques in large language models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Test-Time Training on Graphs with Large Language Models (LLMs)",
+                "link": "https://arxiv.org/abs/2404.13571",
+                "snippet": "Traditional TTT methods require a demanding unsupervised training strategy to capture the information from test to benefit the main task.",
+                "date": "Apr 21, 2024",
+                "position": 1
+              },
+              {
+                "title": "[PDF] Test-Time Training on Graphs with Large Language Models (LLMs)",
+                "link": "https://arxiv.org/pdf/2404.13571?",
+                "snippet": "LLMTTT proposes a two-step hybrid active node selection method. It consists of uncertainty-based active learning to leverage the important signals from the pre ...",
+                "date": "Apr 21, 2024",
+                "position": 2
+              },
+              {
+                "title": "Efficient Test-Time Adaptation of Vision-Language Models - arXiv",
+                "link": "https://arxiv.org/html/2403.18293v1",
+                "snippet": "We design TDA, a training-free dynamic adapter that enables effective and efficient test-time adaptation with vision-language models.",
+                "date": "Mar 27, 2024",
+                "position": 3
+              },
+              {
+                "title": "Scaling LLM Test-Time Compute Optimally can be More Effective ...",
+                "link": "https://arxiv.org/html/2408.03314v1",
+                "snippet": "In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) ...",
+                "date": "Aug 6, 2024",
+                "position": 4
+              },
+              {
+                "title": "Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv",
+                "link": "https://arxiv.org/html/2406.14833v2",
+                "snippet": "Abstract. Continual pre-training has increasingly become the predominant approach for adapting Large Language Models (LLMs) to new domains.",
+                "date": "Jun 27, 2024",
+                "position": 5
+              },
+              {
+                "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+                "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+                "snippet": "SIT models trained solely on one intermediate task can follow both Repeat and Paraphrase instructions during test time.",
+                "date": "Mar 12, 2024",
+                "position": 6
+              },
+              {
+                "title": "[PDF] Learning to (Learn at Test Time): RNNs with Expressive Hidden States",
+                "link": "https://arxiv.org/pdf/2407.04620",
+                "snippet": "We present a practical framework for instantiating sequence modeling layers with linear complexity and expressive hidden states. The key idea is to make the ...",
+                "date": "Jul 5, 2024",
+                "position": 7
+              },
+              {
+                "title": "Training language models to follow instructions with human feedback",
+                "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.",
+                "date": "Jan 27, 2022",
+                "position": 8
+              },
+              {
+                "title": "Robustifying Language Models with Test-Time Adaptation - arXiv",
+                "link": "https://arxiv.org/abs/2310.19177",
+                "snippet": "While prior work focuses on making the language model robust at training time, retraining for robustness is often unrealistic for large-scale foundation models.",
+                "date": "Oct 29, 2023",
+                "position": 9
+              },
+              {
+                "title": "Test-Time Training with Masked Autoencoders - arXiv",
+                "link": "https://arxiv.org/html/2209.07522v1",
+                "snippet": "Test-time training adapts to a new test distribution on the fly by optimizing a model for each test input using self-supervision.",
+                "date": "Sep 15, 2022",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:29.492032+00:00",
+          "elapsed_seconds": 0.9936228133738041
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2203.02155",
+        "2209.07522",
+        "2310.19177",
+        "2403.07794",
+        "2403.18293",
+        "2404.13571",
+        "2406.14833",
+        "2407.04620",
+        "2408.03314"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2404.13571",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2404.13571",
+          "title": "Test-Time Training on Graphs with Large Language Models (LLMs)",
+          "snippet": "Traditional TTT methods require a demanding unsupervised training strategy to capture the information from test to benefit the main task."
+        },
+        {
+          "arxiv_id": "2404.13571",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/pdf/2404.13571?",
+          "title": "[PDF] Test-Time Training on Graphs with Large Language Models (LLMs)",
+          "snippet": "LLMTTT proposes a two-step hybrid active node selection method. It consists of uncertainty-based active learning to leverage the important signals from the pre ..."
+        },
+        {
+          "arxiv_id": "2403.18293",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2403.18293v1",
+          "title": "Efficient Test-Time Adaptation of Vision-Language Models - arXiv",
+          "snippet": "We design TDA, a training-free dynamic adapter that enables effective and efficient test-time adaptation with vision-language models."
+        },
+        {
+          "arxiv_id": "2408.03314",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2408.03314v1",
+          "title": "Scaling LLM Test-Time Compute Optimally can be More Effective ...",
+          "snippet": "In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) ..."
+        },
+        {
+          "arxiv_id": "2406.14833",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2406.14833v2",
+          "title": "Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv",
+          "snippet": "Abstract. Continual pre-training has increasingly become the predominant approach for adapting Large Language Models (LLMs) to new domains."
+        },
+        {
+          "arxiv_id": "2403.07794",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+          "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+          "snippet": "SIT models trained solely on one intermediate task can follow both Repeat and Paraphrase instructions during test time."
+        },
+        {
+          "arxiv_id": "2407.04620",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2407.04620",
+          "title": "[PDF] Learning to (Learn at Test Time): RNNs with Expressive Hidden States",
+          "snippet": "We present a practical framework for instantiating sequence modeling layers with linear complexity and expressive hidden states. The key idea is to make the ..."
+        },
+        {
+          "arxiv_id": "2203.02155",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+          "title": "Training language models to follow instructions with human feedback",
+          "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback."
+        },
+        {
+          "arxiv_id": "2310.19177",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2310.19177",
+          "title": "Robustifying Language Models with Test-Time Adaptation - arXiv",
+          "snippet": "While prior work focuses on making the language model robust at training time, retraining for robustness is often unrealistic for large-scale foundation models."
+        },
+        {
+          "arxiv_id": "2209.07522",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2209.07522v1",
+          "title": "Test-Time Training with Masked Autoencoders - arXiv",
+          "snippet": "Test-time training adapts to a new test distribution on the fly by optimizing a model for each test input using self-supervision."
+        }
+      ],
+      "request_payload": {
+        "q": "Test-time training techniques in large language models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Advancements in test time training for language models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 182,
+          "query_id": "Q30",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Advancements in test time training for language models",
+          "request_payload": {
+            "q": "Advancements in test time training for language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q30_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:28:29.669217+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Advancements in test time training for language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv\",\"link\":\"https://arxiv.org/html/2406.14833v2\",\"snippet\":\"Continual pre-training has increasingly become the predominant approach for adapting Large Language Models (LLMs) to new domains.\",\"date\":\"Jun 27, 2024\",\"position\":1},{\"title\":\"[PDF] Test-Time Training on Graphs with Large Language Models (LLMs)\",\"link\":\"https://arxiv.org/pdf/2404.13571?\",\"snippet\":\"Knowledge distillation improves graph structure augmentation for graph neural networks. Advances in. Neural Information Processing Systems 35 (2022), 11815– ...\",\"date\":\"Apr 21, 2024\",\"position\":2},{\"title\":\"Efficient Test-Time Adaptation of Vision-Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2403.18293v1\",\"snippet\":\"We design TDA, a training-free dynamic adapter that enables effective and efficient test-time adaptation with vision-language models. in vision-language models\",\"date\":\"Mar 27, 2024\",\"position\":3},{\"title\":\"Online Training of Large Language Models: Learn while Chatting\",\"link\":\"https://arxiv.org/html/2403.04790v1\",\"snippet\":\"Unlike traditional training methods that rely on static datasets, our approach leverages continuous user interactions to adapt and evolve the model over time.\",\"date\":\"Mar 4, 2024\",\"position\":4},{\"title\":\"Fine-Tuning Large Language Models with Sequential Instructions\",\"link\":\"https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com\",\"snippet\":\"SIT models trained solely on one intermediate task can follow both Repeat and Paraphrase instructions during test time.\",\"date\":\"Mar 12, 2024\",\"position\":5},{\"title\":\"What Can Large Language Models Tell Us about Time Series Analysis\",\"link\":\"https://arxiv.org/html/2402.02713v1\",\"snippet\":\"In this paper, we argue that current LLMs have the potential to revolutionize time series analysis, thereby promoting efficient decision-making and advancing ...\",\"date\":\"Feb 5, 2024\",\"position\":6},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"Some preliminary experiments show better human Likert scores. However, the training time also increases by a few fold. of the corresponding experiment\",\"date\":\"Jan 27, 2022\",\"position\":7},{\"title\":\"Continual Learning for Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.01364v1\",\"snippet\":\"Continual Learning for Large Language Models aims to enable LLMs to learn from a continuous data stream over time.\",\"date\":\"Feb 2, 2024\",\"position\":8},{\"title\":\"Attention with Linear Biases Enables Input Length Extrapolation - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2108.12409\",\"snippet\":\"Before transformers, RNN language models were trained on shorter- L L sequences and assumed to generalize to longer contexts at inference time (Mikolov et al.\",\"date\":\"Aug 25, 2021\",\"sitelinks\":[{\"title\":\"4 Results\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2108.12409#:~:text=4%20Results,-We%20first%20show%20that%20on\"},{\"title\":\"A. 1 Introduction\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2108.12409#:~:text=A.%201%20Introduction\"},{\"title\":\"A. 2 Alibi Results On...\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2108.12409#:~:text=A.%202%20ALiBi%20Results%20on%20WikiText%2D103\"}],\"position\":9},{\"title\":\"[PDF] Learning to (Learn at Test Time): RNNs with Expressive Hidden States\",\"link\":\"https://arxiv.org/pdf/2407.04620\",\"snippet\":\"Training a network with TTT layers also works the same way as training any other language model, such as a Transformer. The same data, recipe, and objective ...\",\"date\":\"Jul 5, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBZHZhbmNlbWVudHMgaW4gdGVzdCB0aW1lIHRyYWluaW5nIGZvciBsYW5ndWFnZSBtb2RlbHMgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiRWZmaWNpZW50IENvbnRpbnVhbCBQcmUtdHJhaW5pbmcgYnkgTWl0aWdhdGluZyB0aGUgU3RhYmlsaXR5IEdhcCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4xNDgzM3YyIiwic25pcHBldCI6IkNvbnRpbnVhbCBwcmUtdHJhaW5pbmcgaGFzIGluY3JlYXNpbmdseSBiZWNvbWUgdGhlIHByZWRvbWluYW50IGFwcHJvYWNoIGZvciBhZGFwdGluZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKExMTXMpIHRvIG5ldyBkb21haW5zLiIsImRhdGUiOiJKdW4gMjcsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IltQREZdIFRlc3QtVGltZSBUcmFpbmluZyBvbiBHcmFwaHMgd2l0aCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKExMTXMpIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA0LjEzNTcxPyIsInNuaXBwZXQiOiJLbm93bGVkZ2UgZGlzdGlsbGF0aW9uIGltcHJvdmVzIGdyYXBoIHN0cnVjdHVyZSBhdWdtZW50YXRpb24gZm9yIGdyYXBoIG5ldXJhbCBuZXR3b3Jrcy4gQWR2YW5jZXMgaW4uIE5ldXJhbCBJbmZvcm1hdGlvbiBQcm9jZXNzaW5nIFN5c3RlbXMgMzUgKDIwMjIpLCAxMTgxNeKAkyAuLi4iLCJkYXRlIjoiQXByIDIxLCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJFZmZpY2llbnQgVGVzdC1UaW1lIEFkYXB0YXRpb24gb2YgVmlzaW9uLUxhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xODI5M3YxIiwic25pcHBldCI6IldlIGRlc2lnbiBUREEsIGEgdHJhaW5pbmctZnJlZSBkeW5hbWljIGFkYXB0ZXIgdGhhdCBlbmFibGVzIGVmZmVjdGl2ZSBhbmQgZWZmaWNpZW50IHRlc3QtdGltZSBhZGFwdGF0aW9uIHdpdGggdmlzaW9uLWxhbmd1YWdlIG1vZGVscy4gaW4gdmlzaW9uLWxhbmd1YWdlIG1vZGVscyIsImRhdGUiOiJNYXIgMjcsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6Ik9ubGluZSBUcmFpbmluZyBvZiBMYXJnZSBMYW5ndWFnZSBNb2RlbHM6IExlYXJuIHdoaWxlIENoYXR0aW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4wNDc5MHYxIiwic25pcHBldCI6IlVubGlrZSB0cmFkaXRpb25hbCB0cmFpbmluZyBtZXRob2RzIHRoYXQgcmVseSBvbiBzdGF0aWMgZGF0YXNldHMsIG91ciBhcHByb2FjaCBsZXZlcmFnZXMgY29udGludW91cyB1c2VyIGludGVyYWN0aW9ucyB0byBhZGFwdCBhbmQgZXZvbHZlIHRoZSBtb2RlbCBvdmVyIHRpbWUuIiwiZGF0ZSI6Ik1hciA0LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJGaW5lLVR1bmluZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgd2l0aCBTZXF1ZW50aWFsIEluc3RydWN0aW9ucyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMDc3OTR2MT9yZWY9YmxvZy5wcm9tcHRsYXllci5jb20iLCJzbmlwcGV0IjoiU0lUIG1vZGVscyB0cmFpbmVkIHNvbGVseSBvbiBvbmUgaW50ZXJtZWRpYXRlIHRhc2sgY2FuIGZvbGxvdyBib3RoIFJlcGVhdCBhbmQgUGFyYXBocmFzZSBpbnN0cnVjdGlvbnMgZHVyaW5nIHRlc3QgdGltZS4iLCJkYXRlIjoiTWFyIDEyLCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJXaGF0IENhbiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgVGVsbCBVcyBhYm91dCBUaW1lIFNlcmllcyBBbmFseXNpcyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDI3MTN2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBhcmd1ZSB0aGF0IGN1cnJlbnQgTExNcyBoYXZlIHRoZSBwb3RlbnRpYWwgdG8gcmV2b2x1dGlvbml6ZSB0aW1lIHNlcmllcyBhbmFseXNpcywgdGhlcmVieSBwcm9tb3RpbmcgZWZmaWNpZW50IGRlY2lzaW9uLW1ha2luZyBhbmQgYWR2YW5jaW5nIC4uLiIsImRhdGUiOiJGZWIgNSwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiVHJhaW5pbmcgbGFuZ3VhZ2UgbW9kZWxzIHRvIGZvbGxvdyBpbnN0cnVjdGlvbnMgd2l0aCBodW1hbiBmZWVkYmFjayIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjIwMy4wMjE1NSIsInNuaXBwZXQiOiJTb21lIHByZWxpbWluYXJ5IGV4cGVyaW1lbnRzIHNob3cgYmV0dGVyIGh1bWFuIExpa2VydCBzY29yZXMuIEhvd2V2ZXIsIHRoZSB0cmFpbmluZyB0aW1lIGFsc28gaW5jcmVhc2VzIGJ5IGEgZmV3IGZvbGQuIG9mIHRoZSBjb3JyZXNwb25kaW5nIGV4cGVyaW1lbnQiLCJkYXRlIjoiSmFuIDI3LCAyMDIyIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJDb250aW51YWwgTGVhcm5pbmcgZm9yIExhcmdlIExhbmd1YWdlIE1vZGVsczogQSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDEzNjR2MSIsInNuaXBwZXQiOiJDb250aW51YWwgTGVhcm5pbmcgZm9yIExhcmdlIExhbmd1YWdlIE1vZGVscyBhaW1zIHRvIGVuYWJsZSBMTE1zIHRvIGxlYXJuIGZyb20gYSBjb250aW51b3VzIGRhdGEgc3RyZWFtIG92ZXIgdGltZS4iLCJkYXRlIjoiRmViIDIsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkF0dGVudGlvbiB3aXRoIExpbmVhciBCaWFzZXMgRW5hYmxlcyBJbnB1dCBMZW5ndGggRXh0cmFwb2xhdGlvbiAtIGFyNWl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMTA4LjEyNDA5Iiwic25pcHBldCI6IkJlZm9yZSB0cmFuc2Zvcm1lcnMsIFJOTiBsYW5ndWFnZSBtb2RlbHMgd2VyZSB0cmFpbmVkIG9uIHNob3J0ZXItIEwgTCBzZXF1ZW5jZXMgYW5kIGFzc3VtZWQgdG8gZ2VuZXJhbGl6ZSB0byBsb25nZXIgY29udGV4dHMgYXQgaW5mZXJlbmNlIHRpbWUgKE1pa29sb3YgZXQgYWwuIiwiZGF0ZSI6IkF1ZyAyNSwgMjAyMSIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiI0IFJlc3VsdHMiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIxMDguMTI0MDkjOn46dGV4dD00JTIwUmVzdWx0cywtV2UlMjBmaXJzdCUyMHNob3clMjB0aGF0JTIwb24ifSx7InRpdGxlIjoiQS4gMSBJbnRyb2R1Y3Rpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIxMDguMTI0MDkjOn46dGV4dD1BLiUyMDElMjBJbnRyb2R1Y3Rpb24ifSx7InRpdGxlIjoiQS4gMiBBbGliaSBSZXN1bHRzIE9uLi4uIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMTA4LjEyNDA5Izp+OnRleHQ9QS4lMjAyJTIwQUxpQmklMjBSZXN1bHRzJTIwb24lMjBXaWtpVGV4dCUyRDEwMyJ9XSwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBMZWFybmluZyB0byAoTGVhcm4gYXQgVGVzdCBUaW1lKTogUk5OcyB3aXRoIEV4cHJlc3NpdmUgSGlkZGVuIFN0YXRlcyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNy4wNDYyMCIsInNuaXBwZXQiOiJUcmFpbmluZyBhIG5ldHdvcmsgd2l0aCBUVFQgbGF5ZXJzIGFsc28gd29ya3MgdGhlIHNhbWUgd2F5IGFzIHRyYWluaW5nIGFueSBvdGhlciBsYW5ndWFnZSBtb2RlbCwgc3VjaCBhcyBhIFRyYW5zZm9ybWVyLiBUaGUgc2FtZSBkYXRhLCByZWNpcGUsIGFuZCBvYmplY3RpdmUgLi4uIiwiZGF0ZSI6Ikp1bCA1LCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "cb336c6dfd6c689dd865f09e534fcddf25c35542e9fbc2433c772b16e87ab1ac",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Advancements in test time training for language models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv",
+                "link": "https://arxiv.org/html/2406.14833v2",
+                "snippet": "Continual pre-training has increasingly become the predominant approach for adapting Large Language Models (LLMs) to new domains.",
+                "date": "Jun 27, 2024",
+                "position": 1
+              },
+              {
+                "title": "[PDF] Test-Time Training on Graphs with Large Language Models (LLMs)",
+                "link": "https://arxiv.org/pdf/2404.13571?",
+                "snippet": "Knowledge distillation improves graph structure augmentation for graph neural networks. Advances in. Neural Information Processing Systems 35 (2022), 11815– ...",
+                "date": "Apr 21, 2024",
+                "position": 2
+              },
+              {
+                "title": "Efficient Test-Time Adaptation of Vision-Language Models - arXiv",
+                "link": "https://arxiv.org/html/2403.18293v1",
+                "snippet": "We design TDA, a training-free dynamic adapter that enables effective and efficient test-time adaptation with vision-language models. in vision-language models",
+                "date": "Mar 27, 2024",
+                "position": 3
+              },
+              {
+                "title": "Online Training of Large Language Models: Learn while Chatting",
+                "link": "https://arxiv.org/html/2403.04790v1",
+                "snippet": "Unlike traditional training methods that rely on static datasets, our approach leverages continuous user interactions to adapt and evolve the model over time.",
+                "date": "Mar 4, 2024",
+                "position": 4
+              },
+              {
+                "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+                "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+                "snippet": "SIT models trained solely on one intermediate task can follow both Repeat and Paraphrase instructions during test time.",
+                "date": "Mar 12, 2024",
+                "position": 5
+              },
+              {
+                "title": "What Can Large Language Models Tell Us about Time Series Analysis",
+                "link": "https://arxiv.org/html/2402.02713v1",
+                "snippet": "In this paper, we argue that current LLMs have the potential to revolutionize time series analysis, thereby promoting efficient decision-making and advancing ...",
+                "date": "Feb 5, 2024",
+                "position": 6
+              },
+              {
+                "title": "Training language models to follow instructions with human feedback",
+                "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                "snippet": "Some preliminary experiments show better human Likert scores. However, the training time also increases by a few fold. of the corresponding experiment",
+                "date": "Jan 27, 2022",
+                "position": 7
+              },
+              {
+                "title": "Continual Learning for Large Language Models: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2402.01364v1",
+                "snippet": "Continual Learning for Large Language Models aims to enable LLMs to learn from a continuous data stream over time.",
+                "date": "Feb 2, 2024",
+                "position": 8
+              },
+              {
+                "title": "Attention with Linear Biases Enables Input Length Extrapolation - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2108.12409",
+                "snippet": "Before transformers, RNN language models were trained on shorter- L L sequences and assumed to generalize to longer contexts at inference time (Mikolov et al.",
+                "date": "Aug 25, 2021",
+                "sitelinks": [
+                  {
+                    "title": "4 Results",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2108.12409#:~:text=4%20Results,-We%20first%20show%20that%20on"
+                  },
+                  {
+                    "title": "A. 1 Introduction",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2108.12409#:~:text=A.%201%20Introduction"
+                  },
+                  {
+                    "title": "A. 2 Alibi Results On...",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2108.12409#:~:text=A.%202%20ALiBi%20Results%20on%20WikiText%2D103"
+                  }
+                ],
+                "position": 9
+              },
+              {
+                "title": "[PDF] Learning to (Learn at Test Time): RNNs with Expressive Hidden States",
+                "link": "https://arxiv.org/pdf/2407.04620",
+                "snippet": "Training a network with TTT layers also works the same way as training any other language model, such as a Transformer. The same data, recipe, and objective ...",
+                "date": "Jul 5, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:30.470170+00:00",
+          "elapsed_seconds": 0.8009510338306427
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2108.12409",
+        "2203.02155",
+        "2402.01364",
+        "2402.02713",
+        "2403.04790",
+        "2403.07794",
+        "2403.18293",
+        "2404.13571",
+        "2406.14833",
+        "2407.04620"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2406.14833",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2406.14833v2",
+          "title": "Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv",
+          "snippet": "Continual pre-training has increasingly become the predominant approach for adapting Large Language Models (LLMs) to new domains."
+        },
+        {
+          "arxiv_id": "2404.13571",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/pdf/2404.13571?",
+          "title": "[PDF] Test-Time Training on Graphs with Large Language Models (LLMs)",
+          "snippet": "Knowledge distillation improves graph structure augmentation for graph neural networks. Advances in. Neural Information Processing Systems 35 (2022), 11815– ..."
+        },
+        {
+          "arxiv_id": "2403.18293",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2403.18293v1",
+          "title": "Efficient Test-Time Adaptation of Vision-Language Models - arXiv",
+          "snippet": "We design TDA, a training-free dynamic adapter that enables effective and efficient test-time adaptation with vision-language models. in vision-language models"
+        },
+        {
+          "arxiv_id": "2403.04790",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2403.04790v1",
+          "title": "Online Training of Large Language Models: Learn while Chatting",
+          "snippet": "Unlike traditional training methods that rely on static datasets, our approach leverages continuous user interactions to adapt and evolve the model over time."
+        },
+        {
+          "arxiv_id": "2403.07794",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+          "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+          "snippet": "SIT models trained solely on one intermediate task can follow both Repeat and Paraphrase instructions during test time."
+        },
+        {
+          "arxiv_id": "2402.02713",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2402.02713v1",
+          "title": "What Can Large Language Models Tell Us about Time Series Analysis",
+          "snippet": "In this paper, we argue that current LLMs have the potential to revolutionize time series analysis, thereby promoting efficient decision-making and advancing ..."
+        },
+        {
+          "arxiv_id": "2203.02155",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+          "title": "Training language models to follow instructions with human feedback",
+          "snippet": "Some preliminary experiments show better human Likert scores. However, the training time also increases by a few fold. of the corresponding experiment"
+        },
+        {
+          "arxiv_id": "2402.01364",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2402.01364v1",
+          "title": "Continual Learning for Large Language Models: A Survey - arXiv",
+          "snippet": "Continual Learning for Large Language Models aims to enable LLMs to learn from a continuous data stream over time."
+        },
+        {
+          "arxiv_id": "2108.12409",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://ar5iv.labs.arxiv.org/html/2108.12409",
+          "title": "Attention with Linear Biases Enables Input Length Extrapolation - ar5iv",
+          "snippet": "Before transformers, RNN language models were trained on shorter- L L sequences and assumed to generalize to longer contexts at inference time (Mikolov et al."
+        },
+        {
+          "arxiv_id": "2407.04620",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2407.04620",
+          "title": "[PDF] Learning to (Learn at Test Time): RNNs with Expressive Hidden States",
+          "snippet": "Training a network with TTT layers also works the same way as training any other language model, such as a Transformer. The same data, recipe, and objective ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Advancements in test time training for language models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "LLM research on test time training",
+      "attempts": [
+        {
+          "global_attempt_sequence": 183,
+          "query_id": "Q30",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "LLM research on test time training",
+          "request_payload": {
+            "q": "LLM research on test time training before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q30_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:28:30.645133+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"LLM research on test time training before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Scaling LLM Test-Time Compute Optimally can be More Effective ...\",\"link\":\"https://arxiv.org/abs/2408.03314\",\"snippet\":\"In this paper, we study the scaling of inference-time computation in LLMs, In this work, we analyze two primary mechanisms to scale test-time computation: (1) ...\",\"date\":\"Aug 6, 2024\",\"position\":1},{\"title\":\"Test-Time Training on Graphs with Large Language Models (LLMs)\",\"link\":\"https://arxiv.org/abs/2404.13571\",\"snippet\":\"In this paper, we design a novel Test-Time Training pipeline, LLMTTT, which conducts the test-time adaptation under the annotations by LLMs on a carefully- ...\",\"date\":\"Apr 21, 2024\",\"position\":2},{\"title\":\"Learning to (Learn at Test Time): RNNs with Expressive Hidden States\",\"link\":\"https://arxiv.org/abs/2407.04620\",\"snippet\":\"We present a practical framework for instantiating sequence modeling layers with linear complexity and expressive hidden states. The key idea is to make the ...\",\"date\":\"Jul 5, 2024\",\"position\":3},{\"title\":\"Test-Time Training on Nearest Neighbors for Large Language Models\",\"link\":\"https://arxiv.org/abs/2305.18466\",\"snippet\":\"test-time training with nearest neighbors significantly narrows the performance gap between a small GPT-2 and a GPT-Neo model more than 10 times larger. Our ...\",\"date\":\"May 29, 2023\",\"position\":4},{\"title\":\"Fine-Tuning Large Language Models with Sequential Instructions\",\"link\":\"https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com\",\"snippet\":\"In order to enable sequential prompting in LLMs, this work proposes sequential instruction tuning (SIT), where LLMs are explicitly fine-tuned on instructions ...\",\"date\":\"Mar 12, 2024\",\"position\":5},{\"title\":\"LLM Dataset Inference Did you train on my dataset? - arXiv\",\"link\":\"https://arxiv.org/html/2406.06443v1\",\"snippet\":\"Our research demonstrates that LLM dataset inference is effective in minimizing false positives and detecting even minute differences between training and test ...\",\"date\":\"Jun 10, 2024\",\"position\":6},{\"title\":\"Test of Time: A Benchmark for Evaluating LLMs on Temporal ... - arXiv\",\"link\":\"https://arxiv.org/html/2406.09170v1\",\"snippet\":\"Much research focuses on enhancing LLMs' understanding of temporal concepts, primarily through pre-training and fine-tuning strategies to improve their temporal ...\",\"date\":\"Jun 13, 2024\",\"position\":7},{\"title\":\": Automatic “Differentiation” via Text - arXiv\",\"link\":\"https://arxiv.org/html/2406.07496v1\",\"snippet\":\"At each iteration, the LLM is prompted with the question, current solution, and some test-time instruction asking to critique or investigate the current ...\",\"date\":\"Jun 11, 2024\",\"position\":8},{\"title\":\"[PDF] Test-Time Training on Graphs with Large Language Models (LLMs)\",\"link\":\"https://arxiv.org/pdf/2404.13571?\",\"snippet\":\"In this section, we will introduces the novel LLM-based fully test- time training framework ( LLMTTT ) for the graph OOD problem. We first delineate the ...\",\"date\":\"Apr 21, 2024\",\"position\":9},{\"title\":\"Can Large Language Models Reason and Plan? - arXiv\",\"link\":\"https://arxiv.org/html/2403.04121v2\",\"snippet\":\"Nothing in the training and use of LLMs would seem to suggest remotely that they can do any type of principled reasoning (which, as we know, often involves ...\",\"date\":\"Mar 8, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJMTE0gcmVzZWFyY2ggb24gdGVzdCB0aW1lIHRyYWluaW5nIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlNjYWxpbmcgTExNIFRlc3QtVGltZSBDb21wdXRlIE9wdGltYWxseSBjYW4gYmUgTW9yZSBFZmZlY3RpdmUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA4LjAzMzE0Iiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHN0dWR5IHRoZSBzY2FsaW5nIG9mIGluZmVyZW5jZS10aW1lIGNvbXB1dGF0aW9uIGluIExMTXMsIEluIHRoaXMgd29yaywgd2UgYW5hbHl6ZSB0d28gcHJpbWFyeSBtZWNoYW5pc21zIHRvIHNjYWxlIHRlc3QtdGltZSBjb21wdXRhdGlvbjogKDEpIC4uLiIsImRhdGUiOiJBdWcgNiwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiVGVzdC1UaW1lIFRyYWluaW5nIG9uIEdyYXBocyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVscyAoTExNcykiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDQuMTM1NzEiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgZGVzaWduIGEgbm92ZWwgVGVzdC1UaW1lIFRyYWluaW5nIHBpcGVsaW5lLCBMTE1UVFQsIHdoaWNoIGNvbmR1Y3RzIHRoZSB0ZXN0LXRpbWUgYWRhcHRhdGlvbiB1bmRlciB0aGUgYW5ub3RhdGlvbnMgYnkgTExNcyBvbiBhIGNhcmVmdWxseS0gLi4uIiwiZGF0ZSI6IkFwciAyMSwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiTGVhcm5pbmcgdG8gKExlYXJuIGF0IFRlc3QgVGltZSk6IFJOTnMgd2l0aCBFeHByZXNzaXZlIEhpZGRlbiBTdGF0ZXMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDcuMDQ2MjAiLCJzbmlwcGV0IjoiV2UgcHJlc2VudCBhIHByYWN0aWNhbCBmcmFtZXdvcmsgZm9yIGluc3RhbnRpYXRpbmcgc2VxdWVuY2UgbW9kZWxpbmcgbGF5ZXJzIHdpdGggbGluZWFyIGNvbXBsZXhpdHkgYW5kIGV4cHJlc3NpdmUgaGlkZGVuIHN0YXRlcy4gVGhlIGtleSBpZGVhIGlzIHRvIG1ha2UgdGhlIC4uLiIsImRhdGUiOiJKdWwgNSwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiVGVzdC1UaW1lIFRyYWluaW5nIG9uIE5lYXJlc3QgTmVpZ2hib3JzIGZvciBMYXJnZSBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDUuMTg0NjYiLCJzbmlwcGV0IjoidGVzdC10aW1lIHRyYWluaW5nIHdpdGggbmVhcmVzdCBuZWlnaGJvcnMgc2lnbmlmaWNhbnRseSBuYXJyb3dzIHRoZSBwZXJmb3JtYW5jZSBnYXAgYmV0d2VlbiBhIHNtYWxsIEdQVC0yIGFuZCBhIEdQVC1OZW8gbW9kZWwgbW9yZSB0aGFuIDEwIHRpbWVzIGxhcmdlci4gT3VyIC4uLiIsImRhdGUiOiJNYXkgMjksIDIwMjMiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkZpbmUtVHVuaW5nIExhcmdlIExhbmd1YWdlIE1vZGVscyB3aXRoIFNlcXVlbnRpYWwgSW5zdHJ1Y3Rpb25zIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4wNzc5NHYxP3JlZj1ibG9nLnByb21wdGxheWVyLmNvbSIsInNuaXBwZXQiOiJJbiBvcmRlciB0byBlbmFibGUgc2VxdWVudGlhbCBwcm9tcHRpbmcgaW4gTExNcywgdGhpcyB3b3JrIHByb3Bvc2VzIHNlcXVlbnRpYWwgaW5zdHJ1Y3Rpb24gdHVuaW5nIChTSVQpLCB3aGVyZSBMTE1zIGFyZSBleHBsaWNpdGx5IGZpbmUtdHVuZWQgb24gaW5zdHJ1Y3Rpb25zIC4uLiIsImRhdGUiOiJNYXIgMTIsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkxMTSBEYXRhc2V0IEluZmVyZW5jZSBEaWQgeW91IHRyYWluIG9uIG15IGRhdGFzZXQ/IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjA2NDQzdjEiLCJzbmlwcGV0IjoiT3VyIHJlc2VhcmNoIGRlbW9uc3RyYXRlcyB0aGF0IExMTSBkYXRhc2V0IGluZmVyZW5jZSBpcyBlZmZlY3RpdmUgaW4gbWluaW1pemluZyBmYWxzZSBwb3NpdGl2ZXMgYW5kIGRldGVjdGluZyBldmVuIG1pbnV0ZSBkaWZmZXJlbmNlcyBiZXR3ZWVuIHRyYWluaW5nIGFuZCB0ZXN0IC4uLiIsImRhdGUiOiJKdW4gMTAsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlRlc3Qgb2YgVGltZTogQSBCZW5jaG1hcmsgZm9yIEV2YWx1YXRpbmcgTExNcyBvbiBUZW1wb3JhbCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMDkxNzB2MSIsInNuaXBwZXQiOiJNdWNoIHJlc2VhcmNoIGZvY3VzZXMgb24gZW5oYW5jaW5nIExMTXMnIHVuZGVyc3RhbmRpbmcgb2YgdGVtcG9yYWwgY29uY2VwdHMsIHByaW1hcmlseSB0aHJvdWdoIHByZS10cmFpbmluZyBhbmQgZmluZS10dW5pbmcgc3RyYXRlZ2llcyB0byBpbXByb3ZlIHRoZWlyIHRlbXBvcmFsIC4uLiIsImRhdGUiOiJKdW4gMTMsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IjogQXV0b21hdGljIOKAnERpZmZlcmVudGlhdGlvbuKAnSB2aWEgVGV4dCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4wNzQ5NnYxIiwic25pcHBldCI6IkF0IGVhY2ggaXRlcmF0aW9uLCB0aGUgTExNIGlzIHByb21wdGVkIHdpdGggdGhlIHF1ZXN0aW9uLCBjdXJyZW50IHNvbHV0aW9uLCBhbmQgc29tZSB0ZXN0LXRpbWUgaW5zdHJ1Y3Rpb24gYXNraW5nIHRvIGNyaXRpcXVlIG9yIGludmVzdGlnYXRlIHRoZSBjdXJyZW50IC4uLiIsImRhdGUiOiJKdW4gMTEsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIFRlc3QtVGltZSBUcmFpbmluZyBvbiBHcmFwaHMgd2l0aCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKExMTXMpIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA0LjEzNTcxPyIsInNuaXBwZXQiOiJJbiB0aGlzIHNlY3Rpb24sIHdlIHdpbGwgaW50cm9kdWNlcyB0aGUgbm92ZWwgTExNLWJhc2VkIGZ1bGx5IHRlc3QtIHRpbWUgdHJhaW5pbmcgZnJhbWV3b3JrICggTExNVFRUICkgZm9yIHRoZSBncmFwaCBPT0QgcHJvYmxlbS4gV2UgZmlyc3QgZGVsaW5lYXRlIHRoZSAuLi4iLCJkYXRlIjoiQXByIDIxLCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJDYW4gTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIFJlYXNvbiBhbmQgUGxhbj8gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMDQxMjF2MiIsInNuaXBwZXQiOiJOb3RoaW5nIGluIHRoZSB0cmFpbmluZyBhbmQgdXNlIG9mIExMTXMgd291bGQgc2VlbSB0byBzdWdnZXN0IHJlbW90ZWx5IHRoYXQgdGhleSBjYW4gZG8gYW55IHR5cGUgb2YgcHJpbmNpcGxlZCByZWFzb25pbmcgKHdoaWNoLCBhcyB3ZSBrbm93LCBvZnRlbiBpbnZvbHZlcyAuLi4iLCJkYXRlIjoiTWFyIDgsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "b28c091eba1a54f5709348af000a0e826e49d7be34b6cf379b8610e9c2cd23d9",
+          "structured_response": {
+            "searchParameters": {
+              "q": "LLM research on test time training before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Scaling LLM Test-Time Compute Optimally can be More Effective ...",
+                "link": "https://arxiv.org/abs/2408.03314",
+                "snippet": "In this paper, we study the scaling of inference-time computation in LLMs, In this work, we analyze two primary mechanisms to scale test-time computation: (1) ...",
+                "date": "Aug 6, 2024",
+                "position": 1
+              },
+              {
+                "title": "Test-Time Training on Graphs with Large Language Models (LLMs)",
+                "link": "https://arxiv.org/abs/2404.13571",
+                "snippet": "In this paper, we design a novel Test-Time Training pipeline, LLMTTT, which conducts the test-time adaptation under the annotations by LLMs on a carefully- ...",
+                "date": "Apr 21, 2024",
+                "position": 2
+              },
+              {
+                "title": "Learning to (Learn at Test Time): RNNs with Expressive Hidden States",
+                "link": "https://arxiv.org/abs/2407.04620",
+                "snippet": "We present a practical framework for instantiating sequence modeling layers with linear complexity and expressive hidden states. The key idea is to make the ...",
+                "date": "Jul 5, 2024",
+                "position": 3
+              },
+              {
+                "title": "Test-Time Training on Nearest Neighbors for Large Language Models",
+                "link": "https://arxiv.org/abs/2305.18466",
+                "snippet": "test-time training with nearest neighbors significantly narrows the performance gap between a small GPT-2 and a GPT-Neo model more than 10 times larger. Our ...",
+                "date": "May 29, 2023",
+                "position": 4
+              },
+              {
+                "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+                "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+                "snippet": "In order to enable sequential prompting in LLMs, this work proposes sequential instruction tuning (SIT), where LLMs are explicitly fine-tuned on instructions ...",
+                "date": "Mar 12, 2024",
+                "position": 5
+              },
+              {
+                "title": "LLM Dataset Inference Did you train on my dataset? - arXiv",
+                "link": "https://arxiv.org/html/2406.06443v1",
+                "snippet": "Our research demonstrates that LLM dataset inference is effective in minimizing false positives and detecting even minute differences between training and test ...",
+                "date": "Jun 10, 2024",
+                "position": 6
+              },
+              {
+                "title": "Test of Time: A Benchmark for Evaluating LLMs on Temporal ... - arXiv",
+                "link": "https://arxiv.org/html/2406.09170v1",
+                "snippet": "Much research focuses on enhancing LLMs' understanding of temporal concepts, primarily through pre-training and fine-tuning strategies to improve their temporal ...",
+                "date": "Jun 13, 2024",
+                "position": 7
+              },
+              {
+                "title": ": Automatic “Differentiation” via Text - arXiv",
+                "link": "https://arxiv.org/html/2406.07496v1",
+                "snippet": "At each iteration, the LLM is prompted with the question, current solution, and some test-time instruction asking to critique or investigate the current ...",
+                "date": "Jun 11, 2024",
+                "position": 8
+              },
+              {
+                "title": "[PDF] Test-Time Training on Graphs with Large Language Models (LLMs)",
+                "link": "https://arxiv.org/pdf/2404.13571?",
+                "snippet": "In this section, we will introduces the novel LLM-based fully test- time training framework ( LLMTTT ) for the graph OOD problem. We first delineate the ...",
+                "date": "Apr 21, 2024",
+                "position": 9
+              },
+              {
+                "title": "Can Large Language Models Reason and Plan? - arXiv",
+                "link": "https://arxiv.org/html/2403.04121v2",
+                "snippet": "Nothing in the training and use of LLMs would seem to suggest remotely that they can do any type of principled reasoning (which, as we know, often involves ...",
+                "date": "Mar 8, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:31.679251+00:00",
+          "elapsed_seconds": 1.034115169197321
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2305.18466",
+        "2403.04121",
+        "2403.07794",
+        "2404.13571",
+        "2406.06443",
+        "2406.07496",
+        "2406.09170",
+        "2407.04620",
+        "2408.03314"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2408.03314",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2408.03314",
+          "title": "Scaling LLM Test-Time Compute Optimally can be More Effective ...",
+          "snippet": "In this paper, we study the scaling of inference-time computation in LLMs, In this work, we analyze two primary mechanisms to scale test-time computation: (1) ..."
+        },
+        {
+          "arxiv_id": "2404.13571",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2404.13571",
+          "title": "Test-Time Training on Graphs with Large Language Models (LLMs)",
+          "snippet": "In this paper, we design a novel Test-Time Training pipeline, LLMTTT, which conducts the test-time adaptation under the annotations by LLMs on a carefully- ..."
+        },
+        {
+          "arxiv_id": "2407.04620",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2407.04620",
+          "title": "Learning to (Learn at Test Time): RNNs with Expressive Hidden States",
+          "snippet": "We present a practical framework for instantiating sequence modeling layers with linear complexity and expressive hidden states. The key idea is to make the ..."
+        },
+        {
+          "arxiv_id": "2305.18466",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2305.18466",
+          "title": "Test-Time Training on Nearest Neighbors for Large Language Models",
+          "snippet": "test-time training with nearest neighbors significantly narrows the performance gap between a small GPT-2 and a GPT-Neo model more than 10 times larger. Our ..."
+        },
+        {
+          "arxiv_id": "2403.07794",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+          "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+          "snippet": "In order to enable sequential prompting in LLMs, this work proposes sequential instruction tuning (SIT), where LLMs are explicitly fine-tuned on instructions ..."
+        },
+        {
+          "arxiv_id": "2406.06443",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2406.06443v1",
+          "title": "LLM Dataset Inference Did you train on my dataset? - arXiv",
+          "snippet": "Our research demonstrates that LLM dataset inference is effective in minimizing false positives and detecting even minute differences between training and test ..."
+        },
+        {
+          "arxiv_id": "2406.09170",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2406.09170v1",
+          "title": "Test of Time: A Benchmark for Evaluating LLMs on Temporal ... - arXiv",
+          "snippet": "Much research focuses on enhancing LLMs' understanding of temporal concepts, primarily through pre-training and fine-tuning strategies to improve their temporal ..."
+        },
+        {
+          "arxiv_id": "2406.07496",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2406.07496v1",
+          "title": ": Automatic “Differentiation” via Text - arXiv",
+          "snippet": "At each iteration, the LLM is prompted with the question, current solution, and some test-time instruction asking to critique or investigate the current ..."
+        },
+        {
+          "arxiv_id": "2404.13571",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2404.13571?",
+          "title": "[PDF] Test-Time Training on Graphs with Large Language Models (LLMs)",
+          "snippet": "In this section, we will introduces the novel LLM-based fully test- time training framework ( LLMTTT ) for the graph OOD problem. We first delineate the ..."
+        },
+        {
+          "arxiv_id": "2403.04121",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2403.04121v2",
+          "title": "Can Large Language Models Reason and Plan? - arXiv",
+          "snippet": "Nothing in the training and use of LLMs would seem to suggest remotely that they can do any type of principled reasoning (which, as we know, often involves ..."
+        }
+      ],
+      "request_payload": {
+        "q": "LLM research on test time training before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Online learning techniques for test-time training in large language models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 184,
+          "query_id": "Q30",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Online learning techniques for test-time training in large language models",
+          "request_payload": {
+            "q": "Online learning techniques for test-time training in large language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q30_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:28:31.858610+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Online learning techniques for test-time training in large language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Online Training of Large Language Models: Learn while Chatting\",\"link\":\"https://arxiv.org/html/2403.04790v1\",\"snippet\":\"There are two typical ways for incremental learning: offline incremental training and online in-context learning. Offline incremental training in language ...\",\"date\":\"Mar 4, 2024\",\"position\":1},{\"title\":\"Scaling LLM Test-Time Compute Optimally can be More Effective ...\",\"link\":\"https://arxiv.org/html/2408.03314v1\",\"snippet\":\"In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) ...\",\"date\":\"Aug 6, 2024\",\"position\":2},{\"title\":\"Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv\",\"link\":\"https://arxiv.org/html/2406.14833v2\",\"snippet\":\"Abstract. Continual pre-training has increasingly become the predominant approach for adapting Large Language Models (LLMs) to new domains.\",\"date\":\"Jun 27, 2024\",\"position\":3},{\"title\":\"[PDF] Test-Time Training on Graphs with Large Language Models (LLMs)\",\"link\":\"https://arxiv.org/pdf/2404.13571?\",\"snippet\":\"LLMTTT proposes a two-step hybrid active node selection method. It consists of uncertainty-based active learning to leverage the important signals from the pre ...\",\"date\":\"Apr 21, 2024\",\"position\":4},{\"title\":\"Fine-Tuning Large Language Models with Sequential Instructions\",\"link\":\"https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com\",\"snippet\":\"SIT models trained solely on one intermediate task can follow both Repeat and Paraphrase instructions during test time.\",\"date\":\"Mar 12, 2024\",\"position\":5},{\"title\":\"Scaling LLM Test-Time Compute Optimally can be More Effective ...\",\"link\":\"https://arxiv.org/abs/2408.03314\",\"snippet\":\"In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) ...\",\"date\":\"Aug 6, 2024\",\"position\":6},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.\",\"date\":\"Jan 27, 2022\",\"position\":7},{\"title\":\"Efficient Test-Time Adaptation of Vision-Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2403.18293v1\",\"snippet\":\"We design TDA, a training-free dynamic adapter that enables effective and efficient test-time adaptation with vision-language models.\",\"date\":\"Mar 27, 2024\",\"sitelinks\":[{\"title\":\"3 Method\",\"link\":\"https://arxiv.org/html/2403.18293v1#:~:text=.-,3%20Method\"},{\"title\":\"3.2 Training-Free Dynamic...\",\"link\":\"https://arxiv.org/html/2403.18293v1#:~:text=3.2%20Training%2Dfree%20Dynamic%20Adapter,-During%20testing%2C%20pre%2Dtrained%20vision\"},{\"title\":\"4 Experiments\",\"link\":\"https://arxiv.org/html/2403.18293v1#:~:text=.-,4%20Experiments\"}],\"position\":8},{\"title\":\"Algorithm Evolution Using Large Language Model - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2311.15249\",\"snippet\":\"In this paper, we propose a novel approach called Algorithm Evolution using Large Language Model (AEL). It utilizes a large language model (LLM) to ...\",\"date\":\"Nov 27, 2023\",\"sitelinks\":[{\"title\":\"I Introduction\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=I%20Introduction\"},{\"title\":\"Iv-B Experiments\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=IV%2DB%20Experiments\"},{\"title\":\"Iv-B2 Experimental Results\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=IV%2DB2%20Experimental%20Results\"}],\"position\":9},{\"title\":\"Federated Learning: Challenges, Methods, and Future Directions\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1908.07873\",\"snippet\":\"Federated learning involves training statistical models over remote devices or siloed data centers, such as mobile phones or hospitals, while keeping data ...\",\"date\":\"Aug 21, 2019\",\"sitelinks\":[{\"title\":\"1 Introduction\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1908.07873#:~:text=1%20Introduction\"},{\"title\":\"2 Survey Of Related And...\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1908.07873#:~:text=2%20Survey%20of%20Related%20and%20Current%20Work\"},{\"title\":\"3 Future Directions\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1908.07873#:~:text=3%20Future%20Directions\"}],\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJPbmxpbmUgbGVhcm5pbmcgdGVjaG5pcXVlcyBmb3IgdGVzdC10aW1lIHRyYWluaW5nIGluIGxhcmdlIGxhbmd1YWdlIG1vZGVscyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJPbmxpbmUgVHJhaW5pbmcgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzOiBMZWFybiB3aGlsZSBDaGF0dGluZyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMDQ3OTB2MSIsInNuaXBwZXQiOiJUaGVyZSBhcmUgdHdvIHR5cGljYWwgd2F5cyBmb3IgaW5jcmVtZW50YWwgbGVhcm5pbmc6IG9mZmxpbmUgaW5jcmVtZW50YWwgdHJhaW5pbmcgYW5kIG9ubGluZSBpbi1jb250ZXh0IGxlYXJuaW5nLiBPZmZsaW5lIGluY3JlbWVudGFsIHRyYWluaW5nIGluIGxhbmd1YWdlIC4uLiIsImRhdGUiOiJNYXIgNCwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiU2NhbGluZyBMTE0gVGVzdC1UaW1lIENvbXB1dGUgT3B0aW1hbGx5IGNhbiBiZSBNb3JlIEVmZmVjdGl2ZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjAzMzE0djEiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBhbmFseXplIHR3byBwcmltYXJ5IG1lY2hhbmlzbXMgdG8gc2NhbGUgdGVzdC10aW1lIGNvbXB1dGF0aW9uOiAoMSkgc2VhcmNoaW5nIGFnYWluc3QgZGVuc2UsIHByb2Nlc3MtYmFzZWQgdmVyaWZpZXIgcmV3YXJkIG1vZGVsczsgYW5kICgyKSAuLi4iLCJkYXRlIjoiQXVnIDYsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkVmZmljaWVudCBDb250aW51YWwgUHJlLXRyYWluaW5nIGJ5IE1pdGlnYXRpbmcgdGhlIFN0YWJpbGl0eSBHYXAgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTQ4MzN2MiIsInNuaXBwZXQiOiJBYnN0cmFjdC4gQ29udGludWFsIHByZS10cmFpbmluZyBoYXMgaW5jcmVhc2luZ2x5IGJlY29tZSB0aGUgcHJlZG9taW5hbnQgYXBwcm9hY2ggZm9yIGFkYXB0aW5nIExhcmdlIExhbmd1YWdlIE1vZGVscyAoTExNcykgdG8gbmV3IGRvbWFpbnMuIiwiZGF0ZSI6Ikp1biAyNywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gVGVzdC1UaW1lIFRyYWluaW5nIG9uIEdyYXBocyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVscyAoTExNcykiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDQuMTM1NzE/Iiwic25pcHBldCI6IkxMTVRUVCBwcm9wb3NlcyBhIHR3by1zdGVwIGh5YnJpZCBhY3RpdmUgbm9kZSBzZWxlY3Rpb24gbWV0aG9kLiBJdCBjb25zaXN0cyBvZiB1bmNlcnRhaW50eS1iYXNlZCBhY3RpdmUgbGVhcm5pbmcgdG8gbGV2ZXJhZ2UgdGhlIGltcG9ydGFudCBzaWduYWxzIGZyb20gdGhlIHByZSAuLi4iLCJkYXRlIjoiQXByIDIxLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJGaW5lLVR1bmluZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgd2l0aCBTZXF1ZW50aWFsIEluc3RydWN0aW9ucyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMDc3OTR2MT9yZWY9YmxvZy5wcm9tcHRsYXllci5jb20iLCJzbmlwcGV0IjoiU0lUIG1vZGVscyB0cmFpbmVkIHNvbGVseSBvbiBvbmUgaW50ZXJtZWRpYXRlIHRhc2sgY2FuIGZvbGxvdyBib3RoIFJlcGVhdCBhbmQgUGFyYXBocmFzZSBpbnN0cnVjdGlvbnMgZHVyaW5nIHRlc3QgdGltZS4iLCJkYXRlIjoiTWFyIDEyLCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJTY2FsaW5nIExMTSBUZXN0LVRpbWUgQ29tcHV0ZSBPcHRpbWFsbHkgY2FuIGJlIE1vcmUgRWZmZWN0aXZlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwOC4wMzMxNCIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIGFuYWx5emUgdHdvIHByaW1hcnkgbWVjaGFuaXNtcyB0byBzY2FsZSB0ZXN0LXRpbWUgY29tcHV0YXRpb246ICgxKSBzZWFyY2hpbmcgYWdhaW5zdCBkZW5zZSwgcHJvY2Vzcy1iYXNlZCB2ZXJpZmllciByZXdhcmQgbW9kZWxzOyBhbmQgKDIpIC4uLiIsImRhdGUiOiJBdWcgNiwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiVHJhaW5pbmcgbGFuZ3VhZ2UgbW9kZWxzIHRvIGZvbGxvdyBpbnN0cnVjdGlvbnMgd2l0aCBodW1hbiBmZWVkYmFjayIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjIwMy4wMjE1NSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBzaG93IGFuIGF2ZW51ZSBmb3IgYWxpZ25pbmcgbGFuZ3VhZ2UgbW9kZWxzIHdpdGggdXNlciBpbnRlbnQgb24gYSB3aWRlIHJhbmdlIG9mIHRhc2tzIGJ5IGZpbmUtdHVuaW5nIHdpdGggaHVtYW4gZmVlZGJhY2suIiwiZGF0ZSI6IkphbiAyNywgMjAyMiIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiRWZmaWNpZW50IFRlc3QtVGltZSBBZGFwdGF0aW9uIG9mIFZpc2lvbi1MYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMTgyOTN2MSIsInNuaXBwZXQiOiJXZSBkZXNpZ24gVERBLCBhIHRyYWluaW5nLWZyZWUgZHluYW1pYyBhZGFwdGVyIHRoYXQgZW5hYmxlcyBlZmZlY3RpdmUgYW5kIGVmZmljaWVudCB0ZXN0LXRpbWUgYWRhcHRhdGlvbiB3aXRoIHZpc2lvbi1sYW5ndWFnZSBtb2RlbHMuIiwiZGF0ZSI6Ik1hciAyNywgMjAyNCIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiIzIE1ldGhvZCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMTgyOTN2MSM6fjp0ZXh0PS4tLDMlMjBNZXRob2QifSx7InRpdGxlIjoiMy4yIFRyYWluaW5nLUZyZWUgRHluYW1pYy4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMTgyOTN2MSM6fjp0ZXh0PTMuMiUyMFRyYWluaW5nJTJEZnJlZSUyMER5bmFtaWMlMjBBZGFwdGVyLC1EdXJpbmclMjB0ZXN0aW5nJTJDJTIwcHJlJTJEdHJhaW5lZCUyMHZpc2lvbiJ9LHsidGl0bGUiOiI0IEV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xODI5M3YxIzp+OnRleHQ9Li0sNCUyMEV4cGVyaW1lbnRzIn1dLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkFsZ29yaXRobSBFdm9sdXRpb24gVXNpbmcgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWwgLSBhcjVpdiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjMxMS4xNTI0OSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIGEgbm92ZWwgYXBwcm9hY2ggY2FsbGVkIEFsZ29yaXRobSBFdm9sdXRpb24gdXNpbmcgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWwgKEFFTCkuIEl0IHV0aWxpemVzIGEgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWwgKExMTSkgdG8gLi4uIiwiZGF0ZSI6Ik5vdiAyNywgMjAyMyIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiJJIEludHJvZHVjdGlvbiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjMxMS4xNTI0OSM6fjp0ZXh0PUklMjBJbnRyb2R1Y3Rpb24ifSx7InRpdGxlIjoiSXYtQiBFeHBlcmltZW50cyIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjMxMS4xNTI0OSM6fjp0ZXh0PUlWJTJEQiUyMEV4cGVyaW1lbnRzIn0seyJ0aXRsZSI6Ikl2LUIyIEV4cGVyaW1lbnRhbCBSZXN1bHRzIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMzExLjE1MjQ5Izp+OnRleHQ9SVYlMkRCMiUyMEV4cGVyaW1lbnRhbCUyMFJlc3VsdHMifV0sInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiRmVkZXJhdGVkIExlYXJuaW5nOiBDaGFsbGVuZ2VzLCBNZXRob2RzLCBhbmQgRnV0dXJlIERpcmVjdGlvbnMiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzE5MDguMDc4NzMiLCJzbmlwcGV0IjoiRmVkZXJhdGVkIGxlYXJuaW5nIGludm9sdmVzIHRyYWluaW5nIHN0YXRpc3RpY2FsIG1vZGVscyBvdmVyIHJlbW90ZSBkZXZpY2VzIG9yIHNpbG9lZCBkYXRhIGNlbnRlcnMsIHN1Y2ggYXMgbW9iaWxlIHBob25lcyBvciBob3NwaXRhbHMsIHdoaWxlIGtlZXBpbmcgZGF0YSAuLi4iLCJkYXRlIjoiQXVnIDIxLCAyMDE5Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjEgSW50cm9kdWN0aW9uIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8xOTA4LjA3ODczIzp+OnRleHQ9MSUyMEludHJvZHVjdGlvbiJ9LHsidGl0bGUiOiIyIFN1cnZleSBPZiBSZWxhdGVkIEFuZC4uLiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMTkwOC4wNzg3MyM6fjp0ZXh0PTIlMjBTdXJ2ZXklMjBvZiUyMFJlbGF0ZWQlMjBhbmQlMjBDdXJyZW50JTIwV29yayJ9LHsidGl0bGUiOiIzIEZ1dHVyZSBEaXJlY3Rpb25zIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8xOTA4LjA3ODczIzp+OnRleHQ9MyUyMEZ1dHVyZSUyMERpcmVjdGlvbnMifV0sInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "3d80feb111d10485ea768e718d5ef772391ed45ddf9d2f19c146bbe427294510",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Online learning techniques for test-time training in large language models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Online Training of Large Language Models: Learn while Chatting",
+                "link": "https://arxiv.org/html/2403.04790v1",
+                "snippet": "There are two typical ways for incremental learning: offline incremental training and online in-context learning. Offline incremental training in language ...",
+                "date": "Mar 4, 2024",
+                "position": 1
+              },
+              {
+                "title": "Scaling LLM Test-Time Compute Optimally can be More Effective ...",
+                "link": "https://arxiv.org/html/2408.03314v1",
+                "snippet": "In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) ...",
+                "date": "Aug 6, 2024",
+                "position": 2
+              },
+              {
+                "title": "Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv",
+                "link": "https://arxiv.org/html/2406.14833v2",
+                "snippet": "Abstract. Continual pre-training has increasingly become the predominant approach for adapting Large Language Models (LLMs) to new domains.",
+                "date": "Jun 27, 2024",
+                "position": 3
+              },
+              {
+                "title": "[PDF] Test-Time Training on Graphs with Large Language Models (LLMs)",
+                "link": "https://arxiv.org/pdf/2404.13571?",
+                "snippet": "LLMTTT proposes a two-step hybrid active node selection method. It consists of uncertainty-based active learning to leverage the important signals from the pre ...",
+                "date": "Apr 21, 2024",
+                "position": 4
+              },
+              {
+                "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+                "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+                "snippet": "SIT models trained solely on one intermediate task can follow both Repeat and Paraphrase instructions during test time.",
+                "date": "Mar 12, 2024",
+                "position": 5
+              },
+              {
+                "title": "Scaling LLM Test-Time Compute Optimally can be More Effective ...",
+                "link": "https://arxiv.org/abs/2408.03314",
+                "snippet": "In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) ...",
+                "date": "Aug 6, 2024",
+                "position": 6
+              },
+              {
+                "title": "Training language models to follow instructions with human feedback",
+                "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.",
+                "date": "Jan 27, 2022",
+                "position": 7
+              },
+              {
+                "title": "Efficient Test-Time Adaptation of Vision-Language Models - arXiv",
+                "link": "https://arxiv.org/html/2403.18293v1",
+                "snippet": "We design TDA, a training-free dynamic adapter that enables effective and efficient test-time adaptation with vision-language models.",
+                "date": "Mar 27, 2024",
+                "sitelinks": [
+                  {
+                    "title": "3 Method",
+                    "link": "https://arxiv.org/html/2403.18293v1#:~:text=.-,3%20Method"
+                  },
+                  {
+                    "title": "3.2 Training-Free Dynamic...",
+                    "link": "https://arxiv.org/html/2403.18293v1#:~:text=3.2%20Training%2Dfree%20Dynamic%20Adapter,-During%20testing%2C%20pre%2Dtrained%20vision"
+                  },
+                  {
+                    "title": "4 Experiments",
+                    "link": "https://arxiv.org/html/2403.18293v1#:~:text=.-,4%20Experiments"
+                  }
+                ],
+                "position": 8
+              },
+              {
+                "title": "Algorithm Evolution Using Large Language Model - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2311.15249",
+                "snippet": "In this paper, we propose a novel approach called Algorithm Evolution using Large Language Model (AEL). It utilizes a large language model (LLM) to ...",
+                "date": "Nov 27, 2023",
+                "sitelinks": [
+                  {
+                    "title": "I Introduction",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=I%20Introduction"
+                  },
+                  {
+                    "title": "Iv-B Experiments",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=IV%2DB%20Experiments"
+                  },
+                  {
+                    "title": "Iv-B2 Experimental Results",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=IV%2DB2%20Experimental%20Results"
+                  }
+                ],
+                "position": 9
+              },
+              {
+                "title": "Federated Learning: Challenges, Methods, and Future Directions",
+                "link": "https://ar5iv.labs.arxiv.org/html/1908.07873",
+                "snippet": "Federated learning involves training statistical models over remote devices or siloed data centers, such as mobile phones or hospitals, while keeping data ...",
+                "date": "Aug 21, 2019",
+                "sitelinks": [
+                  {
+                    "title": "1 Introduction",
+                    "link": "https://ar5iv.labs.arxiv.org/html/1908.07873#:~:text=1%20Introduction"
+                  },
+                  {
+                    "title": "2 Survey Of Related And...",
+                    "link": "https://ar5iv.labs.arxiv.org/html/1908.07873#:~:text=2%20Survey%20of%20Related%20and%20Current%20Work"
+                  },
+                  {
+                    "title": "3 Future Directions",
+                    "link": "https://ar5iv.labs.arxiv.org/html/1908.07873#:~:text=3%20Future%20Directions"
+                  }
+                ],
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:33.269476+00:00",
+          "elapsed_seconds": 1.4108622260391712
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1908.07873",
+        "2203.02155",
+        "2311.15249",
+        "2403.04790",
+        "2403.07794",
+        "2403.18293",
+        "2404.13571",
+        "2406.14833",
+        "2408.03314"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.04790",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2403.04790v1",
+          "title": "Online Training of Large Language Models: Learn while Chatting",
+          "snippet": "There are two typical ways for incremental learning: offline incremental training and online in-context learning. Offline incremental training in language ..."
+        },
+        {
+          "arxiv_id": "2408.03314",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2408.03314v1",
+          "title": "Scaling LLM Test-Time Compute Optimally can be More Effective ...",
+          "snippet": "In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) ..."
+        },
+        {
+          "arxiv_id": "2406.14833",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2406.14833v2",
+          "title": "Efficient Continual Pre-training by Mitigating the Stability Gap - arXiv",
+          "snippet": "Abstract. Continual pre-training has increasingly become the predominant approach for adapting Large Language Models (LLMs) to new domains."
+        },
+        {
+          "arxiv_id": "2404.13571",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2404.13571?",
+          "title": "[PDF] Test-Time Training on Graphs with Large Language Models (LLMs)",
+          "snippet": "LLMTTT proposes a two-step hybrid active node selection method. It consists of uncertainty-based active learning to leverage the important signals from the pre ..."
+        },
+        {
+          "arxiv_id": "2403.07794",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+          "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+          "snippet": "SIT models trained solely on one intermediate task can follow both Repeat and Paraphrase instructions during test time."
+        },
+        {
+          "arxiv_id": "2408.03314",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/abs/2408.03314",
+          "title": "Scaling LLM Test-Time Compute Optimally can be More Effective ...",
+          "snippet": "In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) ..."
+        },
+        {
+          "arxiv_id": "2203.02155",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+          "title": "Training language models to follow instructions with human feedback",
+          "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback."
+        },
+        {
+          "arxiv_id": "2403.18293",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2403.18293v1",
+          "title": "Efficient Test-Time Adaptation of Vision-Language Models - arXiv",
+          "snippet": "We design TDA, a training-free dynamic adapter that enables effective and efficient test-time adaptation with vision-language models."
+        },
+        {
+          "arxiv_id": "2311.15249",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://ar5iv.labs.arxiv.org/html/2311.15249",
+          "title": "Algorithm Evolution Using Large Language Model - ar5iv",
+          "snippet": "In this paper, we propose a novel approach called Algorithm Evolution using Large Language Model (AEL). It utilizes a large language model (LLM) to ..."
+        },
+        {
+          "arxiv_id": "1908.07873",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://ar5iv.labs.arxiv.org/html/1908.07873",
+          "title": "Federated Learning: Challenges, Methods, and Future Directions",
+          "snippet": "Federated learning involves training statistical models over remote devices or siloed data centers, such as mobile phones or hospitals, while keeping data ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Online learning techniques for test-time training in large language models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "I would like to find some research papers about test time training topic, in LLM research area.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 185,
+          "query_id": "Q30",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "I would like to find some research papers about test time training topic, in LLM research area.",
+          "request_payload": {
+            "q": "I would like to find some research papers about test time training topic, in LLM research area. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q30_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:28:33.450743+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"I would like to find some research papers about test time training topic, in LLM research area. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Understanding LLMs: A Comprehensive Overview from Training to ...\",\"link\":\"https://arxiv.org/html/2401.02038v1\",\"snippet\":\"This will include an introduction to the relevant training datasets, data preparation and preprocessing, model architecture, specific training methodologies, ...\",\"date\":\"Jan 4, 2024\",\"position\":1},{\"title\":\"Mapping the Increasing Use of LLMs in Scientific Papers - arXiv\",\"link\":\"https://arxiv.org/html/2404.01268v1\",\"snippet\":\"Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%).\",\"date\":\"Apr 1, 2024\",\"position\":2},{\"title\":\"Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...\",\"link\":\"https://arxiv.org/html/2409.04109v1\",\"snippet\":\"We design a carefully controlled comparison of human and LLM ideas ・ our topics include: Bias, Coding, Safety, Multilinguality, Factuality, Math, and ...\",\"date\":\"Sep 6, 2024\",\"position\":3},{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"In this paper, we review some of the most prominent LLMs, including three popular LLM families. This paper gives a timely survey of the recent advances on LLMs ...\",\"date\":\"Feb 20, 2024\",\"position\":4},{\"title\":\"Automating Thematic Analysis: How LLMs Analyse Controversial ...\",\"link\":\"https://arxiv.org/html/2405.06919v1\",\"snippet\":\"This paper presents a pilot experiment that explores how LLMs can support thematic analysis Introduction Report issue for preceding element\",\"date\":\"May 14, 2024\",\"position\":5},{\"title\":\"An Empirical Study of Unit Test Generation with Large Language ...\",\"link\":\"https://arxiv.org/html/2406.18181v1\",\"snippet\":\"We evaluated LLM-based unit test generation from four aspects defined by our research questions, including the influence of prompt design, the influence of ICL ...\",\"date\":\"Jun 26, 2024\",\"position\":6},{\"title\":\"Can Large Language Models Reason and Plan? - arXiv\",\"link\":\"https://arxiv.org/html/2403.04121v2\",\"snippet\":\"My research group wanted to check if the improved performance of GPT4 is because of approximate retrieval from a larger training corpus, or really comes from ...\",\"date\":\"Mar 8, 2024\",\"position\":7},{\"title\":\"Algorithm Evolution Using Large Language Model - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2311.15249\",\"snippet\":\"In this paper, we propose a novel approach called Algorithm Evolution using Large Language Model (AEL). It utilizes a large language model (LLM) to ...\",\"date\":\"Nov 27, 2023\",\"sitelinks\":[{\"title\":\"I Introduction\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=I%20Introduction\"},{\"title\":\"Ii Related Works\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=II%20Related%20Works\"},{\"title\":\"Iv-B Experiments\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=IV%2DB%20Experiments\"}],\"position\":8},{\"title\":\"LLM-Supported Planning, Drafting, and Revising of Research-Paper ...\",\"link\":\"https://arxiv.org/html/2406.10370v1\",\"snippet\":\"For this reason, our technology probe parsed the paper text and generated a paper outline with an LLM in order to support navigating and utilizing the paper.\",\"date\":\"Jun 14, 2024\",\"position\":9},{\"title\":\"What Can Large Language Models Tell Us about Time Series Analysis\",\"link\":\"https://arxiv.org/html/2402.02713v1\",\"snippet\":\"We meticulously examine existing preliminary work and present a clear roadmap, highlighting three potential integration forms of LLMs and time series analysis; ...\",\"date\":\"Feb 5, 2024\",\"sitelinks\":[{\"title\":\"1 Introduction\",\"link\":\"https://arxiv.org/html/2402.02713v1#:~:text=icmlCorrespondence-,1%20Introduction\"},{\"title\":\"2 Background\",\"link\":\"https://arxiv.org/html/2402.02713v1#:~:text=2%20Background,-This%20section%20provides%20an%20overview\"},{\"title\":\"5.3 Exploring Alternative...\",\"link\":\"https://arxiv.org/html/2402.02713v1#:~:text=5.3%20Exploring%20Alternative%20Research%20Avenues,-Addressing%20the%20urgent%20and%20crucial\"}],\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJJIHdvdWxkIGxpa2UgdG8gZmluZCBzb21lIHJlc2VhcmNoIHBhcGVycyBhYm91dCB0ZXN0IHRpbWUgdHJhaW5pbmcgdG9waWMsIGluIExMTSByZXNlYXJjaCBhcmVhLiBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJVbmRlcnN0YW5kaW5nIExMTXM6IEEgQ29tcHJlaGVuc2l2ZSBPdmVydmlldyBmcm9tIFRyYWluaW5nIHRvIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMDIwMzh2MSIsInNuaXBwZXQiOiJUaGlzIHdpbGwgaW5jbHVkZSBhbiBpbnRyb2R1Y3Rpb24gdG8gdGhlIHJlbGV2YW50IHRyYWluaW5nIGRhdGFzZXRzLCBkYXRhIHByZXBhcmF0aW9uIGFuZCBwcmVwcm9jZXNzaW5nLCBtb2RlbCBhcmNoaXRlY3R1cmUsIHNwZWNpZmljIHRyYWluaW5nIG1ldGhvZG9sb2dpZXMsIC4uLiIsImRhdGUiOiJKYW4gNCwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiTWFwcGluZyB0aGUgSW5jcmVhc2luZyBVc2Ugb2YgTExNcyBpbiBTY2llbnRpZmljIFBhcGVycyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4wMTI2OHYxIiwic25pcHBldCI6Ik91ciBmaW5kaW5ncyByZXZlYWwgYSBzdGVhZHkgaW5jcmVhc2UgaW4gTExNIHVzYWdlLCB3aXRoIHRoZSBsYXJnZXN0IGFuZCBmYXN0ZXN0IGdyb3d0aCBvYnNlcnZlZCBpbiBDb21wdXRlciBTY2llbmNlIHBhcGVycyAodXAgdG8gMTcuNSUpLiIsImRhdGUiOiJBcHIgMSwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiQ2FuIExMTXMgR2VuZXJhdGUgTm92ZWwgUmVzZWFyY2ggSWRlYXM/IEEgTGFyZ2UtU2NhbGUgSHVtYW4gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOS4wNDEwOXYxIiwic25pcHBldCI6IldlIGRlc2lnbiBhIGNhcmVmdWxseSBjb250cm9sbGVkIGNvbXBhcmlzb24gb2YgaHVtYW4gYW5kIExMTSBpZGVhcyDjg7sgb3VyIHRvcGljcyBpbmNsdWRlOiBCaWFzLCBDb2RpbmcsIFNhZmV0eSwgTXVsdGlsaW5ndWFsaXR5LCBGYWN0dWFsaXR5LCBNYXRoLCBhbmQgLi4uIiwiZGF0ZSI6IlNlcCA2LCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJMYXJnZSBMYW5ndWFnZSBNb2RlbHM6IEEgU3VydmV5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjA2MTk2djIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgcmV2aWV3IHNvbWUgb2YgdGhlIG1vc3QgcHJvbWluZW50IExMTXMsIGluY2x1ZGluZyB0aHJlZSBwb3B1bGFyIExMTSBmYW1pbGllcy4gVGhpcyBwYXBlciBnaXZlcyBhIHRpbWVseSBzdXJ2ZXkgb2YgdGhlIHJlY2VudCBhZHZhbmNlcyBvbiBMTE1zIC4uLiIsImRhdGUiOiJGZWIgMjAsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkF1dG9tYXRpbmcgVGhlbWF0aWMgQW5hbHlzaXM6IEhvdyBMTE1zIEFuYWx5c2UgQ29udHJvdmVyc2lhbCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjA2OTE5djEiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBwcmVzZW50cyBhIHBpbG90IGV4cGVyaW1lbnQgdGhhdCBleHBsb3JlcyBob3cgTExNcyBjYW4gc3VwcG9ydCB0aGVtYXRpYyBhbmFseXNpcyBJbnRyb2R1Y3Rpb24gUmVwb3J0IGlzc3VlIGZvciBwcmVjZWRpbmcgZWxlbWVudCIsImRhdGUiOiJNYXkgMTQsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkFuIEVtcGlyaWNhbCBTdHVkeSBvZiBVbml0IFRlc3QgR2VuZXJhdGlvbiB3aXRoIExhcmdlIExhbmd1YWdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTgxODF2MSIsInNuaXBwZXQiOiJXZSBldmFsdWF0ZWQgTExNLWJhc2VkIHVuaXQgdGVzdCBnZW5lcmF0aW9uIGZyb20gZm91ciBhc3BlY3RzIGRlZmluZWQgYnkgb3VyIHJlc2VhcmNoIHF1ZXN0aW9ucywgaW5jbHVkaW5nIHRoZSBpbmZsdWVuY2Ugb2YgcHJvbXB0IGRlc2lnbiwgdGhlIGluZmx1ZW5jZSBvZiBJQ0wgLi4uIiwiZGF0ZSI6Ikp1biAyNiwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQ2FuIExhcmdlIExhbmd1YWdlIE1vZGVscyBSZWFzb24gYW5kIFBsYW4/IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjA0MTIxdjIiLCJzbmlwcGV0IjoiTXkgcmVzZWFyY2ggZ3JvdXAgd2FudGVkIHRvIGNoZWNrIGlmIHRoZSBpbXByb3ZlZCBwZXJmb3JtYW5jZSBvZiBHUFQ0IGlzIGJlY2F1c2Ugb2YgYXBwcm94aW1hdGUgcmV0cmlldmFsIGZyb20gYSBsYXJnZXIgdHJhaW5pbmcgY29ycHVzLCBvciByZWFsbHkgY29tZXMgZnJvbSAuLi4iLCJkYXRlIjoiTWFyIDgsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkFsZ29yaXRobSBFdm9sdXRpb24gVXNpbmcgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWwgLSBhcjVpdiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjMxMS4xNTI0OSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIGEgbm92ZWwgYXBwcm9hY2ggY2FsbGVkIEFsZ29yaXRobSBFdm9sdXRpb24gdXNpbmcgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWwgKEFFTCkuIEl0IHV0aWxpemVzIGEgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWwgKExMTSkgdG8gLi4uIiwiZGF0ZSI6Ik5vdiAyNywgMjAyMyIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiJJIEludHJvZHVjdGlvbiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjMxMS4xNTI0OSM6fjp0ZXh0PUklMjBJbnRyb2R1Y3Rpb24ifSx7InRpdGxlIjoiSWkgUmVsYXRlZCBXb3JrcyIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjMxMS4xNTI0OSM6fjp0ZXh0PUlJJTIwUmVsYXRlZCUyMFdvcmtzIn0seyJ0aXRsZSI6Ikl2LUIgRXhwZXJpbWVudHMiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIzMTEuMTUyNDkjOn46dGV4dD1JViUyREIlMjBFeHBlcmltZW50cyJ9XSwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJMTE0tU3VwcG9ydGVkIFBsYW5uaW5nLCBEcmFmdGluZywgYW5kIFJldmlzaW5nIG9mIFJlc2VhcmNoLVBhcGVyIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTAzNzB2MSIsInNuaXBwZXQiOiJGb3IgdGhpcyByZWFzb24sIG91ciB0ZWNobm9sb2d5IHByb2JlIHBhcnNlZCB0aGUgcGFwZXIgdGV4dCBhbmQgZ2VuZXJhdGVkIGEgcGFwZXIgb3V0bGluZSB3aXRoIGFuIExMTSBpbiBvcmRlciB0byBzdXBwb3J0IG5hdmlnYXRpbmcgYW5kIHV0aWxpemluZyB0aGUgcGFwZXIuIiwiZGF0ZSI6Ikp1biAxNCwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiV2hhdCBDYW4gTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIFRlbGwgVXMgYWJvdXQgVGltZSBTZXJpZXMgQW5hbHlzaXMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjAyNzEzdjEiLCJzbmlwcGV0IjoiV2UgbWV0aWN1bG91c2x5IGV4YW1pbmUgZXhpc3RpbmcgcHJlbGltaW5hcnkgd29yayBhbmQgcHJlc2VudCBhIGNsZWFyIHJvYWRtYXAsIGhpZ2hsaWdodGluZyB0aHJlZSBwb3RlbnRpYWwgaW50ZWdyYXRpb24gZm9ybXMgb2YgTExNcyBhbmQgdGltZSBzZXJpZXMgYW5hbHlzaXM7IC4uLiIsImRhdGUiOiJGZWIgNSwgMjAyNCIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiIxIEludHJvZHVjdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDI3MTN2MSM6fjp0ZXh0PWljbWxDb3JyZXNwb25kZW5jZS0sMSUyMEludHJvZHVjdGlvbiJ9LHsidGl0bGUiOiIyIEJhY2tncm91bmQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjAyNzEzdjEjOn46dGV4dD0yJTIwQmFja2dyb3VuZCwtVGhpcyUyMHNlY3Rpb24lMjBwcm92aWRlcyUyMGFuJTIwb3ZlcnZpZXcifSx7InRpdGxlIjoiNS4zIEV4cGxvcmluZyBBbHRlcm5hdGl2ZS4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDI3MTN2MSM6fjp0ZXh0PTUuMyUyMEV4cGxvcmluZyUyMEFsdGVybmF0aXZlJTIwUmVzZWFyY2glMjBBdmVudWVzLC1BZGRyZXNzaW5nJTIwdGhlJTIwdXJnZW50JTIwYW5kJTIwY3J1Y2lhbCJ9XSwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "4a88caed6882552a821962516f10473ec576b219a361cc4e73493459bd936aa1",
+          "structured_response": {
+            "searchParameters": {
+              "q": "I would like to find some research papers about test time training topic, in LLM research area. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Understanding LLMs: A Comprehensive Overview from Training to ...",
+                "link": "https://arxiv.org/html/2401.02038v1",
+                "snippet": "This will include an introduction to the relevant training datasets, data preparation and preprocessing, model architecture, specific training methodologies, ...",
+                "date": "Jan 4, 2024",
+                "position": 1
+              },
+              {
+                "title": "Mapping the Increasing Use of LLMs in Scientific Papers - arXiv",
+                "link": "https://arxiv.org/html/2404.01268v1",
+                "snippet": "Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%).",
+                "date": "Apr 1, 2024",
+                "position": 2
+              },
+              {
+                "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...",
+                "link": "https://arxiv.org/html/2409.04109v1",
+                "snippet": "We design a carefully controlled comparison of human and LLM ideas ・ our topics include: Bias, Coding, Safety, Multilinguality, Factuality, Math, and ...",
+                "date": "Sep 6, 2024",
+                "position": 3
+              },
+              {
+                "title": "Large Language Models: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2402.06196v2",
+                "snippet": "In this paper, we review some of the most prominent LLMs, including three popular LLM families. This paper gives a timely survey of the recent advances on LLMs ...",
+                "date": "Feb 20, 2024",
+                "position": 4
+              },
+              {
+                "title": "Automating Thematic Analysis: How LLMs Analyse Controversial ...",
+                "link": "https://arxiv.org/html/2405.06919v1",
+                "snippet": "This paper presents a pilot experiment that explores how LLMs can support thematic analysis Introduction Report issue for preceding element",
+                "date": "May 14, 2024",
+                "position": 5
+              },
+              {
+                "title": "An Empirical Study of Unit Test Generation with Large Language ...",
+                "link": "https://arxiv.org/html/2406.18181v1",
+                "snippet": "We evaluated LLM-based unit test generation from four aspects defined by our research questions, including the influence of prompt design, the influence of ICL ...",
+                "date": "Jun 26, 2024",
+                "position": 6
+              },
+              {
+                "title": "Can Large Language Models Reason and Plan? - arXiv",
+                "link": "https://arxiv.org/html/2403.04121v2",
+                "snippet": "My research group wanted to check if the improved performance of GPT4 is because of approximate retrieval from a larger training corpus, or really comes from ...",
+                "date": "Mar 8, 2024",
+                "position": 7
+              },
+              {
+                "title": "Algorithm Evolution Using Large Language Model - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2311.15249",
+                "snippet": "In this paper, we propose a novel approach called Algorithm Evolution using Large Language Model (AEL). It utilizes a large language model (LLM) to ...",
+                "date": "Nov 27, 2023",
+                "sitelinks": [
+                  {
+                    "title": "I Introduction",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=I%20Introduction"
+                  },
+                  {
+                    "title": "Ii Related Works",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=II%20Related%20Works"
+                  },
+                  {
+                    "title": "Iv-B Experiments",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=IV%2DB%20Experiments"
+                  }
+                ],
+                "position": 8
+              },
+              {
+                "title": "LLM-Supported Planning, Drafting, and Revising of Research-Paper ...",
+                "link": "https://arxiv.org/html/2406.10370v1",
+                "snippet": "For this reason, our technology probe parsed the paper text and generated a paper outline with an LLM in order to support navigating and utilizing the paper.",
+                "date": "Jun 14, 2024",
+                "position": 9
+              },
+              {
+                "title": "What Can Large Language Models Tell Us about Time Series Analysis",
+                "link": "https://arxiv.org/html/2402.02713v1",
+                "snippet": "We meticulously examine existing preliminary work and present a clear roadmap, highlighting three potential integration forms of LLMs and time series analysis; ...",
+                "date": "Feb 5, 2024",
+                "sitelinks": [
+                  {
+                    "title": "1 Introduction",
+                    "link": "https://arxiv.org/html/2402.02713v1#:~:text=icmlCorrespondence-,1%20Introduction"
+                  },
+                  {
+                    "title": "2 Background",
+                    "link": "https://arxiv.org/html/2402.02713v1#:~:text=2%20Background,-This%20section%20provides%20an%20overview"
+                  },
+                  {
+                    "title": "5.3 Exploring Alternative...",
+                    "link": "https://arxiv.org/html/2402.02713v1#:~:text=5.3%20Exploring%20Alternative%20Research%20Avenues,-Addressing%20the%20urgent%20and%20crucial"
+                  }
+                ],
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:34.811663+00:00",
+          "elapsed_seconds": 1.3609163127839565
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2311.15249",
+        "2401.02038",
+        "2402.02713",
+        "2402.06196",
+        "2403.04121",
+        "2404.01268",
+        "2405.06919",
+        "2406.10370",
+        "2406.18181",
+        "2409.04109"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2401.02038",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2401.02038v1",
+          "title": "Understanding LLMs: A Comprehensive Overview from Training to ...",
+          "snippet": "This will include an introduction to the relevant training datasets, data preparation and preprocessing, model architecture, specific training methodologies, ..."
+        },
+        {
+          "arxiv_id": "2404.01268",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2404.01268v1",
+          "title": "Mapping the Increasing Use of LLMs in Scientific Papers - arXiv",
+          "snippet": "Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%)."
+        },
+        {
+          "arxiv_id": "2409.04109",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2409.04109v1",
+          "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...",
+          "snippet": "We design a carefully controlled comparison of human and LLM ideas ・ our topics include: Bias, Coding, Safety, Multilinguality, Factuality, Math, and ..."
+        },
+        {
+          "arxiv_id": "2402.06196",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2402.06196v2",
+          "title": "Large Language Models: A Survey - arXiv",
+          "snippet": "In this paper, we review some of the most prominent LLMs, including three popular LLM families. This paper gives a timely survey of the recent advances on LLMs ..."
+        },
+        {
+          "arxiv_id": "2405.06919",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2405.06919v1",
+          "title": "Automating Thematic Analysis: How LLMs Analyse Controversial ...",
+          "snippet": "This paper presents a pilot experiment that explores how LLMs can support thematic analysis Introduction Report issue for preceding element"
+        },
+        {
+          "arxiv_id": "2406.18181",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2406.18181v1",
+          "title": "An Empirical Study of Unit Test Generation with Large Language ...",
+          "snippet": "We evaluated LLM-based unit test generation from four aspects defined by our research questions, including the influence of prompt design, the influence of ICL ..."
+        },
+        {
+          "arxiv_id": "2403.04121",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2403.04121v2",
+          "title": "Can Large Language Models Reason and Plan? - arXiv",
+          "snippet": "My research group wanted to check if the improved performance of GPT4 is because of approximate retrieval from a larger training corpus, or really comes from ..."
+        },
+        {
+          "arxiv_id": "2311.15249",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://ar5iv.labs.arxiv.org/html/2311.15249",
+          "title": "Algorithm Evolution Using Large Language Model - ar5iv",
+          "snippet": "In this paper, we propose a novel approach called Algorithm Evolution using Large Language Model (AEL). It utilizes a large language model (LLM) to ..."
+        },
+        {
+          "arxiv_id": "2406.10370",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2406.10370v1",
+          "title": "LLM-Supported Planning, Drafting, and Revising of Research-Paper ...",
+          "snippet": "For this reason, our technology probe parsed the paper text and generated a paper outline with an LLM in order to support navigating and utilizing the paper."
+        },
+        {
+          "arxiv_id": "2402.02713",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2402.02713v1",
+          "title": "What Can Large Language Models Tell Us about Time Series Analysis",
+          "snippet": "We meticulously examine existing preliminary work and present a clear roadmap, highlighting three potential integration forms of LLMs and time series analysis; ..."
+        }
+      ],
+      "request_payload": {
+        "q": "I would like to find some research papers about test time training topic, in LLM research area. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "anchor"
+  ]
+}

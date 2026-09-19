@@ -1,0 +1,199 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 25,
+  "question_id": "Q31",
+  "group": "inline-citation",
+  "native_query_index": 3,
+  "native_query": "Research on structured dataset for table-to-text model training",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "2007.02871",
+  "page": 3,
+  "payload": {
+    "q": "Research on structured dataset for table-to-text model training before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 3
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 25,
+  "started_utc": "2026-09-17T12:44:43.891121+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648805",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "95001d09963a16002140f19c78dceb5c",
+    "date": "Thu, 17 Sep 2026 12:40:05 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3400",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3400,
+  "response_bytes_sha256": "83397749f1c313c811e14fbbecab00bd1879c4067f74a214340db6d1935c6a56",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZXNlYXJjaCBvbiBzdHJ1Y3R1cmVkIGRhdGFzZXQgZm9yIHRhYmxlLXRvLXRleHQgbW9kZWwgdHJhaW5pbmcgYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MywiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiSG93LXRvIFVzZSBTdHJ1Y3R1cmVkIERhdGEgTWFya3VwIEhlbHBlciAtIEJhc2ljcyAtIFlvdVR1YmUiLCJsaW5rIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1LMElpWjVoUkowayIsInNuaXBwZXQiOiJIb3ctdG8gVXNlIFN0cnVjdHVyZWQgLi4uIFRoZSBTdHJ1Y3R1cmVkIERhdGEgTWFya3VwIEhlbHBlciBoZWxwcyB5b3UgbWFyayB1cCBlbGVtZW50cyBvbiB5b3VyIHdlYiBwYWdlIHNvIHRoYXQgR29vZ2xlIGNhbiB1bmRlcnN0YW5kIHRoZSBkYXRhIG9uIHRoZSBwYWdlLiIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiU3RydWN0dXJlZCBBcHAgUmV2aWV3OiBCZXN0IGZvciBDYWxlbmRhciAmIFRhc2tzPyAtIFlvdVR1YmUiLCJsaW5rIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1KUUcxN0FxVXk0NCIsInNuaXBwZXQiOiIuLi4gc3RydWN0dXJlZCBTdHJ1Y3R1cmVkIFJldmlldzogaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1vT2pDWm80V3E5RSDij7AgVElNRSBTVEFNUFMgMDA6MDAgLSBJbnRyb2R1Y3Rpb24gMDA6NDAgLSBIYXRpbmcgR2VuLUFJIDAxOjIwIC0gSG93IGl0IFdvcmtzIC4uLiIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiV2hhdCBhcmUgU3RydWN0dXJlZCBQcm9kdWN0cz8gLSBZb3VUdWJlIiwibGluayI6Imh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Y0xMVnlSRzd2bUkiLCJzbmlwcGV0IjoiVG9kYXkgd2Ugd2lsbCBsZWFybiB3aGF0IHN0cnVjdHVyZWQgcHJvZHVjdHMgYXJlLiBUaGVzZSBjbGFzc2VzIGFyZSBhbGwgYmFzZWQgb24gdGhlIGJvb2sgVHJhZGluZyBhbmQgUHJpY2luZyBGaW5hbmNpYWwgRGVyaXZhdGl2ZXMsIGF2YWlsYWJsZSBvbiBBbWF6b24gYXQgLi4uIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJXb3JrcGxhY2UtYmFzZWQgY29udGludW91cyBnbHVjb3NlIG1vbml0b3Jpbmcgd2l0aCBzdHJ1Y3R1cmVkIC4uLiIsImxpbmsiOiJodHRwczovL3B1Ym1lZC5uY2JpLm5sbS5uaWguZ292LzQwMDQxOTc0LyIsInNuaXBwZXQiOiJBaW1zOiBXZSBpbnZlc3RpZ2F0ZWQgdGhlIGVmZmVjdCBvZiBjb250aW51b3VzIGdsdWNvc2UgbW9uaXRvcmluZyAoQ0dNKSB3aXRoIHBlcnNvbmFsaXNlZCBzdHJ1Y3R1cmVkIGVkdWNhdGlvbiBvbiBwYXRpZW50cyB3aXRoIHR5cGUgMiBkaWFiZXRlcyAoVDJEKSBhbmQgcHJlLSAuLi4iLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlRoZSAnd2hlbiB3b3VsZCB5b3UgdXNlIGEgc3RydWN0dXJlZCBkYiBhbmQgd2hlbiBhbiB1bnN0cnVjdHVyZWQgLi4uIiwibGluayI6Imh0dHBzOi8vd3d3LnJlZGRpdC5jb20vci9EYXRhYmFzZS9jb21tZW50cy8xMGpjaXByL3RoZV93aGVuX3dvdWxkX3lvdV91c2VfYV9zdHJ1Y3R1cmVkX2RiX2FuZF93aGVuLyIsInNuaXBwZXQiOiJOb3cgSSBhbHdheXMgdGhvdWdodCB0aGUgYW5zd2VyIHdhcyB1c2Ugc3RydWN0dXJlZCB3aGVuIHlvdSBrbm93IHRoZSBzY2hlbWEgb2YgeW91ciBkYXRhIGFuZCBpdHMgbm90IGxpa2VseSB0byBjaGFuZ2UsIGFuZCB1c2UgdW5zdHJ1Y3R1cmVkIHdoZW4gdGhlc2UgYXJlIC4uLiIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoidXNlIG9mIGEgc3RydWN0dXJlZCBpbnRlcnZpZXcgdG8gYXNzaWduIGdyYWRlcyBvbiB0aGUgbW9kaWZpZWQgLi4uIiwibGluayI6Imh0dHBzOi8vcHVibWVkLm5jYmkubmxtLm5paC5nb3YvMTIyMTU1OTQvIiwic25pcHBldCI6IlRoZSBwdXJwb3NlIG9mIHRoZSBwcmVzZW50IHN0dWR5IHdhcyB0byBjb21wYXJlIGNvbnZlbnRpb25hbCBhc3Nlc3NtZW50IG9uIHRoZSBtb2RpZmllZCBSYW5raW4gU2NhbGUgd2l0aCBhc3Nlc3NtZW50IHRocm91Z2ggYSBzdHJ1Y3R1cmVkIGludGVydmlldy4gTWV0aG9kczogLi4uIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJ0aGUgc3RydWN0dXJlZCBkYXlzIGh5cG90aGVzaXMgLSBQdWJNZWQgLSBOSUgiLCJsaW5rIjoiaHR0cHM6Ly9wdWJtZWQubmNiaS5ubG0ubmloLmdvdi8yODc0NzE4Ni8iLCJzbmlwcGV0IjoiVGhlIGF1dGhvcnMgaHlwb3RoZXNpemUgdGhhdCBvYmVzb2dlbmljIGJlaGF2aW9ycyBhcmUgYmVuZWZpY2lhbGx5IHJlZ3VsYXRlZCB3aGVuIGNoaWxkcmVuIGFyZSBleHBvc2VkIHRvIGEgc3RydWN0dXJlZCBkYXkgKGkuZS4sIHNjaG9vbCB3ZWVrZGF5KSBjb21wYXJlZCB0byAuLi4iLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlN0cnVjdHVyZWQgT3V0cHV0IGluIExhbmdDaGFpbiB8IFZpZGVvIDUgfCBDYW1wdXNYIC0gWW91VHViZSIsImxpbmsiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXk1RW1ScjFPMWg0Iiwic25pcHBldCI6Ii4uLiBzdHJ1Y3R1cmVkIHJlc3BvbnNlcyBsaWtlIEpTT04gaW5zdGVhZCBvZiB1bnN0cnVjdHVyZWQgdGV4dC4gV2hhdCBZb3UnbGwgTGVhcm46IOKckyBEaWZmZXJlbmNlIGJldHdlZW4gc3RydWN0dXJlZCB2cy4gdW5zdHJ1Y3R1cmVkIG91dHB1dCDinJMgSG93IHN0cnVjdHVyZWQgLi4uIiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJXaGF0IGlzIGV2ZXJ5b25lJ3MgdGhvdWdodHMgb24gc3RydWN0dXJlZCBub3Rlcz8gOiByL0NGUCAtIFJlZGRpdCIsImxpbmsiOiJodHRwczovL3d3dy5yZWRkaXQuY29tL3IvQ0ZQL2NvbW1lbnRzLzFqZnlpYXUvd2hhdF9pc19ldmVyeW9uZXNfdGhvdWdodHNfb25fc3RydWN0dXJlZF9ub3Rlcy8iLCJzbmlwcGV0IjoiSSBzYXcgYSBzdGF0IHRoYXQgbWF5YmUgb25seSAxNCUgb2YgaW5kZXBlbmRlbnQgYWR2aXNvcnMgdXRpbGl6ZSBzdHJ1Y3R1cmVkIG5vdGVzLiBXYXMgY3VyaW91cyB0byBrbm93IGhvdyB0aGV5IGFyZSBiZWluZyB1c2VkIGluIGV2ZXJ5b25lJ3MgcHJhY3RpY2UuIEFyY2hpdmVkIC4uLiIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiSG93IHRvIFVzZSBTdHJ1Y3R1cmVkIE91dHB1dHMgaW4gTGFuZ2Zsb3cgLSBZb3VUdWJlIiwibGluayI6Imh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9a2tJcHdCSWZ5Qm8iLCJzbmlwcGV0IjoiTWFzdGVyIHN0cnVjdHVyZWQgb3V0cHV0cyB3aXRoIExhbmdmbG93ISBJbiB0aGlzIHR1dG9yaWFsLCBEZXZlbG9wZXIgUmVsYXRpb25zIEVuZ2luZWVyIERhdmlkIEpvbmVzLUdpbGFyZGkgZGVtb25zdHJhdGVzIGhvdyB0byB1c2UgdGhlIFN0cnVjdHVyZWQgT3V0cHV0IC4uLiIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Research on structured dataset for table-to-text model training before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 3,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "How-to Use Structured Data Markup Helper - Basics - YouTube",
+        "link": "https://www.youtube.com/watch?v=K0IiZ5hRJ0k",
+        "snippet": "How-to Use Structured ... The Structured Data Markup Helper helps you mark up elements on your web page so that Google can understand the data on the page.",
+        "position": 1
+      },
+      {
+        "title": "Structured App Review: Best for Calendar & Tasks? - YouTube",
+        "link": "https://www.youtube.com/watch?v=JQG17AqUy44",
+        "snippet": "... structured Structured Review: https://www.youtube.com/watch?v=oOjCZo4Wq9E ⏰ TIME STAMPS 00:00 - Introduction 00:40 - Hating Gen-AI 01:20 - How it Works ...",
+        "position": 2
+      },
+      {
+        "title": "What are Structured Products? - YouTube",
+        "link": "https://www.youtube.com/watch?v=cLLVyRG7vmI",
+        "snippet": "Today we will learn what structured products are. These classes are all based on the book Trading and Pricing Financial Derivatives, available on Amazon at ...",
+        "position": 3
+      },
+      {
+        "title": "Workplace-based continuous glucose monitoring with structured ...",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/40041974/",
+        "snippet": "Aims: We investigated the effect of continuous glucose monitoring (CGM) with personalised structured education on patients with type 2 diabetes (T2D) and pre- ...",
+        "position": 4
+      },
+      {
+        "title": "The 'when would you use a structured db and when an unstructured ...",
+        "link": "https://www.reddit.com/r/Database/comments/10jcipr/the_when_would_you_use_a_structured_db_and_when/",
+        "snippet": "Now I always thought the answer was use structured when you know the schema of your data and its not likely to change, and use unstructured when these are ...",
+        "position": 5
+      },
+      {
+        "title": "use of a structured interview to assign grades on the modified ...",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/12215594/",
+        "snippet": "The purpose of the present study was to compare conventional assessment on the modified Rankin Scale with assessment through a structured interview. Methods: ...",
+        "position": 6
+      },
+      {
+        "title": "the structured days hypothesis - PubMed - NIH",
+        "link": "https://pubmed.ncbi.nlm.nih.gov/28747186/",
+        "snippet": "The authors hypothesize that obesogenic behaviors are beneficially regulated when children are exposed to a structured day (i.e., school weekday) compared to ...",
+        "position": 7
+      },
+      {
+        "title": "Structured Output in LangChain | Video 5 | CampusX - YouTube",
+        "link": "https://www.youtube.com/watch?v=y5EmRr1O1h4",
+        "snippet": "... structured responses like JSON instead of unstructured text. What You'll Learn: ✓ Difference between structured vs. unstructured output ✓ How structured ...",
+        "position": 8
+      },
+      {
+        "title": "What is everyone's thoughts on structured notes? : r/CFP - Reddit",
+        "link": "https://www.reddit.com/r/CFP/comments/1jfyiau/what_is_everyones_thoughts_on_structured_notes/",
+        "snippet": "I saw a stat that maybe only 14% of independent advisors utilize structured notes. Was curious to know how they are being used in everyone's practice. Archived ...",
+        "position": 9
+      },
+      {
+        "title": "How to Use Structured Outputs in Langflow - YouTube",
+        "link": "https://www.youtube.com/watch?v=kkIpwBIfyBo",
+        "snippet": "Master structured outputs with Langflow! In this tutorial, Developer Relations Engineer David Jones-Gilardi demonstrates how to use the Structured Output ...",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank_on_page": 1,
+      "nominal_rank": 21,
+      "title": "How-to Use Structured Data Markup Helper - Basics - YouTube",
+      "snippet": "How-to Use Structured ... The Structured Data Markup Helper helps you mark up elements on your web page so that Google can understand the data on the page.",
+      "link": "https://www.youtube.com/watch?v=K0IiZ5hRJ0k",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 2,
+      "nominal_rank": 22,
+      "title": "Structured App Review: Best for Calendar & Tasks? - YouTube",
+      "snippet": "... structured Structured Review: https://www.youtube.com/watch?v=oOjCZo4Wq9E ⏰ TIME STAMPS 00:00 - Introduction 00:40 - Hating Gen-AI 01:20 - How it Works ...",
+      "link": "https://www.youtube.com/watch?v=JQG17AqUy44",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 3,
+      "nominal_rank": 23,
+      "title": "What are Structured Products? - YouTube",
+      "snippet": "Today we will learn what structured products are. These classes are all based on the book Trading and Pricing Financial Derivatives, available on Amazon at ...",
+      "link": "https://www.youtube.com/watch?v=cLLVyRG7vmI",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 4,
+      "nominal_rank": 24,
+      "title": "Workplace-based continuous glucose monitoring with structured ...",
+      "snippet": "Aims: We investigated the effect of continuous glucose monitoring (CGM) with personalised structured education on patients with type 2 diabetes (T2D) and pre- ...",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40041974/",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 5,
+      "nominal_rank": 25,
+      "title": "The 'when would you use a structured db and when an unstructured ...",
+      "snippet": "Now I always thought the answer was use structured when you know the schema of your data and its not likely to change, and use unstructured when these are ...",
+      "link": "https://www.reddit.com/r/Database/comments/10jcipr/the_when_would_you_use_a_structured_db_and_when/",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 6,
+      "nominal_rank": 26,
+      "title": "use of a structured interview to assign grades on the modified ...",
+      "snippet": "The purpose of the present study was to compare conventional assessment on the modified Rankin Scale with assessment through a structured interview. Methods: ...",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/12215594/",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 7,
+      "nominal_rank": 27,
+      "title": "the structured days hypothesis - PubMed - NIH",
+      "snippet": "The authors hypothesize that obesogenic behaviors are beneficially regulated when children are exposed to a structured day (i.e., school weekday) compared to ...",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/28747186/",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 8,
+      "nominal_rank": 28,
+      "title": "Structured Output in LangChain | Video 5 | CampusX - YouTube",
+      "snippet": "... structured responses like JSON instead of unstructured text. What You'll Learn: ✓ Difference between structured vs. unstructured output ✓ How structured ...",
+      "link": "https://www.youtube.com/watch?v=y5EmRr1O1h4",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 9,
+      "nominal_rank": 29,
+      "title": "What is everyone's thoughts on structured notes? : r/CFP - Reddit",
+      "snippet": "I saw a stat that maybe only 14% of independent advisors utilize structured notes. Was curious to know how they are being used in everyone's practice. Archived ...",
+      "link": "https://www.reddit.com/r/CFP/comments/1jfyiau/what_is_everyones_thoughts_on_structured_notes/",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 10,
+      "nominal_rank": 30,
+      "title": "How to Use Structured Outputs in Langflow - YouTube",
+      "snippet": "Master structured outputs with Langflow! In this tutorial, Developer Relations Engineer David Jones-Gilardi demonstrates how to use the Structured Output ...",
+      "link": "https://www.youtube.com/watch?v=kkIpwBIfyBo",
+      "arxiv_id": null
+    }
+  ],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:44:44.822858+00:00",
+  "elapsed_seconds": 0.9317703619599342
+}

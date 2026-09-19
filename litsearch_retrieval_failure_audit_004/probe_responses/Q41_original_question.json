@@ -1,0 +1,215 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q41",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2010.02295",
+  "request_payload": {
+    "q": "Could you recommend a study that investigates enhancing token alignment in speech processing by employing inverse document frequency (idf)? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 90,
+  "started_utc": "2026-09-17T12:35:06.825943+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648230",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "040865ae4a5da5a3e5cdd5aeef64f06c",
+    "date": "Thu, 17 Sep 2026 12:30:28 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3980",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3980,
+  "response_bytes_sha256": "be6efa1b0b0462ef1154aa7ef7966eef4da2c92e04b377cedad2561cd0b1e3ca",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb3VsZCB5b3UgcmVjb21tZW5kIGEgc3R1ZHkgdGhhdCBpbnZlc3RpZ2F0ZXMgZW5oYW5jaW5nIHRva2VuIGFsaWdubWVudCBpbiBzcGVlY2ggcHJvY2Vzc2luZyBieSBlbXBsb3lpbmcgaW52ZXJzZSBkb2N1bWVudCBmcmVxdWVuY3kgKGlkZik/IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlRBU1RFOiBUZXh0LUFsaWduZWQgU3BlZWNoIFRva2VuaXphdGlvbiBhbmQgRW1iZWRkaW5nIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNC4wNzA1M3YxIiwic25pcHBldCI6IlRvIGFkZHJlc3MgdGhpcywgd2UgaW50cm9kdWNlIFRleHQtQWxpZ25lZCBTcGVlY2ggVG9rZW5pemF0aW9uIGFuZCBFbWJlZGRpbmcgKFRBU1RFKSwgYSBtZXRob2QgdGhhdCBkaXJlY3RseSBhZGRyZXNzZXMgdGhlIG1vZGFsaXR5IGdhcCBieSBhbGlnbmluZyBzcGVlY2ggdG9rZW4gLi4uIiwiZGF0ZSI6IkFwciA5LCAyMDI1IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJPbiBTZWxmLWltcHJvdmluZyBUb2tlbiBFbWJlZGRpbmdzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA0LjE0ODA4djEiLCJzbmlwcGV0IjoiQWJzdHJhY3QuIFRoaXMgYXJ0aWNsZSBpbnRyb2R1Y2VzIGEgbm92ZWwgYW5kIGZhc3QgbWV0aG9kIGZvciByZWZpbmluZyBwcmUtdHJhaW5lZCBzdGF0aWMgd29yZCBvciwgbW9yZSBnZW5lcmFsbHksIHRva2VuIGVtYmVkZGluZ3MuIiwiZGF0ZSI6IkFwciAyMSwgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiVGFsa1BsYXk6IE11bHRpbW9kYWwgTXVzaWMgUmVjb21tZW5kYXRpb24gd2l0aCBMYXJnZSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDIuMTM3MTN2NSIsInNuaXBwZXQiOiJJdCB1dGlsaXplcyB0ZXJtIGZyZXF1ZW5jeS1pbnZlcnNlIGRvY3VtZW50IGZyZXF1ZW5jeSAoVEYtSURGKSBzY29yaW5nIHRvIG1hdGNoIHVzZXIgcXVlcmllcyB3aXRoIHRleHQtYmFzZWQgaXRlbSByZXByZXNlbnRhdGlvbnMuIFdoaWxlIGNvbXB1dGF0aW9uYWxseSAuLi4iLCJkYXRlIjoiSnVuIDIsIDIwMjYiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDQuMDMyMDR2MyBbZWVzcy5BU10gMTkgTWF5IDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDQuMDMyMDQiLCJzbmlwcGV0IjoiVGhlIGRpc3RyaWJ1dGlvbnMgb2YgdGhlIHByb3NvZHkgdG9rZW5zIGFyZSBtb2RlbGVkIHRvZ2V0aGVyIHdpdGggc3BlZWNoIHRva2VucyBieSBhIHNpbmdsZSBUcmFuc2Zvcm1lciBzbyB0aGF0IHRoZXkgY2FuIGluZmx1ZW5jZSB0aGUgZHVyYXRpb24gYW5kIHBpdGNoIG9mIHRoZSAuLi4iLCJkYXRlIjoiTWF5IDE5LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJBbGlnbmluZyBTcGVlY2ggdG8gTGFuZ3VhZ2VzIHRvIEVuaGFuY2UgQ29kZS1zd2l0Y2hpbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDMuMDU4ODciLCJzbmlwcGV0IjoiVG8gYWRkcmVzcyBsYW5ndWFnZSBjb25mdXNpb24sIHdlIHByb3Bvc2UgYSBsYW5ndWFnZSBhbGlnbm1lbnQgbG9zcyAoTEFMKSB0aGF0IGFsaWducyBhY291c3RpYyBmZWF0dXJlcyB0byBwc2V1ZG8tbGFuZ3VhZ2UgbGFiZWxzIGxlYXJuZWQgZnJvbSB0aGUgQVNSIGRlY29kZXIgLi4uIiwiZGF0ZSI6Ik1hciA5LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJVbmlmeWluZyBWaXN1YWwgVW5kZXJzdGFuZGluZyBhbmQgR2VuZXJhdGlvbiB2aWEgVGV4dC1BbGlnbmVkIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDYuMTg4OTh2MSIsInNuaXBwZXQiOiJBYnN0cmFjdC4gVGhpcyBwYXBlciBwcmVzZW50cyBhIG11bHRpbW9kYWwgZnJhbWV3b3JrIHRoYXQgYXR0ZW1wdHMgdG8gdW5pZnkgdmlzdWFsIHVuZGVyc3RhbmRpbmcgYW5kIGdlbmVyYXRpb24gd2l0aGluIGEgc2hhcmVkIGRpc2NyZXRlIHNlbWFudGljIC4uLiIsImRhdGUiOiJKdW4gMjMsIDIwMjUiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlRleHQgQ2x1c3RlcmluZyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVsIEVtYmVkZGluZ3MgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMTUxMTJ2NSIsInNuaXBwZXQiOiJUaGlzIHN0dWR5IGFyZ3VlcyB0aGF0IHJlY2VudCBhZHZhbmNlbWVudHMgaW4gbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSBoYXZlIHRoZSBwb3RlbnRpYWwgdG8gZW5oYW5jZSB0aGlzIHRhc2suIFRoZSByZXNlYXJjaCBpbnZlc3RpZ2F0ZXMgaG93IGRpZmZlcmVudCAuLi4iLCJkYXRlIjoiRGVjIDIsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIEF0dHJpYnV0aW5nIEFsaWdubWVudCBGYWlsdXJlcyB0byBUcmFpbmluZy1UaW1lIEJlbGllZiBTb3VyY2VzIGluIExMTXMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDguMDIwNjM/Iiwic25pcHBldCI6IlRvZ2V0aGVyLCB0aGVzZSBkZWZlbnNlcyByZWR1Y2UgYWxpZ25tZW50IGRyaWZ0IGJ5IHVwIHRvIDg1JSBvbiBvdXIgY3VyYXRlZC4gQWxpZ25tZW50IERyaWZ0IEJlbmNobWFyayAoQURCKSB3aGlsZSBwcmVzZXJ2aW5nIHV0aWxpdHkgb24gc3RhbmRhcmQgdGFza3MsIHdpdGggKCAuLi4iLCJkYXRlIjoiQXVnIDQsIDIwMjUiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkJlbmNobWFya2luZyBNdWx0aS1OYXRpb25hbCBWYWx1ZSBBbGlnbm1lbnQgZm9yIExhcmdlIExhbmd1YWdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDQuMTI5MTF2MiIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBpbnRyb2R1Y2UgTmFWQUIsIGEgY29tcHJlaGVuc2l2ZSBiZW5jaG1hcmsgZGVzaWduZWQgdG8gZXZhbHVhdGUgdGhlIGFsaWdubWVudCBvZiBMTE1zIHdpdGggdGhlIHZhbHVlcyBvZiBmaXZlIG1ham9yIG5hdGlvbnM6IENoaW5hLCB0aGUgVW5pdGVkIC4uLiIsImRhdGUiOiJBcHIgMTksIDIwMjUiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiMiBWYWx1ZSBEYXRhIEV4dHJhY3Rpb24uLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA0LjEyOTExdjIjOn46dGV4dD0yJTIwVmFsdWUlMjBEYXRhJTIwRXh0cmFjdGlvbiUyMFBpcGVsaW5lLC1SZXBvcnQlMjBpc3N1ZSUyMGZvciUyMHByZWNlZGluZyUyMGVsZW1lbnQifSx7InRpdGxlIjoiMi4yIFRvcGljIE1vZGVsaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNC4xMjkxMXYyIzp+OnRleHQ9Mi4yJTIwVG9waWMlMjBNb2RlbGluZywtUmVwb3J0JTIwaXNzdWUlMjBmb3IlMjBwcmVjZWRpbmclMjBlbGVtZW50In0seyJ0aXRsZSI6IkFwcGVuZGl4IEEgRXhwZXJpbWVudGFsLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNC4xMjkxMXYyIzp+OnRleHQ9QXBwZW5kaXglMjBBJTIwRXhwZXJpbWVudGFsJTIwRGV0YWlscyJ9XSwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJHcmFkaWVudC1CYXNlZCBTcGVlY2gtdG8tVGV4dCBBbGlnbm1lbnQgZm9yIEFueSBBU1IgTW9kZWwgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjYwNy4wNjgzMSIsInNuaXBwZXQiOiJXZSBzdHVkeSBhIGdlbmVyaWMgZ3JhZGllbnQtYmFzZWQgYWxpZ25tZW50IHRoYXQgYXBwbGllcyB0byBhbnkgZGlmZmVyZW50aWFibGUgQVNSIG1vZGVsLiBXZSB0YWtlIHRoZSBncmFkaWVudCBvZiBlYWNoIHRlYWNoZXItZm9yY2VkIHRva2VuIGxvZyBwcm9iYWJpbGl0eSAuLi4iLCJkYXRlIjoiSnVsIDcsIDIwMjYiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Could you recommend a study that investigates enhancing token alignment in speech processing by employing inverse document frequency (idf)? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "TASTE: Text-Aligned Speech Tokenization and Embedding ... - arXiv",
+        "link": "https://arxiv.org/html/2504.07053v1",
+        "snippet": "To address this, we introduce Text-Aligned Speech Tokenization and Embedding (TASTE), a method that directly addresses the modality gap by aligning speech token ...",
+        "date": "Apr 9, 2025",
+        "position": 1
+      },
+      {
+        "title": "On Self-improving Token Embeddings - arXiv",
+        "link": "https://arxiv.org/html/2504.14808v1",
+        "snippet": "Abstract. This article introduces a novel and fast method for refining pre-trained static word or, more generally, token embeddings.",
+        "date": "Apr 21, 2025",
+        "position": 2
+      },
+      {
+        "title": "TalkPlay: Multimodal Music Recommendation with Large ... - arXiv",
+        "link": "https://arxiv.org/html/2502.13713v5",
+        "snippet": "It utilizes term frequency-inverse document frequency (TF-IDF) scoring to match user queries with text-based item representations. While computationally ...",
+        "date": "Jun 2, 2026",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2404.03204v3 [eess.AS] 19 May 2024",
+        "link": "https://arxiv.org/pdf/2404.03204",
+        "snippet": "The distributions of the prosody tokens are modeled together with speech tokens by a single Transformer so that they can influence the duration and pitch of the ...",
+        "date": "May 19, 2024",
+        "position": 4
+      },
+      {
+        "title": "Aligning Speech to Languages to Enhance Code-switching ... - arXiv",
+        "link": "https://arxiv.org/abs/2403.05887",
+        "snippet": "To address language confusion, we propose a language alignment loss (LAL) that aligns acoustic features to pseudo-language labels learned from the ASR decoder ...",
+        "date": "Mar 9, 2024",
+        "position": 5
+      },
+      {
+        "title": "Unifying Visual Understanding and Generation via Text-Aligned ...",
+        "link": "https://arxiv.org/html/2506.18898v1",
+        "snippet": "Abstract. This paper presents a multimodal framework that attempts to unify visual understanding and generation within a shared discrete semantic ...",
+        "date": "Jun 23, 2025",
+        "position": 6
+      },
+      {
+        "title": "Text Clustering with Large Language Model Embeddings - arXiv",
+        "link": "https://arxiv.org/html/2403.15112v5",
+        "snippet": "This study argues that recent advancements in large language models (LLMs) have the potential to enhance this task. The research investigates how different ...",
+        "date": "Dec 2, 2024",
+        "position": 7
+      },
+      {
+        "title": "[PDF] Attributing Alignment Failures to Training-Time Belief Sources in LLMs",
+        "link": "https://arxiv.org/pdf/2508.02063?",
+        "snippet": "Together, these defenses reduce alignment drift by up to 85% on our curated. Alignment Drift Benchmark (ADB) while preserving utility on standard tasks, with ( ...",
+        "date": "Aug 4, 2025",
+        "position": 8
+      },
+      {
+        "title": "Benchmarking Multi-National Value Alignment for Large Language ...",
+        "link": "https://arxiv.org/html/2504.12911v2",
+        "snippet": "In this paper, we introduce NaVAB, a comprehensive benchmark designed to evaluate the alignment of LLMs with the values of five major nations: China, the United ...",
+        "date": "Apr 19, 2025",
+        "sitelinks": [
+          {
+            "title": "2 Value Data Extraction...",
+            "link": "https://arxiv.org/html/2504.12911v2#:~:text=2%20Value%20Data%20Extraction%20Pipeline,-Report%20issue%20for%20preceding%20element"
+          },
+          {
+            "title": "2.2 Topic Modeling",
+            "link": "https://arxiv.org/html/2504.12911v2#:~:text=2.2%20Topic%20Modeling,-Report%20issue%20for%20preceding%20element"
+          },
+          {
+            "title": "Appendix A Experimental...",
+            "link": "https://arxiv.org/html/2504.12911v2#:~:text=Appendix%20A%20Experimental%20Details"
+          }
+        ],
+        "position": 9
+      },
+      {
+        "title": "Gradient-Based Speech-to-Text Alignment for Any ASR Model - arXiv",
+        "link": "https://arxiv.org/abs/2607.06831",
+        "snippet": "We study a generic gradient-based alignment that applies to any differentiable ASR model. We take the gradient of each teacher-forced token log probability ...",
+        "date": "Jul 7, 2026",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "TASTE: Text-Aligned Speech Tokenization and Embedding ... - arXiv",
+      "snippet": "To address this, we introduce Text-Aligned Speech Tokenization and Embedding (TASTE), a method that directly addresses the modality gap by aligning speech token ...",
+      "link": "https://arxiv.org/html/2504.07053v1",
+      "arxiv_id": "2504.07053"
+    },
+    {
+      "rank": 2,
+      "title": "On Self-improving Token Embeddings - arXiv",
+      "snippet": "Abstract. This article introduces a novel and fast method for refining pre-trained static word or, more generally, token embeddings.",
+      "link": "https://arxiv.org/html/2504.14808v1",
+      "arxiv_id": "2504.14808"
+    },
+    {
+      "rank": 3,
+      "title": "TalkPlay: Multimodal Music Recommendation with Large ... - arXiv",
+      "snippet": "It utilizes term frequency-inverse document frequency (TF-IDF) scoring to match user queries with text-based item representations. While computationally ...",
+      "link": "https://arxiv.org/html/2502.13713v5",
+      "arxiv_id": "2502.13713"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2404.03204v3 [eess.AS] 19 May 2024",
+      "snippet": "The distributions of the prosody tokens are modeled together with speech tokens by a single Transformer so that they can influence the duration and pitch of the ...",
+      "link": "https://arxiv.org/pdf/2404.03204",
+      "arxiv_id": "2404.03204"
+    },
+    {
+      "rank": 5,
+      "title": "Aligning Speech to Languages to Enhance Code-switching ... - arXiv",
+      "snippet": "To address language confusion, we propose a language alignment loss (LAL) that aligns acoustic features to pseudo-language labels learned from the ASR decoder ...",
+      "link": "https://arxiv.org/abs/2403.05887",
+      "arxiv_id": "2403.05887"
+    },
+    {
+      "rank": 6,
+      "title": "Unifying Visual Understanding and Generation via Text-Aligned ...",
+      "snippet": "Abstract. This paper presents a multimodal framework that attempts to unify visual understanding and generation within a shared discrete semantic ...",
+      "link": "https://arxiv.org/html/2506.18898v1",
+      "arxiv_id": "2506.18898"
+    },
+    {
+      "rank": 7,
+      "title": "Text Clustering with Large Language Model Embeddings - arXiv",
+      "snippet": "This study argues that recent advancements in large language models (LLMs) have the potential to enhance this task. The research investigates how different ...",
+      "link": "https://arxiv.org/html/2403.15112v5",
+      "arxiv_id": "2403.15112"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] Attributing Alignment Failures to Training-Time Belief Sources in LLMs",
+      "snippet": "Together, these defenses reduce alignment drift by up to 85% on our curated. Alignment Drift Benchmark (ADB) while preserving utility on standard tasks, with ( ...",
+      "link": "https://arxiv.org/pdf/2508.02063?",
+      "arxiv_id": "2508.02063"
+    },
+    {
+      "rank": 9,
+      "title": "Benchmarking Multi-National Value Alignment for Large Language ...",
+      "snippet": "In this paper, we introduce NaVAB, a comprehensive benchmark designed to evaluate the alignment of LLMs with the values of five major nations: China, the United ...",
+      "link": "https://arxiv.org/html/2504.12911v2",
+      "arxiv_id": "2504.12911"
+    },
+    {
+      "rank": 10,
+      "title": "Gradient-Based Speech-to-Text Alignment for Any ASR Model - arXiv",
+      "snippet": "We study a generic gradient-based alignment that applies to any differentiable ASR model. We take the gradient of each teacher-forced token log probability ...",
+      "link": "https://arxiv.org/abs/2607.06831",
+      "arxiv_id": "2607.06831"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:08.050397+00:00",
+  "elapsed_seconds": 1.2244606204330921,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q41_original_question_attempt1.json",
+      "sha256": "76aceebac2dfb6d72692c0a1f8280effdcea59ee43bec547cc87aa7be4b02258",
+      "status": "PASS"
+    }
+  ]
+}

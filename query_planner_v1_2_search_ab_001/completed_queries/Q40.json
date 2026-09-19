@@ -1,0 +1,1232 @@
+{
+  "query_id": "Q40",
+  "query_index": 40,
+  "dataset_qid": "RealScholarQuery_40",
+  "original_question": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Survey papers on Quantization-Aware Training benefits",
+    "Advantages of Quantization-Aware Training in AI",
+    "Research papers on the impact of Quantization-Aware Training on low-bit weight representations",
+    "Effects of Quantization-Aware Training on model representations",
+    "Comparative studies on Quantization-Aware Training and Post-Training Quantization in AI"
+  ],
+  "anchor": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?.",
+  "source_generation_id": "Q40_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Survey papers on Quantization-Aware Training benefits",
+        "Advantages of Quantization-Aware Training in AI",
+        "Research papers on the impact of Quantization-Aware Training on low-bit weight representations",
+        "Effects of Quantization-Aware Training on model representations",
+        "Comparative studies on Quantization-Aware Training and Post-Training Quantization in AI"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?.",
+        "Survey papers on Quantization-Aware Training benefits",
+        "Advantages of Quantization-Aware Training in AI",
+        "Research papers on the impact of Quantization-Aware Training on low-bit weight representations",
+        "Effects of Quantization-Aware Training on model representations"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Survey papers on Quantization-Aware Training benefits",
+      "attempts": [
+        {
+          "global_attempt_sequence": 241,
+          "query_id": "Q40",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Survey papers on Quantization-Aware Training benefits",
+          "request_payload": {
+            "q": "Survey papers on Quantization-Aware Training benefits before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q40_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:30:03.895179+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on Quantization-Aware Training benefits before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[PDF] A Comprehensive Survey on Model Quantization for Deep Neural ...\",\"link\":\"https://arxiv.org/pdf/2205.07877\",\"snippet\":\"This paper attempts to make the readers familiar with the basic and advanced concepts of quantization, introduce important works in DNN quantization, and ...\",\"date\":\"May 18, 2022\",\"position\":1},{\"title\":\"A Survey on Transformer Compression - arXiv\",\"link\":\"https://arxiv.org/html/2402.05964v2\",\"snippet\":\"Quantization reduces the development cost by representing model weights and intermediate features with lower bits. is more efficient for large models.\",\"date\":\"Apr 7, 2024\",\"position\":2},{\"title\":\"FP8 Quantization: The Power of the Exponent - arXiv\",\"link\":\"https://arxiv.org/html/2208.09225v2\",\"snippet\":\"We investigate whether we can improve on the FP8 PTQ results by performing training with FP8 quantization in mind (quantization-aware training, QAT). We ...\",\"date\":\"Aug 21, 2022\",\"position\":3},{\"title\":\"[PDF] A White Paper on Neural Network Quantization - arXiv\",\"link\":\"https://arxiv.org/pdf/2106.08295\",\"snippet\":\"In this white paper, we introduce state-of-the-art algorithms for mitigating the impact of quantization noise on the network's performance while maintaining low ...\",\"date\":\"Jun 15, 2021\",\"position\":4},{\"title\":\"[PDF] SQUAT: Stateful Quantization-Aware Training in Recurrent Spiking ...\",\"link\":\"https://arxiv.org/pdf/2404.19668?\",\"snippet\":\"Our results show that increasing the density of quanti- zation levels around the firing threshold improves accuracy across several benchmark datasets. To ...\",\"date\":\"Apr 15, 2024\",\"position\":5},{\"title\":\"[PDF] Quantizing deep convolutional networks for efficient inference - arXiv\",\"link\":\"https://arxiv.org/pdf/1806.08342\",\"snippet\":\"Quantization-aware training also allows for reducing the precision of weights to four bits with accuracy losses ranging from 2% to 10%, with higher accuracy ...\",\"date\":\"Jun 21, 2018\",\"position\":6},{\"title\":\"A Comprehensive Evaluation of Quantization Strategiesfor Large ...\",\"link\":\"https://arxiv.org/html/2402.16775v1\",\"snippet\":\"Nonetheless, while quantized LLMs offer advantages in terms of memory efficiency, quantization can also result in reduced inference speed.\",\"date\":\"Feb 26, 2024\",\"position\":7},{\"title\":\"A Survey on Efficient Inference for Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.14294v2\",\"snippet\":\"Quantization-aware training (QAT) incorporates the influence of quantization within the model training procedure. By integrating layers that replicate ...\",\"date\":\"Apr 22, 2024\",\"position\":8},{\"title\":\"Training Machine Learning models at the Edge: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2403.02619v1\",\"snippet\":\"This survey paper aims to provide a general overview on Edge Learning (EL), where we look into its methodologies, requirements, applications, challenges, and ...\",\"date\":\"Mar 5, 2024\",\"position\":9},{\"title\":\"[PDF] On the Ability to Generalize in Quantization Aware Training - arXiv\",\"link\":\"https://arxiv.org/pdf/2404.11769?\",\"snippet\":\"Quantization lowers memory usage, computational requirements, and latency by utilizing fewer bits to represent model weights and activations.\",\"date\":\"Apr 19, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIFF1YW50aXphdGlvbi1Bd2FyZSBUcmFpbmluZyBiZW5lZml0cyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJbUERGXSBBIENvbXByZWhlbnNpdmUgU3VydmV5IG9uIE1vZGVsIFF1YW50aXphdGlvbiBmb3IgRGVlcCBOZXVyYWwgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjA1LjA3ODc3Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgYXR0ZW1wdHMgdG8gbWFrZSB0aGUgcmVhZGVycyBmYW1pbGlhciB3aXRoIHRoZSBiYXNpYyBhbmQgYWR2YW5jZWQgY29uY2VwdHMgb2YgcXVhbnRpemF0aW9uLCBpbnRyb2R1Y2UgaW1wb3J0YW50IHdvcmtzIGluIEROTiBxdWFudGl6YXRpb24sIGFuZCAuLi4iLCJkYXRlIjoiTWF5IDE4LCAyMDIyIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJBIFN1cnZleSBvbiBUcmFuc2Zvcm1lciBDb21wcmVzc2lvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNTk2NHYyIiwic25pcHBldCI6IlF1YW50aXphdGlvbiByZWR1Y2VzIHRoZSBkZXZlbG9wbWVudCBjb3N0IGJ5IHJlcHJlc2VudGluZyBtb2RlbCB3ZWlnaHRzIGFuZCBpbnRlcm1lZGlhdGUgZmVhdHVyZXMgd2l0aCBsb3dlciBiaXRzLiBpcyBtb3JlIGVmZmljaWVudCBmb3IgbGFyZ2UgbW9kZWxzLiIsImRhdGUiOiJBcHIgNywgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiRlA4IFF1YW50aXphdGlvbjogVGhlIFBvd2VyIG9mIHRoZSBFeHBvbmVudCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwOC4wOTIyNXYyIiwic25pcHBldCI6IldlIGludmVzdGlnYXRlIHdoZXRoZXIgd2UgY2FuIGltcHJvdmUgb24gdGhlIEZQOCBQVFEgcmVzdWx0cyBieSBwZXJmb3JtaW5nIHRyYWluaW5nIHdpdGggRlA4IHF1YW50aXphdGlvbiBpbiBtaW5kIChxdWFudGl6YXRpb24tYXdhcmUgdHJhaW5pbmcsIFFBVCkuIFdlIC4uLiIsImRhdGUiOiJBdWcgMjEsIDIwMjIiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIEEgV2hpdGUgUGFwZXIgb24gTmV1cmFsIE5ldHdvcmsgUXVhbnRpemF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIxMDYuMDgyOTUiLCJzbmlwcGV0IjoiSW4gdGhpcyB3aGl0ZSBwYXBlciwgd2UgaW50cm9kdWNlIHN0YXRlLW9mLXRoZS1hcnQgYWxnb3JpdGhtcyBmb3IgbWl0aWdhdGluZyB0aGUgaW1wYWN0IG9mIHF1YW50aXphdGlvbiBub2lzZSBvbiB0aGUgbmV0d29yaydzIHBlcmZvcm1hbmNlIHdoaWxlIG1haW50YWluaW5nIGxvdyAuLi4iLCJkYXRlIjoiSnVuIDE1LCAyMDIxIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBTUVVBVDogU3RhdGVmdWwgUXVhbnRpemF0aW9uLUF3YXJlIFRyYWluaW5nIGluIFJlY3VycmVudCBTcGlraW5nIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNC4xOTY2OD8iLCJzbmlwcGV0IjoiT3VyIHJlc3VsdHMgc2hvdyB0aGF0IGluY3JlYXNpbmcgdGhlIGRlbnNpdHkgb2YgcXVhbnRpLSB6YXRpb24gbGV2ZWxzIGFyb3VuZCB0aGUgZmlyaW5nIHRocmVzaG9sZCBpbXByb3ZlcyBhY2N1cmFjeSBhY3Jvc3Mgc2V2ZXJhbCBiZW5jaG1hcmsgZGF0YXNldHMuIFRvIC4uLiIsImRhdGUiOiJBcHIgMTUsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIFF1YW50aXppbmcgZGVlcCBjb252b2x1dGlvbmFsIG5ldHdvcmtzIGZvciBlZmZpY2llbnQgaW5mZXJlbmNlIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzE4MDYuMDgzNDIiLCJzbmlwcGV0IjoiUXVhbnRpemF0aW9uLWF3YXJlIHRyYWluaW5nIGFsc28gYWxsb3dzIGZvciByZWR1Y2luZyB0aGUgcHJlY2lzaW9uIG9mIHdlaWdodHMgdG8gZm91ciBiaXRzIHdpdGggYWNjdXJhY3kgbG9zc2VzIHJhbmdpbmcgZnJvbSAyJSB0byAxMCUsIHdpdGggaGlnaGVyIGFjY3VyYWN5IC4uLiIsImRhdGUiOiJKdW4gMjEsIDIwMTgiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkEgQ29tcHJlaGVuc2l2ZSBFdmFsdWF0aW9uIG9mIFF1YW50aXphdGlvbiBTdHJhdGVnaWVzZm9yIExhcmdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTY3NzV2MSIsInNuaXBwZXQiOiJOb25ldGhlbGVzcywgd2hpbGUgcXVhbnRpemVkIExMTXMgb2ZmZXIgYWR2YW50YWdlcyBpbiB0ZXJtcyBvZiBtZW1vcnkgZWZmaWNpZW5jeSwgcXVhbnRpemF0aW9uIGNhbiBhbHNvIHJlc3VsdCBpbiByZWR1Y2VkIGluZmVyZW5jZSBzcGVlZC4iLCJkYXRlIjoiRmViIDI2LCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJBIFN1cnZleSBvbiBFZmZpY2llbnQgSW5mZXJlbmNlIGZvciBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMTQyOTR2MiIsInNuaXBwZXQiOiJRdWFudGl6YXRpb24tYXdhcmUgdHJhaW5pbmcgKFFBVCkgaW5jb3Jwb3JhdGVzIHRoZSBpbmZsdWVuY2Ugb2YgcXVhbnRpemF0aW9uIHdpdGhpbiB0aGUgbW9kZWwgdHJhaW5pbmcgcHJvY2VkdXJlLiBCeSBpbnRlZ3JhdGluZyBsYXllcnMgdGhhdCByZXBsaWNhdGUgLi4uIiwiZGF0ZSI6IkFwciAyMiwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiVHJhaW5pbmcgTWFjaGluZSBMZWFybmluZyBtb2RlbHMgYXQgdGhlIEVkZ2U6IEEgU3VydmV5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjAyNjE5djEiLCJzbmlwcGV0IjoiVGhpcyBzdXJ2ZXkgcGFwZXIgYWltcyB0byBwcm92aWRlIGEgZ2VuZXJhbCBvdmVydmlldyBvbiBFZGdlIExlYXJuaW5nIChFTCksIHdoZXJlIHdlIGxvb2sgaW50byBpdHMgbWV0aG9kb2xvZ2llcywgcmVxdWlyZW1lbnRzLCBhcHBsaWNhdGlvbnMsIGNoYWxsZW5nZXMsIGFuZCAuLi4iLCJkYXRlIjoiTWFyIDUsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIE9uIHRoZSBBYmlsaXR5IHRvIEdlbmVyYWxpemUgaW4gUXVhbnRpemF0aW9uIEF3YXJlIFRyYWluaW5nIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDQuMTE3Njk/Iiwic25pcHBldCI6IlF1YW50aXphdGlvbiBsb3dlcnMgbWVtb3J5IHVzYWdlLCBjb21wdXRhdGlvbmFsIHJlcXVpcmVtZW50cywgYW5kIGxhdGVuY3kgYnkgdXRpbGl6aW5nIGZld2VyIGJpdHMgdG8gcmVwcmVzZW50IG1vZGVsIHdlaWdodHMgYW5kIGFjdGl2YXRpb25zLiIsImRhdGUiOiJBcHIgMTksIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "eced5bfe703715e7cfdb8abb7f43b79150d8db33c62f81f62c598a3b2f7d21b7",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey papers on Quantization-Aware Training benefits before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "[PDF] A Comprehensive Survey on Model Quantization for Deep Neural ...",
+                "link": "https://arxiv.org/pdf/2205.07877",
+                "snippet": "This paper attempts to make the readers familiar with the basic and advanced concepts of quantization, introduce important works in DNN quantization, and ...",
+                "date": "May 18, 2022",
+                "position": 1
+              },
+              {
+                "title": "A Survey on Transformer Compression - arXiv",
+                "link": "https://arxiv.org/html/2402.05964v2",
+                "snippet": "Quantization reduces the development cost by representing model weights and intermediate features with lower bits. is more efficient for large models.",
+                "date": "Apr 7, 2024",
+                "position": 2
+              },
+              {
+                "title": "FP8 Quantization: The Power of the Exponent - arXiv",
+                "link": "https://arxiv.org/html/2208.09225v2",
+                "snippet": "We investigate whether we can improve on the FP8 PTQ results by performing training with FP8 quantization in mind (quantization-aware training, QAT). We ...",
+                "date": "Aug 21, 2022",
+                "position": 3
+              },
+              {
+                "title": "[PDF] A White Paper on Neural Network Quantization - arXiv",
+                "link": "https://arxiv.org/pdf/2106.08295",
+                "snippet": "In this white paper, we introduce state-of-the-art algorithms for mitigating the impact of quantization noise on the network's performance while maintaining low ...",
+                "date": "Jun 15, 2021",
+                "position": 4
+              },
+              {
+                "title": "[PDF] SQUAT: Stateful Quantization-Aware Training in Recurrent Spiking ...",
+                "link": "https://arxiv.org/pdf/2404.19668?",
+                "snippet": "Our results show that increasing the density of quanti- zation levels around the firing threshold improves accuracy across several benchmark datasets. To ...",
+                "date": "Apr 15, 2024",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Quantizing deep convolutional networks for efficient inference - arXiv",
+                "link": "https://arxiv.org/pdf/1806.08342",
+                "snippet": "Quantization-aware training also allows for reducing the precision of weights to four bits with accuracy losses ranging from 2% to 10%, with higher accuracy ...",
+                "date": "Jun 21, 2018",
+                "position": 6
+              },
+              {
+                "title": "A Comprehensive Evaluation of Quantization Strategiesfor Large ...",
+                "link": "https://arxiv.org/html/2402.16775v1",
+                "snippet": "Nonetheless, while quantized LLMs offer advantages in terms of memory efficiency, quantization can also result in reduced inference speed.",
+                "date": "Feb 26, 2024",
+                "position": 7
+              },
+              {
+                "title": "A Survey on Efficient Inference for Large Language Models - arXiv",
+                "link": "https://arxiv.org/html/2404.14294v2",
+                "snippet": "Quantization-aware training (QAT) incorporates the influence of quantization within the model training procedure. By integrating layers that replicate ...",
+                "date": "Apr 22, 2024",
+                "position": 8
+              },
+              {
+                "title": "Training Machine Learning models at the Edge: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2403.02619v1",
+                "snippet": "This survey paper aims to provide a general overview on Edge Learning (EL), where we look into its methodologies, requirements, applications, challenges, and ...",
+                "date": "Mar 5, 2024",
+                "position": 9
+              },
+              {
+                "title": "[PDF] On the Ability to Generalize in Quantization Aware Training - arXiv",
+                "link": "https://arxiv.org/pdf/2404.11769?",
+                "snippet": "Quantization lowers memory usage, computational requirements, and latency by utilizing fewer bits to represent model weights and activations.",
+                "date": "Apr 19, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:05.078488+00:00",
+          "elapsed_seconds": 1.1833057887852192
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1806.08342",
+        "2106.08295",
+        "2205.07877",
+        "2208.09225",
+        "2402.05964",
+        "2402.16775",
+        "2403.02619",
+        "2404.11769",
+        "2404.14294",
+        "2404.19668"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2205.07877",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/pdf/2205.07877",
+          "title": "[PDF] A Comprehensive Survey on Model Quantization for Deep Neural ...",
+          "snippet": "This paper attempts to make the readers familiar with the basic and advanced concepts of quantization, introduce important works in DNN quantization, and ..."
+        },
+        {
+          "arxiv_id": "2402.05964",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2402.05964v2",
+          "title": "A Survey on Transformer Compression - arXiv",
+          "snippet": "Quantization reduces the development cost by representing model weights and intermediate features with lower bits. is more efficient for large models."
+        },
+        {
+          "arxiv_id": "2208.09225",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2208.09225v2",
+          "title": "FP8 Quantization: The Power of the Exponent - arXiv",
+          "snippet": "We investigate whether we can improve on the FP8 PTQ results by performing training with FP8 quantization in mind (quantization-aware training, QAT). We ..."
+        },
+        {
+          "arxiv_id": "2106.08295",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2106.08295",
+          "title": "[PDF] A White Paper on Neural Network Quantization - arXiv",
+          "snippet": "In this white paper, we introduce state-of-the-art algorithms for mitigating the impact of quantization noise on the network's performance while maintaining low ..."
+        },
+        {
+          "arxiv_id": "2404.19668",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2404.19668?",
+          "title": "[PDF] SQUAT: Stateful Quantization-Aware Training in Recurrent Spiking ...",
+          "snippet": "Our results show that increasing the density of quanti- zation levels around the firing threshold improves accuracy across several benchmark datasets. To ..."
+        },
+        {
+          "arxiv_id": "1806.08342",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/1806.08342",
+          "title": "[PDF] Quantizing deep convolutional networks for efficient inference - arXiv",
+          "snippet": "Quantization-aware training also allows for reducing the precision of weights to four bits with accuracy losses ranging from 2% to 10%, with higher accuracy ..."
+        },
+        {
+          "arxiv_id": "2402.16775",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2402.16775v1",
+          "title": "A Comprehensive Evaluation of Quantization Strategiesfor Large ...",
+          "snippet": "Nonetheless, while quantized LLMs offer advantages in terms of memory efficiency, quantization can also result in reduced inference speed."
+        },
+        {
+          "arxiv_id": "2404.14294",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2404.14294v2",
+          "title": "A Survey on Efficient Inference for Large Language Models - arXiv",
+          "snippet": "Quantization-aware training (QAT) incorporates the influence of quantization within the model training procedure. By integrating layers that replicate ..."
+        },
+        {
+          "arxiv_id": "2403.02619",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2403.02619v1",
+          "title": "Training Machine Learning models at the Edge: A Survey - arXiv",
+          "snippet": "This survey paper aims to provide a general overview on Edge Learning (EL), where we look into its methodologies, requirements, applications, challenges, and ..."
+        },
+        {
+          "arxiv_id": "2404.11769",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2404.11769?",
+          "title": "[PDF] On the Ability to Generalize in Quantization Aware Training - arXiv",
+          "snippet": "Quantization lowers memory usage, computational requirements, and latency by utilizing fewer bits to represent model weights and activations."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey papers on Quantization-Aware Training benefits before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Advantages of Quantization-Aware Training in AI",
+      "attempts": [
+        {
+          "global_attempt_sequence": 242,
+          "query_id": "Q40",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Advantages of Quantization-Aware Training in AI",
+          "request_payload": {
+            "q": "Advantages of Quantization-Aware Training in AI before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q40_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:30:05.307846+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Advantages of Quantization-Aware Training in AI before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[PDF] A White Paper on Neural Network Quantization - arXiv\",\"link\":\"https://arxiv.org/pdf/2106.08295\",\"snippet\":\"Such simulations are significantly easier to implement compared to running experiments on actual quantized hardware or using quantized kernels. They allow the ...\",\"date\":\"Jun 15, 2021\",\"position\":1},{\"title\":\"Mobile-friendly Quantization for On-device Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2408.13933v1\",\"snippet\":\"Deploying LLMs on device using MobileQuant results in a significant reduction in inference speed and energy usage as the latency and energy consumption of ...\",\"date\":\"Aug 25, 2024\",\"position\":2},{\"title\":\"L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.04902v3\",\"snippet\":\"This has led to active research on quantization-aware PEFT techniques, which aim to create models with high accuracy and low memory overhead. Among quantization ...\",\"date\":\"May 22, 2024\",\"position\":3},{\"title\":\"Neural Network Quantization with AI Model Efficiency Toolkit (AIMET)\",\"link\":\"https://arxiv.org/abs/2201.08442\",\"snippet\":\"Neural network quantization is one of the most effective ways of achieving these savings, but the additional noise it induces can lead to accuracy degradation.\",\"date\":\"Jan 20, 2022\",\"position\":4},{\"title\":\"Quantization Aware Factorization for Deep Neural Network ... - arXiv\",\"link\":\"https://arxiv.org/abs/2308.04595\",\"snippet\":\"Abstract:Tensor decomposition of convolutional and fully-connected layers is an effective way to reduce parameters and FLOP in neural networks.\",\"date\":\"Aug 8, 2023\",\"position\":5},{\"title\":\"[PDF] On the Ability to Generalize in Quantization Aware Training - arXiv\",\"link\":\"https://arxiv.org/pdf/2404.11769?\",\"snippet\":\"Quantization lowers memory usage, computational requirements, and latency by utilizing fewer bits to represent model weights and activations.\",\"date\":\"Apr 19, 2024\",\"position\":6},{\"title\":\"4-bit Conformer with Native Quantization Aware Training for Speech ...\",\"link\":\"https://arxiv.org/html/2203.15952v4\",\"snippet\":\"Along this direction, model quantization has become an increasingly popular approach to compress neural networks and reduce computation cost. Most of the ...\",\"date\":\"Mar 3, 2023\",\"position\":7},{\"title\":\"Make RepVGG Greater Again: A Quantization-aware Approach - arXiv\",\"link\":\"https://arxiv.org/html/2212.01593v2\",\"snippet\":\"Without bells and whistles, the top-1 accuracy drop on ImageNet is reduced within 2% by standard post-training quantization. Moreover, our method also achieves ...\",\"date\":\"Dec 11, 2023\",\"position\":8},{\"title\":\"FP8 Quantization: The Power of the Exponent - arXiv\",\"link\":\"https://arxiv.org/html/2208.09225v2\",\"snippet\":\"Neural network quantization is one of the most effective ways to improve the efficiency of neural networks. Quantization allows weights and activations to be ...\",\"date\":\"Aug 21, 2022\",\"position\":9},{\"title\":\"[PDF] LLM-QAT: Data-Free Quantization Aware Training for Large ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2305.17888\",\"snippet\":\"Several post-training quantization methods have been applied to large language models (LLMs), and have been shown to perform well down to 8-bits. We find.\",\"date\":\"May 29, 2023\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBZHZhbnRhZ2VzIG9mIFF1YW50aXphdGlvbi1Bd2FyZSBUcmFpbmluZyBpbiBBSSBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJbUERGXSBBIFdoaXRlIFBhcGVyIG9uIE5ldXJhbCBOZXR3b3JrIFF1YW50aXphdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMTA2LjA4Mjk1Iiwic25pcHBldCI6IlN1Y2ggc2ltdWxhdGlvbnMgYXJlIHNpZ25pZmljYW50bHkgZWFzaWVyIHRvIGltcGxlbWVudCBjb21wYXJlZCB0byBydW5uaW5nIGV4cGVyaW1lbnRzIG9uIGFjdHVhbCBxdWFudGl6ZWQgaGFyZHdhcmUgb3IgdXNpbmcgcXVhbnRpemVkIGtlcm5lbHMuIFRoZXkgYWxsb3cgdGhlIC4uLiIsImRhdGUiOiJKdW4gMTUsIDIwMjEiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6Ik1vYmlsZS1mcmllbmRseSBRdWFudGl6YXRpb24gZm9yIE9uLWRldmljZSBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTM5MzN2MSIsInNuaXBwZXQiOiJEZXBsb3lpbmcgTExNcyBvbiBkZXZpY2UgdXNpbmcgTW9iaWxlUXVhbnQgcmVzdWx0cyBpbiBhIHNpZ25pZmljYW50IHJlZHVjdGlvbiBpbiBpbmZlcmVuY2Ugc3BlZWQgYW5kIGVuZXJneSB1c2FnZSBhcyB0aGUgbGF0ZW5jeSBhbmQgZW5lcmd5IGNvbnN1bXB0aW9uIG9mIC4uLiIsImRhdGUiOiJBdWcgMjUsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6Ikw0UTogUGFyYW1ldGVyIEVmZmljaWVudCBRdWFudGl6YXRpb24tQXdhcmUgRmluZS1UdW5pbmcgb24gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjA0OTAydjMiLCJzbmlwcGV0IjoiVGhpcyBoYXMgbGVkIHRvIGFjdGl2ZSByZXNlYXJjaCBvbiBxdWFudGl6YXRpb24tYXdhcmUgUEVGVCB0ZWNobmlxdWVzLCB3aGljaCBhaW0gdG8gY3JlYXRlIG1vZGVscyB3aXRoIGhpZ2ggYWNjdXJhY3kgYW5kIGxvdyBtZW1vcnkgb3ZlcmhlYWQuIEFtb25nIHF1YW50aXphdGlvbiAuLi4iLCJkYXRlIjoiTWF5IDIyLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJOZXVyYWwgTmV0d29yayBRdWFudGl6YXRpb24gd2l0aCBBSSBNb2RlbCBFZmZpY2llbmN5IFRvb2xraXQgKEFJTUVUKSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjIwMS4wODQ0MiIsInNuaXBwZXQiOiJOZXVyYWwgbmV0d29yayBxdWFudGl6YXRpb24gaXMgb25lIG9mIHRoZSBtb3N0IGVmZmVjdGl2ZSB3YXlzIG9mIGFjaGlldmluZyB0aGVzZSBzYXZpbmdzLCBidXQgdGhlIGFkZGl0aW9uYWwgbm9pc2UgaXQgaW5kdWNlcyBjYW4gbGVhZCB0byBhY2N1cmFjeSBkZWdyYWRhdGlvbi4iLCJkYXRlIjoiSmFuIDIwLCAyMDIyIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJRdWFudGl6YXRpb24gQXdhcmUgRmFjdG9yaXphdGlvbiBmb3IgRGVlcCBOZXVyYWwgTmV0d29yayAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwOC4wNDU5NSIsInNuaXBwZXQiOiJBYnN0cmFjdDpUZW5zb3IgZGVjb21wb3NpdGlvbiBvZiBjb252b2x1dGlvbmFsIGFuZCBmdWxseS1jb25uZWN0ZWQgbGF5ZXJzIGlzIGFuIGVmZmVjdGl2ZSB3YXkgdG8gcmVkdWNlIHBhcmFtZXRlcnMgYW5kIEZMT1AgaW4gbmV1cmFsIG5ldHdvcmtzLiIsImRhdGUiOiJBdWcgOCwgMjAyMyIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiW1BERl0gT24gdGhlIEFiaWxpdHkgdG8gR2VuZXJhbGl6ZSBpbiBRdWFudGl6YXRpb24gQXdhcmUgVHJhaW5pbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNC4xMTc2OT8iLCJzbmlwcGV0IjoiUXVhbnRpemF0aW9uIGxvd2VycyBtZW1vcnkgdXNhZ2UsIGNvbXB1dGF0aW9uYWwgcmVxdWlyZW1lbnRzLCBhbmQgbGF0ZW5jeSBieSB1dGlsaXppbmcgZmV3ZXIgYml0cyB0byByZXByZXNlbnQgbW9kZWwgd2VpZ2h0cyBhbmQgYWN0aXZhdGlvbnMuIiwiZGF0ZSI6IkFwciAxOSwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiNC1iaXQgQ29uZm9ybWVyIHdpdGggTmF0aXZlIFF1YW50aXphdGlvbiBBd2FyZSBUcmFpbmluZyBmb3IgU3BlZWNoIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDMuMTU5NTJ2NCIsInNuaXBwZXQiOiJBbG9uZyB0aGlzIGRpcmVjdGlvbiwgbW9kZWwgcXVhbnRpemF0aW9uIGhhcyBiZWNvbWUgYW4gaW5jcmVhc2luZ2x5IHBvcHVsYXIgYXBwcm9hY2ggdG8gY29tcHJlc3MgbmV1cmFsIG5ldHdvcmtzIGFuZCByZWR1Y2UgY29tcHV0YXRpb24gY29zdC4gTW9zdCBvZiB0aGUgLi4uIiwiZGF0ZSI6Ik1hciAzLCAyMDIzIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJNYWtlIFJlcFZHRyBHcmVhdGVyIEFnYWluOiBBIFF1YW50aXphdGlvbi1hd2FyZSBBcHByb2FjaCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIxMi4wMTU5M3YyIiwic25pcHBldCI6IldpdGhvdXQgYmVsbHMgYW5kIHdoaXN0bGVzLCB0aGUgdG9wLTEgYWNjdXJhY3kgZHJvcCBvbiBJbWFnZU5ldCBpcyByZWR1Y2VkIHdpdGhpbiAyJSBieSBzdGFuZGFyZCBwb3N0LXRyYWluaW5nIHF1YW50aXphdGlvbi4gTW9yZW92ZXIsIG91ciBtZXRob2QgYWxzbyBhY2hpZXZlcyAuLi4iLCJkYXRlIjoiRGVjIDExLCAyMDIzIiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJGUDggUXVhbnRpemF0aW9uOiBUaGUgUG93ZXIgb2YgdGhlIEV4cG9uZW50IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjA4LjA5MjI1djIiLCJzbmlwcGV0IjoiTmV1cmFsIG5ldHdvcmsgcXVhbnRpemF0aW9uIGlzIG9uZSBvZiB0aGUgbW9zdCBlZmZlY3RpdmUgd2F5cyB0byBpbXByb3ZlIHRoZSBlZmZpY2llbmN5IG9mIG5ldXJhbCBuZXR3b3Jrcy4gUXVhbnRpemF0aW9uIGFsbG93cyB3ZWlnaHRzIGFuZCBhY3RpdmF0aW9ucyB0byBiZSAuLi4iLCJkYXRlIjoiQXVnIDIxLCAyMDIyIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBMTE0tUUFUOiBEYXRhLUZyZWUgUXVhbnRpemF0aW9uIEF3YXJlIFRyYWluaW5nIGZvciBMYXJnZSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4xNzg4OCIsInNuaXBwZXQiOiJTZXZlcmFsIHBvc3QtdHJhaW5pbmcgcXVhbnRpemF0aW9uIG1ldGhvZHMgaGF2ZSBiZWVuIGFwcGxpZWQgdG8gbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSwgYW5kIGhhdmUgYmVlbiBzaG93biB0byBwZXJmb3JtIHdlbGwgZG93biB0byA4LWJpdHMuIFdlIGZpbmQuIiwiZGF0ZSI6Ik1heSAyOSwgMjAyMyIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "28f13f860a2b7ebb1c1d7b05b3f646bfb810731bb9ebe290726773ed8cf4fb37",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Advantages of Quantization-Aware Training in AI before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "[PDF] A White Paper on Neural Network Quantization - arXiv",
+                "link": "https://arxiv.org/pdf/2106.08295",
+                "snippet": "Such simulations are significantly easier to implement compared to running experiments on actual quantized hardware or using quantized kernels. They allow the ...",
+                "date": "Jun 15, 2021",
+                "position": 1
+              },
+              {
+                "title": "Mobile-friendly Quantization for On-device Language Models - arXiv",
+                "link": "https://arxiv.org/html/2408.13933v1",
+                "snippet": "Deploying LLMs on device using MobileQuant results in a significant reduction in inference speed and energy usage as the latency and energy consumption of ...",
+                "date": "Aug 25, 2024",
+                "position": 2
+              },
+              {
+                "title": "L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on ... - arXiv",
+                "link": "https://arxiv.org/html/2402.04902v3",
+                "snippet": "This has led to active research on quantization-aware PEFT techniques, which aim to create models with high accuracy and low memory overhead. Among quantization ...",
+                "date": "May 22, 2024",
+                "position": 3
+              },
+              {
+                "title": "Neural Network Quantization with AI Model Efficiency Toolkit (AIMET)",
+                "link": "https://arxiv.org/abs/2201.08442",
+                "snippet": "Neural network quantization is one of the most effective ways of achieving these savings, but the additional noise it induces can lead to accuracy degradation.",
+                "date": "Jan 20, 2022",
+                "position": 4
+              },
+              {
+                "title": "Quantization Aware Factorization for Deep Neural Network ... - arXiv",
+                "link": "https://arxiv.org/abs/2308.04595",
+                "snippet": "Abstract:Tensor decomposition of convolutional and fully-connected layers is an effective way to reduce parameters and FLOP in neural networks.",
+                "date": "Aug 8, 2023",
+                "position": 5
+              },
+              {
+                "title": "[PDF] On the Ability to Generalize in Quantization Aware Training - arXiv",
+                "link": "https://arxiv.org/pdf/2404.11769?",
+                "snippet": "Quantization lowers memory usage, computational requirements, and latency by utilizing fewer bits to represent model weights and activations.",
+                "date": "Apr 19, 2024",
+                "position": 6
+              },
+              {
+                "title": "4-bit Conformer with Native Quantization Aware Training for Speech ...",
+                "link": "https://arxiv.org/html/2203.15952v4",
+                "snippet": "Along this direction, model quantization has become an increasingly popular approach to compress neural networks and reduce computation cost. Most of the ...",
+                "date": "Mar 3, 2023",
+                "position": 7
+              },
+              {
+                "title": "Make RepVGG Greater Again: A Quantization-aware Approach - arXiv",
+                "link": "https://arxiv.org/html/2212.01593v2",
+                "snippet": "Without bells and whistles, the top-1 accuracy drop on ImageNet is reduced within 2% by standard post-training quantization. Moreover, our method also achieves ...",
+                "date": "Dec 11, 2023",
+                "position": 8
+              },
+              {
+                "title": "FP8 Quantization: The Power of the Exponent - arXiv",
+                "link": "https://arxiv.org/html/2208.09225v2",
+                "snippet": "Neural network quantization is one of the most effective ways to improve the efficiency of neural networks. Quantization allows weights and activations to be ...",
+                "date": "Aug 21, 2022",
+                "position": 9
+              },
+              {
+                "title": "[PDF] LLM-QAT: Data-Free Quantization Aware Training for Large ... - arXiv",
+                "link": "https://arxiv.org/pdf/2305.17888",
+                "snippet": "Several post-training quantization methods have been applied to large language models (LLMs), and have been shown to perform well down to 8-bits. We find.",
+                "date": "May 29, 2023",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:06.596182+00:00",
+          "elapsed_seconds": 1.2883343920111656
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2106.08295",
+        "2201.08442",
+        "2203.15952",
+        "2208.09225",
+        "2212.01593",
+        "2305.17888",
+        "2308.04595",
+        "2402.04902",
+        "2404.11769",
+        "2408.13933"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2106.08295",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/pdf/2106.08295",
+          "title": "[PDF] A White Paper on Neural Network Quantization - arXiv",
+          "snippet": "Such simulations are significantly easier to implement compared to running experiments on actual quantized hardware or using quantized kernels. They allow the ..."
+        },
+        {
+          "arxiv_id": "2408.13933",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2408.13933v1",
+          "title": "Mobile-friendly Quantization for On-device Language Models - arXiv",
+          "snippet": "Deploying LLMs on device using MobileQuant results in a significant reduction in inference speed and energy usage as the latency and energy consumption of ..."
+        },
+        {
+          "arxiv_id": "2402.04902",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2402.04902v3",
+          "title": "L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on ... - arXiv",
+          "snippet": "This has led to active research on quantization-aware PEFT techniques, which aim to create models with high accuracy and low memory overhead. Among quantization ..."
+        },
+        {
+          "arxiv_id": "2201.08442",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2201.08442",
+          "title": "Neural Network Quantization with AI Model Efficiency Toolkit (AIMET)",
+          "snippet": "Neural network quantization is one of the most effective ways of achieving these savings, but the additional noise it induces can lead to accuracy degradation."
+        },
+        {
+          "arxiv_id": "2308.04595",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2308.04595",
+          "title": "Quantization Aware Factorization for Deep Neural Network ... - arXiv",
+          "snippet": "Abstract:Tensor decomposition of convolutional and fully-connected layers is an effective way to reduce parameters and FLOP in neural networks."
+        },
+        {
+          "arxiv_id": "2404.11769",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2404.11769?",
+          "title": "[PDF] On the Ability to Generalize in Quantization Aware Training - arXiv",
+          "snippet": "Quantization lowers memory usage, computational requirements, and latency by utilizing fewer bits to represent model weights and activations."
+        },
+        {
+          "arxiv_id": "2203.15952",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2203.15952v4",
+          "title": "4-bit Conformer with Native Quantization Aware Training for Speech ...",
+          "snippet": "Along this direction, model quantization has become an increasingly popular approach to compress neural networks and reduce computation cost. Most of the ..."
+        },
+        {
+          "arxiv_id": "2212.01593",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2212.01593v2",
+          "title": "Make RepVGG Greater Again: A Quantization-aware Approach - arXiv",
+          "snippet": "Without bells and whistles, the top-1 accuracy drop on ImageNet is reduced within 2% by standard post-training quantization. Moreover, our method also achieves ..."
+        },
+        {
+          "arxiv_id": "2208.09225",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2208.09225v2",
+          "title": "FP8 Quantization: The Power of the Exponent - arXiv",
+          "snippet": "Neural network quantization is one of the most effective ways to improve the efficiency of neural networks. Quantization allows weights and activations to be ..."
+        },
+        {
+          "arxiv_id": "2305.17888",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2305.17888",
+          "title": "[PDF] LLM-QAT: Data-Free Quantization Aware Training for Large ... - arXiv",
+          "snippet": "Several post-training quantization methods have been applied to large language models (LLMs), and have been shown to perform well down to 8-bits. We find."
+        }
+      ],
+      "request_payload": {
+        "q": "Advantages of Quantization-Aware Training in AI before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Research papers on the impact of Quantization-Aware Training on low-bit weight representations",
+      "attempts": [
+        {
+          "global_attempt_sequence": 243,
+          "query_id": "Q40",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Research papers on the impact of Quantization-Aware Training on low-bit weight representations",
+          "request_payload": {
+            "q": "Research papers on the impact of Quantization-Aware Training on low-bit weight representations before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q40_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:30:06.831320+00:00",
+          "status": "TRANSPORT_OR_CLIENT_FAILURE",
+          "http_status": null,
+          "error_type": "ProxyError",
+          "error_message": "HTTPSConnectionPool(host='google.serper.dev', port=443): Max retries exceeded with url: /search (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))",
+          "finished_utc": "2026-09-15T06:30:07.235720+00:00",
+          "elapsed_seconds": 0.40439366549253464
+        },
+        {
+          "global_attempt_sequence": 244,
+          "query_id": "Q40",
+          "query_key": "q3",
+          "attempt": 2,
+          "query_text": "Research papers on the impact of Quantization-Aware Training on low-bit weight representations",
+          "request_payload": {
+            "q": "Research papers on the impact of Quantization-Aware Training on low-bit weight representations before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q40_q3_attempt2.json",
+          "started_utc": "2026-09-15T06:30:08.353470+00:00",
+          "status": "TRANSPORT_OR_CLIENT_FAILURE",
+          "http_status": null,
+          "error_type": "SSLError",
+          "error_message": "HTTPSConnectionPool(host='google.serper.dev', port=443): Max retries exceeded with url: /search (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1017)')))",
+          "finished_utc": "2026-09-15T06:30:13.440728+00:00",
+          "elapsed_seconds": 5.087251249700785
+        },
+        {
+          "global_attempt_sequence": 245,
+          "query_id": "Q40",
+          "query_key": "q3",
+          "attempt": 3,
+          "query_text": "Research papers on the impact of Quantization-Aware Training on low-bit weight representations",
+          "request_payload": {
+            "q": "Research papers on the impact of Quantization-Aware Training on low-bit weight representations before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q40_q3_attempt3.json",
+          "started_utc": "2026-09-15T06:30:15.560739+00:00",
+          "status": "TRANSPORT_OR_CLIENT_FAILURE",
+          "http_status": null,
+          "error_type": "ProxyError",
+          "error_message": "HTTPSConnectionPool(host='google.serper.dev', port=443): Max retries exceeded with url: /search (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))",
+          "finished_utc": "2026-09-15T06:30:20.004975+00:00",
+          "elapsed_seconds": 4.444229606539011
+        }
+      ],
+      "status": "FAILED",
+      "returned_arxiv_ids": [],
+      "organic_hits": [],
+      "request_payload": {
+        "q": "Research papers on the impact of Quantization-Aware Training on low-bit weight representations before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Effects of Quantization-Aware Training on model representations",
+      "attempts": [
+        {
+          "global_attempt_sequence": 246,
+          "query_id": "Q40",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Effects of Quantization-Aware Training on model representations",
+          "request_payload": {
+            "q": "Effects of Quantization-Aware Training on model representations before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q40_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:30:20.235596+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Effects of Quantization-Aware Training on model representations before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"AWEQ: Post-Training Quantization with Activation-Weight ... - arXiv\",\"link\":\"https://arxiv.org/html/2311.01305v3\",\"snippet\":\"Quantization is a promising approach to reduce the storage and computational costs of large models by representing model parameters with smaller bit ...\",\"date\":\"Nov 12, 2023\",\"position\":1},{\"title\":\"A Comprehensive Evaluation of Quantization Strategiesfor Large ...\",\"link\":\"https://arxiv.org/html/2402.16775v1\",\"snippet\":\"Quantization techniques, which reduce the bits needed for model weights or activations with minimal performance loss, have become popular due to the rise of ...\",\"date\":\"Feb 26, 2024\",\"position\":2},{\"title\":\"4-bit Conformer with Native Quantization Aware Training for Speech ...\",\"link\":\"https://arxiv.org/html/2203.15952v4\",\"snippet\":\"By contrast, we train our model from scratch in quantization aware mode and show that training time is increased by only 7% (on hardware with float operations).\",\"date\":\"Mar 3, 2023\",\"position\":3},{\"title\":\"EdgeQAT: Entropy and Distribution Guided Quantization-Aware ...\",\"link\":\"https://arxiv.org/html/2402.10787v1\",\"snippet\":\"Besides requiring fewer resources, quantization can effectively accelerate the computation with higher throughput and improve energy efficiency, by leveraging ...\",\"date\":\"Feb 16, 2024\",\"position\":4},{\"title\":\"[PDF] Exploiting the Partly Scratch-off Lottery Ticket for Quantization ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2211.08544\",\"snippet\":\"The limited capacity of low-bit representation requires accomplishing network quantization in a quantization-aware training (QAT) manner so as to mitigate the ...\",\"date\":\"Apr 19, 2021\",\"position\":5},{\"title\":\"[PDF] Q8BERT: Quantized 8Bit BERT - arXiv\",\"link\":\"https://arxiv.org/pdf/1910.06188\",\"snippet\":\"In this work we show how to perform quantization-aware training during the fine-tuning phase of BERT in order to compress BERT by 4× with minimal accuracy loss.\",\"date\":\"Oct 17, 2019\",\"position\":6},{\"title\":\"[PDF] AdaQAT: Adaptive Bit-Width Quantization-Aware Training - arXiv\",\"link\":\"https://arxiv.org/pdf/2404.16876\",\"snippet\":\"Model quantization is a common approach to deal with deployment con- straints, but searching for optimized bit-widths can be challenging. In this work, we ...\",\"date\":\"Apr 22, 2024\",\"position\":7},{\"title\":\"[PDF] A White Paper on Neural Network Quantization - arXiv\",\"link\":\"https://arxiv.org/pdf/2106.08295\",\"snippet\":\"Quantization-aware training models the quantization noise during training through simulated quanti- zation operations. This training procedure allows for ...\",\"date\":\"Jun 15, 2021\",\"position\":8},{\"title\":\"L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.04902v3\",\"snippet\":\"Our experiments demonstrate that this coupled quantization and fine-tuning approach yields superior accuracy compared to decoupled fine-tuning schemes in sub-4- ...\",\"date\":\"May 22, 2024\",\"sitelinks\":[{\"title\":\"2.2 Quantization\",\"link\":\"https://arxiv.org/html/2402.04902v3#:~:text=2.2%20Quantization,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"2.3 Llm Quantization\",\"link\":\"https://arxiv.org/html/2402.04902v3#:~:text=2.3%20LLM%20Quantization,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"4 Experiments\",\"link\":\"https://arxiv.org/html/2402.04902v3#:~:text=4%20Experiments,-Report%20issue%20for%20preceding%20element\"}],\"position\":9},{\"title\":\"[PDF] LLM-QAT: Data-Free Quantization Aware Training for Large ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2305.17888\",\"snippet\":\"Notably, larger models employing QAT outperform smaller models utilizing floating-point 16-bit representations, despite having similar model sizes. Furthermore, ...\",\"date\":\"May 29, 2023\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJFZmZlY3RzIG9mIFF1YW50aXphdGlvbi1Bd2FyZSBUcmFpbmluZyBvbiBtb2RlbCByZXByZXNlbnRhdGlvbnMgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQVdFUTogUG9zdC1UcmFpbmluZyBRdWFudGl6YXRpb24gd2l0aCBBY3RpdmF0aW9uLVdlaWdodCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMDEzMDV2MyIsInNuaXBwZXQiOiJRdWFudGl6YXRpb24gaXMgYSBwcm9taXNpbmcgYXBwcm9hY2ggdG8gcmVkdWNlIHRoZSBzdG9yYWdlIGFuZCBjb21wdXRhdGlvbmFsIGNvc3RzIG9mIGxhcmdlIG1vZGVscyBieSByZXByZXNlbnRpbmcgbW9kZWwgcGFyYW1ldGVycyB3aXRoIHNtYWxsZXIgYml0IC4uLiIsImRhdGUiOiJOb3YgMTIsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkEgQ29tcHJlaGVuc2l2ZSBFdmFsdWF0aW9uIG9mIFF1YW50aXphdGlvbiBTdHJhdGVnaWVzZm9yIExhcmdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTY3NzV2MSIsInNuaXBwZXQiOiJRdWFudGl6YXRpb24gdGVjaG5pcXVlcywgd2hpY2ggcmVkdWNlIHRoZSBiaXRzIG5lZWRlZCBmb3IgbW9kZWwgd2VpZ2h0cyBvciBhY3RpdmF0aW9ucyB3aXRoIG1pbmltYWwgcGVyZm9ybWFuY2UgbG9zcywgaGF2ZSBiZWNvbWUgcG9wdWxhciBkdWUgdG8gdGhlIHJpc2Ugb2YgLi4uIiwiZGF0ZSI6IkZlYiAyNiwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiNC1iaXQgQ29uZm9ybWVyIHdpdGggTmF0aXZlIFF1YW50aXphdGlvbiBBd2FyZSBUcmFpbmluZyBmb3IgU3BlZWNoIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDMuMTU5NTJ2NCIsInNuaXBwZXQiOiJCeSBjb250cmFzdCwgd2UgdHJhaW4gb3VyIG1vZGVsIGZyb20gc2NyYXRjaCBpbiBxdWFudGl6YXRpb24gYXdhcmUgbW9kZSBhbmQgc2hvdyB0aGF0IHRyYWluaW5nIHRpbWUgaXMgaW5jcmVhc2VkIGJ5IG9ubHkgNyUgKG9uIGhhcmR3YXJlIHdpdGggZmxvYXQgb3BlcmF0aW9ucykuIiwiZGF0ZSI6Ik1hciAzLCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJFZGdlUUFUOiBFbnRyb3B5IGFuZCBEaXN0cmlidXRpb24gR3VpZGVkIFF1YW50aXphdGlvbi1Bd2FyZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjEwNzg3djEiLCJzbmlwcGV0IjoiQmVzaWRlcyByZXF1aXJpbmcgZmV3ZXIgcmVzb3VyY2VzLCBxdWFudGl6YXRpb24gY2FuIGVmZmVjdGl2ZWx5IGFjY2VsZXJhdGUgdGhlIGNvbXB1dGF0aW9uIHdpdGggaGlnaGVyIHRocm91Z2hwdXQgYW5kIGltcHJvdmUgZW5lcmd5IGVmZmljaWVuY3ksIGJ5IGxldmVyYWdpbmcgLi4uIiwiZGF0ZSI6IkZlYiAxNiwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiW1BERl0gRXhwbG9pdGluZyB0aGUgUGFydGx5IFNjcmF0Y2gtb2ZmIExvdHRlcnkgVGlja2V0IGZvciBRdWFudGl6YXRpb24gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMTEuMDg1NDQiLCJzbmlwcGV0IjoiVGhlIGxpbWl0ZWQgY2FwYWNpdHkgb2YgbG93LWJpdCByZXByZXNlbnRhdGlvbiByZXF1aXJlcyBhY2NvbXBsaXNoaW5nIG5ldHdvcmsgcXVhbnRpemF0aW9uIGluIGEgcXVhbnRpemF0aW9uLWF3YXJlIHRyYWluaW5nIChRQVQpIG1hbm5lciBzbyBhcyB0byBtaXRpZ2F0ZSB0aGUgLi4uIiwiZGF0ZSI6IkFwciAxOSwgMjAyMSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiW1BERl0gUThCRVJUOiBRdWFudGl6ZWQgOEJpdCBCRVJUIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzE5MTAuMDYxODgiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrIHdlIHNob3cgaG93IHRvIHBlcmZvcm0gcXVhbnRpemF0aW9uLWF3YXJlIHRyYWluaW5nIGR1cmluZyB0aGUgZmluZS10dW5pbmcgcGhhc2Ugb2YgQkVSVCBpbiBvcmRlciB0byBjb21wcmVzcyBCRVJUIGJ5IDTDlyB3aXRoIG1pbmltYWwgYWNjdXJhY3kgbG9zcy4iLCJkYXRlIjoiT2N0IDE3LCAyMDE5IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBBZGFRQVQ6IEFkYXB0aXZlIEJpdC1XaWR0aCBRdWFudGl6YXRpb24tQXdhcmUgVHJhaW5pbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNC4xNjg3NiIsInNuaXBwZXQiOiJNb2RlbCBxdWFudGl6YXRpb24gaXMgYSBjb21tb24gYXBwcm9hY2ggdG8gZGVhbCB3aXRoIGRlcGxveW1lbnQgY29uLSBzdHJhaW50cywgYnV0IHNlYXJjaGluZyBmb3Igb3B0aW1pemVkIGJpdC13aWR0aHMgY2FuIGJlIGNoYWxsZW5naW5nLiBJbiB0aGlzIHdvcmssIHdlIC4uLiIsImRhdGUiOiJBcHIgMjIsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIEEgV2hpdGUgUGFwZXIgb24gTmV1cmFsIE5ldHdvcmsgUXVhbnRpemF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIxMDYuMDgyOTUiLCJzbmlwcGV0IjoiUXVhbnRpemF0aW9uLWF3YXJlIHRyYWluaW5nIG1vZGVscyB0aGUgcXVhbnRpemF0aW9uIG5vaXNlIGR1cmluZyB0cmFpbmluZyB0aHJvdWdoIHNpbXVsYXRlZCBxdWFudGktIHphdGlvbiBvcGVyYXRpb25zLiBUaGlzIHRyYWluaW5nIHByb2NlZHVyZSBhbGxvd3MgZm9yIC4uLiIsImRhdGUiOiJKdW4gMTUsIDIwMjEiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6Ikw0UTogUGFyYW1ldGVyIEVmZmljaWVudCBRdWFudGl6YXRpb24tQXdhcmUgRmluZS1UdW5pbmcgb24gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjA0OTAydjMiLCJzbmlwcGV0IjoiT3VyIGV4cGVyaW1lbnRzIGRlbW9uc3RyYXRlIHRoYXQgdGhpcyBjb3VwbGVkIHF1YW50aXphdGlvbiBhbmQgZmluZS10dW5pbmcgYXBwcm9hY2ggeWllbGRzIHN1cGVyaW9yIGFjY3VyYWN5IGNvbXBhcmVkIHRvIGRlY291cGxlZCBmaW5lLXR1bmluZyBzY2hlbWVzIGluIHN1Yi00LSAuLi4iLCJkYXRlIjoiTWF5IDIyLCAyMDI0Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjIuMiBRdWFudGl6YXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjA0OTAydjMjOn46dGV4dD0yLjIlMjBRdWFudGl6YXRpb24sLVJlcG9ydCUyMGlzc3VlJTIwZm9yJTIwcHJlY2VkaW5nJTIwZWxlbWVudCJ9LHsidGl0bGUiOiIyLjMgTGxtIFF1YW50aXphdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDQ5MDJ2MyM6fjp0ZXh0PTIuMyUyMExMTSUyMFF1YW50aXphdGlvbiwtUmVwb3J0JTIwaXNzdWUlMjBmb3IlMjBwcmVjZWRpbmclMjBlbGVtZW50In0seyJ0aXRsZSI6IjQgRXhwZXJpbWVudHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjA0OTAydjMjOn46dGV4dD00JTIwRXhwZXJpbWVudHMsLVJlcG9ydCUyMGlzc3VlJTIwZm9yJTIwcHJlY2VkaW5nJTIwZWxlbWVudCJ9XSwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBMTE0tUUFUOiBEYXRhLUZyZWUgUXVhbnRpemF0aW9uIEF3YXJlIFRyYWluaW5nIGZvciBMYXJnZSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4xNzg4OCIsInNuaXBwZXQiOiJOb3RhYmx5LCBsYXJnZXIgbW9kZWxzIGVtcGxveWluZyBRQVQgb3V0cGVyZm9ybSBzbWFsbGVyIG1vZGVscyB1dGlsaXppbmcgZmxvYXRpbmctcG9pbnQgMTYtYml0IHJlcHJlc2VudGF0aW9ucywgZGVzcGl0ZSBoYXZpbmcgc2ltaWxhciBtb2RlbCBzaXplcy4gRnVydGhlcm1vcmUsIC4uLiIsImRhdGUiOiJNYXkgMjksIDIwMjMiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "e1f32edab7db6fbee248f71a450c74a4c155922012a0d0cb7bfa966f91a5fa27",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Effects of Quantization-Aware Training on model representations before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "AWEQ: Post-Training Quantization with Activation-Weight ... - arXiv",
+                "link": "https://arxiv.org/html/2311.01305v3",
+                "snippet": "Quantization is a promising approach to reduce the storage and computational costs of large models by representing model parameters with smaller bit ...",
+                "date": "Nov 12, 2023",
+                "position": 1
+              },
+              {
+                "title": "A Comprehensive Evaluation of Quantization Strategiesfor Large ...",
+                "link": "https://arxiv.org/html/2402.16775v1",
+                "snippet": "Quantization techniques, which reduce the bits needed for model weights or activations with minimal performance loss, have become popular due to the rise of ...",
+                "date": "Feb 26, 2024",
+                "position": 2
+              },
+              {
+                "title": "4-bit Conformer with Native Quantization Aware Training for Speech ...",
+                "link": "https://arxiv.org/html/2203.15952v4",
+                "snippet": "By contrast, we train our model from scratch in quantization aware mode and show that training time is increased by only 7% (on hardware with float operations).",
+                "date": "Mar 3, 2023",
+                "position": 3
+              },
+              {
+                "title": "EdgeQAT: Entropy and Distribution Guided Quantization-Aware ...",
+                "link": "https://arxiv.org/html/2402.10787v1",
+                "snippet": "Besides requiring fewer resources, quantization can effectively accelerate the computation with higher throughput and improve energy efficiency, by leveraging ...",
+                "date": "Feb 16, 2024",
+                "position": 4
+              },
+              {
+                "title": "[PDF] Exploiting the Partly Scratch-off Lottery Ticket for Quantization ... - arXiv",
+                "link": "https://arxiv.org/pdf/2211.08544",
+                "snippet": "The limited capacity of low-bit representation requires accomplishing network quantization in a quantization-aware training (QAT) manner so as to mitigate the ...",
+                "date": "Apr 19, 2021",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Q8BERT: Quantized 8Bit BERT - arXiv",
+                "link": "https://arxiv.org/pdf/1910.06188",
+                "snippet": "In this work we show how to perform quantization-aware training during the fine-tuning phase of BERT in order to compress BERT by 4× with minimal accuracy loss.",
+                "date": "Oct 17, 2019",
+                "position": 6
+              },
+              {
+                "title": "[PDF] AdaQAT: Adaptive Bit-Width Quantization-Aware Training - arXiv",
+                "link": "https://arxiv.org/pdf/2404.16876",
+                "snippet": "Model quantization is a common approach to deal with deployment con- straints, but searching for optimized bit-widths can be challenging. In this work, we ...",
+                "date": "Apr 22, 2024",
+                "position": 7
+              },
+              {
+                "title": "[PDF] A White Paper on Neural Network Quantization - arXiv",
+                "link": "https://arxiv.org/pdf/2106.08295",
+                "snippet": "Quantization-aware training models the quantization noise during training through simulated quanti- zation operations. This training procedure allows for ...",
+                "date": "Jun 15, 2021",
+                "position": 8
+              },
+              {
+                "title": "L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on ... - arXiv",
+                "link": "https://arxiv.org/html/2402.04902v3",
+                "snippet": "Our experiments demonstrate that this coupled quantization and fine-tuning approach yields superior accuracy compared to decoupled fine-tuning schemes in sub-4- ...",
+                "date": "May 22, 2024",
+                "sitelinks": [
+                  {
+                    "title": "2.2 Quantization",
+                    "link": "https://arxiv.org/html/2402.04902v3#:~:text=2.2%20Quantization,-Report%20issue%20for%20preceding%20element"
+                  },
+                  {
+                    "title": "2.3 Llm Quantization",
+                    "link": "https://arxiv.org/html/2402.04902v3#:~:text=2.3%20LLM%20Quantization,-Report%20issue%20for%20preceding%20element"
+                  },
+                  {
+                    "title": "4 Experiments",
+                    "link": "https://arxiv.org/html/2402.04902v3#:~:text=4%20Experiments,-Report%20issue%20for%20preceding%20element"
+                  }
+                ],
+                "position": 9
+              },
+              {
+                "title": "[PDF] LLM-QAT: Data-Free Quantization Aware Training for Large ... - arXiv",
+                "link": "https://arxiv.org/pdf/2305.17888",
+                "snippet": "Notably, larger models employing QAT outperform smaller models utilizing floating-point 16-bit representations, despite having similar model sizes. Furthermore, ...",
+                "date": "May 29, 2023",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:22.206763+00:00",
+          "elapsed_seconds": 1.9711635448038578
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1910.06188",
+        "2106.08295",
+        "2203.15952",
+        "2211.08544",
+        "2305.17888",
+        "2311.01305",
+        "2402.04902",
+        "2402.10787",
+        "2402.16775",
+        "2404.16876"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2311.01305",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2311.01305v3",
+          "title": "AWEQ: Post-Training Quantization with Activation-Weight ... - arXiv",
+          "snippet": "Quantization is a promising approach to reduce the storage and computational costs of large models by representing model parameters with smaller bit ..."
+        },
+        {
+          "arxiv_id": "2402.16775",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2402.16775v1",
+          "title": "A Comprehensive Evaluation of Quantization Strategiesfor Large ...",
+          "snippet": "Quantization techniques, which reduce the bits needed for model weights or activations with minimal performance loss, have become popular due to the rise of ..."
+        },
+        {
+          "arxiv_id": "2203.15952",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2203.15952v4",
+          "title": "4-bit Conformer with Native Quantization Aware Training for Speech ...",
+          "snippet": "By contrast, we train our model from scratch in quantization aware mode and show that training time is increased by only 7% (on hardware with float operations)."
+        },
+        {
+          "arxiv_id": "2402.10787",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2402.10787v1",
+          "title": "EdgeQAT: Entropy and Distribution Guided Quantization-Aware ...",
+          "snippet": "Besides requiring fewer resources, quantization can effectively accelerate the computation with higher throughput and improve energy efficiency, by leveraging ..."
+        },
+        {
+          "arxiv_id": "2211.08544",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2211.08544",
+          "title": "[PDF] Exploiting the Partly Scratch-off Lottery Ticket for Quantization ... - arXiv",
+          "snippet": "The limited capacity of low-bit representation requires accomplishing network quantization in a quantization-aware training (QAT) manner so as to mitigate the ..."
+        },
+        {
+          "arxiv_id": "1910.06188",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/1910.06188",
+          "title": "[PDF] Q8BERT: Quantized 8Bit BERT - arXiv",
+          "snippet": "In this work we show how to perform quantization-aware training during the fine-tuning phase of BERT in order to compress BERT by 4× with minimal accuracy loss."
+        },
+        {
+          "arxiv_id": "2404.16876",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2404.16876",
+          "title": "[PDF] AdaQAT: Adaptive Bit-Width Quantization-Aware Training - arXiv",
+          "snippet": "Model quantization is a common approach to deal with deployment con- straints, but searching for optimized bit-widths can be challenging. In this work, we ..."
+        },
+        {
+          "arxiv_id": "2106.08295",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2106.08295",
+          "title": "[PDF] A White Paper on Neural Network Quantization - arXiv",
+          "snippet": "Quantization-aware training models the quantization noise during training through simulated quanti- zation operations. This training procedure allows for ..."
+        },
+        {
+          "arxiv_id": "2402.04902",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2402.04902v3",
+          "title": "L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on ... - arXiv",
+          "snippet": "Our experiments demonstrate that this coupled quantization and fine-tuning approach yields superior accuracy compared to decoupled fine-tuning schemes in sub-4- ..."
+        },
+        {
+          "arxiv_id": "2305.17888",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2305.17888",
+          "title": "[PDF] LLM-QAT: Data-Free Quantization Aware Training for Large ... - arXiv",
+          "snippet": "Notably, larger models employing QAT outperform smaller models utilizing floating-point 16-bit representations, despite having similar model sizes. Furthermore, ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Effects of Quantization-Aware Training on model representations before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Comparative studies on Quantization-Aware Training and Post-Training Quantization in AI",
+      "attempts": [
+        {
+          "global_attempt_sequence": 247,
+          "query_id": "Q40",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Comparative studies on Quantization-Aware Training and Post-Training Quantization in AI",
+          "request_payload": {
+            "q": "Comparative studies on Quantization-Aware Training and Post-Training Quantization in AI before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q40_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:30:22.442462+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Comparative studies on Quantization-Aware Training and Post-Training Quantization in AI before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Efficient Quantization-Aware Training for Large Language Models\",\"link\":\"https://arxiv.org/abs/2407.11062\",\"snippet\":\"EfficientQAT outperforms previous quantization methods across a range of models, including base LLMs, instruction-tuned LLMs, and multimodal LLMs,\",\"date\":\"Jul 10, 2024\",\"position\":1},{\"title\":\"[PDF] A White Paper on Neural Network Quantization - arXiv\",\"link\":\"https://arxiv.org/pdf/2106.08295\",\"snippet\":\"We then consider two different regimes of quantizing neural networks: Post-Training Quantization (PTQ) and Quantization-. Aware Training (QAT). PTQ methods, ...\",\"date\":\"Jun 15, 2021\",\"position\":2},{\"title\":\"A Comprehensive Evaluation of Quantization Strategiesfor Large ...\",\"link\":\"https://arxiv.org/html/2402.16775v1\",\"snippet\":\"Quantization approaches can be broadly classified into two primary categories: quantization-aware training (QAT) and post-training quantization (PTQ).\",\"date\":\"Feb 26, 2024\",\"position\":3},{\"title\":\"[PDF] Exploiting the Partly Scratch-off Lottery Ticket for Quantization ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2211.08544\",\"snippet\":\"Abstract—Quantization-aware training (QAT) receives exten- sive popularity as it well retains the performance of quantized networks.\",\"date\":\"Apr 19, 2021\",\"position\":4},{\"title\":\"[PDF] AdaQAT: Adaptive Bit-Width Quantization-Aware Training - arXiv\",\"link\":\"https://arxiv.org/pdf/2404.16876\",\"snippet\":\"Quantization Aware Training (QAT), while slower, generally leads to better results and should be preferred for extreme quantization problems.\",\"date\":\"Apr 22, 2024\",\"position\":5},{\"title\":\"Pruning vs Quantization: Which is Better? - arXiv\",\"link\":\"https://arxiv.org/html/2307.02973v2\",\"snippet\":\"We found that fine-tuning after pruning tends to recover the original representation, while quantization-aware training leads to learning completely new ...\",\"date\":\"Jul 9, 2023\",\"position\":6},{\"title\":\"LLM-QBench: A Benchmark Towards the Best Practice for Post ...\",\"link\":\"https://arxiv.org/html/2405.06001v1\",\"snippet\":\"Quantization, a key compression technique, offers a viable solution to mitigate these demands by compressing and accelerating LLMs, albeit with potential risks\",\"date\":\"May 9, 2024\",\"position\":7},{\"title\":\"[2305.17888] LLM-QAT: Data-Free Quantization Aware Training for ...\",\"link\":\"https://arxiv.org/abs/2305.17888\",\"snippet\":\"Abstract:Several post-training quantization methods have been applied to large language models (LLMs), and have been shown to perform well down to 8-bits.\",\"date\":\"May 29, 2023\",\"position\":8},{\"title\":\"Mobile-friendly Quantization for On-device Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2408.13933v1\",\"snippet\":\"The work explores reducing the overhead of on-device deployment for Large Language Models by hardware-friendly quantization. Our current study focuses on ...\",\"date\":\"Aug 25, 2024\",\"position\":9},{\"title\":\"[PDF] LLM-QAT: Data-Free Quantization Aware Training for Large ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2305.17888\",\"snippet\":\"Several post-training quantization methods have been applied to large language models (LLMs), and have been shown to perform well down to 8-bits. We find.\",\"date\":\"May 29, 2023\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb21wYXJhdGl2ZSBzdHVkaWVzIG9uIFF1YW50aXphdGlvbi1Bd2FyZSBUcmFpbmluZyBhbmQgUG9zdC1UcmFpbmluZyBRdWFudGl6YXRpb24gaW4gQUkgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiRWZmaWNpZW50IFF1YW50aXphdGlvbi1Bd2FyZSBUcmFpbmluZyBmb3IgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA3LjExMDYyIiwic25pcHBldCI6IkVmZmljaWVudFFBVCBvdXRwZXJmb3JtcyBwcmV2aW91cyBxdWFudGl6YXRpb24gbWV0aG9kcyBhY3Jvc3MgYSByYW5nZSBvZiBtb2RlbHMsIGluY2x1ZGluZyBiYXNlIExMTXMsIGluc3RydWN0aW9uLXR1bmVkIExMTXMsIGFuZCBtdWx0aW1vZGFsIExMTXMsIiwiZGF0ZSI6Ikp1bCAxMCwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiW1BERl0gQSBXaGl0ZSBQYXBlciBvbiBOZXVyYWwgTmV0d29yayBRdWFudGl6YXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjEwNi4wODI5NSIsInNuaXBwZXQiOiJXZSB0aGVuIGNvbnNpZGVyIHR3byBkaWZmZXJlbnQgcmVnaW1lcyBvZiBxdWFudGl6aW5nIG5ldXJhbCBuZXR3b3JrczogUG9zdC1UcmFpbmluZyBRdWFudGl6YXRpb24gKFBUUSkgYW5kIFF1YW50aXphdGlvbi0uIEF3YXJlIFRyYWluaW5nIChRQVQpLiBQVFEgbWV0aG9kcywgLi4uIiwiZGF0ZSI6Ikp1biAxNSwgMjAyMSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiQSBDb21wcmVoZW5zaXZlIEV2YWx1YXRpb24gb2YgUXVhbnRpemF0aW9uIFN0cmF0ZWdpZXNmb3IgTGFyZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4xNjc3NXYxIiwic25pcHBldCI6IlF1YW50aXphdGlvbiBhcHByb2FjaGVzIGNhbiBiZSBicm9hZGx5IGNsYXNzaWZpZWQgaW50byB0d28gcHJpbWFyeSBjYXRlZ29yaWVzOiBxdWFudGl6YXRpb24tYXdhcmUgdHJhaW5pbmcgKFFBVCkgYW5kIHBvc3QtdHJhaW5pbmcgcXVhbnRpemF0aW9uIChQVFEpLiIsImRhdGUiOiJGZWIgMjYsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIEV4cGxvaXRpbmcgdGhlIFBhcnRseSBTY3JhdGNoLW9mZiBMb3R0ZXJ5IFRpY2tldCBmb3IgUXVhbnRpemF0aW9uIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjExLjA4NTQ0Iiwic25pcHBldCI6IkFic3RyYWN04oCUUXVhbnRpemF0aW9uLWF3YXJlIHRyYWluaW5nIChRQVQpIHJlY2VpdmVzIGV4dGVuLSBzaXZlIHBvcHVsYXJpdHkgYXMgaXQgd2VsbCByZXRhaW5zIHRoZSBwZXJmb3JtYW5jZSBvZiBxdWFudGl6ZWQgbmV0d29ya3MuIiwiZGF0ZSI6IkFwciAxOSwgMjAyMSIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiW1BERl0gQWRhUUFUOiBBZGFwdGl2ZSBCaXQtV2lkdGggUXVhbnRpemF0aW9uLUF3YXJlIFRyYWluaW5nIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDQuMTY4NzYiLCJzbmlwcGV0IjoiUXVhbnRpemF0aW9uIEF3YXJlIFRyYWluaW5nIChRQVQpLCB3aGlsZSBzbG93ZXIsIGdlbmVyYWxseSBsZWFkcyB0byBiZXR0ZXIgcmVzdWx0cyBhbmQgc2hvdWxkIGJlIHByZWZlcnJlZCBmb3IgZXh0cmVtZSBxdWFudGl6YXRpb24gcHJvYmxlbXMuIiwiZGF0ZSI6IkFwciAyMiwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiUHJ1bmluZyB2cyBRdWFudGl6YXRpb246IFdoaWNoIGlzIEJldHRlcj8gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDcuMDI5NzN2MiIsInNuaXBwZXQiOiJXZSBmb3VuZCB0aGF0IGZpbmUtdHVuaW5nIGFmdGVyIHBydW5pbmcgdGVuZHMgdG8gcmVjb3ZlciB0aGUgb3JpZ2luYWwgcmVwcmVzZW50YXRpb24sIHdoaWxlIHF1YW50aXphdGlvbi1hd2FyZSB0cmFpbmluZyBsZWFkcyB0byBsZWFybmluZyBjb21wbGV0ZWx5IG5ldyAuLi4iLCJkYXRlIjoiSnVsIDksIDIwMjMiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkxMTS1RQmVuY2g6IEEgQmVuY2htYXJrIFRvd2FyZHMgdGhlIEJlc3QgUHJhY3RpY2UgZm9yIFBvc3QgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4wNjAwMXYxIiwic25pcHBldCI6IlF1YW50aXphdGlvbiwgYSBrZXkgY29tcHJlc3Npb24gdGVjaG5pcXVlLCBvZmZlcnMgYSB2aWFibGUgc29sdXRpb24gdG8gbWl0aWdhdGUgdGhlc2UgZGVtYW5kcyBieSBjb21wcmVzc2luZyBhbmQgYWNjZWxlcmF0aW5nIExMTXMsIGFsYmVpdCB3aXRoIHBvdGVudGlhbCByaXNrcyIsImRhdGUiOiJNYXkgOSwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiWzIzMDUuMTc4ODhdIExMTS1RQVQ6IERhdGEtRnJlZSBRdWFudGl6YXRpb24gQXdhcmUgVHJhaW5pbmcgZm9yIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNS4xNzg4OCIsInNuaXBwZXQiOiJBYnN0cmFjdDpTZXZlcmFsIHBvc3QtdHJhaW5pbmcgcXVhbnRpemF0aW9uIG1ldGhvZHMgaGF2ZSBiZWVuIGFwcGxpZWQgdG8gbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSwgYW5kIGhhdmUgYmVlbiBzaG93biB0byBwZXJmb3JtIHdlbGwgZG93biB0byA4LWJpdHMuIiwiZGF0ZSI6Ik1heSAyOSwgMjAyMyIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiTW9iaWxlLWZyaWVuZGx5IFF1YW50aXphdGlvbiBmb3IgT24tZGV2aWNlIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOC4xMzkzM3YxIiwic25pcHBldCI6IlRoZSB3b3JrIGV4cGxvcmVzIHJlZHVjaW5nIHRoZSBvdmVyaGVhZCBvZiBvbi1kZXZpY2UgZGVwbG95bWVudCBmb3IgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGJ5IGhhcmR3YXJlLWZyaWVuZGx5IHF1YW50aXphdGlvbi4gT3VyIGN1cnJlbnQgc3R1ZHkgZm9jdXNlcyBvbiAuLi4iLCJkYXRlIjoiQXVnIDI1LCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBMTE0tUUFUOiBEYXRhLUZyZWUgUXVhbnRpemF0aW9uIEF3YXJlIFRyYWluaW5nIGZvciBMYXJnZSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4xNzg4OCIsInNuaXBwZXQiOiJTZXZlcmFsIHBvc3QtdHJhaW5pbmcgcXVhbnRpemF0aW9uIG1ldGhvZHMgaGF2ZSBiZWVuIGFwcGxpZWQgdG8gbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSwgYW5kIGhhdmUgYmVlbiBzaG93biB0byBwZXJmb3JtIHdlbGwgZG93biB0byA4LWJpdHMuIFdlIGZpbmQuIiwiZGF0ZSI6Ik1heSAyOSwgMjAyMyIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "f2c474854d184aa69b82ea67708b9ebb7e3902caa6e0781c4060eeba64f8ab44",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Comparative studies on Quantization-Aware Training and Post-Training Quantization in AI before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Efficient Quantization-Aware Training for Large Language Models",
+                "link": "https://arxiv.org/abs/2407.11062",
+                "snippet": "EfficientQAT outperforms previous quantization methods across a range of models, including base LLMs, instruction-tuned LLMs, and multimodal LLMs,",
+                "date": "Jul 10, 2024",
+                "position": 1
+              },
+              {
+                "title": "[PDF] A White Paper on Neural Network Quantization - arXiv",
+                "link": "https://arxiv.org/pdf/2106.08295",
+                "snippet": "We then consider two different regimes of quantizing neural networks: Post-Training Quantization (PTQ) and Quantization-. Aware Training (QAT). PTQ methods, ...",
+                "date": "Jun 15, 2021",
+                "position": 2
+              },
+              {
+                "title": "A Comprehensive Evaluation of Quantization Strategiesfor Large ...",
+                "link": "https://arxiv.org/html/2402.16775v1",
+                "snippet": "Quantization approaches can be broadly classified into two primary categories: quantization-aware training (QAT) and post-training quantization (PTQ).",
+                "date": "Feb 26, 2024",
+                "position": 3
+              },
+              {
+                "title": "[PDF] Exploiting the Partly Scratch-off Lottery Ticket for Quantization ... - arXiv",
+                "link": "https://arxiv.org/pdf/2211.08544",
+                "snippet": "Abstract—Quantization-aware training (QAT) receives exten- sive popularity as it well retains the performance of quantized networks.",
+                "date": "Apr 19, 2021",
+                "position": 4
+              },
+              {
+                "title": "[PDF] AdaQAT: Adaptive Bit-Width Quantization-Aware Training - arXiv",
+                "link": "https://arxiv.org/pdf/2404.16876",
+                "snippet": "Quantization Aware Training (QAT), while slower, generally leads to better results and should be preferred for extreme quantization problems.",
+                "date": "Apr 22, 2024",
+                "position": 5
+              },
+              {
+                "title": "Pruning vs Quantization: Which is Better? - arXiv",
+                "link": "https://arxiv.org/html/2307.02973v2",
+                "snippet": "We found that fine-tuning after pruning tends to recover the original representation, while quantization-aware training leads to learning completely new ...",
+                "date": "Jul 9, 2023",
+                "position": 6
+              },
+              {
+                "title": "LLM-QBench: A Benchmark Towards the Best Practice for Post ...",
+                "link": "https://arxiv.org/html/2405.06001v1",
+                "snippet": "Quantization, a key compression technique, offers a viable solution to mitigate these demands by compressing and accelerating LLMs, albeit with potential risks",
+                "date": "May 9, 2024",
+                "position": 7
+              },
+              {
+                "title": "[2305.17888] LLM-QAT: Data-Free Quantization Aware Training for ...",
+                "link": "https://arxiv.org/abs/2305.17888",
+                "snippet": "Abstract:Several post-training quantization methods have been applied to large language models (LLMs), and have been shown to perform well down to 8-bits.",
+                "date": "May 29, 2023",
+                "position": 8
+              },
+              {
+                "title": "Mobile-friendly Quantization for On-device Language Models - arXiv",
+                "link": "https://arxiv.org/html/2408.13933v1",
+                "snippet": "The work explores reducing the overhead of on-device deployment for Large Language Models by hardware-friendly quantization. Our current study focuses on ...",
+                "date": "Aug 25, 2024",
+                "position": 9
+              },
+              {
+                "title": "[PDF] LLM-QAT: Data-Free Quantization Aware Training for Large ... - arXiv",
+                "link": "https://arxiv.org/pdf/2305.17888",
+                "snippet": "Several post-training quantization methods have been applied to large language models (LLMs), and have been shown to perform well down to 8-bits. We find.",
+                "date": "May 29, 2023",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:23.929884+00:00",
+          "elapsed_seconds": 1.4874194972217083
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2106.08295",
+        "2211.08544",
+        "2305.17888",
+        "2307.02973",
+        "2402.16775",
+        "2404.16876",
+        "2405.06001",
+        "2407.11062",
+        "2408.13933"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2407.11062",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2407.11062",
+          "title": "Efficient Quantization-Aware Training for Large Language Models",
+          "snippet": "EfficientQAT outperforms previous quantization methods across a range of models, including base LLMs, instruction-tuned LLMs, and multimodal LLMs,"
+        },
+        {
+          "arxiv_id": "2106.08295",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/pdf/2106.08295",
+          "title": "[PDF] A White Paper on Neural Network Quantization - arXiv",
+          "snippet": "We then consider two different regimes of quantizing neural networks: Post-Training Quantization (PTQ) and Quantization-. Aware Training (QAT). PTQ methods, ..."
+        },
+        {
+          "arxiv_id": "2402.16775",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2402.16775v1",
+          "title": "A Comprehensive Evaluation of Quantization Strategiesfor Large ...",
+          "snippet": "Quantization approaches can be broadly classified into two primary categories: quantization-aware training (QAT) and post-training quantization (PTQ)."
+        },
+        {
+          "arxiv_id": "2211.08544",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2211.08544",
+          "title": "[PDF] Exploiting the Partly Scratch-off Lottery Ticket for Quantization ... - arXiv",
+          "snippet": "Abstract—Quantization-aware training (QAT) receives exten- sive popularity as it well retains the performance of quantized networks."
+        },
+        {
+          "arxiv_id": "2404.16876",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2404.16876",
+          "title": "[PDF] AdaQAT: Adaptive Bit-Width Quantization-Aware Training - arXiv",
+          "snippet": "Quantization Aware Training (QAT), while slower, generally leads to better results and should be preferred for extreme quantization problems."
+        },
+        {
+          "arxiv_id": "2307.02973",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2307.02973v2",
+          "title": "Pruning vs Quantization: Which is Better? - arXiv",
+          "snippet": "We found that fine-tuning after pruning tends to recover the original representation, while quantization-aware training leads to learning completely new ..."
+        },
+        {
+          "arxiv_id": "2405.06001",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2405.06001v1",
+          "title": "LLM-QBench: A Benchmark Towards the Best Practice for Post ...",
+          "snippet": "Quantization, a key compression technique, offers a viable solution to mitigate these demands by compressing and accelerating LLMs, albeit with potential risks"
+        },
+        {
+          "arxiv_id": "2305.17888",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2305.17888",
+          "title": "[2305.17888] LLM-QAT: Data-Free Quantization Aware Training for ...",
+          "snippet": "Abstract:Several post-training quantization methods have been applied to large language models (LLMs), and have been shown to perform well down to 8-bits."
+        },
+        {
+          "arxiv_id": "2408.13933",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2408.13933v1",
+          "title": "Mobile-friendly Quantization for On-device Language Models - arXiv",
+          "snippet": "The work explores reducing the overhead of on-device deployment for Large Language Models by hardware-friendly quantization. Our current study focuses on ..."
+        },
+        {
+          "arxiv_id": "2305.17888",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2305.17888",
+          "title": "[PDF] LLM-QAT: Data-Free Quantization Aware Training for Large ... - arXiv",
+          "snippet": "Several post-training quantization methods have been applied to large language models (LLMs), and have been shown to perform well down to 8-bits. We find."
+        }
+      ],
+      "request_payload": {
+        "q": "Comparative studies on Quantization-Aware Training and Post-Training Quantization in AI before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 248,
+          "query_id": "Q40",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?.",
+          "request_payload": {
+            "q": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q40_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:30:24.164485+00:00",
+          "status": "TRANSPORT_OR_CLIENT_FAILURE",
+          "http_status": null,
+          "error_type": "ProxyError",
+          "error_message": "HTTPSConnectionPool(host='google.serper.dev', port=443): Max retries exceeded with url: /search (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))",
+          "finished_utc": "2026-09-15T06:30:25.595542+00:00",
+          "elapsed_seconds": 1.4310534335672855
+        },
+        {
+          "global_attempt_sequence": 249,
+          "query_id": "Q40",
+          "query_key": "anchor",
+          "attempt": 2,
+          "query_text": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?.",
+          "request_payload": {
+            "q": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q40_anchor_attempt2.json",
+          "started_utc": "2026-09-15T06:30:26.713264+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"EdgeQAT: Entropy and Distribution Guided Quantization-Aware ...\",\"link\":\"https://arxiv.org/html/2402.10787v1\",\"snippet\":\"Quantization-Aware Training (QAT) presents a promising avenue for better performance in lower-bit configurations, but its data accessibility, training cost, and ...\",\"date\":\"Feb 16, 2024\",\"position\":1},{\"title\":\"Mobile-friendly Quantization for On-device Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2408.13933v1\",\"snippet\":\"A standard approach to facilitate running these models on edge devices is to quantize them, representing weights and activations with fewer bits, thereby ...\",\"date\":\"Aug 25, 2024\",\"position\":2},{\"title\":\"L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.04902v3\",\"snippet\":\"QAT has proven effective in adjusting the model parameters for quantization during training. ... Low-bit Weight Quantization of Large Language Models ...\",\"date\":\"May 22, 2024\",\"position\":3},{\"title\":\"Efficient Adaptive Activation Rounding for Post-Training Quantization\",\"link\":\"https://arxiv.org/html/2208.11945v3\",\"snippet\":\"DNN quantization presents a solution by reducing both computational and storage burdens by converting floating-point numbers into low-bit representations. This ...\",\"date\":\"Aug 24, 2023\",\"position\":4},{\"title\":\"A Comprehensive Evaluation of Quantization Strategiesfor Large ...\",\"link\":\"https://arxiv.org/html/2402.16775v1\",\"snippet\":\"The central idea of model quantization is representing the weights or activations of a model in a lower-precision format (such as 8-bit integers) rather than ...\",\"date\":\"Feb 26, 2024\",\"position\":5},{\"title\":\"LLM-QBench: A Benchmark Towards the Best Practice for Post ...\",\"link\":\"https://arxiv.org/html/2405.06001v1\",\"snippet\":\"High-bit quantization benefits from lower mixture rates, while low-bit requires more full-precision weights in small LLMs for better performance.\",\"date\":\"May 9, 2024\",\"position\":6},{\"title\":\"Trainable Fixed-Point Quantization for Deep Learning Acceleration ...\",\"link\":\"https://arxiv.org/html/2401.17544v1\",\"snippet\":\"QFX can quantize models trained with element-wise layers quantized to fewer bits and achieve higher accuracy on both CIFAR-10 and ImageNet datasets.\",\"date\":\"Jan 31, 2024\",\"position\":7},{\"title\":\"Integer or Floating Point? New Outlooks for Low-Bit Quantization on ...\",\"link\":\"https://arxiv.org/html/2305.12356v1\",\"snippet\":\"Low-bit quantization plays a crucial role in the deployment of deep learning models due to its capacity to minimize the model size and inference cost [18; 10] .\",\"date\":\"May 21, 2023\",\"sitelinks\":[{\"title\":\"Integer Or Floating Point?...\",\"link\":\"https://arxiv.org/html/2305.12356v1#:~:text=Integer%20or%20Floating%20Point%3F%20New%20Outlooks%20for,-Low%2DBit%20Quantization%20on\"},{\"title\":\"3.2 Quantization Error\",\"link\":\"https://arxiv.org/html/2305.12356v1#:~:text=3.2%20Quantization%20Error,-In%20this%20subsection%2C%20we\"},{\"title\":\"5 Experiments\",\"link\":\"https://arxiv.org/html/2305.12356v1#:~:text=5%20Experiments,-In%20the%20experiments%2C%20we\"}],\"position\":8},{\"title\":\"FP8 Quantization: The Power of the Exponent - arXiv\",\"link\":\"https://arxiv.org/html/2208.09225v2\",\"snippet\":\"Quantization allows weights and activations to be represented in low bit-width formats, e.g. 8 bit integers (INT8). When executing networks on any device, this ...\",\"date\":\"Aug 21, 2022\",\"position\":9},{\"title\":\"Temporal Dynamic Quantization for Diffusion Models - arXiv\",\"link\":\"https://arxiv.org/html/2306.02316v2\",\"snippet\":\"Quantization is a prominent neural network optimization technique that reduces storage requirements with low-precision representation and performance ...\",\"date\":\"Dec 11, 2023\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb3VsZCB5b3UgbGlzdCByZXNlYXJjaCB0aGF0IGRlbW9uc3RyYXRlcyB0aGUgYWR2YW50YWdlcyBvZiBRdWFudGl6YXRpb24tQXdhcmUgVHJhaW5pbmcgKFFBVCksIHdoaWNoIGNhbiBlbmFibGUgdGhlIG1vZGVsIHRvIGxlYXJuIGJldHRlciByZXByZXNlbnRhdGlvbnMgZm9yIGxvdy1iaXQgd2VpZ2h0cz8uIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkVkZ2VRQVQ6IEVudHJvcHkgYW5kIERpc3RyaWJ1dGlvbiBHdWlkZWQgUXVhbnRpemF0aW9uLUF3YXJlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTA3ODd2MSIsInNuaXBwZXQiOiJRdWFudGl6YXRpb24tQXdhcmUgVHJhaW5pbmcgKFFBVCkgcHJlc2VudHMgYSBwcm9taXNpbmcgYXZlbnVlIGZvciBiZXR0ZXIgcGVyZm9ybWFuY2UgaW4gbG93ZXItYml0IGNvbmZpZ3VyYXRpb25zLCBidXQgaXRzIGRhdGEgYWNjZXNzaWJpbGl0eSwgdHJhaW5pbmcgY29zdCwgYW5kIC4uLiIsImRhdGUiOiJGZWIgMTYsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6Ik1vYmlsZS1mcmllbmRseSBRdWFudGl6YXRpb24gZm9yIE9uLWRldmljZSBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTM5MzN2MSIsInNuaXBwZXQiOiJBIHN0YW5kYXJkIGFwcHJvYWNoIHRvIGZhY2lsaXRhdGUgcnVubmluZyB0aGVzZSBtb2RlbHMgb24gZWRnZSBkZXZpY2VzIGlzIHRvIHF1YW50aXplIHRoZW0sIHJlcHJlc2VudGluZyB3ZWlnaHRzIGFuZCBhY3RpdmF0aW9ucyB3aXRoIGZld2VyIGJpdHMsIHRoZXJlYnkgLi4uIiwiZGF0ZSI6IkF1ZyAyNSwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiTDRROiBQYXJhbWV0ZXIgRWZmaWNpZW50IFF1YW50aXphdGlvbi1Bd2FyZSBGaW5lLVR1bmluZyBvbiAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDQ5MDJ2MyIsInNuaXBwZXQiOiJRQVQgaGFzIHByb3ZlbiBlZmZlY3RpdmUgaW4gYWRqdXN0aW5nIHRoZSBtb2RlbCBwYXJhbWV0ZXJzIGZvciBxdWFudGl6YXRpb24gZHVyaW5nIHRyYWluaW5nLiAuLi4gTG93LWJpdCBXZWlnaHQgUXVhbnRpemF0aW9uIG9mIExhcmdlIExhbmd1YWdlIE1vZGVscyAuLi4iLCJkYXRlIjoiTWF5IDIyLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJFZmZpY2llbnQgQWRhcHRpdmUgQWN0aXZhdGlvbiBSb3VuZGluZyBmb3IgUG9zdC1UcmFpbmluZyBRdWFudGl6YXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjA4LjExOTQ1djMiLCJzbmlwcGV0IjoiRE5OIHF1YW50aXphdGlvbiBwcmVzZW50cyBhIHNvbHV0aW9uIGJ5IHJlZHVjaW5nIGJvdGggY29tcHV0YXRpb25hbCBhbmQgc3RvcmFnZSBidXJkZW5zIGJ5IGNvbnZlcnRpbmcgZmxvYXRpbmctcG9pbnQgbnVtYmVycyBpbnRvIGxvdy1iaXQgcmVwcmVzZW50YXRpb25zLiBUaGlzIC4uLiIsImRhdGUiOiJBdWcgMjQsIDIwMjMiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkEgQ29tcHJlaGVuc2l2ZSBFdmFsdWF0aW9uIG9mIFF1YW50aXphdGlvbiBTdHJhdGVnaWVzZm9yIExhcmdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTY3NzV2MSIsInNuaXBwZXQiOiJUaGUgY2VudHJhbCBpZGVhIG9mIG1vZGVsIHF1YW50aXphdGlvbiBpcyByZXByZXNlbnRpbmcgdGhlIHdlaWdodHMgb3IgYWN0aXZhdGlvbnMgb2YgYSBtb2RlbCBpbiBhIGxvd2VyLXByZWNpc2lvbiBmb3JtYXQgKHN1Y2ggYXMgOC1iaXQgaW50ZWdlcnMpIHJhdGhlciB0aGFuIC4uLiIsImRhdGUiOiJGZWIgMjYsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkxMTS1RQmVuY2g6IEEgQmVuY2htYXJrIFRvd2FyZHMgdGhlIEJlc3QgUHJhY3RpY2UgZm9yIFBvc3QgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4wNjAwMXYxIiwic25pcHBldCI6IkhpZ2gtYml0IHF1YW50aXphdGlvbiBiZW5lZml0cyBmcm9tIGxvd2VyIG1peHR1cmUgcmF0ZXMsIHdoaWxlIGxvdy1iaXQgcmVxdWlyZXMgbW9yZSBmdWxsLXByZWNpc2lvbiB3ZWlnaHRzIGluIHNtYWxsIExMTXMgZm9yIGJldHRlciBwZXJmb3JtYW5jZS4iLCJkYXRlIjoiTWF5IDksIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlRyYWluYWJsZSBGaXhlZC1Qb2ludCBRdWFudGl6YXRpb24gZm9yIERlZXAgTGVhcm5pbmcgQWNjZWxlcmF0aW9uIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMTc1NDR2MSIsInNuaXBwZXQiOiJRRlggY2FuIHF1YW50aXplIG1vZGVscyB0cmFpbmVkIHdpdGggZWxlbWVudC13aXNlIGxheWVycyBxdWFudGl6ZWQgdG8gZmV3ZXIgYml0cyBhbmQgYWNoaWV2ZSBoaWdoZXIgYWNjdXJhY3kgb24gYm90aCBDSUZBUi0xMCBhbmQgSW1hZ2VOZXQgZGF0YXNldHMuIiwiZGF0ZSI6IkphbiAzMSwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiSW50ZWdlciBvciBGbG9hdGluZyBQb2ludD8gTmV3IE91dGxvb2tzIGZvciBMb3ctQml0IFF1YW50aXphdGlvbiBvbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA1LjEyMzU2djEiLCJzbmlwcGV0IjoiTG93LWJpdCBxdWFudGl6YXRpb24gcGxheXMgYSBjcnVjaWFsIHJvbGUgaW4gdGhlIGRlcGxveW1lbnQgb2YgZGVlcCBsZWFybmluZyBtb2RlbHMgZHVlIHRvIGl0cyBjYXBhY2l0eSB0byBtaW5pbWl6ZSB0aGUgbW9kZWwgc2l6ZSBhbmQgaW5mZXJlbmNlIGNvc3QgWzE4OyAxMF0gLiIsImRhdGUiOiJNYXkgMjEsIDIwMjMiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiSW50ZWdlciBPciBGbG9hdGluZyBQb2ludD8uLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA1LjEyMzU2djEjOn46dGV4dD1JbnRlZ2VyJTIwb3IlMjBGbG9hdGluZyUyMFBvaW50JTNGJTIwTmV3JTIwT3V0bG9va3MlMjBmb3IsLUxvdyUyREJpdCUyMFF1YW50aXphdGlvbiUyMG9uIn0seyJ0aXRsZSI6IjMuMiBRdWFudGl6YXRpb24gRXJyb3IiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA1LjEyMzU2djEjOn46dGV4dD0zLjIlMjBRdWFudGl6YXRpb24lMjBFcnJvciwtSW4lMjB0aGlzJTIwc3Vic2VjdGlvbiUyQyUyMHdlIn0seyJ0aXRsZSI6IjUgRXhwZXJpbWVudHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA1LjEyMzU2djEjOn46dGV4dD01JTIwRXhwZXJpbWVudHMsLUluJTIwdGhlJTIwZXhwZXJpbWVudHMlMkMlMjB3ZSJ9XSwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJGUDggUXVhbnRpemF0aW9uOiBUaGUgUG93ZXIgb2YgdGhlIEV4cG9uZW50IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjA4LjA5MjI1djIiLCJzbmlwcGV0IjoiUXVhbnRpemF0aW9uIGFsbG93cyB3ZWlnaHRzIGFuZCBhY3RpdmF0aW9ucyB0byBiZSByZXByZXNlbnRlZCBpbiBsb3cgYml0LXdpZHRoIGZvcm1hdHMsIGUuZy4gOCBiaXQgaW50ZWdlcnMgKElOVDgpLiBXaGVuIGV4ZWN1dGluZyBuZXR3b3JrcyBvbiBhbnkgZGV2aWNlLCB0aGlzIC4uLiIsImRhdGUiOiJBdWcgMjEsIDIwMjIiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlRlbXBvcmFsIER5bmFtaWMgUXVhbnRpemF0aW9uIGZvciBEaWZmdXNpb24gTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA2LjAyMzE2djIiLCJzbmlwcGV0IjoiUXVhbnRpemF0aW9uIGlzIGEgcHJvbWluZW50IG5ldXJhbCBuZXR3b3JrIG9wdGltaXphdGlvbiB0ZWNobmlxdWUgdGhhdCByZWR1Y2VzIHN0b3JhZ2UgcmVxdWlyZW1lbnRzIHdpdGggbG93LXByZWNpc2lvbiByZXByZXNlbnRhdGlvbiBhbmQgcGVyZm9ybWFuY2UgLi4uIiwiZGF0ZSI6IkRlYyAxMSwgMjAyMyIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "84620086d6b449c674e49342010c2c872348d05cfbd04f399e8cb5b1987d3a7c",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "EdgeQAT: Entropy and Distribution Guided Quantization-Aware ...",
+                "link": "https://arxiv.org/html/2402.10787v1",
+                "snippet": "Quantization-Aware Training (QAT) presents a promising avenue for better performance in lower-bit configurations, but its data accessibility, training cost, and ...",
+                "date": "Feb 16, 2024",
+                "position": 1
+              },
+              {
+                "title": "Mobile-friendly Quantization for On-device Language Models - arXiv",
+                "link": "https://arxiv.org/html/2408.13933v1",
+                "snippet": "A standard approach to facilitate running these models on edge devices is to quantize them, representing weights and activations with fewer bits, thereby ...",
+                "date": "Aug 25, 2024",
+                "position": 2
+              },
+              {
+                "title": "L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on ... - arXiv",
+                "link": "https://arxiv.org/html/2402.04902v3",
+                "snippet": "QAT has proven effective in adjusting the model parameters for quantization during training. ... Low-bit Weight Quantization of Large Language Models ...",
+                "date": "May 22, 2024",
+                "position": 3
+              },
+              {
+                "title": "Efficient Adaptive Activation Rounding for Post-Training Quantization",
+                "link": "https://arxiv.org/html/2208.11945v3",
+                "snippet": "DNN quantization presents a solution by reducing both computational and storage burdens by converting floating-point numbers into low-bit representations. This ...",
+                "date": "Aug 24, 2023",
+                "position": 4
+              },
+              {
+                "title": "A Comprehensive Evaluation of Quantization Strategiesfor Large ...",
+                "link": "https://arxiv.org/html/2402.16775v1",
+                "snippet": "The central idea of model quantization is representing the weights or activations of a model in a lower-precision format (such as 8-bit integers) rather than ...",
+                "date": "Feb 26, 2024",
+                "position": 5
+              },
+              {
+                "title": "LLM-QBench: A Benchmark Towards the Best Practice for Post ...",
+                "link": "https://arxiv.org/html/2405.06001v1",
+                "snippet": "High-bit quantization benefits from lower mixture rates, while low-bit requires more full-precision weights in small LLMs for better performance.",
+                "date": "May 9, 2024",
+                "position": 6
+              },
+              {
+                "title": "Trainable Fixed-Point Quantization for Deep Learning Acceleration ...",
+                "link": "https://arxiv.org/html/2401.17544v1",
+                "snippet": "QFX can quantize models trained with element-wise layers quantized to fewer bits and achieve higher accuracy on both CIFAR-10 and ImageNet datasets.",
+                "date": "Jan 31, 2024",
+                "position": 7
+              },
+              {
+                "title": "Integer or Floating Point? New Outlooks for Low-Bit Quantization on ...",
+                "link": "https://arxiv.org/html/2305.12356v1",
+                "snippet": "Low-bit quantization plays a crucial role in the deployment of deep learning models due to its capacity to minimize the model size and inference cost [18; 10] .",
+                "date": "May 21, 2023",
+                "sitelinks": [
+                  {
+                    "title": "Integer Or Floating Point?...",
+                    "link": "https://arxiv.org/html/2305.12356v1#:~:text=Integer%20or%20Floating%20Point%3F%20New%20Outlooks%20for,-Low%2DBit%20Quantization%20on"
+                  },
+                  {
+                    "title": "3.2 Quantization Error",
+                    "link": "https://arxiv.org/html/2305.12356v1#:~:text=3.2%20Quantization%20Error,-In%20this%20subsection%2C%20we"
+                  },
+                  {
+                    "title": "5 Experiments",
+                    "link": "https://arxiv.org/html/2305.12356v1#:~:text=5%20Experiments,-In%20the%20experiments%2C%20we"
+                  }
+                ],
+                "position": 8
+              },
+              {
+                "title": "FP8 Quantization: The Power of the Exponent - arXiv",
+                "link": "https://arxiv.org/html/2208.09225v2",
+                "snippet": "Quantization allows weights and activations to be represented in low bit-width formats, e.g. 8 bit integers (INT8). When executing networks on any device, this ...",
+                "date": "Aug 21, 2022",
+                "position": 9
+              },
+              {
+                "title": "Temporal Dynamic Quantization for Diffusion Models - arXiv",
+                "link": "https://arxiv.org/html/2306.02316v2",
+                "snippet": "Quantization is a prominent neural network optimization technique that reduces storage requirements with low-precision representation and performance ...",
+                "date": "Dec 11, 2023",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:30.605718+00:00",
+          "elapsed_seconds": 3.8924484699964523
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2208.09225",
+        "2208.11945",
+        "2305.12356",
+        "2306.02316",
+        "2401.17544",
+        "2402.04902",
+        "2402.10787",
+        "2402.16775",
+        "2405.06001",
+        "2408.13933"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2402.10787",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2402.10787v1",
+          "title": "EdgeQAT: Entropy and Distribution Guided Quantization-Aware ...",
+          "snippet": "Quantization-Aware Training (QAT) presents a promising avenue for better performance in lower-bit configurations, but its data accessibility, training cost, and ..."
+        },
+        {
+          "arxiv_id": "2408.13933",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2408.13933v1",
+          "title": "Mobile-friendly Quantization for On-device Language Models - arXiv",
+          "snippet": "A standard approach to facilitate running these models on edge devices is to quantize them, representing weights and activations with fewer bits, thereby ..."
+        },
+        {
+          "arxiv_id": "2402.04902",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2402.04902v3",
+          "title": "L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on ... - arXiv",
+          "snippet": "QAT has proven effective in adjusting the model parameters for quantization during training. ... Low-bit Weight Quantization of Large Language Models ..."
+        },
+        {
+          "arxiv_id": "2208.11945",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2208.11945v3",
+          "title": "Efficient Adaptive Activation Rounding for Post-Training Quantization",
+          "snippet": "DNN quantization presents a solution by reducing both computational and storage burdens by converting floating-point numbers into low-bit representations. This ..."
+        },
+        {
+          "arxiv_id": "2402.16775",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2402.16775v1",
+          "title": "A Comprehensive Evaluation of Quantization Strategiesfor Large ...",
+          "snippet": "The central idea of model quantization is representing the weights or activations of a model in a lower-precision format (such as 8-bit integers) rather than ..."
+        },
+        {
+          "arxiv_id": "2405.06001",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2405.06001v1",
+          "title": "LLM-QBench: A Benchmark Towards the Best Practice for Post ...",
+          "snippet": "High-bit quantization benefits from lower mixture rates, while low-bit requires more full-precision weights in small LLMs for better performance."
+        },
+        {
+          "arxiv_id": "2401.17544",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2401.17544v1",
+          "title": "Trainable Fixed-Point Quantization for Deep Learning Acceleration ...",
+          "snippet": "QFX can quantize models trained with element-wise layers quantized to fewer bits and achieve higher accuracy on both CIFAR-10 and ImageNet datasets."
+        },
+        {
+          "arxiv_id": "2305.12356",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2305.12356v1",
+          "title": "Integer or Floating Point? New Outlooks for Low-Bit Quantization on ...",
+          "snippet": "Low-bit quantization plays a crucial role in the deployment of deep learning models due to its capacity to minimize the model size and inference cost [18; 10] ."
+        },
+        {
+          "arxiv_id": "2208.09225",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2208.09225v2",
+          "title": "FP8 Quantization: The Power of the Exponent - arXiv",
+          "snippet": "Quantization allows weights and activations to be represented in low bit-width formats, e.g. 8 bit integers (INT8). When executing networks on any device, this ..."
+        },
+        {
+          "arxiv_id": "2306.02316",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2306.02316v2",
+          "title": "Temporal Dynamic Quantization for Diffusion Models - arXiv",
+          "snippet": "Quantization is a prominent neural network optimization technique that reduces storage requirements with low-precision representation and performance ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "anchor"
+  ]
+}

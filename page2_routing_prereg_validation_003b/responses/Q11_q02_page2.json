@@ -1,0 +1,55 @@
+{
+  "experiment": "PAGE2_ROUTING_PREREG_VALIDATION_003B",
+  "question_id": "Q11",
+  "query_index": 2,
+  "page": 2,
+  "attempt": 1,
+  "global_http_attempt_sequence": 106,
+  "request_payload": {
+    "q": "Papers discussing the combination of financial time series and text data in time series modelling before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 2
+  },
+  "started_utc": "2026-09-17T08:51:55.481439+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789634840",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "2398b0af0997a69478cdd5ad37d1be13",
+    "date": "Thu, 17 Sep 2026 08:47:17 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "236",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 236,
+  "response_bytes_sha256": "917d1b74bc79afaa681a07bf281ad8ed810d6cb6697d9807225e614502d67eb2",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJQYXBlcnMgZGlzY3Vzc2luZyB0aGUgY29tYmluYXRpb24gb2YgZmluYW5jaWFsIHRpbWUgc2VyaWVzIGFuZCB0ZXh0IGRhdGEgaW4gdGltZSBzZXJpZXMgbW9kZWxsaW5nIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjIsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbXSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Papers discussing the combination of financial time series and text data in time series modelling before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 2,
+      "engine": "google"
+    },
+    "organic": [],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "retryable": false,
+  "finished_utc": "2026-09-17T08:51:56.723893+00:00",
+  "elapsed_seconds": 1.2424609400331974,
+  "attempts": [
+    {
+      "path": "attempts/Q11_q02_page2_attempt1.json",
+      "sha256": "307799208a04bedd851da8f3ee535dfe004336663dc70475540a8b2bf5756fdc",
+      "status": "PASS"
+    }
+  ],
+  "artifact_path": "responses/Q11_q02_page2.json"
+}

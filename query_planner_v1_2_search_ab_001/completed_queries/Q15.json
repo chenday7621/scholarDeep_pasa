@@ -1,0 +1,1347 @@
+{
+  "query_id": "Q15",
+  "query_index": 15,
+  "dataset_qid": "RealScholarQuery_15",
+  "original_question": "Provide papers claiming that reinforcement learning can negatively impact the performance of supervised fine-tuned LLMs.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Survey papers on negative impacts of reinforcement learning on supervised fine-tuned LLMs",
+    "Implications of Reinforcement Learning on Supervised Fine-Tuning in Language Models",
+    "Effects of reinforcement learning on fine-tuned language models",
+    "Downsides of reinforcement learning in supervised fine-tuned LLMs",
+    "Impact of reinforcement learning on performance of fine-tuned LLMs"
+  ],
+  "anchor": "Provide papers claiming that reinforcement learning can negatively impact the performance of supervised fine-tuned LLMs.",
+  "source_generation_id": "Q15_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Survey papers on negative impacts of reinforcement learning on supervised fine-tuned LLMs",
+        "Implications of Reinforcement Learning on Supervised Fine-Tuning in Language Models",
+        "Effects of reinforcement learning on fine-tuned language models",
+        "Downsides of reinforcement learning in supervised fine-tuned LLMs",
+        "Impact of reinforcement learning on performance of fine-tuned LLMs"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "Provide papers claiming that reinforcement learning can negatively impact the performance of supervised fine-tuned LLMs.",
+        "Survey papers on negative impacts of reinforcement learning on supervised fine-tuned LLMs",
+        "Implications of Reinforcement Learning on Supervised Fine-Tuning in Language Models",
+        "Effects of reinforcement learning on fine-tuned language models",
+        "Downsides of reinforcement learning in supervised fine-tuned LLMs"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Survey papers on negative impacts of reinforcement learning on supervised fine-tuned LLMs",
+      "attempts": [
+        {
+          "global_attempt_sequence": 92,
+          "query_id": "Q15",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Survey papers on negative impacts of reinforcement learning on supervised fine-tuned LLMs",
+          "request_payload": {
+            "q": "Survey papers on negative impacts of reinforcement learning on supervised fine-tuned LLMs before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q15_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:26:24.082063+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on negative impacts of reinforcement learning on supervised fine-tuned LLMs before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Fine-Tuning Language Models with Reward Learning on Policy - arXiv\",\"link\":\"https://arxiv.org/html/2403.19279v1\",\"snippet\":\"Reinforcement learning from human feedback (RLHF) has emerged as an effective approach to aligning large language models (LLMs) to human preferences. RLHF ...\",\"date\":\"Mar 28, 2024\",\"position\":1},{\"title\":\"Instruction Tuning for Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.10792v5\",\"snippet\":\"This paper surveys research works in the quickly advancing field of instruction tuning (IT), a crucial technique to enhance the capabilities and controllability ...\",\"date\":\"Mar 14, 2024\",\"position\":2},{\"title\":\"Integrating Negative Examples when Fine-tuning Large Language ...\",\"link\":\"https://arxiv.org/html/2402.11651v1\",\"snippet\":\"In this paper, we explore two key questions: (1) Can LLMs learn from negative examples through fine-tuning? and (2) How can we optimize the use of negative ...\",\"date\":\"Feb 18, 2024\",\"position\":3},{\"title\":\"[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.01335\",\"snippet\":\"In this paper, we delve into the prospect of grow- ing a strong LLM out of a weak one without the need for acquiring additional human-annotated data.\",\"date\":\"Jun 14, 2024\",\"position\":4},{\"title\":\"Fine-Tuning Large Language Models with Sequential Instructions\",\"link\":\"https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com\",\"snippet\":\"Large language models (LLMs) struggle to follow a sequence of instructions in a single query as they may ignore or misinterpret part of it.\",\"date\":\"Mar 12, 2024\",\"position\":5},{\"title\":\"Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...\",\"link\":\"https://arxiv.org/html/2406.08660v1\",\"snippet\":\"In this paper, we show that smaller, fine-tuned LLMs (still) consistently and significantly outperform larger, zero-shot prompted models in text classification.\",\"date\":\"Jun 12, 2024\",\"position\":6},{\"title\":\"The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs\",\"link\":\"https://arxiv.org/html/2408.13296v1\",\"snippet\":\"This technical report thoroughly examines the process of fine-tuning Large Language Models (LLMs), integrating theoretical insights and practical applications.\",\"date\":\"Aug 23, 2024\",\"position\":7},{\"title\":\"Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...\",\"link\":\"https://arxiv.org/html/2405.11870v1\",\"snippet\":\"Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF) are two fundamental processes for enhancing the capabilities of Language ...\",\"date\":\"May 20, 2024\",\"position\":8},{\"title\":\"Continual Learning of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.16789v1\",\"snippet\":\"Pre-trained LLMs, when tailored for specific needs, often experience significant performance degradation in previous knowledge domains – a phenomenon known as “ ...\",\"date\":\"Apr 25, 2024\",\"position\":9},{\"title\":\"WARP: On the Benefits of Weight Averaged Rewarded Policies - arXiv\",\"link\":\"https://arxiv.org/html/2406.16768v1\",\"snippet\":\"Reinforcement learning from human feedback (RLHF) aligns large language models (LLMs) by encouraging their generations to have high rewards, using a reward ...\",\"date\":\"Jun 24, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIG5lZ2F0aXZlIGltcGFjdHMgb2YgcmVpbmZvcmNlbWVudCBsZWFybmluZyBvbiBzdXBlcnZpc2VkIGZpbmUtdHVuZWQgTExNcyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJGaW5lLVR1bmluZyBMYW5ndWFnZSBNb2RlbHMgd2l0aCBSZXdhcmQgTGVhcm5pbmcgb24gUG9saWN5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE5Mjc5djEiLCJzbmlwcGV0IjoiUmVpbmZvcmNlbWVudCBsZWFybmluZyBmcm9tIGh1bWFuIGZlZWRiYWNrIChSTEhGKSBoYXMgZW1lcmdlZCBhcyBhbiBlZmZlY3RpdmUgYXBwcm9hY2ggdG8gYWxpZ25pbmcgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSB0byBodW1hbiBwcmVmZXJlbmNlcy4gUkxIRiAuLi4iLCJkYXRlIjoiTWFyIDI4LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJJbnN0cnVjdGlvbiBUdW5pbmcgZm9yIExhcmdlIExhbmd1YWdlIE1vZGVsczogQSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDguMTA3OTJ2NSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHN1cnZleXMgcmVzZWFyY2ggd29ya3MgaW4gdGhlIHF1aWNrbHkgYWR2YW5jaW5nIGZpZWxkIG9mIGluc3RydWN0aW9uIHR1bmluZyAoSVQpLCBhIGNydWNpYWwgdGVjaG5pcXVlIHRvIGVuaGFuY2UgdGhlIGNhcGFiaWxpdGllcyBhbmQgY29udHJvbGxhYmlsaXR5IC4uLiIsImRhdGUiOiJNYXIgMTQsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkludGVncmF0aW5nIE5lZ2F0aXZlIEV4YW1wbGVzIHdoZW4gRmluZS10dW5pbmcgTGFyZ2UgTGFuZ3VhZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4xMTY1MXYxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGV4cGxvcmUgdHdvIGtleSBxdWVzdGlvbnM6ICgxKSBDYW4gTExNcyBsZWFybiBmcm9tIG5lZ2F0aXZlIGV4YW1wbGVzIHRocm91Z2ggZmluZS10dW5pbmc/IGFuZCAoMikgSG93IGNhbiB3ZSBvcHRpbWl6ZSB0aGUgdXNlIG9mIG5lZ2F0aXZlIC4uLiIsImRhdGUiOiJGZWIgMTgsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIFNlbGYtUGxheSBGaW5lLVR1bmluZyBDb252ZXJ0cyBXZWFrIExhbmd1YWdlIE1vZGVscyB0byAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMS4wMTMzNSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBkZWx2ZSBpbnRvIHRoZSBwcm9zcGVjdCBvZiBncm93LSBpbmcgYSBzdHJvbmcgTExNIG91dCBvZiBhIHdlYWsgb25lIHdpdGhvdXQgdGhlIG5lZWQgZm9yIGFjcXVpcmluZyBhZGRpdGlvbmFsIGh1bWFuLWFubm90YXRlZCBkYXRhLiIsImRhdGUiOiJKdW4gMTQsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkZpbmUtVHVuaW5nIExhcmdlIExhbmd1YWdlIE1vZGVscyB3aXRoIFNlcXVlbnRpYWwgSW5zdHJ1Y3Rpb25zIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4wNzc5NHYxP3JlZj1ibG9nLnByb21wdGxheWVyLmNvbSIsInNuaXBwZXQiOiJMYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpIHN0cnVnZ2xlIHRvIGZvbGxvdyBhIHNlcXVlbmNlIG9mIGluc3RydWN0aW9ucyBpbiBhIHNpbmdsZSBxdWVyeSBhcyB0aGV5IG1heSBpZ25vcmUgb3IgbWlzaW50ZXJwcmV0IHBhcnQgb2YgaXQuIiwiZGF0ZSI6Ik1hciAxMiwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiRmluZS1UdW5lZCAnU21hbGwnIExMTXMgKFN0aWxsKSBTaWduaWZpY2FudGx5IE91dHBlcmZvcm0gWmVyby1TaG90IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMDg2NjB2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBzaG93IHRoYXQgc21hbGxlciwgZmluZS10dW5lZCBMTE1zIChzdGlsbCkgY29uc2lzdGVudGx5IGFuZCBzaWduaWZpY2FudGx5IG91dHBlcmZvcm0gbGFyZ2VyLCB6ZXJvLXNob3QgcHJvbXB0ZWQgbW9kZWxzIGluIHRleHQgY2xhc3NpZmljYXRpb24uIiwiZGF0ZSI6Ikp1biAxMiwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiVGhlIFVsdGltYXRlIEd1aWRlIHRvIEZpbmUtVHVuaW5nIExMTXMgZnJvbSBCYXNpY3MgdG8gQnJlYWt0aHJvdWdocyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTMyOTZ2MSIsInNuaXBwZXQiOiJUaGlzIHRlY2huaWNhbCByZXBvcnQgdGhvcm91Z2hseSBleGFtaW5lcyB0aGUgcHJvY2VzcyBvZiBmaW5lLXR1bmluZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKExMTXMpLCBpbnRlZ3JhdGluZyB0aGVvcmV0aWNhbCBpbnNpZ2h0cyBhbmQgcHJhY3RpY2FsIGFwcGxpY2F0aW9ucy4iLCJkYXRlIjoiQXVnIDIzLCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJJbnR1aXRpdmUgRmluZS1UdW5pbmc6IFRvd2FyZHMgVW5pZnlpbmcgU0ZUIGFuZCBSTEhGIGludG8gYSBTaW5nbGUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xMTg3MHYxIiwic25pcHBldCI6IlN1cGVydmlzZWQgRmluZS1UdW5pbmcgKFNGVCkgYW5kIFJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgZnJvbSBIdW1hbiBGZWVkYmFjayAoUkxIRikgYXJlIHR3byBmdW5kYW1lbnRhbCBwcm9jZXNzZXMgZm9yIGVuaGFuY2luZyB0aGUgY2FwYWJpbGl0aWVzIG9mIExhbmd1YWdlIC4uLiIsImRhdGUiOiJNYXkgMjAsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkNvbnRpbnVhbCBMZWFybmluZyBvZiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMTY3ODl2MSIsInNuaXBwZXQiOiJQcmUtdHJhaW5lZCBMTE1zLCB3aGVuIHRhaWxvcmVkIGZvciBzcGVjaWZpYyBuZWVkcywgb2Z0ZW4gZXhwZXJpZW5jZSBzaWduaWZpY2FudCBwZXJmb3JtYW5jZSBkZWdyYWRhdGlvbiBpbiBwcmV2aW91cyBrbm93bGVkZ2UgZG9tYWlucyDigJMgYSBwaGVub21lbm9uIGtub3duIGFzIOKAnCAuLi4iLCJkYXRlIjoiQXByIDI1LCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJXQVJQOiBPbiB0aGUgQmVuZWZpdHMgb2YgV2VpZ2h0IEF2ZXJhZ2VkIFJld2FyZGVkIFBvbGljaWVzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjE2NzY4djEiLCJzbmlwcGV0IjoiUmVpbmZvcmNlbWVudCBsZWFybmluZyBmcm9tIGh1bWFuIGZlZWRiYWNrIChSTEhGKSBhbGlnbnMgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSBieSBlbmNvdXJhZ2luZyB0aGVpciBnZW5lcmF0aW9ucyB0byBoYXZlIGhpZ2ggcmV3YXJkcywgdXNpbmcgYSByZXdhcmQgLi4uIiwiZGF0ZSI6Ikp1biAyNCwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "490e5e5685e9a247d0391c52d7336e7dbdd76e12251028e9e86c2f6edc147843",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey papers on negative impacts of reinforcement learning on supervised fine-tuned LLMs before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Fine-Tuning Language Models with Reward Learning on Policy - arXiv",
+                "link": "https://arxiv.org/html/2403.19279v1",
+                "snippet": "Reinforcement learning from human feedback (RLHF) has emerged as an effective approach to aligning large language models (LLMs) to human preferences. RLHF ...",
+                "date": "Mar 28, 2024",
+                "position": 1
+              },
+              {
+                "title": "Instruction Tuning for Large Language Models: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2308.10792v5",
+                "snippet": "This paper surveys research works in the quickly advancing field of instruction tuning (IT), a crucial technique to enhance the capabilities and controllability ...",
+                "date": "Mar 14, 2024",
+                "position": 2
+              },
+              {
+                "title": "Integrating Negative Examples when Fine-tuning Large Language ...",
+                "link": "https://arxiv.org/html/2402.11651v1",
+                "snippet": "In this paper, we explore two key questions: (1) Can LLMs learn from negative examples through fine-tuning? and (2) How can we optimize the use of negative ...",
+                "date": "Feb 18, 2024",
+                "position": 3
+              },
+              {
+                "title": "[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv",
+                "link": "https://arxiv.org/pdf/2401.01335",
+                "snippet": "In this paper, we delve into the prospect of grow- ing a strong LLM out of a weak one without the need for acquiring additional human-annotated data.",
+                "date": "Jun 14, 2024",
+                "position": 4
+              },
+              {
+                "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+                "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+                "snippet": "Large language models (LLMs) struggle to follow a sequence of instructions in a single query as they may ignore or misinterpret part of it.",
+                "date": "Mar 12, 2024",
+                "position": 5
+              },
+              {
+                "title": "Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...",
+                "link": "https://arxiv.org/html/2406.08660v1",
+                "snippet": "In this paper, we show that smaller, fine-tuned LLMs (still) consistently and significantly outperform larger, zero-shot prompted models in text classification.",
+                "date": "Jun 12, 2024",
+                "position": 6
+              },
+              {
+                "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+                "link": "https://arxiv.org/html/2408.13296v1",
+                "snippet": "This technical report thoroughly examines the process of fine-tuning Large Language Models (LLMs), integrating theoretical insights and practical applications.",
+                "date": "Aug 23, 2024",
+                "position": 7
+              },
+              {
+                "title": "Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...",
+                "link": "https://arxiv.org/html/2405.11870v1",
+                "snippet": "Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF) are two fundamental processes for enhancing the capabilities of Language ...",
+                "date": "May 20, 2024",
+                "position": 8
+              },
+              {
+                "title": "Continual Learning of Large Language Models - arXiv",
+                "link": "https://arxiv.org/html/2404.16789v1",
+                "snippet": "Pre-trained LLMs, when tailored for specific needs, often experience significant performance degradation in previous knowledge domains – a phenomenon known as “ ...",
+                "date": "Apr 25, 2024",
+                "position": 9
+              },
+              {
+                "title": "WARP: On the Benefits of Weight Averaged Rewarded Policies - arXiv",
+                "link": "https://arxiv.org/html/2406.16768v1",
+                "snippet": "Reinforcement learning from human feedback (RLHF) aligns large language models (LLMs) by encouraging their generations to have high rewards, using a reward ...",
+                "date": "Jun 24, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:26:26.763310+00:00",
+          "elapsed_seconds": 2.6812479235231876
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2308.10792",
+        "2401.01335",
+        "2402.11651",
+        "2403.07794",
+        "2403.19279",
+        "2404.16789",
+        "2405.11870",
+        "2406.08660",
+        "2406.16768",
+        "2408.13296"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.19279",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2403.19279v1",
+          "title": "Fine-Tuning Language Models with Reward Learning on Policy - arXiv",
+          "snippet": "Reinforcement learning from human feedback (RLHF) has emerged as an effective approach to aligning large language models (LLMs) to human preferences. RLHF ..."
+        },
+        {
+          "arxiv_id": "2308.10792",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2308.10792v5",
+          "title": "Instruction Tuning for Large Language Models: A Survey - arXiv",
+          "snippet": "This paper surveys research works in the quickly advancing field of instruction tuning (IT), a crucial technique to enhance the capabilities and controllability ..."
+        },
+        {
+          "arxiv_id": "2402.11651",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2402.11651v1",
+          "title": "Integrating Negative Examples when Fine-tuning Large Language ...",
+          "snippet": "In this paper, we explore two key questions: (1) Can LLMs learn from negative examples through fine-tuning? and (2) How can we optimize the use of negative ..."
+        },
+        {
+          "arxiv_id": "2401.01335",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2401.01335",
+          "title": "[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv",
+          "snippet": "In this paper, we delve into the prospect of grow- ing a strong LLM out of a weak one without the need for acquiring additional human-annotated data."
+        },
+        {
+          "arxiv_id": "2403.07794",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+          "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+          "snippet": "Large language models (LLMs) struggle to follow a sequence of instructions in a single query as they may ignore or misinterpret part of it."
+        },
+        {
+          "arxiv_id": "2406.08660",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2406.08660v1",
+          "title": "Fine-Tuned 'Small' LLMs (Still) Significantly Outperform Zero-Shot ...",
+          "snippet": "In this paper, we show that smaller, fine-tuned LLMs (still) consistently and significantly outperform larger, zero-shot prompted models in text classification."
+        },
+        {
+          "arxiv_id": "2408.13296",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2408.13296v1",
+          "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+          "snippet": "This technical report thoroughly examines the process of fine-tuning Large Language Models (LLMs), integrating theoretical insights and practical applications."
+        },
+        {
+          "arxiv_id": "2405.11870",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2405.11870v1",
+          "title": "Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...",
+          "snippet": "Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF) are two fundamental processes for enhancing the capabilities of Language ..."
+        },
+        {
+          "arxiv_id": "2404.16789",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2404.16789v1",
+          "title": "Continual Learning of Large Language Models - arXiv",
+          "snippet": "Pre-trained LLMs, when tailored for specific needs, often experience significant performance degradation in previous knowledge domains – a phenomenon known as “ ..."
+        },
+        {
+          "arxiv_id": "2406.16768",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2406.16768v1",
+          "title": "WARP: On the Benefits of Weight Averaged Rewarded Policies - arXiv",
+          "snippet": "Reinforcement learning from human feedback (RLHF) aligns large language models (LLMs) by encouraging their generations to have high rewards, using a reward ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey papers on negative impacts of reinforcement learning on supervised fine-tuned LLMs before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Implications of Reinforcement Learning on Supervised Fine-Tuning in Language Models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 93,
+          "query_id": "Q15",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Implications of Reinforcement Learning on Supervised Fine-Tuning in Language Models",
+          "request_payload": {
+            "q": "Implications of Reinforcement Learning on Supervised Fine-Tuning in Language Models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q15_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:26:26.856773+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Implications of Reinforcement Learning on Supervised Fine-Tuning in Language Models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Unlock the Correlation between Supervised Fine-Tuning and ... - arXiv\",\"link\":\"https://arxiv.org/abs/2406.10305\",\"snippet\":\"Within the fine-tuning, supervised fine-tuning (SFT), and reinforcement learning (RL) are often used to improve the model's zero-shot ability.\",\"date\":\"Jun 14, 2024\",\"position\":1},{\"title\":\"Supervised Fine-Tuning as Inverse Reinforcement Learning - arXiv\",\"link\":\"https://arxiv.org/abs/2403.12017\",\"snippet\":\"Drawing insights from inverse reinforcement learning and imitation learning, we introduce various approaches for divergence minimization in the LLM alignment ...\",\"date\":\"Mar 18, 2024\",\"position\":2},{\"title\":\"Fine-Tuning Language Models with Reward Learning on Policy - arXiv\",\"link\":\"https://arxiv.org/html/2403.19279v1\",\"snippet\":\"Generally, RLHF methods first fit a reward model to human preferences, then fine-tune a language model to maximize the inferred reward using RL algorithms.\",\"date\":\"Mar 28, 2024\",\"position\":3},{\"title\":\"Understanding the Effects of RLHF on LLM Generalisation and ...\",\"link\":\"https://arxiv.org/abs/2310.06452\",\"snippet\":\"We find that RLHF generalises better than SFT to new inputs, particularly as the distribution shift between train and test becomes larger. However, RLHF ...\",\"date\":\"Oct 10, 2023\",\"position\":4},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.\",\"date\":\"Jan 27, 2022\",\"position\":5},{\"title\":\"Reinforcement Learning Fine-tuning of Language Models is Biased ...\",\"link\":\"https://arxiv.org/abs/2311.04046\",\"snippet\":\"We investigate whether principles governing inductive biases in the supervised fine-tuning of LLMs also apply when the fine-tuning process uses reinforcement ...\",\"date\":\"Nov 7, 2023\",\"position\":6},{\"title\":\"Reinforcement Learning in the Era of LLMs - arXiv\",\"link\":\"https://arxiv.org/html/2310.06147\",\"snippet\":\"In the task of LLM alignment from human feedback, LLMs are fine-tuned to better follow user instructions. In the seminal paper of OpenAI [23] , such an ...\",\"date\":\"Oct 9, 2023\",\"position\":7},{\"title\":\"Fine-Tuning Large Language Models with Sequential Instructions\",\"link\":\"https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com\",\"snippet\":\"Instruction tuning gives large language models (LLMs) the ability to follow instructions and perform zero-shot generalisation to a wide range of tasks (Mishra ...\",\"date\":\"Mar 12, 2024\",\"position\":8},{\"title\":\"[PDF] ivygpt: interactive chinese pathway language model - arXiv\",\"link\":\"https://arxiv.org/pdf/2307.10512\",\"snippet\":\"To prevent the model trained through reinforcement learning from deviating too far from the model in the SFT (Supervised Fine-Tuning) stage, we introduce ...\",\"date\":\"Jul 21, 2023\",\"position\":9},{\"title\":\"[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.01335\",\"snippet\":\"Harnessing the power of human-annotated data through Supervised Fine-Tuning (SFT) is pivotal for advancing Large Language Models (LLMs).\",\"date\":\"Jun 14, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJJbXBsaWNhdGlvbnMgb2YgUmVpbmZvcmNlbWVudCBMZWFybmluZyBvbiBTdXBlcnZpc2VkIEZpbmUtVHVuaW5nIGluIExhbmd1YWdlIE1vZGVscyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJVbmxvY2sgdGhlIENvcnJlbGF0aW9uIGJldHdlZW4gU3VwZXJ2aXNlZCBGaW5lLVR1bmluZyBhbmQgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDYuMTAzMDUiLCJzbmlwcGV0IjoiV2l0aGluIHRoZSBmaW5lLXR1bmluZywgc3VwZXJ2aXNlZCBmaW5lLXR1bmluZyAoU0ZUKSwgYW5kIHJlaW5mb3JjZW1lbnQgbGVhcm5pbmcgKFJMKSBhcmUgb2Z0ZW4gdXNlZCB0byBpbXByb3ZlIHRoZSBtb2RlbCdzIHplcm8tc2hvdCBhYmlsaXR5LiIsImRhdGUiOiJKdW4gMTQsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlN1cGVydmlzZWQgRmluZS1UdW5pbmcgYXMgSW52ZXJzZSBSZWluZm9yY2VtZW50IExlYXJuaW5nIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDMuMTIwMTciLCJzbmlwcGV0IjoiRHJhd2luZyBpbnNpZ2h0cyBmcm9tIGludmVyc2UgcmVpbmZvcmNlbWVudCBsZWFybmluZyBhbmQgaW1pdGF0aW9uIGxlYXJuaW5nLCB3ZSBpbnRyb2R1Y2UgdmFyaW91cyBhcHByb2FjaGVzIGZvciBkaXZlcmdlbmNlIG1pbmltaXphdGlvbiBpbiB0aGUgTExNIGFsaWdubWVudCAuLi4iLCJkYXRlIjoiTWFyIDE4LCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJGaW5lLVR1bmluZyBMYW5ndWFnZSBNb2RlbHMgd2l0aCBSZXdhcmQgTGVhcm5pbmcgb24gUG9saWN5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE5Mjc5djEiLCJzbmlwcGV0IjoiR2VuZXJhbGx5LCBSTEhGIG1ldGhvZHMgZmlyc3QgZml0IGEgcmV3YXJkIG1vZGVsIHRvIGh1bWFuIHByZWZlcmVuY2VzLCB0aGVuIGZpbmUtdHVuZSBhIGxhbmd1YWdlIG1vZGVsIHRvIG1heGltaXplIHRoZSBpbmZlcnJlZCByZXdhcmQgdXNpbmcgUkwgYWxnb3JpdGhtcy4iLCJkYXRlIjoiTWFyIDI4LCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJVbmRlcnN0YW5kaW5nIHRoZSBFZmZlY3RzIG9mIFJMSEYgb24gTExNIEdlbmVyYWxpc2F0aW9uIGFuZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMTAuMDY0NTIiLCJzbmlwcGV0IjoiV2UgZmluZCB0aGF0IFJMSEYgZ2VuZXJhbGlzZXMgYmV0dGVyIHRoYW4gU0ZUIHRvIG5ldyBpbnB1dHMsIHBhcnRpY3VsYXJseSBhcyB0aGUgZGlzdHJpYnV0aW9uIHNoaWZ0IGJldHdlZW4gdHJhaW4gYW5kIHRlc3QgYmVjb21lcyBsYXJnZXIuIEhvd2V2ZXIsIFJMSEYgLi4uIiwiZGF0ZSI6Ik9jdCAxMCwgMjAyMyIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiVHJhaW5pbmcgbGFuZ3VhZ2UgbW9kZWxzIHRvIGZvbGxvdyBpbnN0cnVjdGlvbnMgd2l0aCBodW1hbiBmZWVkYmFjayIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjIwMy4wMjE1NSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBzaG93IGFuIGF2ZW51ZSBmb3IgYWxpZ25pbmcgbGFuZ3VhZ2UgbW9kZWxzIHdpdGggdXNlciBpbnRlbnQgb24gYSB3aWRlIHJhbmdlIG9mIHRhc2tzIGJ5IGZpbmUtdHVuaW5nIHdpdGggaHVtYW4gZmVlZGJhY2suIiwiZGF0ZSI6IkphbiAyNywgMjAyMiIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiUmVpbmZvcmNlbWVudCBMZWFybmluZyBGaW5lLXR1bmluZyBvZiBMYW5ndWFnZSBNb2RlbHMgaXMgQmlhc2VkIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMxMS4wNDA0NiIsInNuaXBwZXQiOiJXZSBpbnZlc3RpZ2F0ZSB3aGV0aGVyIHByaW5jaXBsZXMgZ292ZXJuaW5nIGluZHVjdGl2ZSBiaWFzZXMgaW4gdGhlIHN1cGVydmlzZWQgZmluZS10dW5pbmcgb2YgTExNcyBhbHNvIGFwcGx5IHdoZW4gdGhlIGZpbmUtdHVuaW5nIHByb2Nlc3MgdXNlcyByZWluZm9yY2VtZW50IC4uLiIsImRhdGUiOiJOb3YgNywgMjAyMyIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiUmVpbmZvcmNlbWVudCBMZWFybmluZyBpbiB0aGUgRXJhIG9mIExMTXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTAuMDYxNDciLCJzbmlwcGV0IjoiSW4gdGhlIHRhc2sgb2YgTExNIGFsaWdubWVudCBmcm9tIGh1bWFuIGZlZWRiYWNrLCBMTE1zIGFyZSBmaW5lLXR1bmVkIHRvIGJldHRlciBmb2xsb3cgdXNlciBpbnN0cnVjdGlvbnMuIEluIHRoZSBzZW1pbmFsIHBhcGVyIG9mIE9wZW5BSSBbMjNdICwgc3VjaCBhbiAuLi4iLCJkYXRlIjoiT2N0IDksIDIwMjMiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkZpbmUtVHVuaW5nIExhcmdlIExhbmd1YWdlIE1vZGVscyB3aXRoIFNlcXVlbnRpYWwgSW5zdHJ1Y3Rpb25zIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4wNzc5NHYxP3JlZj1ibG9nLnByb21wdGxheWVyLmNvbSIsInNuaXBwZXQiOiJJbnN0cnVjdGlvbiB0dW5pbmcgZ2l2ZXMgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSB0aGUgYWJpbGl0eSB0byBmb2xsb3cgaW5zdHJ1Y3Rpb25zIGFuZCBwZXJmb3JtIHplcm8tc2hvdCBnZW5lcmFsaXNhdGlvbiB0byBhIHdpZGUgcmFuZ2Ugb2YgdGFza3MgKE1pc2hyYSAuLi4iLCJkYXRlIjoiTWFyIDEyLCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBpdnlncHQ6IGludGVyYWN0aXZlIGNoaW5lc2UgcGF0aHdheSBsYW5ndWFnZSBtb2RlbCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA3LjEwNTEyIiwic25pcHBldCI6IlRvIHByZXZlbnQgdGhlIG1vZGVsIHRyYWluZWQgdGhyb3VnaCByZWluZm9yY2VtZW50IGxlYXJuaW5nIGZyb20gZGV2aWF0aW5nIHRvbyBmYXIgZnJvbSB0aGUgbW9kZWwgaW4gdGhlIFNGVCAoU3VwZXJ2aXNlZCBGaW5lLVR1bmluZykgc3RhZ2UsIHdlIGludHJvZHVjZSAuLi4iLCJkYXRlIjoiSnVsIDIxLCAyMDIzIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBTZWxmLVBsYXkgRmluZS1UdW5pbmcgQ29udmVydHMgV2VhayBMYW5ndWFnZSBNb2RlbHMgdG8gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDEuMDEzMzUiLCJzbmlwcGV0IjoiSGFybmVzc2luZyB0aGUgcG93ZXIgb2YgaHVtYW4tYW5ub3RhdGVkIGRhdGEgdGhyb3VnaCBTdXBlcnZpc2VkIEZpbmUtVHVuaW5nIChTRlQpIGlzIHBpdm90YWwgZm9yIGFkdmFuY2luZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKExMTXMpLiIsImRhdGUiOiJKdW4gMTQsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "2f637f8e90e1623e5ac0fb5da49ddec7ae4510222d1e556c9398383fe05321e1",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Implications of Reinforcement Learning on Supervised Fine-Tuning in Language Models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Unlock the Correlation between Supervised Fine-Tuning and ... - arXiv",
+                "link": "https://arxiv.org/abs/2406.10305",
+                "snippet": "Within the fine-tuning, supervised fine-tuning (SFT), and reinforcement learning (RL) are often used to improve the model's zero-shot ability.",
+                "date": "Jun 14, 2024",
+                "position": 1
+              },
+              {
+                "title": "Supervised Fine-Tuning as Inverse Reinforcement Learning - arXiv",
+                "link": "https://arxiv.org/abs/2403.12017",
+                "snippet": "Drawing insights from inverse reinforcement learning and imitation learning, we introduce various approaches for divergence minimization in the LLM alignment ...",
+                "date": "Mar 18, 2024",
+                "position": 2
+              },
+              {
+                "title": "Fine-Tuning Language Models with Reward Learning on Policy - arXiv",
+                "link": "https://arxiv.org/html/2403.19279v1",
+                "snippet": "Generally, RLHF methods first fit a reward model to human preferences, then fine-tune a language model to maximize the inferred reward using RL algorithms.",
+                "date": "Mar 28, 2024",
+                "position": 3
+              },
+              {
+                "title": "Understanding the Effects of RLHF on LLM Generalisation and ...",
+                "link": "https://arxiv.org/abs/2310.06452",
+                "snippet": "We find that RLHF generalises better than SFT to new inputs, particularly as the distribution shift between train and test becomes larger. However, RLHF ...",
+                "date": "Oct 10, 2023",
+                "position": 4
+              },
+              {
+                "title": "Training language models to follow instructions with human feedback",
+                "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.",
+                "date": "Jan 27, 2022",
+                "position": 5
+              },
+              {
+                "title": "Reinforcement Learning Fine-tuning of Language Models is Biased ...",
+                "link": "https://arxiv.org/abs/2311.04046",
+                "snippet": "We investigate whether principles governing inductive biases in the supervised fine-tuning of LLMs also apply when the fine-tuning process uses reinforcement ...",
+                "date": "Nov 7, 2023",
+                "position": 6
+              },
+              {
+                "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+                "link": "https://arxiv.org/html/2310.06147",
+                "snippet": "In the task of LLM alignment from human feedback, LLMs are fine-tuned to better follow user instructions. In the seminal paper of OpenAI [23] , such an ...",
+                "date": "Oct 9, 2023",
+                "position": 7
+              },
+              {
+                "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+                "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+                "snippet": "Instruction tuning gives large language models (LLMs) the ability to follow instructions and perform zero-shot generalisation to a wide range of tasks (Mishra ...",
+                "date": "Mar 12, 2024",
+                "position": 8
+              },
+              {
+                "title": "[PDF] ivygpt: interactive chinese pathway language model - arXiv",
+                "link": "https://arxiv.org/pdf/2307.10512",
+                "snippet": "To prevent the model trained through reinforcement learning from deviating too far from the model in the SFT (Supervised Fine-Tuning) stage, we introduce ...",
+                "date": "Jul 21, 2023",
+                "position": 9
+              },
+              {
+                "title": "[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv",
+                "link": "https://arxiv.org/pdf/2401.01335",
+                "snippet": "Harnessing the power of human-annotated data through Supervised Fine-Tuning (SFT) is pivotal for advancing Large Language Models (LLMs).",
+                "date": "Jun 14, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:26:28.031575+00:00",
+          "elapsed_seconds": 1.1748022511601448
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2203.02155",
+        "2307.10512",
+        "2310.06147",
+        "2310.06452",
+        "2311.04046",
+        "2401.01335",
+        "2403.07794",
+        "2403.12017",
+        "2403.19279",
+        "2406.10305"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2406.10305",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2406.10305",
+          "title": "Unlock the Correlation between Supervised Fine-Tuning and ... - arXiv",
+          "snippet": "Within the fine-tuning, supervised fine-tuning (SFT), and reinforcement learning (RL) are often used to improve the model's zero-shot ability."
+        },
+        {
+          "arxiv_id": "2403.12017",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2403.12017",
+          "title": "Supervised Fine-Tuning as Inverse Reinforcement Learning - arXiv",
+          "snippet": "Drawing insights from inverse reinforcement learning and imitation learning, we introduce various approaches for divergence minimization in the LLM alignment ..."
+        },
+        {
+          "arxiv_id": "2403.19279",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2403.19279v1",
+          "title": "Fine-Tuning Language Models with Reward Learning on Policy - arXiv",
+          "snippet": "Generally, RLHF methods first fit a reward model to human preferences, then fine-tune a language model to maximize the inferred reward using RL algorithms."
+        },
+        {
+          "arxiv_id": "2310.06452",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2310.06452",
+          "title": "Understanding the Effects of RLHF on LLM Generalisation and ...",
+          "snippet": "We find that RLHF generalises better than SFT to new inputs, particularly as the distribution shift between train and test becomes larger. However, RLHF ..."
+        },
+        {
+          "arxiv_id": "2203.02155",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+          "title": "Training language models to follow instructions with human feedback",
+          "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback."
+        },
+        {
+          "arxiv_id": "2311.04046",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/abs/2311.04046",
+          "title": "Reinforcement Learning Fine-tuning of Language Models is Biased ...",
+          "snippet": "We investigate whether principles governing inductive biases in the supervised fine-tuning of LLMs also apply when the fine-tuning process uses reinforcement ..."
+        },
+        {
+          "arxiv_id": "2310.06147",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2310.06147",
+          "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+          "snippet": "In the task of LLM alignment from human feedback, LLMs are fine-tuned to better follow user instructions. In the seminal paper of OpenAI [23] , such an ..."
+        },
+        {
+          "arxiv_id": "2403.07794",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+          "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+          "snippet": "Instruction tuning gives large language models (LLMs) the ability to follow instructions and perform zero-shot generalisation to a wide range of tasks (Mishra ..."
+        },
+        {
+          "arxiv_id": "2307.10512",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2307.10512",
+          "title": "[PDF] ivygpt: interactive chinese pathway language model - arXiv",
+          "snippet": "To prevent the model trained through reinforcement learning from deviating too far from the model in the SFT (Supervised Fine-Tuning) stage, we introduce ..."
+        },
+        {
+          "arxiv_id": "2401.01335",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2401.01335",
+          "title": "[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv",
+          "snippet": "Harnessing the power of human-annotated data through Supervised Fine-Tuning (SFT) is pivotal for advancing Large Language Models (LLMs)."
+        }
+      ],
+      "request_payload": {
+        "q": "Implications of Reinforcement Learning on Supervised Fine-Tuning in Language Models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Effects of reinforcement learning on fine-tuned language models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 94,
+          "query_id": "Q15",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Effects of reinforcement learning on fine-tuned language models",
+          "request_payload": {
+            "q": "Effects of reinforcement learning on fine-tuned language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q15_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:26:28.131828+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Effects of reinforcement learning on fine-tuned language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Understanding the Effects of RLHF on LLM Generalisation and ...\",\"link\":\"https://arxiv.org/abs/2310.06452\",\"snippet\":\"We find that RLHF generalises better than SFT to new inputs, particularly as the distribution shift between train and test becomes larger. However, RLHF ...\",\"date\":\"Oct 10, 2023\",\"position\":1},{\"title\":\"Parameter Efficient Reinforcement Learning from Human Feedback\",\"link\":\"https://arxiv.org/html/2403.10704v2\",\"snippet\":\"PE-RLHF applies parameter-efficient fine-tuning techniques to optimize both of these training phases, thus significantly reducing the memory requirements, and ...\",\"date\":\"Sep 12, 2024\",\"position\":2},{\"title\":\"Reinforcement Learning in the Era of LLMs - arXiv\",\"link\":\"https://arxiv.org/html/2310.06147\",\"snippet\":\"In the task of LLM alignment from human feedback, LLMs are fine-tuned to better follow user instructions. In the seminal paper of OpenAI [23] , such an ...\",\"date\":\"Oct 9, 2023\",\"position\":3},{\"title\":\"Reinforcement Learning for Fine-tuning Text-to-speech Diffusion ...\",\"link\":\"https://arxiv.org/html/2405.14632v1\",\"snippet\":\"Our research indicates that fine-tuning TTS diffusion models using DLPO results in better outcomes compared to other reinforcement learning methods.\",\"date\":\"May 23, 2024\",\"position\":4},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"We focus on fine-tuning approaches to aligning language models. Specifically, we use reinforcement learning from human feedback (RLHF; Christiano et al., 2017; ...\",\"date\":\"Jan 27, 2022\",\"position\":5},{\"title\":\"Fine-Tuning Large Vision-Language Models as Decision-Making ...\",\"link\":\"https://arxiv.org/html/2405.10292v1\",\"snippet\":\"Large vision-language models (VLMs) fine-tuned on specialized visual instruction-following data have exhibited impressive language reasoning capabilities across ...\",\"date\":\"May 16, 2024\",\"position\":6},{\"title\":\"Fine-Tuning Large Language Models with Sequential Instructions\",\"link\":\"https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com\",\"snippet\":\"Instruction tuning gives large language models (LLMs) the ability to follow instructions and perform zero-shot generalisation to a wide range of tasks (Mishra ...\",\"date\":\"Mar 12, 2024\",\"position\":7},{\"title\":\"[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.01335\",\"snippet\":\"Harnessing the power of human-annotated data through Supervised Fine-Tuning (SFT) is pivotal for advancing Large Language Models (LLMs).\",\"date\":\"Jun 14, 2024\",\"position\":8},{\"title\":\"[PDF] understanding the effects of rlhf on llm generalisation and diversity\",\"link\":\"https://arxiv.org/pdf/2310.06452\",\"snippet\":\"Large language models (LLMs) fine-tuned with reinforcement learning from human feedback (RLHF) have been used in some of the most widely deployed AI models.\",\"date\":\"Feb 19, 2024\",\"position\":9},{\"title\":\"[PDF] Data-Centric AI in the Age of Large Language Models\",\"link\":\"https://arxiv.org/pdf/2406.14473\",\"snippet\":\"ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs).\",\"date\":\"Jun 20, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJFZmZlY3RzIG9mIHJlaW5mb3JjZW1lbnQgbGVhcm5pbmcgb24gZmluZS10dW5lZCBsYW5ndWFnZSBtb2RlbHMgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiVW5kZXJzdGFuZGluZyB0aGUgRWZmZWN0cyBvZiBSTEhGIG9uIExMTSBHZW5lcmFsaXNhdGlvbiBhbmQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzEwLjA2NDUyIiwic25pcHBldCI6IldlIGZpbmQgdGhhdCBSTEhGIGdlbmVyYWxpc2VzIGJldHRlciB0aGFuIFNGVCB0byBuZXcgaW5wdXRzLCBwYXJ0aWN1bGFybHkgYXMgdGhlIGRpc3RyaWJ1dGlvbiBzaGlmdCBiZXR3ZWVuIHRyYWluIGFuZCB0ZXN0IGJlY29tZXMgbGFyZ2VyLiBIb3dldmVyLCBSTEhGIC4uLiIsImRhdGUiOiJPY3QgMTAsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlBhcmFtZXRlciBFZmZpY2llbnQgUmVpbmZvcmNlbWVudCBMZWFybmluZyBmcm9tIEh1bWFuIEZlZWRiYWNrIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xMDcwNHYyIiwic25pcHBldCI6IlBFLVJMSEYgYXBwbGllcyBwYXJhbWV0ZXItZWZmaWNpZW50IGZpbmUtdHVuaW5nIHRlY2huaXF1ZXMgdG8gb3B0aW1pemUgYm90aCBvZiB0aGVzZSB0cmFpbmluZyBwaGFzZXMsIHRodXMgc2lnbmlmaWNhbnRseSByZWR1Y2luZyB0aGUgbWVtb3J5IHJlcXVpcmVtZW50cywgYW5kIC4uLiIsImRhdGUiOiJTZXAgMTIsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgaW4gdGhlIEVyYSBvZiBMTE1zIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEwLjA2MTQ3Iiwic25pcHBldCI6IkluIHRoZSB0YXNrIG9mIExMTSBhbGlnbm1lbnQgZnJvbSBodW1hbiBmZWVkYmFjaywgTExNcyBhcmUgZmluZS10dW5lZCB0byBiZXR0ZXIgZm9sbG93IHVzZXIgaW5zdHJ1Y3Rpb25zLiBJbiB0aGUgc2VtaW5hbCBwYXBlciBvZiBPcGVuQUkgWzIzXSAsIHN1Y2ggYW4gLi4uIiwiZGF0ZSI6Ik9jdCA5LCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJSZWluZm9yY2VtZW50IExlYXJuaW5nIGZvciBGaW5lLXR1bmluZyBUZXh0LXRvLXNwZWVjaCBEaWZmdXNpb24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xNDYzMnYxIiwic25pcHBldCI6Ik91ciByZXNlYXJjaCBpbmRpY2F0ZXMgdGhhdCBmaW5lLXR1bmluZyBUVFMgZGlmZnVzaW9uIG1vZGVscyB1c2luZyBETFBPIHJlc3VsdHMgaW4gYmV0dGVyIG91dGNvbWVzIGNvbXBhcmVkIHRvIG90aGVyIHJlaW5mb3JjZW1lbnQgbGVhcm5pbmcgbWV0aG9kcy4iLCJkYXRlIjoiTWF5IDIzLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJUcmFpbmluZyBsYW5ndWFnZSBtb2RlbHMgdG8gZm9sbG93IGluc3RydWN0aW9ucyB3aXRoIGh1bWFuIGZlZWRiYWNrIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMjAzLjAyMTU1Iiwic25pcHBldCI6IldlIGZvY3VzIG9uIGZpbmUtdHVuaW5nIGFwcHJvYWNoZXMgdG8gYWxpZ25pbmcgbGFuZ3VhZ2UgbW9kZWxzLiBTcGVjaWZpY2FsbHksIHdlIHVzZSByZWluZm9yY2VtZW50IGxlYXJuaW5nIGZyb20gaHVtYW4gZmVlZGJhY2sgKFJMSEY7IENocmlzdGlhbm8gZXQgYWwuLCAyMDE3OyAuLi4iLCJkYXRlIjoiSmFuIDI3LCAyMDIyIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJGaW5lLVR1bmluZyBMYXJnZSBWaXNpb24tTGFuZ3VhZ2UgTW9kZWxzIGFzIERlY2lzaW9uLU1ha2luZyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjEwMjkydjEiLCJzbmlwcGV0IjoiTGFyZ2UgdmlzaW9uLWxhbmd1YWdlIG1vZGVscyAoVkxNcykgZmluZS10dW5lZCBvbiBzcGVjaWFsaXplZCB2aXN1YWwgaW5zdHJ1Y3Rpb24tZm9sbG93aW5nIGRhdGEgaGF2ZSBleGhpYml0ZWQgaW1wcmVzc2l2ZSBsYW5ndWFnZSByZWFzb25pbmcgY2FwYWJpbGl0aWVzIGFjcm9zcyAuLi4iLCJkYXRlIjoiTWF5IDE2LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJGaW5lLVR1bmluZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgd2l0aCBTZXF1ZW50aWFsIEluc3RydWN0aW9ucyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMDc3OTR2MT9yZWY9YmxvZy5wcm9tcHRsYXllci5jb20iLCJzbmlwcGV0IjoiSW5zdHJ1Y3Rpb24gdHVuaW5nIGdpdmVzIGxhcmdlIGxhbmd1YWdlIG1vZGVscyAoTExNcykgdGhlIGFiaWxpdHkgdG8gZm9sbG93IGluc3RydWN0aW9ucyBhbmQgcGVyZm9ybSB6ZXJvLXNob3QgZ2VuZXJhbGlzYXRpb24gdG8gYSB3aWRlIHJhbmdlIG9mIHRhc2tzIChNaXNocmEgLi4uIiwiZGF0ZSI6Ik1hciAxMiwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gU2VsZi1QbGF5IEZpbmUtVHVuaW5nIENvbnZlcnRzIFdlYWsgTGFuZ3VhZ2UgTW9kZWxzIHRvIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAxLjAxMzM1Iiwic25pcHBldCI6Ikhhcm5lc3NpbmcgdGhlIHBvd2VyIG9mIGh1bWFuLWFubm90YXRlZCBkYXRhIHRocm91Z2ggU3VwZXJ2aXNlZCBGaW5lLVR1bmluZyAoU0ZUKSBpcyBwaXZvdGFsIGZvciBhZHZhbmNpbmcgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIChMTE1zKS4iLCJkYXRlIjoiSnVuIDE0LCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSB1bmRlcnN0YW5kaW5nIHRoZSBlZmZlY3RzIG9mIHJsaGYgb24gbGxtIGdlbmVyYWxpc2F0aW9uIGFuZCBkaXZlcnNpdHkiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMTAuMDY0NTIiLCJzbmlwcGV0IjoiTGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSBmaW5lLXR1bmVkIHdpdGggcmVpbmZvcmNlbWVudCBsZWFybmluZyBmcm9tIGh1bWFuIGZlZWRiYWNrIChSTEhGKSBoYXZlIGJlZW4gdXNlZCBpbiBzb21lIG9mIHRoZSBtb3N0IHdpZGVseSBkZXBsb3llZCBBSSBtb2RlbHMuIiwiZGF0ZSI6IkZlYiAxOSwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gRGF0YS1DZW50cmljIEFJIGluIHRoZSBBZ2Ugb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA2LjE0NDczIiwic25pcHBldCI6IkFCU1RSQUNULiBUaGlzIHBvc2l0aW9uIHBhcGVyIHByb3Bvc2VzIGEgZGF0YS1jZW50cmljIHZpZXdwb2ludCBvZiBBSSByZXNlYXJjaCwgZm9jdXNpbmcgb24gbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKS4iLCJkYXRlIjoiSnVuIDIwLCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "d491e30d7b78adf570426cf3be142c835a8611d5f315e89bb797b841541d4e19",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Effects of reinforcement learning on fine-tuned language models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Understanding the Effects of RLHF on LLM Generalisation and ...",
+                "link": "https://arxiv.org/abs/2310.06452",
+                "snippet": "We find that RLHF generalises better than SFT to new inputs, particularly as the distribution shift between train and test becomes larger. However, RLHF ...",
+                "date": "Oct 10, 2023",
+                "position": 1
+              },
+              {
+                "title": "Parameter Efficient Reinforcement Learning from Human Feedback",
+                "link": "https://arxiv.org/html/2403.10704v2",
+                "snippet": "PE-RLHF applies parameter-efficient fine-tuning techniques to optimize both of these training phases, thus significantly reducing the memory requirements, and ...",
+                "date": "Sep 12, 2024",
+                "position": 2
+              },
+              {
+                "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+                "link": "https://arxiv.org/html/2310.06147",
+                "snippet": "In the task of LLM alignment from human feedback, LLMs are fine-tuned to better follow user instructions. In the seminal paper of OpenAI [23] , such an ...",
+                "date": "Oct 9, 2023",
+                "position": 3
+              },
+              {
+                "title": "Reinforcement Learning for Fine-tuning Text-to-speech Diffusion ...",
+                "link": "https://arxiv.org/html/2405.14632v1",
+                "snippet": "Our research indicates that fine-tuning TTS diffusion models using DLPO results in better outcomes compared to other reinforcement learning methods.",
+                "date": "May 23, 2024",
+                "position": 4
+              },
+              {
+                "title": "Training language models to follow instructions with human feedback",
+                "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                "snippet": "We focus on fine-tuning approaches to aligning language models. Specifically, we use reinforcement learning from human feedback (RLHF; Christiano et al., 2017; ...",
+                "date": "Jan 27, 2022",
+                "position": 5
+              },
+              {
+                "title": "Fine-Tuning Large Vision-Language Models as Decision-Making ...",
+                "link": "https://arxiv.org/html/2405.10292v1",
+                "snippet": "Large vision-language models (VLMs) fine-tuned on specialized visual instruction-following data have exhibited impressive language reasoning capabilities across ...",
+                "date": "May 16, 2024",
+                "position": 6
+              },
+              {
+                "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+                "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+                "snippet": "Instruction tuning gives large language models (LLMs) the ability to follow instructions and perform zero-shot generalisation to a wide range of tasks (Mishra ...",
+                "date": "Mar 12, 2024",
+                "position": 7
+              },
+              {
+                "title": "[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv",
+                "link": "https://arxiv.org/pdf/2401.01335",
+                "snippet": "Harnessing the power of human-annotated data through Supervised Fine-Tuning (SFT) is pivotal for advancing Large Language Models (LLMs).",
+                "date": "Jun 14, 2024",
+                "position": 8
+              },
+              {
+                "title": "[PDF] understanding the effects of rlhf on llm generalisation and diversity",
+                "link": "https://arxiv.org/pdf/2310.06452",
+                "snippet": "Large language models (LLMs) fine-tuned with reinforcement learning from human feedback (RLHF) have been used in some of the most widely deployed AI models.",
+                "date": "Feb 19, 2024",
+                "position": 9
+              },
+              {
+                "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+                "link": "https://arxiv.org/pdf/2406.14473",
+                "snippet": "ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs).",
+                "date": "Jun 20, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:26:29.198542+00:00",
+          "elapsed_seconds": 1.066712137311697
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2203.02155",
+        "2310.06147",
+        "2310.06452",
+        "2401.01335",
+        "2403.07794",
+        "2403.10704",
+        "2405.10292",
+        "2405.14632",
+        "2406.14473"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2310.06452",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2310.06452",
+          "title": "Understanding the Effects of RLHF on LLM Generalisation and ...",
+          "snippet": "We find that RLHF generalises better than SFT to new inputs, particularly as the distribution shift between train and test becomes larger. However, RLHF ..."
+        },
+        {
+          "arxiv_id": "2403.10704",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2403.10704v2",
+          "title": "Parameter Efficient Reinforcement Learning from Human Feedback",
+          "snippet": "PE-RLHF applies parameter-efficient fine-tuning techniques to optimize both of these training phases, thus significantly reducing the memory requirements, and ..."
+        },
+        {
+          "arxiv_id": "2310.06147",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2310.06147",
+          "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+          "snippet": "In the task of LLM alignment from human feedback, LLMs are fine-tuned to better follow user instructions. In the seminal paper of OpenAI [23] , such an ..."
+        },
+        {
+          "arxiv_id": "2405.14632",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2405.14632v1",
+          "title": "Reinforcement Learning for Fine-tuning Text-to-speech Diffusion ...",
+          "snippet": "Our research indicates that fine-tuning TTS diffusion models using DLPO results in better outcomes compared to other reinforcement learning methods."
+        },
+        {
+          "arxiv_id": "2203.02155",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+          "title": "Training language models to follow instructions with human feedback",
+          "snippet": "We focus on fine-tuning approaches to aligning language models. Specifically, we use reinforcement learning from human feedback (RLHF; Christiano et al., 2017; ..."
+        },
+        {
+          "arxiv_id": "2405.10292",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2405.10292v1",
+          "title": "Fine-Tuning Large Vision-Language Models as Decision-Making ...",
+          "snippet": "Large vision-language models (VLMs) fine-tuned on specialized visual instruction-following data have exhibited impressive language reasoning capabilities across ..."
+        },
+        {
+          "arxiv_id": "2403.07794",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+          "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+          "snippet": "Instruction tuning gives large language models (LLMs) the ability to follow instructions and perform zero-shot generalisation to a wide range of tasks (Mishra ..."
+        },
+        {
+          "arxiv_id": "2401.01335",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2401.01335",
+          "title": "[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv",
+          "snippet": "Harnessing the power of human-annotated data through Supervised Fine-Tuning (SFT) is pivotal for advancing Large Language Models (LLMs)."
+        },
+        {
+          "arxiv_id": "2310.06452",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2310.06452",
+          "title": "[PDF] understanding the effects of rlhf on llm generalisation and diversity",
+          "snippet": "Large language models (LLMs) fine-tuned with reinforcement learning from human feedback (RLHF) have been used in some of the most widely deployed AI models."
+        },
+        {
+          "arxiv_id": "2406.14473",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2406.14473",
+          "title": "[PDF] Data-Centric AI in the Age of Large Language Models",
+          "snippet": "ABSTRACT. This position paper proposes a data-centric viewpoint of AI research, focusing on large language models (LLMs)."
+        }
+      ],
+      "request_payload": {
+        "q": "Effects of reinforcement learning on fine-tuned language models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Downsides of reinforcement learning in supervised fine-tuned LLMs",
+      "attempts": [
+        {
+          "global_attempt_sequence": 95,
+          "query_id": "Q15",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Downsides of reinforcement learning in supervised fine-tuned LLMs",
+          "request_payload": {
+            "q": "Downsides of reinforcement learning in supervised fine-tuned LLMs before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q15_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:26:29.294696+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Downsides of reinforcement learning in supervised fine-tuned LLMs before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Supervised Fine-Tuning as Inverse Reinforcement Learning - arXiv\",\"link\":\"https://arxiv.org/abs/2403.12017\",\"snippet\":\"Inclusively, we examine the pros and cons of the classical supervised fine-tuning method, elaborating on scenarios where different methods shine.\",\"date\":\"Mar 18, 2024\",\"position\":1},{\"title\":\"Fine-Tuning Language Models with Reward Learning on Policy - arXiv\",\"link\":\"https://arxiv.org/html/2403.19279v1\",\"snippet\":\"Despite its popularity, however, (fixed) reward models may suffer from inaccurate off-distribution, since policy optimization continuously shifts LLMs' data ...\",\"date\":\"Mar 28, 2024\",\"position\":2},{\"title\":\"[PDF] Supervised Fine-Tuning as Inverse Reinforcement Learning - arXiv\",\"link\":\"https://arxiv.org/pdf/2403.12017\",\"snippet\":\"Drawing insights from inverse reinforcement learning and imitation learning, we introduce various approaches for divergence minimization in the LLM alignment ...\",\"date\":\"Mar 18, 2024\",\"position\":3},{\"title\":\"Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...\",\"link\":\"https://arxiv.org/html/2405.11870v1\",\"snippet\":\"Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF) are two fundamental processes for enhancing the capabilities of Language ...\",\"date\":\"May 20, 2024\",\"position\":4},{\"title\":\"Reinforcement Learning in the Era of LLMs - arXiv\",\"link\":\"https://arxiv.org/html/2310.06147\",\"snippet\":\"1. PPO works well in large-scale discrete tasks [16] . The action space of LLM is far larger than normal RL problems. · 2. PPO has a faster wall-clock training ...\",\"date\":\"Oct 9, 2023\",\"position\":5},{\"title\":\"Fine-Tuning Large Language Models with Sequential Instructions\",\"link\":\"https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com\",\"snippet\":\"Large language models (LLMs) struggle to follow a sequence of instructions in a single query as they may ignore or misinterpret part of it.\",\"date\":\"Mar 12, 2024\",\"position\":6},{\"title\":\"[PDF] ivygpt: interactive chinese pathway language model - arXiv\",\"link\":\"https://arxiv.org/pdf/2307.10512\",\"snippet\":\"LLMs have not been widely adopted for medical purposes, due to poor accuracy and inability to provide medical advice. it cannot perform like a doctor in other ...\",\"date\":\"Jul 21, 2023\",\"position\":7},{\"title\":\"Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs\",\"link\":\"https://arxiv.org/html/2312.05934v3\",\"snippet\":\"LLMs struggle to learn new factual information through unsupervised fine-tuning, First, it is static and does not update with time. Second, it is non-specific ...\",\"date\":\"Jan 30, 2024\",\"position\":8},{\"title\":\"Understanding the Effects of RLHF on LLM Generalisation and ...\",\"link\":\"https://arxiv.org/abs/2310.06452\",\"snippet\":\"While there has been significant work developing these methods, our understanding of the benefits and downsides of each stage in RLHF is still limited. To fill ...\",\"date\":\"Oct 10, 2023\",\"position\":9},{\"title\":\"The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs\",\"link\":\"https://arxiv.org/html/2408.13296v1\",\"snippet\":\"This process is crucial for supervised learning tasks and greatly influences the performance of the fine-tuned model. Recent research highlights various ...\",\"date\":\"Aug 23, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJEb3duc2lkZXMgb2YgcmVpbmZvcmNlbWVudCBsZWFybmluZyBpbiBzdXBlcnZpc2VkIGZpbmUtdHVuZWQgTExNcyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJTdXBlcnZpc2VkIEZpbmUtVHVuaW5nIGFzIEludmVyc2UgUmVpbmZvcmNlbWVudCBMZWFybmluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDAzLjEyMDE3Iiwic25pcHBldCI6IkluY2x1c2l2ZWx5LCB3ZSBleGFtaW5lIHRoZSBwcm9zIGFuZCBjb25zIG9mIHRoZSBjbGFzc2ljYWwgc3VwZXJ2aXNlZCBmaW5lLXR1bmluZyBtZXRob2QsIGVsYWJvcmF0aW5nIG9uIHNjZW5hcmlvcyB3aGVyZSBkaWZmZXJlbnQgbWV0aG9kcyBzaGluZS4iLCJkYXRlIjoiTWFyIDE4LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJGaW5lLVR1bmluZyBMYW5ndWFnZSBNb2RlbHMgd2l0aCBSZXdhcmQgTGVhcm5pbmcgb24gUG9saWN5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE5Mjc5djEiLCJzbmlwcGV0IjoiRGVzcGl0ZSBpdHMgcG9wdWxhcml0eSwgaG93ZXZlciwgKGZpeGVkKSByZXdhcmQgbW9kZWxzIG1heSBzdWZmZXIgZnJvbSBpbmFjY3VyYXRlIG9mZi1kaXN0cmlidXRpb24sIHNpbmNlIHBvbGljeSBvcHRpbWl6YXRpb24gY29udGludW91c2x5IHNoaWZ0cyBMTE1zJyBkYXRhIC4uLiIsImRhdGUiOiJNYXIgMjgsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIFN1cGVydmlzZWQgRmluZS1UdW5pbmcgYXMgSW52ZXJzZSBSZWluZm9yY2VtZW50IExlYXJuaW5nIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDMuMTIwMTciLCJzbmlwcGV0IjoiRHJhd2luZyBpbnNpZ2h0cyBmcm9tIGludmVyc2UgcmVpbmZvcmNlbWVudCBsZWFybmluZyBhbmQgaW1pdGF0aW9uIGxlYXJuaW5nLCB3ZSBpbnRyb2R1Y2UgdmFyaW91cyBhcHByb2FjaGVzIGZvciBkaXZlcmdlbmNlIG1pbmltaXphdGlvbiBpbiB0aGUgTExNIGFsaWdubWVudCAuLi4iLCJkYXRlIjoiTWFyIDE4LCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJJbnR1aXRpdmUgRmluZS1UdW5pbmc6IFRvd2FyZHMgVW5pZnlpbmcgU0ZUIGFuZCBSTEhGIGludG8gYSBTaW5nbGUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xMTg3MHYxIiwic25pcHBldCI6IlN1cGVydmlzZWQgRmluZS1UdW5pbmcgKFNGVCkgYW5kIFJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgZnJvbSBIdW1hbiBGZWVkYmFjayAoUkxIRikgYXJlIHR3byBmdW5kYW1lbnRhbCBwcm9jZXNzZXMgZm9yIGVuaGFuY2luZyB0aGUgY2FwYWJpbGl0aWVzIG9mIExhbmd1YWdlIC4uLiIsImRhdGUiOiJNYXkgMjAsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgaW4gdGhlIEVyYSBvZiBMTE1zIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEwLjA2MTQ3Iiwic25pcHBldCI6IjEuIFBQTyB3b3JrcyB3ZWxsIGluIGxhcmdlLXNjYWxlIGRpc2NyZXRlIHRhc2tzIFsxNl0gLiBUaGUgYWN0aW9uIHNwYWNlIG9mIExMTSBpcyBmYXIgbGFyZ2VyIHRoYW4gbm9ybWFsIFJMIHByb2JsZW1zLiDCtyAyLiBQUE8gaGFzIGEgZmFzdGVyIHdhbGwtY2xvY2sgdHJhaW5pbmcgLi4uIiwiZGF0ZSI6Ik9jdCA5LCAyMDIzIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJGaW5lLVR1bmluZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgd2l0aCBTZXF1ZW50aWFsIEluc3RydWN0aW9ucyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMDc3OTR2MT9yZWY9YmxvZy5wcm9tcHRsYXllci5jb20iLCJzbmlwcGV0IjoiTGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSBzdHJ1Z2dsZSB0byBmb2xsb3cgYSBzZXF1ZW5jZSBvZiBpbnN0cnVjdGlvbnMgaW4gYSBzaW5nbGUgcXVlcnkgYXMgdGhleSBtYXkgaWdub3JlIG9yIG1pc2ludGVycHJldCBwYXJ0IG9mIGl0LiIsImRhdGUiOiJNYXIgMTIsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIGl2eWdwdDogaW50ZXJhY3RpdmUgY2hpbmVzZSBwYXRod2F5IGxhbmd1YWdlIG1vZGVsIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDcuMTA1MTIiLCJzbmlwcGV0IjoiTExNcyBoYXZlIG5vdCBiZWVuIHdpZGVseSBhZG9wdGVkIGZvciBtZWRpY2FsIHB1cnBvc2VzLCBkdWUgdG8gcG9vciBhY2N1cmFjeSBhbmQgaW5hYmlsaXR5IHRvIHByb3ZpZGUgbWVkaWNhbCBhZHZpY2UuIGl0IGNhbm5vdCBwZXJmb3JtIGxpa2UgYSBkb2N0b3IgaW4gb3RoZXIgLi4uIiwiZGF0ZSI6Ikp1bCAyMSwgMjAyMyIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiRmluZS1UdW5pbmcgb3IgUmV0cmlldmFsPyBDb21wYXJpbmcgS25vd2xlZGdlIEluamVjdGlvbiBpbiBMTE1zIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4wNTkzNHYzIiwic25pcHBldCI6IkxMTXMgc3RydWdnbGUgdG8gbGVhcm4gbmV3IGZhY3R1YWwgaW5mb3JtYXRpb24gdGhyb3VnaCB1bnN1cGVydmlzZWQgZmluZS10dW5pbmcsIEZpcnN0LCBpdCBpcyBzdGF0aWMgYW5kIGRvZXMgbm90IHVwZGF0ZSB3aXRoIHRpbWUuIFNlY29uZCwgaXQgaXMgbm9uLXNwZWNpZmljIC4uLiIsImRhdGUiOiJKYW4gMzAsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IlVuZGVyc3RhbmRpbmcgdGhlIEVmZmVjdHMgb2YgUkxIRiBvbiBMTE0gR2VuZXJhbGlzYXRpb24gYW5kIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMxMC4wNjQ1MiIsInNuaXBwZXQiOiJXaGlsZSB0aGVyZSBoYXMgYmVlbiBzaWduaWZpY2FudCB3b3JrIGRldmVsb3BpbmcgdGhlc2UgbWV0aG9kcywgb3VyIHVuZGVyc3RhbmRpbmcgb2YgdGhlIGJlbmVmaXRzIGFuZCBkb3duc2lkZXMgb2YgZWFjaCBzdGFnZSBpbiBSTEhGIGlzIHN0aWxsIGxpbWl0ZWQuIFRvIGZpbGwgLi4uIiwiZGF0ZSI6Ik9jdCAxMCwgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiVGhlIFVsdGltYXRlIEd1aWRlIHRvIEZpbmUtVHVuaW5nIExMTXMgZnJvbSBCYXNpY3MgdG8gQnJlYWt0aHJvdWdocyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTMyOTZ2MSIsInNuaXBwZXQiOiJUaGlzIHByb2Nlc3MgaXMgY3J1Y2lhbCBmb3Igc3VwZXJ2aXNlZCBsZWFybmluZyB0YXNrcyBhbmQgZ3JlYXRseSBpbmZsdWVuY2VzIHRoZSBwZXJmb3JtYW5jZSBvZiB0aGUgZmluZS10dW5lZCBtb2RlbC4gUmVjZW50IHJlc2VhcmNoIGhpZ2hsaWdodHMgdmFyaW91cyAuLi4iLCJkYXRlIjoiQXVnIDIzLCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "eb7d01b2bb7b1501362fb9d4e3882c5d47d707be4a115b3053bd2afc00210b58",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Downsides of reinforcement learning in supervised fine-tuned LLMs before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Supervised Fine-Tuning as Inverse Reinforcement Learning - arXiv",
+                "link": "https://arxiv.org/abs/2403.12017",
+                "snippet": "Inclusively, we examine the pros and cons of the classical supervised fine-tuning method, elaborating on scenarios where different methods shine.",
+                "date": "Mar 18, 2024",
+                "position": 1
+              },
+              {
+                "title": "Fine-Tuning Language Models with Reward Learning on Policy - arXiv",
+                "link": "https://arxiv.org/html/2403.19279v1",
+                "snippet": "Despite its popularity, however, (fixed) reward models may suffer from inaccurate off-distribution, since policy optimization continuously shifts LLMs' data ...",
+                "date": "Mar 28, 2024",
+                "position": 2
+              },
+              {
+                "title": "[PDF] Supervised Fine-Tuning as Inverse Reinforcement Learning - arXiv",
+                "link": "https://arxiv.org/pdf/2403.12017",
+                "snippet": "Drawing insights from inverse reinforcement learning and imitation learning, we introduce various approaches for divergence minimization in the LLM alignment ...",
+                "date": "Mar 18, 2024",
+                "position": 3
+              },
+              {
+                "title": "Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...",
+                "link": "https://arxiv.org/html/2405.11870v1",
+                "snippet": "Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF) are two fundamental processes for enhancing the capabilities of Language ...",
+                "date": "May 20, 2024",
+                "position": 4
+              },
+              {
+                "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+                "link": "https://arxiv.org/html/2310.06147",
+                "snippet": "1. PPO works well in large-scale discrete tasks [16] . The action space of LLM is far larger than normal RL problems. · 2. PPO has a faster wall-clock training ...",
+                "date": "Oct 9, 2023",
+                "position": 5
+              },
+              {
+                "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+                "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+                "snippet": "Large language models (LLMs) struggle to follow a sequence of instructions in a single query as they may ignore or misinterpret part of it.",
+                "date": "Mar 12, 2024",
+                "position": 6
+              },
+              {
+                "title": "[PDF] ivygpt: interactive chinese pathway language model - arXiv",
+                "link": "https://arxiv.org/pdf/2307.10512",
+                "snippet": "LLMs have not been widely adopted for medical purposes, due to poor accuracy and inability to provide medical advice. it cannot perform like a doctor in other ...",
+                "date": "Jul 21, 2023",
+                "position": 7
+              },
+              {
+                "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs",
+                "link": "https://arxiv.org/html/2312.05934v3",
+                "snippet": "LLMs struggle to learn new factual information through unsupervised fine-tuning, First, it is static and does not update with time. Second, it is non-specific ...",
+                "date": "Jan 30, 2024",
+                "position": 8
+              },
+              {
+                "title": "Understanding the Effects of RLHF on LLM Generalisation and ...",
+                "link": "https://arxiv.org/abs/2310.06452",
+                "snippet": "While there has been significant work developing these methods, our understanding of the benefits and downsides of each stage in RLHF is still limited. To fill ...",
+                "date": "Oct 10, 2023",
+                "position": 9
+              },
+              {
+                "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+                "link": "https://arxiv.org/html/2408.13296v1",
+                "snippet": "This process is crucial for supervised learning tasks and greatly influences the performance of the fine-tuned model. Recent research highlights various ...",
+                "date": "Aug 23, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:26:30.424809+00:00",
+          "elapsed_seconds": 1.1301114112138748
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2307.10512",
+        "2310.06147",
+        "2310.06452",
+        "2312.05934",
+        "2403.07794",
+        "2403.12017",
+        "2403.19279",
+        "2405.11870",
+        "2408.13296"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.12017",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2403.12017",
+          "title": "Supervised Fine-Tuning as Inverse Reinforcement Learning - arXiv",
+          "snippet": "Inclusively, we examine the pros and cons of the classical supervised fine-tuning method, elaborating on scenarios where different methods shine."
+        },
+        {
+          "arxiv_id": "2403.19279",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2403.19279v1",
+          "title": "Fine-Tuning Language Models with Reward Learning on Policy - arXiv",
+          "snippet": "Despite its popularity, however, (fixed) reward models may suffer from inaccurate off-distribution, since policy optimization continuously shifts LLMs' data ..."
+        },
+        {
+          "arxiv_id": "2403.12017",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2403.12017",
+          "title": "[PDF] Supervised Fine-Tuning as Inverse Reinforcement Learning - arXiv",
+          "snippet": "Drawing insights from inverse reinforcement learning and imitation learning, we introduce various approaches for divergence minimization in the LLM alignment ..."
+        },
+        {
+          "arxiv_id": "2405.11870",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2405.11870v1",
+          "title": "Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...",
+          "snippet": "Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF) are two fundamental processes for enhancing the capabilities of Language ..."
+        },
+        {
+          "arxiv_id": "2310.06147",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2310.06147",
+          "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+          "snippet": "1. PPO works well in large-scale discrete tasks [16] . The action space of LLM is far larger than normal RL problems. · 2. PPO has a faster wall-clock training ..."
+        },
+        {
+          "arxiv_id": "2403.07794",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+          "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+          "snippet": "Large language models (LLMs) struggle to follow a sequence of instructions in a single query as they may ignore or misinterpret part of it."
+        },
+        {
+          "arxiv_id": "2307.10512",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2307.10512",
+          "title": "[PDF] ivygpt: interactive chinese pathway language model - arXiv",
+          "snippet": "LLMs have not been widely adopted for medical purposes, due to poor accuracy and inability to provide medical advice. it cannot perform like a doctor in other ..."
+        },
+        {
+          "arxiv_id": "2312.05934",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2312.05934v3",
+          "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs",
+          "snippet": "LLMs struggle to learn new factual information through unsupervised fine-tuning, First, it is static and does not update with time. Second, it is non-specific ..."
+        },
+        {
+          "arxiv_id": "2310.06452",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2310.06452",
+          "title": "Understanding the Effects of RLHF on LLM Generalisation and ...",
+          "snippet": "While there has been significant work developing these methods, our understanding of the benefits and downsides of each stage in RLHF is still limited. To fill ..."
+        },
+        {
+          "arxiv_id": "2408.13296",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2408.13296v1",
+          "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+          "snippet": "This process is crucial for supervised learning tasks and greatly influences the performance of the fine-tuned model. Recent research highlights various ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Downsides of reinforcement learning in supervised fine-tuned LLMs before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Impact of reinforcement learning on performance of fine-tuned LLMs",
+      "attempts": [
+        {
+          "global_attempt_sequence": 97,
+          "query_id": "Q15",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Impact of reinforcement learning on performance of fine-tuned LLMs",
+          "request_payload": {
+            "q": "Impact of reinforcement learning on performance of fine-tuned LLMs before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q15_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:26:31.691780+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Impact of reinforcement learning on performance of fine-tuned LLMs before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[PDF] understanding the effects of rlhf on llm generalisation and diversity\",\"link\":\"https://arxiv.org/pdf/2310.06452\",\"snippet\":\"In this work, we evaluate each stage of the RLHF pipeline (i.e. supervised fine-tuning, reward modeling, and reinforcement learning) as well as best-of-N (BoN) ...\",\"date\":\"Feb 19, 2024\",\"position\":1},{\"title\":\"A Comparison of LLM Fine-tuning Methods and Evaluation Metrics ...\",\"link\":\"https://arxiv.org/html/2408.03562v1\",\"snippet\":\"Using the DPO Trainer module for fine-tuning LLMs with reinforcement learning, there exists a set of metrics including training loss, validation loss, rewards/ ...\",\"date\":\"Aug 7, 2024\",\"position\":2},{\"title\":\"Parameter Efficient Reinforcement Learning from Human Feedback\",\"link\":\"https://arxiv.org/html/2403.10704v2\",\"snippet\":\"Our findings show, for the first time, that PE-RLHF achieves comparable performance to RLHF, while significantly reducing training time (up to 90% faster for ...\",\"date\":\"Sep 12, 2024\",\"position\":3},{\"title\":\"Analyzing the Relationship between Pre-Training and Fine-Tuning ...\",\"link\":\"https://arxiv.org/html/2408.06663v1\",\"snippet\":\"Our findings suggest that early stopping in pre-training will not be detrimental to downstream fine-tuning performance, and the benefits of fine-tuning an LLM ...\",\"date\":\"Aug 13, 2024\",\"position\":4},{\"title\":\"[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.01335\",\"snippet\":\"Our results show that SPIN can sig- nificantly improve the LLM's performance across a variety of benchmarks and even outperform models trained through direct ...\",\"date\":\"Jun 14, 2024\",\"position\":5},{\"title\":\"Fine-Tuning Large Language Models with Sequential Instructions\",\"link\":\"https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com\",\"snippet\":\"Instruction tuning gives large language models (LLMs) the ability to follow instructions and perform zero-shot generalisation to a wide range of tasks (Mishra ...\",\"date\":\"Mar 12, 2024\",\"position\":6},{\"title\":\"Reinforcement Learning in the Era of LLMs - arXiv\",\"link\":\"https://arxiv.org/html/2310.06147\",\"snippet\":\"In this paper, we aim to link the research in conventional RL to RL techniques used in LLM research. Demystify this technique by discussing why, when, and how ...\",\"date\":\"Oct 9, 2023\",\"position\":7},{\"title\":\"Enhancing Large Language Model Performance To Answer ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.01722v1\",\"snippet\":\"The results showcase the capability of fine-tuned models to surpass the accuracy of zero-shot LLMs, providing superior question and answering capabilities.\",\"date\":\"Jan 27, 2024\",\"sitelinks\":[{\"title\":\"2 Background\",\"link\":\"https://arxiv.org/html/2402.01722v1#:~:text=2%20Background,-To%20understand%20different%20techniques%20to\"},{\"title\":\"2.2 Fine Tuning\",\"link\":\"https://arxiv.org/html/2402.01722v1#:~:text=2.2%20Fine%20Tuning,-While%20Retrieval%20Augmented%20Generation%20provides\"},{\"title\":\"3 Process And Work\",\"link\":\"https://arxiv.org/html/2402.01722v1#:~:text=3%20Process%20and%20Work,-To%20enhance%20the%20accuracy%20of\"}],\"position\":8},{\"title\":\"Learning to Modulate pre-trained Models in RL - arXiv\",\"link\":\"https://arxiv.org/html/2306.14884v2\",\"snippet\":\"Our study shows that with most fine-tuning approaches, the performance on pre-training tasks deteriorates significantly. Therefore, we propose a novel method, ...\",\"date\":\"Oct 27, 2023\",\"position\":9},{\"title\":\"DRLC: Reinforcement Learning with Dense Rewards from LLM Critic\",\"link\":\"https://arxiv.org/html/2401.07382v1\",\"snippet\":\"Experimental results show that incorporating artificial dense rewards in training yields consistent performance gains over the PPO baseline with holistic ...\",\"date\":\"Jan 14, 2024\",\"sitelinks\":[{\"title\":\"Drlc: Reinforcement Learning...\",\"link\":\"https://arxiv.org/html/2401.07382v1#:~:text=DRLC%3A%20Reinforcement%20Learning%20with%20Dense%20Rewards%20from%20LLM%20Critic,-Meng%20Cao%2C%20Lei%20Shu\"},{\"title\":\"4 Experiments\",\"link\":\"https://arxiv.org/html/2401.07382v1#:~:text=4%20Experiments,-In%20this%20section%2C%20we\"},{\"title\":\"Appendix A Experiments\",\"link\":\"https://arxiv.org/html/2401.07382v1#:~:text=Appendix%20A%20Experiments\"}],\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJJbXBhY3Qgb2YgcmVpbmZvcmNlbWVudCBsZWFybmluZyBvbiBwZXJmb3JtYW5jZSBvZiBmaW5lLXR1bmVkIExMTXMgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiW1BERl0gdW5kZXJzdGFuZGluZyB0aGUgZWZmZWN0cyBvZiBybGhmIG9uIGxsbSBnZW5lcmFsaXNhdGlvbiBhbmQgZGl2ZXJzaXR5IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzEwLjA2NDUyIiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgZXZhbHVhdGUgZWFjaCBzdGFnZSBvZiB0aGUgUkxIRiBwaXBlbGluZSAoaS5lLiBzdXBlcnZpc2VkIGZpbmUtdHVuaW5nLCByZXdhcmQgbW9kZWxpbmcsIGFuZCByZWluZm9yY2VtZW50IGxlYXJuaW5nKSBhcyB3ZWxsIGFzIGJlc3Qtb2YtTiAoQm9OKSAuLi4iLCJkYXRlIjoiRmViIDE5LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJBIENvbXBhcmlzb24gb2YgTExNIEZpbmUtdHVuaW5nIE1ldGhvZHMgYW5kIEV2YWx1YXRpb24gTWV0cmljcyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjAzNTYydjEiLCJzbmlwcGV0IjoiVXNpbmcgdGhlIERQTyBUcmFpbmVyIG1vZHVsZSBmb3IgZmluZS10dW5pbmcgTExNcyB3aXRoIHJlaW5mb3JjZW1lbnQgbGVhcm5pbmcsIHRoZXJlIGV4aXN0cyBhIHNldCBvZiBtZXRyaWNzIGluY2x1ZGluZyB0cmFpbmluZyBsb3NzLCB2YWxpZGF0aW9uIGxvc3MsIHJld2FyZHMvIC4uLiIsImRhdGUiOiJBdWcgNywgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiUGFyYW1ldGVyIEVmZmljaWVudCBSZWluZm9yY2VtZW50IExlYXJuaW5nIGZyb20gSHVtYW4gRmVlZGJhY2siLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjEwNzA0djIiLCJzbmlwcGV0IjoiT3VyIGZpbmRpbmdzIHNob3csIGZvciB0aGUgZmlyc3QgdGltZSwgdGhhdCBQRS1STEhGIGFjaGlldmVzIGNvbXBhcmFibGUgcGVyZm9ybWFuY2UgdG8gUkxIRiwgd2hpbGUgc2lnbmlmaWNhbnRseSByZWR1Y2luZyB0cmFpbmluZyB0aW1lICh1cCB0byA5MCUgZmFzdGVyIGZvciAuLi4iLCJkYXRlIjoiU2VwIDEyLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJBbmFseXppbmcgdGhlIFJlbGF0aW9uc2hpcCBiZXR3ZWVuIFByZS1UcmFpbmluZyBhbmQgRmluZS1UdW5pbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOC4wNjY2M3YxIiwic25pcHBldCI6Ik91ciBmaW5kaW5ncyBzdWdnZXN0IHRoYXQgZWFybHkgc3RvcHBpbmcgaW4gcHJlLXRyYWluaW5nIHdpbGwgbm90IGJlIGRldHJpbWVudGFsIHRvIGRvd25zdHJlYW0gZmluZS10dW5pbmcgcGVyZm9ybWFuY2UsIGFuZCB0aGUgYmVuZWZpdHMgb2YgZmluZS10dW5pbmcgYW4gTExNIC4uLiIsImRhdGUiOiJBdWcgMTMsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIFNlbGYtUGxheSBGaW5lLVR1bmluZyBDb252ZXJ0cyBXZWFrIExhbmd1YWdlIE1vZGVscyB0byAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMS4wMTMzNSIsInNuaXBwZXQiOiJPdXIgcmVzdWx0cyBzaG93IHRoYXQgU1BJTiBjYW4gc2lnLSBuaWZpY2FudGx5IGltcHJvdmUgdGhlIExMTSdzIHBlcmZvcm1hbmNlIGFjcm9zcyBhIHZhcmlldHkgb2YgYmVuY2htYXJrcyBhbmQgZXZlbiBvdXRwZXJmb3JtIG1vZGVscyB0cmFpbmVkIHRocm91Z2ggZGlyZWN0IC4uLiIsImRhdGUiOiJKdW4gMTQsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkZpbmUtVHVuaW5nIExhcmdlIExhbmd1YWdlIE1vZGVscyB3aXRoIFNlcXVlbnRpYWwgSW5zdHJ1Y3Rpb25zIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4wNzc5NHYxP3JlZj1ibG9nLnByb21wdGxheWVyLmNvbSIsInNuaXBwZXQiOiJJbnN0cnVjdGlvbiB0dW5pbmcgZ2l2ZXMgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSB0aGUgYWJpbGl0eSB0byBmb2xsb3cgaW5zdHJ1Y3Rpb25zIGFuZCBwZXJmb3JtIHplcm8tc2hvdCBnZW5lcmFsaXNhdGlvbiB0byBhIHdpZGUgcmFuZ2Ugb2YgdGFza3MgKE1pc2hyYSAuLi4iLCJkYXRlIjoiTWFyIDEyLCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJSZWluZm9yY2VtZW50IExlYXJuaW5nIGluIHRoZSBFcmEgb2YgTExNcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMC4wNjE0NyIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBhaW0gdG8gbGluayB0aGUgcmVzZWFyY2ggaW4gY29udmVudGlvbmFsIFJMIHRvIFJMIHRlY2huaXF1ZXMgdXNlZCBpbiBMTE0gcmVzZWFyY2guIERlbXlzdGlmeSB0aGlzIHRlY2huaXF1ZSBieSBkaXNjdXNzaW5nIHdoeSwgd2hlbiwgYW5kIGhvdyAuLi4iLCJkYXRlIjoiT2N0IDksIDIwMjMiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkVuaGFuY2luZyBMYXJnZSBMYW5ndWFnZSBNb2RlbCBQZXJmb3JtYW5jZSBUbyBBbnN3ZXIgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjAxNzIydjEiLCJzbmlwcGV0IjoiVGhlIHJlc3VsdHMgc2hvd2Nhc2UgdGhlIGNhcGFiaWxpdHkgb2YgZmluZS10dW5lZCBtb2RlbHMgdG8gc3VycGFzcyB0aGUgYWNjdXJhY3kgb2YgemVyby1zaG90IExMTXMsIHByb3ZpZGluZyBzdXBlcmlvciBxdWVzdGlvbiBhbmQgYW5zd2VyaW5nIGNhcGFiaWxpdGllcy4iLCJkYXRlIjoiSmFuIDI3LCAyMDI0Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjIgQmFja2dyb3VuZCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDE3MjJ2MSM6fjp0ZXh0PTIlMjBCYWNrZ3JvdW5kLC1UbyUyMHVuZGVyc3RhbmQlMjBkaWZmZXJlbnQlMjB0ZWNobmlxdWVzJTIwdG8ifSx7InRpdGxlIjoiMi4yIEZpbmUgVHVuaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wMTcyMnYxIzp+OnRleHQ9Mi4yJTIwRmluZSUyMFR1bmluZywtV2hpbGUlMjBSZXRyaWV2YWwlMjBBdWdtZW50ZWQlMjBHZW5lcmF0aW9uJTIwcHJvdmlkZXMifSx7InRpdGxlIjoiMyBQcm9jZXNzIEFuZCBXb3JrIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wMTcyMnYxIzp+OnRleHQ9MyUyMFByb2Nlc3MlMjBhbmQlMjBXb3JrLC1UbyUyMGVuaGFuY2UlMjB0aGUlMjBhY2N1cmFjeSUyMG9mIn1dLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkxlYXJuaW5nIHRvIE1vZHVsYXRlIHByZS10cmFpbmVkIE1vZGVscyBpbiBSTCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwNi4xNDg4NHYyIiwic25pcHBldCI6Ik91ciBzdHVkeSBzaG93cyB0aGF0IHdpdGggbW9zdCBmaW5lLXR1bmluZyBhcHByb2FjaGVzLCB0aGUgcGVyZm9ybWFuY2Ugb24gcHJlLXRyYWluaW5nIHRhc2tzIGRldGVyaW9yYXRlcyBzaWduaWZpY2FudGx5LiBUaGVyZWZvcmUsIHdlIHByb3Bvc2UgYSBub3ZlbCBtZXRob2QsIC4uLiIsImRhdGUiOiJPY3QgMjcsIDIwMjMiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkRSTEM6IFJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgd2l0aCBEZW5zZSBSZXdhcmRzIGZyb20gTExNIENyaXRpYyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMDczODJ2MSIsInNuaXBwZXQiOiJFeHBlcmltZW50YWwgcmVzdWx0cyBzaG93IHRoYXQgaW5jb3Jwb3JhdGluZyBhcnRpZmljaWFsIGRlbnNlIHJld2FyZHMgaW4gdHJhaW5pbmcgeWllbGRzIGNvbnNpc3RlbnQgcGVyZm9ybWFuY2UgZ2FpbnMgb3ZlciB0aGUgUFBPIGJhc2VsaW5lIHdpdGggaG9saXN0aWMgLi4uIiwiZGF0ZSI6IkphbiAxNCwgMjAyNCIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiJEcmxjOiBSZWluZm9yY2VtZW50IExlYXJuaW5nLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4wNzM4MnYxIzp+OnRleHQ9RFJMQyUzQSUyMFJlaW5mb3JjZW1lbnQlMjBMZWFybmluZyUyMHdpdGglMjBEZW5zZSUyMFJld2FyZHMlMjBmcm9tJTIwTExNJTIwQ3JpdGljLC1NZW5nJTIwQ2FvJTJDJTIwTGVpJTIwU2h1In0seyJ0aXRsZSI6IjQgRXhwZXJpbWVudHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAxLjA3MzgydjEjOn46dGV4dD00JTIwRXhwZXJpbWVudHMsLUluJTIwdGhpcyUyMHNlY3Rpb24lMkMlMjB3ZSJ9LHsidGl0bGUiOiJBcHBlbmRpeCBBIEV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4wNzM4MnYxIzp+OnRleHQ9QXBwZW5kaXglMjBBJTIwRXhwZXJpbWVudHMifV0sInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "1988ddf484c350c3e7563ee5bdd7d24efd7b4c0239fa4d16f71df572cffdb0b7",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Impact of reinforcement learning on performance of fine-tuned LLMs before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "[PDF] understanding the effects of rlhf on llm generalisation and diversity",
+                "link": "https://arxiv.org/pdf/2310.06452",
+                "snippet": "In this work, we evaluate each stage of the RLHF pipeline (i.e. supervised fine-tuning, reward modeling, and reinforcement learning) as well as best-of-N (BoN) ...",
+                "date": "Feb 19, 2024",
+                "position": 1
+              },
+              {
+                "title": "A Comparison of LLM Fine-tuning Methods and Evaluation Metrics ...",
+                "link": "https://arxiv.org/html/2408.03562v1",
+                "snippet": "Using the DPO Trainer module for fine-tuning LLMs with reinforcement learning, there exists a set of metrics including training loss, validation loss, rewards/ ...",
+                "date": "Aug 7, 2024",
+                "position": 2
+              },
+              {
+                "title": "Parameter Efficient Reinforcement Learning from Human Feedback",
+                "link": "https://arxiv.org/html/2403.10704v2",
+                "snippet": "Our findings show, for the first time, that PE-RLHF achieves comparable performance to RLHF, while significantly reducing training time (up to 90% faster for ...",
+                "date": "Sep 12, 2024",
+                "position": 3
+              },
+              {
+                "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+                "link": "https://arxiv.org/html/2408.06663v1",
+                "snippet": "Our findings suggest that early stopping in pre-training will not be detrimental to downstream fine-tuning performance, and the benefits of fine-tuning an LLM ...",
+                "date": "Aug 13, 2024",
+                "position": 4
+              },
+              {
+                "title": "[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv",
+                "link": "https://arxiv.org/pdf/2401.01335",
+                "snippet": "Our results show that SPIN can sig- nificantly improve the LLM's performance across a variety of benchmarks and even outperform models trained through direct ...",
+                "date": "Jun 14, 2024",
+                "position": 5
+              },
+              {
+                "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+                "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+                "snippet": "Instruction tuning gives large language models (LLMs) the ability to follow instructions and perform zero-shot generalisation to a wide range of tasks (Mishra ...",
+                "date": "Mar 12, 2024",
+                "position": 6
+              },
+              {
+                "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+                "link": "https://arxiv.org/html/2310.06147",
+                "snippet": "In this paper, we aim to link the research in conventional RL to RL techniques used in LLM research. Demystify this technique by discussing why, when, and how ...",
+                "date": "Oct 9, 2023",
+                "position": 7
+              },
+              {
+                "title": "Enhancing Large Language Model Performance To Answer ... - arXiv",
+                "link": "https://arxiv.org/html/2402.01722v1",
+                "snippet": "The results showcase the capability of fine-tuned models to surpass the accuracy of zero-shot LLMs, providing superior question and answering capabilities.",
+                "date": "Jan 27, 2024",
+                "sitelinks": [
+                  {
+                    "title": "2 Background",
+                    "link": "https://arxiv.org/html/2402.01722v1#:~:text=2%20Background,-To%20understand%20different%20techniques%20to"
+                  },
+                  {
+                    "title": "2.2 Fine Tuning",
+                    "link": "https://arxiv.org/html/2402.01722v1#:~:text=2.2%20Fine%20Tuning,-While%20Retrieval%20Augmented%20Generation%20provides"
+                  },
+                  {
+                    "title": "3 Process And Work",
+                    "link": "https://arxiv.org/html/2402.01722v1#:~:text=3%20Process%20and%20Work,-To%20enhance%20the%20accuracy%20of"
+                  }
+                ],
+                "position": 8
+              },
+              {
+                "title": "Learning to Modulate pre-trained Models in RL - arXiv",
+                "link": "https://arxiv.org/html/2306.14884v2",
+                "snippet": "Our study shows that with most fine-tuning approaches, the performance on pre-training tasks deteriorates significantly. Therefore, we propose a novel method, ...",
+                "date": "Oct 27, 2023",
+                "position": 9
+              },
+              {
+                "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+                "link": "https://arxiv.org/html/2401.07382v1",
+                "snippet": "Experimental results show that incorporating artificial dense rewards in training yields consistent performance gains over the PPO baseline with holistic ...",
+                "date": "Jan 14, 2024",
+                "sitelinks": [
+                  {
+                    "title": "Drlc: Reinforcement Learning...",
+                    "link": "https://arxiv.org/html/2401.07382v1#:~:text=DRLC%3A%20Reinforcement%20Learning%20with%20Dense%20Rewards%20from%20LLM%20Critic,-Meng%20Cao%2C%20Lei%20Shu"
+                  },
+                  {
+                    "title": "4 Experiments",
+                    "link": "https://arxiv.org/html/2401.07382v1#:~:text=4%20Experiments,-In%20this%20section%2C%20we"
+                  },
+                  {
+                    "title": "Appendix A Experiments",
+                    "link": "https://arxiv.org/html/2401.07382v1#:~:text=Appendix%20A%20Experiments"
+                  }
+                ],
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:26:32.742603+00:00",
+          "elapsed_seconds": 1.050822850316763
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2306.14884",
+        "2310.06147",
+        "2310.06452",
+        "2401.01335",
+        "2401.07382",
+        "2402.01722",
+        "2403.07794",
+        "2403.10704",
+        "2408.03562",
+        "2408.06663"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2310.06452",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/pdf/2310.06452",
+          "title": "[PDF] understanding the effects of rlhf on llm generalisation and diversity",
+          "snippet": "In this work, we evaluate each stage of the RLHF pipeline (i.e. supervised fine-tuning, reward modeling, and reinforcement learning) as well as best-of-N (BoN) ..."
+        },
+        {
+          "arxiv_id": "2408.03562",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2408.03562v1",
+          "title": "A Comparison of LLM Fine-tuning Methods and Evaluation Metrics ...",
+          "snippet": "Using the DPO Trainer module for fine-tuning LLMs with reinforcement learning, there exists a set of metrics including training loss, validation loss, rewards/ ..."
+        },
+        {
+          "arxiv_id": "2403.10704",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2403.10704v2",
+          "title": "Parameter Efficient Reinforcement Learning from Human Feedback",
+          "snippet": "Our findings show, for the first time, that PE-RLHF achieves comparable performance to RLHF, while significantly reducing training time (up to 90% faster for ..."
+        },
+        {
+          "arxiv_id": "2408.06663",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2408.06663v1",
+          "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+          "snippet": "Our findings suggest that early stopping in pre-training will not be detrimental to downstream fine-tuning performance, and the benefits of fine-tuning an LLM ..."
+        },
+        {
+          "arxiv_id": "2401.01335",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2401.01335",
+          "title": "[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv",
+          "snippet": "Our results show that SPIN can sig- nificantly improve the LLM's performance across a variety of benchmarks and even outperform models trained through direct ..."
+        },
+        {
+          "arxiv_id": "2403.07794",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2403.07794v1?ref=blog.promptlayer.com",
+          "title": "Fine-Tuning Large Language Models with Sequential Instructions",
+          "snippet": "Instruction tuning gives large language models (LLMs) the ability to follow instructions and perform zero-shot generalisation to a wide range of tasks (Mishra ..."
+        },
+        {
+          "arxiv_id": "2310.06147",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2310.06147",
+          "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+          "snippet": "In this paper, we aim to link the research in conventional RL to RL techniques used in LLM research. Demystify this technique by discussing why, when, and how ..."
+        },
+        {
+          "arxiv_id": "2402.01722",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2402.01722v1",
+          "title": "Enhancing Large Language Model Performance To Answer ... - arXiv",
+          "snippet": "The results showcase the capability of fine-tuned models to surpass the accuracy of zero-shot LLMs, providing superior question and answering capabilities."
+        },
+        {
+          "arxiv_id": "2306.14884",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2306.14884v2",
+          "title": "Learning to Modulate pre-trained Models in RL - arXiv",
+          "snippet": "Our study shows that with most fine-tuning approaches, the performance on pre-training tasks deteriorates significantly. Therefore, we propose a novel method, ..."
+        },
+        {
+          "arxiv_id": "2401.07382",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2401.07382v1",
+          "title": "DRLC: Reinforcement Learning with Dense Rewards from LLM Critic",
+          "snippet": "Experimental results show that incorporating artificial dense rewards in training yields consistent performance gains over the PPO baseline with holistic ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Impact of reinforcement learning on performance of fine-tuned LLMs before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "Provide papers claiming that reinforcement learning can negatively impact the performance of supervised fine-tuned LLMs.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 96,
+          "query_id": "Q15",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "Provide papers claiming that reinforcement learning can negatively impact the performance of supervised fine-tuned LLMs.",
+          "request_payload": {
+            "q": "Provide papers claiming that reinforcement learning can negatively impact the performance of supervised fine-tuned LLMs. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q15_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:26:30.520233+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Provide papers claiming that reinforcement learning can negatively impact the performance of supervised fine-tuned LLMs. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Unlock the Correlation between Supervised Fine-Tuning and ... - arXiv\",\"link\":\"https://arxiv.org/abs/2406.10305\",\"snippet\":\"Within the fine-tuning, supervised fine-tuning (SFT), and reinforcement learning (RL) are often used to improve the model's zero-shot ability.\",\"date\":\"Jun 14, 2024\",\"position\":1},{\"title\":\"A Closer Look at the Limitations of Instruction Tuning - arXiv\",\"link\":\"https://arxiv.org/html/2402.05119v5\",\"snippet\":\"In this paper, through rigorous experiments and an in-depth analysis of the changes LLMs undergo through IT, we reveal various limitations of IT. In particular, ...\",\"date\":\"Jul 14, 2024\",\"position\":2},{\"title\":\"Supervised Fine-Tuning as Inverse Reinforcement Learning - arXiv\",\"link\":\"https://arxiv.org/abs/2403.12017\",\"snippet\":\"Drawing insights from inverse reinforcement learning and imitation learning, we introduce various approaches for divergence minimization in the LLM alignment ...\",\"date\":\"Mar 18, 2024\",\"position\":3},{\"title\":\"Integrating Negative Examples when Fine-tuning Large Language ...\",\"link\":\"https://arxiv.org/html/2402.11651v1\",\"snippet\":\"In this paper, we contend that large language models can learn from failures through appropriate data cleaning and fine-tuning strategies.\",\"date\":\"Feb 18, 2024\",\"position\":4},{\"title\":\"On the benefits of pixel-based hierarchical policies for task ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.19142v1\",\"snippet\":\"Our results show that hierarchical policies trained with task conditioning can (1) increase performance on training tasks, (2) lead to improved reward and state ...\",\"date\":\"Jul 27, 2024\",\"position\":5},{\"title\":\"[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.01335\",\"snippet\":\"Given a supervised fine-tuned LLM pθ0 , further application of the SFT approach in (3.1) with SSFT will be ineffective and potentially lead to worse performance ...\",\"date\":\"Jun 14, 2024\",\"position\":6},{\"title\":\"Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study\",\"link\":\"https://arxiv.org/html/2404.10719v1\",\"snippet\":\"Reinforcement Learning from Human Feedback (RLHF) is currently the most widely used method to align large language models (LLMs) with human preferences.\",\"date\":\"Apr 16, 2024\",\"position\":7},{\"title\":\"Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...\",\"link\":\"https://arxiv.org/html/2405.11870v1\",\"snippet\":\"Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF) are two fundamental processes for enhancing the capabilities of Language ...\",\"date\":\"May 20, 2024\",\"position\":8},{\"title\":\"[PDF] Unveiling LLM's Potential for Fairness-Aware Classification\",\"link\":\"https://arxiv.org/pdf/2402.18502\",\"snippet\":\"In this paper, we take a step towards that by assessing whether LLMs can comprehend the principles of fairness and whether fair outcomes can be achieved through ...\",\"date\":\"Feb 28, 2024\",\"position\":9},{\"title\":\"A Comparison of LLM Fine-tuning Methods and Evaluation Metrics ...\",\"link\":\"https://arxiv.org/html/2408.03562v1\",\"snippet\":\"This research compares large language model (LLM) fine-tuning methods, including Quantized Low Rank Adapter (QLoRA), Retrieval Augmented fine-tuning (RAFT), and ...\",\"date\":\"Aug 7, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJQcm92aWRlIHBhcGVycyBjbGFpbWluZyB0aGF0IHJlaW5mb3JjZW1lbnQgbGVhcm5pbmcgY2FuIG5lZ2F0aXZlbHkgaW1wYWN0IHRoZSBwZXJmb3JtYW5jZSBvZiBzdXBlcnZpc2VkIGZpbmUtdHVuZWQgTExNcy4gYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiVW5sb2NrIHRoZSBDb3JyZWxhdGlvbiBiZXR3ZWVuIFN1cGVydmlzZWQgRmluZS1UdW5pbmcgYW5kIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA2LjEwMzA1Iiwic25pcHBldCI6IldpdGhpbiB0aGUgZmluZS10dW5pbmcsIHN1cGVydmlzZWQgZmluZS10dW5pbmcgKFNGVCksIGFuZCByZWluZm9yY2VtZW50IGxlYXJuaW5nIChSTCkgYXJlIG9mdGVuIHVzZWQgdG8gaW1wcm92ZSB0aGUgbW9kZWwncyB6ZXJvLXNob3QgYWJpbGl0eS4iLCJkYXRlIjoiSnVuIDE0LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJBIENsb3NlciBMb29rIGF0IHRoZSBMaW1pdGF0aW9ucyBvZiBJbnN0cnVjdGlvbiBUdW5pbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDUxMTl2NSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB0aHJvdWdoIHJpZ29yb3VzIGV4cGVyaW1lbnRzIGFuZCBhbiBpbi1kZXB0aCBhbmFseXNpcyBvZiB0aGUgY2hhbmdlcyBMTE1zIHVuZGVyZ28gdGhyb3VnaCBJVCwgd2UgcmV2ZWFsIHZhcmlvdXMgbGltaXRhdGlvbnMgb2YgSVQuIEluIHBhcnRpY3VsYXIsIC4uLiIsImRhdGUiOiJKdWwgMTQsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlN1cGVydmlzZWQgRmluZS1UdW5pbmcgYXMgSW52ZXJzZSBSZWluZm9yY2VtZW50IExlYXJuaW5nIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDMuMTIwMTciLCJzbmlwcGV0IjoiRHJhd2luZyBpbnNpZ2h0cyBmcm9tIGludmVyc2UgcmVpbmZvcmNlbWVudCBsZWFybmluZyBhbmQgaW1pdGF0aW9uIGxlYXJuaW5nLCB3ZSBpbnRyb2R1Y2UgdmFyaW91cyBhcHByb2FjaGVzIGZvciBkaXZlcmdlbmNlIG1pbmltaXphdGlvbiBpbiB0aGUgTExNIGFsaWdubWVudCAuLi4iLCJkYXRlIjoiTWFyIDE4LCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJJbnRlZ3JhdGluZyBOZWdhdGl2ZSBFeGFtcGxlcyB3aGVuIEZpbmUtdHVuaW5nIExhcmdlIExhbmd1YWdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTE2NTF2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBjb250ZW5kIHRoYXQgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIGNhbiBsZWFybiBmcm9tIGZhaWx1cmVzIHRocm91Z2ggYXBwcm9wcmlhdGUgZGF0YSBjbGVhbmluZyBhbmQgZmluZS10dW5pbmcgc3RyYXRlZ2llcy4iLCJkYXRlIjoiRmViIDE4LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJPbiB0aGUgYmVuZWZpdHMgb2YgcGl4ZWwtYmFzZWQgaGllcmFyY2hpY2FsIHBvbGljaWVzIGZvciB0YXNrIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4xOTE0MnYxIiwic25pcHBldCI6Ik91ciByZXN1bHRzIHNob3cgdGhhdCBoaWVyYXJjaGljYWwgcG9saWNpZXMgdHJhaW5lZCB3aXRoIHRhc2sgY29uZGl0aW9uaW5nIGNhbiAoMSkgaW5jcmVhc2UgcGVyZm9ybWFuY2Ugb24gdHJhaW5pbmcgdGFza3MsICgyKSBsZWFkIHRvIGltcHJvdmVkIHJld2FyZCBhbmQgc3RhdGUgLi4uIiwiZGF0ZSI6Ikp1bCAyNywgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiW1BERl0gU2VsZi1QbGF5IEZpbmUtVHVuaW5nIENvbnZlcnRzIFdlYWsgTGFuZ3VhZ2UgTW9kZWxzIHRvIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAxLjAxMzM1Iiwic25pcHBldCI6IkdpdmVuIGEgc3VwZXJ2aXNlZCBmaW5lLXR1bmVkIExMTSBwzrgwICwgZnVydGhlciBhcHBsaWNhdGlvbiBvZiB0aGUgU0ZUIGFwcHJvYWNoIGluICgzLjEpIHdpdGggU1NGVCB3aWxsIGJlIGluZWZmZWN0aXZlIGFuZCBwb3RlbnRpYWxseSBsZWFkIHRvIHdvcnNlIHBlcmZvcm1hbmNlIC4uLiIsImRhdGUiOiJKdW4gMTQsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IklzIERQTyBTdXBlcmlvciB0byBQUE8gZm9yIExMTSBBbGlnbm1lbnQ/IEEgQ29tcHJlaGVuc2l2ZSBTdHVkeSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMTA3MTl2MSIsInNuaXBwZXQiOiJSZWluZm9yY2VtZW50IExlYXJuaW5nIGZyb20gSHVtYW4gRmVlZGJhY2sgKFJMSEYpIGlzIGN1cnJlbnRseSB0aGUgbW9zdCB3aWRlbHkgdXNlZCBtZXRob2QgdG8gYWxpZ24gbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSB3aXRoIGh1bWFuIHByZWZlcmVuY2VzLiIsImRhdGUiOiJBcHIgMTYsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkludHVpdGl2ZSBGaW5lLVR1bmluZzogVG93YXJkcyBVbmlmeWluZyBTRlQgYW5kIFJMSEYgaW50byBhIFNpbmdsZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjExODcwdjEiLCJzbmlwcGV0IjoiU3VwZXJ2aXNlZCBGaW5lLVR1bmluZyAoU0ZUKSBhbmQgUmVpbmZvcmNlbWVudCBMZWFybmluZyBmcm9tIEh1bWFuIEZlZWRiYWNrIChSTEhGKSBhcmUgdHdvIGZ1bmRhbWVudGFsIHByb2Nlc3NlcyBmb3IgZW5oYW5jaW5nIHRoZSBjYXBhYmlsaXRpZXMgb2YgTGFuZ3VhZ2UgLi4uIiwiZGF0ZSI6Ik1heSAyMCwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gVW52ZWlsaW5nIExMTSdzIFBvdGVudGlhbCBmb3IgRmFpcm5lc3MtQXdhcmUgQ2xhc3NpZmljYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDIuMTg1MDIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgdGFrZSBhIHN0ZXAgdG93YXJkcyB0aGF0IGJ5IGFzc2Vzc2luZyB3aGV0aGVyIExMTXMgY2FuIGNvbXByZWhlbmQgdGhlIHByaW5jaXBsZXMgb2YgZmFpcm5lc3MgYW5kIHdoZXRoZXIgZmFpciBvdXRjb21lcyBjYW4gYmUgYWNoaWV2ZWQgdGhyb3VnaCAuLi4iLCJkYXRlIjoiRmViIDI4LCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJBIENvbXBhcmlzb24gb2YgTExNIEZpbmUtdHVuaW5nIE1ldGhvZHMgYW5kIEV2YWx1YXRpb24gTWV0cmljcyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjAzNTYydjEiLCJzbmlwcGV0IjoiVGhpcyByZXNlYXJjaCBjb21wYXJlcyBsYXJnZSBsYW5ndWFnZSBtb2RlbCAoTExNKSBmaW5lLXR1bmluZyBtZXRob2RzLCBpbmNsdWRpbmcgUXVhbnRpemVkIExvdyBSYW5rIEFkYXB0ZXIgKFFMb1JBKSwgUmV0cmlldmFsIEF1Z21lbnRlZCBmaW5lLXR1bmluZyAoUkFGVCksIGFuZCAuLi4iLCJkYXRlIjoiQXVnIDcsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "d726c1e2305a846c297529b5c0d672287a95e0aaadd9fce1b74d8aefb97b1b5a",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Provide papers claiming that reinforcement learning can negatively impact the performance of supervised fine-tuned LLMs. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Unlock the Correlation between Supervised Fine-Tuning and ... - arXiv",
+                "link": "https://arxiv.org/abs/2406.10305",
+                "snippet": "Within the fine-tuning, supervised fine-tuning (SFT), and reinforcement learning (RL) are often used to improve the model's zero-shot ability.",
+                "date": "Jun 14, 2024",
+                "position": 1
+              },
+              {
+                "title": "A Closer Look at the Limitations of Instruction Tuning - arXiv",
+                "link": "https://arxiv.org/html/2402.05119v5",
+                "snippet": "In this paper, through rigorous experiments and an in-depth analysis of the changes LLMs undergo through IT, we reveal various limitations of IT. In particular, ...",
+                "date": "Jul 14, 2024",
+                "position": 2
+              },
+              {
+                "title": "Supervised Fine-Tuning as Inverse Reinforcement Learning - arXiv",
+                "link": "https://arxiv.org/abs/2403.12017",
+                "snippet": "Drawing insights from inverse reinforcement learning and imitation learning, we introduce various approaches for divergence minimization in the LLM alignment ...",
+                "date": "Mar 18, 2024",
+                "position": 3
+              },
+              {
+                "title": "Integrating Negative Examples when Fine-tuning Large Language ...",
+                "link": "https://arxiv.org/html/2402.11651v1",
+                "snippet": "In this paper, we contend that large language models can learn from failures through appropriate data cleaning and fine-tuning strategies.",
+                "date": "Feb 18, 2024",
+                "position": 4
+              },
+              {
+                "title": "On the benefits of pixel-based hierarchical policies for task ... - arXiv",
+                "link": "https://arxiv.org/html/2407.19142v1",
+                "snippet": "Our results show that hierarchical policies trained with task conditioning can (1) increase performance on training tasks, (2) lead to improved reward and state ...",
+                "date": "Jul 27, 2024",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv",
+                "link": "https://arxiv.org/pdf/2401.01335",
+                "snippet": "Given a supervised fine-tuned LLM pθ0 , further application of the SFT approach in (3.1) with SSFT will be ineffective and potentially lead to worse performance ...",
+                "date": "Jun 14, 2024",
+                "position": 6
+              },
+              {
+                "title": "Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study",
+                "link": "https://arxiv.org/html/2404.10719v1",
+                "snippet": "Reinforcement Learning from Human Feedback (RLHF) is currently the most widely used method to align large language models (LLMs) with human preferences.",
+                "date": "Apr 16, 2024",
+                "position": 7
+              },
+              {
+                "title": "Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...",
+                "link": "https://arxiv.org/html/2405.11870v1",
+                "snippet": "Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF) are two fundamental processes for enhancing the capabilities of Language ...",
+                "date": "May 20, 2024",
+                "position": 8
+              },
+              {
+                "title": "[PDF] Unveiling LLM's Potential for Fairness-Aware Classification",
+                "link": "https://arxiv.org/pdf/2402.18502",
+                "snippet": "In this paper, we take a step towards that by assessing whether LLMs can comprehend the principles of fairness and whether fair outcomes can be achieved through ...",
+                "date": "Feb 28, 2024",
+                "position": 9
+              },
+              {
+                "title": "A Comparison of LLM Fine-tuning Methods and Evaluation Metrics ...",
+                "link": "https://arxiv.org/html/2408.03562v1",
+                "snippet": "This research compares large language model (LLM) fine-tuning methods, including Quantized Low Rank Adapter (QLoRA), Retrieval Augmented fine-tuning (RAFT), and ...",
+                "date": "Aug 7, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:26:31.594383+00:00",
+          "elapsed_seconds": 1.0741477645933628
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2401.01335",
+        "2402.05119",
+        "2402.11651",
+        "2402.18502",
+        "2403.12017",
+        "2404.10719",
+        "2405.11870",
+        "2406.10305",
+        "2407.19142",
+        "2408.03562"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2406.10305",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2406.10305",
+          "title": "Unlock the Correlation between Supervised Fine-Tuning and ... - arXiv",
+          "snippet": "Within the fine-tuning, supervised fine-tuning (SFT), and reinforcement learning (RL) are often used to improve the model's zero-shot ability."
+        },
+        {
+          "arxiv_id": "2402.05119",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2402.05119v5",
+          "title": "A Closer Look at the Limitations of Instruction Tuning - arXiv",
+          "snippet": "In this paper, through rigorous experiments and an in-depth analysis of the changes LLMs undergo through IT, we reveal various limitations of IT. In particular, ..."
+        },
+        {
+          "arxiv_id": "2403.12017",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2403.12017",
+          "title": "Supervised Fine-Tuning as Inverse Reinforcement Learning - arXiv",
+          "snippet": "Drawing insights from inverse reinforcement learning and imitation learning, we introduce various approaches for divergence minimization in the LLM alignment ..."
+        },
+        {
+          "arxiv_id": "2402.11651",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2402.11651v1",
+          "title": "Integrating Negative Examples when Fine-tuning Large Language ...",
+          "snippet": "In this paper, we contend that large language models can learn from failures through appropriate data cleaning and fine-tuning strategies."
+        },
+        {
+          "arxiv_id": "2407.19142",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2407.19142v1",
+          "title": "On the benefits of pixel-based hierarchical policies for task ... - arXiv",
+          "snippet": "Our results show that hierarchical policies trained with task conditioning can (1) increase performance on training tasks, (2) lead to improved reward and state ..."
+        },
+        {
+          "arxiv_id": "2401.01335",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2401.01335",
+          "title": "[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv",
+          "snippet": "Given a supervised fine-tuned LLM pθ0 , further application of the SFT approach in (3.1) with SSFT will be ineffective and potentially lead to worse performance ..."
+        },
+        {
+          "arxiv_id": "2404.10719",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2404.10719v1",
+          "title": "Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study",
+          "snippet": "Reinforcement Learning from Human Feedback (RLHF) is currently the most widely used method to align large language models (LLMs) with human preferences."
+        },
+        {
+          "arxiv_id": "2405.11870",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2405.11870v1",
+          "title": "Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...",
+          "snippet": "Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF) are two fundamental processes for enhancing the capabilities of Language ..."
+        },
+        {
+          "arxiv_id": "2402.18502",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2402.18502",
+          "title": "[PDF] Unveiling LLM's Potential for Fairness-Aware Classification",
+          "snippet": "In this paper, we take a step towards that by assessing whether LLMs can comprehend the principles of fairness and whether fair outcomes can be achieved through ..."
+        },
+        {
+          "arxiv_id": "2408.03562",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2408.03562v1",
+          "title": "A Comparison of LLM Fine-tuning Methods and Evaluation Metrics ...",
+          "snippet": "This research compares large language model (LLM) fine-tuning methods, including Quantized Low Rank Adapter (QLoRA), Retrieval Augmented fine-tuning (RAFT), and ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Provide papers claiming that reinforcement learning can negatively impact the performance of supervised fine-tuned LLMs. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "anchor",
+    "q5"
+  ]
+}

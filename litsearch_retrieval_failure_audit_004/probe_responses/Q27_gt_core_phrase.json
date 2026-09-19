@@ -1,0 +1,204 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q27",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2104.14337",
+  "request_payload": {
+    "q": "dynabench rethinking benchmarking nlp before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 56,
+  "started_utc": "2026-09-17T12:34:28.337344+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648190",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "a044acb6e5e99e56df8a8888dfd99c35",
+    "date": "Thu, 17 Sep 2026 12:29:49 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3322",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3322,
+  "response_bytes_sha256": "6117cbd46e6eb090944b21580829e5d257981df33ac9351181272b37c22ebbd4",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJkeW5hYmVuY2ggcmV0aGlua2luZyBiZW5jaG1hcmtpbmcgbmxwIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlsyMTA0LjE0MzM3XSBEeW5hYmVuY2g6IFJldGhpbmtpbmcgQmVuY2htYXJraW5nIGluIE5MUCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMTA0LjE0MzM3Iiwic25pcHBldCI6IkR5bmFiZW5jaCwgYW4gb3Blbi1zb3VyY2UgcGxhdGZvcm0gZm9yIGR5bmFtaWMgZGF0YXNldCBjcmVhdGlvbiBhbmQgbW9kZWwgYmVuY2htYXJraW5nLiBXZSByZXBvcnQgb24gZm91ciBpbml0aWFsIE5MUCB0YXNrcywiLCJkYXRlIjoiQXByIDcsIDIwMjEiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkR5bmFiZW5jaDogUmV0aGlua2luZyBCZW5jaG1hcmtpbmcgaW4gTkxQIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMTA0LjE0MzM3djEiLCJzbmlwcGV0IjoiV2UgaW50cm9kdWNlIER5bmFiZW5jaCwgYW4gb3Blbi1zb3VyY2UgcGxhdGZvcm0gZm9yIGR5bmFtaWMgZGF0YXNldCBjcmVhdGlvbiBhbmQgbW9kZWwgYmVuY2htYXJraW5nLiBEeW5hYmVuY2ggcnVucyBpbiBhIHdlYiBicm93c2VyIGFuZCBzdXBwb3J0cyBodW1hbi1hbmQtIC4uLiIsImRhdGUiOiJBcHIgNywgMjAyMSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiQmVuY2htYXJraW5nIExhcmdlIExhbmd1YWdlIE1vZGVscyBVbmRlciBEYXRhIENvbnRhbWluYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAyLjE3NTIxdjIiLCJzbmlwcGV0IjoiRHluYWJlbmNoOiBSZXRoaW5raW5nIGJlbmNobWFya2luZyBpbiBOTFAuIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDIxIC4uLiBSZXRoaW5raW5nIGJlbmNobWFyayBhbmQgY29udGFtaW5hdGlvbiBmb3IgbGFuZ3VhZ2UgbW9kZWxzIHdpdGggcmVwaHJhc2VkIHNhbXBsZXMuIiwiZGF0ZSI6IlNlcCAyOSwgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQmVuY2htYXJraW5nIGlzIEJyb2tlbiAtIERvbid0IExldCBBSSBiZSBpdHMgT3duIEp1ZGdlIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTEwLjA3NTc1djEiLCJzbmlwcGV0IjoiRHluYWJlbmNoOiBSZXRoaW5raW5nIEJlbmNobWFya2luZyBpbiBOTFAuIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDIxIENvbmZlcmVuY2UgZm9yIENvbXB1dGF0aW9uYWwgTGluZ3Vpc3RpY3M6IGFsIFRlc3Rpbmcgb2YgTkxQIE1vZGVscyB3aXRoIENoZWNrTGlzdC4gLi4uIiwiZGF0ZSI6Ik9jdCA4LCAyMDI1IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJEYXRhUGVyZjpCZW5jaG1hcmtzIGZvciBEYXRhLUNlbnRyaWMgQUkgRGV2ZWxvcG1lbnQgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDcuMTAwNjJ2NCIsInNuaXBwZXQiOiJEeW5hYmVuY2g6IFJldGhpbmtpbmcgYmVuY2htYXJraW5nIGluIG5scC4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMjEgQ29uZmVyZW5jZS4gSGFuZGxpbmcgYW5kIHByZXNlbnRpbmcgaGFybWZ1bCB0ZXh0IGluIG5scCByZXNlYXJjaC4iLCJkYXRlIjoiT2N0IDEzLCAyMDIzIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJUb3dhcmRzIEVmZmljaWVudCBOTFA6IEEgU3RhbmRhcmQgRXZhbHVhdGlvbiBhbmQgQSBTdHJvbmcgQmFzZWxpbmUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMTEwLjA3MDM4djIiLCJzbmlwcGV0IjoiVGhlIHByb3Bvc2VkIEVMVUUgYmVuY2htYXJrIGFpbXMgdG8gc3RhbmRhcmRpemUgZWZmaWNpZW5jeSBtZWFzdXJlbWVudCBvZiBOTFAgbW9kZWxzLiBUaGUgY29sbGVjdGVkIGRhdGFzZXRzIGFyZSB3aWRlbHkgdXNlZCBpbiBwcmV2aW91cyB3b3JrIGFuZCwgdG8gb3VyIC4uLiIsImRhdGUiOiJBcHIgMTAsIDIwMjIiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkxMTSBCZW5jaG1hcmsgRGF0YXNldHMgU2hvdWxkIEJlIENvbnRhbWluYXRpb24tUmVzaXN0YW50IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA1LjE5OTk5djEiLCJzbmlwcGV0IjoiQmVuY2htYXJrIGRhdGFzZXRzIGFyZSBjcml0aWNhbCBmb3IgcmVwcm9kdWNpYmxlLCByZWxpYWJsZSwgYW5kIGRpc2NyaW1pbmF0aXZlIGV2YWx1YXRpb24gb2YgTExNcy4gRHluYWJlbmNoOiByZXRoaW5raW5nIGJlbmNobWFya2luZyBpbiBOTFAuIENvbXB1dGF0aW9uYWwgLi4uIiwiZGF0ZSI6Ik1heSAxOSwgMjAyNiIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiQ29uc3RydWN0IFZhbGlkaXR5IGluIExhcmdlIExhbmd1YWdlIE1vZGVsIEJlbmNobWFya3MgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MTEuMDQ3MDN2MSIsInNuaXBwZXQiOiJhbm5vdGF0ZWQgYnkgMjkgZXhwZXJ0cyBpbiB0aGUgYXJlYXMgb2YgTkxQIGFuZCBtYWNoaW5lIGxlYXJuaW5nLiDigJxEeW5hYmVuY2g6IFJldGhpbmtpbmcgQmVuY2htYXJraW5nIGluIE5MUOKAnSBpZXIgQmVuY2htYXJrIGZvciBHZW5lcmFsLVB1cnBvc2UgTGFuZ3VhZ2UgLi4uIiwiZGF0ZSI6Ik5vdiAzLCAyMDI1IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMjEwLjAzMTY1djMgW2NzLkxHXSAxIE1hciAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjEwLjAzMTY1Iiwic25pcHBldCI6IkR5bmFtaWMgYmVuY2htYXJrcyBpbnRlcndlYXZlIG1vZGVsIGZpdHRpbmcgYW5kIGRhdGEgY29sbGVjdGlvbiBpbiBhbiBhdHRlbXB0IHRvIG1pdGlnYXRlIHRoZSBsaW1pdGF0aW9ucyBvZiBzdGF0aWMgYmVuY2htYXJrcy4gSW4gY29udHJhc3QgdG8gYW4gZXh0ZW5zaXZlIC4uLiIsImRhdGUiOiJNYXIgMSwgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiUG90ZW1raW4gVW5kZXJzdGFuZGluZyBpbiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDYuMjE1MjF2MiIsInNuaXBwZXQiOiJCZW5jaG1hcmtpbmcgcmFpc2VzIHRoZSBjaGFsbGVuZ2Ugb2YgY29uc3RydWN0IHZhbGlkaXR54oCUdGhlIGRlZ3JlZSB0byAuLi4gRHluYWJlbmNoOiBSZXRoaW5raW5nIGJlbmNobWFya2luZyBpbiBubHAuIGFyWGl2IHByZXByaW50IGFyWGl2OjIxMDQuMTQzMzcgLi4uIiwiZGF0ZSI6Ikp1biAyOSwgMjAyNSIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "dynabench rethinking benchmarking nlp before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[2104.14337] Dynabench: Rethinking Benchmarking in NLP - arXiv",
+        "link": "https://arxiv.org/abs/2104.14337",
+        "snippet": "Dynabench, an open-source platform for dynamic dataset creation and model benchmarking. We report on four initial NLP tasks,",
+        "date": "Apr 7, 2021",
+        "position": 1
+      },
+      {
+        "title": "Dynabench: Rethinking Benchmarking in NLP - arXiv",
+        "link": "https://arxiv.org/html/2104.14337v1",
+        "snippet": "We introduce Dynabench, an open-source platform for dynamic dataset creation and model benchmarking. Dynabench runs in a web browser and supports human-and- ...",
+        "date": "Apr 7, 2021",
+        "position": 2
+      },
+      {
+        "title": "Benchmarking Large Language Models Under Data Contamination",
+        "link": "https://arxiv.org/html/2502.17521v2",
+        "snippet": "Dynabench: Rethinking benchmarking in NLP. In Proceedings of the 2021 ... Rethinking benchmark and contamination for language models with rephrased samples.",
+        "date": "Sep 29, 2025",
+        "position": 3
+      },
+      {
+        "title": "Benchmarking is Broken - Don't Let AI be its Own Judge - arXiv",
+        "link": "https://arxiv.org/html/2510.07575v1",
+        "snippet": "Dynabench: Rethinking Benchmarking in NLP. In Proceedings of the 2021 Conference for Computational Linguistics: al Testing of NLP Models with CheckList. ...",
+        "date": "Oct 8, 2025",
+        "position": 4
+      },
+      {
+        "title": "DataPerf:Benchmarks for Data-Centric AI Development - arXiv",
+        "link": "https://arxiv.org/html/2207.10062v4",
+        "snippet": "Dynabench: Rethinking benchmarking in nlp. Proceedings of the 2021 Conference. Handling and presenting harmful text in nlp research.",
+        "date": "Oct 13, 2023",
+        "position": 5
+      },
+      {
+        "title": "Towards Efficient NLP: A Standard Evaluation and A Strong Baseline",
+        "link": "https://arxiv.org/html/2110.07038v2",
+        "snippet": "The proposed ELUE benchmark aims to standardize efficiency measurement of NLP models. The collected datasets are widely used in previous work and, to our ...",
+        "date": "Apr 10, 2022",
+        "position": 6
+      },
+      {
+        "title": "LLM Benchmark Datasets Should Be Contamination-Resistant - arXiv",
+        "link": "https://arxiv.org/html/2605.19999v1",
+        "snippet": "Benchmark datasets are critical for reproducible, reliable, and discriminative evaluation of LLMs. Dynabench: rethinking benchmarking in NLP. Computational ...",
+        "date": "May 19, 2026",
+        "position": 7
+      },
+      {
+        "title": "Construct Validity in Large Language Model Benchmarks - arXiv",
+        "link": "https://arxiv.org/html/2511.04703v1",
+        "snippet": "annotated by 29 experts in the areas of NLP and machine learning. “Dynabench: Rethinking Benchmarking in NLP” ier Benchmark for General-Purpose Language ...",
+        "date": "Nov 3, 2025",
+        "position": 8
+      },
+      {
+        "title": "[PDF] arXiv:2210.03165v3 [cs.LG] 1 Mar 2023",
+        "link": "https://arxiv.org/pdf/2210.03165",
+        "snippet": "Dynamic benchmarks interweave model fitting and data collection in an attempt to mitigate the limitations of static benchmarks. In contrast to an extensive ...",
+        "date": "Mar 1, 2023",
+        "position": 9
+      },
+      {
+        "title": "Potemkin Understanding in Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2506.21521v2",
+        "snippet": "Benchmarking raises the challenge of construct validity—the degree to ... Dynabench: Rethinking benchmarking in nlp. arXiv preprint arXiv:2104.14337 ...",
+        "date": "Jun 29, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[2104.14337] Dynabench: Rethinking Benchmarking in NLP - arXiv",
+      "snippet": "Dynabench, an open-source platform for dynamic dataset creation and model benchmarking. We report on four initial NLP tasks,",
+      "link": "https://arxiv.org/abs/2104.14337",
+      "arxiv_id": "2104.14337"
+    },
+    {
+      "rank": 2,
+      "title": "Dynabench: Rethinking Benchmarking in NLP - arXiv",
+      "snippet": "We introduce Dynabench, an open-source platform for dynamic dataset creation and model benchmarking. Dynabench runs in a web browser and supports human-and- ...",
+      "link": "https://arxiv.org/html/2104.14337v1",
+      "arxiv_id": "2104.14337"
+    },
+    {
+      "rank": 3,
+      "title": "Benchmarking Large Language Models Under Data Contamination",
+      "snippet": "Dynabench: Rethinking benchmarking in NLP. In Proceedings of the 2021 ... Rethinking benchmark and contamination for language models with rephrased samples.",
+      "link": "https://arxiv.org/html/2502.17521v2",
+      "arxiv_id": "2502.17521"
+    },
+    {
+      "rank": 4,
+      "title": "Benchmarking is Broken - Don't Let AI be its Own Judge - arXiv",
+      "snippet": "Dynabench: Rethinking Benchmarking in NLP. In Proceedings of the 2021 Conference for Computational Linguistics: al Testing of NLP Models with CheckList. ...",
+      "link": "https://arxiv.org/html/2510.07575v1",
+      "arxiv_id": "2510.07575"
+    },
+    {
+      "rank": 5,
+      "title": "DataPerf:Benchmarks for Data-Centric AI Development - arXiv",
+      "snippet": "Dynabench: Rethinking benchmarking in nlp. Proceedings of the 2021 Conference. Handling and presenting harmful text in nlp research.",
+      "link": "https://arxiv.org/html/2207.10062v4",
+      "arxiv_id": "2207.10062"
+    },
+    {
+      "rank": 6,
+      "title": "Towards Efficient NLP: A Standard Evaluation and A Strong Baseline",
+      "snippet": "The proposed ELUE benchmark aims to standardize efficiency measurement of NLP models. The collected datasets are widely used in previous work and, to our ...",
+      "link": "https://arxiv.org/html/2110.07038v2",
+      "arxiv_id": "2110.07038"
+    },
+    {
+      "rank": 7,
+      "title": "LLM Benchmark Datasets Should Be Contamination-Resistant - arXiv",
+      "snippet": "Benchmark datasets are critical for reproducible, reliable, and discriminative evaluation of LLMs. Dynabench: rethinking benchmarking in NLP. Computational ...",
+      "link": "https://arxiv.org/html/2605.19999v1",
+      "arxiv_id": "2605.19999"
+    },
+    {
+      "rank": 8,
+      "title": "Construct Validity in Large Language Model Benchmarks - arXiv",
+      "snippet": "annotated by 29 experts in the areas of NLP and machine learning. “Dynabench: Rethinking Benchmarking in NLP” ier Benchmark for General-Purpose Language ...",
+      "link": "https://arxiv.org/html/2511.04703v1",
+      "arxiv_id": "2511.04703"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] arXiv:2210.03165v3 [cs.LG] 1 Mar 2023",
+      "snippet": "Dynamic benchmarks interweave model fitting and data collection in an attempt to mitigate the limitations of static benchmarks. In contrast to an extensive ...",
+      "link": "https://arxiv.org/pdf/2210.03165",
+      "arxiv_id": "2210.03165"
+    },
+    {
+      "rank": 10,
+      "title": "Potemkin Understanding in Large Language Models - arXiv",
+      "snippet": "Benchmarking raises the challenge of construct validity—the degree to ... Dynabench: Rethinking benchmarking in nlp. arXiv preprint arXiv:2104.14337 ...",
+      "link": "https://arxiv.org/html/2506.21521v2",
+      "arxiv_id": "2506.21521"
+    }
+  ],
+  "gold_hit_ranks": [
+    1,
+    2
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:29.315067+00:00",
+  "elapsed_seconds": 0.9777252674102783,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q27_gt_core_phrase_attempt1.json",
+      "sha256": "a10c6534adbd015cebd6e48126ce41f95eb5c1409057838079323f9ecbd9e15d",
+      "status": "PASS"
+    }
+  ]
+}

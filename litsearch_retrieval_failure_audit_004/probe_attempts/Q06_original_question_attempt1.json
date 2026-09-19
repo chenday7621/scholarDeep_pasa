@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q06",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2305.03130",
+  "request_payload": {
+    "q": "Are there any papers that build dense retrievers with mixture-of-experts architecture where each expert is responsible for different types of queries? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 12,
+  "started_utc": "2026-09-17T12:33:33.784493+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1789648135",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "b114a2000053ea1c0210d59a7167fdd7",
+    "date": "Thu, 17 Sep 2026 12:28:55 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3521",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3521,
+  "response_bytes_sha256": "61d49c383e9edb602aee0195a2713361d5f82152934f7a3226c69d04f3233020",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBcmUgdGhlcmUgYW55IHBhcGVycyB0aGF0IGJ1aWxkIGRlbnNlIHJldHJpZXZlcnMgd2l0aCBtaXh0dXJlLW9mLWV4cGVydHMgYXJjaGl0ZWN0dXJlIHdoZXJlIGVhY2ggZXhwZXJ0IGlzIHJlc3BvbnNpYmxlIGZvciBkaWZmZXJlbnQgdHlwZXMgb2YgcXVlcmllcz8gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQSBDb21wcmVoZW5zaXZlIFN1cnZleSBvZiBNaXh0dXJlLW9mLUV4cGVydHM6IEFsZ29yaXRobXMsIFRoZW9yeSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAzLjA3MTM3djEiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgZmlyc3QgaW50cm9kdWNlIHRoZSBiYXNpYyBkZXNpZ24gb2YgTW9FLCBpbmNsdWRpbmcgZ2F0aW5nIGZ1bmN0aW9ucywgZXhwZXJ0IG5ldHdvcmtzLCByb3V0aW5nIG1lY2hhbmlzbXMsIHRyYWluaW5nIHN0cmF0ZWdpZXMsIGFuZCBzeXN0ZW0gLi4uIiwiZGF0ZSI6Ik1hciAxMCwgMjAyNSIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiTW9SOiBCZXR0ZXIgSGFuZGxpbmcgRGl2ZXJzZSBRdWVyaWVzIHdpdGggYSBNaXh0dXJlIG9mIFNwYXJzZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA2LjE1ODYydjEiLCJzbmlwcGV0IjoiV2UgY29uc3RydWN0IDQgY29ycmVzcG9uZGluZyBodW1hbiBleHBlcnRzLCB3aGVyZSBlYWNoIGV4cGVydCBjYW4gY29uZHVjdCBPcmFjbGUgcmV0cmlldmFsIG9uIGl0cyBvd24gZG9tYWluLiBJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIHRvIGNvbnN0cnVjdCBhIG1peHR1cmUgLi4uIiwiZGF0ZSI6Ikp1biAxOCwgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiTWl4dHVyZSBvZiBFeHBlcnRzIGluIExhcmdlIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNy4xMTE4MXYxIiwic25pcHBldCI6IlRoaXMgcGFwZXIgcHJlc2VudHMgYSBjb21wcmVoZW5zaXZlIHJldmlldyBvZiB0aGUgTWl4dHVyZS1vZi1FeHBlcnRzIChNb0UpIGFyY2hpdGVjdHVyZSBpbiBsYXJnZSBsYW5ndWFnZSBtb2RlbHMsIGV4cGVydCBnYXRpbmcgYW5kIHJvdXRpbmcgbWVjaGFuaXNtcywgRnJvbSAuLi4iLCJkYXRlIjoiSnVsIDE1LCAyMDI1IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJBIFN1cnZleSBvbiBNaXh0dXJlIG9mIEV4cGVydHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMDYyMDR2MiIsInNuaXBwZXQiOiJCYXNlZCBvbiB0aGUgZGVzaWduIG9mIGdhdGluZyBmdW5jdGlvbiwgTW9FIGxheWVycyBjYW4gYmUgYnJvYWRseSBjbGFzc2lmaWVkIGludG8gdHdvIGNhdGVnb3JpZXM6IGRlbnNlIE1vRSBhbmQgc3BhcnNlIE1vRSwgd2hpY2ggYXJlIGRlc2NyaWJlZCBpbiBkZXRhaWwgaW4gdGhlIC4uLiIsImRhdGUiOiJBdWcgOCwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiTWl4dHVyZSBvZiBFeHBlcnRzIChNb0UpOiBBIEJpZyBEYXRhIFBlcnNwZWN0aXZlIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAxLjE2MzUydjEiLCJzbmlwcGV0IjoiSW4gY29tcGV0aXRpdmUgTW9FLCBkYXRhIGlzIGZvcmNpYmx5IHBhcnRpdGlvbmVkIGludG8gZGlmZmVyZW50IGRpc2NyZXRlIHNwYWNlcywgYW5kIGVhY2ggZXhwZXJ0IGlzIHJlc3BvbnNpYmxlIGZvciBoYW5kbGluZyBhIHNwZWNpZmljIHNwYWNlLiIsImRhdGUiOiJKYW4gMTgsIDIwMjUiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkNhbiBNaXh0dXJlLW9mLUV4cGVydHMgU3VycGFzcyBEZW5zZSBMTE1zIFVuZGVyIFN0cmljdGx5IEVxdWFsIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDYuMTIxMTl2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIGEgbm92ZWwgcGVyc3BlY3RpdmUgYW5kIG1ldGhvZG9sb2dpY2FsIGZyYW1ld29yayDjg7sgd2UgY29tcHJlaGVuc2l2ZWx5IGludmVzdGlnYXRlIHRoZSBhcmNoaXRlY3R1cmUgb2YgTW9FcyDjg7sgYWN0aXZhdGlvbiByYXRlIGluIGFuIC4uLiIsImRhdGUiOiJKdW4gMTMsIDIwMjUiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkRlY291cGxlZCBNaXh0dXJlLW9mLUV4cGVydHMgZm9yIFBhcmFtZXRyaWMgS25vd2xlZGdlIEluamVjdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDYuMTQyNDN2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIERlY291cGxlZCBNaXh0dXJlLW9mLUV4cGVydHMgKERNb0UpLCBhIG1vZHVsYXIgYXJjaGl0ZWN0dXJlIGZvciBwYXJhbWV0cmljIGtub3dsZWRnZSBpbmplY3Rpb24gdGhhdCBkZWNvdXBsZXMgYm90aCBleHBlcnRzIGFuZCB0aGUgLi4uIiwiZGF0ZSI6Ikp1biAxMiwgMjAyNiIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gQ29tcGV0aXRpdmVseSBMZWFybmluZyBhIE1peHR1cmUtb2YtRXhwZXJ0cyBNb2RlbCBmb3IgRmlyc3Qtc3RhZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzExLjAyODM0Iiwic25pcHBldCI6IlNwZWNpZmljYWxseSwgd2UgaW5jbHVkZSBsZXhpY2FsLCBsb2NhbCwgYW5kIGdsb2JhbCByZXRyaWV2ZXJzIGluIGEgbXVsdGktcGF0aCBuZXR3b3JrIGFyY2hpdGVjdHVyZSB3aXRoIHNoYXJlZCBib3R0b20gbGF5ZXJzIGFuZCB0b3AgTW9FIGxheWVycy4iLCJkYXRlIjoiTm92IDYsIDIwMjMiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIEV4cGVydFJBRzogRWZmaWNpZW50IFJBRyB3aXRoIE1peHR1cmUgb2YgRXhwZXJ0cyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA0LjA4NzQ0PyIsInNuaXBwZXQiOiJFeHBlcnRSQUcgaXMgYSBub3ZlbCB0aGVvcmV0aWNhbCBmcmFtZXdvcmsgdGhhdCBpbnRlZ3JhdGVzIE1peHR1cmUtb2YtRXhwZXJ0cyAoTW9FKSBhcmNoaXRlY3R1cmVzIHdpdGggUmV0cmlldmFsLS4gQXVnbWVudGVkIEdlbmVyYXRpb24gKFJBRykgdG8gYWR2YW5jZSB0aGUgLi4uIiwiZGF0ZSI6Ik1hciAxNiwgMjAyNSIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiWzI0MTIuMTE4NjRdIEludmVzdGlnYXRpbmcgTWl4dHVyZSBvZiBFeHBlcnRzIGluIERlbnNlIFJldHJpZXZhbCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQxMi4xMTg2NCIsInNuaXBwZXQiOiJBY2Nlc3MgUGFwZXI6IFZpZXcgYSBQREYgb2YgdGhlIHBhcGVyIHRpdGxlZCBJbnZlc3RpZ2F0aW5nIE1peHR1cmUgb2YgRXhwZXJ0cyBpbiBEZW5zZSBSZXRyaWV2YWwsIGJ5IEVmZnJvc3luaSBTb2tsaSBhbmQgMyBvdGhlciBhdXRob3JzLiBWaWV3IFBERiDCtyBIVE1MIC4uLiIsImRhdGUiOiJEZWMgMTYsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Are there any papers that build dense retrievers with mixture-of-experts architecture where each expert is responsible for different types of queries? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "A Comprehensive Survey of Mixture-of-Experts: Algorithms, Theory ...",
+        "link": "https://arxiv.org/html/2503.07137v1",
+        "snippet": "In this paper, we first introduce the basic design of MoE, including gating functions, expert networks, routing mechanisms, training strategies, and system ...",
+        "date": "Mar 10, 2025",
+        "position": 1
+      },
+      {
+        "title": "MoR: Better Handling Diverse Queries with a Mixture of Sparse ...",
+        "link": "https://arxiv.org/html/2506.15862v1",
+        "snippet": "We construct 4 corresponding human experts, where each expert can conduct Oracle retrieval on its own domain. In this paper, we propose to construct a mixture ...",
+        "date": "Jun 18, 2025",
+        "position": 2
+      },
+      {
+        "title": "Mixture of Experts in Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2507.11181v1",
+        "snippet": "This paper presents a comprehensive review of the Mixture-of-Experts (MoE) architecture in large language models, expert gating and routing mechanisms, From ...",
+        "date": "Jul 15, 2025",
+        "position": 3
+      },
+      {
+        "title": "A Survey on Mixture of Experts - arXiv",
+        "link": "https://arxiv.org/html/2407.06204v2",
+        "snippet": "Based on the design of gating function, MoE layers can be broadly classified into two categories: dense MoE and sparse MoE, which are described in detail in the ...",
+        "date": "Aug 8, 2024",
+        "position": 4
+      },
+      {
+        "title": "Mixture of Experts (MoE): A Big Data Perspective - arXiv",
+        "link": "https://arxiv.org/html/2501.16352v1",
+        "snippet": "In competitive MoE, data is forcibly partitioned into different discrete spaces, and each expert is responsible for handling a specific space.",
+        "date": "Jan 18, 2025",
+        "position": 5
+      },
+      {
+        "title": "Can Mixture-of-Experts Surpass Dense LLMs Under Strictly Equal ...",
+        "link": "https://arxiv.org/html/2506.12119v1",
+        "snippet": "In this paper, we propose a novel perspective and methodological framework ・ we comprehensively investigate the architecture of MoEs ・ activation rate in an ...",
+        "date": "Jun 13, 2025",
+        "position": 6
+      },
+      {
+        "title": "Decoupled Mixture-of-Experts for Parametric Knowledge Injection",
+        "link": "https://arxiv.org/html/2606.14243v1",
+        "snippet": "In this paper, we propose Decoupled Mixture-of-Experts (DMoE), a modular architecture for parametric knowledge injection that decouples both experts and the ...",
+        "date": "Jun 12, 2026",
+        "position": 7
+      },
+      {
+        "title": "[PDF] Competitively Learning a Mixture-of-Experts Model for First-stage ...",
+        "link": "https://arxiv.org/pdf/2311.02834",
+        "snippet": "Specifically, we include lexical, local, and global retrievers in a multi-path network architecture with shared bottom layers and top MoE layers.",
+        "date": "Nov 6, 2023",
+        "position": 8
+      },
+      {
+        "title": "[PDF] ExpertRAG: Efficient RAG with Mixture of Experts - arXiv",
+        "link": "https://arxiv.org/pdf/2504.08744?",
+        "snippet": "ExpertRAG is a novel theoretical framework that integrates Mixture-of-Experts (MoE) architectures with Retrieval-. Augmented Generation (RAG) to advance the ...",
+        "date": "Mar 16, 2025",
+        "position": 9
+      },
+      {
+        "title": "[2412.11864] Investigating Mixture of Experts in Dense Retrieval",
+        "link": "https://arxiv.org/abs/2412.11864",
+        "snippet": "Access Paper: View a PDF of the paper titled Investigating Mixture of Experts in Dense Retrieval, by Effrosyni Sokli and 3 other authors. View PDF · HTML ...",
+        "date": "Dec 16, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "A Comprehensive Survey of Mixture-of-Experts: Algorithms, Theory ...",
+      "snippet": "In this paper, we first introduce the basic design of MoE, including gating functions, expert networks, routing mechanisms, training strategies, and system ...",
+      "link": "https://arxiv.org/html/2503.07137v1",
+      "arxiv_id": "2503.07137"
+    },
+    {
+      "rank": 2,
+      "title": "MoR: Better Handling Diverse Queries with a Mixture of Sparse ...",
+      "snippet": "We construct 4 corresponding human experts, where each expert can conduct Oracle retrieval on its own domain. In this paper, we propose to construct a mixture ...",
+      "link": "https://arxiv.org/html/2506.15862v1",
+      "arxiv_id": "2506.15862"
+    },
+    {
+      "rank": 3,
+      "title": "Mixture of Experts in Large Language Models - arXiv",
+      "snippet": "This paper presents a comprehensive review of the Mixture-of-Experts (MoE) architecture in large language models, expert gating and routing mechanisms, From ...",
+      "link": "https://arxiv.org/html/2507.11181v1",
+      "arxiv_id": "2507.11181"
+    },
+    {
+      "rank": 4,
+      "title": "A Survey on Mixture of Experts - arXiv",
+      "snippet": "Based on the design of gating function, MoE layers can be broadly classified into two categories: dense MoE and sparse MoE, which are described in detail in the ...",
+      "link": "https://arxiv.org/html/2407.06204v2",
+      "arxiv_id": "2407.06204"
+    },
+    {
+      "rank": 5,
+      "title": "Mixture of Experts (MoE): A Big Data Perspective - arXiv",
+      "snippet": "In competitive MoE, data is forcibly partitioned into different discrete spaces, and each expert is responsible for handling a specific space.",
+      "link": "https://arxiv.org/html/2501.16352v1",
+      "arxiv_id": "2501.16352"
+    },
+    {
+      "rank": 6,
+      "title": "Can Mixture-of-Experts Surpass Dense LLMs Under Strictly Equal ...",
+      "snippet": "In this paper, we propose a novel perspective and methodological framework ・ we comprehensively investigate the architecture of MoEs ・ activation rate in an ...",
+      "link": "https://arxiv.org/html/2506.12119v1",
+      "arxiv_id": "2506.12119"
+    },
+    {
+      "rank": 7,
+      "title": "Decoupled Mixture-of-Experts for Parametric Knowledge Injection",
+      "snippet": "In this paper, we propose Decoupled Mixture-of-Experts (DMoE), a modular architecture for parametric knowledge injection that decouples both experts and the ...",
+      "link": "https://arxiv.org/html/2606.14243v1",
+      "arxiv_id": "2606.14243"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] Competitively Learning a Mixture-of-Experts Model for First-stage ...",
+      "snippet": "Specifically, we include lexical, local, and global retrievers in a multi-path network architecture with shared bottom layers and top MoE layers.",
+      "link": "https://arxiv.org/pdf/2311.02834",
+      "arxiv_id": "2311.02834"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] ExpertRAG: Efficient RAG with Mixture of Experts - arXiv",
+      "snippet": "ExpertRAG is a novel theoretical framework that integrates Mixture-of-Experts (MoE) architectures with Retrieval-. Augmented Generation (RAG) to advance the ...",
+      "link": "https://arxiv.org/pdf/2504.08744?",
+      "arxiv_id": "2504.08744"
+    },
+    {
+      "rank": 10,
+      "title": "[2412.11864] Investigating Mixture of Experts in Dense Retrieval",
+      "snippet": "Access Paper: View a PDF of the paper titled Investigating Mixture of Experts in Dense Retrieval, by Effrosyni Sokli and 3 other authors. View PDF · HTML ...",
+      "link": "https://arxiv.org/abs/2412.11864",
+      "arxiv_id": "2412.11864"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:34.829176+00:00",
+  "elapsed_seconds": 1.0446842573583126
+}

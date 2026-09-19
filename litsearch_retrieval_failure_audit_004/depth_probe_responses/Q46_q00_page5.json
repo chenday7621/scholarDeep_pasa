@@ -1,0 +1,162 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 45,
+  "question_id": "Q46",
+  "group": "inline-citation",
+  "native_query_index": 0,
+  "native_query": "Survey papers on Named Entity Recognition across multiple languages",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "1909.01441",
+  "page": 5,
+  "payload": {
+    "q": "Survey papers on Named Entity Recognition across multiple languages before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 5
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 45,
+  "started_utc": "2026-09-17T12:45:28.363081+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648850",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "429f8da5edacd5c3fd6d2d99016dced3",
+    "date": "Thu, 17 Sep 2026 12:40:53 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3780",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3780,
+  "response_bytes_sha256": "cea18fdc008a0a54266165c4b7a46723bb6fe56240f48b16cc515e154421b197",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIE5hbWVkIEVudGl0eSBSZWNvZ25pdGlvbiBhY3Jvc3MgbXVsdGlwbGUgbGFuZ3VhZ2VzIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjUsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlsxOTEwLjExNDcwXSBBIFN1cnZleSBvbiBSZWNlbnQgQWR2YW5jZXMgaW4gTmFtZWQgRW50aXR5IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMTkxMC4xMTQ3MCIsInNuaXBwZXQiOiJOYW1lZCBFbnRpdHkgUmVjb2duaXRpb24gKE5FUikgaXMgYSBrZXkgY29tcG9uZW50IGluIE5MUCBzeXN0ZW1zIGZvciBxdWVzdGlvbiBhbnN3ZXJpbmcsIGluZm9ybWF0aW9uIHJldHJpZXZhbCwgcmVsYXRpb24gZXh0cmFjdGlvbiwgZXRjLiBORVIgc3lzdGVtcyBoYXZlIGJlZW4gc3R1ZGllZCBhbmQgZGV2ZWxvcGVkIHdpZGVseSBmb3IgZGVjYWRlcywgYnV0IGFjY3VyYXRlIHN5c3RlbXMgdXNpbmcgZGVlcCBuZXVyYWwgbmV0d29ya3MgKE5OKSBoYXZlIG9ubHkgYmVlbiBpbnRyb2R1Y2VkIGluIHRoZSBsYXN0IGZldyB5ZWFycy4gV2UgcHJlc2VudCBhIGNvbXByZWhlbnNpdmUgc3VydmV5IG9mIGRlZXAgbmV1cmFsIG5ldHdvcmsgYXJjaGl0ZWN0dXJlcyBmb3IgTkVSLCBhbmQgY29udHJhc3QgLi4uIiwiZGF0ZSI6Ik9jdCAyNSwgMjAxOSIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiYXJYaXYub3JnIGUtUHJpbnQgYXJjaGl2ZSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy8iLCJzbmlwcGV0IjoiYXJYaXYgaXMgYSBmcmVlIGRpc3RyaWJ1dGlvbiBzZXJ2aWNlIGFuZCBhbiBvcGVuLWFjY2VzcyBhcmNoaXZlIGZvciBuZWFybHkgMi40IG1pbGxpb24gc2Nob2xhcmx5IGFydGljbGVzIGluIHRoZSBmaWVsZHMgb2YgcGh5c2ljcywgbWF0aGVtYXRpY3MsIGNvbXB1dGVyIHNjaWVuY2UsIHF1YW50aXRhdGl2ZSBiaW9sb2d5LCBxdWFudGl0YXRpdmUgZmluYW5jZSwgc3RhdGlzdGljcywgZWxlY3RyaWNhbCBlbmdpbmVlcmluZyBhbmQgc3lzdGVtcyBzY2llbmNlLCBhbmQgZWNvbm9taWNzLiBNYXRlcmlhbHMgb24gdGhpcyBzaXRlIGFyZSBub3QgcGVlci1yZXZpZXdlZCBieSBhclhpdi4iLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkZpbmFuY2lhbCBOYW1lZCBFbnRpdHkgUmVjb2duaXRpb246IEhvdyBGYXIgQ2FuIExMTSBHbz8iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDEuMDIyMzciLCJzbmlwcGV0IjoiQWJzdHJhY3QgVGhlIHN1cmdlIG9mIGxhcmdlIGxhbmd1YWdlIG1vZGVscyAoTExNcykgaGFzIHJldm9sdXRpb25pemVkIHRoZSBleHRyYWN0aW9uIGFuZCBhbmFseXNpcyBvZiBjcnVjaWFsIGluZm9ybWF0aW9uIGZyb20gYSBncm93aW5nIHZvbHVtZSBvZiBmaW5hbmNpYWwgc3RhdGVtZW50cywgYW5ub3VuY2VtZW50cywgYW5kIGJ1c2luZXNzIG5ld3MuIFJlY29nbml0aW9uIGZvciBuYW1lZCBlbnRpdGllcyB0byBjb25zdHJ1Y3Qgc3RydWN0dXJlZCBkYXRhIHBvc2VzIGEgc2lnbmlmaWNhbnQgY2hhbGxlbmdlIGluIGFuYWx5emluZyBmaW5hbmNpYWwgZG9jdW1lbnRzIGFuZCBpcyBhIGZvdW5kYXRpb25hbCB0YXNrIGZvciBpbnRlbGxpZ2VudCBmaW5hbmNpYWwgYW5hbHl0aWNzLiBIb3dldmVyIC4uLiIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQVdFRC1GaU5FUjogQWdlbnRzLCBXZWIgYXBwbGljYXRpb25zLCBhbmQgRXhwZXJ0IERldGVjdG9ycyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAxLjEwMTYxdjEiLCJzbmlwcGV0IjoiVG8gdGhlIGJlc3Qgb2Ygb3VyIGtub3dsZWRnZSwgdGhpcyBpcyB0aGUgZmlyc3QgY29tcHJlaGVuc2l2ZSBjb250cmlidXRpb24gY292ZXJpbmcgYW4gYWdlbnRpYyB0b29sLCBhbiBpbnRlcmFjdGl2ZSB3ZWIgYXBwLCBhbmQgYSBjb2xsZWN0aW9uIG9mIGV4cGVydCBtb2RlbHMgYWNyb3NzIDM2IGxhbmd1YWdlcywgc2VydmluZyA2LjYgYmlsbGlvbiBzcGVha2VycywgZm9yIHRoZSBmaW5lLWdyYWluZWQgbmFtZWQgZW50aXR5IHJlY29nbml0aW9uIHRhc2suIiwiZGF0ZSI6IkphbiAxNSwgMjAyNiIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiWzI0MDUuMDQ4MjldIEZpbmUtdHVuaW5nIFByZS10cmFpbmVkIE5hbWVkIEVudGl0eSBSZWNvZ25pdGlvbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDUuMDQ4MjkiLCJzbmlwcGV0IjoiTmFtZWQgRW50aXR5IFJlY29nbml0aW9uIChORVIpIGlzIGEgdXNlZnVsIGNvbXBvbmVudCBpbiBOYXR1cmFsIExhbmd1YWdlIFByb2Nlc3NpbmcgKE5MUCkgYXBwbGljYXRpb25zLiBJdCBpcyB1c2VkIGluIHZhcmlvdXMgdGFza3Mgc3VjaCBhcyBNYWNoaW5lIFRyYW5zbGF0aW9uLCBTdW1tYXJpemF0aW9uLCBJbmZvcm1hdGlvbiBSZXRyaWV2YWwsIGFuZCBRdWVzdGlvbi1BbnN3ZXJpbmcgc3lzdGVtcy4gVGhlIHJlc2VhcmNoIG9uIE5FUiBpcyBjZW50ZXJlZCBhcm91bmQgRW5nbGlzaCBhbmQgc29tZSBvdGhlciBtYWpvciBsYW5ndWFnZXMsIHdoZXJlYXMgbGltaXRlZCBhdHRlbnRpb24gaGFzIGJlZW4gZ2l2ZW4gdG8gSW5kaWFuIGxhbmd1YWdlcy4gV2UgYW5hbHl6ZSB0aGUgLi4uIiwiZGF0ZSI6Ik1heSA4LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJBIEZldy1TaG90IExlYXJuaW5nIEZvY3VzZWQgU3VydmV5IG9uIFJlY2VudCBOYW1lZCBFbnRpdHkgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzEwLjE5MDU1Iiwic25pcHBldCI6Ik5hbWVkIEVudGl0eSBSZWNvZ25pdGlvbiAoTkVSKSBhbmQgUmVsYXRpb24gQ2xhc3NpZmljYXRpb24gKFJDKSBhcmUgaW1wb3J0YW50IHN0ZXBzIGluIGV4dHJhY3RpbmcgaW5mb3JtYXRpb24gZnJvbSB1bnN0cnVjdHVyZWQgdGV4dCBhbmQgZm9ybWF0dGluZyBpdCBpbnRvIGEgbWFjaGluZS1yZWFkYWJsZSBmb3JtYXQuIFdlIHByZXNlbnQgYSBzdXJ2ZXkgb2YgcmVjZW50IGRlZXAgbGVhcm5pbmcgbW9kZWxzIHRoYXQgYWRkcmVzcyBuYW1lZCBlbnRpdHkgcmVjb2duaXRpb24gYW5kIHJlbGF0aW9uIGNsYXNzaWZpY2F0aW9uLCB3aXRoIGZvY3VzIG9uIGZldy1zaG90IGxlYXJuaW5nIHBlcmZvcm1hbmNlLiIsImRhdGUiOiJPY3QgMjksIDIwMjMiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6Ik5FUi0gUm9CRVJUYTogRmluZS1UdW5pbmcgUm9CRVJUYSBmb3IgTmFtZWQgRW50aXR5IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQxMi4xNTI1MiIsInNuaXBwZXQiOiJOb3dhZGF5cywgTmF0dXJhbCBMYW5ndWFnZSBQcm9jZXNzaW5nIChOTFApIGlzIGFuIGltcG9ydGFudCB0b29sIGZvciBtb3N0IHBlb3BsZSdzIGRhaWx5IGxpZmUgcm91dGluZXMsIHJhbmdpbmcgZnJvbSB1bmRlcnN0YW5kaW5nIHNwZWVjaCwgdHJhbnNsYXRpb24sIG5hbWVkIGVudGl0eSByZWNvZ25pdGlvbiAoTkVSKSwgYW5kIHRleHQgY2F0ZWdvcml6YXRpb24sIHRvIGdlbmVyYXRpdmUgdGV4dCBtb2RlbHMgc3VjaCBhcyBDaGF0R1BULiBEdWUgdG8gdGhlIGV4aXN0ZW5jZSBvZiBiaWcgZGF0YSBhbmQgY29uc2VxdWVudGx5IGxhcmdlIGNvcnBvcmEgZm9yIHdpZGVseSB1c2VkIGxhbmd1YWdlcyBsaWtlIEVuZ2xpc2gsIFNwYW5pc2gsIFR1cmtpc2gsIFBlcnNpYW4sIGFuZCBtYW55IG1vcmUgLi4uIiwiZGF0ZSI6IkRlYyAxNSwgMjAyNCIsInBvc2l0aW9uIjo3fV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Survey papers on Named Entity Recognition across multiple languages before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 5,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[1910.11470] A Survey on Recent Advances in Named Entity ...",
+        "link": "https://arxiv.org/abs/1910.11470",
+        "snippet": "Named Entity Recognition (NER) is a key component in NLP systems for question answering, information retrieval, relation extraction, etc. NER systems have been studied and developed widely for decades, but accurate systems using deep neural networks (NN) have only been introduced in the last few years. We present a comprehensive survey of deep neural network architectures for NER, and contrast ...",
+        "date": "Oct 25, 2019",
+        "position": 1
+      },
+      {
+        "title": "arXiv.org e-Print archive",
+        "link": "https://arxiv.org/",
+        "snippet": "arXiv is a free distribution service and an open-access archive for nearly 2.4 million scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Materials on this site are not peer-reviewed by arXiv.",
+        "position": 2
+      },
+      {
+        "title": "Financial Named Entity Recognition: How Far Can LLM Go?",
+        "link": "https://arxiv.org/pdf/2501.02237",
+        "snippet": "Abstract The surge of large language models (LLMs) has revolutionized the extraction and analysis of crucial information from a growing volume of financial statements, announcements, and business news. Recognition for named entities to construct structured data poses a significant challenge in analyzing financial documents and is a foundational task for intelligent financial analytics. However ...",
+        "position": 3
+      },
+      {
+        "title": "AWED-FiNER: Agents, Web applications, and Expert Detectors ...",
+        "link": "https://arxiv.org/html/2601.10161v1",
+        "snippet": "To the best of our knowledge, this is the first comprehensive contribution covering an agentic tool, an interactive web app, and a collection of expert models across 36 languages, serving 6.6 billion speakers, for the fine-grained named entity recognition task.",
+        "date": "Jan 15, 2026",
+        "position": 4
+      },
+      {
+        "title": "[2405.04829] Fine-tuning Pre-trained Named Entity Recognition ...",
+        "link": "https://arxiv.org/abs/2405.04829",
+        "snippet": "Named Entity Recognition (NER) is a useful component in Natural Language Processing (NLP) applications. It is used in various tasks such as Machine Translation, Summarization, Information Retrieval, and Question-Answering systems. The research on NER is centered around English and some other major languages, whereas limited attention has been given to Indian languages. We analyze the ...",
+        "date": "May 8, 2024",
+        "position": 5
+      },
+      {
+        "title": "A Few-Shot Learning Focused Survey on Recent Named Entity ...",
+        "link": "https://arxiv.org/abs/2310.19055",
+        "snippet": "Named Entity Recognition (NER) and Relation Classification (RC) are important steps in extracting information from unstructured text and formatting it into a machine-readable format. We present a survey of recent deep learning models that address named entity recognition and relation classification, with focus on few-shot learning performance.",
+        "date": "Oct 29, 2023",
+        "position": 6
+      },
+      {
+        "title": "NER- RoBERTa: Fine-Tuning RoBERTa for Named Entity ...",
+        "link": "https://arxiv.org/abs/2412.15252",
+        "snippet": "Nowadays, Natural Language Processing (NLP) is an important tool for most people's daily life routines, ranging from understanding speech, translation, named entity recognition (NER), and text categorization, to generative text models such as ChatGPT. Due to the existence of big data and consequently large corpora for widely used languages like English, Spanish, Turkish, Persian, and many more ...",
+        "date": "Dec 15, 2024",
+        "position": 7
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank_on_page": 1,
+      "nominal_rank": 41,
+      "title": "[1910.11470] A Survey on Recent Advances in Named Entity ...",
+      "snippet": "Named Entity Recognition (NER) is a key component in NLP systems for question answering, information retrieval, relation extraction, etc. NER systems have been studied and developed widely for decades, but accurate systems using deep neural networks (NN) have only been introduced in the last few years. We present a comprehensive survey of deep neural network architectures for NER, and contrast ...",
+      "link": "https://arxiv.org/abs/1910.11470",
+      "arxiv_id": "1910.11470"
+    },
+    {
+      "rank_on_page": 2,
+      "nominal_rank": 42,
+      "title": "arXiv.org e-Print archive",
+      "snippet": "arXiv is a free distribution service and an open-access archive for nearly 2.4 million scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Materials on this site are not peer-reviewed by arXiv.",
+      "link": "https://arxiv.org/",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 3,
+      "nominal_rank": 43,
+      "title": "Financial Named Entity Recognition: How Far Can LLM Go?",
+      "snippet": "Abstract The surge of large language models (LLMs) has revolutionized the extraction and analysis of crucial information from a growing volume of financial statements, announcements, and business news. Recognition for named entities to construct structured data poses a significant challenge in analyzing financial documents and is a foundational task for intelligent financial analytics. However ...",
+      "link": "https://arxiv.org/pdf/2501.02237",
+      "arxiv_id": "2501.02237"
+    },
+    {
+      "rank_on_page": 4,
+      "nominal_rank": 44,
+      "title": "AWED-FiNER: Agents, Web applications, and Expert Detectors ...",
+      "snippet": "To the best of our knowledge, this is the first comprehensive contribution covering an agentic tool, an interactive web app, and a collection of expert models across 36 languages, serving 6.6 billion speakers, for the fine-grained named entity recognition task.",
+      "link": "https://arxiv.org/html/2601.10161v1",
+      "arxiv_id": "2601.10161"
+    },
+    {
+      "rank_on_page": 5,
+      "nominal_rank": 45,
+      "title": "[2405.04829] Fine-tuning Pre-trained Named Entity Recognition ...",
+      "snippet": "Named Entity Recognition (NER) is a useful component in Natural Language Processing (NLP) applications. It is used in various tasks such as Machine Translation, Summarization, Information Retrieval, and Question-Answering systems. The research on NER is centered around English and some other major languages, whereas limited attention has been given to Indian languages. We analyze the ...",
+      "link": "https://arxiv.org/abs/2405.04829",
+      "arxiv_id": "2405.04829"
+    },
+    {
+      "rank_on_page": 6,
+      "nominal_rank": 46,
+      "title": "A Few-Shot Learning Focused Survey on Recent Named Entity ...",
+      "snippet": "Named Entity Recognition (NER) and Relation Classification (RC) are important steps in extracting information from unstructured text and formatting it into a machine-readable format. We present a survey of recent deep learning models that address named entity recognition and relation classification, with focus on few-shot learning performance.",
+      "link": "https://arxiv.org/abs/2310.19055",
+      "arxiv_id": "2310.19055"
+    },
+    {
+      "rank_on_page": 7,
+      "nominal_rank": 47,
+      "title": "NER- RoBERTa: Fine-Tuning RoBERTa for Named Entity ...",
+      "snippet": "Nowadays, Natural Language Processing (NLP) is an important tool for most people's daily life routines, ranging from understanding speech, translation, named entity recognition (NER), and text categorization, to generative text models such as ChatGPT. Due to the existence of big data and consequently large corpora for widely used languages like English, Spanish, Turkish, Persian, and many more ...",
+      "link": "https://arxiv.org/abs/2412.15252",
+      "arxiv_id": "2412.15252"
+    }
+  ],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:45:33.532577+00:00",
+  "elapsed_seconds": 5.169531997293234
+}

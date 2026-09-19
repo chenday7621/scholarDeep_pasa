@@ -1,0 +1,161 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 33,
+  "question_id": "Q36",
+  "group": "inline-citation",
+  "native_query_index": 1,
+  "native_query": "Survey papers on distinguishing AI-generated text from human-authored text",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "2107.00061",
+  "page": 5,
+  "payload": {
+    "q": "Survey papers on distinguishing AI-generated text from human-authored text before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 5
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 33,
+  "started_utc": "2026-09-17T12:45:04.228664+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648825",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "3aa8df94bb614f26d4f53bc74a5b6ab3",
+    "date": "Thu, 17 Sep 2026 12:40:28 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3782",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3782,
+  "response_bytes_sha256": "67fe0b1aa8dbcf5e6d2619fe55f902c0858ecd05fd8f178b9c5d6e2f5e594136",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIGRpc3Rpbmd1aXNoaW5nIEFJLWdlbmVyYXRlZCB0ZXh0IGZyb20gaHVtYW4tYXV0aG9yZWQgdGV4dCBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjo1LCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJPbiB0aGUgUG9zc2liaWxpdGllcyBvZiBBSS1HZW5lcmF0ZWQgVGV4dCBEZXRlY3Rpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDQuMDQ3MzYiLCJzbmlwcGV0IjoiVmlldyBhIFBERiBvZiB0aGUgcGFwZXIgdGl0bGVkIE9uIHRoZSBQb3NzaWJpbGl0aWVzIG9mIEFJLUdlbmVyYXRlZCBUZXh0IERldGVjdGlvbiwgYnkgU291cmFkaXAgQ2hha3JhYm9ydHkgYW5kIDUgb3RoZXIgYXV0aG9ycyBWaWV3IFBERkhUTUwgKGV4cGVyaW1lbnRhbCkgQWJzdHJhY3Q6T3VyIHdvcmsgYWRkcmVzc2VzIHRoZSBjcml0aWNhbCBpc3N1ZSBvZiBkaXN0aW5ndWlzaGluZyB0ZXh0IGdlbmVyYXRlZCBieSBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKExMTXMpIGZyb20gaHVtYW4tcHJvZHVjZWQgdGV4dCwgYSB0YXNrIGVzc2VudGlhbCBmb3IgbnVtZXJvdXMgYXBwbGljYXRpb25zLiIsImRhdGUiOiJBcHIgMTAsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlsyNTAyLjA1MjQwXSBTdXJ2ZXkgb24gQUktR2VuZXJhdGVkIE1lZGlhIERldGVjdGlvbjogRnJvbSBOb24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNTAyLjA1MjQwIiwic25pcHBldCI6IlRoZSBwcm9saWZlcmF0aW9uIG9mIEFJLWdlbmVyYXRlZCBtZWRpYSBwb3NlcyBzaWduaWZpY2FudCBjaGFsbGVuZ2VzIHRvIGluZm9ybWF0aW9uIGF1dGhlbnRpY2l0eSBhbmQgc29jaWFsIHRydXN0LCBtYWtpbmcgcmVsaWFibGUgZGV0ZWN0aW9uIG1ldGhvZHMgaGlnaGx5IGRlbWFuZGVkLiBNZXRob2RzIGZvciBkZXRlY3RpbmcgQUktZ2VuZXJhdGVkIG1lZGlhIGhhdmUgZXZvbHZlZCByYXBpZGx5LCBwYXJhbGxlbGluZyB0aGUgYWR2YW5jZW1lbnQgb2YgTXVsdGltb2RhbCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKE1MTE1zKS4gQ3VycmVudCBkZXRlY3Rpb24gYXBwcm9hY2hlcyBjYW4gYmUgY2F0ZWdvcml6ZWQgaW50byB0d28gbWFpbiBncm91cHM6IE5vbi1NTExNLWJhc2VkIGFuZCBNTExNIC4uLiIsImRhdGUiOiJGZWIgNywgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiVG93YXJkcyBhIFNjaWVuY2Ugb2YgU2NhbGluZyBBZ2VudCBTeXN0ZW1zIC0gYXJYaXYub3JnIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMi4wODI5NnYzIiwic25pcHBldCI6IldlIGtub3cgZnJvbSBodW1hbiB0ZWFtIHBlcmZvcm1hbmNlIFszMCwgMzFdIHRoYXQgdGVhbSBlZmZlY3RpdmVuZXNzIGRlcGVuZHMgb24gY29tcG9zaXRpb24sIGNvb3JkaW5hdGlvbiBtZWNoYW5pc21zLCBhbmQgbWVtYmVyIGRpZmZlcmVudGlhdGlvbi4gWWV0IHdlIGxhY2sgY29tcGFyYWJsZSBlbXBpcmljYWwgdW5kZXJzdGFuZGluZyBvZiBob3cgdGhlc2UgcHJpbmNpcGxlcyB0cmFuc2xhdGUgdG8gYXJ0aWZpY2lhbCBhZ2VudHMsIGxlYXZpbmcgcHJhY3RpdGlvbmVycyB3aXRob3V0IHF1YW50aXRhdGl2ZSBndWlkYW5jZSBmb3IgYXJjaGl0ZWN0dXJlIHNlbGVjdGlvbi4iLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IlRoZSBJbWl0YXRpb24gR2FtZTogRGV0ZWN0aW5nIEh1bWFuIGFuZCBBSS1HZW5lcmF0ZWQgVGV4dHMgaW4gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA3LjEyMTY2Iiwic25pcHBldCI6Ikhvd2V2ZXIsIGRpc3Rpbmd1aXNoaW5nIGJldHdlZW4gaHVtYW4td3JpdHRlbiBhbmQgQUktZ2VuZXJhdGVkIHRleHQgaGFzIGJlY29tZSBhIHNpZ25pZmljYW50IHRhc2suIFRoaXMgcGFwZXIgcHJlc2VudHMgYSBjb21wYXJhdGl2ZSBzdHVkeSwgaW50cm9kdWNpbmcgYSBub3ZlbCBkYXRhc2V0IG9mIGh1bWFuLXdyaXR0ZW4gYW5kIExMTS1nZW5lcmF0ZWQgdGV4dHMgaW4gZGlmZmVyZW50IGdlbnJlczogZXNzYXlzLCBzdG9yaWVzLCBwb2V0cnksIGFuZCBQeXRob24gY29kZS4gV2UgZW1wbG95IHNldmVyYWwgbWFjaGluZSBsZWFybmluZyBtb2RlbHMgdG8gY2xhc3NpZnkgdGhlIHRleHRzLiIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiVG93YXJkc1Bvc3NpYmlsaXRpZXMmSW1wb3NzaWJpbGl0aWVzb2YgQUkgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzEwLjE1MjY0Iiwic25pcHBldCI6IkV2ZW4gdGhvdWdoIGl0IGlzIGRpZmljdWx0IHRvIGFuc3dlciB0aGUgYWJvdmUgcXVlc3Rpb24gY29tcGxldGVseSwgYSBwb3B1bGFyIHN1Z2dlc3Rpb24gd2l0aGluIHRoZSByZXNlYXJjaCBjb21tdW5pdHkgdG8gYWRkcmVzcyB0aGVzZSBldGhpY2FsIGNvbmNlcm5zIGlzIHRvIGFjY3VyYXRlbHkgZGV0ZWN0IEFJLWdlbmVyYXRlZCB0ZXh0IGFuZCBzZXBhcmF0ZSBpdCBmcm9tIGh1bWFuIHdyaXRpbmdzLCB0aGVyZWJ5IGVuc3VyaW5nIHRoZSByZXNwb25zaWJsZSBkZXBsb3ltZW50IG9mIExMTXMuIFN1Y2ggYSBjYXBhYmlsaXR5IGZvciBBSSBkZXRlY3Rpb24gd291bGQgcmVkdWNlIHRoZSBwb3RlbnRpYWwgZm9yIG1pc3VzZS4gV2hldGhlciBkZXRlY3Rpb24gY2FuIGVmZWN0aXZlbHkgLi4uIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJEaXN0aW5ndWlzaGluZyBIdW1hbiBHZW5lcmF0ZWQgVGV4dCBGcm9tIENoYXRHUFQgR2VuZXJhdGVkIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNi4wMTc2MSIsInNuaXBwZXQiOiJWaWV3IGEgUERGIG9mIHRoZSBwYXBlciB0aXRsZWQgRGlzdGluZ3Vpc2hpbmcgSHVtYW4gR2VuZXJhdGVkIFRleHQgRnJvbSBDaGF0R1BUIEdlbmVyYXRlZCBUZXh0IFVzaW5nIE1hY2hpbmUgTGVhcm5pbmcsIGJ5IE5pZnVsIElzbGFtIGFuZCA1IG90aGVyIGF1dGhvcnMgVmlldyBQREYgQWJzdHJhY3Q6Q2hhdEdQVCBpcyBhIGNvbnZlcnNhdGlvbmFsIGFydGlmaWNpYWwgaW50ZWxsaWdlbmNlIHRoYXQgaXMgYSBtZW1iZXIgb2YgdGhlIGdlbmVyYXRpdmUgcHJlLXRyYWluZWQgdHJhbnNmb3JtZXIgb2YgdGhlIGxhcmdlIGxhbmd1YWdlIG1vZGVsIGZhbWlseS4iLCJkYXRlIjoiTWF5IDI2LCAyMDIzIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbMjMwNC4wNjYzMl0gQUktR2VuZXJhdGVkIENvbnRlbnQgKEFJR0MpOiBBIFN1cnZleSAtIGFyWGl2Lm9yZyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNC4wNjYzMiIsInNuaXBwZXQiOiJUbyBhZGRyZXNzIHRoZSBjaGFsbGVuZ2VzIG9mIGRpZ2l0YWwgaW50ZWxsaWdlbmNlIGluIHRoZSBkaWdpdGFsIGVjb25vbXksIGFydGlmaWNpYWwgaW50ZWxsaWdlbmNlLWdlbmVyYXRlZCBjb250ZW50IChBSUdDKSBoYXMgZW1lcmdlZC4gQUlHQyB1c2VzIGFydGlmaWNpYWwgaW50ZWxsaWdlbmNlIHRvIGFzc2lzdCBvciByZXBsYWNlIG1hbnVhbCBjb250ZW50IGdlbmVyYXRpb24gYnkgZ2VuZXJhdGluZyBjb250ZW50IGJhc2VkIG9uIHVzZXItaW5wdXR0ZWQga2V5d29yZHMgb3IgcmVxdWlyZW1lbnRzLiBUaGUgZGV2ZWxvcG1lbnQgb2YgbGFyZ2UgbW9kZWwgYWxnb3JpdGhtcyBoYXMgc2lnbmlmaWNhbnRseSBzdHJlbmd0aGVuZWQgdGhlIGNhcGFiaWxpdGllcyBvZiBBSUdDLCB3aGljaCAuLi4iLCJkYXRlIjoiTWFyIDI2LCAyMDIzIiwicG9zaXRpb24iOjd9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Survey papers on distinguishing AI-generated text from human-authored text before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 5,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "On the Possibilities of AI-Generated Text Detection",
+        "link": "https://arxiv.org/abs/2304.04736",
+        "snippet": "View a PDF of the paper titled On the Possibilities of AI-Generated Text Detection, by Souradip Chakraborty and 5 other authors View PDFHTML (experimental) Abstract:Our work addresses the critical issue of distinguishing text generated by Large Language Models (LLMs) from human-produced text, a task essential for numerous applications.",
+        "date": "Apr 10, 2023",
+        "position": 1
+      },
+      {
+        "title": "[2502.05240] Survey on AI-Generated Media Detection: From Non ...",
+        "link": "https://arxiv.org/abs/2502.05240",
+        "snippet": "The proliferation of AI-generated media poses significant challenges to information authenticity and social trust, making reliable detection methods highly demanded. Methods for detecting AI-generated media have evolved rapidly, paralleling the advancement of Multimodal Large Language Models (MLLMs). Current detection approaches can be categorized into two main groups: Non-MLLM-based and MLLM ...",
+        "date": "Feb 7, 2025",
+        "position": 2
+      },
+      {
+        "title": "Towards a Science of Scaling Agent Systems - arXiv.org",
+        "link": "https://arxiv.org/html/2512.08296v3",
+        "snippet": "We know from human team performance [30, 31] that team effectiveness depends on composition, coordination mechanisms, and member differentiation. Yet we lack comparable empirical understanding of how these principles translate to artificial agents, leaving practitioners without quantitative guidance for architecture selection.",
+        "position": 3
+      },
+      {
+        "title": "The Imitation Game: Detecting Human and AI-Generated Texts in ...",
+        "link": "https://arxiv.org/pdf/2307.12166",
+        "snippet": "However, distinguishing between human-written and AI-generated text has become a significant task. This paper presents a comparative study, introducing a novel dataset of human-written and LLM-generated texts in different genres: essays, stories, poetry, and Python code. We employ several machine learning models to classify the texts.",
+        "position": 4
+      },
+      {
+        "title": "TowardsPossibilities&Impossibilitiesof AI ...",
+        "link": "https://arxiv.org/pdf/2310.15264",
+        "snippet": "Even though it is dificult to answer the above question completely, a popular suggestion within the research community to address these ethical concerns is to accurately detect AI-generated text and separate it from human writings, thereby ensuring the responsible deployment of LLMs. Such a capability for AI detection would reduce the potential for misuse. Whether detection can efectively ...",
+        "position": 5
+      },
+      {
+        "title": "Distinguishing Human Generated Text From ChatGPT Generated ...",
+        "link": "https://arxiv.org/abs/2306.01761",
+        "snippet": "View a PDF of the paper titled Distinguishing Human Generated Text From ChatGPT Generated Text Using Machine Learning, by Niful Islam and 5 other authors View PDF Abstract:ChatGPT is a conversational artificial intelligence that is a member of the generative pre-trained transformer of the large language model family.",
+        "date": "May 26, 2023",
+        "position": 6
+      },
+      {
+        "title": "[2304.06632] AI-Generated Content (AIGC): A Survey - arXiv.org",
+        "link": "https://arxiv.org/abs/2304.06632",
+        "snippet": "To address the challenges of digital intelligence in the digital economy, artificial intelligence-generated content (AIGC) has emerged. AIGC uses artificial intelligence to assist or replace manual content generation by generating content based on user-inputted keywords or requirements. The development of large model algorithms has significantly strengthened the capabilities of AIGC, which ...",
+        "date": "Mar 26, 2023",
+        "position": 7
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank_on_page": 1,
+      "nominal_rank": 41,
+      "title": "On the Possibilities of AI-Generated Text Detection",
+      "snippet": "View a PDF of the paper titled On the Possibilities of AI-Generated Text Detection, by Souradip Chakraborty and 5 other authors View PDFHTML (experimental) Abstract:Our work addresses the critical issue of distinguishing text generated by Large Language Models (LLMs) from human-produced text, a task essential for numerous applications.",
+      "link": "https://arxiv.org/abs/2304.04736",
+      "arxiv_id": "2304.04736"
+    },
+    {
+      "rank_on_page": 2,
+      "nominal_rank": 42,
+      "title": "[2502.05240] Survey on AI-Generated Media Detection: From Non ...",
+      "snippet": "The proliferation of AI-generated media poses significant challenges to information authenticity and social trust, making reliable detection methods highly demanded. Methods for detecting AI-generated media have evolved rapidly, paralleling the advancement of Multimodal Large Language Models (MLLMs). Current detection approaches can be categorized into two main groups: Non-MLLM-based and MLLM ...",
+      "link": "https://arxiv.org/abs/2502.05240",
+      "arxiv_id": "2502.05240"
+    },
+    {
+      "rank_on_page": 3,
+      "nominal_rank": 43,
+      "title": "Towards a Science of Scaling Agent Systems - arXiv.org",
+      "snippet": "We know from human team performance [30, 31] that team effectiveness depends on composition, coordination mechanisms, and member differentiation. Yet we lack comparable empirical understanding of how these principles translate to artificial agents, leaving practitioners without quantitative guidance for architecture selection.",
+      "link": "https://arxiv.org/html/2512.08296v3",
+      "arxiv_id": "2512.08296"
+    },
+    {
+      "rank_on_page": 4,
+      "nominal_rank": 44,
+      "title": "The Imitation Game: Detecting Human and AI-Generated Texts in ...",
+      "snippet": "However, distinguishing between human-written and AI-generated text has become a significant task. This paper presents a comparative study, introducing a novel dataset of human-written and LLM-generated texts in different genres: essays, stories, poetry, and Python code. We employ several machine learning models to classify the texts.",
+      "link": "https://arxiv.org/pdf/2307.12166",
+      "arxiv_id": "2307.12166"
+    },
+    {
+      "rank_on_page": 5,
+      "nominal_rank": 45,
+      "title": "TowardsPossibilities&Impossibilitiesof AI ...",
+      "snippet": "Even though it is dificult to answer the above question completely, a popular suggestion within the research community to address these ethical concerns is to accurately detect AI-generated text and separate it from human writings, thereby ensuring the responsible deployment of LLMs. Such a capability for AI detection would reduce the potential for misuse. Whether detection can efectively ...",
+      "link": "https://arxiv.org/pdf/2310.15264",
+      "arxiv_id": "2310.15264"
+    },
+    {
+      "rank_on_page": 6,
+      "nominal_rank": 46,
+      "title": "Distinguishing Human Generated Text From ChatGPT Generated ...",
+      "snippet": "View a PDF of the paper titled Distinguishing Human Generated Text From ChatGPT Generated Text Using Machine Learning, by Niful Islam and 5 other authors View PDF Abstract:ChatGPT is a conversational artificial intelligence that is a member of the generative pre-trained transformer of the large language model family.",
+      "link": "https://arxiv.org/abs/2306.01761",
+      "arxiv_id": "2306.01761"
+    },
+    {
+      "rank_on_page": 7,
+      "nominal_rank": 47,
+      "title": "[2304.06632] AI-Generated Content (AIGC): A Survey - arXiv.org",
+      "snippet": "To address the challenges of digital intelligence in the digital economy, artificial intelligence-generated content (AIGC) has emerged. AIGC uses artificial intelligence to assist or replace manual content generation by generating content based on user-inputted keywords or requirements. The development of large model algorithms has significantly strengthened the capabilities of AIGC, which ...",
+      "link": "https://arxiv.org/abs/2304.06632",
+      "arxiv_id": "2304.06632"
+    }
+  ],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:45:09.306450+00:00",
+  "elapsed_seconds": 5.077826548367739
+}

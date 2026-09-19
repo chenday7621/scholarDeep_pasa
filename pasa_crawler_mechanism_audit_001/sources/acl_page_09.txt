@@ -1,0 +1,87 @@
+Method AutoScholarQuery RealScholarQuery
+Crawler Recall Precision Recall Crawler Recall Precision Recall
+w/o [Expand] 0.3355 0.1445 0.2536 0.3359 0.6738 0.2890
+w/o RL training 0.6556 0.1476 0.4210 0.4847 0.5155 0.4115
+w/o Selector as RM 0.7041 0.1535 0.4458 0.5994 0.5489 0.5148
+PaSa-7b 0.7931 0.1448 0.4834 0.7071 0.5146 0.6111
+Table 7: Ablation study results on AutoScholarQuery test set and RealScholarQuery.
+as the benchmark for evaluating the Selector (see
+Appendix F for details). We then compared our
+Selector against GPT-4o (Hurst et al., 2024) and
+Qwen-2.5-7b (Yang et al., 2024), as shown in Ta-
+ble 6. The results show that our Selector achieves
+an F1 score of 85%, outperforming GPT-4o by
+5% and Qwen-2.5-7b by 30%. Additionally, when
+compared to a setting where reasoning precedes
+decision token generation, the performance is com-
+parable. Lastly, the Selector’s precision reaches
+95%, confirming its effectiveness as an auxiliary
+reward model for the Crawler RL training.
+5.4 Ablation study
+We perform ablation studies in Table 7 to evaluate
+the individual contributions of exploring citation
+networks, RL training, and using the Selector as the
+reward model. The results indicate that removing
+the [Expand] action from the Crawler leads to a
+significant drop in the recall: a decrease of 22.98%
+on AutoScholarQuery and 32.21% on RealScholar-
+Query. Furthermore, RL training enhances recall
+by 6.24% on AutoScholarQuery and 19.96% on
+RealScholarQuery. The RL training curves are
+depicted in Figure 3 in Appendix D.2, where the
+training curves show a steady increase in return
+with the training steps, eventually converging after
+200 steps. Finally, removing the Selector as an
+auxiliary reward model results in a 3.76% recall
+drop on AutoScholarQuery and a 9.63% drop on
+RealScholarQuery.
+We investigate how to control agent behavior by
+adjusting the rewards in RL training. Experiments
+are conducted with varying reward coefficientsα in
+Equation 1, and results are presented in Table 8. We
+report two metrics: crawler recall and crawler ac-
+tion. The crawler action refers to the total number
+of [Search] and [Expand] actions throughout the
+Crawler’s entire trajectory. As the reward increases,
+both crawler recall and crawler action increase, sug-
+gesting that adjusting rewards in RL training can
+effectively influence PaSa’s behavior.
+α Crawler Crawler Precision RecallRecall Actions
+0.5 0.7227 175.9 0.1458 0.4602
+1.0 0.7708 319.8 0.1451 0.4792
+1.5 0.7931 382.4 0.1448 0.4834
+2.0 0.8063 785.5 0.1409 0.4869
+Table 8: Performance of the Crawler trained on different
+reward coefficientα on AutoScholarQuery test set.
+6 Conclusion
+In this paper, we introduce PaSa, a novel paper
+search agent designed to provide comprehensive
+and accurate results for complex academic queries.
+PaSa is implemented within the AGILE, a rein-
+forcement learning framework for LLM agents.
+To train PaSa, we developed AutoScholarQuery,
+a dataset of fine-grained academic queries and cor-
+responding papers drawn from top-tier AI confer-
+ence publications. To evaluate PaSa in real-world
+scenarios, we also constructed RealScholarQuery,
+a dataset of actual academic queries paired with
+annotated papers. Our experimental results demon-
+strate that PaSa outperforms all baselines, including
+Google, Google Scholar, and Google with GPT-4o,
+ChatGPT, GPT-o1, and PaSa-GPT-4o. In particular,
+PaSa-7B surpasses Google with GPT-4o by 37.78%
+in recall@20 and 39.90% in recall@50, while also
+exceeding PaSa-GPT-4o by 30.36% in recall and
+4.25% in precision. These findings underscore that
+PaSa significantly improves the efficiency and ac-
+curacy of academic search.
+Limitations
+(1) Our dataset collection and experiments were
+primarily focused on the field of machine learning.
+Although our proposed method is general, we did
+not explore its performance in other scientific fields.
+We leave to investigate its applicability to other
+domains in future work.
+(2) Due to resource constraints, our experiments
+primarily use LLMs with 7b parameters. We expect
+11671

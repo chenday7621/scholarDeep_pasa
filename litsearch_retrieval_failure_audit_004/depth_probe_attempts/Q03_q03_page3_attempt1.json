@@ -1,0 +1,144 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 1,
+  "question_id": "Q03",
+  "group": "author-written",
+  "native_query_index": 3,
+  "native_query": "Adversarial training using DRO without adversarial samples",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "2306.15164",
+  "page": 3,
+  "payload": {
+    "q": "Adversarial training using DRO without adversarial samples before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 3
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 1,
+  "started_utc": "2026-09-17T12:43:35.701384+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648740",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "7029f82827c2f888be45278df0f82c20",
+    "set-cookie": "GAESA=CrABMDBhNDFlOGMxZGJhZDc3YmY2MjZlNWY0YTlkMWQwMDJkNmZlZGJmNmIxNWY2NTViOThmOTJlOGI2ZmRkYmFjYTc4ODY2YzQ1NGVmZDg0YWI5ZDkzMzkzNDI1ZDk5NDJhMjQ1MGU2YjQzMjg2YTg2ZjQ1Yjk4NjBjMTZmZjJiMTg5NWZjMWMwOTYwM2VmOTczODhkODBlZDM2MDkzZGJjMDAzNTExOTNjNmQwMWNmYmUQr6eC-4o0; expires=Sat, 17-Oct-2026 12:38:57 GMT; path=/",
+    "date": "Thu, 17 Sep 2026 12:38:57 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "1939",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 1939,
+  "response_bytes_sha256": "bf6d4929e0de51f7ac15dbf481680627206c53c3d0f2656da01c30ad62d60d6e",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBZHZlcnNhcmlhbCB0cmFpbmluZyB1c2luZyBEUk8gd2l0aG91dCBhZHZlcnNhcmlhbCBzYW1wbGVzIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjMsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlNhbXBsZSAtIFlvdVR1YmUiLCJsaW5rIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vQFNhbXBsZUNoYW1wbGUiLCJzbmlwcGV0IjoiQ2hhbGxlbmdlcyA7IEhvdyBJIEJlYXQgSXNhYWMgV2l0aG91dCBQYXNzaXZlIEl0ZW1zIMK3IDU0MUsgdmlld3MuIDEgbW9udGggYWdvIDsgVGhlIFBhY2lmaXN0IENoYWxsZW5nZSAtIEJlYXRpbmcgU3VwZXIgTWV0cm9pZCBXaXRob3V0IEtpbGxpbmcgRW5lbWllcyDCtyA0ODRLIHZpZXdzLiIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiRXZlcnkgVGVjaG5pcXVlIG9mIFNhbXBsaW5nIE11c2ljIFlvdSBORUVEIHRvIEtub3cgLi4uIC0gWW91VHViZSIsImxpbmsiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTJxMmNtd2p4aW5rIiwic25pcHBldCI6IkV2ZXJ5IFRlY2huaXF1ZSBvZiBTYW1wbGluZyBNdXNpYyBZb3UgTkVFRCB0byBLbm93IChBIENvbXBsZXRlIEd1aWRlKS4gQFdpbGxIYXR0b24xOUsgbGlrZXM0NTFLIHZpZXdzMiB5ZWFycyBhZ28gbW9yZS4iLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IldIT0kgU2VhZmxvb3IgU2FtcGxlcyBMYWJvcmF0b3J5IiwibGluayI6Imh0dHBzOi8vd3d3Mi53aG9pLmVkdS9zaXRlL3NlYWZsb29yc2FtcGxlc2xhYi8iLCJzbmlwcGV0IjoiT3VyIG1pc3Npb24gaXMgdG8gZmFjaWxpdGF0ZSByZXNlYXJjaCBhbmQgZWR1Y2F0aW9uIHRocm91Z2ggY3VyYXRpbmcgYW5kIHByb3ZpZGluZyBhY2Nlc3MgdG8gb3VyIGRpdmVyc2UgY29sbGVjdGlvbiBvZiBzYW1wbGVzIGZyb20gdGhlIHdvcmxkJ3Mgc2VhZmxvb3IuIFRoaXMgLi4uIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJVc2UgVEhJUyB0byBGbGlwIFNhbXBsZXMgaW50byBGSU5JU0hFRCBCZWF0cyAtIFlvdVR1YmUiLCJsaW5rIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1IVERBSWRaNUJxZyZ2bD1lbiIsInNuaXBwZXQiOiJJIGJ1aWx0IHNhbXBsZSBwYWNrcyBmb3IgeW91IOKeoe+4jyBodHRwczovL3JlYWxzYW1wbGVzb25sLi4uIFVzZSBUSElTIHRvIEZsaXAgU2FtcGxlcyBpbnRvIEZJTklTSEVEIEJlYXRzLiBATmF2aWVEMksgbGlrZXM0MEsgdmlld3MxIHllYXIgYWdvIG1vcmUuIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJXaGF0IGV2ZXJ5IFBybyBkb2VzIHdoZW4gZmxpcHBpbmcgc2FtcGxlcyAtIFlvdVR1YmUiLCJsaW5rIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1XZDBybkE5cjZ4OCIsInNuaXBwZXQiOiJUaGUgdHJ1ZSBrZXkgdG8gc2FtcGxpbmcgaXMgdGhhdCB0aGVyZSBhcmUgbm8gcnVsZXMuIElmIHlvdSBsaXN0ZW4gdG8gdGhlIGdyZWF0cywgTWFkbGliLCBBbGMsIGV0Yy4geW91J2xsIG5vdGljZSBhIGxvdCBvZiB0aGVpciBiZWF0cyBjdXQgYmFjayB3aXRoIHRoZWlyIG93biAuLi4iLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IlRoaXMgbWFrZXMgQURESU5HIFRPIFNBTVBMRVMgZWFzeSAtIFlvdVR1YmUiLCJsaW5rIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1Pel9SU2J1Tzd4QSIsInNuaXBwZXQiOiJXaGF0IGV2ZXJ5IFBybyBkb2VzIHdoZW4gZmxpcHBpbmcgc2FtcGxlcyDCtyBIb3cgdG8gU2FtcGxlIEFOWVRISU5HIMK3IEknbGwgU2hvdyBZb3UgSG93IFBybyBQcm9kdWNlcnMgTGF5ZXIgU291bmRzIMK3IE5vYm9keSBUZWFjaGVzIEFycmFuZ2VtZW50IExpa2UgVGhpcyDCtyBMYXllcmluZyAuLi4iLCJwb3NpdGlvbiI6Nn1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Adversarial training using DRO without adversarial samples before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 3,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Sample - YouTube",
+        "link": "https://www.youtube.com/@SampleChample",
+        "snippet": "Challenges ; How I Beat Isaac Without Passive Items · 541K views. 1 month ago ; The Pacifist Challenge - Beating Super Metroid Without Killing Enemies · 484K views.",
+        "position": 1
+      },
+      {
+        "title": "Every Technique of Sampling Music You NEED to Know ... - YouTube",
+        "link": "https://www.youtube.com/watch?v=2q2cmwjxink",
+        "snippet": "Every Technique of Sampling Music You NEED to Know (A Complete Guide). @WillHatton19K likes451K views2 years ago more.",
+        "position": 2
+      },
+      {
+        "title": "WHOI Seafloor Samples Laboratory",
+        "link": "https://www2.whoi.edu/site/seafloorsampleslab/",
+        "snippet": "Our mission is to facilitate research and education through curating and providing access to our diverse collection of samples from the world's seafloor. This ...",
+        "position": 3
+      },
+      {
+        "title": "Use THIS to Flip Samples into FINISHED Beats - YouTube",
+        "link": "https://www.youtube.com/watch?v=HTDAIdZ5Bqg&vl=en",
+        "snippet": "I built sample packs for you ➡️ https://realsamplesonl... Use THIS to Flip Samples into FINISHED Beats. @NavieD2K likes40K views1 year ago more.",
+        "position": 4
+      },
+      {
+        "title": "What every Pro does when flipping samples - YouTube",
+        "link": "https://www.youtube.com/watch?v=Wd0rnA9r6x8",
+        "snippet": "The true key to sampling is that there are no rules. If you listen to the greats, Madlib, Alc, etc. you'll notice a lot of their beats cut back with their own ...",
+        "position": 5
+      },
+      {
+        "title": "This makes ADDING TO SAMPLES easy - YouTube",
+        "link": "https://www.youtube.com/watch?v=Oz_RSbuO7xA",
+        "snippet": "What every Pro does when flipping samples · How to Sample ANYTHING · I'll Show You How Pro Producers Layer Sounds · Nobody Teaches Arrangement Like This · Layering ...",
+        "position": 6
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank_on_page": 1,
+      "nominal_rank": 21,
+      "title": "Sample - YouTube",
+      "snippet": "Challenges ; How I Beat Isaac Without Passive Items · 541K views. 1 month ago ; The Pacifist Challenge - Beating Super Metroid Without Killing Enemies · 484K views.",
+      "link": "https://www.youtube.com/@SampleChample",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 2,
+      "nominal_rank": 22,
+      "title": "Every Technique of Sampling Music You NEED to Know ... - YouTube",
+      "snippet": "Every Technique of Sampling Music You NEED to Know (A Complete Guide). @WillHatton19K likes451K views2 years ago more.",
+      "link": "https://www.youtube.com/watch?v=2q2cmwjxink",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 3,
+      "nominal_rank": 23,
+      "title": "WHOI Seafloor Samples Laboratory",
+      "snippet": "Our mission is to facilitate research and education through curating and providing access to our diverse collection of samples from the world's seafloor. This ...",
+      "link": "https://www2.whoi.edu/site/seafloorsampleslab/",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 4,
+      "nominal_rank": 24,
+      "title": "Use THIS to Flip Samples into FINISHED Beats - YouTube",
+      "snippet": "I built sample packs for you ➡️ https://realsamplesonl... Use THIS to Flip Samples into FINISHED Beats. @NavieD2K likes40K views1 year ago more.",
+      "link": "https://www.youtube.com/watch?v=HTDAIdZ5Bqg&vl=en",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 5,
+      "nominal_rank": 25,
+      "title": "What every Pro does when flipping samples - YouTube",
+      "snippet": "The true key to sampling is that there are no rules. If you listen to the greats, Madlib, Alc, etc. you'll notice a lot of their beats cut back with their own ...",
+      "link": "https://www.youtube.com/watch?v=Wd0rnA9r6x8",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 6,
+      "nominal_rank": 26,
+      "title": "This makes ADDING TO SAMPLES easy - YouTube",
+      "snippet": "What every Pro does when flipping samples · How to Sample ANYTHING · I'll Show You How Pro Producers Layer Sounds · Nobody Teaches Arrangement Like This · Layering ...",
+      "link": "https://www.youtube.com/watch?v=Oz_RSbuO7xA",
+      "arxiv_id": null
+    }
+  ],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:43:37.961215+00:00",
+  "elapsed_seconds": 2.2598492577672005
+}

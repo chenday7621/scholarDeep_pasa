@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q12",
+  "group": "author-written",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2309.08351",
+  "request_payload": {
+    "q": "Headless Language Models: Learning without Predicting with Contrastive Weight Tying before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 25,
+  "started_utc": "2026-09-17T12:33:51.451867+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648155",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "2540e2c4890a13326d8c0e0b5fa81128",
+    "date": "Thu, 17 Sep 2026 12:29:13 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3244",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3244,
+  "response_bytes_sha256": "f7182f2595770eeedb47124a81ec9a90f2948536dcc888250e1c7248b51c6fbf",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJIZWFkbGVzcyBMYW5ndWFnZSBNb2RlbHM6IExlYXJuaW5nIHdpdGhvdXQgUHJlZGljdGluZyB3aXRoIENvbnRyYXN0aXZlIFdlaWdodCBUeWluZyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJMZWFybmluZyB3aXRob3V0IFByZWRpY3Rpbmcgd2l0aCBDb250cmFzdGl2ZSBXZWlnaHQgVHlpbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwOS4wODM1MSIsInNuaXBwZXQiOiJXZSBhcHBseSB0aGlzIGFwcHJvYWNoIHRvIHByZXRyYWluIEhlYWRsZXNzIExhbmd1YWdlIE1vZGVscyBpbiBib3RoIG1vbm9saW5ndWFsIGFuZCBtdWx0aWxpbmd1YWwgY29udGV4dHMuIE91ciBtZXRob2Qgb2ZmZXJzIHByYWN0aWNhbCBhZHZhbnRhZ2VzLCBzdWJzdGFudGlhbGx5IC4uLiIsImRhdGUiOiJTZXAgMTUsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MTEuMDA2ODB2MSBbY3MuQ0xdIDEgTm92IDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MTEuMDA2ODAiLCJzbmlwcGV0IjoiSGVhZGxlc3MgbGFuZ3VhZ2UgbW9kZWxzOiBMZWFybmluZyB3aXRob3V0IHByZWRpY3Rpbmcgd2l0aCBjb250cmFzdGl2ZSB3ZWlnaHQgdHlpbmcuIGFyWGl2IFtjcy5DTF0sIFNlcHQuIDIwMjMuIiwiZGF0ZSI6Ik5vdiAxLCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJbUERGXSBJbi1Db250ZXh0IFJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgZm9yIFZhcmlhYmxlIEFjdGlvbiBTcGFjZXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMxMi4xMzMyNyIsInNuaXBwZXQiOiJUaGUgSGVhZGxlc3MgTExNIGFwcHJvYWNoLCBpbnRyb2R1Y2VkIGJ5IEdvZGV5IGV0IGFsLiAoMjAyMyksIHV0aWxpemVzIENvbnRyYXN0aXZlIExlYXJuaW5nIHRvIGVsaW1pbmF0ZSB0aGUgbGFuZ3VhZ2UgaGVhZCBmcm9tIHRoZSBtb2RlbCBhcmNoaXRlY3R1cmUuIiwiZGF0ZSI6Ikp1bCAxLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSBHYXBlcm9uOiBBIFBlcHBlcmVkIEVuZ2xpc2gtRnJlbmNoIEdlbmVyYXRpdmUgTGFuZ3VhZ2UgTW9kZWwgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTEwLjI1NzcxIiwic25pcHBldCI6IkhlYWRsZXNzIGxhbmd1YWdlIG1vZGVsczogTGVhcm5pbmcgd2l0aG91dCBwcmVkaWN0aW5nIHdpdGggY29udHJhc3RpdmUgd2VpZ2h0IHR5aW5nLiBJbiBUaGUgVHdlbGZ0aCBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gTGVhcm5pbmcgUmVwcmVzZW50YXRpb25zLCAyMDI0LiIsImRhdGUiOiJPY3QgMjksIDIwMjUiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIyMTAuMDExODV2MiBbY3MuQ0xdIDIgTWF5IDIwMjMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMTAuMDExODUiLCJzbmlwcGV0IjoiV2UgZGUtIHNpZ24gb3VyIGV4cGVyaW1lbnRzIHRvIGFkZHJlc3Mg4oCTICgxKSBEb2VzIGNvbi0gdHJhc3RpdmUgbGVhcm5pbmcgaW1wcm92ZSB0aGUgZGlzY3JpbWluYXRpb24gYWJpbC0gaXR5IG9mIHJlcHJlc2VudGF0aW9ucz8gKDIpIERvIHRoZSByZXByZXNlbnRhdGlvbnMuIiwiZGF0ZSI6Ik1heSAyLCAyMDIzIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMjExLjA2MTI3djEgW2NzLkNMXSAxMSBOb3YgMjAyMiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIxMS4wNjEyNyIsInNuaXBwZXQiOiJXaXRoIGNvbnRyYXN0aXZlIGxlYXJuaW5nLCB0aGUgYWNjdXJhY3kgb2YgbGFuZ3VhZ2UgY2xhc3NpZmllciBkZWNyZWFzZXMsIHdoaWNoIGltcGxpZXMgdGhlIGVtYmVkZGluZ3MgYXJlIG1vcmUgbGFuZ3VhZ2UtaW52YXJpYW50LCB3aGljaCBtb3JlIG9yIGxlc3MgdmVyaWZpZXMgLi4uIiwiZGF0ZSI6Ik5vdiAxMSwgMjAyMiIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjIxMi4wMjQ3NXYxIFtjcy5DTF0gNSBEZWMgMjAyMiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIxMi4wMjQ3NSIsInNuaXBwZXQiOiJEeW5hbWljIGV2YWx1YXRpb24gb2YgbGFuZ3VhZ2UgbW9kZWxzLiAoTE1zKSBhZGFwdHMgbW9kZWwgcGFyYW1ldGVycyBhdCB0ZXN0IHRpbWUgdXNpbmcgZ3JhZGllbnQgaW5mb3JtYXRpb24gZnJvbSBwcmV2aW91cyB0by0uIiwiZGF0ZSI6IkRlYyA1LCAyMDIyIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMjA0LjEwMjk4djEgW2NzLkNMXSAyMSBBcHIgMjAyMiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIwNC4xMDI5OCIsInNuaXBwZXQiOiJXZSBwcm9wb3NlIERpZmZDU0UsIGFuIHVuc3VwZXJ2aXNlZCBjb24tIHRyYXN0aXZlIGxlYXJuaW5nIGZyYW1ld29yayBmb3IgbGVhcm5pbmcgc2VuLSB0ZW5jZSBlbWJlZGRpbmdzLiBEaWZmQ1NFIGxlYXJucyBzZW50ZW5jZS4iLCJkYXRlIjoiQXByIDIxLCAyMDIyIiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMjA4LjEwMDgxdjEgW2NzLkNMXSAyMiBBdWcgMjAyMiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIwOC4xMDA4MSIsInNuaXBwZXQiOiJDb250cmFzdGl2ZSBMZWFybmluZyBDb250cmFzdGl2ZSBsZWFybmluZyBhaW1zIHRvIGZ1cnRoZXIgaW1wcm92ZSB0aGUgbW9kZWwncyBhYmlsaXR5IHRvIGRpc3Rpbmd1aXNoIHBvc2l0aXZlIGFuZCBuZWdhdGl2ZSBleGFtcGxlcywgYW5kIGhhcyBiZWVuIGEgcG9wdWxhciAuLi4iLCJkYXRlIjoiQXVnIDIyLCAyMDIyIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSB3aGF0IHNob3VsZCBub3QgYmUgY29udHJhc3RpdmUgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjAwOC4wNTY1OSIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIHByb3Bvc2UgdG8gbGVhcm4gdmlzdWFsIHJlcHJlc2VudGF0aW9ucyB3aGljaCBjYXB0dXJlIGluZGl2aWR1YWwgZmFjdG9ycyBvZiB2YXJpYXRpb24gaW4gYSBjb250cmFzdGl2ZSBsZWFybmluZyBmcmFtZXdvcmsgd2l0aG91dCBwcmVzdW1pbmcgLi4uIiwiZGF0ZSI6Ik1hciAxOCwgMjAyMSIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Headless Language Models: Learning without Predicting with Contrastive Weight Tying before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Learning without Predicting with Contrastive Weight Tying - arXiv",
+        "link": "https://arxiv.org/abs/2309.08351",
+        "snippet": "We apply this approach to pretrain Headless Language Models in both monolingual and multilingual contexts. Our method offers practical advantages, substantially ...",
+        "date": "Sep 15, 2023",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2411.00680v1 [cs.CL] 1 Nov 2024",
+        "link": "https://arxiv.org/pdf/2411.00680",
+        "snippet": "Headless language models: Learning without predicting with contrastive weight tying. arXiv [cs.CL], Sept. 2023.",
+        "date": "Nov 1, 2024",
+        "position": 2
+      },
+      {
+        "title": "[PDF] In-Context Reinforcement Learning for Variable Action Spaces - arXiv",
+        "link": "https://arxiv.org/pdf/2312.13327",
+        "snippet": "The Headless LLM approach, introduced by Godey et al. (2023), utilizes Contrastive Learning to eliminate the language head from the model architecture.",
+        "date": "Jul 1, 2024",
+        "position": 3
+      },
+      {
+        "title": "[PDF] Gaperon: A Peppered English-French Generative Language Model ...",
+        "link": "https://arxiv.org/pdf/2510.25771",
+        "snippet": "Headless language models: Learning without predicting with contrastive weight tying. In The Twelfth International Conference on Learning Representations, 2024.",
+        "date": "Oct 29, 2025",
+        "position": 4
+      },
+      {
+        "title": "[PDF] arXiv:2210.01185v2 [cs.CL] 2 May 2023",
+        "link": "https://arxiv.org/pdf/2210.01185",
+        "snippet": "We de- sign our experiments to address – (1) Does con- trastive learning improve the discrimination abil- ity of representations? (2) Do the representations.",
+        "date": "May 2, 2023",
+        "position": 5
+      },
+      {
+        "title": "[PDF] arXiv:2211.06127v1 [cs.CL] 11 Nov 2022",
+        "link": "https://arxiv.org/pdf/2211.06127",
+        "snippet": "With contrastive learning, the accuracy of language classifier decreases, which implies the embeddings are more language-invariant, which more or less verifies ...",
+        "date": "Nov 11, 2022",
+        "position": 6
+      },
+      {
+        "title": "[PDF] arXiv:2212.02475v1 [cs.CL] 5 Dec 2022",
+        "link": "https://arxiv.org/pdf/2212.02475",
+        "snippet": "Dynamic evaluation of language models. (LMs) adapts model parameters at test time using gradient information from previous to-.",
+        "date": "Dec 5, 2022",
+        "position": 7
+      },
+      {
+        "title": "[PDF] arXiv:2204.10298v1 [cs.CL] 21 Apr 2022",
+        "link": "https://arxiv.org/pdf/2204.10298",
+        "snippet": "We propose DiffCSE, an unsupervised con- trastive learning framework for learning sen- tence embeddings. DiffCSE learns sentence.",
+        "date": "Apr 21, 2022",
+        "position": 8
+      },
+      {
+        "title": "[PDF] arXiv:2208.10081v1 [cs.CL] 22 Aug 2022",
+        "link": "https://arxiv.org/pdf/2208.10081",
+        "snippet": "Contrastive Learning Contrastive learning aims to further improve the model's ability to distinguish positive and negative examples, and has been a popular ...",
+        "date": "Aug 22, 2022",
+        "position": 9
+      },
+      {
+        "title": "[PDF] what should not be contrastive - arXiv",
+        "link": "https://arxiv.org/pdf/2008.05659",
+        "snippet": "In this work, we propose to learn visual representations which capture individual factors of variation in a contrastive learning framework without presuming ...",
+        "date": "Mar 18, 2021",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Learning without Predicting with Contrastive Weight Tying - arXiv",
+      "snippet": "We apply this approach to pretrain Headless Language Models in both monolingual and multilingual contexts. Our method offers practical advantages, substantially ...",
+      "link": "https://arxiv.org/abs/2309.08351",
+      "arxiv_id": "2309.08351"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2411.00680v1 [cs.CL] 1 Nov 2024",
+      "snippet": "Headless language models: Learning without predicting with contrastive weight tying. arXiv [cs.CL], Sept. 2023.",
+      "link": "https://arxiv.org/pdf/2411.00680",
+      "arxiv_id": "2411.00680"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] In-Context Reinforcement Learning for Variable Action Spaces - arXiv",
+      "snippet": "The Headless LLM approach, introduced by Godey et al. (2023), utilizes Contrastive Learning to eliminate the language head from the model architecture.",
+      "link": "https://arxiv.org/pdf/2312.13327",
+      "arxiv_id": "2312.13327"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] Gaperon: A Peppered English-French Generative Language Model ...",
+      "snippet": "Headless language models: Learning without predicting with contrastive weight tying. In The Twelfth International Conference on Learning Representations, 2024.",
+      "link": "https://arxiv.org/pdf/2510.25771",
+      "arxiv_id": "2510.25771"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] arXiv:2210.01185v2 [cs.CL] 2 May 2023",
+      "snippet": "We de- sign our experiments to address – (1) Does con- trastive learning improve the discrimination abil- ity of representations? (2) Do the representations.",
+      "link": "https://arxiv.org/pdf/2210.01185",
+      "arxiv_id": "2210.01185"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] arXiv:2211.06127v1 [cs.CL] 11 Nov 2022",
+      "snippet": "With contrastive learning, the accuracy of language classifier decreases, which implies the embeddings are more language-invariant, which more or less verifies ...",
+      "link": "https://arxiv.org/pdf/2211.06127",
+      "arxiv_id": "2211.06127"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] arXiv:2212.02475v1 [cs.CL] 5 Dec 2022",
+      "snippet": "Dynamic evaluation of language models. (LMs) adapts model parameters at test time using gradient information from previous to-.",
+      "link": "https://arxiv.org/pdf/2212.02475",
+      "arxiv_id": "2212.02475"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] arXiv:2204.10298v1 [cs.CL] 21 Apr 2022",
+      "snippet": "We propose DiffCSE, an unsupervised con- trastive learning framework for learning sen- tence embeddings. DiffCSE learns sentence.",
+      "link": "https://arxiv.org/pdf/2204.10298",
+      "arxiv_id": "2204.10298"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] arXiv:2208.10081v1 [cs.CL] 22 Aug 2022",
+      "snippet": "Contrastive Learning Contrastive learning aims to further improve the model's ability to distinguish positive and negative examples, and has been a popular ...",
+      "link": "https://arxiv.org/pdf/2208.10081",
+      "arxiv_id": "2208.10081"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] what should not be contrastive - arXiv",
+      "snippet": "In this work, we propose to learn visual representations which capture individual factors of variation in a contrastive learning framework without presuming ...",
+      "link": "https://arxiv.org/pdf/2008.05659",
+      "arxiv_id": "2008.05659"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:53.121485+00:00",
+  "elapsed_seconds": 1.6696237474679947
+}

@@ -1,0 +1,217 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q44",
+  "group": "inline-citation",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2112.01488",
+  "request_payload": {
+    "q": "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 97,
+  "started_utc": "2026-09-17T12:35:13.933352+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1789648235",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "e09b3da61a170ee132a5a46ec897929f",
+    "date": "Thu, 17 Sep 2026 12:30:35 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3845",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3845,
+  "response_bytes_sha256": "d6624a92e89d7d42b01893e766112e04d14e8eca6bae0227b14dcc250dcdabf9",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb2xCRVJUdjI6IEVmZmVjdGl2ZSBhbmQgRWZmaWNpZW50IFJldHJpZXZhbCB2aWEgTGlnaHR3ZWlnaHQgTGF0ZSBJbnRlcmFjdGlvbiBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJFZmZlY3RpdmUgYW5kIEVmZmljaWVudCBSZXRyaWV2YWwgdmlhIExpZ2h0d2VpZ2h0IExhdGUgSW50ZXJhY3Rpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjExMi4wMTQ4OCIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIGludHJvZHVjZSBDb2xCRVJUdjIsIGEgcmV0cmlldmVyIHRoYXQgY291cGxlcyBhbiBhZ2dyZXNzaXZlIHJlc2lkdWFsIGNvbXByZXNzaW9uIG1lY2hhbmlzbSB3aXRoIGEgZGVub2lzZWQgc3VwZXJ2aXNpb24gc3RyYXRlZ3kgdG8gLi4uIiwiZGF0ZSI6IkRlYyAyLCAyMDIxIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJQeUxhdGU6IEZsZXhpYmxlIFRyYWluaW5nIGFuZCBSZXRyaWV2YWwgZm9yIExhdGUgSW50ZXJhY3Rpb24gTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwOC4wMzU1NXYxIiwic25pcHBldCI6IlB5TGF0ZSBhaW1zIHRvIGFjY2VsZXJhdGUgcmVzZWFyY2ggYW5kIHJlYWwtd29ybGQgYXBwbGljYXRpb24gb2YgbGF0ZSBpbnRlcmFjdGlvbiBtb2RlbHMsIENvbEJFUlR2MjogRWZmZWN0aXZlIGFuZCBFZmZpY2llbnQgUmV0cmlldmFsIHZpYSBMaWdodHdlaWdodCBMYXRlIC4uLiIsImRhdGUiOiJBdWcgNSwgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiTElSOiBUaGUgRmlyc3QgV29ya3Nob3Agb24gTGF0ZSBJbnRlcmFjdGlvbiBhbmQgTXVsdGkgVmVjdG9yIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMS4wMDQ0NCIsInNuaXBwZXQiOiJMYXRlIGludGVyYWN0aW9uIHJldHJpZXZhbCBtZXRob2RzLCBwaW9uZWVyZWQgYnkgQ29sQkVSVCwgaGF2ZSBlbWVyZ2VkIGFzIGEgcG93ZXJmdWwgYWx0ZXJuYXRpdmUgdG8gc2luZ2xlLXZlY3RvciBuZXVyYWwgSVIuIENvbGJlcnR2MjogRWZmZWN0aXZlIGFuZCBlZmZpY2llbnQgLi4uIiwiZGF0ZSI6Ik5vdiAxLCAyMDI1IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJDb2xCRVJUOiBFZmZpY2llbnQgYW5kIEVmZmVjdGl2ZSBQYXNzYWdlIFNlYXJjaCB2aWEgQ29udGV4dHVhbGl6ZWQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMDA0LjEyODMyIiwic25pcHBldCI6IkNvbEJFUlQgaW50cm9kdWNlcyBhIGxhdGUgaW50ZXJhY3Rpb24gYXJjaGl0ZWN0dXJlIHRoYXQgaW5kZXBlbmRlbnRseSBlbmNvZGVzIHRoZSBxdWVyeSBhbmQgdGhlIGRvY3VtZW50IHVzaW5nIEJFUlQgYW5kIHRoZW4gZW1wbG95cyBhIGNoZWFwIHlldCBwb3dlcmZ1bCAuLi4iLCJkYXRlIjoiQXByIDI3LCAyMDIwIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJFZmZpY2llbnQgQ29uc3RhbnQtU3BhY2UgTXVsdGktVmVjdG9yIFJldHJpZXZhbCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNC4wMTgxOHYxIiwic25pcHBldCI6IkNvbEJFUlQncyBwcmUtY29tcHV0ZWQsIHRva2VuLWxldmVsIGRvY3VtZW50IGVtYmVkZGluZ3MgYWxsb3cgZm9yIGVmZmljaWVudCBsYXRlIGludGVyYWN0aW9uIHdpdGggdGhlIHF1ZXJ5LCBiYWxhbmNpbmcgY29tcHV0YXRpb25hbCBlZmZpY2llbmN5IHdpdGggc3Ryb25nIC4uLiIsImRhdGUiOiJBcHIgMiwgMjAyNSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiW1BERl0gUHlMYXRlOiBGbGV4aWJsZSBUcmFpbmluZyBhbmQgUmV0cmlldmFsIGZvciBMYXRlIEludGVyYWN0aW9uIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUwOC4wMzU1NSIsInNuaXBwZXQiOiJQeUxhdGUgY2FuIGRpcmVjdGx5IGxvYWQgdGhlIHdlaWdodHMgYW5kIGNvbmZpZ3VyYXRpb25zIG9mIHByZS10cmFpbmVkIENvbEJFUlQgbW9kZWxzLiBXZSB2ZXJpZmllZCB0aGlzIGZ1bmN0aW9uYWxpdHkgb24gcG9wdWxhciBtb2RlbHMgbGlrZSBDb2xCRVJUdjIuIEFuIC4uLiIsImRhdGUiOiJBdWcgNSwgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiW1BERl0gVmlTQVI6IFRyYWluaW5nLUZyZWUgQWRhcHRpdmUtayBSZXRyaWV2YWwgZm9yIFZpc3VhbCBEb2N1bWVudCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI2MDkuMDI0ODYiLCJzbmlwcGV0IjoiQ29sYmVydHYyOiBFZmZlY3RpdmUgYW5kIGVmZmljaWVudCByZXRyaWV2YWwgdmlhIGxpZ2h0d2VpZ2h0IGxhdGUgaW50ZXJhY3Rpb24uIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDIyIENvbmZlcmVuY2Ugb2YgdGhlIE5vcnRoIEFtZXJpY2FuIENoYXB0ZXIgb2YgdGhlIC4uLiIsImRhdGUiOiJTZXAgMywgMjAyNiIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoibXhiYWktZWRnZS1jb2xiZXJ0LXYwIFRlY2ggUmVwb3J0IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTEwLjE0ODgwdjEiLCJzbmlwcGV0IjoiQ29sYmVydHYyOiBFZmZlY3RpdmUgYW5kIGVmZmljaWVudCByZXRyaWV2YWwgdmlhIGxpZ2h0d2VpZ2h0IGxhdGUgaW50ZXJhY3Rpb24uIEluOiBQcm9jZWVkaW5ncyBvZiB0aGUgMjAyMiBDb25mZXJlbmNlIG9mIHRoZSBOb3J0aCBBbWVyaWNhbiBDaGFwdGVyIG9mIHRoZSAuLi4iLCJkYXRlIjoiT2N0IDE2LCAyMDI1Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjMgQ29sYmVydCBUcmFpbmluZyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MTAuMTQ4ODB2MSM6fjp0ZXh0PTMlMjBDb2xCRVJUJTIwVHJhaW5pbmcsLUZpbmFsbHklMkMlMjB3ZSUyMGFwcGx5JTIwb3VyIn0seyJ0aXRsZSI6IjMuMiBBYmxhdGlvbnMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTEwLjE0ODgwdjEjOn46dGV4dD0zLjIlMjBBYmxhdGlvbnMsLVdlJTIwcGVyZm9ybWVkJTIwdmFyaW91cyUyMGFibGF0aW9ucyUyMGluIn0seyJ0aXRsZSI6IjQgUmVzdWx0cyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MTAuMTQ4ODB2MSM6fjp0ZXh0PTQlMjBSZXN1bHRzLC1UYWJsZSUyMDExJTNBJTIwQkVJUiUyMGJlbmNobWFyayJ9XSwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDA4LjE2NjcydjQgW2NzLklSXSAxNCBTZXAgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwOC4xNjY3MiIsInNuaXBwZXQiOiJNdWx0aS12ZWN0b3IgZGVuc2UgbW9kZWxzLCBzdWNoIGFzIENvbEJFUlQsIGhhdmUgcHJvdmVuIGhpZ2hseSBlZmZlY3RpdmUgaW4gaW5mb3JtYXRpb24gcmV0cmlldmFsLiBDb2xCRVJUJ3MgbGF0ZSBpbnRlcmFjdGlvbiBzY29yaW5nLiIsImRhdGUiOiJTZXAgMTQsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkdlbmVyYXRpdmUgTGF0ZS1JbnRlcmFjdGlvbiBFbWJlZGRpbmdzIEZvciBWaXN1YWwgRG9jdW1lbnQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwOS4xMTgwOHYxIiwic25pcHBldCI6IlphaGFyaWEgQ29sQkVSVHYyOiBlZmZlY3RpdmUgYW5kIGVmZmljaWVudCByZXRyaWV2YWwgdmlhIGxpZ2h0d2VpZ2h0IGxhdGUgaW50ZXJhY3Rpb24uIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDIyIENvbmZlcmVuY2Ugb2YgdGhlIE5vcnRoIEFtZXJpY2FuIENoYXB0ZXIgLi4uIiwiZGF0ZSI6IjYgZGF5cyBhZ28iLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Effective and Efficient Retrieval via Lightweight Late Interaction - arXiv",
+        "link": "https://arxiv.org/abs/2112.01488",
+        "snippet": "In this work, we introduce ColBERTv2, a retriever that couples an aggressive residual compression mechanism with a denoised supervision strategy to ...",
+        "date": "Dec 2, 2021",
+        "position": 1
+      },
+      {
+        "title": "PyLate: Flexible Training and Retrieval for Late Interaction Models",
+        "link": "https://arxiv.org/html/2508.03555v1",
+        "snippet": "PyLate aims to accelerate research and real-world application of late interaction models, ColBERTv2: Effective and Efficient Retrieval via Lightweight Late ...",
+        "date": "Aug 5, 2025",
+        "position": 2
+      },
+      {
+        "title": "LIR: The First Workshop on Late Interaction and Multi Vector ... - arXiv",
+        "link": "https://arxiv.org/html/2511.00444",
+        "snippet": "Late interaction retrieval methods, pioneered by ColBERT, have emerged as a powerful alternative to single-vector neural IR. Colbertv2: Effective and efficient ...",
+        "date": "Nov 1, 2025",
+        "position": 3
+      },
+      {
+        "title": "ColBERT: Efficient and Effective Passage Search via Contextualized ...",
+        "link": "https://arxiv.org/abs/2004.12832",
+        "snippet": "ColBERT introduces a late interaction architecture that independently encodes the query and the document using BERT and then employs a cheap yet powerful ...",
+        "date": "Apr 27, 2020",
+        "position": 4
+      },
+      {
+        "title": "Efficient Constant-Space Multi-Vector Retrieval - arXiv",
+        "link": "https://arxiv.org/html/2504.01818v1",
+        "snippet": "ColBERT's pre-computed, token-level document embeddings allow for efficient late interaction with the query, balancing computational efficiency with strong ...",
+        "date": "Apr 2, 2025",
+        "position": 5
+      },
+      {
+        "title": "[PDF] PyLate: Flexible Training and Retrieval for Late Interaction Models",
+        "link": "https://arxiv.org/pdf/2508.03555",
+        "snippet": "PyLate can directly load the weights and configurations of pre-trained ColBERT models. We verified this functionality on popular models like ColBERTv2. An ...",
+        "date": "Aug 5, 2025",
+        "position": 6
+      },
+      {
+        "title": "[PDF] ViSAR: Training-Free Adaptive-k Retrieval for Visual Document ...",
+        "link": "https://arxiv.org/pdf/2609.02486",
+        "snippet": "Colbertv2: Effective and efficient retrieval via lightweight late interaction. In Proceedings of the 2022 Conference of the North American Chapter of the ...",
+        "date": "Sep 3, 2026",
+        "position": 7
+      },
+      {
+        "title": "mxbai-edge-colbert-v0 Tech Report - arXiv",
+        "link": "https://arxiv.org/html/2510.14880v1",
+        "snippet": "Colbertv2: Effective and efficient retrieval via lightweight late interaction. In: Proceedings of the 2022 Conference of the North American Chapter of the ...",
+        "date": "Oct 16, 2025",
+        "sitelinks": [
+          {
+            "title": "3 Colbert Training",
+            "link": "https://arxiv.org/html/2510.14880v1#:~:text=3%20ColBERT%20Training,-Finally%2C%20we%20apply%20our"
+          },
+          {
+            "title": "3.2 Ablations",
+            "link": "https://arxiv.org/html/2510.14880v1#:~:text=3.2%20Ablations,-We%20performed%20various%20ablations%20in"
+          },
+          {
+            "title": "4 Results",
+            "link": "https://arxiv.org/html/2510.14880v1#:~:text=4%20Results,-Table%2011%3A%20BEIR%20benchmark"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "[PDF] arXiv:2408.16672v4 [cs.IR] 14 Sep 2024",
+        "link": "https://arxiv.org/pdf/2408.16672",
+        "snippet": "Multi-vector dense models, such as ColBERT, have proven highly effective in information retrieval. ColBERT's late interaction scoring.",
+        "date": "Sep 14, 2024",
+        "position": 9
+      },
+      {
+        "title": "Generative Late-Interaction Embeddings For Visual Document ...",
+        "link": "https://arxiv.org/html/2609.11808v1",
+        "snippet": "Zaharia ColBERTv2: effective and efficient retrieval via lightweight late interaction. In Proceedings of the 2022 Conference of the North American Chapter ...",
+        "date": "6 days ago",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Effective and Efficient Retrieval via Lightweight Late Interaction - arXiv",
+      "snippet": "In this work, we introduce ColBERTv2, a retriever that couples an aggressive residual compression mechanism with a denoised supervision strategy to ...",
+      "link": "https://arxiv.org/abs/2112.01488",
+      "arxiv_id": "2112.01488"
+    },
+    {
+      "rank": 2,
+      "title": "PyLate: Flexible Training and Retrieval for Late Interaction Models",
+      "snippet": "PyLate aims to accelerate research and real-world application of late interaction models, ColBERTv2: Effective and Efficient Retrieval via Lightweight Late ...",
+      "link": "https://arxiv.org/html/2508.03555v1",
+      "arxiv_id": "2508.03555"
+    },
+    {
+      "rank": 3,
+      "title": "LIR: The First Workshop on Late Interaction and Multi Vector ... - arXiv",
+      "snippet": "Late interaction retrieval methods, pioneered by ColBERT, have emerged as a powerful alternative to single-vector neural IR. Colbertv2: Effective and efficient ...",
+      "link": "https://arxiv.org/html/2511.00444",
+      "arxiv_id": "2511.00444"
+    },
+    {
+      "rank": 4,
+      "title": "ColBERT: Efficient and Effective Passage Search via Contextualized ...",
+      "snippet": "ColBERT introduces a late interaction architecture that independently encodes the query and the document using BERT and then employs a cheap yet powerful ...",
+      "link": "https://arxiv.org/abs/2004.12832",
+      "arxiv_id": "2004.12832"
+    },
+    {
+      "rank": 5,
+      "title": "Efficient Constant-Space Multi-Vector Retrieval - arXiv",
+      "snippet": "ColBERT's pre-computed, token-level document embeddings allow for efficient late interaction with the query, balancing computational efficiency with strong ...",
+      "link": "https://arxiv.org/html/2504.01818v1",
+      "arxiv_id": "2504.01818"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] PyLate: Flexible Training and Retrieval for Late Interaction Models",
+      "snippet": "PyLate can directly load the weights and configurations of pre-trained ColBERT models. We verified this functionality on popular models like ColBERTv2. An ...",
+      "link": "https://arxiv.org/pdf/2508.03555",
+      "arxiv_id": "2508.03555"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] ViSAR: Training-Free Adaptive-k Retrieval for Visual Document ...",
+      "snippet": "Colbertv2: Effective and efficient retrieval via lightweight late interaction. In Proceedings of the 2022 Conference of the North American Chapter of the ...",
+      "link": "https://arxiv.org/pdf/2609.02486",
+      "arxiv_id": "2609.02486"
+    },
+    {
+      "rank": 8,
+      "title": "mxbai-edge-colbert-v0 Tech Report - arXiv",
+      "snippet": "Colbertv2: Effective and efficient retrieval via lightweight late interaction. In: Proceedings of the 2022 Conference of the North American Chapter of the ...",
+      "link": "https://arxiv.org/html/2510.14880v1",
+      "arxiv_id": "2510.14880"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] arXiv:2408.16672v4 [cs.IR] 14 Sep 2024",
+      "snippet": "Multi-vector dense models, such as ColBERT, have proven highly effective in information retrieval. ColBERT's late interaction scoring.",
+      "link": "https://arxiv.org/pdf/2408.16672",
+      "arxiv_id": "2408.16672"
+    },
+    {
+      "rank": 10,
+      "title": "Generative Late-Interaction Embeddings For Visual Document ...",
+      "snippet": "Zaharia ColBERTv2: effective and efficient retrieval via lightweight late interaction. In Proceedings of the 2022 Conference of the North American Chapter ...",
+      "link": "https://arxiv.org/html/2609.11808v1",
+      "arxiv_id": "2609.11808"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:15.062530+00:00",
+  "elapsed_seconds": 1.1291791759431362,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q44_exact_gt_title_attempt1.json",
+      "sha256": "863c1d8ddd7dc805b8afe850c0bd0a20de95d5908c550fbd94917727e8e8458f",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q18",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2309.05653",
+  "request_payload": {
+    "q": "Which paper first tried to fine-tune LLMs with chain-of-thoughts and program-of-thoughts for math reasoning? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 39,
+  "started_utc": "2026-09-17T12:34:08.058892+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648170",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "6635dfd274f7ee187a3ec8f4a4edb7cc",
+    "date": "Thu, 17 Sep 2026 12:29:29 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3570",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3570,
+  "response_bytes_sha256": "0b3a0aa08ffe34aaae3ae66bf95a1c58edac3b3d944e11711d49e2e79129dc67",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJXaGljaCBwYXBlciBmaXJzdCB0cmllZCB0byBmaW5lLXR1bmUgTExNcyB3aXRoIGNoYWluLW9mLXRob3VnaHRzIGFuZCBwcm9ncmFtLW9mLXRob3VnaHRzIGZvciBtYXRoIHJlYXNvbmluZz8gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiTm90IEFsbCBMTE0gUmVhc29uaW5nIGlzIFZpc2libGUgaW4gdGhlIENoYWluLW9mLVRob3VnaHQgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDcuMjI5MjV2MSIsInNuaXBwZXQiOiJSZWFzb25pbmcgQ2hhaW4tb2YtdGhvdWdodCBwcm9tcHRpbmcgKFdlaSBldCBhbC4sIDIwMjM7IEtvamltYSBldCBhbC4sIDIwMjMpIGlzIGEgc3RhbmRhcmQgdGVjaG5pcXVlIGZvciBlbGljaXRpbmcgY29tcGxleCByZWFzb25pbmcgaW4gdHJhbnNmb3JtZXItYmFzZWQgLi4uIiwiZGF0ZSI6Ikp1bCAyNCwgMjAyNiIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiRmluZS1UdW5pbmcgd2l0aCBEaXZlcmdlbnQgQ2hhaW5zIG9mIFRob3VnaHQgQm9vc3RzIFJlYXNvbmluZyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjAzMTgxdjEiLCJzbmlwcGV0IjoiV2UgcHJlc2VudCBhIG5vdmVsIG1lY2hhbmlzbSB0aGF0IGFsbG93cyBhbiBMTE0gdG8gY29tcGFyZSBtdWx0aXBsZSByZWFzb25pbmcgY2hhaW5zIGluIGEgc2luZ2xlIGluZmVyZW5jZSBzdGVwLCBsZWFkaW5nIHRvIGltcHJvdmVkIHBlcmZvcm1hbmNlLiBXZSBjYWxsIHRoaXMgLi4uIiwiZGF0ZSI6Ikp1bCAzLCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJOYXZpZ2F0ZSB0aHJvdWdoIEVuaWdtYXRpYyBMYWJ5cmludGhBIFN1cnZleSBvZiBDaGFpbiBvZiBUaG91Z2h0IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDkuMTU0MDJ2MyIsInNuaXBwZXQiOiJIdWFuZyBldCBhbC4gKDIwMjNhKSBlbXBsb3lzIHNlbGYtY29uc2lzdGVuY3kgdG8gZ2VuZXJhdGUgcmVhc29uaW5nIGNoYWlucyBmcm9tIHVubGFiZWxlZCBkYXRhLCBmb2xsb3dlZCBieSBmaW5lLXR1bmluZywgZW5oYW5jaW5nIGl0cyBnZW5lcmFsaXplZCByZWFzb25pbmcgLi4uIiwiZGF0ZSI6Ikp1biA2LCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSBUZWFjaGluZyBMTE1zIHRvIFBsYW46IExvZ2ljYWwgQ2hhaW4tb2YtVGhvdWdodCBJbnN0cnVjdGlvbiBUdW5pbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA5LjEzMzUxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHByZXNlbnQgYSBub3ZlbCBpbnN0cnVjLSB0aW9uIHR1bmluZyBmcmFtZXdvcmssIFBEREwtSU5TVFJVQ1QsIGRlc2lnbmVkIHRvIGVuaGFuY2UgTExNcycgc3ltYm9saWMgcGxhbm5pbmcgY2FwYWJpbGl0aWVzIHRocm91Z2ggbG9naWNhbCBjaGFpbiAuLi4iLCJkYXRlIjoiU2VwIDE0LCAyMDI1IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJFZmZpY2llbnQgTExNIFJlYXNvbmluZyB2aWEgU3RydWN0dXJlZCBJbnB1dCBJbmZvcm1hdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMS4yMjE3NnYxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGludHJvZHVjZSBGb2N1c2VkIENoYWluLW9mLVRob3VnaHQgKEYtQ29UKSwgYSBub3ZlbCBwcm9tcHRpbmcgc3RyYXRlZ3kgZm9yIHJlYXNvbmluZyB0YXNrcy4gRHJhd2luZyBpbnNwaXJhdGlvbiBmcm9tIHRoZSBBQ1QgZnJhbWV3b3JrIGluIC4uLiIsImRhdGUiOiJOb3YgMjcsIDIwMjUiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6Ik5hdGl2ZSBQYXJhbGxlbCBUaGlua2luZyBhcyBhIE5ldyBQYXJhZGlnbSB0byBTY2FsZSBMTE0gVGVzdC10aW1lIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDkuMDQ0NzV2MSIsInNuaXBwZXQiOiJQYXJhbGxlbCBEZWNvZGluZyBMTE1zIGltcHJvdmUgcmVhc29uaW5nIGJ5IHNhbXBsaW5nIG11bHRpcGxlIHRva2VucyBhdCBlYWNoIHN0ZXAgdG8gYWNjZWxlcmF0ZSBMTE0gaW5mZXJlbmNlIGFuZC9vciBpbXByb3ZpbmcgTExNIHBlcmZvcm1hbmNlLiBFYXJseSB0ZWNobmlxdWVzIC4uLiIsImRhdGUiOiJBdWcgMzAsIDIwMjUiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkRvbid0IE92ZXJ0aGluayBpdC4gUHJlZmVycmluZyBTaG9ydGVyIFRoaW5raW5nIENoYWlucyBmb3IgSW1wcm92ZWQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNS4xNzgxM3YxIiwic25pcHBldCI6Ikluc3BpcmVkIGJ5IG91ciByZXN1bHRzLCB3ZSBmaW5ldHVuZSBhbiBMTE0gdXNpbmcgc2hvcnQsIGxvbmcsIGFuZCByYW5kb21seSBzZWxlY3RlZCByZWFzb25pbmcgY2hhaW5zLiBXZSB0aGVuIG9ic2VydmUgdGhhdCB0cmFpbmluZyBvbiB0aGUgc2hvcnRlciBvbmVzIGxlYWRzIC4uLiIsImRhdGUiOiJNYXkgMjMsIDIwMjUiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlRoaW5raW5nIExMTXM6IEdlbmVyYWwgSW5zdHJ1Y3Rpb24gRm9sbG93aW5nIHdpdGggVGhvdWdodCBHZW5lcmF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMC4xMDYzMHYxIiwic25pcHBldCI6IkNoYWluLW9mLVRob3VnaHQgKENvVCkgKFdlaSBldCBhbC4gMjAyMikgaXMgYSB3aWRlbHkgdXNlZCBwcm9tcHRpbmcgdGVjaG5pcXVlIHRoYXQgZWxpY2l0cyBzdWNoIGJlaGF2aW9yIGJ5IGFza2luZyB0aGUgbW9kZWwgdG8gd3JpdGUgZG93biBpdHMgcmVhc29uaW5nIHN0ZXBzLiIsImRhdGUiOiJPY3QgMTQsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkEgU3VydmV5IG9mUmVhc29uaW5nIExhcmdlIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMi4xNzQxOXYxIiwic25pcHBldCI6IkluIHRoaXMgc2VjdGlvbiwgd2UgcHJvdmlkZSBhbiBvdmVydmlldyBvZiB0aGUgY29yZSBtZXRob2RzIHRoYXQgZHJpdmUgdGhlIGFkdmFuY2VkIHJlYXNvbmluZyBjYXBhYmlsaXRpZXMgb2YgcmVhc29uaW5nIExMTXMsIGFzIHNob3duIGluIEZpZ3VyZSA0LiBUaGVzZSAuLi4iLCJkYXRlIjoiRmViIDI0LCAyMDI1IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJPbiB0aGUgSW1wYWN0IG9mIEZpbmUtVHVuaW5nIG9uIENoYWluLW9mLVRob3VnaHQgUmVhc29uaW5nIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDExLjE1MzgydjEiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBpbnZlc3RpZ2F0ZSB0aGUgZWZmZWN0cyBvZiBmaW5lLXR1bmluZyBvbiB0aGUgcmVhc29uaW5nIGFiaWxpdGllcyBvZiBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpLCBmb2N1c2luZyBvbiB0aHJlZSBrZXkgcXVlc3Rpb25zOiBhKSBIb3cgZG9lcyAuLi4iLCJkYXRlIjoiTm92IDIyLCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Which paper first tried to fine-tune LLMs with chain-of-thoughts and program-of-thoughts for math reasoning? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Not All LLM Reasoning is Visible in the Chain-of-Thought - arXiv",
+        "link": "https://arxiv.org/html/2607.22925v1",
+        "snippet": "Reasoning Chain-of-thought prompting (Wei et al., 2023; Kojima et al., 2023) is a standard technique for eliciting complex reasoning in transformer-based ...",
+        "date": "Jul 24, 2026",
+        "position": 1
+      },
+      {
+        "title": "Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...",
+        "link": "https://arxiv.org/html/2407.03181v1",
+        "snippet": "We present a novel mechanism that allows an LLM to compare multiple reasoning chains in a single inference step, leading to improved performance. We call this ...",
+        "date": "Jul 3, 2024",
+        "position": 2
+      },
+      {
+        "title": "Navigate through Enigmatic LabyrinthA Survey of Chain of Thought ...",
+        "link": "https://arxiv.org/html/2309.15402v3",
+        "snippet": "Huang et al. (2023a) employs self-consistency to generate reasoning chains from unlabeled data, followed by fine-tuning, enhancing its generalized reasoning ...",
+        "date": "Jun 6, 2024",
+        "position": 3
+      },
+      {
+        "title": "[PDF] Teaching LLMs to Plan: Logical Chain-of-Thought Instruction Tuning ...",
+        "link": "https://arxiv.org/pdf/2509.13351",
+        "snippet": "In this paper, we present a novel instruc- tion tuning framework, PDDL-INSTRUCT, designed to enhance LLMs' symbolic planning capabilities through logical chain ...",
+        "date": "Sep 14, 2025",
+        "position": 4
+      },
+      {
+        "title": "Efficient LLM Reasoning via Structured Input Information - arXiv",
+        "link": "https://arxiv.org/html/2511.22176v1",
+        "snippet": "In this paper, we introduce Focused Chain-of-Thought (F-CoT), a novel prompting strategy for reasoning tasks. Drawing inspiration from the ACT framework in ...",
+        "date": "Nov 27, 2025",
+        "position": 5
+      },
+      {
+        "title": "Native Parallel Thinking as a New Paradigm to Scale LLM Test-time ...",
+        "link": "https://arxiv.org/html/2509.04475v1",
+        "snippet": "Parallel Decoding LLMs improve reasoning by sampling multiple tokens at each step to accelerate LLM inference and/or improving LLM performance. Early techniques ...",
+        "date": "Aug 30, 2025",
+        "position": 6
+      },
+      {
+        "title": "Don't Overthink it. Preferring Shorter Thinking Chains for Improved ...",
+        "link": "https://arxiv.org/html/2505.17813v1",
+        "snippet": "Inspired by our results, we finetune an LLM using short, long, and randomly selected reasoning chains. We then observe that training on the shorter ones leads ...",
+        "date": "May 23, 2025",
+        "position": 7
+      },
+      {
+        "title": "Thinking LLMs: General Instruction Following with Thought Generation",
+        "link": "https://arxiv.org/html/2410.10630v1",
+        "snippet": "Chain-of-Thought (CoT) (Wei et al. 2022) is a widely used prompting technique that elicits such behavior by asking the model to write down its reasoning steps.",
+        "date": "Oct 14, 2024",
+        "position": 8
+      },
+      {
+        "title": "A Survey ofReasoning Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2502.17419v1",
+        "snippet": "In this section, we provide an overview of the core methods that drive the advanced reasoning capabilities of reasoning LLMs, as shown in Figure 4. These ...",
+        "date": "Feb 24, 2025",
+        "position": 9
+      },
+      {
+        "title": "On the Impact of Fine-Tuning on Chain-of-Thought Reasoning - arXiv",
+        "link": "https://arxiv.org/html/2411.15382v1",
+        "snippet": "In this work, we investigate the effects of fine-tuning on the reasoning abilities of large language models (LLMs), focusing on three key questions: a) How does ...",
+        "date": "Nov 22, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Not All LLM Reasoning is Visible in the Chain-of-Thought - arXiv",
+      "snippet": "Reasoning Chain-of-thought prompting (Wei et al., 2023; Kojima et al., 2023) is a standard technique for eliciting complex reasoning in transformer-based ...",
+      "link": "https://arxiv.org/html/2607.22925v1",
+      "arxiv_id": "2607.22925"
+    },
+    {
+      "rank": 2,
+      "title": "Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...",
+      "snippet": "We present a novel mechanism that allows an LLM to compare multiple reasoning chains in a single inference step, leading to improved performance. We call this ...",
+      "link": "https://arxiv.org/html/2407.03181v1",
+      "arxiv_id": "2407.03181"
+    },
+    {
+      "rank": 3,
+      "title": "Navigate through Enigmatic LabyrinthA Survey of Chain of Thought ...",
+      "snippet": "Huang et al. (2023a) employs self-consistency to generate reasoning chains from unlabeled data, followed by fine-tuning, enhancing its generalized reasoning ...",
+      "link": "https://arxiv.org/html/2309.15402v3",
+      "arxiv_id": "2309.15402"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] Teaching LLMs to Plan: Logical Chain-of-Thought Instruction Tuning ...",
+      "snippet": "In this paper, we present a novel instruc- tion tuning framework, PDDL-INSTRUCT, designed to enhance LLMs' symbolic planning capabilities through logical chain ...",
+      "link": "https://arxiv.org/pdf/2509.13351",
+      "arxiv_id": "2509.13351"
+    },
+    {
+      "rank": 5,
+      "title": "Efficient LLM Reasoning via Structured Input Information - arXiv",
+      "snippet": "In this paper, we introduce Focused Chain-of-Thought (F-CoT), a novel prompting strategy for reasoning tasks. Drawing inspiration from the ACT framework in ...",
+      "link": "https://arxiv.org/html/2511.22176v1",
+      "arxiv_id": "2511.22176"
+    },
+    {
+      "rank": 6,
+      "title": "Native Parallel Thinking as a New Paradigm to Scale LLM Test-time ...",
+      "snippet": "Parallel Decoding LLMs improve reasoning by sampling multiple tokens at each step to accelerate LLM inference and/or improving LLM performance. Early techniques ...",
+      "link": "https://arxiv.org/html/2509.04475v1",
+      "arxiv_id": "2509.04475"
+    },
+    {
+      "rank": 7,
+      "title": "Don't Overthink it. Preferring Shorter Thinking Chains for Improved ...",
+      "snippet": "Inspired by our results, we finetune an LLM using short, long, and randomly selected reasoning chains. We then observe that training on the shorter ones leads ...",
+      "link": "https://arxiv.org/html/2505.17813v1",
+      "arxiv_id": "2505.17813"
+    },
+    {
+      "rank": 8,
+      "title": "Thinking LLMs: General Instruction Following with Thought Generation",
+      "snippet": "Chain-of-Thought (CoT) (Wei et al. 2022) is a widely used prompting technique that elicits such behavior by asking the model to write down its reasoning steps.",
+      "link": "https://arxiv.org/html/2410.10630v1",
+      "arxiv_id": "2410.10630"
+    },
+    {
+      "rank": 9,
+      "title": "A Survey ofReasoning Large Language Models - arXiv",
+      "snippet": "In this section, we provide an overview of the core methods that drive the advanced reasoning capabilities of reasoning LLMs, as shown in Figure 4. These ...",
+      "link": "https://arxiv.org/html/2502.17419v1",
+      "arxiv_id": "2502.17419"
+    },
+    {
+      "rank": 10,
+      "title": "On the Impact of Fine-Tuning on Chain-of-Thought Reasoning - arXiv",
+      "snippet": "In this work, we investigate the effects of fine-tuning on the reasoning abilities of large language models (LLMs), focusing on three key questions: a) How does ...",
+      "link": "https://arxiv.org/html/2411.15382v1",
+      "arxiv_id": "2411.15382"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:09.450328+00:00",
+  "elapsed_seconds": 1.3914439007639885,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q18_original_question_attempt1.json",
+      "sha256": "81105daf2683666c5eb8822589c1e83045c49a42f59d97c3edd2a592ab3a181d",
+      "status": "PASS"
+    }
+  ]
+}

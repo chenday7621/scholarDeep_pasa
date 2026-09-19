@@ -1,0 +1,203 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q23",
+  "group": "author-written",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2305.17388",
+  "request_payload": {
+    "q": "MPCHAT: Towards Multimodal Persona-Grounded Conversation before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 46,
+  "started_utc": "2026-09-17T12:34:18.037947+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648180",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "1130ee05d3fe4e663bc9978101f3fc36",
+    "date": "Thu, 17 Sep 2026 12:29:39 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3316",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3316,
+  "response_bytes_sha256": "ede54d5cffe301b4049a4f5e05f401f24cf4a559e532c8ea2fd95846710c5181",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJNUENIQVQ6IFRvd2FyZHMgTXVsdGltb2RhbCBQZXJzb25hLUdyb3VuZGVkIENvbnZlcnNhdGlvbiBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJNUENIQVQ6IFRvd2FyZHMgTXVsdGltb2RhbCBQZXJzb25hLUdyb3VuZGVkIENvbnZlcnNhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNS4xNzM4OCIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIGV4dGVuZCBwZXJzb25hLWJhc2VkIGRpYWxvZ3VlIHRvIHRoZSBtdWx0aW1vZGFsIGRvbWFpbiBhbmQgbWFrZSB0d28gbWFpbiBjb250cmlidXRpb25zLiBGaXJzdCwgd2UgcHJlc2VudCB0aGUgZmlyc3QgbXVsdGltb2RhbCBwZXJzb25hLWJhc2VkIC4uLiIsImRhdGUiOiJNYXkgMjcsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI1MDIuMTMyNzB2MSBbY3MuQ0xdIDE4IEZlYiAyMDI1IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTAyLjEzMjcwIiwic25pcHBldCI6Ik1wY2hhdDogVG93YXJkcyBtdWx0aW1vZGFsIHBlcnNvbmEtZ3JvdW5kZWQgY29udmVyc2F0aW9uLiBhclhpdiBwcmVwcmludC4gYXJYaXY6MjMwNS4xNzM4OC4gSXJ3aW4gQWx0bWFuLiAxOTczLiBTb2NpYWwgcGVuZXRyYXRpb246IFRoZSBkZXZlbC0gb3BtZW50IG9mIC4uLiIsImRhdGUiOiJGZWIgMTgsIDIwMjUiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkV2YWx1YXRpbmcgVmVyeSBMb25nLVRlcm0gQ29udmVyc2F0aW9uYWwgTWVtb3J5IG9mIExMTSBBZ2VudHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjE3NzUzdjEiLCJzbmlwcGV0IjoiTVBDSEFUOiBUb3dhcmRzIG11bHRpbW9kYWwgcGVyc29uYS1ncm91bmRlZCBjb252ZXJzYXRpb24uIC1ncm91bmRlZCBjb252ZXJzYXRpb25zOiBNdWx0aW1vZGFsIGNvbnRleHQgZm9yIG5hdHVyYWwgcXVlc3Rpb24gYW5kIHJlc3BvbnNlIGdlbmVyYXRpb24uIiwiZGF0ZSI6IkZlYiAyNywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwMi4xNzc1M3YxIFtjcy5DTF0gMjcgRmViIDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDIuMTc3NTMiLCJzbmlwcGV0IjoiTVBDSEFUOiBUb3dhcmRzIG11bHRpbW9kYWwgcGVyc29uYS0gwrcgZ3JvdW5kZWQgY29udmVyc2F0aW9uLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgNjFzdC4gQW5udWFsIE1lZXRpbmcgb2YgdGhlIEFzc29jaWF0aW9uIGZvciBDb21wdXRhdGlvbmFsLiBMaW5ndWlzdGljcyAuLi4iLCJkYXRlIjoiRmViIDI3LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDA1LjE3OTc0djEgW2NzLkNMXSAyOCBNYXkgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNS4xNzk3NCIsInNuaXBwZXQiOiJNUENIQVQ6IFRvd2FyZHMgbXVsdGltb2RhbCBwZXJzb25hLWdyb3VuZGVkIGNvbnZlcnNhdGlvbi4gVHJhbnNmZXJhYmxlIHBlcnNvbmEtIGdyb3VuZGVkIGRpYWxvZ3VlcyB2aWEgZ3JvdW5kZWQgbWluaW1hbCBlZGl0cy4iLCJkYXRlIjoiTWF5IDI4LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJQTS1CZW5jaDogRXZhbHVhdGluZyBQcm9zcGVjdGl2ZSBNZW1vcnkgaW4gTExNIEFnZW50cyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNy4xMjM4NXYxIiwic25pcHBldCI6IktpbSBNcGNoYXQ6IHRvd2FyZHMgbXVsdGltb2RhbCBwZXJzb25hLWdyb3VuZGVkIGNvbnZlcnNhdGlvbi4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDYxc3QgQW5udWFsIE1lZXRpbmcgb2YgdGhlIEFzc29jaWF0aW9uIGZvciBDb21wdXRhdGlvbmFsIExpbmd1aXN0aWNzIC4uLiIsImRhdGUiOiJKdWwgMTQsIDIwMjYiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDcuMDM5NTh2MSBbY3MuQ0xdIDQgSnVsIDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDcuMDM5NTgiLCJzbmlwcGV0IjoiSmFld29vIEFobiwgWWVkYSBTb25nLCBTYW5nZG9vIFl1biwgYW5kIEd1bi0gaGVlIEtpbS4gMjAyMy4gTXBjaGF0OiBUb3dhcmRzIG11bHRpbW9kYWwgcGVyc29uYS1ncm91bmRlZCBjb252ZXJzYXRpb24uIGFyWGl2IHByZXByaW50LiBhclhpdjoyMzA1LjE3Mzg4LiBBSUBNZXRhLiIsImRhdGUiOiJKdWwgNCwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gUm9sZS1QbGF5aW5nIHdpdGggTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjExNDg0djQiLCJzbmlwcGV0IjoiTXBjaGF0OiBUb3dhcmRzIG11bHRpbW9kYWwgcGVyc29uYS1ncm91bmRlZCBjb252ZXJzYXRpb24uIEluIFByb2NlZWRpbmdzIG9mIHRoZSA2MXN0IEFubnVhbCBNZWV0aW5nIG9mIHRoZSBBc3NvY2lhdGlvbiBmb3IgQ29tcHV0YXRpb25hbCBMaW5ndWlzdGljcyAoVm9sdW1lIC4uLiIsImRhdGUiOiJKdWwgMjMsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkEgU3VydmV5IG9uIFNvY2lhbCBTaW11bGF0aW9uIERyaXZlbiBieSBMYXJnZSBMYW5ndWFnZSBNb2RlbCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDEyLjAzNTYzdjEiLCJzbmlwcGV0IjoiTVBDSEFUOiBUb3dhcmRzIG11bHRpbW9kYWwgcGVyc29uYS1ncm91bmRlZCBjb252ZXJzYXRpb24uIEluIEFubmEgUm9nZXJzLCBKb3JkYW4gQm95ZC1HcmFiZXIsIGFuZCBOYW9ha2kgT2themFraSwgZWRpdG9ycywgUHJvY2VlZGluZ3Mgb2YgdGhlIDYxc3QgQW5udWFsIC4uLiIsImRhdGUiOiJEZWMgNCwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gQUkgQWdlbnRzIEFsb25lIEFyZSBOb3QgKFlldCkgU3VmZmljaWVudCBmb3IgU29jaWFsIFNpbXVsYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjYwMy4wMDExMyIsInNuaXBwZXQiOiJNcGNoYXQ6IFRvd2FyZHMgbXVsdGltb2RhbCBwZXJzb25hLWdyb3VuZGVkIGNvbnZlcnNhdGlvbi4gSW4gQUNMLCBwYWdlcyAzMzU04oCTMzM3NywgMjAyMy4gWzNdIEphY3kgUmVlc2UgQW50aGlzLCBSeWFuIExpdSwgU2VhbiBNIFJpY2hhcmRzb24sIEF1c3RpbiBDIC4uLiIsImRhdGUiOiJNYXkgNywgMjAyNiIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "MPCHAT: Towards Multimodal Persona-Grounded Conversation before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "MPCHAT: Towards Multimodal Persona-Grounded Conversation",
+        "link": "https://arxiv.org/abs/2305.17388",
+        "snippet": "In this work, we extend persona-based dialogue to the multimodal domain and make two main contributions. First, we present the first multimodal persona-based ...",
+        "date": "May 27, 2023",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2502.13270v1 [cs.CL] 18 Feb 2025",
+        "link": "https://arxiv.org/pdf/2502.13270",
+        "snippet": "Mpchat: Towards multimodal persona-grounded conversation. arXiv preprint. arXiv:2305.17388. Irwin Altman. 1973. Social penetration: The devel- opment of ...",
+        "date": "Feb 18, 2025",
+        "position": 2
+      },
+      {
+        "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+        "link": "https://arxiv.org/html/2402.17753v1",
+        "snippet": "MPCHAT: Towards multimodal persona-grounded conversation. -grounded conversations: Multimodal context for natural question and response generation.",
+        "date": "Feb 27, 2024",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2402.17753v1 [cs.CL] 27 Feb 2024",
+        "link": "https://arxiv.org/pdf/2402.17753",
+        "snippet": "MPCHAT: Towards multimodal persona- · grounded conversation. In Proceedings of the 61st. Annual Meeting of the Association for Computational. Linguistics ...",
+        "date": "Feb 27, 2024",
+        "position": 4
+      },
+      {
+        "title": "[PDF] arXiv:2405.17974v1 [cs.CL] 28 May 2024",
+        "link": "https://arxiv.org/pdf/2405.17974",
+        "snippet": "MPCHAT: Towards multimodal persona-grounded conversation. Transferable persona- grounded dialogues via grounded minimal edits.",
+        "date": "May 28, 2024",
+        "position": 5
+      },
+      {
+        "title": "PM-Bench: Evaluating Prospective Memory in LLM Agents - arXiv",
+        "link": "https://arxiv.org/html/2607.12385v1",
+        "snippet": "Kim Mpchat: towards multimodal persona-grounded conversation. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics ...",
+        "date": "Jul 14, 2026",
+        "position": 6
+      },
+      {
+        "title": "[PDF] arXiv:2407.03958v1 [cs.CL] 4 Jul 2024",
+        "link": "https://arxiv.org/pdf/2407.03958",
+        "snippet": "Jaewoo Ahn, Yeda Song, Sangdoo Yun, and Gun- hee Kim. 2023. Mpchat: Towards multimodal persona-grounded conversation. arXiv preprint. arXiv:2305.17388. AI@Meta.",
+        "date": "Jul 4, 2024",
+        "position": 7
+      },
+      {
+        "title": "A Survey on Role-Playing with Language Models - arXiv",
+        "link": "https://arxiv.org/html/2407.11484v4",
+        "snippet": "Mpchat: Towards multimodal persona-grounded conversation. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume ...",
+        "date": "Jul 23, 2024",
+        "position": 8
+      },
+      {
+        "title": "A Survey on Social Simulation Driven by Large Language Model ...",
+        "link": "https://arxiv.org/html/2412.03563v1",
+        "snippet": "MPCHAT: Towards multimodal persona-grounded conversation. In Anna Rogers, Jordan Boyd-Graber, and Naoaki Okazaki, editors, Proceedings of the 61st Annual ...",
+        "date": "Dec 4, 2024",
+        "position": 9
+      },
+      {
+        "title": "[PDF] AI Agents Alone Are Not (Yet) Sufficient for Social Simulation - arXiv",
+        "link": "https://arxiv.org/pdf/2603.00113",
+        "snippet": "Mpchat: Towards multimodal persona-grounded conversation. In ACL, pages 3354–3377, 2023. [3] Jacy Reese Anthis, Ryan Liu, Sean M Richardson, Austin C ...",
+        "date": "May 7, 2026",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "MPCHAT: Towards Multimodal Persona-Grounded Conversation",
+      "snippet": "In this work, we extend persona-based dialogue to the multimodal domain and make two main contributions. First, we present the first multimodal persona-based ...",
+      "link": "https://arxiv.org/abs/2305.17388",
+      "arxiv_id": "2305.17388"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2502.13270v1 [cs.CL] 18 Feb 2025",
+      "snippet": "Mpchat: Towards multimodal persona-grounded conversation. arXiv preprint. arXiv:2305.17388. Irwin Altman. 1973. Social penetration: The devel- opment of ...",
+      "link": "https://arxiv.org/pdf/2502.13270",
+      "arxiv_id": "2502.13270"
+    },
+    {
+      "rank": 3,
+      "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+      "snippet": "MPCHAT: Towards multimodal persona-grounded conversation. -grounded conversations: Multimodal context for natural question and response generation.",
+      "link": "https://arxiv.org/html/2402.17753v1",
+      "arxiv_id": "2402.17753"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2402.17753v1 [cs.CL] 27 Feb 2024",
+      "snippet": "MPCHAT: Towards multimodal persona- · grounded conversation. In Proceedings of the 61st. Annual Meeting of the Association for Computational. Linguistics ...",
+      "link": "https://arxiv.org/pdf/2402.17753",
+      "arxiv_id": "2402.17753"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] arXiv:2405.17974v1 [cs.CL] 28 May 2024",
+      "snippet": "MPCHAT: Towards multimodal persona-grounded conversation. Transferable persona- grounded dialogues via grounded minimal edits.",
+      "link": "https://arxiv.org/pdf/2405.17974",
+      "arxiv_id": "2405.17974"
+    },
+    {
+      "rank": 6,
+      "title": "PM-Bench: Evaluating Prospective Memory in LLM Agents - arXiv",
+      "snippet": "Kim Mpchat: towards multimodal persona-grounded conversation. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics ...",
+      "link": "https://arxiv.org/html/2607.12385v1",
+      "arxiv_id": "2607.12385"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] arXiv:2407.03958v1 [cs.CL] 4 Jul 2024",
+      "snippet": "Jaewoo Ahn, Yeda Song, Sangdoo Yun, and Gun- hee Kim. 2023. Mpchat: Towards multimodal persona-grounded conversation. arXiv preprint. arXiv:2305.17388. AI@Meta.",
+      "link": "https://arxiv.org/pdf/2407.03958",
+      "arxiv_id": "2407.03958"
+    },
+    {
+      "rank": 8,
+      "title": "A Survey on Role-Playing with Language Models - arXiv",
+      "snippet": "Mpchat: Towards multimodal persona-grounded conversation. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume ...",
+      "link": "https://arxiv.org/html/2407.11484v4",
+      "arxiv_id": "2407.11484"
+    },
+    {
+      "rank": 9,
+      "title": "A Survey on Social Simulation Driven by Large Language Model ...",
+      "snippet": "MPCHAT: Towards multimodal persona-grounded conversation. In Anna Rogers, Jordan Boyd-Graber, and Naoaki Okazaki, editors, Proceedings of the 61st Annual ...",
+      "link": "https://arxiv.org/html/2412.03563v1",
+      "arxiv_id": "2412.03563"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] AI Agents Alone Are Not (Yet) Sufficient for Social Simulation - arXiv",
+      "snippet": "Mpchat: Towards multimodal persona-grounded conversation. In ACL, pages 3354–3377, 2023. [3] Jacy Reese Anthis, Ryan Liu, Sean M Richardson, Austin C ...",
+      "link": "https://arxiv.org/pdf/2603.00113",
+      "arxiv_id": "2603.00113"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:18.894947+00:00",
+  "elapsed_seconds": 0.8570002876222134,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q23_exact_gt_title_attempt1.json",
+      "sha256": "d3ccb72c8e5357b340460435604fa90600b2ac6ef19d75f4ea434addf75aa02d",
+      "status": "PASS"
+    }
+  ]
+}

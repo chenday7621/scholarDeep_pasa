@@ -1,0 +1,1328 @@
+{
+  "query_id": "Q7",
+  "query_index": 7,
+  "dataset_qid": "RealScholarQuery_7",
+  "original_question": "Show me research on the long video description. Here, long videos are defined as those with a duration of at least several minutes.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Survey papers on long video description techniques",
+    "Research on automatic video summarization for long videos",
+    "Long video description research papers",
+    "Studies on multi-modal language models for long video understanding",
+    "Research on long-duration video description"
+  ],
+  "anchor": "Show me research on the long video description. Here, long videos are defined as those with a duration of at least several minutes.",
+  "source_generation_id": "Q7_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Survey papers on long video description techniques",
+        "Research on automatic video summarization for long videos",
+        "Long video description research papers",
+        "Studies on multi-modal language models for long video understanding",
+        "Research on long-duration video description"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "Show me research on the long video description. Here, long videos are defined as those with a duration of at least several minutes.",
+        "Survey papers on long video description techniques",
+        "Research on automatic video summarization for long videos",
+        "Long video description research papers",
+        "Studies on multi-modal language models for long video understanding"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Survey papers on long video description techniques",
+      "attempts": [
+        {
+          "global_attempt_sequence": 44,
+          "query_id": "Q7",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Survey papers on long video description techniques",
+          "request_payload": {
+            "q": "Survey papers on long video description techniques before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q7_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:25:26.735092+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on long video description techniques before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"A Survey on Long Video Generation: Challenges, Methods ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.16407v1\",\"snippet\":\"This paper presents the first survey of recent advancements in long video generation and summarises them into two key paradigms: divide and conquer or temporal ...\",\"date\":\"Mar 25, 2024\",\"position\":1},{\"title\":\"A Survey of Methods, Datasets and Evaluation Metrics - arXiv\",\"link\":\"https://arxiv.org/abs/1806.00186\",\"snippet\":\"Classical video description approaches combined subject, object and verb detection with template based language models to generate sentences.\",\"date\":\"Jun 1, 2018\",\"position\":2},{\"title\":\"[2403.16407] A Survey on Long Video Generation - arXiv\",\"link\":\"https://arxiv.org/abs/2403.16407\",\"snippet\":\"This paper presents the first survey of recent advancements in long video generation and summarises them into two key paradigms: divide and conquer temporal ...\",\"date\":\"Mar 25, 2024\",\"position\":3},{\"title\":\"A Survey on Generative AI and LLM for Video Generation ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.16038v1\",\"snippet\":\"The techniques discussed in this paper demonstrate the potential of LLMs for video scene understanding. However, these techniques also have limitations, such as ...\",\"date\":\"Jan 30, 2024\",\"position\":4},{\"title\":\"Video Understanding with Large Language Models:A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.17432v4\",\"snippet\":\"This section provides an overview of the evaluation methods for video question-answering models and related tasks, categorized into three types: closed-set ...\",\"date\":\"Jul 24, 2024\",\"position\":5},{\"title\":\"A Survey on Deep Learning Technique for Video Segmentation - arXiv\",\"link\":\"https://arxiv.org/abs/2107.01153\",\"snippet\":\"In this survey, we comprehensively review two basic lines of research -- generic object segmentation (of unknown categories) in videos, and video semantic ...\",\"date\":\"Jul 2, 2021\",\"position\":6},{\"title\":\"A Survey on Video Prediction: From Deterministic to Generative ...\",\"link\":\"https://arxiv.org/html/2401.14718v3\",\"snippet\":\"Video prediction involves forecasting future frames or sequences in a video based on the analysis of past frames.\",\"date\":\"Jul 22, 2024\",\"position\":7},{\"title\":\"Video Understanding with Large Language Models:A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.17432v2\",\"snippet\":\"This paper fills this gap by making a comprehensive survey on the video understanding task using large language models. This survey is structured as follows: ...\",\"date\":\"Jan 4, 2024\",\"position\":8},{\"title\":\"[PDF] A Comprehensive Survey on Human Video Generation - arXiv\",\"link\":\"https://arxiv.org/pdf/2407.08428\",\"snippet\":\"This survey focuses on human video generation, which is a 2D video generation task that uses a generative model to input text, audio, posture, or other modal.\",\"date\":\"Jul 11, 2024\",\"position\":9},{\"title\":\"[2405.03150] Video Diffusion Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/abs/2405.03150\",\"snippet\":\"Abstract:Diffusion generative models have recently become a powerful technique for creating and modifying high-quality, coherent video content. This survey ...\",\"date\":\"May 6, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIGxvbmcgdmlkZW8gZGVzY3JpcHRpb24gdGVjaG5pcXVlcyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJBIFN1cnZleSBvbiBMb25nIFZpZGVvIEdlbmVyYXRpb246IENoYWxsZW5nZXMsIE1ldGhvZHMgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE2NDA3djEiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBwcmVzZW50cyB0aGUgZmlyc3Qgc3VydmV5IG9mIHJlY2VudCBhZHZhbmNlbWVudHMgaW4gbG9uZyB2aWRlbyBnZW5lcmF0aW9uIGFuZCBzdW1tYXJpc2VzIHRoZW0gaW50byB0d28ga2V5IHBhcmFkaWdtczogZGl2aWRlIGFuZCBjb25xdWVyIG9yIHRlbXBvcmFsIC4uLiIsImRhdGUiOiJNYXIgMjUsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkEgU3VydmV5IG9mIE1ldGhvZHMsIERhdGFzZXRzIGFuZCBFdmFsdWF0aW9uIE1ldHJpY3MgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMTgwNi4wMDE4NiIsInNuaXBwZXQiOiJDbGFzc2ljYWwgdmlkZW8gZGVzY3JpcHRpb24gYXBwcm9hY2hlcyBjb21iaW5lZCBzdWJqZWN0LCBvYmplY3QgYW5kIHZlcmIgZGV0ZWN0aW9uIHdpdGggdGVtcGxhdGUgYmFzZWQgbGFuZ3VhZ2UgbW9kZWxzIHRvIGdlbmVyYXRlIHNlbnRlbmNlcy4iLCJkYXRlIjoiSnVuIDEsIDIwMTgiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlsyNDAzLjE2NDA3XSBBIFN1cnZleSBvbiBMb25nIFZpZGVvIEdlbmVyYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwMy4xNjQwNyIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHByZXNlbnRzIHRoZSBmaXJzdCBzdXJ2ZXkgb2YgcmVjZW50IGFkdmFuY2VtZW50cyBpbiBsb25nIHZpZGVvIGdlbmVyYXRpb24gYW5kIHN1bW1hcmlzZXMgdGhlbSBpbnRvIHR3byBrZXkgcGFyYWRpZ21zOiBkaXZpZGUgYW5kIGNvbnF1ZXIgdGVtcG9yYWwgLi4uIiwiZGF0ZSI6Ik1hciAyNSwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gR2VuZXJhdGl2ZSBBSSBhbmQgTExNIGZvciBWaWRlbyBHZW5lcmF0aW9uIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4xNjAzOHYxIiwic25pcHBldCI6IlRoZSB0ZWNobmlxdWVzIGRpc2N1c3NlZCBpbiB0aGlzIHBhcGVyIGRlbW9uc3RyYXRlIHRoZSBwb3RlbnRpYWwgb2YgTExNcyBmb3IgdmlkZW8gc2NlbmUgdW5kZXJzdGFuZGluZy4gSG93ZXZlciwgdGhlc2UgdGVjaG5pcXVlcyBhbHNvIGhhdmUgbGltaXRhdGlvbnMsIHN1Y2ggYXMgLi4uIiwiZGF0ZSI6IkphbiAzMCwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiVmlkZW8gVW5kZXJzdGFuZGluZyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVsczpBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4xNzQzMnY0Iiwic25pcHBldCI6IlRoaXMgc2VjdGlvbiBwcm92aWRlcyBhbiBvdmVydmlldyBvZiB0aGUgZXZhbHVhdGlvbiBtZXRob2RzIGZvciB2aWRlbyBxdWVzdGlvbi1hbnN3ZXJpbmcgbW9kZWxzIGFuZCByZWxhdGVkIHRhc2tzLCBjYXRlZ29yaXplZCBpbnRvIHRocmVlIHR5cGVzOiBjbG9zZWQtc2V0IC4uLiIsImRhdGUiOiJKdWwgMjQsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkEgU3VydmV5IG9uIERlZXAgTGVhcm5pbmcgVGVjaG5pcXVlIGZvciBWaWRlbyBTZWdtZW50YXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjEwNy4wMTE1MyIsInNuaXBwZXQiOiJJbiB0aGlzIHN1cnZleSwgd2UgY29tcHJlaGVuc2l2ZWx5IHJldmlldyB0d28gYmFzaWMgbGluZXMgb2YgcmVzZWFyY2ggLS0gZ2VuZXJpYyBvYmplY3Qgc2VnbWVudGF0aW9uIChvZiB1bmtub3duIGNhdGVnb3JpZXMpIGluIHZpZGVvcywgYW5kIHZpZGVvIHNlbWFudGljIC4uLiIsImRhdGUiOiJKdWwgMiwgMjAyMSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gVmlkZW8gUHJlZGljdGlvbjogRnJvbSBEZXRlcm1pbmlzdGljIHRvIEdlbmVyYXRpdmUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4xNDcxOHYzIiwic25pcHBldCI6IlZpZGVvIHByZWRpY3Rpb24gaW52b2x2ZXMgZm9yZWNhc3RpbmcgZnV0dXJlIGZyYW1lcyBvciBzZXF1ZW5jZXMgaW4gYSB2aWRlbyBiYXNlZCBvbiB0aGUgYW5hbHlzaXMgb2YgcGFzdCBmcmFtZXMuIiwiZGF0ZSI6Ikp1bCAyMiwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiVmlkZW8gVW5kZXJzdGFuZGluZyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVsczpBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4xNzQzMnYyIiwic25pcHBldCI6IlRoaXMgcGFwZXIgZmlsbHMgdGhpcyBnYXAgYnkgbWFraW5nIGEgY29tcHJlaGVuc2l2ZSBzdXJ2ZXkgb24gdGhlIHZpZGVvIHVuZGVyc3RhbmRpbmcgdGFzayB1c2luZyBsYXJnZSBsYW5ndWFnZSBtb2RlbHMuIFRoaXMgc3VydmV5IGlzIHN0cnVjdHVyZWQgYXMgZm9sbG93czogLi4uIiwiZGF0ZSI6IkphbiA0LCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBBIENvbXByZWhlbnNpdmUgU3VydmV5IG9uIEh1bWFuIFZpZGVvIEdlbmVyYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNy4wODQyOCIsInNuaXBwZXQiOiJUaGlzIHN1cnZleSBmb2N1c2VzIG9uIGh1bWFuIHZpZGVvIGdlbmVyYXRpb24sIHdoaWNoIGlzIGEgMkQgdmlkZW8gZ2VuZXJhdGlvbiB0YXNrIHRoYXQgdXNlcyBhIGdlbmVyYXRpdmUgbW9kZWwgdG8gaW5wdXQgdGV4dCwgYXVkaW8sIHBvc3R1cmUsIG9yIG90aGVyIG1vZGFsLiIsImRhdGUiOiJKdWwgMTEsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlsyNDA1LjAzMTUwXSBWaWRlbyBEaWZmdXNpb24gTW9kZWxzOiBBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA1LjAzMTUwIiwic25pcHBldCI6IkFic3RyYWN0OkRpZmZ1c2lvbiBnZW5lcmF0aXZlIG1vZGVscyBoYXZlIHJlY2VudGx5IGJlY29tZSBhIHBvd2VyZnVsIHRlY2huaXF1ZSBmb3IgY3JlYXRpbmcgYW5kIG1vZGlmeWluZyBoaWdoLXF1YWxpdHksIGNvaGVyZW50IHZpZGVvIGNvbnRlbnQuIFRoaXMgc3VydmV5IC4uLiIsImRhdGUiOiJNYXkgNiwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "5b81cd1419c9ceb8c3807d55ef0a1131fa403b5ec8cb0392d45d4a582b7c9cdc",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey papers on long video description techniques before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+                "link": "https://arxiv.org/html/2403.16407v1",
+                "snippet": "This paper presents the first survey of recent advancements in long video generation and summarises them into two key paradigms: divide and conquer or temporal ...",
+                "date": "Mar 25, 2024",
+                "position": 1
+              },
+              {
+                "title": "A Survey of Methods, Datasets and Evaluation Metrics - arXiv",
+                "link": "https://arxiv.org/abs/1806.00186",
+                "snippet": "Classical video description approaches combined subject, object and verb detection with template based language models to generate sentences.",
+                "date": "Jun 1, 2018",
+                "position": 2
+              },
+              {
+                "title": "[2403.16407] A Survey on Long Video Generation - arXiv",
+                "link": "https://arxiv.org/abs/2403.16407",
+                "snippet": "This paper presents the first survey of recent advancements in long video generation and summarises them into two key paradigms: divide and conquer temporal ...",
+                "date": "Mar 25, 2024",
+                "position": 3
+              },
+              {
+                "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+                "link": "https://arxiv.org/html/2404.16038v1",
+                "snippet": "The techniques discussed in this paper demonstrate the potential of LLMs for video scene understanding. However, these techniques also have limitations, such as ...",
+                "date": "Jan 30, 2024",
+                "position": 4
+              },
+              {
+                "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+                "link": "https://arxiv.org/html/2312.17432v4",
+                "snippet": "This section provides an overview of the evaluation methods for video question-answering models and related tasks, categorized into three types: closed-set ...",
+                "date": "Jul 24, 2024",
+                "position": 5
+              },
+              {
+                "title": "A Survey on Deep Learning Technique for Video Segmentation - arXiv",
+                "link": "https://arxiv.org/abs/2107.01153",
+                "snippet": "In this survey, we comprehensively review two basic lines of research -- generic object segmentation (of unknown categories) in videos, and video semantic ...",
+                "date": "Jul 2, 2021",
+                "position": 6
+              },
+              {
+                "title": "A Survey on Video Prediction: From Deterministic to Generative ...",
+                "link": "https://arxiv.org/html/2401.14718v3",
+                "snippet": "Video prediction involves forecasting future frames or sequences in a video based on the analysis of past frames.",
+                "date": "Jul 22, 2024",
+                "position": 7
+              },
+              {
+                "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+                "link": "https://arxiv.org/html/2312.17432v2",
+                "snippet": "This paper fills this gap by making a comprehensive survey on the video understanding task using large language models. This survey is structured as follows: ...",
+                "date": "Jan 4, 2024",
+                "position": 8
+              },
+              {
+                "title": "[PDF] A Comprehensive Survey on Human Video Generation - arXiv",
+                "link": "https://arxiv.org/pdf/2407.08428",
+                "snippet": "This survey focuses on human video generation, which is a 2D video generation task that uses a generative model to input text, audio, posture, or other modal.",
+                "date": "Jul 11, 2024",
+                "position": 9
+              },
+              {
+                "title": "[2405.03150] Video Diffusion Models: A Survey - arXiv",
+                "link": "https://arxiv.org/abs/2405.03150",
+                "snippet": "Abstract:Diffusion generative models have recently become a powerful technique for creating and modifying high-quality, coherent video content. This survey ...",
+                "date": "May 6, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:27.657813+00:00",
+          "elapsed_seconds": 0.9227203764021397
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1806.00186",
+        "2107.01153",
+        "2312.17432",
+        "2401.14718",
+        "2403.16407",
+        "2404.16038",
+        "2405.03150",
+        "2407.08428"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.16407",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2403.16407v1",
+          "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+          "snippet": "This paper presents the first survey of recent advancements in long video generation and summarises them into two key paradigms: divide and conquer or temporal ..."
+        },
+        {
+          "arxiv_id": "1806.00186",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/1806.00186",
+          "title": "A Survey of Methods, Datasets and Evaluation Metrics - arXiv",
+          "snippet": "Classical video description approaches combined subject, object and verb detection with template based language models to generate sentences."
+        },
+        {
+          "arxiv_id": "2403.16407",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2403.16407",
+          "title": "[2403.16407] A Survey on Long Video Generation - arXiv",
+          "snippet": "This paper presents the first survey of recent advancements in long video generation and summarises them into two key paradigms: divide and conquer temporal ..."
+        },
+        {
+          "arxiv_id": "2404.16038",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2404.16038v1",
+          "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+          "snippet": "The techniques discussed in this paper demonstrate the potential of LLMs for video scene understanding. However, these techniques also have limitations, such as ..."
+        },
+        {
+          "arxiv_id": "2312.17432",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2312.17432v4",
+          "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+          "snippet": "This section provides an overview of the evaluation methods for video question-answering models and related tasks, categorized into three types: closed-set ..."
+        },
+        {
+          "arxiv_id": "2107.01153",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/abs/2107.01153",
+          "title": "A Survey on Deep Learning Technique for Video Segmentation - arXiv",
+          "snippet": "In this survey, we comprehensively review two basic lines of research -- generic object segmentation (of unknown categories) in videos, and video semantic ..."
+        },
+        {
+          "arxiv_id": "2401.14718",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2401.14718v3",
+          "title": "A Survey on Video Prediction: From Deterministic to Generative ...",
+          "snippet": "Video prediction involves forecasting future frames or sequences in a video based on the analysis of past frames."
+        },
+        {
+          "arxiv_id": "2312.17432",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2312.17432v2",
+          "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+          "snippet": "This paper fills this gap by making a comprehensive survey on the video understanding task using large language models. This survey is structured as follows: ..."
+        },
+        {
+          "arxiv_id": "2407.08428",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2407.08428",
+          "title": "[PDF] A Comprehensive Survey on Human Video Generation - arXiv",
+          "snippet": "This survey focuses on human video generation, which is a 2D video generation task that uses a generative model to input text, audio, posture, or other modal."
+        },
+        {
+          "arxiv_id": "2405.03150",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/abs/2405.03150",
+          "title": "[2405.03150] Video Diffusion Models: A Survey - arXiv",
+          "snippet": "Abstract:Diffusion generative models have recently become a powerful technique for creating and modifying high-quality, coherent video content. This survey ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey papers on long video description techniques before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Research on automatic video summarization for long videos",
+      "attempts": [
+        {
+          "global_attempt_sequence": 45,
+          "query_id": "Q7",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Research on automatic video summarization for long videos",
+          "request_payload": {
+            "q": "Research on automatic video summarization for long videos before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q7_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:25:27.705076+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Research on automatic video summarization for long videos before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Scaling Up Video Summarization Pretraining with Large Language ...\",\"link\":\"https://arxiv.org/html/2404.03398v1\",\"snippet\":\"Long-form video content constitutes a significant portion of internet traffic, making automated video summarization an essential research problem.\",\"date\":\"Apr 4, 2024\",\"position\":1},{\"title\":\"CLIP-It! Language-Guided Video Summarization - arXiv\",\"link\":\"https://arxiv.org/html/2107.00650v2\",\"snippet\":\"This work introduces CLIP-It, a single framework for addressing both generic and query-focused video summarization, typically approached separately in the ...\",\"date\":\"Dec 8, 2021\",\"position\":2},{\"title\":\"[PDF] Video Summarization Overview arXiv:2210.11707v1 [cs.CV] 21 Oct ...\",\"link\":\"https://arxiv.org/pdf/2210.11707\",\"snippet\":\"Video summariza- tion facilitates quickly grasping video content by creating a compact summary of videos. Much effort has been devoted to automatic video ...\",\"date\":\"Oct 21, 2022\",\"position\":3},{\"title\":\"How Good is a Video Summary? A New Benchmarking Dataset and ...\",\"link\":\"https://arxiv.org/abs/2101.10514\",\"snippet\":\"Automatic video summarization is still an unsolved problem due to several challenges. The currently available datasets either have very short videos or have few ...\",\"date\":\"Jan 26, 2021\",\"position\":4},{\"title\":\"Exploring Global Diversity and Local Context for Video Summarization\",\"link\":\"https://arxiv.org/html/2201.11345v2\",\"snippet\":\"Abstract. Video summarization aims to automatically generate a diverse and concise summary which is useful in large-scale video processing.\",\"date\":\"Mar 27, 2022\",\"position\":5},{\"title\":\"Rethinking the Evaluation of Video Summaries - arXiv\",\"link\":\"https://arxiv.org/html/1903.11328v2\",\"snippet\":\"Video summarization is a technique to create a short skim of the original video while preserving the main stories/content.\",\"date\":\"Apr 11, 2019\",\"position\":6},{\"title\":\"[PDF] Video Summarization with Attention-Based Encoder-Decoder ... - arXiv\",\"link\":\"https://arxiv.org/pdf/1708.09545\",\"snippet\":\"Abstract—This paper addresses the problem of supervised video summarization by formulating it as a sequence-to-sequence learning problem, where the input is ...\",\"date\":\"Aug 31, 2017\",\"position\":7},{\"title\":\"Scaling Up Video Summarization Pretraining with Large Language ...\",\"link\":\"https://arxiv.org/abs/2404.03398\",\"snippet\":\"We introduce an automated and scalable pipeline for generating a large-scale video summarization dataset using LLMs as Oracle summarizers. By leveraging the ...\",\"date\":\"Apr 4, 2024\",\"position\":8},{\"title\":\"[1605.08110] Video Summarization with Long Short-term Memory\",\"link\":\"https://arxiv.org/abs/1605.08110\",\"snippet\":\"Abstract:We propose a novel supervised learning technique for summarizing videos by automatically selecting keyframes or key subshots.\",\"date\":\"May 26, 2016\",\"position\":9},{\"title\":\"Video Joint Modelling Based on Hierarchical Transformer for Co ...\",\"link\":\"https://arxiv.org/html/2112.13478v2\",\"snippet\":\"Video summarization aims to automatically generate a summary (storyboard or video skim) of a video, which can facilitate large-scale video retrieval and ...\",\"date\":\"Jun 29, 2022\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZXNlYXJjaCBvbiBhdXRvbWF0aWMgdmlkZW8gc3VtbWFyaXphdGlvbiBmb3IgbG9uZyB2aWRlb3MgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiU2NhbGluZyBVcCBWaWRlbyBTdW1tYXJpemF0aW9uIFByZXRyYWluaW5nIHdpdGggTGFyZ2UgTGFuZ3VhZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4wMzM5OHYxIiwic25pcHBldCI6IkxvbmctZm9ybSB2aWRlbyBjb250ZW50IGNvbnN0aXR1dGVzIGEgc2lnbmlmaWNhbnQgcG9ydGlvbiBvZiBpbnRlcm5ldCB0cmFmZmljLCBtYWtpbmcgYXV0b21hdGVkIHZpZGVvIHN1bW1hcml6YXRpb24gYW4gZXNzZW50aWFsIHJlc2VhcmNoIHByb2JsZW0uIiwiZGF0ZSI6IkFwciA0LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJDTElQLUl0ISBMYW5ndWFnZS1HdWlkZWQgVmlkZW8gU3VtbWFyaXphdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjEwNy4wMDY1MHYyIiwic25pcHBldCI6IlRoaXMgd29yayBpbnRyb2R1Y2VzIENMSVAtSXQsIGEgc2luZ2xlIGZyYW1ld29yayBmb3IgYWRkcmVzc2luZyBib3RoIGdlbmVyaWMgYW5kIHF1ZXJ5LWZvY3VzZWQgdmlkZW8gc3VtbWFyaXphdGlvbiwgdHlwaWNhbGx5IGFwcHJvYWNoZWQgc2VwYXJhdGVseSBpbiB0aGUgLi4uIiwiZGF0ZSI6IkRlYyA4LCAyMDIxIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJbUERGXSBWaWRlbyBTdW1tYXJpemF0aW9uIE92ZXJ2aWV3IGFyWGl2OjIyMTAuMTE3MDd2MSBbY3MuQ1ZdIDIxIE9jdCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMTAuMTE3MDciLCJzbmlwcGV0IjoiVmlkZW8gc3VtbWFyaXphLSB0aW9uIGZhY2lsaXRhdGVzIHF1aWNrbHkgZ3Jhc3BpbmcgdmlkZW8gY29udGVudCBieSBjcmVhdGluZyBhIGNvbXBhY3Qgc3VtbWFyeSBvZiB2aWRlb3MuIE11Y2ggZWZmb3J0IGhhcyBiZWVuIGRldm90ZWQgdG8gYXV0b21hdGljIHZpZGVvIC4uLiIsImRhdGUiOiJPY3QgMjEsIDIwMjIiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkhvdyBHb29kIGlzIGEgVmlkZW8gU3VtbWFyeT8gQSBOZXcgQmVuY2htYXJraW5nIERhdGFzZXQgYW5kIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjEwMS4xMDUxNCIsInNuaXBwZXQiOiJBdXRvbWF0aWMgdmlkZW8gc3VtbWFyaXphdGlvbiBpcyBzdGlsbCBhbiB1bnNvbHZlZCBwcm9ibGVtIGR1ZSB0byBzZXZlcmFsIGNoYWxsZW5nZXMuIFRoZSBjdXJyZW50bHkgYXZhaWxhYmxlIGRhdGFzZXRzIGVpdGhlciBoYXZlIHZlcnkgc2hvcnQgdmlkZW9zIG9yIGhhdmUgZmV3IC4uLiIsImRhdGUiOiJKYW4gMjYsIDIwMjEiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkV4cGxvcmluZyBHbG9iYWwgRGl2ZXJzaXR5IGFuZCBMb2NhbCBDb250ZXh0IGZvciBWaWRlbyBTdW1tYXJpemF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwMS4xMTM0NXYyIiwic25pcHBldCI6IkFic3RyYWN0LiBWaWRlbyBzdW1tYXJpemF0aW9uIGFpbXMgdG8gYXV0b21hdGljYWxseSBnZW5lcmF0ZSBhIGRpdmVyc2UgYW5kIGNvbmNpc2Ugc3VtbWFyeSB3aGljaCBpcyB1c2VmdWwgaW4gbGFyZ2Utc2NhbGUgdmlkZW8gcHJvY2Vzc2luZy4iLCJkYXRlIjoiTWFyIDI3LCAyMDIyIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJSZXRoaW5raW5nIHRoZSBFdmFsdWF0aW9uIG9mIFZpZGVvIFN1bW1hcmllcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTkwMy4xMTMyOHYyIiwic25pcHBldCI6IlZpZGVvIHN1bW1hcml6YXRpb24gaXMgYSB0ZWNobmlxdWUgdG8gY3JlYXRlIGEgc2hvcnQgc2tpbSBvZiB0aGUgb3JpZ2luYWwgdmlkZW8gd2hpbGUgcHJlc2VydmluZyB0aGUgbWFpbiBzdG9yaWVzL2NvbnRlbnQuIiwiZGF0ZSI6IkFwciAxMSwgMjAxOSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiW1BERl0gVmlkZW8gU3VtbWFyaXphdGlvbiB3aXRoIEF0dGVudGlvbi1CYXNlZCBFbmNvZGVyLURlY29kZXIgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzE3MDguMDk1NDUiLCJzbmlwcGV0IjoiQWJzdHJhY3TigJRUaGlzIHBhcGVyIGFkZHJlc3NlcyB0aGUgcHJvYmxlbSBvZiBzdXBlcnZpc2VkIHZpZGVvIHN1bW1hcml6YXRpb24gYnkgZm9ybXVsYXRpbmcgaXQgYXMgYSBzZXF1ZW5jZS10by1zZXF1ZW5jZSBsZWFybmluZyBwcm9ibGVtLCB3aGVyZSB0aGUgaW5wdXQgaXMgLi4uIiwiZGF0ZSI6IkF1ZyAzMSwgMjAxNyIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiU2NhbGluZyBVcCBWaWRlbyBTdW1tYXJpemF0aW9uIFByZXRyYWluaW5nIHdpdGggTGFyZ2UgTGFuZ3VhZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA0LjAzMzk4Iiwic25pcHBldCI6IldlIGludHJvZHVjZSBhbiBhdXRvbWF0ZWQgYW5kIHNjYWxhYmxlIHBpcGVsaW5lIGZvciBnZW5lcmF0aW5nIGEgbGFyZ2Utc2NhbGUgdmlkZW8gc3VtbWFyaXphdGlvbiBkYXRhc2V0IHVzaW5nIExMTXMgYXMgT3JhY2xlIHN1bW1hcml6ZXJzLiBCeSBsZXZlcmFnaW5nIHRoZSAuLi4iLCJkYXRlIjoiQXByIDQsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IlsxNjA1LjA4MTEwXSBWaWRlbyBTdW1tYXJpemF0aW9uIHdpdGggTG9uZyBTaG9ydC10ZXJtIE1lbW9yeSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMTYwNS4wODExMCIsInNuaXBwZXQiOiJBYnN0cmFjdDpXZSBwcm9wb3NlIGEgbm92ZWwgc3VwZXJ2aXNlZCBsZWFybmluZyB0ZWNobmlxdWUgZm9yIHN1bW1hcml6aW5nIHZpZGVvcyBieSBhdXRvbWF0aWNhbGx5IHNlbGVjdGluZyBrZXlmcmFtZXMgb3Iga2V5IHN1YnNob3RzLiIsImRhdGUiOiJNYXkgMjYsIDIwMTYiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlZpZGVvIEpvaW50IE1vZGVsbGluZyBCYXNlZCBvbiBIaWVyYXJjaGljYWwgVHJhbnNmb3JtZXIgZm9yIENvIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIxMTIuMTM0Nzh2MiIsInNuaXBwZXQiOiJWaWRlbyBzdW1tYXJpemF0aW9uIGFpbXMgdG8gYXV0b21hdGljYWxseSBnZW5lcmF0ZSBhIHN1bW1hcnkgKHN0b3J5Ym9hcmQgb3IgdmlkZW8gc2tpbSkgb2YgYSB2aWRlbywgd2hpY2ggY2FuIGZhY2lsaXRhdGUgbGFyZ2Utc2NhbGUgdmlkZW8gcmV0cmlldmFsIGFuZCAuLi4iLCJkYXRlIjoiSnVuIDI5LCAyMDIyIiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "f6e9cd22a8ab0bb602d263e38d3f6d33bc2fac6c00d2566892d6bbe973cd7c74",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Research on automatic video summarization for long videos before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Scaling Up Video Summarization Pretraining with Large Language ...",
+                "link": "https://arxiv.org/html/2404.03398v1",
+                "snippet": "Long-form video content constitutes a significant portion of internet traffic, making automated video summarization an essential research problem.",
+                "date": "Apr 4, 2024",
+                "position": 1
+              },
+              {
+                "title": "CLIP-It! Language-Guided Video Summarization - arXiv",
+                "link": "https://arxiv.org/html/2107.00650v2",
+                "snippet": "This work introduces CLIP-It, a single framework for addressing both generic and query-focused video summarization, typically approached separately in the ...",
+                "date": "Dec 8, 2021",
+                "position": 2
+              },
+              {
+                "title": "[PDF] Video Summarization Overview arXiv:2210.11707v1 [cs.CV] 21 Oct ...",
+                "link": "https://arxiv.org/pdf/2210.11707",
+                "snippet": "Video summariza- tion facilitates quickly grasping video content by creating a compact summary of videos. Much effort has been devoted to automatic video ...",
+                "date": "Oct 21, 2022",
+                "position": 3
+              },
+              {
+                "title": "How Good is a Video Summary? A New Benchmarking Dataset and ...",
+                "link": "https://arxiv.org/abs/2101.10514",
+                "snippet": "Automatic video summarization is still an unsolved problem due to several challenges. The currently available datasets either have very short videos or have few ...",
+                "date": "Jan 26, 2021",
+                "position": 4
+              },
+              {
+                "title": "Exploring Global Diversity and Local Context for Video Summarization",
+                "link": "https://arxiv.org/html/2201.11345v2",
+                "snippet": "Abstract. Video summarization aims to automatically generate a diverse and concise summary which is useful in large-scale video processing.",
+                "date": "Mar 27, 2022",
+                "position": 5
+              },
+              {
+                "title": "Rethinking the Evaluation of Video Summaries - arXiv",
+                "link": "https://arxiv.org/html/1903.11328v2",
+                "snippet": "Video summarization is a technique to create a short skim of the original video while preserving the main stories/content.",
+                "date": "Apr 11, 2019",
+                "position": 6
+              },
+              {
+                "title": "[PDF] Video Summarization with Attention-Based Encoder-Decoder ... - arXiv",
+                "link": "https://arxiv.org/pdf/1708.09545",
+                "snippet": "Abstract—This paper addresses the problem of supervised video summarization by formulating it as a sequence-to-sequence learning problem, where the input is ...",
+                "date": "Aug 31, 2017",
+                "position": 7
+              },
+              {
+                "title": "Scaling Up Video Summarization Pretraining with Large Language ...",
+                "link": "https://arxiv.org/abs/2404.03398",
+                "snippet": "We introduce an automated and scalable pipeline for generating a large-scale video summarization dataset using LLMs as Oracle summarizers. By leveraging the ...",
+                "date": "Apr 4, 2024",
+                "position": 8
+              },
+              {
+                "title": "[1605.08110] Video Summarization with Long Short-term Memory",
+                "link": "https://arxiv.org/abs/1605.08110",
+                "snippet": "Abstract:We propose a novel supervised learning technique for summarizing videos by automatically selecting keyframes or key subshots.",
+                "date": "May 26, 2016",
+                "position": 9
+              },
+              {
+                "title": "Video Joint Modelling Based on Hierarchical Transformer for Co ...",
+                "link": "https://arxiv.org/html/2112.13478v2",
+                "snippet": "Video summarization aims to automatically generate a summary (storyboard or video skim) of a video, which can facilitate large-scale video retrieval and ...",
+                "date": "Jun 29, 2022",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:28.479698+00:00",
+          "elapsed_seconds": 0.7746227085590363
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1605.08110",
+        "1708.09545",
+        "1903.11328",
+        "2101.10514",
+        "2107.00650",
+        "2112.13478",
+        "2201.11345",
+        "2210.11707",
+        "2404.03398"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2404.03398",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2404.03398v1",
+          "title": "Scaling Up Video Summarization Pretraining with Large Language ...",
+          "snippet": "Long-form video content constitutes a significant portion of internet traffic, making automated video summarization an essential research problem."
+        },
+        {
+          "arxiv_id": "2107.00650",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2107.00650v2",
+          "title": "CLIP-It! Language-Guided Video Summarization - arXiv",
+          "snippet": "This work introduces CLIP-It, a single framework for addressing both generic and query-focused video summarization, typically approached separately in the ..."
+        },
+        {
+          "arxiv_id": "2210.11707",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2210.11707",
+          "title": "[PDF] Video Summarization Overview arXiv:2210.11707v1 [cs.CV] 21 Oct ...",
+          "snippet": "Video summariza- tion facilitates quickly grasping video content by creating a compact summary of videos. Much effort has been devoted to automatic video ..."
+        },
+        {
+          "arxiv_id": "2101.10514",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2101.10514",
+          "title": "How Good is a Video Summary? A New Benchmarking Dataset and ...",
+          "snippet": "Automatic video summarization is still an unsolved problem due to several challenges. The currently available datasets either have very short videos or have few ..."
+        },
+        {
+          "arxiv_id": "2201.11345",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2201.11345v2",
+          "title": "Exploring Global Diversity and Local Context for Video Summarization",
+          "snippet": "Abstract. Video summarization aims to automatically generate a diverse and concise summary which is useful in large-scale video processing."
+        },
+        {
+          "arxiv_id": "1903.11328",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/1903.11328v2",
+          "title": "Rethinking the Evaluation of Video Summaries - arXiv",
+          "snippet": "Video summarization is a technique to create a short skim of the original video while preserving the main stories/content."
+        },
+        {
+          "arxiv_id": "1708.09545",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/1708.09545",
+          "title": "[PDF] Video Summarization with Attention-Based Encoder-Decoder ... - arXiv",
+          "snippet": "Abstract—This paper addresses the problem of supervised video summarization by formulating it as a sequence-to-sequence learning problem, where the input is ..."
+        },
+        {
+          "arxiv_id": "2404.03398",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2404.03398",
+          "title": "Scaling Up Video Summarization Pretraining with Large Language ...",
+          "snippet": "We introduce an automated and scalable pipeline for generating a large-scale video summarization dataset using LLMs as Oracle summarizers. By leveraging the ..."
+        },
+        {
+          "arxiv_id": "1605.08110",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/1605.08110",
+          "title": "[1605.08110] Video Summarization with Long Short-term Memory",
+          "snippet": "Abstract:We propose a novel supervised learning technique for summarizing videos by automatically selecting keyframes or key subshots."
+        },
+        {
+          "arxiv_id": "2112.13478",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2112.13478v2",
+          "title": "Video Joint Modelling Based on Hierarchical Transformer for Co ...",
+          "snippet": "Video summarization aims to automatically generate a summary (storyboard or video skim) of a video, which can facilitate large-scale video retrieval and ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Research on automatic video summarization for long videos before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Long video description research papers",
+      "attempts": [
+        {
+          "global_attempt_sequence": 46,
+          "query_id": "Q7",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Long video description research papers",
+          "request_payload": {
+            "q": "Long video description research papers before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q7_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:25:28.527631+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Long video description research papers before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"A Survey on Long Video Generation: Challenges, Methods ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.16407v1\",\"snippet\":\"This paper presents the first survey of recent advancements in long video generation and summarises them into two key paradigms: divide and conquer or temporal ...\",\"date\":\"Mar 25, 2024\",\"position\":1},{\"title\":\"Assessing the Effects of YouTube Shorts on Long-Form Video Content\",\"link\":\"https://arxiv.org/html/2402.18208v1\",\"snippet\":\"This study aims to elucidate the impact of short-form content on the engagement and viewership of long-form videos among YouTube creators.\",\"date\":\"Feb 28, 2024\",\"position\":2},{\"title\":\"A Survey of Methods, Datasets and Evaluation Metrics - arXiv\",\"link\":\"https://arxiv.org/abs/1806.00186\",\"snippet\":\"Abstract:Video description is the automatic generation of natural language sentences that describe the contents of a given video.\",\"date\":\"Jun 1, 2018\",\"position\":3},{\"title\":\"[2303.15616] Fine-grained Audible Video Description - arXiv\",\"link\":\"https://arxiv.org/abs/2303.15616\",\"snippet\":\"It aims to provide detailed textual descriptions for the given audible videos, including the appearance and spatial locations of each object, the actions of ...\",\"date\":\"Mar 27, 2023\",\"position\":4},{\"title\":\"Bidirectional Long-Short Term Memory for Video Description - arXiv\",\"link\":\"https://arxiv.org/abs/1606.04631\",\"snippet\":\"In this work, we propose a novel video captioning framework, ), which deeply captures bidirectional global temporal structure in video.\",\"date\":\"Jun 15, 2016\",\"position\":5},{\"title\":\"A Survey on Generative AI and LLM for Video Generation ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.16038v1\",\"snippet\":\"The techniques discussed in this paper demonstrate the potential of LLMs for video scene understanding. However, these techniques also have limitations, such as ...\",\"date\":\"Jan 30, 2024\",\"position\":6},{\"title\":\"Video Storytelling: Textual Summaries for Events - arXiv\",\"link\":\"https://arxiv.org/html/1807.09418v3\",\"snippet\":\"In this paper, we introduce a new problem: visual storytelling of long videos. Specifically, we aim to compose coherent and succinct stories for videos that ...\",\"date\":\"May 14, 2020\",\"position\":7},{\"title\":\"[2103.14785] A Comprehensive Review of the Video-to-Text Problem\",\"link\":\"https://arxiv.org/abs/2103.14785\",\"snippet\":\"This paper reviews the video-to-text problem, in which the goal is to associate an input video with its textual description.\",\"date\":\"Mar 27, 2021\",\"position\":8},{\"title\":\"Retrieval-Based Video Language Model for Efficient Long ... - arXiv\",\"link\":\"https://arxiv.org/html/2312.04931v1\",\"snippet\":\"The collection and annotation of long video dataset is highly desired. We hope the research and industry committee work together to contribute large ...\",\"date\":\"Dec 8, 2023\",\"sitelinks\":[{\"title\":\"1 Introduction\",\"link\":\"https://arxiv.org/html/2312.04931v1#:~:text=1%20Introduction,-With%20the%20rapid%20development%20of\"},{\"title\":\"4 Experiments\",\"link\":\"https://arxiv.org/html/2312.04931v1#:~:text=.-,4%20Experiments\"},{\"title\":\"4.5 Ablation Studies\",\"link\":\"https://arxiv.org/html/2312.04931v1#:~:text=4.5%20Ablation%20Studies,-Table%203%3A%20Comparison%20of\"}],\"position\":9},{\"title\":\"InternVid: A Large-scale Video-Text Dataset for Multimodal ... - arXiv\",\"link\":\"https://arxiv.org/html/2307.06942v2\",\"snippet\":\"This paper introduces InternVid, a large-scale video-centric multimodal dataset that enables learning powerful and transferable video-text representations for ...\",\"date\":\"Jan 4, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJMb25nIHZpZGVvIGRlc2NyaXB0aW9uIHJlc2VhcmNoIHBhcGVycyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJBIFN1cnZleSBvbiBMb25nIFZpZGVvIEdlbmVyYXRpb246IENoYWxsZW5nZXMsIE1ldGhvZHMgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE2NDA3djEiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBwcmVzZW50cyB0aGUgZmlyc3Qgc3VydmV5IG9mIHJlY2VudCBhZHZhbmNlbWVudHMgaW4gbG9uZyB2aWRlbyBnZW5lcmF0aW9uIGFuZCBzdW1tYXJpc2VzIHRoZW0gaW50byB0d28ga2V5IHBhcmFkaWdtczogZGl2aWRlIGFuZCBjb25xdWVyIG9yIHRlbXBvcmFsIC4uLiIsImRhdGUiOiJNYXIgMjUsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkFzc2Vzc2luZyB0aGUgRWZmZWN0cyBvZiBZb3VUdWJlIFNob3J0cyBvbiBMb25nLUZvcm0gVmlkZW8gQ29udGVudCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTgyMDh2MSIsInNuaXBwZXQiOiJUaGlzIHN0dWR5IGFpbXMgdG8gZWx1Y2lkYXRlIHRoZSBpbXBhY3Qgb2Ygc2hvcnQtZm9ybSBjb250ZW50IG9uIHRoZSBlbmdhZ2VtZW50IGFuZCB2aWV3ZXJzaGlwIG9mIGxvbmctZm9ybSB2aWRlb3MgYW1vbmcgWW91VHViZSBjcmVhdG9ycy4iLCJkYXRlIjoiRmViIDI4LCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJBIFN1cnZleSBvZiBNZXRob2RzLCBEYXRhc2V0cyBhbmQgRXZhbHVhdGlvbiBNZXRyaWNzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzE4MDYuMDAxODYiLCJzbmlwcGV0IjoiQWJzdHJhY3Q6VmlkZW8gZGVzY3JpcHRpb24gaXMgdGhlIGF1dG9tYXRpYyBnZW5lcmF0aW9uIG9mIG5hdHVyYWwgbGFuZ3VhZ2Ugc2VudGVuY2VzIHRoYXQgZGVzY3JpYmUgdGhlIGNvbnRlbnRzIG9mIGEgZ2l2ZW4gdmlkZW8uIiwiZGF0ZSI6Ikp1biAxLCAyMDE4IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbMjMwMy4xNTYxNl0gRmluZS1ncmFpbmVkIEF1ZGlibGUgVmlkZW8gRGVzY3JpcHRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwMy4xNTYxNiIsInNuaXBwZXQiOiJJdCBhaW1zIHRvIHByb3ZpZGUgZGV0YWlsZWQgdGV4dHVhbCBkZXNjcmlwdGlvbnMgZm9yIHRoZSBnaXZlbiBhdWRpYmxlIHZpZGVvcywgaW5jbHVkaW5nIHRoZSBhcHBlYXJhbmNlIGFuZCBzcGF0aWFsIGxvY2F0aW9ucyBvZiBlYWNoIG9iamVjdCwgdGhlIGFjdGlvbnMgb2YgLi4uIiwiZGF0ZSI6Ik1hciAyNywgMjAyMyIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiQmlkaXJlY3Rpb25hbCBMb25nLVNob3J0IFRlcm0gTWVtb3J5IGZvciBWaWRlbyBEZXNjcmlwdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8xNjA2LjA0NjMxIiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgcHJvcG9zZSBhIG5vdmVsIHZpZGVvIGNhcHRpb25pbmcgZnJhbWV3b3JrLCApLCB3aGljaCBkZWVwbHkgY2FwdHVyZXMgYmlkaXJlY3Rpb25hbCBnbG9iYWwgdGVtcG9yYWwgc3RydWN0dXJlIGluIHZpZGVvLiIsImRhdGUiOiJKdW4gMTUsIDIwMTYiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkEgU3VydmV5IG9uIEdlbmVyYXRpdmUgQUkgYW5kIExMTSBmb3IgVmlkZW8gR2VuZXJhdGlvbiAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMTYwMzh2MSIsInNuaXBwZXQiOiJUaGUgdGVjaG5pcXVlcyBkaXNjdXNzZWQgaW4gdGhpcyBwYXBlciBkZW1vbnN0cmF0ZSB0aGUgcG90ZW50aWFsIG9mIExMTXMgZm9yIHZpZGVvIHNjZW5lIHVuZGVyc3RhbmRpbmcuIEhvd2V2ZXIsIHRoZXNlIHRlY2huaXF1ZXMgYWxzbyBoYXZlIGxpbWl0YXRpb25zLCBzdWNoIGFzIC4uLiIsImRhdGUiOiJKYW4gMzAsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlZpZGVvIFN0b3J5dGVsbGluZzogVGV4dHVhbCBTdW1tYXJpZXMgZm9yIEV2ZW50cyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTgwNy4wOTQxOHYzIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGludHJvZHVjZSBhIG5ldyBwcm9ibGVtOiB2aXN1YWwgc3Rvcnl0ZWxsaW5nIG9mIGxvbmcgdmlkZW9zLiBTcGVjaWZpY2FsbHksIHdlIGFpbSB0byBjb21wb3NlIGNvaGVyZW50IGFuZCBzdWNjaW5jdCBzdG9yaWVzIGZvciB2aWRlb3MgdGhhdCAuLi4iLCJkYXRlIjoiTWF5IDE0LCAyMDIwIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbMjEwMy4xNDc4NV0gQSBDb21wcmVoZW5zaXZlIFJldmlldyBvZiB0aGUgVmlkZW8tdG8tVGV4dCBQcm9ibGVtIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMTAzLjE0Nzg1Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgcmV2aWV3cyB0aGUgdmlkZW8tdG8tdGV4dCBwcm9ibGVtLCBpbiB3aGljaCB0aGUgZ29hbCBpcyB0byBhc3NvY2lhdGUgYW4gaW5wdXQgdmlkZW8gd2l0aCBpdHMgdGV4dHVhbCBkZXNjcmlwdGlvbi4iLCJkYXRlIjoiTWFyIDI3LCAyMDIxIiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJSZXRyaWV2YWwtQmFzZWQgVmlkZW8gTGFuZ3VhZ2UgTW9kZWwgZm9yIEVmZmljaWVudCBMb25nIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4wNDkzMXYxIiwic25pcHBldCI6IlRoZSBjb2xsZWN0aW9uIGFuZCBhbm5vdGF0aW9uIG9mIGxvbmcgdmlkZW8gZGF0YXNldCBpcyBoaWdobHkgZGVzaXJlZC4gV2UgaG9wZSB0aGUgcmVzZWFyY2ggYW5kIGluZHVzdHJ5IGNvbW1pdHRlZSB3b3JrIHRvZ2V0aGVyIHRvIGNvbnRyaWJ1dGUgbGFyZ2UgLi4uIiwiZGF0ZSI6IkRlYyA4LCAyMDIzIiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjEgSW50cm9kdWN0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4wNDkzMXYxIzp+OnRleHQ9MSUyMEludHJvZHVjdGlvbiwtV2l0aCUyMHRoZSUyMHJhcGlkJTIwZGV2ZWxvcG1lbnQlMjBvZiJ9LHsidGl0bGUiOiI0IEV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4wNDkzMXYxIzp+OnRleHQ9Li0sNCUyMEV4cGVyaW1lbnRzIn0seyJ0aXRsZSI6IjQuNSBBYmxhdGlvbiBTdHVkaWVzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4wNDkzMXYxIzp+OnRleHQ9NC41JTIwQWJsYXRpb24lMjBTdHVkaWVzLC1UYWJsZSUyMDMlM0ElMjBDb21wYXJpc29uJTIwb2YifV0sInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiSW50ZXJuVmlkOiBBIExhcmdlLXNjYWxlIFZpZGVvLVRleHQgRGF0YXNldCBmb3IgTXVsdGltb2RhbCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDcuMDY5NDJ2MiIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIGludHJvZHVjZXMgSW50ZXJuVmlkLCBhIGxhcmdlLXNjYWxlIHZpZGVvLWNlbnRyaWMgbXVsdGltb2RhbCBkYXRhc2V0IHRoYXQgZW5hYmxlcyBsZWFybmluZyBwb3dlcmZ1bCBhbmQgdHJhbnNmZXJhYmxlIHZpZGVvLXRleHQgcmVwcmVzZW50YXRpb25zIGZvciAuLi4iLCJkYXRlIjoiSmFuIDQsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "ab9a676e65b1e50005353bb2ebe09bf439b534a4b536782d753c0e6fa109848f",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Long video description research papers before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+                "link": "https://arxiv.org/html/2403.16407v1",
+                "snippet": "This paper presents the first survey of recent advancements in long video generation and summarises them into two key paradigms: divide and conquer or temporal ...",
+                "date": "Mar 25, 2024",
+                "position": 1
+              },
+              {
+                "title": "Assessing the Effects of YouTube Shorts on Long-Form Video Content",
+                "link": "https://arxiv.org/html/2402.18208v1",
+                "snippet": "This study aims to elucidate the impact of short-form content on the engagement and viewership of long-form videos among YouTube creators.",
+                "date": "Feb 28, 2024",
+                "position": 2
+              },
+              {
+                "title": "A Survey of Methods, Datasets and Evaluation Metrics - arXiv",
+                "link": "https://arxiv.org/abs/1806.00186",
+                "snippet": "Abstract:Video description is the automatic generation of natural language sentences that describe the contents of a given video.",
+                "date": "Jun 1, 2018",
+                "position": 3
+              },
+              {
+                "title": "[2303.15616] Fine-grained Audible Video Description - arXiv",
+                "link": "https://arxiv.org/abs/2303.15616",
+                "snippet": "It aims to provide detailed textual descriptions for the given audible videos, including the appearance and spatial locations of each object, the actions of ...",
+                "date": "Mar 27, 2023",
+                "position": 4
+              },
+              {
+                "title": "Bidirectional Long-Short Term Memory for Video Description - arXiv",
+                "link": "https://arxiv.org/abs/1606.04631",
+                "snippet": "In this work, we propose a novel video captioning framework, ), which deeply captures bidirectional global temporal structure in video.",
+                "date": "Jun 15, 2016",
+                "position": 5
+              },
+              {
+                "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+                "link": "https://arxiv.org/html/2404.16038v1",
+                "snippet": "The techniques discussed in this paper demonstrate the potential of LLMs for video scene understanding. However, these techniques also have limitations, such as ...",
+                "date": "Jan 30, 2024",
+                "position": 6
+              },
+              {
+                "title": "Video Storytelling: Textual Summaries for Events - arXiv",
+                "link": "https://arxiv.org/html/1807.09418v3",
+                "snippet": "In this paper, we introduce a new problem: visual storytelling of long videos. Specifically, we aim to compose coherent and succinct stories for videos that ...",
+                "date": "May 14, 2020",
+                "position": 7
+              },
+              {
+                "title": "[2103.14785] A Comprehensive Review of the Video-to-Text Problem",
+                "link": "https://arxiv.org/abs/2103.14785",
+                "snippet": "This paper reviews the video-to-text problem, in which the goal is to associate an input video with its textual description.",
+                "date": "Mar 27, 2021",
+                "position": 8
+              },
+              {
+                "title": "Retrieval-Based Video Language Model for Efficient Long ... - arXiv",
+                "link": "https://arxiv.org/html/2312.04931v1",
+                "snippet": "The collection and annotation of long video dataset is highly desired. We hope the research and industry committee work together to contribute large ...",
+                "date": "Dec 8, 2023",
+                "sitelinks": [
+                  {
+                    "title": "1 Introduction",
+                    "link": "https://arxiv.org/html/2312.04931v1#:~:text=1%20Introduction,-With%20the%20rapid%20development%20of"
+                  },
+                  {
+                    "title": "4 Experiments",
+                    "link": "https://arxiv.org/html/2312.04931v1#:~:text=.-,4%20Experiments"
+                  },
+                  {
+                    "title": "4.5 Ablation Studies",
+                    "link": "https://arxiv.org/html/2312.04931v1#:~:text=4.5%20Ablation%20Studies,-Table%203%3A%20Comparison%20of"
+                  }
+                ],
+                "position": 9
+              },
+              {
+                "title": "InternVid: A Large-scale Video-Text Dataset for Multimodal ... - arXiv",
+                "link": "https://arxiv.org/html/2307.06942v2",
+                "snippet": "This paper introduces InternVid, a large-scale video-centric multimodal dataset that enables learning powerful and transferable video-text representations for ...",
+                "date": "Jan 4, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:29.453324+00:00",
+          "elapsed_seconds": 0.9256934523582458
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1606.04631",
+        "1806.00186",
+        "1807.09418",
+        "2103.14785",
+        "2303.15616",
+        "2307.06942",
+        "2312.04931",
+        "2402.18208",
+        "2403.16407",
+        "2404.16038"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.16407",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2403.16407v1",
+          "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+          "snippet": "This paper presents the first survey of recent advancements in long video generation and summarises them into two key paradigms: divide and conquer or temporal ..."
+        },
+        {
+          "arxiv_id": "2402.18208",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2402.18208v1",
+          "title": "Assessing the Effects of YouTube Shorts on Long-Form Video Content",
+          "snippet": "This study aims to elucidate the impact of short-form content on the engagement and viewership of long-form videos among YouTube creators."
+        },
+        {
+          "arxiv_id": "1806.00186",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/1806.00186",
+          "title": "A Survey of Methods, Datasets and Evaluation Metrics - arXiv",
+          "snippet": "Abstract:Video description is the automatic generation of natural language sentences that describe the contents of a given video."
+        },
+        {
+          "arxiv_id": "2303.15616",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2303.15616",
+          "title": "[2303.15616] Fine-grained Audible Video Description - arXiv",
+          "snippet": "It aims to provide detailed textual descriptions for the given audible videos, including the appearance and spatial locations of each object, the actions of ..."
+        },
+        {
+          "arxiv_id": "1606.04631",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/1606.04631",
+          "title": "Bidirectional Long-Short Term Memory for Video Description - arXiv",
+          "snippet": "In this work, we propose a novel video captioning framework, ), which deeply captures bidirectional global temporal structure in video."
+        },
+        {
+          "arxiv_id": "2404.16038",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2404.16038v1",
+          "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+          "snippet": "The techniques discussed in this paper demonstrate the potential of LLMs for video scene understanding. However, these techniques also have limitations, such as ..."
+        },
+        {
+          "arxiv_id": "1807.09418",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/1807.09418v3",
+          "title": "Video Storytelling: Textual Summaries for Events - arXiv",
+          "snippet": "In this paper, we introduce a new problem: visual storytelling of long videos. Specifically, we aim to compose coherent and succinct stories for videos that ..."
+        },
+        {
+          "arxiv_id": "2103.14785",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2103.14785",
+          "title": "[2103.14785] A Comprehensive Review of the Video-to-Text Problem",
+          "snippet": "This paper reviews the video-to-text problem, in which the goal is to associate an input video with its textual description."
+        },
+        {
+          "arxiv_id": "2312.04931",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2312.04931v1",
+          "title": "Retrieval-Based Video Language Model for Efficient Long ... - arXiv",
+          "snippet": "The collection and annotation of long video dataset is highly desired. We hope the research and industry committee work together to contribute large ..."
+        },
+        {
+          "arxiv_id": "2307.06942",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2307.06942v2",
+          "title": "InternVid: A Large-scale Video-Text Dataset for Multimodal ... - arXiv",
+          "snippet": "This paper introduces InternVid, a large-scale video-centric multimodal dataset that enables learning powerful and transferable video-text representations for ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Long video description research papers before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Studies on multi-modal language models for long video understanding",
+      "attempts": [
+        {
+          "global_attempt_sequence": 47,
+          "query_id": "Q7",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Studies on multi-modal language models for long video understanding",
+          "request_payload": {
+            "q": "Studies on multi-modal language models for long video understanding before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q7_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:25:29.501962+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Studies on multi-modal language models for long video understanding before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"MA-LMM: Memory-Augmented Large Multimodal Model for Long ...\",\"link\":\"https://arxiv.org/abs/2404.05726\",\"snippet\":\"In this study, we mainly focus on designing an efficient and effective model for long-term video understanding.\",\"date\":\"Apr 8, 2024\",\"position\":1},{\"title\":\"Video Understanding with Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/abs/2312.17432\",\"snippet\":\"Given the remarkable capabilities of large language models (LLMs) in language and multimodal tasks, this survey provides a detailed overview of recent ...\",\"date\":\"Dec 29, 2023\",\"position\":2},{\"title\":\"Video Understanding with Large Language Models:A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.17432v2\",\"snippet\":\"Multi-modal video understanding requires the integration of different types of data such as visual, audio, and text for a better understanding of videos.\",\"date\":\"Jan 4, 2024\",\"position\":3},{\"title\":\"A Comprehensive Review of Multimodal Large Language Models\",\"link\":\"https://arxiv.org/html/2408.01319v1\",\"snippet\":\"MLLMs transform NLP by incorporating visual and auditory data, thus enriching text generation and machine translation\",\"date\":\"Aug 2, 2024\",\"position\":4},{\"title\":\"Video Understanding with Large Language Models:A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.17432v4\",\"snippet\":\"this survey provides a detailed overview of recent advancements in video understanding that harness the power of LLMs (Vid-LLMs). We examine the unique ...\",\"date\":\"Jul 24, 2024\",\"position\":5},{\"title\":\"Efficient Long Video Understanding via Large Language Models\",\"link\":\"https://arxiv.org/html/2404.03384v3\",\"snippet\":\"LongVLM, a simple yet powerful VideoLLM for long video understanding, building upon the observation that long videos often consist of sequential key events, ...\",\"date\":\"Jul 20, 2024\",\"position\":6},{\"title\":\"The Surprising Effectiveness of Multimodal Large Language Models ...\",\"link\":\"https://arxiv.org/html/2406.18113v2\",\"snippet\":\"Recent studies have shown promising results in utilizing multimodal large language models (MLLMs) for computer vision tasks such as object detection and ...\",\"date\":\"Jul 24, 2024\",\"position\":7},{\"title\":\"Video-MME: The First-Ever Comprehensive Evaluation Benchmark ...\",\"link\":\"https://arxiv.org/html/2405.21075v1\",\"snippet\":\"In this paper, we introduce Video-MME, the first-ever full-spectrum, Multi-Modal E to facilitate precise and reliable model assessment. 900 videos\",\"date\":\"May 31, 2024\",\"position\":8},{\"title\":\"MM-LLMs: Recent Advances in MultiModal Large Language Models\",\"link\":\"https://arxiv.org/html/2401.13601v1\",\"snippet\":\"In the past year, MultiModal Large Language Models (MM-LLMs) have undergone substantial advancements, augmenting off-the-shelf LLMs to support MM inputs or ...\",\"date\":\"Jan 24, 2024\",\"position\":9},{\"title\":\"Streaming Long Video Understanding with Large Language Models\",\"link\":\"https://arxiv.org/html/2405.16009v1\",\"snippet\":\"The evolution of Large Language Models (LLMs) has significantly advanced artificial intelligence, encompassing text generation and reasoning in complex language ...\",\"date\":\"May 25, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdHVkaWVzIG9uIG11bHRpLW1vZGFsIGxhbmd1YWdlIG1vZGVscyBmb3IgbG9uZyB2aWRlbyB1bmRlcnN0YW5kaW5nIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6Ik1BLUxNTTogTWVtb3J5LUF1Z21lbnRlZCBMYXJnZSBNdWx0aW1vZGFsIE1vZGVsIGZvciBMb25nIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNC4wNTcyNiIsInNuaXBwZXQiOiJJbiB0aGlzIHN0dWR5LCB3ZSBtYWlubHkgZm9jdXMgb24gZGVzaWduaW5nIGFuIGVmZmljaWVudCBhbmQgZWZmZWN0aXZlIG1vZGVsIGZvciBsb25nLXRlcm0gdmlkZW8gdW5kZXJzdGFuZGluZy4iLCJkYXRlIjoiQXByIDgsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlZpZGVvIFVuZGVyc3RhbmRpbmcgd2l0aCBMYXJnZSBMYW5ndWFnZSBNb2RlbHM6IEEgU3VydmV5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMTIuMTc0MzIiLCJzbmlwcGV0IjoiR2l2ZW4gdGhlIHJlbWFya2FibGUgY2FwYWJpbGl0aWVzIG9mIGxhcmdlIGxhbmd1YWdlIG1vZGVscyAoTExNcykgaW4gbGFuZ3VhZ2UgYW5kIG11bHRpbW9kYWwgdGFza3MsIHRoaXMgc3VydmV5IHByb3ZpZGVzIGEgZGV0YWlsZWQgb3ZlcnZpZXcgb2YgcmVjZW50IC4uLiIsImRhdGUiOiJEZWMgMjksIDIwMjMiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlZpZGVvIFVuZGVyc3RhbmRpbmcgd2l0aCBMYXJnZSBMYW5ndWFnZSBNb2RlbHM6QSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTIuMTc0MzJ2MiIsInNuaXBwZXQiOiJNdWx0aS1tb2RhbCB2aWRlbyB1bmRlcnN0YW5kaW5nIHJlcXVpcmVzIHRoZSBpbnRlZ3JhdGlvbiBvZiBkaWZmZXJlbnQgdHlwZXMgb2YgZGF0YSBzdWNoIGFzIHZpc3VhbCwgYXVkaW8sIGFuZCB0ZXh0IGZvciBhIGJldHRlciB1bmRlcnN0YW5kaW5nIG9mIHZpZGVvcy4iLCJkYXRlIjoiSmFuIDQsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkEgQ29tcHJlaGVuc2l2ZSBSZXZpZXcgb2YgTXVsdGltb2RhbCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjAxMzE5djEiLCJzbmlwcGV0IjoiTUxMTXMgdHJhbnNmb3JtIE5MUCBieSBpbmNvcnBvcmF0aW5nIHZpc3VhbCBhbmQgYXVkaXRvcnkgZGF0YSwgdGh1cyBlbnJpY2hpbmcgdGV4dCBnZW5lcmF0aW9uIGFuZCBtYWNoaW5lIHRyYW5zbGF0aW9uIiwiZGF0ZSI6IkF1ZyAyLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJWaWRlbyBVbmRlcnN0YW5kaW5nIHdpdGggTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzOkEgU3VydmV5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEyLjE3NDMydjQiLCJzbmlwcGV0IjoidGhpcyBzdXJ2ZXkgcHJvdmlkZXMgYSBkZXRhaWxlZCBvdmVydmlldyBvZiByZWNlbnQgYWR2YW5jZW1lbnRzIGluIHZpZGVvIHVuZGVyc3RhbmRpbmcgdGhhdCBoYXJuZXNzIHRoZSBwb3dlciBvZiBMTE1zIChWaWQtTExNcykuIFdlIGV4YW1pbmUgdGhlIHVuaXF1ZSAuLi4iLCJkYXRlIjoiSnVsIDI0LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJFZmZpY2llbnQgTG9uZyBWaWRlbyBVbmRlcnN0YW5kaW5nIHZpYSBMYXJnZSBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjAzMzg0djMiLCJzbmlwcGV0IjoiTG9uZ1ZMTSwgYSBzaW1wbGUgeWV0IHBvd2VyZnVsIFZpZGVvTExNIGZvciBsb25nIHZpZGVvIHVuZGVyc3RhbmRpbmcsIGJ1aWxkaW5nIHVwb24gdGhlIG9ic2VydmF0aW9uIHRoYXQgbG9uZyB2aWRlb3Mgb2Z0ZW4gY29uc2lzdCBvZiBzZXF1ZW50aWFsIGtleSBldmVudHMsIC4uLiIsImRhdGUiOiJKdWwgMjAsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlRoZSBTdXJwcmlzaW5nIEVmZmVjdGl2ZW5lc3Mgb2YgTXVsdGltb2RhbCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4xODExM3YyIiwic25pcHBldCI6IlJlY2VudCBzdHVkaWVzIGhhdmUgc2hvd24gcHJvbWlzaW5nIHJlc3VsdHMgaW4gdXRpbGl6aW5nIG11bHRpbW9kYWwgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChNTExNcykgZm9yIGNvbXB1dGVyIHZpc2lvbiB0YXNrcyBzdWNoIGFzIG9iamVjdCBkZXRlY3Rpb24gYW5kIC4uLiIsImRhdGUiOiJKdWwgMjQsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlZpZGVvLU1NRTogVGhlIEZpcnN0LUV2ZXIgQ29tcHJlaGVuc2l2ZSBFdmFsdWF0aW9uIEJlbmNobWFyayAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjIxMDc1djEiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgaW50cm9kdWNlIFZpZGVvLU1NRSwgdGhlIGZpcnN0LWV2ZXIgZnVsbC1zcGVjdHJ1bSwgTXVsdGktTW9kYWwgRSB0byBmYWNpbGl0YXRlIHByZWNpc2UgYW5kIHJlbGlhYmxlIG1vZGVsIGFzc2Vzc21lbnQuIDkwMCB2aWRlb3MiLCJkYXRlIjoiTWF5IDMxLCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJNTS1MTE1zOiBSZWNlbnQgQWR2YW5jZXMgaW4gTXVsdGlNb2RhbCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAxLjEzNjAxdjEiLCJzbmlwcGV0IjoiSW4gdGhlIHBhc3QgeWVhciwgTXVsdGlNb2RhbCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKE1NLUxMTXMpIGhhdmUgdW5kZXJnb25lIHN1YnN0YW50aWFsIGFkdmFuY2VtZW50cywgYXVnbWVudGluZyBvZmYtdGhlLXNoZWxmIExMTXMgdG8gc3VwcG9ydCBNTSBpbnB1dHMgb3IgLi4uIiwiZGF0ZSI6IkphbiAyNCwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiU3RyZWFtaW5nIExvbmcgVmlkZW8gVW5kZXJzdGFuZGluZyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMTYwMDl2MSIsInNuaXBwZXQiOiJUaGUgZXZvbHV0aW9uIG9mIExhcmdlIExhbmd1YWdlIE1vZGVscyAoTExNcykgaGFzIHNpZ25pZmljYW50bHkgYWR2YW5jZWQgYXJ0aWZpY2lhbCBpbnRlbGxpZ2VuY2UsIGVuY29tcGFzc2luZyB0ZXh0IGdlbmVyYXRpb24gYW5kIHJlYXNvbmluZyBpbiBjb21wbGV4IGxhbmd1YWdlIC4uLiIsImRhdGUiOiJNYXkgMjUsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "f896a4ac6de701af7dc37c112b5178e31e75402a9741580ed5b204f7efe0c415",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Studies on multi-modal language models for long video understanding before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "MA-LMM: Memory-Augmented Large Multimodal Model for Long ...",
+                "link": "https://arxiv.org/abs/2404.05726",
+                "snippet": "In this study, we mainly focus on designing an efficient and effective model for long-term video understanding.",
+                "date": "Apr 8, 2024",
+                "position": 1
+              },
+              {
+                "title": "Video Understanding with Large Language Models: A Survey - arXiv",
+                "link": "https://arxiv.org/abs/2312.17432",
+                "snippet": "Given the remarkable capabilities of large language models (LLMs) in language and multimodal tasks, this survey provides a detailed overview of recent ...",
+                "date": "Dec 29, 2023",
+                "position": 2
+              },
+              {
+                "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+                "link": "https://arxiv.org/html/2312.17432v2",
+                "snippet": "Multi-modal video understanding requires the integration of different types of data such as visual, audio, and text for a better understanding of videos.",
+                "date": "Jan 4, 2024",
+                "position": 3
+              },
+              {
+                "title": "A Comprehensive Review of Multimodal Large Language Models",
+                "link": "https://arxiv.org/html/2408.01319v1",
+                "snippet": "MLLMs transform NLP by incorporating visual and auditory data, thus enriching text generation and machine translation",
+                "date": "Aug 2, 2024",
+                "position": 4
+              },
+              {
+                "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+                "link": "https://arxiv.org/html/2312.17432v4",
+                "snippet": "this survey provides a detailed overview of recent advancements in video understanding that harness the power of LLMs (Vid-LLMs). We examine the unique ...",
+                "date": "Jul 24, 2024",
+                "position": 5
+              },
+              {
+                "title": "Efficient Long Video Understanding via Large Language Models",
+                "link": "https://arxiv.org/html/2404.03384v3",
+                "snippet": "LongVLM, a simple yet powerful VideoLLM for long video understanding, building upon the observation that long videos often consist of sequential key events, ...",
+                "date": "Jul 20, 2024",
+                "position": 6
+              },
+              {
+                "title": "The Surprising Effectiveness of Multimodal Large Language Models ...",
+                "link": "https://arxiv.org/html/2406.18113v2",
+                "snippet": "Recent studies have shown promising results in utilizing multimodal large language models (MLLMs) for computer vision tasks such as object detection and ...",
+                "date": "Jul 24, 2024",
+                "position": 7
+              },
+              {
+                "title": "Video-MME: The First-Ever Comprehensive Evaluation Benchmark ...",
+                "link": "https://arxiv.org/html/2405.21075v1",
+                "snippet": "In this paper, we introduce Video-MME, the first-ever full-spectrum, Multi-Modal E to facilitate precise and reliable model assessment. 900 videos",
+                "date": "May 31, 2024",
+                "position": 8
+              },
+              {
+                "title": "MM-LLMs: Recent Advances in MultiModal Large Language Models",
+                "link": "https://arxiv.org/html/2401.13601v1",
+                "snippet": "In the past year, MultiModal Large Language Models (MM-LLMs) have undergone substantial advancements, augmenting off-the-shelf LLMs to support MM inputs or ...",
+                "date": "Jan 24, 2024",
+                "position": 9
+              },
+              {
+                "title": "Streaming Long Video Understanding with Large Language Models",
+                "link": "https://arxiv.org/html/2405.16009v1",
+                "snippet": "The evolution of Large Language Models (LLMs) has significantly advanced artificial intelligence, encompassing text generation and reasoning in complex language ...",
+                "date": "May 25, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:30.518074+00:00",
+          "elapsed_seconds": 1.0161142908036709
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2312.17432",
+        "2401.13601",
+        "2404.03384",
+        "2404.05726",
+        "2405.16009",
+        "2405.21075",
+        "2406.18113",
+        "2408.01319"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2404.05726",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2404.05726",
+          "title": "MA-LMM: Memory-Augmented Large Multimodal Model for Long ...",
+          "snippet": "In this study, we mainly focus on designing an efficient and effective model for long-term video understanding."
+        },
+        {
+          "arxiv_id": "2312.17432",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2312.17432",
+          "title": "Video Understanding with Large Language Models: A Survey - arXiv",
+          "snippet": "Given the remarkable capabilities of large language models (LLMs) in language and multimodal tasks, this survey provides a detailed overview of recent ..."
+        },
+        {
+          "arxiv_id": "2312.17432",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2312.17432v2",
+          "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+          "snippet": "Multi-modal video understanding requires the integration of different types of data such as visual, audio, and text for a better understanding of videos."
+        },
+        {
+          "arxiv_id": "2408.01319",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2408.01319v1",
+          "title": "A Comprehensive Review of Multimodal Large Language Models",
+          "snippet": "MLLMs transform NLP by incorporating visual and auditory data, thus enriching text generation and machine translation"
+        },
+        {
+          "arxiv_id": "2312.17432",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2312.17432v4",
+          "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+          "snippet": "this survey provides a detailed overview of recent advancements in video understanding that harness the power of LLMs (Vid-LLMs). We examine the unique ..."
+        },
+        {
+          "arxiv_id": "2404.03384",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2404.03384v3",
+          "title": "Efficient Long Video Understanding via Large Language Models",
+          "snippet": "LongVLM, a simple yet powerful VideoLLM for long video understanding, building upon the observation that long videos often consist of sequential key events, ..."
+        },
+        {
+          "arxiv_id": "2406.18113",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2406.18113v2",
+          "title": "The Surprising Effectiveness of Multimodal Large Language Models ...",
+          "snippet": "Recent studies have shown promising results in utilizing multimodal large language models (MLLMs) for computer vision tasks such as object detection and ..."
+        },
+        {
+          "arxiv_id": "2405.21075",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2405.21075v1",
+          "title": "Video-MME: The First-Ever Comprehensive Evaluation Benchmark ...",
+          "snippet": "In this paper, we introduce Video-MME, the first-ever full-spectrum, Multi-Modal E to facilitate precise and reliable model assessment. 900 videos"
+        },
+        {
+          "arxiv_id": "2401.13601",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2401.13601v1",
+          "title": "MM-LLMs: Recent Advances in MultiModal Large Language Models",
+          "snippet": "In the past year, MultiModal Large Language Models (MM-LLMs) have undergone substantial advancements, augmenting off-the-shelf LLMs to support MM inputs or ..."
+        },
+        {
+          "arxiv_id": "2405.16009",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2405.16009v1",
+          "title": "Streaming Long Video Understanding with Large Language Models",
+          "snippet": "The evolution of Large Language Models (LLMs) has significantly advanced artificial intelligence, encompassing text generation and reasoning in complex language ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Studies on multi-modal language models for long video understanding before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Research on long-duration video description",
+      "attempts": [
+        {
+          "global_attempt_sequence": 49,
+          "query_id": "Q7",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Research on long-duration video description",
+          "request_payload": {
+            "q": "Research on long-duration video description before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q7_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:25:32.036649+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Research on long-duration video description before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"A Survey on Long Video Generation: Challenges, Methods ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.16407v1\",\"snippet\":\"Specifically, videos are classified as 'long' if their duration exceeds 10 seconds, assuming a standard frame rate of 10fps, or equivalently, if the video ...\",\"date\":\"Mar 25, 2024\",\"position\":1},{\"title\":\"Assessing the Effects of YouTube Shorts on Long-Form Video Content\",\"link\":\"https://arxiv.org/html/2402.18208v1\",\"snippet\":\"This study aims to elucidate the impact of short-form content on the engagement and viewership of long-form videos among YouTube creators. To achieve this ...\",\"date\":\"Feb 28, 2024\",\"position\":2},{\"title\":\"Bidirectional Long-Short Term Memory for Video Description - arXiv\",\"link\":\"https://arxiv.org/abs/1606.04631\",\"snippet\":\"In this work, we propose a novel video captioning framework, termed as \\\\emph{Bidirectional Long-Short Term Memory} (BiLSTM), which deeply captures bidirectional ...\",\"date\":\"Jun 15, 2016\",\"position\":3},{\"title\":\"Alleviating Video-Length Effect for Micro-video Recommendation\",\"link\":\"https://arxiv.org/html/2308.14276v2\",\"snippet\":\"In our research, we conducted empirical data analysis and discovered that longer videos tend to have a higher average view time. Interestingly, this finding has ...\",\"date\":\"Aug 31, 2023\",\"position\":4},{\"title\":\"[2403.16407] A Survey on Long Video Generation - arXiv\",\"link\":\"https://arxiv.org/abs/2403.16407\",\"snippet\":\"This paper presents the first survey of recent advancements in long video generation and summarises them into two key paradigms: divide and conquer temporal ...\",\"date\":\"Mar 25, 2024\",\"position\":5},{\"title\":\"InternVid: A Large-scale Video-Text Dataset for Multimodal ... - arXiv\",\"link\":\"https://arxiv.org/html/2307.06942v2\",\"snippet\":\"The InternVid dataset contains over 7 million videos lasting nearly 760K hours, yielding 234M video clips accompanied by detailed descriptions of total 4.1B ...\",\"date\":\"Jan 4, 2024\",\"position\":6},{\"title\":\"Efficient Long Video Understanding via Large Language Models\",\"link\":\"https://arxiv.org/html/2404.03384v3\",\"snippet\":\"Our approach proposes to decompose long videos into multiple short-term segments and encode local features for each segment via a hierarchical token merging ...\",\"date\":\"Jul 20, 2024\",\"position\":7},{\"title\":\"Scaling Up Video Summarization Pretraining with Large Language ...\",\"link\":\"https://arxiv.org/html/2404.03398v1\",\"snippet\":\"Long-form video content constitutes a significant portion of internet traffic, making automated video summarization an essential research problem. However, ...\",\"date\":\"Apr 4, 2024\",\"position\":8},{\"title\":\"From Sora What We Can See: A Survey of Text-to-Video Generation\",\"link\":\"https://arxiv.org/html/2405.10674v1\",\"snippet\":\"By synthesizing long-term videos of various scenes, SceneScape [24] is proposed to generate long-term videos from text descriptions, addressing the challenge of ...\",\"date\":\"May 17, 2024\",\"position\":9},{\"title\":\"A Survey on Generative AI and LLM for Video Generation ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.16038v1\",\"snippet\":\"The study also delves into the advanced capabilities of LLMs in video understanding, demonstrating their effectiveness in extracting meaningful information from ...\",\"date\":\"Jan 30, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZXNlYXJjaCBvbiBsb25nLWR1cmF0aW9uIHZpZGVvIGRlc2NyaXB0aW9uIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkEgU3VydmV5IG9uIExvbmcgVmlkZW8gR2VuZXJhdGlvbjogQ2hhbGxlbmdlcywgTWV0aG9kcyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMTY0MDd2MSIsInNuaXBwZXQiOiJTcGVjaWZpY2FsbHksIHZpZGVvcyBhcmUgY2xhc3NpZmllZCBhcyAnbG9uZycgaWYgdGhlaXIgZHVyYXRpb24gZXhjZWVkcyAxMCBzZWNvbmRzLCBhc3N1bWluZyBhIHN0YW5kYXJkIGZyYW1lIHJhdGUgb2YgMTBmcHMsIG9yIGVxdWl2YWxlbnRseSwgaWYgdGhlIHZpZGVvIC4uLiIsImRhdGUiOiJNYXIgMjUsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkFzc2Vzc2luZyB0aGUgRWZmZWN0cyBvZiBZb3VUdWJlIFNob3J0cyBvbiBMb25nLUZvcm0gVmlkZW8gQ29udGVudCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTgyMDh2MSIsInNuaXBwZXQiOiJUaGlzIHN0dWR5IGFpbXMgdG8gZWx1Y2lkYXRlIHRoZSBpbXBhY3Qgb2Ygc2hvcnQtZm9ybSBjb250ZW50IG9uIHRoZSBlbmdhZ2VtZW50IGFuZCB2aWV3ZXJzaGlwIG9mIGxvbmctZm9ybSB2aWRlb3MgYW1vbmcgWW91VHViZSBjcmVhdG9ycy4gVG8gYWNoaWV2ZSB0aGlzIC4uLiIsImRhdGUiOiJGZWIgMjgsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkJpZGlyZWN0aW9uYWwgTG9uZy1TaG9ydCBUZXJtIE1lbW9yeSBmb3IgVmlkZW8gRGVzY3JpcHRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMTYwNi4wNDYzMSIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIHByb3Bvc2UgYSBub3ZlbCB2aWRlbyBjYXB0aW9uaW5nIGZyYW1ld29yaywgdGVybWVkIGFzIFxcZW1waHtCaWRpcmVjdGlvbmFsIExvbmctU2hvcnQgVGVybSBNZW1vcnl9IChCaUxTVE0pLCB3aGljaCBkZWVwbHkgY2FwdHVyZXMgYmlkaXJlY3Rpb25hbCAuLi4iLCJkYXRlIjoiSnVuIDE1LCAyMDE2IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJBbGxldmlhdGluZyBWaWRlby1MZW5ndGggRWZmZWN0IGZvciBNaWNyby12aWRlbyBSZWNvbW1lbmRhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDguMTQyNzZ2MiIsInNuaXBwZXQiOiJJbiBvdXIgcmVzZWFyY2gsIHdlIGNvbmR1Y3RlZCBlbXBpcmljYWwgZGF0YSBhbmFseXNpcyBhbmQgZGlzY292ZXJlZCB0aGF0IGxvbmdlciB2aWRlb3MgdGVuZCB0byBoYXZlIGEgaGlnaGVyIGF2ZXJhZ2UgdmlldyB0aW1lLiBJbnRlcmVzdGluZ2x5LCB0aGlzIGZpbmRpbmcgaGFzIC4uLiIsImRhdGUiOiJBdWcgMzEsIDIwMjMiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlsyNDAzLjE2NDA3XSBBIFN1cnZleSBvbiBMb25nIFZpZGVvIEdlbmVyYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwMy4xNjQwNyIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHByZXNlbnRzIHRoZSBmaXJzdCBzdXJ2ZXkgb2YgcmVjZW50IGFkdmFuY2VtZW50cyBpbiBsb25nIHZpZGVvIGdlbmVyYXRpb24gYW5kIHN1bW1hcmlzZXMgdGhlbSBpbnRvIHR3byBrZXkgcGFyYWRpZ21zOiBkaXZpZGUgYW5kIGNvbnF1ZXIgdGVtcG9yYWwgLi4uIiwiZGF0ZSI6Ik1hciAyNSwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiSW50ZXJuVmlkOiBBIExhcmdlLXNjYWxlIFZpZGVvLVRleHQgRGF0YXNldCBmb3IgTXVsdGltb2RhbCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDcuMDY5NDJ2MiIsInNuaXBwZXQiOiJUaGUgSW50ZXJuVmlkIGRhdGFzZXQgY29udGFpbnMgb3ZlciA3IG1pbGxpb24gdmlkZW9zIGxhc3RpbmcgbmVhcmx5IDc2MEsgaG91cnMsIHlpZWxkaW5nIDIzNE0gdmlkZW8gY2xpcHMgYWNjb21wYW5pZWQgYnkgZGV0YWlsZWQgZGVzY3JpcHRpb25zIG9mIHRvdGFsIDQuMUIgLi4uIiwiZGF0ZSI6IkphbiA0LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJFZmZpY2llbnQgTG9uZyBWaWRlbyBVbmRlcnN0YW5kaW5nIHZpYSBMYXJnZSBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjAzMzg0djMiLCJzbmlwcGV0IjoiT3VyIGFwcHJvYWNoIHByb3Bvc2VzIHRvIGRlY29tcG9zZSBsb25nIHZpZGVvcyBpbnRvIG11bHRpcGxlIHNob3J0LXRlcm0gc2VnbWVudHMgYW5kIGVuY29kZSBsb2NhbCBmZWF0dXJlcyBmb3IgZWFjaCBzZWdtZW50IHZpYSBhIGhpZXJhcmNoaWNhbCB0b2tlbiBtZXJnaW5nIC4uLiIsImRhdGUiOiJKdWwgMjAsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlNjYWxpbmcgVXAgVmlkZW8gU3VtbWFyaXphdGlvbiBQcmV0cmFpbmluZyB3aXRoIExhcmdlIExhbmd1YWdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMDMzOTh2MSIsInNuaXBwZXQiOiJMb25nLWZvcm0gdmlkZW8gY29udGVudCBjb25zdGl0dXRlcyBhIHNpZ25pZmljYW50IHBvcnRpb24gb2YgaW50ZXJuZXQgdHJhZmZpYywgbWFraW5nIGF1dG9tYXRlZCB2aWRlbyBzdW1tYXJpemF0aW9uIGFuIGVzc2VudGlhbCByZXNlYXJjaCBwcm9ibGVtLiBIb3dldmVyLCAuLi4iLCJkYXRlIjoiQXByIDQsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkZyb20gU29yYSBXaGF0IFdlIENhbiBTZWU6IEEgU3VydmV5IG9mIFRleHQtdG8tVmlkZW8gR2VuZXJhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMTA2NzR2MSIsInNuaXBwZXQiOiJCeSBzeW50aGVzaXppbmcgbG9uZy10ZXJtIHZpZGVvcyBvZiB2YXJpb3VzIHNjZW5lcywgU2NlbmVTY2FwZSBbMjRdIGlzIHByb3Bvc2VkIHRvIGdlbmVyYXRlIGxvbmctdGVybSB2aWRlb3MgZnJvbSB0ZXh0IGRlc2NyaXB0aW9ucywgYWRkcmVzc2luZyB0aGUgY2hhbGxlbmdlIG9mIC4uLiIsImRhdGUiOiJNYXkgMTcsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkEgU3VydmV5IG9uIEdlbmVyYXRpdmUgQUkgYW5kIExMTSBmb3IgVmlkZW8gR2VuZXJhdGlvbiAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMTYwMzh2MSIsInNuaXBwZXQiOiJUaGUgc3R1ZHkgYWxzbyBkZWx2ZXMgaW50byB0aGUgYWR2YW5jZWQgY2FwYWJpbGl0aWVzIG9mIExMTXMgaW4gdmlkZW8gdW5kZXJzdGFuZGluZywgZGVtb25zdHJhdGluZyB0aGVpciBlZmZlY3RpdmVuZXNzIGluIGV4dHJhY3RpbmcgbWVhbmluZ2Z1bCBpbmZvcm1hdGlvbiBmcm9tIC4uLiIsImRhdGUiOiJKYW4gMzAsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "3b73542dd2b72da1050f95919161d5f02d2a9e8320f43ac9719a2fb6063c44cc",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Research on long-duration video description before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+                "link": "https://arxiv.org/html/2403.16407v1",
+                "snippet": "Specifically, videos are classified as 'long' if their duration exceeds 10 seconds, assuming a standard frame rate of 10fps, or equivalently, if the video ...",
+                "date": "Mar 25, 2024",
+                "position": 1
+              },
+              {
+                "title": "Assessing the Effects of YouTube Shorts on Long-Form Video Content",
+                "link": "https://arxiv.org/html/2402.18208v1",
+                "snippet": "This study aims to elucidate the impact of short-form content on the engagement and viewership of long-form videos among YouTube creators. To achieve this ...",
+                "date": "Feb 28, 2024",
+                "position": 2
+              },
+              {
+                "title": "Bidirectional Long-Short Term Memory for Video Description - arXiv",
+                "link": "https://arxiv.org/abs/1606.04631",
+                "snippet": "In this work, we propose a novel video captioning framework, termed as \\emph{Bidirectional Long-Short Term Memory} (BiLSTM), which deeply captures bidirectional ...",
+                "date": "Jun 15, 2016",
+                "position": 3
+              },
+              {
+                "title": "Alleviating Video-Length Effect for Micro-video Recommendation",
+                "link": "https://arxiv.org/html/2308.14276v2",
+                "snippet": "In our research, we conducted empirical data analysis and discovered that longer videos tend to have a higher average view time. Interestingly, this finding has ...",
+                "date": "Aug 31, 2023",
+                "position": 4
+              },
+              {
+                "title": "[2403.16407] A Survey on Long Video Generation - arXiv",
+                "link": "https://arxiv.org/abs/2403.16407",
+                "snippet": "This paper presents the first survey of recent advancements in long video generation and summarises them into two key paradigms: divide and conquer temporal ...",
+                "date": "Mar 25, 2024",
+                "position": 5
+              },
+              {
+                "title": "InternVid: A Large-scale Video-Text Dataset for Multimodal ... - arXiv",
+                "link": "https://arxiv.org/html/2307.06942v2",
+                "snippet": "The InternVid dataset contains over 7 million videos lasting nearly 760K hours, yielding 234M video clips accompanied by detailed descriptions of total 4.1B ...",
+                "date": "Jan 4, 2024",
+                "position": 6
+              },
+              {
+                "title": "Efficient Long Video Understanding via Large Language Models",
+                "link": "https://arxiv.org/html/2404.03384v3",
+                "snippet": "Our approach proposes to decompose long videos into multiple short-term segments and encode local features for each segment via a hierarchical token merging ...",
+                "date": "Jul 20, 2024",
+                "position": 7
+              },
+              {
+                "title": "Scaling Up Video Summarization Pretraining with Large Language ...",
+                "link": "https://arxiv.org/html/2404.03398v1",
+                "snippet": "Long-form video content constitutes a significant portion of internet traffic, making automated video summarization an essential research problem. However, ...",
+                "date": "Apr 4, 2024",
+                "position": 8
+              },
+              {
+                "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+                "link": "https://arxiv.org/html/2405.10674v1",
+                "snippet": "By synthesizing long-term videos of various scenes, SceneScape [24] is proposed to generate long-term videos from text descriptions, addressing the challenge of ...",
+                "date": "May 17, 2024",
+                "position": 9
+              },
+              {
+                "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+                "link": "https://arxiv.org/html/2404.16038v1",
+                "snippet": "The study also delves into the advanced capabilities of LLMs in video understanding, demonstrating their effectiveness in extracting meaningful information from ...",
+                "date": "Jan 30, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:32.946992+00:00",
+          "elapsed_seconds": 0.9103438667953014
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1606.04631",
+        "2307.06942",
+        "2308.14276",
+        "2402.18208",
+        "2403.16407",
+        "2404.03384",
+        "2404.03398",
+        "2404.16038",
+        "2405.10674"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.16407",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2403.16407v1",
+          "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+          "snippet": "Specifically, videos are classified as 'long' if their duration exceeds 10 seconds, assuming a standard frame rate of 10fps, or equivalently, if the video ..."
+        },
+        {
+          "arxiv_id": "2402.18208",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2402.18208v1",
+          "title": "Assessing the Effects of YouTube Shorts on Long-Form Video Content",
+          "snippet": "This study aims to elucidate the impact of short-form content on the engagement and viewership of long-form videos among YouTube creators. To achieve this ..."
+        },
+        {
+          "arxiv_id": "1606.04631",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/1606.04631",
+          "title": "Bidirectional Long-Short Term Memory for Video Description - arXiv",
+          "snippet": "In this work, we propose a novel video captioning framework, termed as \\emph{Bidirectional Long-Short Term Memory} (BiLSTM), which deeply captures bidirectional ..."
+        },
+        {
+          "arxiv_id": "2308.14276",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2308.14276v2",
+          "title": "Alleviating Video-Length Effect for Micro-video Recommendation",
+          "snippet": "In our research, we conducted empirical data analysis and discovered that longer videos tend to have a higher average view time. Interestingly, this finding has ..."
+        },
+        {
+          "arxiv_id": "2403.16407",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2403.16407",
+          "title": "[2403.16407] A Survey on Long Video Generation - arXiv",
+          "snippet": "This paper presents the first survey of recent advancements in long video generation and summarises them into two key paradigms: divide and conquer temporal ..."
+        },
+        {
+          "arxiv_id": "2307.06942",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2307.06942v2",
+          "title": "InternVid: A Large-scale Video-Text Dataset for Multimodal ... - arXiv",
+          "snippet": "The InternVid dataset contains over 7 million videos lasting nearly 760K hours, yielding 234M video clips accompanied by detailed descriptions of total 4.1B ..."
+        },
+        {
+          "arxiv_id": "2404.03384",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2404.03384v3",
+          "title": "Efficient Long Video Understanding via Large Language Models",
+          "snippet": "Our approach proposes to decompose long videos into multiple short-term segments and encode local features for each segment via a hierarchical token merging ..."
+        },
+        {
+          "arxiv_id": "2404.03398",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2404.03398v1",
+          "title": "Scaling Up Video Summarization Pretraining with Large Language ...",
+          "snippet": "Long-form video content constitutes a significant portion of internet traffic, making automated video summarization an essential research problem. However, ..."
+        },
+        {
+          "arxiv_id": "2405.10674",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2405.10674v1",
+          "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+          "snippet": "By synthesizing long-term videos of various scenes, SceneScape [24] is proposed to generate long-term videos from text descriptions, addressing the challenge of ..."
+        },
+        {
+          "arxiv_id": "2404.16038",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2404.16038v1",
+          "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+          "snippet": "The study also delves into the advanced capabilities of LLMs in video understanding, demonstrating their effectiveness in extracting meaningful information from ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Research on long-duration video description before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "Show me research on the long video description. Here, long videos are defined as those with a duration of at least several minutes.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 48,
+          "query_id": "Q7",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "Show me research on the long video description. Here, long videos are defined as those with a duration of at least several minutes.",
+          "request_payload": {
+            "q": "Show me research on the long video description. Here, long videos are defined as those with a duration of at least several minutes. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q7_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:25:30.567518+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Show me research on the long video description. Here, long videos are defined as those with a duration of at least several minutes. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Assessing the Effects of YouTube Shorts on Long-Form Video Content\",\"link\":\"https://arxiv.org/html/2402.18208v2\",\"snippet\":\"In this paper, we perform a study of 250 creators with significant audiences to see if the introduction of short form content has affected the view counts and ...\",\"date\":\"Mar 1, 2024\",\"position\":1},{\"title\":\"Alleviating Video-Length Effect for Micro-video Recommendation\",\"link\":\"https://arxiv.org/html/2308.14276v2\",\"snippet\":\"However, our empirical data analysis has shown a video-length effect that long videos are easier to receive a higher value of average view time, thus adopting ...\",\"date\":\"Aug 31, 2023\",\"position\":2},{\"title\":\"Assessing the Effects of YouTube Shorts on Long-Form Video Content\",\"link\":\"https://arxiv.org/html/2402.18208v1\",\"snippet\":\"This study found that there is no significant impact in the relationship between video length (long form vs. short form) and advertising effectiveness. This ...\",\"date\":\"Feb 28, 2024\",\"position\":3},{\"title\":\"Video Storytelling: Textual Summaries for Events - arXiv\",\"link\":\"https://arxiv.org/html/1807.09418v3\",\"snippet\":\"We argue that compared to visual summary, a textual story generated for a long video is more compact, semantically meaningful, and easier to search and organize ...\",\"date\":\"May 14, 2020\",\"position\":4},{\"title\":\"A Survey on Long Video Generation: Challenges, Methods ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.16407v1\",\"snippet\":\"Specifically, videos are classified as 'long' if their duration exceeds 10 seconds quality effects such as multi-resolution and shot transitions.\",\"date\":\"Mar 25, 2024\",\"position\":5},{\"title\":\"An Annotated Video Dataset for Computing Video Memorability - arXiv\",\"link\":\"https://arxiv.org/html/2112.02303v1\",\"snippet\":\"The recognition tasks were performed on videos seen within the previous few minutes for short-term memorability and within the previous 24 to 72 hours for long- ...\",\"date\":\"Dec 4, 2021\",\"position\":6},{\"title\":\"Analyzing User Engagement with TikTok's Short Format Video ...\",\"link\":\"https://arxiv.org/html/2301.04945v2\",\"snippet\":\"Our study offers valuable insights into how users engage with short-format videos on TikTok and lessons learned from designing a data donation system. Keywords:.\",\"date\":\"Mar 11, 2024\",\"position\":7},{\"title\":\"Engagement dynamics and sensitivity analysis of YouTube videos\",\"link\":\"https://arxiv.org/html/1611.00687v1\",\"snippet\":\"The early view count dynamics of a YouTube videos are highly correlated with the long term “migration” of viewers to the video.\",\"date\":\"Nov 2, 2016\",\"position\":8},{\"title\":\"Retrieval-Based Video Language Model for Efficient Long ... - arXiv\",\"link\":\"https://arxiv.org/html/2312.04931v1\",\"snippet\":\"In practical application scenarios, users often pose flexible questions related to long videos (e.g., longer than 1 minute), in which the segments containing ...\",\"date\":\"Dec 8, 2023\",\"position\":9},{\"title\":\"[PDF] Shorts vs. Regular Videos on YouTube: A Comparative Analysis of ...\",\"link\":\"https://arxiv.org/pdf/2403.00454\",\"snippet\":\"This paper presents the first comparative analysis of YouTube Shorts versus regular videos with respect to user engagement (i.e., views, likes, and comments), ...\",\"date\":\"Mar 1, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTaG93IG1lIHJlc2VhcmNoIG9uIHRoZSBsb25nIHZpZGVvIGRlc2NyaXB0aW9uLiBIZXJlLCBsb25nIHZpZGVvcyBhcmUgZGVmaW5lZCBhcyB0aG9zZSB3aXRoIGEgZHVyYXRpb24gb2YgYXQgbGVhc3Qgc2V2ZXJhbCBtaW51dGVzLiBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJBc3Nlc3NpbmcgdGhlIEVmZmVjdHMgb2YgWW91VHViZSBTaG9ydHMgb24gTG9uZy1Gb3JtIFZpZGVvIENvbnRlbnQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjE4MjA4djIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgcGVyZm9ybSBhIHN0dWR5IG9mIDI1MCBjcmVhdG9ycyB3aXRoIHNpZ25pZmljYW50IGF1ZGllbmNlcyB0byBzZWUgaWYgdGhlIGludHJvZHVjdGlvbiBvZiBzaG9ydCBmb3JtIGNvbnRlbnQgaGFzIGFmZmVjdGVkIHRoZSB2aWV3IGNvdW50cyBhbmQgLi4uIiwiZGF0ZSI6Ik1hciAxLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJBbGxldmlhdGluZyBWaWRlby1MZW5ndGggRWZmZWN0IGZvciBNaWNyby12aWRlbyBSZWNvbW1lbmRhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDguMTQyNzZ2MiIsInNuaXBwZXQiOiJIb3dldmVyLCBvdXIgZW1waXJpY2FsIGRhdGEgYW5hbHlzaXMgaGFzIHNob3duIGEgdmlkZW8tbGVuZ3RoIGVmZmVjdCB0aGF0IGxvbmcgdmlkZW9zIGFyZSBlYXNpZXIgdG8gcmVjZWl2ZSBhIGhpZ2hlciB2YWx1ZSBvZiBhdmVyYWdlIHZpZXcgdGltZSwgdGh1cyBhZG9wdGluZyAuLi4iLCJkYXRlIjoiQXVnIDMxLCAyMDIzIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJBc3Nlc3NpbmcgdGhlIEVmZmVjdHMgb2YgWW91VHViZSBTaG9ydHMgb24gTG9uZy1Gb3JtIFZpZGVvIENvbnRlbnQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjE4MjA4djEiLCJzbmlwcGV0IjoiVGhpcyBzdHVkeSBmb3VuZCB0aGF0IHRoZXJlIGlzIG5vIHNpZ25pZmljYW50IGltcGFjdCBpbiB0aGUgcmVsYXRpb25zaGlwIGJldHdlZW4gdmlkZW8gbGVuZ3RoIChsb25nIGZvcm0gdnMuIHNob3J0IGZvcm0pIGFuZCBhZHZlcnRpc2luZyBlZmZlY3RpdmVuZXNzLiBUaGlzIC4uLiIsImRhdGUiOiJGZWIgMjgsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IlZpZGVvIFN0b3J5dGVsbGluZzogVGV4dHVhbCBTdW1tYXJpZXMgZm9yIEV2ZW50cyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTgwNy4wOTQxOHYzIiwic25pcHBldCI6IldlIGFyZ3VlIHRoYXQgY29tcGFyZWQgdG8gdmlzdWFsIHN1bW1hcnksIGEgdGV4dHVhbCBzdG9yeSBnZW5lcmF0ZWQgZm9yIGEgbG9uZyB2aWRlbyBpcyBtb3JlIGNvbXBhY3QsIHNlbWFudGljYWxseSBtZWFuaW5nZnVsLCBhbmQgZWFzaWVyIHRvIHNlYXJjaCBhbmQgb3JnYW5pemUgLi4uIiwiZGF0ZSI6Ik1heSAxNCwgMjAyMCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gTG9uZyBWaWRlbyBHZW5lcmF0aW9uOiBDaGFsbGVuZ2VzLCBNZXRob2RzIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xNjQwN3YxIiwic25pcHBldCI6IlNwZWNpZmljYWxseSwgdmlkZW9zIGFyZSBjbGFzc2lmaWVkIGFzICdsb25nJyBpZiB0aGVpciBkdXJhdGlvbiBleGNlZWRzIDEwIHNlY29uZHMgcXVhbGl0eSBlZmZlY3RzIHN1Y2ggYXMgbXVsdGktcmVzb2x1dGlvbiBhbmQgc2hvdCB0cmFuc2l0aW9ucy4iLCJkYXRlIjoiTWFyIDI1LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJBbiBBbm5vdGF0ZWQgVmlkZW8gRGF0YXNldCBmb3IgQ29tcHV0aW5nIFZpZGVvIE1lbW9yYWJpbGl0eSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjExMi4wMjMwM3YxIiwic25pcHBldCI6IlRoZSByZWNvZ25pdGlvbiB0YXNrcyB3ZXJlIHBlcmZvcm1lZCBvbiB2aWRlb3Mgc2VlbiB3aXRoaW4gdGhlIHByZXZpb3VzIGZldyBtaW51dGVzIGZvciBzaG9ydC10ZXJtIG1lbW9yYWJpbGl0eSBhbmQgd2l0aGluIHRoZSBwcmV2aW91cyAyNCB0byA3MiBob3VycyBmb3IgbG9uZy0gLi4uIiwiZGF0ZSI6IkRlYyA0LCAyMDIxIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJBbmFseXppbmcgVXNlciBFbmdhZ2VtZW50IHdpdGggVGlrVG9rJ3MgU2hvcnQgRm9ybWF0IFZpZGVvIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDEuMDQ5NDV2MiIsInNuaXBwZXQiOiJPdXIgc3R1ZHkgb2ZmZXJzIHZhbHVhYmxlIGluc2lnaHRzIGludG8gaG93IHVzZXJzIGVuZ2FnZSB3aXRoIHNob3J0LWZvcm1hdCB2aWRlb3Mgb24gVGlrVG9rIGFuZCBsZXNzb25zIGxlYXJuZWQgZnJvbSBkZXNpZ25pbmcgYSBkYXRhIGRvbmF0aW9uIHN5c3RlbS4gS2V5d29yZHM6LiIsImRhdGUiOiJNYXIgMTEsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkVuZ2FnZW1lbnQgZHluYW1pY3MgYW5kIHNlbnNpdGl2aXR5IGFuYWx5c2lzIG9mIFlvdVR1YmUgdmlkZW9zIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTYxMS4wMDY4N3YxIiwic25pcHBldCI6IlRoZSBlYXJseSB2aWV3IGNvdW50IGR5bmFtaWNzIG9mIGEgWW91VHViZSB2aWRlb3MgYXJlIGhpZ2hseSBjb3JyZWxhdGVkIHdpdGggdGhlIGxvbmcgdGVybSDigJxtaWdyYXRpb27igJ0gb2Ygdmlld2VycyB0byB0aGUgdmlkZW8uIiwiZGF0ZSI6Ik5vdiAyLCAyMDE2IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJSZXRyaWV2YWwtQmFzZWQgVmlkZW8gTGFuZ3VhZ2UgTW9kZWwgZm9yIEVmZmljaWVudCBMb25nIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4wNDkzMXYxIiwic25pcHBldCI6IkluIHByYWN0aWNhbCBhcHBsaWNhdGlvbiBzY2VuYXJpb3MsIHVzZXJzIG9mdGVuIHBvc2UgZmxleGlibGUgcXVlc3Rpb25zIHJlbGF0ZWQgdG8gbG9uZyB2aWRlb3MgKGUuZy4sIGxvbmdlciB0aGFuIDEgbWludXRlKSwgaW4gd2hpY2ggdGhlIHNlZ21lbnRzIGNvbnRhaW5pbmcgLi4uIiwiZGF0ZSI6IkRlYyA4LCAyMDIzIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBTaG9ydHMgdnMuIFJlZ3VsYXIgVmlkZW9zIG9uIFlvdVR1YmU6IEEgQ29tcGFyYXRpdmUgQW5hbHlzaXMgb2YgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAzLjAwNDU0Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgcHJlc2VudHMgdGhlIGZpcnN0IGNvbXBhcmF0aXZlIGFuYWx5c2lzIG9mIFlvdVR1YmUgU2hvcnRzIHZlcnN1cyByZWd1bGFyIHZpZGVvcyB3aXRoIHJlc3BlY3QgdG8gdXNlciBlbmdhZ2VtZW50IChpLmUuLCB2aWV3cywgbGlrZXMsIGFuZCBjb21tZW50cyksIC4uLiIsImRhdGUiOiJNYXIgMSwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "e1f05f1239c08514a0ecbbcb5c1c2284fe964993b9fd2a6df93c67fca1ada1ed",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Show me research on the long video description. Here, long videos are defined as those with a duration of at least several minutes. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Assessing the Effects of YouTube Shorts on Long-Form Video Content",
+                "link": "https://arxiv.org/html/2402.18208v2",
+                "snippet": "In this paper, we perform a study of 250 creators with significant audiences to see if the introduction of short form content has affected the view counts and ...",
+                "date": "Mar 1, 2024",
+                "position": 1
+              },
+              {
+                "title": "Alleviating Video-Length Effect for Micro-video Recommendation",
+                "link": "https://arxiv.org/html/2308.14276v2",
+                "snippet": "However, our empirical data analysis has shown a video-length effect that long videos are easier to receive a higher value of average view time, thus adopting ...",
+                "date": "Aug 31, 2023",
+                "position": 2
+              },
+              {
+                "title": "Assessing the Effects of YouTube Shorts on Long-Form Video Content",
+                "link": "https://arxiv.org/html/2402.18208v1",
+                "snippet": "This study found that there is no significant impact in the relationship between video length (long form vs. short form) and advertising effectiveness. This ...",
+                "date": "Feb 28, 2024",
+                "position": 3
+              },
+              {
+                "title": "Video Storytelling: Textual Summaries for Events - arXiv",
+                "link": "https://arxiv.org/html/1807.09418v3",
+                "snippet": "We argue that compared to visual summary, a textual story generated for a long video is more compact, semantically meaningful, and easier to search and organize ...",
+                "date": "May 14, 2020",
+                "position": 4
+              },
+              {
+                "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+                "link": "https://arxiv.org/html/2403.16407v1",
+                "snippet": "Specifically, videos are classified as 'long' if their duration exceeds 10 seconds quality effects such as multi-resolution and shot transitions.",
+                "date": "Mar 25, 2024",
+                "position": 5
+              },
+              {
+                "title": "An Annotated Video Dataset for Computing Video Memorability - arXiv",
+                "link": "https://arxiv.org/html/2112.02303v1",
+                "snippet": "The recognition tasks were performed on videos seen within the previous few minutes for short-term memorability and within the previous 24 to 72 hours for long- ...",
+                "date": "Dec 4, 2021",
+                "position": 6
+              },
+              {
+                "title": "Analyzing User Engagement with TikTok's Short Format Video ...",
+                "link": "https://arxiv.org/html/2301.04945v2",
+                "snippet": "Our study offers valuable insights into how users engage with short-format videos on TikTok and lessons learned from designing a data donation system. Keywords:.",
+                "date": "Mar 11, 2024",
+                "position": 7
+              },
+              {
+                "title": "Engagement dynamics and sensitivity analysis of YouTube videos",
+                "link": "https://arxiv.org/html/1611.00687v1",
+                "snippet": "The early view count dynamics of a YouTube videos are highly correlated with the long term “migration” of viewers to the video.",
+                "date": "Nov 2, 2016",
+                "position": 8
+              },
+              {
+                "title": "Retrieval-Based Video Language Model for Efficient Long ... - arXiv",
+                "link": "https://arxiv.org/html/2312.04931v1",
+                "snippet": "In practical application scenarios, users often pose flexible questions related to long videos (e.g., longer than 1 minute), in which the segments containing ...",
+                "date": "Dec 8, 2023",
+                "position": 9
+              },
+              {
+                "title": "[PDF] Shorts vs. Regular Videos on YouTube: A Comparative Analysis of ...",
+                "link": "https://arxiv.org/pdf/2403.00454",
+                "snippet": "This paper presents the first comparative analysis of YouTube Shorts versus regular videos with respect to user engagement (i.e., views, likes, and comments), ...",
+                "date": "Mar 1, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:31.985808+00:00",
+          "elapsed_seconds": 1.4182907305657864
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1611.00687",
+        "1807.09418",
+        "2112.02303",
+        "2301.04945",
+        "2308.14276",
+        "2312.04931",
+        "2402.18208",
+        "2403.00454",
+        "2403.16407"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2402.18208",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2402.18208v2",
+          "title": "Assessing the Effects of YouTube Shorts on Long-Form Video Content",
+          "snippet": "In this paper, we perform a study of 250 creators with significant audiences to see if the introduction of short form content has affected the view counts and ..."
+        },
+        {
+          "arxiv_id": "2308.14276",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2308.14276v2",
+          "title": "Alleviating Video-Length Effect for Micro-video Recommendation",
+          "snippet": "However, our empirical data analysis has shown a video-length effect that long videos are easier to receive a higher value of average view time, thus adopting ..."
+        },
+        {
+          "arxiv_id": "2402.18208",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2402.18208v1",
+          "title": "Assessing the Effects of YouTube Shorts on Long-Form Video Content",
+          "snippet": "This study found that there is no significant impact in the relationship between video length (long form vs. short form) and advertising effectiveness. This ..."
+        },
+        {
+          "arxiv_id": "1807.09418",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/1807.09418v3",
+          "title": "Video Storytelling: Textual Summaries for Events - arXiv",
+          "snippet": "We argue that compared to visual summary, a textual story generated for a long video is more compact, semantically meaningful, and easier to search and organize ..."
+        },
+        {
+          "arxiv_id": "2403.16407",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2403.16407v1",
+          "title": "A Survey on Long Video Generation: Challenges, Methods ... - arXiv",
+          "snippet": "Specifically, videos are classified as 'long' if their duration exceeds 10 seconds quality effects such as multi-resolution and shot transitions."
+        },
+        {
+          "arxiv_id": "2112.02303",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2112.02303v1",
+          "title": "An Annotated Video Dataset for Computing Video Memorability - arXiv",
+          "snippet": "The recognition tasks were performed on videos seen within the previous few minutes for short-term memorability and within the previous 24 to 72 hours for long- ..."
+        },
+        {
+          "arxiv_id": "2301.04945",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2301.04945v2",
+          "title": "Analyzing User Engagement with TikTok's Short Format Video ...",
+          "snippet": "Our study offers valuable insights into how users engage with short-format videos on TikTok and lessons learned from designing a data donation system. Keywords:."
+        },
+        {
+          "arxiv_id": "1611.00687",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/1611.00687v1",
+          "title": "Engagement dynamics and sensitivity analysis of YouTube videos",
+          "snippet": "The early view count dynamics of a YouTube videos are highly correlated with the long term “migration” of viewers to the video."
+        },
+        {
+          "arxiv_id": "2312.04931",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2312.04931v1",
+          "title": "Retrieval-Based Video Language Model for Efficient Long ... - arXiv",
+          "snippet": "In practical application scenarios, users often pose flexible questions related to long videos (e.g., longer than 1 minute), in which the segments containing ..."
+        },
+        {
+          "arxiv_id": "2403.00454",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2403.00454",
+          "title": "[PDF] Shorts vs. Regular Videos on YouTube: A Comparative Analysis of ...",
+          "snippet": "This paper presents the first comparative analysis of YouTube Shorts versus regular videos with respect to user engagement (i.e., views, likes, and comments), ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Show me research on the long video description. Here, long videos are defined as those with a duration of at least several minutes. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "anchor",
+    "q5"
+  ]
+}

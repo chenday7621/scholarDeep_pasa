@@ -1,0 +1,201 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q44",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2112.01488",
+  "request_payload": {
+    "q": "What are some scholarly articles that explore the enhancement of dense retrieval in student models through the application of prediction distributions from teacher models? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 99,
+  "started_utc": "2026-09-17T12:35:16.212870+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648240",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "1a785543edabb91d32a5a46ec89790b9",
+    "date": "Thu, 17 Sep 2026 12:30:37 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3558",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3558,
+  "response_bytes_sha256": "6e32c9182404a992e7d50cf0c449fd62724534a2a3cb16d93905f6ad913b4e18",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJXaGF0IGFyZSBzb21lIHNjaG9sYXJseSBhcnRpY2xlcyB0aGF0IGV4cGxvcmUgdGhlIGVuaGFuY2VtZW50IG9mIGRlbnNlIHJldHJpZXZhbCBpbiBzdHVkZW50IG1vZGVscyB0aHJvdWdoIHRoZSBhcHBsaWNhdGlvbiBvZiBwcmVkaWN0aW9uIGRpc3RyaWJ1dGlvbnMgZnJvbSB0ZWFjaGVyIG1vZGVscz8gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQSBDb21wcmVoZW5zaXZlIFN1cnZleSBvbiBLbm93bGVkZ2UgRGlzdGlsbGF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAzLjEyMDY3djEiLCJzbmlwcGV0IjoiSW5zdGVhZCBvZiBleGFjdCBwcmVkaWN0aW9uIG1hdGNoaW5nLCB0aGlzIGFwcHJvYWNoIGFsbG93cyB0aGUgc3R1ZGVudCB0byBjb25jZW50cmF0ZSBvbiB0aGUgbW9yZSBjcml0aWNhbCByZWdpb25zIG9mIHRoZSBpbWFnZSwgc2ltaWxhciB0byB0aGUgdGVhY2hlciBtb2RlbC4iLCJkYXRlIjoiTWFyIDE1LCAyMDI1IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBEZW5zZSBUZXh0IFJldHJpZXZhbCBiYXNlZCBvbiBQcmV0cmFpbmVkIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjExLjE0ODc2Iiwic25pcHBldCI6IkNvbnNpZGVyaW5nIHRoZSBpbXBvcnRhbnQgcHJvZ3Jlc3Mgb24gZGVuc2UgcmV0cmlldmFsLCB0aGlzIHN1cnZleSBhaW1zIHRvIHByb3ZpZGUgYSBzeXN0ZW1hdGljIHJldmlldyBvZiBleGlzdC0gaW5nIHRleHQgcmV0cmlldmFsIGFwcHJvYWNoZXMuIEluIHBhcnRpY3VsYXIsIC4uLiIsImRhdGUiOiJOb3YgMjcsIDIwMjIiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIEVuaGFuY2luZyBTdHVkZW50IExlYXJuaW5nIHdpdGggTExNLUdlbmVyYXRlZCBSZXRyaWV2YWwgUHJhY3RpY2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA3LjA1NjI5Iiwic25pcHBldCI6IldlIGVtcGlyaWNhbGx5IGludmVzdGlnYXRlIHdoZXRoZXIgdGhlIGFkbWluaXN0cmF0aW9uIG9mIExMTS1nZW5lcmF0ZWQgbXVsdGlwbGUtY2hvaWNlIHJldHJpZXZhbCBwcmFjdGljZSBxdWVzdGlvbnMgd291bGQgZW5oYW5jZSBzdHVkZW50IGxlYXJuaW5nIG91dGNvbWVzLiBXZSAuLi4iLCJkYXRlIjoiSnVsIDgsIDIwMjUiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkEgU3VydmV5IG9mIE9uLVBvbGljeSBEaXN0aWxsYXRpb24gZm9yIExhcmdlIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNC4wMDYyNnYzIiwic25pcHBldCI6IkVhcmx5IG1ldGhvZHMgZm9jdXNlZCBvbiBob3cgdG8gc2FtcGxlIGFuZCB3aGljaCBkaXZlcmdlbmNlIHRvIGFwcGx5IG9uIHN0dWRlbnQgdHJhamVjdG9yaWVzIChBZ2Fyd2FsIGV0IGFsLiwgMjAyNDsgR3UgZXQgYWwuLCAyMDI0OyBLbyBldCBhbC4sIDIwMjQpICwgLi4uIiwiZGF0ZSI6Ik1heSAxOCwgMjAyNiIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiRGF0YS1NaW5pbmcgUmVzZWFyY2ggaW4gRWR1Y2F0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8xNzAzLjEwMTE3djIiLCJzbmlwcGV0IjoiSXQgZm9jdXNlcyBvbiBhbmFseXppbmcgZWR1Y2F0aW9uYWwgcmVsYXRlZCBkYXRhIHRvIGRldmVsb3AgbW9kZWxzIGZvciBpbXByb3ZpbmcgbGVhcm5lcnMnIGxlYXJuaW5nIGV4cGVyaWVuY2VzIGFuZCBlbmhhbmNpbmcgaW5zdGl0dXRpb25hbCBlZmZlY3RpdmVuZXNzLiIsImRhdGUiOiJPY3QgMjUsIDIwMTciLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6Ik1hdGhlbWF0aWNhbCBJbmZvcm1hdGlvbiBSZXRyaWV2YWwgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTE2NDZ2MSIsInNuaXBwZXQiOiJkZW5zZSByZXRyaWV2YWwgbW9kZWxzIHN1Y2ggYXMgQ29sQkVSVCBbOTNdIGFyZSBtb3JlIGVmZmVjdGl2ZS4gU29tZSByZXRyaWV2YWwgbW9kZWxzIHVzZSBkZW5zZSBtb2RlbHMgdG8gaW1wcm92ZSBzcGFyc2UgbW9kZWxzIGUuZy4sIFNQTEFERSwgbWVudGlvbmVkIGVhcmxpZXIgLi4uIiwiZGF0ZSI6IkF1ZyAyMSwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGZvciBJbmZvcm1hdGlvbiBSZXRyaWV2YWw6IEEgU3VydmV5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA4LjA3MTA3djMiLCJzbmlwcGV0IjoiSW4gdGhpcyBzdXJ2ZXksIHdlIGRlbHZlIGludG8gdGhlIGNvbmZsdWVuY2Ugb2YgTExNcyBhbmQgSVIgc3lzdGVtcywgaW5jbHVkaW5nIGNydWNpYWwgYXNwZWN0cyBzdWNoIGFzIHF1ZXJ5IHJld3JpdGVycywgcmV0cmlldmVycywgcmVyYW5rZXJzLCBhbmQgcmVhZGVycy4iLCJkYXRlIjoiQXVnIDE2LCAyMDIzIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJBIENvbXByZWhlbnNpdmUgU3VydmV5IG9mIE1peHR1cmUtb2YtRXhwZXJ0czogQWxnb3JpdGhtcywgVGhlb3J5IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDMuMDcxMzd2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBmaXJzdCBpbnRyb2R1Y2UgdGhlIGJhc2ljIGRlc2lnbiBvZiBNb0UsIGluY2x1ZGluZyBnYXRpbmcgZnVuY3Rpb25zLCBleHBlcnQgbmV0d29ya3MsIHJvdXRpbmcgbWVjaGFuaXNtcywgdHJhaW5pbmcgc3RyYXRlZ2llcywgYW5kIHN5c3RlbSAuLi4iLCJkYXRlIjoiTWFyIDEwLCAyMDI1IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBEZWVwIExlYXJuaW5nIGZvciBFZHVjYXRpb25hbCBEYXRhIFNjaWVuY2UgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNC4xOTY3NSIsInNuaXBwZXQiOiJQcmVkaWN0aW5nIHN0dWRlbnRzJyBhY2FkZW1pYyBwZXJmb3JtYW5jZSB1c2luZyBhcnRpZmljaWFsIG5ldXJhbCBuZXR3b3JrOiBBIGNhc2Ugc3R1ZHkgb2YgYW4gZW5naW5lZXJpbmcgY291cnNlLiBUaGUgUGFjaWZpYyBKb3VybmFsIG9mIFNjaWVuY2UgYW5kIC4uLiIsImRhdGUiOiJBcHIgMTIsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlsyMTAzLjAwNzEwXSBUb3dhcmRzIFBlcnNvbmFsaXplZCBGZWRlcmF0ZWQgTGVhcm5pbmcgLSBhcjVpdiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMTAzLjAwNzEwIiwic25pcHBldCI6IkluIHRoaXMgc3VydmV5LCB3ZSBleHBsb3JlIHRoZSBkb21haW4gb2YgUGVyc29uYWxpemVkIEZMIChQRkwpIHRvIGFkZHJlc3MgdGhlIGZ1bmRhbWVudGFsIGNoYWxsZW5nZXMgb2YgRkwgb24gaGV0ZXJvZ2VuZW91cyBkYXRhLCBhIHVuaXZlcnNhbCBjaGFyYWN0ZXJpc3RpYyAuLi4iLCJkYXRlIjoiSmFuIDI5LCAyMDIyIiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "What are some scholarly articles that explore the enhancement of dense retrieval in student models through the application of prediction distributions from teacher models? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "A Comprehensive Survey on Knowledge Distillation - arXiv",
+        "link": "https://arxiv.org/html/2503.12067v1",
+        "snippet": "Instead of exact prediction matching, this approach allows the student to concentrate on the more critical regions of the image, similar to the teacher model.",
+        "date": "Mar 15, 2025",
+        "position": 1
+      },
+      {
+        "title": "[PDF] Dense Text Retrieval based on Pretrained Language Models - arXiv",
+        "link": "https://arxiv.org/pdf/2211.14876",
+        "snippet": "Considering the important progress on dense retrieval, this survey aims to provide a systematic review of exist- ing text retrieval approaches. In particular, ...",
+        "date": "Nov 27, 2022",
+        "position": 2
+      },
+      {
+        "title": "[PDF] Enhancing Student Learning with LLM-Generated Retrieval Practice ...",
+        "link": "https://arxiv.org/pdf/2507.05629",
+        "snippet": "We empirically investigate whether the administration of LLM-generated multiple-choice retrieval practice questions would enhance student learning outcomes. We ...",
+        "date": "Jul 8, 2025",
+        "position": 3
+      },
+      {
+        "title": "A Survey of On-Policy Distillation for Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2604.00626v3",
+        "snippet": "Early methods focused on how to sample and which divergence to apply on student trajectories (Agarwal et al., 2024; Gu et al., 2024; Ko et al., 2024) , ...",
+        "date": "May 18, 2026",
+        "position": 4
+      },
+      {
+        "title": "Data-Mining Research in Education - arXiv",
+        "link": "https://arxiv.org/html/1703.10117v2",
+        "snippet": "It focuses on analyzing educational related data to develop models for improving learners' learning experiences and enhancing institutional effectiveness.",
+        "date": "Oct 25, 2017",
+        "position": 5
+      },
+      {
+        "title": "Mathematical Information Retrieval - arXiv",
+        "link": "https://arxiv.org/html/2408.11646v1",
+        "snippet": "dense retrieval models such as ColBERT [93] are more effective. Some retrieval models use dense models to improve sparse models e.g., SPLADE, mentioned earlier ...",
+        "date": "Aug 21, 2024",
+        "position": 6
+      },
+      {
+        "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+        "link": "https://arxiv.org/html/2308.07107v3",
+        "snippet": "In this survey, we delve into the confluence of LLMs and IR systems, including crucial aspects such as query rewriters, retrievers, rerankers, and readers.",
+        "date": "Aug 16, 2023",
+        "position": 7
+      },
+      {
+        "title": "A Comprehensive Survey of Mixture-of-Experts: Algorithms, Theory ...",
+        "link": "https://arxiv.org/html/2503.07137v1",
+        "snippet": "In this paper, we first introduce the basic design of MoE, including gating functions, expert networks, routing mechanisms, training strategies, and system ...",
+        "date": "Mar 10, 2025",
+        "position": 8
+      },
+      {
+        "title": "[PDF] Deep Learning for Educational Data Science - arXiv",
+        "link": "https://arxiv.org/pdf/2404.19675",
+        "snippet": "Predicting students' academic performance using artificial neural network: A case study of an engineering course. The Pacific Journal of Science and ...",
+        "date": "Apr 12, 2024",
+        "position": 9
+      },
+      {
+        "title": "[2103.00710] Towards Personalized Federated Learning - ar5iv - arXiv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2103.00710",
+        "snippet": "In this survey, we explore the domain of Personalized FL (PFL) to address the fundamental challenges of FL on heterogeneous data, a universal characteristic ...",
+        "date": "Jan 29, 2022",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "A Comprehensive Survey on Knowledge Distillation - arXiv",
+      "snippet": "Instead of exact prediction matching, this approach allows the student to concentrate on the more critical regions of the image, similar to the teacher model.",
+      "link": "https://arxiv.org/html/2503.12067v1",
+      "arxiv_id": "2503.12067"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] Dense Text Retrieval based on Pretrained Language Models - arXiv",
+      "snippet": "Considering the important progress on dense retrieval, this survey aims to provide a systematic review of exist- ing text retrieval approaches. In particular, ...",
+      "link": "https://arxiv.org/pdf/2211.14876",
+      "arxiv_id": "2211.14876"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] Enhancing Student Learning with LLM-Generated Retrieval Practice ...",
+      "snippet": "We empirically investigate whether the administration of LLM-generated multiple-choice retrieval practice questions would enhance student learning outcomes. We ...",
+      "link": "https://arxiv.org/pdf/2507.05629",
+      "arxiv_id": "2507.05629"
+    },
+    {
+      "rank": 4,
+      "title": "A Survey of On-Policy Distillation for Large Language Models - arXiv",
+      "snippet": "Early methods focused on how to sample and which divergence to apply on student trajectories (Agarwal et al., 2024; Gu et al., 2024; Ko et al., 2024) , ...",
+      "link": "https://arxiv.org/html/2604.00626v3",
+      "arxiv_id": "2604.00626"
+    },
+    {
+      "rank": 5,
+      "title": "Data-Mining Research in Education - arXiv",
+      "snippet": "It focuses on analyzing educational related data to develop models for improving learners' learning experiences and enhancing institutional effectiveness.",
+      "link": "https://arxiv.org/html/1703.10117v2",
+      "arxiv_id": "1703.10117"
+    },
+    {
+      "rank": 6,
+      "title": "Mathematical Information Retrieval - arXiv",
+      "snippet": "dense retrieval models such as ColBERT [93] are more effective. Some retrieval models use dense models to improve sparse models e.g., SPLADE, mentioned earlier ...",
+      "link": "https://arxiv.org/html/2408.11646v1",
+      "arxiv_id": "2408.11646"
+    },
+    {
+      "rank": 7,
+      "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+      "snippet": "In this survey, we delve into the confluence of LLMs and IR systems, including crucial aspects such as query rewriters, retrievers, rerankers, and readers.",
+      "link": "https://arxiv.org/html/2308.07107v3",
+      "arxiv_id": "2308.07107"
+    },
+    {
+      "rank": 8,
+      "title": "A Comprehensive Survey of Mixture-of-Experts: Algorithms, Theory ...",
+      "snippet": "In this paper, we first introduce the basic design of MoE, including gating functions, expert networks, routing mechanisms, training strategies, and system ...",
+      "link": "https://arxiv.org/html/2503.07137v1",
+      "arxiv_id": "2503.07137"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] Deep Learning for Educational Data Science - arXiv",
+      "snippet": "Predicting students' academic performance using artificial neural network: A case study of an engineering course. The Pacific Journal of Science and ...",
+      "link": "https://arxiv.org/pdf/2404.19675",
+      "arxiv_id": "2404.19675"
+    },
+    {
+      "rank": 10,
+      "title": "[2103.00710] Towards Personalized Federated Learning - ar5iv - arXiv",
+      "snippet": "In this survey, we explore the domain of Personalized FL (PFL) to address the fundamental challenges of FL on heterogeneous data, a universal characteristic ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2103.00710",
+      "arxiv_id": "2103.00710"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:17.278753+00:00",
+  "elapsed_seconds": 1.0658827275037766,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q44_original_question_attempt1.json",
+      "sha256": "a6fc788214e6e5b01bef60fc0ef94f9117f52a03e2fc3ed96db6603d178401ac",
+      "status": "PASS"
+    }
+  ]
+}

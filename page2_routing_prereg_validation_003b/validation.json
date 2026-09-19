@@ -1,0 +1,56 @@
+{
+  "experiment": "PAGE2_ROUTING_PREREG_VALIDATION_003B",
+  "status": "PASS",
+  "checks": {
+    "original_003_stop_record_preserved": true,
+    "frozen_protocol_hashes_match": true,
+    "protected_formal_sources_unchanged": true,
+    "identity_uniquely_resolved_from_static_official_metadata": true,
+    "no_additional_identity_conflicts": true,
+    "fixed_seed_sample_reproduced": true,
+    "sample_is_25_plus_25": true,
+    "all_50_native_generations_present_and_parser_reproduced": true,
+    "all_page1_page2_raw_bytes_and_payloads_verified": true,
+    "page1_then_page2_pair_order_verified": true,
+    "all_page1_only_states_and_tie_breaks_recomputed": true,
+    "routing_decisions_frozen_before_gt_evaluation": true,
+    "all_1000_random_trials_reproduced": true,
+    "primary_endpoint_recomputed": true,
+    "global_roc_auc_recomputed": true,
+    "no_result_based_rule_or_sample_change": true
+  },
+  "counts": {
+    "questions": 50,
+    "author_written": 25,
+    "inline_citation": 25,
+    "native_queries": 222,
+    "successful_page1": 222,
+    "successful_page2": 222,
+    "random_trials": 1000
+  },
+  "artifact_hashes": {
+    "MAPPING_AMENDMENT.md": "65e0c52874e1822c869b9d9e8170b9aff22777ede644639129e906665d5b53f9",
+    "PREREGISTRATION.md": "d084f7a5fe253e7f00e06b7d3222f51f96c503df886303c579c542787264d2f8",
+    "MAPPING_AMENDMENT.sha256": "f13b04726692f2556bd6699b86502cbd9d039755b96a9c742becbc587a5264f1",
+    "PREREGISTRATION.sha256": "53f0a71b9a4eda10207f3981ed716d4f453e332ef5ed6bf8fe87e43e4d9a5370",
+    "dataset_manifest.json": "56082bf76d06f8c25547b3ad2322a766507ddbdac6654fefc4e874cd1c6b328f",
+    "snapshot_manifest.json": "f101297bca8b4142a3949f222d710d02c619d82eba89008e545f01b32d48cc63",
+    "states.json": "726ddda0a5dce6e9ec758ec11641664260f5a563b0ccfdcc3a6b5bee733b6066",
+    "decisions.json": "ddd293b0cb184222e76170bac192b3f7acce5fc01cf84ea8d078e806d8f9c7e3",
+    "results.json": "9406a8982abcbb6190905ca296000f09da4ebaf038878fbf1b939341943fb460",
+    "PAGE2_ROUTING_PREREG_VALIDATION_003B.md": "90e31e67ce781e6f0705401f00c265b957b3ba437b171bd0625caeda14553490",
+    "run_manifest.json": "d2f918c0b81e1eb98d3f9315f09b0431e89921656bb34f09ab90ffc0643cd980",
+    "random_trials.json": "f563959b94979b9350490d388d9f3b335293ee12ca618c39a06a49ca5a45589c",
+    "evaluation_question_outcomes.json": "2fcb9eb7e2525c1f8cfb8e850c6a46444c5430727c359fca0e8e6f4d44b84234",
+    "identity_resolution.json": "42e38a4ad780aec2a96c1631e958a8118d2a9d239eda104add97453ab7aa7276",
+    "registration_manifest.json": "16cd50dab6ca19ca184b10496b8cf9b57d6e789b3f7375e93d0f9c4b820313c7"
+  },
+  "source_hashes": {
+    "common.py": "340a9d311c1dd9e8c140d9c7e16752feee51ffc30b4c519735badcef6ed70a9d",
+    "collect.py": "5aae608334186a315db976677382f009daa5c22298111578f84869cef0b11301",
+    "route.py": "8dd42b8d3800b9196dc98eb9389c32f6cd7e3b610a89fc88268baef016f68e3f",
+    "evaluate.py": "e1943ef933e85c8d49cc9e56c232b265b9c2e1c7d73b205024d733cb4d205cd5",
+    "report.py": "577f293068b34554cde8daa1bb0fc9f952a9cf7d921887c0485d273d997fb064",
+    "validate.py": "450019b8caf49addc6a33df927232477547e154d454913abb68bb753b3d47f34"
+  }
+}

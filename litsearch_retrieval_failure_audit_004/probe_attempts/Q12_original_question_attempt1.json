@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q12",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2309.08351",
+  "request_payload": {
+    "q": "What paper mitigates the vocabulary size limitation when pretraining multilingual masked language models using a contrastive loss? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 27,
+  "started_utc": "2026-09-17T12:33:54.170370+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1789648155",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "063197a448abdff96d8c0e0b5fa8158c",
+    "date": "Thu, 17 Sep 2026 12:29:15 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3490",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3490,
+  "response_bytes_sha256": "80c941b905557f518f8beea675cfbf484a28600bd96cb648fde3bb343ecd05c2",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJXaGF0IHBhcGVyIG1pdGlnYXRlcyB0aGUgdm9jYWJ1bGFyeSBzaXplIGxpbWl0YXRpb24gd2hlbiBwcmV0cmFpbmluZyBtdWx0aWxpbmd1YWwgbWFza2VkIGxhbmd1YWdlIG1vZGVscyB1c2luZyBhIGNvbnRyYXN0aXZlIGxvc3M/IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlNjYWxpbmcgTGF3cyB3aXRoIFZvY2FidWxhcnk6TGFyZ2VyIE1vZGVscyBEZXNlcnZlIExhcmdlciAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMTM2MjN2MyIsInNuaXBwZXQiOiJXZSBpbnZlc3RpZ2F0ZSBob3cgdm9jYWJ1bGFyeSBzaXplIGltcGFjdHMgTExNIHNjYWxpbmcgbGF3cyBieSB0cmFpbmluZyBtb2RlbHMgcmFuZ2luZyBmcm9tIDMzTSB0byAzQiBwYXJhbWV0ZXJzIG9uIHVwIHRvIDUwMEIgY2hhcmFjdGVycyB3aXRoIHZhcmlvdXMgLi4uIiwiZGF0ZSI6Ik5vdiAxLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJTY2FsaW5nIExhd3Mgd2l0aCBWb2NhYnVsYXJ5OkxhcmdlciBNb2RlbHMgRGVzZXJ2ZSBMYXJnZXIgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjEzNjIzdjEiLCJzbmlwcGV0IjoiV2UgcHJvcG9zZSB0aHJlZSBjb21wbGVtZW50YXJ5IGFwcHJvYWNoZXMgZm9yIHByZWRpY3RpbmcgdGhlIGNvbXB1dGUtb3B0aW1hbCB2b2NhYnVsYXJ5IHNpemU6IElzb0ZMT1BzIGFuYWx5c2lzLCBkZXJpdmF0aXZlIGVzdGltYXRpb24sIGFuZCBwYXJhbWV0cmljIGZpdCBvZiAuLi4iLCJkYXRlIjoiSnVsIDE4LCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJBZHZhbmNlcyBpbiBDcm9zcy1MaW5ndWFsIEluZm9ybWF0aW9uIFJldHJpZXZhbCB3aXRoIE11bHRpbGluZ3VhbCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTEwLjAwOTA4djEiLCJzbmlwcGV0IjoiWExNLVY6IE92ZXJjb21pbmcgdGhlIHZvY2FidWxhcnkgYm90dGxlbmVjayBpbiBtdWx0aWxpbmd1YWwgbWFza2VkIGxhbmd1YWdlIG1vZGVscy4gSW4gSG91ZGEgQm91YW1vciwgSnVhbiBQaW5vLCBhbmQgS2FsaWthIEJhbGksIGVkaXRvcnMsIFByb2NlZWRpbmdzIG9mIC4uLiIsImRhdGUiOiJPY3QgMSwgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiWzIwMDcuMDE4NTJdIExhbmd1YWdlLWFnbm9zdGljIEJFUlQgU2VudGVuY2UgRW1iZWRkaW5nIC0gYXI1aXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIwMDcuMDE4NTIiLCJzbmlwcGV0IjoiaW50cm9kdWNpbmcgYSBwcmUtdHJhaW5lZCBtdWx0aWxpbmd1YWwgbGFuZ3VhZ2UgbW9kZWwgZHJhbWF0aWNhbGx5IHJlZHVjZXMgdGhlIGFtb3VudCBvZiBwYXJhbGxlbCB0cmFpbmluZyBkYXRhIHJlcXVpcmVkIHRvIGFjaGlldmUgZ29vZCBwZXJmb3JtYW5jZSBieSA4MCUuIiwiZGF0ZSI6Ik1heSAyMSwgMjAyMCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiWExNLVY6IE92ZXJjb21pbmcgdGhlIFZvY2FidWxhcnkgQm90dGxlbmVjayBpbiBNdWx0aWxpbmd1YWwgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDEuMTA0NzIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgaW50cm9kdWNlIGEgbmV3IGFwcHJvYWNoIGZvciBzY2FsaW5nIHRvIHZlcnkgbGFyZ2UgbXVsdGlsaW5ndWFsIHZvY2FidWxhcmllcyBieSBkZS1lbXBoYXNpemluZyB0b2tlbiBzaGFyaW5nIGJldHdlZW4gbGFuZ3VhZ2VzIHdpdGggbGl0dGxlIC4uLiIsImRhdGUiOiJKYW4gMjUsIDIwMjMiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkEgUHJhY3RpY2FsIEd1aWRlIHRvIEZpbmUtdHVuaW5nIExhbmd1YWdlIE1vZGVscyB3aXRoIExpbWl0ZWQgRGF0YSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTEuMDk1Mzl2MSIsInNuaXBwZXQiOiJ0aGlzIHBhcGVyIHN1cnZleXMgcmVjZW50IHRyYW5zZmVyIGxlYXJuaW5nIGFwcHJvYWNoZXMgdG8gb3B0aW1pemUgbW9kZWwgcGVyZm9ybWFuY2UgaW4gZG93bnN0cmVhbSB0YXNrcyB3aGVyZSBkYXRhIGlzIHNjYXJjZS4iLCJkYXRlIjoiTm92IDE0LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJNdWx0aWxpbmd1YWwgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzOiBBIFN5c3RlbWF0aWMgU3VydmV5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDExLjExMDcydjEiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBwcm92aWRlcyBhIGNvbXByZWhlbnNpdmUgc3VydmV5IG9mIHRoZSBsYXRlc3QgcmVzZWFyY2ggb24gbXVsdGlsaW5ndWFsIGxhcmdlIGxhbmd1YWdlIG1vZGVscyAoTUxMTXMpLiBNTExNcyBub3Qgb25seSBhcmUgYWJsZSB0byB1bmRlcnN0YW5kIGFuZCAuLi4iLCJkYXRlIjoiTm92IDE3LCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbUERGXSBhZHZhbmNpbmcgcmV0cmlldmFsLWF1Z21lbnRlZCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTAxLjA0ODU4Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgZXhhbWluZXMgdGhlIHNwZWNpZmljIG9ic3RhY2xlcyBvZiBjb25zdHJ1Y3RpbmcgUmV0cmlldmFsLUF1Z21lbnRlZCBHZW5lcmF0aW9uIChSQUcpIHN5c3RlbXMgaW4gbG93LXJlc291cmNlIGxhbmd1YWdlcywiLCJkYXRlIjoiSmFuIDksIDIwMjUiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IlRoZSBQcmUtVHJhaW5pbmcgU3R1ZHkgb2YgRXhwYW5kZWQtU1BMQURFIE1vZGVscyBvbiAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDUuMDE0MDd2MSIsInNuaXBwZXQiOiIoMjAyMykgc2hvd3MgYW4gYXBwcm9hY2ggdG8gZXhwYW5kIHZvY2FidWxhcnkgZm9yIGFuIGFyYml0cmFyeSBzZXQgb2Ygdm9jYWJ1bGFyeSB1c2luZyBhIHByZS10cmFpbmluZyB0YXNrIGNhbGxlZCBleHBhbmRlZCBtYXNrZWQgbGFuZ3VhZ2UgbW9kZWxpbmcuIFRoaXMgLi4uIiwiZGF0ZSI6Ik1heSAyLCAyMDI2IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBNdWx0aS1UYXNrIENvbnRyYXN0aXZlIExlYXJuaW5nIGZvciA4MTkyLVRva2VuIEJpbGluZ3VhbCBUZXh0IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMi4xNzAxNiIsInNuaXBwZXQiOiJBbm90aGVyIG1vZGlmaWNhdGlvbiB0byB0aGUgbW9kZWwgYXJjaGl0ZWN0dXJlIGhhcyB0byBkbyB3aXRoIHRoZSB0b2tlbml6ZXIgYW5kIHRoZSB2b2NhYnVsYXJ5IHNpemUuIFdlIHRyYWluIEJQRSB0b2tlbml6ZXJzIFtTZW5ucmljaCBldCBhbC4sIDIwMTZdIGZvciBhbGwgLi4uIiwiZGF0ZSI6IkZlYiAyNiwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "What paper mitigates the vocabulary size limitation when pretraining multilingual masked language models using a contrastive loss? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Scaling Laws with Vocabulary:Larger Models Deserve Larger ... - arXiv",
+        "link": "https://arxiv.org/html/2407.13623v3",
+        "snippet": "We investigate how vocabulary size impacts LLM scaling laws by training models ranging from 33M to 3B parameters on up to 500B characters with various ...",
+        "date": "Nov 1, 2024",
+        "position": 1
+      },
+      {
+        "title": "Scaling Laws with Vocabulary:Larger Models Deserve Larger ... - arXiv",
+        "link": "https://arxiv.org/html/2407.13623v1",
+        "snippet": "We propose three complementary approaches for predicting the compute-optimal vocabulary size: IsoFLOPs analysis, derivative estimation, and parametric fit of ...",
+        "date": "Jul 18, 2024",
+        "position": 2
+      },
+      {
+        "title": "Advances in Cross-Lingual Information Retrieval with Multilingual ...",
+        "link": "https://arxiv.org/html/2510.00908v1",
+        "snippet": "XLM-V: Overcoming the vocabulary bottleneck in multilingual masked language models. In Houda Bouamor, Juan Pino, and Kalika Bali, editors, Proceedings of ...",
+        "date": "Oct 1, 2025",
+        "position": 3
+      },
+      {
+        "title": "[2007.01852] Language-agnostic BERT Sentence Embedding - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2007.01852",
+        "snippet": "introducing a pre-trained multilingual language model dramatically reduces the amount of parallel training data required to achieve good performance by 80%.",
+        "date": "May 21, 2020",
+        "position": 4
+      },
+      {
+        "title": "XLM-V: Overcoming the Vocabulary Bottleneck in Multilingual ... - arXiv",
+        "link": "https://arxiv.org/abs/2301.10472",
+        "snippet": "In this paper, we introduce a new approach for scaling to very large multilingual vocabularies by de-emphasizing token sharing between languages with little ...",
+        "date": "Jan 25, 2023",
+        "position": 5
+      },
+      {
+        "title": "A Practical Guide to Fine-tuning Language Models with Limited Data",
+        "link": "https://arxiv.org/html/2411.09539v1",
+        "snippet": "this paper surveys recent transfer learning approaches to optimize model performance in downstream tasks where data is scarce.",
+        "date": "Nov 14, 2024",
+        "position": 6
+      },
+      {
+        "title": "Multilingual Large Language Models: A Systematic Survey - arXiv",
+        "link": "https://arxiv.org/html/2411.11072v1",
+        "snippet": "This paper provides a comprehensive survey of the latest research on multilingual large language models (MLLMs). MLLMs not only are able to understand and ...",
+        "date": "Nov 17, 2024",
+        "position": 7
+      },
+      {
+        "title": "[PDF] advancing retrieval-augmented - arXiv",
+        "link": "https://arxiv.org/pdf/2501.04858",
+        "snippet": "This paper examines the specific obstacles of constructing Retrieval-Augmented Generation (RAG) systems in low-resource languages,",
+        "date": "Jan 9, 2025",
+        "position": 8
+      },
+      {
+        "title": "The Pre-Training Study of Expanded-SPLADE Models on ... - arXiv",
+        "link": "https://arxiv.org/html/2605.01407v1",
+        "snippet": "(2023) shows an approach to expand vocabulary for an arbitrary set of vocabulary using a pre-training task called expanded masked language modeling. This ...",
+        "date": "May 2, 2026",
+        "position": 9
+      },
+      {
+        "title": "[PDF] Multi-Task Contrastive Learning for 8192-Token Bilingual Text ...",
+        "link": "https://arxiv.org/pdf/2402.17016",
+        "snippet": "Another modification to the model architecture has to do with the tokenizer and the vocabulary size. We train BPE tokenizers [Sennrich et al., 2016] for all ...",
+        "date": "Feb 26, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Scaling Laws with Vocabulary:Larger Models Deserve Larger ... - arXiv",
+      "snippet": "We investigate how vocabulary size impacts LLM scaling laws by training models ranging from 33M to 3B parameters on up to 500B characters with various ...",
+      "link": "https://arxiv.org/html/2407.13623v3",
+      "arxiv_id": "2407.13623"
+    },
+    {
+      "rank": 2,
+      "title": "Scaling Laws with Vocabulary:Larger Models Deserve Larger ... - arXiv",
+      "snippet": "We propose three complementary approaches for predicting the compute-optimal vocabulary size: IsoFLOPs analysis, derivative estimation, and parametric fit of ...",
+      "link": "https://arxiv.org/html/2407.13623v1",
+      "arxiv_id": "2407.13623"
+    },
+    {
+      "rank": 3,
+      "title": "Advances in Cross-Lingual Information Retrieval with Multilingual ...",
+      "snippet": "XLM-V: Overcoming the vocabulary bottleneck in multilingual masked language models. In Houda Bouamor, Juan Pino, and Kalika Bali, editors, Proceedings of ...",
+      "link": "https://arxiv.org/html/2510.00908v1",
+      "arxiv_id": "2510.00908"
+    },
+    {
+      "rank": 4,
+      "title": "[2007.01852] Language-agnostic BERT Sentence Embedding - ar5iv",
+      "snippet": "introducing a pre-trained multilingual language model dramatically reduces the amount of parallel training data required to achieve good performance by 80%.",
+      "link": "https://ar5iv.labs.arxiv.org/html/2007.01852",
+      "arxiv_id": "2007.01852"
+    },
+    {
+      "rank": 5,
+      "title": "XLM-V: Overcoming the Vocabulary Bottleneck in Multilingual ... - arXiv",
+      "snippet": "In this paper, we introduce a new approach for scaling to very large multilingual vocabularies by de-emphasizing token sharing between languages with little ...",
+      "link": "https://arxiv.org/abs/2301.10472",
+      "arxiv_id": "2301.10472"
+    },
+    {
+      "rank": 6,
+      "title": "A Practical Guide to Fine-tuning Language Models with Limited Data",
+      "snippet": "this paper surveys recent transfer learning approaches to optimize model performance in downstream tasks where data is scarce.",
+      "link": "https://arxiv.org/html/2411.09539v1",
+      "arxiv_id": "2411.09539"
+    },
+    {
+      "rank": 7,
+      "title": "Multilingual Large Language Models: A Systematic Survey - arXiv",
+      "snippet": "This paper provides a comprehensive survey of the latest research on multilingual large language models (MLLMs). MLLMs not only are able to understand and ...",
+      "link": "https://arxiv.org/html/2411.11072v1",
+      "arxiv_id": "2411.11072"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] advancing retrieval-augmented - arXiv",
+      "snippet": "This paper examines the specific obstacles of constructing Retrieval-Augmented Generation (RAG) systems in low-resource languages,",
+      "link": "https://arxiv.org/pdf/2501.04858",
+      "arxiv_id": "2501.04858"
+    },
+    {
+      "rank": 9,
+      "title": "The Pre-Training Study of Expanded-SPLADE Models on ... - arXiv",
+      "snippet": "(2023) shows an approach to expand vocabulary for an arbitrary set of vocabulary using a pre-training task called expanded masked language modeling. This ...",
+      "link": "https://arxiv.org/html/2605.01407v1",
+      "arxiv_id": "2605.01407"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] Multi-Task Contrastive Learning for 8192-Token Bilingual Text ...",
+      "snippet": "Another modification to the model architecture has to do with the tokenizer and the vocabulary size. We train BPE tokenizers [Sennrich et al., 2016] for all ...",
+      "link": "https://arxiv.org/pdf/2402.17016",
+      "arxiv_id": "2402.17016"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:55.264148+00:00",
+  "elapsed_seconds": 1.0937809459865093
+}

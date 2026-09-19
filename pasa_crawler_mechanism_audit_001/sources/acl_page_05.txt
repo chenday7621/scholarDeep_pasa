@@ -1,0 +1,129 @@
+Is there any works that analyze the scaling law of the multimodal models, such as video-text, image-text models.
+[Search]Analysis of scaling 
+law in video-text models
+[Search]Scaling laws in 
+multi-modal AI models
+[Search]Image-text 
+model scaling laws research
+[Search]Survey papers on 
+scaling law of multimodal models
+[Stop]
+Neural Scaling 
+Laws for Embodied 
+AI
+…
+Scaling Law 
+Hypothesis for 
+Multimodal Model
+Scaling Laws for 
+Generative Mixed -Modal 
+Language Models
+…
+…
+…
+[Expand]1 Introduction [Expand]… [Expand]3 Empirical approach 
+Research paper meta analysis
+[Expand]4 Results 4.1 Scaling Laws 
+for Robot Foundation Models
+[Stop]
+Foundation models in robotics: 
+Applications, challenges, and 
+the future
+…
+… …
+[Expand]II Foundation 
+Models Background       
+II-D Multimodal Vision-
+Language Models (VLMs)
+Scaling language-image 
+pre-training via masking
+[Expand]IV Perception 
+IV-A Open-Vocabulary 
+Object Detection and 3D 
+Classification
+[Stop]
+Simple open-
+vocabulary 
+object detection 
+with vision 
+transformers
+Foundation 
+models in 
+robotics: 
+Applications, 
+challenges, and 
+the future
+[Stop]
+…
+…
+Crawler Selector Select Selector Drop
+…
+Figure 2: An example of the PaSa workflow. The Crawler runs multiple[Search] using diverse and complementary
+queries. In addition, the Crawler can evaluate the long-term value of its actions. Notably, it discovers many relevant
+papers as it explores deeper in the citation network, even when intermediate papers along the path do not align with
+the user query.
+Name Implementation
+Generate a search query and invoke
+[Search] the search tool. Append all resulting
+papers to the paper queue.
+Generate a subsection name, then
+[Expand] add all referenced papers in the sub-
+section to the paper queue.
+[Stop] Reset the context to the user query and
+the next paper in the paper queue.
+Table 3: Functions of the Crawler.
+functions as the policy model. The agent’s state is
+defined by the current LLM context and the paper
+queue. The Crawler operates with three registered
+functions, as outlined in Table 3. When an ac-
+tion matches a function name, the corresponding
+function is executed, further modifying the agent’s
+state.
+For example, as Figure 2 shows, the agent begins
+by receiving a user query, incorporating it into its
+context, and initiating actions. If the token gener-
+ated is [Search], the LLM continues to generate a
+search query, and the agent invokes a search tool to
+retrieve papers, which are then added to the paper
+queue. If the token is [Expand], the LLM contin-
+ues to extract a subsection name from the current
+paper in its context. The agent then extracts all
+referenced papers within that subsection, adding
+them to the paper queue. If the token is [Stop],
+the agent resets its context to the user query and
+information of the next paper in the paper queue.
+This information includes the title, abstract, and an
+outline of all sections and subsections.
+The training process for the Crawler comprises
+two stages. In the first stage, we generate trajec-
+tories for a small subset of the training data and
+then perform imitation learning (see Appendix D.1
+for details). In the second stage, reinforcement
+learning is applied. The details of the RL training
+implementation are described below.
+Reward Design We conduct RL training on the
+AutoScholarQuery training set, where each in-
+stance consists of a query q and a corresponding
+paper setP. Starting with a query q, the Crawler
+generates a trajectoryτ = (s1,a 1,··· ,sT,aT ). At
+each time stept, we denote the current paper queue
+asQt. Upon taking action at, the Crawler appends
+a set of new papers (p1,p 2,··· ,pnt) to the paper
+queue. If at = [Stop], the set is empty and no
+papers are added.
+The reward of executing actionat in statest is
+defined as
+r(st,at) = α×
+nt∑
+i=1
+I(q,pi,t )−c(at), (1)
+where I(q,pi,t ) = 1 ifpi matches the queryq and
+is not already inQt, and I(q,pi,t ) = 0 otherwise.
+Here,α is a reward coefficient, andc(at) is the cost
+of actionat.
+The indicator function I(q,pi,t ) can be deter-
+mined by checking ifpi belongs toP−Q t. How-
+ever, it is important to note that the AutoScholar-
+Query may only include a subset of the ground-
+truth papers, as citations often emphasize a limited
+11667

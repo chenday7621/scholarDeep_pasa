@@ -1,0 +1,164 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 20,
+  "question_id": "Q18",
+  "group": "author-written",
+  "native_query_index": 2,
+  "native_query": "First paper on fine-tuning LLMs with chain-of-thoughts for math reasoning",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "2309.05653",
+  "page": 4,
+  "payload": {
+    "q": "First paper on fine-tuning LLMs with chain-of-thoughts for math reasoning before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 4
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 20,
+  "started_utc": "2026-09-17T12:44:23.240310+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648785",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "f6e26799473b2aa4677636e18d8a24ff",
+    "date": "Thu, 17 Sep 2026 12:39:47 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "4135",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 4135,
+  "response_bytes_sha256": "af51440e6d155b924d9426be563038c3fc56e0aa062e383c0e8026cdf6014bfb",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJGaXJzdCBwYXBlciBvbiBmaW5lLXR1bmluZyBMTE1zIHdpdGggY2hhaW4tb2YtdGhvdWdodHMgZm9yIG1hdGggcmVhc29uaW5nIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjQsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlsyMjAzLjExMTcxXSBTZWxmLUNvbnNpc3RlbmN5IEltcHJvdmVzIENoYWluIG9mIFRob3VnaHQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMjAzLjExMTcxIiwic25pcHBldCI6IkNoYWluLW9mLXRob3VnaHQgcHJvbXB0aW5nIGNvbWJpbmVkIHdpdGggcHJlLXRyYWluZWQgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIGhhcyBhY2hpZXZlZCBlbmNvdXJhZ2luZyByZXN1bHRzIG9uIGNvbXBsZXggcmVhc29uaW5nIHRhc2tzLiBJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIGEgbmV3IGRlY29kaW5nIHN0cmF0ZWd5LCBzZWxmLWNvbnNpc3RlbmN5LCB0byByZXBsYWNlIHRoZSBuYWl2ZSBncmVlZHkgZGVjb2RpbmcgdXNlZCBpbiBjaGFpbi1vZi10aG91Z2h0IHByb21wdGluZy4gSXQgZmlyc3Qgc2FtcGxlcyBhIGRpdmVyc2Ugc2V0IG9mIHJlYXNvbmluZyBwYXRocyBpbnN0ZWFkIG9mIG9ubHkgdGFraW5nIHRoZSBncmVlZHkgb25lLCBhbmQgdGhlbiBzZWxlY3RzIHRoZSBtb3N0IC4uLiIsImRhdGUiOiJNYXIgMjEsIDIwMjIiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlsyNTA1LjIwNDE2XSBHcmFwaEdlbjogRW5oYW5jaW5nIFN1cGVydmlzZWQgRmluZS1UdW5pbmcgZm9yIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjUwNS4yMDQxNiIsInNuaXBwZXQiOiJGaW5lLXR1bmluZyBmb3IgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSB0eXBpY2FsbHkgcmVxdWlyZXMgc3Vic3RhbnRpYWwgYW1vdW50cyBvZiBoaWdoLXF1YWxpdHkgc3VwZXJ2aXNlZCBkYXRhLCB3aGljaCBpcyBib3RoIGNvc3RseSBhbmQgbGFib3ItaW50ZW5zaXZlIHRvIGFjcXVpcmUuIFdoaWxlIHN5bnRoZXRpYyBkYXRhIGdlbmVyYXRpb24gaGFzIGVtZXJnZWQgYXMgYSBwcm9taXNpbmcgc29sdXRpb24sIGV4aXN0aW5nIGFwcHJvYWNoZXMgZnJlcXVlbnRseSBzdWZmZXIgZnJvbSBmYWN0dWFsIGluYWNjdXJhY2llcywgaW5zdWZmaWNpZW50IGxvbmctdGFpbCBjb3ZlcmFnZSwgc2ltcGxpc3RpYyBrbm93bGVkZ2Ugc3RydWN0dXJlcywgYW5kIGhvbW9nZW5pemVkIG91dHB1dHMgLi4uIiwiZGF0ZSI6Ik1heSAyNiwgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiRmluZS1UdW5pbmcgTGFuZ3VhZ2UgTW9kZWxzIHdpdGggSnVzdCBGb3J3YXJkIFBhc3NlcyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNS4xNzMzMyIsInNuaXBwZXQiOiJGaW5lLXR1bmluZyBsYW5ndWFnZSBtb2RlbHMgKExNcykgaGFzIHlpZWxkZWQgc3VjY2VzcyBvbiBkaXZlcnNlIGRvd25zdHJlYW0gdGFza3MsIGJ1dCBhcyBMTXMgZ3JvdyBpbiBzaXplLCBiYWNrcHJvcGFnYXRpb24gcmVxdWlyZXMgYSBwcm9oaWJpdGl2ZWx5IGxhcmdlIGFtb3VudCBvZiBtZW1vcnkuIFplcm90aC1vcmRlciAoWk8pIG1ldGhvZHMgY2FuIGluIHByaW5jaXBsZSBlc3RpbWF0ZSBncmFkaWVudHMgdXNpbmcgb25seSB0d28gZm9yd2FyZCBwYXNzZXMgYnV0IGFyZSB0aGVvcml6ZWQgdG8gYmUgY2F0YXN0cm9waGljYWxseSBzbG93IGZvciBvcHRpbWl6aW5nIGxhcmdlIG1vZGVscy4gSW4gdGhpcyB3b3JrLCB3ZSBwcm9wb3NlIGEgbWVtb3J5LWVmZmljaWVudCB6ZXJvdGhvcmRlciAuLi4iLCJkYXRlIjoiTWF5IDI3LCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbMjUwNC4xMjY4N10gRGF0YS1lZmZpY2llbnQgTExNIEZpbmUtdHVuaW5nIGZvciBDb2RlIEdlbmVyYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI1MDQuMTI2ODciLCJzbmlwcGV0IjoiTGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSBoYXZlIGRlbW9uc3RyYXRlZCBzaWduaWZpY2FudCBwb3RlbnRpYWwgaW4gY29kZSBnZW5lcmF0aW9uIHRhc2tzLiBIb3dldmVyLCB0aGVyZSByZW1haW5zIGEgcGVyZm9ybWFuY2UgZ2FwIGJldHdlZW4gb3Blbi1zb3VyY2UgYW5kIGNsb3NlZC1zb3VyY2UgbW9kZWxzLiBUbyBhZGRyZXNzIHRoaXMgZ2FwLCBleGlzdGluZyBhcHByb2FjaGVzIHR5cGljYWxseSBnZW5lcmF0ZSBsYXJnZSBhbW91bnRzIG9mIHN5bnRoZXRpYyBkYXRhIGZvciBmaW5lLXR1bmluZywgd2hpY2ggb2Z0ZW4gbGVhZHMgdG8gaW5lZmZpY2llbnQgdHJhaW5pbmcuIEluIHRoaXMgd29yaywgd2UgcHJvcG9zZSBhIGRhdGEgc2VsZWN0aW9uIHN0cmF0ZWd5IGluIG9yZGVyIHRvIC4uLiIsImRhdGUiOiJBcHIgMTcsIDIwMjUiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlsyMzA0LjA4MDg1XSBJbnN0cnVjdFVJRTogTXVsdGktdGFzayBJbnN0cnVjdGlvbiBUdW5pbmcgZm9yIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNC4wODA4NSIsInNuaXBwZXQiOiJMYXJnZSBsYW5ndWFnZSBtb2RlbHMgaGF2ZSB1bmxvY2tlZCBzdHJvbmcgbXVsdGktdGFzayBjYXBhYmlsaXRpZXMgZnJvbSByZWFkaW5nIGluc3RydWN0aXZlIHByb21wdHMuIEhvd2V2ZXIsIHJlY2VudCBzdHVkaWVzIGhhdmUgc2hvd24gdGhhdCBleGlzdGluZyBsYXJnZSBtb2RlbHMgc3RpbGwgaGF2ZSBkaWZmaWN1bHR5IHdpdGggaW5mb3JtYXRpb24gZXh0cmFjdGlvbiB0YXNrcy4gRm9yIGV4YW1wbGUsIGdwdC0zLjUtdHVyYm8gYWNoaWV2ZWQgYW4gRjEgc2NvcmUgb2YgMTguMjIgb24gdGhlIE9udG9ub3RlcyBkYXRhc2V0LCB3aGljaCBpcyBzaWduaWZpY2FudGx5IGxvd2VyIHRoYW4gdGhlIHN0YXRlLW9mLXRoZS1hcnQgcGVyZm9ybWFuY2UuIEluIHRoaXMgcGFwZXIsIHdlIHByb3Bvc2UgLi4uIiwiZGF0ZSI6IkFwciAxNywgMjAyMyIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiTEVOU0xMTTogVW52ZWlsaW5nIEZpbmUtVHVuaW5nIER5bmFtaWNzIGZvciBMTE0gU2VsZWN0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNTA1LjAzNzkzIiwic25pcHBldCI6IlRoZSBwcm9saWZlcmF0aW9uIG9mIG9wZW4tc291cmNlZCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKExMTXMpIGFuZCBkaXZlcnNlIGRvd25zdHJlYW0gdGFza3MgbmVjZXNzaXRhdGVzIGVmZmljaWVudCBtb2RlbCBzZWxlY3Rpb24sIGdpdmVuIHRoZSBpbXByYWN0aWNhbGl0eSBvZiBmaW5lLXR1bmluZyBhbGwgY2FuZGlkYXRlcyBkdWUgdG8gY29tcHV0YXRpb25hbCBjb25zdHJhaW50cy4gRGVzcGl0ZSB0aGUgcmVjZW50IGFkdmFuY2VzIGluIExMTSBzZWxlY3Rpb24sIGEgZnVuZGFtZW50YWwgcmVzZWFyY2ggcXVlc3Rpb24gbGFyZ2VseSByZW1haW5zIG5hc2NlbnQ6IGhvdyBjYW4gd2UgbW9kZWwgdGhlIGR5bmFtaWMgYmVoYXZpb3JzIG9mIExMTXMgZHVyaW5nIGZpbmUtdHVuaW5nIC4uLiIsImRhdGUiOiJNYXkgMSwgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiWzI0MTAuMDc2OThdIEVuaGFuY2luZyBaZXJvdGgtb3JkZXIgRmluZS10dW5pbmcgZm9yIExhbmd1YWdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQxMC4wNzY5OCIsInNuaXBwZXQiOiJQYXJhbWV0ZXItZWZmaWNpZW50IGZpbmUtdHVuaW5nIChQRUZUKSBzaWduaWZpY2FudGx5IHJlZHVjZXMgbWVtb3J5IGNvc3RzIHdoZW4gYWRhcHRpbmcgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSBmb3IgZG93bnN0cmVhbSBhcHBsaWNhdGlvbnMuIEhvd2V2ZXIsIHRyYWRpdGlvbmFsIGZpcnN0LW9yZGVyIChGTykgZmluZS10dW5pbmcgYWxnb3JpdGhtcyBpbmN1ciBzdWJzdGFudGlhbCBtZW1vcnkgb3ZlcmhlYWQgZHVlIHRvIHRoZSBuZWVkIHRvIHN0b3JlIGFjdGl2YXRpb24gdmFsdWVzIGZvciBiYWNrLXByb3BhZ2F0aW9uIGR1cmluZyBncmFkaWVudCBjb21wdXRhdGlvbiwgcGFydGljdWxhcmx5IGluIGxvbmctY29udGV4dCBmaW5lLXR1bmluZyB0YXNrcy4gWmVyb3RoLW9yZGVyIC4uLiIsImRhdGUiOiJPY3QgMTAsIDIwMjQiLCJwb3NpdGlvbiI6N31dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "First paper on fine-tuning LLMs with chain-of-thoughts for math reasoning before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 4,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[2203.11171] Self-Consistency Improves Chain of Thought ...",
+        "link": "https://arxiv.org/abs/2203.11171",
+        "snippet": "Chain-of-thought prompting combined with pre-trained large language models has achieved encouraging results on complex reasoning tasks. In this paper, we propose a new decoding strategy, self-consistency, to replace the naive greedy decoding used in chain-of-thought prompting. It first samples a diverse set of reasoning paths instead of only taking the greedy one, and then selects the most ...",
+        "date": "Mar 21, 2022",
+        "position": 1
+      },
+      {
+        "title": "[2505.20416] GraphGen: Enhancing Supervised Fine-Tuning for ...",
+        "link": "https://arxiv.org/abs/2505.20416",
+        "snippet": "Fine-tuning for large language models (LLMs) typically requires substantial amounts of high-quality supervised data, which is both costly and labor-intensive to acquire. While synthetic data generation has emerged as a promising solution, existing approaches frequently suffer from factual inaccuracies, insufficient long-tail coverage, simplistic knowledge structures, and homogenized outputs ...",
+        "date": "May 26, 2025",
+        "position": 2
+      },
+      {
+        "title": "Fine-Tuning Language Models with Just Forward Passes",
+        "link": "https://arxiv.org/abs/2305.17333",
+        "snippet": "Fine-tuning language models (LMs) has yielded success on diverse downstream tasks, but as LMs grow in size, backpropagation requires a prohibitively large amount of memory. Zeroth-order (ZO) methods can in principle estimate gradients using only two forward passes but are theorized to be catastrophically slow for optimizing large models. In this work, we propose a memory-efficient zerothorder ...",
+        "date": "May 27, 2023",
+        "position": 3
+      },
+      {
+        "title": "[2504.12687] Data-efficient LLM Fine-tuning for Code Generation",
+        "link": "https://arxiv.org/abs/2504.12687",
+        "snippet": "Large language models (LLMs) have demonstrated significant potential in code generation tasks. However, there remains a performance gap between open-source and closed-source models. To address this gap, existing approaches typically generate large amounts of synthetic data for fine-tuning, which often leads to inefficient training. In this work, we propose a data selection strategy in order to ...",
+        "date": "Apr 17, 2025",
+        "position": 4
+      },
+      {
+        "title": "[2304.08085] InstructUIE: Multi-task Instruction Tuning for ...",
+        "link": "https://arxiv.org/abs/2304.08085",
+        "snippet": "Large language models have unlocked strong multi-task capabilities from reading instructive prompts. However, recent studies have shown that existing large models still have difficulty with information extraction tasks. For example, gpt-3.5-turbo achieved an F1 score of 18.22 on the Ontonotes dataset, which is significantly lower than the state-of-the-art performance. In this paper, we propose ...",
+        "date": "Apr 17, 2023",
+        "position": 5
+      },
+      {
+        "title": "LENSLLM: Unveiling Fine-Tuning Dynamics for LLM Selection",
+        "link": "https://arxiv.org/abs/2505.03793",
+        "snippet": "The proliferation of open-sourced Large Language Models (LLMs) and diverse downstream tasks necessitates efficient model selection, given the impracticality of fine-tuning all candidates due to computational constraints. Despite the recent advances in LLM selection, a fundamental research question largely remains nascent: how can we model the dynamic behaviors of LLMs during fine-tuning ...",
+        "date": "May 1, 2025",
+        "position": 6
+      },
+      {
+        "title": "[2410.07698] Enhancing Zeroth-order Fine-tuning for Language ...",
+        "link": "https://arxiv.org/abs/2410.07698",
+        "snippet": "Parameter-efficient fine-tuning (PEFT) significantly reduces memory costs when adapting large language models (LLMs) for downstream applications. However, traditional first-order (FO) fine-tuning algorithms incur substantial memory overhead due to the need to store activation values for back-propagation during gradient computation, particularly in long-context fine-tuning tasks. Zeroth-order ...",
+        "date": "Oct 10, 2024",
+        "position": 7
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank_on_page": 1,
+      "nominal_rank": 31,
+      "title": "[2203.11171] Self-Consistency Improves Chain of Thought ...",
+      "snippet": "Chain-of-thought prompting combined with pre-trained large language models has achieved encouraging results on complex reasoning tasks. In this paper, we propose a new decoding strategy, self-consistency, to replace the naive greedy decoding used in chain-of-thought prompting. It first samples a diverse set of reasoning paths instead of only taking the greedy one, and then selects the most ...",
+      "link": "https://arxiv.org/abs/2203.11171",
+      "arxiv_id": "2203.11171"
+    },
+    {
+      "rank_on_page": 2,
+      "nominal_rank": 32,
+      "title": "[2505.20416] GraphGen: Enhancing Supervised Fine-Tuning for ...",
+      "snippet": "Fine-tuning for large language models (LLMs) typically requires substantial amounts of high-quality supervised data, which is both costly and labor-intensive to acquire. While synthetic data generation has emerged as a promising solution, existing approaches frequently suffer from factual inaccuracies, insufficient long-tail coverage, simplistic knowledge structures, and homogenized outputs ...",
+      "link": "https://arxiv.org/abs/2505.20416",
+      "arxiv_id": "2505.20416"
+    },
+    {
+      "rank_on_page": 3,
+      "nominal_rank": 33,
+      "title": "Fine-Tuning Language Models with Just Forward Passes",
+      "snippet": "Fine-tuning language models (LMs) has yielded success on diverse downstream tasks, but as LMs grow in size, backpropagation requires a prohibitively large amount of memory. Zeroth-order (ZO) methods can in principle estimate gradients using only two forward passes but are theorized to be catastrophically slow for optimizing large models. In this work, we propose a memory-efficient zerothorder ...",
+      "link": "https://arxiv.org/abs/2305.17333",
+      "arxiv_id": "2305.17333"
+    },
+    {
+      "rank_on_page": 4,
+      "nominal_rank": 34,
+      "title": "[2504.12687] Data-efficient LLM Fine-tuning for Code Generation",
+      "snippet": "Large language models (LLMs) have demonstrated significant potential in code generation tasks. However, there remains a performance gap between open-source and closed-source models. To address this gap, existing approaches typically generate large amounts of synthetic data for fine-tuning, which often leads to inefficient training. In this work, we propose a data selection strategy in order to ...",
+      "link": "https://arxiv.org/abs/2504.12687",
+      "arxiv_id": "2504.12687"
+    },
+    {
+      "rank_on_page": 5,
+      "nominal_rank": 35,
+      "title": "[2304.08085] InstructUIE: Multi-task Instruction Tuning for ...",
+      "snippet": "Large language models have unlocked strong multi-task capabilities from reading instructive prompts. However, recent studies have shown that existing large models still have difficulty with information extraction tasks. For example, gpt-3.5-turbo achieved an F1 score of 18.22 on the Ontonotes dataset, which is significantly lower than the state-of-the-art performance. In this paper, we propose ...",
+      "link": "https://arxiv.org/abs/2304.08085",
+      "arxiv_id": "2304.08085"
+    },
+    {
+      "rank_on_page": 6,
+      "nominal_rank": 36,
+      "title": "LENSLLM: Unveiling Fine-Tuning Dynamics for LLM Selection",
+      "snippet": "The proliferation of open-sourced Large Language Models (LLMs) and diverse downstream tasks necessitates efficient model selection, given the impracticality of fine-tuning all candidates due to computational constraints. Despite the recent advances in LLM selection, a fundamental research question largely remains nascent: how can we model the dynamic behaviors of LLMs during fine-tuning ...",
+      "link": "https://arxiv.org/abs/2505.03793",
+      "arxiv_id": "2505.03793"
+    },
+    {
+      "rank_on_page": 7,
+      "nominal_rank": 37,
+      "title": "[2410.07698] Enhancing Zeroth-order Fine-tuning for Language ...",
+      "snippet": "Parameter-efficient fine-tuning (PEFT) significantly reduces memory costs when adapting large language models (LLMs) for downstream applications. However, traditional first-order (FO) fine-tuning algorithms incur substantial memory overhead due to the need to store activation values for back-propagation during gradient computation, particularly in long-context fine-tuning tasks. Zeroth-order ...",
+      "link": "https://arxiv.org/abs/2410.07698",
+      "arxiv_id": "2410.07698"
+    }
+  ],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:44:27.163997+00:00",
+  "elapsed_seconds": 3.923723232001066
+}

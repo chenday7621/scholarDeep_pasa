@@ -1,0 +1,208 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q40",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2104.00783",
+  "request_payload": {
+    "q": "action conversations corpus building depth oriented before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 86,
+  "started_utc": "2026-09-17T12:35:02.562507+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648225",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "863dca9e7122dfa3e5cdd5aeef64f11e",
+    "date": "Thu, 17 Sep 2026 12:30:23 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3872",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3872,
+  "response_bytes_sha256": "312b40bfbc21fa8e060a61f93dc6edae7d488278fdecb35da8ad9cb61d2c7171",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJhY3Rpb24gY29udmVyc2F0aW9ucyBjb3JwdXMgYnVpbGRpbmcgZGVwdGggb3JpZW50ZWQgYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQW55VE9EOiBBIFByb2dyYW1tYWJsZSBUYXNrLU9yaWVudGVkIERpYWxvZyBTeXN0ZW0gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMTIuMDk5Mzl2MiIsInNuaXBwZXQiOiJBY3Rpb24tYmFzZWQgY29udmVyc2F0aW9ucyBkYXRhc2V0OiBBIGNvcnB1cyBmb3IgYnVpbGRpbmcgbW9yZSBpbi1kZXB0aCB0YXNrLW9yaWVudGVkIGRpYWxvZ3VlIHN5c3RlbXMuIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDIxIENvbmZlcmVuY2Ugb2YgdGhlIE5vcnRoIC4uLiIsImRhdGUiOiJGZWIgMTMsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkEgTXVsdGktVHVybiBFbW90aW9uYWxseS1SaWNoIFNwb2tlbiBEaWFsb2d1ZSBEYXRhc2V0IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA1LjE5OTc4djEiLCJzbmlwcGV0IjoiQWN0aW9uLWJhc2VkIGNvbnZlcnNhdGlvbnMgZGF0YXNldDogQSBjb3JwdXMgZm9yIGJ1aWxkaW5nIG1vcmUgaW4tZGVwdGggdGFzay1vcmllbnRlZCBkaWFsb2d1ZSBzeXN0ZW1zLiBJbiBLcmlzdGluYSBUb3V0YW5vdmEsIEFubmEgUnVtc2hpc2t5LCBMdWtlIC4uLiIsImRhdGUiOiJNYXkgMjYsIDIwMjUiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIEludGVudCBJbmR1Y3Rpb24gZnJvbSBDb252ZXJzYXRpb25zIGZvciBUYXNrLU9yaWVudGVkIERpYWxvZ3VlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNC4xMjk4MiIsInNuaXBwZXQiOiJBY3Rpb24tYmFzZWQgY29udmVyc2F0aW9ucyDCtyBkYXRhc2V0OiBBIGNvcnB1cyBmb3IgYnVpbGRpbmcgbW9yZSBpbi1kZXB0aCB0YXNrLSDCtyBvcmllbnRlZCBkaWFsb2d1ZSBzeXN0ZW1zLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUuIDIwMjEgQ29uZmVyZW5jZSBvZiB0aGUgTm9ydGggLi4uIiwiZGF0ZSI6IkFwciAyNiwgMjAyMyIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gU3Bva2VuV09aOiBBIExhcmdlLVNjYWxlIFNwZWVjaC1UZXh0IEJlbmNobWFyayBmb3IgU3Bva2VuIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4xMzA0MCIsInNuaXBwZXQiOiJBY3Rpb24tYmFzZWQgY29udmVyc2F0aW9ucyBkYXRhc2V0OiBBIGNvcnB1cyBmb3IgYnVpbGRpbmcgbW9yZSBpbi1kZXB0aCB0YXNrLW9yaWVudGVkIGRpYWxvZ3VlIHN5c3RlbXMuIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDIxIENvbmZlcmVuY2Ugb2YgdGhlIE5vcnRoIC4uLiIsImRhdGUiOiJKdW4gMjQsIDIwMjUiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6Ik1hY2Fyb24tQTJVSTogQSBNb2RlbCBmb3IgR2VuZXJhdGl2ZSBVSSBpbiBQZXJzb25hbCBBZ2VudHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDUuMjQ4MzB2MSIsInNuaXBwZXQiOiJXZSBidWlsZCBhIGxhcmdlLXNjYWxlIEdlbmVyYXRpdmUgVUkgY29ycHVzIGZyb20gaGV0ZXJvZ2VuZW91cyBkaWFsb2d1ZSBzb3VyY2VzLCBpbnRyb2R1Y2UgQTJVSS1CZW5jaCBmb3IgY29udHJvbGxlZCBldmFsdWF0aW9uLCBhbmQgdHJhaW4gMzBCLCAyMzVCIGFuZCA3NTRCIC4uLiIsImRhdGUiOiJNYXkgMjQsIDIwMjYiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkluZm9ybWFsIGxlYXJuaW5nIGVtZXJnZXMgaW4gZXZlcnlkYXkgaHVtYW7igJNMTE0gaW50ZXJhY3Rpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDcuMTc2NDN2MSIsInNuaXBwZXQiOiJUaGVzZSBjb252ZXJzYXRpb25zIGFyZSBvcmdhbml6ZWQgYXJvdW5kIHVzZXJzJyBvd24gdGFza3MsIHlldCB0aGV5IGNvbnRhaW4gYmVoYXZpb3VyYWwgdHJhY2VzIG9mIGxlYXJuaW5nLW9yaWVudGVkIHdvcmsuIFNlY3Rpb24gMi4xIGVzdGFibGlzaGVzIHRoZSBkZXB0aCAuLi4iLCJkYXRlIjoiSnVsIDIwLCAyMDI2IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBCdWlsZGluZyBUYXNrLU9yaWVudGVkIERpYWxvZ3VlIFN5c3RlbSB2aWEgQWN0aW9uLUxldmVsIEdlbmVyYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDQuMDA4ODQiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgcHJvLSBwb3NlIGEgdGFzay1vcmllbnRlZCBkaWFsb2d1ZSBzeXN0ZW0gdmlhIGFjdGlvbi1sZXZlbCBnZW5lcmF0aW9uLiBTcGVjaWZpY2FsbHksIHdlIGZpcnN0IGNvbnN0cnVjdCBkaWFsb2d1ZSBhY3Rpb25zIGZyb20gbGFyZ2Utc2NhbGUuIiwiZGF0ZSI6IkFwciAzLCAyMDIzIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbUERGXSBIdW1hbiB2cy4gQWdlbnQgaW4gVGFzay1PcmllbnRlZCBDb252ZXJzYXRpb25zIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDkuMTc2MTkiLCJzbmlwcGV0IjoiVGhlIGVtZXJnZW5jZSBvZiBMTE1zIGhhcyB0cmFuc2Zvcm1lZCBhcHByb2FjaGVzIHRvIGJ1aWxkaW5nIHRhc2stb3JpZW50ZWQgY29udmVyc2F0aW9uYWwgc3lzdGVtcy4gV2hpbGUgZWFybHkgd29yayBleHBsb3JlZCB6ZXJvLXNob3QgYXBwbGljYXRpb25zIG9mIExMTXMgdG8gLi4uIiwiZGF0ZSI6Ik5vdiA1LCAyMDI1IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJTZXF1ZW50aWFsIGFubm90YXRpb25zIGZvciBuYXR1cmFsbHktb2NjdXJyaW5nIEhSSTogZmlyc3QgaW5zaWdodHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDguMTUwOTd2MSIsInNuaXBwZXQiOiJBYnN0cmFjdC4gV2UgZXhwbGFpbiB0aGUgbWV0aG9kb2xvZ3kgd2UgZGV2ZWxvcGVkIGZvciBpbXByb3ZpbmcgdGhlIGludGVyYWN0aW9ucyBhY2NvbXBsaXNoZWQgYnkgYW4gZW1iZWRkZWQgY29udmVyc2F0aW9uYWwgYWdlbnQsIGRyYXdpbmcgZnJvbSBDb252ZXJzYXRpb24gLi4uIiwiZGF0ZSI6IkF1ZyAyOSwgMjAyMyIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiIyLiBUaGVvcmV0aWNhbCBVbmRlcnBpbm5pbmdzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4xNTA5N3YxIzp+OnRleHQ9Mi4lMjBUaGVvcmV0aWNhbCUyMFVuZGVycGlubmluZ3MifSx7InRpdGxlIjoiMy4gQ29ycHVzIENvbnN0cnVjdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDguMTUwOTd2MSM6fjp0ZXh0PTMuJTIwQ29ycHVzJTIwY29uc3RydWN0aW9uIn0seyJ0aXRsZSI6IjQuIEFubm90YXRpbmcgSW50ZXJhY3Rpb25zIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4xNTA5N3YxIzp+OnRleHQ9NC4lMjBBbm5vdGF0aW5nJTIwaW50ZXJhY3Rpb25zIn1dLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkEgSHlicmlkIEFyY2hpdGVjdHVyZSBmb3IgTXVsdGktUGFydHkgQ29udmVyc2F0aW9uYWwgU3lzdGVtcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTcwNS4wMTIxNHYyIiwic25pcHBldCI6IklmIGFjdGlvbiBjbGFzcyBkZXRlY3RlZCBpcyB0YXNrLW9yaWVudGVkLCB0aGUgc3lzdGVtIHdpbGwgaW1wbGVtZW50IHRoZSBleGVjdXRpb24gb2YgdGhlIHRhc2ssIHNheSB0byBndWlkZSBhIGNhciwgdG8gbW92ZSBhIHJvYm90J3MgYXJtLCBvciB0byBjb21wdXRlIHRoZSAuLi4iLCJkYXRlIjoiTWF5IDQsIDIwMTciLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "action conversations corpus building depth oriented before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "AnyTOD: A Programmable Task-Oriented Dialog System - arXiv",
+        "link": "https://arxiv.org/html/2212.09939v2",
+        "snippet": "Action-based conversations dataset: A corpus for building more in-depth task-oriented dialogue systems. In Proceedings of the 2021 Conference of the North ...",
+        "date": "Feb 13, 2023",
+        "position": 1
+      },
+      {
+        "title": "A Multi-Turn Emotionally-Rich Spoken Dialogue Dataset - arXiv",
+        "link": "https://arxiv.org/html/2505.19978v1",
+        "snippet": "Action-based conversations dataset: A corpus for building more in-depth task-oriented dialogue systems. In Kristina Toutanova, Anna Rumshisky, Luke ...",
+        "date": "May 26, 2025",
+        "position": 2
+      },
+      {
+        "title": "[PDF] Intent Induction from Conversations for Task-Oriented Dialogue ...",
+        "link": "https://arxiv.org/pdf/2304.12982",
+        "snippet": "Action-based conversations · dataset: A corpus for building more in-depth task- · oriented dialogue systems. In Proceedings of the. 2021 Conference of the North ...",
+        "date": "Apr 26, 2023",
+        "position": 3
+      },
+      {
+        "title": "[PDF] SpokenWOZ: A Large-Scale Speech-Text Benchmark for Spoken ...",
+        "link": "https://arxiv.org/pdf/2305.13040",
+        "snippet": "Action-based conversations dataset: A corpus for building more in-depth task-oriented dialogue systems. In Proceedings of the 2021 Conference of the North ...",
+        "date": "Jun 24, 2025",
+        "position": 4
+      },
+      {
+        "title": "Macaron-A2UI: A Model for Generative UI in Personal Agents - arXiv",
+        "link": "https://arxiv.org/html/2605.24830v1",
+        "snippet": "We build a large-scale Generative UI corpus from heterogeneous dialogue sources, introduce A2UI-Bench for controlled evaluation, and train 30B, 235B and 754B ...",
+        "date": "May 24, 2026",
+        "position": 5
+      },
+      {
+        "title": "Informal learning emerges in everyday human–LLM interaction - arXiv",
+        "link": "https://arxiv.org/html/2607.17643v1",
+        "snippet": "These conversations are organized around users' own tasks, yet they contain behavioural traces of learning-oriented work. Section 2.1 establishes the depth ...",
+        "date": "Jul 20, 2026",
+        "position": 6
+      },
+      {
+        "title": "[PDF] Building Task-Oriented Dialogue System via Action-Level Generation",
+        "link": "https://arxiv.org/pdf/2304.00884",
+        "snippet": "In this paper, we pro- pose a task-oriented dialogue system via action-level generation. Specifically, we first construct dialogue actions from large-scale.",
+        "date": "Apr 3, 2023",
+        "position": 7
+      },
+      {
+        "title": "[PDF] Human vs. Agent in Task-Oriented Conversations - arXiv",
+        "link": "https://arxiv.org/pdf/2509.17619",
+        "snippet": "The emergence of LLMs has transformed approaches to building task-oriented conversational systems. While early work explored zero-shot applications of LLMs to ...",
+        "date": "Nov 5, 2025",
+        "position": 8
+      },
+      {
+        "title": "Sequential annotations for naturally-occurring HRI: first insights - arXiv",
+        "link": "https://arxiv.org/html/2308.15097v1",
+        "snippet": "Abstract. We explain the methodology we developed for improving the interactions accomplished by an embedded conversational agent, drawing from Conversation ...",
+        "date": "Aug 29, 2023",
+        "sitelinks": [
+          {
+            "title": "2. Theoretical Underpinnings",
+            "link": "https://arxiv.org/html/2308.15097v1#:~:text=2.%20Theoretical%20Underpinnings"
+          },
+          {
+            "title": "3. Corpus Construction",
+            "link": "https://arxiv.org/html/2308.15097v1#:~:text=3.%20Corpus%20construction"
+          },
+          {
+            "title": "4. Annotating Interactions",
+            "link": "https://arxiv.org/html/2308.15097v1#:~:text=4.%20Annotating%20interactions"
+          }
+        ],
+        "position": 9
+      },
+      {
+        "title": "A Hybrid Architecture for Multi-Party Conversational Systems - arXiv",
+        "link": "https://arxiv.org/html/1705.01214v2",
+        "snippet": "If action class detected is task-oriented, the system will implement the execution of the task, say to guide a car, to move a robot's arm, or to compute the ...",
+        "date": "May 4, 2017",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "AnyTOD: A Programmable Task-Oriented Dialog System - arXiv",
+      "snippet": "Action-based conversations dataset: A corpus for building more in-depth task-oriented dialogue systems. In Proceedings of the 2021 Conference of the North ...",
+      "link": "https://arxiv.org/html/2212.09939v2",
+      "arxiv_id": "2212.09939"
+    },
+    {
+      "rank": 2,
+      "title": "A Multi-Turn Emotionally-Rich Spoken Dialogue Dataset - arXiv",
+      "snippet": "Action-based conversations dataset: A corpus for building more in-depth task-oriented dialogue systems. In Kristina Toutanova, Anna Rumshisky, Luke ...",
+      "link": "https://arxiv.org/html/2505.19978v1",
+      "arxiv_id": "2505.19978"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] Intent Induction from Conversations for Task-Oriented Dialogue ...",
+      "snippet": "Action-based conversations · dataset: A corpus for building more in-depth task- · oriented dialogue systems. In Proceedings of the. 2021 Conference of the North ...",
+      "link": "https://arxiv.org/pdf/2304.12982",
+      "arxiv_id": "2304.12982"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] SpokenWOZ: A Large-Scale Speech-Text Benchmark for Spoken ...",
+      "snippet": "Action-based conversations dataset: A corpus for building more in-depth task-oriented dialogue systems. In Proceedings of the 2021 Conference of the North ...",
+      "link": "https://arxiv.org/pdf/2305.13040",
+      "arxiv_id": "2305.13040"
+    },
+    {
+      "rank": 5,
+      "title": "Macaron-A2UI: A Model for Generative UI in Personal Agents - arXiv",
+      "snippet": "We build a large-scale Generative UI corpus from heterogeneous dialogue sources, introduce A2UI-Bench for controlled evaluation, and train 30B, 235B and 754B ...",
+      "link": "https://arxiv.org/html/2605.24830v1",
+      "arxiv_id": "2605.24830"
+    },
+    {
+      "rank": 6,
+      "title": "Informal learning emerges in everyday human–LLM interaction - arXiv",
+      "snippet": "These conversations are organized around users' own tasks, yet they contain behavioural traces of learning-oriented work. Section 2.1 establishes the depth ...",
+      "link": "https://arxiv.org/html/2607.17643v1",
+      "arxiv_id": "2607.17643"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] Building Task-Oriented Dialogue System via Action-Level Generation",
+      "snippet": "In this paper, we pro- pose a task-oriented dialogue system via action-level generation. Specifically, we first construct dialogue actions from large-scale.",
+      "link": "https://arxiv.org/pdf/2304.00884",
+      "arxiv_id": "2304.00884"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] Human vs. Agent in Task-Oriented Conversations - arXiv",
+      "snippet": "The emergence of LLMs has transformed approaches to building task-oriented conversational systems. While early work explored zero-shot applications of LLMs to ...",
+      "link": "https://arxiv.org/pdf/2509.17619",
+      "arxiv_id": "2509.17619"
+    },
+    {
+      "rank": 9,
+      "title": "Sequential annotations for naturally-occurring HRI: first insights - arXiv",
+      "snippet": "Abstract. We explain the methodology we developed for improving the interactions accomplished by an embedded conversational agent, drawing from Conversation ...",
+      "link": "https://arxiv.org/html/2308.15097v1",
+      "arxiv_id": "2308.15097"
+    },
+    {
+      "rank": 10,
+      "title": "A Hybrid Architecture for Multi-Party Conversational Systems - arXiv",
+      "snippet": "If action class detected is task-oriented, the system will implement the execution of the task, say to guide a car, to move a robot's arm, or to compute the ...",
+      "link": "https://arxiv.org/html/1705.01214v2",
+      "arxiv_id": "1705.01214"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:03.668273+00:00",
+  "elapsed_seconds": 1.1057671420276165
+}

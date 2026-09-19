@@ -1,0 +1,252 @@
+{
+  "RealScholarQuery_0": {
+    "status": "REVIEWED",
+    "improvement": "将数据规模比较单列为一个角度。",
+    "problem": "第5条转为小数据的负面效果，与用户要找小数据优于大数据的方向相反；没有明确保留优于大数据这一比较。"
+  },
+  "RealScholarQuery_1": {
+    "status": "REVIEWED",
+    "improvement": "保留预训练与in-context learning的联系，去掉baseline固定survey开头。",
+    "problem": "第1/3条仍是预训练方法近义改写；limitations是额外角度，未必回答能力如何形成。"
+  },
+  "RealScholarQuery_5": {
+    "status": "REVIEWED",
+    "improvement": "第3条同时保留RLHF、hallucination、image/video description。",
+    "problem": "第1条将RLHF错误展开为Reinforcement Learning Hindsight Experience；facet标签不同不能抵消方法名称错误。"
+  },
+  "RealScholarQuery_6": {
+    "status": "REVIEWED",
+    "improvement": "第1/2条保留HotPotQA和LLM方法/实验评估。",
+    "problem": "第4条反向检索not proposing methods，与需求冲突；第5条是StopSearch控制词，根本不是合理检索query。"
+  },
+  "RealScholarQuery_7": {
+    "status": "REVIEWED",
+    "improvement": "增加显式数据集角度。",
+    "problem": "仍完全遗漏至少数分钟的定义；加入LLM、summarization等用户未指定的限制，description也被部分替换成摘要任务。"
+  },
+  "RealScholarQuery_10": {
+    "status": "REVIEWED",
+    "improvement": "第3条在同一query中保留video-text与image-text。",
+    "problem": "新增universal applicability反例方向及transformer限定，用户未要求；标签多样性伴随需求外扩展。"
+  },
+  "RealScholarQuery_14": {
+    "status": "REVIEWED",
+    "improvement": "第1条将LLM、自动survey写作和multiple scholarly documents连在一起。",
+    "problem": "多条仍是survey/summary写作的近义变体，新增limitations未必提升互补性。"
+  },
+  "RealScholarQuery_15": {
+    "status": "REVIEWED",
+    "improvement": "第1条明确负面效果，其余多条保持RL与SFT对象。",
+    "problem": "五个长facet标签主要围绕同一影响关系，真实角度差异有限；部分query只问一般影响。"
+  },
+  "RealScholarQuery_17": {
+    "status": "REVIEWED",
+    "improvement": "第2条补回NER、RE、EE，第5条保留small models比较对象。",
+    "problem": "第3/4条新增demonstration retrieval和parameter space geometry，原问题没有这些技术机制。"
+  },
+  "RealScholarQuery_20": {
+    "status": "REVIEWED",
+    "improvement": "把跨论文关系分析、survey写作、归纳能力分别列出。",
+    "problem": "缺少明确支持sufficient能力的方向；新增数据集角度无用户指定依据，多条仅覆盖需求的一部分。"
+  },
+  "RealScholarQuery_21": {
+    "status": "REVIEWED",
+    "improvement": "第3条保留same prompt与diverse responses组合。",
+    "problem": "其余条目常写成不同response prompts，容易把固定prompt条件模糊化；benchmark slot是额外要求。"
+  },
+  "RealScholarQuery_24": {
+    "status": "REVIEWED",
+    "improvement": "第1条仍直接覆盖machine translation agents。",
+    "problem": "新增reinforcement learning和wearable technology无依据；第3条丢失agents，领域外扩明显。"
+  },
+  "RealScholarQuery_26": {
+    "status": "REVIEWED",
+    "improvement": "仍围绕scaling laws与mixture of experts，并尝试方法/应用分工。",
+    "problem": "第2条把fine-grained mixture和expert performance含糊拆开；多条遗漏fine-grained，数据集角度没有问题依据。"
+  },
+  "RealScholarQuery_28": {
+    "status": "REVIEWED",
+    "improvement": "第2条补回HumanEval、MBPP、code_contests三个实体。",
+    "problem": "没有保留harder than前两者且easier than后者的方向；第5条是StopSearch，五槽并非五个可用query。"
+  },
+  "RealScholarQuery_30": {
+    "status": "REVIEWED",
+    "improvement": "仍有三条忠实围绕LLM test-time training。",
+    "problem": "新增adversarial approaches及inference cost子任务均不是用户给出的约束；第1/4/5条仍近义。"
+  },
+  "RealScholarQuery_31": {
+    "status": "REVIEWED",
+    "improvement": "保留DPO与vision-language models，按影响/比较/应用组织。",
+    "problem": "与baseline已有角度相近；部分query丢large-scale，新增stability限定，没有明显新增约束收益。"
+  },
+  "RealScholarQuery_32": {
+    "status": "REVIEWED",
+    "improvement": "持续保留neural network与quantum Monte Carlo。",
+    "problem": "第1至4条主要是同一核心概念的措辞变换，数据集角度额外；没有证明更互补。"
+  },
+  "RealScholarQuery_34": {
+    "status": "REVIEWED",
+    "improvement": "核心任务和3D AIGC在五条中较稳定保留，第5条提出evaluation角度。",
+    "problem": "第1至4条仍高度近义，facet标签与实际语义差异不一致。"
+  },
+  "RealScholarQuery_35": {
+    "status": "REVIEWED",
+    "improvement": "保留若干明确的quantization方法和比较表达。",
+    "problem": "第3条仍将quantized误写为quantitative，重复baseline错误；新增benchmark角度未经问题支持。"
+  },
+  "RealScholarQuery_37": {
+    "status": "REVIEWED",
+    "improvement": "提出方法、任务、领域三个标签，核心schedule planning仍在。",
+    "problem": "前两条丢失agents，五条实际内容仍很接近；标签数量不能当作facet coverage。"
+  },
+  "RealScholarQuery_38": {
+    "status": "REVIEWED",
+    "improvement": "比baseline少了显式diffusion模型限制。",
+    "problem": "仍新增binomial compression和AI应用限定，原问题未指定；多条是泛述而非可证实互补角度。"
+  },
+  "RealScholarQuery_41": {
+    "status": "REVIEWED",
+    "improvement": "第3/4条明确SFT数据规模扩展，避免baseline把SFT展开成soft target。",
+    "problem": "第1条漂移到pre-training，与SFT不同；benchmark角度未由问题指定。"
+  },
+  "RealScholarQuery_44": {
+    "status": "REVIEWED",
+    "improvement": "加入方法比较角度，核心隐私学习主题仍在。",
+    "problem": "新增differential privacy及homomorphic encryption具体路线；原问题只有Crypto-based Private Learning，不能自动认定这些扩展满足原意。"
+  },
+  "RealScholarQuery_47": {
+    "status": "REVIEWED",
+    "improvement": "所有query保留LLM agents，前两条明确evaluation/benchmark。",
+    "problem": "后两条弱化评估要求而变成一般金融应用；总体角度与baseline类似，不能仅据格式判优。"
+  },
+  "RealScholarQuery_49": {
+    "status": "REVIEWED",
+    "improvement": "第2/4条保留大型VLM、agents或PC game automation。",
+    "problem": "第3条泛化成AI gaming，丢失VLM、agents、PC限制；第5条也丢PC，benchmark标签不对应实际benchmark内容。"
+  },
+  "RealScholarQuery_2": {
+    "status": "REVIEWED",
+    "improvement": "五条都围绕autoregressive transformer与video generation，避免baseline的editing漂移。",
+    "problem": "前四条几乎是词序/包装变化，未解决原有冗余；limitations是唯一明显追加角度。"
+  },
+  "RealScholarQuery_3": {
+    "status": "REVIEWED",
+    "improvement": "多数query同时保留visual/audio，避免baseline第5条把audio换成textual。",
+    "problem": "第1条无依据加入contrastive loss；第2/5条仅标点不同，仍未表达排除survey，约束并未完整保留。"
+  },
+  "RealScholarQuery_4": {
+    "status": "REVIEWED",
+    "improvement": "第1/2条明确RL训练LLM agents。",
+    "problem": "第5条把一般RL收窄为RLHF，第3/4条丢agents；新增exploration与benchmark限定，未由用户给出。"
+  },
+  "RealScholarQuery_8": {
+    "status": "REVIEWED",
+    "improvement": "第4/5条保留reward shaping与agents。",
+    "problem": "第3条额外要求intrinsic rewards且without extrinsic rewards，原问题无此机制/排除条件；多个facet的covered_constraints自报不符内容。"
+  },
+  "RealScholarQuery_9": {
+    "status": "REVIEWED",
+    "improvement": "有效输出包含明确ranking和evaluation metrics角度。",
+    "problem": "一个槽位三次产生非法Search标签串而失败；其余多条仍是同一排名任务近义改写，未形成完整五query输出。"
+  },
+  "RealScholarQuery_11": {
+    "status": "REVIEWED",
+    "improvement": "有效输出保留visual-LLM与MoE。",
+    "problem": "两个槽位格式失败；第3条直接复制用户请求，第4条新增benchmark限制，不能算五个互补query。"
+  },
+  "RealScholarQuery_12": {
+    "status": "REVIEWED",
+    "improvement": "持续保留transformer与3D video generation。",
+    "problem": "前四条主要近义改写；第4条保留冗长提问外壳，真实facet差异不足。"
+  },
+  "RealScholarQuery_13": {
+    "status": "REVIEWED",
+    "improvement": "前四条更持续地保留self-correction不提升性能的否定方向。",
+    "problem": "前四条高度同义，且第4条language learning machines模糊LLM对象；第5条转为测量困难。"
+  },
+  "RealScholarQuery_16": {
+    "status": "REVIEWED",
+    "improvement": "多条保留trigger-free与document-level event extraction。",
+    "problem": "没有明确保留human-annotated条件；第5条新添LLM限定，多条仍近义。"
+  },
+  "RealScholarQuery_18": {
+    "status": "REVIEWED",
+    "improvement": "前四条完整保留zero-shot、LLM生成文本、small分类模型比较。",
+    "problem": "第2/3/4条完全重复并直接复制用户问题，第1条也近乎相同；词面coverage升高不能代表更好的query规划。"
+  },
+  "RealScholarQuery_19": {
+    "status": "REVIEWED",
+    "improvement": "前三条稳定保留保护生成质量与vocabulary watermarking。",
+    "problem": "前三条主要近义；第4条新添next-token probability masking，第5条将watermarking变为masking并附benchmark限制。"
+  },
+  "RealScholarQuery_22": {
+    "status": "REVIEWED",
+    "improvement": "第4条增加evaluation表达，均保留常识与机器翻译主题。",
+    "problem": "其余多条仍是同一需求的轻微改写；没有证据表明比baseline显著互补。"
+  },
+  "RealScholarQuery_23": {
+    "status": "REVIEWED",
+    "improvement": "第4/5条完整保留RL、diffusion与video generation。",
+    "problem": "第4/5条完全重复；前两条分别丢video或diffusion，第3条额外聚焦benchmark。"
+  },
+  "RealScholarQuery_25": {
+    "status": "REVIEWED",
+    "improvement": "五条均保留video aesthetics和multimodal large models。",
+    "problem": "多条只是追加technical mechanisms/application tasks等泛词；benchmark facet非原始条件，真实差异有限。"
+  },
+  "RealScholarQuery_27": {
+    "status": "REVIEWED",
+    "improvement": "多数条目保留rejection sampling fine-tuning。",
+    "problem": "第2条无依据指定worst-group accuracy；其余通用case/benchmark角度未必适合这一简短问题。"
+  },
+  "RealScholarQuery_29": {
+    "status": "REVIEWED",
+    "improvement": "分别保留IMO级解题和数学证明两个任务。",
+    "problem": "部分query丢LLM，第5条泛化为current AI局限；整体角度与baseline接近。"
+  },
+  "RealScholarQuery_33": {
+    "status": "REVIEWED",
+    "improvement": "第3/5条保留textual adversarial examples与machine translation。",
+    "problem": "多条泛化为adversarial attacks，第2条新添NMT限定；第1/4条高度近义。"
+  },
+  "RealScholarQuery_36": {
+    "status": "REVIEWED",
+    "improvement": "比baseline少了video editing和泛AI路线，核心identity/video generation更稳定。",
+    "problem": "第1至4条仍是同一核心表达，只有limitations标签带来轻微角度变化。"
+  },
+  "RealScholarQuery_39": {
+    "status": "REVIEWED",
+    "improvement": "有效第2槽保留high-quality long thought data。",
+    "problem": "第1/4槽最终格式失败；第3槽保留diverse long thought，但有效第5槽转为一般synthetic pretraining，仍遗漏difficult、valuable等要求。"
+  },
+  "RealScholarQuery_40": {
+    "status": "REVIEWED",
+    "improvement": "更多query显式包含low-bit weights，QAT缩写与全称均保留。",
+    "problem": "与baseline相比仍没有稳定表达better representations方向；PTQ比较不是用户条件，前后已有类似比较角度。"
+  },
+  "RealScholarQuery_42": {
+    "status": "REVIEWED",
+    "improvement": "多条维持frame selection/video理解主题，减少baseline的optical flow限定。",
+    "problem": "第2条另添object detection，原问题没有该技术路线；第1/3条仍近义。"
+  },
+  "RealScholarQuery_43": {
+    "status": "REVIEWED",
+    "improvement": "有效query保留protein design和antibody design两个对象。",
+    "problem": "第2条无依据把DPO展开为Decoupled Protein Optimization；第4槽格式失败，benchmark角度亦未由用户指定。"
+  },
+  "RealScholarQuery_45": {
+    "status": "REVIEWED",
+    "improvement": "多条保留controllability/video generation。",
+    "problem": "第2条新添LLM，第5条反向变成non-controllable factors且从generation换到editing；不是忠实宽化。"
+  },
+  "RealScholarQuery_46": {
+    "status": "REVIEWED",
+    "improvement": "第1/4条把robot决策与task planning结合，并保留datasets/benchmarks角度。",
+    "problem": "第3槽格式失败；第2/5条只覆盖子需求，但剩余query总体仍紧扣用户主题。"
+  },
+  "RealScholarQuery_48": {
+    "status": "REVIEWED",
+    "improvement": "第2条补回factor mining，第3条同时出现LLM和factors，比baseline完全遗漏因子更接近任务。",
+    "problem": "提取JSON十个字段全空；第2条只写AI未保留LLM，第3/4条易偏向一般影响因素/价格预测，第5条泛化为AI局限。不能说已完整保留LLM因子挖掘约束。"
+  }
+}

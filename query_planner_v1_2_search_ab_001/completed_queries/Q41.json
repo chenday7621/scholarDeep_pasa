@@ -1,0 +1,1316 @@
+{
+  "query_id": "Q41",
+  "query_index": 41,
+  "dataset_qid": "RealScholarQuery_41",
+  "original_question": "Using synthesis data for scaling up sft data.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Use of synthetic data in increasing volume of SFT data",
+    "Survey paper on usage of synthetic data for scaling up soft target data",
+    "Scaling up SFT data with synthesis data",
+    "Applications of generative AI in creating synthetic data for soft target data scaling",
+    "Exponential growth of training data in NLP through synthetic data"
+  ],
+  "anchor": "Using synthesis data for scaling up sft data.",
+  "source_generation_id": "Q41_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Use of synthetic data in increasing volume of SFT data",
+        "Survey paper on usage of synthetic data for scaling up soft target data",
+        "Scaling up SFT data with synthesis data",
+        "Applications of generative AI in creating synthetic data for soft target data scaling",
+        "Exponential growth of training data in NLP through synthetic data"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "Using synthesis data for scaling up sft data.",
+        "Use of synthetic data in increasing volume of SFT data",
+        "Survey paper on usage of synthetic data for scaling up soft target data",
+        "Scaling up SFT data with synthesis data",
+        "Applications of generative AI in creating synthetic data for soft target data scaling"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Use of synthetic data in increasing volume of SFT data",
+      "attempts": [
+        {
+          "global_attempt_sequence": 250,
+          "query_id": "Q41",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Use of synthetic data in increasing volume of SFT data",
+          "request_payload": {
+            "q": "Use of synthetic data in increasing volume of SFT data before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q41_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:30:30.840165+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Use of synthetic data in increasing volume of SFT data before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"SynthVLM: High-Efficiency and High-Quality Synthetic Data ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.20756v1\",\"snippet\":\"Key approaches include the use of advanced alignment techniques, the development of refined annotation guidelines, and the implementation of novel training ...\",\"date\":\"Jul 30, 2024\",\"position\":1},{\"title\":\"Best Practices and Lessons Learned on Synthetic Data for ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.07503v1\",\"snippet\":\"One of the many benefits of synthetic data is that it can be generated at scale, providing an abundant supply of training and testing data for AI models. This ...\",\"date\":\"Apr 11, 2024\",\"position\":2},{\"title\":\"[PDF] Automatically Generating Numerous Context-Driven SFT Data for ...\",\"link\":\"https://arxiv.org/pdf/2405.16579?\",\"snippet\":\"To automatically construct synthetic custom SFT data incorporating a wide range of contextual granularity (queries range from ... We apply our method on DailyM to ...\",\"date\":\"May 26, 2024\",\"position\":3},{\"title\":\"[PDF] RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math ...\",\"link\":\"https://arxiv.org/pdf/2406.14532\",\"snippet\":\"Training on model-generated synthetic data is a promising approach for finetuning LLMs, but it remains unclear when it helps or hurts.\",\"date\":\"Jun 20, 2024\",\"position\":4},{\"title\":\"[PDF] Does Synthetic Data Make Large Language Models More Efficient?\",\"link\":\"https://arxiv.org/pdf/2310.07830\",\"snippet\":\"When you create synthetic question-answer pairs from existing text, you're effectively augmenting your dataset, which can be particularly useful when dealing ...\",\"date\":\"Oct 11, 2023\",\"position\":5},{\"title\":\"[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.01335\",\"snippet\":\"For “SFT”, we report the performance of our base model zephyr-7b-sft-full, which has been fine-tuned on the same dataset we use to generate synthetic data.\",\"date\":\"Jun 14, 2024\",\"position\":6},{\"title\":\"ShieldGemma: Generative AI Content Moderation Based on Gemma\",\"link\":\"https://arxiv.org/html/2407.21772v2\",\"snippet\":\"We present a novel methodology for generating high-quality, adversarial, diverse, and fair datasets. This process leverages synthetic data generation techniques ...\",\"date\":\"Aug 4, 2024\",\"position\":7},{\"title\":\"The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs\",\"link\":\"https://arxiv.org/html/2408.13296v1\",\"snippet\":\"SFT involves providing the LLM with labelled data tailored to the target task. For example, fine-tuning an LLM for text classification in a business context ...\",\"date\":\"Aug 23, 2024\",\"position\":8},{\"title\":\"[PDF] arXiv:2409.16461v1 [cs.CL] 24 Sep 2024\",\"link\":\"https://arxiv.org/pdf/2409.16461\",\"snippet\":\"* the 1k vanilla SFT data under incremental SFT expands to 7k (FOLIO) and 20k (ProofWriter) data points for training. The inference time for SFT models for each.\",\"date\":\"Sep 24, 2024\",\"position\":9},{\"title\":\"RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.10038v2\",\"snippet\":\"Our proposed method conducts response sampling offline from SFT and constructs a dataset of synthetic preference data to bypass the high computational cost of ...\",\"date\":\"Mar 30, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJVc2Ugb2Ygc3ludGhldGljIGRhdGEgaW4gaW5jcmVhc2luZyB2b2x1bWUgb2YgU0ZUIGRhdGEgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiU3ludGhWTE06IEhpZ2gtRWZmaWNpZW5jeSBhbmQgSGlnaC1RdWFsaXR5IFN5bnRoZXRpYyBEYXRhIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4yMDc1NnYxIiwic25pcHBldCI6IktleSBhcHByb2FjaGVzIGluY2x1ZGUgdGhlIHVzZSBvZiBhZHZhbmNlZCBhbGlnbm1lbnQgdGVjaG5pcXVlcywgdGhlIGRldmVsb3BtZW50IG9mIHJlZmluZWQgYW5ub3RhdGlvbiBndWlkZWxpbmVzLCBhbmQgdGhlIGltcGxlbWVudGF0aW9uIG9mIG5vdmVsIHRyYWluaW5nIC4uLiIsImRhdGUiOiJKdWwgMzAsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkJlc3QgUHJhY3RpY2VzIGFuZCBMZXNzb25zIExlYXJuZWQgb24gU3ludGhldGljIERhdGEgZm9yIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4wNzUwM3YxIiwic25pcHBldCI6Ik9uZSBvZiB0aGUgbWFueSBiZW5lZml0cyBvZiBzeW50aGV0aWMgZGF0YSBpcyB0aGF0IGl0IGNhbiBiZSBnZW5lcmF0ZWQgYXQgc2NhbGUsIHByb3ZpZGluZyBhbiBhYnVuZGFudCBzdXBwbHkgb2YgdHJhaW5pbmcgYW5kIHRlc3RpbmcgZGF0YSBmb3IgQUkgbW9kZWxzLiBUaGlzIC4uLiIsImRhdGUiOiJBcHIgMTEsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIEF1dG9tYXRpY2FsbHkgR2VuZXJhdGluZyBOdW1lcm91cyBDb250ZXh0LURyaXZlbiBTRlQgRGF0YSBmb3IgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA1LjE2NTc5PyIsInNuaXBwZXQiOiJUbyBhdXRvbWF0aWNhbGx5IGNvbnN0cnVjdCBzeW50aGV0aWMgY3VzdG9tIFNGVCBkYXRhIGluY29ycG9yYXRpbmcgYSB3aWRlIHJhbmdlIG9mIGNvbnRleHR1YWwgZ3JhbnVsYXJpdHkgKHF1ZXJpZXMgcmFuZ2UgZnJvbSAuLi4gV2UgYXBwbHkgb3VyIG1ldGhvZCBvbiBEYWlseU0gdG8gLi4uIiwiZGF0ZSI6Ik1heSAyNiwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gUkwgb24gSW5jb3JyZWN0IFN5bnRoZXRpYyBEYXRhIFNjYWxlcyB0aGUgRWZmaWNpZW5jeSBvZiBMTE0gTWF0aCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDYuMTQ1MzIiLCJzbmlwcGV0IjoiVHJhaW5pbmcgb24gbW9kZWwtZ2VuZXJhdGVkIHN5bnRoZXRpYyBkYXRhIGlzIGEgcHJvbWlzaW5nIGFwcHJvYWNoIGZvciBmaW5ldHVuaW5nIExMTXMsIGJ1dCBpdCByZW1haW5zIHVuY2xlYXIgd2hlbiBpdCBoZWxwcyBvciBodXJ0cy4iLCJkYXRlIjoiSnVuIDIwLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBEb2VzIFN5bnRoZXRpYyBEYXRhIE1ha2UgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIE1vcmUgRWZmaWNpZW50PyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMxMC4wNzgzMCIsInNuaXBwZXQiOiJXaGVuIHlvdSBjcmVhdGUgc3ludGhldGljIHF1ZXN0aW9uLWFuc3dlciBwYWlycyBmcm9tIGV4aXN0aW5nIHRleHQsIHlvdSdyZSBlZmZlY3RpdmVseSBhdWdtZW50aW5nIHlvdXIgZGF0YXNldCwgd2hpY2ggY2FuIGJlIHBhcnRpY3VsYXJseSB1c2VmdWwgd2hlbiBkZWFsaW5nIC4uLiIsImRhdGUiOiJPY3QgMTEsIDIwMjMiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIFNlbGYtUGxheSBGaW5lLVR1bmluZyBDb252ZXJ0cyBXZWFrIExhbmd1YWdlIE1vZGVscyB0byAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMS4wMTMzNSIsInNuaXBwZXQiOiJGb3Ig4oCcU0ZU4oCdLCB3ZSByZXBvcnQgdGhlIHBlcmZvcm1hbmNlIG9mIG91ciBiYXNlIG1vZGVsIHplcGh5ci03Yi1zZnQtZnVsbCwgd2hpY2ggaGFzIGJlZW4gZmluZS10dW5lZCBvbiB0aGUgc2FtZSBkYXRhc2V0IHdlIHVzZSB0byBnZW5lcmF0ZSBzeW50aGV0aWMgZGF0YS4iLCJkYXRlIjoiSnVuIDE0LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJTaGllbGRHZW1tYTogR2VuZXJhdGl2ZSBBSSBDb250ZW50IE1vZGVyYXRpb24gQmFzZWQgb24gR2VtbWEiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjIxNzcydjIiLCJzbmlwcGV0IjoiV2UgcHJlc2VudCBhIG5vdmVsIG1ldGhvZG9sb2d5IGZvciBnZW5lcmF0aW5nIGhpZ2gtcXVhbGl0eSwgYWR2ZXJzYXJpYWwsIGRpdmVyc2UsIGFuZCBmYWlyIGRhdGFzZXRzLiBUaGlzIHByb2Nlc3MgbGV2ZXJhZ2VzIHN5bnRoZXRpYyBkYXRhIGdlbmVyYXRpb24gdGVjaG5pcXVlcyAuLi4iLCJkYXRlIjoiQXVnIDQsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlRoZSBVbHRpbWF0ZSBHdWlkZSB0byBGaW5lLVR1bmluZyBMTE1zIGZyb20gQmFzaWNzIHRvIEJyZWFrdGhyb3VnaHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjEzMjk2djEiLCJzbmlwcGV0IjoiU0ZUIGludm9sdmVzIHByb3ZpZGluZyB0aGUgTExNIHdpdGggbGFiZWxsZWQgZGF0YSB0YWlsb3JlZCB0byB0aGUgdGFyZ2V0IHRhc2suIEZvciBleGFtcGxlLCBmaW5lLXR1bmluZyBhbiBMTE0gZm9yIHRleHQgY2xhc3NpZmljYXRpb24gaW4gYSBidXNpbmVzcyBjb250ZXh0IC4uLiIsImRhdGUiOiJBdWcgMjMsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDkuMTY0NjF2MSBbY3MuQ0xdIDI0IFNlcCAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA5LjE2NDYxIiwic25pcHBldCI6IiogdGhlIDFrIHZhbmlsbGEgU0ZUIGRhdGEgdW5kZXIgaW5jcmVtZW50YWwgU0ZUIGV4cGFuZHMgdG8gN2sgKEZPTElPKSBhbmQgMjBrIChQcm9vZldyaXRlcikgZGF0YSBwb2ludHMgZm9yIHRyYWluaW5nLiBUaGUgaW5mZXJlbmNlIHRpbWUgZm9yIFNGVCBtb2RlbHMgZm9yIGVhY2guIiwiZGF0ZSI6IlNlcCAyNCwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiUlMtRFBPOiBBIEh5YnJpZCBSZWplY3Rpb24gU2FtcGxpbmcgYW5kIERpcmVjdCBQcmVmZXJlbmNlIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4xMDAzOHYyIiwic25pcHBldCI6Ik91ciBwcm9wb3NlZCBtZXRob2QgY29uZHVjdHMgcmVzcG9uc2Ugc2FtcGxpbmcgb2ZmbGluZSBmcm9tIFNGVCBhbmQgY29uc3RydWN0cyBhIGRhdGFzZXQgb2Ygc3ludGhldGljIHByZWZlcmVuY2UgZGF0YSB0byBieXBhc3MgdGhlIGhpZ2ggY29tcHV0YXRpb25hbCBjb3N0IG9mIC4uLiIsImRhdGUiOiJNYXIgMzAsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "9b75f48645e340a855e978051d957d40b53cadf249f6fc07448eb5560f14507d",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Use of synthetic data in increasing volume of SFT data before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "SynthVLM: High-Efficiency and High-Quality Synthetic Data ... - arXiv",
+                "link": "https://arxiv.org/html/2407.20756v1",
+                "snippet": "Key approaches include the use of advanced alignment techniques, the development of refined annotation guidelines, and the implementation of novel training ...",
+                "date": "Jul 30, 2024",
+                "position": 1
+              },
+              {
+                "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+                "link": "https://arxiv.org/html/2404.07503v1",
+                "snippet": "One of the many benefits of synthetic data is that it can be generated at scale, providing an abundant supply of training and testing data for AI models. This ...",
+                "date": "Apr 11, 2024",
+                "position": 2
+              },
+              {
+                "title": "[PDF] Automatically Generating Numerous Context-Driven SFT Data for ...",
+                "link": "https://arxiv.org/pdf/2405.16579?",
+                "snippet": "To automatically construct synthetic custom SFT data incorporating a wide range of contextual granularity (queries range from ... We apply our method on DailyM to ...",
+                "date": "May 26, 2024",
+                "position": 3
+              },
+              {
+                "title": "[PDF] RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math ...",
+                "link": "https://arxiv.org/pdf/2406.14532",
+                "snippet": "Training on model-generated synthetic data is a promising approach for finetuning LLMs, but it remains unclear when it helps or hurts.",
+                "date": "Jun 20, 2024",
+                "position": 4
+              },
+              {
+                "title": "[PDF] Does Synthetic Data Make Large Language Models More Efficient?",
+                "link": "https://arxiv.org/pdf/2310.07830",
+                "snippet": "When you create synthetic question-answer pairs from existing text, you're effectively augmenting your dataset, which can be particularly useful when dealing ...",
+                "date": "Oct 11, 2023",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv",
+                "link": "https://arxiv.org/pdf/2401.01335",
+                "snippet": "For “SFT”, we report the performance of our base model zephyr-7b-sft-full, which has been fine-tuned on the same dataset we use to generate synthetic data.",
+                "date": "Jun 14, 2024",
+                "position": 6
+              },
+              {
+                "title": "ShieldGemma: Generative AI Content Moderation Based on Gemma",
+                "link": "https://arxiv.org/html/2407.21772v2",
+                "snippet": "We present a novel methodology for generating high-quality, adversarial, diverse, and fair datasets. This process leverages synthetic data generation techniques ...",
+                "date": "Aug 4, 2024",
+                "position": 7
+              },
+              {
+                "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+                "link": "https://arxiv.org/html/2408.13296v1",
+                "snippet": "SFT involves providing the LLM with labelled data tailored to the target task. For example, fine-tuning an LLM for text classification in a business context ...",
+                "date": "Aug 23, 2024",
+                "position": 8
+              },
+              {
+                "title": "[PDF] arXiv:2409.16461v1 [cs.CL] 24 Sep 2024",
+                "link": "https://arxiv.org/pdf/2409.16461",
+                "snippet": "* the 1k vanilla SFT data under incremental SFT expands to 7k (FOLIO) and 20k (ProofWriter) data points for training. The inference time for SFT models for each.",
+                "date": "Sep 24, 2024",
+                "position": 9
+              },
+              {
+                "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+                "link": "https://arxiv.org/html/2402.10038v2",
+                "snippet": "Our proposed method conducts response sampling offline from SFT and constructs a dataset of synthetic preference data to bypass the high computational cost of ...",
+                "date": "Mar 30, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:32.031129+00:00",
+          "elapsed_seconds": 1.1909641586244106
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2310.07830",
+        "2401.01335",
+        "2402.10038",
+        "2404.07503",
+        "2405.16579",
+        "2406.14532",
+        "2407.20756",
+        "2407.21772",
+        "2408.13296",
+        "2409.16461"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2407.20756",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2407.20756v1",
+          "title": "SynthVLM: High-Efficiency and High-Quality Synthetic Data ... - arXiv",
+          "snippet": "Key approaches include the use of advanced alignment techniques, the development of refined annotation guidelines, and the implementation of novel training ..."
+        },
+        {
+          "arxiv_id": "2404.07503",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2404.07503v1",
+          "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+          "snippet": "One of the many benefits of synthetic data is that it can be generated at scale, providing an abundant supply of training and testing data for AI models. This ..."
+        },
+        {
+          "arxiv_id": "2405.16579",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2405.16579?",
+          "title": "[PDF] Automatically Generating Numerous Context-Driven SFT Data for ...",
+          "snippet": "To automatically construct synthetic custom SFT data incorporating a wide range of contextual granularity (queries range from ... We apply our method on DailyM to ..."
+        },
+        {
+          "arxiv_id": "2406.14532",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2406.14532",
+          "title": "[PDF] RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math ...",
+          "snippet": "Training on model-generated synthetic data is a promising approach for finetuning LLMs, but it remains unclear when it helps or hurts."
+        },
+        {
+          "arxiv_id": "2310.07830",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2310.07830",
+          "title": "[PDF] Does Synthetic Data Make Large Language Models More Efficient?",
+          "snippet": "When you create synthetic question-answer pairs from existing text, you're effectively augmenting your dataset, which can be particularly useful when dealing ..."
+        },
+        {
+          "arxiv_id": "2401.01335",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2401.01335",
+          "title": "[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv",
+          "snippet": "For “SFT”, we report the performance of our base model zephyr-7b-sft-full, which has been fine-tuned on the same dataset we use to generate synthetic data."
+        },
+        {
+          "arxiv_id": "2407.21772",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2407.21772v2",
+          "title": "ShieldGemma: Generative AI Content Moderation Based on Gemma",
+          "snippet": "We present a novel methodology for generating high-quality, adversarial, diverse, and fair datasets. This process leverages synthetic data generation techniques ..."
+        },
+        {
+          "arxiv_id": "2408.13296",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2408.13296v1",
+          "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+          "snippet": "SFT involves providing the LLM with labelled data tailored to the target task. For example, fine-tuning an LLM for text classification in a business context ..."
+        },
+        {
+          "arxiv_id": "2409.16461",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2409.16461",
+          "title": "[PDF] arXiv:2409.16461v1 [cs.CL] 24 Sep 2024",
+          "snippet": "* the 1k vanilla SFT data under incremental SFT expands to 7k (FOLIO) and 20k (ProofWriter) data points for training. The inference time for SFT models for each."
+        },
+        {
+          "arxiv_id": "2402.10038",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2402.10038v2",
+          "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+          "snippet": "Our proposed method conducts response sampling offline from SFT and constructs a dataset of synthetic preference data to bypass the high computational cost of ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Use of synthetic data in increasing volume of SFT data before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Survey paper on usage of synthetic data for scaling up soft target data",
+      "attempts": [
+        {
+          "global_attempt_sequence": 251,
+          "query_id": "Q41",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Survey paper on usage of synthetic data for scaling up soft target data",
+          "request_payload": {
+            "q": "Survey paper on usage of synthetic data for scaling up soft target data before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q41_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:30:32.265641+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey paper on usage of synthetic data for scaling up soft target data before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Generative AI for Synthetic Data Generation: Methods, Challenges ...\",\"link\":\"https://arxiv.org/html/2403.04190v1\",\"snippet\":\"This paper reviews recent research on utilizing generative LLMs for synthetic data generation. With a focus on gigantic LLMs which are fixed for inference,\",\"date\":\"Mar 7, 2024\",\"position\":1},{\"title\":\"Best Practices and Lessons Learned on Synthetic Data for ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.07503v1\",\"snippet\":\"This paper provides an overview of synthetic data research, discussing its applications, challenges, and future directions. abundant supply of training and ...\",\"date\":\"Apr 11, 2024\",\"position\":2},{\"title\":\"Machine Learning for Synthetic Data Generation: A Review - arXiv\",\"link\":\"https://arxiv.org/html/2302.04062v9\",\"snippet\":\"This paper presents a comprehensive systematic review of existing studies that employ machine learning models for the purpose of generating synthetic data.\",\"date\":\"Jun 30, 2024\",\"position\":3},{\"title\":\"A survey of synthetic data augmentation methods in computer vision\",\"link\":\"https://arxiv.org/abs/2403.10075\",\"snippet\":\"This paper presents an extensive review of synthetic data augmentation techniques. It covers data synthesis approaches based on realistic 3D graphics modeling,\",\"date\":\"Mar 15, 2024\",\"position\":4},{\"title\":\"[PDF] A survey of synthetic data augmentation methods in computer vision\",\"link\":\"https://arxiv.org/pdf/2403.10075?\",\"snippet\":\"This paper presents an extensive review of synthetic data augmentation techniques. It covers data synthesis approaches based on realistic 3D graphics modeling,\",\"date\":\"Mar 24, 2024\",\"position\":5},{\"title\":\"[PDF] arXiv:2205.03257v1 [cs.LG] 6 May 2022\",\"link\":\"https://arxiv.org/pdf/2205.03257\",\"snippet\":\"Good quality synthetic data can significantly accelerate data science projects and reduce the cost of the soft- ware development lifecycle.\",\"date\":\"May 6, 2022\",\"position\":6},{\"title\":\"[PDF] Generative AI for Synthetic Data Generation: Methods, Challenges ...\",\"link\":\"https://arxiv.org/pdf/2403.04190\",\"snippet\":\"This paper reviews recent research on utilizing generative LLMs for synthetic data generation. With a focus on gigantic LLMs which are fixed for inference,\",\"date\":\"Mar 7, 2024\",\"position\":7},{\"title\":\"A Comprehensive Survey for Generative Data Augmentation - arXiv\",\"link\":\"https://arxiv.org/html/2310.00277v2\",\"snippet\":\"This thesis presents a comprehensive survey. Generative Data Augmentation involves the use of generative models, trained from scratch on the target dataset or ...\",\"date\":\"Apr 21, 2024\",\"position\":8},{\"title\":\"Data Augmentation using LLMs: Data Perspectives, Learning ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.02990v1\",\"snippet\":\"Our survey concentrates on this emerging learning paradigm, particularly the use of synthetic data to train LLMs and augment their performance capabilities.\",\"date\":\"Mar 5, 2024\",\"position\":9},{\"title\":\"Synthetic Data Applications in Finance - arXiv\",\"link\":\"https://arxiv.org/html/2401.00081v2\",\"snippet\":\"Synthetic data has made tremendous strides in various commercial settings including finance, healthcare, and virtual reality. We present a broad overview of ...\",\"date\":\"Mar 20, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXIgb24gdXNhZ2Ugb2Ygc3ludGhldGljIGRhdGEgZm9yIHNjYWxpbmcgdXAgc29mdCB0YXJnZXQgZGF0YSBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJHZW5lcmF0aXZlIEFJIGZvciBTeW50aGV0aWMgRGF0YSBHZW5lcmF0aW9uOiBNZXRob2RzLCBDaGFsbGVuZ2VzIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMDQxOTB2MSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHJldmlld3MgcmVjZW50IHJlc2VhcmNoIG9uIHV0aWxpemluZyBnZW5lcmF0aXZlIExMTXMgZm9yIHN5bnRoZXRpYyBkYXRhIGdlbmVyYXRpb24uIFdpdGggYSBmb2N1cyBvbiBnaWdhbnRpYyBMTE1zIHdoaWNoIGFyZSBmaXhlZCBmb3IgaW5mZXJlbmNlLCIsImRhdGUiOiJNYXIgNywgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiQmVzdCBQcmFjdGljZXMgYW5kIExlc3NvbnMgTGVhcm5lZCBvbiBTeW50aGV0aWMgRGF0YSBmb3IgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjA3NTAzdjEiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBwcm92aWRlcyBhbiBvdmVydmlldyBvZiBzeW50aGV0aWMgZGF0YSByZXNlYXJjaCwgZGlzY3Vzc2luZyBpdHMgYXBwbGljYXRpb25zLCBjaGFsbGVuZ2VzLCBhbmQgZnV0dXJlIGRpcmVjdGlvbnMuIGFidW5kYW50IHN1cHBseSBvZiB0cmFpbmluZyBhbmQgLi4uIiwiZGF0ZSI6IkFwciAxMSwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiTWFjaGluZSBMZWFybmluZyBmb3IgU3ludGhldGljIERhdGEgR2VuZXJhdGlvbjogQSBSZXZpZXcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDIuMDQwNjJ2OSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHByZXNlbnRzIGEgY29tcHJlaGVuc2l2ZSBzeXN0ZW1hdGljIHJldmlldyBvZiBleGlzdGluZyBzdHVkaWVzIHRoYXQgZW1wbG95IG1hY2hpbmUgbGVhcm5pbmcgbW9kZWxzIGZvciB0aGUgcHVycG9zZSBvZiBnZW5lcmF0aW5nIHN5bnRoZXRpYyBkYXRhLiIsImRhdGUiOiJKdW4gMzAsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkEgc3VydmV5IG9mIHN5bnRoZXRpYyBkYXRhIGF1Z21lbnRhdGlvbiBtZXRob2RzIGluIGNvbXB1dGVyIHZpc2lvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwMy4xMDA3NSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHByZXNlbnRzIGFuIGV4dGVuc2l2ZSByZXZpZXcgb2Ygc3ludGhldGljIGRhdGEgYXVnbWVudGF0aW9uIHRlY2huaXF1ZXMuIEl0IGNvdmVycyBkYXRhIHN5bnRoZXNpcyBhcHByb2FjaGVzIGJhc2VkIG9uIHJlYWxpc3RpYyAzRCBncmFwaGljcyBtb2RlbGluZywiLCJkYXRlIjoiTWFyIDE1LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBBIHN1cnZleSBvZiBzeW50aGV0aWMgZGF0YSBhdWdtZW50YXRpb24gbWV0aG9kcyBpbiBjb21wdXRlciB2aXNpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDMuMTAwNzU/Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgcHJlc2VudHMgYW4gZXh0ZW5zaXZlIHJldmlldyBvZiBzeW50aGV0aWMgZGF0YSBhdWdtZW50YXRpb24gdGVjaG5pcXVlcy4gSXQgY292ZXJzIGRhdGEgc3ludGhlc2lzIGFwcHJvYWNoZXMgYmFzZWQgb24gcmVhbGlzdGljIDNEIGdyYXBoaWNzIG1vZGVsaW5nLCIsImRhdGUiOiJNYXIgMjQsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIyMDUuMDMyNTd2MSBbY3MuTEddIDYgTWF5IDIwMjIiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMDUuMDMyNTciLCJzbmlwcGV0IjoiR29vZCBxdWFsaXR5IHN5bnRoZXRpYyBkYXRhIGNhbiBzaWduaWZpY2FudGx5IGFjY2VsZXJhdGUgZGF0YSBzY2llbmNlIHByb2plY3RzIGFuZCByZWR1Y2UgdGhlIGNvc3Qgb2YgdGhlIHNvZnQtIHdhcmUgZGV2ZWxvcG1lbnQgbGlmZWN5Y2xlLiIsImRhdGUiOiJNYXkgNiwgMjAyMiIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiW1BERl0gR2VuZXJhdGl2ZSBBSSBmb3IgU3ludGhldGljIERhdGEgR2VuZXJhdGlvbjogTWV0aG9kcywgQ2hhbGxlbmdlcyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDMuMDQxOTAiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciByZXZpZXdzIHJlY2VudCByZXNlYXJjaCBvbiB1dGlsaXppbmcgZ2VuZXJhdGl2ZSBMTE1zIGZvciBzeW50aGV0aWMgZGF0YSBnZW5lcmF0aW9uLiBXaXRoIGEgZm9jdXMgb24gZ2lnYW50aWMgTExNcyB3aGljaCBhcmUgZml4ZWQgZm9yIGluZmVyZW5jZSwiLCJkYXRlIjoiTWFyIDcsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkEgQ29tcHJlaGVuc2l2ZSBTdXJ2ZXkgZm9yIEdlbmVyYXRpdmUgRGF0YSBBdWdtZW50YXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTAuMDAyNzd2MiIsInNuaXBwZXQiOiJUaGlzIHRoZXNpcyBwcmVzZW50cyBhIGNvbXByZWhlbnNpdmUgc3VydmV5LiBHZW5lcmF0aXZlIERhdGEgQXVnbWVudGF0aW9uIGludm9sdmVzIHRoZSB1c2Ugb2YgZ2VuZXJhdGl2ZSBtb2RlbHMsIHRyYWluZWQgZnJvbSBzY3JhdGNoIG9uIHRoZSB0YXJnZXQgZGF0YXNldCBvciAuLi4iLCJkYXRlIjoiQXByIDIxLCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJEYXRhIEF1Z21lbnRhdGlvbiB1c2luZyBMTE1zOiBEYXRhIFBlcnNwZWN0aXZlcywgTGVhcm5pbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjAyOTkwdjEiLCJzbmlwcGV0IjoiT3VyIHN1cnZleSBjb25jZW50cmF0ZXMgb24gdGhpcyBlbWVyZ2luZyBsZWFybmluZyBwYXJhZGlnbSwgcGFydGljdWxhcmx5IHRoZSB1c2Ugb2Ygc3ludGhldGljIGRhdGEgdG8gdHJhaW4gTExNcyBhbmQgYXVnbWVudCB0aGVpciBwZXJmb3JtYW5jZSBjYXBhYmlsaXRpZXMuIiwiZGF0ZSI6Ik1hciA1LCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJTeW50aGV0aWMgRGF0YSBBcHBsaWNhdGlvbnMgaW4gRmluYW5jZSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4wMDA4MXYyIiwic25pcHBldCI6IlN5bnRoZXRpYyBkYXRhIGhhcyBtYWRlIHRyZW1lbmRvdXMgc3RyaWRlcyBpbiB2YXJpb3VzIGNvbW1lcmNpYWwgc2V0dGluZ3MgaW5jbHVkaW5nIGZpbmFuY2UsIGhlYWx0aGNhcmUsIGFuZCB2aXJ0dWFsIHJlYWxpdHkuIFdlIHByZXNlbnQgYSBicm9hZCBvdmVydmlldyBvZiAuLi4iLCJkYXRlIjoiTWFyIDIwLCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "53b6f26702dfebc23c4ff4402d06ca9cf6fa0deaba28c20c34a1c8e4495eb015",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey paper on usage of synthetic data for scaling up soft target data before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Generative AI for Synthetic Data Generation: Methods, Challenges ...",
+                "link": "https://arxiv.org/html/2403.04190v1",
+                "snippet": "This paper reviews recent research on utilizing generative LLMs for synthetic data generation. With a focus on gigantic LLMs which are fixed for inference,",
+                "date": "Mar 7, 2024",
+                "position": 1
+              },
+              {
+                "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+                "link": "https://arxiv.org/html/2404.07503v1",
+                "snippet": "This paper provides an overview of synthetic data research, discussing its applications, challenges, and future directions. abundant supply of training and ...",
+                "date": "Apr 11, 2024",
+                "position": 2
+              },
+              {
+                "title": "Machine Learning for Synthetic Data Generation: A Review - arXiv",
+                "link": "https://arxiv.org/html/2302.04062v9",
+                "snippet": "This paper presents a comprehensive systematic review of existing studies that employ machine learning models for the purpose of generating synthetic data.",
+                "date": "Jun 30, 2024",
+                "position": 3
+              },
+              {
+                "title": "A survey of synthetic data augmentation methods in computer vision",
+                "link": "https://arxiv.org/abs/2403.10075",
+                "snippet": "This paper presents an extensive review of synthetic data augmentation techniques. It covers data synthesis approaches based on realistic 3D graphics modeling,",
+                "date": "Mar 15, 2024",
+                "position": 4
+              },
+              {
+                "title": "[PDF] A survey of synthetic data augmentation methods in computer vision",
+                "link": "https://arxiv.org/pdf/2403.10075?",
+                "snippet": "This paper presents an extensive review of synthetic data augmentation techniques. It covers data synthesis approaches based on realistic 3D graphics modeling,",
+                "date": "Mar 24, 2024",
+                "position": 5
+              },
+              {
+                "title": "[PDF] arXiv:2205.03257v1 [cs.LG] 6 May 2022",
+                "link": "https://arxiv.org/pdf/2205.03257",
+                "snippet": "Good quality synthetic data can significantly accelerate data science projects and reduce the cost of the soft- ware development lifecycle.",
+                "date": "May 6, 2022",
+                "position": 6
+              },
+              {
+                "title": "[PDF] Generative AI for Synthetic Data Generation: Methods, Challenges ...",
+                "link": "https://arxiv.org/pdf/2403.04190",
+                "snippet": "This paper reviews recent research on utilizing generative LLMs for synthetic data generation. With a focus on gigantic LLMs which are fixed for inference,",
+                "date": "Mar 7, 2024",
+                "position": 7
+              },
+              {
+                "title": "A Comprehensive Survey for Generative Data Augmentation - arXiv",
+                "link": "https://arxiv.org/html/2310.00277v2",
+                "snippet": "This thesis presents a comprehensive survey. Generative Data Augmentation involves the use of generative models, trained from scratch on the target dataset or ...",
+                "date": "Apr 21, 2024",
+                "position": 8
+              },
+              {
+                "title": "Data Augmentation using LLMs: Data Perspectives, Learning ... - arXiv",
+                "link": "https://arxiv.org/html/2403.02990v1",
+                "snippet": "Our survey concentrates on this emerging learning paradigm, particularly the use of synthetic data to train LLMs and augment their performance capabilities.",
+                "date": "Mar 5, 2024",
+                "position": 9
+              },
+              {
+                "title": "Synthetic Data Applications in Finance - arXiv",
+                "link": "https://arxiv.org/html/2401.00081v2",
+                "snippet": "Synthetic data has made tremendous strides in various commercial settings including finance, healthcare, and virtual reality. We present a broad overview of ...",
+                "date": "Mar 20, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:33.331711+00:00",
+          "elapsed_seconds": 1.066065814346075
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2205.03257",
+        "2302.04062",
+        "2310.00277",
+        "2401.00081",
+        "2403.02990",
+        "2403.04190",
+        "2403.10075",
+        "2404.07503"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.04190",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2403.04190v1",
+          "title": "Generative AI for Synthetic Data Generation: Methods, Challenges ...",
+          "snippet": "This paper reviews recent research on utilizing generative LLMs for synthetic data generation. With a focus on gigantic LLMs which are fixed for inference,"
+        },
+        {
+          "arxiv_id": "2404.07503",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2404.07503v1",
+          "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+          "snippet": "This paper provides an overview of synthetic data research, discussing its applications, challenges, and future directions. abundant supply of training and ..."
+        },
+        {
+          "arxiv_id": "2302.04062",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2302.04062v9",
+          "title": "Machine Learning for Synthetic Data Generation: A Review - arXiv",
+          "snippet": "This paper presents a comprehensive systematic review of existing studies that employ machine learning models for the purpose of generating synthetic data."
+        },
+        {
+          "arxiv_id": "2403.10075",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2403.10075",
+          "title": "A survey of synthetic data augmentation methods in computer vision",
+          "snippet": "This paper presents an extensive review of synthetic data augmentation techniques. It covers data synthesis approaches based on realistic 3D graphics modeling,"
+        },
+        {
+          "arxiv_id": "2403.10075",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2403.10075?",
+          "title": "[PDF] A survey of synthetic data augmentation methods in computer vision",
+          "snippet": "This paper presents an extensive review of synthetic data augmentation techniques. It covers data synthesis approaches based on realistic 3D graphics modeling,"
+        },
+        {
+          "arxiv_id": "2205.03257",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2205.03257",
+          "title": "[PDF] arXiv:2205.03257v1 [cs.LG] 6 May 2022",
+          "snippet": "Good quality synthetic data can significantly accelerate data science projects and reduce the cost of the soft- ware development lifecycle."
+        },
+        {
+          "arxiv_id": "2403.04190",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2403.04190",
+          "title": "[PDF] Generative AI for Synthetic Data Generation: Methods, Challenges ...",
+          "snippet": "This paper reviews recent research on utilizing generative LLMs for synthetic data generation. With a focus on gigantic LLMs which are fixed for inference,"
+        },
+        {
+          "arxiv_id": "2310.00277",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2310.00277v2",
+          "title": "A Comprehensive Survey for Generative Data Augmentation - arXiv",
+          "snippet": "This thesis presents a comprehensive survey. Generative Data Augmentation involves the use of generative models, trained from scratch on the target dataset or ..."
+        },
+        {
+          "arxiv_id": "2403.02990",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2403.02990v1",
+          "title": "Data Augmentation using LLMs: Data Perspectives, Learning ... - arXiv",
+          "snippet": "Our survey concentrates on this emerging learning paradigm, particularly the use of synthetic data to train LLMs and augment their performance capabilities."
+        },
+        {
+          "arxiv_id": "2401.00081",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2401.00081v2",
+          "title": "Synthetic Data Applications in Finance - arXiv",
+          "snippet": "Synthetic data has made tremendous strides in various commercial settings including finance, healthcare, and virtual reality. We present a broad overview of ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey paper on usage of synthetic data for scaling up soft target data before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Scaling up SFT data with synthesis data",
+      "attempts": [
+        {
+          "global_attempt_sequence": 252,
+          "query_id": "Q41",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Scaling up SFT data with synthesis data",
+          "request_payload": {
+            "q": "Scaling up SFT data with synthesis data before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q41_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:30:33.571759+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Scaling up SFT data with synthesis data before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Best Practices and Lessons Learned on Synthetic Data for ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.07503v1\",\"snippet\":\"One of the many benefits of synthetic data is that it can be generated at scale, providing an abundant supply of training and testing data for AI models.\",\"date\":\"Apr 11, 2024\",\"position\":1},{\"title\":\"SynthVLM: High-Efficiency and High-Quality Synthetic Data ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.20756v1\",\"snippet\":\"In this paper, we introduce SynthVLM, a novel data synthesis pipeline for VLLMs. Unlike existing methods that generate captions from images, SynthVLM employs ...\",\"date\":\"Jul 30, 2024\",\"position\":2},{\"title\":\"[PDF] RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math ...\",\"link\":\"https://arxiv.org/pdf/2406.14532\",\"snippet\":\"Recent trends illustrate that scaling up synthetic data can lead to improvements [8, 29] on hard reasoning problems, while other results illustrate that ...\",\"date\":\"Jun 20, 2024\",\"position\":3},{\"title\":\"Common 7B Language Models Already Possess Strong Math ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.04706v1\",\"snippet\":\"Synthetic SFT Data Generation. Since the real data has been exhausted, we contemplate further scaling up SFT data using synthetically generated math questions.\",\"date\":\"Mar 7, 2024\",\"position\":4},{\"title\":\"DeepSeek LLM Scaling Open-Source Language Models with ... - arXiv\",\"link\":\"https://arxiv.org/html/2401.02954v1\",\"snippet\":\"This paper shares our experiences with different SFT strategies and findings in data ablation techniques. into three essential stages: deduplication, filtering ...\",\"date\":\"Jan 5, 2024\",\"position\":5},{\"title\":\"[PDF] Automatically Generating Numerous Context-Driven SFT Data for ...\",\"link\":\"https://arxiv.org/pdf/2405.16579\",\"snippet\":\"We propose AUGCON, which can automatically generate multi-granularity context-driven. SFT data from the corpus for LLMs at scale with high diversity, quality, ...\",\"date\":\"May 26, 2024\",\"position\":6},{\"title\":\"Data Management For Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.01700v2\",\"snippet\":\"In this section, we first review the research studying pretraining dataset scaling law with/without data repetition. Then, data quality regarding deduplication, ...\",\"date\":\"Dec 26, 2023\",\"position\":7},{\"title\":\"Magpie: Alignment Data Synthesis from Scratch by Prompting ... - arXiv\",\"link\":\"https://arxiv.org/abs/2406.08464\",\"snippet\":\"We present a self-synthesis method for generating large-scale alignment data named Magpie. using Magpie solely for SFT can surpass the performance of previous ...\",\"date\":\"Jun 12, 2024\",\"position\":8},{\"title\":\"Scaling Synthetic Data Creation with 1000000000 Personas - arXiv\",\"link\":\"https://arxiv.org/abs/2406.20094\",\"snippet\":\"We propose a novel persona-driven data synthesis methodology that leverages various perspectives within a large language model (LLM) to create diverse synthetic ...\",\"date\":\"Jun 28, 2024\",\"position\":9},{\"title\":\"How Abilities in Large Language Models are Affected by Supervised ...\",\"link\":\"https://arxiv.org/abs/2310.05492\",\"snippet\":\"Our experiments reveal that distinct capabilities scale differently and larger models generally show superior performance with same amount of data. Mathematical ...\",\"date\":\"Oct 9, 2023\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTY2FsaW5nIHVwIFNGVCBkYXRhIHdpdGggc3ludGhlc2lzIGRhdGEgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQmVzdCBQcmFjdGljZXMgYW5kIExlc3NvbnMgTGVhcm5lZCBvbiBTeW50aGV0aWMgRGF0YSBmb3IgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjA3NTAzdjEiLCJzbmlwcGV0IjoiT25lIG9mIHRoZSBtYW55IGJlbmVmaXRzIG9mIHN5bnRoZXRpYyBkYXRhIGlzIHRoYXQgaXQgY2FuIGJlIGdlbmVyYXRlZCBhdCBzY2FsZSwgcHJvdmlkaW5nIGFuIGFidW5kYW50IHN1cHBseSBvZiB0cmFpbmluZyBhbmQgdGVzdGluZyBkYXRhIGZvciBBSSBtb2RlbHMuIiwiZGF0ZSI6IkFwciAxMSwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiU3ludGhWTE06IEhpZ2gtRWZmaWNpZW5jeSBhbmQgSGlnaC1RdWFsaXR5IFN5bnRoZXRpYyBEYXRhIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4yMDc1NnYxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGludHJvZHVjZSBTeW50aFZMTSwgYSBub3ZlbCBkYXRhIHN5bnRoZXNpcyBwaXBlbGluZSBmb3IgVkxMTXMuIFVubGlrZSBleGlzdGluZyBtZXRob2RzIHRoYXQgZ2VuZXJhdGUgY2FwdGlvbnMgZnJvbSBpbWFnZXMsIFN5bnRoVkxNIGVtcGxveXMgLi4uIiwiZGF0ZSI6Ikp1bCAzMCwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiW1BERl0gUkwgb24gSW5jb3JyZWN0IFN5bnRoZXRpYyBEYXRhIFNjYWxlcyB0aGUgRWZmaWNpZW5jeSBvZiBMTE0gTWF0aCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDYuMTQ1MzIiLCJzbmlwcGV0IjoiUmVjZW50IHRyZW5kcyBpbGx1c3RyYXRlIHRoYXQgc2NhbGluZyB1cCBzeW50aGV0aWMgZGF0YSBjYW4gbGVhZCB0byBpbXByb3ZlbWVudHMgWzgsIDI5XSBvbiBoYXJkIHJlYXNvbmluZyBwcm9ibGVtcywgd2hpbGUgb3RoZXIgcmVzdWx0cyBpbGx1c3RyYXRlIHRoYXQgLi4uIiwiZGF0ZSI6Ikp1biAyMCwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQ29tbW9uIDdCIExhbmd1YWdlIE1vZGVscyBBbHJlYWR5IFBvc3Nlc3MgU3Ryb25nIE1hdGggLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjA0NzA2djEiLCJzbmlwcGV0IjoiU3ludGhldGljIFNGVCBEYXRhIEdlbmVyYXRpb24uIFNpbmNlIHRoZSByZWFsIGRhdGEgaGFzIGJlZW4gZXhoYXVzdGVkLCB3ZSBjb250ZW1wbGF0ZSBmdXJ0aGVyIHNjYWxpbmcgdXAgU0ZUIGRhdGEgdXNpbmcgc3ludGhldGljYWxseSBnZW5lcmF0ZWQgbWF0aCBxdWVzdGlvbnMuIiwiZGF0ZSI6Ik1hciA3LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJEZWVwU2VlayBMTE0gU2NhbGluZyBPcGVuLVNvdXJjZSBMYW5ndWFnZSBNb2RlbHMgd2l0aCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMDI5NTR2MSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHNoYXJlcyBvdXIgZXhwZXJpZW5jZXMgd2l0aCBkaWZmZXJlbnQgU0ZUIHN0cmF0ZWdpZXMgYW5kIGZpbmRpbmdzIGluIGRhdGEgYWJsYXRpb24gdGVjaG5pcXVlcy4gaW50byB0aHJlZSBlc3NlbnRpYWwgc3RhZ2VzOiBkZWR1cGxpY2F0aW9uLCBmaWx0ZXJpbmcgLi4uIiwiZGF0ZSI6IkphbiA1LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBBdXRvbWF0aWNhbGx5IEdlbmVyYXRpbmcgTnVtZXJvdXMgQ29udGV4dC1Ecml2ZW4gU0ZUIERhdGEgZm9yIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNS4xNjU3OSIsInNuaXBwZXQiOiJXZSBwcm9wb3NlIEFVR0NPTiwgd2hpY2ggY2FuIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGUgbXVsdGktZ3JhbnVsYXJpdHkgY29udGV4dC1kcml2ZW4uIFNGVCBkYXRhIGZyb20gdGhlIGNvcnB1cyBmb3IgTExNcyBhdCBzY2FsZSB3aXRoIGhpZ2ggZGl2ZXJzaXR5LCBxdWFsaXR5LCAuLi4iLCJkYXRlIjoiTWF5IDI2LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJEYXRhIE1hbmFnZW1lbnQgRm9yIExhcmdlIExhbmd1YWdlIE1vZGVsczogQSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTIuMDE3MDB2MiIsInNuaXBwZXQiOiJJbiB0aGlzIHNlY3Rpb24sIHdlIGZpcnN0IHJldmlldyB0aGUgcmVzZWFyY2ggc3R1ZHlpbmcgcHJldHJhaW5pbmcgZGF0YXNldCBzY2FsaW5nIGxhdyB3aXRoL3dpdGhvdXQgZGF0YSByZXBldGl0aW9uLiBUaGVuLCBkYXRhIHF1YWxpdHkgcmVnYXJkaW5nIGRlZHVwbGljYXRpb24sIC4uLiIsImRhdGUiOiJEZWMgMjYsIDIwMjMiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6Ik1hZ3BpZTogQWxpZ25tZW50IERhdGEgU3ludGhlc2lzIGZyb20gU2NyYXRjaCBieSBQcm9tcHRpbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDYuMDg0NjQiLCJzbmlwcGV0IjoiV2UgcHJlc2VudCBhIHNlbGYtc3ludGhlc2lzIG1ldGhvZCBmb3IgZ2VuZXJhdGluZyBsYXJnZS1zY2FsZSBhbGlnbm1lbnQgZGF0YSBuYW1lZCBNYWdwaWUuIHVzaW5nIE1hZ3BpZSBzb2xlbHkgZm9yIFNGVCBjYW4gc3VycGFzcyB0aGUgcGVyZm9ybWFuY2Ugb2YgcHJldmlvdXMgLi4uIiwiZGF0ZSI6Ikp1biAxMiwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiU2NhbGluZyBTeW50aGV0aWMgRGF0YSBDcmVhdGlvbiB3aXRoIDEwMDAwMDAwMDAgUGVyc29uYXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNi4yMDA5NCIsInNuaXBwZXQiOiJXZSBwcm9wb3NlIGEgbm92ZWwgcGVyc29uYS1kcml2ZW4gZGF0YSBzeW50aGVzaXMgbWV0aG9kb2xvZ3kgdGhhdCBsZXZlcmFnZXMgdmFyaW91cyBwZXJzcGVjdGl2ZXMgd2l0aGluIGEgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWwgKExMTSkgdG8gY3JlYXRlIGRpdmVyc2Ugc3ludGhldGljIC4uLiIsImRhdGUiOiJKdW4gMjgsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkhvdyBBYmlsaXRpZXMgaW4gTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGFyZSBBZmZlY3RlZCBieSBTdXBlcnZpc2VkIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMxMC4wNTQ5MiIsInNuaXBwZXQiOiJPdXIgZXhwZXJpbWVudHMgcmV2ZWFsIHRoYXQgZGlzdGluY3QgY2FwYWJpbGl0aWVzIHNjYWxlIGRpZmZlcmVudGx5IGFuZCBsYXJnZXIgbW9kZWxzIGdlbmVyYWxseSBzaG93IHN1cGVyaW9yIHBlcmZvcm1hbmNlIHdpdGggc2FtZSBhbW91bnQgb2YgZGF0YS4gTWF0aGVtYXRpY2FsIC4uLiIsImRhdGUiOiJPY3QgOSwgMjAyMyIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "18853d49fe89c7257d060e37e8e936bbefa0dc1cdf121d744a64fb79b9d2ea11",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Scaling up SFT data with synthesis data before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+                "link": "https://arxiv.org/html/2404.07503v1",
+                "snippet": "One of the many benefits of synthetic data is that it can be generated at scale, providing an abundant supply of training and testing data for AI models.",
+                "date": "Apr 11, 2024",
+                "position": 1
+              },
+              {
+                "title": "SynthVLM: High-Efficiency and High-Quality Synthetic Data ... - arXiv",
+                "link": "https://arxiv.org/html/2407.20756v1",
+                "snippet": "In this paper, we introduce SynthVLM, a novel data synthesis pipeline for VLLMs. Unlike existing methods that generate captions from images, SynthVLM employs ...",
+                "date": "Jul 30, 2024",
+                "position": 2
+              },
+              {
+                "title": "[PDF] RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math ...",
+                "link": "https://arxiv.org/pdf/2406.14532",
+                "snippet": "Recent trends illustrate that scaling up synthetic data can lead to improvements [8, 29] on hard reasoning problems, while other results illustrate that ...",
+                "date": "Jun 20, 2024",
+                "position": 3
+              },
+              {
+                "title": "Common 7B Language Models Already Possess Strong Math ... - arXiv",
+                "link": "https://arxiv.org/html/2403.04706v1",
+                "snippet": "Synthetic SFT Data Generation. Since the real data has been exhausted, we contemplate further scaling up SFT data using synthetically generated math questions.",
+                "date": "Mar 7, 2024",
+                "position": 4
+              },
+              {
+                "title": "DeepSeek LLM Scaling Open-Source Language Models with ... - arXiv",
+                "link": "https://arxiv.org/html/2401.02954v1",
+                "snippet": "This paper shares our experiences with different SFT strategies and findings in data ablation techniques. into three essential stages: deduplication, filtering ...",
+                "date": "Jan 5, 2024",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Automatically Generating Numerous Context-Driven SFT Data for ...",
+                "link": "https://arxiv.org/pdf/2405.16579",
+                "snippet": "We propose AUGCON, which can automatically generate multi-granularity context-driven. SFT data from the corpus for LLMs at scale with high diversity, quality, ...",
+                "date": "May 26, 2024",
+                "position": 6
+              },
+              {
+                "title": "Data Management For Large Language Models: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2312.01700v2",
+                "snippet": "In this section, we first review the research studying pretraining dataset scaling law with/without data repetition. Then, data quality regarding deduplication, ...",
+                "date": "Dec 26, 2023",
+                "position": 7
+              },
+              {
+                "title": "Magpie: Alignment Data Synthesis from Scratch by Prompting ... - arXiv",
+                "link": "https://arxiv.org/abs/2406.08464",
+                "snippet": "We present a self-synthesis method for generating large-scale alignment data named Magpie. using Magpie solely for SFT can surpass the performance of previous ...",
+                "date": "Jun 12, 2024",
+                "position": 8
+              },
+              {
+                "title": "Scaling Synthetic Data Creation with 1000000000 Personas - arXiv",
+                "link": "https://arxiv.org/abs/2406.20094",
+                "snippet": "We propose a novel persona-driven data synthesis methodology that leverages various perspectives within a large language model (LLM) to create diverse synthetic ...",
+                "date": "Jun 28, 2024",
+                "position": 9
+              },
+              {
+                "title": "How Abilities in Large Language Models are Affected by Supervised ...",
+                "link": "https://arxiv.org/abs/2310.05492",
+                "snippet": "Our experiments reveal that distinct capabilities scale differently and larger models generally show superior performance with same amount of data. Mathematical ...",
+                "date": "Oct 9, 2023",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:34.307055+00:00",
+          "elapsed_seconds": 0.7352849058806896
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2310.05492",
+        "2312.01700",
+        "2401.02954",
+        "2403.04706",
+        "2404.07503",
+        "2405.16579",
+        "2406.08464",
+        "2406.14532",
+        "2406.20094",
+        "2407.20756"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2404.07503",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2404.07503v1",
+          "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+          "snippet": "One of the many benefits of synthetic data is that it can be generated at scale, providing an abundant supply of training and testing data for AI models."
+        },
+        {
+          "arxiv_id": "2407.20756",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2407.20756v1",
+          "title": "SynthVLM: High-Efficiency and High-Quality Synthetic Data ... - arXiv",
+          "snippet": "In this paper, we introduce SynthVLM, a novel data synthesis pipeline for VLLMs. Unlike existing methods that generate captions from images, SynthVLM employs ..."
+        },
+        {
+          "arxiv_id": "2406.14532",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2406.14532",
+          "title": "[PDF] RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math ...",
+          "snippet": "Recent trends illustrate that scaling up synthetic data can lead to improvements [8, 29] on hard reasoning problems, while other results illustrate that ..."
+        },
+        {
+          "arxiv_id": "2403.04706",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2403.04706v1",
+          "title": "Common 7B Language Models Already Possess Strong Math ... - arXiv",
+          "snippet": "Synthetic SFT Data Generation. Since the real data has been exhausted, we contemplate further scaling up SFT data using synthetically generated math questions."
+        },
+        {
+          "arxiv_id": "2401.02954",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2401.02954v1",
+          "title": "DeepSeek LLM Scaling Open-Source Language Models with ... - arXiv",
+          "snippet": "This paper shares our experiences with different SFT strategies and findings in data ablation techniques. into three essential stages: deduplication, filtering ..."
+        },
+        {
+          "arxiv_id": "2405.16579",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2405.16579",
+          "title": "[PDF] Automatically Generating Numerous Context-Driven SFT Data for ...",
+          "snippet": "We propose AUGCON, which can automatically generate multi-granularity context-driven. SFT data from the corpus for LLMs at scale with high diversity, quality, ..."
+        },
+        {
+          "arxiv_id": "2312.01700",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2312.01700v2",
+          "title": "Data Management For Large Language Models: A Survey - arXiv",
+          "snippet": "In this section, we first review the research studying pretraining dataset scaling law with/without data repetition. Then, data quality regarding deduplication, ..."
+        },
+        {
+          "arxiv_id": "2406.08464",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2406.08464",
+          "title": "Magpie: Alignment Data Synthesis from Scratch by Prompting ... - arXiv",
+          "snippet": "We present a self-synthesis method for generating large-scale alignment data named Magpie. using Magpie solely for SFT can surpass the performance of previous ..."
+        },
+        {
+          "arxiv_id": "2406.20094",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2406.20094",
+          "title": "Scaling Synthetic Data Creation with 1000000000 Personas - arXiv",
+          "snippet": "We propose a novel persona-driven data synthesis methodology that leverages various perspectives within a large language model (LLM) to create diverse synthetic ..."
+        },
+        {
+          "arxiv_id": "2310.05492",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/abs/2310.05492",
+          "title": "How Abilities in Large Language Models are Affected by Supervised ...",
+          "snippet": "Our experiments reveal that distinct capabilities scale differently and larger models generally show superior performance with same amount of data. Mathematical ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Scaling up SFT data with synthesis data before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Applications of generative AI in creating synthetic data for soft target data scaling",
+      "attempts": [
+        {
+          "global_attempt_sequence": 253,
+          "query_id": "Q41",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Applications of generative AI in creating synthetic data for soft target data scaling",
+          "request_payload": {
+            "q": "Applications of generative AI in creating synthetic data for soft target data scaling before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q41_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:30:34.541193+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Applications of generative AI in creating synthetic data for soft target data scaling before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Generative AI for Synthetic Data Generation: Methods, Challenges ...\",\"link\":\"https://arxiv.org/html/2403.04190v1\",\"snippet\":\"LLMs can augment existing datasets, creating balanced and comprehensive data sets that improve the training and performance of machine learning models. In this ...\",\"date\":\"Mar 7, 2024\",\"position\":1},{\"title\":\"Machine Learning for Synthetic Data Generation: A Review - arXiv\",\"link\":\"https://arxiv.org/html/2302.04062v9\",\"snippet\":\"Additionally, the synthetic data generated by GPT models can help address challenges related to data scarcity, class imbalance, or the need for domain-specific ...\",\"date\":\"Jun 30, 2024\",\"position\":2},{\"title\":\"Best Practices and Lessons Learned on Synthetic Data for ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.07503v1\",\"snippet\":\"By generating realistic and diverse datasets, synthetic data enables the training and evaluation of AI models at scale across various domains. As we ...\",\"date\":\"Apr 11, 2024\",\"position\":3},{\"title\":\"[PDF] Generative AI for Synthetic Data Generation: Methods, Challenges ...\",\"link\":\"https://arxiv.org/pdf/2403.04190\",\"snippet\":\"By generating text that closely mirrors human language, LLMs facilitate the creation of robust, varied datasets necessary for training and refining. AI models ...\",\"date\":\"Mar 7, 2024\",\"position\":4},{\"title\":\"Synthetic Data Applications in Finance - arXiv\",\"link\":\"https://arxiv.org/html/2401.00081v2\",\"snippet\":\"Synthetic data is created via two primary methods, namely: 1) By transforming real data, or 2) By simulation of real processes. We refer the reader to the rich ...\",\"date\":\"Mar 20, 2024\",\"position\":5},{\"title\":\"[PDF] arXiv:2205.03257v1 [cs.LG] 6 May 2022\",\"link\":\"https://arxiv.org/pdf/2205.03257\",\"snippet\":\"There are many applications of synthetic data: privacy, fairness, and data augmentation, to name a few. reduce the cost of the soft- ware development lifecycle.\",\"date\":\"May 6, 2022\",\"position\":6},{\"title\":\"[PDF] A survey of synthetic data augmentation methods in computer vision\",\"link\":\"https://arxiv.org/pdf/2403.10075?\",\"snippet\":\"Generative AI techniques present the most promising prospect for generating synthetic datasets for complex com- puter vision tasks.\",\"date\":\"Mar 24, 2024\",\"position\":7},{\"title\":\"[2403.04190] Generative AI for Synthetic Data Generation - arXiv\",\"link\":\"https://arxiv.org/abs/2403.04190\",\"snippet\":\"We outline methodologies, evaluation techniques, and practical applications, discuss the current limitations, and suggest potential pathways for future research ...\",\"date\":\"Mar 7, 2024\",\"position\":8},{\"title\":\"A Comprehensive Survey for Generative Data Augmentation - arXiv\",\"link\":\"https://arxiv.org/html/2310.00277v2\",\"snippet\":\"Generative data augmentation (GDA) has emerged as a promising technique to alleviate data scarcity in machine learning applications.\",\"date\":\"Apr 21, 2024\",\"position\":9},{\"title\":\"Data Augmentation using LLMs: Data Perspectives, Learning ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.02990v1\",\"snippet\":\"It compares three paradigms \\\"paraphrase\\\", \\\"multi-target\\\", and \\\"storytelling\\\" and generates synthetic data on Korean-German language pairs from AI-hub dataset.\",\"date\":\"Mar 5, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBcHBsaWNhdGlvbnMgb2YgZ2VuZXJhdGl2ZSBBSSBpbiBjcmVhdGluZyBzeW50aGV0aWMgZGF0YSBmb3Igc29mdCB0YXJnZXQgZGF0YSBzY2FsaW5nIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkdlbmVyYXRpdmUgQUkgZm9yIFN5bnRoZXRpYyBEYXRhIEdlbmVyYXRpb246IE1ldGhvZHMsIENoYWxsZW5nZXMgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4wNDE5MHYxIiwic25pcHBldCI6IkxMTXMgY2FuIGF1Z21lbnQgZXhpc3RpbmcgZGF0YXNldHMsIGNyZWF0aW5nIGJhbGFuY2VkIGFuZCBjb21wcmVoZW5zaXZlIGRhdGEgc2V0cyB0aGF0IGltcHJvdmUgdGhlIHRyYWluaW5nIGFuZCBwZXJmb3JtYW5jZSBvZiBtYWNoaW5lIGxlYXJuaW5nIG1vZGVscy4gSW4gdGhpcyAuLi4iLCJkYXRlIjoiTWFyIDcsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6Ik1hY2hpbmUgTGVhcm5pbmcgZm9yIFN5bnRoZXRpYyBEYXRhIEdlbmVyYXRpb246IEEgUmV2aWV3IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzAyLjA0MDYydjkiLCJzbmlwcGV0IjoiQWRkaXRpb25hbGx5LCB0aGUgc3ludGhldGljIGRhdGEgZ2VuZXJhdGVkIGJ5IEdQVCBtb2RlbHMgY2FuIGhlbHAgYWRkcmVzcyBjaGFsbGVuZ2VzIHJlbGF0ZWQgdG8gZGF0YSBzY2FyY2l0eSwgY2xhc3MgaW1iYWxhbmNlLCBvciB0aGUgbmVlZCBmb3IgZG9tYWluLXNwZWNpZmljIC4uLiIsImRhdGUiOiJKdW4gMzAsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkJlc3QgUHJhY3RpY2VzIGFuZCBMZXNzb25zIExlYXJuZWQgb24gU3ludGhldGljIERhdGEgZm9yIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4wNzUwM3YxIiwic25pcHBldCI6IkJ5IGdlbmVyYXRpbmcgcmVhbGlzdGljIGFuZCBkaXZlcnNlIGRhdGFzZXRzLCBzeW50aGV0aWMgZGF0YSBlbmFibGVzIHRoZSB0cmFpbmluZyBhbmQgZXZhbHVhdGlvbiBvZiBBSSBtb2RlbHMgYXQgc2NhbGUgYWNyb3NzIHZhcmlvdXMgZG9tYWlucy4gQXMgd2UgLi4uIiwiZGF0ZSI6IkFwciAxMSwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gR2VuZXJhdGl2ZSBBSSBmb3IgU3ludGhldGljIERhdGEgR2VuZXJhdGlvbjogTWV0aG9kcywgQ2hhbGxlbmdlcyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDMuMDQxOTAiLCJzbmlwcGV0IjoiQnkgZ2VuZXJhdGluZyB0ZXh0IHRoYXQgY2xvc2VseSBtaXJyb3JzIGh1bWFuIGxhbmd1YWdlLCBMTE1zIGZhY2lsaXRhdGUgdGhlIGNyZWF0aW9uIG9mIHJvYnVzdCwgdmFyaWVkIGRhdGFzZXRzIG5lY2Vzc2FyeSBmb3IgdHJhaW5pbmcgYW5kIHJlZmluaW5nLiBBSSBtb2RlbHMgLi4uIiwiZGF0ZSI6Ik1hciA3LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJTeW50aGV0aWMgRGF0YSBBcHBsaWNhdGlvbnMgaW4gRmluYW5jZSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4wMDA4MXYyIiwic25pcHBldCI6IlN5bnRoZXRpYyBkYXRhIGlzIGNyZWF0ZWQgdmlhIHR3byBwcmltYXJ5IG1ldGhvZHMsIG5hbWVseTogMSkgQnkgdHJhbnNmb3JtaW5nIHJlYWwgZGF0YSwgb3IgMikgQnkgc2ltdWxhdGlvbiBvZiByZWFsIHByb2Nlc3Nlcy4gV2UgcmVmZXIgdGhlIHJlYWRlciB0byB0aGUgcmljaCAuLi4iLCJkYXRlIjoiTWFyIDIwLCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMjA1LjAzMjU3djEgW2NzLkxHXSA2IE1heSAyMDIyIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjA1LjAzMjU3Iiwic25pcHBldCI6IlRoZXJlIGFyZSBtYW55IGFwcGxpY2F0aW9ucyBvZiBzeW50aGV0aWMgZGF0YTogcHJpdmFjeSwgZmFpcm5lc3MsIGFuZCBkYXRhIGF1Z21lbnRhdGlvbiwgdG8gbmFtZSBhIGZldy4gcmVkdWNlIHRoZSBjb3N0IG9mIHRoZSBzb2Z0LSB3YXJlIGRldmVsb3BtZW50IGxpZmVjeWNsZS4iLCJkYXRlIjoiTWF5IDYsIDIwMjIiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIEEgc3VydmV5IG9mIHN5bnRoZXRpYyBkYXRhIGF1Z21lbnRhdGlvbiBtZXRob2RzIGluIGNvbXB1dGVyIHZpc2lvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMy4xMDA3NT8iLCJzbmlwcGV0IjoiR2VuZXJhdGl2ZSBBSSB0ZWNobmlxdWVzIHByZXNlbnQgdGhlIG1vc3QgcHJvbWlzaW5nIHByb3NwZWN0IGZvciBnZW5lcmF0aW5nIHN5bnRoZXRpYyBkYXRhc2V0cyBmb3IgY29tcGxleCBjb20tIHB1dGVyIHZpc2lvbiB0YXNrcy4iLCJkYXRlIjoiTWFyIDI0LCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbMjQwMy4wNDE5MF0gR2VuZXJhdGl2ZSBBSSBmb3IgU3ludGhldGljIERhdGEgR2VuZXJhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDAzLjA0MTkwIiwic25pcHBldCI6IldlIG91dGxpbmUgbWV0aG9kb2xvZ2llcywgZXZhbHVhdGlvbiB0ZWNobmlxdWVzLCBhbmQgcHJhY3RpY2FsIGFwcGxpY2F0aW9ucywgZGlzY3VzcyB0aGUgY3VycmVudCBsaW1pdGF0aW9ucywgYW5kIHN1Z2dlc3QgcG90ZW50aWFsIHBhdGh3YXlzIGZvciBmdXR1cmUgcmVzZWFyY2ggLi4uIiwiZGF0ZSI6Ik1hciA3LCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJBIENvbXByZWhlbnNpdmUgU3VydmV5IGZvciBHZW5lcmF0aXZlIERhdGEgQXVnbWVudGF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEwLjAwMjc3djIiLCJzbmlwcGV0IjoiR2VuZXJhdGl2ZSBkYXRhIGF1Z21lbnRhdGlvbiAoR0RBKSBoYXMgZW1lcmdlZCBhcyBhIHByb21pc2luZyB0ZWNobmlxdWUgdG8gYWxsZXZpYXRlIGRhdGEgc2NhcmNpdHkgaW4gbWFjaGluZSBsZWFybmluZyBhcHBsaWNhdGlvbnMuIiwiZGF0ZSI6IkFwciAyMSwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiRGF0YSBBdWdtZW50YXRpb24gdXNpbmcgTExNczogRGF0YSBQZXJzcGVjdGl2ZXMsIExlYXJuaW5nIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4wMjk5MHYxIiwic25pcHBldCI6Ikl0IGNvbXBhcmVzIHRocmVlIHBhcmFkaWdtcyBcInBhcmFwaHJhc2VcIiwgXCJtdWx0aS10YXJnZXRcIiwgYW5kIFwic3Rvcnl0ZWxsaW5nXCIgYW5kIGdlbmVyYXRlcyBzeW50aGV0aWMgZGF0YSBvbiBLb3JlYW4tR2VybWFuIGxhbmd1YWdlIHBhaXJzIGZyb20gQUktaHViIGRhdGFzZXQuIiwiZGF0ZSI6Ik1hciA1LCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "d4468355d06dd54577fbb7515d6547ac994ab421359b8eb1fd20fa9b0b88e2db",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Applications of generative AI in creating synthetic data for soft target data scaling before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Generative AI for Synthetic Data Generation: Methods, Challenges ...",
+                "link": "https://arxiv.org/html/2403.04190v1",
+                "snippet": "LLMs can augment existing datasets, creating balanced and comprehensive data sets that improve the training and performance of machine learning models. In this ...",
+                "date": "Mar 7, 2024",
+                "position": 1
+              },
+              {
+                "title": "Machine Learning for Synthetic Data Generation: A Review - arXiv",
+                "link": "https://arxiv.org/html/2302.04062v9",
+                "snippet": "Additionally, the synthetic data generated by GPT models can help address challenges related to data scarcity, class imbalance, or the need for domain-specific ...",
+                "date": "Jun 30, 2024",
+                "position": 2
+              },
+              {
+                "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+                "link": "https://arxiv.org/html/2404.07503v1",
+                "snippet": "By generating realistic and diverse datasets, synthetic data enables the training and evaluation of AI models at scale across various domains. As we ...",
+                "date": "Apr 11, 2024",
+                "position": 3
+              },
+              {
+                "title": "[PDF] Generative AI for Synthetic Data Generation: Methods, Challenges ...",
+                "link": "https://arxiv.org/pdf/2403.04190",
+                "snippet": "By generating text that closely mirrors human language, LLMs facilitate the creation of robust, varied datasets necessary for training and refining. AI models ...",
+                "date": "Mar 7, 2024",
+                "position": 4
+              },
+              {
+                "title": "Synthetic Data Applications in Finance - arXiv",
+                "link": "https://arxiv.org/html/2401.00081v2",
+                "snippet": "Synthetic data is created via two primary methods, namely: 1) By transforming real data, or 2) By simulation of real processes. We refer the reader to the rich ...",
+                "date": "Mar 20, 2024",
+                "position": 5
+              },
+              {
+                "title": "[PDF] arXiv:2205.03257v1 [cs.LG] 6 May 2022",
+                "link": "https://arxiv.org/pdf/2205.03257",
+                "snippet": "There are many applications of synthetic data: privacy, fairness, and data augmentation, to name a few. reduce the cost of the soft- ware development lifecycle.",
+                "date": "May 6, 2022",
+                "position": 6
+              },
+              {
+                "title": "[PDF] A survey of synthetic data augmentation methods in computer vision",
+                "link": "https://arxiv.org/pdf/2403.10075?",
+                "snippet": "Generative AI techniques present the most promising prospect for generating synthetic datasets for complex com- puter vision tasks.",
+                "date": "Mar 24, 2024",
+                "position": 7
+              },
+              {
+                "title": "[2403.04190] Generative AI for Synthetic Data Generation - arXiv",
+                "link": "https://arxiv.org/abs/2403.04190",
+                "snippet": "We outline methodologies, evaluation techniques, and practical applications, discuss the current limitations, and suggest potential pathways for future research ...",
+                "date": "Mar 7, 2024",
+                "position": 8
+              },
+              {
+                "title": "A Comprehensive Survey for Generative Data Augmentation - arXiv",
+                "link": "https://arxiv.org/html/2310.00277v2",
+                "snippet": "Generative data augmentation (GDA) has emerged as a promising technique to alleviate data scarcity in machine learning applications.",
+                "date": "Apr 21, 2024",
+                "position": 9
+              },
+              {
+                "title": "Data Augmentation using LLMs: Data Perspectives, Learning ... - arXiv",
+                "link": "https://arxiv.org/html/2403.02990v1",
+                "snippet": "It compares three paradigms \"paraphrase\", \"multi-target\", and \"storytelling\" and generates synthetic data on Korean-German language pairs from AI-hub dataset.",
+                "date": "Mar 5, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:35.650527+00:00",
+          "elapsed_seconds": 1.1093295738101006
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2205.03257",
+        "2302.04062",
+        "2310.00277",
+        "2401.00081",
+        "2403.02990",
+        "2403.04190",
+        "2403.10075",
+        "2404.07503"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.04190",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2403.04190v1",
+          "title": "Generative AI for Synthetic Data Generation: Methods, Challenges ...",
+          "snippet": "LLMs can augment existing datasets, creating balanced and comprehensive data sets that improve the training and performance of machine learning models. In this ..."
+        },
+        {
+          "arxiv_id": "2302.04062",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2302.04062v9",
+          "title": "Machine Learning for Synthetic Data Generation: A Review - arXiv",
+          "snippet": "Additionally, the synthetic data generated by GPT models can help address challenges related to data scarcity, class imbalance, or the need for domain-specific ..."
+        },
+        {
+          "arxiv_id": "2404.07503",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2404.07503v1",
+          "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+          "snippet": "By generating realistic and diverse datasets, synthetic data enables the training and evaluation of AI models at scale across various domains. As we ..."
+        },
+        {
+          "arxiv_id": "2403.04190",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2403.04190",
+          "title": "[PDF] Generative AI for Synthetic Data Generation: Methods, Challenges ...",
+          "snippet": "By generating text that closely mirrors human language, LLMs facilitate the creation of robust, varied datasets necessary for training and refining. AI models ..."
+        },
+        {
+          "arxiv_id": "2401.00081",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2401.00081v2",
+          "title": "Synthetic Data Applications in Finance - arXiv",
+          "snippet": "Synthetic data is created via two primary methods, namely: 1) By transforming real data, or 2) By simulation of real processes. We refer the reader to the rich ..."
+        },
+        {
+          "arxiv_id": "2205.03257",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2205.03257",
+          "title": "[PDF] arXiv:2205.03257v1 [cs.LG] 6 May 2022",
+          "snippet": "There are many applications of synthetic data: privacy, fairness, and data augmentation, to name a few. reduce the cost of the soft- ware development lifecycle."
+        },
+        {
+          "arxiv_id": "2403.10075",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2403.10075?",
+          "title": "[PDF] A survey of synthetic data augmentation methods in computer vision",
+          "snippet": "Generative AI techniques present the most promising prospect for generating synthetic datasets for complex com- puter vision tasks."
+        },
+        {
+          "arxiv_id": "2403.04190",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2403.04190",
+          "title": "[2403.04190] Generative AI for Synthetic Data Generation - arXiv",
+          "snippet": "We outline methodologies, evaluation techniques, and practical applications, discuss the current limitations, and suggest potential pathways for future research ..."
+        },
+        {
+          "arxiv_id": "2310.00277",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2310.00277v2",
+          "title": "A Comprehensive Survey for Generative Data Augmentation - arXiv",
+          "snippet": "Generative data augmentation (GDA) has emerged as a promising technique to alleviate data scarcity in machine learning applications."
+        },
+        {
+          "arxiv_id": "2403.02990",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2403.02990v1",
+          "title": "Data Augmentation using LLMs: Data Perspectives, Learning ... - arXiv",
+          "snippet": "It compares three paradigms \"paraphrase\", \"multi-target\", and \"storytelling\" and generates synthetic data on Korean-German language pairs from AI-hub dataset."
+        }
+      ],
+      "request_payload": {
+        "q": "Applications of generative AI in creating synthetic data for soft target data scaling before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Exponential growth of training data in NLP through synthetic data",
+      "attempts": [
+        {
+          "global_attempt_sequence": 255,
+          "query_id": "Q41",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Exponential growth of training data in NLP through synthetic data",
+          "request_payload": {
+            "q": "Exponential growth of training data in NLP through synthetic data before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q41_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:30:37.149571+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Exponential growth of training data in NLP through synthetic data before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Machine Learning for Synthetic Data Generation: A Review - arXiv\",\"link\":\"https://arxiv.org/html/2302.04062v6\",\"snippet\":\"This paper presents a comprehensive systematic review of existing studies that employ machine learning models for the purpose of generating synthetic data. The ...\",\"date\":\"Jan 1, 2024\",\"position\":1},{\"title\":\"A Recipe for Compute and Data-Efficient Language Modeling - arXiv\",\"link\":\"https://arxiv.org/html/2401.16380v1\",\"snippet\":\"While synthetic data may help LLMs pre-train faster, we also want them to be able to understand noisy web text that may be filled with typos and linguistic ...\",\"date\":\"Jan 29, 2024\",\"position\":2},{\"title\":\"Does Synthetic Data Make Large Language Models More Efficient?\",\"link\":\"https://arxiv.org/abs/2310.07830\",\"snippet\":\"The findings aim to guide NLP practitioners in harnessing synthetic data's potential, ensuring optimal model performance in diverse applications. Subjects: ...\",\"date\":\"Oct 11, 2023\",\"position\":3},{\"title\":\"Synthetic Data in AI: Challenges, Applications, and Ethical Implications\",\"link\":\"https://arxiv.org/html/2401.01629v1\",\"snippet\":\"Natural Language Processing (NLP) The growing interest in synthetic data has propelled the thriving development of numerous deep generative models in the field ...\",\"date\":\"Jan 3, 2024\",\"position\":4},{\"title\":\"Best Practices and Lessons Learned on Synthetic Data for ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.07503v1\",\"snippet\":\"One of the many benefits of synthetic data is that it can be generated at scale, providing an abundant supply of training and testing data for AI models. This ...\",\"date\":\"Apr 11, 2024\",\"position\":5},{\"title\":\"Generalization via Declarative Instructions on 1600+ NLP Tasks - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2204.07705\",\"snippet\":\"In this paper, we construct a meta-dataset (i.e., dataset of datasets; Triantafillou et al. 2019 ) that consists of a wide variety of NLP tasks with their ...\",\"date\":\"May 30, 2022\",\"position\":6},{\"title\":\"[PDF] Does Synthetic Data Make Large Language Models More Efficient?\",\"link\":\"https://arxiv.org/pdf/2310.07830\",\"snippet\":\"This paper explores the nuances of synthetic data generation in NLP, with a focal ... The ratio of synthetic to real data is a significant hyperparameter in the ...\",\"date\":\"Oct 11, 2023\",\"position\":7},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"Public NLP datasets are not reflective of how our language models are used. We compare GPT-3 fine-tuned on our human preference data (i.e. InstructGPT) to GPT-3 ...\",\"date\":\"Jan 27, 2022\",\"position\":8},{\"title\":\"[PDF] Agent Smith: Machine Teaching for Building Question Answering ...\",\"link\":\"https://arxiv.org/pdf/2112.13677\",\"snippet\":\"Data augmentation is an area focusing on methods of increasing training data with the need to go and collect more data [14]. Data Augmentation, and even ...\",\"date\":\"Nov 7, 2022\",\"position\":9},{\"title\":\"The Dawn of AI-Native EDA: Opportunities and Challenges of ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.07257v2\",\"snippet\":\"This paper argues for a paradigm shift from AI4EDA towards AI-native EDA, integrating AI at the core of the design process. Pivotal to this vision is the ...\",\"date\":\"Mar 12, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJFeHBvbmVudGlhbCBncm93dGggb2YgdHJhaW5pbmcgZGF0YSBpbiBOTFAgdGhyb3VnaCBzeW50aGV0aWMgZGF0YSBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJNYWNoaW5lIExlYXJuaW5nIGZvciBTeW50aGV0aWMgRGF0YSBHZW5lcmF0aW9uOiBBIFJldmlldyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwMi4wNDA2MnY2Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgcHJlc2VudHMgYSBjb21wcmVoZW5zaXZlIHN5c3RlbWF0aWMgcmV2aWV3IG9mIGV4aXN0aW5nIHN0dWRpZXMgdGhhdCBlbXBsb3kgbWFjaGluZSBsZWFybmluZyBtb2RlbHMgZm9yIHRoZSBwdXJwb3NlIG9mIGdlbmVyYXRpbmcgc3ludGhldGljIGRhdGEuIFRoZSAuLi4iLCJkYXRlIjoiSmFuIDEsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkEgUmVjaXBlIGZvciBDb21wdXRlIGFuZCBEYXRhLUVmZmljaWVudCBMYW5ndWFnZSBNb2RlbGluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4xNjM4MHYxIiwic25pcHBldCI6IldoaWxlIHN5bnRoZXRpYyBkYXRhIG1heSBoZWxwIExMTXMgcHJlLXRyYWluIGZhc3Rlciwgd2UgYWxzbyB3YW50IHRoZW0gdG8gYmUgYWJsZSB0byB1bmRlcnN0YW5kIG5vaXN5IHdlYiB0ZXh0IHRoYXQgbWF5IGJlIGZpbGxlZCB3aXRoIHR5cG9zIGFuZCBsaW5ndWlzdGljIC4uLiIsImRhdGUiOiJKYW4gMjksIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkRvZXMgU3ludGhldGljIERhdGEgTWFrZSBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgTW9yZSBFZmZpY2llbnQ/IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzEwLjA3ODMwIiwic25pcHBldCI6IlRoZSBmaW5kaW5ncyBhaW0gdG8gZ3VpZGUgTkxQIHByYWN0aXRpb25lcnMgaW4gaGFybmVzc2luZyBzeW50aGV0aWMgZGF0YSdzIHBvdGVudGlhbCwgZW5zdXJpbmcgb3B0aW1hbCBtb2RlbCBwZXJmb3JtYW5jZSBpbiBkaXZlcnNlIGFwcGxpY2F0aW9ucy4gU3ViamVjdHM6IC4uLiIsImRhdGUiOiJPY3QgMTEsIDIwMjMiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IlN5bnRoZXRpYyBEYXRhIGluIEFJOiBDaGFsbGVuZ2VzLCBBcHBsaWNhdGlvbnMsIGFuZCBFdGhpY2FsIEltcGxpY2F0aW9ucyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMDE2Mjl2MSIsInNuaXBwZXQiOiJOYXR1cmFsIExhbmd1YWdlIFByb2Nlc3NpbmcgKE5MUCkgVGhlIGdyb3dpbmcgaW50ZXJlc3QgaW4gc3ludGhldGljIGRhdGEgaGFzIHByb3BlbGxlZCB0aGUgdGhyaXZpbmcgZGV2ZWxvcG1lbnQgb2YgbnVtZXJvdXMgZGVlcCBnZW5lcmF0aXZlIG1vZGVscyBpbiB0aGUgZmllbGQgLi4uIiwiZGF0ZSI6IkphbiAzLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJCZXN0IFByYWN0aWNlcyBhbmQgTGVzc29ucyBMZWFybmVkIG9uIFN5bnRoZXRpYyBEYXRhIGZvciAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMDc1MDN2MSIsInNuaXBwZXQiOiJPbmUgb2YgdGhlIG1hbnkgYmVuZWZpdHMgb2Ygc3ludGhldGljIGRhdGEgaXMgdGhhdCBpdCBjYW4gYmUgZ2VuZXJhdGVkIGF0IHNjYWxlLCBwcm92aWRpbmcgYW4gYWJ1bmRhbnQgc3VwcGx5IG9mIHRyYWluaW5nIGFuZCB0ZXN0aW5nIGRhdGEgZm9yIEFJIG1vZGVscy4gVGhpcyAuLi4iLCJkYXRlIjoiQXByIDExLCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJHZW5lcmFsaXphdGlvbiB2aWEgRGVjbGFyYXRpdmUgSW5zdHJ1Y3Rpb25zIG9uIDE2MDArIE5MUCBUYXNrcyAtIGFyNWl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMjA0LjA3NzA1Iiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGNvbnN0cnVjdCBhIG1ldGEtZGF0YXNldCAoaS5lLiwgZGF0YXNldCBvZiBkYXRhc2V0czsgVHJpYW50YWZpbGxvdSBldCBhbC4gMjAxOSApIHRoYXQgY29uc2lzdHMgb2YgYSB3aWRlIHZhcmlldHkgb2YgTkxQIHRhc2tzIHdpdGggdGhlaXIgLi4uIiwiZGF0ZSI6Ik1heSAzMCwgMjAyMiIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiW1BERl0gRG9lcyBTeW50aGV0aWMgRGF0YSBNYWtlIExhcmdlIExhbmd1YWdlIE1vZGVscyBNb3JlIEVmZmljaWVudD8iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMTAuMDc4MzAiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBleHBsb3JlcyB0aGUgbnVhbmNlcyBvZiBzeW50aGV0aWMgZGF0YSBnZW5lcmF0aW9uIGluIE5MUCwgd2l0aCBhIGZvY2FsIC4uLiBUaGUgcmF0aW8gb2Ygc3ludGhldGljIHRvIHJlYWwgZGF0YSBpcyBhIHNpZ25pZmljYW50IGh5cGVycGFyYW1ldGVyIGluIHRoZSAuLi4iLCJkYXRlIjoiT2N0IDExLCAyMDIzIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJUcmFpbmluZyBsYW5ndWFnZSBtb2RlbHMgdG8gZm9sbG93IGluc3RydWN0aW9ucyB3aXRoIGh1bWFuIGZlZWRiYWNrIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMjAzLjAyMTU1Iiwic25pcHBldCI6IlB1YmxpYyBOTFAgZGF0YXNldHMgYXJlIG5vdCByZWZsZWN0aXZlIG9mIGhvdyBvdXIgbGFuZ3VhZ2UgbW9kZWxzIGFyZSB1c2VkLiBXZSBjb21wYXJlIEdQVC0zIGZpbmUtdHVuZWQgb24gb3VyIGh1bWFuIHByZWZlcmVuY2UgZGF0YSAoaS5lLiBJbnN0cnVjdEdQVCkgdG8gR1BULTMgLi4uIiwiZGF0ZSI6IkphbiAyNywgMjAyMiIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gQWdlbnQgU21pdGg6IE1hY2hpbmUgVGVhY2hpbmcgZm9yIEJ1aWxkaW5nIFF1ZXN0aW9uIEFuc3dlcmluZyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIxMTIuMTM2NzciLCJzbmlwcGV0IjoiRGF0YSBhdWdtZW50YXRpb24gaXMgYW4gYXJlYSBmb2N1c2luZyBvbiBtZXRob2RzIG9mIGluY3JlYXNpbmcgdHJhaW5pbmcgZGF0YSB3aXRoIHRoZSBuZWVkIHRvIGdvIGFuZCBjb2xsZWN0IG1vcmUgZGF0YSBbMTRdLiBEYXRhIEF1Z21lbnRhdGlvbiwgYW5kIGV2ZW4gLi4uIiwiZGF0ZSI6Ik5vdiA3LCAyMDIyIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJUaGUgRGF3biBvZiBBSS1OYXRpdmUgRURBOiBPcHBvcnR1bml0aWVzIGFuZCBDaGFsbGVuZ2VzIG9mIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4wNzI1N3YyIiwic25pcHBldCI6IlRoaXMgcGFwZXIgYXJndWVzIGZvciBhIHBhcmFkaWdtIHNoaWZ0IGZyb20gQUk0RURBIHRvd2FyZHMgQUktbmF0aXZlIEVEQSwgaW50ZWdyYXRpbmcgQUkgYXQgdGhlIGNvcmUgb2YgdGhlIGRlc2lnbiBwcm9jZXNzLiBQaXZvdGFsIHRvIHRoaXMgdmlzaW9uIGlzIHRoZSAuLi4iLCJkYXRlIjoiTWFyIDEyLCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "635da4670adabd31b553e49728d0b41b27207e9a653032884b60366e3c529d8c",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Exponential growth of training data in NLP through synthetic data before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Machine Learning for Synthetic Data Generation: A Review - arXiv",
+                "link": "https://arxiv.org/html/2302.04062v6",
+                "snippet": "This paper presents a comprehensive systematic review of existing studies that employ machine learning models for the purpose of generating synthetic data. The ...",
+                "date": "Jan 1, 2024",
+                "position": 1
+              },
+              {
+                "title": "A Recipe for Compute and Data-Efficient Language Modeling - arXiv",
+                "link": "https://arxiv.org/html/2401.16380v1",
+                "snippet": "While synthetic data may help LLMs pre-train faster, we also want them to be able to understand noisy web text that may be filled with typos and linguistic ...",
+                "date": "Jan 29, 2024",
+                "position": 2
+              },
+              {
+                "title": "Does Synthetic Data Make Large Language Models More Efficient?",
+                "link": "https://arxiv.org/abs/2310.07830",
+                "snippet": "The findings aim to guide NLP practitioners in harnessing synthetic data's potential, ensuring optimal model performance in diverse applications. Subjects: ...",
+                "date": "Oct 11, 2023",
+                "position": 3
+              },
+              {
+                "title": "Synthetic Data in AI: Challenges, Applications, and Ethical Implications",
+                "link": "https://arxiv.org/html/2401.01629v1",
+                "snippet": "Natural Language Processing (NLP) The growing interest in synthetic data has propelled the thriving development of numerous deep generative models in the field ...",
+                "date": "Jan 3, 2024",
+                "position": 4
+              },
+              {
+                "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+                "link": "https://arxiv.org/html/2404.07503v1",
+                "snippet": "One of the many benefits of synthetic data is that it can be generated at scale, providing an abundant supply of training and testing data for AI models. This ...",
+                "date": "Apr 11, 2024",
+                "position": 5
+              },
+              {
+                "title": "Generalization via Declarative Instructions on 1600+ NLP Tasks - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2204.07705",
+                "snippet": "In this paper, we construct a meta-dataset (i.e., dataset of datasets; Triantafillou et al. 2019 ) that consists of a wide variety of NLP tasks with their ...",
+                "date": "May 30, 2022",
+                "position": 6
+              },
+              {
+                "title": "[PDF] Does Synthetic Data Make Large Language Models More Efficient?",
+                "link": "https://arxiv.org/pdf/2310.07830",
+                "snippet": "This paper explores the nuances of synthetic data generation in NLP, with a focal ... The ratio of synthetic to real data is a significant hyperparameter in the ...",
+                "date": "Oct 11, 2023",
+                "position": 7
+              },
+              {
+                "title": "Training language models to follow instructions with human feedback",
+                "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                "snippet": "Public NLP datasets are not reflective of how our language models are used. We compare GPT-3 fine-tuned on our human preference data (i.e. InstructGPT) to GPT-3 ...",
+                "date": "Jan 27, 2022",
+                "position": 8
+              },
+              {
+                "title": "[PDF] Agent Smith: Machine Teaching for Building Question Answering ...",
+                "link": "https://arxiv.org/pdf/2112.13677",
+                "snippet": "Data augmentation is an area focusing on methods of increasing training data with the need to go and collect more data [14]. Data Augmentation, and even ...",
+                "date": "Nov 7, 2022",
+                "position": 9
+              },
+              {
+                "title": "The Dawn of AI-Native EDA: Opportunities and Challenges of ... - arXiv",
+                "link": "https://arxiv.org/html/2403.07257v2",
+                "snippet": "This paper argues for a paradigm shift from AI4EDA towards AI-native EDA, integrating AI at the core of the design process. Pivotal to this vision is the ...",
+                "date": "Mar 12, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:38.343338+00:00",
+          "elapsed_seconds": 1.1937636584043503
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2112.13677",
+        "2203.02155",
+        "2204.07705",
+        "2302.04062",
+        "2310.07830",
+        "2401.01629",
+        "2401.16380",
+        "2403.07257",
+        "2404.07503"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2302.04062",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2302.04062v6",
+          "title": "Machine Learning for Synthetic Data Generation: A Review - arXiv",
+          "snippet": "This paper presents a comprehensive systematic review of existing studies that employ machine learning models for the purpose of generating synthetic data. The ..."
+        },
+        {
+          "arxiv_id": "2401.16380",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2401.16380v1",
+          "title": "A Recipe for Compute and Data-Efficient Language Modeling - arXiv",
+          "snippet": "While synthetic data may help LLMs pre-train faster, we also want them to be able to understand noisy web text that may be filled with typos and linguistic ..."
+        },
+        {
+          "arxiv_id": "2310.07830",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2310.07830",
+          "title": "Does Synthetic Data Make Large Language Models More Efficient?",
+          "snippet": "The findings aim to guide NLP practitioners in harnessing synthetic data's potential, ensuring optimal model performance in diverse applications. Subjects: ..."
+        },
+        {
+          "arxiv_id": "2401.01629",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2401.01629v1",
+          "title": "Synthetic Data in AI: Challenges, Applications, and Ethical Implications",
+          "snippet": "Natural Language Processing (NLP) The growing interest in synthetic data has propelled the thriving development of numerous deep generative models in the field ..."
+        },
+        {
+          "arxiv_id": "2404.07503",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2404.07503v1",
+          "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+          "snippet": "One of the many benefits of synthetic data is that it can be generated at scale, providing an abundant supply of training and testing data for AI models. This ..."
+        },
+        {
+          "arxiv_id": "2204.07705",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://ar5iv.labs.arxiv.org/html/2204.07705",
+          "title": "Generalization via Declarative Instructions on 1600+ NLP Tasks - ar5iv",
+          "snippet": "In this paper, we construct a meta-dataset (i.e., dataset of datasets; Triantafillou et al. 2019 ) that consists of a wide variety of NLP tasks with their ..."
+        },
+        {
+          "arxiv_id": "2310.07830",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2310.07830",
+          "title": "[PDF] Does Synthetic Data Make Large Language Models More Efficient?",
+          "snippet": "This paper explores the nuances of synthetic data generation in NLP, with a focal ... The ratio of synthetic to real data is a significant hyperparameter in the ..."
+        },
+        {
+          "arxiv_id": "2203.02155",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+          "title": "Training language models to follow instructions with human feedback",
+          "snippet": "Public NLP datasets are not reflective of how our language models are used. We compare GPT-3 fine-tuned on our human preference data (i.e. InstructGPT) to GPT-3 ..."
+        },
+        {
+          "arxiv_id": "2112.13677",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2112.13677",
+          "title": "[PDF] Agent Smith: Machine Teaching for Building Question Answering ...",
+          "snippet": "Data augmentation is an area focusing on methods of increasing training data with the need to go and collect more data [14]. Data Augmentation, and even ..."
+        },
+        {
+          "arxiv_id": "2403.07257",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2403.07257v2",
+          "title": "The Dawn of AI-Native EDA: Opportunities and Challenges of ... - arXiv",
+          "snippet": "This paper argues for a paradigm shift from AI4EDA towards AI-native EDA, integrating AI at the core of the design process. Pivotal to this vision is the ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Exponential growth of training data in NLP through synthetic data before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "Using synthesis data for scaling up sft data.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 254,
+          "query_id": "Q41",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "Using synthesis data for scaling up sft data.",
+          "request_payload": {
+            "q": "Using synthesis data for scaling up sft data. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q41_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:30:35.889811+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Using synthesis data for scaling up sft data. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Best Practices and Lessons Learned on Synthetic Data for ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.07503v1\",\"snippet\":\"One of the many benefits of synthetic data is that it can be generated at scale, providing an abundant supply of training and testing data for AI models.\",\"date\":\"Apr 11, 2024\",\"position\":1},{\"title\":\"SynthVLM: High-Efficiency and High-Quality Synthetic Data ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.20756v1\",\"snippet\":\"Synthetic data holds great potential in building large-scale, high-quality datasets. Researchers have explored multiple approaches, from leveraging ...\",\"date\":\"Jul 30, 2024\",\"position\":2},{\"title\":\"A Comprehensive Survey for Generative Data Augmentation - arXiv\",\"link\":\"https://arxiv.org/html/2310.00277v2\",\"snippet\":\"Generative data augmentation (GDA) has emerged as a promising technique to alleviate data scarcity in machine learning applications.\",\"date\":\"Apr 21, 2024\",\"position\":3},{\"title\":\"Machine Learning for Synthetic Data Generation: A Review - arXiv\",\"link\":\"https://arxiv.org/html/2302.04062v9\",\"snippet\":\"This paper presents a comprehensive systematic review of existing studies that employ machine learning models for the purpose of generating synthetic data.\",\"date\":\"Jun 30, 2024\",\"position\":4},{\"title\":\"[PDF] A survey of synthetic data augmentation methods in computer vision\",\"link\":\"https://arxiv.org/pdf/2403.10075?\",\"snippet\":\"This paper presents an extensive review of synthetic data augmentation techniques. It covers data synthesis approaches based on realistic 3D graphics modeling,\",\"date\":\"Mar 24, 2024\",\"position\":5},{\"title\":\"Generative AI for Synthetic Data Generation: Methods, Challenges ...\",\"link\":\"https://arxiv.org/html/2403.04190v1\",\"snippet\":\"Synthetic data generation can help some medical tasks that lack sufficient data to train a strong predictive model.\",\"date\":\"Mar 7, 2024\",\"position\":6},{\"title\":\"Common 7B Language Models Already Possess Strong Math ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.04706v1\",\"snippet\":\"Synthetic SFT Data Generation. Since the real data has been exhausted, we contemplate further scaling up SFT data using synthetically generated math questions.\",\"date\":\"Mar 7, 2024\",\"position\":7},{\"title\":\"Scaling Synthetic Data Creation with 1000000000 Personas - arXiv\",\"link\":\"https://arxiv.org/abs/2406.20094\",\"snippet\":\"We propose a novel persona-driven data synthesis methodology that leverages various perspectives within a large language model (LLM) to create diverse synthetic ...\",\"date\":\"Jun 28, 2024\",\"position\":8},{\"title\":\"Data Management For Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.01700v2\",\"snippet\":\"In this section, we first review the research studying pretraining dataset scaling law with/without data repetition. Then, data quality regarding deduplication, ...\",\"date\":\"Dec 26, 2023\",\"position\":9},{\"title\":\"A Comprehensive Survey on Data Augmentation - arXiv\",\"link\":\"https://arxiv.org/html/2405.09591v1\",\"snippet\":\"By leveraging data augmentation techniques, AI models can achieve significantly improved applicability in tasks involving scarce or imbalanced datasets, thereby ...\",\"date\":\"May 15, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJVc2luZyBzeW50aGVzaXMgZGF0YSBmb3Igc2NhbGluZyB1cCBzZnQgZGF0YS4gYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQmVzdCBQcmFjdGljZXMgYW5kIExlc3NvbnMgTGVhcm5lZCBvbiBTeW50aGV0aWMgRGF0YSBmb3IgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjA3NTAzdjEiLCJzbmlwcGV0IjoiT25lIG9mIHRoZSBtYW55IGJlbmVmaXRzIG9mIHN5bnRoZXRpYyBkYXRhIGlzIHRoYXQgaXQgY2FuIGJlIGdlbmVyYXRlZCBhdCBzY2FsZSwgcHJvdmlkaW5nIGFuIGFidW5kYW50IHN1cHBseSBvZiB0cmFpbmluZyBhbmQgdGVzdGluZyBkYXRhIGZvciBBSSBtb2RlbHMuIiwiZGF0ZSI6IkFwciAxMSwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiU3ludGhWTE06IEhpZ2gtRWZmaWNpZW5jeSBhbmQgSGlnaC1RdWFsaXR5IFN5bnRoZXRpYyBEYXRhIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4yMDc1NnYxIiwic25pcHBldCI6IlN5bnRoZXRpYyBkYXRhIGhvbGRzIGdyZWF0IHBvdGVudGlhbCBpbiBidWlsZGluZyBsYXJnZS1zY2FsZSwgaGlnaC1xdWFsaXR5IGRhdGFzZXRzLiBSZXNlYXJjaGVycyBoYXZlIGV4cGxvcmVkIG11bHRpcGxlIGFwcHJvYWNoZXMsIGZyb20gbGV2ZXJhZ2luZyAuLi4iLCJkYXRlIjoiSnVsIDMwLCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJBIENvbXByZWhlbnNpdmUgU3VydmV5IGZvciBHZW5lcmF0aXZlIERhdGEgQXVnbWVudGF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEwLjAwMjc3djIiLCJzbmlwcGV0IjoiR2VuZXJhdGl2ZSBkYXRhIGF1Z21lbnRhdGlvbiAoR0RBKSBoYXMgZW1lcmdlZCBhcyBhIHByb21pc2luZyB0ZWNobmlxdWUgdG8gYWxsZXZpYXRlIGRhdGEgc2NhcmNpdHkgaW4gbWFjaGluZSBsZWFybmluZyBhcHBsaWNhdGlvbnMuIiwiZGF0ZSI6IkFwciAyMSwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiTWFjaGluZSBMZWFybmluZyBmb3IgU3ludGhldGljIERhdGEgR2VuZXJhdGlvbjogQSBSZXZpZXcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDIuMDQwNjJ2OSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHByZXNlbnRzIGEgY29tcHJlaGVuc2l2ZSBzeXN0ZW1hdGljIHJldmlldyBvZiBleGlzdGluZyBzdHVkaWVzIHRoYXQgZW1wbG95IG1hY2hpbmUgbGVhcm5pbmcgbW9kZWxzIGZvciB0aGUgcHVycG9zZSBvZiBnZW5lcmF0aW5nIHN5bnRoZXRpYyBkYXRhLiIsImRhdGUiOiJKdW4gMzAsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIEEgc3VydmV5IG9mIHN5bnRoZXRpYyBkYXRhIGF1Z21lbnRhdGlvbiBtZXRob2RzIGluIGNvbXB1dGVyIHZpc2lvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMy4xMDA3NT8iLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBwcmVzZW50cyBhbiBleHRlbnNpdmUgcmV2aWV3IG9mIHN5bnRoZXRpYyBkYXRhIGF1Z21lbnRhdGlvbiB0ZWNobmlxdWVzLiBJdCBjb3ZlcnMgZGF0YSBzeW50aGVzaXMgYXBwcm9hY2hlcyBiYXNlZCBvbiByZWFsaXN0aWMgM0QgZ3JhcGhpY3MgbW9kZWxpbmcsIiwiZGF0ZSI6Ik1hciAyNCwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiR2VuZXJhdGl2ZSBBSSBmb3IgU3ludGhldGljIERhdGEgR2VuZXJhdGlvbjogTWV0aG9kcywgQ2hhbGxlbmdlcyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjA0MTkwdjEiLCJzbmlwcGV0IjoiU3ludGhldGljIGRhdGEgZ2VuZXJhdGlvbiBjYW4gaGVscCBzb21lIG1lZGljYWwgdGFza3MgdGhhdCBsYWNrIHN1ZmZpY2llbnQgZGF0YSB0byB0cmFpbiBhIHN0cm9uZyBwcmVkaWN0aXZlIG1vZGVsLiIsImRhdGUiOiJNYXIgNywgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQ29tbW9uIDdCIExhbmd1YWdlIE1vZGVscyBBbHJlYWR5IFBvc3Nlc3MgU3Ryb25nIE1hdGggLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjA0NzA2djEiLCJzbmlwcGV0IjoiU3ludGhldGljIFNGVCBEYXRhIEdlbmVyYXRpb24uIFNpbmNlIHRoZSByZWFsIGRhdGEgaGFzIGJlZW4gZXhoYXVzdGVkLCB3ZSBjb250ZW1wbGF0ZSBmdXJ0aGVyIHNjYWxpbmcgdXAgU0ZUIGRhdGEgdXNpbmcgc3ludGhldGljYWxseSBnZW5lcmF0ZWQgbWF0aCBxdWVzdGlvbnMuIiwiZGF0ZSI6Ik1hciA3LCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJTY2FsaW5nIFN5bnRoZXRpYyBEYXRhIENyZWF0aW9uIHdpdGggMTAwMDAwMDAwMCBQZXJzb25hcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA2LjIwMDk0Iiwic25pcHBldCI6IldlIHByb3Bvc2UgYSBub3ZlbCBwZXJzb25hLWRyaXZlbiBkYXRhIHN5bnRoZXNpcyBtZXRob2RvbG9neSB0aGF0IGxldmVyYWdlcyB2YXJpb3VzIHBlcnNwZWN0aXZlcyB3aXRoaW4gYSBsYXJnZSBsYW5ndWFnZSBtb2RlbCAoTExNKSB0byBjcmVhdGUgZGl2ZXJzZSBzeW50aGV0aWMgLi4uIiwiZGF0ZSI6Ikp1biAyOCwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiRGF0YSBNYW5hZ2VtZW50IEZvciBMYXJnZSBMYW5ndWFnZSBNb2RlbHM6IEEgU3VydmV5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEyLjAxNzAwdjIiLCJzbmlwcGV0IjoiSW4gdGhpcyBzZWN0aW9uLCB3ZSBmaXJzdCByZXZpZXcgdGhlIHJlc2VhcmNoIHN0dWR5aW5nIHByZXRyYWluaW5nIGRhdGFzZXQgc2NhbGluZyBsYXcgd2l0aC93aXRob3V0IGRhdGEgcmVwZXRpdGlvbi4gVGhlbiwgZGF0YSBxdWFsaXR5IHJlZ2FyZGluZyBkZWR1cGxpY2F0aW9uLCAuLi4iLCJkYXRlIjoiRGVjIDI2LCAyMDIzIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJBIENvbXByZWhlbnNpdmUgU3VydmV5IG9uIERhdGEgQXVnbWVudGF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjA5NTkxdjEiLCJzbmlwcGV0IjoiQnkgbGV2ZXJhZ2luZyBkYXRhIGF1Z21lbnRhdGlvbiB0ZWNobmlxdWVzLCBBSSBtb2RlbHMgY2FuIGFjaGlldmUgc2lnbmlmaWNhbnRseSBpbXByb3ZlZCBhcHBsaWNhYmlsaXR5IGluIHRhc2tzIGludm9sdmluZyBzY2FyY2Ugb3IgaW1iYWxhbmNlZCBkYXRhc2V0cywgdGhlcmVieSAuLi4iLCJkYXRlIjoiTWF5IDE1LCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "8518f33d2f09489604a90b9eb795875107bba36d76c2c0d890021084ec807651",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Using synthesis data for scaling up sft data. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+                "link": "https://arxiv.org/html/2404.07503v1",
+                "snippet": "One of the many benefits of synthetic data is that it can be generated at scale, providing an abundant supply of training and testing data for AI models.",
+                "date": "Apr 11, 2024",
+                "position": 1
+              },
+              {
+                "title": "SynthVLM: High-Efficiency and High-Quality Synthetic Data ... - arXiv",
+                "link": "https://arxiv.org/html/2407.20756v1",
+                "snippet": "Synthetic data holds great potential in building large-scale, high-quality datasets. Researchers have explored multiple approaches, from leveraging ...",
+                "date": "Jul 30, 2024",
+                "position": 2
+              },
+              {
+                "title": "A Comprehensive Survey for Generative Data Augmentation - arXiv",
+                "link": "https://arxiv.org/html/2310.00277v2",
+                "snippet": "Generative data augmentation (GDA) has emerged as a promising technique to alleviate data scarcity in machine learning applications.",
+                "date": "Apr 21, 2024",
+                "position": 3
+              },
+              {
+                "title": "Machine Learning for Synthetic Data Generation: A Review - arXiv",
+                "link": "https://arxiv.org/html/2302.04062v9",
+                "snippet": "This paper presents a comprehensive systematic review of existing studies that employ machine learning models for the purpose of generating synthetic data.",
+                "date": "Jun 30, 2024",
+                "position": 4
+              },
+              {
+                "title": "[PDF] A survey of synthetic data augmentation methods in computer vision",
+                "link": "https://arxiv.org/pdf/2403.10075?",
+                "snippet": "This paper presents an extensive review of synthetic data augmentation techniques. It covers data synthesis approaches based on realistic 3D graphics modeling,",
+                "date": "Mar 24, 2024",
+                "position": 5
+              },
+              {
+                "title": "Generative AI for Synthetic Data Generation: Methods, Challenges ...",
+                "link": "https://arxiv.org/html/2403.04190v1",
+                "snippet": "Synthetic data generation can help some medical tasks that lack sufficient data to train a strong predictive model.",
+                "date": "Mar 7, 2024",
+                "position": 6
+              },
+              {
+                "title": "Common 7B Language Models Already Possess Strong Math ... - arXiv",
+                "link": "https://arxiv.org/html/2403.04706v1",
+                "snippet": "Synthetic SFT Data Generation. Since the real data has been exhausted, we contemplate further scaling up SFT data using synthetically generated math questions.",
+                "date": "Mar 7, 2024",
+                "position": 7
+              },
+              {
+                "title": "Scaling Synthetic Data Creation with 1000000000 Personas - arXiv",
+                "link": "https://arxiv.org/abs/2406.20094",
+                "snippet": "We propose a novel persona-driven data synthesis methodology that leverages various perspectives within a large language model (LLM) to create diverse synthetic ...",
+                "date": "Jun 28, 2024",
+                "position": 8
+              },
+              {
+                "title": "Data Management For Large Language Models: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2312.01700v2",
+                "snippet": "In this section, we first review the research studying pretraining dataset scaling law with/without data repetition. Then, data quality regarding deduplication, ...",
+                "date": "Dec 26, 2023",
+                "position": 9
+              },
+              {
+                "title": "A Comprehensive Survey on Data Augmentation - arXiv",
+                "link": "https://arxiv.org/html/2405.09591v1",
+                "snippet": "By leveraging data augmentation techniques, AI models can achieve significantly improved applicability in tasks involving scarce or imbalanced datasets, thereby ...",
+                "date": "May 15, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:36.912202+00:00",
+          "elapsed_seconds": 1.02239004150033
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2302.04062",
+        "2310.00277",
+        "2312.01700",
+        "2403.04190",
+        "2403.04706",
+        "2403.10075",
+        "2404.07503",
+        "2405.09591",
+        "2406.20094",
+        "2407.20756"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2404.07503",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2404.07503v1",
+          "title": "Best Practices and Lessons Learned on Synthetic Data for ... - arXiv",
+          "snippet": "One of the many benefits of synthetic data is that it can be generated at scale, providing an abundant supply of training and testing data for AI models."
+        },
+        {
+          "arxiv_id": "2407.20756",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2407.20756v1",
+          "title": "SynthVLM: High-Efficiency and High-Quality Synthetic Data ... - arXiv",
+          "snippet": "Synthetic data holds great potential in building large-scale, high-quality datasets. Researchers have explored multiple approaches, from leveraging ..."
+        },
+        {
+          "arxiv_id": "2310.00277",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2310.00277v2",
+          "title": "A Comprehensive Survey for Generative Data Augmentation - arXiv",
+          "snippet": "Generative data augmentation (GDA) has emerged as a promising technique to alleviate data scarcity in machine learning applications."
+        },
+        {
+          "arxiv_id": "2302.04062",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2302.04062v9",
+          "title": "Machine Learning for Synthetic Data Generation: A Review - arXiv",
+          "snippet": "This paper presents a comprehensive systematic review of existing studies that employ machine learning models for the purpose of generating synthetic data."
+        },
+        {
+          "arxiv_id": "2403.10075",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2403.10075?",
+          "title": "[PDF] A survey of synthetic data augmentation methods in computer vision",
+          "snippet": "This paper presents an extensive review of synthetic data augmentation techniques. It covers data synthesis approaches based on realistic 3D graphics modeling,"
+        },
+        {
+          "arxiv_id": "2403.04190",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2403.04190v1",
+          "title": "Generative AI for Synthetic Data Generation: Methods, Challenges ...",
+          "snippet": "Synthetic data generation can help some medical tasks that lack sufficient data to train a strong predictive model."
+        },
+        {
+          "arxiv_id": "2403.04706",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2403.04706v1",
+          "title": "Common 7B Language Models Already Possess Strong Math ... - arXiv",
+          "snippet": "Synthetic SFT Data Generation. Since the real data has been exhausted, we contemplate further scaling up SFT data using synthetically generated math questions."
+        },
+        {
+          "arxiv_id": "2406.20094",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2406.20094",
+          "title": "Scaling Synthetic Data Creation with 1000000000 Personas - arXiv",
+          "snippet": "We propose a novel persona-driven data synthesis methodology that leverages various perspectives within a large language model (LLM) to create diverse synthetic ..."
+        },
+        {
+          "arxiv_id": "2312.01700",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2312.01700v2",
+          "title": "Data Management For Large Language Models: A Survey - arXiv",
+          "snippet": "In this section, we first review the research studying pretraining dataset scaling law with/without data repetition. Then, data quality regarding deduplication, ..."
+        },
+        {
+          "arxiv_id": "2405.09591",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2405.09591v1",
+          "title": "A Comprehensive Survey on Data Augmentation - arXiv",
+          "snippet": "By leveraging data augmentation techniques, AI models can achieve significantly improved applicability in tasks involving scarce or imbalanced datasets, thereby ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Using synthesis data for scaling up sft data. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "anchor",
+    "q5"
+  ]
+}

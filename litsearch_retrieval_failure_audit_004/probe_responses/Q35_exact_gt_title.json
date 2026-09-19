@@ -1,0 +1,229 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q35",
+  "group": "inline-citation",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2011.08067",
+  "request_payload": {
+    "q": "Hierarchical Transformer for Task Oriented Dialog Systems before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 73,
+  "started_utc": "2026-09-17T12:34:47.625189+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648210",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "81ac2bcfadabc56d91c256cae00331a6",
+    "date": "Thu, 17 Sep 2026 12:30:09 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "4304",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 4304,
+  "response_bytes_sha256": "63b9c2f43de34913c990e2068bff56e0916489248a37020cc993634df8a577eb",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJIaWVyYXJjaGljYWwgVHJhbnNmb3JtZXIgZm9yIFRhc2sgT3JpZW50ZWQgRGlhbG9nIFN5c3RlbXMgYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiRW5kLXRvLWVuZCBUYXNrLW9yaWVudGVkIERpYWxvZ3VlOiBBIFN1cnZleSBvZiBUYXNrcywgTWV0aG9kcyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjA5MDA4djEiLCJzbmlwcGV0IjoiQ29udGV4dHVhbGl6ZSBLbm93bGVkZ2UgQmFzZXMgd2l0aCBUcmFuc2Zvcm1lciBmb3IgRW5kLXRvLWVuZCBUYXNrLU9yaWVudGVkIERpYWxvZ3VlIFN5c3RlbXMuIC4uLiBBIEhpZXJhcmNoaWNhbCBNZW1vcnkgTW9kZWwgZm9yIFRhc2stT3JpZW50ZWQgRGlhbG9ndWUgU3lzdGVtLiIsImRhdGUiOiJOb3YgMTUsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMTEuMDkwMDh2MSBbY3MuQ0xdIDE1IE5vdiAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzExLjA5MDA4Iiwic25pcHBldCI6IlRhc2stb3JpZW50ZWQgZGlhbG9ndWUgc3lzdGVtcyAoVG9EKSBUcmFuc2Zvcm1lciBmb3IgRW5kLXRvLWVuZCBUYXNrLSBPcmllbnRlZCBEaWFsb2d1ZSBTeXN0ZW1zLiBBIEhpZXJhcmNoaWNhbCBNZW1vcnkgTW9kZWwgZm9yIFRhc2stIE9yaWVudGVkIERpYWxvZ3VlIFN5c3RlbS4iLCJkYXRlIjoiTm92IDE1LCAyMDIzIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJDb250ZXh0dWFsaXplIEtub3dsZWRnZSBCYXNlcyB3aXRoIFRyYW5zZm9ybWVyIGZvciBFbmQtdG8gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMDEwLjA1NzQwdjQiLCJzbmlwcGV0IjoiVHJhbnNmb3JtZXIgZm9yIEVuZC10by1lbmQgVGFzay1PcmllbnRlZCBEaWFsb2d1ZSBTeXN0ZW1zLiBUYXNrLW9yaWVudGVkIGRpYWxvZ3VlIHN5c3RlbXMgYWltIHRvIGFjaGlldmUgc3BlY2lmaWMgZ29hbHMgc3VjaCBhcyBob3RlbCBib29raW5nIGFuZCByZXN0YXVyYW50IC4uLiIsImRhdGUiOiJTZXAgMjksIDIwMjEiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDUuMTc0MzN2MSBbY3MuQ1ZdIDI3IE1heSAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA1LjE3NDMzIiwic25pcHBldCI6IldpdGggdGhlIHJlbGVhc2Ugb2YgTXVsdGlXb3ogWzZdLCBhIHRhc2stIG9yaWVudGVkIGRpYWxvZ3VlIGRhdGFzZXQsIHNldmVyYWwgd29ya3MgaGF2ZSBmb2N1c2VkIG9uIG11bHRpLWRvbWFpbiBkaWFsb2d1ZSBnZW5lcmF0aW9uLiBUaGUgYXV0aG9ycyBpbiBbNV0gdXNlZCBhIC4uLiIsImRhdGUiOiJNYXkgMjcsIDIwMjMiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIyMDkuMDQ1OTV2MSBbY3MuQ0xdIDEwIFNlcCAyMDIyIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjA5LjA0NTk1Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgcHJlc2VudHMgYW4gb250b2xvZ3ktYXdhcmUgcHJlLSB0cmFpbmVkIGxhbmd1YWdlIG1vZGVsIChPUEFMKSBIaWVyYXJjaGljYWwgVHJhbnNmb3JtZXIgZm9yIFRhc2sgT3JpLSBlbnRlZCBEaWFsb2cgU3lzdGVtcy4gVGFzay1vcmllbnRlZCBkaWFsb2cgLi4uIiwiZGF0ZSI6IlNlcCAxMCwgMjAyMiIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiRGlhbG9nQkVSVDogRGlzY291cnNlLUF3YXJlIFJlc3BvbnNlIEdlbmVyYXRpb24gdmlhIExlYXJuaW5nIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIwMTIuMDE3NzV2MiIsInNuaXBwZXQiOiJEaWFsb2dCRVJUIGVtcGxveXMgYSBoaWVyYXJjaGljYWwgVHJhbnNmb3JtZXIgYXJjaGl0ZWN0dXJlIHRvIHJlcHJlc2VudCB0aGUgZGlhbG9ndWUgY29udGV4dC4gSXQgZmlyc3QgZW5jb2RlcyBkaWFsb2d1ZSB1dHRlcmFuY2VzIHRocm91Z2ggYSBUcmFuc2Zvcm1lciBlbmNvZGVyIiwiZGF0ZSI6IkRlYyAxMywgMjAyMSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiW1BERl0gQSBDb21wYXJhdGl2ZSBTdHVkeSBvbiBMYW5ndWFnZSBNb2RlbHMgZm9yIFRhc2stT3JpZW50ZWQgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMDEuMDg2ODciLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBjb25kdWN0cyBhIGNvbXBhcmF0aXZlIHN0dWR5IHRvIHNob3cgdGhlIGVmZmVjdGl2ZW5lc3MgYW5kIHN0cmVuZ3RoIG9mIHVzaW5nIHJlY2VudCBwcmUtIHRyYWluZWQgbW9kZWxzIGZvciBmaW5lLXR1bmluZyBhY2hpZXZlIHN0YXRlLW9mLXRoZS1hcnQgLi4uIiwiZGF0ZSI6IkphbiAyMSwgMjAyMiIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiQXVnbWVudGluZyBUYXNrLU9yaWVudGVkIERpYWxvZ3VlIFN5c3RlbXMgd2l0aCBSZWxhdGlvbiBFeHRyYWN0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIxMC4xMzM0NHYxIiwic25pcHBldCI6IlRoZSBzdGFuZGFyZCB0YXNrLW9yaWVudGVkIGRpYWxvZ3VlIHBpcGVsaW5lIHVzZXMgaW50ZW50IGNsYXNzaWZpY2F0aW9uIGFuZCBzbG90LWZpbGxpbmcgdG8gaW50ZXJwcmV0IHVzZXIgdXR0ZXJhbmNlcy4gd2UgY29uc2lkZXIgdHdvIG5ldXJhbCBhcHByb2FjaGVzLCBhbiAuLi4iLCJkYXRlIjoiT2N0IDI0LCAyMDIyIiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjUgRXZhbHVhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMTAuMTMzNDR2MSM6fjp0ZXh0PTUlMjBFdmFsdWF0aW9uLC1JbiUyMHRoaXMlMjBzZWN0aW9uJTJDJTIwd2UifSx7InRpdGxlIjoiNS4yIFJlc3VsdHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjEwLjEzMzQ0djEjOn46dGV4dD01LjIlMjBSZXN1bHRzLC1XZSUyMHNlZWslMjB0byUyMGRldmVsb3AlMjBSRSJ9LHsidGl0bGUiOiI2LjEgUmVzdWx0czogTG9naWNhbC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMTAuMTMzNDR2MSM6fjp0ZXh0PTYuMSUyMFJlc3VsdHMlM0ElMjBMb2dpY2FsJTIwRXhwcmVzc2lvbnMsLVRvJTIwZXZhbHVhdGUlMjB0aGUlMjBhcHByb2FjaCUyMG9mIn1dLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkFuIEVtcGlyaWNhbCBTdHVkeSBvZiBNdWx0aXRhc2sgTGVhcm5pbmcgdG8gSW1wcm92ZSBPcGVuIERvbWFpbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA0LjA4MTE1djEiLCJzbmlwcGV0IjoiVW5saWtlIHRhc2stb3JpZW50ZWQgZGlhbG9ndWUgc3lzdGVtcyBkZXNpZ25lZCBmb3Igc3BlY2lmaWMgZG9tYWlucyBvciB0YXNrcyAuLi4gaGllcmFyY2hpY2FsIFRyYW5zZm9ybWVyIGFyY2hpdGVjdHVyZSB0byBjb21wcmVoZW5zaXZlbHkgY2FwdHVyZSB0aGUgY29udGV4dCBvZiAuLi4iLCJkYXRlIjoiQXByIDE3LCAyMDIzIiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjMgTWV0aG9kIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwNC4wODExNXYxIzp+OnRleHQ9Li0sMyUyME1ldGhvZCJ9LHsidGl0bGUiOiIzLjIgQXV4aWxpYXJ5IFRhc2tzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwNC4wODExNXYxIzp+OnRleHQ9My4yJTIwQXV4aWxpYXJ5JTIwVGFza3MsLVJlY2VudCUyMHJlc2VhcmNoJTIwU2Fua2FyJTIwZXQlMjBhbCJ9LHsidGl0bGUiOiI0IERhdGFzZXQgQW5kIEV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwNC4wODExNXYxIzp+OnRleHQ9NCUyMERhdGFzZXQlMjBhbmQlMjBFeHBlcmltZW50cywtVGhlJTIwZm9sbG93aW5nJTIwc2VjdGlvbiUyMHByb3ZpZGVzJTIwZGV0YWlsIn1dLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIEFwcGxpY2F0aW9uIG9mIGZyb3plbiBsYXJnZS1zY2FsZSBtb2RlbHMgdG8gbXVsdGltb2RhbCB0YXNrLW9yaWVudGVkIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMxMC4wMDg0NSIsInNuaXBwZXQiOiJNQVRFIFs2XSA6IEEgVHJhbnNmb3JtZXItYmFzZWQgbXVsdGltb2RhbCB0YXNrLW9yaWVudGVkIGRpYWxvZ3VlIHN5c3RlbS4gVGhpcyBtZXRob2Qgc29sdmVzIHRoZSBwcm9ibGVtcyBvZiBwcmV2aW91cyBzdHVkaWVzIGluIHRoYXQgaXQgaWdub3JlcyB0aGUgY29udGV4dHVhbCAuLi4iLCJkYXRlIjoiT2N0IDIsIDIwMjMiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Hierarchical Transformer for Task Oriented Dialog Systems before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "End-to-end Task-oriented Dialogue: A Survey of Tasks, Methods ...",
+        "link": "https://arxiv.org/html/2311.09008v1",
+        "snippet": "Contextualize Knowledge Bases with Transformer for End-to-end Task-Oriented Dialogue Systems. ... A Hierarchical Memory Model for Task-Oriented Dialogue System.",
+        "date": "Nov 15, 2023",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2311.09008v1 [cs.CL] 15 Nov 2023",
+        "link": "https://arxiv.org/pdf/2311.09008",
+        "snippet": "Task-oriented dialogue systems (ToD) Transformer for End-to-end Task- Oriented Dialogue Systems. A Hierarchical Memory Model for Task- Oriented Dialogue System.",
+        "date": "Nov 15, 2023",
+        "position": 2
+      },
+      {
+        "title": "Contextualize Knowledge Bases with Transformer for End-to ... - arXiv",
+        "link": "https://arxiv.org/html/2010.05740v4",
+        "snippet": "Transformer for End-to-end Task-Oriented Dialogue Systems. Task-oriented dialogue systems aim to achieve specific goals such as hotel booking and restaurant ...",
+        "date": "Sep 29, 2021",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2305.17433v1 [cs.CV] 27 May 2023",
+        "link": "https://arxiv.org/pdf/2305.17433",
+        "snippet": "With the release of MultiWoz [6], a task- oriented dialogue dataset, several works have focused on multi-domain dialogue generation. The authors in [5] used a ...",
+        "date": "May 27, 2023",
+        "position": 4
+      },
+      {
+        "title": "[PDF] arXiv:2209.04595v1 [cs.CL] 10 Sep 2022",
+        "link": "https://arxiv.org/pdf/2209.04595",
+        "snippet": "This paper presents an ontology-aware pre- trained language model (OPAL) Hierarchical Transformer for Task Ori- ented Dialog Systems. Task-oriented dialog ...",
+        "date": "Sep 10, 2022",
+        "position": 5
+      },
+      {
+        "title": "DialogBERT: Discourse-Aware Response Generation via Learning ...",
+        "link": "https://arxiv.org/html/2012.01775v2",
+        "snippet": "DialogBERT employs a hierarchical Transformer architecture to represent the dialogue context. It first encodes dialogue utterances through a Transformer encoder",
+        "date": "Dec 13, 2021",
+        "position": 6
+      },
+      {
+        "title": "[PDF] A Comparative Study on Language Models for Task-Oriented ... - arXiv",
+        "link": "https://arxiv.org/pdf/2201.08687",
+        "snippet": "This paper conducts a comparative study to show the effectiveness and strength of using recent pre- trained models for fine-tuning achieve state-of-the-art ...",
+        "date": "Jan 21, 2022",
+        "position": 7
+      },
+      {
+        "title": "Augmenting Task-Oriented Dialogue Systems with Relation Extraction",
+        "link": "https://arxiv.org/html/2210.13344v1",
+        "snippet": "The standard task-oriented dialogue pipeline uses intent classification and slot-filling to interpret user utterances. we consider two neural approaches, an ...",
+        "date": "Oct 24, 2022",
+        "sitelinks": [
+          {
+            "title": "5 Evaluation",
+            "link": "https://arxiv.org/html/2210.13344v1#:~:text=5%20Evaluation,-In%20this%20section%2C%20we"
+          },
+          {
+            "title": "5.2 Results",
+            "link": "https://arxiv.org/html/2210.13344v1#:~:text=5.2%20Results,-We%20seek%20to%20develop%20RE"
+          },
+          {
+            "title": "6.1 Results: Logical...",
+            "link": "https://arxiv.org/html/2210.13344v1#:~:text=6.1%20Results%3A%20Logical%20Expressions,-To%20evaluate%20the%20approach%20of"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "An Empirical Study of Multitask Learning to Improve Open Domain ...",
+        "link": "https://arxiv.org/html/2304.08115v1",
+        "snippet": "Unlike task-oriented dialogue systems designed for specific domains or tasks ... hierarchical Transformer architecture to comprehensively capture the context of ...",
+        "date": "Apr 17, 2023",
+        "sitelinks": [
+          {
+            "title": "3 Method",
+            "link": "https://arxiv.org/html/2304.08115v1#:~:text=.-,3%20Method"
+          },
+          {
+            "title": "3.2 Auxiliary Tasks",
+            "link": "https://arxiv.org/html/2304.08115v1#:~:text=3.2%20Auxiliary%20Tasks,-Recent%20research%20Sankar%20et%20al"
+          },
+          {
+            "title": "4 Dataset And Experiments",
+            "link": "https://arxiv.org/html/2304.08115v1#:~:text=4%20Dataset%20and%20Experiments,-The%20following%20section%20provides%20detail"
+          }
+        ],
+        "position": 9
+      },
+      {
+        "title": "[PDF] Application of frozen large-scale models to multimodal task-oriented ...",
+        "link": "https://arxiv.org/pdf/2310.00845",
+        "snippet": "MATE [6] : A Transformer-based multimodal task-oriented dialogue system. This method solves the problems of previous studies in that it ignores the contextual ...",
+        "date": "Oct 2, 2023",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "End-to-end Task-oriented Dialogue: A Survey of Tasks, Methods ...",
+      "snippet": "Contextualize Knowledge Bases with Transformer for End-to-end Task-Oriented Dialogue Systems. ... A Hierarchical Memory Model for Task-Oriented Dialogue System.",
+      "link": "https://arxiv.org/html/2311.09008v1",
+      "arxiv_id": "2311.09008"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2311.09008v1 [cs.CL] 15 Nov 2023",
+      "snippet": "Task-oriented dialogue systems (ToD) Transformer for End-to-end Task- Oriented Dialogue Systems. A Hierarchical Memory Model for Task- Oriented Dialogue System.",
+      "link": "https://arxiv.org/pdf/2311.09008",
+      "arxiv_id": "2311.09008"
+    },
+    {
+      "rank": 3,
+      "title": "Contextualize Knowledge Bases with Transformer for End-to ... - arXiv",
+      "snippet": "Transformer for End-to-end Task-Oriented Dialogue Systems. Task-oriented dialogue systems aim to achieve specific goals such as hotel booking and restaurant ...",
+      "link": "https://arxiv.org/html/2010.05740v4",
+      "arxiv_id": "2010.05740"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2305.17433v1 [cs.CV] 27 May 2023",
+      "snippet": "With the release of MultiWoz [6], a task- oriented dialogue dataset, several works have focused on multi-domain dialogue generation. The authors in [5] used a ...",
+      "link": "https://arxiv.org/pdf/2305.17433",
+      "arxiv_id": "2305.17433"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] arXiv:2209.04595v1 [cs.CL] 10 Sep 2022",
+      "snippet": "This paper presents an ontology-aware pre- trained language model (OPAL) Hierarchical Transformer for Task Ori- ented Dialog Systems. Task-oriented dialog ...",
+      "link": "https://arxiv.org/pdf/2209.04595",
+      "arxiv_id": "2209.04595"
+    },
+    {
+      "rank": 6,
+      "title": "DialogBERT: Discourse-Aware Response Generation via Learning ...",
+      "snippet": "DialogBERT employs a hierarchical Transformer architecture to represent the dialogue context. It first encodes dialogue utterances through a Transformer encoder",
+      "link": "https://arxiv.org/html/2012.01775v2",
+      "arxiv_id": "2012.01775"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] A Comparative Study on Language Models for Task-Oriented ... - arXiv",
+      "snippet": "This paper conducts a comparative study to show the effectiveness and strength of using recent pre- trained models for fine-tuning achieve state-of-the-art ...",
+      "link": "https://arxiv.org/pdf/2201.08687",
+      "arxiv_id": "2201.08687"
+    },
+    {
+      "rank": 8,
+      "title": "Augmenting Task-Oriented Dialogue Systems with Relation Extraction",
+      "snippet": "The standard task-oriented dialogue pipeline uses intent classification and slot-filling to interpret user utterances. we consider two neural approaches, an ...",
+      "link": "https://arxiv.org/html/2210.13344v1",
+      "arxiv_id": "2210.13344"
+    },
+    {
+      "rank": 9,
+      "title": "An Empirical Study of Multitask Learning to Improve Open Domain ...",
+      "snippet": "Unlike task-oriented dialogue systems designed for specific domains or tasks ... hierarchical Transformer architecture to comprehensively capture the context of ...",
+      "link": "https://arxiv.org/html/2304.08115v1",
+      "arxiv_id": "2304.08115"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] Application of frozen large-scale models to multimodal task-oriented ...",
+      "snippet": "MATE [6] : A Transformer-based multimodal task-oriented dialogue system. This method solves the problems of previous studies in that it ignores the contextual ...",
+      "link": "https://arxiv.org/pdf/2310.00845",
+      "arxiv_id": "2310.00845"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:48.797868+00:00",
+  "elapsed_seconds": 1.1726823933422565,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q35_exact_gt_title_attempt1.json",
+      "sha256": "e657a1fbba202366df7564e8fc5323bfe9090043c4c85500887bd9cf46411a6f",
+      "status": "PASS"
+    }
+  ]
+}

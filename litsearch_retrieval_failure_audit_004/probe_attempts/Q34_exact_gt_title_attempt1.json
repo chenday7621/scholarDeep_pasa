@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q34",
+  "group": "inline-citation",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2104.07000",
+  "request_payload": {
+    "q": "IGA: An Intent-Guided Authoring Assistant before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 70,
+  "started_utc": "2026-09-17T12:34:44.846301+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648210",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "f2ce49afd95135e991c256cae0033b5b",
+    "date": "Thu, 17 Sep 2026 12:30:05 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3381",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3381,
+  "response_bytes_sha256": "2e0525077fa71792539f9573fe4ac519c166ed69547eea3565bc092018ff79e7",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJJR0E6IEFuIEludGVudC1HdWlkZWQgQXV0aG9yaW5nIEFzc2lzdGFudCBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJOYXJyaXg6IFJlbWl4aW5nIE5hcnJhdGl2ZSBTdHJhdGVnaWVzIGZyb20gRXhhbXBsZXMgZm9yIFN0b3J5IFdyaXRpbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA0LjA3NjQzdjEiLCJzbmlwcGV0IjoiSXl5ZXIgSUdBOiBhbiBpbnRlbnQtZ3VpZGVkIGF1dGhvcmluZyBhc3Npc3RhbnQuIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDIxIENvbmZlcmVuY2Ugb24gRW1waXJpY2FsIE1ldGhvZHMgaW4gTmF0dXJhbCBMYW5ndWFnZSBQcm9jZXNzaW5nLCBNLiBNb2VucywgWCAuLi4iLCJkYXRlIjoiQXByIDgsIDIwMjYiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlNjcmlwdFZpejogQSBWaXN1YWxpemF0aW9uIFRvb2wgdG8gQWlkIFNjcmlwdHdyaXRpbmcgYmFzZWQgb24gYSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTAuMDMyMjR2MSIsInNuaXBwZXQiOiJJR0E6IEFuIEludGVudC1HdWlkZWQgQXV0aG9yaW5nIEFzc2lzdGFudC4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMjEgQ29uZmVyZW5jZSBvbiBFbXBpcmljYWwgTWV0aG9kcyBpbiBOYXR1cmFsIExhbmd1YWdlIFByb2Nlc3NpbmcuIDU5NzLigJM1OTg1LiIsImRhdGUiOiJPY3QgNCwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiU3VydmV5IG9mIFVzZXIgSW50ZXJmYWNlIERlc2lnbiBhbmQgSW50ZXJhY3Rpb24gVGVjaG5pcXVlcyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTAuMjIzNzB2MSIsInNuaXBwZXQiOiJJZ2E6IEFuIGludGVudC1ndWlkZWQgYXV0aG9yaW5nIGFzc2lzdGFudC4gR2VuZXJhdGl2ZSBhaSBmb3IgZGVzaWduaW5nIGFuZCB2YWxpZGF0aW5nIGVhc2lseSBzeW50aGVzaXphYmxlIGFuZCBzdHJ1Y3R1cmFsbHkgbm92ZWwgYW50aWJpb3RpY3MuIiwiZGF0ZSI6Ik9jdCAyOCwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gQSBEZXNpZ24gU3BhY2UgZm9yIEludGVsbGlnZW50IGFuZCBJbnRlcmFjdGl2ZSBXcml0aW5nIEFzc2lzdGFudHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMy4xNDExNyIsInNuaXBwZXQiOiJJR0E6IEFuIEludGVudC0gR3VpZGVkIEF1dGhvcmluZyBBc3Npc3RhbnQuIEFzc29jaWF0aW9uIGZvciBDb21wdXRhLSB0aW9uYWwgTGluZ3Vpc3RpY3MsIE9ubGluZSBhbmQgUHVudGEgQ2FuYSwgRG9taW5pY2FuIFJlcHVibGljLCA1OTcy4oCTNTk4NS4iLCJkYXRlIjoiTWFyIDI2LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMjA0LjAzNjg1djIgW2NzLkNMXSAyMyBTZXAgMjAyMiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIwNC4wMzY4NSIsInNuaXBwZXQiOiJJR0E6IEFuIGludGVudC1ndWlkZWQgYXV0aG9yaW5nIGFzc2lzdGFudC4gaWNhbCBNZXRob2RzIGluIE5hdHVyYWwgTGFuZ3VhZ2UgUHJvY2Vzc2luZywgcGFnZXMgNTk3MuKAkzU5ODUsIE9ubGluZSBhbmQgUHVudGEgQ2FuYSwgRG9taW5pY2FuIFJlcHVibGljLiIsImRhdGUiOiJTZXAgMjMsIDIwMjIiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMTEuMDkxODB2MiBbY3MuQ0xdIDUgTm92IDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMTEuMDkxODAiLCJzbmlwcGV0IjoiSUdBOiBBbiBpbnRlbnQtZ3VpZGVkIGF1dGhvcmluZyBhc3Npc3RhbnQuIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDIxIENvbmZlcmVuY2Ugb24gRW1waXJpY2FsIE1ldGhvZHMgaW4gTmF0LSB1cmFsIExhbmd1YWdlIFByb2Nlc3NpbmcsIHBhZ2VzIDU5NzLigJM1OTg1LCBPbmxpbmUgLi4uIiwiZGF0ZSI6Ik5vdiA1LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBBIFN1cnZleSBvZiBBSSBNZXRob2RzIGZvciBHZW9tZXRyeSBQcmVwYXJhdGlvbiBhbmQgTWVzaCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUxMi4yMzcxOSIsInNuaXBwZXQiOiJMTE1zIGFjdCBhcyBkZXNpZ24gYXNzaXN0YW50cyB0aGF0IGludGVycHJldCBpbnRlbnQgYWNyb3NzIHNrZXRjaGVzLCBpbWFnZXMsIGFuZCBwb2ludCBjbG91ZHMgYW5kIHRyYW5zbGF0ZSBpdCBpbnRvIGNvbXBsZXRlIHBhcmFtZXRyaWMgc2NyaXB0cy4iLCJkYXRlIjoiSmFuIDMxLCAyMDI2IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJJbmZvcm1hdGlvbi1zZWVraW5nIGZhaWx1cmVzIG9mIGxhcmdlIGxhbmd1YWdlIG1vZGVscyBpbiBhZ2VudGljIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDcuMTAyNzV2MSIsInNuaXBwZXQiOiJSZWZlcmVuY2Ugc3RhbmRhcmRzIGNvbnNpc3Qgb2YgYSB3b3JraW5nIGRpYWdub3NpcywgZGlmZmVyZW50aWFsIGRpYWdub3NlcywgYW5kIGEgdHJlYXRtZW50IHBsYW4gaW4gd2hpY2ggZWFjaCBhY3Rpb24gaXMgYW5ub3RhdGVkIHdpdGggaXRzIGludGVudGlvbiAoIC4uLiIsImRhdGUiOiJKdWwgMTEsIDIwMjYiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IlRoZSBBSSBQcm9kdWN0aXZpdHkgSW5kZXggKEFQRVgpIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA5LjI1NzIxdjEiLCJzbmlwcGV0IjoiVG8gc29sdmUgdGhpcyBwcm9ibGVtLCB3ZSBoYXZlIGNyZWF0ZWQgdGhlIGZpcnN0IHZlcnNpb24gb2YgdGhlIEFJIFByb2R1Y3Rpdml0eSBJbmRleCAoQVBFWC12MS4wKSwgd29ya2luZyB3aXRoIGEgdGVhbSBvZiBpbmR1c3RyeSBleHBlcnRzLiBUaGUgcHVycG9zZSBvZiBBUEVYIC4uLiIsImRhdGUiOiJTZXAgMzAsIDIwMjUiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkhvbGlzdGljIFNhZmV0eSBhbmQgUmVzcG9uc2liaWxpdHkgRXZhbHVhdGlvbnMgb2YgQWR2YW5jZWQgQUkgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4xNDA2OHYxIiwic25pcHBldCI6IlNhZmV0eSBldmFsdWF0aW9uIG9mIGdlbmVyYWwtcHVycG9zZSBBSSBzeXN0ZW1zIGlzIGEgcmFwaWRseSBkZXZlbG9waW5nIGZpZWxkLCBhbmQgdGhhdCBtdXN0IGJlIHNvIGJlY2F1c2Ugc2lnbmlmaWNhbnQgc2FmZXR5IGV2YWx1YXRpb24gZ2FwcyBzdGlsbCByZW1haW4uIEZvciAuLi4iLCJkYXRlIjoiQXByIDIyLCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "IGA: An Intent-Guided Authoring Assistant before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Narrix: Remixing Narrative Strategies from Examples for Story Writing",
+        "link": "https://arxiv.org/html/2604.07643v1",
+        "snippet": "Iyyer IGA: an intent-guided authoring assistant. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, M. Moens, X ...",
+        "date": "Apr 8, 2026",
+        "position": 1
+      },
+      {
+        "title": "ScriptViz: A Visualization Tool to Aid Scriptwriting based on a ... - arXiv",
+        "link": "https://arxiv.org/html/2410.03224v1",
+        "snippet": "IGA: An Intent-Guided Authoring Assistant. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing. 5972–5985.",
+        "date": "Oct 4, 2024",
+        "position": 2
+      },
+      {
+        "title": "Survey of User Interface Design and Interaction Techniques ... - arXiv",
+        "link": "https://arxiv.org/html/2410.22370v1",
+        "snippet": "Iga: An intent-guided authoring assistant. Generative ai for designing and validating easily synthesizable and structurally novel antibiotics.",
+        "date": "Oct 28, 2024",
+        "position": 3
+      },
+      {
+        "title": "[PDF] A Design Space for Intelligent and Interactive Writing Assistants - arXiv",
+        "link": "https://arxiv.org/pdf/2403.14117",
+        "snippet": "IGA: An Intent- Guided Authoring Assistant. Association for Computa- tional Linguistics, Online and Punta Cana, Dominican Republic, 5972–5985.",
+        "date": "Mar 26, 2024",
+        "position": 4
+      },
+      {
+        "title": "[PDF] arXiv:2204.03685v2 [cs.CL] 23 Sep 2022",
+        "link": "https://arxiv.org/pdf/2204.03685",
+        "snippet": "IGA: An intent-guided authoring assistant. ical Methods in Natural Language Processing, pages 5972–5985, Online and Punta Cana, Dominican Republic.",
+        "date": "Sep 23, 2022",
+        "position": 5
+      },
+      {
+        "title": "[PDF] arXiv:2311.09180v2 [cs.CL] 5 Nov 2024",
+        "link": "https://arxiv.org/pdf/2311.09180",
+        "snippet": "IGA: An intent-guided authoring assistant. In Proceedings of the 2021 Conference on Empirical Methods in Nat- ural Language Processing, pages 5972–5985, Online ...",
+        "date": "Nov 5, 2024",
+        "position": 6
+      },
+      {
+        "title": "[PDF] A Survey of AI Methods for Geometry Preparation and Mesh ... - arXiv",
+        "link": "https://arxiv.org/pdf/2512.23719",
+        "snippet": "LLMs act as design assistants that interpret intent across sketches, images, and point clouds and translate it into complete parametric scripts.",
+        "date": "Jan 31, 2026",
+        "position": 7
+      },
+      {
+        "title": "Information-seeking failures of large language models in agentic ...",
+        "link": "https://arxiv.org/html/2607.10275v1",
+        "snippet": "Reference standards consist of a working diagnosis, differential diagnoses, and a treatment plan in which each action is annotated with its intention ( ...",
+        "date": "Jul 11, 2026",
+        "position": 8
+      },
+      {
+        "title": "The AI Productivity Index (APEX) - arXiv",
+        "link": "https://arxiv.org/html/2509.25721v1",
+        "snippet": "To solve this problem, we have created the first version of the AI Productivity Index (APEX-v1.0), working with a team of industry experts. The purpose of APEX ...",
+        "date": "Sep 30, 2025",
+        "position": 9
+      },
+      {
+        "title": "Holistic Safety and Responsibility Evaluations of Advanced AI Models",
+        "link": "https://arxiv.org/html/2404.14068v1",
+        "snippet": "Safety evaluation of general-purpose AI systems is a rapidly developing field, and that must be so because significant safety evaluation gaps still remain. For ...",
+        "date": "Apr 22, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Narrix: Remixing Narrative Strategies from Examples for Story Writing",
+      "snippet": "Iyyer IGA: an intent-guided authoring assistant. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, M. Moens, X ...",
+      "link": "https://arxiv.org/html/2604.07643v1",
+      "arxiv_id": "2604.07643"
+    },
+    {
+      "rank": 2,
+      "title": "ScriptViz: A Visualization Tool to Aid Scriptwriting based on a ... - arXiv",
+      "snippet": "IGA: An Intent-Guided Authoring Assistant. In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing. 5972–5985.",
+      "link": "https://arxiv.org/html/2410.03224v1",
+      "arxiv_id": "2410.03224"
+    },
+    {
+      "rank": 3,
+      "title": "Survey of User Interface Design and Interaction Techniques ... - arXiv",
+      "snippet": "Iga: An intent-guided authoring assistant. Generative ai for designing and validating easily synthesizable and structurally novel antibiotics.",
+      "link": "https://arxiv.org/html/2410.22370v1",
+      "arxiv_id": "2410.22370"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] A Design Space for Intelligent and Interactive Writing Assistants - arXiv",
+      "snippet": "IGA: An Intent- Guided Authoring Assistant. Association for Computa- tional Linguistics, Online and Punta Cana, Dominican Republic, 5972–5985.",
+      "link": "https://arxiv.org/pdf/2403.14117",
+      "arxiv_id": "2403.14117"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] arXiv:2204.03685v2 [cs.CL] 23 Sep 2022",
+      "snippet": "IGA: An intent-guided authoring assistant. ical Methods in Natural Language Processing, pages 5972–5985, Online and Punta Cana, Dominican Republic.",
+      "link": "https://arxiv.org/pdf/2204.03685",
+      "arxiv_id": "2204.03685"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] arXiv:2311.09180v2 [cs.CL] 5 Nov 2024",
+      "snippet": "IGA: An intent-guided authoring assistant. In Proceedings of the 2021 Conference on Empirical Methods in Nat- ural Language Processing, pages 5972–5985, Online ...",
+      "link": "https://arxiv.org/pdf/2311.09180",
+      "arxiv_id": "2311.09180"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] A Survey of AI Methods for Geometry Preparation and Mesh ... - arXiv",
+      "snippet": "LLMs act as design assistants that interpret intent across sketches, images, and point clouds and translate it into complete parametric scripts.",
+      "link": "https://arxiv.org/pdf/2512.23719",
+      "arxiv_id": "2512.23719"
+    },
+    {
+      "rank": 8,
+      "title": "Information-seeking failures of large language models in agentic ...",
+      "snippet": "Reference standards consist of a working diagnosis, differential diagnoses, and a treatment plan in which each action is annotated with its intention ( ...",
+      "link": "https://arxiv.org/html/2607.10275v1",
+      "arxiv_id": "2607.10275"
+    },
+    {
+      "rank": 9,
+      "title": "The AI Productivity Index (APEX) - arXiv",
+      "snippet": "To solve this problem, we have created the first version of the AI Productivity Index (APEX-v1.0), working with a team of industry experts. The purpose of APEX ...",
+      "link": "https://arxiv.org/html/2509.25721v1",
+      "arxiv_id": "2509.25721"
+    },
+    {
+      "rank": 10,
+      "title": "Holistic Safety and Responsibility Evaluations of Advanced AI Models",
+      "snippet": "Safety evaluation of general-purpose AI systems is a rapidly developing field, and that must be so because significant safety evaluation gaps still remain. For ...",
+      "link": "https://arxiv.org/html/2404.14068v1",
+      "arxiv_id": "2404.14068"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:45.539461+00:00",
+  "elapsed_seconds": 0.6931596212089062
+}

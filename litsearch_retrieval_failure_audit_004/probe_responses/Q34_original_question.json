@@ -1,0 +1,229 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q34",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2104.07000",
+  "request_payload": {
+    "q": "Could you recommend a paper that builds a writing assistant with autocomplete capabilities conditioned on user intent? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 72,
+  "started_utc": "2026-09-17T12:34:46.521488+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648210",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "7f04424c4117707791c256cae0033f81",
+    "date": "Thu, 17 Sep 2026 12:30:07 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "4406",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 4406,
+  "response_bytes_sha256": "ec2d33cbc9860e441552ea01e02b9c14b23964b20978b69947347b0ffb07945a",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb3VsZCB5b3UgcmVjb21tZW5kIGEgcGFwZXIgdGhhdCBidWlsZHMgYSB3cml0aW5nIGFzc2lzdGFudCB3aXRoIGF1dG9jb21wbGV0ZSBjYXBhYmlsaXRpZXMgY29uZGl0aW9uZWQgb24gdXNlciBpbnRlbnQ/IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IltQREZdIEV4YW1pbmluZyBBdXRvY29tcGxldGlvbiBhcyBhIEJhc2ljIENvbmNlcHQgZm9yIEludGVyYWN0aW9uIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjAxLjA2ODkyIiwic25pcHBldCI6IkF1dG9jb21wbGV0aW9uIGlzIGFuIGFwcHJvYWNoIHRoYXQgZXh0ZW5kcyBhbmQgY29udGludWVzIHBhcnRpYWwgdXNlciBpbnB1dC4gV2UgcHJvcG9zZSB0byBpbnRlcnByZXQgYXV0b2NvbXBsZXRpb24gYXMgYSBiYXNpYyBpbnRlcmFjdGlvbiBjb25jZXB0IGluIGh1bWFuLUFJIC4uLiIsImRhdGUiOiJKYW4gMTgsIDIwMjIiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkNvLVdyaXRpbmcgd2l0aCBBSSwgb24gSHVtYW4gVGVybXM6IEFsaWduaW5nIFJlc2VhcmNoIHdpdGggVXNlciAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA0LjEyNDg4djEiLCJzbmlwcGV0IjoiRmlndXJlIDEuIFJlc2VhcmNoIE92ZXJ2aWV3OiBXZSBwcmVzZW50IHR3byBpbnRlcnJlbGF0ZWQgcXVhbGl0YXRpdmUgc3R1ZGllcyBleHBsb3JpbmcgaG93IHRvIGRlc2lnbiBmb3IgaHVtYW4gYWdlbmN5IGluIEh1bWFuLUFJIENvbGxhYm9yYXRpdmUgd3JpdGluZy4iLCJkYXRlIjoiQXByIDE2LCAyMDI1IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJUb3dhcmRzIEF1dG9tYXRpbmcgU2NpZW50aWZpYyBSZXZpZXcgd2l0aCBHb29nbGUncyBQYXBlciAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDYuMjgyNzd2MSIsInNuaXBwZXQiOiJBcyBhIHN0ZXAgdG93YXJkIHRoaXMgZnV0dXJlLCB3ZSBpbnRyb2R1Y2UgdGhlIFBhcGVyIEFzc2lzdGFudCBUb29sIChQQVQpLCBhbiBhZ2VudGljIEFJIGZyYW1ld29yayBidWlsdCBmb3IgZGVlcCBzY2llbnRpZmljIHJldmlldyBhbmQgdmVyaWZpY2F0aW9uLiBQQVQgLi4uIiwiZGF0ZSI6Ikp1biAyNiwgMjAyNiIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiUHJvbXB0aW5nIExMTXMgZm9yIENvZGUgRWRpdGluZzogU3RydWdnbGVzIGFuZCBSZW1lZGllcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNC4yMDE5NnYxIiwic25pcHBldCI6IlRoaXMgcGFwZXIgYWRkcmVzc2VzIHBhcnQgb2YgdGhpcyBnYXAuIEF1dG9Qcm9tcHRlcuKAlGZvciBhdXRvbWF0aWNhbGx5IGltcHJvdmluZyBwcm9tcHRzIGJ5IGluZmVycmluZyBtaXNzaW5nIGluZm9ybWF0aW9uIGZyb20gdGhlIHN1cnJvdW5kaW5nIGNvZGUgY29udGV4dCwgLi4uIiwiZGF0ZSI6IkFwciAyOCwgMjAyNSIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiVXNhZ2UsIEVmZmVjdHMgYW5kIFJlcXVpcmVtZW50cyBmb3IgQUkgQ29kaW5nIEFzc2lzdGFudHMgaW4gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAxLjIwMTEydjEiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciB3ZSBzdXJ2ZXkgNTcgZGV2ZWxvcGVycyBMYW5ndWFnZSBNb2RlbHMgKENvZGVMTE0pIHBvd2VyZWQgQUktY29kaW5nIGFzc2lzdGFudHMuIENvbmRpdGlvbmFsIExvZ2ljLCBDb21taXRzIFdyaXRpbmcsIENvZGUgU2VsZWN0aW9uLCBJc3N1ZSAuLi4iLCJkYXRlIjoiSmFuIDI3LCAyMDI2IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJVbmRlcnN0YW5kaW5nIGFuZCBzdXBwb3J0aW5nIGhvdyBkZXZlbG9wZXJzIHByb21wdCBmb3IgTExNIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDQuMjAxOTZ2MiIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIGFkZHJlc3NlcyBwYXJ0IG9mIHRoaXMgZ2FwIHRocm91Z2ggYSBtdWx0aS1waGFzZWQgaW52ZXN0aWdhdGlvbiBvZiBkZXZlbG9wZXIgaW50ZXJhY3Rpb25zIHdpdGggYW4gTExNLXBvd2VyZWQgY29kZSBlZGl0aW5nIGZlYXR1cmUsIFRyYW5zZm9ybSBDb2RlLCAuLi4iLCJkYXRlIjoiRGVjIDE5LCAyMDI1IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJCdWlsZGluZyBBSSBDb2RpbmcgQWdlbnRzIGZvciB0aGUgVGVybWluYWw6U2NhZmZvbGRpbmcsIEhhcm5lc3MgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwMy4wNTM0NHYxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHByZXNlbnQgT3BlbkRldiwgYW4gb3Blbi1zb3VyY2UsIGNvbW1hbmQtbGluZSBjb2RpbmcgYWdlbnQgZW5naW5lZXJlZCBzcGVjaWZpY2FsbHkgZm9yIHRoaXMgbmV3IHBhcmFkaWdtLiBFZmZlY3RpdmUgYXV0b25vbW91cyAuLi4iLCJkYXRlIjoiTWFyIDUsIDIwMjYiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkV4cGxvcmluZyBIYWxsdWNpbmF0aW9ucyBhbmQgU2VjdXJpdHkgUmlza3MgaW4gQUktQXNzaXN0ZWQgU29mdHdhcmUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMi4xODQ2OHYxIiwic25pcHBldCI6IlRoaXMgcGFwZXIgZXhwbG9yZXMgdGhlc2UgdHJhZGUtb2ZmcyB3aXRoIHRoZSBndWlkYW5jZSBpbiBDb2RlIEF1dG9Db21wbGV0ZSB3aXRoIGEgaGlnaCByYXRpbmcgb2YgMy44OC4gQ29kZWl1bSBBSSwgd2hpbGUgY29uc2lzdGVudCwgc2NvcmVkIHRoZSBsb3dlc3Qgb3ZlcmFsbCwiLCJkYXRlIjoiSmFuIDMxLCAyMDI1IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJGYWlyeVRhaWxvcjogQSBNdWx0aW1vZGFsIEdlbmVyYXRpdmUgRnJhbWV3b3JrIGZvciBTdG9yeXRlbGxpbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIxMDguMDQzMjR2MSIsInNuaXBwZXQiOiJGYWlyeVRhaWxvciBhZGRzIGFub3RoZXIgbW9kYWxpdHkgYW5kIG1vZGlmaWVzIHRoZSB0ZXh0IGdlbmVyYXRpb24gcHJvY2VzcyB0byBwcm9kdWNlIGEgY29oZXJlbnQgYW5kIGNyZWF0aXZlIHNlcXVlbmNlIG9mIHRleHQgYW5kIGltYWdlcy4gVG8gb3VyIGtub3dsZWRnZSwgLi4uIiwiZGF0ZSI6Ikp1bCAxMywgMjAyMSIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiI0IFN5c3RlbSBBcmNoaXRlY3R1cmUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMTA4LjA0MzI0djEjOn46dGV4dD00JTIwU3lzdGVtJTIwQXJjaGl0ZWN0dXJlLC1XZSUyMHByZXNlbnQlMjB0d28lMjBldm9sdmluZyUyMGFyY2hpdGVjdHVyZXMifSx7InRpdGxlIjoiNC4yIEZpbmFsIERlc2lnbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIxMDguMDQzMjR2MSM6fjp0ZXh0PTQuMiUyMEZpbmFsJTIwRGVzaWduLC1UZXN0aW5nJTIwdGhlJTIwYmVuY2htYXJrJTIwbW9kZWwlMjByZXZlYWxlZCJ9LHsidGl0bGUiOiI2IEV4cGVyaW1lbnQsIEV2YWx1YXRpb24gJi4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIxMDguMDQzMjR2MSM6fjp0ZXh0PTYlMjBFeHBlcmltZW50JTJDJTIwRXZhbHVhdGlvbiUyMCUyNiUyMERpc2N1c3Npb24sLVNpbmNlJTIwd2UlMjB1c2VkJTIwYSUyMGN1c3RvbSJ9XSwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJDb250ZXh0Q292OiBCcmlkZ2luZyB0aGUgR2FwIEJldHdlZW4gRGV2ZWxvcGVyIEludGVudCBhbmQgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAzLjAwODIydjIiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBmb2N1c2VzIG9uIGFnZW50IG5vbi1jb21wbGlhbmNlLCBiZWNhdXNlIHVuZGVyc3BlY2lmaWVkIGNvbnN0cmFpbnRzIGNhbm5vdCBiZSBlbmZvcmNlZCByZWxpYWJseSB3aXRob3V0IGFkZGl0aW9uYWwgYXV0aG9yIGludGVudC4gRXZlbiB3aGVuIC4uLiIsImRhdGUiOiJNYXkgNCwgMjAyNiIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiIyLiBNb3RpdmF0aW5nIFNjZW5hcmlvcyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDMuMDA4MjJ2MiM6fjp0ZXh0PTIuJTIwTW90aXZhdGluZyUyMFNjZW5hcmlvcyJ9LHsidGl0bGUiOiIzLiBDb250ZXh0Y292IERlc2lnbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDMuMDA4MjJ2MiM6fjp0ZXh0PTMuJTIwQ29udGV4dENvdiUyMERlc2lnbiJ9LHsidGl0bGUiOiI0LiBFdmFsdWF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwMy4wMDgyMnYyIzp+OnRleHQ9NC4lMjBFdmFsdWF0aW9uIn1dLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Could you recommend a paper that builds a writing assistant with autocomplete capabilities conditioned on user intent? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[PDF] Examining Autocompletion as a Basic Concept for Interaction ... - arXiv",
+        "link": "https://arxiv.org/pdf/2201.06892",
+        "snippet": "Autocompletion is an approach that extends and continues partial user input. We propose to interpret autocompletion as a basic interaction concept in human-AI ...",
+        "date": "Jan 18, 2022",
+        "position": 1
+      },
+      {
+        "title": "Co-Writing with AI, on Human Terms: Aligning Research with User ...",
+        "link": "https://arxiv.org/html/2504.12488v1",
+        "snippet": "Figure 1. Research Overview: We present two interrelated qualitative studies exploring how to design for human agency in Human-AI Collaborative writing.",
+        "date": "Apr 16, 2025",
+        "position": 2
+      },
+      {
+        "title": "Towards Automating Scientific Review with Google's Paper ... - arXiv",
+        "link": "https://arxiv.org/html/2606.28277v1",
+        "snippet": "As a step toward this future, we introduce the Paper Assistant Tool (PAT), an agentic AI framework built for deep scientific review and verification. PAT ...",
+        "date": "Jun 26, 2026",
+        "position": 3
+      },
+      {
+        "title": "Prompting LLMs for Code Editing: Struggles and Remedies - arXiv",
+        "link": "https://arxiv.org/html/2504.20196v1",
+        "snippet": "This paper addresses part of this gap. AutoPrompter—for automatically improving prompts by inferring missing information from the surrounding code context, ...",
+        "date": "Apr 28, 2025",
+        "position": 4
+      },
+      {
+        "title": "Usage, Effects and Requirements for AI Coding Assistants in ... - arXiv",
+        "link": "https://arxiv.org/html/2601.20112v1",
+        "snippet": "In this paper we survey 57 developers Language Models (CodeLLM) powered AI-coding assistants. Conditional Logic, Commits Writing, Code Selection, Issue ...",
+        "date": "Jan 27, 2026",
+        "position": 5
+      },
+      {
+        "title": "Understanding and supporting how developers prompt for LLM ...",
+        "link": "https://arxiv.org/html/2504.20196v2",
+        "snippet": "This paper addresses part of this gap through a multi-phased investigation of developer interactions with an LLM-powered code editing feature, Transform Code, ...",
+        "date": "Dec 19, 2025",
+        "position": 6
+      },
+      {
+        "title": "Building AI Coding Agents for the Terminal:Scaffolding, Harness ...",
+        "link": "https://arxiv.org/html/2603.05344v1",
+        "snippet": "In this paper, we present OpenDev, an open-source, command-line coding agent engineered specifically for this new paradigm. Effective autonomous ...",
+        "date": "Mar 5, 2026",
+        "position": 7
+      },
+      {
+        "title": "Exploring Hallucinations and Security Risks in AI-Assisted Software ...",
+        "link": "https://arxiv.org/html/2502.18468v1",
+        "snippet": "This paper explores these trade-offs with the guidance in Code AutoComplete with a high rating of 3.88. Codeium AI, while consistent, scored the lowest overall,",
+        "date": "Jan 31, 2025",
+        "position": 8
+      },
+      {
+        "title": "FairyTailor: A Multimodal Generative Framework for Storytelling - arXiv",
+        "link": "https://arxiv.org/html/2108.04324v1",
+        "snippet": "FairyTailor adds another modality and modifies the text generation process to produce a coherent and creative sequence of text and images. To our knowledge, ...",
+        "date": "Jul 13, 2021",
+        "sitelinks": [
+          {
+            "title": "4 System Architecture",
+            "link": "https://arxiv.org/html/2108.04324v1#:~:text=4%20System%20Architecture,-We%20present%20two%20evolving%20architectures"
+          },
+          {
+            "title": "4.2 Final Design",
+            "link": "https://arxiv.org/html/2108.04324v1#:~:text=4.2%20Final%20Design,-Testing%20the%20benchmark%20model%20revealed"
+          },
+          {
+            "title": "6 Experiment, Evaluation &...",
+            "link": "https://arxiv.org/html/2108.04324v1#:~:text=6%20Experiment%2C%20Evaluation%20%26%20Discussion,-Since%20we%20used%20a%20custom"
+          }
+        ],
+        "position": 9
+      },
+      {
+        "title": "ContextCov: Bridging the Gap Between Developer Intent and ... - arXiv",
+        "link": "https://arxiv.org/html/2603.00822v2",
+        "snippet": "This paper focuses on agent non-compliance, because underspecified constraints cannot be enforced reliably without additional author intent. Even when ...",
+        "date": "May 4, 2026",
+        "sitelinks": [
+          {
+            "title": "2. Motivating Scenarios",
+            "link": "https://arxiv.org/html/2603.00822v2#:~:text=2.%20Motivating%20Scenarios"
+          },
+          {
+            "title": "3. Contextcov Design",
+            "link": "https://arxiv.org/html/2603.00822v2#:~:text=3.%20ContextCov%20Design"
+          },
+          {
+            "title": "4. Evaluation",
+            "link": "https://arxiv.org/html/2603.00822v2#:~:text=4.%20Evaluation"
+          }
+        ],
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[PDF] Examining Autocompletion as a Basic Concept for Interaction ... - arXiv",
+      "snippet": "Autocompletion is an approach that extends and continues partial user input. We propose to interpret autocompletion as a basic interaction concept in human-AI ...",
+      "link": "https://arxiv.org/pdf/2201.06892",
+      "arxiv_id": "2201.06892"
+    },
+    {
+      "rank": 2,
+      "title": "Co-Writing with AI, on Human Terms: Aligning Research with User ...",
+      "snippet": "Figure 1. Research Overview: We present two interrelated qualitative studies exploring how to design for human agency in Human-AI Collaborative writing.",
+      "link": "https://arxiv.org/html/2504.12488v1",
+      "arxiv_id": "2504.12488"
+    },
+    {
+      "rank": 3,
+      "title": "Towards Automating Scientific Review with Google's Paper ... - arXiv",
+      "snippet": "As a step toward this future, we introduce the Paper Assistant Tool (PAT), an agentic AI framework built for deep scientific review and verification. PAT ...",
+      "link": "https://arxiv.org/html/2606.28277v1",
+      "arxiv_id": "2606.28277"
+    },
+    {
+      "rank": 4,
+      "title": "Prompting LLMs for Code Editing: Struggles and Remedies - arXiv",
+      "snippet": "This paper addresses part of this gap. AutoPrompter—for automatically improving prompts by inferring missing information from the surrounding code context, ...",
+      "link": "https://arxiv.org/html/2504.20196v1",
+      "arxiv_id": "2504.20196"
+    },
+    {
+      "rank": 5,
+      "title": "Usage, Effects and Requirements for AI Coding Assistants in ... - arXiv",
+      "snippet": "In this paper we survey 57 developers Language Models (CodeLLM) powered AI-coding assistants. Conditional Logic, Commits Writing, Code Selection, Issue ...",
+      "link": "https://arxiv.org/html/2601.20112v1",
+      "arxiv_id": "2601.20112"
+    },
+    {
+      "rank": 6,
+      "title": "Understanding and supporting how developers prompt for LLM ...",
+      "snippet": "This paper addresses part of this gap through a multi-phased investigation of developer interactions with an LLM-powered code editing feature, Transform Code, ...",
+      "link": "https://arxiv.org/html/2504.20196v2",
+      "arxiv_id": "2504.20196"
+    },
+    {
+      "rank": 7,
+      "title": "Building AI Coding Agents for the Terminal:Scaffolding, Harness ...",
+      "snippet": "In this paper, we present OpenDev, an open-source, command-line coding agent engineered specifically for this new paradigm. Effective autonomous ...",
+      "link": "https://arxiv.org/html/2603.05344v1",
+      "arxiv_id": "2603.05344"
+    },
+    {
+      "rank": 8,
+      "title": "Exploring Hallucinations and Security Risks in AI-Assisted Software ...",
+      "snippet": "This paper explores these trade-offs with the guidance in Code AutoComplete with a high rating of 3.88. Codeium AI, while consistent, scored the lowest overall,",
+      "link": "https://arxiv.org/html/2502.18468v1",
+      "arxiv_id": "2502.18468"
+    },
+    {
+      "rank": 9,
+      "title": "FairyTailor: A Multimodal Generative Framework for Storytelling - arXiv",
+      "snippet": "FairyTailor adds another modality and modifies the text generation process to produce a coherent and creative sequence of text and images. To our knowledge, ...",
+      "link": "https://arxiv.org/html/2108.04324v1",
+      "arxiv_id": "2108.04324"
+    },
+    {
+      "rank": 10,
+      "title": "ContextCov: Bridging the Gap Between Developer Intent and ... - arXiv",
+      "snippet": "This paper focuses on agent non-compliance, because underspecified constraints cannot be enforced reliably without additional author intent. Even when ...",
+      "link": "https://arxiv.org/html/2603.00822v2",
+      "arxiv_id": "2603.00822"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:47.624477+00:00",
+  "elapsed_seconds": 1.1029904000461102,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q34_original_question_attempt1.json",
+      "sha256": "18c6ddd157f1ea77c62888b95832d4913825506f8300ecd0bb77e9cca0cad321",
+      "status": "PASS"
+    }
+  ]
+}

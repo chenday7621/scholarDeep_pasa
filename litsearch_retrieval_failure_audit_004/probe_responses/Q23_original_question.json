@@ -1,0 +1,203 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q23",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2305.17388",
+  "request_payload": {
+    "q": "Is there a dialogue dataset where a speaker's utterance is grounded in their persona, consisting of image-text pairs representing their episodic memories? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 48,
+  "started_utc": "2026-09-17T12:34:19.727715+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648185",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "f4370afe880a566ddf8a8888dfd99a72",
+    "date": "Thu, 17 Sep 2026 12:29:41 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3560",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3560,
+  "response_bytes_sha256": "12d0c04f8701cb4de4c5dc0b1f656f36f4917cdccf3faa5372b16fbcef9d15ac",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJJcyB0aGVyZSBhIGRpYWxvZ3VlIGRhdGFzZXQgd2hlcmUgYSBzcGVha2VyJ3MgdXR0ZXJhbmNlIGlzIGdyb3VuZGVkIGluIHRoZWlyIHBlcnNvbmEsIGNvbnNpc3Rpbmcgb2YgaW1hZ2UtdGV4dCBwYWlycyByZXByZXNlbnRpbmcgdGhlaXIgZXBpc29kaWMgbWVtb3JpZXM/IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkEgTXVsdGltb2RhbCBBZ2VudCB3aXRoIExvbmctVGVybSBNZW1vcnkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDguMDk3MzZ2MSIsInNuaXBwZXQiOiJFcGlzb2RpYyBtZW1vcnk6IFJlY29yZHMgY29uY3JldGUgZXZlbnRzIG9ic2VydmVkIHdpdGhpbiB0aGUgdmlkZW8uIEZvciBleGFtcGxlLCBcIkFsaWNlIHRha2VzIHRoZSBjb2ZmZWUgYW5kIHNheXMsICdJIGNhbid0IGdvIHdpdGhvdXQgdGhpcyBpbiB0aGUgbW9ybmluZywnXCIgLi4uIiwiZGF0ZSI6IkF1ZyAxMiwgMjAyNSIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiQSBNdWx0aS1UdXJuIEVtb3Rpb25hbGx5LVJpY2ggU3Bva2VuIERpYWxvZ3VlIERhdGFzZXQgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDUuMTk5Nzh2MSIsInNuaXBwZXQiOiJUaGlzIGNvbXByZWhlbnNpdmUgY29ycHVzIG9mIGVtb3Rpb25hbGx5IHZhcmllZCBzcGVlY2ggc3BhbnMgb3VyIGNvbXBsZXRlIGRhdGFzZXQsIHByb3ZpZGluZyB1bnByZWNlZGVudGVkIHNjYWxlIGZvciBzcG9rZW4gZGlhbG9ndWUgcmVzZWFyY2guIFRoaXMgbXVsdGltb2RhbCAuLi4iLCJkYXRlIjoiTWF5IDI2LCAyMDI1IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJTcG9rZW4gRGlhbG9nU3VtOiBBbiBFbW90aW9uLVJpY2ggQ29udmVyc2F0aW9uYWwgRGF0YXNldCBmb3IgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMi4xNDY4N3YyIiwic25pcHBldCI6IlNwb2tlbiBEaWFsb2dTdW0gaXMgdGhlIGZpcnN0IGNvcnB1cyB0byBwYWlyIHJhdyBtdWx0aS1zcGVha2VyIGF1ZGlvIHdpdGggYm90aCBmYWN0dWFsIGFuZCBlbW90aW9uLXJpY2ggc3VtbWFyaWVzIHdoaWxlIGFsc28gcHJvdmlkaW5nIHV0dGVyYW5jZS1sZXZlbCBsYWJlbHMgLi4uIiwiZGF0ZSI6IkRlYyAxNywgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiRU1OUyAvSW16LyBDb3JwdXM6IEFuIGVtb3RpdmUgc2luZ2xlLXNwZWFrZXIgZGF0YXNldCBmb3IgbmFycmF0aXZlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDUuMTMxMzd2MiIsInNuaXBwZXQiOiJUaGUgRW1vdGl2ZSBOYXJyYXRpdmUgU3Rvcnl0ZWxsaW5nIChFTU5TKSBjb3JwdXMgaXMgYSB1bmlxdWUgc3BlZWNoIGRhdGFzZXQgLiBUaGUgY29ycHVzIGNvbnNpc3RzIG9mIGEgMi4zLWhvdXIgcmVjb3JkaW5nIGZlYXR1cmluZyBhIGZlbWFsZSBzcGVha2VyIGRlbGl2ZXJpbmcgLi4uIiwiZGF0ZSI6Ik1heSAyNSwgMjAyMyIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiSWRlbnRpZnlpbmcgU3BlYWtlcnMgaW4gRGlhbG9ndWUgVHJhbnNjcmlwdHM6QSBUZXh0LWJhc2VkIEFwcHJvYWNoIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMTIwOTR2MSIsInNuaXBwZXQiOiJXZSBpbnRyb2R1Y2UgYW4gYXBwcm9hY2ggdG8gaWRlbnRpZnlpbmcgc3BlYWtlciBuYW1lcyBpbiBkaWFsb2d1ZSB0cmFuc2NyaXB0cywgU3BlYWtlcklEIGludm9sdmVzIHRoZSB0YXNrIG9mIHJlY29nbml6aW5nIGFuZCBkaXN0aW5ndWlzaGluZyBiZXR3ZWVuIHRoZSB2b2ljZXMgLi4uIiwiZGF0ZSI6Ikp1bCAxNiwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwNy4wMzk1OHYxIFtjcy5DTF0gNCBKdWwgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNy4wMzk1OCIsInNuaXBwZXQiOiJ0aG9zZSB3aGVyZSB0aGUgaW1hZ2UgaXMgZ3JvdW5kZWQgYXQgdGhlIGJlZ2lubmluZyBvZiB0aGUgZGlhbG9ndWUgYW5kIHRob3NlIHdoZXJlIHRoZSBpbWFnZSBpcyBzaGFyZWQgZHVyaW5nIHRoZSBkaWFsb2d1ZS4gaW1hZ2VzIGFyZSBjb2xsZWN0ZWQgZnJvbSB0aGUgLi4uIiwiZGF0ZSI6Ikp1bCA0LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJEaWFSZWxheTogUmVsYXlpbmcgRGlhbG9ndWUgQ29udGV4dCB3aXRoIGEgQ29uc3RhbnQtU2l6ZSBNZW1vcnkgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwOC4yMjc0NXYxIiwic25pcHBldCI6IkVtb3Rpb24gUmVjb2duaXRpb24gaW4gQ29udmVyc2F0aW9uIChFUkMpIGFpbXMgdG8gaWRlbnRpZnkgdGhlIGVtb3Rpb24gZXhwcmVzc2VkIGJ5IGVhY2ggdXR0ZXJhbmNlIGluIGEgZGlhbG9ndWUuIEl0IHBsYXlzIGFuIGltcG9ydGFudCByb2xlIGluIGFmZmVjdGl2ZSAuLi4iLCJkYXRlIjoiQXVnIDI0LCAyMDI2IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJNUENIQVQ6IFRvd2FyZHMgTXVsdGltb2RhbCBQZXJzb25hLUdyb3VuZGVkIENvbnZlcnNhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNS4xNzM4OCIsInNuaXBwZXQiOiJGaXJzdCwgd2UgcHJlc2VudCB0aGUgZmlyc3QgbXVsdGltb2RhbCBwZXJzb25hLWJhc2VkIGRpYWxvZ3VlIGRhdGFzZXQgbmFtZWQgTVBDSEFULCB3aGljaCBleHRlbmRzIHBlcnNvbmEgd2l0aCBib3RoIHRleHQgYW5kIGltYWdlcyB0byBjb250YWluIGVwaXNvZGljIG1lbW9yaWVzIC4uLiIsImRhdGUiOiJNYXkgMjcsIDIwMjMiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IlVuZGVyc3RhbmRpbmcgSW5kaXJlY3QgU3BlZWNoIEFjdHMgaW4gTXVsdGltb2RhbCBWaXN1YWwgQ29udGV4dHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA4LjMwMjcwdjEiLCJzbmlwcGV0IjoiVGhlIGZpbmFsIFJFQURJIGJlbmNobWFyayBpcyBhIG11bHRpbW9kYWwgZGF0YXNldCB0aGF0IGNvbWJpbmVzIGltYWdlcyBnZW5lcmF0ZWQgYmFzZWQgb24gZGlhbG9ndWUgc2NlbmFyaW9zIGluIEtvcmVhbiBhbmQgRW5nbGlzaCB3aXRoIHV0dGVyYW5jZXMgdGhhdCByZWFsaXplIC4uLiIsImRhdGUiOiJBdWcgMzEsIDIwMjYiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkFkYXB0aXZlIFVzZXItQ2VudHJpYyBNZW1vcnkgZm9yIExvbmctSG9yaXpvbiBEaWFsb2d1ZSBBZ2VudHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAzLjE2NDk2Iiwic25pcHBldCI6IkFkYU1lbSBvcmdhbml6ZXMgZGlhbG9ndWUgaGlzdG9yeSBpbnRvIHdvcmtpbmcsIGVwaXNvZGljLCBwZXJzb25hLCBhbmQgZ3JhcGggbWVtb3JpZXMsIGVuYWJsaW5nIHRoZSBzeXN0ZW0gdG8gcHJlc2VydmUgcmVjZW50IGNvbnRleHQsIHN0cnVjdHVyZWQgbG9uZy10ZXJtIC4uLiIsImRhdGUiOiJBcHIgMjksIDIwMjYiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Is there a dialogue dataset where a speaker's utterance is grounded in their persona, consisting of image-text pairs representing their episodic memories? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "A Multimodal Agent with Long-Term Memory - arXiv",
+        "link": "https://arxiv.org/html/2508.09736v1",
+        "snippet": "Episodic memory: Records concrete events observed within the video. For example, \"Alice takes the coffee and says, 'I can't go without this in the morning,'\" ...",
+        "date": "Aug 12, 2025",
+        "position": 1
+      },
+      {
+        "title": "A Multi-Turn Emotionally-Rich Spoken Dialogue Dataset - arXiv",
+        "link": "https://arxiv.org/html/2505.19978v1",
+        "snippet": "This comprehensive corpus of emotionally varied speech spans our complete dataset, providing unprecedented scale for spoken dialogue research. This multimodal ...",
+        "date": "May 26, 2025",
+        "position": 2
+      },
+      {
+        "title": "Spoken DialogSum: An Emotion-Rich Conversational Dataset for ...",
+        "link": "https://arxiv.org/html/2512.14687v2",
+        "snippet": "Spoken DialogSum is the first corpus to pair raw multi-speaker audio with both factual and emotion-rich summaries while also providing utterance-level labels ...",
+        "date": "Dec 17, 2025",
+        "position": 3
+      },
+      {
+        "title": "EMNS /Imz/ Corpus: An emotive single-speaker dataset for narrative ...",
+        "link": "https://arxiv.org/html/2305.13137v2",
+        "snippet": "The Emotive Narrative Storytelling (EMNS) corpus is a unique speech dataset . The corpus consists of a 2.3-hour recording featuring a female speaker delivering ...",
+        "date": "May 25, 2023",
+        "position": 4
+      },
+      {
+        "title": "Identifying Speakers in Dialogue Transcripts:A Text-based Approach ...",
+        "link": "https://arxiv.org/html/2407.12094v1",
+        "snippet": "We introduce an approach to identifying speaker names in dialogue transcripts, SpeakerID involves the task of recognizing and distinguishing between the voices ...",
+        "date": "Jul 16, 2024",
+        "position": 5
+      },
+      {
+        "title": "[PDF] arXiv:2407.03958v1 [cs.CL] 4 Jul 2024",
+        "link": "https://arxiv.org/pdf/2407.03958",
+        "snippet": "those where the image is grounded at the beginning of the dialogue and those where the image is shared during the dialogue. images are collected from the ...",
+        "date": "Jul 4, 2024",
+        "position": 6
+      },
+      {
+        "title": "DiaRelay: Relaying Dialogue Context with a Constant-Size Memory ...",
+        "link": "https://arxiv.org/html/2608.22745v1",
+        "snippet": "Emotion Recognition in Conversation (ERC) aims to identify the emotion expressed by each utterance in a dialogue. It plays an important role in affective ...",
+        "date": "Aug 24, 2026",
+        "position": 7
+      },
+      {
+        "title": "MPCHAT: Towards Multimodal Persona-Grounded Conversation",
+        "link": "https://arxiv.org/abs/2305.17388",
+        "snippet": "First, we present the first multimodal persona-based dialogue dataset named MPCHAT, which extends persona with both text and images to contain episodic memories ...",
+        "date": "May 27, 2023",
+        "position": 8
+      },
+      {
+        "title": "Understanding Indirect Speech Acts in Multimodal Visual Contexts",
+        "link": "https://arxiv.org/html/2608.30270v1",
+        "snippet": "The final READI benchmark is a multimodal dataset that combines images generated based on dialogue scenarios in Korean and English with utterances that realize ...",
+        "date": "Aug 31, 2026",
+        "position": 9
+      },
+      {
+        "title": "Adaptive User-Centric Memory for Long-Horizon Dialogue Agents",
+        "link": "https://arxiv.org/html/2603.16496",
+        "snippet": "AdaMem organizes dialogue history into working, episodic, persona, and graph memories, enabling the system to preserve recent context, structured long-term ...",
+        "date": "Apr 29, 2026",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "A Multimodal Agent with Long-Term Memory - arXiv",
+      "snippet": "Episodic memory: Records concrete events observed within the video. For example, \"Alice takes the coffee and says, 'I can't go without this in the morning,'\" ...",
+      "link": "https://arxiv.org/html/2508.09736v1",
+      "arxiv_id": "2508.09736"
+    },
+    {
+      "rank": 2,
+      "title": "A Multi-Turn Emotionally-Rich Spoken Dialogue Dataset - arXiv",
+      "snippet": "This comprehensive corpus of emotionally varied speech spans our complete dataset, providing unprecedented scale for spoken dialogue research. This multimodal ...",
+      "link": "https://arxiv.org/html/2505.19978v1",
+      "arxiv_id": "2505.19978"
+    },
+    {
+      "rank": 3,
+      "title": "Spoken DialogSum: An Emotion-Rich Conversational Dataset for ...",
+      "snippet": "Spoken DialogSum is the first corpus to pair raw multi-speaker audio with both factual and emotion-rich summaries while also providing utterance-level labels ...",
+      "link": "https://arxiv.org/html/2512.14687v2",
+      "arxiv_id": "2512.14687"
+    },
+    {
+      "rank": 4,
+      "title": "EMNS /Imz/ Corpus: An emotive single-speaker dataset for narrative ...",
+      "snippet": "The Emotive Narrative Storytelling (EMNS) corpus is a unique speech dataset . The corpus consists of a 2.3-hour recording featuring a female speaker delivering ...",
+      "link": "https://arxiv.org/html/2305.13137v2",
+      "arxiv_id": "2305.13137"
+    },
+    {
+      "rank": 5,
+      "title": "Identifying Speakers in Dialogue Transcripts:A Text-based Approach ...",
+      "snippet": "We introduce an approach to identifying speaker names in dialogue transcripts, SpeakerID involves the task of recognizing and distinguishing between the voices ...",
+      "link": "https://arxiv.org/html/2407.12094v1",
+      "arxiv_id": "2407.12094"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] arXiv:2407.03958v1 [cs.CL] 4 Jul 2024",
+      "snippet": "those where the image is grounded at the beginning of the dialogue and those where the image is shared during the dialogue. images are collected from the ...",
+      "link": "https://arxiv.org/pdf/2407.03958",
+      "arxiv_id": "2407.03958"
+    },
+    {
+      "rank": 7,
+      "title": "DiaRelay: Relaying Dialogue Context with a Constant-Size Memory ...",
+      "snippet": "Emotion Recognition in Conversation (ERC) aims to identify the emotion expressed by each utterance in a dialogue. It plays an important role in affective ...",
+      "link": "https://arxiv.org/html/2608.22745v1",
+      "arxiv_id": "2608.22745"
+    },
+    {
+      "rank": 8,
+      "title": "MPCHAT: Towards Multimodal Persona-Grounded Conversation",
+      "snippet": "First, we present the first multimodal persona-based dialogue dataset named MPCHAT, which extends persona with both text and images to contain episodic memories ...",
+      "link": "https://arxiv.org/abs/2305.17388",
+      "arxiv_id": "2305.17388"
+    },
+    {
+      "rank": 9,
+      "title": "Understanding Indirect Speech Acts in Multimodal Visual Contexts",
+      "snippet": "The final READI benchmark is a multimodal dataset that combines images generated based on dialogue scenarios in Korean and English with utterances that realize ...",
+      "link": "https://arxiv.org/html/2608.30270v1",
+      "arxiv_id": "2608.30270"
+    },
+    {
+      "rank": 10,
+      "title": "Adaptive User-Centric Memory for Long-Horizon Dialogue Agents",
+      "snippet": "AdaMem organizes dialogue history into working, episodic, persona, and graph memories, enabling the system to preserve recent context, structured long-term ...",
+      "link": "https://arxiv.org/html/2603.16496",
+      "arxiv_id": "2603.16496"
+    }
+  ],
+  "gold_hit_ranks": [
+    8
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:20.818514+00:00",
+  "elapsed_seconds": 1.0908006876707077,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q23_original_question_attempt1.json",
+      "sha256": "2389052fee3d6a3e5ec8170ed228901ffa0669ed7cb238fb176a6e366758c5a3",
+      "status": "PASS"
+    }
+  ]
+}

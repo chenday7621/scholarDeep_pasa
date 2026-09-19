@@ -1,0 +1,142 @@
+{
+  "status": "UNIQUELY_RESOLVED",
+  "created_utc": "2026-09-17T05:46:32.264344+00:00",
+  "gold_corpusid": 258960101,
+  "gold_title": "DNA-GPT: DIVERGENT N-GRAM ANALYSIS FOR TRAINING-FREE DETECTION OF GPT-GENERATED TEXT",
+  "retained_id": "2305.17359",
+  "rejected_local_index_ids": [
+    "2303.02909"
+  ],
+  "records": [
+    {
+      "arxiv_id": "2303.02909",
+      "official_title": "Dynamic Prompting: A Unified Framework for Prompt Tuning",
+      "official_metadata": {
+        "citation_title": [
+          "Dynamic Prompting: A Unified Framework for Prompt Tuning"
+        ],
+        "citation_author": [
+          "Yang, Xianjun",
+          "Cheng, Wei",
+          "Zhao, Xujiang",
+          "Yu, Wenchao",
+          "Petzold, Linda",
+          "Chen, Haifeng"
+        ],
+        "citation_date": [
+          "2023/03/06"
+        ],
+        "citation_online_date": [
+          "2023/05/27"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2303.02909"
+        ],
+        "citation_arxiv_id": [
+          "2303.02909"
+        ],
+        "citation_abstract": [
+          "It has been demonstrated that the art of prompt tuning is highly effective in efficiently extracting knowledge from pretrained foundation models, encompassing pretrained language models (PLMs), vision pretrained models, and vision-language (V-L) models. However, the efficacy of employing fixed soft prompts with a predetermined position for concatenation with inputs for all instances, irrespective of their inherent disparities, remains uncertain. Variables such as the position, length, and representations of prompts across diverse instances and tasks can substantially influence the performance of prompt tuning. In this context, we provide a theoretical analysis, which reveals that optimizing the position of the prompt to encompass the input can capture additional semantic information that traditional prefix or postfix prompt tuning methods fail to capture. Building upon our analysis, we present a unified dynamic prompt (DP) tuning strategy that dynamically determines different factors of prompts based on specific tasks and instances. To accomplish this, we employ a lightweight learning network with Gumble-Softmax, allowing us to learn instance-dependent guidance. Experimental results underscore the significant performance improvement achieved by dynamic prompt tuning across a wide range of tasks, including NLP tasks, vision recognition tasks, and vision-language tasks. Furthermore, we establish the universal applicability of our approach under full-data, few-shot, and multitask scenarios. Codes are available at https://github.com/Xianjun-Yang/DPT."
+        ]
+      },
+      "source": {
+        "arxiv_id": "2303.02909",
+        "source_url": "https://arxiv.org/abs/2303.02909",
+        "final_url": "https://arxiv.org/abs/2303.02909",
+        "started_utc": "2026-09-17T03:26:28.606141+00:00",
+        "finished_utc": "2026-09-17T03:26:29.579311+00:00",
+        "http_status": 200,
+        "headers": {
+          "Connection": "close",
+          "Content-Length": "43115",
+          "last-modified": "Mon, 24 Aug 2026 20:58:03 GMT",
+          "content-security-policy": "frame-ancestors 'none'",
+          "x-cloud-trace-context": "8ba4decbdb68a8b776b54652c6a2d3b5",
+          "x-frame-options": "SAMEORIGIN",
+          "cache-control": "max-age=3600",
+          "server": "Google Frontend",
+          "content-type": "text/html; charset=utf-8",
+          "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+          "Accept-Ranges": "bytes",
+          "Age": "311277",
+          "Date": "Thu, 17 Sep 2026 03:21:50 GMT",
+          "X-Served-By": "cache-lga21990-LGA, cache-lga21990-LGA, cache-lga21947-LGA, cache-sin-wsss1830054-SIN",
+          "X-Cache": "MISS, HIT, HIT",
+          "X-Timer": "S1789615310.940528,VS0,VE223"
+        },
+        "raw_bytes": 43115,
+        "sha256": "859bf317512fa2ab49e5541926e2519447a4b22c1e32a3237c432922c920acb2"
+      },
+      "matches_normalized_gold_title": false
+    },
+    {
+      "arxiv_id": "2305.17359",
+      "official_title": "DNA-GPT: Divergent N-Gram Analysis for Training-Free Detection of GPT-Generated Text",
+      "official_metadata": {
+        "citation_title": [
+          "DNA-GPT: Divergent N-Gram Analysis for Training-Free Detection of GPT-Generated Text"
+        ],
+        "citation_author": [
+          "Yang, Xianjun",
+          "Cheng, Wei",
+          "Wu, Yue",
+          "Petzold, Linda",
+          "Wang, William Yang",
+          "Chen, Haifeng"
+        ],
+        "citation_date": [
+          "2023/05/27"
+        ],
+        "citation_online_date": [
+          "2023/10/04"
+        ],
+        "citation_pdf_url": [
+          "https://arxiv.org/pdf/2305.17359"
+        ],
+        "citation_arxiv_id": [
+          "2305.17359"
+        ],
+        "citation_abstract": [
+          "Large language models (LLMs) have notably enhanced the fluency and diversity of machine-generated text. However, this progress also presents a significant challenge in detecting the origin of a given text, and current research on detection methods lags behind the rapid evolution of LLMs. Conventional training-based methods have limitations in flexibility, particularly when adapting to new domains, and they often lack explanatory power. To address this gap, we propose a novel training-free detection strategy called Divergent N-Gram Analysis (DNA-GPT). Given a text, we first truncate it in the middle and then use only the preceding portion as input to the LLMs to regenerate the new remaining parts. By analyzing the differences between the original and new remaining parts through N-gram analysis in black-box or probability divergence in white-box, we unveil significant discrepancies between the distribution of machine-generated text and the distribution of human-written text. We conducted extensive experiments on the most advanced LLMs from OpenAI, including text-davinci-003, GPT-3.5-turbo, and GPT-4, as well as open-source models such as GPT-NeoX-20B and LLaMa-13B. Results show that our zero-shot approach exhibits state-of-the-art performance in distinguishing between human and GPT-generated text on four English and one German dataset, outperforming OpenAI's own classifier, which is trained on millions of text. Additionally, our methods provide reasonable explanations and evidence to support our claim, which is a unique feature of explainable detection. Our method is also robust under the revised text attack and can additionally solve model sourcing. Codes are available at https://github.com/Xianjun-Yang/DNA-GPT."
+        ]
+      },
+      "source": {
+        "arxiv_id": "2305.17359",
+        "source_url": "https://arxiv.org/abs/2305.17359",
+        "final_url": "https://arxiv.org/abs/2305.17359",
+        "started_utc": "2026-09-17T03:26:27.695036+00:00",
+        "finished_utc": "2026-09-17T03:26:28.605654+00:00",
+        "http_status": 200,
+        "headers": {
+          "Connection": "close",
+          "Content-Length": "43924",
+          "last-modified": "Mon, 24 Aug 2026 19:26:09 GMT",
+          "cache-control": "max-age=3600",
+          "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+          "x-frame-options": "SAMEORIGIN",
+          "content-type": "text/html; charset=utf-8",
+          "server": "Google Frontend",
+          "x-cloud-trace-context": "f63672510765ea20a2c0d1477304e9ed",
+          "content-security-policy": "frame-ancestors 'none'",
+          "Accept-Ranges": "bytes",
+          "Age": "823197",
+          "Date": "Thu, 17 Sep 2026 03:21:49 GMT",
+          "X-Served-By": "cache-lga21991-LGA, cache-lga21991-LGA, cache-lga21949-LGA, cache-sin-wsss1830069-SIN",
+          "X-Cache": "MISS, HIT, HIT",
+          "X-Timer": "S1789615309.968697,VS0,VE223"
+        },
+        "raw_bytes": 43924,
+        "sha256": "92f14d4f65481e23959d4961e1beff404ee77d3e9fd08dc956747f8b12e498a1"
+      },
+      "matches_normalized_gold_title": true
+    }
+  ],
+  "specific_gold_corpusids_audited": 432,
+  "specific_questions_audited": 442,
+  "identity_conflict_count": 1,
+  "additional_identity_conflicts": [],
+  "local_zip_record_sha256": "40bee02e5446e86e6fd4f0a17c910af724825a7965b966854e92c36aa01dbcd1",
+  "ordinary_title_miss_repaired": 0,
+  "local_index_modified": false,
+  "search_outcomes_used": false
+}

@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q49",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2005.02680",
+  "request_payload": {
+    "q": "top down architecture level parsing discourse before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 113,
+  "started_utc": "2026-09-17T12:35:32.309005+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648255",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "f9dd41a12a87e52ef494282794773eec",
+    "date": "Thu, 17 Sep 2026 12:30:55 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3340",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3340,
+  "response_bytes_sha256": "456c12ec1f23486b6a6a9676aefbd5b43d6e37c8e49f2bc780740b469e6e4ed9",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJ0b3AgZG93biBhcmNoaXRlY3R1cmUgbGV2ZWwgcGFyc2luZyBkaXNjb3Vyc2UgYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiW1BERl0gQmV5b25kIENodW5raW5nOiBEaXNjb3Vyc2UtQXdhcmUgSGllcmFyY2hpY2FsIFJldHJpZXZhbCBmb3IgTG9uZyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDYuMDYzMTMiLCJzbmlwcGV0IjoiVG9wLSBkb3duIHJzdCBwYXJzaW5nIHV0aWxpemluZyBncmFudWxhcml0eSBsZXZlbHMgaW4gZG9jLSB1bWVudHMuIEluIFByb2NlZWRpbmdzIG9mIHRoZSBBQUFJIENvbmZlcmVuY2Ugb24uIEFydGlmaWNpYWwgSW50ZWxsaWdlbmNlLCB2b2x1bWUgMzQsIHBhZ2VzIDgwOTkgLi4uIiwiZGF0ZSI6Ik9jdCA0LCAyMDI1IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMzA5LjA0MTQxdjEgW2NzLkNMXSA4IFNlcCAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA5LjA0MTQxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHByb3Bvc2UgYSBub3ZlbCBwaXBlbGluZSBDMlJOZXQgZm9yIFJTVCBkaXNjb3Vyc2UgcGFyc2luZyB0aGF0IGxldmVyYWdlcyBkb2N1bWVudC0gbGV2ZWwgY29udGVudCBrbm93bGVkZ2UgdG8gZW5oYW5jZSB0aGUgcmVjb2duaXRpb24gb2YgLi4uIiwiZGF0ZSI6IlNlcCA4LCAyMDIzIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJEaXNjb1NHOiBUb3dhcmRzIERpc2NvdXJzZS1MZXZlbCBUZXh0IFNjZW5lIEdyYXBoIFBhcnNpbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNi4xNTU4M3YzIiwic25pcHBldCI6IkRpc2NvU0ctRFMgb2Z0ZW4gZW5oYW5jZXMgZGlzY291cnNlIHBhcnNpbmcsIHdpdGggZ2FpbnMgZGVwZW5kaW5nIG9uIG1vZGVsIGNhcGFjaXR5LCBhcmNoaXRlY3R1cmUsIGFuZCB0cmFpbmluZyBzdHJhdGVneS4gQXMgc2hvd24gaW4gVGFibGUgMywgZmV3LXNob3QgLi4uIiwiZGF0ZSI6Ik9jdCAyNCwgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwOS4xNDk2OXYxIFtjcy5DTF0gMjMgU2VwIDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDkuMTQ5NjkiLCJzbmlwcGV0IjoiVG9wLWRvd24gRG9jdW1lbnQtbGV2ZWwgUlNUIFBhcnNpbmcgVGhlIHBhcmFkaWdtIG9mIHRvcC1kb3duIHJoZXRvcmljYWwgcGFyc2luZyBoYXMgcmUtIGNlbnRseSBlbWVyZ2VkIGFuZCBpcyByZWNlaXZpbmcgc2lnbmlmaWNhbnQgYXR0ZW4tIHRpb24gZm9yIGl0cyAuLi4iLCJkYXRlIjoiU2VwIDIzLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJXaGF0J3MgSGFyZCBpbiBFbmdsaXNoIFJTVCBQYXJzaW5nPyBQcmVkaWN0aXZlIE1vZGVscyBmb3IgRXJyb3IgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA5LjA0OTQwIiwic25pcHBldCI6Ik91ciBmaW5hbCBtb2RlbCBpcyBhYmxlIHRvIHByZWRpY3Qgd2hlcmUgZXJyb3JzIHdpbGwgb2NjdXIgd2l0aCBhbiBhY2N1cmFjeSBvZiA3Ni4zJSBmb3IgdGhlIGJvdHRvbS11cCBwYXJzZXIgYW5kIDc2LjYlIGZvciB0aGUgdG9wLWRvd24gcGFyc2VyLiIsImRhdGUiOiJTZXAgMTAsIDIwMjMiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIyMTAuMDgzNTV2MiBbY3MuQ0xdIDEgTm92IDIwMjIiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMTAuMDgzNTUiLCJzbmlwcGV0IjoiVG9wLWRvd24gZGlzY291cnNlIHBhcnNpbmcgdmlhIHNlcXVlbmNlIGxhYmVsbGluZy4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDE2dGggQ29uZmVyZW5jZSBvZiB0aGUgRXVyby0gcGVhbiBDaGFwdGVyIG9mIHRoZSBBc3NvY2lhdGlvbiBmb3IgQ29tcHV0YXRpb25hbC4iLCJkYXRlIjoiTm92IDEsIDIwMjIiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlNlbnRlbmNlLWxldmVsIEVuZ2xpc2gtVG8tVW5pZm9ybSBNZWFuaW5nIFJlcHJlc2VudGF0aW9uIFBhcnNlciIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MTIuMDcwNjh2MiIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBpbnRyb2R1Y2UgdHdvIG1ldGhvZHMgZm9yIEVuZ2xpc2ggdGV4dC10by1VTVIgcGFyc2luZywgb25lIG9mIHdoaWNoIGZpbmUtdHVuZXMgZXhpc3RpbmcgcGFyc2VycyBmb3IgQWJzdHJhY3QgTWVhbmluZyBSZXByZXNlbnRhdGlvbiBhbmQgdGhlIC4uLiIsImRhdGUiOiJNYXIgOCwgMjAyNiIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjIwNS4wMjA5MHYxIFtjcy5DTF0gNCBNYXkgMjAyMiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIwNS4wMjA5MCIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBleHBsb3JlIGRpZmZlcmVudCBjb250ZXh0dWFsLSBpemVkIHJlcHJlc2VudGF0aW9ucyBmb3IgRERQIGluIGEgU2VudC1GaXJzdCBwYXJzaW5nIGZyYW1ld29yaywgd2hlcmUgYSBjb21wbGV0ZSBkaXNjb3Vyc2UgdHJlZSBpcyBidWlsdCB1cCAuLi4iLCJkYXRlIjoiTWF5IDQsIDIwMjIiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkRvY3VtZW50IFBhcnNpbmcgVW52ZWlsZWQ6IFRlY2huaXF1ZXMsIENoYWxsZW5nZXMsIGFuZCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTAuMjExNjl2MSIsInNuaXBwZXQiOiJUaGVzZSBhbGdvcml0aG1zIGdlbmVyYWxseSBmb2xsb3cgYSB0b3AtZG93biBzdHJhdGVneSwgZmlyc3QgaWRlbnRpZnlpbmcgdGhlIG92ZXJhbGwgdGFibGUgcmVnaW9uIGFuZCBzdWJzZXF1ZW50bHkgc2VnbWVudGluZyBpdCBpbnRvIHJvd3MgYW5kIGNvbHVtbnMuIFRoaXMgLi4uIiwiZGF0ZSI6Ik9jdCAyOCwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiVGhlIERpYWdyYW1tYXRpYyBBSSBMYW5ndWFnZSAoRElBTCk6IFZlcnNpb24gMC4xIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8xODEyLjExMTQydjEiLCJzbmlwcGV0IjoiSW4gdGhlIHRvcC1kb3duIGNvbXBvbmVudCwgaGlnaC1sZXZlbCByZXF1aXJlbWVudHMgYXJlIGludHJvZHVjZWQsIGZvY3VzaW5nIG9uIHRoZSBjb21wbGV0ZW5lc3MgYW5kIGludGVycHJldGFiaWxpdHkgYXNwZWN0cyBvZiB0aGUgcmVwcmVzZW50YXRpb24uIERJQUwgLi4uIiwiZGF0ZSI6IkRlYyAyOCwgMjAxOCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "top down architecture level parsing discourse before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[PDF] Beyond Chunking: Discourse-Aware Hierarchical Retrieval for Long ...",
+        "link": "https://arxiv.org/pdf/2506.06313",
+        "snippet": "Top- down rst parsing utilizing granularity levels in doc- uments. In Proceedings of the AAAI Conference on. Artificial Intelligence, volume 34, pages 8099 ...",
+        "date": "Oct 4, 2025",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2309.04141v1 [cs.CL] 8 Sep 2023",
+        "link": "https://arxiv.org/pdf/2309.04141",
+        "snippet": "In this paper, we propose a novel pipeline C2RNet for RST discourse parsing that leverages document- level content knowledge to enhance the recognition of ...",
+        "date": "Sep 8, 2023",
+        "position": 2
+      },
+      {
+        "title": "DiscoSG: Towards Discourse-Level Text Scene Graph Parsing ...",
+        "link": "https://arxiv.org/html/2506.15583v3",
+        "snippet": "DiscoSG-DS often enhances discourse parsing, with gains depending on model capacity, architecture, and training strategy. As shown in Table 3, few-shot ...",
+        "date": "Oct 24, 2025",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2409.14969v1 [cs.CL] 23 Sep 2024",
+        "link": "https://arxiv.org/pdf/2409.14969",
+        "snippet": "Top-down Document-level RST Parsing The paradigm of top-down rhetorical parsing has re- cently emerged and is receiving significant atten- tion for its ...",
+        "date": "Sep 23, 2024",
+        "position": 4
+      },
+      {
+        "title": "What's Hard in English RST Parsing? Predictive Models for Error ...",
+        "link": "https://arxiv.org/pdf/2309.04940",
+        "snippet": "Our final model is able to predict where errors will occur with an accuracy of 76.3% for the bottom-up parser and 76.6% for the top-down parser.",
+        "date": "Sep 10, 2023",
+        "position": 5
+      },
+      {
+        "title": "[PDF] arXiv:2210.08355v2 [cs.CL] 1 Nov 2022",
+        "link": "https://arxiv.org/pdf/2210.08355",
+        "snippet": "Top-down discourse parsing via sequence labelling. In Proceedings of the 16th Conference of the Euro- pean Chapter of the Association for Computational.",
+        "date": "Nov 1, 2022",
+        "position": 6
+      },
+      {
+        "title": "Sentence-level English-To-Uniform Meaning Representation Parser",
+        "link": "https://arxiv.org/html/2512.07068v2",
+        "snippet": "In this paper, we introduce two methods for English text-to-UMR parsing, one of which fine-tunes existing parsers for Abstract Meaning Representation and the ...",
+        "date": "Mar 8, 2026",
+        "position": 7
+      },
+      {
+        "title": "[PDF] arXiv:2205.02090v1 [cs.CL] 4 May 2022",
+        "link": "https://arxiv.org/pdf/2205.02090",
+        "snippet": "In this paper, we explore different contextual- ized representations for DDP in a Sent-First parsing framework, where a complete discourse tree is built up ...",
+        "date": "May 4, 2022",
+        "position": 8
+      },
+      {
+        "title": "Document Parsing Unveiled: Techniques, Challenges, and ... - arXiv",
+        "link": "https://arxiv.org/html/2410.21169v1",
+        "snippet": "These algorithms generally follow a top-down strategy, first identifying the overall table region and subsequently segmenting it into rows and columns. This ...",
+        "date": "Oct 28, 2024",
+        "position": 9
+      },
+      {
+        "title": "The Diagrammatic AI Language (DIAL): Version 0.1 - arXiv",
+        "link": "https://arxiv.org/html/1812.11142v1",
+        "snippet": "In the top-down component, high-level requirements are introduced, focusing on the completeness and interpretability aspects of the representation. DIAL ...",
+        "date": "Dec 28, 2018",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[PDF] Beyond Chunking: Discourse-Aware Hierarchical Retrieval for Long ...",
+      "snippet": "Top- down rst parsing utilizing granularity levels in doc- uments. In Proceedings of the AAAI Conference on. Artificial Intelligence, volume 34, pages 8099 ...",
+      "link": "https://arxiv.org/pdf/2506.06313",
+      "arxiv_id": "2506.06313"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2309.04141v1 [cs.CL] 8 Sep 2023",
+      "snippet": "In this paper, we propose a novel pipeline C2RNet for RST discourse parsing that leverages document- level content knowledge to enhance the recognition of ...",
+      "link": "https://arxiv.org/pdf/2309.04141",
+      "arxiv_id": "2309.04141"
+    },
+    {
+      "rank": 3,
+      "title": "DiscoSG: Towards Discourse-Level Text Scene Graph Parsing ...",
+      "snippet": "DiscoSG-DS often enhances discourse parsing, with gains depending on model capacity, architecture, and training strategy. As shown in Table 3, few-shot ...",
+      "link": "https://arxiv.org/html/2506.15583v3",
+      "arxiv_id": "2506.15583"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2409.14969v1 [cs.CL] 23 Sep 2024",
+      "snippet": "Top-down Document-level RST Parsing The paradigm of top-down rhetorical parsing has re- cently emerged and is receiving significant atten- tion for its ...",
+      "link": "https://arxiv.org/pdf/2409.14969",
+      "arxiv_id": "2409.14969"
+    },
+    {
+      "rank": 5,
+      "title": "What's Hard in English RST Parsing? Predictive Models for Error ...",
+      "snippet": "Our final model is able to predict where errors will occur with an accuracy of 76.3% for the bottom-up parser and 76.6% for the top-down parser.",
+      "link": "https://arxiv.org/pdf/2309.04940",
+      "arxiv_id": "2309.04940"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] arXiv:2210.08355v2 [cs.CL] 1 Nov 2022",
+      "snippet": "Top-down discourse parsing via sequence labelling. In Proceedings of the 16th Conference of the Euro- pean Chapter of the Association for Computational.",
+      "link": "https://arxiv.org/pdf/2210.08355",
+      "arxiv_id": "2210.08355"
+    },
+    {
+      "rank": 7,
+      "title": "Sentence-level English-To-Uniform Meaning Representation Parser",
+      "snippet": "In this paper, we introduce two methods for English text-to-UMR parsing, one of which fine-tunes existing parsers for Abstract Meaning Representation and the ...",
+      "link": "https://arxiv.org/html/2512.07068v2",
+      "arxiv_id": "2512.07068"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] arXiv:2205.02090v1 [cs.CL] 4 May 2022",
+      "snippet": "In this paper, we explore different contextual- ized representations for DDP in a Sent-First parsing framework, where a complete discourse tree is built up ...",
+      "link": "https://arxiv.org/pdf/2205.02090",
+      "arxiv_id": "2205.02090"
+    },
+    {
+      "rank": 9,
+      "title": "Document Parsing Unveiled: Techniques, Challenges, and ... - arXiv",
+      "snippet": "These algorithms generally follow a top-down strategy, first identifying the overall table region and subsequently segmenting it into rows and columns. This ...",
+      "link": "https://arxiv.org/html/2410.21169v1",
+      "arxiv_id": "2410.21169"
+    },
+    {
+      "rank": 10,
+      "title": "The Diagrammatic AI Language (DIAL): Version 0.1 - arXiv",
+      "snippet": "In the top-down component, high-level requirements are introduced, focusing on the completeness and interpretability aspects of the representation. DIAL ...",
+      "link": "https://arxiv.org/html/1812.11142v1",
+      "arxiv_id": "1812.11142"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:35.041531+00:00",
+  "elapsed_seconds": 2.7325300090014935
+}

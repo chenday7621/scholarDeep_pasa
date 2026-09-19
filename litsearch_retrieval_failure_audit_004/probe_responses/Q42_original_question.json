@@ -1,0 +1,201 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q42",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2010.11934",
+  "request_payload": {
+    "q": "Could you recommend a study that explores a pre-trained multilingual text-to-text transformer applicable to text summarization tasks? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 93,
+  "started_utc": "2026-09-17T12:35:10.060201+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648235",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "5f36ca75d787fd1732a5a46ec8979e8a",
+    "date": "Thu, 17 Sep 2026 12:30:31 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3491",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3491,
+  "response_bytes_sha256": "376842360c5fb1828844c0d7ebbe51883fe3a0a0ce0ae920fa66ab8192c6c3da",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb3VsZCB5b3UgcmVjb21tZW5kIGEgc3R1ZHkgdGhhdCBleHBsb3JlcyBhIHByZS10cmFpbmVkIG11bHRpbGluZ3VhbCB0ZXh0LXRvLXRleHQgdHJhbnNmb3JtZXIgYXBwbGljYWJsZSB0byB0ZXh0IHN1bW1hcml6YXRpb24gdGFza3M/IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IjFJbnRyb2R1Y3Rpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMDI5MDF2MiIsInNuaXBwZXQiOiJ0cmFuc2Zvcm1lci1iYXNlZCBsYW5ndWFnZSBtb2RlbHMgYXJlIHByZS10cmFpbmVkIG9uIGV4dGVuc2l2ZSB0ZXh0IGRhdGFzZXRzIGFuZCB0aGVuIGZpbmUtdHVuZWQgZm9yIHZhcmlvdXMgb2JqZWN0aXZlcy4iLCJkYXRlIjoiTWFyIDIwLCAyMDI1IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJBIFN5c3RlbWF0aWMgU3VydmV5IG9mIFRleHQgU3VtbWFyaXphdGlvbjogRnJvbSBTdGF0aXN0aWNhbCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTEyODl2MSIsInNuaXBwZXQiOiJUaGlzIHN1cnZleSB0aHVzIHByb3ZpZGVzIGEgY29tcHJlaGVuc2l2ZSByZXZpZXcgb2YgdGhlIHJlc2VhcmNoIHByb2dyZXNzIGFuZCBldm9sdXRpb24gaW4gdGV4dCBzdW1tYXJpemF0aW9uIHRocm91Z2ggdGhlIGxlbnMgb2YgdGhlc2UgcGFyYWRpZ20gc2hpZnRzLiIsImRhdGUiOiJKdW4gMTcsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIGxvdyByZXNvdXJjZSBzdW1tYXJpemF0aW9uIHVzaW5nIHByZS10cmFpbmVkIGxhbmd1YWdlIG1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMxMC4wMjc5MCIsInNuaXBwZXQiOiJFZmZvcnRzIGhhdmUgYmVlbiBtYWRlIHRvIGV4cGxvcmUgcHJlLXRyYWluZWQgbGFuZ3VhZ2UgbW9kZWxzIGJhc2VkIG9uIHNlbGYtYXR0ZW50aXZlIHRyYW5zZm9ybWVyIGFyY2hpdGVjdHVyZSBmb3IgYSBkb3duc3RyZWFtIHRhc2sgKEF1dG9tYXRpYyBTdW1tYXJpemF0aW9uKSIsImRhdGUiOiJPY3QgNCwgMjAyMyIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQWJzdHJhY3RpdmUgVGV4dCBTdW1tYXJpemF0aW9uOiBTdGF0ZSBvZiB0aGUgQXJ0LCBDaGFsbGVuZ2VzIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOS4wMjQxM3YxIiwic25pcHBldCI6IlRoaXMgcmVzZWFyY2ggZW5oYW5jZWQgdGhlIGNvbXByZWhlbnNpb24gb2YgdGhlIGVmZmVjdGl2ZSBhcHBsaWNhdGlvbiBvZiBwcmUtdHJhaW5lZCB0cmFuc2Zvcm1lciBtb2RlbHMsIHN1Y2ggYXMgVDUsIGZvciBib3RoIGFic3RyYWN0aXZlIGFuZCBleHRyYWN0aXZlIHRleHQgLi4uIiwiZGF0ZSI6IlNlcCA0LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBhclhpdjoxOTEwLjEwNjgzdjQgW2NzLkxHXSAxOSBTZXAgMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMTkxMC4xMDY4MyIsInNuaXBwZXQiOiJUaGlzIGFwcHJvYWNoIHdhcyByZWNlbnRseSB1c2VkIHRvIHNob3cgdGhhdCBsYW5ndWFnZSBtb2RlbHMgY2FuIGxlYXJuIHRvIHBlcmZvcm0gc29tZSB0ZXh0LXRvLXRleHQgdGFza3Mgd2l0aG91dCBzdXBlcnZpc2lvbiAoUmFkZm9yZCBldCBhbC4sIDIwMTkpLiIsImRhdGUiOiJTZXAgMTksIDIwMjMiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIEFuIEV2YWx1YXRpb24gb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIG9uIFRleHQgU3VtbWFyaXphdGlvbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDcuMDUxMjMiLCJzbmlwcGV0IjoiVG8gZXhwbG9yZSBMTE1zJyBjYXBhYmlsaXRpZXMgZm9yIHRleHQgc3VtbWFyaXphdGlvbiwgSW4gdGhpcyBzdHVkeSwgd2UgcHJlc2VudCBhIGNvbXByZWhlbnNpdmUgZXZhbHVhdGlvbiBvZiBzaXggTExNcywgdGFyZ2V0aW5nIGEgZGl2ZXJzZSByYW5nZSBvZiBkb21haW5zIC4uLiIsImRhdGUiOiJKdWwgNywgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiWzIwMDcuMDE4NTJdIExhbmd1YWdlLWFnbm9zdGljIEJFUlQgU2VudGVuY2UgRW1iZWRkaW5nIC0gYXI1aXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIwMDcuMDE4NTIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2Ugc3lzdGVtYXRpY2FsbHkgZXhwbG9yZSB1c2luZyBwcmV0cmFpbmluZyBsYW5ndWFnZSBtb2RlbHMgaW4gY29tYmluYXRpb24gd2l0aCB0aGUgYmVzdCBvZiBleGlzdGluZyBtZXRob2RzIGZvciBsZWFybmluZyBjcm9zcy1saW5ndWFsIHNlbnRlbmNlIC4uLiIsImRhdGUiOiJNYXkgMjEsIDIwMjAiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkdlbmVyYWxpemF0aW9uIHZpYSBEZWNsYXJhdGl2ZSBJbnN0cnVjdGlvbnMgb24gMTYwMCsgTkxQIFRhc2tzIC0gYXI1aXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIyMDQuMDc3MDUiLCJzbmlwcGV0IjoibVQ1OiBBIE1hc3NpdmVseSBNdWx0aWxpbmd1YWwgUHJlLXRyYWluZWQgVGV4dC10by1UZXh0IFRyYW5zZm9ybWVyLiBJbiBDb25mZXJlbmNlIG9mIHRoZSBOb3J0aCBBbWVyaWNhbiBDaGFwdGVyIG9mIHRoZSBBc3NvY2lhdGlvbiBmb3IgQ29tcHV0YXRpb25hbCAuLi4iLCJkYXRlIjoiTWF5IDMwLCAyMDIyIiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbMjMwNS4xMjc1OV0gS2FuYnVuLUxNOiBSZWFkaW5nIGFuZCBUcmFuc2xhdGluZyBDbGFzc2ljYWwgLi4uIC0gYXI1aXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIzMDUuMTI3NTkiLCJzbmlwcGV0IjoibVQ1OiBBIG1hc3NpdmVseSBtdWx0aWxpbmd1YWwgcHJlLXRyYWluZWQgdGV4dC10by10ZXh0IHRyYW5zZm9ybWVyLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgMjAyMSBDb25mZXJlbmNlIG9mIHRoZSBOb3J0aCBBbWVyaWNhbiBDaGFwdGVyIG9mIHRoZSBBc3NvY2lhdGlvbiAuLi4iLCJkYXRlIjoiTWF5IDI0LCAyMDIzIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJFeHBsb3JpbmcgdGhlIExpbWl0cyBvZiBUcmFuc2ZlciBMZWFybmluZyB3aXRoIGEgVW5pZmllZCBUZXh0LXRvLVRleHQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8xOTEwLjEwNjgzIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGV4cGxvcmUgdGhlIGxhbmRzY2FwZSBvZiB0cmFuc2ZlciBsZWFybmluZyB0ZWNobmlxdWVzIGZvciBOTFAgYnkgaW50cm9kdWNpbmcgYSB1bmlmaWVkIGZyYW1ld29yayB0aGF0IGNvbnZlcnRzIGFsbCB0ZXh0LWJhc2VkIGxhbmd1YWdlIC4uLiIsImRhdGUiOiJPY3QgMjMsIDIwMTkiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Could you recommend a study that explores a pre-trained multilingual text-to-text transformer applicable to text summarization tasks? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "1Introduction - arXiv",
+        "link": "https://arxiv.org/html/2403.02901v2",
+        "snippet": "transformer-based language models are pre-trained on extensive text datasets and then fine-tuned for various objectives.",
+        "date": "Mar 20, 2025",
+        "position": 1
+      },
+      {
+        "title": "A Systematic Survey of Text Summarization: From Statistical ... - arXiv",
+        "link": "https://arxiv.org/html/2406.11289v1",
+        "snippet": "This survey thus provides a comprehensive review of the research progress and evolution in text summarization through the lens of these paradigm shifts.",
+        "date": "Jun 17, 2024",
+        "position": 2
+      },
+      {
+        "title": "[PDF] low resource summarization using pre-trained language models",
+        "link": "https://arxiv.org/pdf/2310.02790",
+        "snippet": "Efforts have been made to explore pre-trained language models based on self-attentive transformer architecture for a downstream task (Automatic Summarization)",
+        "date": "Oct 4, 2023",
+        "position": 3
+      },
+      {
+        "title": "Abstractive Text Summarization: State of the Art, Challenges ... - arXiv",
+        "link": "https://arxiv.org/html/2409.02413v1",
+        "snippet": "This research enhanced the comprehension of the effective application of pre-trained transformer models, such as T5, for both abstractive and extractive text ...",
+        "date": "Sep 4, 2024",
+        "position": 4
+      },
+      {
+        "title": "[PDF] arXiv:1910.10683v4 [cs.LG] 19 Sep 2023",
+        "link": "https://arxiv.org/pdf/1910.10683",
+        "snippet": "This approach was recently used to show that language models can learn to perform some text-to-text tasks without supervision (Radford et al., 2019).",
+        "date": "Sep 19, 2023",
+        "position": 5
+      },
+      {
+        "title": "[PDF] An Evaluation of Large Language Models on Text Summarization ...",
+        "link": "https://arxiv.org/pdf/2507.05123",
+        "snippet": "To explore LLMs' capabilities for text summarization, In this study, we present a comprehensive evaluation of six LLMs, targeting a diverse range of domains ...",
+        "date": "Jul 7, 2025",
+        "position": 6
+      },
+      {
+        "title": "[2007.01852] Language-agnostic BERT Sentence Embedding - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2007.01852",
+        "snippet": "In this paper, we systematically explore using pretraining language models in combination with the best of existing methods for learning cross-lingual sentence ...",
+        "date": "May 21, 2020",
+        "position": 7
+      },
+      {
+        "title": "Generalization via Declarative Instructions on 1600+ NLP Tasks - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2204.07705",
+        "snippet": "mT5: A Massively Multilingual Pre-trained Text-to-Text Transformer. In Conference of the North American Chapter of the Association for Computational ...",
+        "date": "May 30, 2022",
+        "position": 8
+      },
+      {
+        "title": "[2305.12759] Kanbun-LM: Reading and Translating Classical ... - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2305.12759",
+        "snippet": "mT5: A massively multilingual pre-trained text-to-text transformer. In Proceedings of the 2021 Conference of the North American Chapter of the Association ...",
+        "date": "May 24, 2023",
+        "position": 9
+      },
+      {
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text ...",
+        "link": "https://arxiv.org/abs/1910.10683",
+        "snippet": "In this paper, we explore the landscape of transfer learning techniques for NLP by introducing a unified framework that converts all text-based language ...",
+        "date": "Oct 23, 2019",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "1Introduction - arXiv",
+      "snippet": "transformer-based language models are pre-trained on extensive text datasets and then fine-tuned for various objectives.",
+      "link": "https://arxiv.org/html/2403.02901v2",
+      "arxiv_id": "2403.02901"
+    },
+    {
+      "rank": 2,
+      "title": "A Systematic Survey of Text Summarization: From Statistical ... - arXiv",
+      "snippet": "This survey thus provides a comprehensive review of the research progress and evolution in text summarization through the lens of these paradigm shifts.",
+      "link": "https://arxiv.org/html/2406.11289v1",
+      "arxiv_id": "2406.11289"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] low resource summarization using pre-trained language models",
+      "snippet": "Efforts have been made to explore pre-trained language models based on self-attentive transformer architecture for a downstream task (Automatic Summarization)",
+      "link": "https://arxiv.org/pdf/2310.02790",
+      "arxiv_id": "2310.02790"
+    },
+    {
+      "rank": 4,
+      "title": "Abstractive Text Summarization: State of the Art, Challenges ... - arXiv",
+      "snippet": "This research enhanced the comprehension of the effective application of pre-trained transformer models, such as T5, for both abstractive and extractive text ...",
+      "link": "https://arxiv.org/html/2409.02413v1",
+      "arxiv_id": "2409.02413"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] arXiv:1910.10683v4 [cs.LG] 19 Sep 2023",
+      "snippet": "This approach was recently used to show that language models can learn to perform some text-to-text tasks without supervision (Radford et al., 2019).",
+      "link": "https://arxiv.org/pdf/1910.10683",
+      "arxiv_id": "1910.10683"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] An Evaluation of Large Language Models on Text Summarization ...",
+      "snippet": "To explore LLMs' capabilities for text summarization, In this study, we present a comprehensive evaluation of six LLMs, targeting a diverse range of domains ...",
+      "link": "https://arxiv.org/pdf/2507.05123",
+      "arxiv_id": "2507.05123"
+    },
+    {
+      "rank": 7,
+      "title": "[2007.01852] Language-agnostic BERT Sentence Embedding - ar5iv",
+      "snippet": "In this paper, we systematically explore using pretraining language models in combination with the best of existing methods for learning cross-lingual sentence ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2007.01852",
+      "arxiv_id": "2007.01852"
+    },
+    {
+      "rank": 8,
+      "title": "Generalization via Declarative Instructions on 1600+ NLP Tasks - ar5iv",
+      "snippet": "mT5: A Massively Multilingual Pre-trained Text-to-Text Transformer. In Conference of the North American Chapter of the Association for Computational ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2204.07705",
+      "arxiv_id": "2204.07705"
+    },
+    {
+      "rank": 9,
+      "title": "[2305.12759] Kanbun-LM: Reading and Translating Classical ... - ar5iv",
+      "snippet": "mT5: A massively multilingual pre-trained text-to-text transformer. In Proceedings of the 2021 Conference of the North American Chapter of the Association ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2305.12759",
+      "arxiv_id": "2305.12759"
+    },
+    {
+      "rank": 10,
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text ...",
+      "snippet": "In this paper, we explore the landscape of transfer learning techniques for NLP by introducing a unified framework that converts all text-based language ...",
+      "link": "https://arxiv.org/abs/1910.10683",
+      "arxiv_id": "1910.10683"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:11.129633+00:00",
+  "elapsed_seconds": 1.0694332756102085,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q42_original_question_attempt1.json",
+      "sha256": "6042c09031067bf58b5d30641d95bcb9d5c2e38def5cf7cd1207b0cf12e93aa5",
+      "status": "PASS"
+    }
+  ]
+}

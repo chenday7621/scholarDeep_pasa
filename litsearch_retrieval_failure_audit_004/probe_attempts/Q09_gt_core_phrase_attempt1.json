@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q09",
+  "group": "author-written",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2308.02585",
+  "request_payload": {
+    "q": "parl unified policy alignment reinforcement before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 17,
+  "started_utc": "2026-09-17T12:33:41.209926+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648145",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "297428903998c76e0210d59a7167fc56",
+    "date": "Thu, 17 Sep 2026 12:29:02 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3451",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3451,
+  "response_bytes_sha256": "ed906afd54a8fd892aaa279a01be66983498e0c3650787b61a90f03e38be7026",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJwYXJsIHVuaWZpZWQgcG9saWN5IGFsaWdubWVudCByZWluZm9yY2VtZW50IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlBBUkw6IEEgVW5pZmllZCBGcmFtZXdvcmsgZm9yIFBvbGljeSBBbGlnbm1lbnQgaW4gUmVpbmZvcmNlbWVudCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDguMDI1ODUiLCJzbmlwcGV0IjoiQWJzdHJhY3QgcGFnZSBmb3IgYXJYaXYgcGFwZXIgMjMwOC4wMjU4NTogUEFSTDogQSBVbmlmaWVkIEZyYW1ld29yayBmb3IgUG9saWN5IEFsaWdubWVudCBpbiBSZWluZm9yY2VtZW50IExlYXJuaW5nIGZyb20gSHVtYW4gRmVlZGJhY2suIiwiZGF0ZSI6IkF1ZyAzLCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJVbmlmeWluZyBTdGFibGUgT3B0aW1pemF0aW9uIGFuZCBSZWZlcmVuY2UgUmVndWxhcml6YXRpb24gaW4gUkxIRiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDIuMTE1MjN2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBpbnRyb2R1Y2UgYSB1bmlmaWVkIHJlZ3VsYXJpemF0aW9uIGFwcHJvYWNoIHRoYXQgZXhwbGljaXRseSBiYWxhbmNlcyB0aGUgb2JqZWN0aXZlcyBvZiBwcmV2ZW50aW5nIHJld2FyZCBoYWNraW5nIGFuZCBtYWludGFpbmluZyBzdGFibGUgcG9saWN5IC4uLiIsImRhdGUiOiJGZWIgMTIsIDIwMjYiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkJleW9uZCBSTEhGOiBBIFVuaWZpZWQgVGhlb3JldGljYWwgRnJhbWV3b3JrIG9mIEFsaWdubWVudCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNTA2LjAxNTIzIiwic25pcHBldCI6IkFsaWdubWVudCB2aWEgcmVpbmZvcmNlbWVudCBsZWFybmluZyBmcm9tIGh1bWFuIGZlZWRiYWNrIChSTEhGKSBoYXMgYmVjb21lIHRoZSBkb21pbmFudCBwYXJhZGlnbSBmb3IgY29udHJvbGxpbmcgdGhlIHF1YWxpdHkgb2Ygb3V0cHV0cyBmcm9tIGxhcmdlIGxhbmd1YWdlIC4uLiIsImRhdGUiOiJKdW4gMiwgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gRXhwbGFpbmluZyBhbmQgUHJldmVudGluZyBBbGlnbm1lbnQgQ29sbGFwc2UgaW4gSXRlcmF0aXZlIFJMSEYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI2MDUuMDQyNjYiLCJzbmlwcGV0IjoiUEFSTDogQSB1bmlmaWVkIGZyYW1ld29yayBmb3IgcG9saWN5IGFsaWdubWVudCBpbiByZWluZm9yY2VtZW50IGxlYXJuaW5nIGZyb20gaHVtYW4gZmVlZGJhY2suIEluIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiBMZWFybmluZyBSZXByZXNlbnRhdGlvbnMsIDIwMjQgLi4uIiwiZGF0ZSI6Ik1heSA3LCAyMDI2IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBTZWxmLWltcHJvdmluZyBFZmZpY2llbnQgT25saW5lIEFsaWdubWVudCBvZiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDYuMTU1Njc/Iiwic25pcHBldCI6IlBhcmw6IEEgdW5pZmllZCBmcmFtZXdvcmsgZm9yIHBvbGljeSBhbGlnbm1lbnQgaW4gcmVpbmZvcmNlbWVudCBsZWFybmluZywgMjAyMy4gU291cmFkaXAgQ2hha3JhYm9ydHksIEppYWhhbyBRaXUsIEh1aSBZdWFuLCBBbGVjIEtvcHBlbCwgRnVyb25nIEh1YW5nIC4uLiIsImRhdGUiOiJKdW4gMjEsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkEgVGVjaG5pY2FsIFN1cnZleSBvZiBSZWluZm9yY2VtZW50IExlYXJuaW5nIFRlY2huaXF1ZXMgZm9yIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDcuMDQxMzZ2MSIsInNuaXBwZXQiOiJQYXJsOiBBIHVuaWZpZWQgZnJhbWV3b3JrIGZvciBwb2xpY3kgYWxpZ25tZW50IGluIHJlaW5mb3JjZW1lbnQgbGVhcm5pbmcgZnJvbSBodW1hbiBmZWVkYmFjay4gSW4gVGhlIFR3ZWxmdGggSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIExlYXJuaW5nIC4uLiIsImRhdGUiOiJKdWwgNSwgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiW1BERl0gVVJQTzogQSBVbmlmaWVkIFJld2FyZCAmIFBvbGljeSBPcHRpbWl6YXRpb24gRnJhbWV3b3JrIGZvciBMYXJnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDcuMTc1MTUiLCJzbmlwcGV0IjoiTGFyZ2Utc2NhbGUgYWxpZ25tZW50IHBpcGVsaW5lcyB0eXBpY2FsbHkgcGFpciBhIHBvbGljeSBtb2RlbCB3aXRoIGEgc2VwYXJhdGVseSB0cmFpbmVkIHJld2FyZCBtb2RlbCB3aG9zZSBwYXJhbWV0ZXJzIHJlbWFpbiBmcm96ZW4gZHVyaW5nIHJlaW5mb3JjZW1lbnQgLi4uIiwiZGF0ZSI6Ikp1bCAyMywgMjAyNSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiRmVkTU9BOiBGZWRlcmF0ZWQgR1JQTyBmb3IgUGVyc29uYWxpemVkIFJlYXNvbmluZyBMTE1zIHVuZGVyIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDIuMDA0NTN2MSIsInNuaXBwZXQiOiJSZWluZm9yY2VtZW50IGxlYXJuaW5nIGZvciBMTE0gYWxpZ25tZW50IGlzIGNvbW1vbmx5IGJ1aWx0IG9uIG9uLXBvbGljeSBwb2xpY3ktZ3JhZGllbnQgbWV0aG9kcywgbW9zdCBub3RhYmx5IFBQTyAoU2NodWxtYW4gZXQgYWwuLCAyMDE3KSAsIHdpdGggc3Vic3RhbnRpYWwgLi4uIiwiZGF0ZSI6IkphbiAzMSwgMjAyNiIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiUmVmbGVjdERyaXZlLTI6IFJlaW5mb3JjZW1lbnQtTGVhcm5pbmctQWxpZ25lZCBTZWxmLUVkaXRpbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA1LjA0NjQ3djEiLCJzbmlwcGV0IjoiV2UgaW50cm9kdWNlIFJlZmxlY3REcml2ZS0yLCBhIG1hc2tlZCBkaXNjcmV0ZSBkaWZmdXNpb24gcGxhbm5lciB3aXRoIGEgc2VwYXJhdGUgYWN0aW9uIGV4cGVydCBmb3IgYXV0b25vbW91cyBkcml2aW5nIHRoYXQgcmVwcmVzZW50cyBwbGFucyBhcyBkaXNjcmV0ZSAuLi4iLCJkYXRlIjoiTWF5IDYsIDIwMjYiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkEgVW5pZmllZCBQYWlyd2lzZSBGcmFtZXdvcmsgZm9yIFJMSEY6IEJyaWRnaW5nIEdlbmVyYXRpdmUgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA0LjA0OTUwdjEiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgaW50cm9kdWNlIFBhaXJ3aXNlLVJMLCBhIG5vdmVsIFJMSEYgZnJhbWV3b3JrIGRlc2lnbmVkIHRvIGFkZHJlc3MgdHdvIGNyaXRpY2FsIGxpbWl0YXRpb25zIGluIHRyYWRpdGlvbmFsIFJMSEYgYXBwcm9hY2hlczogdGhlIGNhbGlicmF0aW9uIC4uLiIsImRhdGUiOiJBcHIgNywgMjAyNSIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "parl unified policy alignment reinforcement before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "PARL: A Unified Framework for Policy Alignment in Reinforcement ...",
+        "link": "https://arxiv.org/abs/2308.02585",
+        "snippet": "Abstract page for arXiv paper 2308.02585: PARL: A Unified Framework for Policy Alignment in Reinforcement Learning from Human Feedback.",
+        "date": "Aug 3, 2023",
+        "position": 1
+      },
+      {
+        "title": "Unifying Stable Optimization and Reference Regularization in RLHF",
+        "link": "https://arxiv.org/html/2602.11523v1",
+        "snippet": "In this paper, we introduce a unified regularization approach that explicitly balances the objectives of preventing reward hacking and maintaining stable policy ...",
+        "date": "Feb 12, 2026",
+        "position": 2
+      },
+      {
+        "title": "Beyond RLHF: A Unified Theoretical Framework of Alignment - arXiv",
+        "link": "https://arxiv.org/abs/2506.01523",
+        "snippet": "Alignment via reinforcement learning from human feedback (RLHF) has become the dominant paradigm for controlling the quality of outputs from large language ...",
+        "date": "Jun 2, 2025",
+        "position": 3
+      },
+      {
+        "title": "[PDF] Explaining and Preventing Alignment Collapse in Iterative RLHF",
+        "link": "https://arxiv.org/pdf/2605.04266",
+        "snippet": "PARL: A unified framework for policy alignment in reinforcement learning from human feedback. In International Conference on Learning Representations, 2024 ...",
+        "date": "May 7, 2026",
+        "position": 4
+      },
+      {
+        "title": "[PDF] Self-improving Efficient Online Alignment of Large Language Models",
+        "link": "https://arxiv.org/pdf/2406.15567?",
+        "snippet": "Parl: A unified framework for policy alignment in reinforcement learning, 2023. Souradip Chakraborty, Jiahao Qiu, Hui Yuan, Alec Koppel, Furong Huang ...",
+        "date": "Jun 21, 2024",
+        "position": 5
+      },
+      {
+        "title": "A Technical Survey of Reinforcement Learning Techniques for ...",
+        "link": "https://arxiv.org/html/2507.04136v1",
+        "snippet": "Parl: A unified framework for policy alignment in reinforcement learning from human feedback. In The Twelfth International Conference on Learning ...",
+        "date": "Jul 5, 2025",
+        "position": 6
+      },
+      {
+        "title": "[PDF] URPO: A Unified Reward & Policy Optimization Framework for Large ...",
+        "link": "https://arxiv.org/pdf/2507.17515",
+        "snippet": "Large-scale alignment pipelines typically pair a policy model with a separately trained reward model whose parameters remain frozen during reinforcement ...",
+        "date": "Jul 23, 2025",
+        "position": 7
+      },
+      {
+        "title": "FedMOA: Federated GRPO for Personalized Reasoning LLMs under ...",
+        "link": "https://arxiv.org/html/2602.00453v1",
+        "snippet": "Reinforcement learning for LLM alignment is commonly built on on-policy policy-gradient methods, most notably PPO (Schulman et al., 2017) , with substantial ...",
+        "date": "Jan 31, 2026",
+        "position": 8
+      },
+      {
+        "title": "ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing ... - arXiv",
+        "link": "https://arxiv.org/html/2605.04647v1",
+        "snippet": "We introduce ReflectDrive-2, a masked discrete diffusion planner with a separate action expert for autonomous driving that represents plans as discrete ...",
+        "date": "May 6, 2026",
+        "position": 9
+      },
+      {
+        "title": "A Unified Pairwise Framework for RLHF: Bridging Generative ... - arXiv",
+        "link": "https://arxiv.org/html/2504.04950v1",
+        "snippet": "In this paper, we introduce Pairwise-RL, a novel RLHF framework designed to address two critical limitations in traditional RLHF approaches: the calibration ...",
+        "date": "Apr 7, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "PARL: A Unified Framework for Policy Alignment in Reinforcement ...",
+      "snippet": "Abstract page for arXiv paper 2308.02585: PARL: A Unified Framework for Policy Alignment in Reinforcement Learning from Human Feedback.",
+      "link": "https://arxiv.org/abs/2308.02585",
+      "arxiv_id": "2308.02585"
+    },
+    {
+      "rank": 2,
+      "title": "Unifying Stable Optimization and Reference Regularization in RLHF",
+      "snippet": "In this paper, we introduce a unified regularization approach that explicitly balances the objectives of preventing reward hacking and maintaining stable policy ...",
+      "link": "https://arxiv.org/html/2602.11523v1",
+      "arxiv_id": "2602.11523"
+    },
+    {
+      "rank": 3,
+      "title": "Beyond RLHF: A Unified Theoretical Framework of Alignment - arXiv",
+      "snippet": "Alignment via reinforcement learning from human feedback (RLHF) has become the dominant paradigm for controlling the quality of outputs from large language ...",
+      "link": "https://arxiv.org/abs/2506.01523",
+      "arxiv_id": "2506.01523"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] Explaining and Preventing Alignment Collapse in Iterative RLHF",
+      "snippet": "PARL: A unified framework for policy alignment in reinforcement learning from human feedback. In International Conference on Learning Representations, 2024 ...",
+      "link": "https://arxiv.org/pdf/2605.04266",
+      "arxiv_id": "2605.04266"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] Self-improving Efficient Online Alignment of Large Language Models",
+      "snippet": "Parl: A unified framework for policy alignment in reinforcement learning, 2023. Souradip Chakraborty, Jiahao Qiu, Hui Yuan, Alec Koppel, Furong Huang ...",
+      "link": "https://arxiv.org/pdf/2406.15567?",
+      "arxiv_id": "2406.15567"
+    },
+    {
+      "rank": 6,
+      "title": "A Technical Survey of Reinforcement Learning Techniques for ...",
+      "snippet": "Parl: A unified framework for policy alignment in reinforcement learning from human feedback. In The Twelfth International Conference on Learning ...",
+      "link": "https://arxiv.org/html/2507.04136v1",
+      "arxiv_id": "2507.04136"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] URPO: A Unified Reward & Policy Optimization Framework for Large ...",
+      "snippet": "Large-scale alignment pipelines typically pair a policy model with a separately trained reward model whose parameters remain frozen during reinforcement ...",
+      "link": "https://arxiv.org/pdf/2507.17515",
+      "arxiv_id": "2507.17515"
+    },
+    {
+      "rank": 8,
+      "title": "FedMOA: Federated GRPO for Personalized Reasoning LLMs under ...",
+      "snippet": "Reinforcement learning for LLM alignment is commonly built on on-policy policy-gradient methods, most notably PPO (Schulman et al., 2017) , with substantial ...",
+      "link": "https://arxiv.org/html/2602.00453v1",
+      "arxiv_id": "2602.00453"
+    },
+    {
+      "rank": 9,
+      "title": "ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing ... - arXiv",
+      "snippet": "We introduce ReflectDrive-2, a masked discrete diffusion planner with a separate action expert for autonomous driving that represents plans as discrete ...",
+      "link": "https://arxiv.org/html/2605.04647v1",
+      "arxiv_id": "2605.04647"
+    },
+    {
+      "rank": 10,
+      "title": "A Unified Pairwise Framework for RLHF: Bridging Generative ... - arXiv",
+      "snippet": "In this paper, we introduce Pairwise-RL, a novel RLHF framework designed to address two critical limitations in traditional RLHF approaches: the calibration ...",
+      "link": "https://arxiv.org/html/2504.04950v1",
+      "arxiv_id": "2504.04950"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:41.961847+00:00",
+  "elapsed_seconds": 0.7519225105643272
+}

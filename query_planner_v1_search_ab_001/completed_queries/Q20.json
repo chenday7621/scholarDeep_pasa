@@ -1,0 +1,1303 @@
+{
+  "query_id": "Q20",
+  "query_index": 20,
+  "dataset_qid": "RealScholarQuery_20",
+  "original_question": "Find papers supporting the claim that knowledgeable LLMs have sufficient inductive capacity to analyze the relationships between multiple papers and systematically write a survey on them.",
+  "published_time": "20241001",
+  "before_date": "2024-09-24",
+  "groups": {
+    "A": {
+      "prompt": "Please generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Find papers supporting the claim that knowledgeable LLMs have sufficient inductive capacity to analyze the relationships between multiple papers and systematically write a survey on them.",
+      "searches": [
+        {
+          "query_sequence": 1,
+          "crawler_query": "Survey papers on inductive capacity of language models",
+          "request_payload": {
+            "q": "Survey papers on inductive capacity of language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 132,
+              "query_id": "Q20",
+              "group": "A",
+              "query_sequence": 1,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Survey papers on inductive capacity of language models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:56:08.423615+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on inductive capacity of language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[PDF] A Survey of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2303.18223\",\"snippet\":\"This survey provides an up-to-date review of the literature on LLMs, which can be a useful resource for both researchers and engineers.\",\"date\":\"Apr 9, 2023\",\"position\":1},{\"title\":\"Towards LogiGLUE:A Brief Survey and A Benchmark for Analyzing ...\",\"link\":\"https://arxiv.org/html/2310.00836v3\",\"snippet\":\"Inductive reasoning in humans and large language models. ... Testing the general deductive reasoning capacity of large language models using ood examples.\",\"date\":\"Mar 31, 2024\",\"position\":2},{\"title\":\"Evaluating the Reasoning Behavior of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.01869v1\",\"snippet\":\"In contrast to the well-examined domain of deductive reasoning, the reasoning behavior of LLMs in inductive reasoning tasks remains comparatively underexplored.\",\"date\":\"Apr 2, 2024\",\"position\":3},{\"title\":\"[PDF] A Survey on Efficient Inference for Large Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2404.14294\",\"snippet\":\"This paper presents a comprehensive survey of the existing literature on efficient LLM inference. We start by analyzing the primary causes of the inefficient ...\",\"date\":\"Jul 19, 2024\",\"position\":4},{\"title\":\"Inductive or Deductive? Rethinking the Fundamental Reasoning ...\",\"link\":\"https://arxiv.org/abs/2408.00114\",\"snippet\":\"LLMs demonstrate remarkable inductive reasoning capabilities through SolverLearner, achieving near-perfect performance with ACC of 1 in most cases.\",\"date\":\"Jul 31, 2024\",\"position\":5},{\"title\":\"The Efficiency Spectrum of Large Language Models: An Algorithmic ...\",\"link\":\"https://arxiv.org/html/2312.00678v2\",\"snippet\":\"this paper examines the multi-faceted dimensions of efficiency essential for the end-to-end algorithmic development of LLMs.\",\"date\":\"Nov 15, 2023\",\"position\":6},{\"title\":\"Large Language Models on Graphs: A Comprehensive Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.02783v2\",\"snippet\":\"In this paper, we provide a systematic review of scenarios and techniques related to large language models on graphs.\",\"date\":\"Feb 1, 2024\",\"position\":7},{\"title\":\"Inductive Models for Artificial Intelligence Systems are Insufficient ...\",\"link\":\"https://arxiv.org/html/2401.09011v1\",\"snippet\":\"This paper discusses the limitations of machine learning (ML), particularly deep artificial neural networks (ANNs), which are effective at approximating ...\",\"date\":\"Jan 17, 2024\",\"sitelinks\":[{\"title\":\"Inductive Models For...\",\"link\":\"https://arxiv.org/html/2401.09011v1#:~:text=Inductive%20Models%20for%20Artificial%20Intelligence%20Systems%20are%20Insufficient%20without%20Good%20Explanations,-Udesh%20Habaraduwa\"},{\"title\":\"3 A Good Explanation\",\"link\":\"https://arxiv.org/html/2401.09011v1#:~:text=3%20A%20good%20explanation,-Building%20on%20the%20work%20of\"},{\"title\":\"4 Good Enough Predictions...\",\"link\":\"https://arxiv.org/html/2401.09011v1#:~:text=4%20Good%20enough%20predictions%20over%20good%20explanations,-The%20world%20is%20a%20complex\"}],\"position\":8},{\"title\":\"A Survey of Large Language Models for Code - arXiv\",\"link\":\"https://arxiv.org/html/2311.10372v2\",\"snippet\":\"The research paper showcases eight causal transformer decoder models trained ... Inductive-bias Learning: Generating Code Models with Large Language Model.\",\"date\":\"Jan 8, 2024\",\"sitelinks\":[{\"title\":\"3. Llms For Software...\",\"link\":\"https://arxiv.org/html/2311.10372v2#:~:text=3.%20LLMs%20for%20software%20engineering\"},{\"title\":\"3.3. Research Teams & Open...\",\"link\":\"https://arxiv.org/html/2311.10372v2#:~:text=3.3.%20Research%20teams%20%26%20Open%20source%20communities%2Dled%20LLMs\"},{\"title\":\"5.1. Code Generation\",\"link\":\"https://arxiv.org/html/2311.10372v2#:~:text=5.1.%20Code%20Generation\"}],\"position\":9},{\"title\":\"Phenomenal Yet Puzzling: Testing Inductive Reasoning Capabilities ...\",\"link\":\"https://arxiv.org/abs/2310.08559\",\"snippet\":\"In this work, we conduct a systematic study of the inductive reasoning capabilities of LMs through iterative hypothesis refinement, a technique that more ...\",\"date\":\"Oct 12, 2023\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "9eeaae398a9f52e9adb9cc0baa1f27fda0d0f759702bcf8452637424a8060b24",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Survey papers on inductive capacity of language models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "[PDF] A Survey of Large Language Models - arXiv",
+                    "link": "https://arxiv.org/pdf/2303.18223",
+                    "snippet": "This survey provides an up-to-date review of the literature on LLMs, which can be a useful resource for both researchers and engineers.",
+                    "date": "Apr 9, 2023",
+                    "position": 1
+                  },
+                  {
+                    "title": "Towards LogiGLUE:A Brief Survey and A Benchmark for Analyzing ...",
+                    "link": "https://arxiv.org/html/2310.00836v3",
+                    "snippet": "Inductive reasoning in humans and large language models. ... Testing the general deductive reasoning capacity of large language models using ood examples.",
+                    "date": "Mar 31, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Evaluating the Reasoning Behavior of Large Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2404.01869v1",
+                    "snippet": "In contrast to the well-examined domain of deductive reasoning, the reasoning behavior of LLMs in inductive reasoning tasks remains comparatively underexplored.",
+                    "date": "Apr 2, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "[PDF] A Survey on Efficient Inference for Large Language Models - arXiv",
+                    "link": "https://arxiv.org/pdf/2404.14294",
+                    "snippet": "This paper presents a comprehensive survey of the existing literature on efficient LLM inference. We start by analyzing the primary causes of the inefficient ...",
+                    "date": "Jul 19, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Inductive or Deductive? Rethinking the Fundamental Reasoning ...",
+                    "link": "https://arxiv.org/abs/2408.00114",
+                    "snippet": "LLMs demonstrate remarkable inductive reasoning capabilities through SolverLearner, achieving near-perfect performance with ACC of 1 in most cases.",
+                    "date": "Jul 31, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "The Efficiency Spectrum of Large Language Models: An Algorithmic ...",
+                    "link": "https://arxiv.org/html/2312.00678v2",
+                    "snippet": "this paper examines the multi-faceted dimensions of efficiency essential for the end-to-end algorithmic development of LLMs.",
+                    "date": "Nov 15, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "Large Language Models on Graphs: A Comprehensive Survey - arXiv",
+                    "link": "https://arxiv.org/html/2312.02783v2",
+                    "snippet": "In this paper, we provide a systematic review of scenarios and techniques related to large language models on graphs.",
+                    "date": "Feb 1, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Inductive Models for Artificial Intelligence Systems are Insufficient ...",
+                    "link": "https://arxiv.org/html/2401.09011v1",
+                    "snippet": "This paper discusses the limitations of machine learning (ML), particularly deep artificial neural networks (ANNs), which are effective at approximating ...",
+                    "date": "Jan 17, 2024",
+                    "sitelinks": [
+                      {
+                        "title": "Inductive Models For...",
+                        "link": "https://arxiv.org/html/2401.09011v1#:~:text=Inductive%20Models%20for%20Artificial%20Intelligence%20Systems%20are%20Insufficient%20without%20Good%20Explanations,-Udesh%20Habaraduwa"
+                      },
+                      {
+                        "title": "3 A Good Explanation",
+                        "link": "https://arxiv.org/html/2401.09011v1#:~:text=3%20A%20good%20explanation,-Building%20on%20the%20work%20of"
+                      },
+                      {
+                        "title": "4 Good Enough Predictions...",
+                        "link": "https://arxiv.org/html/2401.09011v1#:~:text=4%20Good%20enough%20predictions%20over%20good%20explanations,-The%20world%20is%20a%20complex"
+                      }
+                    ],
+                    "position": 8
+                  },
+                  {
+                    "title": "A Survey of Large Language Models for Code - arXiv",
+                    "link": "https://arxiv.org/html/2311.10372v2",
+                    "snippet": "The research paper showcases eight causal transformer decoder models trained ... Inductive-bias Learning: Generating Code Models with Large Language Model.",
+                    "date": "Jan 8, 2024",
+                    "sitelinks": [
+                      {
+                        "title": "3. Llms For Software...",
+                        "link": "https://arxiv.org/html/2311.10372v2#:~:text=3.%20LLMs%20for%20software%20engineering"
+                      },
+                      {
+                        "title": "3.3. Research Teams & Open...",
+                        "link": "https://arxiv.org/html/2311.10372v2#:~:text=3.3.%20Research%20teams%20%26%20Open%20source%20communities%2Dled%20LLMs"
+                      },
+                      {
+                        "title": "5.1. Code Generation",
+                        "link": "https://arxiv.org/html/2311.10372v2#:~:text=5.1.%20Code%20Generation"
+                      }
+                    ],
+                    "position": 9
+                  },
+                  {
+                    "title": "Phenomenal Yet Puzzling: Testing Inductive Reasoning Capabilities ...",
+                    "link": "https://arxiv.org/abs/2310.08559",
+                    "snippet": "In this work, we conduct a systematic study of the inductive reasoning capabilities of LMs through iterative hypothesis refinement, a technique that more ...",
+                    "date": "Oct 12, 2023",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:56:09.353706+00:00",
+              "elapsed_seconds": 0.9301040172576904,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q20_A_01_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2303.18223",
+            "2310.00836",
+            "2310.08559",
+            "2311.10372",
+            "2312.00678",
+            "2312.02783",
+            "2401.09011",
+            "2404.01869",
+            "2404.14294",
+            "2408.00114"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2303.18223",
+              "organic_index": 0,
+              "position": 1,
+              "title": "[PDF] A Survey of Large Language Models - arXiv",
+              "link": "https://arxiv.org/pdf/2303.18223",
+              "snippet": "This survey provides an up-to-date review of the literature on LLMs, which can be a useful resource for both researchers and engineers."
+            },
+            {
+              "arxiv_id": "2310.00836",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Towards LogiGLUE:A Brief Survey and A Benchmark for Analyzing ...",
+              "link": "https://arxiv.org/html/2310.00836v3",
+              "snippet": "Inductive reasoning in humans and large language models. ... Testing the general deductive reasoning capacity of large language models using ood examples."
+            },
+            {
+              "arxiv_id": "2404.01869",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Evaluating the Reasoning Behavior of Large Language Models - arXiv",
+              "link": "https://arxiv.org/html/2404.01869v1",
+              "snippet": "In contrast to the well-examined domain of deductive reasoning, the reasoning behavior of LLMs in inductive reasoning tasks remains comparatively underexplored."
+            },
+            {
+              "arxiv_id": "2404.14294",
+              "organic_index": 3,
+              "position": 4,
+              "title": "[PDF] A Survey on Efficient Inference for Large Language Models - arXiv",
+              "link": "https://arxiv.org/pdf/2404.14294",
+              "snippet": "This paper presents a comprehensive survey of the existing literature on efficient LLM inference. We start by analyzing the primary causes of the inefficient ..."
+            },
+            {
+              "arxiv_id": "2408.00114",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Inductive or Deductive? Rethinking the Fundamental Reasoning ...",
+              "link": "https://arxiv.org/abs/2408.00114",
+              "snippet": "LLMs demonstrate remarkable inductive reasoning capabilities through SolverLearner, achieving near-perfect performance with ACC of 1 in most cases."
+            },
+            {
+              "arxiv_id": "2312.00678",
+              "organic_index": 5,
+              "position": 6,
+              "title": "The Efficiency Spectrum of Large Language Models: An Algorithmic ...",
+              "link": "https://arxiv.org/html/2312.00678v2",
+              "snippet": "this paper examines the multi-faceted dimensions of efficiency essential for the end-to-end algorithmic development of LLMs."
+            },
+            {
+              "arxiv_id": "2312.02783",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Large Language Models on Graphs: A Comprehensive Survey - arXiv",
+              "link": "https://arxiv.org/html/2312.02783v2",
+              "snippet": "In this paper, we provide a systematic review of scenarios and techniques related to large language models on graphs."
+            },
+            {
+              "arxiv_id": "2401.09011",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Inductive Models for Artificial Intelligence Systems are Insufficient ...",
+              "link": "https://arxiv.org/html/2401.09011v1",
+              "snippet": "This paper discusses the limitations of machine learning (ML), particularly deep artificial neural networks (ANNs), which are effective at approximating ..."
+            },
+            {
+              "arxiv_id": "2311.10372",
+              "organic_index": 8,
+              "position": 9,
+              "title": "A Survey of Large Language Models for Code - arXiv",
+              "link": "https://arxiv.org/html/2311.10372v2",
+              "snippet": "The research paper showcases eight causal transformer decoder models trained ... Inductive-bias Learning: Generating Code Models with Large Language Model."
+            },
+            {
+              "arxiv_id": "2310.08559",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Phenomenal Yet Puzzling: Testing Inductive Reasoning Capabilities ...",
+              "link": "https://arxiv.org/abs/2310.08559",
+              "snippet": "In this work, we conduct a systematic study of the inductive reasoning capabilities of LMs through iterative hypothesis refinement, a technique that more ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 2,
+          "crawler_query": "Research on the impact of large language models on academic literature review",
+          "request_payload": {
+            "q": "Research on the impact of large language models on academic literature review before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 133,
+              "query_id": "Q20",
+              "group": "A",
+              "query_sequence": 2,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Research on the impact of large language models on academic literature review before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:56:09.354210+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Research on the impact of large language models on academic literature review before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"LitLLM: A Toolkit for Scientific Literature Review - arXiv\",\"link\":\"https://arxiv.org/html/2402.01788v1\",\"snippet\":\"LLMs have demonstrated significant capabilities in storing factual knowledge and achieving state-of-the-art results when fine-tuned on downstream Natural ...\",\"date\":\"Feb 2, 2024\",\"position\":1},{\"title\":\"Large Language Models for Software Engineering: A Systematic ...\",\"link\":\"https://arxiv.org/html/2308.10620v6\",\"snippet\":\"Researchers have observed that scaling up the model sizes significantly enhances their capacity, leading to remarkable performance improvements\",\"date\":\"Apr 10, 2024\",\"position\":2},{\"title\":\"[2308.10620] Large Language Models for Software Engineering\",\"link\":\"https://arxiv.org/abs/2308.10620\",\"snippet\":\"To bridge this gap, we conducted a systematic literature review (SLR) on LLM4SE, with a particular focus on understanding how LLMs can be exploited to optimize ...\",\"date\":\"Aug 21, 2023\",\"position\":3},{\"title\":\"[PDF] A Systematic Review of Knowledge Tracing and Large Language ...\",\"link\":\"https://arxiv.org/pdf/2412.09248\",\"snippet\":\"This systematic review explores the intersections, opportunities, and challenges of combining KT models and LLMs in educational contexts.\",\"date\":\"Aug 15, 2024\",\"position\":4},{\"title\":\"Large Language Models for Education: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2405.13001v1\",\"snippet\":\"LLM is capable of writing academic experiment codes, building experimental models, quickly and accurately searching for literature materials, and extracting\",\"date\":\"May 12, 2024\",\"position\":5},{\"title\":\"The emergence of Large Language Models (LLM) as a tool in ... - arXiv\",\"link\":\"https://arxiv.org/abs/2409.04600\",\"snippet\":\"This study aims to summarize the usage of Large Language Models (LLMs) in the process of creating a scientific review.\",\"date\":\"Sep 6, 2024\",\"position\":6},{\"title\":\"[PDF] Authorship Without Writing: Large Language Models and the “Senior ...\",\"link\":\"https://arxiv.org/pdf/2509.05390\",\"snippet\":\"Abstract: The use of large language models (LLMs) in bioethical, scientific, and medical writing remains controversial. While there is broad agreement in ...\",\"date\":\"Nov 15, 2022\",\"position\":7},{\"title\":\"Delving into ChatGPT usage in academic writing through excess ...\",\"link\":\"https://arxiv.org/html/2406.07016v1\",\"snippet\":\"Recent large language models (LLMs) can generate and revise text with human-level performance, and have been widely commercialized in systems like ChatGPT.\",\"date\":\"Jun 11, 2024\",\"sitelinks\":[{\"title\":\"1 Introduction\",\"link\":\"https://arxiv.org/html/2406.07016v1#:~:text=1%20Introduction,-When%20the%20world%20changes%2C\"},{\"title\":\"2 Results\",\"link\":\"https://arxiv.org/html/2406.07016v1#:~:text=2%20Results,-We%20downloaded%20all%20PubMed%20abstracts\"},{\"title\":\"3 Discussion\",\"link\":\"https://arxiv.org/html/2406.07016v1#:~:text=3%20Discussion,-In%20this%20paper%2C%20we\"}],\"position\":8},{\"title\":\"Large Language Models for Software Engineering: A Systematic ...\",\"link\":\"https://arxiv.org/html/2308.10620v5\",\"snippet\":\"To bridge this gap, we conducted a systematic literature review on LLM4SE, with a particular focus on understanding how LLMs can be exploited to optimize ...\",\"date\":\"Aug 3, 2023\",\"position\":9},{\"title\":\"[PDF] automating research synthesis with domain-specific large language ...\",\"link\":\"https://arxiv.org/pdf/2404.08680\",\"snippet\":\"This research pioneers the use of finetuned Large Language Models (LLMs) to automate Systematic. Literature Reviews (SLRs), presenting a significant and ...\",\"date\":\"Apr 8, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "6d87edc57476141603eee2fd456a896d2b5150dd6f7f1ba57ee79781e1f878c4",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Research on the impact of large language models on academic literature review before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "LitLLM: A Toolkit for Scientific Literature Review - arXiv",
+                    "link": "https://arxiv.org/html/2402.01788v1",
+                    "snippet": "LLMs have demonstrated significant capabilities in storing factual knowledge and achieving state-of-the-art results when fine-tuned on downstream Natural ...",
+                    "date": "Feb 2, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Large Language Models for Software Engineering: A Systematic ...",
+                    "link": "https://arxiv.org/html/2308.10620v6",
+                    "snippet": "Researchers have observed that scaling up the model sizes significantly enhances their capacity, leading to remarkable performance improvements",
+                    "date": "Apr 10, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "[2308.10620] Large Language Models for Software Engineering",
+                    "link": "https://arxiv.org/abs/2308.10620",
+                    "snippet": "To bridge this gap, we conducted a systematic literature review (SLR) on LLM4SE, with a particular focus on understanding how LLMs can be exploited to optimize ...",
+                    "date": "Aug 21, 2023",
+                    "position": 3
+                  },
+                  {
+                    "title": "[PDF] A Systematic Review of Knowledge Tracing and Large Language ...",
+                    "link": "https://arxiv.org/pdf/2412.09248",
+                    "snippet": "This systematic review explores the intersections, opportunities, and challenges of combining KT models and LLMs in educational contexts.",
+                    "date": "Aug 15, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Large Language Models for Education: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2405.13001v1",
+                    "snippet": "LLM is capable of writing academic experiment codes, building experimental models, quickly and accurately searching for literature materials, and extracting",
+                    "date": "May 12, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "The emergence of Large Language Models (LLM) as a tool in ... - arXiv",
+                    "link": "https://arxiv.org/abs/2409.04600",
+                    "snippet": "This study aims to summarize the usage of Large Language Models (LLMs) in the process of creating a scientific review.",
+                    "date": "Sep 6, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "[PDF] Authorship Without Writing: Large Language Models and the “Senior ...",
+                    "link": "https://arxiv.org/pdf/2509.05390",
+                    "snippet": "Abstract: The use of large language models (LLMs) in bioethical, scientific, and medical writing remains controversial. While there is broad agreement in ...",
+                    "date": "Nov 15, 2022",
+                    "position": 7
+                  },
+                  {
+                    "title": "Delving into ChatGPT usage in academic writing through excess ...",
+                    "link": "https://arxiv.org/html/2406.07016v1",
+                    "snippet": "Recent large language models (LLMs) can generate and revise text with human-level performance, and have been widely commercialized in systems like ChatGPT.",
+                    "date": "Jun 11, 2024",
+                    "sitelinks": [
+                      {
+                        "title": "1 Introduction",
+                        "link": "https://arxiv.org/html/2406.07016v1#:~:text=1%20Introduction,-When%20the%20world%20changes%2C"
+                      },
+                      {
+                        "title": "2 Results",
+                        "link": "https://arxiv.org/html/2406.07016v1#:~:text=2%20Results,-We%20downloaded%20all%20PubMed%20abstracts"
+                      },
+                      {
+                        "title": "3 Discussion",
+                        "link": "https://arxiv.org/html/2406.07016v1#:~:text=3%20Discussion,-In%20this%20paper%2C%20we"
+                      }
+                    ],
+                    "position": 8
+                  },
+                  {
+                    "title": "Large Language Models for Software Engineering: A Systematic ...",
+                    "link": "https://arxiv.org/html/2308.10620v5",
+                    "snippet": "To bridge this gap, we conducted a systematic literature review on LLM4SE, with a particular focus on understanding how LLMs can be exploited to optimize ...",
+                    "date": "Aug 3, 2023",
+                    "position": 9
+                  },
+                  {
+                    "title": "[PDF] automating research synthesis with domain-specific large language ...",
+                    "link": "https://arxiv.org/pdf/2404.08680",
+                    "snippet": "This research pioneers the use of finetuned Large Language Models (LLMs) to automate Systematic. Literature Reviews (SLRs), presenting a significant and ...",
+                    "date": "Apr 8, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:56:10.781216+00:00",
+              "elapsed_seconds": 1.4270170629024506,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q20_A_02_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2308.10620",
+            "2402.01788",
+            "2404.08680",
+            "2405.13001",
+            "2406.07016",
+            "2409.04600",
+            "2412.09248",
+            "2509.05390"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2402.01788",
+              "organic_index": 0,
+              "position": 1,
+              "title": "LitLLM: A Toolkit for Scientific Literature Review - arXiv",
+              "link": "https://arxiv.org/html/2402.01788v1",
+              "snippet": "LLMs have demonstrated significant capabilities in storing factual knowledge and achieving state-of-the-art results when fine-tuned on downstream Natural ..."
+            },
+            {
+              "arxiv_id": "2308.10620",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Large Language Models for Software Engineering: A Systematic ...",
+              "link": "https://arxiv.org/html/2308.10620v6",
+              "snippet": "Researchers have observed that scaling up the model sizes significantly enhances their capacity, leading to remarkable performance improvements"
+            },
+            {
+              "arxiv_id": "2308.10620",
+              "organic_index": 2,
+              "position": 3,
+              "title": "[2308.10620] Large Language Models for Software Engineering",
+              "link": "https://arxiv.org/abs/2308.10620",
+              "snippet": "To bridge this gap, we conducted a systematic literature review (SLR) on LLM4SE, with a particular focus on understanding how LLMs can be exploited to optimize ..."
+            },
+            {
+              "arxiv_id": "2412.09248",
+              "organic_index": 3,
+              "position": 4,
+              "title": "[PDF] A Systematic Review of Knowledge Tracing and Large Language ...",
+              "link": "https://arxiv.org/pdf/2412.09248",
+              "snippet": "This systematic review explores the intersections, opportunities, and challenges of combining KT models and LLMs in educational contexts."
+            },
+            {
+              "arxiv_id": "2405.13001",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Large Language Models for Education: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2405.13001v1",
+              "snippet": "LLM is capable of writing academic experiment codes, building experimental models, quickly and accurately searching for literature materials, and extracting"
+            },
+            {
+              "arxiv_id": "2409.04600",
+              "organic_index": 5,
+              "position": 6,
+              "title": "The emergence of Large Language Models (LLM) as a tool in ... - arXiv",
+              "link": "https://arxiv.org/abs/2409.04600",
+              "snippet": "This study aims to summarize the usage of Large Language Models (LLMs) in the process of creating a scientific review."
+            },
+            {
+              "arxiv_id": "2509.05390",
+              "organic_index": 6,
+              "position": 7,
+              "title": "[PDF] Authorship Without Writing: Large Language Models and the “Senior ...",
+              "link": "https://arxiv.org/pdf/2509.05390",
+              "snippet": "Abstract: The use of large language models (LLMs) in bioethical, scientific, and medical writing remains controversial. While there is broad agreement in ..."
+            },
+            {
+              "arxiv_id": "2406.07016",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Delving into ChatGPT usage in academic writing through excess ...",
+              "link": "https://arxiv.org/html/2406.07016v1",
+              "snippet": "Recent large language models (LLMs) can generate and revise text with human-level performance, and have been widely commercialized in systems like ChatGPT."
+            },
+            {
+              "arxiv_id": "2308.10620",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Large Language Models for Software Engineering: A Systematic ...",
+              "link": "https://arxiv.org/html/2308.10620v5",
+              "snippet": "To bridge this gap, we conducted a systematic literature review on LLM4SE, with a particular focus on understanding how LLMs can be exploited to optimize ..."
+            },
+            {
+              "arxiv_id": "2404.08680",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[PDF] automating research synthesis with domain-specific large language ...",
+              "link": "https://arxiv.org/pdf/2404.08680",
+              "snippet": "This research pioneers the use of finetuned Large Language Models (LLMs) to automate Systematic. Literature Reviews (SLRs), presenting a significant and ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 3,
+          "crawler_query": "Scholarly articles on the analysis of multiple papers by LLMs",
+          "request_payload": {
+            "q": "Scholarly articles on the analysis of multiple papers by LLMs before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 134,
+              "query_id": "Q20",
+              "group": "A",
+              "query_sequence": 3,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Scholarly articles on the analysis of multiple papers by LLMs before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:56:10.781724+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Scholarly articles on the analysis of multiple papers by LLMs before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Mapping the Increasing Use of LLMs in Scientific Papers - arXiv\",\"link\":\"https://arxiv.org/html/2404.01268v1\",\"snippet\":\"Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%).\",\"date\":\"Apr 1, 2024\",\"position\":1},{\"title\":\"[2404.01268] Mapping the Increasing Use of LLMs in Scientific Papers\",\"link\":\"https://arxiv.org/abs/2404.01268\",\"snippet\":\"Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%).\",\"date\":\"Apr 1, 2024\",\"position\":2},{\"title\":\"System for Systematic Literature Review Using Multiple AI agents\",\"link\":\"https://arxiv.org/html/2403.08399v1\",\"snippet\":\"LLM algorithm conducts a more in-depth text analysis, evaluating the context, methodologies, and findings in the abstracts to assess their relevance.\",\"date\":\"Mar 13, 2024\",\"position\":3},{\"title\":\"Delving into ChatGPT usage in academic writing through excess ...\",\"link\":\"https://arxiv.org/html/2406.07016v1\",\"snippet\":\"Our analysis based on excess words usage suggests that at least 10% of 2024 abstracts were processed with LLMs. This lower bound differed across disciplines, ...\",\"date\":\"Jun 11, 2024\",\"position\":4},{\"title\":\"LLM-Supported Planning, Drafting, and Revising of Research-Paper ...\",\"link\":\"https://arxiv.org/html/2406.10370v1\",\"snippet\":\"Integrating large language models (LLMs) in writing tools offers a promising avenue for improving writing outcomes; however, existing approaches are not ...\",\"date\":\"Jun 14, 2024\",\"position\":5},{\"title\":\"LitLLM: A Toolkit for Scientific Literature Review - arXiv\",\"link\":\"https://arxiv.org/html/2402.01788v1\",\"snippet\":\"LitLLM is an interactive tool to help scientists write the literature review or related work section of a scientific paper starting from a user-provided ...\",\"date\":\"Feb 2, 2024\",\"position\":6},{\"title\":\"Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...\",\"link\":\"https://arxiv.org/html/2409.04109v1\",\"snippet\":\"LLM systems can take the very first step of producing novel, AI-generated ideas are judged as more novel than human expert ideas ・ multiple hypothesis ...\",\"date\":\"Sep 6, 2024\",\"position\":7},{\"title\":\"Automating Thematic Analysis: How LLMs Analyse Controversial ...\",\"link\":\"https://arxiv.org/html/2405.06919v1\",\"snippet\":\"Large Language Models (LLMs) are promising analytical tools. They can augment human epistemic, cognitive and reasoning abilities, and support 'sensemaking' – ...\",\"date\":\"May 14, 2024\",\"position\":8},{\"title\":\"[PDF] The Promise and Challenges of Using LLMs to Accelerate ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2404.15667\",\"snippet\":\"In this paper, we studied the effects of text simplification, scientific literacy, and academic experience in the screening accuracy of human screeners for an ...\",\"date\":\"May 8, 2024\",\"position\":9},{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, ...\",\"date\":\"Feb 20, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "251331838fb3dcb5c4639dfbe609db40775fcaf4d530012cbfba7480fca0bf23",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Scholarly articles on the analysis of multiple papers by LLMs before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Mapping the Increasing Use of LLMs in Scientific Papers - arXiv",
+                    "link": "https://arxiv.org/html/2404.01268v1",
+                    "snippet": "Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%).",
+                    "date": "Apr 1, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "[2404.01268] Mapping the Increasing Use of LLMs in Scientific Papers",
+                    "link": "https://arxiv.org/abs/2404.01268",
+                    "snippet": "Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%).",
+                    "date": "Apr 1, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "System for Systematic Literature Review Using Multiple AI agents",
+                    "link": "https://arxiv.org/html/2403.08399v1",
+                    "snippet": "LLM algorithm conducts a more in-depth text analysis, evaluating the context, methodologies, and findings in the abstracts to assess their relevance.",
+                    "date": "Mar 13, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Delving into ChatGPT usage in academic writing through excess ...",
+                    "link": "https://arxiv.org/html/2406.07016v1",
+                    "snippet": "Our analysis based on excess words usage suggests that at least 10% of 2024 abstracts were processed with LLMs. This lower bound differed across disciplines, ...",
+                    "date": "Jun 11, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "LLM-Supported Planning, Drafting, and Revising of Research-Paper ...",
+                    "link": "https://arxiv.org/html/2406.10370v1",
+                    "snippet": "Integrating large language models (LLMs) in writing tools offers a promising avenue for improving writing outcomes; however, existing approaches are not ...",
+                    "date": "Jun 14, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "LitLLM: A Toolkit for Scientific Literature Review - arXiv",
+                    "link": "https://arxiv.org/html/2402.01788v1",
+                    "snippet": "LitLLM is an interactive tool to help scientists write the literature review or related work section of a scientific paper starting from a user-provided ...",
+                    "date": "Feb 2, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...",
+                    "link": "https://arxiv.org/html/2409.04109v1",
+                    "snippet": "LLM systems can take the very first step of producing novel, AI-generated ideas are judged as more novel than human expert ideas ・ multiple hypothesis ...",
+                    "date": "Sep 6, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Automating Thematic Analysis: How LLMs Analyse Controversial ...",
+                    "link": "https://arxiv.org/html/2405.06919v1",
+                    "snippet": "Large Language Models (LLMs) are promising analytical tools. They can augment human epistemic, cognitive and reasoning abilities, and support 'sensemaking' – ...",
+                    "date": "May 14, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] The Promise and Challenges of Using LLMs to Accelerate ... - arXiv",
+                    "link": "https://arxiv.org/pdf/2404.15667",
+                    "snippet": "In this paper, we studied the effects of text simplification, scientific literacy, and academic experience in the screening accuracy of human screeners for an ...",
+                    "date": "May 8, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2402.06196v2",
+                    "snippet": "In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, ...",
+                    "date": "Feb 20, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:56:11.720380+00:00",
+              "elapsed_seconds": 0.9386618733406067,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q20_A_03_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2402.01788",
+            "2402.06196",
+            "2403.08399",
+            "2404.01268",
+            "2404.15667",
+            "2405.06919",
+            "2406.07016",
+            "2406.10370",
+            "2409.04109"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2404.01268",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Mapping the Increasing Use of LLMs in Scientific Papers - arXiv",
+              "link": "https://arxiv.org/html/2404.01268v1",
+              "snippet": "Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%)."
+            },
+            {
+              "arxiv_id": "2404.01268",
+              "organic_index": 1,
+              "position": 2,
+              "title": "[2404.01268] Mapping the Increasing Use of LLMs in Scientific Papers",
+              "link": "https://arxiv.org/abs/2404.01268",
+              "snippet": "Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%)."
+            },
+            {
+              "arxiv_id": "2403.08399",
+              "organic_index": 2,
+              "position": 3,
+              "title": "System for Systematic Literature Review Using Multiple AI agents",
+              "link": "https://arxiv.org/html/2403.08399v1",
+              "snippet": "LLM algorithm conducts a more in-depth text analysis, evaluating the context, methodologies, and findings in the abstracts to assess their relevance."
+            },
+            {
+              "arxiv_id": "2406.07016",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Delving into ChatGPT usage in academic writing through excess ...",
+              "link": "https://arxiv.org/html/2406.07016v1",
+              "snippet": "Our analysis based on excess words usage suggests that at least 10% of 2024 abstracts were processed with LLMs. This lower bound differed across disciplines, ..."
+            },
+            {
+              "arxiv_id": "2406.10370",
+              "organic_index": 4,
+              "position": 5,
+              "title": "LLM-Supported Planning, Drafting, and Revising of Research-Paper ...",
+              "link": "https://arxiv.org/html/2406.10370v1",
+              "snippet": "Integrating large language models (LLMs) in writing tools offers a promising avenue for improving writing outcomes; however, existing approaches are not ..."
+            },
+            {
+              "arxiv_id": "2402.01788",
+              "organic_index": 5,
+              "position": 6,
+              "title": "LitLLM: A Toolkit for Scientific Literature Review - arXiv",
+              "link": "https://arxiv.org/html/2402.01788v1",
+              "snippet": "LitLLM is an interactive tool to help scientists write the literature review or related work section of a scientific paper starting from a user-provided ..."
+            },
+            {
+              "arxiv_id": "2409.04109",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...",
+              "link": "https://arxiv.org/html/2409.04109v1",
+              "snippet": "LLM systems can take the very first step of producing novel, AI-generated ideas are judged as more novel than human expert ideas ・ multiple hypothesis ..."
+            },
+            {
+              "arxiv_id": "2405.06919",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Automating Thematic Analysis: How LLMs Analyse Controversial ...",
+              "link": "https://arxiv.org/html/2405.06919v1",
+              "snippet": "Large Language Models (LLMs) are promising analytical tools. They can augment human epistemic, cognitive and reasoning abilities, and support 'sensemaking' – ..."
+            },
+            {
+              "arxiv_id": "2404.15667",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] The Promise and Challenges of Using LLMs to Accelerate ... - arXiv",
+              "link": "https://arxiv.org/pdf/2404.15667",
+              "snippet": "In this paper, we studied the effects of text simplification, scientific literacy, and academic experience in the screening accuracy of human screeners for an ..."
+            },
+            {
+              "arxiv_id": "2402.06196",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2402.06196v2",
+              "snippet": "In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 4,
+          "crawler_query": "Papers on systematic review writing by AI models",
+          "request_payload": {
+            "q": "Papers on systematic review writing by AI models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 135,
+              "query_id": "Q20",
+              "group": "A",
+              "query_sequence": 4,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Papers on systematic review writing by AI models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:56:11.721016+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Papers on systematic review writing by AI models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Artificial Intelligence for Literature Reviews: Opportunities ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.08565v2\",\"snippet\":\"This paper presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs).\",\"date\":\"Aug 6, 2024\",\"position\":1},{\"title\":\"Artificial intelligence to automate the systematic review of scientific ...\",\"link\":\"https://arxiv.org/html/2401.10917v1\",\"snippet\":\"In this paper, we present a survey of AI techniques proposed in the last 15 years to help researchers conduct systematic analyses of scientific literature.\",\"date\":\"Jan 13, 2024\",\"position\":2},{\"title\":\"[2402.08565] Artificial Intelligence for Literature Reviews - arXiv\",\"link\":\"https://arxiv.org/abs/2402.08565\",\"snippet\":\"Abstract:This manuscript presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs).\",\"date\":\"Feb 13, 2024\",\"position\":3},{\"title\":\"Generative Artificial Intelligence: A Systematic Review and ... - arXiv\",\"link\":\"https://arxiv.org/html/2405.11029v1\",\"snippet\":\"This paper documents the systematic review and analysis of recent advancements and techniques in Generative AI with a detailed discussion of their applications\",\"date\":\"May 17, 2024\",\"position\":4},{\"title\":\"[PDF] The impact and applications of ChatGPT: a Systematic Review of ...\",\"link\":\"https://arxiv.org/pdf/2305.18086\",\"snippet\":\"Artificial intelligence (AI) has shown a positive impact on various fields, and pre- trained language models have become the new paradigm of natural language.\",\"date\":\"Apr 11, 2023\",\"position\":5},{\"title\":\"[PDF] automating research synthesis with domain-specific large language ...\",\"link\":\"https://arxiv.org/pdf/2404.08680\",\"snippet\":\"This research pioneers the use of finetuned Large Language Models (LLMs) to automate Systematic Literature Reviews (SLRs), presenting a significant and novel\",\"date\":\"Apr 8, 2024\",\"position\":6},{\"title\":\"[PDF] can large language models replace humans in the - arXiv\",\"link\":\"https://arxiv.org/pdf/2310.17526\",\"snippet\":\"Some examples of AI tools that have been used in systematic reviews include Rayyan and Abstracker, which help with screening titles and abstracts\",\"date\":\"Oct 30, 2023\",\"position\":7},{\"title\":\"Responsible Artificial Intelligence: A Structured Literature Review\",\"link\":\"https://arxiv.org/html/2403.06910v1\",\"snippet\":\"This paper introduces a comprehensive and, to our knowledge, the first unified definition of responsible AI. Through a structured literature review, we ...\",\"date\":\"Mar 11, 2024\",\"position\":8},{\"title\":\"[PDF] A New Type of Algorithmic Bias and Uncertainty in Scholarly Work\",\"link\":\"https://arxiv.org/pdf/2312.10057\",\"snippet\":\"Through a systematic review of works published, we show that generative AI chatbots have been added as co-authors on papers and serve to help authors with ...\",\"date\":\"Dec 4, 2023\",\"position\":9},{\"title\":\"[PDF] A Systematic Review of Knowledge Tracing and Large Language ...\",\"link\":\"https://arxiv.org/pdf/2412.09248\",\"snippet\":\"The core of this review centers on integrating LLMs with KT, exploring three primary functions: addressing general concerns in KT fields, overcoming specific KT ...\",\"date\":\"Aug 15, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "5f49b67e8d8ddbeb89a18f372f84c9aece9ba5e02c9e46cd4c2b2fa6c75be74e",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Papers on systematic review writing by AI models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Artificial Intelligence for Literature Reviews: Opportunities ... - arXiv",
+                    "link": "https://arxiv.org/html/2402.08565v2",
+                    "snippet": "This paper presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs).",
+                    "date": "Aug 6, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Artificial intelligence to automate the systematic review of scientific ...",
+                    "link": "https://arxiv.org/html/2401.10917v1",
+                    "snippet": "In this paper, we present a survey of AI techniques proposed in the last 15 years to help researchers conduct systematic analyses of scientific literature.",
+                    "date": "Jan 13, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "[2402.08565] Artificial Intelligence for Literature Reviews - arXiv",
+                    "link": "https://arxiv.org/abs/2402.08565",
+                    "snippet": "Abstract:This manuscript presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs).",
+                    "date": "Feb 13, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Generative Artificial Intelligence: A Systematic Review and ... - arXiv",
+                    "link": "https://arxiv.org/html/2405.11029v1",
+                    "snippet": "This paper documents the systematic review and analysis of recent advancements and techniques in Generative AI with a detailed discussion of their applications",
+                    "date": "May 17, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "[PDF] The impact and applications of ChatGPT: a Systematic Review of ...",
+                    "link": "https://arxiv.org/pdf/2305.18086",
+                    "snippet": "Artificial intelligence (AI) has shown a positive impact on various fields, and pre- trained language models have become the new paradigm of natural language.",
+                    "date": "Apr 11, 2023",
+                    "position": 5
+                  },
+                  {
+                    "title": "[PDF] automating research synthesis with domain-specific large language ...",
+                    "link": "https://arxiv.org/pdf/2404.08680",
+                    "snippet": "This research pioneers the use of finetuned Large Language Models (LLMs) to automate Systematic Literature Reviews (SLRs), presenting a significant and novel",
+                    "date": "Apr 8, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "[PDF] can large language models replace humans in the - arXiv",
+                    "link": "https://arxiv.org/pdf/2310.17526",
+                    "snippet": "Some examples of AI tools that have been used in systematic reviews include Rayyan and Abstracker, which help with screening titles and abstracts",
+                    "date": "Oct 30, 2023",
+                    "position": 7
+                  },
+                  {
+                    "title": "Responsible Artificial Intelligence: A Structured Literature Review",
+                    "link": "https://arxiv.org/html/2403.06910v1",
+                    "snippet": "This paper introduces a comprehensive and, to our knowledge, the first unified definition of responsible AI. Through a structured literature review, we ...",
+                    "date": "Mar 11, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] A New Type of Algorithmic Bias and Uncertainty in Scholarly Work",
+                    "link": "https://arxiv.org/pdf/2312.10057",
+                    "snippet": "Through a systematic review of works published, we show that generative AI chatbots have been added as co-authors on papers and serve to help authors with ...",
+                    "date": "Dec 4, 2023",
+                    "position": 9
+                  },
+                  {
+                    "title": "[PDF] A Systematic Review of Knowledge Tracing and Large Language ...",
+                    "link": "https://arxiv.org/pdf/2412.09248",
+                    "snippet": "The core of this review centers on integrating LLMs with KT, exploring three primary functions: addressing general concerns in KT fields, overcoming specific KT ...",
+                    "date": "Aug 15, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:56:13.174238+00:00",
+              "elapsed_seconds": 1.453228659927845,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q20_A_04_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2305.18086",
+            "2310.17526",
+            "2312.10057",
+            "2401.10917",
+            "2402.08565",
+            "2403.06910",
+            "2404.08680",
+            "2405.11029",
+            "2412.09248"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2402.08565",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Artificial Intelligence for Literature Reviews: Opportunities ... - arXiv",
+              "link": "https://arxiv.org/html/2402.08565v2",
+              "snippet": "This paper presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs)."
+            },
+            {
+              "arxiv_id": "2401.10917",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Artificial intelligence to automate the systematic review of scientific ...",
+              "link": "https://arxiv.org/html/2401.10917v1",
+              "snippet": "In this paper, we present a survey of AI techniques proposed in the last 15 years to help researchers conduct systematic analyses of scientific literature."
+            },
+            {
+              "arxiv_id": "2402.08565",
+              "organic_index": 2,
+              "position": 3,
+              "title": "[2402.08565] Artificial Intelligence for Literature Reviews - arXiv",
+              "link": "https://arxiv.org/abs/2402.08565",
+              "snippet": "Abstract:This manuscript presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs)."
+            },
+            {
+              "arxiv_id": "2405.11029",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Generative Artificial Intelligence: A Systematic Review and ... - arXiv",
+              "link": "https://arxiv.org/html/2405.11029v1",
+              "snippet": "This paper documents the systematic review and analysis of recent advancements and techniques in Generative AI with a detailed discussion of their applications"
+            },
+            {
+              "arxiv_id": "2305.18086",
+              "organic_index": 4,
+              "position": 5,
+              "title": "[PDF] The impact and applications of ChatGPT: a Systematic Review of ...",
+              "link": "https://arxiv.org/pdf/2305.18086",
+              "snippet": "Artificial intelligence (AI) has shown a positive impact on various fields, and pre- trained language models have become the new paradigm of natural language."
+            },
+            {
+              "arxiv_id": "2404.08680",
+              "organic_index": 5,
+              "position": 6,
+              "title": "[PDF] automating research synthesis with domain-specific large language ...",
+              "link": "https://arxiv.org/pdf/2404.08680",
+              "snippet": "This research pioneers the use of finetuned Large Language Models (LLMs) to automate Systematic Literature Reviews (SLRs), presenting a significant and novel"
+            },
+            {
+              "arxiv_id": "2310.17526",
+              "organic_index": 6,
+              "position": 7,
+              "title": "[PDF] can large language models replace humans in the - arXiv",
+              "link": "https://arxiv.org/pdf/2310.17526",
+              "snippet": "Some examples of AI tools that have been used in systematic reviews include Rayyan and Abstracker, which help with screening titles and abstracts"
+            },
+            {
+              "arxiv_id": "2403.06910",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Responsible Artificial Intelligence: A Structured Literature Review",
+              "link": "https://arxiv.org/html/2403.06910v1",
+              "snippet": "This paper introduces a comprehensive and, to our knowledge, the first unified definition of responsible AI. Through a structured literature review, we ..."
+            },
+            {
+              "arxiv_id": "2312.10057",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] A New Type of Algorithmic Bias and Uncertainty in Scholarly Work",
+              "link": "https://arxiv.org/pdf/2312.10057",
+              "snippet": "Through a systematic review of works published, we show that generative AI chatbots have been added as co-authors on papers and serve to help authors with ..."
+            },
+            {
+              "arxiv_id": "2412.09248",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[PDF] A Systematic Review of Knowledge Tracing and Large Language ...",
+              "link": "https://arxiv.org/pdf/2412.09248",
+              "snippet": "The core of this review centers on integrating LLMs with KT, exploring three primary functions: addressing general concerns in KT fields, overcoming specific KT ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 5,
+          "crawler_query": "LLMs and their ability to analyze multiple research papers",
+          "request_payload": {
+            "q": "LLMs and their ability to analyze multiple research papers before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 136,
+              "query_id": "Q20",
+              "group": "A",
+              "query_sequence": 5,
+              "attempt": 1,
+              "request_payload": {
+                "q": "LLMs and their ability to analyze multiple research papers before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:56:13.174771+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"LLMs and their ability to analyze multiple research papers before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...\",\"link\":\"https://arxiv.org/html/2409.04109v1\",\"snippet\":\"LLM systems can take the very first step of producing novel, expert-level ideas, let alone perform the entire research process.\",\"date\":\"Sep 6, 2024\",\"position\":1},{\"title\":\"Mapping the Increasing Use of LLMs in Scientific Papers - arXiv\",\"link\":\"https://arxiv.org/html/2404.01268v1\",\"snippet\":\"Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%). In comparison, ...\",\"date\":\"Apr 1, 2024\",\"position\":2},{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, ...\",\"date\":\"Feb 20, 2024\",\"position\":3},{\"title\":\"Retrieval-Augmented Generative Agent for Scientific Research - arXiv\",\"link\":\"https://arxiv.org/html/2312.07559v2\",\"snippet\":\"We evaluate PaperQA on several standard multiple-choice datasets for evaluating LLMs, which assess the model's ability to answer questions with existing ...\",\"date\":\"Dec 14, 2023\",\"position\":4},{\"title\":\"Large Language Models and Cognitive Science: A Comprehensive ...\",\"link\":\"https://arxiv.org/html/2409.02387v1\",\"snippet\":\"The review covers applications of LLMs in various cognitive fields, highlighting insights gained for cognitive science research. We assess cognitive biases and ...\",\"date\":\"Sep 4, 2024\",\"position\":5},{\"title\":\"System for Systematic Literature Review Using Multiple AI agents\",\"link\":\"https://arxiv.org/html/2403.08399v1\",\"snippet\":\"LLM algorithm conducts a more in-depth text analysis, evaluating the context, methodologies, and findings in the abstracts to assess their relevance.\",\"date\":\"Mar 13, 2024\",\"position\":6},{\"title\":\"[PDF] Authorship Without Writing: Large Language Models and the “Senior ...\",\"link\":\"https://arxiv.org/pdf/2509.05390\",\"snippet\":\"LLMs, even to generate complete drafts of research papers, can be considered a legitimate form of authorship according to the accepted criteria in many fields.\",\"date\":\"Nov 15, 2022\",\"position\":7},{\"title\":\"Automating Thematic Analysis: How LLMs Analyse Controversial ...\",\"link\":\"https://arxiv.org/html/2405.06919v1\",\"snippet\":\"Large Language Models (LLMs) are promising analytical tools. They can augment human epistemic, cognitive and reasoning abilities, and support 'sensemaking'\",\"date\":\"May 14, 2024\",\"sitelinks\":[{\"title\":\"The Role Of Llms As Analytic...\",\"link\":\"https://arxiv.org/html/2405.06919v1#:~:text=The%20Role%20of%20LLMs%20as%20Analytic%20Tools,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"3 Methods\",\"link\":\"https://arxiv.org/html/2405.06919v1#:~:text=3%20Methods,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"5 Discussion\",\"link\":\"https://arxiv.org/html/2405.06919v1#:~:text=5%20DISCUSSION,-Report%20issue%20for%20preceding%20element\"}],\"position\":8},{\"title\":\"On-Device Language Models: A Comprehensive Review - arXiv\",\"link\":\"https://arxiv.org/html/2409.00088v1\",\"snippet\":\"This review paper provides a comprehensive exploration of the current strategies and advancements in the deployment of LLMs on edge devices. We aim to ...\",\"date\":\"Aug 26, 2024\",\"position\":9},{\"title\":\"Understanding LLMs: A Comprehensive Overview from Training to ...\",\"link\":\"https://arxiv.org/html/2401.02038v1\",\"snippet\":\"For the above reasons, the primary objective of this paper is to provide a comprehensive overview of LLMs training and inference techniques to equip researchers ...\",\"date\":\"Jan 4, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "8b6c02573b7a6298d6b31c010fa1018361c15435a837c134ebb3887ca7cc7dc9",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "LLMs and their ability to analyze multiple research papers before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...",
+                    "link": "https://arxiv.org/html/2409.04109v1",
+                    "snippet": "LLM systems can take the very first step of producing novel, expert-level ideas, let alone perform the entire research process.",
+                    "date": "Sep 6, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Mapping the Increasing Use of LLMs in Scientific Papers - arXiv",
+                    "link": "https://arxiv.org/html/2404.01268v1",
+                    "snippet": "Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%). In comparison, ...",
+                    "date": "Apr 1, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2402.06196v2",
+                    "snippet": "In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, ...",
+                    "date": "Feb 20, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Retrieval-Augmented Generative Agent for Scientific Research - arXiv",
+                    "link": "https://arxiv.org/html/2312.07559v2",
+                    "snippet": "We evaluate PaperQA on several standard multiple-choice datasets for evaluating LLMs, which assess the model's ability to answer questions with existing ...",
+                    "date": "Dec 14, 2023",
+                    "position": 4
+                  },
+                  {
+                    "title": "Large Language Models and Cognitive Science: A Comprehensive ...",
+                    "link": "https://arxiv.org/html/2409.02387v1",
+                    "snippet": "The review covers applications of LLMs in various cognitive fields, highlighting insights gained for cognitive science research. We assess cognitive biases and ...",
+                    "date": "Sep 4, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "System for Systematic Literature Review Using Multiple AI agents",
+                    "link": "https://arxiv.org/html/2403.08399v1",
+                    "snippet": "LLM algorithm conducts a more in-depth text analysis, evaluating the context, methodologies, and findings in the abstracts to assess their relevance.",
+                    "date": "Mar 13, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "[PDF] Authorship Without Writing: Large Language Models and the “Senior ...",
+                    "link": "https://arxiv.org/pdf/2509.05390",
+                    "snippet": "LLMs, even to generate complete drafts of research papers, can be considered a legitimate form of authorship according to the accepted criteria in many fields.",
+                    "date": "Nov 15, 2022",
+                    "position": 7
+                  },
+                  {
+                    "title": "Automating Thematic Analysis: How LLMs Analyse Controversial ...",
+                    "link": "https://arxiv.org/html/2405.06919v1",
+                    "snippet": "Large Language Models (LLMs) are promising analytical tools. They can augment human epistemic, cognitive and reasoning abilities, and support 'sensemaking'",
+                    "date": "May 14, 2024",
+                    "sitelinks": [
+                      {
+                        "title": "The Role Of Llms As Analytic...",
+                        "link": "https://arxiv.org/html/2405.06919v1#:~:text=The%20Role%20of%20LLMs%20as%20Analytic%20Tools,-Report%20issue%20for%20preceding%20element"
+                      },
+                      {
+                        "title": "3 Methods",
+                        "link": "https://arxiv.org/html/2405.06919v1#:~:text=3%20Methods,-Report%20issue%20for%20preceding%20element"
+                      },
+                      {
+                        "title": "5 Discussion",
+                        "link": "https://arxiv.org/html/2405.06919v1#:~:text=5%20DISCUSSION,-Report%20issue%20for%20preceding%20element"
+                      }
+                    ],
+                    "position": 8
+                  },
+                  {
+                    "title": "On-Device Language Models: A Comprehensive Review - arXiv",
+                    "link": "https://arxiv.org/html/2409.00088v1",
+                    "snippet": "This review paper provides a comprehensive exploration of the current strategies and advancements in the deployment of LLMs on edge devices. We aim to ...",
+                    "date": "Aug 26, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Understanding LLMs: A Comprehensive Overview from Training to ...",
+                    "link": "https://arxiv.org/html/2401.02038v1",
+                    "snippet": "For the above reasons, the primary objective of this paper is to provide a comprehensive overview of LLMs training and inference techniques to equip researchers ...",
+                    "date": "Jan 4, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:56:14.107262+00:00",
+              "elapsed_seconds": 0.9324962683022022,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q20_A_05_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2312.07559",
+            "2401.02038",
+            "2402.06196",
+            "2403.08399",
+            "2404.01268",
+            "2405.06919",
+            "2409.00088",
+            "2409.02387",
+            "2409.04109",
+            "2509.05390"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2409.04109",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human ...",
+              "link": "https://arxiv.org/html/2409.04109v1",
+              "snippet": "LLM systems can take the very first step of producing novel, expert-level ideas, let alone perform the entire research process."
+            },
+            {
+              "arxiv_id": "2404.01268",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Mapping the Increasing Use of LLMs in Scientific Papers - arXiv",
+              "link": "https://arxiv.org/html/2404.01268v1",
+              "snippet": "Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%). In comparison, ..."
+            },
+            {
+              "arxiv_id": "2402.06196",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2402.06196v2",
+              "snippet": "In this paper, we review some of the most prominent LLMs, including three popular LLM families (GPT, LLaMA, PaLM), and discuss their characteristics, ..."
+            },
+            {
+              "arxiv_id": "2312.07559",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Retrieval-Augmented Generative Agent for Scientific Research - arXiv",
+              "link": "https://arxiv.org/html/2312.07559v2",
+              "snippet": "We evaluate PaperQA on several standard multiple-choice datasets for evaluating LLMs, which assess the model's ability to answer questions with existing ..."
+            },
+            {
+              "arxiv_id": "2409.02387",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Large Language Models and Cognitive Science: A Comprehensive ...",
+              "link": "https://arxiv.org/html/2409.02387v1",
+              "snippet": "The review covers applications of LLMs in various cognitive fields, highlighting insights gained for cognitive science research. We assess cognitive biases and ..."
+            },
+            {
+              "arxiv_id": "2403.08399",
+              "organic_index": 5,
+              "position": 6,
+              "title": "System for Systematic Literature Review Using Multiple AI agents",
+              "link": "https://arxiv.org/html/2403.08399v1",
+              "snippet": "LLM algorithm conducts a more in-depth text analysis, evaluating the context, methodologies, and findings in the abstracts to assess their relevance."
+            },
+            {
+              "arxiv_id": "2509.05390",
+              "organic_index": 6,
+              "position": 7,
+              "title": "[PDF] Authorship Without Writing: Large Language Models and the “Senior ...",
+              "link": "https://arxiv.org/pdf/2509.05390",
+              "snippet": "LLMs, even to generate complete drafts of research papers, can be considered a legitimate form of authorship according to the accepted criteria in many fields."
+            },
+            {
+              "arxiv_id": "2405.06919",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Automating Thematic Analysis: How LLMs Analyse Controversial ...",
+              "link": "https://arxiv.org/html/2405.06919v1",
+              "snippet": "Large Language Models (LLMs) are promising analytical tools. They can augment human epistemic, cognitive and reasoning abilities, and support 'sensemaking'"
+            },
+            {
+              "arxiv_id": "2409.00088",
+              "organic_index": 8,
+              "position": 9,
+              "title": "On-Device Language Models: A Comprehensive Review - arXiv",
+              "link": "https://arxiv.org/html/2409.00088v1",
+              "snippet": "This review paper provides a comprehensive exploration of the current strategies and advancements in the deployment of LLMs on edge devices. We aim to ..."
+            },
+            {
+              "arxiv_id": "2401.02038",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Understanding LLMs: A Comprehensive Overview from Training to ...",
+              "link": "https://arxiv.org/html/2401.02038v1",
+              "snippet": "For the above reasons, the primary objective of this paper is to provide a comprehensive overview of LLMs training and inference techniques to equip researchers ..."
+            }
+          ],
+          "organic_result_count": 10
+        }
+      ],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Find papers supporting the claim that knowledgeable LLMs have sufficient inductive capacity to analyze the relationships between multiple papers and systematically write a survey on them.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "cacb05589c3fe9be60bb22a64d482613584ffa429d5b8afa7857932e297959dc",
+      "raw_output": "[Search]Survey papers on inductive capacity of language models\n[Search]Research on the impact of large language models on academic literature review\n[Search]Scholarly articles on the analysis of multiple papers by LLMs\n[Search]Papers on systematic review writing by AI models\n[Search]LLMs and their ability to analyze multiple research papers\n[StopSearch]",
+      "raw_output_with_special_tokens": "[Search]Survey papers on inductive capacity of language models\n[Search]Research on the impact of large language models on academic literature review\n[Search]Scholarly articles on the analysis of multiple papers by LLMs\n[Search]Papers on systematic review writing by AI models\n[Search]LLMs and their ability to analyze multiple research papers\n[StopSearch]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        5890,
+        60,
+        68015,
+        15689,
+        389,
+        304,
+        67143,
+        8654,
+        315,
+        4128,
+        4119,
+        198,
+        58,
+        5890,
+        60,
+        27428,
+        389,
+        279,
+        5421,
+        315,
+        3460,
+        4128,
+        4119,
+        389,
+        14250,
+        17206,
+        3395,
+        198,
+        58,
+        5890,
+        60,
+        30124,
+        7417,
+        398,
+        9709,
+        389,
+        279,
+        6358,
+        315,
+        5248,
+        15689,
+        553,
+        444,
+        10994,
+        82,
+        198,
+        58,
+        5890,
+        60,
+        47,
+        9532,
+        389,
+        36438,
+        3395,
+        4378,
+        553,
+        15235,
+        4119,
+        198,
+        58,
+        5890,
+        60,
+        4086,
+        21634,
+        323,
+        862,
+        5726,
+        311,
+        23643,
+        5248,
+        3412,
+        15689,
+        198,
+        58,
+        10674,
+        5890,
+        60,
+        151645
+      ],
+      "generated_token_count": 79,
+      "ended_with_eos": true,
+      "input_token_count": 85,
+      "generation_seconds": 2.6598143130540848,
+      "all_parsed_queries": [
+        "Survey papers on inductive capacity of language models",
+        "Research on the impact of large language models on academic literature review",
+        "Scholarly articles on the analysis of multiple papers by LLMs",
+        "Papers on systematic review writing by AI models",
+        "LLMs and their ability to analyze multiple research papers"
+      ],
+      "queries": [
+        "Survey papers on inductive capacity of language models",
+        "Research on the impact of large language models on academic literature review",
+        "Scholarly articles on the analysis of multiple papers by LLMs",
+        "Papers on systematic review writing by AI models",
+        "LLMs and their ability to analyze multiple research papers"
+      ],
+      "discarded_queries": []
+    },
+    "B": {
+      "prompt": "Please generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Find papers supporting the claim that knowledgeable LLMs have sufficient inductive capacity to analyze the relationships between multiple papers and systematically write a survey on them.",
+      "searches": [],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Find papers supporting the claim that knowledgeable LLMs have sufficient inductive capacity to analyze the relationships between multiple papers and systematically write a survey on them.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "ff2974e2a2924987fb8c5200109a3e11c3dce2f118a96127e10060608b2afd27",
+      "raw_output": "[Expand]Survey paper on multi-document analysis capabilities of LLMs[Expand]Research on inductive capacity of large language models[Expand]Academic papers on systematic review of multiple research articles[Expand]LLMs ability to analyze relationships between multiple papers[StopExpand]",
+      "raw_output_with_special_tokens": "[Expand]Survey paper on multi-document analysis capabilities of LLMs[Expand]Research on inductive capacity of large language models[Expand]Academic papers on systematic review of multiple research articles[Expand]LLMs ability to analyze relationships between multiple papers[StopExpand]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        38946,
+        60,
+        68015,
+        5567,
+        389,
+        7299,
+        82233,
+        6358,
+        16928,
+        315,
+        444,
+        10994,
+        82,
+        58,
+        38946,
+        60,
+        27428,
+        389,
+        304,
+        67143,
+        8654,
+        315,
+        3460,
+        4128,
+        4119,
+        58,
+        38946,
+        60,
+        11654,
+        69758,
+        15689,
+        389,
+        36438,
+        3395,
+        315,
+        5248,
+        3412,
+        9709,
+        58,
+        38946,
+        60,
+        4086,
+        21634,
+        5726,
+        311,
+        23643,
+        11871,
+        1948,
+        5248,
+        15689,
+        58,
+        10674,
+        38946,
+        60,
+        151645
+      ],
+      "generated_token_count": 56,
+      "ended_with_eos": true,
+      "input_token_count": 175,
+      "generation_seconds": 1.8878620490431786,
+      "all_parsed_queries": [],
+      "queries": [],
+      "discarded_queries": []
+    }
+  },
+  "started_utc": "2026-09-14T02:56:03.871119+00:00",
+  "search_order_first_group": "A",
+  "search_started_utc": "2026-09-14T02:56:08.423579+00:00",
+  "search_finished_utc": "2026-09-14T02:56:14.107917+00:00",
+  "search_seconds": 5.684365715831518,
+  "finished_utc": "2026-09-14T02:56:14.107933+00:00",
+  "elapsed_seconds": 10.236818879842758
+}

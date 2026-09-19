@@ -1,0 +1,110 @@
+{
+  "_id": "678a2b01f1c4b83f6a865eaa",
+  "id": "bytedance-research/pasa-7b-crawler",
+  "private": false,
+  "tags": [
+    "safetensors",
+    "qwen2",
+    "en",
+    "dataset:CarlanLark/pasa-dataset",
+    "arxiv:2501.10120",
+    "base_model:Qwen/Qwen2.5-7B-Instruct",
+    "base_model:finetune:Qwen/Qwen2.5-7B-Instruct",
+    "license:cc-by-nc-sa-4.0",
+    "region:us"
+  ],
+  "downloads": 66,
+  "likes": 16,
+  "modelId": "bytedance-research/pasa-7b-crawler",
+  "author": "bytedance-research",
+  "sha": "f287c2cc6a8c53774d833730dcc6b21de12503a6",
+  "lastModified": "2025-01-20T14:47:31.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "Qwen2ForCausalLM"
+    ],
+    "model_type": "qwen2",
+    "tokenizer_config": {
+      "bos_token": "<|im_start|>",
+      "chat_template": "{{- '<|im_start|>system\\nYou are an elite researcher in the field of AI.<|im_end|>' }}\n{%- for message in messages %}\n    {{- '\\n<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' }}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '\\n<|im_start|>assistant\\n' }}\n{%- endif %}\n",
+      "eos_token": "<|im_end|>",
+      "pad_token": "<|endoftext|>",
+      "unk_token": null
+    }
+  },
+  "cardData": {
+    "license": "cc-by-nc-sa-4.0",
+    "datasets": [
+      "CarlanLark/pasa-dataset"
+    ],
+    "base_model": [
+      "Qwen/Qwen2.5-7B-Instruct"
+    ],
+    "language": [
+      "en"
+    ],
+    "metrics": [
+      "recall",
+      "precision"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "merges.txt"
+    },
+    {
+      "rfilename": "model-00001-of-00004.safetensors"
+    },
+    {
+      "rfilename": "model-00002-of-00004.safetensors"
+    },
+    {
+      "rfilename": "model-00003-of-00004.safetensors"
+    },
+    {
+      "rfilename": "model-00004-of-00004.safetensors"
+    },
+    {
+      "rfilename": "model.safetensors.index.json"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "vocab.json"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2025-01-17T10:03:45.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 7615616512
+    },
+    "total": 7615616512
+  },
+  "usedStorage": 15242693927
+}

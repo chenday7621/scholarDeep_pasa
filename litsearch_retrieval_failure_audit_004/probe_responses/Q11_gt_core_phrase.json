@@ -1,0 +1,247 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q11",
+  "group": "author-written",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2310.04948",
+  "request_payload": {
+    "q": "tempo prompt generative pre trained transformer before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 23,
+  "started_utc": "2026-09-17T12:33:49.609681+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648155",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "1a5c17306bea31346d8c0e0b5fa81f1a",
+    "date": "Thu, 17 Sep 2026 12:29:10 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "4834",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 4834,
+  "response_bytes_sha256": "35dbedcad843fe832a344e1ac53888e07a7a619c22631446f3bd893c7061a162",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJ0ZW1wbyBwcm9tcHQgZ2VuZXJhdGl2ZSBwcmUgdHJhaW5lZCB0cmFuc2Zvcm1lciBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJURU1QTzogUHJvbXB0LWJhc2VkIEdlbmVyYXRpdmUgUHJlLXRyYWluZWQgVHJhbnNmb3JtZXIgZm9yIFRpbWUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzEwLjA0OTQ4Iiwic25pcHBldCI6IlRFTVBPIGV4cGFuZHMgdGhlIGNhcGFiaWxpdHkgZm9yIGR5bmFtaWNhbGx5IG1vZGVsaW5nIHJlYWwtd29ybGQgdGVtcG9yYWwgcGhlbm9tZW5hIGZyb20gZGF0YSB3aXRoaW4gZGl2ZXJzZSBkb21haW5zLiBPdXIgZXhwZXJpbWVudHMgZGVtb25zdHJhdGUgdGhlIHN1cGVyaW9yIC4uLiIsImRhdGUiOiJPY3QgOCwgMjAyMyIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiUHJvbXB0LWJhc2VkIEdlbmVyYXRpdmUgUHJlLXRyYWluZWQgVHJhbnNmb3JtZXIgZm9yIFRpbWUgU2VyaWVzIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTAuMDQ5NDh2MyIsInNuaXBwZXQiOiJURU1QTyBleHBhbmRzIHRoZSBjYXBhYmlsaXR5IGZvciBkeW5hbWljYWxseSBtb2RlbGluZyByZWFsLXdvcmxkIHRlbXBvcmFsIHBoZW5vbWVuYSBmcm9tIGRhdGEgd2l0aGluIGRpdmVyc2UgZG9tYWlucy4gT3VyIGV4cGVyaW1lbnRzIGRlbW9uc3RyYXRlIHRoZSBzdXBlcmlvciAuLi4iLCJkYXRlIjoiQXByIDIsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlVuaUNhc3Q6IEEgVW5pZmllZCBNdWx0aW1vZGFsIFByb21wdGluZyBGcmFtZXdvcmsgZm9yIFRpbWUgU2VyaWVzIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDguMTE5NTR2MSIsInNuaXBwZXQiOiJUZW1wbzogUHJvbXB0LWJhc2VkIGdlbmVyYXRpdmUgcHJlLXRyYWluZWQgdHJhbnNmb3JtZXIgZm9yIHRpbWUgc2VyaWVzIGZvcmVjYXN0aW5nLiAuLi4gVGltZXI6IGdlbmVyYXRpdmUgcHJlLXRyYWluZWQgdHJhbnNmb3JtZXJzIGFyZSBsYXJnZSB0aW1lIHNlcmllcyBtb2RlbHMuIiwiZGF0ZSI6IkF1ZyAxNiwgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gdGVtcG86IHByb21wdC1iYXNlZCBnZW5lcmF0aXZlIHByZS10cmFpbmVkIHRyYW5zZm9ybWVyIGZvciAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMxMC4wNDk0OCIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBtYWtlIGFuIGF0dGVtcHQgdG8gYWRkcmVzcyB0aGUgdGltZWx5IGNoYWxsZW5nZXMgb2YgYWRhcHRpbmcgbGFyZ2UgcHJlLXRyYWluZWQgbW9kZWxzIGZvciB0aW1lIHNlcmllcyBmb3JlY2FzdGluZyB0YXNrcyBhbmQgZGV2ZWxvcGluZyBhIC4uLiIsImRhdGUiOiJBcHIgMiwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiRnVzaW5nIExhcmdlIExhbmd1YWdlIE1vZGVscyB3aXRoIFRlbXBvcmFsIFRyYW5zZm9ybWVycyBmb3IgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNy4xMDA5OHYxIiwic25pcHBldCI6IlRlbXBvOiBQcm9tcHQtYmFzZWQgZ2VuZXJhdGl2ZSBwcmUtdHJhaW5lZCB0cmFuc2Zvcm1lciBmb3IgdGltZSBzZXJpZXMgZm9yZWNhc3RpbmcuIC4uLiBUaW1lcjogR2VuZXJhdGl2ZSBwcmUtdHJhaW5lZCB0cmFuc2Zvcm1lcnMgYXJlIGxhcmdlIHRpbWUgc2VyaWVzIG1vZGVscy4iLCJkYXRlIjoiSnVsIDExLCAyMDI1IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJBbiBMTE0tRHJpdmVuIEZyYW1ld29yayBmb3IgQ29udGV4dC1hd2FyZSBUaW1lIFNlcmllcyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDguMDkxOTF2MSIsInNuaXBwZXQiOiJUZW1wbzogUHJvbXB0LWJhc2VkIGdlbmVyYXRpdmUgcHJlLXRyYWluZWQgdHJhbnNmb3JtZXIgZm9yIHRpbWUgc2VyaWVzIGZvcmVjYXN0aW5nLiBhclhpdiBwcmVwcmludCBhclhpdjoyMzEwLjA0OTQ4LiBDaGFsbHUgZXQgYWwuICgyMDIzKSBDaGFsbHUsIEMgLi4uIiwiZGF0ZSI6IkF1ZyA4LCAyMDI1IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJUaW1lRGlUOiBHZW5lcmFsLXB1cnBvc2UgRGlmZnVzaW9uIFRyYW5zZm9ybWVycyBmb3IgVGltZSBTZXJpZXMgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOS4wMjMyMnYxIiwic25pcHBldCI6IlBmaXN0ZXIsIFkuIFpoZW5nLCBXLiBZZSwgYW5kIFkuIExpdS4gVGVtcG86IFByb21wdC1iYXNlZCBnZW5lcmF0aXZlIHByZS10cmFpbmVkIHRyYW5zZm9ybWVyIGZvciB0aW1lIHNlcmllcyBmb3JlY2FzdGluZy4iLCJkYXRlIjoiU2VwIDMsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkVtcG93ZXJpbmcgVGltZSBTZXJpZXMgQW5hbHlzaXMgd2l0aCBGb3VuZGF0aW9uIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4wMjM1OHYzIiwic25pcHBldCI6IkxpdSwg4oCcVGVtcG86IFByb21wdC1iYXNlZCBnZW5lcmF0aXZlIHByZS10cmFpbmVkIHRyYW5zZm9ybWVyIGZvciB0aW1lIHNlcmllcyBmb3JlY2FzdGluZyzigJ0gaW4gVGhlIFR3ZWxmdGggSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIExlYXJuaW5nIFJlcHJlc2VudGF0aW9ucywgLi4uIiwiZGF0ZSI6IlNlcCAxNiwgMjAyNSIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiJJaSBCYWNrZ3JvdW5kIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4wMjM1OHYzIzp+OnRleHQ9Li0sSUklMjBCYWNrZ3JvdW5kIn0seyJ0aXRsZSI6IklpaS1BIFByZS1UcmFpbmluZyBDb3JwdXMuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjAyMzU4djMjOn46dGV4dD1JSUklMkRBJTIwUHJlJTJEdHJhaW5pbmclMjBDb3JwdXMlMjBDb25zdHJ1Y3Rpb24sLVByZSUyRHRyYWluaW5nJTIwZm91bmRhdGlvbiUyMG1vZGVscyUyMGZvciUyMHRpbWUifSx7InRpdGxlIjoiSXYtQSBUaW1lIFNlcmllcyBJbnB1dC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMDIzNTh2MyM6fjp0ZXh0PUlWJTJEQSUyMFRpbWUlMjBTZXJpZXMlMjBJbnB1dCUyMEVuY29kaW5nLC1UaW1lJTIwc2VyaWVzJTIwaW5wdXQlMjBlbmNvZGluZyUyMGNhbiJ9XSwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJBIEdQVC1iYXNlZCBGb3VuZGF0aW9uIE1vZGVsIGZvciBQaG90b3BsZXRoeXNtb2dyYXBoeSBTaWduYWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMy4wODAxNXYxIiwic25pcHBldCI6IlRoaXMgc3R1ZHkgaW50cm9kdWNlcyBhIG5vdmVsIGFwcGxpY2F0aW9uIG9mIGEgR2VuZXJhdGl2ZSBQcmUtdHJhaW5lZCBUcmFuc2Zvcm1lciAoR1BUKSBtb2RlbCB0YWlsb3JlZCBmb3IgcGhvdG9wbGV0aHlzbW9ncmFwaHkgKFBQRykgc2lnbmFscywgLi4uIiwiZGF0ZSI6Ik1hciAxMSwgMjAyNSIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiJHcHQtUHBnOiBBIEdwdC1CYXNlZC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDMuMDgwMTV2MSM6fjp0ZXh0PUdQVCUyRFBQRyUzQSUyMEElMjBHUFQlMkRiYXNlZCUyMEZvdW5kYXRpb24lMjBNb2RlbCUyMGZvciUyMFBob3RvcGxldGh5c21vZ3JhcGh5JTIwU2lnbmFscywtWmhhb2xpYW5nJTIwQ2hlbiUyMENoZW5nJTIwRGluZyUyMFNhdXJhYmgifSx7InRpdGxlIjoiMiBNZXRob2QiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAzLjA4MDE1djEjOn46dGV4dD0uLSwyJTIwTWV0aG9kIn0seyJ0aXRsZSI6IjMgRXhwZXJpbWVudHMgQW5kIFJlc3VsdHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAzLjA4MDE1djEjOn46dGV4dD0zJTIwRXhwZXJpbWVudHMlMjBhbmQlMjBSZXN1bHRzLC1IZXJlJTIwd2UlMjBwcmVzZW50JTIwZmluZSUyRCJ9XSwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJGZWRlcmF0ZWQgRm91bmRhdGlvbiBNb2RlbHMgb24gSGV0ZXJvZ2VuZW91cyBUaW1lIFNlcmllcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMi4wODkwNnYxIiwic25pcHBldCI6IlByZS10cmFpbmVkIG1vZGVscyBoYXZlIGV2b2x2ZWQgaW50byBsYXJnZSBmb3VuZGF0aW9uIG1vZGVscyAuLi4gVGVtcG86IFByb21wdC1iYXNlZCBnZW5lcmF0aXZlIHByZS10cmFpbmVkIHRyYW5zZm9ybWVyIGZvciB0aW1lIHNlcmllcyBmb3JlY2FzdGluZy4iLCJkYXRlIjoiRGVjIDEyLCAyMDI0Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IkZmdHM6IE1vZGVsIEFyY2hpdGVjdHVyZSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTIuMDg5MDZ2MSM6fjp0ZXh0PUZGVFMlM0ElMjBNb2RlbCUyMEFyY2hpdGVjdHVyZSwtQXMlMjBzaG93biUyMGluJTIwRmlnLiJ9LHsidGl0bGUiOiJGZnRzOiBPcHRpbWl6YXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDEyLjA4OTA2djEjOn46dGV4dD1GRlRTJTNBJTIwT3B0aW1pemF0aW9uLC1UaGlzJTIwc2VjdGlvbiUyMGludHJvZHVjZXMlMjB0aGUlMjBvcHRpbWl6YXRpb24ifSx7InRpdGxlIjoiRXhwZXJpbWVudHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDEyLjA4OTA2djEjOn46dGV4dD1FeHBlcmltZW50cywtVGhpcyUyMHNlY3Rpb24lMjBwcmVzZW50cyUyMG91ciUyMG1haW4ifV0sInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "tempo prompt generative pre trained transformer before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "TEMPO: Prompt-based Generative Pre-trained Transformer for Time ...",
+        "link": "https://arxiv.org/abs/2310.04948",
+        "snippet": "TEMPO expands the capability for dynamically modeling real-world temporal phenomena from data within diverse domains. Our experiments demonstrate the superior ...",
+        "date": "Oct 8, 2023",
+        "position": 1
+      },
+      {
+        "title": "Prompt-based Generative Pre-trained Transformer for Time Series ...",
+        "link": "https://arxiv.org/html/2310.04948v3",
+        "snippet": "TEMPO expands the capability for dynamically modeling real-world temporal phenomena from data within diverse domains. Our experiments demonstrate the superior ...",
+        "date": "Apr 2, 2024",
+        "position": 2
+      },
+      {
+        "title": "UniCast: A Unified Multimodal Prompting Framework for Time Series ...",
+        "link": "https://arxiv.org/html/2508.11954v1",
+        "snippet": "Tempo: Prompt-based generative pre-trained transformer for time series forecasting. ... Timer: generative pre-trained transformers are large time series models.",
+        "date": "Aug 16, 2025",
+        "position": 3
+      },
+      {
+        "title": "[PDF] tempo: prompt-based generative pre-trained transformer for ... - arXiv",
+        "link": "https://arxiv.org/pdf/2310.04948",
+        "snippet": "In this paper, we make an attempt to address the timely challenges of adapting large pre-trained models for time series forecasting tasks and developing a ...",
+        "date": "Apr 2, 2024",
+        "position": 4
+      },
+      {
+        "title": "Fusing Large Language Models with Temporal Transformers for ...",
+        "link": "https://arxiv.org/html/2507.10098v1",
+        "snippet": "Tempo: Prompt-based generative pre-trained transformer for time series forecasting. ... Timer: Generative pre-trained transformers are large time series models.",
+        "date": "Jul 11, 2025",
+        "position": 5
+      },
+      {
+        "title": "An LLM-Driven Framework for Context-aware Time Series ... - arXiv",
+        "link": "https://arxiv.org/html/2508.09191v1",
+        "snippet": "Tempo: Prompt-based generative pre-trained transformer for time series forecasting. arXiv preprint arXiv:2310.04948. Challu et al. (2023) Challu, C ...",
+        "date": "Aug 8, 2025",
+        "position": 6
+      },
+      {
+        "title": "TimeDiT: General-purpose Diffusion Transformers for Time Series ...",
+        "link": "https://arxiv.org/html/2409.02322v1",
+        "snippet": "Pfister, Y. Zheng, W. Ye, and Y. Liu. Tempo: Prompt-based generative pre-trained transformer for time series forecasting.",
+        "date": "Sep 3, 2024",
+        "position": 7
+      },
+      {
+        "title": "Empowering Time Series Analysis with Foundation Models - arXiv",
+        "link": "https://arxiv.org/html/2405.02358v3",
+        "snippet": "Liu, “Tempo: Prompt-based generative pre-trained transformer for time series forecasting,” in The Twelfth International Conference on Learning Representations, ...",
+        "date": "Sep 16, 2025",
+        "sitelinks": [
+          {
+            "title": "Ii Background",
+            "link": "https://arxiv.org/html/2405.02358v3#:~:text=.-,II%20Background"
+          },
+          {
+            "title": "Iii-A Pre-Training Corpus...",
+            "link": "https://arxiv.org/html/2405.02358v3#:~:text=III%2DA%20Pre%2Dtraining%20Corpus%20Construction,-Pre%2Dtraining%20foundation%20models%20for%20time"
+          },
+          {
+            "title": "Iv-A Time Series Input...",
+            "link": "https://arxiv.org/html/2405.02358v3#:~:text=IV%2DA%20Time%20Series%20Input%20Encoding,-Time%20series%20input%20encoding%20can"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "A GPT-based Foundation Model for Photoplethysmography Signals",
+        "link": "https://arxiv.org/html/2503.08015v1",
+        "snippet": "This study introduces a novel application of a Generative Pre-trained Transformer (GPT) model tailored for photoplethysmography (PPG) signals, ...",
+        "date": "Mar 11, 2025",
+        "sitelinks": [
+          {
+            "title": "Gpt-Ppg: A Gpt-Based...",
+            "link": "https://arxiv.org/html/2503.08015v1#:~:text=GPT%2DPPG%3A%20A%20GPT%2Dbased%20Foundation%20Model%20for%20Photoplethysmography%20Signals,-Zhaoliang%20Chen%20Cheng%20Ding%20Saurabh"
+          },
+          {
+            "title": "2 Method",
+            "link": "https://arxiv.org/html/2503.08015v1#:~:text=.-,2%20Method"
+          },
+          {
+            "title": "3 Experiments And Results",
+            "link": "https://arxiv.org/html/2503.08015v1#:~:text=3%20Experiments%20and%20Results,-Here%20we%20present%20fine%2D"
+          }
+        ],
+        "position": 9
+      },
+      {
+        "title": "Federated Foundation Models on Heterogeneous Time Series - arXiv",
+        "link": "https://arxiv.org/html/2412.08906v1",
+        "snippet": "Pre-trained models have evolved into large foundation models ... Tempo: Prompt-based generative pre-trained transformer for time series forecasting.",
+        "date": "Dec 12, 2024",
+        "sitelinks": [
+          {
+            "title": "Ffts: Model Architecture",
+            "link": "https://arxiv.org/html/2412.08906v1#:~:text=FFTS%3A%20Model%20Architecture,-As%20shown%20in%20Fig."
+          },
+          {
+            "title": "Ffts: Optimization",
+            "link": "https://arxiv.org/html/2412.08906v1#:~:text=FFTS%3A%20Optimization,-This%20section%20introduces%20the%20optimization"
+          },
+          {
+            "title": "Experiments",
+            "link": "https://arxiv.org/html/2412.08906v1#:~:text=Experiments,-This%20section%20presents%20our%20main"
+          }
+        ],
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "TEMPO: Prompt-based Generative Pre-trained Transformer for Time ...",
+      "snippet": "TEMPO expands the capability for dynamically modeling real-world temporal phenomena from data within diverse domains. Our experiments demonstrate the superior ...",
+      "link": "https://arxiv.org/abs/2310.04948",
+      "arxiv_id": "2310.04948"
+    },
+    {
+      "rank": 2,
+      "title": "Prompt-based Generative Pre-trained Transformer for Time Series ...",
+      "snippet": "TEMPO expands the capability for dynamically modeling real-world temporal phenomena from data within diverse domains. Our experiments demonstrate the superior ...",
+      "link": "https://arxiv.org/html/2310.04948v3",
+      "arxiv_id": "2310.04948"
+    },
+    {
+      "rank": 3,
+      "title": "UniCast: A Unified Multimodal Prompting Framework for Time Series ...",
+      "snippet": "Tempo: Prompt-based generative pre-trained transformer for time series forecasting. ... Timer: generative pre-trained transformers are large time series models.",
+      "link": "https://arxiv.org/html/2508.11954v1",
+      "arxiv_id": "2508.11954"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] tempo: prompt-based generative pre-trained transformer for ... - arXiv",
+      "snippet": "In this paper, we make an attempt to address the timely challenges of adapting large pre-trained models for time series forecasting tasks and developing a ...",
+      "link": "https://arxiv.org/pdf/2310.04948",
+      "arxiv_id": "2310.04948"
+    },
+    {
+      "rank": 5,
+      "title": "Fusing Large Language Models with Temporal Transformers for ...",
+      "snippet": "Tempo: Prompt-based generative pre-trained transformer for time series forecasting. ... Timer: Generative pre-trained transformers are large time series models.",
+      "link": "https://arxiv.org/html/2507.10098v1",
+      "arxiv_id": "2507.10098"
+    },
+    {
+      "rank": 6,
+      "title": "An LLM-Driven Framework for Context-aware Time Series ... - arXiv",
+      "snippet": "Tempo: Prompt-based generative pre-trained transformer for time series forecasting. arXiv preprint arXiv:2310.04948. Challu et al. (2023) Challu, C ...",
+      "link": "https://arxiv.org/html/2508.09191v1",
+      "arxiv_id": "2508.09191"
+    },
+    {
+      "rank": 7,
+      "title": "TimeDiT: General-purpose Diffusion Transformers for Time Series ...",
+      "snippet": "Pfister, Y. Zheng, W. Ye, and Y. Liu. Tempo: Prompt-based generative pre-trained transformer for time series forecasting.",
+      "link": "https://arxiv.org/html/2409.02322v1",
+      "arxiv_id": "2409.02322"
+    },
+    {
+      "rank": 8,
+      "title": "Empowering Time Series Analysis with Foundation Models - arXiv",
+      "snippet": "Liu, “Tempo: Prompt-based generative pre-trained transformer for time series forecasting,” in The Twelfth International Conference on Learning Representations, ...",
+      "link": "https://arxiv.org/html/2405.02358v3",
+      "arxiv_id": "2405.02358"
+    },
+    {
+      "rank": 9,
+      "title": "A GPT-based Foundation Model for Photoplethysmography Signals",
+      "snippet": "This study introduces a novel application of a Generative Pre-trained Transformer (GPT) model tailored for photoplethysmography (PPG) signals, ...",
+      "link": "https://arxiv.org/html/2503.08015v1",
+      "arxiv_id": "2503.08015"
+    },
+    {
+      "rank": 10,
+      "title": "Federated Foundation Models on Heterogeneous Time Series - arXiv",
+      "snippet": "Pre-trained models have evolved into large foundation models ... Tempo: Prompt-based generative pre-trained transformer for time series forecasting.",
+      "link": "https://arxiv.org/html/2412.08906v1",
+      "arxiv_id": "2412.08906"
+    }
+  ],
+  "gold_hit_ranks": [
+    1,
+    2,
+    4
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:50.528197+00:00",
+  "elapsed_seconds": 0.9185184724628925,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q11_gt_core_phrase_attempt1.json",
+      "sha256": "61f6160266436a2598302078083180d000af3d720091e1d95293e49ccd3086db",
+      "status": "PASS"
+    }
+  ]
+}

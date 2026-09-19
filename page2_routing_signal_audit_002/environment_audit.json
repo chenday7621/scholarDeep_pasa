@@ -1,0 +1,82 @@
+{
+  "access": {
+    "denied_attempts": [],
+    "model_imports_blocked": true,
+    "network_and_subprocess_blocked": true,
+    "read_paths": [
+      "/mnt/nvme3/chenyi/pasa/checkpoints/pasa-7b-crawler/config.json",
+      "/mnt/nvme3/chenyi/pasa/checkpoints/pasa-7b-selector/config.json"
+    ]
+  },
+  "cache_overrides": {
+    "HF_HOME": null,
+    "HUGGINGFACE_HUB_CACHE": null,
+    "SENTENCE_TRANSFORMERS_HOME": null,
+    "TORCH_HOME": null,
+    "TRANSFORMERS_CACHE": null
+  },
+  "checked_roots": [
+    {
+      "exists": true,
+      "metadata_paths": [],
+      "root": "/home/chenyi/.cache/huggingface/hub"
+    },
+    {
+      "exists": false,
+      "metadata_paths": [],
+      "root": "/home/chenyi/.cache/torch"
+    },
+    {
+      "exists": true,
+      "metadata_paths": [],
+      "root": "/mnt/nvme3/chenyi/hf-cache/hub"
+    },
+    {
+      "exists": true,
+      "metadata_paths": [],
+      "root": "/mnt/nvme3/chenyi/cache/huggingface"
+    },
+    {
+      "exists": true,
+      "metadata_paths": [
+        "/mnt/nvme3/chenyi/pasa/checkpoints/pasa-7b-crawler/config.json",
+        "/mnt/nvme3/chenyi/pasa/checkpoints/pasa-7b-selector/config.json"
+      ],
+      "root": "/mnt/nvme3/chenyi/pasa/checkpoints"
+    }
+  ],
+  "executable": "/mnt/nvme3/chenyi/conda-envs/pasa/bin/python",
+  "model_calls": 0,
+  "model_loads": 0,
+  "model_metadata": [
+    {
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "model_type": "qwen2",
+      "path": "/mnt/nvme3/chenyi/pasa/checkpoints/pasa-7b-crawler/config.json",
+      "sha256": "9baabfeba8888dca1b1161c93f7b03efd3da37ca7600eca6a3a93d79d0958e0c"
+    },
+    {
+      "architectures": [
+        "Qwen2ForCausalLM"
+      ],
+      "model_type": "qwen2",
+      "path": "/mnt/nvme3/chenyi/pasa/checkpoints/pasa-7b-selector/config.json",
+      "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c"
+    }
+  ],
+  "network_requests": 0,
+  "package_versions": {
+    "numpy": "2.2.6",
+    "scikit-learn": null,
+    "scipy": null,
+    "sentence-transformers": null,
+    "torch": "2.5.1+cu124",
+    "transformers": "4.47.0.dev0"
+  },
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "reason": "Only PaSa Crawler/Selector causal-LM checkpoints found; no sentence embedding checkpoint. No model is loaded or repurposed.",
+  "scope_limit": "Checked project/user model locations, not other users or every system filesystem.",
+  "semantic_embedding_status": "unavailable_in_checked_project_and_user_caches"
+}

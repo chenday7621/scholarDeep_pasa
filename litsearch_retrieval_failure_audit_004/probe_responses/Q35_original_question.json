@@ -1,0 +1,215 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q35",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2011.08067",
+  "request_payload": {
+    "q": "Could you suggest research that investigates how hierarchical structures within transformers enhance task-oriented dialogue systems? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 75,
+  "started_utc": "2026-09-17T12:34:50.025514+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648215",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "6181ca257102591aae113aadfb0dd953",
+    "date": "Thu, 17 Sep 2026 12:30:11 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "4087",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 4087,
+  "response_bytes_sha256": "b9db8303700f1229d360861d77509307113e60fd45ca16345cec59f238a06dbd",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb3VsZCB5b3Ugc3VnZ2VzdCByZXNlYXJjaCB0aGF0IGludmVzdGlnYXRlcyBob3cgaGllcmFyY2hpY2FsIHN0cnVjdHVyZXMgd2l0aGluIHRyYW5zZm9ybWVycyBlbmhhbmNlIHRhc2stb3JpZW50ZWQgZGlhbG9ndWUgc3lzdGVtcz8gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiRW5kLXRvLWVuZCBUYXNrLW9yaWVudGVkIERpYWxvZ3VlOiBBIFN1cnZleSBvZiBUYXNrcywgTWV0aG9kcyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjA5MDA4djEiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgcHJlc2VudCBhIHRob3JvdWdoIHJldmlldyBhbmQgcHJvdmlkZSBhIHVuaWZpZWQgcGVyc3BlY3RpdmUgdG8gc3VtbWFyaXplIGV4aXN0aW5nIGFwcHJvYWNoZXMgYXMgd2VsbCBhcyByZWNlbnQgdHJlbmRzIHRvIGFkdmFuY2UgdGhlIC4uLiIsImRhdGUiOiJOb3YgMTUsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkFuIEVtcGlyaWNhbCBTdHVkeSBvZiBNdWx0aXRhc2sgTGVhcm5pbmcgdG8gSW1wcm92ZSBPcGVuIERvbWFpbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA0LjA4MTE1djEiLCJzbmlwcGV0IjoiUHJldmlvdXMgcmVzZWFyY2ggaW4gb3Blbi1kb21haW4gZGlhbG9ndWUgZ2VuZXJhdGlvbiBoYXMgc2hvd24gdGhhdCB0aGUgdXNlIG9mIGF1eGlsaWFyeSB0YXNrcyBjYW4gaW50cm9kdWNlIGluZHVjdGl2ZSBiaWFzZXMgdGhhdCBlbmNvdXJhZ2UgdGhlIG1vZGVsIHRvIC4uLiIsImRhdGUiOiJBcHIgMTcsIDIwMjMiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlRyYW5zZm9ybWVycyBpbiBTcGVlY2ggUHJvY2Vzc2luZzogQSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDMuMTE2MDd2MiIsInNuaXBwZXQiOiJSZWNlbnRseSwgdHJhbnNmb3JtZXJzIGhhdmUgZ2FpbmVkIHByb21pbmVuY2UgYWNyb3NzIHZhcmlvdXMgc3BlZWNoLXJlbGF0ZWQgZG9tYWlucywgaW5jbHVkaW5nIGF1dG9tYXRpYyBzcGVlY2ggcmVjb2duaXRpb24sIHNwZWVjaCBzeW50aGVzaXMsIHNwZWVjaCAuLi4iLCJkYXRlIjoiSnVuIDQsIDIwMjUiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkF1Z21lbnRpbmcgVGFzay1PcmllbnRlZCBEaWFsb2d1ZSBTeXN0ZW1zIHdpdGggUmVsYXRpb24gRXh0cmFjdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMTAuMTMzNDR2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyIHdlIHByb3Bvc2UgdGhlIGFkZGl0aW9uIG9mIGEgcmVsYXRpb24gZXh0cmFjdGlvbiBtb2RlbCB0byB0aGUgTkxVIHBpcGVsaW5lIGluIG1vZHVsYXIgdGFzay1vcmllbnRlZCBkaWFsb2d1ZSBzeXN0ZW1zLiBBcyBwYXJ0IG9mIGV2YWx1YXRpbmcgLi4uIiwiZGF0ZSI6Ik9jdCAyNCwgMjAyMiIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiSW1wcm92aW5nIE1hdGNoaW5nIE1vZGVscyB3aXRoIEhpZXJhcmNoaWNhbCBDb250ZXh0dWFsaXplZCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE4MDguMDcyNDR2MiIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBzdHVkeSBjb250ZXh0LXJlc3BvbnNlIG1hdGNoaW5nIHdpdGggcHJlLXRyYWluZWQgY29udGV4dHVhbGl6ZWQgcmVwcmVzZW50YXRpb25zIGZvciBtdWx0aS10dXJuIHJlc3BvbnNlIHNlbGVjdGlvbiBpbiByZXRyaWV2YWwtYmFzZWQgY2hhdGJvdHMuIiwiZGF0ZSI6Ikp1biA0LCAyMDE5IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbMjEwNi4wODU1Nl0gQ29yZWZlcmVuY2UtQXdhcmUgRGlhbG9ndWUgU3VtbWFyaXphdGlvbiAtIGFyNWl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMTA2LjA4NTU2Iiwic25pcHBldCI6IkluIHRoaXMgc2VjdGlvbiwgd2UgYWRvcHQgYSBuZXVyYWwgbW9kZWwgZm9yIGFic3RyYWN0aXZlIGRpYWxvZ3VlIHN1bW1hcml6YXRpb24sIGFuZCBpbnZlc3RpZ2F0ZSB2YXJpb3VzIG1ldGhvZHMgdG8gZW5oYW5jZSBpdCB3aXRoIHRoZSBjb3JlZmVyZW5jZSBpbmZvcm1hdGlvbiAuLi4iLCJkYXRlIjoiSnVuIDE3LCAyMDIxIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJDb250ZXh0dWFsaXplIEtub3dsZWRnZSBCYXNlcyB3aXRoIFRyYW5zZm9ybWVyIGZvciBFbmQtdG8gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMDEwLjA1NzQwdjQiLCJzbmlwcGV0IjoiSW5jb3Jwb3JhdGluZyBrbm93bGVkZ2UgYmFzZXMgKEtCKSBpbnRvIGVuZC10by1lbmQgdGFzay1vcmllbnRlZCBkaWFsb2d1ZSBzeXN0ZW1zIGlzIGNoYWxsZW5naW5nLCBzaW5jZSBpdCByZXF1aXJlcyB0byBwcm9wZXJseSByZXByZXNlbnQgdGhlIGVudGl0eSBvZiBLQiwgLi4uIiwiZGF0ZSI6IlNlcCAyOSwgMjAyMSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiSW5zdHJ1Y3RpbmcgSGllcmFyY2hpY2FsIFRhc2tzIHRvIFJvYm90cyBieSBWZXJiYWwgQ29tbWFuZHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMTgzMjl2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIHByZXNlbnQgYSBmcmFtZXdvcmsgZm9yIHZlcmJhbCBjb21tYW5kcyBhcyB0b29sIHRvIGluc3RydWN0IHRhc2tzIHRvIHJvYm90cywgaW5jbHVkaW5nIGF1dG9tYXRpYyBzcGVlY2ggcmVjb2duaXRpb24gYW5kIHRoZSBncm91bmRpbmcgb2YgLi4uIiwiZGF0ZSI6Ik5vdiAzMCwgMjAyMyIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiJJaWktRCBSb2JvdCBDb250cm9sLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMS4xODMyOXYxIzp+OnRleHQ9SUlJJTJERCUyMFJvYm90JTIwQ29udHJvbCUyMEFyY2hpdGVjdHVyZSwtUmVwb3J0JTIwaXNzdWUlMjBmb3IlMjBwcmVjZWRpbmclMjBlbGVtZW50In0seyJ0aXRsZSI6Ikl2IFJlc3VsdHMgQW5kIERpc2N1c3Npb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjE4MzI5djEjOn46dGV4dD1JViUyMFJlc3VsdHMlMjBhbmQlMjBEaXNjdXNzaW9uLC1SZXBvcnQlMjBpc3N1ZSUyMGZvciUyMHByZWNlZGluZyUyMGVsZW1lbnQifSx7InRpdGxlIjoiSXYtRCBIaWVyYXJjaGljYWwgVGFza3MiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjE4MzI5djEjOn46dGV4dD1JViUyREQlMjBIaWVyYXJjaGljYWwlMjB0YXNrcywtUmVwb3J0JTIwaXNzdWUlMjBmb3IlMjBwcmVjZWRpbmclMjBlbGVtZW50In1dLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IlVuaWZ5aW5nIExhcmdlIExhbmd1YWdlIE1vZGVscyBhbmQgS25vd2xlZGdlIEdyYXBocyAtIGFyNWl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMzA2LjA4MzAyIiwic25pcHBldCI6IkxMTXMgY2FuIGJlIGFwcGxpZWQgdG8gYXVnbWVudCB2YXJpb3VzIEtHLXJlbGF0ZWQgdGFza3MuIFdlIGNhdGVnb3JpemUgdGhlIHJlc2VhcmNoIG9uIExMTS1hdWdtZW50ZWQgS0dzIGludG8gZml2ZSBncm91cHMgYmFzZWQgb24gdGhlIHRhc2sgdHlwZXM6IDEuIExMTSAuLi4iLCJkYXRlIjoiSnVuIDE1LCAyMDIzIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBQcm9ncmFtbWluZyBieSBFeGFtcGxlIGFuZCBUZXh0LXRvLUNvZGUgVHJhbnNsYXRpb24gZm9yIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjExLjExNTU0Iiwic25pcHBldCI6IldlIHByb3Bvc2UgTW9kdWxhciBQcm9ncmFtcyBmb3IgVGV4dC1ndWlkZWQgSGllcmFyY2hpY2FsIFN5bi0gdGhlc2lzIChNUGFUSFMpLCBhIG1ldGhvZCBmb3IgaW50ZWdyYXRpbmcgUHJvZ3JhbW1pbmcgYnkgRXhhbXBsZSBhbmQgdGV4dC10by1jb2RlIHN5c3RlbXMgd2hpY2ggLi4uIiwiZGF0ZSI6IkphbiAxOSwgMjAyMyIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Could you suggest research that investigates how hierarchical structures within transformers enhance task-oriented dialogue systems? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "End-to-end Task-oriented Dialogue: A Survey of Tasks, Methods ...",
+        "link": "https://arxiv.org/html/2311.09008v1",
+        "snippet": "In this paper, we present a thorough review and provide a unified perspective to summarize existing approaches as well as recent trends to advance the ...",
+        "date": "Nov 15, 2023",
+        "position": 1
+      },
+      {
+        "title": "An Empirical Study of Multitask Learning to Improve Open Domain ...",
+        "link": "https://arxiv.org/html/2304.08115v1",
+        "snippet": "Previous research in open-domain dialogue generation has shown that the use of auxiliary tasks can introduce inductive biases that encourage the model to ...",
+        "date": "Apr 17, 2023",
+        "position": 2
+      },
+      {
+        "title": "Transformers in Speech Processing: A Survey - arXiv",
+        "link": "https://arxiv.org/html/2303.11607v2",
+        "snippet": "Recently, transformers have gained prominence across various speech-related domains, including automatic speech recognition, speech synthesis, speech ...",
+        "date": "Jun 4, 2025",
+        "position": 3
+      },
+      {
+        "title": "Augmenting Task-Oriented Dialogue Systems with Relation Extraction",
+        "link": "https://arxiv.org/html/2210.13344v1",
+        "snippet": "In this paper we propose the addition of a relation extraction model to the NLU pipeline in modular task-oriented dialogue systems. As part of evaluating ...",
+        "date": "Oct 24, 2022",
+        "position": 4
+      },
+      {
+        "title": "Improving Matching Models with Hierarchical Contextualized ... - arXiv",
+        "link": "https://arxiv.org/html/1808.07244v2",
+        "snippet": "In this paper, we study context-response matching with pre-trained contextualized representations for multi-turn response selection in retrieval-based chatbots.",
+        "date": "Jun 4, 2019",
+        "position": 5
+      },
+      {
+        "title": "[2106.08556] Coreference-Aware Dialogue Summarization - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2106.08556",
+        "snippet": "In this section, we adopt a neural model for abstractive dialogue summarization, and investigate various methods to enhance it with the coreference information ...",
+        "date": "Jun 17, 2021",
+        "position": 6
+      },
+      {
+        "title": "Contextualize Knowledge Bases with Transformer for End-to ... - arXiv",
+        "link": "https://arxiv.org/html/2010.05740v4",
+        "snippet": "Incorporating knowledge bases (KB) into end-to-end task-oriented dialogue systems is challenging, since it requires to properly represent the entity of KB, ...",
+        "date": "Sep 29, 2021",
+        "position": 7
+      },
+      {
+        "title": "Instructing Hierarchical Tasks to Robots by Verbal Commands - arXiv",
+        "link": "https://arxiv.org/html/2311.18329v1",
+        "snippet": "In this work, we present a framework for verbal commands as tool to instruct tasks to robots, including automatic speech recognition and the grounding of ...",
+        "date": "Nov 30, 2023",
+        "sitelinks": [
+          {
+            "title": "Iii-D Robot Control...",
+            "link": "https://arxiv.org/html/2311.18329v1#:~:text=III%2DD%20Robot%20Control%20Architecture,-Report%20issue%20for%20preceding%20element"
+          },
+          {
+            "title": "Iv Results And Discussion",
+            "link": "https://arxiv.org/html/2311.18329v1#:~:text=IV%20Results%20and%20Discussion,-Report%20issue%20for%20preceding%20element"
+          },
+          {
+            "title": "Iv-D Hierarchical Tasks",
+            "link": "https://arxiv.org/html/2311.18329v1#:~:text=IV%2DD%20Hierarchical%20tasks,-Report%20issue%20for%20preceding%20element"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "Unifying Large Language Models and Knowledge Graphs - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2306.08302",
+        "snippet": "LLMs can be applied to augment various KG-related tasks. We categorize the research on LLM-augmented KGs into five groups based on the task types: 1. LLM ...",
+        "date": "Jun 15, 2023",
+        "position": 9
+      },
+      {
+        "title": "[PDF] Programming by Example and Text-to-Code Translation for ... - arXiv",
+        "link": "https://arxiv.org/pdf/2211.11554",
+        "snippet": "We propose Modular Programs for Text-guided Hierarchical Syn- thesis (MPaTHS), a method for integrating Programming by Example and text-to-code systems which ...",
+        "date": "Jan 19, 2023",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "End-to-end Task-oriented Dialogue: A Survey of Tasks, Methods ...",
+      "snippet": "In this paper, we present a thorough review and provide a unified perspective to summarize existing approaches as well as recent trends to advance the ...",
+      "link": "https://arxiv.org/html/2311.09008v1",
+      "arxiv_id": "2311.09008"
+    },
+    {
+      "rank": 2,
+      "title": "An Empirical Study of Multitask Learning to Improve Open Domain ...",
+      "snippet": "Previous research in open-domain dialogue generation has shown that the use of auxiliary tasks can introduce inductive biases that encourage the model to ...",
+      "link": "https://arxiv.org/html/2304.08115v1",
+      "arxiv_id": "2304.08115"
+    },
+    {
+      "rank": 3,
+      "title": "Transformers in Speech Processing: A Survey - arXiv",
+      "snippet": "Recently, transformers have gained prominence across various speech-related domains, including automatic speech recognition, speech synthesis, speech ...",
+      "link": "https://arxiv.org/html/2303.11607v2",
+      "arxiv_id": "2303.11607"
+    },
+    {
+      "rank": 4,
+      "title": "Augmenting Task-Oriented Dialogue Systems with Relation Extraction",
+      "snippet": "In this paper we propose the addition of a relation extraction model to the NLU pipeline in modular task-oriented dialogue systems. As part of evaluating ...",
+      "link": "https://arxiv.org/html/2210.13344v1",
+      "arxiv_id": "2210.13344"
+    },
+    {
+      "rank": 5,
+      "title": "Improving Matching Models with Hierarchical Contextualized ... - arXiv",
+      "snippet": "In this paper, we study context-response matching with pre-trained contextualized representations for multi-turn response selection in retrieval-based chatbots.",
+      "link": "https://arxiv.org/html/1808.07244v2",
+      "arxiv_id": "1808.07244"
+    },
+    {
+      "rank": 6,
+      "title": "[2106.08556] Coreference-Aware Dialogue Summarization - ar5iv",
+      "snippet": "In this section, we adopt a neural model for abstractive dialogue summarization, and investigate various methods to enhance it with the coreference information ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2106.08556",
+      "arxiv_id": "2106.08556"
+    },
+    {
+      "rank": 7,
+      "title": "Contextualize Knowledge Bases with Transformer for End-to ... - arXiv",
+      "snippet": "Incorporating knowledge bases (KB) into end-to-end task-oriented dialogue systems is challenging, since it requires to properly represent the entity of KB, ...",
+      "link": "https://arxiv.org/html/2010.05740v4",
+      "arxiv_id": "2010.05740"
+    },
+    {
+      "rank": 8,
+      "title": "Instructing Hierarchical Tasks to Robots by Verbal Commands - arXiv",
+      "snippet": "In this work, we present a framework for verbal commands as tool to instruct tasks to robots, including automatic speech recognition and the grounding of ...",
+      "link": "https://arxiv.org/html/2311.18329v1",
+      "arxiv_id": "2311.18329"
+    },
+    {
+      "rank": 9,
+      "title": "Unifying Large Language Models and Knowledge Graphs - ar5iv",
+      "snippet": "LLMs can be applied to augment various KG-related tasks. We categorize the research on LLM-augmented KGs into five groups based on the task types: 1. LLM ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2306.08302",
+      "arxiv_id": "2306.08302"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] Programming by Example and Text-to-Code Translation for ... - arXiv",
+      "snippet": "We propose Modular Programs for Text-guided Hierarchical Syn- thesis (MPaTHS), a method for integrating Programming by Example and text-to-code systems which ...",
+      "link": "https://arxiv.org/pdf/2211.11554",
+      "arxiv_id": "2211.11554"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:50.984940+00:00",
+  "elapsed_seconds": 0.9594261907041073,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q35_original_question_attempt1.json",
+      "sha256": "3a0ea54a1edf85f3e913b41e0af71219f1eb53472ec572e2984873c640225e74",
+      "status": "PASS"
+    }
+  ]
+}

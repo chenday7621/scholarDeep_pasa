@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q15",
+  "group": "author-written",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2305.13077",
+  "request_payload": {
+    "q": "ControlVideo: Training-free Controllable Text-to-Video Generation before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 31,
+  "started_utc": "2026-09-17T12:33:58.411244+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648160",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "dc0473e0a5c3adea6d8c0e0b5fa8155a",
+    "date": "Thu, 17 Sep 2026 12:29:19 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3380",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3380,
+  "response_bytes_sha256": "b2b49c5ee52c10a95ff2946387dd107135b4c800fe55ed1f7902500f7f239979",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb250cm9sVmlkZW86IFRyYWluaW5nLWZyZWUgQ29udHJvbGxhYmxlIFRleHQtdG8tVmlkZW8gR2VuZXJhdGlvbiBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJDb250cm9sVmlkZW86IFRyYWluaW5nLWZyZWUgQ29udHJvbGxhYmxlIFRleHQtdG8tVmlkZW8gR2VuZXJhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNS4xMzA3NyIsInNuaXBwZXQiOiJDb250cm9sVmlkZW8sIGFkYXB0ZWQgZnJvbSBDb250cm9sTmV0LCBsZXZlcmFnZXMgY29hcnNlbHkgc3RydWN0dXJhbCBjb25zaXN0ZW5jeSBmcm9tIGlucHV0IG1vdGlvbiBzZXF1ZW5jZXMsIGFuZCBpbnRyb2R1Y2VzIHRocmVlIG1vZHVsZXMgdG8gaW1wcm92ZSB2aWRlbyAuLi4iLCJkYXRlIjoiTWF5IDIyLCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJDb250cm9sbGFibGUgVmlkZW8gR2VuZXJhdGlvbjogQSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDcuMTY4Njl2MSIsInNuaXBwZXQiOiJDb250cm9sVmlkZW8gWzg4XSBhbmQgQ29udHJvbC1BLVZpZGVvIFs4N10gZGVtb25zdHJhdGUgaG93IHZhcmlvdXMgY29udHJvbCBzaWduYWxzLCBpbmNsdWRpbmcgZGVwdGgsIGNvdWxkIGJlIGludGVncmF0ZWQgaW50byBsYXJnZSBwcmUtdHJhaW5lZCB0ZXh0LXRvLWltYWdlIC4uLiIsImRhdGUiOiJKdWwgMjIsIDIwMjUiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IldoYXQgQXJlIFlvdSBEb2luZz8gQSBDbG9zZXIgTG9vayBhdCBDb250cm9sbGFibGUgSHVtYW4gVmlkZW8gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMy4wNDY2NnYxIiwic25pcHBldCI6IldlIGNsb3NlIHRoaXMgZ2FwIGJ5IGludHJvZHVjaW5nICdXaGF0IEFyZSBZb3UgRG9pbmc/JyAoV1lEKTogYSBuZXcgYmVuY2htYXJrIGZvciBmaW5lLWdyYWluZWQgZXZhbHVhdGlvbiBvZiBjb250cm9sbGFibGUgaW1hZ2UtdG8tdmlkZW8gZ2VuZXJhdGlvbiBvZiBodW1hbnMuIC4uLiIsImRhdGUiOiJNYXIgNiwgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiU21vb3RoIFZpZGVvIFN5bnRoZXNpcyB3aXRoIE5vaXNlIENvbnN0cmFpbnRzIG9uIERpZmZ1c2lvbiBNb2RlbHMgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMS4xNzUzNnYyIiwic25pcHBldCI6IkVhY2ggdmlkZW8gY29uc2lzdHMgb2YgZWl0aGVyIDMyIG9yIDEyOCBmcmFtZXMsIHRyYWluaW5nLWZyZWUgYmFzZWxpbmVzLiBDb250cm9sdmlkZW86IFRyYWluaW5nLWZyZWUgY29udHJvbGxhYmxlIHRleHQtdG8tdmlkZW8gZ2VuZXJhdGlvbi4gQWRkaW5nIGNvbmRpdGlvbmFsIC4uLiIsImRhdGUiOiJGZWIgNiwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiVkFDRTogQWxsLWluLU9uZSBWaWRlbyBDcmVhdGlvbiBhbmQgRWRpdGluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMy4wNzU5OHYyIiwic25pcHBldCI6IlRleHQtdG8tVmlkZW8gR2VuZXJhdGlvbiAoVDJWKSBpcyBhIGJhc2ljIHZpZGVvIGNyZWF0aW9uIHRhc2sgYW5kIHRleHQgaXMgdGhlIG9ubHkgaW5wdXQuIC1WaWRlbyBHZW5lcmF0aW9uIHVzaW5nIFBvc2UtRnJlZSBWaWRlb3MuIENvbnRyb2xWaWRlbzogVHJhaW5pbmctZnJlZSAuLi4iLCJkYXRlIjoiTWFyIDExLCAyMDI1IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbMjQwNi4xMDEyNl0gVHJhaW5pbmctZnJlZSBDYW1lcmEgQ29udHJvbCBmb3IgVmlkZW8gR2VuZXJhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNi4xMDEyNiIsInNuaXBwZXQiOiJBYnN0cmFjdDpXZSBwcm9wb3NlIGEgdHJhaW5pbmctZnJlZSBhbmQgcm9idXN0IHNvbHV0aW9uIHRvIG9mZmVyIGNhbWVyYSBtb3ZlbWVudCBjb250cm9sIGZvciBvZmYtdGhlLXNoZWxmIHZpZGVvIGRpZmZ1c2lvbiBtb2RlbHMuIiwiZGF0ZSI6Ikp1biAxNCwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiTW9vblNob3Q6IFRvd2FyZHMgQ29udHJvbGxhYmxlIFZpZGVvIEdlbmVyYXRpb24gYW5kIEVkaXRpbmcgd2l0aCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAxLjAxODI3djEiLCJzbmlwcGV0IjoiVGhpcyB3b3JrIHByZXNlbnRzIE1vb25TaG90LCBhIG5ldyB2aWRlbyBnZW5lcmF0aW9uIG1vZGVsIHRoYXQgY29uZGl0aW9ucyBzaW11bHRhbmVvdXNseSBvbiBtdWx0aW1vZGFsIGlucHV0cyBvZiBpbWFnZSBhbmQgdGV4dC4iLCJkYXRlIjoiSmFuIDMsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkhvdyBGYXIgSXMgVmlkZW8gR2VuZXJhdGlvbiBmcm9tIFdvcmxkIE1vZGVsOiBBIFBoeXNpY2FsIExhdyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDExLjAyMzg1djEiLCJzbmlwcGV0IjoiQ29udHJvbHZpZGVvOiBUcmFpbmluZy1mcmVlIGNvbnRyb2xsYWJsZSB0ZXh0LXRvLXZpZGVvIGdlbmVyYXRpb24uIEdlbmVyYXRpdmUgZW5kLXRvLWVuZCBhdXRvbm9tb3VzIGRyaXZpbmcuIiwiZGF0ZSI6Ik5vdiA0LCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBMb25nVmllOiBNdWx0aW1vZGFsLUd1aWRlZCBDb250cm9sbGFibGUgVWx0cmEtTG9uZyBWaWRlbyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUwOC4wMzY5NCIsInNuaXBwZXQiOiJGaWd1cmUgMTogTG9uZ1ZpZSBpcyBhIGNvbnRyb2xsYWJsZSB1bHRyYS1sb25nIHZpZGVvIGdlbmVyYXRpb24gZnJhbWV3b3JrIGd1aWRlZCBieSBib3RoIGRlbnNlIGFuZCBzcGFyc2UgY29udHJvbCBzaWduYWxzLCB3aXRoIGEgZGVncmFkYXRpb24tYXdhcmUgdHJhaW5pbmcgLi4uIiwiZGF0ZSI6IkF1ZyA1LCAyMDI1IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJTcGFyc2VDdHJsOiBBZGRpbmcgU3BhcnNlIENvbnRyb2xzIHRvIFRleHQtdG8tVmlkZW8gRGlmZnVzaW9uIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMTY5MzN2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBpbnRyb2R1Y2UgU3BhcnNlQ3RybCwgYW4gZWZmaWNpZW50IGFwcHJvYWNoIHRoYXQgdGFyZ2V0cyBjb250cm9sbGluZyB0ZXh0LXRvLXZpZGVvIGdlbmVyYXRpb24gdmlhIHRlbXBvcmFsbHkgc3BhcnNlIGNvbmRpdGlvbiBtYXBzIHdpdGggYW4gYWRkIC4uLiIsImRhdGUiOiJOb3YgMjgsIDIwMjMiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "ControlVideo: Training-free Controllable Text-to-Video Generation before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "ControlVideo: Training-free Controllable Text-to-Video Generation",
+        "link": "https://arxiv.org/abs/2305.13077",
+        "snippet": "ControlVideo, adapted from ControlNet, leverages coarsely structural consistency from input motion sequences, and introduces three modules to improve video ...",
+        "date": "May 22, 2023",
+        "position": 1
+      },
+      {
+        "title": "Controllable Video Generation: A Survey - arXiv",
+        "link": "https://arxiv.org/html/2507.16869v1",
+        "snippet": "ControlVideo [88] and Control-A-Video [87] demonstrate how various control signals, including depth, could be integrated into large pre-trained text-to-image ...",
+        "date": "Jul 22, 2025",
+        "position": 2
+      },
+      {
+        "title": "What Are You Doing? A Closer Look at Controllable Human Video ...",
+        "link": "https://arxiv.org/html/2503.04666v1",
+        "snippet": "We close this gap by introducing 'What Are You Doing?' (WYD): a new benchmark for fine-grained evaluation of controllable image-to-video generation of humans. ...",
+        "date": "Mar 6, 2025",
+        "position": 3
+      },
+      {
+        "title": "Smooth Video Synthesis with Noise Constraints on Diffusion Models ...",
+        "link": "https://arxiv.org/html/2311.17536v2",
+        "snippet": "Each video consists of either 32 or 128 frames, training-free baselines. Controlvideo: Training-free controllable text-to-video generation. Adding conditional ...",
+        "date": "Feb 6, 2024",
+        "position": 4
+      },
+      {
+        "title": "VACE: All-in-One Video Creation and Editing - arXiv",
+        "link": "https://arxiv.org/html/2503.07598v2",
+        "snippet": "Text-to-Video Generation (T2V) is a basic video creation task and text is the only input. -Video Generation using Pose-Free Videos. ControlVideo: Training-free ...",
+        "date": "Mar 11, 2025",
+        "position": 5
+      },
+      {
+        "title": "[2406.10126] Training-free Camera Control for Video Generation",
+        "link": "https://arxiv.org/abs/2406.10126",
+        "snippet": "Abstract:We propose a training-free and robust solution to offer camera movement control for off-the-shelf video diffusion models.",
+        "date": "Jun 14, 2024",
+        "position": 6
+      },
+      {
+        "title": "MoonShot: Towards Controllable Video Generation and Editing with ...",
+        "link": "https://arxiv.org/html/2401.01827v1",
+        "snippet": "This work presents MoonShot, a new video generation model that conditions simultaneously on multimodal inputs of image and text.",
+        "date": "Jan 3, 2024",
+        "position": 7
+      },
+      {
+        "title": "How Far Is Video Generation from World Model: A Physical Law ...",
+        "link": "https://arxiv.org/html/2411.02385v1",
+        "snippet": "Controlvideo: Training-free controllable text-to-video generation. Generative end-to-end autonomous driving.",
+        "date": "Nov 4, 2024",
+        "position": 8
+      },
+      {
+        "title": "[PDF] LongVie: Multimodal-Guided Controllable Ultra-Long Video ... - arXiv",
+        "link": "https://arxiv.org/pdf/2508.03694",
+        "snippet": "Figure 1: LongVie is a controllable ultra-long video generation framework guided by both dense and sparse control signals, with a degradation-aware training ...",
+        "date": "Aug 5, 2025",
+        "position": 9
+      },
+      {
+        "title": "SparseCtrl: Adding Sparse Controls to Text-to-Video Diffusion Models",
+        "link": "https://arxiv.org/html/2311.16933v1",
+        "snippet": "In this paper, we introduce SparseCtrl, an efficient approach that targets controlling text-to-video generation via temporally sparse condition maps with an add ...",
+        "date": "Nov 28, 2023",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "ControlVideo: Training-free Controllable Text-to-Video Generation",
+      "snippet": "ControlVideo, adapted from ControlNet, leverages coarsely structural consistency from input motion sequences, and introduces three modules to improve video ...",
+      "link": "https://arxiv.org/abs/2305.13077",
+      "arxiv_id": "2305.13077"
+    },
+    {
+      "rank": 2,
+      "title": "Controllable Video Generation: A Survey - arXiv",
+      "snippet": "ControlVideo [88] and Control-A-Video [87] demonstrate how various control signals, including depth, could be integrated into large pre-trained text-to-image ...",
+      "link": "https://arxiv.org/html/2507.16869v1",
+      "arxiv_id": "2507.16869"
+    },
+    {
+      "rank": 3,
+      "title": "What Are You Doing? A Closer Look at Controllable Human Video ...",
+      "snippet": "We close this gap by introducing 'What Are You Doing?' (WYD): a new benchmark for fine-grained evaluation of controllable image-to-video generation of humans. ...",
+      "link": "https://arxiv.org/html/2503.04666v1",
+      "arxiv_id": "2503.04666"
+    },
+    {
+      "rank": 4,
+      "title": "Smooth Video Synthesis with Noise Constraints on Diffusion Models ...",
+      "snippet": "Each video consists of either 32 or 128 frames, training-free baselines. Controlvideo: Training-free controllable text-to-video generation. Adding conditional ...",
+      "link": "https://arxiv.org/html/2311.17536v2",
+      "arxiv_id": "2311.17536"
+    },
+    {
+      "rank": 5,
+      "title": "VACE: All-in-One Video Creation and Editing - arXiv",
+      "snippet": "Text-to-Video Generation (T2V) is a basic video creation task and text is the only input. -Video Generation using Pose-Free Videos. ControlVideo: Training-free ...",
+      "link": "https://arxiv.org/html/2503.07598v2",
+      "arxiv_id": "2503.07598"
+    },
+    {
+      "rank": 6,
+      "title": "[2406.10126] Training-free Camera Control for Video Generation",
+      "snippet": "Abstract:We propose a training-free and robust solution to offer camera movement control for off-the-shelf video diffusion models.",
+      "link": "https://arxiv.org/abs/2406.10126",
+      "arxiv_id": "2406.10126"
+    },
+    {
+      "rank": 7,
+      "title": "MoonShot: Towards Controllable Video Generation and Editing with ...",
+      "snippet": "This work presents MoonShot, a new video generation model that conditions simultaneously on multimodal inputs of image and text.",
+      "link": "https://arxiv.org/html/2401.01827v1",
+      "arxiv_id": "2401.01827"
+    },
+    {
+      "rank": 8,
+      "title": "How Far Is Video Generation from World Model: A Physical Law ...",
+      "snippet": "Controlvideo: Training-free controllable text-to-video generation. Generative end-to-end autonomous driving.",
+      "link": "https://arxiv.org/html/2411.02385v1",
+      "arxiv_id": "2411.02385"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] LongVie: Multimodal-Guided Controllable Ultra-Long Video ... - arXiv",
+      "snippet": "Figure 1: LongVie is a controllable ultra-long video generation framework guided by both dense and sparse control signals, with a degradation-aware training ...",
+      "link": "https://arxiv.org/pdf/2508.03694",
+      "arxiv_id": "2508.03694"
+    },
+    {
+      "rank": 10,
+      "title": "SparseCtrl: Adding Sparse Controls to Text-to-Video Diffusion Models",
+      "snippet": "In this paper, we introduce SparseCtrl, an efficient approach that targets controlling text-to-video generation via temporally sparse condition maps with an add ...",
+      "link": "https://arxiv.org/html/2311.16933v1",
+      "arxiv_id": "2311.16933"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:59.180278+00:00",
+  "elapsed_seconds": 0.7690370455384254
+}

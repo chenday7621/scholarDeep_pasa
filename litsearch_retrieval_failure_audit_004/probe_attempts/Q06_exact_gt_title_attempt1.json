@@ -1,0 +1,197 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q06",
+  "group": "author-written",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2305.03130",
+  "request_payload": {
+    "q": "Chain-of-Skills: A Configurable Model for Open-Domain Question Answering before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 10,
+  "started_utc": "2026-09-17T12:33:32.081883+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648135",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "80f0f5bdc341397eb4d17ba350dba6e2",
+    "date": "Thu, 17 Sep 2026 12:28:53 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3400",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3400,
+  "response_bytes_sha256": "c5988543b2a22ba365695f6be9aae124816b949712da0b7972b9530fd855aeed",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDaGFpbi1vZi1Ta2lsbHM6IEEgQ29uZmlndXJhYmxlIE1vZGVsIGZvciBPcGVuLURvbWFpbiBRdWVzdGlvbiBBbnN3ZXJpbmcgYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiWzIzMDUuMDMxMzBdIENoYWluLW9mLVNraWxsczogQSBDb25maWd1cmFibGUgTW9kZWwgZm9yIE9wZW4gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDUuMDMxMzAiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBwcm9wb3NlIGEgbW9kdWxhciByZXRyaWV2ZXIgd2hlcmUgaW5kaXZpZHVhbCBtb2R1bGVzIGNvcnJlc3BvbmQgdG8ga2V5IHNraWxscyB0aGF0IGNhbiBiZSByZXVzZWQgYWNyb3NzIGRhdGFzZXRzLiBPdXIgYXBwcm9hY2ggc3VwcG9ydHMgLi4uIiwiZGF0ZSI6Ik1heSA0LCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMzA1LjAzMTMwdjIgW2NzLkNMXSAyNiBNYXkgMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4wMzEzMCIsInNuaXBwZXQiOiJDaGFpbi1vZi1Ta2lsbHM6IEEgQ29uZmlndXJhYmxlIE1vZGVsIGZvciBPcGVuLURvbWFpbi4gUXVlc3Rpb24gQW5zd2VyaW5nIC4uLiBPcGVuLWRvbWFpbiBxdWVzdGlvbiBhbnN3ZXJpbmcgdmlhIGNoYWluIG9mIHJlYXNvbmluZyBvdmVyIGhldGVyb2dlbmVvdXMga25vd2xlZGdlLiIsImRhdGUiOiJNYXkgMjYsIDIwMjMiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6Ik9wZW5Ta2lsbDogT3Blbi1Xb3JsZCBTZWxmLUV2b2x1dGlvbiBmb3IgTExNIEFnZW50cyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNi4wNjc0MXYxIiwic25pcHBldCI6Ik9wZW5Ta2lsbCBpbmNsdWRlcyB0aHJlZSBzdGFnZXMgKEZpZ3VyZSAyKTogYWNxdWlyaW5nIGRvbWFpbiBrbm93bGVkZ2UgZnJvbSB0aGUgb3BlbiB3b3JsZCwgcmVmaW5pbmcgc2tpbGxzIGFnYWluc3Qgc2VsZi1nZW5lcmF0ZWQgdmlydHVhbCB0YXNrcywgYW5kIGRlcGxveWluZyAuLi4iLCJkYXRlIjoiSnVuIDQsIDIwMjYiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDMuMTc2MTF2MSBbY3MuQ0xdIDI2IE1hciAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAzLjE3NjExIiwic25pcHBldCI6IkNoYWluLW9mLSBTa2lsbHM6IEEgQ29uZmlndXJhYmxlIE1vZGVsIGZvciBPcGVuLURvbWFpbiBRdWVzdGlvbiBBbnN3ZXJpbmcuIEluIFByb2NlZWRpbmdzIG9mIHRoZSBBQUFJIENvbmZlcmVuY2Ugb24gQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UsIHZvbHVtZSAzNywgcGFnZXMgLi4uIiwiZGF0ZSI6Ik1hciAyNiwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMwNS4xNDIzMnYyIFtjcy5DTF0gMTkgT2N0IDIwMjMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDUuMTQyMzIiLCJzbmlwcGV0IjoiQ2hhaW4tb2Ytc2tpbGxzOiBBIGNvbmZpZ3VyYWJsZSBtb2RlbCBmb3Igb3Blbi1kb21haW4gcXVlc3Rpb24gYW4tIHN3ZXJpbmcuIEluIEFDTCcyMywgcGFnZXMgMTU5OeKAkzE2MTguIEFha2Fua3NoYSBOYWlrLCBTcmF2YW50aGkgUGFyYXNhLCBTZXJnZXkgRmVsZG1hbiAuLi4iLCJkYXRlIjoiT2N0IDE5LCAyMDIzIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBBIEJlbmNobWFyayBmb3Igb3Blbi1kb21haW4gQ29tcGxleCBRdWVzdGlvbiBBbnN3ZXJpbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDYuMTcxNTgiLCJzbmlwcGV0IjoiT3Blbi1kb21haW4gY29tcGxleCBRdWVzdGlvbiBBbnN3ZXJpbmcgKFFBKSB3ZSBldmFsdWF0ZSBsZXhpY2FsLCBsYXRlLWludGVyYWN0aW9uLCBhbmQgZGl2ZXJzZSBkZW5zZS1yZXRyaWV2YWwgbW9kZWxzIG9uIHRoZSBjdXJhdGVkIGRhdGFzZXRzIGluIGFuIG9wZW4tZG9tYWluIC4uLiIsImRhdGUiOiJKdW4gMjQsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkV2YWx1YXRpbmcgQWN0dWFsIFNraWxsIFVzZSBpbiBSZXRyaWV2YWwtRW5hYmxlZCBMTE0gQWdlbnRzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA5LjAwNTQ5djEiLCJzbmlwcGV0IjoiTGFyZ2UgTGFuZ3VhZ2UgTW9kZWwgKExMTSkgYWdlbnRzIGluY3JlYXNpbmdseSByZWx5IG9uIGV4dGVybmFsIHNraWxscywgeWV0IHN0YW5kYXJkIGV2YWx1YXRpb25zIG9ic2N1cmUgd2hldGhlciByZXRyaWV2aW5nIHRoZXNlIHNraWxscyBhY3R1YWxseSBoZWxwcy4iLCJkYXRlIjoiU2VwIDEsIDIwMjYiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkEgU3VydmV5IG9mIExhcmdlIExhbmd1YWdlIE1vZGVsIEFnZW50cyBmb3IgUXVlc3Rpb24gQW5zd2VyaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMy4xOTIxM3YxIiwic25pcHBldCI6IlRoaXMgcGFwZXIgc3VydmV5cyB0aGUgZGV2ZWxvcG1lbnQgb2YgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWwgKExMTSktYmFzZWQgYWdlbnRzIGZvciBxdWVzdGlvbiBhbnN3ZXJpbmcgKFFBKS4gVGhlIG1vZGVsIGlzIHRhc2tlZCB3aXRoIGFuc3dlcmluZyBxdWVzdGlvbnMgYnkgLi4uIiwiZGF0ZSI6Ik1hciAyNCwgMjAyNSIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQxMC4wODgxNXYyIFtjcy5DTF0gMjUgT2N0IDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MTAuMDg4MTUiLCJzbmlwcGV0IjoiQ2hhaW4tb2YtIHNraWxsczogQSBjb25maWd1cmFibGUgbW9kZWwgZm9yIG9wZW4tZG9tYWluIHF1ZXN0aW9uIGFuc3dlcmluZy4gSW4gQW5uYSBSb2dlcnMsIEpvcmRhbi4gQm95ZC1HcmFiZXIsIGFuZCBOYW9ha2kgT2themFraSAoZWRzLiksIFByb2NlZWRpbmdzIG9mIHRoZSAuLi4iLCJkYXRlIjoiT2N0IDI1LCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMzEwLjE0MzkzdjEgW2NzLkNMXSAyMiBPY3QgMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMxMC4xNDM5MyIsInNuaXBwZXQiOiJDaGFpbi1vZi1za2lsbHM6IMK3IEEgY29uZmlndXJhYmxlIG1vZGVsIGZvciBvcGVuLWRvbWFpbiBxdWVzdGlvbiBhbi0gwrcgc3dlcmluZy4gLi4uIG9mIHN0cnVjdHVyZWQgYW5kIHVuc3RydWN0dXJlZCBrbm93bGVkZ2UgZm9yIG9wZW4tIMK3IGRvbWFpbiBxdWVzdGlvbiBhbnN3ZXJpbmcgLi4uIiwiZGF0ZSI6Ik9jdCAyMiwgMjAyMyIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Chain-of-Skills: A Configurable Model for Open-Domain Question Answering before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[2305.03130] Chain-of-Skills: A Configurable Model for Open ... - arXiv",
+        "link": "https://arxiv.org/abs/2305.03130",
+        "snippet": "In this work, we propose a modular retriever where individual modules correspond to key skills that can be reused across datasets. Our approach supports ...",
+        "date": "May 4, 2023",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2305.03130v2 [cs.CL] 26 May 2023",
+        "link": "https://arxiv.org/pdf/2305.03130",
+        "snippet": "Chain-of-Skills: A Configurable Model for Open-Domain. Question Answering ... Open-domain question answering via chain of reasoning over heterogeneous knowledge.",
+        "date": "May 26, 2023",
+        "position": 2
+      },
+      {
+        "title": "OpenSkill: Open-World Self-Evolution for LLM Agents - arXiv",
+        "link": "https://arxiv.org/html/2606.06741v1",
+        "snippet": "OpenSkill includes three stages (Figure 2): acquiring domain knowledge from the open world, refining skills against self-generated virtual tasks, and deploying ...",
+        "date": "Jun 4, 2026",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2403.17611v1 [cs.CL] 26 Mar 2024",
+        "link": "https://arxiv.org/pdf/2403.17611",
+        "snippet": "Chain-of- Skills: A Configurable Model for Open-Domain Question Answering. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 37, pages ...",
+        "date": "Mar 26, 2024",
+        "position": 4
+      },
+      {
+        "title": "[PDF] arXiv:2305.14232v2 [cs.CL] 19 Oct 2023",
+        "link": "https://arxiv.org/pdf/2305.14232",
+        "snippet": "Chain-of-skills: A configurable model for open-domain question an- swering. In ACL'23, pages 1599–1618. Aakanksha Naik, Sravanthi Parasa, Sergey Feldman ...",
+        "date": "Oct 19, 2023",
+        "position": 5
+      },
+      {
+        "title": "[PDF] A Benchmark for open-domain Complex Question Answering ... - arXiv",
+        "link": "https://arxiv.org/pdf/2406.17158",
+        "snippet": "Open-domain complex Question Answering (QA) we evaluate lexical, late-interaction, and diverse dense-retrieval models on the curated datasets in an open-domain ...",
+        "date": "Jun 24, 2024",
+        "position": 6
+      },
+      {
+        "title": "Evaluating Actual Skill Use in Retrieval-Enabled LLM Agents - arXiv",
+        "link": "https://arxiv.org/html/2609.00549v1",
+        "snippet": "Large Language Model (LLM) agents increasingly rely on external skills, yet standard evaluations obscure whether retrieving these skills actually helps.",
+        "date": "Sep 1, 2026",
+        "position": 7
+      },
+      {
+        "title": "A Survey of Large Language Model Agents for Question Answering",
+        "link": "https://arxiv.org/html/2503.19213v1",
+        "snippet": "This paper surveys the development of large language model (LLM)-based agents for question answering (QA). The model is tasked with answering questions by ...",
+        "date": "Mar 24, 2025",
+        "position": 8
+      },
+      {
+        "title": "[PDF] arXiv:2410.08815v2 [cs.CL] 25 Oct 2024",
+        "link": "https://arxiv.org/pdf/2410.08815",
+        "snippet": "Chain-of- skills: A configurable model for open-domain question answering. In Anna Rogers, Jordan. Boyd-Graber, and Naoaki Okazaki (eds.), Proceedings of the ...",
+        "date": "Oct 25, 2024",
+        "position": 9
+      },
+      {
+        "title": "[PDF] arXiv:2310.14393v1 [cs.CL] 22 Oct 2023",
+        "link": "https://arxiv.org/pdf/2310.14393",
+        "snippet": "Chain-of-skills: · A configurable model for open-domain question an- · swering. ... of structured and unstructured knowledge for open- · domain question answering ...",
+        "date": "Oct 22, 2023",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[2305.03130] Chain-of-Skills: A Configurable Model for Open ... - arXiv",
+      "snippet": "In this work, we propose a modular retriever where individual modules correspond to key skills that can be reused across datasets. Our approach supports ...",
+      "link": "https://arxiv.org/abs/2305.03130",
+      "arxiv_id": "2305.03130"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2305.03130v2 [cs.CL] 26 May 2023",
+      "snippet": "Chain-of-Skills: A Configurable Model for Open-Domain. Question Answering ... Open-domain question answering via chain of reasoning over heterogeneous knowledge.",
+      "link": "https://arxiv.org/pdf/2305.03130",
+      "arxiv_id": "2305.03130"
+    },
+    {
+      "rank": 3,
+      "title": "OpenSkill: Open-World Self-Evolution for LLM Agents - arXiv",
+      "snippet": "OpenSkill includes three stages (Figure 2): acquiring domain knowledge from the open world, refining skills against self-generated virtual tasks, and deploying ...",
+      "link": "https://arxiv.org/html/2606.06741v1",
+      "arxiv_id": "2606.06741"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2403.17611v1 [cs.CL] 26 Mar 2024",
+      "snippet": "Chain-of- Skills: A Configurable Model for Open-Domain Question Answering. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 37, pages ...",
+      "link": "https://arxiv.org/pdf/2403.17611",
+      "arxiv_id": "2403.17611"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] arXiv:2305.14232v2 [cs.CL] 19 Oct 2023",
+      "snippet": "Chain-of-skills: A configurable model for open-domain question an- swering. In ACL'23, pages 1599–1618. Aakanksha Naik, Sravanthi Parasa, Sergey Feldman ...",
+      "link": "https://arxiv.org/pdf/2305.14232",
+      "arxiv_id": "2305.14232"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] A Benchmark for open-domain Complex Question Answering ... - arXiv",
+      "snippet": "Open-domain complex Question Answering (QA) we evaluate lexical, late-interaction, and diverse dense-retrieval models on the curated datasets in an open-domain ...",
+      "link": "https://arxiv.org/pdf/2406.17158",
+      "arxiv_id": "2406.17158"
+    },
+    {
+      "rank": 7,
+      "title": "Evaluating Actual Skill Use in Retrieval-Enabled LLM Agents - arXiv",
+      "snippet": "Large Language Model (LLM) agents increasingly rely on external skills, yet standard evaluations obscure whether retrieving these skills actually helps.",
+      "link": "https://arxiv.org/html/2609.00549v1",
+      "arxiv_id": "2609.00549"
+    },
+    {
+      "rank": 8,
+      "title": "A Survey of Large Language Model Agents for Question Answering",
+      "snippet": "This paper surveys the development of large language model (LLM)-based agents for question answering (QA). The model is tasked with answering questions by ...",
+      "link": "https://arxiv.org/html/2503.19213v1",
+      "arxiv_id": "2503.19213"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] arXiv:2410.08815v2 [cs.CL] 25 Oct 2024",
+      "snippet": "Chain-of- skills: A configurable model for open-domain question answering. In Anna Rogers, Jordan. Boyd-Graber, and Naoaki Okazaki (eds.), Proceedings of the ...",
+      "link": "https://arxiv.org/pdf/2410.08815",
+      "arxiv_id": "2410.08815"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] arXiv:2310.14393v1 [cs.CL] 22 Oct 2023",
+      "snippet": "Chain-of-skills: · A configurable model for open-domain question an- · swering. ... of structured and unstructured knowledge for open- · domain question answering ...",
+      "link": "https://arxiv.org/pdf/2310.14393",
+      "arxiv_id": "2310.14393"
+    }
+  ],
+  "gold_hit_ranks": [
+    1,
+    2
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:32.815799+00:00",
+  "elapsed_seconds": 0.7339160554111004
+}

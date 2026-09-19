@@ -1,0 +1,208 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q46",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "1909.01441",
+  "request_payload": {
+    "q": "In the context of Named Entity Recognition tasks across multiple languages, which work highlights the necessity of retrieving related knowledge to aid in the annotation of ambiguous named entities? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 105,
+  "started_utc": "2026-09-17T12:35:23.244619+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648245",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "2e24c1aff5be98fb6a44effa40b9722f",
+    "date": "Thu, 17 Sep 2026 12:30:44 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3989",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3989,
+  "response_bytes_sha256": "761deafe9ad031b8e9d9180c2265117a12bf8d920591a5fbb99be31ec2a91349",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJJbiB0aGUgY29udGV4dCBvZiBOYW1lZCBFbnRpdHkgUmVjb2duaXRpb24gdGFza3MgYWNyb3NzIG11bHRpcGxlIGxhbmd1YWdlcywgd2hpY2ggd29yayBoaWdobGlnaHRzIHRoZSBuZWNlc3NpdHkgb2YgcmV0cmlldmluZyByZWxhdGVkIGtub3dsZWRnZSB0byBhaWQgaW4gdGhlIGFubm90YXRpb24gb2YgYW1iaWd1b3VzIG5hbWVkIGVudGl0aWVzPyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJSZWNlbnQgQWR2YW5jZXMgaW4gTmFtZWQgRW50aXR5IFJlY29nbml0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAxLjEwODI1djMiLCJzbmlwcGV0IjoiTkVSIGlzIGEgc3BlY2lmaWMgdGFzayB3aXRoaW4gTkxQIHRoYXQgaW52b2x2ZXMgaWRlbnRpZnlpbmcgYW5kIGNhdGVnb3JpemluZyBuYW1lZCBlbnRpdGllcyBpbiBhIHRleHQgY29ycHVzLiBUaGVzZSBlbnRpdGllcywgZGVmaW5lZCBhcyB3b3JkcyBvciBwaHJhc2VzLCByZWZlciAuLi4iLCJkYXRlIjoiRGVjIDIwLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJIaU5FUjogQSBMYXJnZSBIaW5kaSBOYW1lZCBFbnRpdHkgUmVjb2duaXRpb24gRGF0YXNldCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwNC4xMzc0M3YxIiwic25pcHBldCI6Ik5hbWVkIEVudGl0eSBSZWNvZ25pdGlvbiAoTkVSKSBpcyBhIGZvdW5kYXRpb25hbCBOTFAgdGFzayB0aGF0IGFpbXMgdG8gcHJvdmlkZSBjbGFzcyBsYWJlbHMgbGlrZSBQZXJzb24sIExvY2F0aW9uLCBPcmdhbmlzYXRpb24sIFRpbWUsIGFuZCBOdW1iZXIgdG8gd29yZHMgaW4gLi4uIiwiZGF0ZSI6IkFwciAyOCwgMjAyMiIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiQW5ub3RhdGlvbiBFcnJvcnMgYW5kIE5FUjogQSBTdHVkeSB3aXRoIE9udG9Ob3RlcyA1LjAgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTkxNzJ2MSIsInNuaXBwZXQiOiJOYW1lZCBFbnRpdHkgUmVjb2duaXRpb24gKE5FUikgaXMgYSB3ZWxsLXN0dWRpZWQgcmVzZWFyY2ggcHJvYmxlbSBpbiBOTFAsIGFuZCBpcyBhbHNvIHdpZGVseSB1c2VkIGluIGFwcGxpZWQgY29udGV4dHMuIDMuNzYlIGluY29ycmVjdCBORSBsYWJlbHMiLCJkYXRlIjoiSnVuIDI3LCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJORVI0YWxsIG9yIENvbnRleHQgaXMgQWxsIFlvdSBOZWVkIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAyLjA0MzUxdjEiLCJzbmlwcGV0IjoiTmFtZWQgZW50aXR5IHJlY29nbml0aW9uIChORVIpIGlzIGEgY29yZSB0YXNrIGZvciBoaXN0b3JpY2FsIHJlc2VhcmNoIGluIGF1dG9tYXRpY2FsbHkgZXN0YWJsaXNoaW5nIGFsbCByZWZlcmVuY2VzIHRvIHBlb3BsZSwgcGxhY2VzLCBldmVudHMgYW5kIHRoZSBsaWtlLiIsImRhdGUiOiJGZWIgNCwgMjAyNSIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiRXZhbHVhdGluZyBOYW1lZCBFbnRpdHkgUmVjb2duaXRpb24gTW9kZWxzIGZvciBSdXNzaWFuIEN1bHR1cmFsIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDYuMDI1ODl2MSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIGFkZHJlc3NlcyB0aGUgY2hhbGxlbmdlIG9mIE5hbWVkIEVudGl0eSBSZWNvZ25pdGlvbiAoTkVSKSBmb3IgcGVyc29uIG5hbWVzIHdpdGhpbiB0aGUgc3BlY2lhbGl6ZWQgZG9tYWluIG9mIFJ1c3NpYW4gbmV3cyB0ZXh0cyBjb25jZXJuaW5nIGN1bHR1cmFsIC4uLiIsImRhdGUiOiJKdW4gMywgMjAyNSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiQSBHb2xkLVN0YW5kYXJkIE11bHRpbGluZ3VhbCBOYW1lZCBFbnRpdHkgUmVjb2duaXRpb24gQmVuY2htYXJrIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMS4wOTEyMnYyIiwic25pcHBldCI6Ik5hbWVkIGVudGl0eSByZWNvZ25pdGlvbiAoTkVSKSBpcyB0aGUgdGFzayBvZiBpZGVudGlmeWluZyB0ZXh0IHNwYW5zIGluIGEgZ2l2ZW4gY29udGV4dCB0aGF0IHVuaXF1ZWx5IHJlZmVyIHRvIHNwZWNpZmljIG5hbWVkIGVudGl0aWVzLiIsImRhdGUiOiJNYXIgMjUsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIExhcmdlIExhbmd1YWdlIE1vZGVscyBhcmVuJ3QgYWxsIHRoYXQgeW91IG5lZWQgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMS4wMDY5OCIsInNuaXBwZXQiOiJUaGUgTmFtZWQgRW50aXR5IFJlY29nbml0aW9uIChORVIpIHRhc2sgYWltcyB0byBkZXRlY3QgZW50aXRpZXMgZnJvbSB1bnN0cnVjdHVyZWQgdGV4dCBhbmQgY2xhc3NpZnkgdGhlbSBpbnRvIHByZWRlZmluZWQgY2F0ZWdvcmllcy4iLCJkYXRlIjoiSmFuIDEsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkxMTS1iYXNlZCBQcm9tcHQgRW5zZW1ibGUgZm9yIFJlbGlhYmxlIE1lZGljYWwgRW50aXR5IC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNS4wODcwNHYyIiwic25pcHBldCI6Ik5hbWVkIEVudGl0eSBSZWNvZ25pdGlvbiAoTkVSKSBpcyBhIGZ1bmRhbWVudGFsIHRhc2sgaW4gTkxQIHRoYXQgaW52b2x2ZXMgaWRlbnRpZnlpbmcgYW5kIGNhdGVnb3JpemluZyBrZXkgZW50aXRpZXMgaW4gdGV4dCBpbnRvIHByZWRlZmluZWQgY2F0ZWdvcmllcyBzdWNoIGFzIC4uLiIsImRhdGUiOiJNYXkgMjUsIDIwMjUiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiSWlpIE1ldGhvZG9sb2d5IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNS4wODcwNHYyIzp+OnRleHQ9Ym9vdHMtLElJSSUyME1ldGhvZG9sb2d5In0seyJ0aXRsZSI6IklpaS1CIFByb21wdCBFbmdpbmVlcmluZyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDUuMDg3MDR2MiM6fjp0ZXh0PUlJSSUyREIlMjBQcm9tcHQlMjBFbmdpbmVlcmluZywtV2UlMjB1dGlsaXplZCUyMHR3byUyMExMTXMlMkMifSx7InRpdGxlIjoiSXYgUmVzdWx0IEFuYWx5c2lzIEFuZC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDUuMDg3MDR2MiM6fjp0ZXh0PUlWJTIwUmVzdWx0JTIwQW5hbHlzaXMlMjBBbmQlMjBEaXNjdXNzaW9uLC1UaGlzJTIwc2VjdGlvbiUyMHByZXNlbnRzJTIwYSUyMGNvbXByZWhlbnNpdmUifV0sInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiVW5pZnlpbmcgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGFuZCBLbm93bGVkZ2UgR3JhcGhzIC0gYXI1aXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIzMDYuMDgzMDIiLCJzbmlwcGV0IjoiVGhleSBmaXJzdCBmaW5ldHVuZSBhIExMTSBvbiBuYW1lZCBlbnRpdHkgcmVjb2duaXRpb24gdGFza3MgdG8gbWFrZSBpdCBjYXBhYmxlIG9mIHJlY29nbml6aW5nIGVudGl0aWVzIGluIHJhdyB0ZXh0LiBUaGVuLCB0aGV5IHByb3Bvc2UgYW5vdGhlciDigJwyLW1vZGVsIEJFUlQgLi4uIiwiZGF0ZSI6Ikp1biAxNSwgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gTmV3cyBFbnRpdHktSW50ZXJhY3Rpb24gRXh0cmFjdGlvbiBmb3IgRW5oYW5jZWQgUXVlc3Rpb24gQW5zd2VyaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDExLjEyNDQ5PyIsInNuaXBwZXQiOiJUbyBhZGRyZXNzIHRoaXMgY2hhbGxlbmdlLCB3ZSBwcmVzZW50IHRoZSBOZW9uIGZyYW1ld29yaywgZGVzaWduZWQgdG8gZXh0cmFjdCBlbWVyZ2luZyBlbnRpdHkgaW50ZXJhY3Rpb25z4oCUc3VjaCBhcyBldmVudHMgb3IgYWN0aXZpdGllc+KAlGFzIGRlc2NyaWJlZCBpbiBuZXdzIC4uLiIsImRhdGUiOiJOb3YgMjAsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "In the context of Named Entity Recognition tasks across multiple languages, which work highlights the necessity of retrieving related knowledge to aid in the annotation of ambiguous named entities? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Recent Advances in Named Entity Recognition - arXiv",
+        "link": "https://arxiv.org/html/2401.10825v3",
+        "snippet": "NER is a specific task within NLP that involves identifying and categorizing named entities in a text corpus. These entities, defined as words or phrases, refer ...",
+        "date": "Dec 20, 2024",
+        "position": 1
+      },
+      {
+        "title": "HiNER: A Large Hindi Named Entity Recognition Dataset - arXiv",
+        "link": "https://arxiv.org/html/2204.13743v1",
+        "snippet": "Named Entity Recognition (NER) is a foundational NLP task that aims to provide class labels like Person, Location, Organisation, Time, and Number to words in ...",
+        "date": "Apr 28, 2022",
+        "position": 2
+      },
+      {
+        "title": "Annotation Errors and NER: A Study with OntoNotes 5.0 - arXiv",
+        "link": "https://arxiv.org/html/2406.19172v1",
+        "snippet": "Named Entity Recognition (NER) is a well-studied research problem in NLP, and is also widely used in applied contexts. 3.76% incorrect NE labels",
+        "date": "Jun 27, 2024",
+        "position": 3
+      },
+      {
+        "title": "NER4all or Context is All You Need - arXiv",
+        "link": "https://arxiv.org/html/2502.04351v1",
+        "snippet": "Named entity recognition (NER) is a core task for historical research in automatically establishing all references to people, places, events and the like.",
+        "date": "Feb 4, 2025",
+        "position": 4
+      },
+      {
+        "title": "Evaluating Named Entity Recognition Models for Russian Cultural ...",
+        "link": "https://arxiv.org/html/2506.02589v1",
+        "snippet": "This paper addresses the challenge of Named Entity Recognition (NER) for person names within the specialized domain of Russian news texts concerning cultural ...",
+        "date": "Jun 3, 2025",
+        "position": 5
+      },
+      {
+        "title": "A Gold-Standard Multilingual Named Entity Recognition Benchmark",
+        "link": "https://arxiv.org/html/2311.09122v2",
+        "snippet": "Named entity recognition (NER) is the task of identifying text spans in a given context that uniquely refer to specific named entities.",
+        "date": "Mar 25, 2024",
+        "position": 6
+      },
+      {
+        "title": "[PDF] Large Language Models aren't all that you need - arXiv",
+        "link": "https://arxiv.org/pdf/2401.00698",
+        "snippet": "The Named Entity Recognition (NER) task aims to detect entities from unstructured text and classify them into predefined categories.",
+        "date": "Jan 1, 2024",
+        "position": 7
+      },
+      {
+        "title": "LLM-based Prompt Ensemble for Reliable Medical Entity ... - arXiv",
+        "link": "https://arxiv.org/html/2505.08704v2",
+        "snippet": "Named Entity Recognition (NER) is a fundamental task in NLP that involves identifying and categorizing key entities in text into predefined categories such as ...",
+        "date": "May 25, 2025",
+        "sitelinks": [
+          {
+            "title": "Iii Methodology",
+            "link": "https://arxiv.org/html/2505.08704v2#:~:text=boots-,III%20Methodology"
+          },
+          {
+            "title": "Iii-B Prompt Engineering",
+            "link": "https://arxiv.org/html/2505.08704v2#:~:text=III%2DB%20Prompt%20Engineering,-We%20utilized%20two%20LLMs%2C"
+          },
+          {
+            "title": "Iv Result Analysis And...",
+            "link": "https://arxiv.org/html/2505.08704v2#:~:text=IV%20Result%20Analysis%20And%20Discussion,-This%20section%20presents%20a%20comprehensive"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "Unifying Large Language Models and Knowledge Graphs - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2306.08302",
+        "snippet": "They first finetune a LLM on named entity recognition tasks to make it capable of recognizing entities in raw text. Then, they propose another “2-model BERT ...",
+        "date": "Jun 15, 2023",
+        "position": 9
+      },
+      {
+        "title": "[PDF] News Entity-Interaction Extraction for Enhanced Question Answering",
+        "link": "https://arxiv.org/pdf/2411.12449?",
+        "snippet": "To address this challenge, we present the Neon framework, designed to extract emerging entity interactions—such as events or activities—as described in news ...",
+        "date": "Nov 20, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Recent Advances in Named Entity Recognition - arXiv",
+      "snippet": "NER is a specific task within NLP that involves identifying and categorizing named entities in a text corpus. These entities, defined as words or phrases, refer ...",
+      "link": "https://arxiv.org/html/2401.10825v3",
+      "arxiv_id": "2401.10825"
+    },
+    {
+      "rank": 2,
+      "title": "HiNER: A Large Hindi Named Entity Recognition Dataset - arXiv",
+      "snippet": "Named Entity Recognition (NER) is a foundational NLP task that aims to provide class labels like Person, Location, Organisation, Time, and Number to words in ...",
+      "link": "https://arxiv.org/html/2204.13743v1",
+      "arxiv_id": "2204.13743"
+    },
+    {
+      "rank": 3,
+      "title": "Annotation Errors and NER: A Study with OntoNotes 5.0 - arXiv",
+      "snippet": "Named Entity Recognition (NER) is a well-studied research problem in NLP, and is also widely used in applied contexts. 3.76% incorrect NE labels",
+      "link": "https://arxiv.org/html/2406.19172v1",
+      "arxiv_id": "2406.19172"
+    },
+    {
+      "rank": 4,
+      "title": "NER4all or Context is All You Need - arXiv",
+      "snippet": "Named entity recognition (NER) is a core task for historical research in automatically establishing all references to people, places, events and the like.",
+      "link": "https://arxiv.org/html/2502.04351v1",
+      "arxiv_id": "2502.04351"
+    },
+    {
+      "rank": 5,
+      "title": "Evaluating Named Entity Recognition Models for Russian Cultural ...",
+      "snippet": "This paper addresses the challenge of Named Entity Recognition (NER) for person names within the specialized domain of Russian news texts concerning cultural ...",
+      "link": "https://arxiv.org/html/2506.02589v1",
+      "arxiv_id": "2506.02589"
+    },
+    {
+      "rank": 6,
+      "title": "A Gold-Standard Multilingual Named Entity Recognition Benchmark",
+      "snippet": "Named entity recognition (NER) is the task of identifying text spans in a given context that uniquely refer to specific named entities.",
+      "link": "https://arxiv.org/html/2311.09122v2",
+      "arxiv_id": "2311.09122"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] Large Language Models aren't all that you need - arXiv",
+      "snippet": "The Named Entity Recognition (NER) task aims to detect entities from unstructured text and classify them into predefined categories.",
+      "link": "https://arxiv.org/pdf/2401.00698",
+      "arxiv_id": "2401.00698"
+    },
+    {
+      "rank": 8,
+      "title": "LLM-based Prompt Ensemble for Reliable Medical Entity ... - arXiv",
+      "snippet": "Named Entity Recognition (NER) is a fundamental task in NLP that involves identifying and categorizing key entities in text into predefined categories such as ...",
+      "link": "https://arxiv.org/html/2505.08704v2",
+      "arxiv_id": "2505.08704"
+    },
+    {
+      "rank": 9,
+      "title": "Unifying Large Language Models and Knowledge Graphs - ar5iv",
+      "snippet": "They first finetune a LLM on named entity recognition tasks to make it capable of recognizing entities in raw text. Then, they propose another “2-model BERT ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2306.08302",
+      "arxiv_id": "2306.08302"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] News Entity-Interaction Extraction for Enhanced Question Answering",
+      "snippet": "To address this challenge, we present the Neon framework, designed to extract emerging entity interactions—such as events or activities—as described in news ...",
+      "link": "https://arxiv.org/pdf/2411.12449?",
+      "arxiv_id": "2411.12449"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:24.391409+00:00",
+  "elapsed_seconds": 1.1467969007790089
+}

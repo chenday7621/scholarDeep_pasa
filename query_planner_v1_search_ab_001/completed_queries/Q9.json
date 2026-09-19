@@ -1,0 +1,1190 @@
+{
+  "query_id": "Q9",
+  "query_index": 9,
+  "dataset_qid": "RealScholarQuery_9",
+  "original_question": "Give me papers about how to rank search results by the use of LLM.",
+  "published_time": "20241001",
+  "before_date": "2024-09-24",
+  "groups": {
+    "A": {
+      "prompt": "Please generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Give me papers about how to rank search results by the use of LLM.",
+      "searches": [
+        {
+          "query_sequence": 1,
+          "crawler_query": "Use of LLM in ranking search results",
+          "request_payload": {
+            "q": "Use of LLM in ranking search results before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 62,
+              "query_id": "Q9",
+              "group": "A",
+              "query_sequence": 1,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Use of LLM in ranking search results before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:51.155242+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Use of LLM in ranking search results before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"When Search Engine Services meet Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2407.00128v1\",\"snippet\":\"LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, enhance the ranking of search results\",\"date\":\"Jun 28, 2024\",\"position\":1},{\"title\":\"Large Language Models are Zero-Shot Rankers for Recommender ...\",\"link\":\"https://arxiv.org/html/2305.08845v2\",\"snippet\":\"LLMs rank candidates based on item popularity, text features as well as user behaviors. To further investigate how LLMs rank the given candidates, we evaluate ...\",\"date\":\"Jan 24, 2024\",\"position\":2},{\"title\":\"Large Language Models are Effective Text Rankers with Pairwise ...\",\"link\":\"https://arxiv.org/html/2306.17563v2\",\"snippet\":\"Ranking documents using Large Language Models (LLMs) by directly feeding the query and candidate documents into the prompt is an interesting and practical ...\",\"date\":\"Apr 8, 2024\",\"position\":3},{\"title\":\"Manipulating Large Language Models to Increase Product Visibility\",\"link\":\"https://arxiv.org/html/2404.07981v1\",\"snippet\":\"An LLM search tool would provide a list of brands based on the needs and preferences of the user, similar to the example in Figure 1. This raises a critical ...\",\"date\":\"Apr 11, 2024\",\"position\":4},{\"title\":\"[PDF] Make LLM a Relevant, Responsible, and Trustworthy Searcher - arXiv\",\"link\":\"https://arxiv.org/pdf/2310.12443\",\"snippet\":\"The advent of Large Language Models (LLMs) has shown the po- tential to improve relevance and provide direct answers in web searches.\",\"date\":\"Oct 19, 2023\",\"position\":5},{\"title\":\"Large Language Models for Information Retrieval: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.07107v3\",\"snippet\":\"LLMs can be used to enhance traditional IR components, such as query rewriter, retriever, reranker, and reader. (2) LLMs can also be used as search agents\",\"date\":\"Aug 16, 2023\",\"position\":6},{\"title\":\"[PDF] When Search Engine Services meet Large Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2407.00128\",\"snippet\":\"LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, enhance the ranking of search results\",\"date\":\"Jun 28, 2024\",\"position\":7},{\"title\":\"When Search Engine Services meet Large Language Models - arXiv\",\"link\":\"https://arxiv.org/abs/2407.00128\",\"snippet\":\"LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, enhance the ranking of search results\",\"date\":\"Jun 28, 2024\",\"position\":8},{\"title\":\"[PDF] LLM-assisted Vector Similarity Search - arxiv pdf\",\"link\":\"https://arxiv.org/pdf/2412.18819\",\"snippet\":\"2. LLM-assisted ranking: The shortlisted results from the vector similarity search are then fed into an LLM, which ranks the results based on their relevance ...\",\"date\":\"May 15, 2024\",\"position\":9},{\"title\":\"[PDF] Adversarial Search Engine Optimization for Large Language Models\",\"link\":\"https://arxiv.org/pdf/2406.18382\",\"snippet\":\"Large Language Models (LLMs) are increasingly used in applications where the model selects from competing third-party content, such as in LLM-powered search.\",\"date\":\"Jul 2, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "df65d5f2f7b2d125a45d602fc3a948c7ae75e863e1d5f8308b6debdf7cba3742",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Use of LLM in ranking search results before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "When Search Engine Services meet Large Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2407.00128v1",
+                    "snippet": "LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, enhance the ranking of search results",
+                    "date": "Jun 28, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Large Language Models are Zero-Shot Rankers for Recommender ...",
+                    "link": "https://arxiv.org/html/2305.08845v2",
+                    "snippet": "LLMs rank candidates based on item popularity, text features as well as user behaviors. To further investigate how LLMs rank the given candidates, we evaluate ...",
+                    "date": "Jan 24, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Large Language Models are Effective Text Rankers with Pairwise ...",
+                    "link": "https://arxiv.org/html/2306.17563v2",
+                    "snippet": "Ranking documents using Large Language Models (LLMs) by directly feeding the query and candidate documents into the prompt is an interesting and practical ...",
+                    "date": "Apr 8, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Manipulating Large Language Models to Increase Product Visibility",
+                    "link": "https://arxiv.org/html/2404.07981v1",
+                    "snippet": "An LLM search tool would provide a list of brands based on the needs and preferences of the user, similar to the example in Figure 1. This raises a critical ...",
+                    "date": "Apr 11, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "[PDF] Make LLM a Relevant, Responsible, and Trustworthy Searcher - arXiv",
+                    "link": "https://arxiv.org/pdf/2310.12443",
+                    "snippet": "The advent of Large Language Models (LLMs) has shown the po- tential to improve relevance and provide direct answers in web searches.",
+                    "date": "Oct 19, 2023",
+                    "position": 5
+                  },
+                  {
+                    "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2308.07107v3",
+                    "snippet": "LLMs can be used to enhance traditional IR components, such as query rewriter, retriever, reranker, and reader. (2) LLMs can also be used as search agents",
+                    "date": "Aug 16, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "[PDF] When Search Engine Services meet Large Language Models - arXiv",
+                    "link": "https://arxiv.org/pdf/2407.00128",
+                    "snippet": "LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, enhance the ranking of search results",
+                    "date": "Jun 28, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "When Search Engine Services meet Large Language Models - arXiv",
+                    "link": "https://arxiv.org/abs/2407.00128",
+                    "snippet": "LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, enhance the ranking of search results",
+                    "date": "Jun 28, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] LLM-assisted Vector Similarity Search - arxiv pdf",
+                    "link": "https://arxiv.org/pdf/2412.18819",
+                    "snippet": "2. LLM-assisted ranking: The shortlisted results from the vector similarity search are then fed into an LLM, which ranks the results based on their relevance ...",
+                    "date": "May 15, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "[PDF] Adversarial Search Engine Optimization for Large Language Models",
+                    "link": "https://arxiv.org/pdf/2406.18382",
+                    "snippet": "Large Language Models (LLMs) are increasingly used in applications where the model selects from competing third-party content, such as in LLM-powered search.",
+                    "date": "Jul 2, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:52.024939+00:00",
+              "elapsed_seconds": 0.8697085678577423,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q9_A_01_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2305.08845",
+            "2306.17563",
+            "2308.07107",
+            "2310.12443",
+            "2404.07981",
+            "2406.18382",
+            "2407.00128",
+            "2412.18819"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2407.00128",
+              "organic_index": 0,
+              "position": 1,
+              "title": "When Search Engine Services meet Large Language Models - arXiv",
+              "link": "https://arxiv.org/html/2407.00128v1",
+              "snippet": "LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, enhance the ranking of search results"
+            },
+            {
+              "arxiv_id": "2305.08845",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Large Language Models are Zero-Shot Rankers for Recommender ...",
+              "link": "https://arxiv.org/html/2305.08845v2",
+              "snippet": "LLMs rank candidates based on item popularity, text features as well as user behaviors. To further investigate how LLMs rank the given candidates, we evaluate ..."
+            },
+            {
+              "arxiv_id": "2306.17563",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Large Language Models are Effective Text Rankers with Pairwise ...",
+              "link": "https://arxiv.org/html/2306.17563v2",
+              "snippet": "Ranking documents using Large Language Models (LLMs) by directly feeding the query and candidate documents into the prompt is an interesting and practical ..."
+            },
+            {
+              "arxiv_id": "2404.07981",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Manipulating Large Language Models to Increase Product Visibility",
+              "link": "https://arxiv.org/html/2404.07981v1",
+              "snippet": "An LLM search tool would provide a list of brands based on the needs and preferences of the user, similar to the example in Figure 1. This raises a critical ..."
+            },
+            {
+              "arxiv_id": "2310.12443",
+              "organic_index": 4,
+              "position": 5,
+              "title": "[PDF] Make LLM a Relevant, Responsible, and Trustworthy Searcher - arXiv",
+              "link": "https://arxiv.org/pdf/2310.12443",
+              "snippet": "The advent of Large Language Models (LLMs) has shown the po- tential to improve relevance and provide direct answers in web searches."
+            },
+            {
+              "arxiv_id": "2308.07107",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2308.07107v3",
+              "snippet": "LLMs can be used to enhance traditional IR components, such as query rewriter, retriever, reranker, and reader. (2) LLMs can also be used as search agents"
+            },
+            {
+              "arxiv_id": "2407.00128",
+              "organic_index": 6,
+              "position": 7,
+              "title": "[PDF] When Search Engine Services meet Large Language Models - arXiv",
+              "link": "https://arxiv.org/pdf/2407.00128",
+              "snippet": "LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, enhance the ranking of search results"
+            },
+            {
+              "arxiv_id": "2407.00128",
+              "organic_index": 7,
+              "position": 8,
+              "title": "When Search Engine Services meet Large Language Models - arXiv",
+              "link": "https://arxiv.org/abs/2407.00128",
+              "snippet": "LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, enhance the ranking of search results"
+            },
+            {
+              "arxiv_id": "2412.18819",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] LLM-assisted Vector Similarity Search - arxiv pdf",
+              "link": "https://arxiv.org/pdf/2412.18819",
+              "snippet": "2. LLM-assisted ranking: The shortlisted results from the vector similarity search are then fed into an LLM, which ranks the results based on their relevance ..."
+            },
+            {
+              "arxiv_id": "2406.18382",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[PDF] Adversarial Search Engine Optimization for Large Language Models",
+              "link": "https://arxiv.org/pdf/2406.18382",
+              "snippet": "Large Language Models (LLMs) are increasingly used in applications where the model selects from competing third-party content, such as in LLM-powered search."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 2,
+          "crawler_query": "Influence of LLM on search result rankings",
+          "request_payload": {
+            "q": "Influence of LLM on search result rankings before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 63,
+              "query_id": "Q9",
+              "group": "A",
+              "query_sequence": 2,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Influence of LLM on search result rankings before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:52.025411+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Influence of LLM on search result rankings before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"When Search Engine Services meet Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2407.00128v1\",\"snippet\":\"This paper conducts an in-depth examination of how integrating LLMs with search To-Rank (LTR) tasks can enhance their ability to respond with greater precision,\",\"date\":\"Jun 28, 2024\",\"position\":1},{\"title\":\"Manipulating Large Language Models to Increase Product Visibility\",\"link\":\"https://arxiv.org/html/2404.07981v1\",\"snippet\":\"We show that a vendor can significantly improve their product's ranking in the LLM's recommendations by inserting an optimized sequence of tokens\",\"date\":\"Apr 11, 2024\",\"position\":2},{\"title\":\"[PDF] When Search Engine Services meet Large Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2407.00128\",\"snippet\":\"In terms of LLM4Search, we examine how LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, ...\",\"date\":\"Jun 28, 2024\",\"position\":3},{\"title\":\"Large Language Models for Information Retrieval: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.07107v3\",\"snippet\":\"LLMs have inherent advantages in query rewriting. Primarily, LLMs have a deep understanding of language semantics, allowing them to capture the meaning of ...\",\"date\":\"Aug 16, 2023\",\"position\":4},{\"title\":\"Exploring the Impact of SERP Features on Organic Click-through ...\",\"link\":\"https://arxiv.org/html/2306.01785v1\",\"snippet\":\"Our findings not only confirm the widely accepted view that the ranking position of a search engine page result greatly influences its click-through rate (CTR)\",\"date\":\"Jun 8, 2023\",\"position\":5},{\"title\":\"When Search Engine Services meet Large Language Models - arXiv\",\"link\":\"https://arxiv.org/abs/2407.00128\",\"snippet\":\"This paper conducts an in-depth examination of how integrating LLMs with search engines can mutually benefit both technologies. enhance the ranking of search ...\",\"date\":\"Jun 28, 2024\",\"position\":6},{\"title\":\"Adversarial Search Engine Optimization for Large Language Models\",\"link\":\"https://arxiv.org/abs/2406.18382\",\"snippet\":\"As LLMs are increasingly used to rank third-party content, we expect Preference Manipulation Attacks to emerge as a significant threat.\",\"date\":\"Jun 26, 2024\",\"position\":7},{\"title\":\"Ranking Manipulation for Conversational Search Engines - arXiv\",\"link\":\"https://arxiv.org/abs/2406.03589\",\"snippet\":\"Recent research demonstrates that LLMs are highly vulnerable to jailbreaking and prompt injection attacks, which disrupt the safety and quality goals of LLMs ...\",\"date\":\"Jun 5, 2024\",\"position\":8},{\"title\":\"[PDF] Make LLM a Relevant, Responsible, and Trustworthy Searcher - arXiv\",\"link\":\"https://arxiv.org/pdf/2310.12443\",\"snippet\":\"ABSTRACT. The advent of Large Language Models (LLMs) has shown the po- tential to improve relevance and provide direct answers in web searches.\",\"date\":\"Oct 19, 2023\",\"position\":9},{\"title\":\"GEO: Generative Engine Optimization - arXiv\",\"link\":\"https://arxiv.org/html/2311.09735v3\",\"snippet\":\"A key observation is the differential impact of GEO on websites based on their Search Engine Results Pages (SERP) ranking. ... impact of search rankings. Lastly, ...\",\"date\":\"May 30, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "a6f12b029d2678a6cc0a95585c55a79e137a1c39aee4723fa8d49b35440fd25d",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Influence of LLM on search result rankings before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "When Search Engine Services meet Large Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2407.00128v1",
+                    "snippet": "This paper conducts an in-depth examination of how integrating LLMs with search To-Rank (LTR) tasks can enhance their ability to respond with greater precision,",
+                    "date": "Jun 28, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Manipulating Large Language Models to Increase Product Visibility",
+                    "link": "https://arxiv.org/html/2404.07981v1",
+                    "snippet": "We show that a vendor can significantly improve their product's ranking in the LLM's recommendations by inserting an optimized sequence of tokens",
+                    "date": "Apr 11, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "[PDF] When Search Engine Services meet Large Language Models - arXiv",
+                    "link": "https://arxiv.org/pdf/2407.00128",
+                    "snippet": "In terms of LLM4Search, we examine how LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, ...",
+                    "date": "Jun 28, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2308.07107v3",
+                    "snippet": "LLMs have inherent advantages in query rewriting. Primarily, LLMs have a deep understanding of language semantics, allowing them to capture the meaning of ...",
+                    "date": "Aug 16, 2023",
+                    "position": 4
+                  },
+                  {
+                    "title": "Exploring the Impact of SERP Features on Organic Click-through ...",
+                    "link": "https://arxiv.org/html/2306.01785v1",
+                    "snippet": "Our findings not only confirm the widely accepted view that the ranking position of a search engine page result greatly influences its click-through rate (CTR)",
+                    "date": "Jun 8, 2023",
+                    "position": 5
+                  },
+                  {
+                    "title": "When Search Engine Services meet Large Language Models - arXiv",
+                    "link": "https://arxiv.org/abs/2407.00128",
+                    "snippet": "This paper conducts an in-depth examination of how integrating LLMs with search engines can mutually benefit both technologies. enhance the ranking of search ...",
+                    "date": "Jun 28, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Adversarial Search Engine Optimization for Large Language Models",
+                    "link": "https://arxiv.org/abs/2406.18382",
+                    "snippet": "As LLMs are increasingly used to rank third-party content, we expect Preference Manipulation Attacks to emerge as a significant threat.",
+                    "date": "Jun 26, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Ranking Manipulation for Conversational Search Engines - arXiv",
+                    "link": "https://arxiv.org/abs/2406.03589",
+                    "snippet": "Recent research demonstrates that LLMs are highly vulnerable to jailbreaking and prompt injection attacks, which disrupt the safety and quality goals of LLMs ...",
+                    "date": "Jun 5, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] Make LLM a Relevant, Responsible, and Trustworthy Searcher - arXiv",
+                    "link": "https://arxiv.org/pdf/2310.12443",
+                    "snippet": "ABSTRACT. The advent of Large Language Models (LLMs) has shown the po- tential to improve relevance and provide direct answers in web searches.",
+                    "date": "Oct 19, 2023",
+                    "position": 9
+                  },
+                  {
+                    "title": "GEO: Generative Engine Optimization - arXiv",
+                    "link": "https://arxiv.org/html/2311.09735v3",
+                    "snippet": "A key observation is the differential impact of GEO on websites based on their Search Engine Results Pages (SERP) ranking. ... impact of search rankings. Lastly, ...",
+                    "date": "May 30, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:53.009013+00:00",
+              "elapsed_seconds": 0.9836072959005833,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q9_A_02_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2306.01785",
+            "2308.07107",
+            "2310.12443",
+            "2311.09735",
+            "2404.07981",
+            "2406.03589",
+            "2406.18382",
+            "2407.00128"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2407.00128",
+              "organic_index": 0,
+              "position": 1,
+              "title": "When Search Engine Services meet Large Language Models - arXiv",
+              "link": "https://arxiv.org/html/2407.00128v1",
+              "snippet": "This paper conducts an in-depth examination of how integrating LLMs with search To-Rank (LTR) tasks can enhance their ability to respond with greater precision,"
+            },
+            {
+              "arxiv_id": "2404.07981",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Manipulating Large Language Models to Increase Product Visibility",
+              "link": "https://arxiv.org/html/2404.07981v1",
+              "snippet": "We show that a vendor can significantly improve their product's ranking in the LLM's recommendations by inserting an optimized sequence of tokens"
+            },
+            {
+              "arxiv_id": "2407.00128",
+              "organic_index": 2,
+              "position": 3,
+              "title": "[PDF] When Search Engine Services meet Large Language Models - arXiv",
+              "link": "https://arxiv.org/pdf/2407.00128",
+              "snippet": "In terms of LLM4Search, we examine how LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, ..."
+            },
+            {
+              "arxiv_id": "2308.07107",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2308.07107v3",
+              "snippet": "LLMs have inherent advantages in query rewriting. Primarily, LLMs have a deep understanding of language semantics, allowing them to capture the meaning of ..."
+            },
+            {
+              "arxiv_id": "2306.01785",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Exploring the Impact of SERP Features on Organic Click-through ...",
+              "link": "https://arxiv.org/html/2306.01785v1",
+              "snippet": "Our findings not only confirm the widely accepted view that the ranking position of a search engine page result greatly influences its click-through rate (CTR)"
+            },
+            {
+              "arxiv_id": "2407.00128",
+              "organic_index": 5,
+              "position": 6,
+              "title": "When Search Engine Services meet Large Language Models - arXiv",
+              "link": "https://arxiv.org/abs/2407.00128",
+              "snippet": "This paper conducts an in-depth examination of how integrating LLMs with search engines can mutually benefit both technologies. enhance the ranking of search ..."
+            },
+            {
+              "arxiv_id": "2406.18382",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Adversarial Search Engine Optimization for Large Language Models",
+              "link": "https://arxiv.org/abs/2406.18382",
+              "snippet": "As LLMs are increasingly used to rank third-party content, we expect Preference Manipulation Attacks to emerge as a significant threat."
+            },
+            {
+              "arxiv_id": "2406.03589",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Ranking Manipulation for Conversational Search Engines - arXiv",
+              "link": "https://arxiv.org/abs/2406.03589",
+              "snippet": "Recent research demonstrates that LLMs are highly vulnerable to jailbreaking and prompt injection attacks, which disrupt the safety and quality goals of LLMs ..."
+            },
+            {
+              "arxiv_id": "2310.12443",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] Make LLM a Relevant, Responsible, and Trustworthy Searcher - arXiv",
+              "link": "https://arxiv.org/pdf/2310.12443",
+              "snippet": "ABSTRACT. The advent of Large Language Models (LLMs) has shown the po- tential to improve relevance and provide direct answers in web searches."
+            },
+            {
+              "arxiv_id": "2311.09735",
+              "organic_index": 9,
+              "position": 10,
+              "title": "GEO: Generative Engine Optimization - arXiv",
+              "link": "https://arxiv.org/html/2311.09735v3",
+              "snippet": "A key observation is the differential impact of GEO on websites based on their Search Engine Results Pages (SERP) ranking. ... impact of search rankings. Lastly, ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 3,
+          "crawler_query": "Survey papers on ranking search results with Language Model",
+          "request_payload": {
+            "q": "Survey papers on ranking search results with Language Model before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 64,
+              "query_id": "Q9",
+              "group": "A",
+              "query_sequence": 3,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Survey papers on ranking search results with Language Model before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:53.009431+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on ranking search results with Language Model before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Large Language Models for Information Retrieval: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.07107v3\",\"snippet\":\"It reformulates users' original queries to better match search results, alleviating issues like vague queries or vocabulary mismatches between the query and ...\",\"date\":\"Aug 16, 2023\",\"position\":1},{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"This paper gives a timely survey of the recent advances on LLMs. benchmarks for evaluating LLMs, ize the reported LLM evaluation results. These documents are ...\",\"date\":\"Feb 20, 2024\",\"position\":2},{\"title\":\"The Survey of Retrieval-Augmented Text Generation in Large ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.10981v2\",\"snippet\":\"These models improve search accuracy by considering synonyms and the structure of phrases, thereby refining document ranking through the detection of semantic ...\",\"date\":\"Aug 23, 2024\",\"position\":3},{\"title\":\"A Survey on Large Language Models for Recommendation - arXiv\",\"link\":\"https://arxiv.org/html/2305.19860v5\",\"snippet\":\"We present a systematic survey of the current state of LLM-based recommendation systems, focusing on expanding the capacity of language models. We provide a ...\",\"date\":\"Jun 18, 2024\",\"position\":4},{\"title\":\"Neural Search: Learning Query and Product Representations in ...\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2107.08291\",\"snippet\":\"Our experiments on the product ranking task show that the RoBERTa model is able to give an improvement of 7.8% in Mean Reciprocal Rank(MRR), 15.8% in Mean ...\",\"date\":\"Jul 15, 2021\",\"position\":5},{\"title\":\"Reasoning with Large Language Models,a Survey - arXiv\",\"link\":\"https://arxiv.org/html/2407.11511v1\",\"snippet\":\"This paper reviews the rapidly expanding field of prompt-based reasoning with LLMs. Our taxonomy identifies different ways to generate, evaluate, and control ...\",\"date\":\"Jul 16, 2024\",\"position\":6},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.\",\"date\":\"Jan 27, 2022\",\"position\":7},{\"title\":\"Large Language Models are Effective Text Rankers with Pairwise ...\",\"link\":\"https://arxiv.org/html/2306.17563v2\",\"snippet\":\"In this paper, we propose to significantly reduce the burden on LLMs by using a new technique called Pairwise Ranking Prompting (PRP).\",\"date\":\"Apr 8, 2024\",\"position\":8},{\"title\":\"When Search Engine Services meet Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2407.00128v1\",\"snippet\":\"In terms of LLM4Search, we examine how LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, ...\",\"date\":\"Jun 28, 2024\",\"position\":9},{\"title\":\"Pretrained Language Model based Web Search Ranking - arXiv\",\"link\":\"https://arxiv.org/html/2306.01599v1\",\"snippet\":\"Recently, Pretrained Language Models (PLMs) based text ranking models have achieved huge success in web search. However, many state-of-the-art text ranking ...\",\"date\":\"Jun 2, 2023\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "cfa8c1d5ee576628e9e274c7968eb6500128fc62118cf54c20d257431f25503e",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Survey papers on ranking search results with Language Model before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2308.07107v3",
+                    "snippet": "It reformulates users' original queries to better match search results, alleviating issues like vague queries or vocabulary mismatches between the query and ...",
+                    "date": "Aug 16, 2023",
+                    "position": 1
+                  },
+                  {
+                    "title": "Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2402.06196v2",
+                    "snippet": "This paper gives a timely survey of the recent advances on LLMs. benchmarks for evaluating LLMs, ize the reported LLM evaluation results. These documents are ...",
+                    "date": "Feb 20, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "The Survey of Retrieval-Augmented Text Generation in Large ... - arXiv",
+                    "link": "https://arxiv.org/html/2404.10981v2",
+                    "snippet": "These models improve search accuracy by considering synonyms and the structure of phrases, thereby refining document ranking through the detection of semantic ...",
+                    "date": "Aug 23, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "A Survey on Large Language Models for Recommendation - arXiv",
+                    "link": "https://arxiv.org/html/2305.19860v5",
+                    "snippet": "We present a systematic survey of the current state of LLM-based recommendation systems, focusing on expanding the capacity of language models. We provide a ...",
+                    "date": "Jun 18, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Neural Search: Learning Query and Product Representations in ...",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2107.08291",
+                    "snippet": "Our experiments on the product ranking task show that the RoBERTa model is able to give an improvement of 7.8% in Mean Reciprocal Rank(MRR), 15.8% in Mean ...",
+                    "date": "Jul 15, 2021",
+                    "position": 5
+                  },
+                  {
+                    "title": "Reasoning with Large Language Models,a Survey - arXiv",
+                    "link": "https://arxiv.org/html/2407.11511v1",
+                    "snippet": "This paper reviews the rapidly expanding field of prompt-based reasoning with LLMs. Our taxonomy identifies different ways to generate, evaluate, and control ...",
+                    "date": "Jul 16, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.",
+                    "date": "Jan 27, 2022",
+                    "position": 7
+                  },
+                  {
+                    "title": "Large Language Models are Effective Text Rankers with Pairwise ...",
+                    "link": "https://arxiv.org/html/2306.17563v2",
+                    "snippet": "In this paper, we propose to significantly reduce the burden on LLMs by using a new technique called Pairwise Ranking Prompting (PRP).",
+                    "date": "Apr 8, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "When Search Engine Services meet Large Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2407.00128v1",
+                    "snippet": "In terms of LLM4Search, we examine how LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, ...",
+                    "date": "Jun 28, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Pretrained Language Model based Web Search Ranking - arXiv",
+                    "link": "https://arxiv.org/html/2306.01599v1",
+                    "snippet": "Recently, Pretrained Language Models (PLMs) based text ranking models have achieved huge success in web search. However, many state-of-the-art text ranking ...",
+                    "date": "Jun 2, 2023",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:54.220546+00:00",
+              "elapsed_seconds": 1.2111210227012634,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q9_A_03_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2107.08291",
+            "2203.02155",
+            "2305.19860",
+            "2306.01599",
+            "2306.17563",
+            "2308.07107",
+            "2402.06196",
+            "2404.10981",
+            "2407.00128",
+            "2407.11511"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2308.07107",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2308.07107v3",
+              "snippet": "It reformulates users' original queries to better match search results, alleviating issues like vague queries or vocabulary mismatches between the query and ..."
+            },
+            {
+              "arxiv_id": "2402.06196",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2402.06196v2",
+              "snippet": "This paper gives a timely survey of the recent advances on LLMs. benchmarks for evaluating LLMs, ize the reported LLM evaluation results. These documents are ..."
+            },
+            {
+              "arxiv_id": "2404.10981",
+              "organic_index": 2,
+              "position": 3,
+              "title": "The Survey of Retrieval-Augmented Text Generation in Large ... - arXiv",
+              "link": "https://arxiv.org/html/2404.10981v2",
+              "snippet": "These models improve search accuracy by considering synonyms and the structure of phrases, thereby refining document ranking through the detection of semantic ..."
+            },
+            {
+              "arxiv_id": "2305.19860",
+              "organic_index": 3,
+              "position": 4,
+              "title": "A Survey on Large Language Models for Recommendation - arXiv",
+              "link": "https://arxiv.org/html/2305.19860v5",
+              "snippet": "We present a systematic survey of the current state of LLM-based recommendation systems, focusing on expanding the capacity of language models. We provide a ..."
+            },
+            {
+              "arxiv_id": "2107.08291",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Neural Search: Learning Query and Product Representations in ...",
+              "link": "https://ar5iv.labs.arxiv.org/html/2107.08291",
+              "snippet": "Our experiments on the product ranking task show that the RoBERTa model is able to give an improvement of 7.8% in Mean Reciprocal Rank(MRR), 15.8% in Mean ..."
+            },
+            {
+              "arxiv_id": "2407.11511",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Reasoning with Large Language Models,a Survey - arXiv",
+              "link": "https://arxiv.org/html/2407.11511v1",
+              "snippet": "This paper reviews the rapidly expanding field of prompt-based reasoning with LLMs. Our taxonomy identifies different ways to generate, evaluate, and control ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback."
+            },
+            {
+              "arxiv_id": "2306.17563",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Large Language Models are Effective Text Rankers with Pairwise ...",
+              "link": "https://arxiv.org/html/2306.17563v2",
+              "snippet": "In this paper, we propose to significantly reduce the burden on LLMs by using a new technique called Pairwise Ranking Prompting (PRP)."
+            },
+            {
+              "arxiv_id": "2407.00128",
+              "organic_index": 8,
+              "position": 9,
+              "title": "When Search Engine Services meet Large Language Models - arXiv",
+              "link": "https://arxiv.org/html/2407.00128v1",
+              "snippet": "In terms of LLM4Search, we examine how LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, ..."
+            },
+            {
+              "arxiv_id": "2306.01599",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Pretrained Language Model based Web Search Ranking - arXiv",
+              "link": "https://arxiv.org/html/2306.01599v1",
+              "snippet": "Recently, Pretrained Language Models (PLMs) based text ranking models have achieved huge success in web search. However, many state-of-the-art text ranking ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 4,
+          "crawler_query": "Application of LLM in search result ranking",
+          "request_payload": {
+            "q": "Application of LLM in search result ranking before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 65,
+              "query_id": "Q9",
+              "group": "A",
+              "query_sequence": 4,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Application of LLM in search result ranking before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:54.220963+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Application of LLM in search result ranking before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"When Search Engine Services meet Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2407.00128v1\",\"snippet\":\"This application allows the direct comparison of different search result sets and their respective ranking orders. Some key features of LLMs are as follows ...\",\"date\":\"Jun 28, 2024\",\"position\":1},{\"title\":\"[PDF] When Search Engine Services meet Large Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2407.00128\",\"snippet\":\"In terms of LLM4Search, we examine how LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, ...\",\"date\":\"Jun 28, 2024\",\"position\":2},{\"title\":\"Large Language Models for Information Retrieval: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.07107v3\",\"snippet\":\"This enables search engines to expand queries using LLM-generated insights, while LLMs refine prompts using relevant documents sourced from the search engines.\",\"date\":\"Aug 16, 2023\",\"position\":3},{\"title\":\"[PDF] Make LLM a Relevant, Responsible, and Trustworthy Searcher - arXiv\",\"link\":\"https://arxiv.org/pdf/2310.12443\",\"snippet\":\"Some researchers propose to improve the performance of query expan- sion and result ranking through LLMs' linguistic abilities [11, 25], while others ...\",\"date\":\"Oct 19, 2023\",\"position\":4},{\"title\":\"Manipulating Large Language Models to Increase Product Visibility\",\"link\":\"https://arxiv.org/html/2404.07981v1\",\"snippet\":\"An LLM search tool would provide a list of brands based on the needs and preferences of the user, similar to the example in Figure 1. This raises a critical ...\",\"date\":\"Apr 11, 2024\",\"position\":5},{\"title\":\"Large Language Models are Zero-Shot Rankers for Recommender ...\",\"link\":\"https://arxiv.org/html/2305.08845v2\",\"snippet\":\"The results indicate that LLM-based rankers are affected by the order of candidates, i.e., position bias, which may not affect conventional recommendation ...\",\"date\":\"Jan 24, 2024\",\"position\":6},{\"title\":\"When Search Engine Services meet Large Language Models - arXiv\",\"link\":\"https://arxiv.org/abs/2407.00128\",\"snippet\":\"In terms of LLM4Search, we examine how LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, ...\",\"date\":\"Jun 28, 2024\",\"position\":7},{\"title\":\"Large Language Models for Information Retrieval: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.07107v4\",\"snippet\":\"In pursuit of enhancing the search result quality, researchers delve into more complex matching methods than the traditional vector inner product, thereby ...\",\"date\":\"Aug 16, 2023\",\"position\":8},{\"title\":\"Large Language Models are Effective Text Rankers with Pairwise ...\",\"link\":\"https://arxiv.org/html/2306.17563v2\",\"snippet\":\"In this paper, we propose to use pairwise prompting with LLMs for text ranking tasks. To the best of our knowledge, these are the first published results ...\",\"date\":\"Apr 8, 2024\",\"position\":9},{\"title\":\"[PDF] Large Search Model: Redefining Search Stack in the Era of LLMs\",\"link\":\"https://arxiv.org/pdf/2310.14587\",\"snippet\":\"In this paper, we introduce a novel conceptual framework called large search model, which redefines the conventional search stack by unifying search tasks with ...\",\"date\":\"Jan 2, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "cc221127e866545406413988ee3525e255750b9f0afcf4e4171b013a3e4d5f43",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Application of LLM in search result ranking before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "When Search Engine Services meet Large Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2407.00128v1",
+                    "snippet": "This application allows the direct comparison of different search result sets and their respective ranking orders. Some key features of LLMs are as follows ...",
+                    "date": "Jun 28, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "[PDF] When Search Engine Services meet Large Language Models - arXiv",
+                    "link": "https://arxiv.org/pdf/2407.00128",
+                    "snippet": "In terms of LLM4Search, we examine how LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, ...",
+                    "date": "Jun 28, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2308.07107v3",
+                    "snippet": "This enables search engines to expand queries using LLM-generated insights, while LLMs refine prompts using relevant documents sourced from the search engines.",
+                    "date": "Aug 16, 2023",
+                    "position": 3
+                  },
+                  {
+                    "title": "[PDF] Make LLM a Relevant, Responsible, and Trustworthy Searcher - arXiv",
+                    "link": "https://arxiv.org/pdf/2310.12443",
+                    "snippet": "Some researchers propose to improve the performance of query expan- sion and result ranking through LLMs' linguistic abilities [11, 25], while others ...",
+                    "date": "Oct 19, 2023",
+                    "position": 4
+                  },
+                  {
+                    "title": "Manipulating Large Language Models to Increase Product Visibility",
+                    "link": "https://arxiv.org/html/2404.07981v1",
+                    "snippet": "An LLM search tool would provide a list of brands based on the needs and preferences of the user, similar to the example in Figure 1. This raises a critical ...",
+                    "date": "Apr 11, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "Large Language Models are Zero-Shot Rankers for Recommender ...",
+                    "link": "https://arxiv.org/html/2305.08845v2",
+                    "snippet": "The results indicate that LLM-based rankers are affected by the order of candidates, i.e., position bias, which may not affect conventional recommendation ...",
+                    "date": "Jan 24, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "When Search Engine Services meet Large Language Models - arXiv",
+                    "link": "https://arxiv.org/abs/2407.00128",
+                    "snippet": "In terms of LLM4Search, we examine how LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, ...",
+                    "date": "Jun 28, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2308.07107v4",
+                    "snippet": "In pursuit of enhancing the search result quality, researchers delve into more complex matching methods than the traditional vector inner product, thereby ...",
+                    "date": "Aug 16, 2023",
+                    "position": 8
+                  },
+                  {
+                    "title": "Large Language Models are Effective Text Rankers with Pairwise ...",
+                    "link": "https://arxiv.org/html/2306.17563v2",
+                    "snippet": "In this paper, we propose to use pairwise prompting with LLMs for text ranking tasks. To the best of our knowledge, these are the first published results ...",
+                    "date": "Apr 8, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "[PDF] Large Search Model: Redefining Search Stack in the Era of LLMs",
+                    "link": "https://arxiv.org/pdf/2310.14587",
+                    "snippet": "In this paper, we introduce a novel conceptual framework called large search model, which redefines the conventional search stack by unifying search tasks with ...",
+                    "date": "Jan 2, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:55.087478+00:00",
+              "elapsed_seconds": 0.8665166832506657,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q9_A_04_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2305.08845",
+            "2306.17563",
+            "2308.07107",
+            "2310.12443",
+            "2310.14587",
+            "2404.07981",
+            "2407.00128"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2407.00128",
+              "organic_index": 0,
+              "position": 1,
+              "title": "When Search Engine Services meet Large Language Models - arXiv",
+              "link": "https://arxiv.org/html/2407.00128v1",
+              "snippet": "This application allows the direct comparison of different search result sets and their respective ranking orders. Some key features of LLMs are as follows ..."
+            },
+            {
+              "arxiv_id": "2407.00128",
+              "organic_index": 1,
+              "position": 2,
+              "title": "[PDF] When Search Engine Services meet Large Language Models - arXiv",
+              "link": "https://arxiv.org/pdf/2407.00128",
+              "snippet": "In terms of LLM4Search, we examine how LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, ..."
+            },
+            {
+              "arxiv_id": "2308.07107",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2308.07107v3",
+              "snippet": "This enables search engines to expand queries using LLM-generated insights, while LLMs refine prompts using relevant documents sourced from the search engines."
+            },
+            {
+              "arxiv_id": "2310.12443",
+              "organic_index": 3,
+              "position": 4,
+              "title": "[PDF] Make LLM a Relevant, Responsible, and Trustworthy Searcher - arXiv",
+              "link": "https://arxiv.org/pdf/2310.12443",
+              "snippet": "Some researchers propose to improve the performance of query expan- sion and result ranking through LLMs' linguistic abilities [11, 25], while others ..."
+            },
+            {
+              "arxiv_id": "2404.07981",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Manipulating Large Language Models to Increase Product Visibility",
+              "link": "https://arxiv.org/html/2404.07981v1",
+              "snippet": "An LLM search tool would provide a list of brands based on the needs and preferences of the user, similar to the example in Figure 1. This raises a critical ..."
+            },
+            {
+              "arxiv_id": "2305.08845",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Large Language Models are Zero-Shot Rankers for Recommender ...",
+              "link": "https://arxiv.org/html/2305.08845v2",
+              "snippet": "The results indicate that LLM-based rankers are affected by the order of candidates, i.e., position bias, which may not affect conventional recommendation ..."
+            },
+            {
+              "arxiv_id": "2407.00128",
+              "organic_index": 6,
+              "position": 7,
+              "title": "When Search Engine Services meet Large Language Models - arXiv",
+              "link": "https://arxiv.org/abs/2407.00128",
+              "snippet": "In terms of LLM4Search, we examine how LLMs can be used to summarize content for better indexing by search engines, improve query outcomes through optimization, ..."
+            },
+            {
+              "arxiv_id": "2308.07107",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2308.07107v4",
+              "snippet": "In pursuit of enhancing the search result quality, researchers delve into more complex matching methods than the traditional vector inner product, thereby ..."
+            },
+            {
+              "arxiv_id": "2306.17563",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Large Language Models are Effective Text Rankers with Pairwise ...",
+              "link": "https://arxiv.org/html/2306.17563v2",
+              "snippet": "In this paper, we propose to use pairwise prompting with LLMs for text ranking tasks. To the best of our knowledge, these are the first published results ..."
+            },
+            {
+              "arxiv_id": "2310.14587",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[PDF] Large Search Model: Redefining Search Stack in the Era of LLMs",
+              "link": "https://arxiv.org/pdf/2310.14587",
+              "snippet": "In this paper, we introduce a novel conceptual framework called large search model, which redefines the conventional search stack by unifying search tasks with ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 5,
+          "crawler_query": "Ranking mechanisms in Large Language Models",
+          "request_payload": {
+            "q": "Ranking mechanisms in Large Language Models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 66,
+              "query_id": "Q9",
+              "group": "A",
+              "query_sequence": 5,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Ranking mechanisms in Large Language Models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:53:55.087897+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Ranking mechanisms in Large Language Models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2403.19181] Make Large Language Model a Better Ranker - arXiv\",\"link\":\"https://arxiv.org/abs/2403.19181\",\"snippet\":\"This mechanism provides more accurate optimization goals, enhancing the ranking process. Additionally, ALRO incorporates a permutation-sensitive learning ...\",\"date\":\"Mar 28, 2024\",\"position\":1},{\"title\":\"Large Language Models for Information Retrieval: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.07107v3\",\"snippet\":\"Permutation self-consistency improves listwise ranking in large language models,” CoRR, vol.\",\"date\":\"Aug 16, 2023\",\"position\":2},{\"title\":\"[2402.14860] Ranking Large Language Models without Ground Truth\",\"link\":\"https://arxiv.org/abs/2402.14860\",\"snippet\":\"we propose two methods to rank LLMs. In experiments on different generative tasks (summarization, multiple-choice, and dialog), our methods reliably recover ...\",\"date\":\"Feb 21, 2024\",\"position\":3},{\"title\":\"LLM-enhanced Reranking in Recommender Systems - arXiv\",\"link\":\"https://arxiv.org/html/2406.12433v2\",\"snippet\":\"Abstract. Reranking is a critical component in recommender systems, playing an essential role in refining the output of recommendation algorithms.\",\"date\":\"Jun 20, 2024\",\"position\":4},{\"title\":\"Large Language Models are Effective Text Rankers with Pairwise ...\",\"link\":\"https://arxiv.org/html/2306.17563v2\",\"snippet\":\"In this paper, we propose to significantly reduce the burden on LLMs by using a new technique called Pairwise Ranking Prompting (PRP).\",\"date\":\"Apr 8, 2024\",\"position\":5},{\"title\":\"Large Language Models for Information Retrieval: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.07107v4\",\"snippet\":\"One such early model is the Boolean model, which employs Boolean logic operators to combine query terms and retrieve documents that satisfy specific conditions ...\",\"date\":\"Aug 16, 2023\",\"position\":6},{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"LLaMA is a collection of foundation language models, released by Meta. Unlike GPT models, LLaMA models are open-source, i.e., model weights are released to the ...\",\"date\":\"Feb 20, 2024\",\"position\":7},{\"title\":\"A Survey on Large Language Models for Recommendation - arXiv\",\"link\":\"https://arxiv.org/html/2305.19860v5\",\"snippet\":\"Two major training paradigms of large language models: Discriminative LLM (e.g. BERT) and Generative LLM (e.g. GPT).\",\"date\":\"Jun 18, 2024\",\"position\":8},{\"title\":\"The Efficiency Spectrum of Large Language Models: An Algorithmic ...\",\"link\":\"https://arxiv.org/html/2312.00678v2\",\"snippet\":\"These methods not only address the computational challenges tied to the scale of LLMs but also facilitate the development of increasingly capable models.\",\"date\":\"Nov 15, 2023\",\"position\":9},{\"title\":\"RankRAG: Unifying Context Ranking with Retrieval-Augmented ...\",\"link\":\"https://arxiv.org/html/2407.02485v1\",\"snippet\":\"In this work, we propose a novel instruction fine-tuning framework RankRAG, which instruction-tunes a single LLM for the dual purpose of context ranking and ...\",\"date\":\"Jul 2, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "0c0931dda71d3638a09e3dd2a415bd6be88d252e27ce9ba9adf35204a396b3dc",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Ranking mechanisms in Large Language Models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "[2403.19181] Make Large Language Model a Better Ranker - arXiv",
+                    "link": "https://arxiv.org/abs/2403.19181",
+                    "snippet": "This mechanism provides more accurate optimization goals, enhancing the ranking process. Additionally, ALRO incorporates a permutation-sensitive learning ...",
+                    "date": "Mar 28, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2308.07107v3",
+                    "snippet": "Permutation self-consistency improves listwise ranking in large language models,” CoRR, vol.",
+                    "date": "Aug 16, 2023",
+                    "position": 2
+                  },
+                  {
+                    "title": "[2402.14860] Ranking Large Language Models without Ground Truth",
+                    "link": "https://arxiv.org/abs/2402.14860",
+                    "snippet": "we propose two methods to rank LLMs. In experiments on different generative tasks (summarization, multiple-choice, and dialog), our methods reliably recover ...",
+                    "date": "Feb 21, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "LLM-enhanced Reranking in Recommender Systems - arXiv",
+                    "link": "https://arxiv.org/html/2406.12433v2",
+                    "snippet": "Abstract. Reranking is a critical component in recommender systems, playing an essential role in refining the output of recommendation algorithms.",
+                    "date": "Jun 20, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Large Language Models are Effective Text Rankers with Pairwise ...",
+                    "link": "https://arxiv.org/html/2306.17563v2",
+                    "snippet": "In this paper, we propose to significantly reduce the burden on LLMs by using a new technique called Pairwise Ranking Prompting (PRP).",
+                    "date": "Apr 8, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2308.07107v4",
+                    "snippet": "One such early model is the Boolean model, which employs Boolean logic operators to combine query terms and retrieve documents that satisfy specific conditions ...",
+                    "date": "Aug 16, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2402.06196v2",
+                    "snippet": "LLaMA is a collection of foundation language models, released by Meta. Unlike GPT models, LLaMA models are open-source, i.e., model weights are released to the ...",
+                    "date": "Feb 20, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "A Survey on Large Language Models for Recommendation - arXiv",
+                    "link": "https://arxiv.org/html/2305.19860v5",
+                    "snippet": "Two major training paradigms of large language models: Discriminative LLM (e.g. BERT) and Generative LLM (e.g. GPT).",
+                    "date": "Jun 18, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "The Efficiency Spectrum of Large Language Models: An Algorithmic ...",
+                    "link": "https://arxiv.org/html/2312.00678v2",
+                    "snippet": "These methods not only address the computational challenges tied to the scale of LLMs but also facilitate the development of increasingly capable models.",
+                    "date": "Nov 15, 2023",
+                    "position": 9
+                  },
+                  {
+                    "title": "RankRAG: Unifying Context Ranking with Retrieval-Augmented ...",
+                    "link": "https://arxiv.org/html/2407.02485v1",
+                    "snippet": "In this work, we propose a novel instruction fine-tuning framework RankRAG, which instruction-tunes a single LLM for the dual purpose of context ranking and ...",
+                    "date": "Jul 2, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:53:56.131651+00:00",
+              "elapsed_seconds": 1.0438102781772614,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q9_A_05_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2305.19860",
+            "2306.17563",
+            "2308.07107",
+            "2312.00678",
+            "2402.06196",
+            "2402.14860",
+            "2403.19181",
+            "2406.12433",
+            "2407.02485"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2403.19181",
+              "organic_index": 0,
+              "position": 1,
+              "title": "[2403.19181] Make Large Language Model a Better Ranker - arXiv",
+              "link": "https://arxiv.org/abs/2403.19181",
+              "snippet": "This mechanism provides more accurate optimization goals, enhancing the ranking process. Additionally, ALRO incorporates a permutation-sensitive learning ..."
+            },
+            {
+              "arxiv_id": "2308.07107",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2308.07107v3",
+              "snippet": "Permutation self-consistency improves listwise ranking in large language models,” CoRR, vol."
+            },
+            {
+              "arxiv_id": "2402.14860",
+              "organic_index": 2,
+              "position": 3,
+              "title": "[2402.14860] Ranking Large Language Models without Ground Truth",
+              "link": "https://arxiv.org/abs/2402.14860",
+              "snippet": "we propose two methods to rank LLMs. In experiments on different generative tasks (summarization, multiple-choice, and dialog), our methods reliably recover ..."
+            },
+            {
+              "arxiv_id": "2406.12433",
+              "organic_index": 3,
+              "position": 4,
+              "title": "LLM-enhanced Reranking in Recommender Systems - arXiv",
+              "link": "https://arxiv.org/html/2406.12433v2",
+              "snippet": "Abstract. Reranking is a critical component in recommender systems, playing an essential role in refining the output of recommendation algorithms."
+            },
+            {
+              "arxiv_id": "2306.17563",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Large Language Models are Effective Text Rankers with Pairwise ...",
+              "link": "https://arxiv.org/html/2306.17563v2",
+              "snippet": "In this paper, we propose to significantly reduce the burden on LLMs by using a new technique called Pairwise Ranking Prompting (PRP)."
+            },
+            {
+              "arxiv_id": "2308.07107",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2308.07107v4",
+              "snippet": "One such early model is the Boolean model, which employs Boolean logic operators to combine query terms and retrieve documents that satisfy specific conditions ..."
+            },
+            {
+              "arxiv_id": "2402.06196",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2402.06196v2",
+              "snippet": "LLaMA is a collection of foundation language models, released by Meta. Unlike GPT models, LLaMA models are open-source, i.e., model weights are released to the ..."
+            },
+            {
+              "arxiv_id": "2305.19860",
+              "organic_index": 7,
+              "position": 8,
+              "title": "A Survey on Large Language Models for Recommendation - arXiv",
+              "link": "https://arxiv.org/html/2305.19860v5",
+              "snippet": "Two major training paradigms of large language models: Discriminative LLM (e.g. BERT) and Generative LLM (e.g. GPT)."
+            },
+            {
+              "arxiv_id": "2312.00678",
+              "organic_index": 8,
+              "position": 9,
+              "title": "The Efficiency Spectrum of Large Language Models: An Algorithmic ...",
+              "link": "https://arxiv.org/html/2312.00678v2",
+              "snippet": "These methods not only address the computational challenges tied to the scale of LLMs but also facilitate the development of increasingly capable models."
+            },
+            {
+              "arxiv_id": "2407.02485",
+              "organic_index": 9,
+              "position": 10,
+              "title": "RankRAG: Unifying Context Ranking with Retrieval-Augmented ...",
+              "link": "https://arxiv.org/html/2407.02485v1",
+              "snippet": "In this work, we propose a novel instruction fine-tuning framework RankRAG, which instruction-tunes a single LLM for the dual purpose of context ranking and ..."
+            }
+          ],
+          "organic_result_count": 10
+        }
+      ],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Give me papers about how to rank search results by the use of LLM.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "2922b1e7a9ed57eaa90f571c475667cac59c18bf27d667b1f56fd4bfe5b1731d",
+      "raw_output": "[Search]Use of LLM in ranking search results\n[Search]Influence of LLM on search result rankings\n[Search]Survey papers on ranking search results with Language Model\n[Search]Application of LLM in search result ranking\n[Search]Ranking mechanisms in Large Language Models\n[StopSearch]",
+      "raw_output_with_special_tokens": "[Search]Use of LLM in ranking search results\n[Search]Influence of LLM on search result rankings\n[Search]Survey papers on ranking search results with Language Model\n[Search]Application of LLM in search result ranking\n[Search]Ranking mechanisms in Large Language Models\n[StopSearch]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        5890,
+        60,
+        10253,
+        315,
+        444,
+        10994,
+        304,
+        23001,
+        2711,
+        3059,
+        198,
+        58,
+        5890,
+        60,
+        641,
+        40016,
+        315,
+        444,
+        10994,
+        389,
+        2711,
+        1102,
+        32307,
+        198,
+        58,
+        5890,
+        60,
+        68015,
+        15689,
+        389,
+        23001,
+        2711,
+        3059,
+        448,
+        11434,
+        4903,
+        198,
+        58,
+        5890,
+        60,
+        4988,
+        315,
+        444,
+        10994,
+        304,
+        2711,
+        1102,
+        23001,
+        198,
+        58,
+        5890,
+        60,
+        22550,
+        287,
+        23783,
+        304,
+        20286,
+        11434,
+        26874,
+        198,
+        58,
+        10674,
+        5890,
+        60,
+        151645
+      ],
+      "generated_token_count": 66,
+      "ended_with_eos": true,
+      "input_token_count": 71,
+      "generation_seconds": 2.2133440412580967,
+      "all_parsed_queries": [
+        "Use of LLM in ranking search results",
+        "Influence of LLM on search result rankings",
+        "Survey papers on ranking search results with Language Model",
+        "Application of LLM in search result ranking",
+        "Ranking mechanisms in Large Language Models"
+      ],
+      "queries": [
+        "Use of LLM in ranking search results",
+        "Influence of LLM on search result rankings",
+        "Survey papers on ranking search results with Language Model",
+        "Application of LLM in search result ranking",
+        "Ranking mechanisms in Large Language Models"
+      ],
+      "discarded_queries": []
+    },
+    "B": {
+      "prompt": "Please generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Give me papers about how to rank search results by the use of LLM.",
+      "searches": [],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Give me papers about how to rank search results by the use of LLM.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "4887080cf5695ccdf9df485ee2b790203050e4235dde4a7398854cfadcb48f77",
+      "raw_output": "[Expand]Use of LLM in ranking search results[StopExpand]",
+      "raw_output_with_special_tokens": "[Expand]Use of LLM in ranking search results[StopExpand]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        38946,
+        60,
+        10253,
+        315,
+        444,
+        10994,
+        304,
+        23001,
+        2711,
+        3059,
+        58,
+        10674,
+        38946,
+        60,
+        151645
+      ],
+      "generated_token_count": 16,
+      "ended_with_eos": true,
+      "input_token_count": 161,
+      "generation_seconds": 0.5419860072433949,
+      "all_parsed_queries": [],
+      "queries": [],
+      "discarded_queries": []
+    }
+  },
+  "started_utc": "2026-09-14T02:53:48.395542+00:00",
+  "search_order_first_group": "B",
+  "search_started_utc": "2026-09-14T02:53:51.155209+00:00",
+  "search_finished_utc": "2026-09-14T02:53:56.132206+00:00",
+  "search_seconds": 4.977019965648651,
+  "finished_utc": "2026-09-14T02:53:56.132218+00:00",
+  "elapsed_seconds": 7.736682187765837
+}

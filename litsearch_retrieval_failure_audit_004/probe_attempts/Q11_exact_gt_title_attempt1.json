@@ -1,0 +1,212 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q11",
+  "group": "author-written",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2310.04948",
+  "request_payload": {
+    "q": "TEMPO: PROMPT-BASED GENERATIVE PRE-TRAINED TRANSFORMER FOR TIME SERIES FORECASTING before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 22,
+  "started_utc": "2026-09-17T12:33:48.207544+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648150",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "8856545e1b978a93fac65050aaa740a0",
+    "date": "Thu, 17 Sep 2026 12:29:09 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3863",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3863,
+  "response_bytes_sha256": "9908ec57405e9a0e5a3051a9527e8f0f3fa46e1e3000fe2ebef4d094cafe25c4",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJURU1QTzogUFJPTVBULUJBU0VEIEdFTkVSQVRJVkUgUFJFLVRSQUlORUQgVFJBTlNGT1JNRVIgRk9SIFRJTUUgU0VSSUVTIEZPUkVDQVNUSU5HIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlRFTVBPOiBQcm9tcHQtYmFzZWQgR2VuZXJhdGl2ZSBQcmUtdHJhaW5lZCBUcmFuc2Zvcm1lciBmb3IgVGltZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMTAuMDQ5NDgiLCJzbmlwcGV0IjoiVEVNUE8gZXhwYW5kcyB0aGUgY2FwYWJpbGl0eSBmb3IgZHluYW1pY2FsbHkgbW9kZWxpbmcgcmVhbC13b3JsZCB0ZW1wb3JhbCBwaGVub21lbmEgZnJvbSBkYXRhIHdpdGhpbiBkaXZlcnNlIGRvbWFpbnMuIiwiZGF0ZSI6Ik9jdCA4LCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJQcm9tcHQtYmFzZWQgR2VuZXJhdGl2ZSBQcmUtdHJhaW5lZCBUcmFuc2Zvcm1lciBmb3IgVGltZSBTZXJpZXMgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMC4wNDk0OHYzIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHByb3Bvc2UgYSBub3ZlbCBmcmFtZXdvcmssIFRFTVBPLCB0aGF0IGNhbiBlZmZlY3RpdmVseSBsZWFybiB0aW1lIHNlcmllcyByZXByZXNlbnRhdGlvbnMuIFRFTVBPIGV4cGFuZHMgdGhlIGNhcGFiaWxpdHkgZm9yIGR5bmFtaWNhbGx5IC4uLiIsImRhdGUiOiJBcHIgMiwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiVW5pQ2FzdDogQSBVbmlmaWVkIE11bHRpbW9kYWwgUHJvbXB0aW5nIEZyYW1ld29yayBmb3IgVGltZSBTZXJpZXMgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwOC4xMTk1NHYxIiwic25pcHBldCI6IlRlbXBvOiBQcm9tcHQtYmFzZWQgZ2VuZXJhdGl2ZSBwcmUtdHJhaW5lZCB0cmFuc2Zvcm1lciBmb3IgdGltZSBzZXJpZXMgZm9yZWNhc3RpbmcuIC4uLiBUaW1lcjogZ2VuZXJhdGl2ZSBwcmUtdHJhaW5lZCB0cmFuc2Zvcm1lcnMgYXJlIGxhcmdlIHRpbWUgc2VyaWVzIG1vZGVscy4iLCJkYXRlIjoiQXVnIDE2LCAyMDI1IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSB0ZW1wbzogcHJvbXB0LWJhc2VkIGdlbmVyYXRpdmUgcHJlLXRyYWluZWQgdHJhbnNmb3JtZXIgZm9yIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzEwLjA0OTQ4Iiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIG1ha2UgYW4gYXR0ZW1wdCB0byBhZGRyZXNzIHRoZSB0aW1lbHkgY2hhbGxlbmdlcyBvZiBhZGFwdGluZyBsYXJnZSBwcmUtdHJhaW5lZCBtb2RlbHMgZm9yIHRpbWUgc2VyaWVzIGZvcmVjYXN0aW5nIHRhc2tzIGFuZCBkZXZlbG9waW5nIGEgLi4uIiwiZGF0ZSI6IkFwciAyLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJBbiBMTE0tRHJpdmVuIEZyYW1ld29yayBmb3IgQ29udGV4dC1hd2FyZSBUaW1lIFNlcmllcyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDguMDkxOTF2MSIsInNuaXBwZXQiOiJUZW1wbzogUHJvbXB0LWJhc2VkIGdlbmVyYXRpdmUgcHJlLXRyYWluZWQgdHJhbnNmb3JtZXIgZm9yIHRpbWUgc2VyaWVzIGZvcmVjYXN0aW5nLiIsImRhdGUiOiJBdWcgOCwgMjAyNSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiRW1wb3dlcmluZyBUaW1lIFNlcmllcyBBbmFseXNpcyB3aXRoIEZvdW5kYXRpb24gTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjAyMzU4djMiLCJzbmlwcGV0Ijoi4oCcVGVtcG86IFByb21wdC1iYXNlZCBnZW5lcmF0aXZlIHByZS10cmFpbmVkIHRyYW5zZm9ybWVyIGZvciB0aW1lIHNlcmllcyBmb3JlY2FzdGluZyzigJ0gaW4gVGhlIFR3ZWxmdGggSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIExlYXJuaW5nIFJlcHJlc2VudGF0aW9ucywgMjAyNC4iLCJkYXRlIjoiU2VwIDE2LCAyMDI1IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJOZXh1cyA6IEFuIEFnZW50aWMgRnJhbWV3b3JrIGZvciBUaW1lIFNlcmllcyBGb3JlY2FzdGluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNS4xNDM4OXYxIiwic25pcHBldCI6IlRFTVBPOiBQcm9tcHQtYmFzZWQgZ2VuZXJhdGl2ZSBwcmUtdHJhaW5lZCB0cmFuc2Zvcm1lciBmb3IgdGltZSBzZXJpZXMgZm9yZWNhc3RpbmcuIEluIFRoZSBUd2VsZnRoIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiBMZWFybmluZyBSZXByZXNlbnRhdGlvbnMgLi4uIiwiZGF0ZSI6Ik1heSAxNCwgMjAyNiIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiRmVkZXJhdGVkIEZvdW5kYXRpb24gTW9kZWxzIG9uIEhldGVyb2dlbmVvdXMgVGltZSBTZXJpZXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTIuMDg5MDZ2MSIsInNuaXBwZXQiOiJUZW1wbzogUHJvbXB0LWJhc2VkIGdlbmVyYXRpdmUgcHJlLXRyYWluZWQgdHJhbnNmb3JtZXIgZm9yIHRpbWUgc2VyaWVzIGZvcmVjYXN0aW5nLiAuLi4gTGxtNHRzOiBUd28tc3RhZ2UgZmluZS10dW5pbmcgZm9yIHRpbWUtc2VyaWVzIGZvcmVjYXN0aW5nIHdpdGggcHJlLXRyYWluZWQgLi4uIiwiZGF0ZSI6IkRlYyAxMiwgMjAyNCIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiJGZnRzOiBNb2RlbCBBcmNoaXRlY3R1cmUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDEyLjA4OTA2djEjOn46dGV4dD1GRlRTJTNBJTIwTW9kZWwlMjBBcmNoaXRlY3R1cmUsLUFzJTIwc2hvd24lMjBpbiUyMEZpZy4ifSx7InRpdGxlIjoiRmZ0czogT3B0aW1pemF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMi4wODkwNnYxIzp+OnRleHQ9RkZUUyUzQSUyME9wdGltaXphdGlvbiwtVGhpcyUyMHNlY3Rpb24lMjBpbnRyb2R1Y2VzJTIwdGhlJTIwb3B0aW1pemF0aW9uIn0seyJ0aXRsZSI6IkV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMi4wODkwNnYxIzp+OnRleHQ9RXhwZXJpbWVudHMsLVRoaXMlMjBzZWN0aW9uJTIwcHJlc2VudHMlMjBvdXIlMjBtYWluIn1dLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkFscGhhQ2FzdDogQW4gSW50ZXJhY3Rpb24tRHJpdmVuIEFnZW50aWMgUmVhc29uaW5nIEZyYW1ld29yayBmb3IgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMS4wODk0N3Y0Iiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgcHJvcG9zZSBBbHBoYUNhc3QsIGFuIGludGVyYWN0aW9uLWRyaXZlbiBhZ2VudGljIHJlYXNvbmluZyBmcmFtZXdvcmsgdGhhdCBlbmFibGVzIGFjY3VyYXRlIHRpbWUgc2VyaWVzIGZvcmVjYXN0aW5nIHdpdGggdHJhaW5pbmctZnJlZSBsYXJnZSAuLi4iLCJkYXRlIjoiQXByIDEsIDIwMjYiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkZvcmVjYXN0aW5nIFRpbWUgU2VyaWVzIHdpdGggTExNcyB2aWEgUGF0Y2gtQmFzZWQgUHJvbXB0aW5nIGFuZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA2LjEyOTUzdjEiLCJzbmlwcGV0IjoiT3VyIGZyYW1ld29yayBpcyBkZXNpZ25lZCB0byBhZGFwdCBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpIGZvciB0aW1lIHNlcmllcyBmb3JlY2FzdGluZyB3aXRob3V0IGFueSBmaW5lLXR1bmluZywgdXNpbmcgY2FyZWZ1bGx5IHN0cnVjdHVyZWQgcHJvbXB0cyB0aGF0IC4uLiIsImRhdGUiOiJKdW4gMTUsIDIwMjUiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "TEMPO: PROMPT-BASED GENERATIVE PRE-TRAINED TRANSFORMER FOR TIME SERIES FORECASTING before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "TEMPO: Prompt-based Generative Pre-trained Transformer for Time ...",
+        "link": "https://arxiv.org/abs/2310.04948",
+        "snippet": "TEMPO expands the capability for dynamically modeling real-world temporal phenomena from data within diverse domains.",
+        "date": "Oct 8, 2023",
+        "position": 1
+      },
+      {
+        "title": "Prompt-based Generative Pre-trained Transformer for Time Series ...",
+        "link": "https://arxiv.org/html/2310.04948v3",
+        "snippet": "In this paper, we propose a novel framework, TEMPO, that can effectively learn time series representations. TEMPO expands the capability for dynamically ...",
+        "date": "Apr 2, 2024",
+        "position": 2
+      },
+      {
+        "title": "UniCast: A Unified Multimodal Prompting Framework for Time Series ...",
+        "link": "https://arxiv.org/html/2508.11954v1",
+        "snippet": "Tempo: Prompt-based generative pre-trained transformer for time series forecasting. ... Timer: generative pre-trained transformers are large time series models.",
+        "date": "Aug 16, 2025",
+        "position": 3
+      },
+      {
+        "title": "[PDF] tempo: prompt-based generative pre-trained transformer for ... - arXiv",
+        "link": "https://arxiv.org/pdf/2310.04948",
+        "snippet": "In this paper, we make an attempt to address the timely challenges of adapting large pre-trained models for time series forecasting tasks and developing a ...",
+        "date": "Apr 2, 2024",
+        "position": 4
+      },
+      {
+        "title": "An LLM-Driven Framework for Context-aware Time Series ... - arXiv",
+        "link": "https://arxiv.org/html/2508.09191v1",
+        "snippet": "Tempo: Prompt-based generative pre-trained transformer for time series forecasting.",
+        "date": "Aug 8, 2025",
+        "position": 5
+      },
+      {
+        "title": "Empowering Time Series Analysis with Foundation Models - arXiv",
+        "link": "https://arxiv.org/html/2405.02358v3",
+        "snippet": "“Tempo: Prompt-based generative pre-trained transformer for time series forecasting,” in The Twelfth International Conference on Learning Representations, 2024.",
+        "date": "Sep 16, 2025",
+        "position": 6
+      },
+      {
+        "title": "Nexus : An Agentic Framework for Time Series Forecasting - arXiv",
+        "link": "https://arxiv.org/html/2605.14389v1",
+        "snippet": "TEMPO: Prompt-based generative pre-trained transformer for time series forecasting. In The Twelfth International Conference on Learning Representations ...",
+        "date": "May 14, 2026",
+        "position": 7
+      },
+      {
+        "title": "Federated Foundation Models on Heterogeneous Time Series - arXiv",
+        "link": "https://arxiv.org/html/2412.08906v1",
+        "snippet": "Tempo: Prompt-based generative pre-trained transformer for time series forecasting. ... Llm4ts: Two-stage fine-tuning for time-series forecasting with pre-trained ...",
+        "date": "Dec 12, 2024",
+        "sitelinks": [
+          {
+            "title": "Ffts: Model Architecture",
+            "link": "https://arxiv.org/html/2412.08906v1#:~:text=FFTS%3A%20Model%20Architecture,-As%20shown%20in%20Fig."
+          },
+          {
+            "title": "Ffts: Optimization",
+            "link": "https://arxiv.org/html/2412.08906v1#:~:text=FFTS%3A%20Optimization,-This%20section%20introduces%20the%20optimization"
+          },
+          {
+            "title": "Experiments",
+            "link": "https://arxiv.org/html/2412.08906v1#:~:text=Experiments,-This%20section%20presents%20our%20main"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "AlphaCast: An Interaction-Driven Agentic Reasoning Framework for ...",
+        "link": "https://arxiv.org/html/2511.08947v4",
+        "snippet": "In this work, we propose AlphaCast, an interaction-driven agentic reasoning framework that enables accurate time series forecasting with training-free large ...",
+        "date": "Apr 1, 2026",
+        "position": 9
+      },
+      {
+        "title": "Forecasting Time Series with LLMs via Patch-Based Prompting and ...",
+        "link": "https://arxiv.org/html/2506.12953v1",
+        "snippet": "Our framework is designed to adapt large language models (LLMs) for time series forecasting without any fine-tuning, using carefully structured prompts that ...",
+        "date": "Jun 15, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "TEMPO: Prompt-based Generative Pre-trained Transformer for Time ...",
+      "snippet": "TEMPO expands the capability for dynamically modeling real-world temporal phenomena from data within diverse domains.",
+      "link": "https://arxiv.org/abs/2310.04948",
+      "arxiv_id": "2310.04948"
+    },
+    {
+      "rank": 2,
+      "title": "Prompt-based Generative Pre-trained Transformer for Time Series ...",
+      "snippet": "In this paper, we propose a novel framework, TEMPO, that can effectively learn time series representations. TEMPO expands the capability for dynamically ...",
+      "link": "https://arxiv.org/html/2310.04948v3",
+      "arxiv_id": "2310.04948"
+    },
+    {
+      "rank": 3,
+      "title": "UniCast: A Unified Multimodal Prompting Framework for Time Series ...",
+      "snippet": "Tempo: Prompt-based generative pre-trained transformer for time series forecasting. ... Timer: generative pre-trained transformers are large time series models.",
+      "link": "https://arxiv.org/html/2508.11954v1",
+      "arxiv_id": "2508.11954"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] tempo: prompt-based generative pre-trained transformer for ... - arXiv",
+      "snippet": "In this paper, we make an attempt to address the timely challenges of adapting large pre-trained models for time series forecasting tasks and developing a ...",
+      "link": "https://arxiv.org/pdf/2310.04948",
+      "arxiv_id": "2310.04948"
+    },
+    {
+      "rank": 5,
+      "title": "An LLM-Driven Framework for Context-aware Time Series ... - arXiv",
+      "snippet": "Tempo: Prompt-based generative pre-trained transformer for time series forecasting.",
+      "link": "https://arxiv.org/html/2508.09191v1",
+      "arxiv_id": "2508.09191"
+    },
+    {
+      "rank": 6,
+      "title": "Empowering Time Series Analysis with Foundation Models - arXiv",
+      "snippet": "“Tempo: Prompt-based generative pre-trained transformer for time series forecasting,” in The Twelfth International Conference on Learning Representations, 2024.",
+      "link": "https://arxiv.org/html/2405.02358v3",
+      "arxiv_id": "2405.02358"
+    },
+    {
+      "rank": 7,
+      "title": "Nexus : An Agentic Framework for Time Series Forecasting - arXiv",
+      "snippet": "TEMPO: Prompt-based generative pre-trained transformer for time series forecasting. In The Twelfth International Conference on Learning Representations ...",
+      "link": "https://arxiv.org/html/2605.14389v1",
+      "arxiv_id": "2605.14389"
+    },
+    {
+      "rank": 8,
+      "title": "Federated Foundation Models on Heterogeneous Time Series - arXiv",
+      "snippet": "Tempo: Prompt-based generative pre-trained transformer for time series forecasting. ... Llm4ts: Two-stage fine-tuning for time-series forecasting with pre-trained ...",
+      "link": "https://arxiv.org/html/2412.08906v1",
+      "arxiv_id": "2412.08906"
+    },
+    {
+      "rank": 9,
+      "title": "AlphaCast: An Interaction-Driven Agentic Reasoning Framework for ...",
+      "snippet": "In this work, we propose AlphaCast, an interaction-driven agentic reasoning framework that enables accurate time series forecasting with training-free large ...",
+      "link": "https://arxiv.org/html/2511.08947v4",
+      "arxiv_id": "2511.08947"
+    },
+    {
+      "rank": 10,
+      "title": "Forecasting Time Series with LLMs via Patch-Based Prompting and ...",
+      "snippet": "Our framework is designed to adapt large language models (LLMs) for time series forecasting without any fine-tuning, using carefully structured prompts that ...",
+      "link": "https://arxiv.org/html/2506.12953v1",
+      "arxiv_id": "2506.12953"
+    }
+  ],
+  "gold_hit_ranks": [
+    1,
+    2,
+    4
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:49.609015+00:00",
+  "elapsed_seconds": 1.4014722630381584
+}

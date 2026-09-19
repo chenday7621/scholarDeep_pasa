@@ -1,0 +1,161 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 17,
+  "question_id": "Q16",
+  "group": "author-written",
+  "native_query_index": 0,
+  "native_query": "Survey papers on video instruction decomposition into sub instructions",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "2303.14897",
+  "page": 4,
+  "payload": {
+    "q": "Survey papers on video instruction decomposition into sub instructions before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 4
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 17,
+  "started_utc": "2026-09-17T12:44:15.080502+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648780",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "17e13bfee5b8a0eb72b3949c2ef11864",
+    "date": "Thu, 17 Sep 2026 12:39:38 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3452",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3452,
+  "response_bytes_sha256": "b745b9c936b9b9e9e37b28388500d592037fd15c3bc880abca4c6d00e4ddde1d",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIHZpZGVvIGluc3RydWN0aW9uIGRlY29tcG9zaXRpb24gaW50byBzdWIgaW5zdHJ1Y3Rpb25zIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjQsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlsyNTA1LjEzOTkwXSBEZWNJRjogSW1wcm92aW5nIEluc3RydWN0aW9uLUZvbGxvd2luZyB0aHJvdWdoIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjUwNS4xMzk5MCIsInNuaXBwZXQiOiJJbnN0cnVjdGlvbi1mb2xsb3dpbmcgaGFzIGVtZXJnZWQgYXMgYSBjcnVjaWFsIGNhcGFiaWxpdHkgZm9yIGxhcmdlIGxhbmd1YWdlIG1vZGVscyAoTExNcykuIEhvd2V2ZXIsIGV4aXN0aW5nIGFwcHJvYWNoZXMgb2Z0ZW4gcmVseSBvbiBwcmUtZXhpc3RpbmcgZG9jdW1lbnRzIG9yIGV4dGVybmFsIHJlc291cmNlcyB0byBzeW50aGVzaXplIGluc3RydWN0aW9uLWZvbGxvd2luZyBkYXRhLCB3aGljaCBsaW1pdHMgdGhlaXIgZmxleGliaWxpdHkgYW5kIGdlbmVyYWxpemFiaWxpdHkuIEluIHRoaXMgcGFwZXIsIHdlIGludHJvZHVjZSBEZWNJRiwgYSBmdWxseSBhdXRvbm9tb3VzLCBtZXRhLWRlY29tcG9zaXRpb24gZ3VpZGVkIGZyYW1ld29yayB0aGF0IGdlbmVyYXRlcyBkaXZlcnNlIGFuZCAuLi4iLCJkYXRlIjoiTWF5IDIwLCAyMDI1IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJUaGUgTGFzdCBBSSBCdWlsdCBieSBIdW1hbnM6IFRvd2FyZCBHZW51aW5lIFJlY3Vyc2l2ZSBTZWxmIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDkuMTE4NzN2MiIsInNuaXBwZXQiOiJBYnN0cmFjdCBSZWN1cnNpdmUgc2VsZi1pbXByb3ZlbWVudCAoUlNJKSBlbmFibGVzIEFJIHN5c3RlbXMgdG8gdHVybiBleHBlcmllbmNlIGFuZCBmZWVkYmFjayBpbnRvIHBlcnNpc3RlbnQgY2hhbmdlcyB0aGF0IGltcHJvdmUgYm90aCB0aGVpciBjYXBhYmlsaXRpZXMgYW5kIHRoZSBwcm9jZXNzIG9mIGZ1dHVyZSBpbXByb3ZlbWVudC4gV2UgZmlyc3QgdXNlIHRoZSBIZWFkcm9vbS1DbG9zZWQgSW5kZXggKEhDSSkgdG8gcmV2ZWFsIHRoZSBwcm9ibGVtcyBvZiBleGlzdGluZyBMTE1zLCB0aGVuIGludHJvZHVjZSB0aGUgUlNJIGNvbmNlcHQgYW5kIGl0cyBkZXZlbG9wbWVudCByb2FkbWFwOiBmcm9tIGltcHJvdmVtZW50LWV4ZWN1dGlvbiBhdXRvbm9teSwgaW1wcm92ZW1lbnQtc3RyYXRlZ3kgLi4uIiwiZGF0ZSI6IjEgZGF5IGFnbyIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiQ2FuIExMTSBkZXNpZ24gaGlnaC1xdWFsaXR5IGV4cGVyaW1lbnRzPyBBIENvbXByZWhlbnNpdmUgYW5kIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjYwOC4wMzUwMSIsInNuaXBwZXQiOiJUaGUgZ3JvdW5kIHRydXRoIGZvciBlYWNoIHRhc2sgaXMgdGhlIG9yaWdpbmFsIHBhcGVy4oCZcyBmdWxsIGV4cGVyaS1tZW50YWwgZGVzaWduLCBzdHJ1Y3R1cmVkIGludG8gYSBzdGFuZGFyZGl6ZWQgaGllcmFyY2hpY2FsIGZvci1tYXQuIFRoaXMgZm9ybXVsYXRpb24gbWlycm9ycyByZWFsLXdvcmxkIHJlc2VhcmNoIHByYWN0aWNlLCB3aGVyZSBleHBlcmltZW50cyBtdXN0IGJlIGRlc2lnbmVkIHNvbGVseSBmcm9tIG1ldGhvZC1vbG9naWNhbCB1bmRlcnN0YW5kaW5nIHdpdGhvdXQgYWNjZXNzIHRvIGV4cGVyaW1lbnRhbCBvdXQtY29tZXMuIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJHZW5lcmF0aW5nIFZpc2lvbi1MYW5ndWFnZSBOYXZpZ2F0aW9uIEluc3RydWN0aW9ucyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDYuMDg1NjYiLCJzbmlwcGV0IjoiSW4gdGhpcyBmcmFtZXdvcmssIGFuIGF1Z21lbnRlZCB0cmFqZWN0b3J5IGlzIGZpcnN0IGRpdmlkZWQgaW50byBzdWItdHJhamVjdG9yaWVzLCB3aGljaCBhcmUgdGhlbiBwcm9jZXNzZWQgdGhyb3VnaCBHTElQLWJhc2VkIGxhbmRtYXJrIGRldGVjdGlvbiwgY3JhZnRlZCBpbnN0cnVjdGlvbiBjb25zdHJ1Y3Rpb24sIE9GQS1TcGVha2VyIGJhc2VkIFIyUi1saWtlIGluc3RydWN0aW9uIGdlbmVyYXRpb24sIGFuZCBDTElQLXBvd2VyZWQgZW50aXR5IHNlbGVjdGlvbiwgZ2VuZXJhdGluZyBzdWItaW5zdHJ1Y3Rpb24tdHJhamVjdG9yeSBwYWlycyB3aXRoIGVudGl0eS1sYW5kbWFyayBhbm5vdGF0aW9ucy4iLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlsyNTAzLjEyMDY3XSBBIENvbXByZWhlbnNpdmUgU3VydmV5IG9uIEtub3dsZWRnZSBEaXN0aWxsYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI1MDMuMTIwNjciLCJzbmlwcGV0IjoiRGVlcCBOZXVyYWwgTmV0d29ya3MgKEROTnMpIGhhdmUgYWNoaWV2ZWQgbm90YWJsZSBwZXJmb3JtYW5jZSBpbiB0aGUgZmllbGRzIG9mIGNvbXB1dGVyIHZpc2lvbiBhbmQgbmF0dXJhbCBsYW5ndWFnZSBwcm9jZXNzaW5nIHdpdGggdmFyaW91cyBhcHBsaWNhdGlvbnMgaW4gYm90aCBhY2FkZW1pYSBhbmQgaW5kdXN0cnkuIEhvd2V2ZXIsIHdpdGggcmVjZW50IGFkdmFuY2VtZW50cyBpbiBETk5zIGFuZCB0cmFuc2Zvcm1lciBtb2RlbHMgd2l0aCBhIHRyZW1lbmRvdXMgbnVtYmVyIG9mIHBhcmFtZXRlcnMsIGRlcGxveWluZyB0aGVzZSBsYXJnZSBtb2RlbHMgb24gZWRnZSBkZXZpY2VzIGNhdXNlcyBzZXJpb3VzIGlzc3VlcyBzdWNoIGFzIGhpZ2ggcnVudGltZSBhbmQgbWVtb3J5IC4uLiIsImRhdGUiOiJNYXIgMTUsIDIwMjUiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkFic3RyYWN0IC0gYXJYaXYub3JnIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMTA2LjEzOTQ4Iiwic25pcHBldCI6IjEuMyBSZWxhdGVkIFN1cnZleXMgV2UgcmV2aWV3IGV4aXN0aW5nIHN1cnZleSBhcnRpY2xlcyBvbiByZWxldmFudCB0b3BpY3MsIGluIG9yZGVyIHRvIHByb3ZpZGUgcmVhZGVycyB3aXRoIHBvaW50ZXJzIHRvIG90aGVyIHBhcGVycyBvbiBtb3JlIHNwZWNpZmljIHRvcGljcyBhbmQgdG8gY2xhcmlmeSBob3cgdGhpcyBhcnRpY2xlIGRpZmZlcnMgZnJvbSB0aGVtLiIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UgLSBhclhpdi5vcmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvbGlzdC9jcy5BSS9yZWNlbnQ/c2tpcD0wIiwic25pcHBldCI6IkFydGlmaWNpYWwgSW50ZWxsaWdlbmNlIEF1dGhvcnMgYW5kIHRpdGxlcyBmb3IgcmVjZW50IHN1Ym1pc3Npb25zIFRodSwgMTcgU2VwIDIwMjYgV2VkLCAxNiBTZXAgMjAyNiBUdWUsIDE1IFNlcCAyMDI2IE1vbiwgMTQgU2VwIDIwMjYgRnJpLCAxMSBTZXAgMjAyNiBTZWUgdG9kYXkncyBuZXcgY2hhbmdlcyIsImRhdGUiOiI2IGRheXMgYWdvIiwicG9zaXRpb24iOjd9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Survey papers on video instruction decomposition into sub instructions before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 4,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[2505.13990] DecIF: Improving Instruction-Following through ...",
+        "link": "https://arxiv.org/abs/2505.13990",
+        "snippet": "Instruction-following has emerged as a crucial capability for large language models (LLMs). However, existing approaches often rely on pre-existing documents or external resources to synthesize instruction-following data, which limits their flexibility and generalizability. In this paper, we introduce DecIF, a fully autonomous, meta-decomposition guided framework that generates diverse and ...",
+        "date": "May 20, 2025",
+        "position": 1
+      },
+      {
+        "title": "The Last AI Built by Humans: Toward Genuine Recursive Self ...",
+        "link": "https://arxiv.org/html/2609.11873v2",
+        "snippet": "Abstract Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improve both their capabilities and the process of future improvement. We first use the Headroom-Closed Index (HCI) to reveal the problems of existing LLMs, then introduce the RSI concept and its development roadmap: from improvement-execution autonomy, improvement-strategy ...",
+        "date": "1 day ago",
+        "position": 2
+      },
+      {
+        "title": "Can LLM design high-quality experiments? A Comprehensive and ...",
+        "link": "https://arxiv.org/pdf/2608.03501",
+        "snippet": "The ground truth for each task is the original paper’s full experi-mental design, structured into a standardized hierarchical for-mat. This formulation mirrors real-world research practice, where experiments must be designed solely from method-ological understanding without access to experimental out-comes.",
+        "position": 3
+      },
+      {
+        "title": "Generating Vision-Language Navigation Instructions ...",
+        "link": "https://arxiv.org/pdf/2506.08566",
+        "snippet": "In this framework, an augmented trajectory is first divided into sub-trajectories, which are then processed through GLIP-based landmark detection, crafted instruction construction, OFA-Speaker based R2R-like instruction generation, and CLIP-powered entity selection, generating sub-instruction-trajectory pairs with entity-landmark annotations.",
+        "position": 4
+      },
+      {
+        "title": "[2503.12067] A Comprehensive Survey on Knowledge Distillation",
+        "link": "https://arxiv.org/abs/2503.12067",
+        "snippet": "Deep Neural Networks (DNNs) have achieved notable performance in the fields of computer vision and natural language processing with various applications in both academia and industry. However, with recent advancements in DNNs and transformer models with a tremendous number of parameters, deploying these large models on edge devices causes serious issues such as high runtime and memory ...",
+        "date": "Mar 15, 2025",
+        "position": 5
+      },
+      {
+        "title": "Abstract - arXiv.org",
+        "link": "https://arxiv.org/pdf/2106.13948",
+        "snippet": "1.3 Related Surveys We review existing survey articles on relevant topics, in order to provide readers with pointers to other papers on more specific topics and to clarify how this article differs from them.",
+        "position": 6
+      },
+      {
+        "title": "Artificial Intelligence - arXiv.org",
+        "link": "https://arxiv.org/list/cs.AI/recent?skip=0",
+        "snippet": "Artificial Intelligence Authors and titles for recent submissions Thu, 17 Sep 2026 Wed, 16 Sep 2026 Tue, 15 Sep 2026 Mon, 14 Sep 2026 Fri, 11 Sep 2026 See today's new changes",
+        "date": "6 days ago",
+        "position": 7
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank_on_page": 1,
+      "nominal_rank": 31,
+      "title": "[2505.13990] DecIF: Improving Instruction-Following through ...",
+      "snippet": "Instruction-following has emerged as a crucial capability for large language models (LLMs). However, existing approaches often rely on pre-existing documents or external resources to synthesize instruction-following data, which limits their flexibility and generalizability. In this paper, we introduce DecIF, a fully autonomous, meta-decomposition guided framework that generates diverse and ...",
+      "link": "https://arxiv.org/abs/2505.13990",
+      "arxiv_id": "2505.13990"
+    },
+    {
+      "rank_on_page": 2,
+      "nominal_rank": 32,
+      "title": "The Last AI Built by Humans: Toward Genuine Recursive Self ...",
+      "snippet": "Abstract Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improve both their capabilities and the process of future improvement. We first use the Headroom-Closed Index (HCI) to reveal the problems of existing LLMs, then introduce the RSI concept and its development roadmap: from improvement-execution autonomy, improvement-strategy ...",
+      "link": "https://arxiv.org/html/2609.11873v2",
+      "arxiv_id": "2609.11873"
+    },
+    {
+      "rank_on_page": 3,
+      "nominal_rank": 33,
+      "title": "Can LLM design high-quality experiments? A Comprehensive and ...",
+      "snippet": "The ground truth for each task is the original paper’s full experi-mental design, structured into a standardized hierarchical for-mat. This formulation mirrors real-world research practice, where experiments must be designed solely from method-ological understanding without access to experimental out-comes.",
+      "link": "https://arxiv.org/pdf/2608.03501",
+      "arxiv_id": "2608.03501"
+    },
+    {
+      "rank_on_page": 4,
+      "nominal_rank": 34,
+      "title": "Generating Vision-Language Navigation Instructions ...",
+      "snippet": "In this framework, an augmented trajectory is first divided into sub-trajectories, which are then processed through GLIP-based landmark detection, crafted instruction construction, OFA-Speaker based R2R-like instruction generation, and CLIP-powered entity selection, generating sub-instruction-trajectory pairs with entity-landmark annotations.",
+      "link": "https://arxiv.org/pdf/2506.08566",
+      "arxiv_id": "2506.08566"
+    },
+    {
+      "rank_on_page": 5,
+      "nominal_rank": 35,
+      "title": "[2503.12067] A Comprehensive Survey on Knowledge Distillation",
+      "snippet": "Deep Neural Networks (DNNs) have achieved notable performance in the fields of computer vision and natural language processing with various applications in both academia and industry. However, with recent advancements in DNNs and transformer models with a tremendous number of parameters, deploying these large models on edge devices causes serious issues such as high runtime and memory ...",
+      "link": "https://arxiv.org/abs/2503.12067",
+      "arxiv_id": "2503.12067"
+    },
+    {
+      "rank_on_page": 6,
+      "nominal_rank": 36,
+      "title": "Abstract - arXiv.org",
+      "snippet": "1.3 Related Surveys We review existing survey articles on relevant topics, in order to provide readers with pointers to other papers on more specific topics and to clarify how this article differs from them.",
+      "link": "https://arxiv.org/pdf/2106.13948",
+      "arxiv_id": "2106.13948"
+    },
+    {
+      "rank_on_page": 7,
+      "nominal_rank": 37,
+      "title": "Artificial Intelligence - arXiv.org",
+      "snippet": "Artificial Intelligence Authors and titles for recent submissions Thu, 17 Sep 2026 Wed, 16 Sep 2026 Tue, 15 Sep 2026 Mon, 14 Sep 2026 Fri, 11 Sep 2026 See today's new changes",
+      "link": "https://arxiv.org/list/cs.AI/recent?skip=0",
+      "arxiv_id": null
+    }
+  ],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:44:18.104845+00:00",
+  "elapsed_seconds": 3.024376455694437
+}

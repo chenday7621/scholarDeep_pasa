@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q14",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2212.10020",
+  "request_payload": {
+    "q": "Which paper first conducted the positioned error test for the MAUVE metric? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 30,
+  "started_utc": "2026-09-17T12:33:57.106626+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648160",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "7879e33628707a506d8c0e0b5fa81e58",
+    "date": "Thu, 17 Sep 2026 12:29:18 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3483",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3483,
+  "response_bytes_sha256": "39c0e57928f4ffd360e5265f138c4a2bded01e166c73eca2a96291826cea39f1",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJXaGljaCBwYXBlciBmaXJzdCBjb25kdWN0ZWQgdGhlIHBvc2l0aW9uZWQgZXJyb3IgdGVzdCBmb3IgdGhlIE1BVVZFIG1ldHJpYz8gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiWzIxMDIuMDE0NTRdIE1BVVZFOiBNZWFzdXJpbmcgdGhlIEdhcCBCZXR3ZWVuIE5ldXJhbCBUZXh0IGFuZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIxMDIuMDE0NTQiLCJzbmlwcGV0IjoiVmlldyBhIFBERiBvZiB0aGUgcGFwZXIgdGl0bGVkIE1BVVZFOiBNZWFzdXJpbmcgdGhlIEdhcCBCZXR3ZWVuIE5ldXJhbCBUZXh0IGFuZCBIdW1hbiBUZXh0IHVzaW5nIERpdmVyZ2VuY2UgRnJvbnRpZXJzLCBieSBLcmlzaG5hIFBpbGx1dGxhIGFuZCA2IG90aGVyIGF1dGhvcnMuIiwiZGF0ZSI6IkZlYiAyLCAyMDIxIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJRdWFudHVtLWFzc3VyZWQgbWFnbmV0aWMgbmF2aWdhdGlvbiBhY2hpZXZlcyBwb3NpdGlvbmluZyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDQuMDgxNjd2MSIsInNuaXBwZXQiOiJPdXIgdHJpYWxzIGFsc28gaW5jbHVkZSB0aGUgZmlyc3Qgc3VjY2Vzc2Z1bCBNYWdOYXYgcGVyZm9ybWVkIGluIGEgZ3JvdW5kIHZlaGljbGUgdXNpbmcgcHVibGljbHktYXZhaWxhYmxlIGFub21hbHkgbWFwcywgZGVsaXZlcmluZyBib3VuZGVkIHBvc2l0aW9uaW5nIGVycm9yIOKIvCAuLi4iLCJkYXRlIjoiQXByIDEwLCAyMDI1IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJXaGF0IENoYXJhY3Rlcml6ZXMgRWZmZWN0aXZlIFJlYXNvbmluZz8gUmV2aXNpdGluZyBMZW5ndGgsIFJldmlldyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA5LjE5Mjg0djEiLCJzbmlwcGV0IjoiQSBub3RhYmxlIGxpbmUgb2Ygd29yaywgYmVnaW5uaW5nIHdpdGggUzEgKE11ZW5uaWdob2ZmIGV0IGFsLiwgMjAyNSkgYW5kIHJlaW5mb3JjZWQgaW4gc3Vic2VxdWVudCBwYXBlcnMgKFJpbmdlbCBldCBBSU1FLCB3aGlsZSBzZWxlY3Rpb24gYnkgTGVuZ3RoIG9yIFJldmlldyAuLi4iLCJkYXRlIjoiU2VwIDIzLCAyMDI1IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJHZW9tZXRyaWMgTWV0cmljcyBhbmQgTExNczpXaGF0IFRoZXkgTWVhc3VyZSBhbmQgV2hlbiAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDkuMjUzNTl2MiIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIHByZXNlbnQgdGhlIGZpcnN0IHN5c3RlbWF0aWMgc3RyZXNzLXRlc3Qgb2YgZ2VvbWV0cmljIG1ldHJpY3MgZm9yIExMTSBldmFsdWF0aW9uIGFjcm9zcyBzaXggdGVzdGVyIG1vZGVscy4gQ2hvIE1BVVZFOiBtZWFzdXJpbmcgdGhlIGdhcCAuLi4iLCJkYXRlIjoiSnVuIDEwLCAyMDI2IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJBdXRvbWF0aWMgTWV0cmljcyBpbiBOYXR1cmFsIExhbmd1YWdlIEdlbmVyYXRpb246IEEgU3VydmV5IC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOC4wOTE2OXYxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGhhdmUgY29uZHVjdGVkIGEgc3VydmV5IG9uIHRoZSB1c2Ugb2YgYXV0b21hdGljIG1ldHJpY3MsIE1hdXZlOiBNZWFzdXJpbmcgdGhlIGdhcCBiZXR3ZWVuIG5ldXJhbCB0ZXh0IGFuZCBodW1hbiB0ZXh0IHVzaW5nIGRpdmVyZ2VuY2UgLi4uIiwiZGF0ZSI6IkF1ZyAxNywgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiTWFjaGluZSBMZWFybmluZyBmb3IgUHJhY3RpY2FsIFF1YW50dW0gRXJyb3IgTWl0aWdhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOS4xNzM2OHYyIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGhhdmUgcHJlc2VudGVkIGEgY29tcHJlaGVuc2l2ZSBzdHVkeSBvZiBtYWNoaW5lIGxlYXJuaW5nIGZvciBxdWFudHVtIGVycm9yIG1pdGlnYXRpb24gKE1MLVFFTSkgbWV0aG9kcyBmb3IgaW1wcm92aW5nIHRoZSBhY2N1cmFjeSBvZiBxdWFudHVtIC4uLiIsImRhdGUiOiJOb3YgMjIsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlRoZSBNTCBDb21tdW5pdHkgTXVzdCBCdWlsZCBhbiBBSS1BdWdtZW50ZWQgUGVlci1SZXZpZXcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNi4wODEzNHY0Iiwic25pcHBldCI6IlRoaXMgcG9zaXRpb24gcGFwZXIgYXJndWVzIHRoYXQgQUktYXNzaXN0ZWQgcGVlciByZXZpZXcgbXVzdCBiZWNvbWUgYW4gdXJnZW50IHJlc2VhcmNoIGFuZCBpbmZyYXN0cnVjdHVyZSBwcmlvcml0eS4iLCJkYXRlIjoiSnVuIDksIDIwMjYiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6Ik9uIENvbnRleHQgVXRpbGl6YXRpb24gaW4gU3VtbWFyaXphdGlvbiB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTAuMTA1NzB2MyIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBjb25kdWN0IHRoZSBmaXJzdCBjb21wcmVoZW5zaXZlIHN0dWR5IG9uIGNvbnRleHQgdXRpbGl6YXRpb24gYW5kIHBvc2l0aW9uIGJpYXMgaW4gc3VtbWFyaXphdGlvbi4gT3VyIGFuYWx5c2lzIGVuY29tcGFzc2VzIDUgTExNcywgMTAgZGF0YXNldHMsIiwiZGF0ZSI6IkZlYiAyMCwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiVGhlIERldmlsIGlzIGluIHRoZSBFcnJvcnM6IExldmVyYWdpbmcgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGZvciAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA4LjA3Mjg2djEiLCJzbmlwcGV0IjoiVGhpcyBpbnNpZ2h0IGhhcyBsZWQgdG8gdGhlIGFkb3B0aW9uIG9mIHRoZSBNdWx0aWRpbWVuc2lvbmFsIFF1YWxpdHkgTWV0cmljcyAoTVFNKSBmcmFtZXdvcmsgTG9tbWVsIGV0IGFsLiAoMjAxNCk7IEZyZWl0YWcgZXQgYWwuICgyMDIxYSkgYXMgdGhlIGdvbGQgc3RhbmRhcmQgLi4uIiwiZGF0ZSI6IkF1ZyAxNCwgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiRXZhbHVhdGluZyBNb25vY3VsYXIgTWV0cmljIERlcHRoIE1vZGVscyBmb3IgM0QgVXJiYW4gQXNzZXQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwOS4xNDgzOXYyIiwic25pcHBldCI6IlRoaXMgcGFwZXIgaW50cm9kdWNlcyBNYXBBbnl0aGluZywgYSBub3ZlbCBnZW8tbG9jYWxpemF0aW9uIGZyYW1ld29yayB0aGF0IGF1dG9tYXRlcyB0aGUgc3BhdGlhbCBtYXBwaW5nIG9mIHVyYmFuIG9iamVjdHMgYW5kIGluY2lkZW50cyBmcm9tIGEgc2luZ2xlIG1vbm9jdWxhciAuLi4iLCJkYXRlIjoiTWF5IDE5LCAyMDI2IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Which paper first conducted the positioned error test for the MAUVE metric? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[2102.01454] MAUVE: Measuring the Gap Between Neural Text and ...",
+        "link": "https://arxiv.org/abs/2102.01454",
+        "snippet": "View a PDF of the paper titled MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers, by Krishna Pillutla and 6 other authors.",
+        "date": "Feb 2, 2021",
+        "position": 1
+      },
+      {
+        "title": "Quantum-assured magnetic navigation achieves positioning ... - arXiv",
+        "link": "https://arxiv.org/html/2504.08167v1",
+        "snippet": "Our trials also include the first successful MagNav performed in a ground vehicle using publicly-available anomaly maps, delivering bounded positioning error ∼ ...",
+        "date": "Apr 10, 2025",
+        "position": 2
+      },
+      {
+        "title": "What Characterizes Effective Reasoning? Revisiting Length, Review ...",
+        "link": "https://arxiv.org/html/2509.19284v1",
+        "snippet": "A notable line of work, beginning with S1 (Muennighoff et al., 2025) and reinforced in subsequent papers (Ringel et AIME, while selection by Length or Review ...",
+        "date": "Sep 23, 2025",
+        "position": 3
+      },
+      {
+        "title": "Geometric Metrics and LLMs:What They Measure and When ... - arXiv",
+        "link": "https://arxiv.org/html/2509.25359v2",
+        "snippet": "In this work, we present the first systematic stress-test of geometric metrics for LLM evaluation across six tester models. Cho MAUVE: measuring the gap ...",
+        "date": "Jun 10, 2026",
+        "position": 4
+      },
+      {
+        "title": "Automatic Metrics in Natural Language Generation: A Survey ... - arXiv",
+        "link": "https://arxiv.org/html/2408.09169v1",
+        "snippet": "In this paper, we have conducted a survey on the use of automatic metrics, Mauve: Measuring the gap between neural text and human text using divergence ...",
+        "date": "Aug 17, 2024",
+        "position": 5
+      },
+      {
+        "title": "Machine Learning for Practical Quantum Error Mitigation - arXiv",
+        "link": "https://arxiv.org/html/2309.17368v2",
+        "snippet": "In this paper, we have presented a comprehensive study of machine learning for quantum error mitigation (ML-QEM) methods for improving the accuracy of quantum ...",
+        "date": "Nov 22, 2024",
+        "position": 6
+      },
+      {
+        "title": "The ML Community Must Build an AI-Augmented Peer-Review ...",
+        "link": "https://arxiv.org/html/2506.08134v4",
+        "snippet": "This position paper argues that AI-assisted peer review must become an urgent research and infrastructure priority.",
+        "date": "Jun 9, 2026",
+        "position": 7
+      },
+      {
+        "title": "On Context Utilization in Summarization with Large Language Models",
+        "link": "https://arxiv.org/html/2310.10570v3",
+        "snippet": "In this paper, we conduct the first comprehensive study on context utilization and position bias in summarization. Our analysis encompasses 5 LLMs, 10 datasets,",
+        "date": "Feb 20, 2024",
+        "position": 8
+      },
+      {
+        "title": "The Devil is in the Errors: Leveraging Large Language Models for ...",
+        "link": "https://arxiv.org/html/2308.07286v1",
+        "snippet": "This insight has led to the adoption of the Multidimensional Quality Metrics (MQM) framework Lommel et al. (2014); Freitag et al. (2021a) as the gold standard ...",
+        "date": "Aug 14, 2023",
+        "position": 9
+      },
+      {
+        "title": "Evaluating Monocular Metric Depth Models for 3D Urban Asset ...",
+        "link": "https://arxiv.org/html/2509.14839v2",
+        "snippet": "This paper introduces MapAnything, a novel geo-localization framework that automates the spatial mapping of urban objects and incidents from a single monocular ...",
+        "date": "May 19, 2026",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[2102.01454] MAUVE: Measuring the Gap Between Neural Text and ...",
+      "snippet": "View a PDF of the paper titled MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers, by Krishna Pillutla and 6 other authors.",
+      "link": "https://arxiv.org/abs/2102.01454",
+      "arxiv_id": "2102.01454"
+    },
+    {
+      "rank": 2,
+      "title": "Quantum-assured magnetic navigation achieves positioning ... - arXiv",
+      "snippet": "Our trials also include the first successful MagNav performed in a ground vehicle using publicly-available anomaly maps, delivering bounded positioning error ∼ ...",
+      "link": "https://arxiv.org/html/2504.08167v1",
+      "arxiv_id": "2504.08167"
+    },
+    {
+      "rank": 3,
+      "title": "What Characterizes Effective Reasoning? Revisiting Length, Review ...",
+      "snippet": "A notable line of work, beginning with S1 (Muennighoff et al., 2025) and reinforced in subsequent papers (Ringel et AIME, while selection by Length or Review ...",
+      "link": "https://arxiv.org/html/2509.19284v1",
+      "arxiv_id": "2509.19284"
+    },
+    {
+      "rank": 4,
+      "title": "Geometric Metrics and LLMs:What They Measure and When ... - arXiv",
+      "snippet": "In this work, we present the first systematic stress-test of geometric metrics for LLM evaluation across six tester models. Cho MAUVE: measuring the gap ...",
+      "link": "https://arxiv.org/html/2509.25359v2",
+      "arxiv_id": "2509.25359"
+    },
+    {
+      "rank": 5,
+      "title": "Automatic Metrics in Natural Language Generation: A Survey ... - arXiv",
+      "snippet": "In this paper, we have conducted a survey on the use of automatic metrics, Mauve: Measuring the gap between neural text and human text using divergence ...",
+      "link": "https://arxiv.org/html/2408.09169v1",
+      "arxiv_id": "2408.09169"
+    },
+    {
+      "rank": 6,
+      "title": "Machine Learning for Practical Quantum Error Mitigation - arXiv",
+      "snippet": "In this paper, we have presented a comprehensive study of machine learning for quantum error mitigation (ML-QEM) methods for improving the accuracy of quantum ...",
+      "link": "https://arxiv.org/html/2309.17368v2",
+      "arxiv_id": "2309.17368"
+    },
+    {
+      "rank": 7,
+      "title": "The ML Community Must Build an AI-Augmented Peer-Review ...",
+      "snippet": "This position paper argues that AI-assisted peer review must become an urgent research and infrastructure priority.",
+      "link": "https://arxiv.org/html/2506.08134v4",
+      "arxiv_id": "2506.08134"
+    },
+    {
+      "rank": 8,
+      "title": "On Context Utilization in Summarization with Large Language Models",
+      "snippet": "In this paper, we conduct the first comprehensive study on context utilization and position bias in summarization. Our analysis encompasses 5 LLMs, 10 datasets,",
+      "link": "https://arxiv.org/html/2310.10570v3",
+      "arxiv_id": "2310.10570"
+    },
+    {
+      "rank": 9,
+      "title": "The Devil is in the Errors: Leveraging Large Language Models for ...",
+      "snippet": "This insight has led to the adoption of the Multidimensional Quality Metrics (MQM) framework Lommel et al. (2014); Freitag et al. (2021a) as the gold standard ...",
+      "link": "https://arxiv.org/html/2308.07286v1",
+      "arxiv_id": "2308.07286"
+    },
+    {
+      "rank": 10,
+      "title": "Evaluating Monocular Metric Depth Models for 3D Urban Asset ...",
+      "snippet": "This paper introduces MapAnything, a novel geo-localization framework that automates the spatial mapping of urban objects and incidents from a single monocular ...",
+      "link": "https://arxiv.org/html/2509.14839v2",
+      "arxiv_id": "2509.14839"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:58.410602+00:00",
+  "elapsed_seconds": 1.3039784729480743
+}

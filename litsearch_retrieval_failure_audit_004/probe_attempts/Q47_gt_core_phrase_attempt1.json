@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q47",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2105.11098",
+  "request_payload": {
+    "q": "prevent overconfident machine translation before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 107,
+  "started_utc": "2026-09-17T12:35:25.639950+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648250",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "b852ccc30e3a91ae6a44effa40b97c92",
+    "date": "Thu, 17 Sep 2026 12:30:46 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3383",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3383,
+  "response_bytes_sha256": "20391bf1f6bd477fc0cb9e4e9b7d2e0bb8d79b0c3d49842365ea0f78289069a9",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJwcmV2ZW50IG92ZXJjb25maWRlbnQgbWFjaGluZSB0cmFuc2xhdGlvbiBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJPdmVyY29uZmlkZW5jZSwgQ2FsaWJyYXRpb24sIGFuZCBEaXN0cmFjdG9yIEVmZmVjdHMgaW4gTGFyZ2UgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAyLjExMDI4djMiLCJzbmlwcGV0IjoiTWlzYWxpZ25tZW50IGJldHdlZW4gbW9kZWwgY29uZmlkZW5jZSBhbmQgYWN0dWFsIGNvcnJlY3RuZXNzLCBrbm93biBhcyBtaXNjYWxpYnJhdGlvbiwgcG9zZXMgc2V2ZXJlIHJpc2tzLCBwb3RlbnRpYWxseSBlcm9kaW5nIHVzZXIgdHJ1c3QgYW5kIGNhdXNpbmcgY29zdGx5IG9yIC4uLiIsImRhdGUiOiJEZWMgMTIsIDIwMjUiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkNvbXBhcmluZyBVbmNlcnRhaW50eSBNZWFzdXJlbWVudCBhbmQgTWl0aWdhdGlvbiBNZXRob2RzIGZvciAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA0LjE4MzQ2djQiLCJzbmlwcGV0IjoiUHJldmVudCB0aGUgbGFuZ3VhZ2UgbW9kZWwgZnJvbSBiZWluZyBvdmVyY29uZmlkZW50IGluIG5ldXJhbCBtYWNoaW5lIHRyYW5zbGF0aW9uLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgNTl0aCBBbm51YWwgTWVldGluZyBvZiB0aGUgQXNzb2NpYXRpb24gZm9yIC4uLiIsImRhdGUiOiJBdWcgMjQsIDIwMjYiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkltcHJvdmluZyB0aGUgQ2FsaWJyYXRpb24gb2YgQ29uZmlkZW5jZSBTY29yZXMgaW4gVGV4dCBHZW5lcmF0aW9uIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDYuMDA2Mzd2MSIsInNuaXBwZXQiOiJGb3IgZXhhbXBsZSwgdXNlcnMgY2FuIGJlIHByb21wdGVkIHRvIHJldmlldyBwcmVkaWN0aW9ucyB3aXRoIGxvdyBjb25maWRlbmNlIHNjb3JlcywgdG8gcHJldmVudCBtb2RlbHMgZnJvbSByZXR1cm5pbmcgYmFkIG9yIHBvdGVudGlhbGx5IGRhbmdlcm91cyBwcmVkaWN0aW9ucy4iLCJkYXRlIjoiTWF5IDMxLCAyMDI1IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJCcmlkZ2luZyBDYXVzYWwgRGlzY292ZXJ5IGFuZCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTEwNjh2MSIsInNuaXBwZXQiOiJQcmV2ZW50IHRoZSBsYW5ndWFnZSBtb2RlbCBmcm9tIGJlaW5nIG92ZXJjb25maWRlbnQgaW4gbmV1cmFsIG1hY2hpbmUgdHJhbnNsYXRpb24uIExhcmdlIGxhbmd1YWdlIG1vZGVscyBjaGFsbGVuZ2UgdGhlIGZ1dHVyZSBvZiBoaWdoZXIgZWR1Y2F0aW9uLiIsImRhdGUiOiJGZWIgMTYsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIyMTAuMTM0NTl2MSBbY3MuTEddIDIyIE9jdCAyMDIyIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjEwLjEzNDU5Iiwic25pcHBldCI6Ik92ZXJjb25maWRlbmNlIGhhcyBiZWVuIHNob3duIHRvIGltcGFpciBnZW4tIGVyYWxpemF0aW9uIGFuZCBjYWxpYnJhdGlvbiBvZiBhIG5ldXJhbCBuZXR3b3JrLiBQcmV2aW91cyBzdHVkaWVzIHJlbWVkeSB0aGlzIGlzc3VlIGJ5IGFkZGluZyBhLiIsImRhdGUiOiJPY3QgMjIsIDIwMjIiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkRlY291cGxpbmcgUmVhc29uaW5nIGFuZCBDb25maWRlbmNlOiBSZXN1cnJlY3RpbmcgQ2FsaWJyYXRpb24gaW4gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwMy4wOTExN3YxIiwic25pcHBldCI6IlRoZSBmaWd1cmVzIGlsbHVzdHJhdGUgdGhhdCBkdXJpbmcgdGhlIHRyYWluaW5nIHByb2Nlc3MsIG91ciBtZXRob2QgY2FuIHNpZ25pZmljYW50bHkgcmVkdWNlIG92ZXItY29uZmlkZW5jZSB3aGlsZSBwcmVzZXJ2aW5nIGFjY3VyYWN5LiIsImRhdGUiOiJNYXIgMTAsIDIwMjYiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkEgQ29tcHJlaGVuc2l2ZSBTdXJ2ZXkgb2YgSGFsbHVjaW5hdGlvbiBpbiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTEwLjA2MjY1djEiLCJzbmlwcGV0IjoiSXQgdGhlbiBjb21wYXJlcyB0aGVzZSBhbnN3ZXJzIHRvIGFzc2VzcyB0aGVpciByZWxhdGl2ZSB0cnVzdHdvcnRoaW5lc3MsIGFpbWluZyB0byByZWR1Y2Ugb3ZlcmNvbmZpZGVuY2UgaW4gaW5jb3JyZWN0IG91dHB1dHMgYW5kIGltcHJvdmUgdGhlIHJlbGlhYmlsaXR5IG9mIHRoZSAuLi4iLCJkYXRlIjoiT2N0IDUsIDIwMjUiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlsxOTA2LjAyNjI5XSBXaGVuIERvZXMgTGFiZWwgU21vb3RoaW5nIEhlbHA/IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzE5MDYuMDI2MjkiLCJzbmlwcGV0IjoiU21vb3RoaW5nIHRoZSBsYWJlbHMgaW4gdGhpcyB3YXkgcHJldmVudHMgdGhlIG5ldHdvcmsgZnJvbSBiZWNvbWluZyBvdmVyLWNvbmZpZGVudCBhbmQgbGFiZWwgc21vb3RoaW5nIGhhcyBiZWVuIHVzZWQg4oCmIGxhbmd1YWdlIHRyYW5zbGF0aW9uIGFuZCBzcGVlY2ggLi4uIiwiZGF0ZSI6Ikp1biA2LCAyMDE5IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBMYWJlbCBTbW9vdGhpbmcgSW1wcm92ZXMgTmV1cmFsIFNvdXJjZSBDb2RlIFN1bW1hcml6YXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDMuMTYxNzgiLCJzbmlwcGV0IjoiQSBjb25jZXB0dWFsIGV4cGxhbmF0aW9uIGJlaGluZCBsYWJlbCBzbW9vdGhpbmcgaXMgdGhhdCBpdCBoZWxwcyBwcmV2ZW50IGEgbmV1cmFsIG1vZGVsIGZyb20gYmVjb21pbmcg4oCcb3ZlcmNvbmZpZGVudOKAnSBieSBmb3JjaW5nIGl0IHRvIGNvbnNpZGVyIGFsdGVybmF0aXZlcywuIiwiZGF0ZSI6Ik1hciAyOCwgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiVGVhY2hpbmcgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGFuIFVuc2VlbiBMYW5ndWFnZSBvbiB0aGUgRmx5IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4xOTE2N3YxIiwic25pcHBldCI6IlVubGlrZSBwcmV2aW91cyB3b3Jrcywgd2UgZXhwbG9yZSB0aGUgcG9zc2liaWxpdHkgb2Ygb24tdGhlLWZseSBsYW5ndWFnZSBhZGFwdGF0aW9uIHRocm91Z2ggcHJvbXB0aW5nLCBnaXZlbiBsaW1pdGVkIGxpbmd1aXN0aWMgcmVzb3VyY2VzLiBNYWNoaW5lIFRyYW5zbGF0aW9uIC4uLiIsImRhdGUiOiJGZWIgMjksIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "prevent overconfident machine translation before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Overconfidence, Calibration, and Distractor Effects in Large ... - arXiv",
+        "link": "https://arxiv.org/html/2502.11028v3",
+        "snippet": "Misalignment between model confidence and actual correctness, known as miscalibration, poses severe risks, potentially eroding user trust and causing costly or ...",
+        "date": "Dec 12, 2025",
+        "position": 1
+      },
+      {
+        "title": "Comparing Uncertainty Measurement and Mitigation Methods for ...",
+        "link": "https://arxiv.org/html/2504.18346v4",
+        "snippet": "Prevent the language model from being overconfident in neural machine translation. In Proceedings of the 59th Annual Meeting of the Association for ...",
+        "date": "Aug 24, 2026",
+        "position": 2
+      },
+      {
+        "title": "Improving the Calibration of Confidence Scores in Text Generation ...",
+        "link": "https://arxiv.org/html/2506.00637v1",
+        "snippet": "For example, users can be prompted to review predictions with low confidence scores, to prevent models from returning bad or potentially dangerous predictions.",
+        "date": "May 31, 2025",
+        "position": 3
+      },
+      {
+        "title": "Bridging Causal Discovery and Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2402.11068v1",
+        "snippet": "Prevent the language model from being overconfident in neural machine translation. Large language models challenge the future of higher education.",
+        "date": "Feb 16, 2024",
+        "position": 4
+      },
+      {
+        "title": "[PDF] arXiv:2210.13459v1 [cs.LG] 22 Oct 2022",
+        "link": "https://arxiv.org/pdf/2210.13459",
+        "snippet": "Overconfidence has been shown to impair gen- eralization and calibration of a neural network. Previous studies remedy this issue by adding a.",
+        "date": "Oct 22, 2022",
+        "position": 5
+      },
+      {
+        "title": "Decoupling Reasoning and Confidence: Resurrecting Calibration in ...",
+        "link": "https://arxiv.org/html/2603.09117v1",
+        "snippet": "The figures illustrate that during the training process, our method can significantly reduce over-confidence while preserving accuracy.",
+        "date": "Mar 10, 2026",
+        "position": 6
+      },
+      {
+        "title": "A Comprehensive Survey of Hallucination in Large Language Models",
+        "link": "https://arxiv.org/html/2510.06265v1",
+        "snippet": "It then compares these answers to assess their relative trustworthiness, aiming to reduce overconfidence in incorrect outputs and improve the reliability of the ...",
+        "date": "Oct 5, 2025",
+        "position": 7
+      },
+      {
+        "title": "[1906.02629] When Does Label Smoothing Help? - arXiv",
+        "link": "https://arxiv.org/abs/1906.02629",
+        "snippet": "Smoothing the labels in this way prevents the network from becoming over-confident and label smoothing has been used … language translation and speech ...",
+        "date": "Jun 6, 2019",
+        "position": 8
+      },
+      {
+        "title": "[PDF] Label Smoothing Improves Neural Source Code Summarization",
+        "link": "https://arxiv.org/pdf/2303.16178",
+        "snippet": "A conceptual explanation behind label smoothing is that it helps prevent a neural model from becoming “overconfident” by forcing it to consider alternatives,.",
+        "date": "Mar 28, 2023",
+        "position": 9
+      },
+      {
+        "title": "Teaching Large Language Models an Unseen Language on the Fly",
+        "link": "https://arxiv.org/html/2402.19167v1",
+        "snippet": "Unlike previous works, we explore the possibility of on-the-fly language adaptation through prompting, given limited linguistic resources. Machine Translation ...",
+        "date": "Feb 29, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Overconfidence, Calibration, and Distractor Effects in Large ... - arXiv",
+      "snippet": "Misalignment between model confidence and actual correctness, known as miscalibration, poses severe risks, potentially eroding user trust and causing costly or ...",
+      "link": "https://arxiv.org/html/2502.11028v3",
+      "arxiv_id": "2502.11028"
+    },
+    {
+      "rank": 2,
+      "title": "Comparing Uncertainty Measurement and Mitigation Methods for ...",
+      "snippet": "Prevent the language model from being overconfident in neural machine translation. In Proceedings of the 59th Annual Meeting of the Association for ...",
+      "link": "https://arxiv.org/html/2504.18346v4",
+      "arxiv_id": "2504.18346"
+    },
+    {
+      "rank": 3,
+      "title": "Improving the Calibration of Confidence Scores in Text Generation ...",
+      "snippet": "For example, users can be prompted to review predictions with low confidence scores, to prevent models from returning bad or potentially dangerous predictions.",
+      "link": "https://arxiv.org/html/2506.00637v1",
+      "arxiv_id": "2506.00637"
+    },
+    {
+      "rank": 4,
+      "title": "Bridging Causal Discovery and Large Language Models - arXiv",
+      "snippet": "Prevent the language model from being overconfident in neural machine translation. Large language models challenge the future of higher education.",
+      "link": "https://arxiv.org/html/2402.11068v1",
+      "arxiv_id": "2402.11068"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] arXiv:2210.13459v1 [cs.LG] 22 Oct 2022",
+      "snippet": "Overconfidence has been shown to impair gen- eralization and calibration of a neural network. Previous studies remedy this issue by adding a.",
+      "link": "https://arxiv.org/pdf/2210.13459",
+      "arxiv_id": "2210.13459"
+    },
+    {
+      "rank": 6,
+      "title": "Decoupling Reasoning and Confidence: Resurrecting Calibration in ...",
+      "snippet": "The figures illustrate that during the training process, our method can significantly reduce over-confidence while preserving accuracy.",
+      "link": "https://arxiv.org/html/2603.09117v1",
+      "arxiv_id": "2603.09117"
+    },
+    {
+      "rank": 7,
+      "title": "A Comprehensive Survey of Hallucination in Large Language Models",
+      "snippet": "It then compares these answers to assess their relative trustworthiness, aiming to reduce overconfidence in incorrect outputs and improve the reliability of the ...",
+      "link": "https://arxiv.org/html/2510.06265v1",
+      "arxiv_id": "2510.06265"
+    },
+    {
+      "rank": 8,
+      "title": "[1906.02629] When Does Label Smoothing Help? - arXiv",
+      "snippet": "Smoothing the labels in this way prevents the network from becoming over-confident and label smoothing has been used … language translation and speech ...",
+      "link": "https://arxiv.org/abs/1906.02629",
+      "arxiv_id": "1906.02629"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] Label Smoothing Improves Neural Source Code Summarization",
+      "snippet": "A conceptual explanation behind label smoothing is that it helps prevent a neural model from becoming “overconfident” by forcing it to consider alternatives,.",
+      "link": "https://arxiv.org/pdf/2303.16178",
+      "arxiv_id": "2303.16178"
+    },
+    {
+      "rank": 10,
+      "title": "Teaching Large Language Models an Unseen Language on the Fly",
+      "snippet": "Unlike previous works, we explore the possibility of on-the-fly language adaptation through prompting, given limited linguistic resources. Machine Translation ...",
+      "link": "https://arxiv.org/html/2402.19167v1",
+      "arxiv_id": "2402.19167"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:26.602557+00:00",
+  "elapsed_seconds": 0.962607778608799
+}

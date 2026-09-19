@@ -1,0 +1,1261 @@
+{
+  "query_id": "Q1",
+  "query_index": 1,
+  "dataset_qid": "RealScholarQuery_1",
+  "original_question": "Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training.\n",
+  "published_time": "20241001",
+  "before_date": "2024-09-24",
+  "groups": {
+    "A": {
+      "prompt": "Please generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training.",
+      "searches": [
+        {
+          "query_sequence": 1,
+          "crawler_query": "Survey papers on in-context learning in pre-trained language models",
+          "request_payload": {
+            "q": "Survey papers on in-context learning in pre-trained language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 10,
+              "query_id": "Q1",
+              "group": "A",
+              "query_sequence": 1,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Survey papers on in-context learning in pre-trained language models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:15.890089+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on in-context learning in pre-trained language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2401.11624] In-context Learning with Retrieved Demonstrations for ...\",\"link\":\"https://arxiv.org/abs/2401.11624\",\"snippet\":\"In this survey, we discuss and compare different design choices for retrieval models, retrieval training procedures, and inference algorithms.\",\"date\":\"Jan 21, 2024\",\"position\":1},{\"title\":\"The Mystery of In-Context Learning: A Comprehensive Survey on ...\",\"link\":\"https://arxiv.org/html/2311.00237v2\",\"snippet\":\"In this paper, we present a thorough survey on the interpretation and analysis of in-context learning.\",\"date\":\"Feb 16, 2024\",\"position\":2},{\"title\":\"A Survey to Recent Progress Towards Understanding In-Context ...\",\"link\":\"https://arxiv.org/abs/2402.02212\",\"snippet\":\"Abstract:In-Context Learning (ICL) empowers Large Language Models (LLMs) with the ability to learn from a few examples provided in the prompt,\",\"date\":\"Feb 3, 2024\",\"position\":3},{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"These pre-trained language models (PLMs) can be fine-tuned for many downstream tasks. We group early popular Transformer-based PLMs, based on their neural ...\",\"date\":\"Feb 20, 2024\",\"position\":4},{\"title\":\"Reasoning with Large Language Models,a Survey - arXiv\",\"link\":\"https://arxiv.org/html/2407.11511v1\",\"snippet\":\"In-context learning works when language models contain enough knowledge, allowing them to generalize on the examples provided in the prompt.\",\"date\":\"Jul 16, 2024\",\"position\":5},{\"title\":\"A Practical Survey on Zero-shot Prompt Design for In-context Learning\",\"link\":\"https://arxiv.org/html/2309.13205v1\",\"snippet\":\"This paper presents a comprehensive review of in-context learning techniques, focusing on different types of prompts, including discrete, continuous, few-shot, ...\",\"date\":\"Sep 22, 2023\",\"position\":6},{\"title\":\"[PDF] A Survey of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2303.18223\",\"snippet\":\"in this survey, we review the recent advances of LLMs by introducing the background, key findings, and mainstream techniques. pre-trained context-aware word ...\",\"date\":\"Apr 9, 2023\",\"position\":7},{\"title\":\"Continual Learning of Large Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2404.16789v1\",\"snippet\":\"In this survey, we provide a comprehensive overview and detailed discussion of the current research progress on large language models within the context of ...\",\"date\":\"Apr 25, 2024\",\"position\":8},{\"title\":\"Large Language Models for Information Retrieval: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.07107v4\",\"snippet\":\"These studies initiated a new era of pre-trained language models (PLMs), with the “pre-training then fine-tuning” paradigm emerging as the prevailing learning ...\",\"date\":\"Aug 16, 2023\",\"position\":9},{\"title\":\"Why Larger Language Models Do In-context Learning Differently?\",\"link\":\"https://arxiv.org/html/2405.19592v1\",\"snippet\":\"Large language models (LLM) have emerged as a powerful tool for AI, with the key ability of in-context learning (ICL), where they can perform well on unseen ...\",\"date\":\"May 30, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "04ae3f893f595f6ea2401a54b5bcc3a99b39a17d8d1ecbb72baf9c63c4652583",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Survey papers on in-context learning in pre-trained language models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "[2401.11624] In-context Learning with Retrieved Demonstrations for ...",
+                    "link": "https://arxiv.org/abs/2401.11624",
+                    "snippet": "In this survey, we discuss and compare different design choices for retrieval models, retrieval training procedures, and inference algorithms.",
+                    "date": "Jan 21, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "The Mystery of In-Context Learning: A Comprehensive Survey on ...",
+                    "link": "https://arxiv.org/html/2311.00237v2",
+                    "snippet": "In this paper, we present a thorough survey on the interpretation and analysis of in-context learning.",
+                    "date": "Feb 16, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "A Survey to Recent Progress Towards Understanding In-Context ...",
+                    "link": "https://arxiv.org/abs/2402.02212",
+                    "snippet": "Abstract:In-Context Learning (ICL) empowers Large Language Models (LLMs) with the ability to learn from a few examples provided in the prompt,",
+                    "date": "Feb 3, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2402.06196v2",
+                    "snippet": "These pre-trained language models (PLMs) can be fine-tuned for many downstream tasks. We group early popular Transformer-based PLMs, based on their neural ...",
+                    "date": "Feb 20, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Reasoning with Large Language Models,a Survey - arXiv",
+                    "link": "https://arxiv.org/html/2407.11511v1",
+                    "snippet": "In-context learning works when language models contain enough knowledge, allowing them to generalize on the examples provided in the prompt.",
+                    "date": "Jul 16, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "A Practical Survey on Zero-shot Prompt Design for In-context Learning",
+                    "link": "https://arxiv.org/html/2309.13205v1",
+                    "snippet": "This paper presents a comprehensive review of in-context learning techniques, focusing on different types of prompts, including discrete, continuous, few-shot, ...",
+                    "date": "Sep 22, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "[PDF] A Survey of Large Language Models - arXiv",
+                    "link": "https://arxiv.org/pdf/2303.18223",
+                    "snippet": "in this survey, we review the recent advances of LLMs by introducing the background, key findings, and mainstream techniques. pre-trained context-aware word ...",
+                    "date": "Apr 9, 2023",
+                    "position": 7
+                  },
+                  {
+                    "title": "Continual Learning of Large Language Models - arXiv",
+                    "link": "https://arxiv.org/html/2404.16789v1",
+                    "snippet": "In this survey, we provide a comprehensive overview and detailed discussion of the current research progress on large language models within the context of ...",
+                    "date": "Apr 25, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2308.07107v4",
+                    "snippet": "These studies initiated a new era of pre-trained language models (PLMs), with the “pre-training then fine-tuning” paradigm emerging as the prevailing learning ...",
+                    "date": "Aug 16, 2023",
+                    "position": 9
+                  },
+                  {
+                    "title": "Why Larger Language Models Do In-context Learning Differently?",
+                    "link": "https://arxiv.org/html/2405.19592v1",
+                    "snippet": "Large language models (LLM) have emerged as a powerful tool for AI, with the key ability of in-context learning (ICL), where they can perform well on unseen ...",
+                    "date": "May 30, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:17.267057+00:00",
+              "elapsed_seconds": 1.376983042806387,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q1_A_01_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2303.18223",
+            "2308.07107",
+            "2309.13205",
+            "2311.00237",
+            "2401.11624",
+            "2402.02212",
+            "2402.06196",
+            "2404.16789",
+            "2405.19592",
+            "2407.11511"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2401.11624",
+              "organic_index": 0,
+              "position": 1,
+              "title": "[2401.11624] In-context Learning with Retrieved Demonstrations for ...",
+              "link": "https://arxiv.org/abs/2401.11624",
+              "snippet": "In this survey, we discuss and compare different design choices for retrieval models, retrieval training procedures, and inference algorithms."
+            },
+            {
+              "arxiv_id": "2311.00237",
+              "organic_index": 1,
+              "position": 2,
+              "title": "The Mystery of In-Context Learning: A Comprehensive Survey on ...",
+              "link": "https://arxiv.org/html/2311.00237v2",
+              "snippet": "In this paper, we present a thorough survey on the interpretation and analysis of in-context learning."
+            },
+            {
+              "arxiv_id": "2402.02212",
+              "organic_index": 2,
+              "position": 3,
+              "title": "A Survey to Recent Progress Towards Understanding In-Context ...",
+              "link": "https://arxiv.org/abs/2402.02212",
+              "snippet": "Abstract:In-Context Learning (ICL) empowers Large Language Models (LLMs) with the ability to learn from a few examples provided in the prompt,"
+            },
+            {
+              "arxiv_id": "2402.06196",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2402.06196v2",
+              "snippet": "These pre-trained language models (PLMs) can be fine-tuned for many downstream tasks. We group early popular Transformer-based PLMs, based on their neural ..."
+            },
+            {
+              "arxiv_id": "2407.11511",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Reasoning with Large Language Models,a Survey - arXiv",
+              "link": "https://arxiv.org/html/2407.11511v1",
+              "snippet": "In-context learning works when language models contain enough knowledge, allowing them to generalize on the examples provided in the prompt."
+            },
+            {
+              "arxiv_id": "2309.13205",
+              "organic_index": 5,
+              "position": 6,
+              "title": "A Practical Survey on Zero-shot Prompt Design for In-context Learning",
+              "link": "https://arxiv.org/html/2309.13205v1",
+              "snippet": "This paper presents a comprehensive review of in-context learning techniques, focusing on different types of prompts, including discrete, continuous, few-shot, ..."
+            },
+            {
+              "arxiv_id": "2303.18223",
+              "organic_index": 6,
+              "position": 7,
+              "title": "[PDF] A Survey of Large Language Models - arXiv",
+              "link": "https://arxiv.org/pdf/2303.18223",
+              "snippet": "in this survey, we review the recent advances of LLMs by introducing the background, key findings, and mainstream techniques. pre-trained context-aware word ..."
+            },
+            {
+              "arxiv_id": "2404.16789",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Continual Learning of Large Language Models - arXiv",
+              "link": "https://arxiv.org/html/2404.16789v1",
+              "snippet": "In this survey, we provide a comprehensive overview and detailed discussion of the current research progress on large language models within the context of ..."
+            },
+            {
+              "arxiv_id": "2308.07107",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2308.07107v4",
+              "snippet": "These studies initiated a new era of pre-trained language models (PLMs), with the “pre-training then fine-tuning” paradigm emerging as the prevailing learning ..."
+            },
+            {
+              "arxiv_id": "2405.19592",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Why Larger Language Models Do In-context Learning Differently?",
+              "link": "https://arxiv.org/html/2405.19592v1",
+              "snippet": "Large language models (LLM) have emerged as a powerful tool for AI, with the key ability of in-context learning (ICL), where they can perform well on unseen ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 2,
+          "crawler_query": "In-context learning in pre-training of large language models",
+          "request_payload": {
+            "q": "In-context learning in pre-training of large language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 11,
+              "query_id": "Q1",
+              "group": "A",
+              "query_sequence": 2,
+              "attempt": 1,
+              "request_payload": {
+                "q": "In-context learning in pre-training of large language models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:17.267521+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"In-context learning in pre-training of large language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2305.09137] Pre-Training to Learn in Context - arXiv\",\"link\":\"https://arxiv.org/abs/2305.09137\",\"snippet\":\"Abstract:In-context learning, where pre-trained language models learn to perform tasks from task examples and instructions in their contexts, has attracted ...\",\"date\":\"May 16, 2023\",\"position\":1},{\"title\":\"On the Effect of Pretraining Corpora on In-context Learning ... - arXiv\",\"link\":\"https://arxiv.org/abs/2204.13509\",\"snippet\":\"Many recent studies on large-scale language models have reported successful in-context zero- and few-shot learning ability. However, the in-depth analysis of ...\",\"date\":\"Apr 28, 2022\",\"position\":2},{\"title\":\"The Mystery of In-Context Learning: A Comprehensive Survey on ...\",\"link\":\"https://arxiv.org/html/2311.00237v2\",\"snippet\":\"Understanding in-context learning (ICL) capability that enables large language models (LLMs) to excel in proficiency through demonstration examples is of utmost ...\",\"date\":\"Feb 16, 2024\",\"position\":3},{\"title\":\"In-context Pretraining: Language Modeling Beyond Document ...\",\"link\":\"https://arxiv.org/abs/2310.10638\",\"snippet\":\"We can do In-Context Pretraining by simply changing the document ordering so that each context contains related documents, and directly applying existing ...\",\"date\":\"Oct 16, 2023\",\"position\":4},{\"title\":\"Larger language models do in-context learning differently - arXiv\",\"link\":\"https://arxiv.org/abs/2303.03846\",\"snippet\":\"Abstract:We study how in-context learning (ICL) in language models is affected by semantic priors versus input-label mappings. We investigate two setups-ICL ...\",\"date\":\"Mar 7, 2023\",\"position\":5},{\"title\":\"Learning to Retrieve In-Context Examples for Large Language Models\",\"link\":\"https://arxiv.org/html/2307.07164v2\",\"snippet\":\"Large language models (LLMs) have demonstrated their ability to learn in-context, allowing them to perform various tasks based on a few input-output examples.\",\"date\":\"Jan 26, 2024\",\"position\":6},{\"title\":\"ICLEval: Evaluating In-Context Learning Ability of Large Language ...\",\"link\":\"https://arxiv.org/abs/2406.14955\",\"snippet\":\"Abstract:In-Context Learning (ICL) is a critical capability of Large Language Models (LLMs) as it empowers them to comprehend and reason across ...\",\"date\":\"Jun 21, 2024\",\"position\":7},{\"title\":\"Why Larger Language Models Do In-context Learning Differently?\",\"link\":\"https://arxiv.org/html/2405.19592v1\",\"snippet\":\"These results indicate that large models can override their pretraining biases in-context input-label correlations, while small models may not and are more ...\",\"date\":\"May 30, 2024\",\"position\":8},{\"title\":\"What Do Language Models Learn in Context? The Structured Task ...\",\"link\":\"https://arxiv.org/abs/2406.04216\",\"snippet\":\"Abstract:Large language models (LLMs) ... Our results suggest an LLM could learn a novel task in context via composing tasks learned during pre-training.\",\"date\":\"Jun 6, 2024\",\"position\":9},{\"title\":\"Eliciting In-Context Learning in Vision-Language Models for Videos ...\",\"link\":\"https://arxiv.org/abs/2311.17041\",\"snippet\":\"Abstract:A major reason behind the recent success of large language models (LLMs) is their \\\\textit{in-context learning} capability, which makes it possible ...\",\"date\":\"Nov 28, 2023\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "48a421fc76434406df947f13475db71cfbb8199d0f90503d0f6171e5bcc027d7",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "In-context learning in pre-training of large language models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "[2305.09137] Pre-Training to Learn in Context - arXiv",
+                    "link": "https://arxiv.org/abs/2305.09137",
+                    "snippet": "Abstract:In-context learning, where pre-trained language models learn to perform tasks from task examples and instructions in their contexts, has attracted ...",
+                    "date": "May 16, 2023",
+                    "position": 1
+                  },
+                  {
+                    "title": "On the Effect of Pretraining Corpora on In-context Learning ... - arXiv",
+                    "link": "https://arxiv.org/abs/2204.13509",
+                    "snippet": "Many recent studies on large-scale language models have reported successful in-context zero- and few-shot learning ability. However, the in-depth analysis of ...",
+                    "date": "Apr 28, 2022",
+                    "position": 2
+                  },
+                  {
+                    "title": "The Mystery of In-Context Learning: A Comprehensive Survey on ...",
+                    "link": "https://arxiv.org/html/2311.00237v2",
+                    "snippet": "Understanding in-context learning (ICL) capability that enables large language models (LLMs) to excel in proficiency through demonstration examples is of utmost ...",
+                    "date": "Feb 16, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "In-context Pretraining: Language Modeling Beyond Document ...",
+                    "link": "https://arxiv.org/abs/2310.10638",
+                    "snippet": "We can do In-Context Pretraining by simply changing the document ordering so that each context contains related documents, and directly applying existing ...",
+                    "date": "Oct 16, 2023",
+                    "position": 4
+                  },
+                  {
+                    "title": "Larger language models do in-context learning differently - arXiv",
+                    "link": "https://arxiv.org/abs/2303.03846",
+                    "snippet": "Abstract:We study how in-context learning (ICL) in language models is affected by semantic priors versus input-label mappings. We investigate two setups-ICL ...",
+                    "date": "Mar 7, 2023",
+                    "position": 5
+                  },
+                  {
+                    "title": "Learning to Retrieve In-Context Examples for Large Language Models",
+                    "link": "https://arxiv.org/html/2307.07164v2",
+                    "snippet": "Large language models (LLMs) have demonstrated their ability to learn in-context, allowing them to perform various tasks based on a few input-output examples.",
+                    "date": "Jan 26, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "ICLEval: Evaluating In-Context Learning Ability of Large Language ...",
+                    "link": "https://arxiv.org/abs/2406.14955",
+                    "snippet": "Abstract:In-Context Learning (ICL) is a critical capability of Large Language Models (LLMs) as it empowers them to comprehend and reason across ...",
+                    "date": "Jun 21, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Why Larger Language Models Do In-context Learning Differently?",
+                    "link": "https://arxiv.org/html/2405.19592v1",
+                    "snippet": "These results indicate that large models can override their pretraining biases in-context input-label correlations, while small models may not and are more ...",
+                    "date": "May 30, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "What Do Language Models Learn in Context? The Structured Task ...",
+                    "link": "https://arxiv.org/abs/2406.04216",
+                    "snippet": "Abstract:Large language models (LLMs) ... Our results suggest an LLM could learn a novel task in context via composing tasks learned during pre-training.",
+                    "date": "Jun 6, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Eliciting In-Context Learning in Vision-Language Models for Videos ...",
+                    "link": "https://arxiv.org/abs/2311.17041",
+                    "snippet": "Abstract:A major reason behind the recent success of large language models (LLMs) is their \\textit{in-context learning} capability, which makes it possible ...",
+                    "date": "Nov 28, 2023",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:18.214381+00:00",
+              "elapsed_seconds": 0.9468636326491833,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q1_A_02_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2204.13509",
+            "2303.03846",
+            "2305.09137",
+            "2307.07164",
+            "2310.10638",
+            "2311.00237",
+            "2311.17041",
+            "2405.19592",
+            "2406.04216",
+            "2406.14955"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2305.09137",
+              "organic_index": 0,
+              "position": 1,
+              "title": "[2305.09137] Pre-Training to Learn in Context - arXiv",
+              "link": "https://arxiv.org/abs/2305.09137",
+              "snippet": "Abstract:In-context learning, where pre-trained language models learn to perform tasks from task examples and instructions in their contexts, has attracted ..."
+            },
+            {
+              "arxiv_id": "2204.13509",
+              "organic_index": 1,
+              "position": 2,
+              "title": "On the Effect of Pretraining Corpora on In-context Learning ... - arXiv",
+              "link": "https://arxiv.org/abs/2204.13509",
+              "snippet": "Many recent studies on large-scale language models have reported successful in-context zero- and few-shot learning ability. However, the in-depth analysis of ..."
+            },
+            {
+              "arxiv_id": "2311.00237",
+              "organic_index": 2,
+              "position": 3,
+              "title": "The Mystery of In-Context Learning: A Comprehensive Survey on ...",
+              "link": "https://arxiv.org/html/2311.00237v2",
+              "snippet": "Understanding in-context learning (ICL) capability that enables large language models (LLMs) to excel in proficiency through demonstration examples is of utmost ..."
+            },
+            {
+              "arxiv_id": "2310.10638",
+              "organic_index": 3,
+              "position": 4,
+              "title": "In-context Pretraining: Language Modeling Beyond Document ...",
+              "link": "https://arxiv.org/abs/2310.10638",
+              "snippet": "We can do In-Context Pretraining by simply changing the document ordering so that each context contains related documents, and directly applying existing ..."
+            },
+            {
+              "arxiv_id": "2303.03846",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Larger language models do in-context learning differently - arXiv",
+              "link": "https://arxiv.org/abs/2303.03846",
+              "snippet": "Abstract:We study how in-context learning (ICL) in language models is affected by semantic priors versus input-label mappings. We investigate two setups-ICL ..."
+            },
+            {
+              "arxiv_id": "2307.07164",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Learning to Retrieve In-Context Examples for Large Language Models",
+              "link": "https://arxiv.org/html/2307.07164v2",
+              "snippet": "Large language models (LLMs) have demonstrated their ability to learn in-context, allowing them to perform various tasks based on a few input-output examples."
+            },
+            {
+              "arxiv_id": "2406.14955",
+              "organic_index": 6,
+              "position": 7,
+              "title": "ICLEval: Evaluating In-Context Learning Ability of Large Language ...",
+              "link": "https://arxiv.org/abs/2406.14955",
+              "snippet": "Abstract:In-Context Learning (ICL) is a critical capability of Large Language Models (LLMs) as it empowers them to comprehend and reason across ..."
+            },
+            {
+              "arxiv_id": "2405.19592",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Why Larger Language Models Do In-context Learning Differently?",
+              "link": "https://arxiv.org/html/2405.19592v1",
+              "snippet": "These results indicate that large models can override their pretraining biases in-context input-label correlations, while small models may not and are more ..."
+            },
+            {
+              "arxiv_id": "2406.04216",
+              "organic_index": 8,
+              "position": 9,
+              "title": "What Do Language Models Learn in Context? The Structured Task ...",
+              "link": "https://arxiv.org/abs/2406.04216",
+              "snippet": "Abstract:Large language models (LLMs) ... Our results suggest an LLM could learn a novel task in context via composing tasks learned during pre-training."
+            },
+            {
+              "arxiv_id": "2311.17041",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Eliciting In-Context Learning in Vision-Language Models for Videos ...",
+              "link": "https://arxiv.org/abs/2311.17041",
+              "snippet": "Abstract:A major reason behind the recent success of large language models (LLMs) is their \\textit{in-context learning} capability, which makes it possible ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 3,
+          "crawler_query": "Pre-training methods for in-context learning in language models",
+          "request_payload": {
+            "q": "Pre-training methods for in-context learning in language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 12,
+              "query_id": "Q1",
+              "group": "A",
+              "query_sequence": 3,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Pre-training methods for in-context learning in language models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:18.214987+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Pre-training methods for in-context learning in language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2305.09137] Pre-Training to Learn in Context - arXiv\",\"link\":\"https://arxiv.org/abs/2305.09137\",\"snippet\":\"To this end, we propose PICL (Pre-training for In-Context Learning), a framework to enhance the language models' in-context learning ability by pre-training the ...\",\"date\":\"May 16, 2023\",\"position\":1},{\"title\":\"Parallel Structures in Pre-training Data Yield In-Context Learning\",\"link\":\"https://arxiv.org/abs/2402.12530\",\"snippet\":\"Abstract:Pre-trained language models (LMs) are capable of in-context learning (ICL): they can adapt to a task with only a few examples given in the prompt ...\",\"date\":\"Feb 19, 2024\",\"position\":2},{\"title\":\"In-context Pretraining: Language Modeling Beyond Document ...\",\"link\":\"https://arxiv.org/abs/2310.10638\",\"snippet\":\"We can do In-Context Pretraining by simply changing the document ordering so that each context contains related documents, and directly applying existing ...\",\"date\":\"Oct 16, 2023\",\"position\":3},{\"title\":\"Learning to Retrieve In-Context Examples for Large Language Models\",\"link\":\"https://arxiv.org/html/2307.07164v2\",\"snippet\":\"Large language models (LLMs) have demonstrated their ability to learn in-context, allowing them to perform various tasks based on a few input-output examples. ...\",\"date\":\"Jan 26, 2024\",\"position\":4},{\"title\":\"Understanding In-Context Learning via Supportive Pretraining Data\",\"link\":\"https://arxiv.org/abs/2306.15091\",\"snippet\":\"Abstract:In-context learning (ICL) improves language models' performance on a variety of NLP tasks by simply demonstrating a handful of examples at inference ...\",\"date\":\"Jun 26, 2023\",\"position\":5},{\"title\":\"[PDF] In-Context Learning with Many Demonstration Examples - arXiv\",\"link\":\"https://arxiv.org/pdf/2302.04931\",\"snippet\":\"The pre-training stage empowers the language modeling capacity of EVALM, and the instruction tuning explicitly aligns EVALM with instructions from different ...\",\"date\":\"Feb 9, 2023\",\"position\":6},{\"title\":\"On the Effect of Pretraining Corpora on In-context Learning ... - arXiv\",\"link\":\"https://arxiv.org/abs/2204.13509\",\"snippet\":\"Many recent studies on large-scale language models have reported successful in-context zero- and few-shot learning ability. However, the in-depth analysis of ...\",\"date\":\"Apr 28, 2022\",\"position\":7},{\"title\":\"Leveraging pre-trained language models for conversational ... - arXiv\",\"link\":\"https://arxiv.org/html/2204.03542v1\",\"snippet\":\"In this paper we investigate the usage of in-context learning and pre-trained language representation models to address the problem of information extraction\",\"date\":\"Mar 31, 2022\",\"position\":8},{\"title\":\"What Do Language Models Learn in Context? The Structured Task ...\",\"link\":\"https://arxiv.org/abs/2406.04216\",\"snippet\":\"In this paper, we empirically explore these three hypotheses that explain LLMs' ability to learn in context with a suite of experiments derived from common text ...\",\"date\":\"Jun 6, 2024\",\"position\":9},{\"title\":\"Analyzing the Relationship between Pre-Training and Fine-Tuning ...\",\"link\":\"https://arxiv.org/html/2408.06663v1\",\"snippet\":\"We explore both supervised and instruction fine-tuning, testing the models' memorization and forgetting when learning specific tasks and serving as general- ...\",\"date\":\"Aug 13, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "4185416be5299aad5832278d16d3e9dd288f9979bffc3982b29f4ddff5a9d814",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Pre-training methods for in-context learning in language models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "[2305.09137] Pre-Training to Learn in Context - arXiv",
+                    "link": "https://arxiv.org/abs/2305.09137",
+                    "snippet": "To this end, we propose PICL (Pre-training for In-Context Learning), a framework to enhance the language models' in-context learning ability by pre-training the ...",
+                    "date": "May 16, 2023",
+                    "position": 1
+                  },
+                  {
+                    "title": "Parallel Structures in Pre-training Data Yield In-Context Learning",
+                    "link": "https://arxiv.org/abs/2402.12530",
+                    "snippet": "Abstract:Pre-trained language models (LMs) are capable of in-context learning (ICL): they can adapt to a task with only a few examples given in the prompt ...",
+                    "date": "Feb 19, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "In-context Pretraining: Language Modeling Beyond Document ...",
+                    "link": "https://arxiv.org/abs/2310.10638",
+                    "snippet": "We can do In-Context Pretraining by simply changing the document ordering so that each context contains related documents, and directly applying existing ...",
+                    "date": "Oct 16, 2023",
+                    "position": 3
+                  },
+                  {
+                    "title": "Learning to Retrieve In-Context Examples for Large Language Models",
+                    "link": "https://arxiv.org/html/2307.07164v2",
+                    "snippet": "Large language models (LLMs) have demonstrated their ability to learn in-context, allowing them to perform various tasks based on a few input-output examples. ...",
+                    "date": "Jan 26, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Understanding In-Context Learning via Supportive Pretraining Data",
+                    "link": "https://arxiv.org/abs/2306.15091",
+                    "snippet": "Abstract:In-context learning (ICL) improves language models' performance on a variety of NLP tasks by simply demonstrating a handful of examples at inference ...",
+                    "date": "Jun 26, 2023",
+                    "position": 5
+                  },
+                  {
+                    "title": "[PDF] In-Context Learning with Many Demonstration Examples - arXiv",
+                    "link": "https://arxiv.org/pdf/2302.04931",
+                    "snippet": "The pre-training stage empowers the language modeling capacity of EVALM, and the instruction tuning explicitly aligns EVALM with instructions from different ...",
+                    "date": "Feb 9, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "On the Effect of Pretraining Corpora on In-context Learning ... - arXiv",
+                    "link": "https://arxiv.org/abs/2204.13509",
+                    "snippet": "Many recent studies on large-scale language models have reported successful in-context zero- and few-shot learning ability. However, the in-depth analysis of ...",
+                    "date": "Apr 28, 2022",
+                    "position": 7
+                  },
+                  {
+                    "title": "Leveraging pre-trained language models for conversational ... - arXiv",
+                    "link": "https://arxiv.org/html/2204.03542v1",
+                    "snippet": "In this paper we investigate the usage of in-context learning and pre-trained language representation models to address the problem of information extraction",
+                    "date": "Mar 31, 2022",
+                    "position": 8
+                  },
+                  {
+                    "title": "What Do Language Models Learn in Context? The Structured Task ...",
+                    "link": "https://arxiv.org/abs/2406.04216",
+                    "snippet": "In this paper, we empirically explore these three hypotheses that explain LLMs' ability to learn in context with a suite of experiments derived from common text ...",
+                    "date": "Jun 6, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+                    "link": "https://arxiv.org/html/2408.06663v1",
+                    "snippet": "We explore both supervised and instruction fine-tuning, testing the models' memorization and forgetting when learning specific tasks and serving as general- ...",
+                    "date": "Aug 13, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:19.139583+00:00",
+              "elapsed_seconds": 0.9245941527187824,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q1_A_03_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2204.03542",
+            "2204.13509",
+            "2302.04931",
+            "2305.09137",
+            "2306.15091",
+            "2307.07164",
+            "2310.10638",
+            "2402.12530",
+            "2406.04216",
+            "2408.06663"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2305.09137",
+              "organic_index": 0,
+              "position": 1,
+              "title": "[2305.09137] Pre-Training to Learn in Context - arXiv",
+              "link": "https://arxiv.org/abs/2305.09137",
+              "snippet": "To this end, we propose PICL (Pre-training for In-Context Learning), a framework to enhance the language models' in-context learning ability by pre-training the ..."
+            },
+            {
+              "arxiv_id": "2402.12530",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Parallel Structures in Pre-training Data Yield In-Context Learning",
+              "link": "https://arxiv.org/abs/2402.12530",
+              "snippet": "Abstract:Pre-trained language models (LMs) are capable of in-context learning (ICL): they can adapt to a task with only a few examples given in the prompt ..."
+            },
+            {
+              "arxiv_id": "2310.10638",
+              "organic_index": 2,
+              "position": 3,
+              "title": "In-context Pretraining: Language Modeling Beyond Document ...",
+              "link": "https://arxiv.org/abs/2310.10638",
+              "snippet": "We can do In-Context Pretraining by simply changing the document ordering so that each context contains related documents, and directly applying existing ..."
+            },
+            {
+              "arxiv_id": "2307.07164",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Learning to Retrieve In-Context Examples for Large Language Models",
+              "link": "https://arxiv.org/html/2307.07164v2",
+              "snippet": "Large language models (LLMs) have demonstrated their ability to learn in-context, allowing them to perform various tasks based on a few input-output examples. ..."
+            },
+            {
+              "arxiv_id": "2306.15091",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Understanding In-Context Learning via Supportive Pretraining Data",
+              "link": "https://arxiv.org/abs/2306.15091",
+              "snippet": "Abstract:In-context learning (ICL) improves language models' performance on a variety of NLP tasks by simply demonstrating a handful of examples at inference ..."
+            },
+            {
+              "arxiv_id": "2302.04931",
+              "organic_index": 5,
+              "position": 6,
+              "title": "[PDF] In-Context Learning with Many Demonstration Examples - arXiv",
+              "link": "https://arxiv.org/pdf/2302.04931",
+              "snippet": "The pre-training stage empowers the language modeling capacity of EVALM, and the instruction tuning explicitly aligns EVALM with instructions from different ..."
+            },
+            {
+              "arxiv_id": "2204.13509",
+              "organic_index": 6,
+              "position": 7,
+              "title": "On the Effect of Pretraining Corpora on In-context Learning ... - arXiv",
+              "link": "https://arxiv.org/abs/2204.13509",
+              "snippet": "Many recent studies on large-scale language models have reported successful in-context zero- and few-shot learning ability. However, the in-depth analysis of ..."
+            },
+            {
+              "arxiv_id": "2204.03542",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Leveraging pre-trained language models for conversational ... - arXiv",
+              "link": "https://arxiv.org/html/2204.03542v1",
+              "snippet": "In this paper we investigate the usage of in-context learning and pre-trained language representation models to address the problem of information extraction"
+            },
+            {
+              "arxiv_id": "2406.04216",
+              "organic_index": 8,
+              "position": 9,
+              "title": "What Do Language Models Learn in Context? The Structured Task ...",
+              "link": "https://arxiv.org/abs/2406.04216",
+              "snippet": "In this paper, we empirically explore these three hypotheses that explain LLMs' ability to learn in context with a suite of experiments derived from common text ..."
+            },
+            {
+              "arxiv_id": "2408.06663",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+              "link": "https://arxiv.org/html/2408.06663v1",
+              "snippet": "We explore both supervised and instruction fine-tuning, testing the models' memorization and forgetting when learning specific tasks and serving as general- ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 4,
+          "crawler_query": "Insights into the process of pre-training for in-context learning in language models",
+          "request_payload": {
+            "q": "Insights into the process of pre-training for in-context learning in language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 13,
+              "query_id": "Q1",
+              "group": "A",
+              "query_sequence": 4,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Insights into the process of pre-training for in-context learning in language models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:19.140103+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Insights into the process of pre-training for in-context learning in language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"The Mystery of In-Context Learning: A Comprehensive Survey on ...\",\"link\":\"https://arxiv.org/html/2311.00237v2\",\"snippet\":\"They proved that ICL is guaranteed to happen when the pre-training distribution is a mixture of downstream tasks. Wang et al. (2023b) posited that ICL in LLMs ...\",\"date\":\"Feb 16, 2024\",\"position\":1},{\"title\":\"Leveraging pre-trained language models for conversational ... - arXiv\",\"link\":\"https://arxiv.org/html/2204.03542v1\",\"snippet\":\"In this paper we investigate the adoption of in-context learning to overcome the lack of training data in process (information) extraction from text.\",\"date\":\"Mar 31, 2022\",\"position\":2},{\"title\":\"[2305.09137] Pre-Training to Learn in Context - arXiv\",\"link\":\"https://arxiv.org/abs/2305.09137\",\"snippet\":\"To this end, we propose PICL (Pre-training for In-Context Learning), a framework to enhance the language models' in-context learning ability by pre-training the ...\",\"date\":\"May 16, 2023\",\"position\":3},{\"title\":\"Analyzing the Relationship between Pre-Training and Fine-Tuning ...\",\"link\":\"https://arxiv.org/html/2408.06663v1\",\"snippet\":\"While model pre-training can be done by a few groups with large resources interested in developing new models, fine-tuning depends on the task and is of broad ...\",\"date\":\"Aug 13, 2024\",\"position\":4},{\"title\":\"Why Larger Language Models Do In-context Learning Differently?\",\"link\":\"https://arxiv.org/html/2405.19592v1\",\"snippet\":\"Pretraining noise. We can see it as toxic or harmful pretraining data on the website (noisy training data). The model will learn these features and patterns.\",\"date\":\"May 30, 2024\",\"position\":5},{\"title\":\"OpenICL: An Open-Source Framework for In-context Learning - arXiv\",\"link\":\"https://arxiv.org/html/2303.02913v1\",\"snippet\":\"In-context learning (ICL), a new paradigm that leverages pre-trained language models to perform new tasks without any gradient-based training.\",\"date\":\"Mar 6, 2023\",\"position\":6},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.\",\"date\":\"Jan 27, 2022\",\"position\":7},{\"title\":\"Give Us the Facts: Enhancing Large Language Models with ... - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489\",\"snippet\":\"This paper reviews the studies on enhancing PLMs with KGs, detailing existing knowledge graph enhanced pre-trained language models (KGPLMs) as well as their ...\",\"date\":\"Nov 30, 2022\",\"sitelinks\":[{\"title\":\"Ii Background\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=II%20Background\"},{\"title\":\"Iii Kgplms\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=III%20KGPLMs\"},{\"title\":\"Vi Enhancing Llms With Kgs\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=VI%20Enhancing%20LLMs%20with%20KGs\"}],\"position\":8},{\"title\":\"[PDF] arXiv:2406.14022v1 [cs.LG] 20 Jun 2024\",\"link\":\"https://arxiv.org/pdf/2406.14022\",\"snippet\":\"We conduct a fine-grained analysis of common pre-training factors (i.e., model size, dataset size, and data curriculum) to understand their influence on the ...\",\"date\":\"Jun 20, 2024\",\"position\":9},{\"title\":\"[2302.12173] Not what you've signed up for - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2302.12173\",\"snippet\":\"This is done in a self-supervised manner by first leveraging in-context learning to generate potential training data for fine-tuning. Similarly, ReAct (Yao et ...\",\"date\":\"Apr 4, 2023\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "f42de0c8d4ec87d23524604a4f68e77d3ceb0817e74566fa28c0e1cd6fa1bf5a",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Insights into the process of pre-training for in-context learning in language models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "The Mystery of In-Context Learning: A Comprehensive Survey on ...",
+                    "link": "https://arxiv.org/html/2311.00237v2",
+                    "snippet": "They proved that ICL is guaranteed to happen when the pre-training distribution is a mixture of downstream tasks. Wang et al. (2023b) posited that ICL in LLMs ...",
+                    "date": "Feb 16, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Leveraging pre-trained language models for conversational ... - arXiv",
+                    "link": "https://arxiv.org/html/2204.03542v1",
+                    "snippet": "In this paper we investigate the adoption of in-context learning to overcome the lack of training data in process (information) extraction from text.",
+                    "date": "Mar 31, 2022",
+                    "position": 2
+                  },
+                  {
+                    "title": "[2305.09137] Pre-Training to Learn in Context - arXiv",
+                    "link": "https://arxiv.org/abs/2305.09137",
+                    "snippet": "To this end, we propose PICL (Pre-training for In-Context Learning), a framework to enhance the language models' in-context learning ability by pre-training the ...",
+                    "date": "May 16, 2023",
+                    "position": 3
+                  },
+                  {
+                    "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+                    "link": "https://arxiv.org/html/2408.06663v1",
+                    "snippet": "While model pre-training can be done by a few groups with large resources interested in developing new models, fine-tuning depends on the task and is of broad ...",
+                    "date": "Aug 13, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Why Larger Language Models Do In-context Learning Differently?",
+                    "link": "https://arxiv.org/html/2405.19592v1",
+                    "snippet": "Pretraining noise. We can see it as toxic or harmful pretraining data on the website (noisy training data). The model will learn these features and patterns.",
+                    "date": "May 30, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "OpenICL: An Open-Source Framework for In-context Learning - arXiv",
+                    "link": "https://arxiv.org/html/2303.02913v1",
+                    "snippet": "In-context learning (ICL), a new paradigm that leverages pre-trained language models to perform new tasks without any gradient-based training.",
+                    "date": "Mar 6, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.",
+                    "date": "Jan 27, 2022",
+                    "position": 7
+                  },
+                  {
+                    "title": "Give Us the Facts: Enhancing Large Language Models with ... - ar5iv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2306.11489",
+                    "snippet": "This paper reviews the studies on enhancing PLMs with KGs, detailing existing knowledge graph enhanced pre-trained language models (KGPLMs) as well as their ...",
+                    "date": "Nov 30, 2022",
+                    "sitelinks": [
+                      {
+                        "title": "Ii Background",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=II%20Background"
+                      },
+                      {
+                        "title": "Iii Kgplms",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=III%20KGPLMs"
+                      },
+                      {
+                        "title": "Vi Enhancing Llms With Kgs",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=VI%20Enhancing%20LLMs%20with%20KGs"
+                      }
+                    ],
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] arXiv:2406.14022v1 [cs.LG] 20 Jun 2024",
+                    "link": "https://arxiv.org/pdf/2406.14022",
+                    "snippet": "We conduct a fine-grained analysis of common pre-training factors (i.e., model size, dataset size, and data curriculum) to understand their influence on the ...",
+                    "date": "Jun 20, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "[2302.12173] Not what you've signed up for - ar5iv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2302.12173",
+                    "snippet": "This is done in a self-supervised manner by first leveraging in-context learning to generate potential training data for fine-tuning. Similarly, ReAct (Yao et ...",
+                    "date": "Apr 4, 2023",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:20.557546+00:00",
+              "elapsed_seconds": 1.4174545370042324,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q1_A_04_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2203.02155",
+            "2204.03542",
+            "2302.12173",
+            "2303.02913",
+            "2305.09137",
+            "2306.11489",
+            "2311.00237",
+            "2405.19592",
+            "2406.14022",
+            "2408.06663"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2311.00237",
+              "organic_index": 0,
+              "position": 1,
+              "title": "The Mystery of In-Context Learning: A Comprehensive Survey on ...",
+              "link": "https://arxiv.org/html/2311.00237v2",
+              "snippet": "They proved that ICL is guaranteed to happen when the pre-training distribution is a mixture of downstream tasks. Wang et al. (2023b) posited that ICL in LLMs ..."
+            },
+            {
+              "arxiv_id": "2204.03542",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Leveraging pre-trained language models for conversational ... - arXiv",
+              "link": "https://arxiv.org/html/2204.03542v1",
+              "snippet": "In this paper we investigate the adoption of in-context learning to overcome the lack of training data in process (information) extraction from text."
+            },
+            {
+              "arxiv_id": "2305.09137",
+              "organic_index": 2,
+              "position": 3,
+              "title": "[2305.09137] Pre-Training to Learn in Context - arXiv",
+              "link": "https://arxiv.org/abs/2305.09137",
+              "snippet": "To this end, we propose PICL (Pre-training for In-Context Learning), a framework to enhance the language models' in-context learning ability by pre-training the ..."
+            },
+            {
+              "arxiv_id": "2408.06663",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+              "link": "https://arxiv.org/html/2408.06663v1",
+              "snippet": "While model pre-training can be done by a few groups with large resources interested in developing new models, fine-tuning depends on the task and is of broad ..."
+            },
+            {
+              "arxiv_id": "2405.19592",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Why Larger Language Models Do In-context Learning Differently?",
+              "link": "https://arxiv.org/html/2405.19592v1",
+              "snippet": "Pretraining noise. We can see it as toxic or harmful pretraining data on the website (noisy training data). The model will learn these features and patterns."
+            },
+            {
+              "arxiv_id": "2303.02913",
+              "organic_index": 5,
+              "position": 6,
+              "title": "OpenICL: An Open-Source Framework for In-context Learning - arXiv",
+              "link": "https://arxiv.org/html/2303.02913v1",
+              "snippet": "In-context learning (ICL), a new paradigm that leverages pre-trained language models to perform new tasks without any gradient-based training."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback."
+            },
+            {
+              "arxiv_id": "2306.11489",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Give Us the Facts: Enhancing Large Language Models with ... - ar5iv",
+              "link": "https://ar5iv.labs.arxiv.org/html/2306.11489",
+              "snippet": "This paper reviews the studies on enhancing PLMs with KGs, detailing existing knowledge graph enhanced pre-trained language models (KGPLMs) as well as their ..."
+            },
+            {
+              "arxiv_id": "2406.14022",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] arXiv:2406.14022v1 [cs.LG] 20 Jun 2024",
+              "link": "https://arxiv.org/pdf/2406.14022",
+              "snippet": "We conduct a fine-grained analysis of common pre-training factors (i.e., model size, dataset size, and data curriculum) to understand their influence on the ..."
+            },
+            {
+              "arxiv_id": "2302.12173",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[2302.12173] Not what you've signed up for - ar5iv",
+              "link": "https://ar5iv.labs.arxiv.org/html/2302.12173",
+              "snippet": "This is done in a self-supervised manner by first leveraging in-context learning to generate potential training data for fine-tuning. Similarly, ReAct (Yao et ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 5,
+          "crawler_query": "Role of pre-training in the development of in-context learning in language models",
+          "request_payload": {
+            "q": "Role of pre-training in the development of in-context learning in language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 14,
+              "query_id": "Q1",
+              "group": "A",
+              "query_sequence": 5,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Role of pre-training in the development of in-context learning in language models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:20.558116+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Role of pre-training in the development of in-context learning in language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2305.09137] Pre-Training to Learn in Context - arXiv\",\"link\":\"https://arxiv.org/abs/2305.09137\",\"snippet\":\"To this end, we propose PICL (Pre-training for In-Context Learning), a framework to enhance the language models' in-context learning ability by pre-training the ...\",\"date\":\"May 16, 2023\",\"position\":1},{\"title\":\"The Mystery of In-Context Learning: A Comprehensive Survey on ...\",\"link\":\"https://arxiv.org/html/2311.00237v2\",\"snippet\":\"They proved that ICL is guaranteed to happen when the pre-training distribution is a mixture of downstream tasks. Wang et al. (2023b) posited that ICL in LLMs ...\",\"date\":\"Feb 16, 2024\",\"position\":2},{\"title\":\"Analyzing the Relationship between Pre-Training and Fine-Tuning ...\",\"link\":\"https://arxiv.org/html/2408.06663v1\",\"snippet\":\"The development of large language models leads to the formation of a pre-train-then-align paradigm, in which the model is typically pre-trained on a large text ...\",\"date\":\"Aug 13, 2024\",\"position\":3},{\"title\":\"On the Effect of Pretraining Corpora on In-context Learning ... - arXiv\",\"link\":\"https://arxiv.org/abs/2204.13509\",\"snippet\":\"in-context learning ability can emerge when a language model is trained on a combination of multiple corpora, even when each corpus does not result in in- ...\",\"date\":\"Apr 28, 2022\",\"position\":4},{\"title\":\"Parallel Structures in Pre-training Data Yield In-Context Learning\",\"link\":\"https://arxiv.org/abs/2402.12530\",\"snippet\":\"Pre-trained language models (LMs) are capable of in-context learning (ICL): they can adapt to a task with only a few examples given in the prompt without any ...\",\"date\":\"Feb 19, 2024\",\"position\":5},{\"title\":\"Understanding In-Context Learning via Supportive Pretraining Data\",\"link\":\"https://arxiv.org/abs/2306.15091\",\"snippet\":\"Abstract:In-context learning (ICL) improves language models' performance on a variety of NLP tasks by simply demonstrating a handful of examples at inference ...\",\"date\":\"Jun 26, 2023\",\"position\":6},{\"title\":\"What Do Language Models Learn in Context? The Structured Task ...\",\"link\":\"https://arxiv.org/abs/2406.04216\",\"snippet\":\"ICL is a form of meta-learning, i.e., the models learn a learning algorithm at pre-training time and apply it to the demonstration. ed during pre-training.\",\"date\":\"Jun 6, 2024\",\"position\":7},{\"title\":\"Why Larger Language Models Do In-context Learning Differently?\",\"link\":\"https://arxiv.org/html/2405.19592v1\",\"snippet\":\"Note that our pretraining stage is also called learning to learn in-context (Min et al., 2021) or in-context training warmup (Dong et al., 2022) in existing ...\",\"date\":\"May 30, 2024\",\"position\":8},{\"title\":\"[2307.12375] In-Context Learning Learns Label Relationships but Is ...\",\"link\":\"https://arxiv.org/abs/2307.12375\",\"snippet\":\"However, we also find that ICL struggles to fully overcome prediction preferences acquired from pre-training data and, further, that ICL does not consider all ...\",\"date\":\"Jul 23, 2023\",\"position\":9},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"Even though InstructGPT still makes simple mistakes, our results show that fine-tuning with human feedback is a promising direction for aligning language models ...\",\"date\":\"Jan 27, 2022\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "bf3bbc700c737faf5b18fdeb3b2453385ae1f58ec85a084283c68a4c8bee41db",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Role of pre-training in the development of in-context learning in language models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "[2305.09137] Pre-Training to Learn in Context - arXiv",
+                    "link": "https://arxiv.org/abs/2305.09137",
+                    "snippet": "To this end, we propose PICL (Pre-training for In-Context Learning), a framework to enhance the language models' in-context learning ability by pre-training the ...",
+                    "date": "May 16, 2023",
+                    "position": 1
+                  },
+                  {
+                    "title": "The Mystery of In-Context Learning: A Comprehensive Survey on ...",
+                    "link": "https://arxiv.org/html/2311.00237v2",
+                    "snippet": "They proved that ICL is guaranteed to happen when the pre-training distribution is a mixture of downstream tasks. Wang et al. (2023b) posited that ICL in LLMs ...",
+                    "date": "Feb 16, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+                    "link": "https://arxiv.org/html/2408.06663v1",
+                    "snippet": "The development of large language models leads to the formation of a pre-train-then-align paradigm, in which the model is typically pre-trained on a large text ...",
+                    "date": "Aug 13, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "On the Effect of Pretraining Corpora on In-context Learning ... - arXiv",
+                    "link": "https://arxiv.org/abs/2204.13509",
+                    "snippet": "in-context learning ability can emerge when a language model is trained on a combination of multiple corpora, even when each corpus does not result in in- ...",
+                    "date": "Apr 28, 2022",
+                    "position": 4
+                  },
+                  {
+                    "title": "Parallel Structures in Pre-training Data Yield In-Context Learning",
+                    "link": "https://arxiv.org/abs/2402.12530",
+                    "snippet": "Pre-trained language models (LMs) are capable of in-context learning (ICL): they can adapt to a task with only a few examples given in the prompt without any ...",
+                    "date": "Feb 19, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "Understanding In-Context Learning via Supportive Pretraining Data",
+                    "link": "https://arxiv.org/abs/2306.15091",
+                    "snippet": "Abstract:In-context learning (ICL) improves language models' performance on a variety of NLP tasks by simply demonstrating a handful of examples at inference ...",
+                    "date": "Jun 26, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "What Do Language Models Learn in Context? The Structured Task ...",
+                    "link": "https://arxiv.org/abs/2406.04216",
+                    "snippet": "ICL is a form of meta-learning, i.e., the models learn a learning algorithm at pre-training time and apply it to the demonstration. ed during pre-training.",
+                    "date": "Jun 6, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Why Larger Language Models Do In-context Learning Differently?",
+                    "link": "https://arxiv.org/html/2405.19592v1",
+                    "snippet": "Note that our pretraining stage is also called learning to learn in-context (Min et al., 2021) or in-context training warmup (Dong et al., 2022) in existing ...",
+                    "date": "May 30, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "[2307.12375] In-Context Learning Learns Label Relationships but Is ...",
+                    "link": "https://arxiv.org/abs/2307.12375",
+                    "snippet": "However, we also find that ICL struggles to fully overcome prediction preferences acquired from pre-training data and, further, that ICL does not consider all ...",
+                    "date": "Jul 23, 2023",
+                    "position": 9
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "Even though InstructGPT still makes simple mistakes, our results show that fine-tuning with human feedback is a promising direction for aligning language models ...",
+                    "date": "Jan 27, 2022",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:21.671080+00:00",
+              "elapsed_seconds": 1.1129695177078247,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q1_A_05_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2203.02155",
+            "2204.13509",
+            "2305.09137",
+            "2306.15091",
+            "2307.12375",
+            "2311.00237",
+            "2402.12530",
+            "2405.19592",
+            "2406.04216",
+            "2408.06663"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2305.09137",
+              "organic_index": 0,
+              "position": 1,
+              "title": "[2305.09137] Pre-Training to Learn in Context - arXiv",
+              "link": "https://arxiv.org/abs/2305.09137",
+              "snippet": "To this end, we propose PICL (Pre-training for In-Context Learning), a framework to enhance the language models' in-context learning ability by pre-training the ..."
+            },
+            {
+              "arxiv_id": "2311.00237",
+              "organic_index": 1,
+              "position": 2,
+              "title": "The Mystery of In-Context Learning: A Comprehensive Survey on ...",
+              "link": "https://arxiv.org/html/2311.00237v2",
+              "snippet": "They proved that ICL is guaranteed to happen when the pre-training distribution is a mixture of downstream tasks. Wang et al. (2023b) posited that ICL in LLMs ..."
+            },
+            {
+              "arxiv_id": "2408.06663",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+              "link": "https://arxiv.org/html/2408.06663v1",
+              "snippet": "The development of large language models leads to the formation of a pre-train-then-align paradigm, in which the model is typically pre-trained on a large text ..."
+            },
+            {
+              "arxiv_id": "2204.13509",
+              "organic_index": 3,
+              "position": 4,
+              "title": "On the Effect of Pretraining Corpora on In-context Learning ... - arXiv",
+              "link": "https://arxiv.org/abs/2204.13509",
+              "snippet": "in-context learning ability can emerge when a language model is trained on a combination of multiple corpora, even when each corpus does not result in in- ..."
+            },
+            {
+              "arxiv_id": "2402.12530",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Parallel Structures in Pre-training Data Yield In-Context Learning",
+              "link": "https://arxiv.org/abs/2402.12530",
+              "snippet": "Pre-trained language models (LMs) are capable of in-context learning (ICL): they can adapt to a task with only a few examples given in the prompt without any ..."
+            },
+            {
+              "arxiv_id": "2306.15091",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Understanding In-Context Learning via Supportive Pretraining Data",
+              "link": "https://arxiv.org/abs/2306.15091",
+              "snippet": "Abstract:In-context learning (ICL) improves language models' performance on a variety of NLP tasks by simply demonstrating a handful of examples at inference ..."
+            },
+            {
+              "arxiv_id": "2406.04216",
+              "organic_index": 6,
+              "position": 7,
+              "title": "What Do Language Models Learn in Context? The Structured Task ...",
+              "link": "https://arxiv.org/abs/2406.04216",
+              "snippet": "ICL is a form of meta-learning, i.e., the models learn a learning algorithm at pre-training time and apply it to the demonstration. ed during pre-training."
+            },
+            {
+              "arxiv_id": "2405.19592",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Why Larger Language Models Do In-context Learning Differently?",
+              "link": "https://arxiv.org/html/2405.19592v1",
+              "snippet": "Note that our pretraining stage is also called learning to learn in-context (Min et al., 2021) or in-context training warmup (Dong et al., 2022) in existing ..."
+            },
+            {
+              "arxiv_id": "2307.12375",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[2307.12375] In-Context Learning Learns Label Relationships but Is ...",
+              "link": "https://arxiv.org/abs/2307.12375",
+              "snippet": "However, we also find that ICL struggles to fully overcome prediction preferences acquired from pre-training data and, further, that ICL does not consider all ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "Even though InstructGPT still makes simple mistakes, our results show that fine-tuning with human feedback is a promising direction for aligning language models ..."
+            }
+          ],
+          "organic_result_count": 10
+        }
+      ],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "a116cde086375baed64534f348d871baf99345b7c588c2afd65a46ef8fcab14a",
+      "raw_output": "[Search]Survey papers on in-context learning in pre-trained language models\n[Search]In-context learning in pre-training of large language models\n[Search]Pre-training methods for in-context learning in language models\n[Search]Insights into the process of pre-training for in-context learning in language models\n[Search]Role of pre-training in the development of in-context learning in language models\n[StopSearch]",
+      "raw_output_with_special_tokens": "[Search]Survey papers on in-context learning in pre-trained language models\n[Search]In-context learning in pre-training of large language models\n[Search]Pre-training methods for in-context learning in language models\n[Search]Insights into the process of pre-training for in-context learning in language models\n[Search]Role of pre-training in the development of in-context learning in language models\n[StopSearch]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        5890,
+        60,
+        68015,
+        15689,
+        389,
+        304,
+        63633,
+        6832,
+        304,
+        855,
+        68924,
+        4128,
+        4119,
+        198,
+        58,
+        5890,
+        60,
+        641,
+        63633,
+        6832,
+        304,
+        855,
+        85370,
+        315,
+        3460,
+        4128,
+        4119,
+        198,
+        58,
+        5890,
+        60,
+        4703,
+        85370,
+        5413,
+        369,
+        304,
+        63633,
+        6832,
+        304,
+        4128,
+        4119,
+        198,
+        58,
+        5890,
+        60,
+        15474,
+        2796,
+        1119,
+        279,
+        1882,
+        315,
+        855,
+        85370,
+        369,
+        304,
+        63633,
+        6832,
+        304,
+        4128,
+        4119,
+        198,
+        58,
+        5890,
+        60,
+        9030,
+        315,
+        855,
+        85370,
+        304,
+        279,
+        4401,
+        315,
+        304,
+        63633,
+        6832,
+        304,
+        4128,
+        4119,
+        198,
+        58,
+        10674,
+        5890,
+        60,
+        151645
+      ],
+      "generated_token_count": 85,
+      "ended_with_eos": true,
+      "input_token_count": 79,
+      "generation_seconds": 2.8567046523094177,
+      "all_parsed_queries": [
+        "Survey papers on in-context learning in pre-trained language models",
+        "In-context learning in pre-training of large language models",
+        "Pre-training methods for in-context learning in language models",
+        "Insights into the process of pre-training for in-context learning in language models",
+        "Role of pre-training in the development of in-context learning in language models"
+      ],
+      "queries": [
+        "Survey papers on in-context learning in pre-trained language models",
+        "In-context learning in pre-training of large language models",
+        "Pre-training methods for in-context learning in language models",
+        "Insights into the process of pre-training for in-context learning in language models",
+        "Role of pre-training in the development of in-context learning in language models"
+      ],
+      "discarded_queries": []
+    },
+    "B": {
+      "prompt": "Please generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training.",
+      "searches": [],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Give me papers that share some insights about how large language models gain in-context learning capability in the process of pre-training.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "e1f333dc5a47c976161c6a24fff7d39342e23fe55b18c6f31f7c068e9118d9be",
+      "raw_output": "[Expand]Pre-training process of large language models for in-context learning[Expand]In-context learning in pre-trained language models[Expand]Advancements in pre-training techniques for in-context learning in language models[StopExpand]",
+      "raw_output_with_special_tokens": "[Expand]Pre-training process of large language models for in-context learning[Expand]In-context learning in pre-trained language models[Expand]Advancements in pre-training techniques for in-context learning in language models[StopExpand]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        38946,
+        60,
+        4703,
+        85370,
+        1882,
+        315,
+        3460,
+        4128,
+        4119,
+        369,
+        304,
+        63633,
+        6832,
+        58,
+        38946,
+        60,
+        641,
+        63633,
+        6832,
+        304,
+        855,
+        68924,
+        4128,
+        4119,
+        58,
+        38946,
+        60,
+        23453,
+        38581,
+        304,
+        855,
+        85370,
+        12538,
+        369,
+        304,
+        63633,
+        6832,
+        304,
+        4128,
+        4119,
+        58,
+        10674,
+        38946,
+        60,
+        151645
+      ],
+      "generated_token_count": 46,
+      "ended_with_eos": true,
+      "input_token_count": 169,
+      "generation_seconds": 1.5457116924226284,
+      "all_parsed_queries": [],
+      "queries": [],
+      "discarded_queries": []
+    }
+  },
+  "started_utc": "2026-09-14T02:52:11.482617+00:00",
+  "search_order_first_group": "B",
+  "search_started_utc": "2026-09-14T02:52:15.890052+00:00",
+  "search_finished_utc": "2026-09-14T02:52:21.671678+00:00",
+  "search_seconds": 5.781655881553888,
+  "finished_utc": "2026-09-14T02:52:21.671696+00:00",
+  "elapsed_seconds": 10.189085122197866
+}

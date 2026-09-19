@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q48",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "1704.07398",
+  "request_payload": {
+    "q": "predicting native gaze before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 110,
+  "started_utc": "2026-09-17T12:35:28.870203+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648250",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "4468bece26e80afef494282794773e82",
+    "date": "Thu, 17 Sep 2026 12:30:49 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3497",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3497,
+  "response_bytes_sha256": "6c053b46e2bd7febd4efeb63114545cadac9a1357a99ac18eb6be0483836028f",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJwcmVkaWN0aW5nIG5hdGl2ZSBnYXplIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkVnb0dhemVMaXRlOiBPbi1EZXZpY2UgRWdvY2VudHJpYyBHYXplIFByZWRpY3Rpb24gZm9yIFRva2VuIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDguMTU2MTR2MSIsInNuaXBwZXQiOiJXZSB0ZXN0IHdoZXRoZXIgRWdvR2F6ZUxpdGUncyBwcmVkaWN0aW9ucyBjYW4gcmVwbGFjZSByZWFsIGV5ZS10cmFja2VyIGdhemUgaW4gdGhlIGNyb3BwaW5nIHBpcGVsaW5lLiBFYWNoIGNsaXAgaXMgcHJvY2Vzc2VkIGZvdXIgd2F5czogZnVsbCBmcmFtZSwgZ3JvdW5kLXRydXRoIC4uLiIsImRhdGUiOiIyMDI25bm0OOaciDE25pelIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJBcHBlYXJhbmNlLWJhc2VkIEdhemUgRXN0aW1hdGlvbiB3aXRoIERlZXAgTGVhcm5pbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIxMDQuMTI2Njh2MiIsInNuaXBwZXQiOiJUaGlzIHJlbGF0aW9uc2hpcCBiZXR3ZWVuIGdhemUgYW5kIGV5ZSBhcHBlYXJhbmNlIGVuYWJsZXMgdGhlIGdhemUgZXN0aW1hdGlvbiBiYXNlZCBvbiB0aGUgdmlzdWFsIGZlYXR1cmUgb2YgZXllcy4gQ29udmVudGlvbmFsIG1ldGhvZHMgdHlwaWNhbGx5IGVzdGltYXRlIGdhemUgLi4uIiwiZGF0ZSI6IjIwMjTlubQ05pyIMjTml6UiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkdhemUtRW5oYW5jZWQgTXVsdGltb2RhbCBUdXJuLVRha2luZyBQcmVkaWN0aW9uIGluIFRyaWFkaWMgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA1LjEzNjg4djIiLCJzbmlwcGV0IjoiTGV2ZXJhZ2luZyBlZ29jZW50cmljIGJlaGF2aW9yYWwgY3Vlcywgb3VyIGV4cGVyaW1lbnRzIGRlbW9uc3RyYXRlIHRoYXQgaW5jb3Jwb3JhdGluZyBnYXplIGRhdGEgZnJvbSBhIHNpbmdsZS11c2VyIHNpZ25pZmljYW50bHkgaW1wcm92ZXMgcHJlZGljdGlvbiBwZXJmb3JtYW5jZSAuLi4iLCJkYXRlIjoiMjAyNeW5tDXmnIgyMuaXpSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQ29udHJvbGxpbmcgUmVhZGluZyBFYXNlIHdpdGggR2F6ZS1HdWlkZWQgVGV4dCBHZW5lcmF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAxLjE3NzgxdjEiLCJzbmlwcGV0IjoiT3VyIG1ldGhvZCBlbXBsb3lzIGEgbW9kZWwgdGhhdCBwcmVkaWN0cyBodW1hbiBnYXplIHBhdHRlcm5zIHRvIHN0ZWVyIGxhbmd1YWdlIG1vZGVsIG91dHB1dHMgdG93YXJkcyBlbGljaXRpbmcgY2VydGFpbiByZWFkaW5nIGJlaGF2aW9ycy4gV2UgZXZhbHVhdGUgdGhlIC4uLiIsImRhdGUiOiIyMDI25bm0MeaciDI15pelIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBFeWUgR2F6ZSBFc3RpbWF0aW9uIE1vZGVsIEFuYWx5c2lzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMDcuMTQzNzMiLCJzbmlwcGV0IjoiVGhlIHB1cnBvc2Ugb2YgdGhpcyB3b3JrIGlzIHRvIGRpc2N1c3MgdmFyaW91cyBtb2RlbCB0eXBlcyBmb3IgZXllIGdhemUgZXN0aW1hdGlvbiBhbmQgcHJlc2VudCB0aGUgcmVzdWx0cyBmcm9tIHByZWRpY3RpbmcgZ2F6ZSBkaXJlY3Rpb24gdXNpbmcgZXllIGxhbmRtYXJrcyBpbiAuLi4iLCJkYXRlIjoiMjAyMuW5tDfmnIgyOOaXpSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiQXV0b3JlZ3Jlc3NpdmUgVHJhbnNmb3JtZXJzIGZvciBPbmxpbmUgRWdvY2VudHJpYyBHYXplIEVzdGltYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAyLjA1MTMydjEiLCJzbmlwcGV0IjoiRWdvY2VudHJpYyBnYXplIGVzdGltYXRpb24sIHdoaWNoIGludm9sdmVzIHByZWRpY3Rpbmcgd2hlcmUgYSBjYW1lcmEgd2VhcmVyIGlzIGxvb2tpbmcgZnJvbSBmaXJzdC1wZXJzb24gdmlkZW8sIGlzIGZ1bmRhbWVudGFsIHRvIGh1bWFuLWNlbnRyaWMgQUkgc3lzdGVtcyAuLi4iLCJkYXRlIjoiMjAyNuW5tDLmnIg05pelIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJDcm93ZHNvdXJjaW5nIFNhbGllbmN5IHdpdGggV2ViY2FtIGJhc2VkIEV5ZSBUcmFja2luZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTUwNC4wNjc1NXYyIiwic25pcHBldCI6Ikhvd2V2ZXIsIGdhemUgcHJlZGljdGlvbiBpcyBkaWZmaWN1bHQgYmVjYXVzZSB0aGUgY29tcGxleCBpbnRlcnBsYXkgYmV0d2VlbiB0aGUgdmlzdWFsIHN0aW11bHVzLCB0aGUgdGFzaywgYW5kIHByaW9yIGtub3dsZWRnZSBvZiB0aGUgdmlzdWFsIHdvcmxkIHdoaWNoIC4uLiIsImRhdGUiOiIyMDE15bm0NeaciDIw5pelIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJNdXR1YWwgQ29udGV4dCBOZXR3b3JrIGZvciBKb2ludGx5IEVzdGltYXRpbmcgRWdvY2VudHJpYyBHYXplIGFuZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8xOTAxLjAxODc0djQiLCJzbmlwcGV0IjoiSW1hZ2UgcmVnaW9ucyB3aXRoIGhpZ2ggc2FsaWVuY3kgdGVuZCB0byBhdHRyYWN0IG1vcmUgaHVtYW4gYXR0ZW50aW9uIHRoYW4gb3RoZXIgcmVnaW9ucy4gVGhlcmVmb3JlLCB3ZSB1c2UgYSBzYWxpZW5jeS1iYXNlZCBnYXplIHByZWRpY3Rpb24gbW9kdWxlIHRvIHByZWRpY3QgLi4uIiwiZGF0ZSI6IjIwMjDlubQ25pyIMzDml6UiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIERNQUdhemU6IEdhemUgRXN0aW1hdGlvbiBCYXNlZCBvbiBGZWF0dXJlIERpc2VudGFuZ2xlbWVudCBhbmQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA0LjExMTYwPyIsInNuaXBwZXQiOiJUaGUgZGlzdGlsbGVkIGdhemUtIHJlbGV2YW50IGZlYXR1cmVzIGFyZSBzdWJzZXF1ZW50bHkgY29tYmluZWQgd2l0aCBoZWFkIHBvc2UgZmVhdHVyZXMgZXh0cmFjdGVkIGJ5IHNpbXBsZSBjb252b2x1dGlvbnMgYW5kIGxvY2FsIGV5ZSBmZWF0dXJlcyB0byBwcmVkaWN0IGdhemUuIiwiZGF0ZSI6IjIwMjXlubQ05pyIMTXml6UiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlNlbGYtU3VwZXJ2aXNlZCBNdWx0aS1WaWV3IDNEIEdhemUgVGFyZ2V0IEVzdGltYXRpb24gdmlhIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwOS4wNzQxNXYxIiwic25pcHBldCI6IlRvIGluZmVyIHdoZXJlIGluZGl2aWR1YWxzIGFyZSBsb29raW5nLCBnYXplLWZvbGxvd2luZywgYWxzbyBrbm93biBhcyBnYXplIHRhcmdldCBlc3RpbWF0aW9uLCBoYXMgZW1lcmdlZCBhcyBhbiBpbXBvcnRhbnQgcmVzZWFyY2ggZmllbGQgaW4gY29tcHV0ZXIgdmlzaW9uLiIsImRhdGUiOiIyMDI25bm0OeaciDfml6UiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "predicting native gaze before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "EgoGazeLite: On-Device Egocentric Gaze Prediction for Token ...",
+        "link": "https://arxiv.org/html/2608.15614v1",
+        "snippet": "We test whether EgoGazeLite's predictions can replace real eye-tracker gaze in the cropping pipeline. Each clip is processed four ways: full frame, ground-truth ...",
+        "date": "2026年8月16日",
+        "position": 1
+      },
+      {
+        "title": "Appearance-based Gaze Estimation with Deep Learning - arXiv",
+        "link": "https://arxiv.org/html/2104.12668v2",
+        "snippet": "This relationship between gaze and eye appearance enables the gaze estimation based on the visual feature of eyes. Conventional methods typically estimate gaze ...",
+        "date": "2024年4月24日",
+        "position": 2
+      },
+      {
+        "title": "Gaze-Enhanced Multimodal Turn-Taking Prediction in Triadic ... - arXiv",
+        "link": "https://arxiv.org/html/2505.13688v2",
+        "snippet": "Leveraging egocentric behavioral cues, our experiments demonstrate that incorporating gaze data from a single-user significantly improves prediction performance ...",
+        "date": "2025年5月22日",
+        "position": 3
+      },
+      {
+        "title": "Controlling Reading Ease with Gaze-Guided Text Generation - arXiv",
+        "link": "https://arxiv.org/html/2601.17781v1",
+        "snippet": "Our method employs a model that predicts human gaze patterns to steer language model outputs towards eliciting certain reading behaviors. We evaluate the ...",
+        "date": "2026年1月25日",
+        "position": 4
+      },
+      {
+        "title": "[PDF] Eye Gaze Estimation Model Analysis - arXiv",
+        "link": "https://arxiv.org/pdf/2207.14373",
+        "snippet": "The purpose of this work is to discuss various model types for eye gaze estimation and present the results from predicting gaze direction using eye landmarks in ...",
+        "date": "2022年7月28日",
+        "position": 5
+      },
+      {
+        "title": "Autoregressive Transformers for Online Egocentric Gaze Estimation",
+        "link": "https://arxiv.org/html/2602.05132v1",
+        "snippet": "Egocentric gaze estimation, which involves predicting where a camera wearer is looking from first-person video, is fundamental to human-centric AI systems ...",
+        "date": "2026年2月4日",
+        "position": 6
+      },
+      {
+        "title": "Crowdsourcing Saliency with Webcam based Eye Tracking - arXiv",
+        "link": "https://arxiv.org/html/1504.06755v2",
+        "snippet": "However, gaze prediction is difficult because the complex interplay between the visual stimulus, the task, and prior knowledge of the visual world which ...",
+        "date": "2015年5月20日",
+        "position": 7
+      },
+      {
+        "title": "Mutual Context Network for Jointly Estimating Egocentric Gaze and ...",
+        "link": "https://arxiv.org/html/1901.01874v4",
+        "snippet": "Image regions with high saliency tend to attract more human attention than other regions. Therefore, we use a saliency-based gaze prediction module to predict ...",
+        "date": "2020年6月30日",
+        "position": 8
+      },
+      {
+        "title": "[PDF] DMAGaze: Gaze Estimation Based on Feature Disentanglement and ...",
+        "link": "https://arxiv.org/pdf/2504.11160?",
+        "snippet": "The distilled gaze- relevant features are subsequently combined with head pose features extracted by simple convolutions and local eye features to predict gaze.",
+        "date": "2025年4月15日",
+        "position": 9
+      },
+      {
+        "title": "Self-Supervised Multi-View 3D Gaze Target Estimation via ... - arXiv",
+        "link": "https://arxiv.org/html/2609.07415v1",
+        "snippet": "To infer where individuals are looking, gaze-following, also known as gaze target estimation, has emerged as an important research field in computer vision.",
+        "date": "2026年9月7日",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "EgoGazeLite: On-Device Egocentric Gaze Prediction for Token ...",
+      "snippet": "We test whether EgoGazeLite's predictions can replace real eye-tracker gaze in the cropping pipeline. Each clip is processed four ways: full frame, ground-truth ...",
+      "link": "https://arxiv.org/html/2608.15614v1",
+      "arxiv_id": "2608.15614"
+    },
+    {
+      "rank": 2,
+      "title": "Appearance-based Gaze Estimation with Deep Learning - arXiv",
+      "snippet": "This relationship between gaze and eye appearance enables the gaze estimation based on the visual feature of eyes. Conventional methods typically estimate gaze ...",
+      "link": "https://arxiv.org/html/2104.12668v2",
+      "arxiv_id": "2104.12668"
+    },
+    {
+      "rank": 3,
+      "title": "Gaze-Enhanced Multimodal Turn-Taking Prediction in Triadic ... - arXiv",
+      "snippet": "Leveraging egocentric behavioral cues, our experiments demonstrate that incorporating gaze data from a single-user significantly improves prediction performance ...",
+      "link": "https://arxiv.org/html/2505.13688v2",
+      "arxiv_id": "2505.13688"
+    },
+    {
+      "rank": 4,
+      "title": "Controlling Reading Ease with Gaze-Guided Text Generation - arXiv",
+      "snippet": "Our method employs a model that predicts human gaze patterns to steer language model outputs towards eliciting certain reading behaviors. We evaluate the ...",
+      "link": "https://arxiv.org/html/2601.17781v1",
+      "arxiv_id": "2601.17781"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] Eye Gaze Estimation Model Analysis - arXiv",
+      "snippet": "The purpose of this work is to discuss various model types for eye gaze estimation and present the results from predicting gaze direction using eye landmarks in ...",
+      "link": "https://arxiv.org/pdf/2207.14373",
+      "arxiv_id": "2207.14373"
+    },
+    {
+      "rank": 6,
+      "title": "Autoregressive Transformers for Online Egocentric Gaze Estimation",
+      "snippet": "Egocentric gaze estimation, which involves predicting where a camera wearer is looking from first-person video, is fundamental to human-centric AI systems ...",
+      "link": "https://arxiv.org/html/2602.05132v1",
+      "arxiv_id": "2602.05132"
+    },
+    {
+      "rank": 7,
+      "title": "Crowdsourcing Saliency with Webcam based Eye Tracking - arXiv",
+      "snippet": "However, gaze prediction is difficult because the complex interplay between the visual stimulus, the task, and prior knowledge of the visual world which ...",
+      "link": "https://arxiv.org/html/1504.06755v2",
+      "arxiv_id": "1504.06755"
+    },
+    {
+      "rank": 8,
+      "title": "Mutual Context Network for Jointly Estimating Egocentric Gaze and ...",
+      "snippet": "Image regions with high saliency tend to attract more human attention than other regions. Therefore, we use a saliency-based gaze prediction module to predict ...",
+      "link": "https://arxiv.org/html/1901.01874v4",
+      "arxiv_id": "1901.01874"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] DMAGaze: Gaze Estimation Based on Feature Disentanglement and ...",
+      "snippet": "The distilled gaze- relevant features are subsequently combined with head pose features extracted by simple convolutions and local eye features to predict gaze.",
+      "link": "https://arxiv.org/pdf/2504.11160?",
+      "arxiv_id": "2504.11160"
+    },
+    {
+      "rank": 10,
+      "title": "Self-Supervised Multi-View 3D Gaze Target Estimation via ... - arXiv",
+      "snippet": "To infer where individuals are looking, gaze-following, also known as gaze target estimation, has emerged as an important research field in computer vision.",
+      "link": "https://arxiv.org/html/2609.07415v1",
+      "arxiv_id": "2609.07415"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:29.573739+00:00",
+  "elapsed_seconds": 0.7035409808158875
+}

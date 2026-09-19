@@ -1,0 +1,90 @@
+{
+  "global_attempt_sequence": 173,
+  "query_id": "Q28",
+  "query_key": "anchor",
+  "attempt": 1,
+  "query_text": "Show me code evaluation datasets with a mid-level hardness. It show be harder than HumanEval and MBPP, but easier than code_contests.",
+  "request_payload": {
+    "q": "Show me code evaluation datasets with a mid-level hardness. It show be harder than HumanEval and MBPP, but easier than code_contests. before:2024-09-24 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q28_anchor_attempt1.json",
+  "started_utc": "2026-09-15T06:28:17.620200+00:00",
+  "http_status": 200,
+  "response_text": "{\"searchParameters\":{\"q\":\"Show me code evaluation datasets with a mid-level hardness. It show be harder than HumanEval and MBPP, but easier than code_contests. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[PDF] arXiv:2301.09043v1 [cs.SE] 22 Jan 2023\",\"link\":\"https://arxiv.org/pdf/2301.09043\",\"snippet\":\"We construct three code evaluation datasets based on three public benchmark datasets in code generation, called MBPP-Eval, APPS-. Eval, and HE-Eval respectively ...\",\"date\":\"Jan 22, 2023\",\"position\":1},{\"title\":\"HumanEval on LLMs Revisted in Late 2023 - arXiv\",\"link\":\"https://arxiv.org/html/2402.14852v1\",\"snippet\":\"This benchmark features 160 diverse problem sets factorized into multistep prompts that our analysis shows significantly improves program synthesis over single- ...\",\"date\":\"Feb 20, 2024\",\"position\":2},{\"title\":\"[PDF] arXiv:2207.10397v2 [cs.CL] 23 Nov 2022\",\"link\":\"https://arxiv.org/pdf/2207.10397\",\"snippet\":\"We con- duct comprehensive experiments on four benchmarks, HumanEval, MBPP, APPS, and CodeContests, CODET can significantly improve the performance of code ...\",\"date\":\"Nov 23, 2022\",\"position\":3},{\"title\":\"[PDF] CodeGeeX: A Pre-Trained Model for Code Generation with ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2303.17568\",\"snippet\":\"CodeGeeX outperforms multilingual code models of similar scale for both the tasks of code generation and translation on HumanEval-X.\",\"date\":\"Mar 31, 2023\",\"position\":4},{\"title\":\"Evaluating Large Language Models Trained on Code - arXiv\",\"link\":\"https://arxiv.org/abs/2107.03374\",\"snippet\":\"On HumanEval, a new evaluation set we release to measure functional correctness our model solves 28.8% of the problems,\",\"date\":\"Jul 7, 2021\",\"position\":5},{\"title\":\"[PDF] Improving AI Domain Code Generation of Large Language Models\",\"link\":\"https://arxiv.org/pdf/2406.04712\",\"snippet\":\"To facilitate automated evaluation, we design our dataset structure inspired by the HumanEval [6] benchmark. Our primary focus is on generating Python code ...\",\"date\":\"Jun 7, 2024\",\"position\":6},{\"title\":\"TaskEval: Assessing Difficulty of Code Generation Tasks for Large ...\",\"link\":\"https://arxiv.org/abs/2407.21227\",\"snippet\":\"This paper introduces a generalist approach, TaskEval, a framework using diverse prompts and Item Response Theory (IRT) to efficiently assess LLMs' capabilities\",\"date\":\"Jul 30, 2024\",\"position\":7},{\"title\":\"[PDF] arXiv:2202.13169v3 [cs.PL] 4 May 2022\",\"link\":\"https://arxiv.org/pdf/2202.13169\",\"snippet\":\"Following Chen et al. (2021), we evaluate all models on the HumanEval dataset. The dataset contains 164 prompts with descriptions 424GB. This only reduced the ...\",\"date\":\"May 4, 2022\",\"position\":8}],\"credits\":1}",
+  "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTaG93IG1lIGNvZGUgZXZhbHVhdGlvbiBkYXRhc2V0cyB3aXRoIGEgbWlkLWxldmVsIGhhcmRuZXNzLiBJdCBzaG93IGJlIGhhcmRlciB0aGFuIEh1bWFuRXZhbCBhbmQgTUJQUCwgYnV0IGVhc2llciB0aGFuIGNvZGVfY29udGVzdHMuIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDEuMDkwNDN2MSBbY3MuU0VdIDIyIEphbiAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzAxLjA5MDQzIiwic25pcHBldCI6IldlIGNvbnN0cnVjdCB0aHJlZSBjb2RlIGV2YWx1YXRpb24gZGF0YXNldHMgYmFzZWQgb24gdGhyZWUgcHVibGljIGJlbmNobWFyayBkYXRhc2V0cyBpbiBjb2RlIGdlbmVyYXRpb24sIGNhbGxlZCBNQlBQLUV2YWwsIEFQUFMtLiBFdmFsLCBhbmQgSEUtRXZhbCByZXNwZWN0aXZlbHkgLi4uIiwiZGF0ZSI6IkphbiAyMiwgMjAyMyIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiSHVtYW5FdmFsIG9uIExMTXMgUmV2aXN0ZWQgaW4gTGF0ZSAyMDIzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjE0ODUydjEiLCJzbmlwcGV0IjoiVGhpcyBiZW5jaG1hcmsgZmVhdHVyZXMgMTYwIGRpdmVyc2UgcHJvYmxlbSBzZXRzIGZhY3Rvcml6ZWQgaW50byBtdWx0aXN0ZXAgcHJvbXB0cyB0aGF0IG91ciBhbmFseXNpcyBzaG93cyBzaWduaWZpY2FudGx5IGltcHJvdmVzIHByb2dyYW0gc3ludGhlc2lzIG92ZXIgc2luZ2xlLSAuLi4iLCJkYXRlIjoiRmViIDIwLCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMjA3LjEwMzk3djIgW2NzLkNMXSAyMyBOb3YgMjAyMiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIwNy4xMDM5NyIsInNuaXBwZXQiOiJXZSBjb24tIGR1Y3QgY29tcHJlaGVuc2l2ZSBleHBlcmltZW50cyBvbiBmb3VyIGJlbmNobWFya3MsIEh1bWFuRXZhbCwgTUJQUCwgQVBQUywgYW5kIENvZGVDb250ZXN0cywgQ09ERVQgY2FuIHNpZ25pZmljYW50bHkgaW1wcm92ZSB0aGUgcGVyZm9ybWFuY2Ugb2YgY29kZSAuLi4iLCJkYXRlIjoiTm92IDIzLCAyMDIyIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSBDb2RlR2VlWDogQSBQcmUtVHJhaW5lZCBNb2RlbCBmb3IgQ29kZSBHZW5lcmF0aW9uIHdpdGggLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDMuMTc1NjgiLCJzbmlwcGV0IjoiQ29kZUdlZVggb3V0cGVyZm9ybXMgbXVsdGlsaW5ndWFsIGNvZGUgbW9kZWxzIG9mIHNpbWlsYXIgc2NhbGUgZm9yIGJvdGggdGhlIHRhc2tzIG9mIGNvZGUgZ2VuZXJhdGlvbiBhbmQgdHJhbnNsYXRpb24gb24gSHVtYW5FdmFsLVguIiwiZGF0ZSI6Ik1hciAzMSwgMjAyMyIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiRXZhbHVhdGluZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgVHJhaW5lZCBvbiBDb2RlIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIxMDcuMDMzNzQiLCJzbmlwcGV0IjoiT24gSHVtYW5FdmFsLCBhIG5ldyBldmFsdWF0aW9uIHNldCB3ZSByZWxlYXNlIHRvIG1lYXN1cmUgZnVuY3Rpb25hbCBjb3JyZWN0bmVzcyBvdXIgbW9kZWwgc29sdmVzIDI4LjglIG9mIHRoZSBwcm9ibGVtcywiLCJkYXRlIjoiSnVsIDcsIDIwMjEiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIEltcHJvdmluZyBBSSBEb21haW4gQ29kZSBHZW5lcmF0aW9uIG9mIExhcmdlIExhbmd1YWdlIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNi4wNDcxMiIsInNuaXBwZXQiOiJUbyBmYWNpbGl0YXRlIGF1dG9tYXRlZCBldmFsdWF0aW9uLCB3ZSBkZXNpZ24gb3VyIGRhdGFzZXQgc3RydWN0dXJlIGluc3BpcmVkIGJ5IHRoZSBIdW1hbkV2YWwgWzZdIGJlbmNobWFyay4gT3VyIHByaW1hcnkgZm9jdXMgaXMgb24gZ2VuZXJhdGluZyBQeXRob24gY29kZSAuLi4iLCJkYXRlIjoiSnVuIDcsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlRhc2tFdmFsOiBBc3Nlc3NpbmcgRGlmZmljdWx0eSBvZiBDb2RlIEdlbmVyYXRpb24gVGFza3MgZm9yIExhcmdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNy4yMTIyNyIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIGludHJvZHVjZXMgYSBnZW5lcmFsaXN0IGFwcHJvYWNoLCBUYXNrRXZhbCwgYSBmcmFtZXdvcmsgdXNpbmcgZGl2ZXJzZSBwcm9tcHRzIGFuZCBJdGVtIFJlc3BvbnNlIFRoZW9yeSAoSVJUKSB0byBlZmZpY2llbnRseSBhc3Nlc3MgTExNcycgY2FwYWJpbGl0aWVzIiwiZGF0ZSI6Ikp1bCAzMCwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjIwMi4xMzE2OXYzIFtjcy5QTF0gNCBNYXkgMjAyMiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIwMi4xMzE2OSIsInNuaXBwZXQiOiJGb2xsb3dpbmcgQ2hlbiBldCBhbC4gKDIwMjEpLCB3ZSBldmFsdWF0ZSBhbGwgbW9kZWxzIG9uIHRoZSBIdW1hbkV2YWwgZGF0YXNldC4gVGhlIGRhdGFzZXQgY29udGFpbnMgMTY0IHByb21wdHMgd2l0aCBkZXNjcmlwdGlvbnMgNDI0R0IuIFRoaXMgb25seSByZWR1Y2VkIHRoZSAuLi4iLCJkYXRlIjoiTWF5IDQsIDIwMjIiLCJwb3NpdGlvbiI6OH1dLCJjcmVkaXRzIjoxfQ==",
+  "response_sha256": "b2c4cb031079d1404d65acd729784704c3d2176e0eaf56a022da28a4c3cd162c",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Show me code evaluation datasets with a mid-level hardness. It show be harder than HumanEval and MBPP, but easier than code_contests. before:2024-09-24 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[PDF] arXiv:2301.09043v1 [cs.SE] 22 Jan 2023",
+        "link": "https://arxiv.org/pdf/2301.09043",
+        "snippet": "We construct three code evaluation datasets based on three public benchmark datasets in code generation, called MBPP-Eval, APPS-. Eval, and HE-Eval respectively ...",
+        "date": "Jan 22, 2023",
+        "position": 1
+      },
+      {
+        "title": "HumanEval on LLMs Revisted in Late 2023 - arXiv",
+        "link": "https://arxiv.org/html/2402.14852v1",
+        "snippet": "This benchmark features 160 diverse problem sets factorized into multistep prompts that our analysis shows significantly improves program synthesis over single- ...",
+        "date": "Feb 20, 2024",
+        "position": 2
+      },
+      {
+        "title": "[PDF] arXiv:2207.10397v2 [cs.CL] 23 Nov 2022",
+        "link": "https://arxiv.org/pdf/2207.10397",
+        "snippet": "We con- duct comprehensive experiments on four benchmarks, HumanEval, MBPP, APPS, and CodeContests, CODET can significantly improve the performance of code ...",
+        "date": "Nov 23, 2022",
+        "position": 3
+      },
+      {
+        "title": "[PDF] CodeGeeX: A Pre-Trained Model for Code Generation with ... - arXiv",
+        "link": "https://arxiv.org/pdf/2303.17568",
+        "snippet": "CodeGeeX outperforms multilingual code models of similar scale for both the tasks of code generation and translation on HumanEval-X.",
+        "date": "Mar 31, 2023",
+        "position": 4
+      },
+      {
+        "title": "Evaluating Large Language Models Trained on Code - arXiv",
+        "link": "https://arxiv.org/abs/2107.03374",
+        "snippet": "On HumanEval, a new evaluation set we release to measure functional correctness our model solves 28.8% of the problems,",
+        "date": "Jul 7, 2021",
+        "position": 5
+      },
+      {
+        "title": "[PDF] Improving AI Domain Code Generation of Large Language Models",
+        "link": "https://arxiv.org/pdf/2406.04712",
+        "snippet": "To facilitate automated evaluation, we design our dataset structure inspired by the HumanEval [6] benchmark. Our primary focus is on generating Python code ...",
+        "date": "Jun 7, 2024",
+        "position": 6
+      },
+      {
+        "title": "TaskEval: Assessing Difficulty of Code Generation Tasks for Large ...",
+        "link": "https://arxiv.org/abs/2407.21227",
+        "snippet": "This paper introduces a generalist approach, TaskEval, a framework using diverse prompts and Item Response Theory (IRT) to efficiently assess LLMs' capabilities",
+        "date": "Jul 30, 2024",
+        "position": 7
+      },
+      {
+        "title": "[PDF] arXiv:2202.13169v3 [cs.PL] 4 May 2022",
+        "link": "https://arxiv.org/pdf/2202.13169",
+        "snippet": "Following Chen et al. (2021), we evaluate all models on the HumanEval dataset. The dataset contains 164 prompts with descriptions 424GB. This only reduced the ...",
+        "date": "May 4, 2022",
+        "position": 8
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "status": "PASS",
+  "finished_utc": "2026-09-15T06:28:18.939470+00:00",
+  "elapsed_seconds": 1.3192685656249523
+}

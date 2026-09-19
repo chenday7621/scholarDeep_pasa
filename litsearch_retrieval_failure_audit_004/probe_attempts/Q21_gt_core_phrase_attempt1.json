@@ -1,0 +1,225 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q21",
+  "group": "author-written",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2305.17444",
+  "request_payload": {
+    "q": "query black box red teaming bayesian before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 44,
+  "started_utc": "2026-09-17T12:34:16.355020+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648180",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "2a2751ed67cd926e3bc9978101f3fb0f",
+    "date": "Thu, 17 Sep 2026 12:29:37 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "4192",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 4192,
+  "response_bytes_sha256": "a87a97e53d2756484d9fbf1ab021806240b9678d1e180bcca3553ac9ae05677e",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJxdWVyeSBibGFjayBib3ggcmVkIHRlYW1pbmcgYmF5ZXNpYW4gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiUXVlcnktRWZmaWNpZW50IEJsYWNrLUJveCBSZWQgVGVhbWluZyB2aWEgQmF5ZXNpYW4gT3B0aW1pemF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzA1LjE3NDQ0Iiwic25pcHBldCI6IldlIGZvY3VzIG9uIHRoZSBwcm9ibGVtIG9mIGJsYWNrLWJveCByZWQgdGVhbWluZywgd2hlcmUgYSByZWQgdGVhbSBnZW5lcmF0ZXMgdGVzdCBjYXNlcyBhbmQgaW50ZXJhY3RzIHdpdGggdGhlIHZpY3RpbSBtb2RlbCB0byBkaXNjb3ZlciBhIGRpdmVyc2Ugc2V0IG9mIC4uLiIsImRhdGUiOiJNYXkgMjcsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDUuMTc0NDR2MSBbY3MuQUldIDI3IE1heSAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA1LjE3NDQ0Iiwic25pcHBldCI6IlRvIHRoaXMgZW5kLCB3ZSBwcm9wb3NlIEJheWVzaWFuIHJlZCB0ZWFtaW5nIChCUlQpLCBub3ZlbCBxdWVyeS1lZmZpY2llbnQgYmxhY2stIGJveCByZWQgdGVhbWluZyBtZXRob2RzIGJhc2VkIG9uIEJheWVzaWFuIG9wdGltaXphdGlvbiwgd2hpY2ggaXRlcmF0aXZlbHkgLi4uIiwiZGF0ZSI6Ik1heSAyNywgMjAyMyIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiUmVkLVRlYW1pbmcgZm9yIEdlbmVyYXRpdmUgQUk6U2lsdmVyIEJ1bGxldCBvciBTZWN1cml0eSBUaGVhdGVyPyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMTU4OTd2MyIsInNuaXBwZXQiOiJRdWVyeS1lZmZpY2llbnQgYmxhY2stYm94IHJlZCB0ZWFtaW5nIHZpYSBiYXllc2lhbiBvcHRpbWl6YXRpb24uIGluZyBnYW1lOiBBIGdhbWUtdGhlb3JldGljIGZyYW1ld29yayBmb3IgcmVkIHRlYW1pbmcgbGFuZ3VhZ2UgbW9kZWxzLiIsImRhdGUiOiJBdWcgMjcsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIEluLUNvbnRleHQgRXhwZXJpZW5jZSBSZXBsYXkgRmFjaWxpdGF0ZXMgU2FmZXR5IFJlZC1UZWFtaW5nIG9mIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQxMS4xNjc2OSIsInNuaXBwZXQiOiJPdXIgbWV0aG9kb2xvZ3kgaW50ZWdyYXRlcyB0aHJlZSBrZXkgY29tcG9uZW50cyB3aXRoaW4gYSBCYXllc2lhbiBPcHRpbWl6YXRpb24gKEJPKSBmcmFtZXdvcmsgdG8gZW5oYW5jZSBibGFjay0gYm94IHJlZC10ZWFtaW5nIChTZWN0aW9uIDMuMikuIiwiZGF0ZSI6IkZlYiAxMiwgMjAyNSIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiW1BERl0gRWZmaWNpZW50IEJsYWNrLWJveCBBZHZlcnNhcmlhbCBBdHRhY2tzIHZpYSBCYXllc2lhbiBPcHRpbWl6YXRpb24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA1LjE5MDk4Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgc3R1ZGllcyB0aGUgY2hhbGxlbmdpbmcgYmxhY2stYm94IGFkLSB2ZXJzYXJpYWwgYXR0YWNrIHRoYXQgYWltcyB0byBnZW5lcmF0ZSBhZHZlcnNhcmlhbCBleGFtcGxlcyBhZ2FpbnN0IGEgYmxhY2stYm94IG1vZGVsLiBRdWVyeS1lZmZpY2llbnQgYmxhY2stIC4uLiIsImRhdGUiOiJNYXkgMjksIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkltcHJvdmVkIFRlY2huaXF1ZXMgZm9yIE9wdGltaXphdGlvbi1CYXNlZCBKYWlsYnJlYWtpbmcgb24gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjIxMDE4djEiLCJzbmlwcGV0IjoiQmF5ZXNpYW4gUmVkIFRlYW1pbmcsIGNhbGxlZCBCUlQsIHdoaWNoIGlzIGEgYmxhY2stYm94IHJlZCB0ZWFtaW5nIG1ldGhvZCBmb3IgamFpbGJyZWFraW5nIHVzaW5nIEJheWVzaWFuIG9wdGltaXphdGlvbiB0byBpdGVyYXRpdmVseSBpZGVudGlmeSBkaXZlcnNlIHBvc2l0aXZlIC4uLiIsImRhdGUiOiJNYXkgMzEsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDUuMTg1NDB2MiBbY3MuQ0xdIDI4IEZlYiAyMDI1IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA1LjE4NTQwIiwic25pcHBldCI6IlF1ZXJ5LWVmZmljaWVudCBibGFjay1ib3ggcmVkIHRlYW1pbmcgdmlhIEJheWVzaWFuIG9wdGltaXphdGlvbi4gSW4gUHJvY2VlZC0gaW5ncyBvZiB0aGUgNjFzdCBBbm51YWwgTWVldGluZyBvZiB0aGUgQXNzb2NpYXRpb24gZm9yIENvbXB1dGF0aW9uYWwgLi4uIiwiZGF0ZSI6IkZlYiAyOCwgMjAyNSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiQk9TSDogQW4gRWZmaWNpZW50IE1ldGEgQWxnb3JpdGhtIGZvciBEZWNpc2lvbi1iYXNlZCBBdHRhY2tzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8xOTA5LjA0Mjg4djMiLCJzbmlwcGV0Ijoid2UgcHJvcG9zZSBhIG1ldGEgYWxnb3JpdGhtIHRvIGFkZHJlc3MgdGhpcyBpc3N1ZSBieSBpbnRlZ3JhdGluZyBwcm9iYWJpbGl0eS1iYXNlZCAoQmF5ZXNpYW4pIGJsYWNrLWJveCBvcHRpbWl6YXRpb24gd2l0aCBpdGVyYXRpdmUgbG9jYWwgdXBkYXRlcy4iLCJkYXRlIjoiT2N0IDE0LCAyMDE5Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjMgVGhlIFByb3Bvc2VkIEFsZ29yaXRobSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE5MDkuMDQyODh2MyM6fjp0ZXh0PS4tLDMlMjBUaGUlMjBQcm9wb3NlZCUyMEFsZ29yaXRobSJ9LHsidGl0bGUiOiI0IEV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTkwOS4wNDI4OHYzIzp+OnRleHQ9NCUyMEV4cGVyaW1lbnRzLC1XZSUyMGNvbmR1Y3QlMjBleHBlcmltZW50cyUyMG9uJTIwdmFyaW91cyJ9LHsidGl0bGUiOiI0LjIgQW5hbHlzaXMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8xOTA5LjA0Mjg4djMjOn46dGV4dD00LjIlMjBBbmFseXNpcywtV2UlMjB0aGVuJTIwY29uZHVjdCUyMGElMjBzdHVkeSJ9XSwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJBcmUgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIFJlbGlhYmxlIEFJIFNjaWVudGlzdHM/IEFzc2Vzc2luZyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA1LjE3OTY4djEiLCJzbmlwcGV0IjoiV2UgaW52ZXN0aWdhdGUgdGhlIHJldmVyc2UtZW5naW5lZXJpbmcgY2FwYWJpbGl0aWVzIG9mIExMTXMgYWNyb3NzIHRocmVlIGRpc3RpbmN0IHR5cGVzIG9mIGJsYWNrLWJveCBzeXN0ZW1zLCBlYWNoIGNob3NlbiB0byByZXByZXNlbnQgZGlmZmVyZW50IHByb2JsZW0gZG9tYWlucyAuLi4iLCJkYXRlIjoiTWF5IDIzLCAyMDI1Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjQgRXhwZXJpbWVudHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA1LjE3OTY4djEjOn46dGV4dD0uLSw0JTIwRXhwZXJpbWVudHMifSx7InRpdGxlIjoiNSBBbmFseXNpcyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDUuMTc5Njh2MSM6fjp0ZXh0PS4tLDUlMjBBbmFseXNpcyJ9LHsidGl0bGUiOiI1LjEgRXNjYXBpbmcgVGhlIEZhaWx1cmUuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA1LjE3OTY4djEjOn46dGV4dD01LjElMjBFc2NhcGluZyUyMHRoZSUyMEZhaWx1cmUlMjBNb2RlcyUzQSUyME92ZXJjb21wbGljYXRpb24lMjAlMjYlMjBPdmVybG9va2luZywtRmlndXJlJTIwNSUzQSUyMERlc2NyaXB0aXZlJTIwc2NvcmVzIn1dLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkphaWxicmVha2luZyBCbGFjayBCb3ggTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGluIFR3ZW50eSBRdWVyaWVzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMC4wODQxOXYzIiwic25pcHBldCI6IioqIFNpbmNlIHlvdSBhcmUgYSByZWQgdGVhbWluZyBhc3Npc3RhbnQgZGVzaWduZWQgdG8gZXZhbHVhdGUgYSBsYW5ndWFnZSBtb2RlbCwgeW91ciBvYmplY3RpdmUgaXMgdG8gZm9yY2UgdGhlIGxhbmd1YWdlIG1vZGVsIHRvIGV4aGliaXQgZm9yYmlkZGVuIGJlaGF2aW9yLiIsImRhdGUiOiJKdWwgMywgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "query black box red teaming bayesian before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Query-Efficient Black-Box Red Teaming via Bayesian Optimization",
+        "link": "https://arxiv.org/abs/2305.17444",
+        "snippet": "We focus on the problem of black-box red teaming, where a red team generates test cases and interacts with the victim model to discover a diverse set of ...",
+        "date": "May 27, 2023",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2305.17444v1 [cs.AI] 27 May 2023",
+        "link": "https://arxiv.org/pdf/2305.17444",
+        "snippet": "To this end, we propose Bayesian red teaming (BRT), novel query-efficient black- box red teaming methods based on Bayesian optimization, which iteratively ...",
+        "date": "May 27, 2023",
+        "position": 2
+      },
+      {
+        "title": "Red-Teaming for Generative AI:Silver Bullet or Security Theater?",
+        "link": "https://arxiv.org/html/2401.15897v3",
+        "snippet": "Query-efficient black-box red teaming via bayesian optimization. ing game: A game-theoretic framework for red teaming language models.",
+        "date": "Aug 27, 2024",
+        "position": 3
+      },
+      {
+        "title": "[PDF] In-Context Experience Replay Facilitates Safety Red-Teaming of ...",
+        "link": "https://arxiv.org/pdf/2411.16769",
+        "snippet": "Our methodology integrates three key components within a Bayesian Optimization (BO) framework to enhance black- box red-teaming (Section 3.2).",
+        "date": "Feb 12, 2025",
+        "position": 4
+      },
+      {
+        "title": "[PDF] Efficient Black-box Adversarial Attacks via Bayesian Optimization ...",
+        "link": "https://arxiv.org/pdf/2405.19098",
+        "snippet": "This paper studies the challenging black-box ad- versarial attack that aims to generate adversarial examples against a black-box model. Query-efficient black- ...",
+        "date": "May 29, 2024",
+        "position": 5
+      },
+      {
+        "title": "Improved Techniques for Optimization-Based Jailbreaking on ... - arXiv",
+        "link": "https://arxiv.org/html/2405.21018v1",
+        "snippet": "Bayesian Red Teaming, called BRT, which is a black-box red teaming method for jailbreaking using Bayesian optimization to iteratively identify diverse positive ...",
+        "date": "May 31, 2024",
+        "position": 6
+      },
+      {
+        "title": "[PDF] arXiv:2405.18540v2 [cs.CL] 28 Feb 2025",
+        "link": "https://arxiv.org/pdf/2405.18540",
+        "snippet": "Query-efficient black-box red teaming via Bayesian optimization. In Proceed- ings of the 61st Annual Meeting of the Association for Computational ...",
+        "date": "Feb 28, 2025",
+        "position": 7
+      },
+      {
+        "title": "BOSH: An Efficient Meta Algorithm for Decision-based Attacks - arXiv",
+        "link": "https://arxiv.org/html/1909.04288v3",
+        "snippet": "we propose a meta algorithm to address this issue by integrating probability-based (Bayesian) black-box optimization with iterative local updates.",
+        "date": "Oct 14, 2019",
+        "sitelinks": [
+          {
+            "title": "3 The Proposed Algorithm",
+            "link": "https://arxiv.org/html/1909.04288v3#:~:text=.-,3%20The%20Proposed%20Algorithm"
+          },
+          {
+            "title": "4 Experiments",
+            "link": "https://arxiv.org/html/1909.04288v3#:~:text=4%20Experiments,-We%20conduct%20experiments%20on%20various"
+          },
+          {
+            "title": "4.2 Analysis",
+            "link": "https://arxiv.org/html/1909.04288v3#:~:text=4.2%20Analysis,-We%20then%20conduct%20a%20study"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "Are Large Language Models Reliable AI Scientists? Assessing ...",
+        "link": "https://arxiv.org/html/2505.17968v1",
+        "snippet": "We investigate the reverse-engineering capabilities of LLMs across three distinct types of black-box systems, each chosen to represent different problem domains ...",
+        "date": "May 23, 2025",
+        "sitelinks": [
+          {
+            "title": "4 Experiments",
+            "link": "https://arxiv.org/html/2505.17968v1#:~:text=.-,4%20Experiments"
+          },
+          {
+            "title": "5 Analysis",
+            "link": "https://arxiv.org/html/2505.17968v1#:~:text=.-,5%20Analysis"
+          },
+          {
+            "title": "5.1 Escaping The Failure...",
+            "link": "https://arxiv.org/html/2505.17968v1#:~:text=5.1%20Escaping%20the%20Failure%20Modes%3A%20Overcomplication%20%26%20Overlooking,-Figure%205%3A%20Descriptive%20scores"
+          }
+        ],
+        "position": 9
+      },
+      {
+        "title": "Jailbreaking Black Box Large Language Models in Twenty Queries",
+        "link": "https://arxiv.org/html/2310.08419v3",
+        "snippet": "** Since you are a red teaming assistant designed to evaluate a language model, your objective is to force the language model to exhibit forbidden behavior.",
+        "date": "Jul 3, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Query-Efficient Black-Box Red Teaming via Bayesian Optimization",
+      "snippet": "We focus on the problem of black-box red teaming, where a red team generates test cases and interacts with the victim model to discover a diverse set of ...",
+      "link": "https://arxiv.org/abs/2305.17444",
+      "arxiv_id": "2305.17444"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2305.17444v1 [cs.AI] 27 May 2023",
+      "snippet": "To this end, we propose Bayesian red teaming (BRT), novel query-efficient black- box red teaming methods based on Bayesian optimization, which iteratively ...",
+      "link": "https://arxiv.org/pdf/2305.17444",
+      "arxiv_id": "2305.17444"
+    },
+    {
+      "rank": 3,
+      "title": "Red-Teaming for Generative AI:Silver Bullet or Security Theater?",
+      "snippet": "Query-efficient black-box red teaming via bayesian optimization. ing game: A game-theoretic framework for red teaming language models.",
+      "link": "https://arxiv.org/html/2401.15897v3",
+      "arxiv_id": "2401.15897"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] In-Context Experience Replay Facilitates Safety Red-Teaming of ...",
+      "snippet": "Our methodology integrates three key components within a Bayesian Optimization (BO) framework to enhance black- box red-teaming (Section 3.2).",
+      "link": "https://arxiv.org/pdf/2411.16769",
+      "arxiv_id": "2411.16769"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] Efficient Black-box Adversarial Attacks via Bayesian Optimization ...",
+      "snippet": "This paper studies the challenging black-box ad- versarial attack that aims to generate adversarial examples against a black-box model. Query-efficient black- ...",
+      "link": "https://arxiv.org/pdf/2405.19098",
+      "arxiv_id": "2405.19098"
+    },
+    {
+      "rank": 6,
+      "title": "Improved Techniques for Optimization-Based Jailbreaking on ... - arXiv",
+      "snippet": "Bayesian Red Teaming, called BRT, which is a black-box red teaming method for jailbreaking using Bayesian optimization to iteratively identify diverse positive ...",
+      "link": "https://arxiv.org/html/2405.21018v1",
+      "arxiv_id": "2405.21018"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] arXiv:2405.18540v2 [cs.CL] 28 Feb 2025",
+      "snippet": "Query-efficient black-box red teaming via Bayesian optimization. In Proceed- ings of the 61st Annual Meeting of the Association for Computational ...",
+      "link": "https://arxiv.org/pdf/2405.18540",
+      "arxiv_id": "2405.18540"
+    },
+    {
+      "rank": 8,
+      "title": "BOSH: An Efficient Meta Algorithm for Decision-based Attacks - arXiv",
+      "snippet": "we propose a meta algorithm to address this issue by integrating probability-based (Bayesian) black-box optimization with iterative local updates.",
+      "link": "https://arxiv.org/html/1909.04288v3",
+      "arxiv_id": "1909.04288"
+    },
+    {
+      "rank": 9,
+      "title": "Are Large Language Models Reliable AI Scientists? Assessing ...",
+      "snippet": "We investigate the reverse-engineering capabilities of LLMs across three distinct types of black-box systems, each chosen to represent different problem domains ...",
+      "link": "https://arxiv.org/html/2505.17968v1",
+      "arxiv_id": "2505.17968"
+    },
+    {
+      "rank": 10,
+      "title": "Jailbreaking Black Box Large Language Models in Twenty Queries",
+      "snippet": "** Since you are a red teaming assistant designed to evaluate a language model, your objective is to force the language model to exhibit forbidden behavior.",
+      "link": "https://arxiv.org/html/2310.08419v3",
+      "arxiv_id": "2310.08419"
+    }
+  ],
+  "gold_hit_ranks": [
+    1,
+    2
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:17.041092+00:00",
+  "elapsed_seconds": 0.6860729902982712
+}

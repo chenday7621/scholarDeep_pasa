@@ -1,0 +1,140 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q03",
+  "group": "author-written",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2306.15164",
+  "request_payload": {
+    "q": "dsrm boost textual adversarial distribution shift before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 5,
+  "started_utc": "2026-09-17T12:33:27.360910+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648130",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "25c752416b148eaeb4d17ba350dba05c",
+    "date": "Thu, 17 Sep 2026 12:28:48 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "2060",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 2060,
+  "response_bytes_sha256": "08d8e62e07db6e24c9fe4aba161e0f1fc0a092c8137323d3eeee76aa8d601214",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJkc3JtIGJvb3N0IHRleHR1YWwgYWR2ZXJzYXJpYWwgZGlzdHJpYnV0aW9uIHNoaWZ0IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDYuMTUxNjR2MSBbY3MuQ0xdIDI3IEp1biAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA2LjE1MTY0Iiwic25pcHBldCI6IkV4cGVyaW1lbnRzIGRlbW9uc3RyYXRlIHRoYXQgRFNSTSBjb25zaWQtIGVyYWJseSBpbXByb3ZlcyBCRVJUJ3MgcmVzaXN0YW5jZSB0byB0ZXh0dWFsIGFkdmVyc2FyaWFsIGF0dGFja3MgYW5kIGFjaGlldmVzIHN0YXRlLW9mLXRoZS1hcnQgcm9idXN0IGFjY3VyYWN5IG9uIC4uLiIsImRhdGUiOiJKdW4gMjcsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDMuMTg0MjN2MSBbY3MuQ0xdIDI3IE1hciAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAzLjE4NDIzIiwic25pcHBldCI6IkRTUk06IEJvb3N0IHRleHR1YWwgYWR2ZXJzYXJpYWwgdHJhaW5pbmcgd2l0aCBkaXN0cmlidXRpb24gc2hpZnQgcmlzayBtaW5pbWl6YXRpb24uIEluIFByb2NlZWRpbmdzIG9mIHRoZSA2MXN0IEFubnVhbCBNZWV0aW5nIG9mIHRoZSBBc3NvY2lhdGlvbiBmb3IgLi4uIiwiZGF0ZSI6Ik1hciAyNywgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiW1BERl0gRW5oYW5jaW5nIExhbmd1YWdlIE1vZGVsIFJvYnVzdG5lc3MgdmlhIEluc3RhbmNlLWxldmVsIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA3LjIxNzUwIiwic25pcHBldCI6InNoaWZ0cyB0aGUgZm9jdXMgdG93YXJkcyBhZHZlcnNhcmlhbCByb2J1c3RuZXNzLiBEU1JNOiBCb29zdCB0ZXh0dWFsIGFkdmVyc2FyaWFsIHRyYWluaW5nIHdpdGggZGlzdHJpYnV0aW9uIHNoaWZ0IHJpc2sgbWluaW1pemEtIHRpb24uIGFnYWluc3QgYWR2ZXJzYXJpYWwgLi4uIiwiZGF0ZSI6Ik9jdCAxNiwgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwNy4wMDI0OHYyIFtjcy5DTF0gMTcgTWF5IDIwMjUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDcuMDAyNDgiLCJzbmlwcGV0IjoiRFNSTTogQm9vc3QgdGV4dHVhbCBhZHZlcnNhcmlhbCB0cmFpbmluZyB3aXRoIGRpc3RyaWJ1dGlvbiBzaGlmdCByaXNrIG1pbmltaXphdGlvbi4gSW4gUHJvY2VlZGluZ3MuIFRleHQgYWR2ZXJzYXJpYWwgcHVyaWZpY2F0aW9uIGFzIGRlZmVuc2UgYWdhaW5zdCAuLi4iLCJkYXRlIjoiTWF5IDE3LCAyMDI1IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBUb3dhcmRzIHRoZSBXb3JzdC1jYXNlIFJvYnVzdG5lc3Mgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTAxLjE5MDQwIiwic25pcHBldCI6IkRTUk06IEJvb3N0IHRleHR1YWwgYWR2ZXJzYXJpYWwgdHJhaW5pbmcgd2l0aCBkaXN0cmlidXRpb24gc2hpZnQgcmlzayBtaW5pbWl6YXRpb24uIFRleHQgYWR2ZXJzYXJpYWwgYXR0YWNrcyBhbmQgZGVmZW5zZXM6IElzc3VlcywgdGF4b25vbXksIGFuZCBwZXJzcGVjdGl2ZXMuIC4uLiIsImRhdGUiOiJPY3QgOCwgMjAyNSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiUGVyc29uYUJPVDogQnJpbmdpbmcgQ3VzdG9tZXIgUGVyc29uYXMgdG8gTGlmZSB3aXRoIExMTXMgYW5kIFJBRyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDUuMTcxNTZ2MSIsInNuaXBwZXQiOiJUaGlzIHN0dWR5IGRlbW9uc3RyYXRlZCB0aGF0IGluY29ycG9yYXRpbmcgZXh0ZXJuYWwgZGF0YSBjYW4gaW1wcm92ZSBib3RoIHRoZSBkaXZlcnNpdHkgYW5kIGNvbnRleHR1YWwgYWNjdXJhY3kgb2YgdGhlIGdlbmVyYXRlZCBwZXJzb25hcy4iLCJkYXRlIjoiTWF5IDIyLCAyMDI1IiwicG9zaXRpb24iOjZ9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "dsrm boost textual adversarial distribution shift before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[PDF] arXiv:2306.15164v1 [cs.CL] 27 Jun 2023",
+        "link": "https://arxiv.org/pdf/2306.15164",
+        "snippet": "Experiments demonstrate that DSRM consid- erably improves BERT's resistance to textual adversarial attacks and achieves state-of-the-art robust accuracy on ...",
+        "date": "Jun 27, 2023",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2403.18423v1 [cs.CL] 27 Mar 2024",
+        "link": "https://arxiv.org/pdf/2403.18423",
+        "snippet": "DSRM: Boost textual adversarial training with distribution shift risk minimization. In Proceedings of the 61st Annual Meeting of the Association for ...",
+        "date": "Mar 27, 2024",
+        "position": 2
+      },
+      {
+        "title": "[PDF] Enhancing Language Model Robustness via Instance-level ... - arXiv",
+        "link": "https://arxiv.org/pdf/2507.21750",
+        "snippet": "shifts the focus towards adversarial robustness. DSRM: Boost textual adversarial training with distribution shift risk minimiza- tion. against adversarial ...",
+        "date": "Oct 16, 2025",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2407.00248v2 [cs.CL] 17 May 2025",
+        "link": "https://arxiv.org/pdf/2407.00248",
+        "snippet": "DSRM: Boost textual adversarial training with distribution shift risk minimization. In Proceedings. Text adversarial purification as defense against ...",
+        "date": "May 17, 2025",
+        "position": 4
+      },
+      {
+        "title": "[PDF] Towards the Worst-case Robustness of Large Language Models",
+        "link": "https://arxiv.org/pdf/2501.19040",
+        "snippet": "DSRM: Boost textual adversarial training with distribution shift risk minimization. Text adversarial attacks and defenses: Issues, taxonomy, and perspectives. ...",
+        "date": "Oct 8, 2025",
+        "position": 5
+      },
+      {
+        "title": "PersonaBOT: Bringing Customer Personas to Life with LLMs and RAG",
+        "link": "https://arxiv.org/html/2505.17156v1",
+        "snippet": "This study demonstrated that incorporating external data can improve both the diversity and contextual accuracy of the generated personas.",
+        "date": "May 22, 2025",
+        "position": 6
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[PDF] arXiv:2306.15164v1 [cs.CL] 27 Jun 2023",
+      "snippet": "Experiments demonstrate that DSRM consid- erably improves BERT's resistance to textual adversarial attacks and achieves state-of-the-art robust accuracy on ...",
+      "link": "https://arxiv.org/pdf/2306.15164",
+      "arxiv_id": "2306.15164"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2403.18423v1 [cs.CL] 27 Mar 2024",
+      "snippet": "DSRM: Boost textual adversarial training with distribution shift risk minimization. In Proceedings of the 61st Annual Meeting of the Association for ...",
+      "link": "https://arxiv.org/pdf/2403.18423",
+      "arxiv_id": "2403.18423"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] Enhancing Language Model Robustness via Instance-level ... - arXiv",
+      "snippet": "shifts the focus towards adversarial robustness. DSRM: Boost textual adversarial training with distribution shift risk minimiza- tion. against adversarial ...",
+      "link": "https://arxiv.org/pdf/2507.21750",
+      "arxiv_id": "2507.21750"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2407.00248v2 [cs.CL] 17 May 2025",
+      "snippet": "DSRM: Boost textual adversarial training with distribution shift risk minimization. In Proceedings. Text adversarial purification as defense against ...",
+      "link": "https://arxiv.org/pdf/2407.00248",
+      "arxiv_id": "2407.00248"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] Towards the Worst-case Robustness of Large Language Models",
+      "snippet": "DSRM: Boost textual adversarial training with distribution shift risk minimization. Text adversarial attacks and defenses: Issues, taxonomy, and perspectives. ...",
+      "link": "https://arxiv.org/pdf/2501.19040",
+      "arxiv_id": "2501.19040"
+    },
+    {
+      "rank": 6,
+      "title": "PersonaBOT: Bringing Customer Personas to Life with LLMs and RAG",
+      "snippet": "This study demonstrated that incorporating external data can improve both the diversity and contextual accuracy of the generated personas.",
+      "link": "https://arxiv.org/html/2505.17156v1",
+      "arxiv_id": "2505.17156"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:28.168760+00:00",
+  "elapsed_seconds": 0.8078507445752621
+}

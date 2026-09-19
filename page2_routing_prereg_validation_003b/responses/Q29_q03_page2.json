@@ -1,0 +1,55 @@
+{
+  "experiment": "PAGE2_ROUTING_PREREG_VALIDATION_003B",
+  "question_id": "Q29",
+  "query_index": 3,
+  "page": 2,
+  "attempt": 1,
+  "global_http_attempt_sequence": 258,
+  "request_payload": {
+    "q": "Papers on ethically complex datasets and question labeling before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 2
+  },
+  "started_utc": "2026-09-17T08:56:25.930138+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789635110",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "58dacf56efe04b9b0d6641e486a9a7c6",
+    "date": "Thu, 17 Sep 2026 08:51:48 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "197",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 197,
+  "response_bytes_sha256": "55050b5387ed154ad097db629024acac2d0baf0157d1917af6e2e344d2c32aa4",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJQYXBlcnMgb24gZXRoaWNhbGx5IGNvbXBsZXggZGF0YXNldHMgYW5kIHF1ZXN0aW9uIGxhYmVsaW5nIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjIsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbXSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Papers on ethically complex datasets and question labeling before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 2,
+      "engine": "google"
+    },
+    "organic": [],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "retryable": false,
+  "finished_utc": "2026-09-17T08:56:27.997232+00:00",
+  "elapsed_seconds": 2.0671031177043915,
+  "attempts": [
+    {
+      "path": "attempts/Q29_q03_page2_attempt1.json",
+      "sha256": "d143b837a0047a0fce95980b150fc568c871942c4015168475d1b0760a37747d",
+      "status": "PASS"
+    }
+  ],
+  "artifact_path": "responses/Q29_q03_page2.json"
+}

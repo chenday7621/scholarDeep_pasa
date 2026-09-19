@@ -1,0 +1,133 @@
+number of key references. If the Crawler receives
+rewards solely based on matching papers in Au-
+toScholarQuery, this could lead to sparse rewards
+during training. To mitigate this, we use the Selec-
+tor as an auxiliary reward model for the Crawler.
+The revised definition of I(q,pi,t ) is:
+I(q,pi,t ) =
+
+
+
+1, if (Selector(q,pi) = 1 orpi∈P )
+andpi /∈Q t,
+0, otherwise.
+(2)
+Here Selector(q,pi) = 1 if paperpi is identified
+as correct to meet the queryq by the Selector, and
+Selector(q,pi) = 0 otherwise.
+RL Training A key challenge in training the
+Crawler with RL is the significant time required
+to sample a complete trajectory for a given query.
+This is due to each [Search] or [Expand] action
+adding multiple papers to the paper queue, result-
+ing in hundreds or even thousands of papers in the
+final paper queue.
+To address this issue, we define a session as a
+sub-trajectory that ends with the [Stop] action, af-
+ter which a new session begins. We identify two
+types of initial states for such sub-trajectories:Sq,
+containing only the user query, andSq+p, contain-
+ing both the query and a paper. Sq represents the
+task’s starting point, where the LLM context in-
+cludes only the query. In contrast,Sq+p arises after
+a [Stop] action, where the LLM context is reset to
+the query and the next paper in the queue.
+Formally, we model the Crawler as a pol-
+icy πθ(at|st). We partition the entire trajec-
+tory τ = ( s1,a 1,··· ,sT,aT ) into a sequence
+of sessions: (τt1:t2−1,τt2:t3−1,··· ). Each ses-
+sion isτti:ti+1−1 = (sti,ati,··· ,sti+1−1,ati+1−1),
+where the initial statesti is either belonging to type
+Sq orSq+p, and the final actionati+1−1 is [STOP].
+Sampling such a sub-trajectory from these ses-
+sion initial states is computationally efficient. Dur-
+ing the PPO training, at time step t∈ [ti,ti+1),
+we estimate the return in the session using Monte
+Carlo sampling:
+ˆRt =
+ti+1−1∑
+k=t
+γk−t
+0
+[
+r(sk,ak) (3)
++γ1
+nk∑
+j=1
+ˆVϕ(Sq+pj )
+]
+−β· log πθ(at|st)
+πsft(at|st)
+Here,γ0 is the in-session discount factor, andγ1
+is the across-session discount factor. ˆVϕ(·) is the
+value function model to approximate the state value.
+After executingak, the paper queue is updated to
+include the newly found papers (p1,p 2,··· ,pnk ).
+Since the Crawler will subsequently initiate new
+sessions to process these additional papers, their
+associated reward-to-go should be incorporated
+into the return estimate. In addition, we include a
+per-token KL penalty term from the learned pol-
+icyπθ to the initial policy πsft obtained through
+imitation learning at each token to mitigate over-
+optimization. This term is scaled by the coefficient
+β.
+Then the advantage function can be approxi-
+mated by
+ˆA(st,at) = ˆRt− ˆVϕ(st). (4)
+Finally, the policy and value objectives can be
+given by
+Lpolicy(θ) = Eτ ′∼πold
+θ
+[
+min
+(πθ(at|st)
+πold
+θ (at|st)
+ˆA(st,at), (5)
+clip
+(πθ(at|st)
+πold
+θ (at|st), 1−ϵ, 1 +ϵ
+)
+ˆA(st,at)
+)]
+and
+Lvalue(ϕ) = Eτ ′∼πold
+θ
+[
+max
+((
+ˆRt− ˆVϕ(st)
+)2
+, (6)
+(
+ˆRt− ˆV clip
+ϕ (st)
+)2)]
+,
+respectively, where
+ˆV clip
+ϕ (st) = clip
+(
+ˆVϕ(st),V old
+ϕ (st)−ϵ,V old
+ϕ (st) +ϵ
+)
+. (7)
+Here,πold
+θ andV old
+ϕ is used for sampling andτ′ is
+session trajectory. We then combine these into the
+unified RL loss:
+LRL(θ,ϕ ) =Lpolicy(θ) +η·L value(ϕ) (8)
+whereη is the coefficient of the value objective.
+4.3 Selector
+The Selector is an LLM agent that takes two inputs:
+a scholar query and a research paper (including its
+title and abstract). It generates two outputs: (1) a
+single decision token d, either "True" or "False",
+indicating whether the paper satisfies the query,
+and (2) a rationaler = (r1,r 2,...,r m) containing
+m tokens that support this decision. The rationale
+11668

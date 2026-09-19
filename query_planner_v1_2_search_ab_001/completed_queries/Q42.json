@@ -1,0 +1,1404 @@
+{
+  "query_id": "Q42",
+  "query_index": 42,
+  "dataset_qid": "RealScholarQuery_42",
+  "original_question": "Show me research on how to select frames when doing video understanding.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Survey papers on frame selection in video understanding",
+    "Optical flow-based methods for key frame selection in video understanding",
+    "Research on temporal sampling strategies for video representation learning",
+    "Studies on efficient frame sampling in video comprehension",
+    "Papers on automated video summary generation using frame selection"
+  ],
+  "anchor": "Show me research on how to select frames when doing video understanding.",
+  "source_generation_id": "Q42_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Survey papers on frame selection in video understanding",
+        "Optical flow-based methods for key frame selection in video understanding",
+        "Research on temporal sampling strategies for video representation learning",
+        "Studies on efficient frame sampling in video comprehension",
+        "Papers on automated video summary generation using frame selection"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "Show me research on how to select frames when doing video understanding.",
+        "Survey papers on frame selection in video understanding",
+        "Optical flow-based methods for key frame selection in video understanding",
+        "Research on temporal sampling strategies for video representation learning",
+        "Studies on efficient frame sampling in video comprehension"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Survey papers on frame selection in video understanding",
+      "attempts": [
+        {
+          "global_attempt_sequence": 256,
+          "query_id": "Q42",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Survey papers on frame selection in video understanding",
+          "request_payload": {
+            "q": "Survey papers on frame selection in video understanding before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q42_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:30:38.582471+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on frame selection in video understanding before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"An Empirical Study of Frame Selection for Text-to-Video Retrieval\",\"link\":\"https://arxiv.org/abs/2311.00298\",\"snippet\":\"In this paper, we make the first empirical study of frame selection for TVR. We systemically classify existing frame selection methods into text-free and text- ...\",\"date\":\"Nov 1, 2023\",\"position\":1},{\"title\":\"KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv\",\"link\":\"https://arxiv.org/html/2407.03104v1\",\"snippet\":\"To the best of our knowledge, this study is the first to select video frames using text-video frames matching for training VideoLLMs.\",\"date\":\"Jul 3, 2024\",\"position\":2},{\"title\":\"Video Understanding with Large Language Models:A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.17432v1\",\"snippet\":\"Fine-grained understanding typically means analyzing every video frame, significantly increasing the computational load.\",\"date\":\"Dec 29, 2023\",\"position\":3},{\"title\":\"An Empirical Comparison of Video Frame Sampling Methods ... - arXiv\",\"link\":\"https://arxiv.org/html/2408.03340v1\",\"snippet\":\"We explore the balance between the quantity of sampled frames and the retrieval recall score, aiming to identify efficient video frame sampling strategies that ...\",\"date\":\"Jul 22, 2024\",\"position\":4},{\"title\":\"Visual Representation Learning with Stochastic Frame Prediction\",\"link\":\"https://arxiv.org/html/2406.07398v1\",\"snippet\":\"In this paper, we show that integrating an understanding of the temporal information between the frames can further enhance image representation.\",\"date\":\"Jun 11, 2024\",\"position\":5},{\"title\":\"Foundation Models for Video Understanding: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2405.03770v1\",\"snippet\":\"This work presents the first comprehensive survey of foundational models (ViFMs) deployed for diverse video understanding tasks. Our survey categorizes ViFMs ...\",\"date\":\"May 6, 2024\",\"position\":6},{\"title\":\"[PDF] arXiv:2407.15047v2 [cs.CV] 23 Jul 2024\",\"link\":\"https://arxiv.org/pdf/2407.15047\",\"snippet\":\"In this paper, we need to address three research questions: (1) Question- aware Frame Relevance: How do we determine the relevance of frames to a given question ...\",\"date\":\"Jul 23, 2024\",\"position\":7},{\"title\":\"A Survey on Video Prediction: From Deterministic to Generative ...\",\"link\":\"https://arxiv.org/html/2401.14718v3\",\"snippet\":\"In this paper, we comprehensively survey both historical and contemporary works in this field, encompassing the most widely used datasets and algorithms. Our ...\",\"date\":\"Jul 22, 2024\",\"position\":8},{\"title\":\"A Survey on Generative AI and LLM for Video Generation ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.16038v1\",\"snippet\":\"The techniques discussed in this paper demonstrate the potential of LLMs for video scene understanding. However, these techniques also have limitations, such as ...\",\"date\":\"Jan 30, 2024\",\"position\":9},{\"title\":\"[PDF] arXiv:2305.13903v3 [cs.CL] 9 Nov 2023\",\"link\":\"https://arxiv.org/pdf/2305.13903\",\"snippet\":\"By test- ing multi-hop, multi-frame reasoning abilities on sparse keyframes, we hope to promote research into developing models that support real-world video.\",\"date\":\"Nov 9, 2023\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIGZyYW1lIHNlbGVjdGlvbiBpbiB2aWRlbyB1bmRlcnN0YW5kaW5nIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkFuIEVtcGlyaWNhbCBTdHVkeSBvZiBGcmFtZSBTZWxlY3Rpb24gZm9yIFRleHQtdG8tVmlkZW8gUmV0cmlldmFsIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzExLjAwMjk4Iiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIG1ha2UgdGhlIGZpcnN0IGVtcGlyaWNhbCBzdHVkeSBvZiBmcmFtZSBzZWxlY3Rpb24gZm9yIFRWUi4gV2Ugc3lzdGVtaWNhbGx5IGNsYXNzaWZ5IGV4aXN0aW5nIGZyYW1lIHNlbGVjdGlvbiBtZXRob2RzIGludG8gdGV4dC1mcmVlIGFuZCB0ZXh0LSAuLi4iLCJkYXRlIjoiTm92IDEsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IktleVZpZGVvTExNOiBUb3dhcmRzIExhcmdlLXNjYWxlIFZpZGVvIEtleWZyYW1lIFNlbGVjdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4wMzEwNHYxIiwic25pcHBldCI6IlRvIHRoZSBiZXN0IG9mIG91ciBrbm93bGVkZ2UsIHRoaXMgc3R1ZHkgaXMgdGhlIGZpcnN0IHRvIHNlbGVjdCB2aWRlbyBmcmFtZXMgdXNpbmcgdGV4dC12aWRlbyBmcmFtZXMgbWF0Y2hpbmcgZm9yIHRyYWluaW5nIFZpZGVvTExNcy4iLCJkYXRlIjoiSnVsIDMsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlZpZGVvIFVuZGVyc3RhbmRpbmcgd2l0aCBMYXJnZSBMYW5ndWFnZSBNb2RlbHM6QSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTIuMTc0MzJ2MSIsInNuaXBwZXQiOiJGaW5lLWdyYWluZWQgdW5kZXJzdGFuZGluZyB0eXBpY2FsbHkgbWVhbnMgYW5hbHl6aW5nIGV2ZXJ5IHZpZGVvIGZyYW1lLCBzaWduaWZpY2FudGx5IGluY3JlYXNpbmcgdGhlIGNvbXB1dGF0aW9uYWwgbG9hZC4iLCJkYXRlIjoiRGVjIDI5LCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJBbiBFbXBpcmljYWwgQ29tcGFyaXNvbiBvZiBWaWRlbyBGcmFtZSBTYW1wbGluZyBNZXRob2RzIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOC4wMzM0MHYxIiwic25pcHBldCI6IldlIGV4cGxvcmUgdGhlIGJhbGFuY2UgYmV0d2VlbiB0aGUgcXVhbnRpdHkgb2Ygc2FtcGxlZCBmcmFtZXMgYW5kIHRoZSByZXRyaWV2YWwgcmVjYWxsIHNjb3JlLCBhaW1pbmcgdG8gaWRlbnRpZnkgZWZmaWNpZW50IHZpZGVvIGZyYW1lIHNhbXBsaW5nIHN0cmF0ZWdpZXMgdGhhdCAuLi4iLCJkYXRlIjoiSnVsIDIyLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJWaXN1YWwgUmVwcmVzZW50YXRpb24gTGVhcm5pbmcgd2l0aCBTdG9jaGFzdGljIEZyYW1lIFByZWRpY3Rpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjA3Mzk4djEiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2Ugc2hvdyB0aGF0IGludGVncmF0aW5nIGFuIHVuZGVyc3RhbmRpbmcgb2YgdGhlIHRlbXBvcmFsIGluZm9ybWF0aW9uIGJldHdlZW4gdGhlIGZyYW1lcyBjYW4gZnVydGhlciBlbmhhbmNlIGltYWdlIHJlcHJlc2VudGF0aW9uLiIsImRhdGUiOiJKdW4gMTEsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkZvdW5kYXRpb24gTW9kZWxzIGZvciBWaWRlbyBVbmRlcnN0YW5kaW5nOiBBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4wMzc3MHYxIiwic25pcHBldCI6IlRoaXMgd29yayBwcmVzZW50cyB0aGUgZmlyc3QgY29tcHJlaGVuc2l2ZSBzdXJ2ZXkgb2YgZm91bmRhdGlvbmFsIG1vZGVscyAoVmlGTXMpIGRlcGxveWVkIGZvciBkaXZlcnNlIHZpZGVvIHVuZGVyc3RhbmRpbmcgdGFza3MuIE91ciBzdXJ2ZXkgY2F0ZWdvcml6ZXMgVmlGTXMgLi4uIiwiZGF0ZSI6Ik1heSA2LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDA3LjE1MDQ3djIgW2NzLkNWXSAyMyBKdWwgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNy4xNTA0NyIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBuZWVkIHRvIGFkZHJlc3MgdGhyZWUgcmVzZWFyY2ggcXVlc3Rpb25zOiAoMSkgUXVlc3Rpb24tIGF3YXJlIEZyYW1lIFJlbGV2YW5jZTogSG93IGRvIHdlIGRldGVybWluZSB0aGUgcmVsZXZhbmNlIG9mIGZyYW1lcyB0byBhIGdpdmVuIHF1ZXN0aW9uIC4uLiIsImRhdGUiOiJKdWwgMjMsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkEgU3VydmV5IG9uIFZpZGVvIFByZWRpY3Rpb246IEZyb20gRGV0ZXJtaW5pc3RpYyB0byBHZW5lcmF0aXZlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMTQ3MTh2MyIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBjb21wcmVoZW5zaXZlbHkgc3VydmV5IGJvdGggaGlzdG9yaWNhbCBhbmQgY29udGVtcG9yYXJ5IHdvcmtzIGluIHRoaXMgZmllbGQsIGVuY29tcGFzc2luZyB0aGUgbW9zdCB3aWRlbHkgdXNlZCBkYXRhc2V0cyBhbmQgYWxnb3JpdGhtcy4gT3VyIC4uLiIsImRhdGUiOiJKdWwgMjIsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkEgU3VydmV5IG9uIEdlbmVyYXRpdmUgQUkgYW5kIExMTSBmb3IgVmlkZW8gR2VuZXJhdGlvbiAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMTYwMzh2MSIsInNuaXBwZXQiOiJUaGUgdGVjaG5pcXVlcyBkaXNjdXNzZWQgaW4gdGhpcyBwYXBlciBkZW1vbnN0cmF0ZSB0aGUgcG90ZW50aWFsIG9mIExMTXMgZm9yIHZpZGVvIHNjZW5lIHVuZGVyc3RhbmRpbmcuIEhvd2V2ZXIsIHRoZXNlIHRlY2huaXF1ZXMgYWxzbyBoYXZlIGxpbWl0YXRpb25zLCBzdWNoIGFzIC4uLiIsImRhdGUiOiJKYW4gMzAsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDUuMTM5MDN2MyBbY3MuQ0xdIDkgTm92IDIwMjMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDUuMTM5MDMiLCJzbmlwcGV0IjoiQnkgdGVzdC0gaW5nIG11bHRpLWhvcCwgbXVsdGktZnJhbWUgcmVhc29uaW5nIGFiaWxpdGllcyBvbiBzcGFyc2Uga2V5ZnJhbWVzLCB3ZSBob3BlIHRvIHByb21vdGUgcmVzZWFyY2ggaW50byBkZXZlbG9waW5nIG1vZGVscyB0aGF0IHN1cHBvcnQgcmVhbC13b3JsZCB2aWRlby4iLCJkYXRlIjoiTm92IDksIDIwMjMiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "0e75eb80b2af3cab95b72c9f42973d2481558a9e6934f003b9b44b22ae73f8b3",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey papers on frame selection in video understanding before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "An Empirical Study of Frame Selection for Text-to-Video Retrieval",
+                "link": "https://arxiv.org/abs/2311.00298",
+                "snippet": "In this paper, we make the first empirical study of frame selection for TVR. We systemically classify existing frame selection methods into text-free and text- ...",
+                "date": "Nov 1, 2023",
+                "position": 1
+              },
+              {
+                "title": "KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv",
+                "link": "https://arxiv.org/html/2407.03104v1",
+                "snippet": "To the best of our knowledge, this study is the first to select video frames using text-video frames matching for training VideoLLMs.",
+                "date": "Jul 3, 2024",
+                "position": 2
+              },
+              {
+                "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+                "link": "https://arxiv.org/html/2312.17432v1",
+                "snippet": "Fine-grained understanding typically means analyzing every video frame, significantly increasing the computational load.",
+                "date": "Dec 29, 2023",
+                "position": 3
+              },
+              {
+                "title": "An Empirical Comparison of Video Frame Sampling Methods ... - arXiv",
+                "link": "https://arxiv.org/html/2408.03340v1",
+                "snippet": "We explore the balance between the quantity of sampled frames and the retrieval recall score, aiming to identify efficient video frame sampling strategies that ...",
+                "date": "Jul 22, 2024",
+                "position": 4
+              },
+              {
+                "title": "Visual Representation Learning with Stochastic Frame Prediction",
+                "link": "https://arxiv.org/html/2406.07398v1",
+                "snippet": "In this paper, we show that integrating an understanding of the temporal information between the frames can further enhance image representation.",
+                "date": "Jun 11, 2024",
+                "position": 5
+              },
+              {
+                "title": "Foundation Models for Video Understanding: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2405.03770v1",
+                "snippet": "This work presents the first comprehensive survey of foundational models (ViFMs) deployed for diverse video understanding tasks. Our survey categorizes ViFMs ...",
+                "date": "May 6, 2024",
+                "position": 6
+              },
+              {
+                "title": "[PDF] arXiv:2407.15047v2 [cs.CV] 23 Jul 2024",
+                "link": "https://arxiv.org/pdf/2407.15047",
+                "snippet": "In this paper, we need to address three research questions: (1) Question- aware Frame Relevance: How do we determine the relevance of frames to a given question ...",
+                "date": "Jul 23, 2024",
+                "position": 7
+              },
+              {
+                "title": "A Survey on Video Prediction: From Deterministic to Generative ...",
+                "link": "https://arxiv.org/html/2401.14718v3",
+                "snippet": "In this paper, we comprehensively survey both historical and contemporary works in this field, encompassing the most widely used datasets and algorithms. Our ...",
+                "date": "Jul 22, 2024",
+                "position": 8
+              },
+              {
+                "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+                "link": "https://arxiv.org/html/2404.16038v1",
+                "snippet": "The techniques discussed in this paper demonstrate the potential of LLMs for video scene understanding. However, these techniques also have limitations, such as ...",
+                "date": "Jan 30, 2024",
+                "position": 9
+              },
+              {
+                "title": "[PDF] arXiv:2305.13903v3 [cs.CL] 9 Nov 2023",
+                "link": "https://arxiv.org/pdf/2305.13903",
+                "snippet": "By test- ing multi-hop, multi-frame reasoning abilities on sparse keyframes, we hope to promote research into developing models that support real-world video.",
+                "date": "Nov 9, 2023",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:41.545562+00:00",
+          "elapsed_seconds": 2.963087659329176
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2305.13903",
+        "2311.00298",
+        "2312.17432",
+        "2401.14718",
+        "2404.16038",
+        "2405.03770",
+        "2406.07398",
+        "2407.03104",
+        "2407.15047",
+        "2408.03340"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2311.00298",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2311.00298",
+          "title": "An Empirical Study of Frame Selection for Text-to-Video Retrieval",
+          "snippet": "In this paper, we make the first empirical study of frame selection for TVR. We systemically classify existing frame selection methods into text-free and text- ..."
+        },
+        {
+          "arxiv_id": "2407.03104",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2407.03104v1",
+          "title": "KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv",
+          "snippet": "To the best of our knowledge, this study is the first to select video frames using text-video frames matching for training VideoLLMs."
+        },
+        {
+          "arxiv_id": "2312.17432",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2312.17432v1",
+          "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+          "snippet": "Fine-grained understanding typically means analyzing every video frame, significantly increasing the computational load."
+        },
+        {
+          "arxiv_id": "2408.03340",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2408.03340v1",
+          "title": "An Empirical Comparison of Video Frame Sampling Methods ... - arXiv",
+          "snippet": "We explore the balance between the quantity of sampled frames and the retrieval recall score, aiming to identify efficient video frame sampling strategies that ..."
+        },
+        {
+          "arxiv_id": "2406.07398",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2406.07398v1",
+          "title": "Visual Representation Learning with Stochastic Frame Prediction",
+          "snippet": "In this paper, we show that integrating an understanding of the temporal information between the frames can further enhance image representation."
+        },
+        {
+          "arxiv_id": "2405.03770",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2405.03770v1",
+          "title": "Foundation Models for Video Understanding: A Survey - arXiv",
+          "snippet": "This work presents the first comprehensive survey of foundational models (ViFMs) deployed for diverse video understanding tasks. Our survey categorizes ViFMs ..."
+        },
+        {
+          "arxiv_id": "2407.15047",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2407.15047",
+          "title": "[PDF] arXiv:2407.15047v2 [cs.CV] 23 Jul 2024",
+          "snippet": "In this paper, we need to address three research questions: (1) Question- aware Frame Relevance: How do we determine the relevance of frames to a given question ..."
+        },
+        {
+          "arxiv_id": "2401.14718",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2401.14718v3",
+          "title": "A Survey on Video Prediction: From Deterministic to Generative ...",
+          "snippet": "In this paper, we comprehensively survey both historical and contemporary works in this field, encompassing the most widely used datasets and algorithms. Our ..."
+        },
+        {
+          "arxiv_id": "2404.16038",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2404.16038v1",
+          "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+          "snippet": "The techniques discussed in this paper demonstrate the potential of LLMs for video scene understanding. However, these techniques also have limitations, such as ..."
+        },
+        {
+          "arxiv_id": "2305.13903",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2305.13903",
+          "title": "[PDF] arXiv:2305.13903v3 [cs.CL] 9 Nov 2023",
+          "snippet": "By test- ing multi-hop, multi-frame reasoning abilities on sparse keyframes, we hope to promote research into developing models that support real-world video."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey papers on frame selection in video understanding before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Optical flow-based methods for key frame selection in video understanding",
+      "attempts": [
+        {
+          "global_attempt_sequence": 257,
+          "query_id": "Q42",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Optical flow-based methods for key frame selection in video understanding",
+          "request_payload": {
+            "q": "Optical flow-based methods for key frame selection in video understanding before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q42_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:30:41.784858+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Optical flow-based methods for key frame selection in video understanding before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Deep Keyframe Detection in Human Action Videos - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1804.10021\",\"snippet\":\"To this end, we introduce a deep two-stream ConvNet for key frame detection in videos that learns to directly predict the location of key frames. Our key idea ...\",\"date\":\"Mar 1, 2024\",\"position\":1},{\"title\":\"FlowVid: Taming Imperfect Optical Flows for Consistent Video ... - arXiv\",\"link\":\"https://arxiv.org/html/2312.17681v1\",\"snippet\":\"This paper proposes a consistent V2V synthesis framework by jointly leveraging spatial conditions and temporal optical flow clues within the source video.\",\"date\":\"Dec 29, 2023\",\"position\":2},{\"title\":\"KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv\",\"link\":\"https://arxiv.org/html/2407.03104v1\",\"snippet\":\"We propose KeyVideoLLM, the first text-video frame similarity-based keyframe selection method. Based on the proposed text-video frames similarity scores, ...\",\"date\":\"Jul 3, 2024\",\"position\":3},{\"title\":\"Video Enhancement with Task-Oriented Flow - arXiv\",\"link\":\"https://arxiv.org/html/1711.09078v3\",\"snippet\":\"Many video enhancement algorithms rely on optical flow to register frames in a video sequence. Precise flow estimation is however intractable; and optical ...\",\"date\":\"Nov 10, 2019\",\"position\":4},{\"title\":\"Real-Time Intermediate Flow Estimation for Video Frame Interpolation\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2011.06294\",\"snippet\":\"Common approaches for these methods involve two steps: 1) warping the input frames according to approximated optical flows and 2) fusing the warped frames using ...\",\"date\":\"Mar 9, 2024\",\"position\":5},{\"title\":\"Flow-Agnostic Video Representations for Fast Frame Interpolation\",\"link\":\"https://arxiv.org/html/2012.08512v3\",\"snippet\":\"The key idea in flow-based methods is to use a flow prediction network, e.g. PWC-Net [59] , to compute bidirectional optical flow between the input frames [23] ...\",\"date\":\"Feb 24, 2022\",\"position\":6},{\"title\":\"[PDF] Is Appearance Free Action Recognition Possible? - arXiv\",\"link\":\"https://arxiv.org/pdf/2207.06261\",\"snippet\":\"Intuition might suggest that motion and dynamic information are key to video-based action recognition. ... optical flow between input frame pairs, and 3 ...\",\"date\":\"Jul 14, 2022\",\"position\":7},{\"title\":\"[PDF] KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv\",\"link\":\"https://arxiv.org/pdf/2407.03104?\",\"snippet\":\"In this work, we present KeyVideoLLM, a text-video frame similarity-based keyframe selection method designed to man- age VideoLLM data efficiently, robustly, ...\",\"date\":\"Aug 10, 2024\",\"position\":8},{\"title\":\"A zero-shot action recognition method based on natural language ...\",\"link\":\"https://arxiv.org/html/2112.09976v2\",\"snippet\":\"Our method explores the ability of video captioning to identify objects in scenes inferred by their context and by sentence annotations. Additionally, we employ ...\",\"date\":\"Sep 11, 2023\",\"sitelinks\":[{\"title\":\"3 Methodology\",\"link\":\"https://arxiv.org/html/2112.09976v2#:~:text=3%20Methodology,-In%20this%20section%2C%20we\"},{\"title\":\"4 Experiments\",\"link\":\"https://arxiv.org/html/2112.09976v2#:~:text=4%20Experiments,-In%20this%20section%2C%20we\"},{\"title\":\"4.5 Ablation Studies\",\"link\":\"https://arxiv.org/html/2112.09976v2#:~:text=4.5%20Ablation%20Studies,-Here%2C%20we%20present%20a\"}],\"position\":9},{\"title\":\"Hierarchical Feature Alignment Network for Unsupervised Video ...\",\"link\":\"https://arxiv.org/html/2207.08485v2\",\"snippet\":\"Optical flow is an easily conceived and precious cue for advancing unsupervised video object segmentation (UVOS). Most of the previous methods directly extract ...\",\"date\":\"Jul 19, 2022\",\"sitelinks\":[{\"title\":\"2.1 Video Object...\",\"link\":\"https://arxiv.org/html/2207.08485v2#:~:text=2.1%20Video%20Object%20Segmentation,-Current%20video%20object%20segmentation%20is\"},{\"title\":\"3 The Proposed Method\",\"link\":\"https://arxiv.org/html/2207.08485v2#:~:text=3%20The%20Proposed%20Method,-Our%20HFAN%20consists%20of%20two\"},{\"title\":\"4 Experiments\",\"link\":\"https://arxiv.org/html/2207.08485v2#:~:text=%29-,4%20Experiments\"}],\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJPcHRpY2FsIGZsb3ctYmFzZWQgbWV0aG9kcyBmb3Iga2V5IGZyYW1lIHNlbGVjdGlvbiBpbiB2aWRlbyB1bmRlcnN0YW5kaW5nIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkRlZXAgS2V5ZnJhbWUgRGV0ZWN0aW9uIGluIEh1bWFuIEFjdGlvbiBWaWRlb3MgLSBhcjVpdiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMTgwNC4xMDAyMSIsInNuaXBwZXQiOiJUbyB0aGlzIGVuZCwgd2UgaW50cm9kdWNlIGEgZGVlcCB0d28tc3RyZWFtIENvbnZOZXQgZm9yIGtleSBmcmFtZSBkZXRlY3Rpb24gaW4gdmlkZW9zIHRoYXQgbGVhcm5zIHRvIGRpcmVjdGx5IHByZWRpY3QgdGhlIGxvY2F0aW9uIG9mIGtleSBmcmFtZXMuIE91ciBrZXkgaWRlYSAuLi4iLCJkYXRlIjoiTWFyIDEsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkZsb3dWaWQ6IFRhbWluZyBJbXBlcmZlY3QgT3B0aWNhbCBGbG93cyBmb3IgQ29uc2lzdGVudCBWaWRlbyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTIuMTc2ODF2MSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHByb3Bvc2VzIGEgY29uc2lzdGVudCBWMlYgc3ludGhlc2lzIGZyYW1ld29yayBieSBqb2ludGx5IGxldmVyYWdpbmcgc3BhdGlhbCBjb25kaXRpb25zIGFuZCB0ZW1wb3JhbCBvcHRpY2FsIGZsb3cgY2x1ZXMgd2l0aGluIHRoZSBzb3VyY2UgdmlkZW8uIiwiZGF0ZSI6IkRlYyAyOSwgMjAyMyIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiS2V5VmlkZW9MTE06IFRvd2FyZHMgTGFyZ2Utc2NhbGUgVmlkZW8gS2V5ZnJhbWUgU2VsZWN0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjAzMTA0djEiLCJzbmlwcGV0IjoiV2UgcHJvcG9zZSBLZXlWaWRlb0xMTSwgdGhlIGZpcnN0IHRleHQtdmlkZW8gZnJhbWUgc2ltaWxhcml0eS1iYXNlZCBrZXlmcmFtZSBzZWxlY3Rpb24gbWV0aG9kLiBCYXNlZCBvbiB0aGUgcHJvcG9zZWQgdGV4dC12aWRlbyBmcmFtZXMgc2ltaWxhcml0eSBzY29yZXMsIC4uLiIsImRhdGUiOiJKdWwgMywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiVmlkZW8gRW5oYW5jZW1lbnQgd2l0aCBUYXNrLU9yaWVudGVkIEZsb3cgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE3MTEuMDkwNzh2MyIsInNuaXBwZXQiOiJNYW55IHZpZGVvIGVuaGFuY2VtZW50IGFsZ29yaXRobXMgcmVseSBvbiBvcHRpY2FsIGZsb3cgdG8gcmVnaXN0ZXIgZnJhbWVzIGluIGEgdmlkZW8gc2VxdWVuY2UuIFByZWNpc2UgZmxvdyBlc3RpbWF0aW9uIGlzIGhvd2V2ZXIgaW50cmFjdGFibGU7IGFuZCBvcHRpY2FsIC4uLiIsImRhdGUiOiJOb3YgMTAsIDIwMTkiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlJlYWwtVGltZSBJbnRlcm1lZGlhdGUgRmxvdyBFc3RpbWF0aW9uIGZvciBWaWRlbyBGcmFtZSBJbnRlcnBvbGF0aW9uIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMDExLjA2Mjk0Iiwic25pcHBldCI6IkNvbW1vbiBhcHByb2FjaGVzIGZvciB0aGVzZSBtZXRob2RzIGludm9sdmUgdHdvIHN0ZXBzOiAxKSB3YXJwaW5nIHRoZSBpbnB1dCBmcmFtZXMgYWNjb3JkaW5nIHRvIGFwcHJveGltYXRlZCBvcHRpY2FsIGZsb3dzIGFuZCAyKSBmdXNpbmcgdGhlIHdhcnBlZCBmcmFtZXMgdXNpbmcgLi4uIiwiZGF0ZSI6Ik1hciA5LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJGbG93LUFnbm9zdGljIFZpZGVvIFJlcHJlc2VudGF0aW9ucyBmb3IgRmFzdCBGcmFtZSBJbnRlcnBvbGF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjAxMi4wODUxMnYzIiwic25pcHBldCI6IlRoZSBrZXkgaWRlYSBpbiBmbG93LWJhc2VkIG1ldGhvZHMgaXMgdG8gdXNlIGEgZmxvdyBwcmVkaWN0aW9uIG5ldHdvcmssIGUuZy4gUFdDLU5ldCBbNTldICwgdG8gY29tcHV0ZSBiaWRpcmVjdGlvbmFsIG9wdGljYWwgZmxvdyBiZXR3ZWVuIHRoZSBpbnB1dCBmcmFtZXMgWzIzXSAuLi4iLCJkYXRlIjoiRmViIDI0LCAyMDIyIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBJcyBBcHBlYXJhbmNlIEZyZWUgQWN0aW9uIFJlY29nbml0aW9uIFBvc3NpYmxlPyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjA3LjA2MjYxIiwic25pcHBldCI6IkludHVpdGlvbiBtaWdodCBzdWdnZXN0IHRoYXQgbW90aW9uIGFuZCBkeW5hbWljIGluZm9ybWF0aW9uIGFyZSBrZXkgdG8gdmlkZW8tYmFzZWQgYWN0aW9uIHJlY29nbml0aW9uLiAuLi4gb3B0aWNhbCBmbG93IGJldHdlZW4gaW5wdXQgZnJhbWUgcGFpcnMsIGFuZCAzIC4uLiIsImRhdGUiOiJKdWwgMTQsIDIwMjIiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIEtleVZpZGVvTExNOiBUb3dhcmRzIExhcmdlLXNjYWxlIFZpZGVvIEtleWZyYW1lIFNlbGVjdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA3LjAzMTA0PyIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIHByZXNlbnQgS2V5VmlkZW9MTE0sIGEgdGV4dC12aWRlbyBmcmFtZSBzaW1pbGFyaXR5LWJhc2VkIGtleWZyYW1lIHNlbGVjdGlvbiBtZXRob2QgZGVzaWduZWQgdG8gbWFuLSBhZ2UgVmlkZW9MTE0gZGF0YSBlZmZpY2llbnRseSwgcm9idXN0bHksIC4uLiIsImRhdGUiOiJBdWcgMTAsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkEgemVyby1zaG90IGFjdGlvbiByZWNvZ25pdGlvbiBtZXRob2QgYmFzZWQgb24gbmF0dXJhbCBsYW5ndWFnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMTEyLjA5OTc2djIiLCJzbmlwcGV0IjoiT3VyIG1ldGhvZCBleHBsb3JlcyB0aGUgYWJpbGl0eSBvZiB2aWRlbyBjYXB0aW9uaW5nIHRvIGlkZW50aWZ5IG9iamVjdHMgaW4gc2NlbmVzIGluZmVycmVkIGJ5IHRoZWlyIGNvbnRleHQgYW5kIGJ5IHNlbnRlbmNlIGFubm90YXRpb25zLiBBZGRpdGlvbmFsbHksIHdlIGVtcGxveSAuLi4iLCJkYXRlIjoiU2VwIDExLCAyMDIzIiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjMgTWV0aG9kb2xvZ3kiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMTEyLjA5OTc2djIjOn46dGV4dD0zJTIwTWV0aG9kb2xvZ3ksLUluJTIwdGhpcyUyMHNlY3Rpb24lMkMlMjB3ZSJ9LHsidGl0bGUiOiI0IEV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjExMi4wOTk3NnYyIzp+OnRleHQ9NCUyMEV4cGVyaW1lbnRzLC1JbiUyMHRoaXMlMjBzZWN0aW9uJTJDJTIwd2UifSx7InRpdGxlIjoiNC41IEFibGF0aW9uIFN0dWRpZXMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMTEyLjA5OTc2djIjOn46dGV4dD00LjUlMjBBYmxhdGlvbiUyMFN0dWRpZXMsLUhlcmUlMkMlMjB3ZSUyMHByZXNlbnQlMjBhIn1dLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkhpZXJhcmNoaWNhbCBGZWF0dXJlIEFsaWdubWVudCBOZXR3b3JrIGZvciBVbnN1cGVydmlzZWQgVmlkZW8gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwNy4wODQ4NXYyIiwic25pcHBldCI6Ik9wdGljYWwgZmxvdyBpcyBhbiBlYXNpbHkgY29uY2VpdmVkIGFuZCBwcmVjaW91cyBjdWUgZm9yIGFkdmFuY2luZyB1bnN1cGVydmlzZWQgdmlkZW8gb2JqZWN0IHNlZ21lbnRhdGlvbiAoVVZPUykuIE1vc3Qgb2YgdGhlIHByZXZpb3VzIG1ldGhvZHMgZGlyZWN0bHkgZXh0cmFjdCAuLi4iLCJkYXRlIjoiSnVsIDE5LCAyMDIyIiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjIuMSBWaWRlbyBPYmplY3QuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjA3LjA4NDg1djIjOn46dGV4dD0yLjElMjBWaWRlbyUyME9iamVjdCUyMFNlZ21lbnRhdGlvbiwtQ3VycmVudCUyMHZpZGVvJTIwb2JqZWN0JTIwc2VnbWVudGF0aW9uJTIwaXMifSx7InRpdGxlIjoiMyBUaGUgUHJvcG9zZWQgTWV0aG9kIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwNy4wODQ4NXYyIzp+OnRleHQ9MyUyMFRoZSUyMFByb3Bvc2VkJTIwTWV0aG9kLC1PdXIlMjBIRkFOJTIwY29uc2lzdHMlMjBvZiUyMHR3byJ9LHsidGl0bGUiOiI0IEV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwNy4wODQ4NXYyIzp+OnRleHQ9JTI5LSw0JTIwRXhwZXJpbWVudHMifV0sInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "3581850cb8a4507b55f2aafeb9e079f37af3cbd1e0016e46f0d8d1c1f8d8985a",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Optical flow-based methods for key frame selection in video understanding before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Deep Keyframe Detection in Human Action Videos - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/1804.10021",
+                "snippet": "To this end, we introduce a deep two-stream ConvNet for key frame detection in videos that learns to directly predict the location of key frames. Our key idea ...",
+                "date": "Mar 1, 2024",
+                "position": 1
+              },
+              {
+                "title": "FlowVid: Taming Imperfect Optical Flows for Consistent Video ... - arXiv",
+                "link": "https://arxiv.org/html/2312.17681v1",
+                "snippet": "This paper proposes a consistent V2V synthesis framework by jointly leveraging spatial conditions and temporal optical flow clues within the source video.",
+                "date": "Dec 29, 2023",
+                "position": 2
+              },
+              {
+                "title": "KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv",
+                "link": "https://arxiv.org/html/2407.03104v1",
+                "snippet": "We propose KeyVideoLLM, the first text-video frame similarity-based keyframe selection method. Based on the proposed text-video frames similarity scores, ...",
+                "date": "Jul 3, 2024",
+                "position": 3
+              },
+              {
+                "title": "Video Enhancement with Task-Oriented Flow - arXiv",
+                "link": "https://arxiv.org/html/1711.09078v3",
+                "snippet": "Many video enhancement algorithms rely on optical flow to register frames in a video sequence. Precise flow estimation is however intractable; and optical ...",
+                "date": "Nov 10, 2019",
+                "position": 4
+              },
+              {
+                "title": "Real-Time Intermediate Flow Estimation for Video Frame Interpolation",
+                "link": "https://ar5iv.labs.arxiv.org/html/2011.06294",
+                "snippet": "Common approaches for these methods involve two steps: 1) warping the input frames according to approximated optical flows and 2) fusing the warped frames using ...",
+                "date": "Mar 9, 2024",
+                "position": 5
+              },
+              {
+                "title": "Flow-Agnostic Video Representations for Fast Frame Interpolation",
+                "link": "https://arxiv.org/html/2012.08512v3",
+                "snippet": "The key idea in flow-based methods is to use a flow prediction network, e.g. PWC-Net [59] , to compute bidirectional optical flow between the input frames [23] ...",
+                "date": "Feb 24, 2022",
+                "position": 6
+              },
+              {
+                "title": "[PDF] Is Appearance Free Action Recognition Possible? - arXiv",
+                "link": "https://arxiv.org/pdf/2207.06261",
+                "snippet": "Intuition might suggest that motion and dynamic information are key to video-based action recognition. ... optical flow between input frame pairs, and 3 ...",
+                "date": "Jul 14, 2022",
+                "position": 7
+              },
+              {
+                "title": "[PDF] KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv",
+                "link": "https://arxiv.org/pdf/2407.03104?",
+                "snippet": "In this work, we present KeyVideoLLM, a text-video frame similarity-based keyframe selection method designed to man- age VideoLLM data efficiently, robustly, ...",
+                "date": "Aug 10, 2024",
+                "position": 8
+              },
+              {
+                "title": "A zero-shot action recognition method based on natural language ...",
+                "link": "https://arxiv.org/html/2112.09976v2",
+                "snippet": "Our method explores the ability of video captioning to identify objects in scenes inferred by their context and by sentence annotations. Additionally, we employ ...",
+                "date": "Sep 11, 2023",
+                "sitelinks": [
+                  {
+                    "title": "3 Methodology",
+                    "link": "https://arxiv.org/html/2112.09976v2#:~:text=3%20Methodology,-In%20this%20section%2C%20we"
+                  },
+                  {
+                    "title": "4 Experiments",
+                    "link": "https://arxiv.org/html/2112.09976v2#:~:text=4%20Experiments,-In%20this%20section%2C%20we"
+                  },
+                  {
+                    "title": "4.5 Ablation Studies",
+                    "link": "https://arxiv.org/html/2112.09976v2#:~:text=4.5%20Ablation%20Studies,-Here%2C%20we%20present%20a"
+                  }
+                ],
+                "position": 9
+              },
+              {
+                "title": "Hierarchical Feature Alignment Network for Unsupervised Video ...",
+                "link": "https://arxiv.org/html/2207.08485v2",
+                "snippet": "Optical flow is an easily conceived and precious cue for advancing unsupervised video object segmentation (UVOS). Most of the previous methods directly extract ...",
+                "date": "Jul 19, 2022",
+                "sitelinks": [
+                  {
+                    "title": "2.1 Video Object...",
+                    "link": "https://arxiv.org/html/2207.08485v2#:~:text=2.1%20Video%20Object%20Segmentation,-Current%20video%20object%20segmentation%20is"
+                  },
+                  {
+                    "title": "3 The Proposed Method",
+                    "link": "https://arxiv.org/html/2207.08485v2#:~:text=3%20The%20Proposed%20Method,-Our%20HFAN%20consists%20of%20two"
+                  },
+                  {
+                    "title": "4 Experiments",
+                    "link": "https://arxiv.org/html/2207.08485v2#:~:text=%29-,4%20Experiments"
+                  }
+                ],
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:43.147500+00:00",
+          "elapsed_seconds": 1.3626373037695885
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1711.09078",
+        "1804.10021",
+        "2011.06294",
+        "2012.08512",
+        "2112.09976",
+        "2207.06261",
+        "2207.08485",
+        "2312.17681",
+        "2407.03104"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "1804.10021",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://ar5iv.labs.arxiv.org/html/1804.10021",
+          "title": "Deep Keyframe Detection in Human Action Videos - ar5iv",
+          "snippet": "To this end, we introduce a deep two-stream ConvNet for key frame detection in videos that learns to directly predict the location of key frames. Our key idea ..."
+        },
+        {
+          "arxiv_id": "2312.17681",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2312.17681v1",
+          "title": "FlowVid: Taming Imperfect Optical Flows for Consistent Video ... - arXiv",
+          "snippet": "This paper proposes a consistent V2V synthesis framework by jointly leveraging spatial conditions and temporal optical flow clues within the source video."
+        },
+        {
+          "arxiv_id": "2407.03104",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2407.03104v1",
+          "title": "KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv",
+          "snippet": "We propose KeyVideoLLM, the first text-video frame similarity-based keyframe selection method. Based on the proposed text-video frames similarity scores, ..."
+        },
+        {
+          "arxiv_id": "1711.09078",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/1711.09078v3",
+          "title": "Video Enhancement with Task-Oriented Flow - arXiv",
+          "snippet": "Many video enhancement algorithms rely on optical flow to register frames in a video sequence. Precise flow estimation is however intractable; and optical ..."
+        },
+        {
+          "arxiv_id": "2011.06294",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://ar5iv.labs.arxiv.org/html/2011.06294",
+          "title": "Real-Time Intermediate Flow Estimation for Video Frame Interpolation",
+          "snippet": "Common approaches for these methods involve two steps: 1) warping the input frames according to approximated optical flows and 2) fusing the warped frames using ..."
+        },
+        {
+          "arxiv_id": "2012.08512",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2012.08512v3",
+          "title": "Flow-Agnostic Video Representations for Fast Frame Interpolation",
+          "snippet": "The key idea in flow-based methods is to use a flow prediction network, e.g. PWC-Net [59] , to compute bidirectional optical flow between the input frames [23] ..."
+        },
+        {
+          "arxiv_id": "2207.06261",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2207.06261",
+          "title": "[PDF] Is Appearance Free Action Recognition Possible? - arXiv",
+          "snippet": "Intuition might suggest that motion and dynamic information are key to video-based action recognition. ... optical flow between input frame pairs, and 3 ..."
+        },
+        {
+          "arxiv_id": "2407.03104",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2407.03104?",
+          "title": "[PDF] KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv",
+          "snippet": "In this work, we present KeyVideoLLM, a text-video frame similarity-based keyframe selection method designed to man- age VideoLLM data efficiently, robustly, ..."
+        },
+        {
+          "arxiv_id": "2112.09976",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2112.09976v2",
+          "title": "A zero-shot action recognition method based on natural language ...",
+          "snippet": "Our method explores the ability of video captioning to identify objects in scenes inferred by their context and by sentence annotations. Additionally, we employ ..."
+        },
+        {
+          "arxiv_id": "2207.08485",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2207.08485v2",
+          "title": "Hierarchical Feature Alignment Network for Unsupervised Video ...",
+          "snippet": "Optical flow is an easily conceived and precious cue for advancing unsupervised video object segmentation (UVOS). Most of the previous methods directly extract ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Optical flow-based methods for key frame selection in video understanding before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Research on temporal sampling strategies for video representation learning",
+      "attempts": [
+        {
+          "global_attempt_sequence": 258,
+          "query_id": "Q42",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Research on temporal sampling strategies for video representation learning",
+          "request_payload": {
+            "q": "Research on temporal sampling strategies for video representation learning before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q42_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:30:43.389200+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Research on temporal sampling strategies for video representation learning before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Self-supervised Spatiotemporal Representation Learning by ...\",\"link\":\"https://arxiv.org/html/2112.05883v3\",\"snippet\":\"Recent self-supervised video representation learning methods have found significant success by exploring essential properties of videos, e.g. speed, temporal ...\",\"date\":\"Jan 12, 2022\",\"position\":1},{\"title\":\"Self-Supervised Representation Learning from Temporal Ordering ...\",\"link\":\"https://arxiv.org/html/2302.09043v3\",\"snippet\":\"Video feature learning exploits the temporal consistency in sequential data as a supervision signal to generate video- or frame-level embeddings.\",\"date\":\"Nov 8, 2023\",\"position\":2},{\"title\":\"[PDF] Controllable Augmentations for Video Representation Learning - arXiv\",\"link\":\"https://arxiv.org/pdf/2203.16632\",\"snippet\":\"Abstract. This paper focuses on self-supervised video representation learning. Most existing approaches follow the contrastive learning pipeline.\",\"date\":\"Apr 1, 2022\",\"position\":3},{\"title\":\"[PDF] Probabilistic Representations for Video Contrastive Learning - arXiv\",\"link\":\"https://arxiv.org/pdf/2204.03946\",\"snippet\":\"This paper presents Probabilistic Video Contrastive Learning, a self-supervised representation learning method that bridges contrastive learning with ...\",\"date\":\"Apr 11, 2022\",\"position\":4},{\"title\":\"Universal Time-Series Representation Learning: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2401.03717v3\",\"snippet\":\"Many studies propose to use attention-based networks or graph neural networks to jointly learn the temporal dependencies in each variable and the correlations ...\",\"date\":\"Aug 27, 2024\",\"position\":5},{\"title\":\"Enhancing Unsupervised Video Representation Learning by ... - arXiv\",\"link\":\"https://arxiv.org/html/2009.05757v3\",\"snippet\":\"We design two effective strategies to construct positive and negative sample pairs which consider both the spatial and the temporal characters of the video data ...\",\"date\":\"Dec 16, 2020\",\"position\":6},{\"title\":\"A Self-supervised Video Strategy to Enhance Action Prediction - arXiv\",\"link\":\"https://arxiv.org/html/2308.04589v2\",\"snippet\":\"The approach, named Temporal-DINO, employs two models; a 'student' processing past frames; and a 'teacher' processing both past and future frames, enabling a ...\",\"date\":\"Aug 20, 2023\",\"position\":7},{\"title\":\"[PDF] Dual Contrastive Learning for Spatio-temporal Representation - arXiv\",\"link\":\"https://arxiv.org/pdf/2207.05340\",\"snippet\":\"ABSTRACT. Contrastive learning has shown promising potential in self-supervised spatio-temporal representation learning. Most works naively sam-.\",\"date\":\"Jul 12, 2022\",\"position\":8},{\"title\":\"CLIP2Video: Mastering Video-Text Retrieval via Image CLIP - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2106.11097\",\"snippet\":\"We mainly investigate the effective temporal relationships based on multi-modal image-text learning. Video-language Learning. Learning visual representation ...\",\"date\":\"Jun 22, 2021\",\"position\":9},{\"title\":\"Revisiting Feature Prediction for Learning Visual Representations ...\",\"link\":\"https://arxiv.org/html/2404.08471v1\",\"snippet\":\"Our results show that learning by predicting video features leads to versatile visual representations that perform well on both motion and appearance-based ...\",\"date\":\"Feb 15, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZXNlYXJjaCBvbiB0ZW1wb3JhbCBzYW1wbGluZyBzdHJhdGVnaWVzIGZvciB2aWRlbyByZXByZXNlbnRhdGlvbiBsZWFybmluZyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJTZWxmLXN1cGVydmlzZWQgU3BhdGlvdGVtcG9yYWwgUmVwcmVzZW50YXRpb24gTGVhcm5pbmcgYnkgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjExMi4wNTg4M3YzIiwic25pcHBldCI6IlJlY2VudCBzZWxmLXN1cGVydmlzZWQgdmlkZW8gcmVwcmVzZW50YXRpb24gbGVhcm5pbmcgbWV0aG9kcyBoYXZlIGZvdW5kIHNpZ25pZmljYW50IHN1Y2Nlc3MgYnkgZXhwbG9yaW5nIGVzc2VudGlhbCBwcm9wZXJ0aWVzIG9mIHZpZGVvcywgZS5nLiBzcGVlZCwgdGVtcG9yYWwgLi4uIiwiZGF0ZSI6IkphbiAxMiwgMjAyMiIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiU2VsZi1TdXBlcnZpc2VkIFJlcHJlc2VudGF0aW9uIExlYXJuaW5nIGZyb20gVGVtcG9yYWwgT3JkZXJpbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwMi4wOTA0M3YzIiwic25pcHBldCI6IlZpZGVvIGZlYXR1cmUgbGVhcm5pbmcgZXhwbG9pdHMgdGhlIHRlbXBvcmFsIGNvbnNpc3RlbmN5IGluIHNlcXVlbnRpYWwgZGF0YSBhcyBhIHN1cGVydmlzaW9uIHNpZ25hbCB0byBnZW5lcmF0ZSB2aWRlby0gb3IgZnJhbWUtbGV2ZWwgZW1iZWRkaW5ncy4iLCJkYXRlIjoiTm92IDgsIDIwMjMiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIENvbnRyb2xsYWJsZSBBdWdtZW50YXRpb25zIGZvciBWaWRlbyBSZXByZXNlbnRhdGlvbiBMZWFybmluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjAzLjE2NjMyIiwic25pcHBldCI6IkFic3RyYWN0LiBUaGlzIHBhcGVyIGZvY3VzZXMgb24gc2VsZi1zdXBlcnZpc2VkIHZpZGVvIHJlcHJlc2VudGF0aW9uIGxlYXJuaW5nLiBNb3N0IGV4aXN0aW5nIGFwcHJvYWNoZXMgZm9sbG93IHRoZSBjb250cmFzdGl2ZSBsZWFybmluZyBwaXBlbGluZS4iLCJkYXRlIjoiQXByIDEsIDIwMjIiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIFByb2JhYmlsaXN0aWMgUmVwcmVzZW50YXRpb25zIGZvciBWaWRlbyBDb250cmFzdGl2ZSBMZWFybmluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjA0LjAzOTQ2Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgcHJlc2VudHMgUHJvYmFiaWxpc3RpYyBWaWRlbyBDb250cmFzdGl2ZSBMZWFybmluZywgYSBzZWxmLXN1cGVydmlzZWQgcmVwcmVzZW50YXRpb24gbGVhcm5pbmcgbWV0aG9kIHRoYXQgYnJpZGdlcyBjb250cmFzdGl2ZSBsZWFybmluZyB3aXRoIC4uLiIsImRhdGUiOiJBcHIgMTEsIDIwMjIiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlVuaXZlcnNhbCBUaW1lLVNlcmllcyBSZXByZXNlbnRhdGlvbiBMZWFybmluZzogQSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMDM3MTd2MyIsInNuaXBwZXQiOiJNYW55IHN0dWRpZXMgcHJvcG9zZSB0byB1c2UgYXR0ZW50aW9uLWJhc2VkIG5ldHdvcmtzIG9yIGdyYXBoIG5ldXJhbCBuZXR3b3JrcyB0byBqb2ludGx5IGxlYXJuIHRoZSB0ZW1wb3JhbCBkZXBlbmRlbmNpZXMgaW4gZWFjaCB2YXJpYWJsZSBhbmQgdGhlIGNvcnJlbGF0aW9ucyAuLi4iLCJkYXRlIjoiQXVnIDI3LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJFbmhhbmNpbmcgVW5zdXBlcnZpc2VkIFZpZGVvIFJlcHJlc2VudGF0aW9uIExlYXJuaW5nIGJ5IC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjAwOS4wNTc1N3YzIiwic25pcHBldCI6IldlIGRlc2lnbiB0d28gZWZmZWN0aXZlIHN0cmF0ZWdpZXMgdG8gY29uc3RydWN0IHBvc2l0aXZlIGFuZCBuZWdhdGl2ZSBzYW1wbGUgcGFpcnMgd2hpY2ggY29uc2lkZXIgYm90aCB0aGUgc3BhdGlhbCBhbmQgdGhlIHRlbXBvcmFsIGNoYXJhY3RlcnMgb2YgdGhlIHZpZGVvIGRhdGEgLi4uIiwiZGF0ZSI6IkRlYyAxNiwgMjAyMCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQSBTZWxmLXN1cGVydmlzZWQgVmlkZW8gU3RyYXRlZ3kgdG8gRW5oYW5jZSBBY3Rpb24gUHJlZGljdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4wNDU4OXYyIiwic25pcHBldCI6IlRoZSBhcHByb2FjaCwgbmFtZWQgVGVtcG9yYWwtRElOTywgZW1wbG95cyB0d28gbW9kZWxzOyBhICdzdHVkZW50JyBwcm9jZXNzaW5nIHBhc3QgZnJhbWVzOyBhbmQgYSAndGVhY2hlcicgcHJvY2Vzc2luZyBib3RoIHBhc3QgYW5kIGZ1dHVyZSBmcmFtZXMsIGVuYWJsaW5nIGEgLi4uIiwiZGF0ZSI6IkF1ZyAyMCwgMjAyMyIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gRHVhbCBDb250cmFzdGl2ZSBMZWFybmluZyBmb3IgU3BhdGlvLXRlbXBvcmFsIFJlcHJlc2VudGF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMDcuMDUzNDAiLCJzbmlwcGV0IjoiQUJTVFJBQ1QuIENvbnRyYXN0aXZlIGxlYXJuaW5nIGhhcyBzaG93biBwcm9taXNpbmcgcG90ZW50aWFsIGluIHNlbGYtc3VwZXJ2aXNlZCBzcGF0aW8tdGVtcG9yYWwgcmVwcmVzZW50YXRpb24gbGVhcm5pbmcuIE1vc3Qgd29ya3MgbmFpdmVseSBzYW0tLiIsImRhdGUiOiJKdWwgMTIsIDIwMjIiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkNMSVAyVmlkZW86IE1hc3RlcmluZyBWaWRlby1UZXh0IFJldHJpZXZhbCB2aWEgSW1hZ2UgQ0xJUCAtIGFyNWl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMTA2LjExMDk3Iiwic25pcHBldCI6IldlIG1haW5seSBpbnZlc3RpZ2F0ZSB0aGUgZWZmZWN0aXZlIHRlbXBvcmFsIHJlbGF0aW9uc2hpcHMgYmFzZWQgb24gbXVsdGktbW9kYWwgaW1hZ2UtdGV4dCBsZWFybmluZy4gVmlkZW8tbGFuZ3VhZ2UgTGVhcm5pbmcuIExlYXJuaW5nIHZpc3VhbCByZXByZXNlbnRhdGlvbiAuLi4iLCJkYXRlIjoiSnVuIDIyLCAyMDIxIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJSZXZpc2l0aW5nIEZlYXR1cmUgUHJlZGljdGlvbiBmb3IgTGVhcm5pbmcgVmlzdWFsIFJlcHJlc2VudGF0aW9ucyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjA4NDcxdjEiLCJzbmlwcGV0IjoiT3VyIHJlc3VsdHMgc2hvdyB0aGF0IGxlYXJuaW5nIGJ5IHByZWRpY3RpbmcgdmlkZW8gZmVhdHVyZXMgbGVhZHMgdG8gdmVyc2F0aWxlIHZpc3VhbCByZXByZXNlbnRhdGlvbnMgdGhhdCBwZXJmb3JtIHdlbGwgb24gYm90aCBtb3Rpb24gYW5kIGFwcGVhcmFuY2UtYmFzZWQgLi4uIiwiZGF0ZSI6IkZlYiAxNSwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "d1fc6b1eaf8aedf8d31cb8f9df121b4de53e1b90d2c273e0de60cb325df84a2e",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Research on temporal sampling strategies for video representation learning before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Self-supervised Spatiotemporal Representation Learning by ...",
+                "link": "https://arxiv.org/html/2112.05883v3",
+                "snippet": "Recent self-supervised video representation learning methods have found significant success by exploring essential properties of videos, e.g. speed, temporal ...",
+                "date": "Jan 12, 2022",
+                "position": 1
+              },
+              {
+                "title": "Self-Supervised Representation Learning from Temporal Ordering ...",
+                "link": "https://arxiv.org/html/2302.09043v3",
+                "snippet": "Video feature learning exploits the temporal consistency in sequential data as a supervision signal to generate video- or frame-level embeddings.",
+                "date": "Nov 8, 2023",
+                "position": 2
+              },
+              {
+                "title": "[PDF] Controllable Augmentations for Video Representation Learning - arXiv",
+                "link": "https://arxiv.org/pdf/2203.16632",
+                "snippet": "Abstract. This paper focuses on self-supervised video representation learning. Most existing approaches follow the contrastive learning pipeline.",
+                "date": "Apr 1, 2022",
+                "position": 3
+              },
+              {
+                "title": "[PDF] Probabilistic Representations for Video Contrastive Learning - arXiv",
+                "link": "https://arxiv.org/pdf/2204.03946",
+                "snippet": "This paper presents Probabilistic Video Contrastive Learning, a self-supervised representation learning method that bridges contrastive learning with ...",
+                "date": "Apr 11, 2022",
+                "position": 4
+              },
+              {
+                "title": "Universal Time-Series Representation Learning: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2401.03717v3",
+                "snippet": "Many studies propose to use attention-based networks or graph neural networks to jointly learn the temporal dependencies in each variable and the correlations ...",
+                "date": "Aug 27, 2024",
+                "position": 5
+              },
+              {
+                "title": "Enhancing Unsupervised Video Representation Learning by ... - arXiv",
+                "link": "https://arxiv.org/html/2009.05757v3",
+                "snippet": "We design two effective strategies to construct positive and negative sample pairs which consider both the spatial and the temporal characters of the video data ...",
+                "date": "Dec 16, 2020",
+                "position": 6
+              },
+              {
+                "title": "A Self-supervised Video Strategy to Enhance Action Prediction - arXiv",
+                "link": "https://arxiv.org/html/2308.04589v2",
+                "snippet": "The approach, named Temporal-DINO, employs two models; a 'student' processing past frames; and a 'teacher' processing both past and future frames, enabling a ...",
+                "date": "Aug 20, 2023",
+                "position": 7
+              },
+              {
+                "title": "[PDF] Dual Contrastive Learning for Spatio-temporal Representation - arXiv",
+                "link": "https://arxiv.org/pdf/2207.05340",
+                "snippet": "ABSTRACT. Contrastive learning has shown promising potential in self-supervised spatio-temporal representation learning. Most works naively sam-.",
+                "date": "Jul 12, 2022",
+                "position": 8
+              },
+              {
+                "title": "CLIP2Video: Mastering Video-Text Retrieval via Image CLIP - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2106.11097",
+                "snippet": "We mainly investigate the effective temporal relationships based on multi-modal image-text learning. Video-language Learning. Learning visual representation ...",
+                "date": "Jun 22, 2021",
+                "position": 9
+              },
+              {
+                "title": "Revisiting Feature Prediction for Learning Visual Representations ...",
+                "link": "https://arxiv.org/html/2404.08471v1",
+                "snippet": "Our results show that learning by predicting video features leads to versatile visual representations that perform well on both motion and appearance-based ...",
+                "date": "Feb 15, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:44.641700+00:00",
+          "elapsed_seconds": 1.2524983547627926
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2009.05757",
+        "2106.11097",
+        "2112.05883",
+        "2203.16632",
+        "2204.03946",
+        "2207.05340",
+        "2302.09043",
+        "2308.04589",
+        "2401.03717",
+        "2404.08471"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2112.05883",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2112.05883v3",
+          "title": "Self-supervised Spatiotemporal Representation Learning by ...",
+          "snippet": "Recent self-supervised video representation learning methods have found significant success by exploring essential properties of videos, e.g. speed, temporal ..."
+        },
+        {
+          "arxiv_id": "2302.09043",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2302.09043v3",
+          "title": "Self-Supervised Representation Learning from Temporal Ordering ...",
+          "snippet": "Video feature learning exploits the temporal consistency in sequential data as a supervision signal to generate video- or frame-level embeddings."
+        },
+        {
+          "arxiv_id": "2203.16632",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2203.16632",
+          "title": "[PDF] Controllable Augmentations for Video Representation Learning - arXiv",
+          "snippet": "Abstract. This paper focuses on self-supervised video representation learning. Most existing approaches follow the contrastive learning pipeline."
+        },
+        {
+          "arxiv_id": "2204.03946",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2204.03946",
+          "title": "[PDF] Probabilistic Representations for Video Contrastive Learning - arXiv",
+          "snippet": "This paper presents Probabilistic Video Contrastive Learning, a self-supervised representation learning method that bridges contrastive learning with ..."
+        },
+        {
+          "arxiv_id": "2401.03717",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2401.03717v3",
+          "title": "Universal Time-Series Representation Learning: A Survey - arXiv",
+          "snippet": "Many studies propose to use attention-based networks or graph neural networks to jointly learn the temporal dependencies in each variable and the correlations ..."
+        },
+        {
+          "arxiv_id": "2009.05757",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2009.05757v3",
+          "title": "Enhancing Unsupervised Video Representation Learning by ... - arXiv",
+          "snippet": "We design two effective strategies to construct positive and negative sample pairs which consider both the spatial and the temporal characters of the video data ..."
+        },
+        {
+          "arxiv_id": "2308.04589",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2308.04589v2",
+          "title": "A Self-supervised Video Strategy to Enhance Action Prediction - arXiv",
+          "snippet": "The approach, named Temporal-DINO, employs two models; a 'student' processing past frames; and a 'teacher' processing both past and future frames, enabling a ..."
+        },
+        {
+          "arxiv_id": "2207.05340",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2207.05340",
+          "title": "[PDF] Dual Contrastive Learning for Spatio-temporal Representation - arXiv",
+          "snippet": "ABSTRACT. Contrastive learning has shown promising potential in self-supervised spatio-temporal representation learning. Most works naively sam-."
+        },
+        {
+          "arxiv_id": "2106.11097",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://ar5iv.labs.arxiv.org/html/2106.11097",
+          "title": "CLIP2Video: Mastering Video-Text Retrieval via Image CLIP - ar5iv",
+          "snippet": "We mainly investigate the effective temporal relationships based on multi-modal image-text learning. Video-language Learning. Learning visual representation ..."
+        },
+        {
+          "arxiv_id": "2404.08471",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2404.08471v1",
+          "title": "Revisiting Feature Prediction for Learning Visual Representations ...",
+          "snippet": "Our results show that learning by predicting video features leads to versatile visual representations that perform well on both motion and appearance-based ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Research on temporal sampling strategies for video representation learning before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Studies on efficient frame sampling in video comprehension",
+      "attempts": [
+        {
+          "global_attempt_sequence": 259,
+          "query_id": "Q42",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Studies on efficient frame sampling in video comprehension",
+          "request_payload": {
+            "q": "Studies on efficient frame sampling in video comprehension before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q42_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:30:44.886720+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Studies on efficient frame sampling in video comprehension before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Efficient Long Video Understanding via Large Language Models\",\"link\":\"https://arxiv.org/html/2404.03384v3\",\"snippet\":\"Specifically, we begin by uniformly sampling a sequence of video frames from long-term videos and utilize a pretrained visual encoder, Sampling salient clips ...\",\"date\":\"Jul 20, 2024\",\"position\":1},{\"title\":\"KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv\",\"link\":\"https://arxiv.org/html/2407.03104v1\",\"snippet\":\"KeyVideoLLM achieves a remarkable data compression rate of up to 60.9 times, substantially lowering disk space requirements, which proves its high efficiency.\",\"date\":\"Jul 3, 2024\",\"position\":2},{\"title\":\"The Surprising Effectiveness of Multimodal Large Language Models ...\",\"link\":\"https://arxiv.org/html/2406.18113v2\",\"snippet\":\"The idea of leveraging image-language ・ utilizing a limited number of video frames to enhance learning efficiency has proven effective as evidenced by many ...\",\"date\":\"Jul 24, 2024\",\"position\":3},{\"title\":\"Streaming Long Video Understanding with Large Language Models\",\"link\":\"https://arxiv.org/html/2405.16009v1\",\"snippet\":\"Previous works rely on sparse sampling or frame compression to reduce tokens. We analyzed the challenge of long video understanding … the problem of current ...\",\"date\":\"May 25, 2024\",\"position\":4},{\"title\":\"Zero-shot Video Question Answering Using a VLM - arXiv\",\"link\":\"https://arxiv.org/html/2403.18406v1\",\"snippet\":\"Valley [29] employed temporal modeling and visual encoding to enhance video processing, through frame sampling and feature aggregation.\",\"date\":\"Mar 27, 2024\",\"position\":5},{\"title\":\"Retrieval-Based Video Language Model for Efficient Long ... - arXiv\",\"link\":\"https://arxiv.org/html/2312.04931v1\",\"snippet\":\"Our experimental results validate the effectiveness of our framework for comprehending long videos. Furthermore, based on the retrieved chunks, our model is ...\",\"date\":\"Dec 8, 2023\",\"position\":6},{\"title\":\"Flatten: Video Action Recognition is an Image Classification task\",\"link\":\"https://arxiv.org/html/2408.09220v1\",\"snippet\":\"To bridge the gap between image-understanding and video-understanding tasks while simplifying the complexity of video comprehension, we introduce a novel video ...\",\"date\":\"Aug 17, 2024\",\"position\":7},{\"title\":\"VideoLLM-online: Online Video Large Language Model for ... - arXiv\",\"link\":\"https://arxiv.org/html/2406.11816v1\",\"snippet\":\"During inference, video frames serve as streaming inputs. Our model maintains a continuous key-value cache as the input progresses to speed up the inference.\",\"date\":\"Jun 17, 2024\",\"sitelinks\":[{\"title\":\"3 Method\",\"link\":\"https://arxiv.org/html/2406.11816v1#:~:text=3%20Method,-In%20this%20section%2C%20we\"},{\"title\":\"3.1 Video Streaming Dialogue\",\"link\":\"https://arxiv.org/html/2406.11816v1#:~:text=3.1%20Video%20Streaming%20Dialogue,-Problem%20Formulation.%20Though%20huge\"},{\"title\":\"4 Experiments\",\"link\":\"https://arxiv.org/html/2406.11816v1#:~:text=.-,4%20Experiments\"}],\"position\":8},{\"title\":\"[PDF] arXiv:2403.10517v1 [cs.CV] 15 Mar 2024\",\"link\":\"https://arxiv.org/pdf/2403.10517?\",\"snippet\":\"VideoAgent efficiently identifies the necessary information and answers questions within only two iterations and seven frames, outperforming state-of-the-art ...\",\"date\":\"Mar 15, 2024\",\"position\":9},{\"title\":\"SnAG: Scalable and Accurate Video Grounding - arXiv\",\"link\":\"https://arxiv.org/html/2404.02257v2\",\"snippet\":\"In this paper, we study the effect of cross-modal fusion on the scalability of video grounding models. Our analysis establishes late fusion as a more cost- ...\",\"date\":\"Apr 5, 2024\",\"sitelinks\":[{\"title\":\"Snag: Scalable And Accurate...\",\"link\":\"https://arxiv.org/html/2404.02257v2#:~:text=SnAG%3A%20Scalable%20and%20Accurate%20Video%20Grounding,-Fangzhou%20Mu%20Sicheng%20Mo%20Yin\"},{\"title\":\"3 Scaling Up Video Grounding\",\"link\":\"https://arxiv.org/html/2404.02257v2#:~:text=.-,3%20Scaling%20Up%20Video%20Grounding\"},{\"title\":\"4 Experiments\",\"link\":\"https://arxiv.org/html/2404.02257v2#:~:text=4%20Experiments,-Figure%203%3A%20Visualization%20of\"}],\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdHVkaWVzIG9uIGVmZmljaWVudCBmcmFtZSBzYW1wbGluZyBpbiB2aWRlbyBjb21wcmVoZW5zaW9uIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkVmZmljaWVudCBMb25nIFZpZGVvIFVuZGVyc3RhbmRpbmcgdmlhIExhcmdlIExhbmd1YWdlIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMDMzODR2MyIsInNuaXBwZXQiOiJTcGVjaWZpY2FsbHksIHdlIGJlZ2luIGJ5IHVuaWZvcm1seSBzYW1wbGluZyBhIHNlcXVlbmNlIG9mIHZpZGVvIGZyYW1lcyBmcm9tIGxvbmctdGVybSB2aWRlb3MgYW5kIHV0aWxpemUgYSBwcmV0cmFpbmVkIHZpc3VhbCBlbmNvZGVyLCBTYW1wbGluZyBzYWxpZW50IGNsaXBzIC4uLiIsImRhdGUiOiJKdWwgMjAsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IktleVZpZGVvTExNOiBUb3dhcmRzIExhcmdlLXNjYWxlIFZpZGVvIEtleWZyYW1lIFNlbGVjdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4wMzEwNHYxIiwic25pcHBldCI6IktleVZpZGVvTExNIGFjaGlldmVzIGEgcmVtYXJrYWJsZSBkYXRhIGNvbXByZXNzaW9uIHJhdGUgb2YgdXAgdG8gNjAuOSB0aW1lcywgc3Vic3RhbnRpYWxseSBsb3dlcmluZyBkaXNrIHNwYWNlIHJlcXVpcmVtZW50cywgd2hpY2ggcHJvdmVzIGl0cyBoaWdoIGVmZmljaWVuY3kuIiwiZGF0ZSI6Ikp1bCAzLCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJUaGUgU3VycHJpc2luZyBFZmZlY3RpdmVuZXNzIG9mIE11bHRpbW9kYWwgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTgxMTN2MiIsInNuaXBwZXQiOiJUaGUgaWRlYSBvZiBsZXZlcmFnaW5nIGltYWdlLWxhbmd1YWdlIOODuyB1dGlsaXppbmcgYSBsaW1pdGVkIG51bWJlciBvZiB2aWRlbyBmcmFtZXMgdG8gZW5oYW5jZSBsZWFybmluZyBlZmZpY2llbmN5IGhhcyBwcm92ZW4gZWZmZWN0aXZlIGFzIGV2aWRlbmNlZCBieSBtYW55IC4uLiIsImRhdGUiOiJKdWwgMjQsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IlN0cmVhbWluZyBMb25nIFZpZGVvIFVuZGVyc3RhbmRpbmcgd2l0aCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjE2MDA5djEiLCJzbmlwcGV0IjoiUHJldmlvdXMgd29ya3MgcmVseSBvbiBzcGFyc2Ugc2FtcGxpbmcgb3IgZnJhbWUgY29tcHJlc3Npb24gdG8gcmVkdWNlIHRva2Vucy4gV2UgYW5hbHl6ZWQgdGhlIGNoYWxsZW5nZSBvZiBsb25nIHZpZGVvIHVuZGVyc3RhbmRpbmcg4oCmIHRoZSBwcm9ibGVtIG9mIGN1cnJlbnQgLi4uIiwiZGF0ZSI6Ik1heSAyNSwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiWmVyby1zaG90IFZpZGVvIFF1ZXN0aW9uIEFuc3dlcmluZyBVc2luZyBhIFZMTSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xODQwNnYxIiwic25pcHBldCI6IlZhbGxleSBbMjldIGVtcGxveWVkIHRlbXBvcmFsIG1vZGVsaW5nIGFuZCB2aXN1YWwgZW5jb2RpbmcgdG8gZW5oYW5jZSB2aWRlbyBwcm9jZXNzaW5nLCB0aHJvdWdoIGZyYW1lIHNhbXBsaW5nIGFuZCBmZWF0dXJlIGFnZ3JlZ2F0aW9uLiIsImRhdGUiOiJNYXIgMjcsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IlJldHJpZXZhbC1CYXNlZCBWaWRlbyBMYW5ndWFnZSBNb2RlbCBmb3IgRWZmaWNpZW50IExvbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEyLjA0OTMxdjEiLCJzbmlwcGV0IjoiT3VyIGV4cGVyaW1lbnRhbCByZXN1bHRzIHZhbGlkYXRlIHRoZSBlZmZlY3RpdmVuZXNzIG9mIG91ciBmcmFtZXdvcmsgZm9yIGNvbXByZWhlbmRpbmcgbG9uZyB2aWRlb3MuIEZ1cnRoZXJtb3JlLCBiYXNlZCBvbiB0aGUgcmV0cmlldmVkIGNodW5rcywgb3VyIG1vZGVsIGlzIC4uLiIsImRhdGUiOiJEZWMgOCwgMjAyMyIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiRmxhdHRlbjogVmlkZW8gQWN0aW9uIFJlY29nbml0aW9uIGlzIGFuIEltYWdlIENsYXNzaWZpY2F0aW9uIHRhc2siLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjA5MjIwdjEiLCJzbmlwcGV0IjoiVG8gYnJpZGdlIHRoZSBnYXAgYmV0d2VlbiBpbWFnZS11bmRlcnN0YW5kaW5nIGFuZCB2aWRlby11bmRlcnN0YW5kaW5nIHRhc2tzIHdoaWxlIHNpbXBsaWZ5aW5nIHRoZSBjb21wbGV4aXR5IG9mIHZpZGVvIGNvbXByZWhlbnNpb24sIHdlIGludHJvZHVjZSBhIG5vdmVsIHZpZGVvIC4uLiIsImRhdGUiOiJBdWcgMTcsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlZpZGVvTExNLW9ubGluZTogT25saW5lIFZpZGVvIExhcmdlIExhbmd1YWdlIE1vZGVsIGZvciAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTE4MTZ2MSIsInNuaXBwZXQiOiJEdXJpbmcgaW5mZXJlbmNlLCB2aWRlbyBmcmFtZXMgc2VydmUgYXMgc3RyZWFtaW5nIGlucHV0cy4gT3VyIG1vZGVsIG1haW50YWlucyBhIGNvbnRpbnVvdXMga2V5LXZhbHVlIGNhY2hlIGFzIHRoZSBpbnB1dCBwcm9ncmVzc2VzIHRvIHNwZWVkIHVwIHRoZSBpbmZlcmVuY2UuIiwiZGF0ZSI6Ikp1biAxNywgMjAyNCIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiIzIE1ldGhvZCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTE4MTZ2MSM6fjp0ZXh0PTMlMjBNZXRob2QsLUluJTIwdGhpcyUyMHNlY3Rpb24lMkMlMjB3ZSJ9LHsidGl0bGUiOiIzLjEgVmlkZW8gU3RyZWFtaW5nIERpYWxvZ3VlIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4xMTgxNnYxIzp+OnRleHQ9My4xJTIwVmlkZW8lMjBTdHJlYW1pbmclMjBEaWFsb2d1ZSwtUHJvYmxlbSUyMEZvcm11bGF0aW9uLiUyMFRob3VnaCUyMGh1Z2UifSx7InRpdGxlIjoiNCBFeHBlcmltZW50cyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTE4MTZ2MSM6fjp0ZXh0PS4tLDQlMjBFeHBlcmltZW50cyJ9XSwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDAzLjEwNTE3djEgW2NzLkNWXSAxNSBNYXIgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMy4xMDUxNz8iLCJzbmlwcGV0IjoiVmlkZW9BZ2VudCBlZmZpY2llbnRseSBpZGVudGlmaWVzIHRoZSBuZWNlc3NhcnkgaW5mb3JtYXRpb24gYW5kIGFuc3dlcnMgcXVlc3Rpb25zIHdpdGhpbiBvbmx5IHR3byBpdGVyYXRpb25zIGFuZCBzZXZlbiBmcmFtZXMsIG91dHBlcmZvcm1pbmcgc3RhdGUtb2YtdGhlLWFydCAuLi4iLCJkYXRlIjoiTWFyIDE1LCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJTbkFHOiBTY2FsYWJsZSBhbmQgQWNjdXJhdGUgVmlkZW8gR3JvdW5kaW5nIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjAyMjU3djIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2Ugc3R1ZHkgdGhlIGVmZmVjdCBvZiBjcm9zcy1tb2RhbCBmdXNpb24gb24gdGhlIHNjYWxhYmlsaXR5IG9mIHZpZGVvIGdyb3VuZGluZyBtb2RlbHMuIE91ciBhbmFseXNpcyBlc3RhYmxpc2hlcyBsYXRlIGZ1c2lvbiBhcyBhIG1vcmUgY29zdC0gLi4uIiwiZGF0ZSI6IkFwciA1LCAyMDI0Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IlNuYWc6IFNjYWxhYmxlIEFuZCBBY2N1cmF0ZS4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMDIyNTd2MiM6fjp0ZXh0PVNuQUclM0ElMjBTY2FsYWJsZSUyMGFuZCUyMEFjY3VyYXRlJTIwVmlkZW8lMjBHcm91bmRpbmcsLUZhbmd6aG91JTIwTXUlMjBTaWNoZW5nJTIwTW8lMjBZaW4ifSx7InRpdGxlIjoiMyBTY2FsaW5nIFVwIFZpZGVvIEdyb3VuZGluZyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMDIyNTd2MiM6fjp0ZXh0PS4tLDMlMjBTY2FsaW5nJTIwVXAlMjBWaWRlbyUyMEdyb3VuZGluZyJ9LHsidGl0bGUiOiI0IEV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4wMjI1N3YyIzp+OnRleHQ9NCUyMEV4cGVyaW1lbnRzLC1GaWd1cmUlMjAzJTNBJTIwVmlzdWFsaXphdGlvbiUyMG9mIn1dLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "52a61bde21ed332c489b7b1b9bb80ded1eaf5f17e49d806ef1426712ccb64ee1",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Studies on efficient frame sampling in video comprehension before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Efficient Long Video Understanding via Large Language Models",
+                "link": "https://arxiv.org/html/2404.03384v3",
+                "snippet": "Specifically, we begin by uniformly sampling a sequence of video frames from long-term videos and utilize a pretrained visual encoder, Sampling salient clips ...",
+                "date": "Jul 20, 2024",
+                "position": 1
+              },
+              {
+                "title": "KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv",
+                "link": "https://arxiv.org/html/2407.03104v1",
+                "snippet": "KeyVideoLLM achieves a remarkable data compression rate of up to 60.9 times, substantially lowering disk space requirements, which proves its high efficiency.",
+                "date": "Jul 3, 2024",
+                "position": 2
+              },
+              {
+                "title": "The Surprising Effectiveness of Multimodal Large Language Models ...",
+                "link": "https://arxiv.org/html/2406.18113v2",
+                "snippet": "The idea of leveraging image-language ・ utilizing a limited number of video frames to enhance learning efficiency has proven effective as evidenced by many ...",
+                "date": "Jul 24, 2024",
+                "position": 3
+              },
+              {
+                "title": "Streaming Long Video Understanding with Large Language Models",
+                "link": "https://arxiv.org/html/2405.16009v1",
+                "snippet": "Previous works rely on sparse sampling or frame compression to reduce tokens. We analyzed the challenge of long video understanding … the problem of current ...",
+                "date": "May 25, 2024",
+                "position": 4
+              },
+              {
+                "title": "Zero-shot Video Question Answering Using a VLM - arXiv",
+                "link": "https://arxiv.org/html/2403.18406v1",
+                "snippet": "Valley [29] employed temporal modeling and visual encoding to enhance video processing, through frame sampling and feature aggregation.",
+                "date": "Mar 27, 2024",
+                "position": 5
+              },
+              {
+                "title": "Retrieval-Based Video Language Model for Efficient Long ... - arXiv",
+                "link": "https://arxiv.org/html/2312.04931v1",
+                "snippet": "Our experimental results validate the effectiveness of our framework for comprehending long videos. Furthermore, based on the retrieved chunks, our model is ...",
+                "date": "Dec 8, 2023",
+                "position": 6
+              },
+              {
+                "title": "Flatten: Video Action Recognition is an Image Classification task",
+                "link": "https://arxiv.org/html/2408.09220v1",
+                "snippet": "To bridge the gap between image-understanding and video-understanding tasks while simplifying the complexity of video comprehension, we introduce a novel video ...",
+                "date": "Aug 17, 2024",
+                "position": 7
+              },
+              {
+                "title": "VideoLLM-online: Online Video Large Language Model for ... - arXiv",
+                "link": "https://arxiv.org/html/2406.11816v1",
+                "snippet": "During inference, video frames serve as streaming inputs. Our model maintains a continuous key-value cache as the input progresses to speed up the inference.",
+                "date": "Jun 17, 2024",
+                "sitelinks": [
+                  {
+                    "title": "3 Method",
+                    "link": "https://arxiv.org/html/2406.11816v1#:~:text=3%20Method,-In%20this%20section%2C%20we"
+                  },
+                  {
+                    "title": "3.1 Video Streaming Dialogue",
+                    "link": "https://arxiv.org/html/2406.11816v1#:~:text=3.1%20Video%20Streaming%20Dialogue,-Problem%20Formulation.%20Though%20huge"
+                  },
+                  {
+                    "title": "4 Experiments",
+                    "link": "https://arxiv.org/html/2406.11816v1#:~:text=.-,4%20Experiments"
+                  }
+                ],
+                "position": 8
+              },
+              {
+                "title": "[PDF] arXiv:2403.10517v1 [cs.CV] 15 Mar 2024",
+                "link": "https://arxiv.org/pdf/2403.10517?",
+                "snippet": "VideoAgent efficiently identifies the necessary information and answers questions within only two iterations and seven frames, outperforming state-of-the-art ...",
+                "date": "Mar 15, 2024",
+                "position": 9
+              },
+              {
+                "title": "SnAG: Scalable and Accurate Video Grounding - arXiv",
+                "link": "https://arxiv.org/html/2404.02257v2",
+                "snippet": "In this paper, we study the effect of cross-modal fusion on the scalability of video grounding models. Our analysis establishes late fusion as a more cost- ...",
+                "date": "Apr 5, 2024",
+                "sitelinks": [
+                  {
+                    "title": "Snag: Scalable And Accurate...",
+                    "link": "https://arxiv.org/html/2404.02257v2#:~:text=SnAG%3A%20Scalable%20and%20Accurate%20Video%20Grounding,-Fangzhou%20Mu%20Sicheng%20Mo%20Yin"
+                  },
+                  {
+                    "title": "3 Scaling Up Video Grounding",
+                    "link": "https://arxiv.org/html/2404.02257v2#:~:text=.-,3%20Scaling%20Up%20Video%20Grounding"
+                  },
+                  {
+                    "title": "4 Experiments",
+                    "link": "https://arxiv.org/html/2404.02257v2#:~:text=4%20Experiments,-Figure%203%3A%20Visualization%20of"
+                  }
+                ],
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:45.838373+00:00",
+          "elapsed_seconds": 0.9516482837498188
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2312.04931",
+        "2403.10517",
+        "2403.18406",
+        "2404.02257",
+        "2404.03384",
+        "2405.16009",
+        "2406.11816",
+        "2406.18113",
+        "2407.03104",
+        "2408.09220"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2404.03384",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2404.03384v3",
+          "title": "Efficient Long Video Understanding via Large Language Models",
+          "snippet": "Specifically, we begin by uniformly sampling a sequence of video frames from long-term videos and utilize a pretrained visual encoder, Sampling salient clips ..."
+        },
+        {
+          "arxiv_id": "2407.03104",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2407.03104v1",
+          "title": "KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv",
+          "snippet": "KeyVideoLLM achieves a remarkable data compression rate of up to 60.9 times, substantially lowering disk space requirements, which proves its high efficiency."
+        },
+        {
+          "arxiv_id": "2406.18113",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2406.18113v2",
+          "title": "The Surprising Effectiveness of Multimodal Large Language Models ...",
+          "snippet": "The idea of leveraging image-language ・ utilizing a limited number of video frames to enhance learning efficiency has proven effective as evidenced by many ..."
+        },
+        {
+          "arxiv_id": "2405.16009",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2405.16009v1",
+          "title": "Streaming Long Video Understanding with Large Language Models",
+          "snippet": "Previous works rely on sparse sampling or frame compression to reduce tokens. We analyzed the challenge of long video understanding … the problem of current ..."
+        },
+        {
+          "arxiv_id": "2403.18406",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2403.18406v1",
+          "title": "Zero-shot Video Question Answering Using a VLM - arXiv",
+          "snippet": "Valley [29] employed temporal modeling and visual encoding to enhance video processing, through frame sampling and feature aggregation."
+        },
+        {
+          "arxiv_id": "2312.04931",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2312.04931v1",
+          "title": "Retrieval-Based Video Language Model for Efficient Long ... - arXiv",
+          "snippet": "Our experimental results validate the effectiveness of our framework for comprehending long videos. Furthermore, based on the retrieved chunks, our model is ..."
+        },
+        {
+          "arxiv_id": "2408.09220",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2408.09220v1",
+          "title": "Flatten: Video Action Recognition is an Image Classification task",
+          "snippet": "To bridge the gap between image-understanding and video-understanding tasks while simplifying the complexity of video comprehension, we introduce a novel video ..."
+        },
+        {
+          "arxiv_id": "2406.11816",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2406.11816v1",
+          "title": "VideoLLM-online: Online Video Large Language Model for ... - arXiv",
+          "snippet": "During inference, video frames serve as streaming inputs. Our model maintains a continuous key-value cache as the input progresses to speed up the inference."
+        },
+        {
+          "arxiv_id": "2403.10517",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2403.10517?",
+          "title": "[PDF] arXiv:2403.10517v1 [cs.CV] 15 Mar 2024",
+          "snippet": "VideoAgent efficiently identifies the necessary information and answers questions within only two iterations and seven frames, outperforming state-of-the-art ..."
+        },
+        {
+          "arxiv_id": "2404.02257",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2404.02257v2",
+          "title": "SnAG: Scalable and Accurate Video Grounding - arXiv",
+          "snippet": "In this paper, we study the effect of cross-modal fusion on the scalability of video grounding models. Our analysis establishes late fusion as a more cost- ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Studies on efficient frame sampling in video comprehension before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Papers on automated video summary generation using frame selection",
+      "attempts": [
+        {
+          "global_attempt_sequence": 260,
+          "query_id": "Q42",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Papers on automated video summary generation using frame selection",
+          "request_payload": {
+            "q": "Papers on automated video summary generation using frame selection before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q42_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:30:46.085122+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Papers on automated video summary generation using frame selection before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Scaling Up Video Summarization Pretraining with Large Language ...\",\"link\":\"https://arxiv.org/html/2404.03398v1\",\"snippet\":\"We introduce an automated and scalable pipeline for generating a large-scale video summarization dataset using LLMs as Oracle summarizers.\",\"date\":\"Apr 4, 2024\",\"position\":1},{\"title\":\"Exploring Global Diversity and Local Context for Video Summarization\",\"link\":\"https://arxiv.org/html/2201.11345v2\",\"snippet\":\"Abstract. Video summarization aims to automatically generate a diverse and concise summary which is useful in large-scale video processing.\",\"date\":\"Mar 27, 2022\",\"position\":2},{\"title\":\"Cluster-based Video Summarization with Temporal Context ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.04511v1\",\"snippet\":\"Cluster-based video summarization methods utilize the concept of grouping similar frames or shots into clusters and selecting representative keyframes\",\"date\":\"Apr 6, 2024\",\"position\":3},{\"title\":\"Rethinking the Evaluation of Video Summaries - arXiv\",\"link\":\"https://arxiv.org/html/1903.11328v2\",\"snippet\":\"In this paper, we will provide in-depth assessment of this pipeline. The orange areas indicate the frames selected for the final summary. Automated video ...\",\"date\":\"Apr 11, 2019\",\"position\":4},{\"title\":\"Video Summarization with Attention-Based Encoder-Decoder ... - arXiv\",\"link\":\"https://arxiv.org/html/1708.09545v2\",\"snippet\":\"Specifically, the generator is an autoencoder LSTM. Its goal is to select video frames and decode the obtained summarization for reconstructing the input video.\",\"date\":\"Apr 16, 2018\",\"position\":5},{\"title\":\"[PDF] Video Summarization Overview arXiv:2210.11707v1 [cs.CV] 21 Oct ...\",\"link\":\"https://arxiv.org/pdf/2210.11707\",\"snippet\":\"Important segments or frames can be accompanied by visually similar du- plicates. To select one from such duplicates, segment or frame selection is optimized ...\",\"date\":\"Oct 21, 2022\",\"position\":6},{\"title\":\"Visual Representation Learning with Stochastic Frame Prediction\",\"link\":\"https://arxiv.org/html/2406.07398v1\",\"snippet\":\"To tackle this challenge, in this paper, we revisit the idea of stochastic video generation that learns to capture uncertainty in frame prediction and explore ...\",\"date\":\"Jun 11, 2024\",\"position\":7},{\"title\":\"A Survey on Generative AI and LLM for Video Generation ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.16038v1\",\"snippet\":\"This paper offers an insightful examination of how currently top-trending AI technologies, are reshaping the field of video technology, including video ...\",\"date\":\"Jan 30, 2024\",\"sitelinks\":[{\"title\":\"Iv Technologies\",\"link\":\"https://arxiv.org/html/2404.16038v1#:~:text=.-,IV%20Technologies\"},{\"title\":\"Iv-A Generative Ai For Video...\",\"link\":\"https://arxiv.org/html/2404.16038v1#:~:text=IV%2DA%20Generative%20AI%20for%20Video%20Content%20Generation,-Generative%20AI%20has%20emerged%20as\"},{\"title\":\"V Applications\",\"link\":\"https://arxiv.org/html/2404.16038v1#:~:text=.-,V%20Applications\"}],\"position\":8},{\"title\":\"[PDF] Self-Attention Based Generative Adversarial Networks For ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2307.08145\",\"snippet\":\"Abstract—In this paper, we study the problem of producing a comprehensive video summary following an unsupervised approach that relies on adversarial ...\",\"date\":\"Jul 16, 2023\",\"position\":9},{\"title\":\"Abstractive Text Summarization: State of the Art, Challenges ... - arXiv\",\"link\":\"https://arxiv.org/html/2409.02413v1\",\"snippet\":\"[125] introduced Video-based Multimodal Summarization with Multimodal Output (VMSMO) to automatically select a video cover frame and generate a text summary ...\",\"date\":\"Sep 4, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJQYXBlcnMgb24gYXV0b21hdGVkIHZpZGVvIHN1bW1hcnkgZ2VuZXJhdGlvbiB1c2luZyBmcmFtZSBzZWxlY3Rpb24gYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiU2NhbGluZyBVcCBWaWRlbyBTdW1tYXJpemF0aW9uIFByZXRyYWluaW5nIHdpdGggTGFyZ2UgTGFuZ3VhZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4wMzM5OHYxIiwic25pcHBldCI6IldlIGludHJvZHVjZSBhbiBhdXRvbWF0ZWQgYW5kIHNjYWxhYmxlIHBpcGVsaW5lIGZvciBnZW5lcmF0aW5nIGEgbGFyZ2Utc2NhbGUgdmlkZW8gc3VtbWFyaXphdGlvbiBkYXRhc2V0IHVzaW5nIExMTXMgYXMgT3JhY2xlIHN1bW1hcml6ZXJzLiIsImRhdGUiOiJBcHIgNCwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiRXhwbG9yaW5nIEdsb2JhbCBEaXZlcnNpdHkgYW5kIExvY2FsIENvbnRleHQgZm9yIFZpZGVvIFN1bW1hcml6YXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjAxLjExMzQ1djIiLCJzbmlwcGV0IjoiQWJzdHJhY3QuIFZpZGVvIHN1bW1hcml6YXRpb24gYWltcyB0byBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlIGEgZGl2ZXJzZSBhbmQgY29uY2lzZSBzdW1tYXJ5IHdoaWNoIGlzIHVzZWZ1bCBpbiBsYXJnZS1zY2FsZSB2aWRlbyBwcm9jZXNzaW5nLiIsImRhdGUiOiJNYXIgMjcsIDIwMjIiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkNsdXN0ZXItYmFzZWQgVmlkZW8gU3VtbWFyaXphdGlvbiB3aXRoIFRlbXBvcmFsIENvbnRleHQgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjA0NTExdjEiLCJzbmlwcGV0IjoiQ2x1c3Rlci1iYXNlZCB2aWRlbyBzdW1tYXJpemF0aW9uIG1ldGhvZHMgdXRpbGl6ZSB0aGUgY29uY2VwdCBvZiBncm91cGluZyBzaW1pbGFyIGZyYW1lcyBvciBzaG90cyBpbnRvIGNsdXN0ZXJzIGFuZCBzZWxlY3RpbmcgcmVwcmVzZW50YXRpdmUga2V5ZnJhbWVzIiwiZGF0ZSI6IkFwciA2LCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJSZXRoaW5raW5nIHRoZSBFdmFsdWF0aW9uIG9mIFZpZGVvIFN1bW1hcmllcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTkwMy4xMTMyOHYyIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHdpbGwgcHJvdmlkZSBpbi1kZXB0aCBhc3Nlc3NtZW50IG9mIHRoaXMgcGlwZWxpbmUuIFRoZSBvcmFuZ2UgYXJlYXMgaW5kaWNhdGUgdGhlIGZyYW1lcyBzZWxlY3RlZCBmb3IgdGhlIGZpbmFsIHN1bW1hcnkuIEF1dG9tYXRlZCB2aWRlbyAuLi4iLCJkYXRlIjoiQXByIDExLCAyMDE5IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJWaWRlbyBTdW1tYXJpemF0aW9uIHdpdGggQXR0ZW50aW9uLUJhc2VkIEVuY29kZXItRGVjb2RlciAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE3MDguMDk1NDV2MiIsInNuaXBwZXQiOiJTcGVjaWZpY2FsbHksIHRoZSBnZW5lcmF0b3IgaXMgYW4gYXV0b2VuY29kZXIgTFNUTS4gSXRzIGdvYWwgaXMgdG8gc2VsZWN0IHZpZGVvIGZyYW1lcyBhbmQgZGVjb2RlIHRoZSBvYnRhaW5lZCBzdW1tYXJpemF0aW9uIGZvciByZWNvbnN0cnVjdGluZyB0aGUgaW5wdXQgdmlkZW8uIiwiZGF0ZSI6IkFwciAxNiwgMjAxOCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiW1BERl0gVmlkZW8gU3VtbWFyaXphdGlvbiBPdmVydmlldyBhclhpdjoyMjEwLjExNzA3djEgW2NzLkNWXSAyMSBPY3QgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjEwLjExNzA3Iiwic25pcHBldCI6IkltcG9ydGFudCBzZWdtZW50cyBvciBmcmFtZXMgY2FuIGJlIGFjY29tcGFuaWVkIGJ5IHZpc3VhbGx5IHNpbWlsYXIgZHUtIHBsaWNhdGVzLiBUbyBzZWxlY3Qgb25lIGZyb20gc3VjaCBkdXBsaWNhdGVzLCBzZWdtZW50IG9yIGZyYW1lIHNlbGVjdGlvbiBpcyBvcHRpbWl6ZWQgLi4uIiwiZGF0ZSI6Ik9jdCAyMSwgMjAyMiIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiVmlzdWFsIFJlcHJlc2VudGF0aW9uIExlYXJuaW5nIHdpdGggU3RvY2hhc3RpYyBGcmFtZSBQcmVkaWN0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4wNzM5OHYxIiwic25pcHBldCI6IlRvIHRhY2tsZSB0aGlzIGNoYWxsZW5nZSwgaW4gdGhpcyBwYXBlciwgd2UgcmV2aXNpdCB0aGUgaWRlYSBvZiBzdG9jaGFzdGljIHZpZGVvIGdlbmVyYXRpb24gdGhhdCBsZWFybnMgdG8gY2FwdHVyZSB1bmNlcnRhaW50eSBpbiBmcmFtZSBwcmVkaWN0aW9uIGFuZCBleHBsb3JlIC4uLiIsImRhdGUiOiJKdW4gMTEsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkEgU3VydmV5IG9uIEdlbmVyYXRpdmUgQUkgYW5kIExMTSBmb3IgVmlkZW8gR2VuZXJhdGlvbiAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMTYwMzh2MSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIG9mZmVycyBhbiBpbnNpZ2h0ZnVsIGV4YW1pbmF0aW9uIG9mIGhvdyBjdXJyZW50bHkgdG9wLXRyZW5kaW5nIEFJIHRlY2hub2xvZ2llcywgYXJlIHJlc2hhcGluZyB0aGUgZmllbGQgb2YgdmlkZW8gdGVjaG5vbG9neSwgaW5jbHVkaW5nIHZpZGVvIC4uLiIsImRhdGUiOiJKYW4gMzAsIDIwMjQiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiSXYgVGVjaG5vbG9naWVzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4xNjAzOHYxIzp+OnRleHQ9Li0sSVYlMjBUZWNobm9sb2dpZXMifSx7InRpdGxlIjoiSXYtQSBHZW5lcmF0aXZlIEFpIEZvciBWaWRlby4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMTYwMzh2MSM6fjp0ZXh0PUlWJTJEQSUyMEdlbmVyYXRpdmUlMjBBSSUyMGZvciUyMFZpZGVvJTIwQ29udGVudCUyMEdlbmVyYXRpb24sLUdlbmVyYXRpdmUlMjBBSSUyMGhhcyUyMGVtZXJnZWQlMjBhcyJ9LHsidGl0bGUiOiJWIEFwcGxpY2F0aW9ucyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDQuMTYwMzh2MSM6fjp0ZXh0PS4tLFYlMjBBcHBsaWNhdGlvbnMifV0sInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gU2VsZi1BdHRlbnRpb24gQmFzZWQgR2VuZXJhdGl2ZSBBZHZlcnNhcmlhbCBOZXR3b3JrcyBGb3IgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDcuMDgxNDUiLCJzbmlwcGV0IjoiQWJzdHJhY3TigJRJbiB0aGlzIHBhcGVyLCB3ZSBzdHVkeSB0aGUgcHJvYmxlbSBvZiBwcm9kdWNpbmcgYSBjb21wcmVoZW5zaXZlIHZpZGVvIHN1bW1hcnkgZm9sbG93aW5nIGFuIHVuc3VwZXJ2aXNlZCBhcHByb2FjaCB0aGF0IHJlbGllcyBvbiBhZHZlcnNhcmlhbCAuLi4iLCJkYXRlIjoiSnVsIDE2LCAyMDIzIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJBYnN0cmFjdGl2ZSBUZXh0IFN1bW1hcml6YXRpb246IFN0YXRlIG9mIHRoZSBBcnQsIENoYWxsZW5nZXMgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA5LjAyNDEzdjEiLCJzbmlwcGV0IjoiWzEyNV0gaW50cm9kdWNlZCBWaWRlby1iYXNlZCBNdWx0aW1vZGFsIFN1bW1hcml6YXRpb24gd2l0aCBNdWx0aW1vZGFsIE91dHB1dCAoVk1TTU8pIHRvIGF1dG9tYXRpY2FsbHkgc2VsZWN0IGEgdmlkZW8gY292ZXIgZnJhbWUgYW5kIGdlbmVyYXRlIGEgdGV4dCBzdW1tYXJ5IC4uLiIsImRhdGUiOiJTZXAgNCwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "ae4b0388c924be9868d4cbde4cf268ffeec89b3d20dafc6eeb0aa970d3968982",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Papers on automated video summary generation using frame selection before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Scaling Up Video Summarization Pretraining with Large Language ...",
+                "link": "https://arxiv.org/html/2404.03398v1",
+                "snippet": "We introduce an automated and scalable pipeline for generating a large-scale video summarization dataset using LLMs as Oracle summarizers.",
+                "date": "Apr 4, 2024",
+                "position": 1
+              },
+              {
+                "title": "Exploring Global Diversity and Local Context for Video Summarization",
+                "link": "https://arxiv.org/html/2201.11345v2",
+                "snippet": "Abstract. Video summarization aims to automatically generate a diverse and concise summary which is useful in large-scale video processing.",
+                "date": "Mar 27, 2022",
+                "position": 2
+              },
+              {
+                "title": "Cluster-based Video Summarization with Temporal Context ... - arXiv",
+                "link": "https://arxiv.org/html/2404.04511v1",
+                "snippet": "Cluster-based video summarization methods utilize the concept of grouping similar frames or shots into clusters and selecting representative keyframes",
+                "date": "Apr 6, 2024",
+                "position": 3
+              },
+              {
+                "title": "Rethinking the Evaluation of Video Summaries - arXiv",
+                "link": "https://arxiv.org/html/1903.11328v2",
+                "snippet": "In this paper, we will provide in-depth assessment of this pipeline. The orange areas indicate the frames selected for the final summary. Automated video ...",
+                "date": "Apr 11, 2019",
+                "position": 4
+              },
+              {
+                "title": "Video Summarization with Attention-Based Encoder-Decoder ... - arXiv",
+                "link": "https://arxiv.org/html/1708.09545v2",
+                "snippet": "Specifically, the generator is an autoencoder LSTM. Its goal is to select video frames and decode the obtained summarization for reconstructing the input video.",
+                "date": "Apr 16, 2018",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Video Summarization Overview arXiv:2210.11707v1 [cs.CV] 21 Oct ...",
+                "link": "https://arxiv.org/pdf/2210.11707",
+                "snippet": "Important segments or frames can be accompanied by visually similar du- plicates. To select one from such duplicates, segment or frame selection is optimized ...",
+                "date": "Oct 21, 2022",
+                "position": 6
+              },
+              {
+                "title": "Visual Representation Learning with Stochastic Frame Prediction",
+                "link": "https://arxiv.org/html/2406.07398v1",
+                "snippet": "To tackle this challenge, in this paper, we revisit the idea of stochastic video generation that learns to capture uncertainty in frame prediction and explore ...",
+                "date": "Jun 11, 2024",
+                "position": 7
+              },
+              {
+                "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+                "link": "https://arxiv.org/html/2404.16038v1",
+                "snippet": "This paper offers an insightful examination of how currently top-trending AI technologies, are reshaping the field of video technology, including video ...",
+                "date": "Jan 30, 2024",
+                "sitelinks": [
+                  {
+                    "title": "Iv Technologies",
+                    "link": "https://arxiv.org/html/2404.16038v1#:~:text=.-,IV%20Technologies"
+                  },
+                  {
+                    "title": "Iv-A Generative Ai For Video...",
+                    "link": "https://arxiv.org/html/2404.16038v1#:~:text=IV%2DA%20Generative%20AI%20for%20Video%20Content%20Generation,-Generative%20AI%20has%20emerged%20as"
+                  },
+                  {
+                    "title": "V Applications",
+                    "link": "https://arxiv.org/html/2404.16038v1#:~:text=.-,V%20Applications"
+                  }
+                ],
+                "position": 8
+              },
+              {
+                "title": "[PDF] Self-Attention Based Generative Adversarial Networks For ... - arXiv",
+                "link": "https://arxiv.org/pdf/2307.08145",
+                "snippet": "Abstract—In this paper, we study the problem of producing a comprehensive video summary following an unsupervised approach that relies on adversarial ...",
+                "date": "Jul 16, 2023",
+                "position": 9
+              },
+              {
+                "title": "Abstractive Text Summarization: State of the Art, Challenges ... - arXiv",
+                "link": "https://arxiv.org/html/2409.02413v1",
+                "snippet": "[125] introduced Video-based Multimodal Summarization with Multimodal Output (VMSMO) to automatically select a video cover frame and generate a text summary ...",
+                "date": "Sep 4, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:47.530872+00:00",
+          "elapsed_seconds": 1.4457491151988506
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1708.09545",
+        "1903.11328",
+        "2201.11345",
+        "2210.11707",
+        "2307.08145",
+        "2404.03398",
+        "2404.04511",
+        "2404.16038",
+        "2406.07398",
+        "2409.02413"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2404.03398",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2404.03398v1",
+          "title": "Scaling Up Video Summarization Pretraining with Large Language ...",
+          "snippet": "We introduce an automated and scalable pipeline for generating a large-scale video summarization dataset using LLMs as Oracle summarizers."
+        },
+        {
+          "arxiv_id": "2201.11345",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2201.11345v2",
+          "title": "Exploring Global Diversity and Local Context for Video Summarization",
+          "snippet": "Abstract. Video summarization aims to automatically generate a diverse and concise summary which is useful in large-scale video processing."
+        },
+        {
+          "arxiv_id": "2404.04511",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2404.04511v1",
+          "title": "Cluster-based Video Summarization with Temporal Context ... - arXiv",
+          "snippet": "Cluster-based video summarization methods utilize the concept of grouping similar frames or shots into clusters and selecting representative keyframes"
+        },
+        {
+          "arxiv_id": "1903.11328",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/1903.11328v2",
+          "title": "Rethinking the Evaluation of Video Summaries - arXiv",
+          "snippet": "In this paper, we will provide in-depth assessment of this pipeline. The orange areas indicate the frames selected for the final summary. Automated video ..."
+        },
+        {
+          "arxiv_id": "1708.09545",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/1708.09545v2",
+          "title": "Video Summarization with Attention-Based Encoder-Decoder ... - arXiv",
+          "snippet": "Specifically, the generator is an autoencoder LSTM. Its goal is to select video frames and decode the obtained summarization for reconstructing the input video."
+        },
+        {
+          "arxiv_id": "2210.11707",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2210.11707",
+          "title": "[PDF] Video Summarization Overview arXiv:2210.11707v1 [cs.CV] 21 Oct ...",
+          "snippet": "Important segments or frames can be accompanied by visually similar du- plicates. To select one from such duplicates, segment or frame selection is optimized ..."
+        },
+        {
+          "arxiv_id": "2406.07398",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2406.07398v1",
+          "title": "Visual Representation Learning with Stochastic Frame Prediction",
+          "snippet": "To tackle this challenge, in this paper, we revisit the idea of stochastic video generation that learns to capture uncertainty in frame prediction and explore ..."
+        },
+        {
+          "arxiv_id": "2404.16038",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2404.16038v1",
+          "title": "A Survey on Generative AI and LLM for Video Generation ... - arXiv",
+          "snippet": "This paper offers an insightful examination of how currently top-trending AI technologies, are reshaping the field of video technology, including video ..."
+        },
+        {
+          "arxiv_id": "2307.08145",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2307.08145",
+          "title": "[PDF] Self-Attention Based Generative Adversarial Networks For ... - arXiv",
+          "snippet": "Abstract—In this paper, we study the problem of producing a comprehensive video summary following an unsupervised approach that relies on adversarial ..."
+        },
+        {
+          "arxiv_id": "2409.02413",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2409.02413v1",
+          "title": "Abstractive Text Summarization: State of the Art, Challenges ... - arXiv",
+          "snippet": "[125] introduced Video-based Multimodal Summarization with Multimodal Output (VMSMO) to automatically select a video cover frame and generate a text summary ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Papers on automated video summary generation using frame selection before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "Show me research on how to select frames when doing video understanding.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 261,
+          "query_id": "Q42",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "Show me research on how to select frames when doing video understanding.",
+          "request_payload": {
+            "q": "Show me research on how to select frames when doing video understanding. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q42_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:30:47.773349+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Show me research on how to select frames when doing video understanding. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"An Empirical Comparison of Video Frame Sampling Methods ... - arXiv\",\"link\":\"https://arxiv.org/html/2408.03340v1\",\"snippet\":\"Video frame sampling involves selection of distinct frames that capture the essence of a video and eliminate any redundant frames.\",\"date\":\"Jul 22, 2024\",\"position\":1},{\"title\":\"An Empirical Study of Frame Selection for Text-to-Video Retrieval\",\"link\":\"https://arxiv.org/abs/2311.00298\",\"snippet\":\"We systemically classify existing frame selection methods into text-free and text-guided ones, under which we detailedly analyze six different frame selections ...\",\"date\":\"Nov 1, 2023\",\"position\":2},{\"title\":\"KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv\",\"link\":\"https://arxiv.org/html/2407.03104v1\",\"snippet\":\"To the best of our knowledge, this study is the first to select video frames using text-video frames matching for training VideoLLMs. We categorize frame ...\",\"date\":\"Jul 3, 2024\",\"position\":3},{\"title\":\"Video ChatCaptioner:Towards Enriched Spatiotemporal Descriptions\",\"link\":\"https://arxiv.org/html/2304.04227v3\",\"snippet\":\"This approach allows the model to select the frames based on the current context to maximize its understanding of the whole video content.\",\"date\":\"May 24, 2023\",\"position\":4},{\"title\":\"Learning a Condensed Frame for Memory-Efficient Video Class ...\",\"link\":\"https://arxiv.org/html/2211.00833v1\",\"snippet\":\"The video summarization and efficient action recognition tasks have provided some methods for key-frame selection and generation, which are related to this work ...\",\"date\":\"Nov 2, 2022\",\"position\":5},{\"title\":\"Neuro-Symbolic Video Search - arXiv\",\"link\":\"https://arxiv.org/html/2403.11021v1\",\"snippet\":\"We propose a system that leverages vision-language models for semantic understanding of individual frames but effectively reasons about the long-term evolution ...\",\"date\":\"Mar 16, 2024\",\"position\":6},{\"title\":\"Foundation Models for Video Understanding: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2405.03770v1\",\"snippet\":\"It further employs a space-time token sparsification module to strategically select informative regions and frames, minimizing computational demands.\",\"date\":\"May 6, 2024\",\"position\":7},{\"title\":\"Streaming Long Video Understanding with Large Language Models\",\"link\":\"https://arxiv.org/html/2405.16009v1\",\"snippet\":\"These approaches largely rely on the texts for movie understanding, and only using visual frames leads to dramatic performance drop. Moreover, its frame-wise ...\",\"date\":\"May 25, 2024\",\"sitelinks\":[{\"title\":\"Streaming Long Video...\",\"link\":\"https://arxiv.org/html/2405.16009v1#:~:text=2024-,Streaming%20Long%20Video%20Understanding%20with\"},{\"title\":\"3 Videostreaming\",\"link\":\"https://arxiv.org/html/2405.16009v1#:~:text=3%20VideoStreaming,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"4 Experiments\",\"link\":\"https://arxiv.org/html/2405.16009v1#:~:text=4%20Experiments,-Report%20issue%20for%20preceding%20element\"}],\"position\":8},{\"title\":\"Less Is More: Picking Informative Frames for Video Captioning - arXiv\",\"link\":\"https://arxiv.org/abs/1803.01457\",\"snippet\":\"Consequently, a compact frame subset can be selected to represent the visual information and perform video captioning without performance degradation.\",\"date\":\"Mar 5, 2018\",\"position\":9},{\"title\":\"Retrieval-Based Video Language Model for Efficient Long ... - arXiv\",\"link\":\"https://arxiv.org/html/2312.04931v1\",\"snippet\":\"1) The first row shows the video chunk samples by uniformly selecting 5 video chunks. 2) The second row shows the retrieved 5 chunks (ordered by time order) ...\",\"date\":\"Dec 8, 2023\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTaG93IG1lIHJlc2VhcmNoIG9uIGhvdyB0byBzZWxlY3QgZnJhbWVzIHdoZW4gZG9pbmcgdmlkZW8gdW5kZXJzdGFuZGluZy4gYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQW4gRW1waXJpY2FsIENvbXBhcmlzb24gb2YgVmlkZW8gRnJhbWUgU2FtcGxpbmcgTWV0aG9kcyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMDMzNDB2MSIsInNuaXBwZXQiOiJWaWRlbyBmcmFtZSBzYW1wbGluZyBpbnZvbHZlcyBzZWxlY3Rpb24gb2YgZGlzdGluY3QgZnJhbWVzIHRoYXQgY2FwdHVyZSB0aGUgZXNzZW5jZSBvZiBhIHZpZGVvIGFuZCBlbGltaW5hdGUgYW55IHJlZHVuZGFudCBmcmFtZXMuIiwiZGF0ZSI6Ikp1bCAyMiwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiQW4gRW1waXJpY2FsIFN0dWR5IG9mIEZyYW1lIFNlbGVjdGlvbiBmb3IgVGV4dC10by1WaWRlbyBSZXRyaWV2YWwiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMTEuMDAyOTgiLCJzbmlwcGV0IjoiV2Ugc3lzdGVtaWNhbGx5IGNsYXNzaWZ5IGV4aXN0aW5nIGZyYW1lIHNlbGVjdGlvbiBtZXRob2RzIGludG8gdGV4dC1mcmVlIGFuZCB0ZXh0LWd1aWRlZCBvbmVzLCB1bmRlciB3aGljaCB3ZSBkZXRhaWxlZGx5IGFuYWx5emUgc2l4IGRpZmZlcmVudCBmcmFtZSBzZWxlY3Rpb25zIC4uLiIsImRhdGUiOiJOb3YgMSwgMjAyMyIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiS2V5VmlkZW9MTE06IFRvd2FyZHMgTGFyZ2Utc2NhbGUgVmlkZW8gS2V5ZnJhbWUgU2VsZWN0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjAzMTA0djEiLCJzbmlwcGV0IjoiVG8gdGhlIGJlc3Qgb2Ygb3VyIGtub3dsZWRnZSwgdGhpcyBzdHVkeSBpcyB0aGUgZmlyc3QgdG8gc2VsZWN0IHZpZGVvIGZyYW1lcyB1c2luZyB0ZXh0LXZpZGVvIGZyYW1lcyBtYXRjaGluZyBmb3IgdHJhaW5pbmcgVmlkZW9MTE1zLiBXZSBjYXRlZ29yaXplIGZyYW1lIC4uLiIsImRhdGUiOiJKdWwgMywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiVmlkZW8gQ2hhdENhcHRpb25lcjpUb3dhcmRzIEVucmljaGVkIFNwYXRpb3RlbXBvcmFsIERlc2NyaXB0aW9ucyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDQuMDQyMjd2MyIsInNuaXBwZXQiOiJUaGlzIGFwcHJvYWNoIGFsbG93cyB0aGUgbW9kZWwgdG8gc2VsZWN0IHRoZSBmcmFtZXMgYmFzZWQgb24gdGhlIGN1cnJlbnQgY29udGV4dCB0byBtYXhpbWl6ZSBpdHMgdW5kZXJzdGFuZGluZyBvZiB0aGUgd2hvbGUgdmlkZW8gY29udGVudC4iLCJkYXRlIjoiTWF5IDI0LCAyMDIzIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJMZWFybmluZyBhIENvbmRlbnNlZCBGcmFtZSBmb3IgTWVtb3J5LUVmZmljaWVudCBWaWRlbyBDbGFzcyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjExLjAwODMzdjEiLCJzbmlwcGV0IjoiVGhlIHZpZGVvIHN1bW1hcml6YXRpb24gYW5kIGVmZmljaWVudCBhY3Rpb24gcmVjb2duaXRpb24gdGFza3MgaGF2ZSBwcm92aWRlZCBzb21lIG1ldGhvZHMgZm9yIGtleS1mcmFtZSBzZWxlY3Rpb24gYW5kIGdlbmVyYXRpb24sIHdoaWNoIGFyZSByZWxhdGVkIHRvIHRoaXMgd29yayAuLi4iLCJkYXRlIjoiTm92IDIsIDIwMjIiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6Ik5ldXJvLVN5bWJvbGljIFZpZGVvIFNlYXJjaCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xMTAyMXYxIiwic25pcHBldCI6IldlIHByb3Bvc2UgYSBzeXN0ZW0gdGhhdCBsZXZlcmFnZXMgdmlzaW9uLWxhbmd1YWdlIG1vZGVscyBmb3Igc2VtYW50aWMgdW5kZXJzdGFuZGluZyBvZiBpbmRpdmlkdWFsIGZyYW1lcyBidXQgZWZmZWN0aXZlbHkgcmVhc29ucyBhYm91dCB0aGUgbG9uZy10ZXJtIGV2b2x1dGlvbiAuLi4iLCJkYXRlIjoiTWFyIDE2LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJGb3VuZGF0aW9uIE1vZGVscyBmb3IgVmlkZW8gVW5kZXJzdGFuZGluZzogQSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMDM3NzB2MSIsInNuaXBwZXQiOiJJdCBmdXJ0aGVyIGVtcGxveXMgYSBzcGFjZS10aW1lIHRva2VuIHNwYXJzaWZpY2F0aW9uIG1vZHVsZSB0byBzdHJhdGVnaWNhbGx5IHNlbGVjdCBpbmZvcm1hdGl2ZSByZWdpb25zIGFuZCBmcmFtZXMsIG1pbmltaXppbmcgY29tcHV0YXRpb25hbCBkZW1hbmRzLiIsImRhdGUiOiJNYXkgNiwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiU3RyZWFtaW5nIExvbmcgVmlkZW8gVW5kZXJzdGFuZGluZyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMTYwMDl2MSIsInNuaXBwZXQiOiJUaGVzZSBhcHByb2FjaGVzIGxhcmdlbHkgcmVseSBvbiB0aGUgdGV4dHMgZm9yIG1vdmllIHVuZGVyc3RhbmRpbmcsIGFuZCBvbmx5IHVzaW5nIHZpc3VhbCBmcmFtZXMgbGVhZHMgdG8gZHJhbWF0aWMgcGVyZm9ybWFuY2UgZHJvcC4gTW9yZW92ZXIsIGl0cyBmcmFtZS13aXNlIC4uLiIsImRhdGUiOiJNYXkgMjUsIDIwMjQiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiU3RyZWFtaW5nIExvbmcgVmlkZW8uLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjE2MDA5djEjOn46dGV4dD0yMDI0LSxTdHJlYW1pbmclMjBMb25nJTIwVmlkZW8lMjBVbmRlcnN0YW5kaW5nJTIwd2l0aCJ9LHsidGl0bGUiOiIzIFZpZGVvc3RyZWFtaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xNjAwOXYxIzp+OnRleHQ9MyUyMFZpZGVvU3RyZWFtaW5nLC1SZXBvcnQlMjBpc3N1ZSUyMGZvciUyMHByZWNlZGluZyUyMGVsZW1lbnQifSx7InRpdGxlIjoiNCBFeHBlcmltZW50cyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMTYwMDl2MSM6fjp0ZXh0PTQlMjBFeHBlcmltZW50cywtUmVwb3J0JTIwaXNzdWUlMjBmb3IlMjBwcmVjZWRpbmclMjBlbGVtZW50In1dLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6Ikxlc3MgSXMgTW9yZTogUGlja2luZyBJbmZvcm1hdGl2ZSBGcmFtZXMgZm9yIFZpZGVvIENhcHRpb25pbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMTgwMy4wMTQ1NyIsInNuaXBwZXQiOiJDb25zZXF1ZW50bHksIGEgY29tcGFjdCBmcmFtZSBzdWJzZXQgY2FuIGJlIHNlbGVjdGVkIHRvIHJlcHJlc2VudCB0aGUgdmlzdWFsIGluZm9ybWF0aW9uIGFuZCBwZXJmb3JtIHZpZGVvIGNhcHRpb25pbmcgd2l0aG91dCBwZXJmb3JtYW5jZSBkZWdyYWRhdGlvbi4iLCJkYXRlIjoiTWFyIDUsIDIwMTgiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlJldHJpZXZhbC1CYXNlZCBWaWRlbyBMYW5ndWFnZSBNb2RlbCBmb3IgRWZmaWNpZW50IExvbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEyLjA0OTMxdjEiLCJzbmlwcGV0IjoiMSkgVGhlIGZpcnN0IHJvdyBzaG93cyB0aGUgdmlkZW8gY2h1bmsgc2FtcGxlcyBieSB1bmlmb3JtbHkgc2VsZWN0aW5nIDUgdmlkZW8gY2h1bmtzLiAyKSBUaGUgc2Vjb25kIHJvdyBzaG93cyB0aGUgcmV0cmlldmVkIDUgY2h1bmtzIChvcmRlcmVkIGJ5IHRpbWUgb3JkZXIpIC4uLiIsImRhdGUiOiJEZWMgOCwgMjAyMyIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "5b9a13e2b21c6b0ec57bc396b83b57fd474ebeddd796931e9831c8919b79566f",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Show me research on how to select frames when doing video understanding. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "An Empirical Comparison of Video Frame Sampling Methods ... - arXiv",
+                "link": "https://arxiv.org/html/2408.03340v1",
+                "snippet": "Video frame sampling involves selection of distinct frames that capture the essence of a video and eliminate any redundant frames.",
+                "date": "Jul 22, 2024",
+                "position": 1
+              },
+              {
+                "title": "An Empirical Study of Frame Selection for Text-to-Video Retrieval",
+                "link": "https://arxiv.org/abs/2311.00298",
+                "snippet": "We systemically classify existing frame selection methods into text-free and text-guided ones, under which we detailedly analyze six different frame selections ...",
+                "date": "Nov 1, 2023",
+                "position": 2
+              },
+              {
+                "title": "KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv",
+                "link": "https://arxiv.org/html/2407.03104v1",
+                "snippet": "To the best of our knowledge, this study is the first to select video frames using text-video frames matching for training VideoLLMs. We categorize frame ...",
+                "date": "Jul 3, 2024",
+                "position": 3
+              },
+              {
+                "title": "Video ChatCaptioner:Towards Enriched Spatiotemporal Descriptions",
+                "link": "https://arxiv.org/html/2304.04227v3",
+                "snippet": "This approach allows the model to select the frames based on the current context to maximize its understanding of the whole video content.",
+                "date": "May 24, 2023",
+                "position": 4
+              },
+              {
+                "title": "Learning a Condensed Frame for Memory-Efficient Video Class ...",
+                "link": "https://arxiv.org/html/2211.00833v1",
+                "snippet": "The video summarization and efficient action recognition tasks have provided some methods for key-frame selection and generation, which are related to this work ...",
+                "date": "Nov 2, 2022",
+                "position": 5
+              },
+              {
+                "title": "Neuro-Symbolic Video Search - arXiv",
+                "link": "https://arxiv.org/html/2403.11021v1",
+                "snippet": "We propose a system that leverages vision-language models for semantic understanding of individual frames but effectively reasons about the long-term evolution ...",
+                "date": "Mar 16, 2024",
+                "position": 6
+              },
+              {
+                "title": "Foundation Models for Video Understanding: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2405.03770v1",
+                "snippet": "It further employs a space-time token sparsification module to strategically select informative regions and frames, minimizing computational demands.",
+                "date": "May 6, 2024",
+                "position": 7
+              },
+              {
+                "title": "Streaming Long Video Understanding with Large Language Models",
+                "link": "https://arxiv.org/html/2405.16009v1",
+                "snippet": "These approaches largely rely on the texts for movie understanding, and only using visual frames leads to dramatic performance drop. Moreover, its frame-wise ...",
+                "date": "May 25, 2024",
+                "sitelinks": [
+                  {
+                    "title": "Streaming Long Video...",
+                    "link": "https://arxiv.org/html/2405.16009v1#:~:text=2024-,Streaming%20Long%20Video%20Understanding%20with"
+                  },
+                  {
+                    "title": "3 Videostreaming",
+                    "link": "https://arxiv.org/html/2405.16009v1#:~:text=3%20VideoStreaming,-Report%20issue%20for%20preceding%20element"
+                  },
+                  {
+                    "title": "4 Experiments",
+                    "link": "https://arxiv.org/html/2405.16009v1#:~:text=4%20Experiments,-Report%20issue%20for%20preceding%20element"
+                  }
+                ],
+                "position": 8
+              },
+              {
+                "title": "Less Is More: Picking Informative Frames for Video Captioning - arXiv",
+                "link": "https://arxiv.org/abs/1803.01457",
+                "snippet": "Consequently, a compact frame subset can be selected to represent the visual information and perform video captioning without performance degradation.",
+                "date": "Mar 5, 2018",
+                "position": 9
+              },
+              {
+                "title": "Retrieval-Based Video Language Model for Efficient Long ... - arXiv",
+                "link": "https://arxiv.org/html/2312.04931v1",
+                "snippet": "1) The first row shows the video chunk samples by uniformly selecting 5 video chunks. 2) The second row shows the retrieved 5 chunks (ordered by time order) ...",
+                "date": "Dec 8, 2023",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:48.915630+00:00",
+          "elapsed_seconds": 1.1422779485583305
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1803.01457",
+        "2211.00833",
+        "2304.04227",
+        "2311.00298",
+        "2312.04931",
+        "2403.11021",
+        "2405.03770",
+        "2405.16009",
+        "2407.03104",
+        "2408.03340"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2408.03340",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2408.03340v1",
+          "title": "An Empirical Comparison of Video Frame Sampling Methods ... - arXiv",
+          "snippet": "Video frame sampling involves selection of distinct frames that capture the essence of a video and eliminate any redundant frames."
+        },
+        {
+          "arxiv_id": "2311.00298",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2311.00298",
+          "title": "An Empirical Study of Frame Selection for Text-to-Video Retrieval",
+          "snippet": "We systemically classify existing frame selection methods into text-free and text-guided ones, under which we detailedly analyze six different frame selections ..."
+        },
+        {
+          "arxiv_id": "2407.03104",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2407.03104v1",
+          "title": "KeyVideoLLM: Towards Large-scale Video Keyframe Selection - arXiv",
+          "snippet": "To the best of our knowledge, this study is the first to select video frames using text-video frames matching for training VideoLLMs. We categorize frame ..."
+        },
+        {
+          "arxiv_id": "2304.04227",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2304.04227v3",
+          "title": "Video ChatCaptioner:Towards Enriched Spatiotemporal Descriptions",
+          "snippet": "This approach allows the model to select the frames based on the current context to maximize its understanding of the whole video content."
+        },
+        {
+          "arxiv_id": "2211.00833",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2211.00833v1",
+          "title": "Learning a Condensed Frame for Memory-Efficient Video Class ...",
+          "snippet": "The video summarization and efficient action recognition tasks have provided some methods for key-frame selection and generation, which are related to this work ..."
+        },
+        {
+          "arxiv_id": "2403.11021",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2403.11021v1",
+          "title": "Neuro-Symbolic Video Search - arXiv",
+          "snippet": "We propose a system that leverages vision-language models for semantic understanding of individual frames but effectively reasons about the long-term evolution ..."
+        },
+        {
+          "arxiv_id": "2405.03770",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2405.03770v1",
+          "title": "Foundation Models for Video Understanding: A Survey - arXiv",
+          "snippet": "It further employs a space-time token sparsification module to strategically select informative regions and frames, minimizing computational demands."
+        },
+        {
+          "arxiv_id": "2405.16009",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2405.16009v1",
+          "title": "Streaming Long Video Understanding with Large Language Models",
+          "snippet": "These approaches largely rely on the texts for movie understanding, and only using visual frames leads to dramatic performance drop. Moreover, its frame-wise ..."
+        },
+        {
+          "arxiv_id": "1803.01457",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/1803.01457",
+          "title": "Less Is More: Picking Informative Frames for Video Captioning - arXiv",
+          "snippet": "Consequently, a compact frame subset can be selected to represent the visual information and perform video captioning without performance degradation."
+        },
+        {
+          "arxiv_id": "2312.04931",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2312.04931v1",
+          "title": "Retrieval-Based Video Language Model for Efficient Long ... - arXiv",
+          "snippet": "1) The first row shows the video chunk samples by uniformly selecting 5 video chunks. 2) The second row shows the retrieved 5 chunks (ordered by time order) ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Show me research on how to select frames when doing video understanding. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "anchor"
+  ]
+}

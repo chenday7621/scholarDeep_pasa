@@ -1,0 +1,1141 @@
+{
+  "query_id": "Q43",
+  "query_index": 43,
+  "dataset_qid": "RealScholarQuery_43",
+  "original_question": "AI for Science papers, especially protein design and DPO of antibody design.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "AI tools for protein design",
+    "Research on DPO in antibody design",
+    "Survey papers on protein design using AI",
+    "Application of AI in scientific research papers",
+    "AI advancements in protein design"
+  ],
+  "anchor": "AI for Science papers, especially protein design and DPO of antibody design.",
+  "source_generation_id": "Q43_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "AI tools for protein design",
+        "Research on DPO in antibody design",
+        "Survey papers on protein design using AI",
+        "Application of AI in scientific research papers",
+        "AI advancements in protein design"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "AI for Science papers, especially protein design and DPO of antibody design.",
+        "AI tools for protein design",
+        "Research on DPO in antibody design",
+        "Survey papers on protein design using AI",
+        "Application of AI in scientific research papers"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "AI tools for protein design",
+      "attempts": [
+        {
+          "global_attempt_sequence": 262,
+          "query_id": "Q43",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "AI tools for protein design",
+          "request_payload": {
+            "q": "AI tools for protein design before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q43_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:30:49.162919+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"AI tools for protein design before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Generative AI for Controllable Protein Sequence Design: A Survey\",\"link\":\"https://arxiv.org/abs/2402.10516\",\"snippet\":\"In this survey, we systematically review recent advances in generative AI for controllable protein sequence design.\",\"date\":\"Feb 16, 2024\",\"position\":1},{\"title\":\"Generative artificial intelligence for de novo protein design - arXiv\",\"link\":\"https://arxiv.org/abs/2310.09685\",\"snippet\":\"this review provides a framework to understand how these tools fit into the overall process of de novo protein design.\",\"date\":\"Oct 15, 2023\",\"position\":2},{\"title\":\"[2302.04611] A Text-guided Protein Design Framework - arXiv\",\"link\":\"https://arxiv.org/abs/2302.04611\",\"snippet\":\"Abstract:Current AI-assisted protein design mainly utilizes protein sequential and structural information. Meanwhile, there exists tremendous knowledge ...\",\"date\":\"Feb 9, 2023\",\"position\":3},{\"title\":\"ProtAgents: Protein discovery via large language model multi-agent ...\",\"link\":\"https://arxiv.org/abs/2402.04268\",\"snippet\":\"In this study, we introduce ProtAgents, a platform for de novo protein design based on Large Language Models (LLMs), where multiple AI agents with distinct ...\",\"date\":\"Jan 27, 2024\",\"position\":4},{\"title\":\"[2201.07338] Controllable Protein Design with Language Models\",\"link\":\"https://arxiv.org/abs/2201.07338\",\"snippet\":\"Motivated by its considerable success in NLP tasks, we expect dedicated Transformers to dominate custom protein sequence generation in the near future.\",\"date\":\"Jan 18, 2022\",\"position\":5},{\"title\":\"MMDesign: Multi-Modality Transfer Learning for Generative Protein ...\",\"link\":\"https://arxiv.org/html/2312.06297v1\",\"snippet\":\"Deep generative models have the potential to learn protein design rules directly from data, making them a promising alternative to traditional approaches such ...\",\"date\":\"Dec 11, 2023\",\"position\":6},{\"title\":\"A graph protein design method and benchmark on AlphaFoldDB\",\"link\":\"https://arxiv.org/abs/2202.01079\",\"snippet\":\"Based on AlphaDesign, we propose a new method called ADesign to improve accuracy by introducing protein angles as new features, using a simplified graph ...\",\"date\":\"Feb 1, 2022\",\"position\":7},{\"title\":\"Reinforcement Learning for Sequence Design Leveraging Protein ...\",\"link\":\"https://arxiv.org/abs/2407.03154\",\"snippet\":\"Recent advances in protein language models (PLMs) trained on large corpora of protein sequences offer a potential solution to this problem by scoring proteins ...\",\"date\":\"Jul 3, 2024\",\"position\":8},{\"title\":\"Model-based reinforcement learning for protein backbone design\",\"link\":\"https://arxiv.org/abs/2405.01983\",\"snippet\":\"Abstract:Designing protein nanomaterials of predefined shape and characteristics has the potential to dramatically impact the medical industry.\",\"date\":\"May 3, 2024\",\"position\":9},{\"title\":\"[2104.04883] Graph Representation Learning in Biomedicine - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2104.04883\",\"snippet\":\"Modeling small compounds' and protein targets' molecular structure as well as their binding affinities and specificity, for instance, using graph representation ...\",\"date\":\"Jan 18, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBSSB0b29scyBmb3IgcHJvdGVpbiBkZXNpZ24gYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiR2VuZXJhdGl2ZSBBSSBmb3IgQ29udHJvbGxhYmxlIFByb3RlaW4gU2VxdWVuY2UgRGVzaWduOiBBIFN1cnZleSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwMi4xMDUxNiIsInNuaXBwZXQiOiJJbiB0aGlzIHN1cnZleSwgd2Ugc3lzdGVtYXRpY2FsbHkgcmV2aWV3IHJlY2VudCBhZHZhbmNlcyBpbiBnZW5lcmF0aXZlIEFJIGZvciBjb250cm9sbGFibGUgcHJvdGVpbiBzZXF1ZW5jZSBkZXNpZ24uIiwiZGF0ZSI6IkZlYiAxNiwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiR2VuZXJhdGl2ZSBhcnRpZmljaWFsIGludGVsbGlnZW5jZSBmb3IgZGUgbm92byBwcm90ZWluIGRlc2lnbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzEwLjA5Njg1Iiwic25pcHBldCI6InRoaXMgcmV2aWV3IHByb3ZpZGVzIGEgZnJhbWV3b3JrIHRvIHVuZGVyc3RhbmQgaG93IHRoZXNlIHRvb2xzIGZpdCBpbnRvIHRoZSBvdmVyYWxsIHByb2Nlc3Mgb2YgZGUgbm92byBwcm90ZWluIGRlc2lnbi4iLCJkYXRlIjoiT2N0IDE1LCAyMDIzIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJbMjMwMi4wNDYxMV0gQSBUZXh0LWd1aWRlZCBQcm90ZWluIERlc2lnbiBGcmFtZXdvcmsgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwMi4wNDYxMSIsInNuaXBwZXQiOiJBYnN0cmFjdDpDdXJyZW50IEFJLWFzc2lzdGVkIHByb3RlaW4gZGVzaWduIG1haW5seSB1dGlsaXplcyBwcm90ZWluIHNlcXVlbnRpYWwgYW5kIHN0cnVjdHVyYWwgaW5mb3JtYXRpb24uIE1lYW53aGlsZSwgdGhlcmUgZXhpc3RzIHRyZW1lbmRvdXMga25vd2xlZGdlIC4uLiIsImRhdGUiOiJGZWIgOSwgMjAyMyIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiUHJvdEFnZW50czogUHJvdGVpbiBkaXNjb3ZlcnkgdmlhIGxhcmdlIGxhbmd1YWdlIG1vZGVsIG11bHRpLWFnZW50IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwMi4wNDI2OCIsInNuaXBwZXQiOiJJbiB0aGlzIHN0dWR5LCB3ZSBpbnRyb2R1Y2UgUHJvdEFnZW50cywgYSBwbGF0Zm9ybSBmb3IgZGUgbm92byBwcm90ZWluIGRlc2lnbiBiYXNlZCBvbiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKExMTXMpLCB3aGVyZSBtdWx0aXBsZSBBSSBhZ2VudHMgd2l0aCBkaXN0aW5jdCAuLi4iLCJkYXRlIjoiSmFuIDI3LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbMjIwMS4wNzMzOF0gQ29udHJvbGxhYmxlIFByb3RlaW4gRGVzaWduIHdpdGggTGFuZ3VhZ2UgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMjAxLjA3MzM4Iiwic25pcHBldCI6Ik1vdGl2YXRlZCBieSBpdHMgY29uc2lkZXJhYmxlIHN1Y2Nlc3MgaW4gTkxQIHRhc2tzLCB3ZSBleHBlY3QgZGVkaWNhdGVkIFRyYW5zZm9ybWVycyB0byBkb21pbmF0ZSBjdXN0b20gcHJvdGVpbiBzZXF1ZW5jZSBnZW5lcmF0aW9uIGluIHRoZSBuZWFyIGZ1dHVyZS4iLCJkYXRlIjoiSmFuIDE4LCAyMDIyIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJNTURlc2lnbjogTXVsdGktTW9kYWxpdHkgVHJhbnNmZXIgTGVhcm5pbmcgZm9yIEdlbmVyYXRpdmUgUHJvdGVpbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEyLjA2Mjk3djEiLCJzbmlwcGV0IjoiRGVlcCBnZW5lcmF0aXZlIG1vZGVscyBoYXZlIHRoZSBwb3RlbnRpYWwgdG8gbGVhcm4gcHJvdGVpbiBkZXNpZ24gcnVsZXMgZGlyZWN0bHkgZnJvbSBkYXRhLCBtYWtpbmcgdGhlbSBhIHByb21pc2luZyBhbHRlcm5hdGl2ZSB0byB0cmFkaXRpb25hbCBhcHByb2FjaGVzIHN1Y2ggLi4uIiwiZGF0ZSI6IkRlYyAxMSwgMjAyMyIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQSBncmFwaCBwcm90ZWluIGRlc2lnbiBtZXRob2QgYW5kIGJlbmNobWFyayBvbiBBbHBoYUZvbGREQiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjIwMi4wMTA3OSIsInNuaXBwZXQiOiJCYXNlZCBvbiBBbHBoYURlc2lnbiwgd2UgcHJvcG9zZSBhIG5ldyBtZXRob2QgY2FsbGVkIEFEZXNpZ24gdG8gaW1wcm92ZSBhY2N1cmFjeSBieSBpbnRyb2R1Y2luZyBwcm90ZWluIGFuZ2xlcyBhcyBuZXcgZmVhdHVyZXMsIHVzaW5nIGEgc2ltcGxpZmllZCBncmFwaCAuLi4iLCJkYXRlIjoiRmViIDEsIDIwMjIiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgZm9yIFNlcXVlbmNlIERlc2lnbiBMZXZlcmFnaW5nIFByb3RlaW4gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA3LjAzMTU0Iiwic25pcHBldCI6IlJlY2VudCBhZHZhbmNlcyBpbiBwcm90ZWluIGxhbmd1YWdlIG1vZGVscyAoUExNcykgdHJhaW5lZCBvbiBsYXJnZSBjb3Jwb3JhIG9mIHByb3RlaW4gc2VxdWVuY2VzIG9mZmVyIGEgcG90ZW50aWFsIHNvbHV0aW9uIHRvIHRoaXMgcHJvYmxlbSBieSBzY29yaW5nIHByb3RlaW5zIC4uLiIsImRhdGUiOiJKdWwgMywgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiTW9kZWwtYmFzZWQgcmVpbmZvcmNlbWVudCBsZWFybmluZyBmb3IgcHJvdGVpbiBiYWNrYm9uZSBkZXNpZ24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDUuMDE5ODMiLCJzbmlwcGV0IjoiQWJzdHJhY3Q6RGVzaWduaW5nIHByb3RlaW4gbmFub21hdGVyaWFscyBvZiBwcmVkZWZpbmVkIHNoYXBlIGFuZCBjaGFyYWN0ZXJpc3RpY3MgaGFzIHRoZSBwb3RlbnRpYWwgdG8gZHJhbWF0aWNhbGx5IGltcGFjdCB0aGUgbWVkaWNhbCBpbmR1c3RyeS4iLCJkYXRlIjoiTWF5IDMsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlsyMTA0LjA0ODgzXSBHcmFwaCBSZXByZXNlbnRhdGlvbiBMZWFybmluZyBpbiBCaW9tZWRpY2luZSAtIGFyNWl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMTA0LjA0ODgzIiwic25pcHBldCI6Ik1vZGVsaW5nIHNtYWxsIGNvbXBvdW5kcycgYW5kIHByb3RlaW4gdGFyZ2V0cycgbW9sZWN1bGFyIHN0cnVjdHVyZSBhcyB3ZWxsIGFzIHRoZWlyIGJpbmRpbmcgYWZmaW5pdGllcyBhbmQgc3BlY2lmaWNpdHksIGZvciBpbnN0YW5jZSwgdXNpbmcgZ3JhcGggcmVwcmVzZW50YXRpb24gLi4uIiwiZGF0ZSI6IkphbiAxOCwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "825129a982952068461969691f9139924db55e01d3b25dadddd5c5a33767154c",
+          "structured_response": {
+            "searchParameters": {
+              "q": "AI tools for protein design before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Generative AI for Controllable Protein Sequence Design: A Survey",
+                "link": "https://arxiv.org/abs/2402.10516",
+                "snippet": "In this survey, we systematically review recent advances in generative AI for controllable protein sequence design.",
+                "date": "Feb 16, 2024",
+                "position": 1
+              },
+              {
+                "title": "Generative artificial intelligence for de novo protein design - arXiv",
+                "link": "https://arxiv.org/abs/2310.09685",
+                "snippet": "this review provides a framework to understand how these tools fit into the overall process of de novo protein design.",
+                "date": "Oct 15, 2023",
+                "position": 2
+              },
+              {
+                "title": "[2302.04611] A Text-guided Protein Design Framework - arXiv",
+                "link": "https://arxiv.org/abs/2302.04611",
+                "snippet": "Abstract:Current AI-assisted protein design mainly utilizes protein sequential and structural information. Meanwhile, there exists tremendous knowledge ...",
+                "date": "Feb 9, 2023",
+                "position": 3
+              },
+              {
+                "title": "ProtAgents: Protein discovery via large language model multi-agent ...",
+                "link": "https://arxiv.org/abs/2402.04268",
+                "snippet": "In this study, we introduce ProtAgents, a platform for de novo protein design based on Large Language Models (LLMs), where multiple AI agents with distinct ...",
+                "date": "Jan 27, 2024",
+                "position": 4
+              },
+              {
+                "title": "[2201.07338] Controllable Protein Design with Language Models",
+                "link": "https://arxiv.org/abs/2201.07338",
+                "snippet": "Motivated by its considerable success in NLP tasks, we expect dedicated Transformers to dominate custom protein sequence generation in the near future.",
+                "date": "Jan 18, 2022",
+                "position": 5
+              },
+              {
+                "title": "MMDesign: Multi-Modality Transfer Learning for Generative Protein ...",
+                "link": "https://arxiv.org/html/2312.06297v1",
+                "snippet": "Deep generative models have the potential to learn protein design rules directly from data, making them a promising alternative to traditional approaches such ...",
+                "date": "Dec 11, 2023",
+                "position": 6
+              },
+              {
+                "title": "A graph protein design method and benchmark on AlphaFoldDB",
+                "link": "https://arxiv.org/abs/2202.01079",
+                "snippet": "Based on AlphaDesign, we propose a new method called ADesign to improve accuracy by introducing protein angles as new features, using a simplified graph ...",
+                "date": "Feb 1, 2022",
+                "position": 7
+              },
+              {
+                "title": "Reinforcement Learning for Sequence Design Leveraging Protein ...",
+                "link": "https://arxiv.org/abs/2407.03154",
+                "snippet": "Recent advances in protein language models (PLMs) trained on large corpora of protein sequences offer a potential solution to this problem by scoring proteins ...",
+                "date": "Jul 3, 2024",
+                "position": 8
+              },
+              {
+                "title": "Model-based reinforcement learning for protein backbone design",
+                "link": "https://arxiv.org/abs/2405.01983",
+                "snippet": "Abstract:Designing protein nanomaterials of predefined shape and characteristics has the potential to dramatically impact the medical industry.",
+                "date": "May 3, 2024",
+                "position": 9
+              },
+              {
+                "title": "[2104.04883] Graph Representation Learning in Biomedicine - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2104.04883",
+                "snippet": "Modeling small compounds' and protein targets' molecular structure as well as their binding affinities and specificity, for instance, using graph representation ...",
+                "date": "Jan 18, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:50.006672+00:00",
+          "elapsed_seconds": 0.843749150633812
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2104.04883",
+        "2201.07338",
+        "2202.01079",
+        "2302.04611",
+        "2310.09685",
+        "2312.06297",
+        "2402.04268",
+        "2402.10516",
+        "2405.01983",
+        "2407.03154"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2402.10516",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2402.10516",
+          "title": "Generative AI for Controllable Protein Sequence Design: A Survey",
+          "snippet": "In this survey, we systematically review recent advances in generative AI for controllable protein sequence design."
+        },
+        {
+          "arxiv_id": "2310.09685",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2310.09685",
+          "title": "Generative artificial intelligence for de novo protein design - arXiv",
+          "snippet": "this review provides a framework to understand how these tools fit into the overall process of de novo protein design."
+        },
+        {
+          "arxiv_id": "2302.04611",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2302.04611",
+          "title": "[2302.04611] A Text-guided Protein Design Framework - arXiv",
+          "snippet": "Abstract:Current AI-assisted protein design mainly utilizes protein sequential and structural information. Meanwhile, there exists tremendous knowledge ..."
+        },
+        {
+          "arxiv_id": "2402.04268",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2402.04268",
+          "title": "ProtAgents: Protein discovery via large language model multi-agent ...",
+          "snippet": "In this study, we introduce ProtAgents, a platform for de novo protein design based on Large Language Models (LLMs), where multiple AI agents with distinct ..."
+        },
+        {
+          "arxiv_id": "2201.07338",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2201.07338",
+          "title": "[2201.07338] Controllable Protein Design with Language Models",
+          "snippet": "Motivated by its considerable success in NLP tasks, we expect dedicated Transformers to dominate custom protein sequence generation in the near future."
+        },
+        {
+          "arxiv_id": "2312.06297",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2312.06297v1",
+          "title": "MMDesign: Multi-Modality Transfer Learning for Generative Protein ...",
+          "snippet": "Deep generative models have the potential to learn protein design rules directly from data, making them a promising alternative to traditional approaches such ..."
+        },
+        {
+          "arxiv_id": "2202.01079",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/abs/2202.01079",
+          "title": "A graph protein design method and benchmark on AlphaFoldDB",
+          "snippet": "Based on AlphaDesign, we propose a new method called ADesign to improve accuracy by introducing protein angles as new features, using a simplified graph ..."
+        },
+        {
+          "arxiv_id": "2407.03154",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2407.03154",
+          "title": "Reinforcement Learning for Sequence Design Leveraging Protein ...",
+          "snippet": "Recent advances in protein language models (PLMs) trained on large corpora of protein sequences offer a potential solution to this problem by scoring proteins ..."
+        },
+        {
+          "arxiv_id": "2405.01983",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2405.01983",
+          "title": "Model-based reinforcement learning for protein backbone design",
+          "snippet": "Abstract:Designing protein nanomaterials of predefined shape and characteristics has the potential to dramatically impact the medical industry."
+        },
+        {
+          "arxiv_id": "2104.04883",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://ar5iv.labs.arxiv.org/html/2104.04883",
+          "title": "[2104.04883] Graph Representation Learning in Biomedicine - ar5iv",
+          "snippet": "Modeling small compounds' and protein targets' molecular structure as well as their binding affinities and specificity, for instance, using graph representation ..."
+        }
+      ],
+      "request_payload": {
+        "q": "AI tools for protein design before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Research on DPO in antibody design",
+      "attempts": [
+        {
+          "global_attempt_sequence": 263,
+          "query_id": "Q43",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Research on DPO in antibody design",
+          "request_payload": {
+            "q": "Research on DPO in antibody design before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q43_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:30:50.255553+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Research on DPO in antibody design before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Antigen-Specific Antibody Design via Direct Energy-based ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.16576v1\",\"snippet\":\"Experiments show that AbDPO outperforms the state-of-the-art baselines by a large margin in generating antibodies with low total energy and high binding\",\"date\":\"Mar 25, 2024\",\"position\":1},{\"title\":\"[PDF] arXiv:2403.04187v1 [physics.bio-ph] 7 Mar 2024\",\"link\":\"https://arxiv.org/pdf/2403.04187\",\"snippet\":\"We present a multi-objective binder design paradigm based on instruction fine- tuning and direct preference optimization (DPO) of autoregressive protein lan ...\",\"date\":\"Mar 7, 2024\",\"position\":2},{\"title\":\"BIMCV COVID-19+: a large annotated dataset of RX and CT images ...\",\"link\":\"https://arxiv.org/html/2006.01174v3\",\"snippet\":\"This paper describes BIMCV COVID-19+, a large dataset from the Valencian Region Medical ImageBank (BIMCV) containing chest X-ray images CXR (CR, DX) and ...\",\"date\":\"Jun 5, 2020\",\"position\":3},{\"title\":\"Dynamical Characterization of Antiviral Effects in COVID-19 - arXiv\",\"link\":\"https://arxiv.org/html/2012.15585v1\",\"snippet\":\"This study is aimed at paving the way for the different antivirals being developed to tackle SARS-CoV-2. an incubation period of 7 days post infection (dpo) ...\",\"date\":\"Dec 31, 2020\",\"position\":4},{\"title\":\"[PDF] A Comprehensive Survey of Scientific Large Language Models and ...\",\"link\":\"https://arxiv.org/pdf/2406.10833\",\"snippet\":\"LLMs facilitate autonomous chemical research. expert-designed tools for organic synthesis, drug discovery, and materials de- sign; can design, plan, and ...\",\"date\":\"Jun 19, 2024\",\"position\":5},{\"title\":\"[PDF] Assessing the Solid Protocol in Relation to Security & Privacy ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2210.08270\",\"snippet\":\"A Pod Provider is obliged by GDPR to assign a DPO whose responsibilities are expressed in Article 39, consisting of monitoring, documenting and reporting the ...\",\"date\":\"Oct 15, 2022\",\"position\":6}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZXNlYXJjaCBvbiBEUE8gaW4gYW50aWJvZHkgZGVzaWduIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkFudGlnZW4tU3BlY2lmaWMgQW50aWJvZHkgRGVzaWduIHZpYSBEaXJlY3QgRW5lcmd5LWJhc2VkIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xNjU3NnYxIiwic25pcHBldCI6IkV4cGVyaW1lbnRzIHNob3cgdGhhdCBBYkRQTyBvdXRwZXJmb3JtcyB0aGUgc3RhdGUtb2YtdGhlLWFydCBiYXNlbGluZXMgYnkgYSBsYXJnZSBtYXJnaW4gaW4gZ2VuZXJhdGluZyBhbnRpYm9kaWVzIHdpdGggbG93IHRvdGFsIGVuZXJneSBhbmQgaGlnaCBiaW5kaW5nIiwiZGF0ZSI6Ik1hciAyNSwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwMy4wNDE4N3YxIFtwaHlzaWNzLmJpby1waF0gNyBNYXIgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMy4wNDE4NyIsInNuaXBwZXQiOiJXZSBwcmVzZW50IGEgbXVsdGktb2JqZWN0aXZlIGJpbmRlciBkZXNpZ24gcGFyYWRpZ20gYmFzZWQgb24gaW5zdHJ1Y3Rpb24gZmluZS0gdHVuaW5nIGFuZCBkaXJlY3QgcHJlZmVyZW5jZSBvcHRpbWl6YXRpb24gKERQTykgb2YgYXV0b3JlZ3Jlc3NpdmUgcHJvdGVpbiBsYW4gLi4uIiwiZGF0ZSI6Ik1hciA3LCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJCSU1DViBDT1ZJRC0xOSs6IGEgbGFyZ2UgYW5ub3RhdGVkIGRhdGFzZXQgb2YgUlggYW5kIENUIGltYWdlcyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMDA2LjAxMTc0djMiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBkZXNjcmliZXMgQklNQ1YgQ09WSUQtMTkrLCBhIGxhcmdlIGRhdGFzZXQgZnJvbSB0aGUgVmFsZW5jaWFuIFJlZ2lvbiBNZWRpY2FsIEltYWdlQmFuayAoQklNQ1YpIGNvbnRhaW5pbmcgY2hlc3QgWC1yYXkgaW1hZ2VzIENYUiAoQ1IsIERYKSBhbmQgLi4uIiwiZGF0ZSI6Ikp1biA1LCAyMDIwIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJEeW5hbWljYWwgQ2hhcmFjdGVyaXphdGlvbiBvZiBBbnRpdmlyYWwgRWZmZWN0cyBpbiBDT1ZJRC0xOSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjAxMi4xNTU4NXYxIiwic25pcHBldCI6IlRoaXMgc3R1ZHkgaXMgYWltZWQgYXQgcGF2aW5nIHRoZSB3YXkgZm9yIHRoZSBkaWZmZXJlbnQgYW50aXZpcmFscyBiZWluZyBkZXZlbG9wZWQgdG8gdGFja2xlIFNBUlMtQ29WLTIuIGFuIGluY3ViYXRpb24gcGVyaW9kIG9mIDcgZGF5cyBwb3N0IGluZmVjdGlvbiAoZHBvKSAuLi4iLCJkYXRlIjoiRGVjIDMxLCAyMDIwIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBBIENvbXByZWhlbnNpdmUgU3VydmV5IG9mIFNjaWVudGlmaWMgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGFuZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDYuMTA4MzMiLCJzbmlwcGV0IjoiTExNcyBmYWNpbGl0YXRlIGF1dG9ub21vdXMgY2hlbWljYWwgcmVzZWFyY2guIGV4cGVydC1kZXNpZ25lZCB0b29scyBmb3Igb3JnYW5pYyBzeW50aGVzaXMsIGRydWcgZGlzY292ZXJ5LCBhbmQgbWF0ZXJpYWxzIGRlLSBzaWduOyBjYW4gZGVzaWduLCBwbGFuLCBhbmQgLi4uIiwiZGF0ZSI6Ikp1biAxOSwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiW1BERl0gQXNzZXNzaW5nIHRoZSBTb2xpZCBQcm90b2NvbCBpbiBSZWxhdGlvbiB0byBTZWN1cml0eSAmIFByaXZhY3kgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMTAuMDgyNzAiLCJzbmlwcGV0IjoiQSBQb2QgUHJvdmlkZXIgaXMgb2JsaWdlZCBieSBHRFBSIHRvIGFzc2lnbiBhIERQTyB3aG9zZSByZXNwb25zaWJpbGl0aWVzIGFyZSBleHByZXNzZWQgaW4gQXJ0aWNsZSAzOSwgY29uc2lzdGluZyBvZiBtb25pdG9yaW5nLCBkb2N1bWVudGluZyBhbmQgcmVwb3J0aW5nIHRoZSAuLi4iLCJkYXRlIjoiT2N0IDE1LCAyMDIyIiwicG9zaXRpb24iOjZ9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "a848fe8b66f63fcbecd126eb9937bdfd7f259a30811e91000f954702d29d38e3",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Research on DPO in antibody design before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Antigen-Specific Antibody Design via Direct Energy-based ... - arXiv",
+                "link": "https://arxiv.org/html/2403.16576v1",
+                "snippet": "Experiments show that AbDPO outperforms the state-of-the-art baselines by a large margin in generating antibodies with low total energy and high binding",
+                "date": "Mar 25, 2024",
+                "position": 1
+              },
+              {
+                "title": "[PDF] arXiv:2403.04187v1 [physics.bio-ph] 7 Mar 2024",
+                "link": "https://arxiv.org/pdf/2403.04187",
+                "snippet": "We present a multi-objective binder design paradigm based on instruction fine- tuning and direct preference optimization (DPO) of autoregressive protein lan ...",
+                "date": "Mar 7, 2024",
+                "position": 2
+              },
+              {
+                "title": "BIMCV COVID-19+: a large annotated dataset of RX and CT images ...",
+                "link": "https://arxiv.org/html/2006.01174v3",
+                "snippet": "This paper describes BIMCV COVID-19+, a large dataset from the Valencian Region Medical ImageBank (BIMCV) containing chest X-ray images CXR (CR, DX) and ...",
+                "date": "Jun 5, 2020",
+                "position": 3
+              },
+              {
+                "title": "Dynamical Characterization of Antiviral Effects in COVID-19 - arXiv",
+                "link": "https://arxiv.org/html/2012.15585v1",
+                "snippet": "This study is aimed at paving the way for the different antivirals being developed to tackle SARS-CoV-2. an incubation period of 7 days post infection (dpo) ...",
+                "date": "Dec 31, 2020",
+                "position": 4
+              },
+              {
+                "title": "[PDF] A Comprehensive Survey of Scientific Large Language Models and ...",
+                "link": "https://arxiv.org/pdf/2406.10833",
+                "snippet": "LLMs facilitate autonomous chemical research. expert-designed tools for organic synthesis, drug discovery, and materials de- sign; can design, plan, and ...",
+                "date": "Jun 19, 2024",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Assessing the Solid Protocol in Relation to Security & Privacy ... - arXiv",
+                "link": "https://arxiv.org/pdf/2210.08270",
+                "snippet": "A Pod Provider is obliged by GDPR to assign a DPO whose responsibilities are expressed in Article 39, consisting of monitoring, documenting and reporting the ...",
+                "date": "Oct 15, 2022",
+                "position": 6
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:50.995881+00:00",
+          "elapsed_seconds": 0.7403244562447071
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2006.01174",
+        "2012.15585",
+        "2210.08270",
+        "2403.04187",
+        "2403.16576",
+        "2406.10833"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.16576",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2403.16576v1",
+          "title": "Antigen-Specific Antibody Design via Direct Energy-based ... - arXiv",
+          "snippet": "Experiments show that AbDPO outperforms the state-of-the-art baselines by a large margin in generating antibodies with low total energy and high binding"
+        },
+        {
+          "arxiv_id": "2403.04187",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/pdf/2403.04187",
+          "title": "[PDF] arXiv:2403.04187v1 [physics.bio-ph] 7 Mar 2024",
+          "snippet": "We present a multi-objective binder design paradigm based on instruction fine- tuning and direct preference optimization (DPO) of autoregressive protein lan ..."
+        },
+        {
+          "arxiv_id": "2006.01174",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2006.01174v3",
+          "title": "BIMCV COVID-19+: a large annotated dataset of RX and CT images ...",
+          "snippet": "This paper describes BIMCV COVID-19+, a large dataset from the Valencian Region Medical ImageBank (BIMCV) containing chest X-ray images CXR (CR, DX) and ..."
+        },
+        {
+          "arxiv_id": "2012.15585",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2012.15585v1",
+          "title": "Dynamical Characterization of Antiviral Effects in COVID-19 - arXiv",
+          "snippet": "This study is aimed at paving the way for the different antivirals being developed to tackle SARS-CoV-2. an incubation period of 7 days post infection (dpo) ..."
+        },
+        {
+          "arxiv_id": "2406.10833",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2406.10833",
+          "title": "[PDF] A Comprehensive Survey of Scientific Large Language Models and ...",
+          "snippet": "LLMs facilitate autonomous chemical research. expert-designed tools for organic synthesis, drug discovery, and materials de- sign; can design, plan, and ..."
+        },
+        {
+          "arxiv_id": "2210.08270",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2210.08270",
+          "title": "[PDF] Assessing the Solid Protocol in Relation to Security & Privacy ... - arXiv",
+          "snippet": "A Pod Provider is obliged by GDPR to assign a DPO whose responsibilities are expressed in Article 39, consisting of monitoring, documenting and reporting the ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Research on DPO in antibody design before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Survey papers on protein design using AI",
+      "attempts": [
+        {
+          "global_attempt_sequence": 264,
+          "query_id": "Q43",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Survey papers on protein design using AI",
+          "request_payload": {
+            "q": "Survey papers on protein design using AI before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q43_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:30:51.244813+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on protein design using AI before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Generative AI for Controllable Protein Sequence Design: A Survey\",\"link\":\"https://arxiv.org/abs/2402.10516\",\"snippet\":\"In this survey, we systematically review recent advances in generative AI for controllable protein sequence design. To set the stage, we first outline the ...\",\"date\":\"Feb 16, 2024\",\"position\":1},{\"title\":\"[2402.08703] A Survey of Generative AI for de novo Drug Design\",\"link\":\"https://arxiv.org/abs/2402.08703\",\"snippet\":\"Abstract:Artificial intelligence (AI)-driven methods can vastly improve the historically costly drug design process, with various generative models already ...\",\"date\":\"Feb 13, 2024\",\"position\":2},{\"title\":\"Generative artificial intelligence for de novo protein design - arXiv\",\"link\":\"https://arxiv.org/abs/2310.09685\",\"snippet\":\"With an increase in the number of models being developed, this review provides a framework to understand how these tools fit into the overall process of de novo ...\",\"date\":\"Oct 15, 2023\",\"position\":3},{\"title\":\"ProtAgents: Protein discovery via large language model multi-agent ...\",\"link\":\"https://arxiv.org/html/2402.04268v1\",\"snippet\":\"In this study, we introduce ProtAgents, a platform for de novo protein design based on Large Language Models (LLMs), where multiple AI agents with distinct ...\",\"date\":\"Jan 27, 2024\",\"position\":4},{\"title\":\"[2201.07338] Controllable Protein Design with Language Models\",\"link\":\"https://arxiv.org/abs/2201.07338\",\"snippet\":\"The ability to design novel proteins tailored for specific purposes could transform our ability to respond timely to these issues. Recent advances in the field ...\",\"date\":\"Jan 18, 2022\",\"position\":5},{\"title\":\"[PDF] arXiv:2402.10516v1 [q-bio.BM] 16 Feb 2024\",\"link\":\"https://arxiv.org/pdf/2402.10516\",\"snippet\":\"In this survey, we systematically review recent advances in generative AI for controllable protein sequence design. To set the stage, we first outline the foun-.\",\"date\":\"Feb 16, 2024\",\"position\":6},{\"title\":\"[2109.13754] Deep Generative Modeling for Protein Design - arXiv\",\"link\":\"https://arxiv.org/abs/2109.13754\",\"snippet\":\"In this review, we discuss five classes of generative models that have been most successful at modeling proteins and provide a framework for model guided ...\",\"date\":\"Aug 31, 2021\",\"position\":7},{\"title\":\"ProteinGPT: Multimodal LLM for Protein Property Prediction ... - arXiv\",\"link\":\"https://arxiv.org/html/2408.11363v1\",\"snippet\":\"To train ProteinGPT, we construct a large-scale dataset of 132,092 proteins with annotations, and optimize the instruction-tuning process using GPT-4o. This ...\",\"date\":\"Aug 21, 2024\",\"position\":8},{\"title\":\"Reinforcement Learning for Sequence Design Leveraging Protein ...\",\"link\":\"https://arxiv.org/abs/2407.03154\",\"snippet\":\"Abstract:Protein sequence design, determined by amino acid sequences, are essential to protein engineering problems in drug discovery.\",\"date\":\"Jul 3, 2024\",\"position\":9},{\"title\":\"[PDF] Towards Controllable Protein Design with Conditional Transformers\",\"link\":\"https://arxiv.org/pdf/2201.07338\",\"snippet\":\"We hope that our ideas reach both the Artificial Intelligence and Biochemistry communities and encourage application of NLP methods to protein research.\",\"date\":\"Sep 8, 2020\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIHByb3RlaW4gZGVzaWduIHVzaW5nIEFJIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkdlbmVyYXRpdmUgQUkgZm9yIENvbnRyb2xsYWJsZSBQcm90ZWluIFNlcXVlbmNlIERlc2lnbjogQSBTdXJ2ZXkiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDIuMTA1MTYiLCJzbmlwcGV0IjoiSW4gdGhpcyBzdXJ2ZXksIHdlIHN5c3RlbWF0aWNhbGx5IHJldmlldyByZWNlbnQgYWR2YW5jZXMgaW4gZ2VuZXJhdGl2ZSBBSSBmb3IgY29udHJvbGxhYmxlIHByb3RlaW4gc2VxdWVuY2UgZGVzaWduLiBUbyBzZXQgdGhlIHN0YWdlLCB3ZSBmaXJzdCBvdXRsaW5lIHRoZSAuLi4iLCJkYXRlIjoiRmViIDE2LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbMjQwMi4wODcwM10gQSBTdXJ2ZXkgb2YgR2VuZXJhdGl2ZSBBSSBmb3IgZGUgbm92byBEcnVnIERlc2lnbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwMi4wODcwMyIsInNuaXBwZXQiOiJBYnN0cmFjdDpBcnRpZmljaWFsIGludGVsbGlnZW5jZSAoQUkpLWRyaXZlbiBtZXRob2RzIGNhbiB2YXN0bHkgaW1wcm92ZSB0aGUgaGlzdG9yaWNhbGx5IGNvc3RseSBkcnVnIGRlc2lnbiBwcm9jZXNzLCB3aXRoIHZhcmlvdXMgZ2VuZXJhdGl2ZSBtb2RlbHMgYWxyZWFkeSAuLi4iLCJkYXRlIjoiRmViIDEzLCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJHZW5lcmF0aXZlIGFydGlmaWNpYWwgaW50ZWxsaWdlbmNlIGZvciBkZSBub3ZvIHByb3RlaW4gZGVzaWduIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMTAuMDk2ODUiLCJzbmlwcGV0IjoiV2l0aCBhbiBpbmNyZWFzZSBpbiB0aGUgbnVtYmVyIG9mIG1vZGVscyBiZWluZyBkZXZlbG9wZWQsIHRoaXMgcmV2aWV3IHByb3ZpZGVzIGEgZnJhbWV3b3JrIHRvIHVuZGVyc3RhbmQgaG93IHRoZXNlIHRvb2xzIGZpdCBpbnRvIHRoZSBvdmVyYWxsIHByb2Nlc3Mgb2YgZGUgbm92byAuLi4iLCJkYXRlIjoiT2N0IDE1LCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJQcm90QWdlbnRzOiBQcm90ZWluIGRpc2NvdmVyeSB2aWEgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWwgbXVsdGktYWdlbnQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNDI2OHYxIiwic25pcHBldCI6IkluIHRoaXMgc3R1ZHksIHdlIGludHJvZHVjZSBQcm90QWdlbnRzLCBhIHBsYXRmb3JtIGZvciBkZSBub3ZvIHByb3RlaW4gZGVzaWduIGJhc2VkIG9uIExhcmdlIExhbmd1YWdlIE1vZGVscyAoTExNcyksIHdoZXJlIG11bHRpcGxlIEFJIGFnZW50cyB3aXRoIGRpc3RpbmN0IC4uLiIsImRhdGUiOiJKYW4gMjcsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlsyMjAxLjA3MzM4XSBDb250cm9sbGFibGUgUHJvdGVpbiBEZXNpZ24gd2l0aCBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIyMDEuMDczMzgiLCJzbmlwcGV0IjoiVGhlIGFiaWxpdHkgdG8gZGVzaWduIG5vdmVsIHByb3RlaW5zIHRhaWxvcmVkIGZvciBzcGVjaWZpYyBwdXJwb3NlcyBjb3VsZCB0cmFuc2Zvcm0gb3VyIGFiaWxpdHkgdG8gcmVzcG9uZCB0aW1lbHkgdG8gdGhlc2UgaXNzdWVzLiBSZWNlbnQgYWR2YW5jZXMgaW4gdGhlIGZpZWxkIC4uLiIsImRhdGUiOiJKYW4gMTgsIDIwMjIiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDIuMTA1MTZ2MSBbcS1iaW8uQk1dIDE2IEZlYiAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAyLjEwNTE2Iiwic25pcHBldCI6IkluIHRoaXMgc3VydmV5LCB3ZSBzeXN0ZW1hdGljYWxseSByZXZpZXcgcmVjZW50IGFkdmFuY2VzIGluIGdlbmVyYXRpdmUgQUkgZm9yIGNvbnRyb2xsYWJsZSBwcm90ZWluIHNlcXVlbmNlIGRlc2lnbi4gVG8gc2V0IHRoZSBzdGFnZSwgd2UgZmlyc3Qgb3V0bGluZSB0aGUgZm91bi0uIiwiZGF0ZSI6IkZlYiAxNiwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiWzIxMDkuMTM3NTRdIERlZXAgR2VuZXJhdGl2ZSBNb2RlbGluZyBmb3IgUHJvdGVpbiBEZXNpZ24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjEwOS4xMzc1NCIsInNuaXBwZXQiOiJJbiB0aGlzIHJldmlldywgd2UgZGlzY3VzcyBmaXZlIGNsYXNzZXMgb2YgZ2VuZXJhdGl2ZSBtb2RlbHMgdGhhdCBoYXZlIGJlZW4gbW9zdCBzdWNjZXNzZnVsIGF0IG1vZGVsaW5nIHByb3RlaW5zIGFuZCBwcm92aWRlIGEgZnJhbWV3b3JrIGZvciBtb2RlbCBndWlkZWQgLi4uIiwiZGF0ZSI6IkF1ZyAzMSwgMjAyMSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiUHJvdGVpbkdQVDogTXVsdGltb2RhbCBMTE0gZm9yIFByb3RlaW4gUHJvcGVydHkgUHJlZGljdGlvbiAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTEzNjN2MSIsInNuaXBwZXQiOiJUbyB0cmFpbiBQcm90ZWluR1BULCB3ZSBjb25zdHJ1Y3QgYSBsYXJnZS1zY2FsZSBkYXRhc2V0IG9mIDEzMiwwOTIgcHJvdGVpbnMgd2l0aCBhbm5vdGF0aW9ucywgYW5kIG9wdGltaXplIHRoZSBpbnN0cnVjdGlvbi10dW5pbmcgcHJvY2VzcyB1c2luZyBHUFQtNG8uIFRoaXMgLi4uIiwiZGF0ZSI6IkF1ZyAyMSwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiUmVpbmZvcmNlbWVudCBMZWFybmluZyBmb3IgU2VxdWVuY2UgRGVzaWduIExldmVyYWdpbmcgUHJvdGVpbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDcuMDMxNTQiLCJzbmlwcGV0IjoiQWJzdHJhY3Q6UHJvdGVpbiBzZXF1ZW5jZSBkZXNpZ24sIGRldGVybWluZWQgYnkgYW1pbm8gYWNpZCBzZXF1ZW5jZXMsIGFyZSBlc3NlbnRpYWwgdG8gcHJvdGVpbiBlbmdpbmVlcmluZyBwcm9ibGVtcyBpbiBkcnVnIGRpc2NvdmVyeS4iLCJkYXRlIjoiSnVsIDMsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIFRvd2FyZHMgQ29udHJvbGxhYmxlIFByb3RlaW4gRGVzaWduIHdpdGggQ29uZGl0aW9uYWwgVHJhbnNmb3JtZXJzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjAxLjA3MzM4Iiwic25pcHBldCI6IldlIGhvcGUgdGhhdCBvdXIgaWRlYXMgcmVhY2ggYm90aCB0aGUgQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UgYW5kIEJpb2NoZW1pc3RyeSBjb21tdW5pdGllcyBhbmQgZW5jb3VyYWdlIGFwcGxpY2F0aW9uIG9mIE5MUCBtZXRob2RzIHRvIHByb3RlaW4gcmVzZWFyY2guIiwiZGF0ZSI6IlNlcCA4LCAyMDIwIiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "85dee52bca64f93751088e2e9a9fb48e441f7b371192e91c7d20710bacf44e9a",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey papers on protein design using AI before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Generative AI for Controllable Protein Sequence Design: A Survey",
+                "link": "https://arxiv.org/abs/2402.10516",
+                "snippet": "In this survey, we systematically review recent advances in generative AI for controllable protein sequence design. To set the stage, we first outline the ...",
+                "date": "Feb 16, 2024",
+                "position": 1
+              },
+              {
+                "title": "[2402.08703] A Survey of Generative AI for de novo Drug Design",
+                "link": "https://arxiv.org/abs/2402.08703",
+                "snippet": "Abstract:Artificial intelligence (AI)-driven methods can vastly improve the historically costly drug design process, with various generative models already ...",
+                "date": "Feb 13, 2024",
+                "position": 2
+              },
+              {
+                "title": "Generative artificial intelligence for de novo protein design - arXiv",
+                "link": "https://arxiv.org/abs/2310.09685",
+                "snippet": "With an increase in the number of models being developed, this review provides a framework to understand how these tools fit into the overall process of de novo ...",
+                "date": "Oct 15, 2023",
+                "position": 3
+              },
+              {
+                "title": "ProtAgents: Protein discovery via large language model multi-agent ...",
+                "link": "https://arxiv.org/html/2402.04268v1",
+                "snippet": "In this study, we introduce ProtAgents, a platform for de novo protein design based on Large Language Models (LLMs), where multiple AI agents with distinct ...",
+                "date": "Jan 27, 2024",
+                "position": 4
+              },
+              {
+                "title": "[2201.07338] Controllable Protein Design with Language Models",
+                "link": "https://arxiv.org/abs/2201.07338",
+                "snippet": "The ability to design novel proteins tailored for specific purposes could transform our ability to respond timely to these issues. Recent advances in the field ...",
+                "date": "Jan 18, 2022",
+                "position": 5
+              },
+              {
+                "title": "[PDF] arXiv:2402.10516v1 [q-bio.BM] 16 Feb 2024",
+                "link": "https://arxiv.org/pdf/2402.10516",
+                "snippet": "In this survey, we systematically review recent advances in generative AI for controllable protein sequence design. To set the stage, we first outline the foun-.",
+                "date": "Feb 16, 2024",
+                "position": 6
+              },
+              {
+                "title": "[2109.13754] Deep Generative Modeling for Protein Design - arXiv",
+                "link": "https://arxiv.org/abs/2109.13754",
+                "snippet": "In this review, we discuss five classes of generative models that have been most successful at modeling proteins and provide a framework for model guided ...",
+                "date": "Aug 31, 2021",
+                "position": 7
+              },
+              {
+                "title": "ProteinGPT: Multimodal LLM for Protein Property Prediction ... - arXiv",
+                "link": "https://arxiv.org/html/2408.11363v1",
+                "snippet": "To train ProteinGPT, we construct a large-scale dataset of 132,092 proteins with annotations, and optimize the instruction-tuning process using GPT-4o. This ...",
+                "date": "Aug 21, 2024",
+                "position": 8
+              },
+              {
+                "title": "Reinforcement Learning for Sequence Design Leveraging Protein ...",
+                "link": "https://arxiv.org/abs/2407.03154",
+                "snippet": "Abstract:Protein sequence design, determined by amino acid sequences, are essential to protein engineering problems in drug discovery.",
+                "date": "Jul 3, 2024",
+                "position": 9
+              },
+              {
+                "title": "[PDF] Towards Controllable Protein Design with Conditional Transformers",
+                "link": "https://arxiv.org/pdf/2201.07338",
+                "snippet": "We hope that our ideas reach both the Artificial Intelligence and Biochemistry communities and encourage application of NLP methods to protein research.",
+                "date": "Sep 8, 2020",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:52.355683+00:00",
+          "elapsed_seconds": 1.1108669303357601
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2109.13754",
+        "2201.07338",
+        "2310.09685",
+        "2402.04268",
+        "2402.08703",
+        "2402.10516",
+        "2407.03154",
+        "2408.11363"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2402.10516",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2402.10516",
+          "title": "Generative AI for Controllable Protein Sequence Design: A Survey",
+          "snippet": "In this survey, we systematically review recent advances in generative AI for controllable protein sequence design. To set the stage, we first outline the ..."
+        },
+        {
+          "arxiv_id": "2402.08703",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2402.08703",
+          "title": "[2402.08703] A Survey of Generative AI for de novo Drug Design",
+          "snippet": "Abstract:Artificial intelligence (AI)-driven methods can vastly improve the historically costly drug design process, with various generative models already ..."
+        },
+        {
+          "arxiv_id": "2310.09685",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2310.09685",
+          "title": "Generative artificial intelligence for de novo protein design - arXiv",
+          "snippet": "With an increase in the number of models being developed, this review provides a framework to understand how these tools fit into the overall process of de novo ..."
+        },
+        {
+          "arxiv_id": "2402.04268",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2402.04268v1",
+          "title": "ProtAgents: Protein discovery via large language model multi-agent ...",
+          "snippet": "In this study, we introduce ProtAgents, a platform for de novo protein design based on Large Language Models (LLMs), where multiple AI agents with distinct ..."
+        },
+        {
+          "arxiv_id": "2201.07338",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2201.07338",
+          "title": "[2201.07338] Controllable Protein Design with Language Models",
+          "snippet": "The ability to design novel proteins tailored for specific purposes could transform our ability to respond timely to these issues. Recent advances in the field ..."
+        },
+        {
+          "arxiv_id": "2402.10516",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2402.10516",
+          "title": "[PDF] arXiv:2402.10516v1 [q-bio.BM] 16 Feb 2024",
+          "snippet": "In this survey, we systematically review recent advances in generative AI for controllable protein sequence design. To set the stage, we first outline the foun-."
+        },
+        {
+          "arxiv_id": "2109.13754",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/abs/2109.13754",
+          "title": "[2109.13754] Deep Generative Modeling for Protein Design - arXiv",
+          "snippet": "In this review, we discuss five classes of generative models that have been most successful at modeling proteins and provide a framework for model guided ..."
+        },
+        {
+          "arxiv_id": "2408.11363",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2408.11363v1",
+          "title": "ProteinGPT: Multimodal LLM for Protein Property Prediction ... - arXiv",
+          "snippet": "To train ProteinGPT, we construct a large-scale dataset of 132,092 proteins with annotations, and optimize the instruction-tuning process using GPT-4o. This ..."
+        },
+        {
+          "arxiv_id": "2407.03154",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2407.03154",
+          "title": "Reinforcement Learning for Sequence Design Leveraging Protein ...",
+          "snippet": "Abstract:Protein sequence design, determined by amino acid sequences, are essential to protein engineering problems in drug discovery."
+        },
+        {
+          "arxiv_id": "2201.07338",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2201.07338",
+          "title": "[PDF] Towards Controllable Protein Design with Conditional Transformers",
+          "snippet": "We hope that our ideas reach both the Artificial Intelligence and Biochemistry communities and encourage application of NLP methods to protein research."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey papers on protein design using AI before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Application of AI in scientific research papers",
+      "attempts": [
+        {
+          "global_attempt_sequence": 265,
+          "query_id": "Q43",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Application of AI in scientific research papers",
+          "request_payload": {
+            "q": "Application of AI in scientific research papers before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q43_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:30:52.601823+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Application of AI in scientific research papers before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Quantifying the Benefit of Artificial Intelligence for Scientific Research\",\"link\":\"https://arxiv.org/abs/2304.10578\",\"snippet\":\"As AI capabilities continue to improve in accuracy, robustness, and reach, AI may outperform and even replace human experts across many valuable tasks. ...\",\"date\":\"Apr 17, 2023\",\"position\":1},{\"title\":\"Best uses of ChatGPT and Generative AI for computer science ...\",\"link\":\"https://arxiv.org/abs/2311.11175\",\"snippet\":\"The paper also addresses the utility of AI in article review, adapting texts to length constraints, constructing counterarguments, and survey development.\",\"date\":\"Nov 18, 2023\",\"position\":2},{\"title\":\"[PDF] 1 Adapting to the Impact of AI in Scientific Writing - arXiv\",\"link\":\"https://arxiv.org/pdf/2306.06699\",\"snippet\":\"The objectives of this paper are to critically evaluate the utility of LLMs and AI in research and education, call for discussions between stakeholders,\",\"date\":\"May 25, 2023\",\"position\":3},{\"title\":\"Artificial Intelligence for Literature Reviews: Opportunities ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.08565v2\",\"snippet\":\"Abstract. This paper presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs).\",\"date\":\"Aug 6, 2024\",\"position\":4},{\"title\":\"Drivers and Barriers of AI Adoption and Use in Scientific Research\",\"link\":\"https://arxiv.org/abs/2312.09843\",\"snippet\":\"In this paper, we draw on theories of scientific and technical human capital to study the integration of AI in scientific research,\",\"date\":\"Dec 15, 2023\",\"position\":5},{\"title\":\"[PDF] Whitepaper - AI empowering research - arXiv\",\"link\":\"https://arxiv.org/pdf/2307.10265\",\"snippet\":\"It highlights ten ways in which AI is revolutionizing the work of scientists, including powerful referencing tools, improved understanding of research problems, ...\",\"date\":\"Jul 21, 2023\",\"position\":6},{\"title\":\"Mapping the Increasing Use of LLMs in Scientific Papers - arXiv\",\"link\":\"https://arxiv.org/html/2404.01268v1\",\"snippet\":\"Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%).\",\"date\":\"Apr 1, 2024\",\"position\":7},{\"title\":\"[PDF] Could AI change the scientific publishing market once and for all?\",\"link\":\"https://arxiv.org/pdf/2401.14952\",\"snippet\":\"AI tools offer unprecedented opportunities to accelerate the dissemination of research, enhance collaboration among scientists, and improve the overall quality ...\",\"date\":\"Jan 30, 2024\",\"position\":8},{\"title\":\"[PDF] Authorship Without Writing: Large Language Models and the “Senior ...\",\"link\":\"https://arxiv.org/pdf/2509.05390\",\"snippet\":\"Disclosing artificial intelligence use in scientific research and publication: When should disclosure be mandatory, optional, or unnecessary? Accountability ...\",\"date\":\"Nov 15, 2022\",\"position\":9},{\"title\":\"[PDF] The Malicious Use of Artificial Intelligence - arXiv\",\"link\":\"https://arxiv.org/pdf/1802.07228\",\"snippet\":\"Artificial intelligence and machine learning capabilities are growing at an unprecedented rate. These technologies have many widely beneficial applications ...\",\"date\":\"Feb 20, 2018\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBcHBsaWNhdGlvbiBvZiBBSSBpbiBzY2llbnRpZmljIHJlc2VhcmNoIHBhcGVycyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJRdWFudGlmeWluZyB0aGUgQmVuZWZpdCBvZiBBcnRpZmljaWFsIEludGVsbGlnZW5jZSBmb3IgU2NpZW50aWZpYyBSZXNlYXJjaCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNC4xMDU3OCIsInNuaXBwZXQiOiJBcyBBSSBjYXBhYmlsaXRpZXMgY29udGludWUgdG8gaW1wcm92ZSBpbiBhY2N1cmFjeSwgcm9idXN0bmVzcywgYW5kIHJlYWNoLCBBSSBtYXkgb3V0cGVyZm9ybSBhbmQgZXZlbiByZXBsYWNlIGh1bWFuIGV4cGVydHMgYWNyb3NzIG1hbnkgdmFsdWFibGUgdGFza3MuIC4uLiIsImRhdGUiOiJBcHIgMTcsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkJlc3QgdXNlcyBvZiBDaGF0R1BUIGFuZCBHZW5lcmF0aXZlIEFJIGZvciBjb21wdXRlciBzY2llbmNlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMxMS4xMTE3NSIsInNuaXBwZXQiOiJUaGUgcGFwZXIgYWxzbyBhZGRyZXNzZXMgdGhlIHV0aWxpdHkgb2YgQUkgaW4gYXJ0aWNsZSByZXZpZXcsIGFkYXB0aW5nIHRleHRzIHRvIGxlbmd0aCBjb25zdHJhaW50cywgY29uc3RydWN0aW5nIGNvdW50ZXJhcmd1bWVudHMsIGFuZCBzdXJ2ZXkgZGV2ZWxvcG1lbnQuIiwiZGF0ZSI6Ik5vdiAxOCwgMjAyMyIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiW1BERl0gMSBBZGFwdGluZyB0byB0aGUgSW1wYWN0IG9mIEFJIGluIFNjaWVudGlmaWMgV3JpdGluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA2LjA2Njk5Iiwic25pcHBldCI6IlRoZSBvYmplY3RpdmVzIG9mIHRoaXMgcGFwZXIgYXJlIHRvIGNyaXRpY2FsbHkgZXZhbHVhdGUgdGhlIHV0aWxpdHkgb2YgTExNcyBhbmQgQUkgaW4gcmVzZWFyY2ggYW5kIGVkdWNhdGlvbiwgY2FsbCBmb3IgZGlzY3Vzc2lvbnMgYmV0d2VlbiBzdGFrZWhvbGRlcnMsIiwiZGF0ZSI6Ik1heSAyNSwgMjAyMyIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UgZm9yIExpdGVyYXR1cmUgUmV2aWV3czogT3Bwb3J0dW5pdGllcyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDg1NjV2MiIsInNuaXBwZXQiOiJBYnN0cmFjdC4gVGhpcyBwYXBlciBwcmVzZW50cyBhIGNvbXByZWhlbnNpdmUgcmV2aWV3IG9mIHRoZSB1c2Ugb2YgQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UgKEFJKSBpbiBTeXN0ZW1hdGljIExpdGVyYXR1cmUgUmV2aWV3cyAoU0xScykuIiwiZGF0ZSI6IkF1ZyA2LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJEcml2ZXJzIGFuZCBCYXJyaWVycyBvZiBBSSBBZG9wdGlvbiBhbmQgVXNlIGluIFNjaWVudGlmaWMgUmVzZWFyY2giLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMTIuMDk4NDMiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgZHJhdyBvbiB0aGVvcmllcyBvZiBzY2llbnRpZmljIGFuZCB0ZWNobmljYWwgaHVtYW4gY2FwaXRhbCB0byBzdHVkeSB0aGUgaW50ZWdyYXRpb24gb2YgQUkgaW4gc2NpZW50aWZpYyByZXNlYXJjaCwiLCJkYXRlIjoiRGVjIDE1LCAyMDIzIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBXaGl0ZXBhcGVyIC0gQUkgZW1wb3dlcmluZyByZXNlYXJjaCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA3LjEwMjY1Iiwic25pcHBldCI6Ikl0IGhpZ2hsaWdodHMgdGVuIHdheXMgaW4gd2hpY2ggQUkgaXMgcmV2b2x1dGlvbml6aW5nIHRoZSB3b3JrIG9mIHNjaWVudGlzdHMsIGluY2x1ZGluZyBwb3dlcmZ1bCByZWZlcmVuY2luZyB0b29scywgaW1wcm92ZWQgdW5kZXJzdGFuZGluZyBvZiByZXNlYXJjaCBwcm9ibGVtcywgLi4uIiwiZGF0ZSI6Ikp1bCAyMSwgMjAyMyIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiTWFwcGluZyB0aGUgSW5jcmVhc2luZyBVc2Ugb2YgTExNcyBpbiBTY2llbnRpZmljIFBhcGVycyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4wMTI2OHYxIiwic25pcHBldCI6Ik91ciBmaW5kaW5ncyByZXZlYWwgYSBzdGVhZHkgaW5jcmVhc2UgaW4gTExNIHVzYWdlLCB3aXRoIHRoZSBsYXJnZXN0IGFuZCBmYXN0ZXN0IGdyb3d0aCBvYnNlcnZlZCBpbiBDb21wdXRlciBTY2llbmNlIHBhcGVycyAodXAgdG8gMTcuNSUpLiIsImRhdGUiOiJBcHIgMSwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gQ291bGQgQUkgY2hhbmdlIHRoZSBzY2llbnRpZmljIHB1Ymxpc2hpbmcgbWFya2V0IG9uY2UgYW5kIGZvciBhbGw/IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAxLjE0OTUyIiwic25pcHBldCI6IkFJIHRvb2xzIG9mZmVyIHVucHJlY2VkZW50ZWQgb3Bwb3J0dW5pdGllcyB0byBhY2NlbGVyYXRlIHRoZSBkaXNzZW1pbmF0aW9uIG9mIHJlc2VhcmNoLCBlbmhhbmNlIGNvbGxhYm9yYXRpb24gYW1vbmcgc2NpZW50aXN0cywgYW5kIGltcHJvdmUgdGhlIG92ZXJhbGwgcXVhbGl0eSAuLi4iLCJkYXRlIjoiSmFuIDMwLCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBBdXRob3JzaGlwIFdpdGhvdXQgV3JpdGluZzogTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGFuZCB0aGUg4oCcU2VuaW9yIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUwOS4wNTM5MCIsInNuaXBwZXQiOiJEaXNjbG9zaW5nIGFydGlmaWNpYWwgaW50ZWxsaWdlbmNlIHVzZSBpbiBzY2llbnRpZmljIHJlc2VhcmNoIGFuZCBwdWJsaWNhdGlvbjogV2hlbiBzaG91bGQgZGlzY2xvc3VyZSBiZSBtYW5kYXRvcnksIG9wdGlvbmFsLCBvciB1bm5lY2Vzc2FyeT8gQWNjb3VudGFiaWxpdHkgLi4uIiwiZGF0ZSI6Ik5vdiAxNSwgMjAyMiIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gVGhlIE1hbGljaW91cyBVc2Ugb2YgQXJ0aWZpY2lhbCBJbnRlbGxpZ2VuY2UgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMTgwMi4wNzIyOCIsInNuaXBwZXQiOiJBcnRpZmljaWFsIGludGVsbGlnZW5jZSBhbmQgbWFjaGluZSBsZWFybmluZyBjYXBhYmlsaXRpZXMgYXJlIGdyb3dpbmcgYXQgYW4gdW5wcmVjZWRlbnRlZCByYXRlLiBUaGVzZSB0ZWNobm9sb2dpZXMgaGF2ZSBtYW55IHdpZGVseSBiZW5lZmljaWFsIGFwcGxpY2F0aW9ucyAuLi4iLCJkYXRlIjoiRmViIDIwLCAyMDE4IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "07cf2a2be11d12a7cda9a50cbca1aa356020bf1904523344286f8f6b461d5bf0",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Application of AI in scientific research papers before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Quantifying the Benefit of Artificial Intelligence for Scientific Research",
+                "link": "https://arxiv.org/abs/2304.10578",
+                "snippet": "As AI capabilities continue to improve in accuracy, robustness, and reach, AI may outperform and even replace human experts across many valuable tasks. ...",
+                "date": "Apr 17, 2023",
+                "position": 1
+              },
+              {
+                "title": "Best uses of ChatGPT and Generative AI for computer science ...",
+                "link": "https://arxiv.org/abs/2311.11175",
+                "snippet": "The paper also addresses the utility of AI in article review, adapting texts to length constraints, constructing counterarguments, and survey development.",
+                "date": "Nov 18, 2023",
+                "position": 2
+              },
+              {
+                "title": "[PDF] 1 Adapting to the Impact of AI in Scientific Writing - arXiv",
+                "link": "https://arxiv.org/pdf/2306.06699",
+                "snippet": "The objectives of this paper are to critically evaluate the utility of LLMs and AI in research and education, call for discussions between stakeholders,",
+                "date": "May 25, 2023",
+                "position": 3
+              },
+              {
+                "title": "Artificial Intelligence for Literature Reviews: Opportunities ... - arXiv",
+                "link": "https://arxiv.org/html/2402.08565v2",
+                "snippet": "Abstract. This paper presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs).",
+                "date": "Aug 6, 2024",
+                "position": 4
+              },
+              {
+                "title": "Drivers and Barriers of AI Adoption and Use in Scientific Research",
+                "link": "https://arxiv.org/abs/2312.09843",
+                "snippet": "In this paper, we draw on theories of scientific and technical human capital to study the integration of AI in scientific research,",
+                "date": "Dec 15, 2023",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Whitepaper - AI empowering research - arXiv",
+                "link": "https://arxiv.org/pdf/2307.10265",
+                "snippet": "It highlights ten ways in which AI is revolutionizing the work of scientists, including powerful referencing tools, improved understanding of research problems, ...",
+                "date": "Jul 21, 2023",
+                "position": 6
+              },
+              {
+                "title": "Mapping the Increasing Use of LLMs in Scientific Papers - arXiv",
+                "link": "https://arxiv.org/html/2404.01268v1",
+                "snippet": "Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%).",
+                "date": "Apr 1, 2024",
+                "position": 7
+              },
+              {
+                "title": "[PDF] Could AI change the scientific publishing market once and for all?",
+                "link": "https://arxiv.org/pdf/2401.14952",
+                "snippet": "AI tools offer unprecedented opportunities to accelerate the dissemination of research, enhance collaboration among scientists, and improve the overall quality ...",
+                "date": "Jan 30, 2024",
+                "position": 8
+              },
+              {
+                "title": "[PDF] Authorship Without Writing: Large Language Models and the “Senior ...",
+                "link": "https://arxiv.org/pdf/2509.05390",
+                "snippet": "Disclosing artificial intelligence use in scientific research and publication: When should disclosure be mandatory, optional, or unnecessary? Accountability ...",
+                "date": "Nov 15, 2022",
+                "position": 9
+              },
+              {
+                "title": "[PDF] The Malicious Use of Artificial Intelligence - arXiv",
+                "link": "https://arxiv.org/pdf/1802.07228",
+                "snippet": "Artificial intelligence and machine learning capabilities are growing at an unprecedented rate. These technologies have many widely beneficial applications ...",
+                "date": "Feb 20, 2018",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:53.680763+00:00",
+          "elapsed_seconds": 1.078938502818346
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1802.07228",
+        "2304.10578",
+        "2306.06699",
+        "2307.10265",
+        "2311.11175",
+        "2312.09843",
+        "2401.14952",
+        "2402.08565",
+        "2404.01268",
+        "2509.05390"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2304.10578",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2304.10578",
+          "title": "Quantifying the Benefit of Artificial Intelligence for Scientific Research",
+          "snippet": "As AI capabilities continue to improve in accuracy, robustness, and reach, AI may outperform and even replace human experts across many valuable tasks. ..."
+        },
+        {
+          "arxiv_id": "2311.11175",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2311.11175",
+          "title": "Best uses of ChatGPT and Generative AI for computer science ...",
+          "snippet": "The paper also addresses the utility of AI in article review, adapting texts to length constraints, constructing counterarguments, and survey development."
+        },
+        {
+          "arxiv_id": "2306.06699",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2306.06699",
+          "title": "[PDF] 1 Adapting to the Impact of AI in Scientific Writing - arXiv",
+          "snippet": "The objectives of this paper are to critically evaluate the utility of LLMs and AI in research and education, call for discussions between stakeholders,"
+        },
+        {
+          "arxiv_id": "2402.08565",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2402.08565v2",
+          "title": "Artificial Intelligence for Literature Reviews: Opportunities ... - arXiv",
+          "snippet": "Abstract. This paper presents a comprehensive review of the use of Artificial Intelligence (AI) in Systematic Literature Reviews (SLRs)."
+        },
+        {
+          "arxiv_id": "2312.09843",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2312.09843",
+          "title": "Drivers and Barriers of AI Adoption and Use in Scientific Research",
+          "snippet": "In this paper, we draw on theories of scientific and technical human capital to study the integration of AI in scientific research,"
+        },
+        {
+          "arxiv_id": "2307.10265",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2307.10265",
+          "title": "[PDF] Whitepaper - AI empowering research - arXiv",
+          "snippet": "It highlights ten ways in which AI is revolutionizing the work of scientists, including powerful referencing tools, improved understanding of research problems, ..."
+        },
+        {
+          "arxiv_id": "2404.01268",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2404.01268v1",
+          "title": "Mapping the Increasing Use of LLMs in Scientific Papers - arXiv",
+          "snippet": "Our findings reveal a steady increase in LLM usage, with the largest and fastest growth observed in Computer Science papers (up to 17.5%)."
+        },
+        {
+          "arxiv_id": "2401.14952",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2401.14952",
+          "title": "[PDF] Could AI change the scientific publishing market once and for all?",
+          "snippet": "AI tools offer unprecedented opportunities to accelerate the dissemination of research, enhance collaboration among scientists, and improve the overall quality ..."
+        },
+        {
+          "arxiv_id": "2509.05390",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2509.05390",
+          "title": "[PDF] Authorship Without Writing: Large Language Models and the “Senior ...",
+          "snippet": "Disclosing artificial intelligence use in scientific research and publication: When should disclosure be mandatory, optional, or unnecessary? Accountability ..."
+        },
+        {
+          "arxiv_id": "1802.07228",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/1802.07228",
+          "title": "[PDF] The Malicious Use of Artificial Intelligence - arXiv",
+          "snippet": "Artificial intelligence and machine learning capabilities are growing at an unprecedented rate. These technologies have many widely beneficial applications ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Application of AI in scientific research papers before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "AI advancements in protein design",
+      "attempts": [
+        {
+          "global_attempt_sequence": 267,
+          "query_id": "Q43",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "AI advancements in protein design",
+          "request_payload": {
+            "q": "AI advancements in protein design before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q43_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:30:55.118844+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"AI advancements in protein design before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Generative AI for Controllable Protein Sequence Design: A Survey\",\"link\":\"https://arxiv.org/abs/2402.10516\",\"snippet\":\"In this survey, we systematically review recent advances in generative AI for controllable protein sequence design.\",\"date\":\"Feb 16, 2024\",\"position\":1},{\"title\":\"ProtAgents: Protein discovery via large language model multi-agent ...\",\"link\":\"https://arxiv.org/abs/2402.04268\",\"snippet\":\"Current methodologies for protein design often rely on AI-based models, such as surrogate models that address end-to-end problems by linking protein structure\",\"date\":\"Jan 27, 2024\",\"position\":2},{\"title\":\"ProteinGPT: Multimodal LLM for Protein Property Prediction ... - arXiv\",\"link\":\"https://arxiv.org/html/2408.11363v1\",\"snippet\":\"ProteinGPT, a chat system that allows researchers to upload protein sequences and/or structures (via fasta or PDB files) and ask natural language questions.\",\"date\":\"Aug 21, 2024\",\"position\":3},{\"title\":\"A Comprehensive Benchmark for Structure-based Protein Design\",\"link\":\"https://arxiv.org/html/2312.00080\",\"snippet\":\"In recent years, the integration of deep learning has enhanced the capabilities of structure-based protein design, yielding notable results (Ingraham et al.\",\"date\":\"Nov 30, 2023\",\"position\":4},{\"title\":\"Leveraging Deep Generative Model For Computational Protein ...\",\"link\":\"https://arxiv.org/abs/2408.17241\",\"snippet\":\"This thesis will investigate the potential of deep generative models in refining protein structure and sequence design methods, aiming to develop frameworks\",\"date\":\"Aug 30, 2024\",\"position\":5},{\"title\":\"[PDF] arXiv:2402.10516v1 [q-bio.BM] 16 Feb 2024\",\"link\":\"https://arxiv.org/pdf/2402.10516\",\"snippet\":\"In this paper, we systematically review the landscape of gener- ative AI technologies and their recent progress in controllable protein sequence design. We ...\",\"date\":\"Feb 16, 2024\",\"position\":6},{\"title\":\"ProtAgents: Protein discovery via large language model multi-agent ...\",\"link\":\"https://arxiv.org/html/2402.04268v1\",\"snippet\":\"Current methodologies for protein design often rely on AI-based models, such as surrogate models that address end-to-end problems by linking protein structure\",\"date\":\"Jan 27, 2024\",\"position\":7},{\"title\":\"[PDF] arXiv:2204.10673v2 [q-bio.BM] 21 Feb 2023\",\"link\":\"https://arxiv.org/pdf/2204.10673\",\"snippet\":\"Computational protein design, which aims to invent protein molecules with desired structures and functions automati- cally, has a wide range of applications in ...\",\"date\":\"Feb 21, 2023\",\"position\":8},{\"title\":\"[PDF] Protein Language Models and Structure Prediction - arXiv\",\"link\":\"https://arxiv.org/pdf/2211.16742\",\"snippet\":\"Recent advances have proved the power of language models (LMs) in processing the protein sequence databases, which inherit the advantages of attention networks ...\",\"date\":\"Nov 30, 2022\",\"position\":9},{\"title\":\"[PDF] arXiv:2405.17902v2 [cs.AI] 29 Jun 2024\",\"link\":\"https://arxiv.org/pdf/2405.17902?\",\"snippet\":\"Abstract. We introduce a pioneering methodology for boosting large language models in the domain of protein representation learning. Our.\",\"date\":\"Jun 29, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBSSBhZHZhbmNlbWVudHMgaW4gcHJvdGVpbiBkZXNpZ24gYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiR2VuZXJhdGl2ZSBBSSBmb3IgQ29udHJvbGxhYmxlIFByb3RlaW4gU2VxdWVuY2UgRGVzaWduOiBBIFN1cnZleSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwMi4xMDUxNiIsInNuaXBwZXQiOiJJbiB0aGlzIHN1cnZleSwgd2Ugc3lzdGVtYXRpY2FsbHkgcmV2aWV3IHJlY2VudCBhZHZhbmNlcyBpbiBnZW5lcmF0aXZlIEFJIGZvciBjb250cm9sbGFibGUgcHJvdGVpbiBzZXF1ZW5jZSBkZXNpZ24uIiwiZGF0ZSI6IkZlYiAxNiwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiUHJvdEFnZW50czogUHJvdGVpbiBkaXNjb3ZlcnkgdmlhIGxhcmdlIGxhbmd1YWdlIG1vZGVsIG11bHRpLWFnZW50IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwMi4wNDI2OCIsInNuaXBwZXQiOiJDdXJyZW50IG1ldGhvZG9sb2dpZXMgZm9yIHByb3RlaW4gZGVzaWduIG9mdGVuIHJlbHkgb24gQUktYmFzZWQgbW9kZWxzLCBzdWNoIGFzIHN1cnJvZ2F0ZSBtb2RlbHMgdGhhdCBhZGRyZXNzIGVuZC10by1lbmQgcHJvYmxlbXMgYnkgbGlua2luZyBwcm90ZWluIHN0cnVjdHVyZSIsImRhdGUiOiJKYW4gMjcsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlByb3RlaW5HUFQ6IE11bHRpbW9kYWwgTExNIGZvciBQcm90ZWluIFByb3BlcnR5IFByZWRpY3Rpb24gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjExMzYzdjEiLCJzbmlwcGV0IjoiUHJvdGVpbkdQVCwgYSBjaGF0IHN5c3RlbSB0aGF0IGFsbG93cyByZXNlYXJjaGVycyB0byB1cGxvYWQgcHJvdGVpbiBzZXF1ZW5jZXMgYW5kL29yIHN0cnVjdHVyZXMgKHZpYSBmYXN0YSBvciBQREIgZmlsZXMpIGFuZCBhc2sgbmF0dXJhbCBsYW5ndWFnZSBxdWVzdGlvbnMuIiwiZGF0ZSI6IkF1ZyAyMSwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQSBDb21wcmVoZW5zaXZlIEJlbmNobWFyayBmb3IgU3RydWN0dXJlLWJhc2VkIFByb3RlaW4gRGVzaWduIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4wMDA4MCIsInNuaXBwZXQiOiJJbiByZWNlbnQgeWVhcnMsIHRoZSBpbnRlZ3JhdGlvbiBvZiBkZWVwIGxlYXJuaW5nIGhhcyBlbmhhbmNlZCB0aGUgY2FwYWJpbGl0aWVzIG9mIHN0cnVjdHVyZS1iYXNlZCBwcm90ZWluIGRlc2lnbiwgeWllbGRpbmcgbm90YWJsZSByZXN1bHRzIChJbmdyYWhhbSBldCBhbC4iLCJkYXRlIjoiTm92IDMwLCAyMDIzIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJMZXZlcmFnaW5nIERlZXAgR2VuZXJhdGl2ZSBNb2RlbCBGb3IgQ29tcHV0YXRpb25hbCBQcm90ZWluIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwOC4xNzI0MSIsInNuaXBwZXQiOiJUaGlzIHRoZXNpcyB3aWxsIGludmVzdGlnYXRlIHRoZSBwb3RlbnRpYWwgb2YgZGVlcCBnZW5lcmF0aXZlIG1vZGVscyBpbiByZWZpbmluZyBwcm90ZWluIHN0cnVjdHVyZSBhbmQgc2VxdWVuY2UgZGVzaWduIG1ldGhvZHMsIGFpbWluZyB0byBkZXZlbG9wIGZyYW1ld29ya3MiLCJkYXRlIjoiQXVnIDMwLCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDAyLjEwNTE2djEgW3EtYmlvLkJNXSAxNiBGZWIgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMi4xMDUxNiIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBzeXN0ZW1hdGljYWxseSByZXZpZXcgdGhlIGxhbmRzY2FwZSBvZiBnZW5lci0gYXRpdmUgQUkgdGVjaG5vbG9naWVzIGFuZCB0aGVpciByZWNlbnQgcHJvZ3Jlc3MgaW4gY29udHJvbGxhYmxlIHByb3RlaW4gc2VxdWVuY2UgZGVzaWduLiBXZSAuLi4iLCJkYXRlIjoiRmViIDE2LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJQcm90QWdlbnRzOiBQcm90ZWluIGRpc2NvdmVyeSB2aWEgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWwgbXVsdGktYWdlbnQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNDI2OHYxIiwic25pcHBldCI6IkN1cnJlbnQgbWV0aG9kb2xvZ2llcyBmb3IgcHJvdGVpbiBkZXNpZ24gb2Z0ZW4gcmVseSBvbiBBSS1iYXNlZCBtb2RlbHMsIHN1Y2ggYXMgc3Vycm9nYXRlIG1vZGVscyB0aGF0IGFkZHJlc3MgZW5kLXRvLWVuZCBwcm9ibGVtcyBieSBsaW5raW5nIHByb3RlaW4gc3RydWN0dXJlIiwiZGF0ZSI6IkphbiAyNywgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjIwNC4xMDY3M3YyIFtxLWJpby5CTV0gMjEgRmViIDIwMjMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMDQuMTA2NzMiLCJzbmlwcGV0IjoiQ29tcHV0YXRpb25hbCBwcm90ZWluIGRlc2lnbiwgd2hpY2ggYWltcyB0byBpbnZlbnQgcHJvdGVpbiBtb2xlY3VsZXMgd2l0aCBkZXNpcmVkIHN0cnVjdHVyZXMgYW5kIGZ1bmN0aW9ucyBhdXRvbWF0aS0gY2FsbHksIGhhcyBhIHdpZGUgcmFuZ2Ugb2YgYXBwbGljYXRpb25zIGluIC4uLiIsImRhdGUiOiJGZWIgMjEsIDIwMjMiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIFByb3RlaW4gTGFuZ3VhZ2UgTW9kZWxzIGFuZCBTdHJ1Y3R1cmUgUHJlZGljdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjExLjE2NzQyIiwic25pcHBldCI6IlJlY2VudCBhZHZhbmNlcyBoYXZlIHByb3ZlZCB0aGUgcG93ZXIgb2YgbGFuZ3VhZ2UgbW9kZWxzIChMTXMpIGluIHByb2Nlc3NpbmcgdGhlIHByb3RlaW4gc2VxdWVuY2UgZGF0YWJhc2VzLCB3aGljaCBpbmhlcml0IHRoZSBhZHZhbnRhZ2VzIG9mIGF0dGVudGlvbiBuZXR3b3JrcyAuLi4iLCJkYXRlIjoiTm92IDMwLCAyMDIyIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDA1LjE3OTAydjIgW2NzLkFJXSAyOSBKdW4gMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNS4xNzkwMj8iLCJzbmlwcGV0IjoiQWJzdHJhY3QuIFdlIGludHJvZHVjZSBhIHBpb25lZXJpbmcgbWV0aG9kb2xvZ3kgZm9yIGJvb3N0aW5nIGxhcmdlIGxhbmd1YWdlIG1vZGVscyBpbiB0aGUgZG9tYWluIG9mIHByb3RlaW4gcmVwcmVzZW50YXRpb24gbGVhcm5pbmcuIE91ci4iLCJkYXRlIjoiSnVuIDI5LCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "543d96c4950c89ac99929f8ad72726dd048d5d8bd568108ae0ba252966407760",
+          "structured_response": {
+            "searchParameters": {
+              "q": "AI advancements in protein design before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Generative AI for Controllable Protein Sequence Design: A Survey",
+                "link": "https://arxiv.org/abs/2402.10516",
+                "snippet": "In this survey, we systematically review recent advances in generative AI for controllable protein sequence design.",
+                "date": "Feb 16, 2024",
+                "position": 1
+              },
+              {
+                "title": "ProtAgents: Protein discovery via large language model multi-agent ...",
+                "link": "https://arxiv.org/abs/2402.04268",
+                "snippet": "Current methodologies for protein design often rely on AI-based models, such as surrogate models that address end-to-end problems by linking protein structure",
+                "date": "Jan 27, 2024",
+                "position": 2
+              },
+              {
+                "title": "ProteinGPT: Multimodal LLM for Protein Property Prediction ... - arXiv",
+                "link": "https://arxiv.org/html/2408.11363v1",
+                "snippet": "ProteinGPT, a chat system that allows researchers to upload protein sequences and/or structures (via fasta or PDB files) and ask natural language questions.",
+                "date": "Aug 21, 2024",
+                "position": 3
+              },
+              {
+                "title": "A Comprehensive Benchmark for Structure-based Protein Design",
+                "link": "https://arxiv.org/html/2312.00080",
+                "snippet": "In recent years, the integration of deep learning has enhanced the capabilities of structure-based protein design, yielding notable results (Ingraham et al.",
+                "date": "Nov 30, 2023",
+                "position": 4
+              },
+              {
+                "title": "Leveraging Deep Generative Model For Computational Protein ...",
+                "link": "https://arxiv.org/abs/2408.17241",
+                "snippet": "This thesis will investigate the potential of deep generative models in refining protein structure and sequence design methods, aiming to develop frameworks",
+                "date": "Aug 30, 2024",
+                "position": 5
+              },
+              {
+                "title": "[PDF] arXiv:2402.10516v1 [q-bio.BM] 16 Feb 2024",
+                "link": "https://arxiv.org/pdf/2402.10516",
+                "snippet": "In this paper, we systematically review the landscape of gener- ative AI technologies and their recent progress in controllable protein sequence design. We ...",
+                "date": "Feb 16, 2024",
+                "position": 6
+              },
+              {
+                "title": "ProtAgents: Protein discovery via large language model multi-agent ...",
+                "link": "https://arxiv.org/html/2402.04268v1",
+                "snippet": "Current methodologies for protein design often rely on AI-based models, such as surrogate models that address end-to-end problems by linking protein structure",
+                "date": "Jan 27, 2024",
+                "position": 7
+              },
+              {
+                "title": "[PDF] arXiv:2204.10673v2 [q-bio.BM] 21 Feb 2023",
+                "link": "https://arxiv.org/pdf/2204.10673",
+                "snippet": "Computational protein design, which aims to invent protein molecules with desired structures and functions automati- cally, has a wide range of applications in ...",
+                "date": "Feb 21, 2023",
+                "position": 8
+              },
+              {
+                "title": "[PDF] Protein Language Models and Structure Prediction - arXiv",
+                "link": "https://arxiv.org/pdf/2211.16742",
+                "snippet": "Recent advances have proved the power of language models (LMs) in processing the protein sequence databases, which inherit the advantages of attention networks ...",
+                "date": "Nov 30, 2022",
+                "position": 9
+              },
+              {
+                "title": "[PDF] arXiv:2405.17902v2 [cs.AI] 29 Jun 2024",
+                "link": "https://arxiv.org/pdf/2405.17902?",
+                "snippet": "Abstract. We introduce a pioneering methodology for boosting large language models in the domain of protein representation learning. Our.",
+                "date": "Jun 29, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:55.891830+00:00",
+          "elapsed_seconds": 0.7729831524193287
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2204.10673",
+        "2211.16742",
+        "2312.00080",
+        "2402.04268",
+        "2402.10516",
+        "2405.17902",
+        "2408.11363",
+        "2408.17241"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2402.10516",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2402.10516",
+          "title": "Generative AI for Controllable Protein Sequence Design: A Survey",
+          "snippet": "In this survey, we systematically review recent advances in generative AI for controllable protein sequence design."
+        },
+        {
+          "arxiv_id": "2402.04268",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2402.04268",
+          "title": "ProtAgents: Protein discovery via large language model multi-agent ...",
+          "snippet": "Current methodologies for protein design often rely on AI-based models, such as surrogate models that address end-to-end problems by linking protein structure"
+        },
+        {
+          "arxiv_id": "2408.11363",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2408.11363v1",
+          "title": "ProteinGPT: Multimodal LLM for Protein Property Prediction ... - arXiv",
+          "snippet": "ProteinGPT, a chat system that allows researchers to upload protein sequences and/or structures (via fasta or PDB files) and ask natural language questions."
+        },
+        {
+          "arxiv_id": "2312.00080",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2312.00080",
+          "title": "A Comprehensive Benchmark for Structure-based Protein Design",
+          "snippet": "In recent years, the integration of deep learning has enhanced the capabilities of structure-based protein design, yielding notable results (Ingraham et al."
+        },
+        {
+          "arxiv_id": "2408.17241",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2408.17241",
+          "title": "Leveraging Deep Generative Model For Computational Protein ...",
+          "snippet": "This thesis will investigate the potential of deep generative models in refining protein structure and sequence design methods, aiming to develop frameworks"
+        },
+        {
+          "arxiv_id": "2402.10516",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2402.10516",
+          "title": "[PDF] arXiv:2402.10516v1 [q-bio.BM] 16 Feb 2024",
+          "snippet": "In this paper, we systematically review the landscape of gener- ative AI technologies and their recent progress in controllable protein sequence design. We ..."
+        },
+        {
+          "arxiv_id": "2402.04268",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2402.04268v1",
+          "title": "ProtAgents: Protein discovery via large language model multi-agent ...",
+          "snippet": "Current methodologies for protein design often rely on AI-based models, such as surrogate models that address end-to-end problems by linking protein structure"
+        },
+        {
+          "arxiv_id": "2204.10673",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2204.10673",
+          "title": "[PDF] arXiv:2204.10673v2 [q-bio.BM] 21 Feb 2023",
+          "snippet": "Computational protein design, which aims to invent protein molecules with desired structures and functions automati- cally, has a wide range of applications in ..."
+        },
+        {
+          "arxiv_id": "2211.16742",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2211.16742",
+          "title": "[PDF] Protein Language Models and Structure Prediction - arXiv",
+          "snippet": "Recent advances have proved the power of language models (LMs) in processing the protein sequence databases, which inherit the advantages of attention networks ..."
+        },
+        {
+          "arxiv_id": "2405.17902",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2405.17902?",
+          "title": "[PDF] arXiv:2405.17902v2 [cs.AI] 29 Jun 2024",
+          "snippet": "Abstract. We introduce a pioneering methodology for boosting large language models in the domain of protein representation learning. Our."
+        }
+      ],
+      "request_payload": {
+        "q": "AI advancements in protein design before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "AI for Science papers, especially protein design and DPO of antibody design.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 266,
+          "query_id": "Q43",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "AI for Science papers, especially protein design and DPO of antibody design.",
+          "request_payload": {
+            "q": "AI for Science papers, especially protein design and DPO of antibody design. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q43_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:30:53.927886+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"AI for Science papers, especially protein design and DPO of antibody design. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Antigen-Specific Antibody Design via Direct Energy-based ... - arXiv\",\"link\":\"https://arxiv.org/html/2403.16576v1\",\"snippet\":\"In this paper, we tackle antigen-specific antibody design as a protein sequence-structure co-design problem, considering both rationality and functionality.\",\"date\":\"Mar 25, 2024\",\"position\":1},{\"title\":\"[PDF] arXiv:2403.04187v1 [physics.bio-ph] 7 Mar 2024\",\"link\":\"https://arxiv.org/pdf/2403.04187\",\"snippet\":\"Recent progress in generative artificial intelligence has inspired novel strategies for designing protein binders, rooted in either structure-based or sequence- ...\",\"date\":\"Mar 7, 2024\",\"position\":2},{\"title\":\"[PDF] A Comprehensive Survey of Scientific Large Language Models and ...\",\"link\":\"https://arxiv.org/pdf/2406.10833\",\"snippet\":\"LLMs can encode biolog- ical sequences to capture structural properties and guide protein design. - able accurate structure prediction of proteins\",\"date\":\"Jun 19, 2024\",\"position\":3}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBSSBmb3IgU2NpZW5jZSBwYXBlcnMsIGVzcGVjaWFsbHkgcHJvdGVpbiBkZXNpZ24gYW5kIERQTyBvZiBhbnRpYm9keSBkZXNpZ24uIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkFudGlnZW4tU3BlY2lmaWMgQW50aWJvZHkgRGVzaWduIHZpYSBEaXJlY3QgRW5lcmd5LWJhc2VkIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xNjU3NnYxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHRhY2tsZSBhbnRpZ2VuLXNwZWNpZmljIGFudGlib2R5IGRlc2lnbiBhcyBhIHByb3RlaW4gc2VxdWVuY2Utc3RydWN0dXJlIGNvLWRlc2lnbiBwcm9ibGVtLCBjb25zaWRlcmluZyBib3RoIHJhdGlvbmFsaXR5IGFuZCBmdW5jdGlvbmFsaXR5LiIsImRhdGUiOiJNYXIgMjUsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDMuMDQxODd2MSBbcGh5c2ljcy5iaW8tcGhdIDcgTWFyIDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDMuMDQxODciLCJzbmlwcGV0IjoiUmVjZW50IHByb2dyZXNzIGluIGdlbmVyYXRpdmUgYXJ0aWZpY2lhbCBpbnRlbGxpZ2VuY2UgaGFzIGluc3BpcmVkIG5vdmVsIHN0cmF0ZWdpZXMgZm9yIGRlc2lnbmluZyBwcm90ZWluIGJpbmRlcnMsIHJvb3RlZCBpbiBlaXRoZXIgc3RydWN0dXJlLWJhc2VkIG9yIHNlcXVlbmNlLSAuLi4iLCJkYXRlIjoiTWFyIDcsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIEEgQ29tcHJlaGVuc2l2ZSBTdXJ2ZXkgb2YgU2NpZW50aWZpYyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgYW5kIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNi4xMDgzMyIsInNuaXBwZXQiOiJMTE1zIGNhbiBlbmNvZGUgYmlvbG9nLSBpY2FsIHNlcXVlbmNlcyB0byBjYXB0dXJlIHN0cnVjdHVyYWwgcHJvcGVydGllcyBhbmQgZ3VpZGUgcHJvdGVpbiBkZXNpZ24uIC0gYWJsZSBhY2N1cmF0ZSBzdHJ1Y3R1cmUgcHJlZGljdGlvbiBvZiBwcm90ZWlucyIsImRhdGUiOiJKdW4gMTksIDIwMjQiLCJwb3NpdGlvbiI6M31dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "5a3793965d897f9cddfde08c367a920218d87a65d2b97e613a6c361ee6395d40",
+          "structured_response": {
+            "searchParameters": {
+              "q": "AI for Science papers, especially protein design and DPO of antibody design. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Antigen-Specific Antibody Design via Direct Energy-based ... - arXiv",
+                "link": "https://arxiv.org/html/2403.16576v1",
+                "snippet": "In this paper, we tackle antigen-specific antibody design as a protein sequence-structure co-design problem, considering both rationality and functionality.",
+                "date": "Mar 25, 2024",
+                "position": 1
+              },
+              {
+                "title": "[PDF] arXiv:2403.04187v1 [physics.bio-ph] 7 Mar 2024",
+                "link": "https://arxiv.org/pdf/2403.04187",
+                "snippet": "Recent progress in generative artificial intelligence has inspired novel strategies for designing protein binders, rooted in either structure-based or sequence- ...",
+                "date": "Mar 7, 2024",
+                "position": 2
+              },
+              {
+                "title": "[PDF] A Comprehensive Survey of Scientific Large Language Models and ...",
+                "link": "https://arxiv.org/pdf/2406.10833",
+                "snippet": "LLMs can encode biolog- ical sequences to capture structural properties and guide protein design. - able accurate structure prediction of proteins",
+                "date": "Jun 19, 2024",
+                "position": 3
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:30:54.868489+00:00",
+          "elapsed_seconds": 0.9406000934541225
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2403.04187",
+        "2403.16576",
+        "2406.10833"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2403.16576",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2403.16576v1",
+          "title": "Antigen-Specific Antibody Design via Direct Energy-based ... - arXiv",
+          "snippet": "In this paper, we tackle antigen-specific antibody design as a protein sequence-structure co-design problem, considering both rationality and functionality."
+        },
+        {
+          "arxiv_id": "2403.04187",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/pdf/2403.04187",
+          "title": "[PDF] arXiv:2403.04187v1 [physics.bio-ph] 7 Mar 2024",
+          "snippet": "Recent progress in generative artificial intelligence has inspired novel strategies for designing protein binders, rooted in either structure-based or sequence- ..."
+        },
+        {
+          "arxiv_id": "2406.10833",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2406.10833",
+          "title": "[PDF] A Comprehensive Survey of Scientific Large Language Models and ...",
+          "snippet": "LLMs can encode biolog- ical sequences to capture structural properties and guide protein design. - able accurate structure prediction of proteins"
+        }
+      ],
+      "request_payload": {
+        "q": "AI for Science papers, especially protein design and DPO of antibody design. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "anchor",
+    "q5"
+  ]
+}

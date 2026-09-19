@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q01",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2306.00947",
+  "request_payload": {
+    "q": "Is there any work that allows large numbers of model outputs to be encoded and compared by causal language models in a single forward pass? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 3,
+  "started_utc": "2026-09-17T12:33:24.813336+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648130",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "597b9af502ac59c6b4d17ba350dba673",
+    "date": "Thu, 17 Sep 2026 12:28:46 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3462",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3462,
+  "response_bytes_sha256": "a7af98c266b54ca0600fc8f5228c937aab50cb719e4e44fd4f1dc3ade89b01d2",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJJcyB0aGVyZSBhbnkgd29yayB0aGF0IGFsbG93cyBsYXJnZSBudW1iZXJzIG9mIG1vZGVsIG91dHB1dHMgdG8gYmUgZW5jb2RlZCBhbmQgY29tcGFyZWQgYnkgY2F1c2FsIGxhbmd1YWdlIG1vZGVscyBpbiBhIHNpbmdsZSBmb3J3YXJkIHBhc3M/IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkNhdXNhbGl0eSBmb3IgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDEwLjE1MzE5djEiLCJzbmlwcGV0IjoiVGhlIExMTTRDYXVzYWwgbW9kZWwgaXMgYW4gZW5kLXRvLWVuZCBsYXJnZSBsYW5ndWFnZSBtb2RlbCBkZXNpZ25lZCBmb3IgY2F1c2FsIGRlY2lzaW9uLW1ha2luZyB0YXNrcyBieSBjb21iaW5pbmcgZmluZS10dW5pbmcgYW5kIHRvb2wgaW50ZWdyYXRpb24gdGVjaG5pcXVlcy4iLCJkYXRlIjoiT2N0IDIwLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJMYXJnZSBMYW5ndWFnZSBNb2RlbHM6IEEgU3VydmV5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjA2MTk2djIiLCJzbmlwcGV0IjoiTExNcyBhcmUgbm90IG9ubHkgbXVjaCBsYXJnZXIgaW4gbW9kZWwgc2l6ZSwgYnV0IGFsc28gZXhoaWJpdCBzdHJvbmdlciBsYW5ndWFnZSB1bmRlcnN0YW5kaW5nIGFuZCBnZW5lcmF0aW9uIGFuZCBlbWVyZ2VudCBhYmlsaXRpZXMiLCJkYXRlIjoiRmViIDIwLCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJEaXJlY3QgTXVsdGktVG9rZW4gRGVjb2RpbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MTAuMTE5NTh2MSIsInNuaXBwZXQiOiJBYnN0cmFjdC4gRGVjb2Rlci1vbmx5IHRyYW5zZm9ybWVycyBoYXZlIGJlY29tZSB0aGUgc3RhbmRhcmQgYXJjaGl0ZWN0dXJlIGZvciBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpIGR1ZSB0byB0aGVpciBzdHJvbmcgcGVyZm9ybWFuY2UuIiwiZGF0ZSI6Ik9jdCAxMywgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiVW5pZnlpbmcgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGFuZCBLbm93bGVkZ2UgR3JhcGhzIC0gYXI1aXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIzMDYuMDgzMDIiLCJzbmlwcGV0IjoiVGhlIHF1ZXN0aW9uIGFuZCB2ZXJiYWxpemVkIHBhdGhzIGFyZSBlbmNvZGVkIGJ5IHRoZSBsYW5ndWFnZSBtb2RlbCwgYW5kIGRpZmZlcmVudCBsYXllcnMgb2YgdGhlIGxhbmd1YWdlIG1vZGVsIHByb2R1Y2Ugb3V0cHV0cyB0aGF0IGd1aWRlIGEgZ3JhcGggbmV1cmFsIC4uLiIsImRhdGUiOiJKdW4gMTUsIDIwMjMiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlZlcmJhbGl6YWJsZSBSZXByZXNlbnRhdGlvbnMgRm9ybSBhIEdsb2JhbCBXb3Jrc3BhY2UgaW4gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA3LjE1NDk1djEiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgcHJlc2VudCBldmlkZW5jZSB0aGF0IGFuIGFuYWxvZ291cyBmdW5jdGlvbmFsIGRpc3RpbmN0aW9uIGhhcyBlbWVyZ2VkIGluIGxhcmdlIGxhbmd1YWdlIG1vZGVscy4gVXNpbmcgYSBuZXcgaW50ZXJwcmV0YWJpbGl0eSB0ZWNobmlxdWUsIHRoZSAuLi4iLCJkYXRlIjoiSnVsIDE2LCAyMDI2IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJEb21pbm86IERlY291cGxpbmcgQ2F1c2FsIE1vZGVsaW5nIGZyb20gQXV0b3JlZ3Jlc3NpdmUgRHJhZnRpbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNS4yOTcwN3YxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHByb3Bvc2UgRG9taW5vLCBhIHNwZWN1bGF0aXZlIGRlY29kaW5nIGZyYW1ld29yayB0aGF0IGRlY291cGxlcyBjYXVzYWwgZGVwZW5kZW5jeSBtb2RlbGluZyBmcm9tIGV4cGVuc2l2ZSBhdXRvcmVncmVzc2l2ZSBkcmFmdCBleGVjdXRpb24uIiwiZGF0ZSI6Ik1heSAyOCwgMjAyNiIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiW1BERl0gVGhpbmtpbmcgaW50byB0aGUgRnV0dXJlOiBMYXRlbnQgTG9va2FoZWFkIFRyYWluaW5nIGZvciBUcmFuc2Zvcm1lcnMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI2MDMuMjAyMTkiLCJzbmlwcGV0IjoiRnVydGhlcm1vcmUsIHRoZSBjb21wdXRlIGFsbG9jYXRpb24gYWNyb3NzIHRva2VucyBpcyB1bmlmb3JtOyBldmVyeSB0b2tlbiBpcyBmb3JtZWQgYmFzZWQgb24gYSBzaW5nbGUgZm9yd2FyZC0gcGFzcywgcG90ZW50aWFsbHkgbGltaXRpbmcgdGhlIG1vZGVsJ3MgLi4uIiwiZGF0ZSI6Ik9jdCAxNCwgMjAyNSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiVHJhaW5pbmcgbGFuZ3VhZ2UgbW9kZWxzIHRvIGZvbGxvdyBpbnN0cnVjdGlvbnMgd2l0aCBodW1hbiBmZWVkYmFjayIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjIwMy4wMjE1NSIsInNuaXBwZXQiOiJsYXJnZSBsYW5ndWFnZSBtb2RlbHMgY2FuIGdlbmVyYXRlIG91dHB1dHMgdGhhdCBhcmUgdW50cnV0aGZ1bCwgdG94aWMsIG9yIHNpbXBseSBub3QgaGVscGZ1bCB0byB0aGUgdXNlci4gSW4gdGhpcyBwYXBlciwgd2Ugc2hvdyBhbiBhdmVudWUgZm9yIGFsaWduaW5nIC4uLiIsImRhdGUiOiJKYW4gMjcsIDIwMjIiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6Ik5leHQgRm9yY2luZzogQ2F1c2FsIFdvcmxkIE1vZGVsaW5nIHdpdGggTXVsdGktQ2h1bmsgUHJlZGljdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDYuMTExODd2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcmVzZW50IE5leHQgRm9yY2luZywgYSBtdWx0aS1jaHVuayBwcmVkaWN0aW9uIChNQ1ApIGZyYW1ld29yayBmb3IgY2F1c2FsIHdvcmxkIG1vZGVsaW5nIHRoYXQgZW5hYmxlcyBmYXN0ZXIgdHJhaW5pbmcsIGhpZ2hlciBhY2N1cmFjeSwgYW5kIC4uLiIsImRhdGUiOiJKdW4gOSwgMjAyNiIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiVW5jb3ZlcmluZyB0aGUgSW50ZXJuYWwgT3JpZ2lucyBvZiBTeWNvcGhhbmN5IGluIExhcmdlIExhbmd1YWdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDguMDIwODd2NCIsInNuaXBwZXQiOiJPdXIgZmlyc3Qgb2JqZWN0aXZlIGlzIHRvIGlkZW50aWZ5IHdoZW4gZHVyaW5nIHRoZSBtb2RlbCdzIGZvcndhcmQgcGFzcyBzeWNvcGhhbnRpYyBwcmVmZXJlbmNlcyBlbWVyZ2UuIFNpbmNlIGRpZmZlcmVudCB0cmFuc2Zvcm1lciBsYXllcnMgZW5jb2RlIGRpZmZlcmVudCAuLi4iLCJkYXRlIjoiTm92IDEyLCAyMDI1IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Is there any work that allows large numbers of model outputs to be encoded and compared by causal language models in a single forward pass? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Causality for Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2410.15319v1",
+        "snippet": "The LLM4Causal model is an end-to-end large language model designed for causal decision-making tasks by combining fine-tuning and tool integration techniques.",
+        "date": "Oct 20, 2024",
+        "position": 1
+      },
+      {
+        "title": "Large Language Models: A Survey - arXiv",
+        "link": "https://arxiv.org/html/2402.06196v2",
+        "snippet": "LLMs are not only much larger in model size, but also exhibit stronger language understanding and generation and emergent abilities",
+        "date": "Feb 20, 2024",
+        "position": 2
+      },
+      {
+        "title": "Direct Multi-Token Decoding - arXiv",
+        "link": "https://arxiv.org/html/2510.11958v1",
+        "snippet": "Abstract. Decoder-only transformers have become the standard architecture for large language models (LLMs) due to their strong performance.",
+        "date": "Oct 13, 2025",
+        "position": 3
+      },
+      {
+        "title": "Unifying Large Language Models and Knowledge Graphs - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2306.08302",
+        "snippet": "The question and verbalized paths are encoded by the language model, and different layers of the language model produce outputs that guide a graph neural ...",
+        "date": "Jun 15, 2023",
+        "position": 4
+      },
+      {
+        "title": "Verbalizable Representations Form a Global Workspace in ... - arXiv",
+        "link": "https://arxiv.org/html/2607.15495v1",
+        "snippet": "In this paper, we present evidence that an analogous functional distinction has emerged in large language models. Using a new interpretability technique, the ...",
+        "date": "Jul 16, 2026",
+        "position": 5
+      },
+      {
+        "title": "Domino: Decoupling Causal Modeling from Autoregressive Drafting ...",
+        "link": "https://arxiv.org/html/2605.29707v1",
+        "snippet": "In this paper, we propose Domino, a speculative decoding framework that decouples causal dependency modeling from expensive autoregressive draft execution.",
+        "date": "May 28, 2026",
+        "position": 6
+      },
+      {
+        "title": "[PDF] Thinking into the Future: Latent Lookahead Training for Transformers",
+        "link": "https://arxiv.org/pdf/2603.20219",
+        "snippet": "Furthermore, the compute allocation across tokens is uniform; every token is formed based on a single forward- pass, potentially limiting the model's ...",
+        "date": "Oct 14, 2025",
+        "position": 7
+      },
+      {
+        "title": "Training language models to follow instructions with human feedback",
+        "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+        "snippet": "large language models can generate outputs that are untruthful, toxic, or simply not helpful to the user. In this paper, we show an avenue for aligning ...",
+        "date": "Jan 27, 2022",
+        "position": 8
+      },
+      {
+        "title": "Next Forcing: Causal World Modeling with Multi-Chunk Prediction",
+        "link": "https://arxiv.org/html/2606.11187v1",
+        "snippet": "In this paper, we present Next Forcing, a multi-chunk prediction (MCP) framework for causal world modeling that enables faster training, higher accuracy, and ...",
+        "date": "Jun 9, 2026",
+        "position": 9
+      },
+      {
+        "title": "Uncovering the Internal Origins of Sycophancy in Large Language ...",
+        "link": "https://arxiv.org/html/2508.02087v4",
+        "snippet": "Our first objective is to identify when during the model's forward pass sycophantic preferences emerge. Since different transformer layers encode different ...",
+        "date": "Nov 12, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Causality for Large Language Models - arXiv",
+      "snippet": "The LLM4Causal model is an end-to-end large language model designed for causal decision-making tasks by combining fine-tuning and tool integration techniques.",
+      "link": "https://arxiv.org/html/2410.15319v1",
+      "arxiv_id": "2410.15319"
+    },
+    {
+      "rank": 2,
+      "title": "Large Language Models: A Survey - arXiv",
+      "snippet": "LLMs are not only much larger in model size, but also exhibit stronger language understanding and generation and emergent abilities",
+      "link": "https://arxiv.org/html/2402.06196v2",
+      "arxiv_id": "2402.06196"
+    },
+    {
+      "rank": 3,
+      "title": "Direct Multi-Token Decoding - arXiv",
+      "snippet": "Abstract. Decoder-only transformers have become the standard architecture for large language models (LLMs) due to their strong performance.",
+      "link": "https://arxiv.org/html/2510.11958v1",
+      "arxiv_id": "2510.11958"
+    },
+    {
+      "rank": 4,
+      "title": "Unifying Large Language Models and Knowledge Graphs - ar5iv",
+      "snippet": "The question and verbalized paths are encoded by the language model, and different layers of the language model produce outputs that guide a graph neural ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2306.08302",
+      "arxiv_id": "2306.08302"
+    },
+    {
+      "rank": 5,
+      "title": "Verbalizable Representations Form a Global Workspace in ... - arXiv",
+      "snippet": "In this paper, we present evidence that an analogous functional distinction has emerged in large language models. Using a new interpretability technique, the ...",
+      "link": "https://arxiv.org/html/2607.15495v1",
+      "arxiv_id": "2607.15495"
+    },
+    {
+      "rank": 6,
+      "title": "Domino: Decoupling Causal Modeling from Autoregressive Drafting ...",
+      "snippet": "In this paper, we propose Domino, a speculative decoding framework that decouples causal dependency modeling from expensive autoregressive draft execution.",
+      "link": "https://arxiv.org/html/2605.29707v1",
+      "arxiv_id": "2605.29707"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] Thinking into the Future: Latent Lookahead Training for Transformers",
+      "snippet": "Furthermore, the compute allocation across tokens is uniform; every token is formed based on a single forward- pass, potentially limiting the model's ...",
+      "link": "https://arxiv.org/pdf/2603.20219",
+      "arxiv_id": "2603.20219"
+    },
+    {
+      "rank": 8,
+      "title": "Training language models to follow instructions with human feedback",
+      "snippet": "large language models can generate outputs that are untruthful, toxic, or simply not helpful to the user. In this paper, we show an avenue for aligning ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+      "arxiv_id": "2203.02155"
+    },
+    {
+      "rank": 9,
+      "title": "Next Forcing: Causal World Modeling with Multi-Chunk Prediction",
+      "snippet": "In this paper, we present Next Forcing, a multi-chunk prediction (MCP) framework for causal world modeling that enables faster training, higher accuracy, and ...",
+      "link": "https://arxiv.org/html/2606.11187v1",
+      "arxiv_id": "2606.11187"
+    },
+    {
+      "rank": 10,
+      "title": "Uncovering the Internal Origins of Sycophancy in Large Language ...",
+      "snippet": "Our first objective is to identify when during the model's forward pass sycophantic preferences emerge. Since different transformer layers encode different ...",
+      "link": "https://arxiv.org/html/2508.02087v4",
+      "arxiv_id": "2508.02087"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:26.210823+00:00",
+  "elapsed_seconds": 1.3974939547479153
+}

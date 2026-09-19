@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "validated_utc": "2026-09-15T15:05:43.155609+00:00",
+  "checks": "50 verbatim-grounded annotated questions; exact stored review indices/frequencies; independent lexical Jaccard recount; summary and positive IDs; outcome-free feature artifact; 50 report rows and 50 element tables; unchanged source/model/evaluator files; zero network/model events; no trigger code or thresholds",
+  "limitation": "Mechanical validation does not certify semantic annotation correctness; judgments and ambiguous conventions remain reviewable.",
+  "execution": {
+    "new_network_requests": 0,
+    "new_serper_requests": 0,
+    "new_crawler_generations": 0,
+    "new_selector_calls": 0,
+    "new_citation_expand_calls": 0,
+    "trigger_implemented": false,
+    "thresholds_tuned": false,
+    "blocked_events": []
+  },
+  "artifact_sha256": {
+    "/home/chenyi/pasa/SELECTIVE_ANCHOR_AUDIT_001.json": "ff82a4866f096fdc355a65889f10b0eee8826047c8c94be8071fa7e1d4d10cb6",
+    "/home/chenyi/pasa/SELECTIVE_ANCHOR_AUDIT_001.md": "0da500ed3c5a01782560c432f0f1e932c55a41e33f66802562fffc44c9032b26",
+    "/home/chenyi/pasa/SELECTIVE_ANCHOR_AUDIT_001_ELEMENT_REVIEW.md": "414ae9c781bd69d7c61031dc95925f39c1a61926bbb963270678e2230307bfe2",
+    "/home/chenyi/pasa/selective_anchor_audit_001/annotations.py": "6bf343e6648e7ffae5a84424b3ff4493dc40e967a968d4abacfcb78ea89f4d49",
+    "/home/chenyi/pasa/selective_anchor_audit_001/findings.md": "7bc78a5744062263121c8dd6a12e1d1c6a272372cce516fa6c1f56061131446d",
+    "/home/chenyi/pasa/selective_anchor_audit_001/text_only_features.json": "192817c46ca77803270fbdda3777eda0e25990e100cd6d5c377518f7c3970bd0",
+    "/home/chenyi/pasa/selective_anchor_audit_001/audit.py": "5c22b677936c6cc42a0e0cb482cfd70f877015d906a1ac3a9abeff5205d28dd0"
+  },
+  "supporting_evidence": {
+    "status": "PASS",
+    "checks": "Source search JSON equals replay-recorded hash; 6 case records reuse cached results; original/native order and labels equal replay for all 50; H missing, strict and reviewed coverage independently recounted.",
+    "artifact_sha256": {
+      "/home/chenyi/pasa/selective_anchor_audit_001/case_evidence.json": "7c8a8bb503c5fb3c5de76d3c47dbf3313a9f8af2f7812061708a107dc32cbac3",
+      "/home/chenyi/pasa/selective_anchor_audit_001/extract_case_evidence.py": "c28900baff867e0f2e16d7a46be2b4b71613bf36c7c88b70e24b51220ae839ec"
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q15",
+  "group": "author-written",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2305.13077",
+  "request_payload": {
+    "q": "controlvideo free controllable video before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 32,
+  "started_utc": "2026-09-17T12:33:59.180885+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1789648160",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "b9158538684a882b7a3ec8f4a4edba9e",
+    "date": "Thu, 17 Sep 2026 12:29:20 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3374",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3374,
+  "response_bytes_sha256": "92a9eeefcc68312f58d23cd3d28b29da9bbfc285f8e3898fc6495c6e14c9c3dd",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJjb250cm9sdmlkZW8gZnJlZSBjb250cm9sbGFibGUgdmlkZW8gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQ29udHJvbFZpZGVvOiBUcmFpbmluZy1mcmVlIENvbnRyb2xsYWJsZSBUZXh0LXRvLVZpZGVvIEdlbmVyYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDUuMTMwNzciLCJzbmlwcGV0IjoiQ29udHJvbFZpZGVvLCBhZGFwdGVkIGZyb20gQ29udHJvbE5ldCwgbGV2ZXJhZ2VzIGNvYXJzZWx5IHN0cnVjdHVyYWwgY29uc2lzdGVuY3kgZnJvbSBpbnB1dCBtb3Rpb24gc2VxdWVuY2VzLCBhbmQgaW50cm9kdWNlcyB0aHJlZSBtb2R1bGVzIHRvIGltcHJvdmUgdmlkZW8gLi4uIiwiZGF0ZSI6Ik1heSAyMiwgMjAyMyIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiQ29udHJvbGxhYmxlIFZpZGVvIEdlbmVyYXRpb246IEEgU3VydmV5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA3LjE2ODY5djEiLCJzbmlwcGV0IjoiQ29udHJvbFZpZGVvIFs4OF0gYW5kIENvbnRyb2wtQS1WaWRlbyBbODddIGRlbW9uc3RyYXRlIGhvdyB2YXJpb3VzIGNvbnRyb2wgc2lnbmFscywgaW5jbHVkaW5nIGRlcHRoLCBjb3VsZCBiZSBpbnRlZ3JhdGVkIGludG8gbGFyZ2UgcHJlLXRyYWluZWQgdGV4dC10by1pbWFnZSAuLi4iLCJkYXRlIjoiSnVsIDIyLCAyMDI1IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJbMjQwNi4xMDEyNl0gVHJhaW5pbmctZnJlZSBDYW1lcmEgQ29udHJvbCBmb3IgVmlkZW8gR2VuZXJhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNi4xMDEyNiIsInNuaXBwZXQiOiJBYnN0cmFjdDpXZSBwcm9wb3NlIGEgdHJhaW5pbmctZnJlZSBhbmQgcm9idXN0IHNvbHV0aW9uIHRvIG9mZmVyIGNhbWVyYSBtb3ZlbWVudCBjb250cm9sIGZvciBvZmYtdGhlLXNoZWxmIHZpZGVvIGRpZmZ1c2lvbiBtb2RlbHMuIiwiZGF0ZSI6Ikp1biAxNCwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiV2hhdCBBcmUgWW91IERvaW5nPyBBIENsb3NlciBMb29rIGF0IENvbnRyb2xsYWJsZSBIdW1hbiBWaWRlbyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAzLjA0NjY2djEiLCJzbmlwcGV0IjoiV2UgY2xvc2UgdGhpcyBnYXAgYnkgaW50cm9kdWNpbmcgJ1doYXQgQXJlIFlvdSBEb2luZz8nIChXWUQpOiBhIG5ldyBiZW5jaG1hcmsgZm9yIGZpbmUtZ3JhaW5lZCBldmFsdWF0aW9uIG9mIGNvbnRyb2xsYWJsZSBpbWFnZS10by12aWRlbyBnZW5lcmF0aW9uIG9mIGh1bWFucy4iLCJkYXRlIjoiTWFyIDYsIDIwMjUiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlRyYWluaW5nLUZyZWUgR3VpZGFuY2UgZm9yIEZyYW1lLUxldmVsIENvbnRyb2wgaW4gVmlkZW8gRGlmZnVzaW9uIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjUwNi4wNzE3NyIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIHByZXNlbnQgRnJhbWUgR3VpZGFuY2UsIGEgdHJhaW5pbmctZnJlZSBndWlkYW5jZSBmb3IgY29udHJvbGxhYmxlIHZpZGVvIGdlbmVyYXRpb24gYmFzZWQgb24gZnJhbWUtbGV2ZWwgc2lnbmFscywgc3VjaCBhcyBrZXlmcmFtZXMsIHN0eWxlIC4uLiIsImRhdGUiOiJKdW4gOCwgMjAyNSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiU21vb3RoIFZpZGVvIFN5bnRoZXNpcyB3aXRoIE5vaXNlIENvbnN0cmFpbnRzIG9uIERpZmZ1c2lvbiBNb2RlbHMgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMS4xNzUzNnYyIiwic25pcHBldCI6IkNvbnRyb2xWaWRlbyBbNDFdIGFkZCBpbWFnZSBjb25kaXRpb24gZm9yIGJldHRlciBjb250cm9sbGluZy4gQ29udHJvbHZpZGVvOiBUcmFpbmluZy1mcmVlIGNvbnRyb2xsYWJsZSB0ZXh0LXRvLXZpZGVvIGdlbmVyYXRpb24uIEFkZGluZyBjb25kaXRpb25hbCBjb250cm9sIGZvciAuLi4iLCJkYXRlIjoiRmViIDYsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6Ik1vb25TaG90OiBUb3dhcmRzIENvbnRyb2xsYWJsZSBWaWRlbyBHZW5lcmF0aW9uIGFuZCBFZGl0aW5nIHdpdGggLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4wMTgyN3YxIiwic25pcHBldCI6IlN0YWJsZXZpZGVvOiBUZXh0LWRyaXZlbiBjb25zaXN0ZW5jeS1hd2FyZSBkaWZmdXNpb24gdmlkZW8gZWRpdGluZy4gQ29udHJvbHZpZGVvOiBUcmFpbmluZy1mcmVlIGNvbnRyb2xsYWJsZSB0ZXh0LXRvLXZpZGVvIGdlbmVyYXRpb24uIiwiZGF0ZSI6IkphbiAzLCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJFUGlDOiBFZmZpY2llbnQgVmlkZW8gQ2FtZXJhIENvbnRyb2wgTGVhcm5pbmcgd2l0aCBQcmVjaXNlIEFuY2hvciAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA1LjIxODc2djEiLCJzbmlwcGV0IjoiVHJhaW5pbmcgdGFrZXMgbGVzcyB0aGFuIDMgaG91cnMuIFRyYWluaW5nLWZyZWUgY2FtZXJhIGNvbnRyb2wgZm9yIHZpZGVvIGdlbmVyYXRpb24uIExlYXJuaW5nIGNhbWVyYSBtb3ZlbWVudCBjb250cm9sIGZyb20gcmVhbC13b3JsZCBkcm9uZSB2aWRlb3MuIiwiZGF0ZSI6Ik1heSAyOCwgMjAyNSIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiRXhwbG9yYXRpdmUgSW5iZXR3ZWVuaW5nIG9mIFRpbWUgYW5kIFNwYWNlIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE0NjExdjEiLCJzbmlwcGV0IjoiT3VyIHdvcmsgaW50cm9kdWNlcyBhIHVuaXF1ZSBjb25jZXB0LCBib3VuZGVkIGdlbmVyYXRpb24sIGFzIGEgbm92ZWwgY29udHJvbCBtZWNoYW5pc20gZm9yIHZpZGVvIGdlbmVyYXRpb24sIGxldmVyYWdpbmcgYm90aCBzdGFydCBhbmQgZW5kIGZyYW1lcyB0byBndWlkZSB0aGUgLi4uIiwiZGF0ZSI6Ik1hciAyMSwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiVmlkZW8gVGV4dCBQcmVzZXJ2YXRpb24gd2l0aCBTeW50aGV0aWMgVGV4dC1SaWNoIFZpZGVvcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMS4wNTU3M3YxIiwic25pcHBldCI6IkNvbnRyb2x2aWRlbzogVHJhaW5pbmctZnJlZSBwZXJzb25hbGl6ZWQgdGV4dC10by12aWRlbyBnZW5lcmF0aW9uIHdpdGggbXVsdGlwbGUgc3ViamVjdCBjb250cm9sLiBhclhpdiBwcmVwcmludCBhclhpdjoyMzA1LjE2NDQxLCAyMDIzLiBaaGFvIGV0IGFsLiBbMjAyNF0iLCJkYXRlIjoiTm92IDQsIDIwMjUiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "controlvideo free controllable video before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "ControlVideo: Training-free Controllable Text-to-Video Generation",
+        "link": "https://arxiv.org/abs/2305.13077",
+        "snippet": "ControlVideo, adapted from ControlNet, leverages coarsely structural consistency from input motion sequences, and introduces three modules to improve video ...",
+        "date": "May 22, 2023",
+        "position": 1
+      },
+      {
+        "title": "Controllable Video Generation: A Survey - arXiv",
+        "link": "https://arxiv.org/html/2507.16869v1",
+        "snippet": "ControlVideo [88] and Control-A-Video [87] demonstrate how various control signals, including depth, could be integrated into large pre-trained text-to-image ...",
+        "date": "Jul 22, 2025",
+        "position": 2
+      },
+      {
+        "title": "[2406.10126] Training-free Camera Control for Video Generation",
+        "link": "https://arxiv.org/abs/2406.10126",
+        "snippet": "Abstract:We propose a training-free and robust solution to offer camera movement control for off-the-shelf video diffusion models.",
+        "date": "Jun 14, 2024",
+        "position": 3
+      },
+      {
+        "title": "What Are You Doing? A Closer Look at Controllable Human Video ...",
+        "link": "https://arxiv.org/html/2503.04666v1",
+        "snippet": "We close this gap by introducing 'What Are You Doing?' (WYD): a new benchmark for fine-grained evaluation of controllable image-to-video generation of humans.",
+        "date": "Mar 6, 2025",
+        "position": 4
+      },
+      {
+        "title": "Training-Free Guidance for Frame-Level Control in Video Diffusion ...",
+        "link": "https://arxiv.org/abs/2506.07177",
+        "snippet": "In this work, we present Frame Guidance, a training-free guidance for controllable video generation based on frame-level signals, such as keyframes, style ...",
+        "date": "Jun 8, 2025",
+        "position": 5
+      },
+      {
+        "title": "Smooth Video Synthesis with Noise Constraints on Diffusion Models ...",
+        "link": "https://arxiv.org/html/2311.17536v2",
+        "snippet": "ControlVideo [41] add image condition for better controlling. Controlvideo: Training-free controllable text-to-video generation. Adding conditional control for ...",
+        "date": "Feb 6, 2024",
+        "position": 6
+      },
+      {
+        "title": "MoonShot: Towards Controllable Video Generation and Editing with ...",
+        "link": "https://arxiv.org/html/2401.01827v1",
+        "snippet": "Stablevideo: Text-driven consistency-aware diffusion video editing. Controlvideo: Training-free controllable text-to-video generation.",
+        "date": "Jan 3, 2024",
+        "position": 7
+      },
+      {
+        "title": "EPiC: Efficient Video Camera Control Learning with Precise Anchor ...",
+        "link": "https://arxiv.org/html/2505.21876v1",
+        "snippet": "Training takes less than 3 hours. Training-free camera control for video generation. Learning camera movement control from real-world drone videos.",
+        "date": "May 28, 2025",
+        "position": 8
+      },
+      {
+        "title": "Explorative Inbetweening of Time and Space - arXiv",
+        "link": "https://arxiv.org/html/2403.14611v1",
+        "snippet": "Our work introduces a unique concept, bounded generation, as a novel control mechanism for video generation, leveraging both start and end frames to guide the ...",
+        "date": "Mar 21, 2024",
+        "position": 9
+      },
+      {
+        "title": "Video Text Preservation with Synthetic Text-Rich Videos - arXiv",
+        "link": "https://arxiv.org/html/2511.05573v1",
+        "snippet": "Controlvideo: Training-free personalized text-to-video generation with multiple subject control. arXiv preprint arXiv:2305.16441, 2023. Zhao et al. [2024]",
+        "date": "Nov 4, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "ControlVideo: Training-free Controllable Text-to-Video Generation",
+      "snippet": "ControlVideo, adapted from ControlNet, leverages coarsely structural consistency from input motion sequences, and introduces three modules to improve video ...",
+      "link": "https://arxiv.org/abs/2305.13077",
+      "arxiv_id": "2305.13077"
+    },
+    {
+      "rank": 2,
+      "title": "Controllable Video Generation: A Survey - arXiv",
+      "snippet": "ControlVideo [88] and Control-A-Video [87] demonstrate how various control signals, including depth, could be integrated into large pre-trained text-to-image ...",
+      "link": "https://arxiv.org/html/2507.16869v1",
+      "arxiv_id": "2507.16869"
+    },
+    {
+      "rank": 3,
+      "title": "[2406.10126] Training-free Camera Control for Video Generation",
+      "snippet": "Abstract:We propose a training-free and robust solution to offer camera movement control for off-the-shelf video diffusion models.",
+      "link": "https://arxiv.org/abs/2406.10126",
+      "arxiv_id": "2406.10126"
+    },
+    {
+      "rank": 4,
+      "title": "What Are You Doing? A Closer Look at Controllable Human Video ...",
+      "snippet": "We close this gap by introducing 'What Are You Doing?' (WYD): a new benchmark for fine-grained evaluation of controllable image-to-video generation of humans.",
+      "link": "https://arxiv.org/html/2503.04666v1",
+      "arxiv_id": "2503.04666"
+    },
+    {
+      "rank": 5,
+      "title": "Training-Free Guidance for Frame-Level Control in Video Diffusion ...",
+      "snippet": "In this work, we present Frame Guidance, a training-free guidance for controllable video generation based on frame-level signals, such as keyframes, style ...",
+      "link": "https://arxiv.org/abs/2506.07177",
+      "arxiv_id": "2506.07177"
+    },
+    {
+      "rank": 6,
+      "title": "Smooth Video Synthesis with Noise Constraints on Diffusion Models ...",
+      "snippet": "ControlVideo [41] add image condition for better controlling. Controlvideo: Training-free controllable text-to-video generation. Adding conditional control for ...",
+      "link": "https://arxiv.org/html/2311.17536v2",
+      "arxiv_id": "2311.17536"
+    },
+    {
+      "rank": 7,
+      "title": "MoonShot: Towards Controllable Video Generation and Editing with ...",
+      "snippet": "Stablevideo: Text-driven consistency-aware diffusion video editing. Controlvideo: Training-free controllable text-to-video generation.",
+      "link": "https://arxiv.org/html/2401.01827v1",
+      "arxiv_id": "2401.01827"
+    },
+    {
+      "rank": 8,
+      "title": "EPiC: Efficient Video Camera Control Learning with Precise Anchor ...",
+      "snippet": "Training takes less than 3 hours. Training-free camera control for video generation. Learning camera movement control from real-world drone videos.",
+      "link": "https://arxiv.org/html/2505.21876v1",
+      "arxiv_id": "2505.21876"
+    },
+    {
+      "rank": 9,
+      "title": "Explorative Inbetweening of Time and Space - arXiv",
+      "snippet": "Our work introduces a unique concept, bounded generation, as a novel control mechanism for video generation, leveraging both start and end frames to guide the ...",
+      "link": "https://arxiv.org/html/2403.14611v1",
+      "arxiv_id": "2403.14611"
+    },
+    {
+      "rank": 10,
+      "title": "Video Text Preservation with Synthetic Text-Rich Videos - arXiv",
+      "snippet": "Controlvideo: Training-free personalized text-to-video generation with multiple subject control. arXiv preprint arXiv:2305.16441, 2023. Zhao et al. [2024]",
+      "link": "https://arxiv.org/html/2511.05573v1",
+      "arxiv_id": "2511.05573"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:00.531828+00:00",
+  "elapsed_seconds": 1.3509444929659367
+}

@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q47",
+  "group": "inline-citation",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2105.11098",
+  "request_payload": {
+    "q": "Prevent the Language Model from being Overconfident in Neural Machine Translation before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 106,
+  "started_utc": "2026-09-17T12:35:24.392261+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1789648245",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "56e2992f6da4da6b6a44effa40b97f6f",
+    "date": "Thu, 17 Sep 2026 12:30:45 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3423",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3423,
+  "response_bytes_sha256": "1bf3bf1052f08157d03fba8fb520b56c010fcc325af3453232c14892c34c9d72",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJQcmV2ZW50IHRoZSBMYW5ndWFnZSBNb2RlbCBmcm9tIGJlaW5nIE92ZXJjb25maWRlbnQgaW4gTmV1cmFsIE1hY2hpbmUgVHJhbnNsYXRpb24gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQ29tcGFyaW5nIFVuY2VydGFpbnR5IE1lYXN1cmVtZW50IGFuZCBNaXRpZ2F0aW9uIE1ldGhvZHMgZm9yIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDQuMTgzNDZ2NCIsInNuaXBwZXQiOiJaaG91ICgyMDIxKSBQcmV2ZW50IHRoZSBsYW5ndWFnZSBtb2RlbCBmcm9tIGJlaW5nIG92ZXJjb25maWRlbnQgaW4gbmV1cmFsIG1hY2hpbmUgdHJhbnNsYXRpb24uIEluIFByb2NlZWRpbmdzIG9mIHRoZSA1OXRoIEFubnVhbCBNZWV0aW5nIG9mIHRoZSBBc3NvY2lhdGlvbiAuLi4iLCJkYXRlIjoiQXVnIDI0LCAyMDI2IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJCcmlkZ2luZyBDYXVzYWwgRGlzY292ZXJ5IGFuZCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTEwNjh2MSIsInNuaXBwZXQiOiJQcmV2ZW50IHRoZSBsYW5ndWFnZSBtb2RlbCBmcm9tIGJlaW5nIG92ZXJjb25maWRlbnQgaW4gbmV1cmFsIG1hY2hpbmUgdHJhbnNsYXRpb24uIEluIENoZW5ncWluZyBab25nLCBGZWkgWGlhLCBXZW5qaWUgTGksIGFuZCBSb2JlcnRvIE5hdmlnbGksIGVkaXRvcnMgLi4uIiwiZGF0ZSI6IkZlYiAxNiwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGFyZSBvdmVyY29uZmlkZW50IGFuZCBhbXBsaWZ5IGh1bWFuIGJpYXMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI1MDUuMDIxNTEiLCJzbmlwcGV0IjoiV2UgZmluZCB0aGF0IGFsbCBmaXZlIExMTXMgd2Ugc3R1ZHkgYXJlIG92ZXJjb25maWRlbnQ6IHRoZXkgb3ZlcmVzdGltYXRlIHRoZSBwcm9iYWJpbGl0eSB0aGF0IHRoZWlyIGFuc3dlciBpcyBjb3JyZWN0IGJldHdlZW4gMjAlIGFuZCA2MCUuIiwiZGF0ZSI6Ik1heSA0LCAyMDI1IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJSZWR1Y2luZyBIYWxsdWNpbmF0aW9ucyBpbiBOZXVyYWwgTWFjaGluZSBUcmFuc2xhdGlvbiB3aXRoIEZlYXR1cmUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMjExLjA5ODc4Iiwic25pcHBldCI6IldlIHByZXNlbnQgYSBjYXNlIHN0dWR5IGZvY3VzaW5nIG9uIG1vZGVsIHVuZGVyc3RhbmRpbmcgYW5kIHJlZ3VsYXJpc2F0aW9uIHRvIHJlZHVjZSBoYWxsdWNpbmF0aW9ucyBpbiBOTVQuIGhlbHBzIHJlZHVjZSBoYWxsdWNpbmF0aW9ucyBhbmQgZG9lcyBub3QgcmVxdWlyZSAuLi4iLCJkYXRlIjoiTm92IDE3LCAyMDIyIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMjAyLjEzNjYzdjMgW2NzLkNMXSAxNyBNYXIgMjAyMiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIwMi4xMzY2MyIsInNuaXBwZXQiOiJQcmV2ZW50IHRoZSBsYW5ndWFnZSBtb2RlbCBmcm9tIGJlaW5nIG92ZXJjb25maWRlbnQgaW4gbmV1cmFsIG1hY2hpbmUgdHJhbnNsYXRpb24uIEluIEFDTCAyMDIxLiBLaXNob3JlIFBhcGluZW5pLCBTYWxpbSBSb3Vrb3MsIFRvZGQgV2FyZCwgYW5kIFdlaS0uIEppbmcgWmh1IC4uLiIsImRhdGUiOiJNYXIgMTcsIDIwMjIiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkhvdyBPdmVyY29uZmlkZW5jZSBpbiBJbml0aWFsIENob2ljZXMgYW5kIFVuZGVyY29uZmlkZW5jZSBVbmRlciAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI1MDcuMDMxMjAiLCJzbmlwcGV0IjoiTGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSBleGhpYml0IHN0cmlraW5nbHkgY29uZmxpY3RpbmcgYmVoYXZpb3JzOiB0aGV5IGNhbiBhcHBlYXIgc3RlYWRmYXN0bHkgb3ZlcmNvbmZpZGVudCBpbiB0aGVpciBpbml0aWFsIGFuc3dlcnMgd2hpbHN0IGF0IHRoZSBzYW1lIC4uLiIsImRhdGUiOiJKdWwgMywgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiTWFza2VkIExhbmd1YWdlIE1vZGVsIFNjb3JpbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE5MTAuMTQ2NTl2MyIsInNuaXBwZXQiOiJMTHMgb3V0cGVyZm9ybSBzY29yZXMgZnJvbSBhdXRvcmVncmVzc2l2ZSBsYW5ndWFnZSBtb2RlbHMuIE9uZSBjYW4gZmluZXR1bmUgTUxNcyB0byBnaXZlIHNjb3JlcyB3aXRob3V0IG1hc2tpbmcsIGVuYWJsaW5nIGNvbXB1dGF0aW9uIGluIGEgc2luZ2xlIGluZmVyZW5jZSAuLi4iLCJkYXRlIjoiSmFuIDEsIDIwMjEiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkEgU3VydmV5IG9uIEhhbGx1Y2luYXRpb24gaW4gTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjA1MjMydjIiLCJzbmlwcGV0IjoiUHJldmVudCB0aGUgTGFuZ3VhZ2UgTW9kZWwgZnJvbSBiZWluZyBPdmVyY29uZmlkZW50IGluIE5ldXJhbCBNYWNoaW5lIFRyYW5zbGF0aW9uLiBNdWx0aWxpbmd1YWwgbWFjaGluZSB0cmFuc2xhdGlvbiB3aXRoIGxhcmdlIGxhbmd1YWdlIG1vZGVsczogRW1waXJpY2FsIC4uLiIsImRhdGUiOiJOb3YgMTksIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIFRvd2FyZHMgSW1wcm92aW5nIEZhaXRoZnVsbmVzcyBpbiBBYnN0cmFjdGl2ZSBTdW1tYXJpemF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMTAuMDE4NzciLCJzbmlwcGV0IjoiVG8gYWRkcmVzcyB0aGUgZXh0cmluc2ljIGVycm9yIHByb2JsZW0sIHdlIHByb3Bvc2UgYSBtYXgtbWFyZ2luIGxvc3MgdG8gcHJldmVudCB0aGUgTE0gZnJvbSBiZWluZyBvdmVyY29uZmlkZW50LiBDb25jcmV0ZWx5LCB3ZSBkZWZpbmUgYW4gaW5kaWNhdG9yIG9mIHRoZSAuLi4iLCJkYXRlIjoiT2N0IDQsIDIwMjIiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkxhcmdlIExhbmd1YWdlIE1vZGVscyBIYWxsdWNpbmF0aW9uOiBBIENvbXByZWhlbnNpdmUgU3VydmV5IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMC4wNjI2NXYyIiwic25pcHBldCI6IlRoZSBtZXRyaWNzIGFyZSB1c2VkIHRvIGRldGVjdCBoYWxsdWNpbmF0aW9ucyBpbiBtYWNoaW5lIHRyYW5zbGF0aW9uIG91dHB1dHMgYnkgY29tcGFyaW5nIHRoZSBzZW1hbnRpYyBzaW1pbGFyaXR5IGJldHdlZW4gdGhlIHNvdXJjZSBzZW50ZW5jZSBhbmQgdGhlIHRyYW5zbGF0ZWQgLi4uIiwiZGF0ZSI6Ik9jdCA5LCAyMDI1IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Prevent the Language Model from being Overconfident in Neural Machine Translation before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Comparing Uncertainty Measurement and Mitigation Methods for ...",
+        "link": "https://arxiv.org/html/2504.18346v4",
+        "snippet": "Zhou (2021) Prevent the language model from being overconfident in neural machine translation. In Proceedings of the 59th Annual Meeting of the Association ...",
+        "date": "Aug 24, 2026",
+        "position": 1
+      },
+      {
+        "title": "Bridging Causal Discovery and Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2402.11068v1",
+        "snippet": "Prevent the language model from being overconfident in neural machine translation. In Chengqing Zong, Fei Xia, Wenjie Li, and Roberto Navigli, editors ...",
+        "date": "Feb 16, 2024",
+        "position": 2
+      },
+      {
+        "title": "Large Language Models are overconfident and amplify human bias",
+        "link": "https://arxiv.org/abs/2505.02151",
+        "snippet": "We find that all five LLMs we study are overconfident: they overestimate the probability that their answer is correct between 20% and 60%.",
+        "date": "May 4, 2025",
+        "position": 3
+      },
+      {
+        "title": "Reducing Hallucinations in Neural Machine Translation with Feature ...",
+        "link": "https://arxiv.org/abs/2211.09878",
+        "snippet": "We present a case study focusing on model understanding and regularisation to reduce hallucinations in NMT. helps reduce hallucinations and does not require ...",
+        "date": "Nov 17, 2022",
+        "position": 4
+      },
+      {
+        "title": "[PDF] arXiv:2202.13663v3 [cs.CL] 17 Mar 2022",
+        "link": "https://arxiv.org/pdf/2202.13663",
+        "snippet": "Prevent the language model from being overconfident in neural machine translation. In ACL 2021. Kishore Papineni, Salim Roukos, Todd Ward, and Wei-. Jing Zhu ...",
+        "date": "Mar 17, 2022",
+        "position": 5
+      },
+      {
+        "title": "How Overconfidence in Initial Choices and Underconfidence Under ...",
+        "link": "https://arxiv.org/abs/2507.03120",
+        "snippet": "Large language models (LLMs) exhibit strikingly conflicting behaviors: they can appear steadfastly overconfident in their initial answers whilst at the same ...",
+        "date": "Jul 3, 2025",
+        "position": 6
+      },
+      {
+        "title": "Masked Language Model Scoring - arXiv",
+        "link": "https://arxiv.org/html/1910.14659v3",
+        "snippet": "LLs outperform scores from autoregressive language models. One can finetune MLMs to give scores without masking, enabling computation in a single inference ...",
+        "date": "Jan 1, 2021",
+        "position": 7
+      },
+      {
+        "title": "A Survey on Hallucination in Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2311.05232v2",
+        "snippet": "Prevent the Language Model from being Overconfident in Neural Machine Translation. Multilingual machine translation with large language models: Empirical ...",
+        "date": "Nov 19, 2024",
+        "position": 8
+      },
+      {
+        "title": "[PDF] Towards Improving Faithfulness in Abstractive Summarization - arXiv",
+        "link": "https://arxiv.org/pdf/2210.01877",
+        "snippet": "To address the extrinsic error problem, we propose a max-margin loss to prevent the LM from being overconfident. Concretely, we define an indicator of the ...",
+        "date": "Oct 4, 2022",
+        "position": 9
+      },
+      {
+        "title": "Large Language Models Hallucination: A Comprehensive Survey",
+        "link": "https://arxiv.org/html/2510.06265v2",
+        "snippet": "The metrics are used to detect hallucinations in machine translation outputs by comparing the semantic similarity between the source sentence and the translated ...",
+        "date": "Oct 9, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Comparing Uncertainty Measurement and Mitigation Methods for ...",
+      "snippet": "Zhou (2021) Prevent the language model from being overconfident in neural machine translation. In Proceedings of the 59th Annual Meeting of the Association ...",
+      "link": "https://arxiv.org/html/2504.18346v4",
+      "arxiv_id": "2504.18346"
+    },
+    {
+      "rank": 2,
+      "title": "Bridging Causal Discovery and Large Language Models - arXiv",
+      "snippet": "Prevent the language model from being overconfident in neural machine translation. In Chengqing Zong, Fei Xia, Wenjie Li, and Roberto Navigli, editors ...",
+      "link": "https://arxiv.org/html/2402.11068v1",
+      "arxiv_id": "2402.11068"
+    },
+    {
+      "rank": 3,
+      "title": "Large Language Models are overconfident and amplify human bias",
+      "snippet": "We find that all five LLMs we study are overconfident: they overestimate the probability that their answer is correct between 20% and 60%.",
+      "link": "https://arxiv.org/abs/2505.02151",
+      "arxiv_id": "2505.02151"
+    },
+    {
+      "rank": 4,
+      "title": "Reducing Hallucinations in Neural Machine Translation with Feature ...",
+      "snippet": "We present a case study focusing on model understanding and regularisation to reduce hallucinations in NMT. helps reduce hallucinations and does not require ...",
+      "link": "https://arxiv.org/abs/2211.09878",
+      "arxiv_id": "2211.09878"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] arXiv:2202.13663v3 [cs.CL] 17 Mar 2022",
+      "snippet": "Prevent the language model from being overconfident in neural machine translation. In ACL 2021. Kishore Papineni, Salim Roukos, Todd Ward, and Wei-. Jing Zhu ...",
+      "link": "https://arxiv.org/pdf/2202.13663",
+      "arxiv_id": "2202.13663"
+    },
+    {
+      "rank": 6,
+      "title": "How Overconfidence in Initial Choices and Underconfidence Under ...",
+      "snippet": "Large language models (LLMs) exhibit strikingly conflicting behaviors: they can appear steadfastly overconfident in their initial answers whilst at the same ...",
+      "link": "https://arxiv.org/abs/2507.03120",
+      "arxiv_id": "2507.03120"
+    },
+    {
+      "rank": 7,
+      "title": "Masked Language Model Scoring - arXiv",
+      "snippet": "LLs outperform scores from autoregressive language models. One can finetune MLMs to give scores without masking, enabling computation in a single inference ...",
+      "link": "https://arxiv.org/html/1910.14659v3",
+      "arxiv_id": "1910.14659"
+    },
+    {
+      "rank": 8,
+      "title": "A Survey on Hallucination in Large Language Models - arXiv",
+      "snippet": "Prevent the Language Model from being Overconfident in Neural Machine Translation. Multilingual machine translation with large language models: Empirical ...",
+      "link": "https://arxiv.org/html/2311.05232v2",
+      "arxiv_id": "2311.05232"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] Towards Improving Faithfulness in Abstractive Summarization - arXiv",
+      "snippet": "To address the extrinsic error problem, we propose a max-margin loss to prevent the LM from being overconfident. Concretely, we define an indicator of the ...",
+      "link": "https://arxiv.org/pdf/2210.01877",
+      "arxiv_id": "2210.01877"
+    },
+    {
+      "rank": 10,
+      "title": "Large Language Models Hallucination: A Comprehensive Survey",
+      "snippet": "The metrics are used to detect hallucinations in machine translation outputs by comparing the semantic similarity between the source sentence and the translated ...",
+      "link": "https://arxiv.org/html/2510.06265v2",
+      "arxiv_id": "2510.06265"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:25.639322+00:00",
+  "elapsed_seconds": 1.2470610328018665
+}

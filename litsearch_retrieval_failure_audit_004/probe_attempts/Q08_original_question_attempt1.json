@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q08",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2309.15840",
+  "request_payload": {
+    "q": "Are there any papers that study whether you can identify if a LLM has been instructed to hide some information? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 15,
+  "started_utc": "2026-09-17T12:33:38.493976+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648140",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "2ddf41c9f9b7cf190210d59a7167f62b",
+    "date": "Thu, 17 Sep 2026 12:29:00 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3504",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3504,
+  "response_bytes_sha256": "e5694573526b0a1b7e772b1dcfc2010adb91bdb9ab9b148454ae4fcc5efbced1",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBcmUgdGhlcmUgYW55IHBhcGVycyB0aGF0IHN0dWR5IHdoZXRoZXIgeW91IGNhbiBpZGVudGlmeSBpZiBhIExMTSBoYXMgYmVlbiBpbnN0cnVjdGVkIHRvIGhpZGUgc29tZSBpbmZvcm1hdGlvbj8gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiUHJpbmNpcGxlZCBEZXRlY3Rpb24gb2YgSGlkZGVuIExMTSBQcm9tcHRzIGluIFN0cnVjdHVyZWQgRG9jdW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwOC4xNzg4NHYxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIgd2UgcHJlc2VudCB0aGUgZmlyc3QgcHJpbmNpcGxlZCBhbmQgZ2VuZXJhbC1wdXJwb3NlIGhpZGRlbiBMTE0gcHJvbXB0IGRldGVjdGlvbiBtZXRob2Qg4oCmIGFjYWRlbWljIHBhcGVyIHByZXByaW50cyBwb3N0ZWQgb24gYXJYaXYiLCJkYXRlIjoiQXVnIDI1LCAyMDI1IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJEZXRlY3RpbmcgTExNLUdlbmVyYXRlZCBQZWVyIFJldmlld3MgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDMuMTU3NzJ2MiIsInNuaXBwZXQiOiJTcGVjaWZpY2FsbHksIHdlIGV4cGxvcmUgaG93IGFuIGF1dGhvciBjYW4gaW5qZWN0IHRleHQgaW50byB0aGVpciBwYXBlciB0byBtYW5pcHVsYXRlIHRoZSBMTE0gaW50byBnZW5lcmF0aW5nIGEgbW9yZSBmYXZvcmFibGUgcmV2aWV3IHdpdGggYSBoaWdoZXIgcmF0aW5nLiIsImRhdGUiOiJNYXkgMTksIDIwMjUiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlRyYXBEb2M6IERlY2VpdmluZyBMTE0gVXNlcnMgYnkgSW5qZWN0aW5nIEltcGVyY2VwdGlibGUgUGhhbnRvbSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA2LjAwMDg5djEiLCJzbmlwcGV0IjoiTnVtZXJvdXMgbWV0aG9kcyBpZGVudGlmeWluZyBMTE0tZ2VuZXJhdGVkIGNvbnRlbnQgaGF2ZSBiZWVuIHByb3Bvc2VkIHRvIGNvbWJhdCB0aGlzIHRyZW5kLiBUeXBpY2FsIGFwcHJvYWNoZXMgaW52b2x2ZSByZS1pbnB1dHRpbmcgdGhlIHN1c3BlY3QgdGV4dCBpbnRvIGFuIExMTSAuLi4iLCJkYXRlIjoiTWF5IDMwLCAyMDI1IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJJbnRlcnByZXRhdGlvbiBHYXBzIGluIExMTS1Bc3Npc3RlZCBDb21wcmVoZW5zaW9uIG9mIFByaXZhY3kgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMy4xMjIyNXYxIiwic25pcHBldCI6IkluIHRoaXMgYXJ0aWNsZSwgd2UgZXhwbG9yZSB0aGUgaW50ZXJwcmV0YXRpb24gZXJyb3JzIExMTXMgbWF5IG1ha2Ugd2hlbiBwcm9jZXNzaW5nIHByaXZhY3kgZG9jdW1lbnRzLCB0aGVpciBjYXVzZXMsIGFuZCBhIHJlc2VhcmNoLWRyaXZlbiBwYXRoIHRvIGJyaWRnZSB0aGUgLi4uIiwiZGF0ZSI6Ik1hciAxNSwgMjAyNSIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiTExNcyBhcmUgVnVsbmVyYWJsZSB0byBNYWxpY2lvdXMgUHJvbXB0cyBEaXNndWlzZWQgYXMgU2NpZW50aWZpYyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAxLjE0MDczdjEiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBmb2N1cyBvbiBzdGVyZW90eXBpY2FsIGJpYXMgYW5kIHRveGljaXR5LiBCaWFzIGlzIGEgcG90ZW50aWFsIGFuZCBjcml0aWNhbCBoYXJtIHRoYXQgaGFzIGJlZW4gbGl0dGxlIGludmVzdGlnYXRlZCBpbiBMTE0gamFpbGJyZWFrLiIsImRhdGUiOiJKYW4gMjMsIDIwMjUiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkhvdyBkb2VzIGluZm9ybWF0aW9uIGFjY2VzcyBhZmZlY3QgTExNIG1vbml0b3JzJyBhYmlsaXR5IHRvIGRldGVjdCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAxLjIxMTEydjIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2Ugc3R1ZHkgaG93IGluZm9ybWF0aW9uIGFjY2VzcyBhZmZlY3RzIExMTSBtb25pdG9yIHBlcmZvcm1hbmNlLiBXaGlsZSBvbmUgbWlnaHQgZXhwZWN0IHRoYXQgbW9uaXRvcnMgcGVyZm9ybSBiZXR0ZXIgd2hlbiB0aGV5IGhhdmUgYWNjZXNzIHRvIC4uLiIsImRhdGUiOiJGZWIgNSwgMjAyNiIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiRXZlcnl0aGluZyBZb3UgV2FudGVkIHRvIEtub3cgQWJvdXQgTExNLWJhc2VkIFZ1bG5lcmFiaWxpdHkgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNC4xMzQ3NHYxIiwic25pcHBldCI6IkxhcmdlIExhbmd1YWdlIE1vZGVscyBoYXZlIGVtZXJnZWQgYXMgYSBwcm9taXNpbmcgdG9vbCBmb3IgYXV0b21hdGVkIHZ1bG5lcmFiaWxpdHkgZGV0ZWN0aW9uLCBkcml2ZW4gYnkgdGhlaXIgc3VjY2VzcyBpbiBjb2RlIGdlbmVyYXRpb24sIHJlcGFpciwgYW5kIC4uLiIsImRhdGUiOiJBcHIgMTgsIDIwMjUiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlN0YXRlbGVzcyBZZXQgTm90IEZvcmdldGZ1bDpJbXBsaWNpdCBNZW1vcnkgYXMgYSBIaWRkZW4gQ2hhbm5lbCBpbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAyLjA4NTYzdjEiLCJzbmlwcGV0IjoiTGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSBhcmUgY29tbW9ubHkgdHJlYXRlZCBhcyBzdGF0ZWxlc3M6IG9uY2UgYW4gaW50ZXJhY3Rpb24gZW5kcywgbm8gaW5mb3JtYXRpb24gaXMgYXNzdW1lZCB0byBwZXJzaXN0IHVubGVzcyBpdCBpcyBleHBsaWNpdGx5IC4uLiIsImRhdGUiOiJGZWIgOSwgMjAyNiIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiRXhwbG9yaW5nIENoYXQgSGlzdG9yeSBUYW1wZXJpbmcgaW4gSW50ZXJhY3RpdmUgTGFuZ3VhZ2UgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4yMDIzNHYzIiwic25pcHBldCI6IlRoaXMgcGFwZXIgZXhwbG9yZXMgdGFtcGVyaW5nIHdpdGggdGhlIGNoYXQgaGlzdG9yeSBmcm9tIHRoZSB1c2VyIHNpZGUgaW4gdGhlIG1vc3QgcmVzdHJpY3RpdmUgdGhyZWF0IG1vZGVsLiBXZSBjb25zaWRlciBhIHNjZW5hcmlvIHdoZXJlIHdlIGhhdmUgbm8gcHJpb3IgLi4uIiwiZGF0ZSI6IlNlcCA2LCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJTZWN1cml0eSBDb25jZXJucyBmb3IgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzOiBBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNS4xODg4OXYyIiwic25pcHBldCI6IkluIHRoaXMgc3VydmV5LCB3ZSBwcm92aWRlIGEgY29tcHJlaGVuc2l2ZSBvdmVydmlldyBvZiB0aGUgZW1lcmdpbmcgc2VjdXJpdHkgY29uY2VybnMgYXJvdW5kIExMTXMsIGNhdGVnb3JpemluZyB0aHJlYXRzIGludG8gcHJvbXB0IGluamVjdGlvbiBhbmQgamFpbGJyZWFraW5nLCAuLi4iLCJkYXRlIjoiTWF5IDMxLCAyMDI1IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Are there any papers that study whether you can identify if a LLM has been instructed to hide some information? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Principled Detection of Hidden LLM Prompts in Structured Documents",
+        "link": "https://arxiv.org/html/2508.17884v1",
+        "snippet": "In this paper we present the first principled and general-purpose hidden LLM prompt detection method … academic paper preprints posted on arXiv",
+        "date": "Aug 25, 2025",
+        "position": 1
+      },
+      {
+        "title": "Detecting LLM-Generated Peer Reviews - arXiv",
+        "link": "https://arxiv.org/html/2503.15772v2",
+        "snippet": "Specifically, we explore how an author can inject text into their paper to manipulate the LLM into generating a more favorable review with a higher rating.",
+        "date": "May 19, 2025",
+        "position": 2
+      },
+      {
+        "title": "TrapDoc: Deceiving LLM Users by Injecting Imperceptible Phantom ...",
+        "link": "https://arxiv.org/html/2506.00089v1",
+        "snippet": "Numerous methods identifying LLM-generated content have been proposed to combat this trend. Typical approaches involve re-inputting the suspect text into an LLM ...",
+        "date": "May 30, 2025",
+        "position": 3
+      },
+      {
+        "title": "Interpretation Gaps in LLM-Assisted Comprehension of Privacy ...",
+        "link": "https://arxiv.org/html/2503.12225v1",
+        "snippet": "In this article, we explore the interpretation errors LLMs may make when processing privacy documents, their causes, and a research-driven path to bridge the ...",
+        "date": "Mar 15, 2025",
+        "position": 4
+      },
+      {
+        "title": "LLMs are Vulnerable to Malicious Prompts Disguised as Scientific ...",
+        "link": "https://arxiv.org/html/2501.14073v1",
+        "snippet": "In this work, we focus on stereotypical bias and toxicity. Bias is a potential and critical harm that has been little investigated in LLM jailbreak.",
+        "date": "Jan 23, 2025",
+        "position": 5
+      },
+      {
+        "title": "How does information access affect LLM monitors' ability to detect ...",
+        "link": "https://arxiv.org/html/2601.21112v2",
+        "snippet": "In this paper, we study how information access affects LLM monitor performance. While one might expect that monitors perform better when they have access to ...",
+        "date": "Feb 5, 2026",
+        "position": 6
+      },
+      {
+        "title": "Everything You Wanted to Know About LLM-based Vulnerability ...",
+        "link": "https://arxiv.org/html/2504.13474v1",
+        "snippet": "Large Language Models have emerged as a promising tool for automated vulnerability detection, driven by their success in code generation, repair, and ...",
+        "date": "Apr 18, 2025",
+        "position": 7
+      },
+      {
+        "title": "Stateless Yet Not Forgetful:Implicit Memory as a Hidden Channel in ...",
+        "link": "https://arxiv.org/html/2602.08563v1",
+        "snippet": "Large language models (LLMs) are commonly treated as stateless: once an interaction ends, no information is assumed to persist unless it is explicitly ...",
+        "date": "Feb 9, 2026",
+        "position": 8
+      },
+      {
+        "title": "Exploring Chat History Tampering in Interactive Language Models",
+        "link": "https://arxiv.org/html/2405.20234v3",
+        "snippet": "This paper explores tampering with the chat history from the user side in the most restrictive threat model. We consider a scenario where we have no prior ...",
+        "date": "Sep 6, 2024",
+        "position": 9
+      },
+      {
+        "title": "Security Concerns for Large Language Models: A Survey - arXiv",
+        "link": "https://arxiv.org/html/2505.18889v2",
+        "snippet": "In this survey, we provide a comprehensive overview of the emerging security concerns around LLMs, categorizing threats into prompt injection and jailbreaking, ...",
+        "date": "May 31, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Principled Detection of Hidden LLM Prompts in Structured Documents",
+      "snippet": "In this paper we present the first principled and general-purpose hidden LLM prompt detection method … academic paper preprints posted on arXiv",
+      "link": "https://arxiv.org/html/2508.17884v1",
+      "arxiv_id": "2508.17884"
+    },
+    {
+      "rank": 2,
+      "title": "Detecting LLM-Generated Peer Reviews - arXiv",
+      "snippet": "Specifically, we explore how an author can inject text into their paper to manipulate the LLM into generating a more favorable review with a higher rating.",
+      "link": "https://arxiv.org/html/2503.15772v2",
+      "arxiv_id": "2503.15772"
+    },
+    {
+      "rank": 3,
+      "title": "TrapDoc: Deceiving LLM Users by Injecting Imperceptible Phantom ...",
+      "snippet": "Numerous methods identifying LLM-generated content have been proposed to combat this trend. Typical approaches involve re-inputting the suspect text into an LLM ...",
+      "link": "https://arxiv.org/html/2506.00089v1",
+      "arxiv_id": "2506.00089"
+    },
+    {
+      "rank": 4,
+      "title": "Interpretation Gaps in LLM-Assisted Comprehension of Privacy ...",
+      "snippet": "In this article, we explore the interpretation errors LLMs may make when processing privacy documents, their causes, and a research-driven path to bridge the ...",
+      "link": "https://arxiv.org/html/2503.12225v1",
+      "arxiv_id": "2503.12225"
+    },
+    {
+      "rank": 5,
+      "title": "LLMs are Vulnerable to Malicious Prompts Disguised as Scientific ...",
+      "snippet": "In this work, we focus on stereotypical bias and toxicity. Bias is a potential and critical harm that has been little investigated in LLM jailbreak.",
+      "link": "https://arxiv.org/html/2501.14073v1",
+      "arxiv_id": "2501.14073"
+    },
+    {
+      "rank": 6,
+      "title": "How does information access affect LLM monitors' ability to detect ...",
+      "snippet": "In this paper, we study how information access affects LLM monitor performance. While one might expect that monitors perform better when they have access to ...",
+      "link": "https://arxiv.org/html/2601.21112v2",
+      "arxiv_id": "2601.21112"
+    },
+    {
+      "rank": 7,
+      "title": "Everything You Wanted to Know About LLM-based Vulnerability ...",
+      "snippet": "Large Language Models have emerged as a promising tool for automated vulnerability detection, driven by their success in code generation, repair, and ...",
+      "link": "https://arxiv.org/html/2504.13474v1",
+      "arxiv_id": "2504.13474"
+    },
+    {
+      "rank": 8,
+      "title": "Stateless Yet Not Forgetful:Implicit Memory as a Hidden Channel in ...",
+      "snippet": "Large language models (LLMs) are commonly treated as stateless: once an interaction ends, no information is assumed to persist unless it is explicitly ...",
+      "link": "https://arxiv.org/html/2602.08563v1",
+      "arxiv_id": "2602.08563"
+    },
+    {
+      "rank": 9,
+      "title": "Exploring Chat History Tampering in Interactive Language Models",
+      "snippet": "This paper explores tampering with the chat history from the user side in the most restrictive threat model. We consider a scenario where we have no prior ...",
+      "link": "https://arxiv.org/html/2405.20234v3",
+      "arxiv_id": "2405.20234"
+    },
+    {
+      "rank": 10,
+      "title": "Security Concerns for Large Language Models: A Survey - arXiv",
+      "snippet": "In this survey, we provide a comprehensive overview of the emerging security concerns around LLMs, categorizing threats into prompt injection and jailbreaking, ...",
+      "link": "https://arxiv.org/html/2505.18889v2",
+      "arxiv_id": "2505.18889"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:39.845340+00:00",
+  "elapsed_seconds": 1.35136404260993
+}

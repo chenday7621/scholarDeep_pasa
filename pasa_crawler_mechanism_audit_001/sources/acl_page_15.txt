@@ -1,0 +1,57 @@
+The prompt for paper selection
+You are an elite researcher in the field of AI, conducting research on {user_query}. Evaluate whether the following paper
+fully satisfies the detailed requirements of the user query and provide your reasoning. Ensure that your decision and reasoning
+are consistent.
+Searched Paper:
+Title: {title}
+Abstract: {abstract}
+User Query: {user_query}
+Output format: Decision: True/False
+Reason:...
+Decision:
+Table 13: Prompt used by PaSa Selector or GPT-4o to evaluate paper relevance.
+Method Crawler Recall Precision Recall Recall@100 Recall@50 Recall@20
+Google - - - 0.2101 0.2010 0.1788
+Google Scholar - - - 0.0801 0.0739 0.0612
+Google with GPT-4o - - - 0.2101 0.2010 0.1788
+ChatGPT - 0.0507 0.3046 - - -
+GPT-o1 - 0.0374 0.2006 - - -
+PaSa-GPT-4o 0.7595 0.1817 0.4488 - - -
+PaSa-7b 0.7752 0.1881 0.5328 0.6932 0.6543 0.5494
+PaSa-7b-ensemble 0.8244 0.1822 0.5568 0.7041 0.6795 0.5535
+Table 14: Results on 100-sample subset of AutoScholarQuery test.
+G.2 Action cost
+We incorporate action costs to prevent the agent
+from taking excessive, unproductive actions. With-
+out such costs, the total number of actions would
+increase significantly without yielding meaningful
+outcomes.
+The key consideration is the reward coefficientα
+and the action costc(at) in Equation 1. In Table 8,
+we fix c(at) and analyze how varying α affects
+performance.
+Additionally, Table 15 shows how different val-
+ues ofc(at) affect the final performance.
+c(at) Crawler Crawler Precision RecallRecall Actions
+0 0.8239 1296.3 0.1388 0.4852
+0.1 0.7931 382.4 0.1448 0.4834
+0.2 0.7478 230.1 0.1489 0.4764
+Table 15: Performance of the Crawler trained on differ-
+ent action costc(at) on AutoScholarQuery test set.
+H Prompt Templates
+H.1 Prompts used for data synthesis in
+AutoScholarQuery
+Table 16 presents the prompt template used with
+GPT-4o to automatically generate AutoScholar-
+Query. For each paper, we extract its Related Work
+section, input it into GPT-4o, and use the prompt
+to generate scholarly queries along with their cor-
+responding paper answers.
+H.2 Prompts for baselines
+Table 17 presents the search query paraphrasing
+prompt used for the baseline Google with GPT-4o.
+Table 18, 19 and 20 show the prompts used for
+the ChatGPT baseline (search-enabled GPT-4o),
+the GPT-o1 baseline and PaSa-GPT-4o, respec-
+tively.
+11677

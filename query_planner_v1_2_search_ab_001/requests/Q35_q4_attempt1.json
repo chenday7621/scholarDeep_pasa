@@ -1,0 +1,104 @@
+{
+  "global_attempt_sequence": 213,
+  "query_id": "Q35",
+  "query_key": "q4",
+  "attempt": 1,
+  "query_text": "Research on quantization techniques in LLM pretraining",
+  "request_payload": {
+    "q": "Research on quantization techniques in LLM pretraining before:2024-09-24 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q35_q4_attempt1.json",
+  "started_utc": "2026-09-15T06:29:20.491022+00:00",
+  "http_status": 200,
+  "response_text": "{\"searchParameters\":{\"q\":\"Research on quantization techniques in LLM pretraining before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"A Comprehensive Evaluation of Quantization Strategiesfor Large ...\",\"link\":\"https://arxiv.org/html/2402.16775v1\",\"snippet\":\"Our experimental results indicate that LLMs with 4-bit quantization can retain performance comparable to their non-quantized counterparts, and perplexity can ...\",\"date\":\"Feb 26, 2024\",\"position\":1},{\"title\":\"[2406.06385] Low-Rank Quantization-Aware Training for LLMs - arXiv\",\"link\":\"https://arxiv.org/abs/2406.06385\",\"snippet\":\"Quantization is one of the most effective ways to make them more compute and memory efficient. Quantization-aware training (QAT) methods, generally produce ...\",\"date\":\"Jun 10, 2024\",\"position\":2},{\"title\":\"Evaluating the Generalization Ability of Quantized LLMs - arXiv\",\"link\":\"https://arxiv.org/html/2406.12928v1\",\"snippet\":\"As an effective means to reduce memory footprint and inference cost, quantization also faces challenges in performance degradation at low bit-widths.\",\"date\":\"Jun 15, 2024\",\"position\":3},{\"title\":\"[PDF] SmoothQuant: Accurate and Efficient Post-Training Quantization for ...\",\"link\":\"https://arxiv.org/pdf/2211.10438\",\"snippet\":\"We propose SmoothQuant, a training-free, accuracy-preserving, and general- all the matrix multiplications in LLMs, including OPT, BLOOM, GLM, MT-NLG, Llama-1/2 ...\",\"date\":\"Mar 29, 2024\",\"position\":4},{\"title\":\"[PDF] Low-Rank Quantization-Aware Training for LLMs - arXiv\",\"link\":\"https://arxiv.org/pdf/2406.06385\",\"snippet\":\"LR-QAT reduces the memory requirements of training a 7B LLM from >98GB of GPU memory to <21GB without degrading the predictive performance compared to ...\",\"date\":\"Sep 3, 2024\",\"position\":5},{\"title\":\"Efficient and Accurate Transformer Pretraining with INT8 Data Flow ...\",\"link\":\"https://arxiv.org/html/2403.12422v1\",\"snippet\":\"Our method features an INT8 data flow to optimize memory access and a per-block quantization method to maintain the accuracy of pretrained transformers.\",\"date\":\"Mar 19, 2024\",\"position\":6},{\"title\":\"[PDF] LLM-QAT: Data-Free Quantization Aware Training for Large ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2305.17888\",\"snippet\":\"Several post-training quantization methods have been applied to large language models (LLMs), and have been shown to perform well down to 8-bits.\",\"date\":\"May 29, 2023\",\"position\":7},{\"title\":\"SmoothQuant: Accurate and Efficient Post-Training Quantization for ...\",\"link\":\"https://arxiv.org/html/2211.10438v7\",\"snippet\":\"SmoothQuant is a general method designed to balance the quantization difficulty for Transformer models. As the architecture of instruction-tuned LLMs is not ...\",\"date\":\"Mar 29, 2024\",\"position\":8},{\"title\":\"Mobile-friendly Quantization for On-device Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2408.13933v1\",\"snippet\":\"In this work, we make a first attempt to facilitate the on-device deployment of LLMs using integer-only quantization. We first investigate the limitations of ...\",\"date\":\"Aug 25, 2024\",\"position\":9},{\"title\":\"An empirical study of LLaMA3 quantization: from LLMs to MLLMs\",\"link\":\"https://arxiv.org/abs/2404.14047\",\"snippet\":\"Given the wide application of low-bit quantization for LLMs in resource-constrained scenarios, we explore LLaMA3's capabilities when quantized to low bit-width.\",\"date\":\"Apr 22, 2024\",\"position\":10}],\"credits\":1}",
+  "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZXNlYXJjaCBvbiBxdWFudGl6YXRpb24gdGVjaG5pcXVlcyBpbiBMTE0gcHJldHJhaW5pbmcgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQSBDb21wcmVoZW5zaXZlIEV2YWx1YXRpb24gb2YgUXVhbnRpemF0aW9uIFN0cmF0ZWdpZXNmb3IgTGFyZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4xNjc3NXYxIiwic25pcHBldCI6Ik91ciBleHBlcmltZW50YWwgcmVzdWx0cyBpbmRpY2F0ZSB0aGF0IExMTXMgd2l0aCA0LWJpdCBxdWFudGl6YXRpb24gY2FuIHJldGFpbiBwZXJmb3JtYW5jZSBjb21wYXJhYmxlIHRvIHRoZWlyIG5vbi1xdWFudGl6ZWQgY291bnRlcnBhcnRzLCBhbmQgcGVycGxleGl0eSBjYW4gLi4uIiwiZGF0ZSI6IkZlYiAyNiwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiWzI0MDYuMDYzODVdIExvdy1SYW5rIFF1YW50aXphdGlvbi1Bd2FyZSBUcmFpbmluZyBmb3IgTExNcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA2LjA2Mzg1Iiwic25pcHBldCI6IlF1YW50aXphdGlvbiBpcyBvbmUgb2YgdGhlIG1vc3QgZWZmZWN0aXZlIHdheXMgdG8gbWFrZSB0aGVtIG1vcmUgY29tcHV0ZSBhbmQgbWVtb3J5IGVmZmljaWVudC4gUXVhbnRpemF0aW9uLWF3YXJlIHRyYWluaW5nIChRQVQpIG1ldGhvZHMsIGdlbmVyYWxseSBwcm9kdWNlIC4uLiIsImRhdGUiOiJKdW4gMTAsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkV2YWx1YXRpbmcgdGhlIEdlbmVyYWxpemF0aW9uIEFiaWxpdHkgb2YgUXVhbnRpemVkIExMTXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTI5Mjh2MSIsInNuaXBwZXQiOiJBcyBhbiBlZmZlY3RpdmUgbWVhbnMgdG8gcmVkdWNlIG1lbW9yeSBmb290cHJpbnQgYW5kIGluZmVyZW5jZSBjb3N0LCBxdWFudGl6YXRpb24gYWxzbyBmYWNlcyBjaGFsbGVuZ2VzIGluIHBlcmZvcm1hbmNlIGRlZ3JhZGF0aW9uIGF0IGxvdyBiaXQtd2lkdGhzLiIsImRhdGUiOiJKdW4gMTUsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIFNtb290aFF1YW50OiBBY2N1cmF0ZSBhbmQgRWZmaWNpZW50IFBvc3QtVHJhaW5pbmcgUXVhbnRpemF0aW9uIGZvciAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMTEuMTA0MzgiLCJzbmlwcGV0IjoiV2UgcHJvcG9zZSBTbW9vdGhRdWFudCwgYSB0cmFpbmluZy1mcmVlLCBhY2N1cmFjeS1wcmVzZXJ2aW5nLCBhbmQgZ2VuZXJhbC0gYWxsIHRoZSBtYXRyaXggbXVsdGlwbGljYXRpb25zIGluIExMTXMsIGluY2x1ZGluZyBPUFQsIEJMT09NLCBHTE0sIE1ULU5MRywgTGxhbWEtMS8yIC4uLiIsImRhdGUiOiJNYXIgMjksIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIExvdy1SYW5rIFF1YW50aXphdGlvbi1Bd2FyZSBUcmFpbmluZyBmb3IgTExNcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA2LjA2Mzg1Iiwic25pcHBldCI6IkxSLVFBVCByZWR1Y2VzIHRoZSBtZW1vcnkgcmVxdWlyZW1lbnRzIG9mIHRyYWluaW5nIGEgN0IgTExNIGZyb20gPjk4R0Igb2YgR1BVIG1lbW9yeSB0byA8MjFHQiB3aXRob3V0IGRlZ3JhZGluZyB0aGUgcHJlZGljdGl2ZSBwZXJmb3JtYW5jZSBjb21wYXJlZCB0byAuLi4iLCJkYXRlIjoiU2VwIDMsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkVmZmljaWVudCBhbmQgQWNjdXJhdGUgVHJhbnNmb3JtZXIgUHJldHJhaW5pbmcgd2l0aCBJTlQ4IERhdGEgRmxvdyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjEyNDIydjEiLCJzbmlwcGV0IjoiT3VyIG1ldGhvZCBmZWF0dXJlcyBhbiBJTlQ4IGRhdGEgZmxvdyB0byBvcHRpbWl6ZSBtZW1vcnkgYWNjZXNzIGFuZCBhIHBlci1ibG9jayBxdWFudGl6YXRpb24gbWV0aG9kIHRvIG1haW50YWluIHRoZSBhY2N1cmFjeSBvZiBwcmV0cmFpbmVkIHRyYW5zZm9ybWVycy4iLCJkYXRlIjoiTWFyIDE5LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBMTE0tUUFUOiBEYXRhLUZyZWUgUXVhbnRpemF0aW9uIEF3YXJlIFRyYWluaW5nIGZvciBMYXJnZSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4xNzg4OCIsInNuaXBwZXQiOiJTZXZlcmFsIHBvc3QtdHJhaW5pbmcgcXVhbnRpemF0aW9uIG1ldGhvZHMgaGF2ZSBiZWVuIGFwcGxpZWQgdG8gbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSwgYW5kIGhhdmUgYmVlbiBzaG93biB0byBwZXJmb3JtIHdlbGwgZG93biB0byA4LWJpdHMuIiwiZGF0ZSI6Ik1heSAyOSwgMjAyMyIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiU21vb3RoUXVhbnQ6IEFjY3VyYXRlIGFuZCBFZmZpY2llbnQgUG9zdC1UcmFpbmluZyBRdWFudGl6YXRpb24gZm9yIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMTEuMTA0Mzh2NyIsInNuaXBwZXQiOiJTbW9vdGhRdWFudCBpcyBhIGdlbmVyYWwgbWV0aG9kIGRlc2lnbmVkIHRvIGJhbGFuY2UgdGhlIHF1YW50aXphdGlvbiBkaWZmaWN1bHR5IGZvciBUcmFuc2Zvcm1lciBtb2RlbHMuIEFzIHRoZSBhcmNoaXRlY3R1cmUgb2YgaW5zdHJ1Y3Rpb24tdHVuZWQgTExNcyBpcyBub3QgLi4uIiwiZGF0ZSI6Ik1hciAyOSwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiTW9iaWxlLWZyaWVuZGx5IFF1YW50aXphdGlvbiBmb3IgT24tZGV2aWNlIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOC4xMzkzM3YxIiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgbWFrZSBhIGZpcnN0IGF0dGVtcHQgdG8gZmFjaWxpdGF0ZSB0aGUgb24tZGV2aWNlIGRlcGxveW1lbnQgb2YgTExNcyB1c2luZyBpbnRlZ2VyLW9ubHkgcXVhbnRpemF0aW9uLiBXZSBmaXJzdCBpbnZlc3RpZ2F0ZSB0aGUgbGltaXRhdGlvbnMgb2YgLi4uIiwiZGF0ZSI6IkF1ZyAyNSwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiQW4gZW1waXJpY2FsIHN0dWR5IG9mIExMYU1BMyBxdWFudGl6YXRpb246IGZyb20gTExNcyB0byBNTExNcyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNC4xNDA0NyIsInNuaXBwZXQiOiJHaXZlbiB0aGUgd2lkZSBhcHBsaWNhdGlvbiBvZiBsb3ctYml0IHF1YW50aXphdGlvbiBmb3IgTExNcyBpbiByZXNvdXJjZS1jb25zdHJhaW5lZCBzY2VuYXJpb3MsIHdlIGV4cGxvcmUgTExhTUEzJ3MgY2FwYWJpbGl0aWVzIHdoZW4gcXVhbnRpemVkIHRvIGxvdyBiaXQtd2lkdGguIiwiZGF0ZSI6IkFwciAyMiwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "response_sha256": "da4a98d55d49d0c6b55ebe25360f02aeac9a38901544c28122b3b9f0c2ee87dd",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Research on quantization techniques in LLM pretraining before:2024-09-24 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "A Comprehensive Evaluation of Quantization Strategiesfor Large ...",
+        "link": "https://arxiv.org/html/2402.16775v1",
+        "snippet": "Our experimental results indicate that LLMs with 4-bit quantization can retain performance comparable to their non-quantized counterparts, and perplexity can ...",
+        "date": "Feb 26, 2024",
+        "position": 1
+      },
+      {
+        "title": "[2406.06385] Low-Rank Quantization-Aware Training for LLMs - arXiv",
+        "link": "https://arxiv.org/abs/2406.06385",
+        "snippet": "Quantization is one of the most effective ways to make them more compute and memory efficient. Quantization-aware training (QAT) methods, generally produce ...",
+        "date": "Jun 10, 2024",
+        "position": 2
+      },
+      {
+        "title": "Evaluating the Generalization Ability of Quantized LLMs - arXiv",
+        "link": "https://arxiv.org/html/2406.12928v1",
+        "snippet": "As an effective means to reduce memory footprint and inference cost, quantization also faces challenges in performance degradation at low bit-widths.",
+        "date": "Jun 15, 2024",
+        "position": 3
+      },
+      {
+        "title": "[PDF] SmoothQuant: Accurate and Efficient Post-Training Quantization for ...",
+        "link": "https://arxiv.org/pdf/2211.10438",
+        "snippet": "We propose SmoothQuant, a training-free, accuracy-preserving, and general- all the matrix multiplications in LLMs, including OPT, BLOOM, GLM, MT-NLG, Llama-1/2 ...",
+        "date": "Mar 29, 2024",
+        "position": 4
+      },
+      {
+        "title": "[PDF] Low-Rank Quantization-Aware Training for LLMs - arXiv",
+        "link": "https://arxiv.org/pdf/2406.06385",
+        "snippet": "LR-QAT reduces the memory requirements of training a 7B LLM from >98GB of GPU memory to <21GB without degrading the predictive performance compared to ...",
+        "date": "Sep 3, 2024",
+        "position": 5
+      },
+      {
+        "title": "Efficient and Accurate Transformer Pretraining with INT8 Data Flow ...",
+        "link": "https://arxiv.org/html/2403.12422v1",
+        "snippet": "Our method features an INT8 data flow to optimize memory access and a per-block quantization method to maintain the accuracy of pretrained transformers.",
+        "date": "Mar 19, 2024",
+        "position": 6
+      },
+      {
+        "title": "[PDF] LLM-QAT: Data-Free Quantization Aware Training for Large ... - arXiv",
+        "link": "https://arxiv.org/pdf/2305.17888",
+        "snippet": "Several post-training quantization methods have been applied to large language models (LLMs), and have been shown to perform well down to 8-bits.",
+        "date": "May 29, 2023",
+        "position": 7
+      },
+      {
+        "title": "SmoothQuant: Accurate and Efficient Post-Training Quantization for ...",
+        "link": "https://arxiv.org/html/2211.10438v7",
+        "snippet": "SmoothQuant is a general method designed to balance the quantization difficulty for Transformer models. As the architecture of instruction-tuned LLMs is not ...",
+        "date": "Mar 29, 2024",
+        "position": 8
+      },
+      {
+        "title": "Mobile-friendly Quantization for On-device Language Models - arXiv",
+        "link": "https://arxiv.org/html/2408.13933v1",
+        "snippet": "In this work, we make a first attempt to facilitate the on-device deployment of LLMs using integer-only quantization. We first investigate the limitations of ...",
+        "date": "Aug 25, 2024",
+        "position": 9
+      },
+      {
+        "title": "An empirical study of LLaMA3 quantization: from LLMs to MLLMs",
+        "link": "https://arxiv.org/abs/2404.14047",
+        "snippet": "Given the wide application of low-bit quantization for LLMs in resource-constrained scenarios, we explore LLaMA3's capabilities when quantized to low bit-width.",
+        "date": "Apr 22, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "status": "PASS",
+  "finished_utc": "2026-09-15T06:29:21.512517+00:00",
+  "elapsed_seconds": 1.0214921943843365
+}

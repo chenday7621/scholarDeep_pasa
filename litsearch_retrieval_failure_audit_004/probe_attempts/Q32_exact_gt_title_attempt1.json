@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q32",
+  "group": "inline-citation",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2204.00408",
+  "request_payload": {
+    "q": "Structured Pruning Learns Compact and Accurate Models before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 67,
+  "started_utc": "2026-09-17T12:34:41.604672+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648205",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "9a7068b17254b41a91c256cae003344c",
+    "date": "Thu, 17 Sep 2026 12:30:02 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3450",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3450,
+  "response_bytes_sha256": "67d5d0bfc4742863842b8b419567717f2c014ddab9c8099f3c95dddc975d2248",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdHJ1Y3R1cmVkIFBydW5pbmcgTGVhcm5zIENvbXBhY3QgYW5kIEFjY3VyYXRlIE1vZGVscyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJTdHJ1Y3R1cmVkIFBydW5pbmcgTGVhcm5zIENvbXBhY3QgYW5kIEFjY3VyYXRlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMjA0LjAwNDA4Iiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgcHJvcG9zZSBhIHRhc2stc3BlY2lmaWMgc3RydWN0dXJlZCBwcnVuaW5nIG1ldGhvZCBDb0ZpIChDb2Fyc2UtIGFuZCBGaW5lLWdyYWluZWQgUHJ1bmluZyksIHdoaWNoIGRlbGl2ZXJzIGhpZ2hseSBwYXJhbGxlbGl6YWJsZSBzdWJuZXR3b3JrcyIsImRhdGUiOiJBcHIgMSwgMjAyMiIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiRmx1Y3R1YXRpb24tYmFzZWQgQWRhcHRpdmUgU3RydWN0dXJlZCBQcnVuaW5nIGZvciBMYXJnZSBMYW5ndWFnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEyLjExOTgzdjEiLCJzbmlwcGV0IjoiU3RydWN0dXJlZCBQcnVuaW5nIExlYXJucyBDb21wYWN0IGFuZCBBY2N1cmF0ZSBNb2RlbHMuIEluIEFzc29jaWF0aW9uIGZvciBDb21wdXRhdGlvbmFsIExpbmd1aXN0aWNzIChBQ0wpLiBYaWFvIGV0IGFsLiAoMjAyMykgWGlhbywgRy47IExpbiwgSi47IFNlem5lYywgTSAuLi4iLCJkYXRlIjoiRGVjIDE5LCAyMDIzIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJDb21wYWN0IExhbmd1YWdlIE1vZGVscyB2aWEgUHJ1bmluZyBhbmQgS25vd2xlZGdlIERpc3RpbGxhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMTQ2Nzl2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBmb2N1cyBvbiBzdHJ1Y3R1cmVkIHBydW5pbmcsIHdoZXJlIGJsb2NrcyBvZiBub256ZXJvIGVsZW1lbnRzIGFyZSByZW1vdmVkIGF0IG9uY2UgZnJvbSBtb2RlbCB3ZWlnaHRzOyBleGFtcGxlcyBvZiBzdHJ1Y3R1cmVkIHBydW5pbmcgLi4uIiwiZGF0ZSI6Ikp1bCAxOSwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQSBGcmFtZXdvcmsgZm9yIEV2YWx1YXRpbmcgRGVjaXNpb24gUmVsaWFiaWxpdHkgaW4gU3RydWN0dXJlZCBQcnVuaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwOC4yOTc2NXYxIiwic25pcHBldCI6IlN0cnVjdHVyZWQgcHJ1bmluZyByZW1vdmVzIGNvbXBsZXRlIGF0dGVudGlvbiBoZWFkcywgY2hhbm5lbHMsIG5ldXJvbnMsIG9yIGJsb2Nrcy4gU3RydWN0dXJlZCBwcnVuaW5nIGxlYXJucyBjb21wYWN0IGFuZCBhY2N1cmF0ZSBtb2RlbHMuIEluIFByb2NlZWRpbmdzIG9mIHRoZSAuLi4iLCJkYXRlIjoiQXVnIDMwLCAyMDI2IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBGaW5lLXR1bmUgQmVmb3JlIFN0cnVjdHVyZWQgUHJ1bmluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA1LjI0MTExIiwic25pcHBldCI6IkluIGNvbnRyYXN0LCBzdHJ1Y3R1cmVkIHBydW4tIGluZyBbOeKAkzEyXSBhdXRvbWF0aWNhbGx5IGxlYXJucyBhIGNvbXBhY3QgYXJjaGl0ZWN0dXJlIGJ5IHJlLSBtb3ZpbmcgdGhlIGNvbXBhY3Qgc2V0cyBvZiByZWR1bmRhbnQgcGFyYW1ldGVycywgc3VjaCBhcyBhdC0gdGVudGlvbiAuLi4iLCJkYXRlIjoiTWF5IDMwLCAyMDI1IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJBIFN1cnZleSBvbiBEZWVwIE5ldXJhbCBOZXR3b3JrIFBydW5pbmc6IFRheG9ub215LCBDb21wYXJpc29uIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDguMDY3Njd2MiIsInNuaXBwZXQiOiJJbiBjb250cmFzdCwgc3RydWN0dXJlZCBwcnVuaW5nIGlzIGNsYXNzaWZpZWQgYXMgY29hcnNlLWdyYWluZWQgc3RydWN0dXJlZCBwcnVuaW5nIC4uLiBDaGVuLCDigJxTdHJ1Y3R1cmVkIHBydW5pbmcgbGVhcm5zIGNvbXBhY3QgYW5kIGFjY3VyYXRlIG1vZGVscyzigJ0gaW4gQUNMLCAyMDIyIC4uLiIsImRhdGUiOiJBdWcgOSwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiU2xpbUxMTTogQWNjdXJhdGUgU3RydWN0dXJlZCBQcnVuaW5nIGZvciBMYXJnZSBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI1MDUuMjI2ODkiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgcHJvcG9zZSBhbiBlZmZlY3RpdmUgYW5kIGZhc3Qgc3RydWN0dXJlZCBwcnVuaW5nIG1ldGhvZCBuYW1lZCBTbGltTExNIGZvciBsYXJnZSBsYW5ndWFnZSBtb2RlbHMuIEZvciBjaGFubmVsIGFuZCBhdHRlbnRpb24gaGVhZCBwcnVuaW5nLCB3ZSAuLi4iLCJkYXRlIjoiTWF5IDI4LCAyMDI1IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJDb21wcmVzc286IFN0cnVjdHVyZWQgUHJ1bmluZyB3aXRoIENvbGxhYm9yYXRpdmUgUHJvbXB0aW5nIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzEwLjA1MDE1Iiwic25pcHBldCI6IkNvbXByZXNzbzogU3RydWN0dXJlZCBQcnVuaW5nIHdpdGggQ29sbGFib3JhdGl2ZSBQcm9tcHRpbmcgTGVhcm5zIENvbXBhY3QgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzLiBBdXRob3JzOlNvbmcgR3VvLCBKaWFoYW5nIFh1LCBMaSBMeW5hIFpoYW5nLCBNYW8gWWFuZy4iLCJkYXRlIjoiT2N0IDgsIDIwMjMiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIFN0cnVjdHVyZWQgUHJ1bmluZyBvZiBMTE1zIHdpdGggb25seSBGb3J3YXJkIFBhc3NlcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAyLjA1NDA2Iiwic25pcHBldCI6IlN0cnVjdHVyZWQgcHJ1bmluZyBpcyBhIHByb21pc2luZyBhcHByb2FjaCB0byBjcmVhdGUgc21hbGxlciwgZmFzdGVyIGxhcmdlIGxhbmd1YWdlIG1vZGVscy4gSG93ZXZlciwgZXhpc3RpbmcgbWV0aG9kcyB0eXBpY2FsbHkgcmVseSBvbiBjb21wdXRpbmcgdGhlIC4uLiIsImRhdGUiOiJTZXAgMjUsIDIwMjUiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlJvYnVzdCBTdHJ1Y3R1cmVkIFBydW5pbmcgZm9yIExhcmdlIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNS4xODMzMXYyIiwic25pcHBldCI6IlBydW5pbmcgZXhwZXJpbWVudHMgb24gbXVsdGlwbGUgbW9kZWxzIHdpdGggYSB3aWRlIHZhcmlldHkgb2Ygc3BhcnNpdHkgcmFuZ2VzIGFuZCBvbiBkaWZmZXJlbnQgZGF0YXNldHMsIHZhbGlkYXRlIHRoZSBnZW5lcmFsaXR5IG9mIFB1dHJpLiBOb3RhYmx5LCB3ZSAuLi4iLCJkYXRlIjoiSnVsIDEzLCAyMDI2IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Structured Pruning Learns Compact and Accurate Models before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Structured Pruning Learns Compact and Accurate Models - arXiv",
+        "link": "https://arxiv.org/abs/2204.00408",
+        "snippet": "In this work, we propose a task-specific structured pruning method CoFi (Coarse- and Fine-grained Pruning), which delivers highly parallelizable subnetworks",
+        "date": "Apr 1, 2022",
+        "position": 1
+      },
+      {
+        "title": "Fluctuation-based Adaptive Structured Pruning for Large Language ...",
+        "link": "https://arxiv.org/html/2312.11983v1",
+        "snippet": "Structured Pruning Learns Compact and Accurate Models. In Association for Computational Linguistics (ACL). Xiao et al. (2023) Xiao, G.; Lin, J.; Seznec, M ...",
+        "date": "Dec 19, 2023",
+        "position": 2
+      },
+      {
+        "title": "Compact Language Models via Pruning and Knowledge Distillation",
+        "link": "https://arxiv.org/html/2407.14679v1",
+        "snippet": "In this paper, we focus on structured pruning, where blocks of nonzero elements are removed at once from model weights; examples of structured pruning ...",
+        "date": "Jul 19, 2024",
+        "position": 3
+      },
+      {
+        "title": "A Framework for Evaluating Decision Reliability in Structured Pruning",
+        "link": "https://arxiv.org/html/2608.29765v1",
+        "snippet": "Structured pruning removes complete attention heads, channels, neurons, or blocks. Structured pruning learns compact and accurate models. In Proceedings of the ...",
+        "date": "Aug 30, 2026",
+        "position": 4
+      },
+      {
+        "title": "[PDF] Fine-tune Before Structured Pruning - arXiv",
+        "link": "https://arxiv.org/pdf/2505.24111",
+        "snippet": "In contrast, structured prun- ing [9–12] automatically learns a compact architecture by re- moving the compact sets of redundant parameters, such as at- tention ...",
+        "date": "May 30, 2025",
+        "position": 5
+      },
+      {
+        "title": "A Survey on Deep Neural Network Pruning: Taxonomy, Comparison ...",
+        "link": "https://arxiv.org/html/2308.06767v2",
+        "snippet": "In contrast, structured pruning is classified as coarse-grained structured pruning ... Chen, “Structured pruning learns compact and accurate models,” in ACL, 2022 ...",
+        "date": "Aug 9, 2024",
+        "position": 6
+      },
+      {
+        "title": "SlimLLM: Accurate Structured Pruning for Large Language Models",
+        "link": "https://arxiv.org/abs/2505.22689",
+        "snippet": "In this paper, we propose an effective and fast structured pruning method named SlimLLM for large language models. For channel and attention head pruning, we ...",
+        "date": "May 28, 2025",
+        "position": 7
+      },
+      {
+        "title": "Compresso: Structured Pruning with Collaborative Prompting ... - arXiv",
+        "link": "https://arxiv.org/abs/2310.05015",
+        "snippet": "Compresso: Structured Pruning with Collaborative Prompting Learns Compact Large Language Models. Authors:Song Guo, Jiahang Xu, Li Lyna Zhang, Mao Yang.",
+        "date": "Oct 8, 2023",
+        "position": 8
+      },
+      {
+        "title": "[PDF] Structured Pruning of LLMs with only Forward Passes - arXiv",
+        "link": "https://arxiv.org/pdf/2402.05406",
+        "snippet": "Structured pruning is a promising approach to create smaller, faster large language models. However, existing methods typically rely on computing the ...",
+        "date": "Sep 25, 2025",
+        "position": 9
+      },
+      {
+        "title": "Robust Structured Pruning for Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2605.18331v2",
+        "snippet": "Pruning experiments on multiple models with a wide variety of sparsity ranges and on different datasets, validate the generality of Putri. Notably, we ...",
+        "date": "Jul 13, 2026",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Structured Pruning Learns Compact and Accurate Models - arXiv",
+      "snippet": "In this work, we propose a task-specific structured pruning method CoFi (Coarse- and Fine-grained Pruning), which delivers highly parallelizable subnetworks",
+      "link": "https://arxiv.org/abs/2204.00408",
+      "arxiv_id": "2204.00408"
+    },
+    {
+      "rank": 2,
+      "title": "Fluctuation-based Adaptive Structured Pruning for Large Language ...",
+      "snippet": "Structured Pruning Learns Compact and Accurate Models. In Association for Computational Linguistics (ACL). Xiao et al. (2023) Xiao, G.; Lin, J.; Seznec, M ...",
+      "link": "https://arxiv.org/html/2312.11983v1",
+      "arxiv_id": "2312.11983"
+    },
+    {
+      "rank": 3,
+      "title": "Compact Language Models via Pruning and Knowledge Distillation",
+      "snippet": "In this paper, we focus on structured pruning, where blocks of nonzero elements are removed at once from model weights; examples of structured pruning ...",
+      "link": "https://arxiv.org/html/2407.14679v1",
+      "arxiv_id": "2407.14679"
+    },
+    {
+      "rank": 4,
+      "title": "A Framework for Evaluating Decision Reliability in Structured Pruning",
+      "snippet": "Structured pruning removes complete attention heads, channels, neurons, or blocks. Structured pruning learns compact and accurate models. In Proceedings of the ...",
+      "link": "https://arxiv.org/html/2608.29765v1",
+      "arxiv_id": "2608.29765"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] Fine-tune Before Structured Pruning - arXiv",
+      "snippet": "In contrast, structured prun- ing [9–12] automatically learns a compact architecture by re- moving the compact sets of redundant parameters, such as at- tention ...",
+      "link": "https://arxiv.org/pdf/2505.24111",
+      "arxiv_id": "2505.24111"
+    },
+    {
+      "rank": 6,
+      "title": "A Survey on Deep Neural Network Pruning: Taxonomy, Comparison ...",
+      "snippet": "In contrast, structured pruning is classified as coarse-grained structured pruning ... Chen, “Structured pruning learns compact and accurate models,” in ACL, 2022 ...",
+      "link": "https://arxiv.org/html/2308.06767v2",
+      "arxiv_id": "2308.06767"
+    },
+    {
+      "rank": 7,
+      "title": "SlimLLM: Accurate Structured Pruning for Large Language Models",
+      "snippet": "In this paper, we propose an effective and fast structured pruning method named SlimLLM for large language models. For channel and attention head pruning, we ...",
+      "link": "https://arxiv.org/abs/2505.22689",
+      "arxiv_id": "2505.22689"
+    },
+    {
+      "rank": 8,
+      "title": "Compresso: Structured Pruning with Collaborative Prompting ... - arXiv",
+      "snippet": "Compresso: Structured Pruning with Collaborative Prompting Learns Compact Large Language Models. Authors:Song Guo, Jiahang Xu, Li Lyna Zhang, Mao Yang.",
+      "link": "https://arxiv.org/abs/2310.05015",
+      "arxiv_id": "2310.05015"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] Structured Pruning of LLMs with only Forward Passes - arXiv",
+      "snippet": "Structured pruning is a promising approach to create smaller, faster large language models. However, existing methods typically rely on computing the ...",
+      "link": "https://arxiv.org/pdf/2402.05406",
+      "arxiv_id": "2402.05406"
+    },
+    {
+      "rank": 10,
+      "title": "Robust Structured Pruning for Large Language Models - arXiv",
+      "snippet": "Pruning experiments on multiple models with a wide variety of sparsity ranges and on different datasets, validate the generality of Putri. Notably, we ...",
+      "link": "https://arxiv.org/html/2605.18331v2",
+      "arxiv_id": "2605.18331"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:42.490752+00:00",
+  "elapsed_seconds": 0.8860820084810257
+}

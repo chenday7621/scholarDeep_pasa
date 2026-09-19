@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q21",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2305.17444",
+  "request_payload": {
+    "q": "Is there any paper that utilizes Gaussian processes to analyze the vulnerability of text-conditioned generative models? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 45,
+  "started_utc": "2026-09-17T12:34:17.041706+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648180",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "1a6ec81a3359930a3bc9978101f3fe32",
+    "date": "Thu, 17 Sep 2026 12:29:38 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3537",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3537,
+  "response_bytes_sha256": "a6736e4456c9a855bfd2e0006c105102802ee7c9a6c6b6da0934f89f4670e448",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJJcyB0aGVyZSBhbnkgcGFwZXIgdGhhdCB1dGlsaXplcyBHYXVzc2lhbiBwcm9jZXNzZXMgdG8gYW5hbHl6ZSB0aGUgdnVsbmVyYWJpbGl0eSBvZiB0ZXh0LWNvbmRpdGlvbmVkIGdlbmVyYXRpdmUgbW9kZWxzPyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJIaWdobHkgRWZmaWNpZW50IFNlbWFudGljLUNvbnNpc3RlbnQgVW5yZXN0cmljdGVkIEFkdmVyc2FyaWFsIEF0dGFjayIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTAuMDIyNDB2NSIsInNuaXBwZXQiOiJJbiB0aGlzIHN0dWR5LCB3ZSBwcm9wb3NlIGEgbm92ZWwgZnJhbWV3b3JrIGNhbGxlZCBTZW1hbnRpYy1Db25zaXN0ZW50IFVucmVzdHJpY3RlZCBBZHZlcnNhcmlhbCBBdHRhY2tzIChTQ0EpLCB3aGljaCBlbXBsb3lzIGFuIGludmVyc2lvbiBtZXRob2QgdG8gZXh0cmFjdCBlZGl0IC4uLiIsImRhdGUiOiJBcHIgMTUsIDIwMjUiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkEgU3VydmV5IG9uIHRoZSBBcHBsaWNhdGlvbiBvZiBHZW5lcmF0aXZlIEFkdmVyc2FyaWFsIE5ldHdvcmtzIGluIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMDg4Mzl2MSIsInNuaXBwZXQiOiJQYXJ0aWN1bGFybHksIHdlIGludmVzdGlnYXRlIGhvdyBHQU4tYmFzZWQgbW9kZWxzIGFkZHJlc3MgdGhlIGZvbGxvd2luZyBjeWJlciB0aHJlYXRzOiBtYWx3YXJlIGRldGVjdGlvbiwgYW5vbWFseSBkZXRlY3Rpb24sIGludHJ1c2lvbiBkZXRlY3Rpb24sIGV0Yy4gT3VyIG1haW4gLi4uIiwiZGF0ZSI6Ikp1bCAxMSwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiQW5hbHlzaW5nIHRoZSBSb2J1c3RuZXNzIG9mIFZpc2lvbi1MYW5ndWFnZS1Nb2RlbHMgdG8gQ29tbW9uIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDQuMTM2OTB2MiIsInNuaXBwZXQiOiJXZSBwcm92aWRlIHRoZSBmaXJzdCBzeXN0ZW1hdGljIGFuYWx5c2lzIG9mIHZpc2lvbi1sYW5ndWFnZSBtb2RlbCByb2J1c3RuZXNzIHRvIGNvbW1vbiBjb3JydXB0aW9ucywgY29udHJpYnV0aW5nIHR3byBjb21wcmVoZW5zaXZlIGJlbmNobWFya3M6IFRleHRWUUEtQyBhbmQgR1FBIC4uLiIsImRhdGUiOiJBcHIgMjEsIDIwMjUiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6Ik5pZ2h0c2hhZGU6IFByb21wdC1TcGVjaWZpYyBQb2lzb25pbmcgQXR0YWNrcyBvbiBUZXh0LXRvIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMC4xMzgyOHYzIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHNob3cgdGhhdCBzdGF0ZS1vZi10aGUtYXJ0IHRleHQtdG8taW1hZ2UgZ2VuZXJhdGl2ZSBtb2RlbHMgYXJlIGluIGZhY3QgaGlnaGx5IHZ1bG5lcmFibGUgdG8gcG9pc29uaW5nIGF0dGFja3MuIiwiZGF0ZSI6IkFwciAyOSwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiTXVsdGltb2RhbCBHZW5lcmF0aXZlIEFJIHdpdGggQXV0b3JlZ3Jlc3NpdmUgTExNcyBmb3IgSHVtYW4gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNi4wMzE5MXYxIiwic25pcHBldCI6IlRoaXMgcGFwZXIgcHJlc2VudHMgYW4gaW4tZGVwdGggc3VydmV5IG9uIHRoZSB1c2Ugb2YgbXVsdGltb2RhbCBHZW5lcmF0aXZlIEFydGlmaWNpYWwgSW50ZWxsaWdlbmNlIChHZW5BSSkgYW5kIGF1dG9yZWdyZXNzaXZlIExhcmdlIExhbmd1YWdlIE1vZGVscyAoTExNcykiLCJkYXRlIjoiTWF5IDMxLCAyMDI1IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJOb24tUGFyYW1ldHJpYyBNYWNoaW5lIFRleHQgRGV0ZWN0aW9uIHZpYSBNdWx0aS1WaWV3IEdhdXNzaWFuIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjYwNi4xNDA2MCIsInNuaXBwZXQiOiJBYnN0cmFjdCBwYWdlIGZvciBhclhpdiBwYXBlciAyNjA2LjE0MDYwOiBOb24tUGFyYW1ldHJpYyBNYWNoaW5lIFRleHQgRGV0ZWN0aW9uIHZpYSBNdWx0aS1WaWV3IEdhdXNzaWFuIFByb2Nlc3Nlcy4iLCJkYXRlIjoiSnVuIDEyLCAyMDI2IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJHZW5lcmF0aXZlIEFJIGluIERlcHRoOiBBIFN1cnZleSBvZiBSZWNlbnQgQWR2YW5jZXMsIE1vZGVsIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMC4yMTg4N3YxIiwic25pcHBldCI6IldlIGludHJvZHVjZSBhIG5vdmVsIHRheG9ub215IG9mIGdlbmVyYXRpdmUgbW9kZWxzLCBvZiB0aGUgYXJjaGl0ZWN0dXJlIGFuZCB0cmFpbmluZyBwcm9jZXNzIG9mIEdBTnMuIEVhY2ggS0wgZGl2ZXJnZW5jZSBjb21wYXJlcyBhIEdhdXNzaWFuIGZyb20gdGhlIGZvcndhcmQgLi4uIiwiZGF0ZSI6Ik9jdCAyMywgMjAyNSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiQ29tcHV0YXRpb25hbCBTYWZldHkgZm9yIEdlbmVyYXRpdmUgQUk6IEEgU2lnbmFsIFByb2Nlc3NpbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAyLjEyNDQ1djE/cmVmPXByb21wdGVuZ2luZWVyaW5nLm9yZyIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHByZXNlbnRzIGEgZm9ybWFsaXphdGlvbiBvZiB0aGUgY29uY2VwdCBvZiBjb21wdXRhdGlvbmFsIHNhZmV0eSwgR2F1c3NpYW4gbm9pc2UgZm9yIHNlbnNpdGl2aXR5IGFuYWx5c2lzIHRvIGRldGVjdCBBSS1nZW5lcmF0ZWQgaW1hZ2VzIiwiZGF0ZSI6IkZlYiAxOCwgMjAyNSIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gQWR2ZXJzYXJpYWwgQXR0YWNrcyBhbmQgRGVmZW5zZXMgb24gVGV4dC10by1JbWFnZSBEaWZmdXNpb24gTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA3LjE1ODYxIiwic25pcHBldCI6IldlIGJlZ2luIHdpdGggYW4gb3ZlcnZpZXcgb2YgdGV4dC10by1pbWFnZSBkaWZmdXNpb24gbW9kZWxzLCBmb2xsb3dlZCBieSBhbiBpbnRyb2R1Y3Rpb24gdG8gYSB0YXhvbm9teSBvZiBhZHZlcnNhcmlhbCBhdHRhY2tzIGFuZCBhbiBpbi1kZXB0aCByZXZpZXcgb2YgZXhpc3RpbmcgLi4uIiwiZGF0ZSI6IlNlcCAxMywgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiTUlSQUdFOiBTdGVhbHRoeSBWaXN1YWwgUHJvbXB0IEluamVjdGlvbiBmb3IgVnVsbmVyYWJpbGl0eSBEZXRlY3Rpb24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNi4yMDcxN3YxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGludmVzdGlnYXRlIGEgY29uc3RyYWluZWQgdnVsbmVyYWJpbGl0eSBkZXRlY3Rpb24gc2V0dGluZzogYSB0cnVzdGVkIHdlYiBwbGF0Zm9ybSB3aGVyZSB0aGUgZXZhbHVhdG9yIGFjdHMgc29sZWx5IGFzIGFuIHVucHJpdmlsZWdlZCB0aGlyZCAuLi4iLCJkYXRlIjoiSnVuIDE2LCAyMDI2IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Is there any paper that utilizes Gaussian processes to analyze the vulnerability of text-conditioned generative models? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Highly Efficient Semantic-Consistent Unrestricted Adversarial Attack",
+        "link": "https://arxiv.org/html/2410.02240v5",
+        "snippet": "In this study, we propose a novel framework called Semantic-Consistent Unrestricted Adversarial Attacks (SCA), which employs an inversion method to extract edit ...",
+        "date": "Apr 15, 2025",
+        "position": 1
+      },
+      {
+        "title": "A Survey on the Application of Generative Adversarial Networks in ...",
+        "link": "https://arxiv.org/html/2407.08839v1",
+        "snippet": "Particularly, we investigate how GAN-based models address the following cyber threats: malware detection, anomaly detection, intrusion detection, etc. Our main ...",
+        "date": "Jul 11, 2024",
+        "position": 2
+      },
+      {
+        "title": "Analysing the Robustness of Vision-Language-Models to Common ...",
+        "link": "https://arxiv.org/html/2504.13690v2",
+        "snippet": "We provide the first systematic analysis of vision-language model robustness to common corruptions, contributing two comprehensive benchmarks: TextVQA-C and GQA ...",
+        "date": "Apr 21, 2025",
+        "position": 3
+      },
+      {
+        "title": "Nightshade: Prompt-Specific Poisoning Attacks on Text-to ... - arXiv",
+        "link": "https://arxiv.org/html/2310.13828v3",
+        "snippet": "In this paper, we show that state-of-the-art text-to-image generative models are in fact highly vulnerable to poisoning attacks.",
+        "date": "Apr 29, 2024",
+        "position": 4
+      },
+      {
+        "title": "Multimodal Generative AI with Autoregressive LLMs for Human ...",
+        "link": "https://arxiv.org/html/2506.03191v1",
+        "snippet": "This paper presents an in-depth survey on the use of multimodal Generative Artificial Intelligence (GenAI) and autoregressive Large Language Models (LLMs)",
+        "date": "May 31, 2025",
+        "position": 5
+      },
+      {
+        "title": "Non-Parametric Machine Text Detection via Multi-View Gaussian ...",
+        "link": "https://arxiv.org/abs/2606.14060",
+        "snippet": "Abstract page for arXiv paper 2606.14060: Non-Parametric Machine Text Detection via Multi-View Gaussian Processes.",
+        "date": "Jun 12, 2026",
+        "position": 6
+      },
+      {
+        "title": "Generative AI in Depth: A Survey of Recent Advances, Model ... - arXiv",
+        "link": "https://arxiv.org/html/2510.21887v1",
+        "snippet": "We introduce a novel taxonomy of generative models, of the architecture and training process of GANs. Each KL divergence compares a Gaussian from the forward ...",
+        "date": "Oct 23, 2025",
+        "position": 7
+      },
+      {
+        "title": "Computational Safety for Generative AI: A Signal Processing ... - arXiv",
+        "link": "https://arxiv.org/html/2502.12445v1?ref=promptengineering.org",
+        "snippet": "This paper presents a formalization of the concept of computational safety, Gaussian noise for sensitivity analysis to detect AI-generated images",
+        "date": "Feb 18, 2025",
+        "position": 8
+      },
+      {
+        "title": "[PDF] Adversarial Attacks and Defenses on Text-to-Image Diffusion Models",
+        "link": "https://arxiv.org/pdf/2407.15861",
+        "snippet": "We begin with an overview of text-to-image diffusion models, followed by an introduction to a taxonomy of adversarial attacks and an in-depth review of existing ...",
+        "date": "Sep 13, 2024",
+        "position": 9
+      },
+      {
+        "title": "MIRAGE: Stealthy Visual Prompt Injection for Vulnerability Detection ...",
+        "link": "https://arxiv.org/html/2606.20717v1",
+        "snippet": "In this paper, we investigate a constrained vulnerability detection setting: a trusted web platform where the evaluator acts solely as an unprivileged third ...",
+        "date": "Jun 16, 2026",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Highly Efficient Semantic-Consistent Unrestricted Adversarial Attack",
+      "snippet": "In this study, we propose a novel framework called Semantic-Consistent Unrestricted Adversarial Attacks (SCA), which employs an inversion method to extract edit ...",
+      "link": "https://arxiv.org/html/2410.02240v5",
+      "arxiv_id": "2410.02240"
+    },
+    {
+      "rank": 2,
+      "title": "A Survey on the Application of Generative Adversarial Networks in ...",
+      "snippet": "Particularly, we investigate how GAN-based models address the following cyber threats: malware detection, anomaly detection, intrusion detection, etc. Our main ...",
+      "link": "https://arxiv.org/html/2407.08839v1",
+      "arxiv_id": "2407.08839"
+    },
+    {
+      "rank": 3,
+      "title": "Analysing the Robustness of Vision-Language-Models to Common ...",
+      "snippet": "We provide the first systematic analysis of vision-language model robustness to common corruptions, contributing two comprehensive benchmarks: TextVQA-C and GQA ...",
+      "link": "https://arxiv.org/html/2504.13690v2",
+      "arxiv_id": "2504.13690"
+    },
+    {
+      "rank": 4,
+      "title": "Nightshade: Prompt-Specific Poisoning Attacks on Text-to ... - arXiv",
+      "snippet": "In this paper, we show that state-of-the-art text-to-image generative models are in fact highly vulnerable to poisoning attacks.",
+      "link": "https://arxiv.org/html/2310.13828v3",
+      "arxiv_id": "2310.13828"
+    },
+    {
+      "rank": 5,
+      "title": "Multimodal Generative AI with Autoregressive LLMs for Human ...",
+      "snippet": "This paper presents an in-depth survey on the use of multimodal Generative Artificial Intelligence (GenAI) and autoregressive Large Language Models (LLMs)",
+      "link": "https://arxiv.org/html/2506.03191v1",
+      "arxiv_id": "2506.03191"
+    },
+    {
+      "rank": 6,
+      "title": "Non-Parametric Machine Text Detection via Multi-View Gaussian ...",
+      "snippet": "Abstract page for arXiv paper 2606.14060: Non-Parametric Machine Text Detection via Multi-View Gaussian Processes.",
+      "link": "https://arxiv.org/abs/2606.14060",
+      "arxiv_id": "2606.14060"
+    },
+    {
+      "rank": 7,
+      "title": "Generative AI in Depth: A Survey of Recent Advances, Model ... - arXiv",
+      "snippet": "We introduce a novel taxonomy of generative models, of the architecture and training process of GANs. Each KL divergence compares a Gaussian from the forward ...",
+      "link": "https://arxiv.org/html/2510.21887v1",
+      "arxiv_id": "2510.21887"
+    },
+    {
+      "rank": 8,
+      "title": "Computational Safety for Generative AI: A Signal Processing ... - arXiv",
+      "snippet": "This paper presents a formalization of the concept of computational safety, Gaussian noise for sensitivity analysis to detect AI-generated images",
+      "link": "https://arxiv.org/html/2502.12445v1?ref=promptengineering.org",
+      "arxiv_id": "2502.12445"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] Adversarial Attacks and Defenses on Text-to-Image Diffusion Models",
+      "snippet": "We begin with an overview of text-to-image diffusion models, followed by an introduction to a taxonomy of adversarial attacks and an in-depth review of existing ...",
+      "link": "https://arxiv.org/pdf/2407.15861",
+      "arxiv_id": "2407.15861"
+    },
+    {
+      "rank": 10,
+      "title": "MIRAGE: Stealthy Visual Prompt Injection for Vulnerability Detection ...",
+      "snippet": "In this paper, we investigate a constrained vulnerability detection setting: a trusted web platform where the evaluator acts solely as an unprivileged third ...",
+      "link": "https://arxiv.org/html/2606.20717v1",
+      "arxiv_id": "2606.20717"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:18.037384+00:00",
+  "elapsed_seconds": 0.9956777356564999
+}

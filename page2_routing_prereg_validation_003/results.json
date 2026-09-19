@@ -1,0 +1,40 @@
+{
+  "experiment": "PAGE2_ROUTING_PREREG_VALIDATION_003",
+  "status": "STOPPED_MAPPING_AMBIGUITY",
+  "compatibility": {
+    "inline-citation": {
+      "specific_total": 231,
+      "ineligible": 66,
+      "local_title_miss": 64,
+      "eligible": 165,
+      "empty_normalized_title": 2
+    },
+    "author-written": {
+      "specific_total": 211,
+      "eligible": 164,
+      "ineligible": 47,
+      "local_title_miss": 45,
+      "empty_normalized_title": 1,
+      "ambiguous_local_title": 1
+    }
+  },
+  "sample_size": 0,
+  "metrics": null,
+  "p_random_ge_router": null,
+  "auc": null,
+  "ambiguous_cases": [
+    {
+      "type": "ambiguous_local_title",
+      "corpusid": 258960101,
+      "title": "DNA-GPT: DIVERGENT N-GRAM ANALYSIS FOR TRAINING-FREE DETECTION OF GPT-GENERATED TEXT",
+      "arxiv_ids": [
+        "2303.02909",
+        "2305.17359"
+      ]
+    }
+  ],
+  "crawler_generations": 0,
+  "search_requests": 0,
+  "protocol_sha256": "d084f7a5fe253e7f00e06b7d3222f51f96c503df886303c579c542787264d2f8",
+  "note": "Not an effectiveness failure or a zero-gain result; no retrieval experiment executed."
+}

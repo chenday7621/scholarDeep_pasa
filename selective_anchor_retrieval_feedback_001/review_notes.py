@@ -1,0 +1,65 @@
+"""Analyst review of native result text; no labels, GT, Anchor, or thresholds.
+
+visible = at least one clear example of the main task/method, NOT all constraints
+satisfied; partial = nearby topics/components visible but defining combination or
+restriction is not demonstrated in the inspected titles/snippets.
+These are retrospective review notes, not an implemented trigger or classifier.
+"""
+NOTES = {
+ 'Q0': ('partial', '小数据预训练可见；小数据优于大数据的完整比较未证实。', '2404.08634 在5条query中出现，明确较少tokens预训练；2106.13230 的smaller dataset属于视觉Transformer，不能据词面命中证明LLM比较结论。'),
+ 'Q1': ('visible', '预训练中学习ICL的任务可见，重复集中于ICL综述和机制论文。', '2305.09137 标题Pre-Training to Learn in Context出现于4条query；原始长关系逐字未匹配，不意味着能力获得机制完全缺失。'),
+ 'Q2': ('partial', '自回归/Transformer/视频主题可见，也混入较多图像生成。', '2405.10674 视频综述出现于5条，2404.02905 图像生成也出现于5条；词元共现不能证明每篇均以autoregressive transformer生成视频。'),
+ 'Q3': ('partial', '多模态基础模型可见；数据组合未完整证实，明确混有survey。', '2405.03770 的Foundation Models for Video Understanding: A Survey出现于4条query，违反用户排除survey的要求。排除条件不能按是否出现exclude字样来判满足。'),
+ 'Q4': ('visible', 'RL与LLM agent训练可见，同时扩展到一般RLHF。', '2405.11106 标题LLM-based Multi-Agent Reinforcement Learning出现于3条；通用RL/对齐内容也较多，agent tasks字面频次不是任务覆盖全貌。'),
+ 'Q5': ('partial', 'RLHF、视觉幻觉与caption分别可见，完整跨两模态组合未证实。', '2403.06735 表达image caption generation；description词面为0不能算描述任务全无。2405.09589 是幻觉综述，不能仅由其多模态词证明RLHF同时处理图像和视频描述。'),
+ 'Q6': ('visible', 'HotpotQA和LLM问答可见，少量论文在多query重复。', '2204.09140 同条snippet包含LLMs、multi-hop和HotpotQA；2405.13002在5条query重复。experiments完整原句未出现不等于论文没有实验。'),
+ 'Q7': ('partial', '长视频叙述可见，但几分钟的界限未明确，生成/摘要主题混入。', '1807.09418 的snippet明确visual storytelling of long videos；1606.04631中Long-Short Term是模型名，不能把long词命中视为长视频条件。'),
+ 'Q8': ('partial', 'reward shaping与LLM奖励、agent均可见，对象组合需谨慎。', '2408.10215讨论reward shaping，2401.07382是Dense Rewards from LLM Critic；2302.03954是video-language给RL agent塑形，不能自动当作训练LLM自身agent。'),
+ 'Q9': ('visible', 'LLM排序检索结果任务明确可见，IR综述重复。', '2407.00128 snippet明确enhance the ranking of search results；2306.17563标题Text Rankers with Pairwise...。rank与ranking造成严格短语漏计。'),
+ 'Q10': ('partial', '图文/多模态scaling可见；原文multi-module歧义保留。', '2212.07143明确contrastive language-image scaling，2301.03728是Mixed-Modal scaling。不能用multimodal结果自动纠正用户multi-module的字面含义。'),
+ 'Q11': ('visible', '视觉LLM+MoE明确可见，结果重复较多。', '2401.15947标题MoE-LLaVA: Mixture of Experts for Large Vision-Language Models；visual-LLM严格短语为0是措辞差异，非方法缺失。'),
+ 'Q12': ('partial', 'Transformer、3D和视频生成分别存在，完整3D视频组合未证实。', '2104.10157 VideoGPT说明Transformer视频生成，2208.04309是3D vision综述，组件union不能证明同一任务完整匹配。'),
+ 'Q13': ('visible', '自校正及不改善/退化的方向明确存在，重复并非核心缺失。', 'q3:r1 2406.01297明确does not improve or even degrade；2310.01798题名Cannot Self-Correct，snippet说performance degrades。原文否定句严格/token均0为同义表达漏计。'),
+ 'Q14': ('visible', '自动写综述核心任务可见；多文档学术范围需逐篇核对。', '2406.10252标题AutoSurvey: Large Language Models Can Automatically Write Surveys；2403.02574 ChatCite讨论literature review。surveys or summaries的or不能机械要求两者同现。'),
+ 'Q15': ('partial', 'RLHF泛化及微调退化可见，原定负向比较并非所有snippet都支持。', '2310.06452为Understanding the Effects of RLHF on LLM Generalisation；2404.16789描述微调后的知识退化，不能据此认定是RL伤害supervised fine-tuned模型。'),
+ 'Q16': ('visible', '无trigger事件抽取有直接证据，多篇跨query反复出现。', '2105.00477 snippet说no-trigger approach to label the documents；1712.03665说does not rely on explicit trigger identification。do not use human-annotated triggers词面0是改写差异。'),
+ 'Q17': ('partial', '小模型比较和NER/RE出现；EE及完整限定关系证据不足。', '2402.09282同条snippet含NER和RE，故query中RE遗漏并未延续至结果。2406.08660标题Small LLMs Outperform Zero-Shot，但不能把一般classification等同于全部NER/RE/EE条件。'),
+ 'Q18': ('partial', '生成文本检测/zero-shot存在，比较对象与方向须区别。', '2406.08660 snippet说小模型优于大模型zero-shot分类，并非大模型更优；2410.13966讨论生成文本检测。原问题是问句，结果方向相反仍可能相关，不能据词面better缺失判无关。'),
+ 'Q19': ('visible', '保持水印文本质量已有多条直接证据，vocabulary原词少。', 'q1:r6 2301.10226写negligible impact on text quality；q2:r3 2407.13803写maintains high text quality；q2:r9 2307.15992写maintain the text quality。词面保护质量缺失不等于任务未体现；不从名称推断未展示的具体词表机制。'),
+ 'Q20': ('partial', '归纳与自动综述方向均出现，充分归纳能力的整项主张未证实。', '2408.00114讨论inductive reasoning；2404.08680明确automate Systematic Literature Reviews。长原句token均未匹配不代表系统综述任务无结果，但跨论文关系与能力充分性的组合仍未展示。'),
+ 'Q21': ('partial', '同prompt多response已出现；改进SFT的具体链条未完整展示。', '2310.01377 snippet明确different responses given the same prompt，2401.01335谈突破SFT表现。分属不同论文的组件不能拼成同一机制证据。'),
+ 'Q22': ('visible', '常识与机器翻译关联可见，但结果也扩展到一般常识推理。', '2108.04674 snippet明确commonsense knowledge在machine translation语境的重要性，出现于5条query；common sense与commonsense的拼写差异会造成词面漏计。'),
+ 'Q23': ('partial', 'RL优化diffusion有证据，视频限定及反向应用容易混淆。', '2305.13301明确RL直接优化diffusion；2311.01223为Diffusion Models for Reinforcement Learning（反向用途），2308.05384为网络优化。视频生成原词在少量候选出现，不能等同所有结果符合组合任务。'),
+ 'Q24': ('visible', '翻译agent明确存在，通用翻译综述也重复出现。', '2405.11804 TransAgents模拟翻译公司协作；2406.06910题名Agent-SiMT。agents复数严格匹配低估multi-agent等表达。'),
+ 'Q25': ('partial', '视频质量评估可见，窄化的美学评分任务证据薄弱。', '2408.14008 LMM-VQA与2403.11956视频质量打分可见；1801.03002中的aesthetically属于时尚/室内检索，不能算视频美学评分。不能把一般质量评估当作美学评分已完整覆盖。'),
+ 'Q26': ('visible', '细粒度MoE scaling完整题名可见，集合重复非常明显。', '2402.07871的标题与原问题相同，出现于5条query；2407.04153、2407.06204、2408.09895也各出现5次。集中可能是已抓住主题，未必是失败。'),
+ 'Q27': ('visible', 'rejection sampling微调直接可见，多篇重复。', '2308.01825 snippet明确rejection sampling是fine-tuning augmentation；2402.18571明确Rejection Sampling Finetuning。finetuning与fine-tuning的拼写差异需保留。'),
+ 'Q28': ('partial', '三参照benchmark都回到结果中，但难度区间未体现；q3主题分散。', '2408.16498含HumanEval，2404.06041同含HumanEval/MBPP，q2:r2 2403.04814明确CodeContests（code_contests分词漏计）。q3混入VisEval、PyHard、ALLSH、数学/中文考试难度；未见比前两者更难且比后者更易的完整关系。'),
+ 'Q29': ('visible', 'IMO级定理证明可见，math prove原词缺失不是任务缺失。', '2309.04295 FIMO snippet明确IMO-level intricate mathematical problems；2405.14333为DeepSeek-Prover。泛教育论文也混入，teaching词面不能代替训练任务判断。'),
+ 'Q30': ('visible', 'LLM test-time training直接可见，同时混入test-time compute。', '2404.13571题名Test-Time Training on Graphs with Large Language Models出现于4条；2408.03314的test-time compute是近邻主题，不能完全等同TTT。'),
+ 'Q31': ('visible', '多模态DPO可见，通用DPO/微调结果也重复。', '2406.11839 mDPO: Conditional Preference Optimization for Multimodal...出现于5条；large-scale字样可能修饰数据，不能把所有出现算大规模模型证据。'),
+ 'Q32': ('visible', '神经网络量子Monte Carlo明确且词汇集中。', '2406.01017题名Neural Quantum States in Variational Monte Carlo Method，snippet以neural network为wave function；cutting edge原词缺失不能说明不前沿，也不能仅靠缓存确定最新。'),
+ 'Q33': ('visible', '机器翻译对抗样本核心任务可见，popular命中存在修饰对象错误。', '1911.03677 snippet明确对两种neural machine translation架构做adversarial attacks；1802.05385的popular指OCR软件，不是论文流行程度。'),
+ 'Q34': ('partial', '3D scene understanding和生成基础模型分别可见，桥接关系需复核。', '2407.14279明确foundation models用于3D scene understanding；2305.06131是Text-to-3D in AIGC。不能由二者union证明借助3D AIGC进展的完整关系。'),
+ 'Q35': ('visible', '量化预训练已有直接证据，结果较多落在post-training quantization。', 'q3:r5 2403.12422标题Transformer Pretraining with INT8，snippet明确FQT用于speed up pretraining；2211.10438 SmoothQuant为后训练量化，说明主题漂移并不等于核心完全无结果。'),
+ 'Q36': ('visible', 'identity控制的视频生成可见，亦混入肖像/图像身份保持。', '2402.09368 Magic-Me snippet明确subject identity controllable video generation；2403.11781、2405.01434等重复，具体identity任务并非所有结果都同质。'),
+ 'Q37': ('visible', 'schedule任务可见，原始schedule planning短语为零是措辞差异。', '2408.06993题名LLMs can Schedule；2406.04520 Natural Plan包含Meeting Planning与Calendar Scheduling；2403.16971 LLM Agent Operating System提到travel planning。'),
+ 'Q38': ('visible', '编码/latent概率分布有证据，主题覆盖diffusion与压缩等多个方向。', '2202.05492 snippet明确预测quantized latent representation的probability distribution；不能用token三词共现的一条记录替代所有语义证据。原问题很短且范围模糊。'),
+ 'Q39': ('partial', '合成数据和CoT分别可见，困难长思维数据的完整目标证据薄弱。', '2406.15126谈LLM synthetic data，2406.09136谈explicit reasoning paths。high-quality/automatically generate部分落在图像生成，large-scale代理命中3D物体数据；不能据组件token覆盖判长思维训练数据满足。'),
+ 'Q40': ('partial', 'QAT/低比特方向可见；better representations未直接证实，q3失败。', '2208.09225明确QAT/FP8；2307.02973 snippet说QAT学习new representations，标题中的Better不能和snippet的representations拼成better representations结论。q3为缺测，不能当空结果成功搜索。'),
+ 'Q41': ('visible', '合成SFT数据扩充明确存在，通用合成数据也较多。', '2405.16579题名Automatically Generating Numerous Context-Driven SFT Data；snippet明确synthetic custom SFT data。synthesis与synthetic造成严格匹配缺失。'),
+ 'Q42': ('visible', '视频frame选择明确存在，query间重复很少且主题有扩散。', '2407.03104 KeyVideoLLM snippet明确select video frames，严格select frames漏掉插入的video；2311.00298是text-to-video retrieval frame selection，邻近任务需区分。'),
+ 'Q43': ('visible', '蛋白/抗体偏好优化方向可见，普通AI科学文本也混入。', '2403.16576题名Antigen-Specific Antibody Design，snippet提AbDPO；2403.04187明确direct preference optimization of protein language...。缩写AbDPO与DPO需按上下文核对，不能只靠token共现。'),
+ 'Q44': ('visible', '加密式隐私学习有大量直接证据；q1偏向区块链且有歧义。', '1804.11238 snippet直接列cryptographic techniques achieve PPML；2204.05136为Functional Encryption-based PPML，1904.07303为CryptoNN。2311.14759是cryptocurrency价格预测，说明Crypto存在歧义，但整个native union并未失去加密隐私学习任务。'),
+ 'Q45': ('visible', '可控视频生成有多种直接证据，镜头控制只是其中一类。', '2404.02101 CameraCtrl明确controllability，2308.08089 DragNUWA、2305.13077 ControlVideo、2312.02919对象控制、2408.11475 TrackGo均可见；不能因若干camera论文重复认定整个主题只有camera。'),
+ 'Q46': ('visible', '机器人决策/规划和benchmark均可见，集合分散多任务。', '2203.07558明确robot decision making，2306.05171是robot task planning，2308.12952 BridgeData和2407.06951 RoboCAS是数据/基准。不同query分工可产生低overlap，无需解释成失败。'),
+ 'Q47': ('visible', '金融agent及评估已有直接证据，金融综述重复明显。', '2408.06361 snippet讨论LLM powered trading agent的backtesting；2405.14767是FinRobot。FinBen的一般LLM评估不自动满足agent对象，但不能说整体缺agent。'),
+ 'Q48': ('visible', '因子挖掘不是全无：仅一个明确窄任务候选在3条query重复。', '2406.10811 LLMFactor标题Extracting Profitable Factors，q5:r8 snippet说identify factors；出现于q1/q3/q5。2407.18957的external factors只说交易影响因素，不能当挖掘方法。19个unique候选多数是通用金融/预测；精确mining factors为0不等于语义零覆盖。'),
+ 'Q49': ('partial', '多模态游戏policy可见，PC游戏/agent完整组合尚未明确。', '2408.15950 Atari-GPT将multimodal LLMs作为low-level policies；2404.02039讨论complex computer game environments。一般游戏AI、教程评价或communication games不能都算视觉语言agent自动玩PC游戏。'),
+}
+
+if __name__ == '__main__':
+    import json
+    from pathlib import Path
+    assert set(NOTES)=={f'Q{i}' for i in range(50)}
+    Path(__file__).with_name('review.json').write_text(json.dumps({k:{'core_evidence':v[0], 'summary':v[1], 'detail':v[2]} for k,v in NOTES.items()},ensure_ascii=False,indent=2)+'\n')

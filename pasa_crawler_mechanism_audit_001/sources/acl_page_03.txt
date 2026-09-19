@@ -1,0 +1,100 @@
+2 Related Work
+LLMs in Scientific Discovery LLMs have been
+applied across various stages of scientific discov-
+ery (Van Noorden and Perkel, 2023; Lu et al., 2024;
+Messeri and Crockett, 2024; Liao et al., 2024), such
+as brainstorming ideas (Girotra et al., 2023; Wang
+et al., 2024a; Baek et al., 2024), designing exper-
+iments (M. Bran et al., 2024), writing code (Xu
+et al., 2022), and generating research papers (Shao
+et al., 2024; Agarwal et al., 2024; Wang et al.,
+2024b). One of the most fundamental yet criti-
+cal stages in research is conducting academic sur-
+veys. Despite its importance, current tools like
+Google Scholar are often insufficient, leading re-
+searchers to spend considerable time on literature
+review tasks (Kingsley et al., 2011; Gusenbauer
+and Haddaway, 2021, 2020). This challenge moti-
+vates us to develop PaSa, an LLM agent designed
+to autonomously and comprehensively assist re-
+searchers in collecting relevant research papers for
+complex scholarly queries.
+LLM Agents LLM Agents combine LLMs with
+memory, tool use, and planning, enabling them to
+perform more complex tasks such as personal copi-
+lots (Stratton, 2024), travel planning (Gundawar
+et al., 2024), web operations (Deng et al., 2024),
+software development (Qian et al., 2023), and sci-
+entific experimentation (Bran et al., 2023). In ad-
+dition to realizing LLM Agents through prompt
+engineering (Park et al., 2023; Yao et al., 2023;
+Shinn et al., 2024; Chen et al., 2023), recent re-
+search has focused on optimizing and training these
+agents (Feng et al., 2024; Putta et al., 2024; Liu
+et al., 2023). Among these efforts, AGILE (Feng
+et al., 2024), a reinforcement learning framework
+for LLM agents, allows the joint optimization of all
+agent skills in an end-to-end manner. In our work,
+we adopt the AGILE framework to implement PaSa.
+Specifically, we design a novel session-level PPO
+algorithm to address the unique challenges of the
+paper search task, including sparse rewards and
+long trajectories.
+3 Datasets
+3.1 AutoScholarQuery
+AutoScholarQuery is a synthetic but high-quality
+dataset of academic queries and related papers,
+specifically curated for the AI field.
+To construct AutoScholarQuery, we began by
+collecting all papers published at ICLR 2023,
+ICML 2023, NeurIPS 2023, ACL 2024, and CVPR
+2024. For the Related Work section of each paper,
+we prompted GPT-4o (Hurst et al., 2024) to gener-
+ate scholarly queries, where the answers to these
+queries correspond to the references cited in the
+Related Work section. The prompt used is shown
+in Appendix H.1. For each query, we retained only
+the papers that could be retrieved on arXiv6, using
+their arxiv_id as the unique article identifier in the
+dataset. We adopt the publication date of the source
+paper as the query date. During both training and
+testing, we only considered papers published prior
+to the query date.
+The final AutoScholarQuery dataset comprises
+33,551, 1,000, and 1,000 instances in the train-
+ing, development, and testing splits, respectively.
+Each instance consists of a query, the associated
+paper set, and the query date, with queries in each
+split derived from distinct source papers. Table 1
+provides illustrative examples from AutoScholar-
+Query, while additional dataset statistics are sum-
+marized in Table 2.
+To evaluate the quality of AutoScholarQuery,
+we sampled 100 query-paper pairs and assessed
+the rationality and relevance of each query and
+the corresponding paper. A qualified query should
+be meaningful and unambiguous. A qualified pa-
+per should match the requirements of the scholarly
+query. Detailed evaluation criteria are provided
+in Appendix. A. Three authors manually reviewed
+each pair, determining that 94.0% of the queries
+were qualified. Among these qualified queries,
+93.7% had corresponding papers that were deemed
+relevant and appropriate.
+3.2 RealScholarQuery
+To evaluate PaSa in more realistic scenarios, we
+constructed RealScholarQuery, a test dataset con-
+sisting of 50 real-world research queries. After
+launching the demo of PaSa, we invited several AI
+researchers to use the system. From the queries
+they provided, we randomly sampled a subset of
+queries and manually filtered out overly broad
+topics (e.g., "multimodal large language models,"
+"video generation"). Ultimately, we collected 50
+fine-grained and realistic queries.
+For each query, we first manually gathered rel-
+evant papers to the best of our ability. To ensure
+comprehensive coverage, we then applied multiple
+methods to retrieve additional papers, including
+6https://arxiv.org/
+11665

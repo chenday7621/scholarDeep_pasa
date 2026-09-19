@@ -1,0 +1,215 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q35",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2011.08067",
+  "request_payload": {
+    "q": "hierarchical transformer oriented dialog before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 74,
+  "started_utc": "2026-09-17T12:34:48.798512+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1789648210",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "c64ab5e873fdf981ae113aadfb0ddb83",
+    "date": "Thu, 17 Sep 2026 12:30:10 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3908",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3908,
+  "response_bytes_sha256": "57d0d2035ad839a7a77bcb72505d6c2adb1adc0382b29a00165b185fc315df72",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJoaWVyYXJjaGljYWwgdHJhbnNmb3JtZXIgb3JpZW50ZWQgZGlhbG9nIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IltQREZdIEhpZXJhcmNoaWNhbCBSZXNvbHV0aW9uIFRyYW5zZm9ybWVyczogQSBXYXZlbGV0LUluc3BpcmVkIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA5LjIwNTgxIiwic25pcHBldCI6IlRyYW5zZm9ybWVycyBiYXNlZCBvbiBoaWVyYXJjaGljYWwgdmlld3MsIHN1Y2ggYXMgVHJlZWZvcm1lcnMgYW5kIFUtTmV0LCBhbHNvIGVtcGhhc2l6ZSB0aGUgYWR2YW50YWdlcyBvZiBoaWVyYXJjaGljYWwgcHJvY2Vzc2luZywgd2l0aCBUcmVlZm9ybWVycyBhcHBseWluZyBhIC4uLiIsImRhdGUiOiJTZXAgMjQsIDIwMjUiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkRpYWxvZ0JFUlQ6IERpc2NvdXJzZS1Bd2FyZSBSZXNwb25zZSBHZW5lcmF0aW9uIHZpYSBMZWFybmluZyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMDEyLjAxNzc1djIiLCJzbmlwcGV0IjoiRGlhbG9nQkVSVCBlbXBsb3lzIGEgaGllcmFyY2hpY2FsIFRyYW5zZm9ybWVyIGFyY2hpdGVjdHVyZSB0byByZXByZXNlbnQgdGhlIGRpYWxvZ3VlIGNvbnRleHQuIEl0IGZpcnN0IGVuY29kZXMgZGlhbG9ndWUgdXR0ZXJhbmNlcyB0aHJvdWdoIGEgVHJhbnNmb3JtZXIgLi4uIiwiZGF0ZSI6IkRlYyAxMywgMjAyMSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiRW5kLXRvLWVuZCBUYXNrLW9yaWVudGVkIERpYWxvZ3VlOiBBIFN1cnZleSBvZiBUYXNrcywgTWV0aG9kcyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjA5MDA4djEiLCJzbmlwcGV0IjoiVGFzay1vcmllbnRlZCBkaWFsb2d1ZSBzeXN0ZW1zIChUb0QpIGNhbiBhc3Npc3QgdXNlcnMgaW4gYWNoaWV2aW5nIHBhcnRpY3VsYXIgZ29hbHMgd2l0aCBuYXR1cmFsIGxhbmd1YWdlIGludGVyYWN0aW9uIHN1Y2ggYXMgYm9va2luZyBhIHJlc3RhdXJhbnQgb3IgbmF2aWdhdGlvbiAuLi4iLCJkYXRlIjoiTm92IDE1LCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMjA1LjEyMjQ0djIgW2NzLkNMXSAxNyBOb3YgMjAyMiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIwNS4xMjI0NCIsInNuaXBwZXQiOiJIZXJlLCB3ZSB1c2UgaGllcmFyY2hpY2FsIHN0cnVjdHVyZSAoYm90aCB0dXJuLWxldmVsIERBIGxhYmVscyBhbmQgc3ViLWRpYWxvZ3VlIHN0YXRlcykgdG8gaW1wcm92ZSBjbGFzc2lmaWNhdGlvbiBvZiBodW1hbi1odW1hbiBjb252ZXJzYXRpb25zLiBTcGVjaWZpY2FsbHksIHdlLiIsImRhdGUiOiJOb3YgMTcsIDIwMjIiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkNvbnRleHR1YWxpemUgS25vd2xlZGdlIEJhc2VzIHdpdGggVHJhbnNmb3JtZXIgZm9yIEVuZC10byAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIwMTAuMDU3NDB2NCIsInNuaXBwZXQiOiJUYXNrLW9yaWVudGVkIGRpYWxvZ3VlIHN5c3RlbXMgYWltIHRvIGFjaGlldmUgc3BlY2lmaWMgZ29hbHMgc3VjaCBhcyBob3RlbCBib29raW5nIGFuZCByZXN0YXVyYW50IHJlc2VydmF0aW9uLiByZXByZXNlbnQgS0IgaW4gYSBoaWVyYXJjaGljYWwgd2F5LCB0aGUgcm93IGFuZCAuLi4iLCJkYXRlIjoiU2VwIDI5LCAyMDIxIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJUb3dhcmRzIER5bmFtaWMgYW5kIEZpbmUtZ3JhaW5lZCBIeWJyaWQgVHJhbnNmb3JtZXJzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjAzLjI2MzgwdjMiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgcHJvcG9zZSBTd2l0Y2ggQXR0ZW50aW9uIChTd2lBdHRuKSwgYSBub3ZlbCBoeWJyaWQgdHJhbnNmb3JtZXIgdGhhdCBlbmFibGVzIGR5bmFtaWMgYW5kIGZpbmUtZ3JhaW5lZCByb3V0aW5nIGJldHdlZW4gZnVsbCBhdHRlbnRpb24gYW5kIC4uLiIsImRhdGUiOiJBdWcgMjksIDIwMjYiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkFuIEVtcGlyaWNhbCBTdHVkeSBvZiBNdWx0aXRhc2sgTGVhcm5pbmcgdG8gSW1wcm92ZSBPcGVuIERvbWFpbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA0LjA4MTE1djEiLCJzbmlwcGV0IjoiRGlhbG9nQkVSVCBpcyBhIHVuaXF1ZSBkZXNpZ24gdGhhdCBlbXBsb3lzIGEgaGllcmFyY2hpY2FsIFRyYW5zZm9ybWVyIGFyY2hpdGVjdHVyZSB0byBjb21wcmVoZW5zaXZlbHkgY2FwdHVyZSB0aGUgY29udGV4dCBvZiBkaWFsb2d1ZSBHdSBldCBhbC4gKDIwMjEpIC4iLCJkYXRlIjoiQXByIDE3LCAyMDIzIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbUERGXSBNdWx0aW1vZGFsIExlYXJuaW5nIHdpdGggVHJhbnNmb3JtZXJzOiBBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjA2LjA2NDg4Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgcHJlc2VudHMgYSBjb21wcmVoZW5zaXZlIHN1cnZleSBvZiBUcmFuc2Zvcm1lciB0ZWNobmlxdWVzIG9yaWVudGVkIGF0IG11bHRpbW9kYWwgZGF0YS4gaGllcmFyY2hpY2FsIGF0dGVudGlvbiAobXVsdGktc3RyZWFtIHRvIG9uZS1zdHJlYW0pLCIsImRhdGUiOiJNYXkgMTAsIDIwMjMiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkltcHJvdmluZyBNYXRjaGluZyBNb2RlbHMgd2l0aCBIaWVyYXJjaGljYWwgQ29udGV4dHVhbGl6ZWQgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8xODA4LjA3MjQ0djIiLCJzbmlwcGV0IjoiSW4gYWRkaXRpb24gdG8gdGhlIGFwcGxpY2F0aW9uIG9mIENvVmUgYW5kIEVMTW8sIHdlIHByb3Bvc2UgcHJlLXRyYWluaW5nIGhpZXJhcmNoaWNhbCBjb250ZXh0dWFsaXplZCB3b3JkIHJlcHJlc2VudGF0aW9ucyBieSBsZWFybmluZyBhIGRpYWxvZ3VlIGdlbmVyYXRpb24gLi4uIiwiZGF0ZSI6Ikp1biA0LCAyMDE5Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IkkgSW50cm9kdWN0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMTgwOC4wNzI0NHYyIzp+OnRleHQ9SSUyMEludHJvZHVjdGlvbiwtSHVtYW4lMkRtYWNoaW5lJTIwY29udmVyc2F0aW9uJTIwaXMifSx7InRpdGxlIjoiSXYgRWNtbzogRW1iZWRkaW5nIEZyb20gQS4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE4MDguMDcyNDR2MiM6fjp0ZXh0PUlWJTIwRUNNbyUzQSUyMEVtYmVkZGluZyUyMGZyb20lMjBhJTIwQ29udmVyc2F0aW9uJTIwTW9kZWwsLUhlYWRpbmclMjBmb3IlMjBjb250ZXh0dWFsaXplZCUyMHdvcmQlMjByZXByZXNlbnRhdGlvbnMifSx7InRpdGxlIjoiViBFeHBlcmltZW50cyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE4MDguMDcyNDR2MiM6fjp0ZXh0PVYlMjBFeHBlcmltZW50cywtV2UlMjB0ZXN0JTIwQ29WZSUyQyUyMEVMTW8ifV0sInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjIwOC4xMDgxN3YxIFtjcy5DTF0gMjMgQXVnIDIwMjIiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMDguMTA4MTciLCJzbmlwcGV0IjoiTW9yZW92ZXIsIGl0IG9ubHkgcHJvdmlkZXMgc2VtYW50aWMtbGV2ZWwgZGlhbG9ndWUgYWN0cy4gVG8gcmVkdWNlIHRoZSBpbnZvbHZlbWVudCBvZiBleHBlcnRzLCBmdXJ0aGVyIGRhdGEtZHJpdmVuIHVzZXIgc2ltdWxhdG9yIGFwcHJvYWNoZXMgaGF2ZSBiZWVuIHByb3Bvc2VkLiIsImRhdGUiOiJBdWcgMjMsIDIwMjIiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "hierarchical transformer oriented dialog before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[PDF] Hierarchical Resolution Transformers: A Wavelet-Inspired ... - arXiv",
+        "link": "https://arxiv.org/pdf/2509.20581",
+        "snippet": "Transformers based on hierarchical views, such as Treeformers and U-Net, also emphasize the advantages of hierarchical processing, with Treeformers applying a ...",
+        "date": "Sep 24, 2025",
+        "position": 1
+      },
+      {
+        "title": "DialogBERT: Discourse-Aware Response Generation via Learning ...",
+        "link": "https://arxiv.org/html/2012.01775v2",
+        "snippet": "DialogBERT employs a hierarchical Transformer architecture to represent the dialogue context. It first encodes dialogue utterances through a Transformer ...",
+        "date": "Dec 13, 2021",
+        "position": 2
+      },
+      {
+        "title": "End-to-end Task-oriented Dialogue: A Survey of Tasks, Methods ...",
+        "link": "https://arxiv.org/html/2311.09008v1",
+        "snippet": "Task-oriented dialogue systems (ToD) can assist users in achieving particular goals with natural language interaction such as booking a restaurant or navigation ...",
+        "date": "Nov 15, 2023",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2205.12244v2 [cs.CL] 17 Nov 2022",
+        "link": "https://arxiv.org/pdf/2205.12244",
+        "snippet": "Here, we use hierarchical structure (both turn-level DA labels and sub-dialogue states) to improve classification of human-human conversations. Specifically, we.",
+        "date": "Nov 17, 2022",
+        "position": 4
+      },
+      {
+        "title": "Contextualize Knowledge Bases with Transformer for End-to ... - arXiv",
+        "link": "https://arxiv.org/html/2010.05740v4",
+        "snippet": "Task-oriented dialogue systems aim to achieve specific goals such as hotel booking and restaurant reservation. represent KB in a hierarchical way, the row and ...",
+        "date": "Sep 29, 2021",
+        "position": 5
+      },
+      {
+        "title": "Towards Dynamic and Fine-grained Hybrid Transformers - arXiv",
+        "link": "https://arxiv.org/html/2603.26380v3",
+        "snippet": "In this paper, we propose Switch Attention (SwiAttn), a novel hybrid transformer that enables dynamic and fine-grained routing between full attention and ...",
+        "date": "Aug 29, 2026",
+        "position": 6
+      },
+      {
+        "title": "An Empirical Study of Multitask Learning to Improve Open Domain ...",
+        "link": "https://arxiv.org/html/2304.08115v1",
+        "snippet": "DialogBERT is a unique design that employs a hierarchical Transformer architecture to comprehensively capture the context of dialogue Gu et al. (2021) .",
+        "date": "Apr 17, 2023",
+        "position": 7
+      },
+      {
+        "title": "[PDF] Multimodal Learning with Transformers: A Survey - arXiv",
+        "link": "https://arxiv.org/pdf/2206.06488",
+        "snippet": "This paper presents a comprehensive survey of Transformer techniques oriented at multimodal data. hierarchical attention (multi-stream to one-stream),",
+        "date": "May 10, 2023",
+        "position": 8
+      },
+      {
+        "title": "Improving Matching Models with Hierarchical Contextualized ... - arXiv",
+        "link": "https://arxiv.org/html/1808.07244v2",
+        "snippet": "In addition to the application of CoVe and ELMo, we propose pre-training hierarchical contextualized word representations by learning a dialogue generation ...",
+        "date": "Jun 4, 2019",
+        "sitelinks": [
+          {
+            "title": "I Introduction",
+            "link": "https://arxiv.org/html/1808.07244v2#:~:text=I%20Introduction,-Human%2Dmachine%20conversation%20is"
+          },
+          {
+            "title": "Iv Ecmo: Embedding From A...",
+            "link": "https://arxiv.org/html/1808.07244v2#:~:text=IV%20ECMo%3A%20Embedding%20from%20a%20Conversation%20Model,-Heading%20for%20contextualized%20word%20representations"
+          },
+          {
+            "title": "V Experiments",
+            "link": "https://arxiv.org/html/1808.07244v2#:~:text=V%20Experiments,-We%20test%20CoVe%2C%20ELMo"
+          }
+        ],
+        "position": 9
+      },
+      {
+        "title": "[PDF] arXiv:2208.10817v1 [cs.CL] 23 Aug 2022",
+        "link": "https://arxiv.org/pdf/2208.10817",
+        "snippet": "Moreover, it only provides semantic-level dialogue acts. To reduce the involvement of experts, further data-driven user simulator approaches have been proposed.",
+        "date": "Aug 23, 2022",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[PDF] Hierarchical Resolution Transformers: A Wavelet-Inspired ... - arXiv",
+      "snippet": "Transformers based on hierarchical views, such as Treeformers and U-Net, also emphasize the advantages of hierarchical processing, with Treeformers applying a ...",
+      "link": "https://arxiv.org/pdf/2509.20581",
+      "arxiv_id": "2509.20581"
+    },
+    {
+      "rank": 2,
+      "title": "DialogBERT: Discourse-Aware Response Generation via Learning ...",
+      "snippet": "DialogBERT employs a hierarchical Transformer architecture to represent the dialogue context. It first encodes dialogue utterances through a Transformer ...",
+      "link": "https://arxiv.org/html/2012.01775v2",
+      "arxiv_id": "2012.01775"
+    },
+    {
+      "rank": 3,
+      "title": "End-to-end Task-oriented Dialogue: A Survey of Tasks, Methods ...",
+      "snippet": "Task-oriented dialogue systems (ToD) can assist users in achieving particular goals with natural language interaction such as booking a restaurant or navigation ...",
+      "link": "https://arxiv.org/html/2311.09008v1",
+      "arxiv_id": "2311.09008"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2205.12244v2 [cs.CL] 17 Nov 2022",
+      "snippet": "Here, we use hierarchical structure (both turn-level DA labels and sub-dialogue states) to improve classification of human-human conversations. Specifically, we.",
+      "link": "https://arxiv.org/pdf/2205.12244",
+      "arxiv_id": "2205.12244"
+    },
+    {
+      "rank": 5,
+      "title": "Contextualize Knowledge Bases with Transformer for End-to ... - arXiv",
+      "snippet": "Task-oriented dialogue systems aim to achieve specific goals such as hotel booking and restaurant reservation. represent KB in a hierarchical way, the row and ...",
+      "link": "https://arxiv.org/html/2010.05740v4",
+      "arxiv_id": "2010.05740"
+    },
+    {
+      "rank": 6,
+      "title": "Towards Dynamic and Fine-grained Hybrid Transformers - arXiv",
+      "snippet": "In this paper, we propose Switch Attention (SwiAttn), a novel hybrid transformer that enables dynamic and fine-grained routing between full attention and ...",
+      "link": "https://arxiv.org/html/2603.26380v3",
+      "arxiv_id": "2603.26380"
+    },
+    {
+      "rank": 7,
+      "title": "An Empirical Study of Multitask Learning to Improve Open Domain ...",
+      "snippet": "DialogBERT is a unique design that employs a hierarchical Transformer architecture to comprehensively capture the context of dialogue Gu et al. (2021) .",
+      "link": "https://arxiv.org/html/2304.08115v1",
+      "arxiv_id": "2304.08115"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] Multimodal Learning with Transformers: A Survey - arXiv",
+      "snippet": "This paper presents a comprehensive survey of Transformer techniques oriented at multimodal data. hierarchical attention (multi-stream to one-stream),",
+      "link": "https://arxiv.org/pdf/2206.06488",
+      "arxiv_id": "2206.06488"
+    },
+    {
+      "rank": 9,
+      "title": "Improving Matching Models with Hierarchical Contextualized ... - arXiv",
+      "snippet": "In addition to the application of CoVe and ELMo, we propose pre-training hierarchical contextualized word representations by learning a dialogue generation ...",
+      "link": "https://arxiv.org/html/1808.07244v2",
+      "arxiv_id": "1808.07244"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] arXiv:2208.10817v1 [cs.CL] 23 Aug 2022",
+      "snippet": "Moreover, it only provides semantic-level dialogue acts. To reduce the involvement of experts, further data-driven user simulator approaches have been proposed.",
+      "link": "https://arxiv.org/pdf/2208.10817",
+      "arxiv_id": "2208.10817"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:50.024902+00:00",
+  "elapsed_seconds": 1.2263916097581387,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q35_gt_core_phrase_attempt1.json",
+      "sha256": "a35907c207fe6cfc6a763f252beeff99cb5a16138f2bbbe75cd5f43518d2dd57",
+      "status": "PASS"
+    }
+  ]
+}

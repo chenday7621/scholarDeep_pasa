@@ -1,0 +1,224 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q42",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2010.11934",
+  "request_payload": {
+    "q": "mt5 massively multilingual pre trained transformer before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 92,
+  "started_utc": "2026-09-17T12:35:09.133895+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "20",
+    "x-ratelimit-reset": "1789648230",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "c95f2a7fb0af8742e5cdd5aeef64fbd5",
+    "date": "Thu, 17 Sep 2026 12:30:30 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "4394",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 4394,
+  "response_bytes_sha256": "5515d9fe5b39835afb42e5953e448cd5a1e8789573470edede300121ac15be33",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJtdDUgbWFzc2l2ZWx5IG11bHRpbGluZ3VhbCBwcmUgdHJhaW5lZCB0cmFuc2Zvcm1lciBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJbUERGXSBhclhpdjoyMDEwLjExOTM0djMgW2NzLkNMXSAxMSBNYXIgMjAyMSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjAxMC4xMTkzNCIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBpbnRyb2R1Y2UgbVQ1LCBhIG11bHRpbGluZ3VhbCB2YXJpYW50IG9mIFQ1IHRoYXQgd2FzIHByZS10cmFpbmVkIG9uIHRyYWluZWQgbW9kZWxzLiBUaGVzZSBjaGVja3BvaW50cyBhbGxvdyBtZW1iZXJzIG9mIHRoZSBOTFAgY29tbXVuaXR5IHRvIC4uLiIsImRhdGUiOiJNYXIgMTEsIDIwMjEiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkEgSG9wZSBmb3IgTG93LVJlc291cmNlIExhbmd1YWdlIFRyYW5zbGF0aW9uPyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwMy4wODg1MHYzIiwic25pcHBldCI6Im1UNTogQSBtYXNzaXZlbHkgbXVsdGlsaW5ndWFsIHByZS10cmFpbmVkIHRleHQtdG8tdGV4dCBUcmFuc2Zvcm1lci4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMjEgQ29uZmVyZW5jZSBvZiB0aGUgTm9ydGggQW1lcmljYW4gQ2hhcHRlciBvZiB0aGUgQXNzb2NpYXRpb24gLi4uIiwiZGF0ZSI6IkFwciAzMCwgMjAyMiIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiRXZhbHVhdGluZyBEZWRpY2F0ZWQgTW9ub2xpbmd1YWwgYW5kIEpvaW50IE11bHRpbGluZ3VhbCBDYXVzYWwgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwOC4wNzcyN3YxIiwic25pcHBldCI6Im1UNTogQSBtYXNzaXZlbHkgbXVsdGlsaW5ndWFsIHByZS10cmFpbmVkIHRleHQtdG8tdGV4dCB0cmFuc2Zvcm1lci4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMjEgQ29uZmVyZW5jZSBvZiB0aGUgTm9ydGggQW1lcmljYW4gQ2hhcHRlciBvZiB0aGUgQXNzb2NpYXRpb24gLi4uIiwiZGF0ZSI6IkF1ZyA3LCAyMDI2IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSBsb3cgcmVzb3VyY2Ugc3VtbWFyaXphdGlvbiB1c2luZyBwcmUtdHJhaW5lZCBsYW5ndWFnZSBtb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMTAuMDI3OTAiLCJzbmlwcGV0IjoiQWRhcHRlZCBtVDUgKE11bHRpbGluZ3VhbCBUNSkgWzQwXSB3YXMgc2VsZWN0ZWQgZm9yIEFic3RyYWN0aXZlIFN1bW1hcml6YXRpb24gd2hpY2ggaXMgdHJhaW5lZCBvdmVyIG1DNDQgY292ZXJpbmcuIDEwMiBsYW5ndWFnZXMgZm9sbG93aW5nIHNpbWlsYXIgcmVjaXBlIGFzIFQ1LiIsImRhdGUiOiJPY3QgNCwgMjAyMyIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiW1BERl0gUVUtTkxQIGF0IENoZWNrVGhhdCEgMjAyNTogTXVsdGlsaW5ndWFsIFN1YmplY3Rpdml0eSBpbiBOZXdzIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUwNy4yMTA5NSIsInNuaXBwZXQiOiJNdWx0aWxpbmd1YWwgcHJlLXRyYWluZWQgbGFuZ3VhZ2UgbW9kZWxzIHN1Y2ggYXMgbUJFUlQgWzVdLCBYTE0tUiBbNl0sIGFuZCBtVDUgWzddIGhhdmUgYmVjb21lIHRoZSBmb3VuZGF0aW9uIGZvciBzdGF0ZS1vZi10aGUtYXJ0IG11bHRpbGluZ3VhbCB0ZXh0IC4uLiIsImRhdGUiOiJKdWwgMzAsIDIwMjUiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIFNvbHZpbmcgQmVuZ2FsaSBNYXRoIFdvcmQgUHJvYmxlbXMgdGhyb3VnaCBUcmFuc2Zvcm1lciBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDEuMDI1OTkiLCJzbmlwcGV0IjoiT25lIG9mIGl0cyBrZXkgZmVhdHVyZXMgaXMgaXRzIGFiaWxpdHkgdG8gd29yayBhY3Jvc3MgMTAxIGxhbmd1YWdlcywgYXMgaXQgaGFzIGJlZW4gcHJldHJhaW5lZCBvbiBhIGRpdmVyc2UgbXVsdGlsaW5ndWFsIGRhdGFzZXQga25vd24gYXMuIG1DNC4gVGhpcyBtYWtlcyBtVDUgLi4uIiwiZGF0ZSI6IkphbiA1LCAyMDI1IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJFbmhhbmNpbmcgRW50aXR5IEF3YXJlIE1hY2hpbmUgVHJhbnNsYXRpb24gd2l0aCBNdWx0aS10YXNrIExlYXJuaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNi4xODMxOHYxIiwic25pcHBldCI6IlRocm91Z2ggZXh0ZW5zaXZlIHByZS10cmFpbmluZyBvbiBDNCAoZm9yIFQ1KSBhbmQgbUM0IChmb3IgbVQ1KSwgdGhlc2UgbW9kZWxzIGxlYXJuIHJvYnVzdCByZXByZXNlbnRhdGlvbnMgdHJhbnNmZXJhYmxlIHRvIGEgd2lkZSBhcnJheSBvZiBkb3duc3RyZWFtIHRhc2tzLiBJbiAuLi4iLCJkYXRlIjoiSnVuIDIzLCAyMDI1IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbMjMwNS4xMjc1OV0gS2FuYnVuLUxNOiBSZWFkaW5nIGFuZCBUcmFuc2xhdGluZyBDbGFzc2ljYWwgLi4uIC0gYXI1aXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIzMDUuMTI3NTkiLCJzbmlwcGV0IjoibVQ1OiBBIG1hc3NpdmVseSBtdWx0aWxpbmd1YWwgcHJlLXRyYWluZWQgdGV4dC10by10ZXh0IHRyYW5zZm9ybWVyLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgMjAyMSBDb25mZXJlbmNlIG9mIHRoZSBOb3J0aCBBbWVyaWNhbiBDaGFwdGVyIG9mIHRoZSBBc3NvY2lhdGlvbiAuLi4iLCJkYXRlIjoiTWF5IDI0LCAyMDIzIiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJHZW5lcmFsaXphdGlvbiB2aWEgRGVjbGFyYXRpdmUgSW5zdHJ1Y3Rpb25zIG9uIDE2MDArIE5MUCBUYXNrcyAtIGFyNWl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMjA0LjA3NzA1Iiwic25pcHBldCI6Im1UNTogQSBNYXNzaXZlbHkgTXVsdGlsaW5ndWFsIFByZS10cmFpbmVkIFRleHQtdG8tVGV4dCBUcmFuc2Zvcm1lci4gSW4gQ29uZmVyZW5jZSBvZiB0aGUgTm9ydGggQW1lcmljYW4gQ2hhcHRlciBvZiB0aGUgQXNzb2NpYXRpb24gZm9yIENvbXB1dGF0aW9uYWwgLi4uIiwiZGF0ZSI6Ik1heSAzMCwgMjAyMiIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiJBYnN0cmFjdCIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjIwNC4wNzcwNSM6fjp0ZXh0PUFic3RyYWN0LC1Ib3clMjB3ZWxsJTIwY2FuJTIwTkxQJTIwbW9kZWxzIn0seyJ0aXRsZSI6IjUuMiBCYXNlbGluZXMgQW5kIEV4aXN0aW5nLi4uIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMjA0LjA3NzA1Izp+OnRleHQ9NS4yJTIwQmFzZWxpbmVzJTIwYW5kJTIwRXhpc3RpbmclMjBNb2RlbHMifSx7InRpdGxlIjoiQXBwZW5kaXggRyBFdmFsdWF0aW9uIFRhc2tzIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMjA0LjA3NzA1Izp+OnRleHQ9QXBwZW5kaXglMjBHJTIwRXZhbHVhdGlvbiUyMFRhc2tzIn1dLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkEgbXVsdGktbGluZ3VhbCBhbmQgbXVsdGktbGFiZWwgbGVnYWwgZG9jdW1lbnQgY2xhc3NpZmljYXRpb24gZGF0YXNldCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMTA5LjAwOTA0djIiLCJzbmlwcGV0IjoibVQ1OiBBIG1hc3NpdmVseSBtdWx0aWxpbmd1YWwgcHJlLXRyYWluZWQgdGV4dC10by10ZXh0IHRyYW5zZm9ybWVyLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgMjAyMSBDb25mZXJlbmNlIG9mIHRoZSBOb3J0aCBBbWVyaWNhbiBDaGFwdGVyIG9mIHRoZSBBc3NvY2lhdGlvbiAuLi4iLCJkYXRlIjoiU2VwIDYsIDIwMjEiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiNiBFeHBlcmltZW50cyBBbmQgRGlzY3Vzc2lvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIxMDkuMDA5MDR2MiM6fjp0ZXh0PTYlMjBFeHBlcmltZW50cyUyMGFuZCUyMERpc2N1c3Npb24sLUZvciUyMHRoZSUyMG1haW4lMjBleHBlcmltZW50cyUyQyJ9LHsidGl0bGUiOiI2LjIgQ3Jvc3MtTGluZ3VhbCBUcmFuc2Zlci4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIxMDkuMDA5MDR2MiM6fjp0ZXh0PTYuMiUyMENyb3NzJTJEbGluZ3VhbCUyMFRyYW5zZmVyJTIwJTI4b25lJTJEdG8lMkRtYW55JTI5LC14bG0lMkRyb2JlcnRhJTIwYWRhcHRhdGlvbiUzQSJ9LHsidGl0bGUiOiJBcHBlbmRpeCBFIE1vcmUgRGV0YWlsZWQuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMTA5LjAwOTA0djIjOn46dGV4dD1BcHBlbmRpeCUyMEUlMjBNb3JlJTIwRGV0YWlsZWQlMjBSZXN1bHRzIn1dLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "mt5 massively multilingual pre trained transformer before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[PDF] arXiv:2010.11934v3 [cs.CL] 11 Mar 2021",
+        "link": "https://arxiv.org/pdf/2010.11934",
+        "snippet": "In this paper, we introduce mT5, a multilingual variant of T5 that was pre-trained on trained models. These checkpoints allow members of the NLP community to ...",
+        "date": "Mar 11, 2021",
+        "position": 1
+      },
+      {
+        "title": "A Hope for Low-Resource Language Translation? - arXiv",
+        "link": "https://arxiv.org/html/2203.08850v3",
+        "snippet": "mT5: A massively multilingual pre-trained text-to-text Transformer. In Proceedings of the 2021 Conference of the North American Chapter of the Association ...",
+        "date": "Apr 30, 2022",
+        "position": 2
+      },
+      {
+        "title": "Evaluating Dedicated Monolingual and Joint Multilingual Causal ...",
+        "link": "https://arxiv.org/html/2608.07727v1",
+        "snippet": "mT5: A massively multilingual pre-trained text-to-text transformer. In Proceedings of the 2021 Conference of the North American Chapter of the Association ...",
+        "date": "Aug 7, 2026",
+        "position": 3
+      },
+      {
+        "title": "[PDF] low resource summarization using pre-trained language models",
+        "link": "https://arxiv.org/pdf/2310.02790",
+        "snippet": "Adapted mT5 (Multilingual T5) [40] was selected for Abstractive Summarization which is trained over mC44 covering. 102 languages following similar recipe as T5.",
+        "date": "Oct 4, 2023",
+        "position": 4
+      },
+      {
+        "title": "[PDF] QU-NLP at CheckThat! 2025: Multilingual Subjectivity in News ...",
+        "link": "https://arxiv.org/pdf/2507.21095",
+        "snippet": "Multilingual pre-trained language models such as mBERT [5], XLM-R [6], and mT5 [7] have become the foundation for state-of-the-art multilingual text ...",
+        "date": "Jul 30, 2025",
+        "position": 5
+      },
+      {
+        "title": "[PDF] Solving Bengali Math Word Problems through Transformer Models",
+        "link": "https://arxiv.org/pdf/2501.02599",
+        "snippet": "One of its key features is its ability to work across 101 languages, as it has been pretrained on a diverse multilingual dataset known as. mC4. This makes mT5 ...",
+        "date": "Jan 5, 2025",
+        "position": 6
+      },
+      {
+        "title": "Enhancing Entity Aware Machine Translation with Multi-task Learning",
+        "link": "https://arxiv.org/html/2506.18318v1",
+        "snippet": "Through extensive pre-training on C4 (for T5) and mC4 (for mT5), these models learn robust representations transferable to a wide array of downstream tasks. In ...",
+        "date": "Jun 23, 2025",
+        "position": 7
+      },
+      {
+        "title": "[2305.12759] Kanbun-LM: Reading and Translating Classical ... - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2305.12759",
+        "snippet": "mT5: A massively multilingual pre-trained text-to-text transformer. In Proceedings of the 2021 Conference of the North American Chapter of the Association ...",
+        "date": "May 24, 2023",
+        "position": 8
+      },
+      {
+        "title": "Generalization via Declarative Instructions on 1600+ NLP Tasks - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2204.07705",
+        "snippet": "mT5: A Massively Multilingual Pre-trained Text-to-Text Transformer. In Conference of the North American Chapter of the Association for Computational ...",
+        "date": "May 30, 2022",
+        "sitelinks": [
+          {
+            "title": "Abstract",
+            "link": "https://ar5iv.labs.arxiv.org/html/2204.07705#:~:text=Abstract,-How%20well%20can%20NLP%20models"
+          },
+          {
+            "title": "5.2 Baselines And Existing...",
+            "link": "https://ar5iv.labs.arxiv.org/html/2204.07705#:~:text=5.2%20Baselines%20and%20Existing%20Models"
+          },
+          {
+            "title": "Appendix G Evaluation Tasks",
+            "link": "https://ar5iv.labs.arxiv.org/html/2204.07705#:~:text=Appendix%20G%20Evaluation%20Tasks"
+          }
+        ],
+        "position": 9
+      },
+      {
+        "title": "A multi-lingual and multi-label legal document classification dataset ...",
+        "link": "https://arxiv.org/html/2109.00904v2",
+        "snippet": "mT5: A massively multilingual pre-trained text-to-text transformer. In Proceedings of the 2021 Conference of the North American Chapter of the Association ...",
+        "date": "Sep 6, 2021",
+        "sitelinks": [
+          {
+            "title": "6 Experiments And Discussion",
+            "link": "https://arxiv.org/html/2109.00904v2#:~:text=6%20Experiments%20and%20Discussion,-For%20the%20main%20experiments%2C"
+          },
+          {
+            "title": "6.2 Cross-Lingual Transfer...",
+            "link": "https://arxiv.org/html/2109.00904v2#:~:text=6.2%20Cross%2Dlingual%20Transfer%20%28one%2Dto%2Dmany%29,-xlm%2Droberta%20adaptation%3A"
+          },
+          {
+            "title": "Appendix E More Detailed...",
+            "link": "https://arxiv.org/html/2109.00904v2#:~:text=Appendix%20E%20More%20Detailed%20Results"
+          }
+        ],
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[PDF] arXiv:2010.11934v3 [cs.CL] 11 Mar 2021",
+      "snippet": "In this paper, we introduce mT5, a multilingual variant of T5 that was pre-trained on trained models. These checkpoints allow members of the NLP community to ...",
+      "link": "https://arxiv.org/pdf/2010.11934",
+      "arxiv_id": "2010.11934"
+    },
+    {
+      "rank": 2,
+      "title": "A Hope for Low-Resource Language Translation? - arXiv",
+      "snippet": "mT5: A massively multilingual pre-trained text-to-text Transformer. In Proceedings of the 2021 Conference of the North American Chapter of the Association ...",
+      "link": "https://arxiv.org/html/2203.08850v3",
+      "arxiv_id": "2203.08850"
+    },
+    {
+      "rank": 3,
+      "title": "Evaluating Dedicated Monolingual and Joint Multilingual Causal ...",
+      "snippet": "mT5: A massively multilingual pre-trained text-to-text transformer. In Proceedings of the 2021 Conference of the North American Chapter of the Association ...",
+      "link": "https://arxiv.org/html/2608.07727v1",
+      "arxiv_id": "2608.07727"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] low resource summarization using pre-trained language models",
+      "snippet": "Adapted mT5 (Multilingual T5) [40] was selected for Abstractive Summarization which is trained over mC44 covering. 102 languages following similar recipe as T5.",
+      "link": "https://arxiv.org/pdf/2310.02790",
+      "arxiv_id": "2310.02790"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] QU-NLP at CheckThat! 2025: Multilingual Subjectivity in News ...",
+      "snippet": "Multilingual pre-trained language models such as mBERT [5], XLM-R [6], and mT5 [7] have become the foundation for state-of-the-art multilingual text ...",
+      "link": "https://arxiv.org/pdf/2507.21095",
+      "arxiv_id": "2507.21095"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] Solving Bengali Math Word Problems through Transformer Models",
+      "snippet": "One of its key features is its ability to work across 101 languages, as it has been pretrained on a diverse multilingual dataset known as. mC4. This makes mT5 ...",
+      "link": "https://arxiv.org/pdf/2501.02599",
+      "arxiv_id": "2501.02599"
+    },
+    {
+      "rank": 7,
+      "title": "Enhancing Entity Aware Machine Translation with Multi-task Learning",
+      "snippet": "Through extensive pre-training on C4 (for T5) and mC4 (for mT5), these models learn robust representations transferable to a wide array of downstream tasks. In ...",
+      "link": "https://arxiv.org/html/2506.18318v1",
+      "arxiv_id": "2506.18318"
+    },
+    {
+      "rank": 8,
+      "title": "[2305.12759] Kanbun-LM: Reading and Translating Classical ... - ar5iv",
+      "snippet": "mT5: A massively multilingual pre-trained text-to-text transformer. In Proceedings of the 2021 Conference of the North American Chapter of the Association ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2305.12759",
+      "arxiv_id": "2305.12759"
+    },
+    {
+      "rank": 9,
+      "title": "Generalization via Declarative Instructions on 1600+ NLP Tasks - ar5iv",
+      "snippet": "mT5: A Massively Multilingual Pre-trained Text-to-Text Transformer. In Conference of the North American Chapter of the Association for Computational ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2204.07705",
+      "arxiv_id": "2204.07705"
+    },
+    {
+      "rank": 10,
+      "title": "A multi-lingual and multi-label legal document classification dataset ...",
+      "snippet": "mT5: A massively multilingual pre-trained text-to-text transformer. In Proceedings of the 2021 Conference of the North American Chapter of the Association ...",
+      "link": "https://arxiv.org/html/2109.00904v2",
+      "arxiv_id": "2109.00904"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:10.059483+00:00",
+  "elapsed_seconds": 0.9255892001092434
+}

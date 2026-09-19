@@ -1,0 +1,222 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q37",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2111.01998",
+  "request_payload": {
+    "q": "Where can I find a database of good prompts to use for prompting language models for in-context learning? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 81,
+  "started_utc": "2026-09-17T12:34:56.927515+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648220",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "b729c4b233fc33ebadaafcea648afaeb",
+    "date": "Thu, 17 Sep 2026 12:30:19 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "4506",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 4506,
+  "response_bytes_sha256": "cd8b2dafe2fe7da029b1715d027979a78c82ab195727b3f33fe9059e28e26ead",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJXaGVyZSBjYW4gSSBmaW5kIGEgZGF0YWJhc2Ugb2YgZ29vZCBwcm9tcHRzIHRvIHVzZSBmb3IgcHJvbXB0aW5nIGxhbmd1YWdlIG1vZGVscyBmb3IgaW4tY29udGV4dCBsZWFybmluZz8gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQSBQcmFjdGljYWwgU3VydmV5IG9uIFplcm8tc2hvdCBQcm9tcHQgRGVzaWduIGZvciBJbi1jb250ZXh0IExlYXJuaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOS4xMzIwNXYxIiwic25pcHBldCI6IlRoaXMgcGFwZXIgcHJlc2VudHMgYSBjb21wcmVoZW5zaXZlIHJldmlldyBvZiBpbi1jb250ZXh0IGxlYXJuaW5nIHRlY2huaXF1ZXMsIGZvY3VzaW5nIG9uIGRpZmZlcmVudCB0eXBlcyBvZiBwcm9tcHRzLCBpbmNsdWRpbmcgZGlzY3JldGUsIGNvbnRpbnVvdXMsIGZldy1zaG90LCAuLi4iLCJkYXRlIjoiU2VwIDIyLCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJUaGUgSW1wYWN0IG9mIFJvbGUgRGVzaWduIGluIEluLUNvbnRleHQgTGVhcm5pbmcgZm9yIExhcmdlIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwOS4yMzUwMXYxIiwic25pcHBldCI6IkluLWNvbnRleHQgbGVhcm5pbmcgKElDTCkgZW5hYmxlcyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKExMTXMpIHRvIGdlbmVyYXRlIHByZWRpY3Rpb25zIGJhc2VkIG9uIHByb21wdHMgd2l0aG91dCBhZGRpdGlvbmFsIGZpbmUtdHVuaW5nLiBXaGlsZSBwcm9tcHQgLi4uIiwiZGF0ZSI6IlNlcCAyNywgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiRWZmaWNpZW50IFByb21wdGluZyBNZXRob2RzIGZvciBMYXJnZSBMYW5ndWFnZSBNb2RlbHM6IEEgU3VydmV5IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4wMTA3N3YxIiwic25pcHBldCI6IlRoZSBwcm9tcHQgYWRhcHRhdGlvbiBmcmFtZXdvcmsgaW5jbHVkZXMgc3VwZXJ2aXNlZCBmaW5lLXR1bmluZyB3aXRoIGh1bWFuLWVuZ2luZWVyZWQgcHJvbXB0cyBhbmQgdGhlbiByZWluZm9yY2VtZW50IGxlYXJuaW5nIGJhc2VkIG9uIFJlbGV2YW5jZSBhbmQgQWVzdGhldGljIC4uLiIsImRhdGUiOiJBcHIgMSwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiSG93IFByb21wdCBWb2NhYnVsYXJ5IGFmZmVjdHMgRG9tYWluIEtub3dsZWRnZSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNS4xNzAzN3YxIiwic25pcHBldCI6IlRoZSBsZXhpY2FsIGRhdGFiYXNlIHRoYXQgd2UgdXNlIGZvciB0aGlzIHN0dWR5IGlzIFdvcmROZXQgKFdOKSwgaW50cm9kdWNlZCBieSB0aGUgUHJpbmNldG9uIFVuaXZlcnNpdHkgYXMgYW4gb3BlbiBzb3VyY2UgcHJvamVjdCBpbiAxOTg1LiBUaGUgZGF0YWJhc2UgLi4uIiwiZGF0ZSI6Ik1heSAxMCwgMjAyNSIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiQW4gRW1waXJpY2FsIENhdGVnb3JpemF0aW9uIG9mIFByb21wdGluZyBUZWNobmlxdWVzIGZvciBMYXJnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjE0ODM3djEiLCJzbmlwcGV0IjoiSW4gdGhpcyBzdXJ2ZXksIHdlIHByZXNlbnQgYSBjb21wcmVoZW5zaXZlIGZyYW1ld29yayBmb3IgY2F0ZWdvcml6aW5nIHRoZSBkaXZlcnNlIHJhbmdlIG9mIHByb21wdGluZyB0ZWNobmlxdWVzIHRoYXQgaGF2ZSBlbWVyZ2VkIGluIHJlY2VudCBhY2FkZW1pYyBsaXRlcmF0dXJlIC4uLiIsImRhdGUiOiJGZWIgMTgsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkVuaGFuY2luZyBJbi1Db250ZXh0IExlYXJuaW5nIGZvciBUZXh0LXRvLVNRTCB3aXRoIERlZXAgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA1LjE5OTU2djIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgcHJvcG9zZSBhIG5vdmVsIGFwcHJvYWNoIGZvciBlZmZlY3RpdmVseSByZXRyaWV2aW5nIGRlbW9uc3RyYXRpb25zIGFuZCBnZW5lcmF0aW5nIFNRTCBxdWVyaWVzLiBXZSBjb25zdHJ1Y3QgYSBEZWVwIENvbnRleHR1YWwgU2NoZW1hIExpbmsgLi4uIiwiZGF0ZSI6Ikp1bCAyMiwgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiRW5oYW5jaW5nIExMTS1CYXNlZCBUZXh0IENsYXNzaWZpY2F0aW9uIGluIFBvbGl0aWNhbCBTY2llbmNlIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA5LjAxNDY2djIiLCJzbmlwcGV0IjoiQW4gb3Blbi1zb3VyY2UgUHl0aG9uIHBhY2thZ2UgKFBvbGlQcm9tcHQpIGlzIGF2YWlsYWJsZSBvbiBHaXRIdWIuIGEgaGFuZC1jb2RlZCBkYXRhc2V0IG9mIDMsNjYwIHR3ZWV0cywgRGV0YWlsZWQgZmV3LXNob3QgcHJvbXB0cyBhcmUgcHJvdmlkZWQgaW4gQXBwZW5kaXggRDIuIiwiZGF0ZSI6IkFwciA2LCAyMDI1IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbUERGXSBUaGUgUHJvbXB0IENhbnZhczogQSBMaXRlcmF0dXJlLUJhc2VkIFByYWN0aXRpb25lciBHdWlkZSBmb3IgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDEyLjA1MTI3Iiwic25pcHBldCI6IlRoZSBQcm9tcHQgQ2FudmFzIGlzIGRlc2lnbmVkIGFzIGEgbGVhcm5pbmcgcmVzb3VyY2UgZm9yIHlvdSBhbmQgeW91ciB0ZWFtLCBwcm92aWRpbmcgYSBzdHJ1Y3R1cmVkIGFwcHJvYWNoIGludG8gUHJvbXB0IEVuZ2luZWVyaW5nIGZvciBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgLi4uIiwiZGF0ZSI6IkRlYyA2LCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJHZW5lcmFsaXphdGlvbiB2aWEgRGVjbGFyYXRpdmUgSW5zdHJ1Y3Rpb25zIG9uIDE2MDArIE5MUCBUYXNrcyAtIGFyNWl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMjA0LjA3NzA1Iiwic25pcHBldCI6IlRoaXMgbGFyZ2UgYW5kIGRpdmVyc2UgY29sbGVjdGlvbiBvZiB0YXNrcyBlbmFibGVzIHJpZ29yb3VzIGJlbmNobWFya2luZyBvZiBjcm9zcy10YXNrIGdlbmVyYWxpemF0aW9uIHVuZGVyIGluc3RydWN0aW9uc+KAlHRyYWluaW5nIG1vZGVscyB0byBmb2xsb3cgaW5zdHJ1Y3Rpb25zIC4uLiIsImRhdGUiOiJNYXkgMzAsIDIwMjIiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiQWJzdHJhY3QiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIyMDQuMDc3MDUjOn46dGV4dD1BYnN0cmFjdCwtSG93JTIwd2VsbCUyMGNhbiUyME5MUCUyMG1vZGVscyJ9LHsidGl0bGUiOiI1LjIgQmFzZWxpbmVzIEFuZCBFeGlzdGluZy4uLiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjIwNC4wNzcwNSM6fjp0ZXh0PTUuMiUyMEJhc2VsaW5lcyUyMGFuZCUyMEV4aXN0aW5nJTIwTW9kZWxzIn0seyJ0aXRsZSI6IkFwcGVuZGl4IEcgRXZhbHVhdGlvbiBUYXNrcyIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjIwNC4wNzcwNSM6fjp0ZXh0PUFwcGVuZGl4JTIwRyUyMEV2YWx1YXRpb24lMjBUYXNrcyJ9XSwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJXaGljaCBQcm9tcHRpbmcgVGVjaG5pcXVlIFNob3VsZCBJIFVzZT8gQW4gRW1waXJpY2FsIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNi4wNTYxNHYxIiwic25pcHBldCI6IkEgZ3Jvd2luZyB2YXJpZXR5IG9mIHByb21wdCBlbmdpbmVlcmluZyB0ZWNobmlxdWVzIGhhcyBiZWVuIHByb3Bvc2VkIGZvciBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKExMTXMpLCB5ZXQgc3lzdGVtYXRpYyBldmFsdWF0aW9uIG9mIGVhY2ggdGVjaG5pcXVlIG9uIGluZGl2aWR1YWwgLi4uIiwiZGF0ZSI6Ikp1biA1LCAyMDI1Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IldoaWNoIFByb21wdGluZyBUZWNobmlxdWUuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA2LjA1NjE0djEjOn46dGV4dD1XaGljaCUyMFByb21wdGluZyUyMFRlY2huaXF1ZSUyMFNob3VsZCUyMEklMjBVc2UlM0YlMjBBbiUyMEVtcGlyaWNhbCUyMEludmVzdGlnYXRpb24lMjBvZiUyMFByb21wdGluZyUyMFRlY2huaXF1ZXMlMjBmb3IlMjBTb2Z0d2FyZSUyMEVuZ2luZWVyaW5nJTIwVGFza3MsLUVuaW8lMjBHYXJjaWElMjBTYW50YW5hJTIwSnVuaW9yIn0seyJ0aXRsZSI6IklpaSBNZXRob2RvbG9neSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDYuMDU2MTR2MSM6fjp0ZXh0PUlJSSUyME1ldGhvZG9sb2d5LC1JbiUyMHRoaXMlMjBzZWN0aW9uJTJDJTIwd2UifSx7InRpdGxlIjoiSXYgUmVzdWx0cyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDYuMDU2MTR2MSM6fjp0ZXh0PS4tLElWJTIwUmVzdWx0cyJ9XSwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Where can I find a database of good prompts to use for prompting language models for in-context learning? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "A Practical Survey on Zero-shot Prompt Design for In-context Learning",
+        "link": "https://arxiv.org/html/2309.13205v1",
+        "snippet": "This paper presents a comprehensive review of in-context learning techniques, focusing on different types of prompts, including discrete, continuous, few-shot, ...",
+        "date": "Sep 22, 2023",
+        "position": 1
+      },
+      {
+        "title": "The Impact of Role Design in In-Context Learning for Large ... - arXiv",
+        "link": "https://arxiv.org/html/2509.23501v1",
+        "snippet": "In-context learning (ICL) enables Large Language Models (LLMs) to generate predictions based on prompts without additional fine-tuning. While prompt ...",
+        "date": "Sep 27, 2025",
+        "position": 2
+      },
+      {
+        "title": "Efficient Prompting Methods for Large Language Models: A Survey",
+        "link": "https://arxiv.org/html/2404.01077v1",
+        "snippet": "The prompt adaptation framework includes supervised fine-tuning with human-engineered prompts and then reinforcement learning based on Relevance and Aesthetic ...",
+        "date": "Apr 1, 2024",
+        "position": 3
+      },
+      {
+        "title": "How Prompt Vocabulary affects Domain Knowledge - arXiv",
+        "link": "https://arxiv.org/html/2505.17037v1",
+        "snippet": "The lexical database that we use for this study is WordNet (WN), introduced by the Princeton University as an open source project in 1985. The database ...",
+        "date": "May 10, 2025",
+        "position": 4
+      },
+      {
+        "title": "An Empirical Categorization of Prompting Techniques for Large ...",
+        "link": "https://arxiv.org/html/2402.14837v1",
+        "snippet": "In this survey, we present a comprehensive framework for categorizing the diverse range of prompting techniques that have emerged in recent academic literature ...",
+        "date": "Feb 18, 2024",
+        "position": 5
+      },
+      {
+        "title": "Enhancing In-Context Learning for Text-to-SQL with Deep ... - arXiv",
+        "link": "https://arxiv.org/html/2505.19956v2",
+        "snippet": "In this paper, we propose a novel approach for effectively retrieving demonstrations and generating SQL queries. We construct a Deep Contextual Schema Link ...",
+        "date": "Jul 22, 2025",
+        "position": 6
+      },
+      {
+        "title": "Enhancing LLM-Based Text Classification in Political Science - arXiv",
+        "link": "https://arxiv.org/html/2409.01466v2",
+        "snippet": "An open-source Python package (PoliPrompt) is available on GitHub. a hand-coded dataset of 3,660 tweets, Detailed few-shot prompts are provided in Appendix D2.",
+        "date": "Apr 6, 2025",
+        "position": 7
+      },
+      {
+        "title": "[PDF] The Prompt Canvas: A Literature-Based Practitioner Guide for ...",
+        "link": "https://arxiv.org/pdf/2412.05127",
+        "snippet": "The Prompt Canvas is designed as a learning resource for you and your team, providing a structured approach into Prompt Engineering for Large Language Models ...",
+        "date": "Dec 6, 2024",
+        "position": 8
+      },
+      {
+        "title": "Generalization via Declarative Instructions on 1600+ NLP Tasks - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2204.07705",
+        "snippet": "This large and diverse collection of tasks enables rigorous benchmarking of cross-task generalization under instructions—training models to follow instructions ...",
+        "date": "May 30, 2022",
+        "sitelinks": [
+          {
+            "title": "Abstract",
+            "link": "https://ar5iv.labs.arxiv.org/html/2204.07705#:~:text=Abstract,-How%20well%20can%20NLP%20models"
+          },
+          {
+            "title": "5.2 Baselines And Existing...",
+            "link": "https://ar5iv.labs.arxiv.org/html/2204.07705#:~:text=5.2%20Baselines%20and%20Existing%20Models"
+          },
+          {
+            "title": "Appendix G Evaluation Tasks",
+            "link": "https://ar5iv.labs.arxiv.org/html/2204.07705#:~:text=Appendix%20G%20Evaluation%20Tasks"
+          }
+        ],
+        "position": 9
+      },
+      {
+        "title": "Which Prompting Technique Should I Use? An Empirical ... - arXiv",
+        "link": "https://arxiv.org/html/2506.05614v1",
+        "snippet": "A growing variety of prompt engineering techniques has been proposed for Large Language Models (LLMs), yet systematic evaluation of each technique on individual ...",
+        "date": "Jun 5, 2025",
+        "sitelinks": [
+          {
+            "title": "Which Prompting Technique...",
+            "link": "https://arxiv.org/html/2506.05614v1#:~:text=Which%20Prompting%20Technique%20Should%20I%20Use%3F%20An%20Empirical%20Investigation%20of%20Prompting%20Techniques%20for%20Software%20Engineering%20Tasks,-Enio%20Garcia%20Santana%20Junior"
+          },
+          {
+            "title": "Iii Methodology",
+            "link": "https://arxiv.org/html/2506.05614v1#:~:text=III%20Methodology,-In%20this%20section%2C%20we"
+          },
+          {
+            "title": "Iv Results",
+            "link": "https://arxiv.org/html/2506.05614v1#:~:text=.-,IV%20Results"
+          }
+        ],
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "A Practical Survey on Zero-shot Prompt Design for In-context Learning",
+      "snippet": "This paper presents a comprehensive review of in-context learning techniques, focusing on different types of prompts, including discrete, continuous, few-shot, ...",
+      "link": "https://arxiv.org/html/2309.13205v1",
+      "arxiv_id": "2309.13205"
+    },
+    {
+      "rank": 2,
+      "title": "The Impact of Role Design in In-Context Learning for Large ... - arXiv",
+      "snippet": "In-context learning (ICL) enables Large Language Models (LLMs) to generate predictions based on prompts without additional fine-tuning. While prompt ...",
+      "link": "https://arxiv.org/html/2509.23501v1",
+      "arxiv_id": "2509.23501"
+    },
+    {
+      "rank": 3,
+      "title": "Efficient Prompting Methods for Large Language Models: A Survey",
+      "snippet": "The prompt adaptation framework includes supervised fine-tuning with human-engineered prompts and then reinforcement learning based on Relevance and Aesthetic ...",
+      "link": "https://arxiv.org/html/2404.01077v1",
+      "arxiv_id": "2404.01077"
+    },
+    {
+      "rank": 4,
+      "title": "How Prompt Vocabulary affects Domain Knowledge - arXiv",
+      "snippet": "The lexical database that we use for this study is WordNet (WN), introduced by the Princeton University as an open source project in 1985. The database ...",
+      "link": "https://arxiv.org/html/2505.17037v1",
+      "arxiv_id": "2505.17037"
+    },
+    {
+      "rank": 5,
+      "title": "An Empirical Categorization of Prompting Techniques for Large ...",
+      "snippet": "In this survey, we present a comprehensive framework for categorizing the diverse range of prompting techniques that have emerged in recent academic literature ...",
+      "link": "https://arxiv.org/html/2402.14837v1",
+      "arxiv_id": "2402.14837"
+    },
+    {
+      "rank": 6,
+      "title": "Enhancing In-Context Learning for Text-to-SQL with Deep ... - arXiv",
+      "snippet": "In this paper, we propose a novel approach for effectively retrieving demonstrations and generating SQL queries. We construct a Deep Contextual Schema Link ...",
+      "link": "https://arxiv.org/html/2505.19956v2",
+      "arxiv_id": "2505.19956"
+    },
+    {
+      "rank": 7,
+      "title": "Enhancing LLM-Based Text Classification in Political Science - arXiv",
+      "snippet": "An open-source Python package (PoliPrompt) is available on GitHub. a hand-coded dataset of 3,660 tweets, Detailed few-shot prompts are provided in Appendix D2.",
+      "link": "https://arxiv.org/html/2409.01466v2",
+      "arxiv_id": "2409.01466"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] The Prompt Canvas: A Literature-Based Practitioner Guide for ...",
+      "snippet": "The Prompt Canvas is designed as a learning resource for you and your team, providing a structured approach into Prompt Engineering for Large Language Models ...",
+      "link": "https://arxiv.org/pdf/2412.05127",
+      "arxiv_id": "2412.05127"
+    },
+    {
+      "rank": 9,
+      "title": "Generalization via Declarative Instructions on 1600+ NLP Tasks - ar5iv",
+      "snippet": "This large and diverse collection of tasks enables rigorous benchmarking of cross-task generalization under instructions—training models to follow instructions ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2204.07705",
+      "arxiv_id": "2204.07705"
+    },
+    {
+      "rank": 10,
+      "title": "Which Prompting Technique Should I Use? An Empirical ... - arXiv",
+      "snippet": "A growing variety of prompt engineering techniques has been proposed for Large Language Models (LLMs), yet systematic evaluation of each technique on individual ...",
+      "link": "https://arxiv.org/html/2506.05614v1",
+      "arxiv_id": "2506.05614"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:58.815966+00:00",
+  "elapsed_seconds": 1.888451561331749
+}

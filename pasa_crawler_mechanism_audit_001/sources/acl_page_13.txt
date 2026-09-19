@@ -1,0 +1,82 @@
+The prompt for search query generation
+You are an elite researcher in the field of AI, please generate some mutually exclusive queries in a list to search the relevant
+papers according to the User Query. Searching for a survey paper would be better.
+User Query: {user_query}
+The semantics between generated queries are not mutually inclusive. The format of the list is: [“query1”, “query2”, ...]
+Queries:
+Table 10: The prompt for GPT-4o to generate search queries from the user query.
+Search Session starting fromSq Expand Session starting fromSq+p
+prompt Please, generate some mutually exclusive queries
+in a list to search the relevant papers according
+to the User Query. Searching for survey papers
+would be better.
+User Query: {user_query}
+You are conducting research on'{user_query}'. You need to predict
+which sections to look at to get more relevant papers.
+Title: {title}
+Abstract: {abstract}
+Sections: {sections}
+response [Search] {query 1}
+[Search] {query 2}
+...
+[Stop]
+[Expand] {section 1}
+[Expand] {section 2}
+...
+[Stop]
+Table 11: The session trajectory templates of the Crawler.
+specifically requests them.
+• All conditions in the user query must be met
+for the paper to be considered qualified.
+B.2 Quality control
+The annotation process follows the following qual-
+ity control measures:
+• Stage 1: Annotators work in batches of
+20. Authors review 100% of the annotations.
+Once the consistency rate on the first pass
+reaches 90%, the process moves to Stage 2.
+• Stage 2: Annotators work in batches of 50.
+Authors randomly check 40% of the annota-
+tions. If the consistency rate is below 90%, the
+entire batch is re-annotated and re-checked.
+Once the batch meets the 90% consistency
+rate on the first pass, the process moves to
+Stage 3.
+• Stage 3: Annotators work in batches of 100.
+Authors randomly check 20% of the annota-
+tions. If the consistency rate is below 90%, the
+entire batch is re-annotated and re-checked.
+Two authors conducted the quality control.
+C Example in RealScholarQuery
+Table 9 presents an example query and correspond-
+ing papers from RealScholarQuery.
+D Implementation Details of the Crawler
+D.1 Imitation learning data generation
+We generate training data for imitation learning on
+a session-by-session basis. There are two types of
+sessions: search session (starting from state Sq)
+and expand session (starting from stateSq+p).
+For search sessions starting fromSq, we sample
+user queries from the AutoScholarQuery training
+set and prompt GPT-4o to generate corresponding
+search queries. The prompt template is shown in
+Table 10. The session trajectory is constructed
+by adding a [Search] token before each query,
+concatenating the queries, and appending a [Stop]
+token at the end, as shown in Table 11. A total of
+3,011 search session trajectories are generated.
+For expanded sessions starting from Sq+p, we
+continue by searching for the generated queries us-
+ing Google. We then sample papers from the search
+results and obtain the initial state, which includes
+both the query and a paper. To build the session tra-
+jectory, we examine each sub-section of the paper.
+If the sub-section references at least one paper in
+the AutoScholarQuery training set corresponding
+to the query, the sub-section is selected. Otherwise,
+the sub-section is selected with a 10% probabil-
+ity to enhance trajectory diversity. The selected
+sections are filled into the template in Table 11,
+completing the session trajectory. In total, 9,978
+expanded session trajectories are constructed.
+11675

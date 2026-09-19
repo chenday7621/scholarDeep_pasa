@@ -1,0 +1,24 @@
+{
+  "specificity": 1,
+  "groups": {
+    "author-written": [
+      "manual_acl",
+      "manual_iclr"
+    ],
+    "inline-citation": [
+      "inline_acl",
+      "inline_nonacl"
+    ]
+  },
+  "sample_seed": 20260917,
+  "sample_per_group": 25,
+  "all_gold_must_map": true,
+  "title_normalization": "unchanged utils.keep_letters via AST",
+  "local_index": "unchanged utils._build_local_title_index via AST; requires ZIP entry",
+  "no_fuzzy_or_alias_mapping": true,
+  "ambiguous_identity_action": "STOP before sampling, Crawler or Search",
+  "insufficient_group_action": "STOP; do not reduce sample size or substitute source",
+  "search_outcomes_used": false,
+  "quality_filter": null,
+  "note": "Rules fixed before running full compatibility audit."
+}

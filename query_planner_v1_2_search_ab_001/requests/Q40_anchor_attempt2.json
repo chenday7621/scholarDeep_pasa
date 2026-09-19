@@ -1,0 +1,118 @@
+{
+  "global_attempt_sequence": 249,
+  "query_id": "Q40",
+  "query_key": "anchor",
+  "attempt": 2,
+  "query_text": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?.",
+  "request_payload": {
+    "q": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?. before:2024-09-24 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q40_anchor_attempt2.json",
+  "started_utc": "2026-09-15T06:30:26.713264+00:00",
+  "http_status": 200,
+  "response_text": "{\"searchParameters\":{\"q\":\"Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"EdgeQAT: Entropy and Distribution Guided Quantization-Aware ...\",\"link\":\"https://arxiv.org/html/2402.10787v1\",\"snippet\":\"Quantization-Aware Training (QAT) presents a promising avenue for better performance in lower-bit configurations, but its data accessibility, training cost, and ...\",\"date\":\"Feb 16, 2024\",\"position\":1},{\"title\":\"Mobile-friendly Quantization for On-device Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2408.13933v1\",\"snippet\":\"A standard approach to facilitate running these models on edge devices is to quantize them, representing weights and activations with fewer bits, thereby ...\",\"date\":\"Aug 25, 2024\",\"position\":2},{\"title\":\"L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.04902v3\",\"snippet\":\"QAT has proven effective in adjusting the model parameters for quantization during training. ... Low-bit Weight Quantization of Large Language Models ...\",\"date\":\"May 22, 2024\",\"position\":3},{\"title\":\"Efficient Adaptive Activation Rounding for Post-Training Quantization\",\"link\":\"https://arxiv.org/html/2208.11945v3\",\"snippet\":\"DNN quantization presents a solution by reducing both computational and storage burdens by converting floating-point numbers into low-bit representations. This ...\",\"date\":\"Aug 24, 2023\",\"position\":4},{\"title\":\"A Comprehensive Evaluation of Quantization Strategiesfor Large ...\",\"link\":\"https://arxiv.org/html/2402.16775v1\",\"snippet\":\"The central idea of model quantization is representing the weights or activations of a model in a lower-precision format (such as 8-bit integers) rather than ...\",\"date\":\"Feb 26, 2024\",\"position\":5},{\"title\":\"LLM-QBench: A Benchmark Towards the Best Practice for Post ...\",\"link\":\"https://arxiv.org/html/2405.06001v1\",\"snippet\":\"High-bit quantization benefits from lower mixture rates, while low-bit requires more full-precision weights in small LLMs for better performance.\",\"date\":\"May 9, 2024\",\"position\":6},{\"title\":\"Trainable Fixed-Point Quantization for Deep Learning Acceleration ...\",\"link\":\"https://arxiv.org/html/2401.17544v1\",\"snippet\":\"QFX can quantize models trained with element-wise layers quantized to fewer bits and achieve higher accuracy on both CIFAR-10 and ImageNet datasets.\",\"date\":\"Jan 31, 2024\",\"position\":7},{\"title\":\"Integer or Floating Point? New Outlooks for Low-Bit Quantization on ...\",\"link\":\"https://arxiv.org/html/2305.12356v1\",\"snippet\":\"Low-bit quantization plays a crucial role in the deployment of deep learning models due to its capacity to minimize the model size and inference cost [18; 10] .\",\"date\":\"May 21, 2023\",\"sitelinks\":[{\"title\":\"Integer Or Floating Point?...\",\"link\":\"https://arxiv.org/html/2305.12356v1#:~:text=Integer%20or%20Floating%20Point%3F%20New%20Outlooks%20for,-Low%2DBit%20Quantization%20on\"},{\"title\":\"3.2 Quantization Error\",\"link\":\"https://arxiv.org/html/2305.12356v1#:~:text=3.2%20Quantization%20Error,-In%20this%20subsection%2C%20we\"},{\"title\":\"5 Experiments\",\"link\":\"https://arxiv.org/html/2305.12356v1#:~:text=5%20Experiments,-In%20the%20experiments%2C%20we\"}],\"position\":8},{\"title\":\"FP8 Quantization: The Power of the Exponent - arXiv\",\"link\":\"https://arxiv.org/html/2208.09225v2\",\"snippet\":\"Quantization allows weights and activations to be represented in low bit-width formats, e.g. 8 bit integers (INT8). When executing networks on any device, this ...\",\"date\":\"Aug 21, 2022\",\"position\":9},{\"title\":\"Temporal Dynamic Quantization for Diffusion Models - arXiv\",\"link\":\"https://arxiv.org/html/2306.02316v2\",\"snippet\":\"Quantization is a prominent neural network optimization technique that reduces storage requirements with low-precision representation and performance ...\",\"date\":\"Dec 11, 2023\",\"position\":10}],\"credits\":1}",
+  "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJDb3VsZCB5b3UgbGlzdCByZXNlYXJjaCB0aGF0IGRlbW9uc3RyYXRlcyB0aGUgYWR2YW50YWdlcyBvZiBRdWFudGl6YXRpb24tQXdhcmUgVHJhaW5pbmcgKFFBVCksIHdoaWNoIGNhbiBlbmFibGUgdGhlIG1vZGVsIHRvIGxlYXJuIGJldHRlciByZXByZXNlbnRhdGlvbnMgZm9yIGxvdy1iaXQgd2VpZ2h0cz8uIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkVkZ2VRQVQ6IEVudHJvcHkgYW5kIERpc3RyaWJ1dGlvbiBHdWlkZWQgUXVhbnRpemF0aW9uLUF3YXJlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTA3ODd2MSIsInNuaXBwZXQiOiJRdWFudGl6YXRpb24tQXdhcmUgVHJhaW5pbmcgKFFBVCkgcHJlc2VudHMgYSBwcm9taXNpbmcgYXZlbnVlIGZvciBiZXR0ZXIgcGVyZm9ybWFuY2UgaW4gbG93ZXItYml0IGNvbmZpZ3VyYXRpb25zLCBidXQgaXRzIGRhdGEgYWNjZXNzaWJpbGl0eSwgdHJhaW5pbmcgY29zdCwgYW5kIC4uLiIsImRhdGUiOiJGZWIgMTYsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6Ik1vYmlsZS1mcmllbmRseSBRdWFudGl6YXRpb24gZm9yIE9uLWRldmljZSBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTM5MzN2MSIsInNuaXBwZXQiOiJBIHN0YW5kYXJkIGFwcHJvYWNoIHRvIGZhY2lsaXRhdGUgcnVubmluZyB0aGVzZSBtb2RlbHMgb24gZWRnZSBkZXZpY2VzIGlzIHRvIHF1YW50aXplIHRoZW0sIHJlcHJlc2VudGluZyB3ZWlnaHRzIGFuZCBhY3RpdmF0aW9ucyB3aXRoIGZld2VyIGJpdHMsIHRoZXJlYnkgLi4uIiwiZGF0ZSI6IkF1ZyAyNSwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiTDRROiBQYXJhbWV0ZXIgRWZmaWNpZW50IFF1YW50aXphdGlvbi1Bd2FyZSBGaW5lLVR1bmluZyBvbiAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDQ5MDJ2MyIsInNuaXBwZXQiOiJRQVQgaGFzIHByb3ZlbiBlZmZlY3RpdmUgaW4gYWRqdXN0aW5nIHRoZSBtb2RlbCBwYXJhbWV0ZXJzIGZvciBxdWFudGl6YXRpb24gZHVyaW5nIHRyYWluaW5nLiAuLi4gTG93LWJpdCBXZWlnaHQgUXVhbnRpemF0aW9uIG9mIExhcmdlIExhbmd1YWdlIE1vZGVscyAuLi4iLCJkYXRlIjoiTWF5IDIyLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJFZmZpY2llbnQgQWRhcHRpdmUgQWN0aXZhdGlvbiBSb3VuZGluZyBmb3IgUG9zdC1UcmFpbmluZyBRdWFudGl6YXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjA4LjExOTQ1djMiLCJzbmlwcGV0IjoiRE5OIHF1YW50aXphdGlvbiBwcmVzZW50cyBhIHNvbHV0aW9uIGJ5IHJlZHVjaW5nIGJvdGggY29tcHV0YXRpb25hbCBhbmQgc3RvcmFnZSBidXJkZW5zIGJ5IGNvbnZlcnRpbmcgZmxvYXRpbmctcG9pbnQgbnVtYmVycyBpbnRvIGxvdy1iaXQgcmVwcmVzZW50YXRpb25zLiBUaGlzIC4uLiIsImRhdGUiOiJBdWcgMjQsIDIwMjMiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkEgQ29tcHJlaGVuc2l2ZSBFdmFsdWF0aW9uIG9mIFF1YW50aXphdGlvbiBTdHJhdGVnaWVzZm9yIExhcmdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTY3NzV2MSIsInNuaXBwZXQiOiJUaGUgY2VudHJhbCBpZGVhIG9mIG1vZGVsIHF1YW50aXphdGlvbiBpcyByZXByZXNlbnRpbmcgdGhlIHdlaWdodHMgb3IgYWN0aXZhdGlvbnMgb2YgYSBtb2RlbCBpbiBhIGxvd2VyLXByZWNpc2lvbiBmb3JtYXQgKHN1Y2ggYXMgOC1iaXQgaW50ZWdlcnMpIHJhdGhlciB0aGFuIC4uLiIsImRhdGUiOiJGZWIgMjYsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkxMTS1RQmVuY2g6IEEgQmVuY2htYXJrIFRvd2FyZHMgdGhlIEJlc3QgUHJhY3RpY2UgZm9yIFBvc3QgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4wNjAwMXYxIiwic25pcHBldCI6IkhpZ2gtYml0IHF1YW50aXphdGlvbiBiZW5lZml0cyBmcm9tIGxvd2VyIG1peHR1cmUgcmF0ZXMsIHdoaWxlIGxvdy1iaXQgcmVxdWlyZXMgbW9yZSBmdWxsLXByZWNpc2lvbiB3ZWlnaHRzIGluIHNtYWxsIExMTXMgZm9yIGJldHRlciBwZXJmb3JtYW5jZS4iLCJkYXRlIjoiTWF5IDksIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlRyYWluYWJsZSBGaXhlZC1Qb2ludCBRdWFudGl6YXRpb24gZm9yIERlZXAgTGVhcm5pbmcgQWNjZWxlcmF0aW9uIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMTc1NDR2MSIsInNuaXBwZXQiOiJRRlggY2FuIHF1YW50aXplIG1vZGVscyB0cmFpbmVkIHdpdGggZWxlbWVudC13aXNlIGxheWVycyBxdWFudGl6ZWQgdG8gZmV3ZXIgYml0cyBhbmQgYWNoaWV2ZSBoaWdoZXIgYWNjdXJhY3kgb24gYm90aCBDSUZBUi0xMCBhbmQgSW1hZ2VOZXQgZGF0YXNldHMuIiwiZGF0ZSI6IkphbiAzMSwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiSW50ZWdlciBvciBGbG9hdGluZyBQb2ludD8gTmV3IE91dGxvb2tzIGZvciBMb3ctQml0IFF1YW50aXphdGlvbiBvbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA1LjEyMzU2djEiLCJzbmlwcGV0IjoiTG93LWJpdCBxdWFudGl6YXRpb24gcGxheXMgYSBjcnVjaWFsIHJvbGUgaW4gdGhlIGRlcGxveW1lbnQgb2YgZGVlcCBsZWFybmluZyBtb2RlbHMgZHVlIHRvIGl0cyBjYXBhY2l0eSB0byBtaW5pbWl6ZSB0aGUgbW9kZWwgc2l6ZSBhbmQgaW5mZXJlbmNlIGNvc3QgWzE4OyAxMF0gLiIsImRhdGUiOiJNYXkgMjEsIDIwMjMiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiSW50ZWdlciBPciBGbG9hdGluZyBQb2ludD8uLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA1LjEyMzU2djEjOn46dGV4dD1JbnRlZ2VyJTIwb3IlMjBGbG9hdGluZyUyMFBvaW50JTNGJTIwTmV3JTIwT3V0bG9va3MlMjBmb3IsLUxvdyUyREJpdCUyMFF1YW50aXphdGlvbiUyMG9uIn0seyJ0aXRsZSI6IjMuMiBRdWFudGl6YXRpb24gRXJyb3IiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA1LjEyMzU2djEjOn46dGV4dD0zLjIlMjBRdWFudGl6YXRpb24lMjBFcnJvciwtSW4lMjB0aGlzJTIwc3Vic2VjdGlvbiUyQyUyMHdlIn0seyJ0aXRsZSI6IjUgRXhwZXJpbWVudHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA1LjEyMzU2djEjOn46dGV4dD01JTIwRXhwZXJpbWVudHMsLUluJTIwdGhlJTIwZXhwZXJpbWVudHMlMkMlMjB3ZSJ9XSwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJGUDggUXVhbnRpemF0aW9uOiBUaGUgUG93ZXIgb2YgdGhlIEV4cG9uZW50IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjA4LjA5MjI1djIiLCJzbmlwcGV0IjoiUXVhbnRpemF0aW9uIGFsbG93cyB3ZWlnaHRzIGFuZCBhY3RpdmF0aW9ucyB0byBiZSByZXByZXNlbnRlZCBpbiBsb3cgYml0LXdpZHRoIGZvcm1hdHMsIGUuZy4gOCBiaXQgaW50ZWdlcnMgKElOVDgpLiBXaGVuIGV4ZWN1dGluZyBuZXR3b3JrcyBvbiBhbnkgZGV2aWNlLCB0aGlzIC4uLiIsImRhdGUiOiJBdWcgMjEsIDIwMjIiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlRlbXBvcmFsIER5bmFtaWMgUXVhbnRpemF0aW9uIGZvciBEaWZmdXNpb24gTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA2LjAyMzE2djIiLCJzbmlwcGV0IjoiUXVhbnRpemF0aW9uIGlzIGEgcHJvbWluZW50IG5ldXJhbCBuZXR3b3JrIG9wdGltaXphdGlvbiB0ZWNobmlxdWUgdGhhdCByZWR1Y2VzIHN0b3JhZ2UgcmVxdWlyZW1lbnRzIHdpdGggbG93LXByZWNpc2lvbiByZXByZXNlbnRhdGlvbiBhbmQgcGVyZm9ybWFuY2UgLi4uIiwiZGF0ZSI6IkRlYyAxMSwgMjAyMyIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "response_sha256": "84620086d6b449c674e49342010c2c872348d05cfbd04f399e8cb5b1987d3a7c",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Could you list research that demonstrates the advantages of Quantization-Aware Training (QAT), which can enable the model to learn better representations for low-bit weights?. before:2024-09-24 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "EdgeQAT: Entropy and Distribution Guided Quantization-Aware ...",
+        "link": "https://arxiv.org/html/2402.10787v1",
+        "snippet": "Quantization-Aware Training (QAT) presents a promising avenue for better performance in lower-bit configurations, but its data accessibility, training cost, and ...",
+        "date": "Feb 16, 2024",
+        "position": 1
+      },
+      {
+        "title": "Mobile-friendly Quantization for On-device Language Models - arXiv",
+        "link": "https://arxiv.org/html/2408.13933v1",
+        "snippet": "A standard approach to facilitate running these models on edge devices is to quantize them, representing weights and activations with fewer bits, thereby ...",
+        "date": "Aug 25, 2024",
+        "position": 2
+      },
+      {
+        "title": "L4Q: Parameter Efficient Quantization-Aware Fine-Tuning on ... - arXiv",
+        "link": "https://arxiv.org/html/2402.04902v3",
+        "snippet": "QAT has proven effective in adjusting the model parameters for quantization during training. ... Low-bit Weight Quantization of Large Language Models ...",
+        "date": "May 22, 2024",
+        "position": 3
+      },
+      {
+        "title": "Efficient Adaptive Activation Rounding for Post-Training Quantization",
+        "link": "https://arxiv.org/html/2208.11945v3",
+        "snippet": "DNN quantization presents a solution by reducing both computational and storage burdens by converting floating-point numbers into low-bit representations. This ...",
+        "date": "Aug 24, 2023",
+        "position": 4
+      },
+      {
+        "title": "A Comprehensive Evaluation of Quantization Strategiesfor Large ...",
+        "link": "https://arxiv.org/html/2402.16775v1",
+        "snippet": "The central idea of model quantization is representing the weights or activations of a model in a lower-precision format (such as 8-bit integers) rather than ...",
+        "date": "Feb 26, 2024",
+        "position": 5
+      },
+      {
+        "title": "LLM-QBench: A Benchmark Towards the Best Practice for Post ...",
+        "link": "https://arxiv.org/html/2405.06001v1",
+        "snippet": "High-bit quantization benefits from lower mixture rates, while low-bit requires more full-precision weights in small LLMs for better performance.",
+        "date": "May 9, 2024",
+        "position": 6
+      },
+      {
+        "title": "Trainable Fixed-Point Quantization for Deep Learning Acceleration ...",
+        "link": "https://arxiv.org/html/2401.17544v1",
+        "snippet": "QFX can quantize models trained with element-wise layers quantized to fewer bits and achieve higher accuracy on both CIFAR-10 and ImageNet datasets.",
+        "date": "Jan 31, 2024",
+        "position": 7
+      },
+      {
+        "title": "Integer or Floating Point? New Outlooks for Low-Bit Quantization on ...",
+        "link": "https://arxiv.org/html/2305.12356v1",
+        "snippet": "Low-bit quantization plays a crucial role in the deployment of deep learning models due to its capacity to minimize the model size and inference cost [18; 10] .",
+        "date": "May 21, 2023",
+        "sitelinks": [
+          {
+            "title": "Integer Or Floating Point?...",
+            "link": "https://arxiv.org/html/2305.12356v1#:~:text=Integer%20or%20Floating%20Point%3F%20New%20Outlooks%20for,-Low%2DBit%20Quantization%20on"
+          },
+          {
+            "title": "3.2 Quantization Error",
+            "link": "https://arxiv.org/html/2305.12356v1#:~:text=3.2%20Quantization%20Error,-In%20this%20subsection%2C%20we"
+          },
+          {
+            "title": "5 Experiments",
+            "link": "https://arxiv.org/html/2305.12356v1#:~:text=5%20Experiments,-In%20the%20experiments%2C%20we"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "FP8 Quantization: The Power of the Exponent - arXiv",
+        "link": "https://arxiv.org/html/2208.09225v2",
+        "snippet": "Quantization allows weights and activations to be represented in low bit-width formats, e.g. 8 bit integers (INT8). When executing networks on any device, this ...",
+        "date": "Aug 21, 2022",
+        "position": 9
+      },
+      {
+        "title": "Temporal Dynamic Quantization for Diffusion Models - arXiv",
+        "link": "https://arxiv.org/html/2306.02316v2",
+        "snippet": "Quantization is a prominent neural network optimization technique that reduces storage requirements with low-precision representation and performance ...",
+        "date": "Dec 11, 2023",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "status": "PASS",
+  "finished_utc": "2026-09-15T06:30:30.605718+00:00",
+  "elapsed_seconds": 3.8924484699964523
+}

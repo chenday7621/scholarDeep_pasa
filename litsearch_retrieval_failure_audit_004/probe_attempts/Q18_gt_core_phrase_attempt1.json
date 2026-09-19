@@ -1,0 +1,197 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q18",
+  "group": "author-written",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2309.05653",
+  "request_payload": {
+    "q": "mammoth building math generalist hybrid instruction before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 38,
+  "started_utc": "2026-09-17T12:34:07.270300+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648170",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "aa804a05f77d4b407a3ec8f4a4edb5fa",
+    "date": "Thu, 17 Sep 2026 12:29:28 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3355",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3355,
+  "response_bytes_sha256": "8f09acebdf1a45d3921259bde63950dce9de83e7755624e436fbbef35cd8bafa",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJtYW1tb3RoIGJ1aWxkaW5nIG1hdGggZ2VuZXJhbGlzdCBoeWJyaWQgaW5zdHJ1Y3Rpb24gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiTUFtbW9USDogQnVpbGRpbmcgTWF0aCBHZW5lcmFsaXN0IE1vZGVscyB0aHJvdWdoIEh5YnJpZCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwOS4wNTY1MyIsInNuaXBwZXQiOiJNb2RlbHMgdGhyb3VnaCBIeWJyaWQgSW5zdHJ1Y3Rpb24gVHVuaW5nLiBNQW1tb1RILCBhIHNlcmllcyBvZiBvcGVuLXNvdXJjZSBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpIHNwZWNpZmljYWxseSB0YWlsb3JlZCBmb3IgZ2VuZXJhbCBtYXRoIHByb2JsZW0tc29sdmluZy4gLi4uIiwiZGF0ZSI6IlNlcCAxMSwgMjAyMyIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMwOS4wNTY1M3YzIFtjcy5DTF0gMyBPY3QgMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwOS4wNTY1MyIsInNuaXBwZXQiOiJNQU1NT1RIOiBCVUlMRElORyBNQVRIIEdFTkVSQUxJU1QgTU9ERUxTLiBUSFJPVUdIIEhZQlJJRCBJTlNUUlVDVElPTiBUVU5JTkcgLi4uIGFuZCB0aGUgdXNlIG9mIGh5YnJpZCByYXRpb25hbGVzIGluIGRldmVsb3Bpbmcgc3VwZXJpb3IgbWF0aCBnZW5lcmFsaXN0IG1vZGVscy4iLCJkYXRlIjoiT2N0IDMsIDIwMjMiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6Ikl0ZXJhdGl2ZSBMTE0tQmFzZWQgR2VuZXJhdGlvbiBhbmQgUmVmaW5lbWVudCBvZiBEaXN0cmFjdGluZyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTEwLjA4NjE1djEiLCJzbmlwcGV0IjoiTUFtbW9USCBbMTldIGJ1aWxkcyBNYXRoSW5zdHJ1Y3QsIGFuIGluc3RydWN0aW9uLXR1bmluZyBkYXRhc2V0IHRoYXQgam9pbnRseSB0cmFpbnMgTExNcyBvbiB0ZXh0dWFsIGFuZCBjb2RlLWJhc2VkIHJlYXNvbmluZy4gTWFtbW90aDogQnVpbGRpbmcgbWF0aCBnZW5lcmFsaXN0IC4uLiIsImRhdGUiOiJPY3QgOCwgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwMy4xODI5NXYxIFtjcy5DTF0gMjcgTWFyIDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDMuMTgyOTUiLCJzbmlwcGV0IjoidGhpcyBzdHVkeSBhZG9wdHMgYSBoeWJyaWQgaW5zdHJ1Y3Rpb24gdHVuLSBpbmcgc3RyYXRlZ3ksIGluY2x1ZGluZyBib3RoIENvVCBhbmQgUG9UIGRhdGEsIE1hbW1vdGg6IEJ1aWxkaW5nIG1hdGggZ2VuZXJhbGlzdCBtb2RlbHMgdGhyb3VnaCBoeWJyaWQgaW5zdHJ1Y3Rpb24gLi4uIiwiZGF0ZSI6Ik1hciAyNywgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiTWF0aENhbnZhczogSW50cmluc2ljIFZpc3VhbCBDaGFpbi1vZi1UaG91Z2h0IGZvciBNdWx0aW1vZGFsIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUxMC4xNDk1OHYxIiwic25pcHBldCI6Ik1hbW1vdGg6IEJ1aWxkaW5nIG1hdGggZ2VuZXJhbGlzdCBtb2RlbHMgdGhyb3VnaCBoeWJyaWQgaW5zdHJ1Y3Rpb24gdHVuaW5nLiIsImRhdGUiOiJPY3QgMTYsIDIwMjUiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6Ik9wZW5NYXRoSW5zdHJ1Y3QtMTogQSAxLjggTWlsbGlvbiBNYXRoIEluc3RydWN0aW9uIFR1bmluZyBEYXRhc2V0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4xMDE3NnYxIiwic25pcHBldCI6Ik1BbW1vVEg6IEJ1aWxkaW5nIG1hdGggZ2VuZXJhbGlzdCBtb2RlbHMgdGhyb3VnaCBoeWJyaWQgaW5zdHJ1Y3Rpb24gdHVuaW5nLiBJbiBJQ0xSLiBaZWxpa21hbiBldCBhbC4gKDIwMjIpIEVyaWMgWmVsaWttYW4sIFl1aHVhaSBXdSwgSmVzc2UgTXUsIGFuZCBOb2FoIC4uLiIsImRhdGUiOiJGZWIgMTUsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6Ik1BVklTOiBNYXRoZW1hdGljYWwgVmlzdWFsIEluc3RydWN0aW9uIFR1bmluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4wODczOXYxIiwic25pcHBldCI6Ik1BVklTLCB0aGUgZmlyc3QgbWF0aGVtYXRpY2FsIHZpc3VhbCBpbnN0cnVjdGlvbiB0dW5pbmcgcGFyYWRpZ20gZm9yIE1MTE1zLiBNYW1tb3RoOiBCdWlsZGluZyBtYXRoIGdlbmVyYWxpc3QgbW9kZWxzIHRocm91Z2ggaHlicmlkIGluc3RydWN0aW9uIHR1bmluZy4gU2NhbGluZyAuLi4iLCJkYXRlIjoiSnVsIDExLCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJDYW4gTExNcyBNYXN0ZXIgTWF0aD8gSW52ZXN0aWdhdGluZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgb24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNC4wMDM0NHYxIiwic25pcHBldCI6Ik1BbW1vVEg6IEJ1aWxkaW5nIE1hdGggR2VuZXJhbGlzdCBNb2RlbHMgdGhyb3VnaCBIeWJyaWQgSW5zdHJ1Y3Rpb24gVHVuaW5nLiAuLi4gT25lIEJsYWRlIGZvciBPbmUgUHVycG9zZTogQWR2YW5jaW5nIE1hdGggSW5mb3JtYXRpb24gUmV0cmlldmFsIFVzaW5nIEh5YnJpZCAuLi4iLCJkYXRlIjoiTWFyIDMwLCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJCb29zdGluZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgd2l0aCBTb2NyYXRpYyBNZXRob2QgZm9yIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4xNzM0OXYxIiwic25pcHBldCI6IlRoZSBnb2FsIG9mIHRoaXMgcGFwZXIgaXMgbWF0aGVtYXRpY2FsIHRlYWNoaW5nIHVzaW5nIFNvY3JhdGljIHRlYWNoaW5nLiAuLi4gTWFtbW90aDogQnVpbGRpbmcgbWF0aCBnZW5lcmFsaXN0IG1vZGVscyB0aHJvdWdoIGh5YnJpZCBpbnN0cnVjdGlvbiB0dW5pbmcuIiwiZGF0ZSI6Ikp1bCAyNCwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiU3lzdGVtLTIgTWF0aGVtYXRpY2FsIFJlYXNvbmluZyB2aWEgRW5yaWNoZWQgSW5zdHJ1Y3Rpb24gVHVuaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMi4xNjk2NHYxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGFpbSB0byBidWlsZCBhbiBMTE0gY2FwYWJsZSBvZiBzeXN0ZW0tMiBtYXRoZW1hdGljYWwgcmVhc29uaW5nLiAuLi4gTWFtbW90aDogQnVpbGRpbmcgbWF0aCBnZW5lcmFsaXN0IG1vZGVscyB0aHJvdWdoIGh5YnJpZCBpbnN0cnVjdGlvbiB0dW5pbmcuIiwiZGF0ZSI6IkRlYyAyMiwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "mammoth building math generalist hybrid instruction before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "MAmmoTH: Building Math Generalist Models through Hybrid ... - arXiv",
+        "link": "https://arxiv.org/abs/2309.05653",
+        "snippet": "Models through Hybrid Instruction Tuning. MAmmoTH, a series of open-source large language models (LLMs) specifically tailored for general math problem-solving. ...",
+        "date": "Sep 11, 2023",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2309.05653v3 [cs.CL] 3 Oct 2023",
+        "link": "https://arxiv.org/pdf/2309.05653",
+        "snippet": "MAMMOTH: BUILDING MATH GENERALIST MODELS. THROUGH HYBRID INSTRUCTION TUNING ... and the use of hybrid rationales in developing superior math generalist models.",
+        "date": "Oct 3, 2023",
+        "position": 2
+      },
+      {
+        "title": "Iterative LLM-Based Generation and Refinement of Distracting ...",
+        "link": "https://arxiv.org/html/2510.08615v1",
+        "snippet": "MAmmoTH [19] builds MathInstruct, an instruction-tuning dataset that jointly trains LLMs on textual and code-based reasoning. Mammoth: Building math generalist ...",
+        "date": "Oct 8, 2025",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2403.18295v1 [cs.CL] 27 Mar 2024",
+        "link": "https://arxiv.org/pdf/2403.18295",
+        "snippet": "this study adopts a hybrid instruction tun- ing strategy, including both CoT and PoT data, Mammoth: Building math generalist models through hybrid instruction ...",
+        "date": "Mar 27, 2024",
+        "position": 4
+      },
+      {
+        "title": "MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal ... - arXiv",
+        "link": "https://arxiv.org/html/2510.14958v1",
+        "snippet": "Mammoth: Building math generalist models through hybrid instruction tuning.",
+        "date": "Oct 16, 2025",
+        "position": 5
+      },
+      {
+        "title": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+        "link": "https://arxiv.org/html/2402.10176v1",
+        "snippet": "MAmmoTH: Building math generalist models through hybrid instruction tuning. In ICLR. Zelikman et al. (2022) Eric Zelikman, Yuhuai Wu, Jesse Mu, and Noah ...",
+        "date": "Feb 15, 2024",
+        "position": 6
+      },
+      {
+        "title": "MAVIS: Mathematical Visual Instruction Tuning - arXiv",
+        "link": "https://arxiv.org/html/2407.08739v1",
+        "snippet": "MAVIS, the first mathematical visual instruction tuning paradigm for MLLMs. Mammoth: Building math generalist models through hybrid instruction tuning. Scaling ...",
+        "date": "Jul 11, 2024",
+        "position": 7
+      },
+      {
+        "title": "Can LLMs Master Math? Investigating Large Language Models on ...",
+        "link": "https://arxiv.org/html/2404.00344v1",
+        "snippet": "MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning. ... One Blade for One Purpose: Advancing Math Information Retrieval Using Hybrid ...",
+        "date": "Mar 30, 2024",
+        "position": 8
+      },
+      {
+        "title": "Boosting Large Language Models with Socratic Method for ... - arXiv",
+        "link": "https://arxiv.org/html/2407.17349v1",
+        "snippet": "The goal of this paper is mathematical teaching using Socratic teaching. ... Mammoth: Building math generalist models through hybrid instruction tuning.",
+        "date": "Jul 24, 2024",
+        "position": 9
+      },
+      {
+        "title": "System-2 Mathematical Reasoning via Enriched Instruction Tuning",
+        "link": "https://arxiv.org/html/2412.16964v1",
+        "snippet": "In this paper, we aim to build an LLM capable of system-2 mathematical reasoning. ... Mammoth: Building math generalist models through hybrid instruction tuning.",
+        "date": "Dec 22, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "MAmmoTH: Building Math Generalist Models through Hybrid ... - arXiv",
+      "snippet": "Models through Hybrid Instruction Tuning. MAmmoTH, a series of open-source large language models (LLMs) specifically tailored for general math problem-solving. ...",
+      "link": "https://arxiv.org/abs/2309.05653",
+      "arxiv_id": "2309.05653"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2309.05653v3 [cs.CL] 3 Oct 2023",
+      "snippet": "MAMMOTH: BUILDING MATH GENERALIST MODELS. THROUGH HYBRID INSTRUCTION TUNING ... and the use of hybrid rationales in developing superior math generalist models.",
+      "link": "https://arxiv.org/pdf/2309.05653",
+      "arxiv_id": "2309.05653"
+    },
+    {
+      "rank": 3,
+      "title": "Iterative LLM-Based Generation and Refinement of Distracting ...",
+      "snippet": "MAmmoTH [19] builds MathInstruct, an instruction-tuning dataset that jointly trains LLMs on textual and code-based reasoning. Mammoth: Building math generalist ...",
+      "link": "https://arxiv.org/html/2510.08615v1",
+      "arxiv_id": "2510.08615"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2403.18295v1 [cs.CL] 27 Mar 2024",
+      "snippet": "this study adopts a hybrid instruction tun- ing strategy, including both CoT and PoT data, Mammoth: Building math generalist models through hybrid instruction ...",
+      "link": "https://arxiv.org/pdf/2403.18295",
+      "arxiv_id": "2403.18295"
+    },
+    {
+      "rank": 5,
+      "title": "MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal ... - arXiv",
+      "snippet": "Mammoth: Building math generalist models through hybrid instruction tuning.",
+      "link": "https://arxiv.org/html/2510.14958v1",
+      "arxiv_id": "2510.14958"
+    },
+    {
+      "rank": 6,
+      "title": "OpenMathInstruct-1: A 1.8 Million Math Instruction Tuning Dataset",
+      "snippet": "MAmmoTH: Building math generalist models through hybrid instruction tuning. In ICLR. Zelikman et al. (2022) Eric Zelikman, Yuhuai Wu, Jesse Mu, and Noah ...",
+      "link": "https://arxiv.org/html/2402.10176v1",
+      "arxiv_id": "2402.10176"
+    },
+    {
+      "rank": 7,
+      "title": "MAVIS: Mathematical Visual Instruction Tuning - arXiv",
+      "snippet": "MAVIS, the first mathematical visual instruction tuning paradigm for MLLMs. Mammoth: Building math generalist models through hybrid instruction tuning. Scaling ...",
+      "link": "https://arxiv.org/html/2407.08739v1",
+      "arxiv_id": "2407.08739"
+    },
+    {
+      "rank": 8,
+      "title": "Can LLMs Master Math? Investigating Large Language Models on ...",
+      "snippet": "MAmmoTH: Building Math Generalist Models through Hybrid Instruction Tuning. ... One Blade for One Purpose: Advancing Math Information Retrieval Using Hybrid ...",
+      "link": "https://arxiv.org/html/2404.00344v1",
+      "arxiv_id": "2404.00344"
+    },
+    {
+      "rank": 9,
+      "title": "Boosting Large Language Models with Socratic Method for ... - arXiv",
+      "snippet": "The goal of this paper is mathematical teaching using Socratic teaching. ... Mammoth: Building math generalist models through hybrid instruction tuning.",
+      "link": "https://arxiv.org/html/2407.17349v1",
+      "arxiv_id": "2407.17349"
+    },
+    {
+      "rank": 10,
+      "title": "System-2 Mathematical Reasoning via Enriched Instruction Tuning",
+      "snippet": "In this paper, we aim to build an LLM capable of system-2 mathematical reasoning. ... Mammoth: Building math generalist models through hybrid instruction tuning.",
+      "link": "https://arxiv.org/html/2412.16964v1",
+      "arxiv_id": "2412.16964"
+    }
+  ],
+  "gold_hit_ranks": [
+    1,
+    2
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:08.058332+00:00",
+  "elapsed_seconds": 0.7880334593355656
+}

@@ -1,0 +1,199 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 40,
+  "question_id": "Q42",
+  "group": "inline-citation",
+  "native_query_index": 4,
+  "native_query": "Pre-trained multilingual text-to-text transformer for text summarization",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "2010.11934",
+  "page": 3,
+  "payload": {
+    "q": "Pre-trained multilingual text-to-text transformer for text summarization before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 3
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 40,
+  "started_utc": "2026-09-17T12:45:17.974353+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648840",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "a24d6156654d29ddd57825c8787e3bd6",
+    "date": "Thu, 17 Sep 2026 12:40:39 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3196",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3196,
+  "response_bytes_sha256": "fadd2dd29bb08dc17b3b47344620aa40cb852d28bf0e098ae8622fea477c3f04",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJQcmUtdHJhaW5lZCBtdWx0aWxpbmd1YWwgdGV4dC10by10ZXh0IHRyYW5zZm9ybWVyIGZvciB0ZXh0IHN1bW1hcml6YXRpb24gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MywiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiQ29udmVudGlvbiB0ZXh0IC0gVU5DQ0QiLCJsaW5rIjoiaHR0cHM6Ly93d3cudW5jY2QuaW50L3Jlc291cmNlL2NvbnZlbnRpb24tdGV4dCIsInNuaXBwZXQiOiJVbml0ZWQgTmF0aW9ucyBDb252ZW50aW9uIHRvIENvbWJhdCBEZXNlcnRpZmljYXRpb24gaW4gdGhvc2UgY291bnRyaWVzIGV4cGVyaWVuY2luZyBzZXJpb3VzIGRyb3VnaHQgYW5kL29yIGRlc2VydGlmaWNhdGlvbiwgcGFydGljdWxhcmx5IGluIEFmcmljYS4iLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IjEwMCBUZXh0IEVmZmVjdHMgSW4gTGVzcyBUaGFuIDUgTWludXRlcyAtIFlvdVR1YmUiLCJsaW5rIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1KUVUzX3dKLUZ5SSIsInNuaXBwZXQiOiIuLi4gdGV4dCBlZmZlY3RzIGJ5IHNpbXBseSB1c2luZyBLaXR0bCdzIHJlbWl4IHN0eWxlcyBmZWF0dXJlLiBKdXN0IHNlbGVjdCB5b3VyIHRleHQsIG9wZW4gdXAgdGhlIHN0eWxlcyBwYW5lbCwgYW5kIGhpdCBnZW5lcmF0ZSB0byB3YXRjaCB0aGUgbWFnaWMgaGFwcGVuLiBCZSAuLi4iLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlRFWFQgLSBHb29nbGUgRG9jcyBFZGl0b3JzIEhlbHAiLCJsaW5rIjoiaHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vZG9jcy9hbnN3ZXIvMzA5NDEzOT9obD1lbiIsInNuaXBwZXQiOiJURVhULiBDb252ZXJ0cyBhIG51bWJlciBpbnRvIHRleHQgYWNjb3JkaW5nIHRvIGEgc3BlY2lmaWVkIGZvcm1hdC4gRXhhbXBsZXMuIE1ha2UgYSBjb3B5LiBTYW1wbGUgVXNhZ2UuIFRFWFQoMS4yMyxcIiQwLjAwXCIpLiBURVhUKEEyLFwiIy4jIyNcIikuIFRFWFQoMjQsXCIjLjA/XCIpLiIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiMyBFYXN5IFdheXMgVG8gTWFrZSBXYXZ5IFRleHQgSW4gUGhvdG9zaG9wIC0gWW91VHViZSIsImxpbmsiOiJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUd0TkVlRy1mX1JjIiwic25pcHBldCI6IkluIHRoaXMgUGhvdG9zaG9wIHR1dG9yaWFsIHlvdSdsbCBsZWFybiB0aHJlZSBlYXN5IHdheXMgdG8gY3JlYXRlIHdhdnkgdGV4dCB0byBzdWl0IHlvdXIgc2tpbGwgbGV2ZWwgYW5kIGRlc2lnbiBuZWVkcy4gV2l0aCBzb21lIGJhc2ljIHdhcnBpbmcgYWRqdXN0bWVudHMgLi4uIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJUZXh0IERpZmZ1c2lvbiDigJQgQnJlbmRhbiBPJ0Rvbm9naHVlLCBHb29nbGUgRGVlcE1pbmQgLSBZb3VUdWJlIiwibGluayI6Imh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9cjMwNS1hUVRhVTAiLCJzbmlwcGV0IjoiMDowMCBJbnRyb2R1Y3Rpb24gdG8gVGV4dCBEaWZmdXNpb24gOyAxOjAyIEhvdyBUZXh0IERpZmZ1c2lvbiBXb3JrcyAoVHJhaW5pbmcgYW5kIEluZmVyZW5jZSkgOyAyOjA2IEdlbWluaSBEaWZmdXNpb24gUmVzZWFyY2ggUHJldmlldyA7IDM6MDQgRGlmZmVyZW5jZSBCZXR3ZWVuIC4uLiIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiU1RJQ0sgVEVYVCB0byBhIE1PVklORyBPYmplY3QgaW4gMzAgU2Vjb25kcyBpbiBEYVZpbmNpIFJlc29sdmUiLCJsaW5rIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vc2hvcnRzL3N6MzlDUkM5T284P3ZsPWVuIiwic25pcHBldCI6IkhvdyB0byBzdGljayB0ZXh0IHRvIGEgbW92aW5nIG9iamVjdCBpbiBEYVZpbmNpIFJlc29sdmUgMTguIEEgMzAtc2Vjb25kIG9iamVjdCB0cmFja2luZyB0dXRvcmlhbC4uLiDimqHvuI4gSG93IEkgQ29sb3IgR3JhZGUgTXkgVmlkZW9zOiAuLi4iLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlBTQVAgVGV4dC10by05MTEgUmVhZGluZXNzIGFuZCBDZXJ0aWZpY2F0aW9uIEZvcm0iLCJsaW5rIjoiaHR0cHM6Ly93d3cuZmNjLmdvdi9nZW5lcmFsL3BzYXAtdGV4dC05MTEtcmVhZGluZXNzLWFuZC1jZXJ0aWZpY2F0aW9uLWZvcm0iLCJzbmlwcGV0IjoiVGhpcyB3ZWJzaXRlIHByb3ZpZGVzIGluZm9ybWF0aW9uIG9uIHRoZSBDb21taXNzaW9uJ3MgdGV4dC10by05MTEgYW5kIFJUVCBydWxlcyBhbmQgdGhlIFRleHQtdG8tOTExIFJlZ2lzdHJ5LCBhcyB3ZWxsIGFzIGluc3RydWN0aW9ucyBmb3IgOTExIGF1dGhvcml0aWVzIGFuZCAuLi4iLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkR5bmFtaWMgVGV4dCBpbiBQaG90b3Nob3AgQmV0YSAtIFlvdVR1YmUiLCJsaW5rIjoiaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1aLXNZOUx1R2stdyIsInNuaXBwZXQiOiJJbiB0aGlzIHZpZGVvIEp1bGllYW5uZSBkZW1vbnN0cmF0ZXMgdGhlIG5ldyBEeW5hbWljIFRleHQgZmVhdHVyZSBpbiBQaG90b3Nob3AgQmV0YSB0aGF0IGF1dG9tYXRpY2FsbHkgcmVzaXplcyBhbmQgcmVmbG93cyByZS1lZGl0YWJsZSB0ZXh0IHRvIGZpbGwgdGhlIC4uLiIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiVGV4dCAtIFNjaGVtYS5vcmcgRGF0YSBUeXBlIiwibGluayI6Imh0dHBzOi8vc2NoZW1hLm9yZy9UZXh0Iiwic25pcHBldCI6IkZvciBhbiBBcnRpY2xlLCB0eXBpY2FsbHkgYSBOZXdzQXJ0aWNsZSwgdGhlIGJhY2tzdG9yeSBwcm9wZXJ0eSBwcm92aWRlcyBhIHRleHR1YWwgc3VtbWFyeSBnaXZpbmcgYSBicmllZiBleHBsYW5hdGlvbiBvZiB3aHkgYW5kIGhvdyBhbiBhcnRpY2xlIHdhcyBjcmVhdGVkLiBJbiAuLi4iLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlRleHQgZmllbGQgdHlwZSB8IEVsYXN0aWNzZWFyY2ggUmVmZXJlbmNlIiwibGluayI6Imh0dHBzOi8vd3d3LmVsYXN0aWMuY28vZG9jcy9yZWZlcmVuY2UvZWxhc3RpY3NlYXJjaC9tYXBwaW5nLXJlZmVyZW5jZS90ZXh0Iiwic25pcHBldCI6IkEgZmllbGQgdG8gaW5kZXggZnVsbC10ZXh0IHZhbHVlcywgc3VjaCBhcyB0aGUgYm9keSBvZiBhbiBlbWFpbCBvciB0aGUgZGVzY3JpcHRpb24gb2YgYSBwcm9kdWN0LiBUaGVzZSBmaWVsZHMgYXJlIGFuYWx5emVkLCB0aGF0IGlzIHRoZXkgYXJlIHBhc3NlZCB0aHJvdWdoLiIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Pre-trained multilingual text-to-text transformer for text summarization before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 3,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Convention text - UNCCD",
+        "link": "https://www.unccd.int/resource/convention-text",
+        "snippet": "United Nations Convention to Combat Desertification in those countries experiencing serious drought and/or desertification, particularly in Africa.",
+        "position": 1
+      },
+      {
+        "title": "100 Text Effects In Less Than 5 Minutes - YouTube",
+        "link": "https://www.youtube.com/watch?v=JQU3_wJ-FyI",
+        "snippet": "... text effects by simply using Kittl's remix styles feature. Just select your text, open up the styles panel, and hit generate to watch the magic happen. Be ...",
+        "position": 2
+      },
+      {
+        "title": "TEXT - Google Docs Editors Help",
+        "link": "https://support.google.com/docs/answer/3094139?hl=en",
+        "snippet": "TEXT. Converts a number into text according to a specified format. Examples. Make a copy. Sample Usage. TEXT(1.23,\"$0.00\"). TEXT(A2,\"#.###\"). TEXT(24,\"#.0?\").",
+        "position": 3
+      },
+      {
+        "title": "3 Easy Ways To Make Wavy Text In Photoshop - YouTube",
+        "link": "https://www.youtube.com/watch?v=GtNEeG-f_Rc",
+        "snippet": "In this Photoshop tutorial you'll learn three easy ways to create wavy text to suit your skill level and design needs. With some basic warping adjustments ...",
+        "position": 4
+      },
+      {
+        "title": "Text Diffusion — Brendan O'Donoghue, Google DeepMind - YouTube",
+        "link": "https://www.youtube.com/watch?v=r305-aQTaU0",
+        "snippet": "0:00 Introduction to Text Diffusion ; 1:02 How Text Diffusion Works (Training and Inference) ; 2:06 Gemini Diffusion Research Preview ; 3:04 Difference Between ...",
+        "position": 5
+      },
+      {
+        "title": "STICK TEXT to a MOVING Object in 30 Seconds in DaVinci Resolve",
+        "link": "https://www.youtube.com/shorts/sz39CRC9Oo8?vl=en",
+        "snippet": "How to stick text to a moving object in DaVinci Resolve 18. A 30-second object tracking tutorial... ⚡︎ How I Color Grade My Videos: ...",
+        "position": 6
+      },
+      {
+        "title": "PSAP Text-to-911 Readiness and Certification Form",
+        "link": "https://www.fcc.gov/general/psap-text-911-readiness-and-certification-form",
+        "snippet": "This website provides information on the Commission's text-to-911 and RTT rules and the Text-to-911 Registry, as well as instructions for 911 authorities and ...",
+        "position": 7
+      },
+      {
+        "title": "Dynamic Text in Photoshop Beta - YouTube",
+        "link": "https://www.youtube.com/watch?v=Z-sY9LuGk-w",
+        "snippet": "In this video Julieanne demonstrates the new Dynamic Text feature in Photoshop Beta that automatically resizes and reflows re-editable text to fill the ...",
+        "position": 8
+      },
+      {
+        "title": "Text - Schema.org Data Type",
+        "link": "https://schema.org/Text",
+        "snippet": "For an Article, typically a NewsArticle, the backstory property provides a textual summary giving a brief explanation of why and how an article was created. In ...",
+        "position": 9
+      },
+      {
+        "title": "Text field type | Elasticsearch Reference",
+        "link": "https://www.elastic.co/docs/reference/elasticsearch/mapping-reference/text",
+        "snippet": "A field to index full-text values, such as the body of an email or the description of a product. These fields are analyzed, that is they are passed through.",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank_on_page": 1,
+      "nominal_rank": 21,
+      "title": "Convention text - UNCCD",
+      "snippet": "United Nations Convention to Combat Desertification in those countries experiencing serious drought and/or desertification, particularly in Africa.",
+      "link": "https://www.unccd.int/resource/convention-text",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 2,
+      "nominal_rank": 22,
+      "title": "100 Text Effects In Less Than 5 Minutes - YouTube",
+      "snippet": "... text effects by simply using Kittl's remix styles feature. Just select your text, open up the styles panel, and hit generate to watch the magic happen. Be ...",
+      "link": "https://www.youtube.com/watch?v=JQU3_wJ-FyI",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 3,
+      "nominal_rank": 23,
+      "title": "TEXT - Google Docs Editors Help",
+      "snippet": "TEXT. Converts a number into text according to a specified format. Examples. Make a copy. Sample Usage. TEXT(1.23,\"$0.00\"). TEXT(A2,\"#.###\"). TEXT(24,\"#.0?\").",
+      "link": "https://support.google.com/docs/answer/3094139?hl=en",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 4,
+      "nominal_rank": 24,
+      "title": "3 Easy Ways To Make Wavy Text In Photoshop - YouTube",
+      "snippet": "In this Photoshop tutorial you'll learn three easy ways to create wavy text to suit your skill level and design needs. With some basic warping adjustments ...",
+      "link": "https://www.youtube.com/watch?v=GtNEeG-f_Rc",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 5,
+      "nominal_rank": 25,
+      "title": "Text Diffusion — Brendan O'Donoghue, Google DeepMind - YouTube",
+      "snippet": "0:00 Introduction to Text Diffusion ; 1:02 How Text Diffusion Works (Training and Inference) ; 2:06 Gemini Diffusion Research Preview ; 3:04 Difference Between ...",
+      "link": "https://www.youtube.com/watch?v=r305-aQTaU0",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 6,
+      "nominal_rank": 26,
+      "title": "STICK TEXT to a MOVING Object in 30 Seconds in DaVinci Resolve",
+      "snippet": "How to stick text to a moving object in DaVinci Resolve 18. A 30-second object tracking tutorial... ⚡︎ How I Color Grade My Videos: ...",
+      "link": "https://www.youtube.com/shorts/sz39CRC9Oo8?vl=en",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 7,
+      "nominal_rank": 27,
+      "title": "PSAP Text-to-911 Readiness and Certification Form",
+      "snippet": "This website provides information on the Commission's text-to-911 and RTT rules and the Text-to-911 Registry, as well as instructions for 911 authorities and ...",
+      "link": "https://www.fcc.gov/general/psap-text-911-readiness-and-certification-form",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 8,
+      "nominal_rank": 28,
+      "title": "Dynamic Text in Photoshop Beta - YouTube",
+      "snippet": "In this video Julieanne demonstrates the new Dynamic Text feature in Photoshop Beta that automatically resizes and reflows re-editable text to fill the ...",
+      "link": "https://www.youtube.com/watch?v=Z-sY9LuGk-w",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 9,
+      "nominal_rank": 29,
+      "title": "Text - Schema.org Data Type",
+      "snippet": "For an Article, typically a NewsArticle, the backstory property provides a textual summary giving a brief explanation of why and how an article was created. In ...",
+      "link": "https://schema.org/Text",
+      "arxiv_id": null
+    },
+    {
+      "rank_on_page": 10,
+      "nominal_rank": 30,
+      "title": "Text field type | Elasticsearch Reference",
+      "snippet": "A field to index full-text values, such as the body of an email or the description of a product. These fields are analyzed, that is they are passed through.",
+      "link": "https://www.elastic.co/docs/reference/elasticsearch/mapping-reference/text",
+      "arxiv_id": null
+    }
+  ],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:45:19.537285+00:00",
+  "elapsed_seconds": 1.5629622787237167
+}

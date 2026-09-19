@@ -1,0 +1,203 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q20",
+  "group": "author-written",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2307.07380",
+  "request_payload": {
+    "q": "composition contrastive sentence embeddings before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 41,
+  "started_utc": "2026-09-17T12:34:11.944072+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648175",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "79e163e83bbed8aa3bc9978101f3ff36",
+    "date": "Thu, 17 Sep 2026 12:29:34 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3316",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3316,
+  "response_bytes_sha256": "657e6ee974f87f84c823a5593996de5466eb255a2c9a9fb2999049126eb7bac5",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJjb21wb3NpdGlvbiBjb250cmFzdGl2ZSBzZW50ZW5jZSBlbWJlZGRpbmdzIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDcuMDczODB2MSBbY3MuQ0xdIDE0IEp1bCAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA3LjA3MzgwIiwic25pcHBldCI6IkNvbXBvc2l0aW9uLWNvbnRyYXN0aXZlIExlYXJuaW5nIGZvciBTZW50ZW5jZSBFbWJlZGRpbmdzIOKApiBhIHNpbXBsZSB5ZXQgZWZmZWN0aXZlIGZyYW1ld29yayBmb3IgdW4tIHN1cGVydmlzZWQgbGVhcm5pbmcgb2Ygc2VudGVuY2UgZW1iZWRkaW5ncy4gSGVyZSwgd2UgbWFrZSBhIC4uLiIsImRhdGUiOiJKdWwgMTQsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IltQREZdIFNlbUNTRTogU2VtYW50aWMgQ29udHJhc3RpdmUgU2VudGVuY2UgRW1iZWRkaW5ncyBVc2luZyBMTE0gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA3LjEzMTA1Iiwic25pcHBldCI6IldlIGludHJvZHVjZSBTZW1DU0UsIGFuIHVuc3VwZXJ2aXNlZCBtZXRob2QgZm9yIGxlYXJuaW5nIHNlbWFudGljIGVtYmVkZGluZ3Mgb2Ygc2NpZW50aWZpYyB0ZXh0cy4gQnVpbGRpbmcgb24gcmVjZW50IGFkdmFuY2VzIGluIGNvbnRyYXN0aXZlIGxlYXJuaW5nIGZvciAuLi4iLCJkYXRlIjoiSnVsIDE3LCAyMDI1IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJFdmFsdWF0aW5nIFVuc3VwZXJ2aXNlZCBEaW1lbnNpb25hbGl0eSBSZWR1Y3Rpb24gTWV0aG9kcyBmb3IgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4xNDAwMXYxIiwic25pcHBldCI6IlNlbnRlbmNlIGVtYmVkZGluZyBtb2RlbHMgcmVwcmVzZW50IGEgZ2l2ZW4gaW5wdXQgc2VudGVuY2UgdXNpbmcgYSBmaXhlZCBkaW1lbnNpb25hbCB2ZWN0b3IsIGEgY29tcG9zaXRpb24gY29kaW5nIGFwcHJvYWNoLiBTaW1wbGUgY29udHJhc3RpdmUgbGVhcm5pbmcgb2YgLi4uIiwiZGF0ZSI6Ik1hciAyMCwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMwNS4xNDU5OXYyIFtjcy5DTF0gNSBOb3YgMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4xNDU5OSIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIHByZXNlbnQgSU5URVJTRU5ULCBhbiBlbmQtIHRvLWVuZCBmcmFtZXdvcmsgZm9yIGxlYXJuaW5nIGludGVycHJldGFibGUgc2VuLSB0ZW5jZSBlbWJlZGRpbmdzIHRoYXQgc3VwcG9ydCBzZW50ZW5jZSBvcGVyYS0gdGlvbnMsIGluY2x1ZGluZyAuLi4iLCJkYXRlIjoiTm92IDUsIDIwMjMiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIFNjYWxpbmcgU2VudGVuY2UgRW1iZWRkaW5ncyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA3LjE2NjQ1Iiwic25pcHBldCI6IkEgc2lnbmlmaWNhbnQgYW1vdW50IG9mIHJlc2VhcmNoIGhhcyBiZWVuIGRldm90ZWQgdG8gcmVmaW5pbmcgdGhlIGNvbnRyYXN0aXZlIGxlYXJuaW5nIGZyYW1ld29yayBpbiBvcmRlciB0byBmdXJ0aGVyIGltcHJvdmUgc2VudGVuY2UgZW1iZWQtIGRpbmdzIFtDREwrMjIsIFdUUysgLi4uIiwiZGF0ZSI6Ikp1bCAzMSwgMjAyMyIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiQSBEdWFsLWRvbWFpbiBDb250cmFzdGl2ZSBGcmFtZXdvcmsgZm9yIFJlcHJlc2VudGF0aW9uIExlYXJuaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwMi4wOTA2NnYxIiwic25pcHBldCI6Ikl0IGlzIGEgbm92ZWwgZnJhbWV3b3JrIGRlc2lnbmVkIHRvIGRpc2VudGFuZ2xlIGFuZCBlbmhhbmNlIHRoZSBzcGVjdHJhbCBzdHJ1Y3R1cmUgb2YgdGhlIGZlYXR1cmUgc3BhY2Ugd2l0aGluIG11bHRpbW9kYWwgY29udHJhc3RpdmUgbGVhcm5pbmcuIiwiZGF0ZSI6IkZlYiA5LCAyMDI2IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBDU0UtU0ZQOiBFbmFibGluZyBVbnN1cGVydmlzZWQgU2VudGVuY2UgUmVwcmVzZW50YXRpb24gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDUuMDAzODkiLCJzbmlwcGV0IjoiQ1NFLVNGUDogYW4gdW5zdXBlci0gdmlzZWQgQ29udHJhc3RpdmUgU2VudGVuY2UgRW1iZWRkaW5nIGZyYW1ld29yayB0aGF0IHJlcXVpcmVzIG9ubHkgYSBTaW5nbGUgRm9yd2FyZCBQYXNzIHRvIGZhY2lsaXRhdGUgZWZmZWN0aXZlIGNvbnRyYXN0aXZlIHRyYWluaW5nLiIsImRhdGUiOiJNYXkgMSwgMjAyNSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMwOS4wODkyOXYyIFtjcy5DTF0gMzEgSmFuIDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDkuMDg5MjkiLCJzbmlwcGV0IjoibXVsdGktbGluZ3VhbCBzZW50ZW5jZSBlbWJlZGRpbmdzIGFyZSBtYWlubHkgYmFzZWQgb24gY29udHJhc3RpdmUgbGVhcm5pbmcgKENMKSBhbW9uZyBhbiBhbmNob3IsIG9uZSBwb3NpdGl2ZSwgYW5kIG11bHRpcGxlIG5lZ2F0aXZlIGluc3RhbmNlcy4iLCJkYXRlIjoiSmFuIDMxLCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDA1LjA3NTEzdjEgW2NzLkNMXSAxMyBNYXkgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNS4wNzUxMyIsInNuaXBwZXQiOiJFbmNvZGVyIG1vZGVscyB0cmFpbmVkIGZvciB0aGUgZW1iZWRkaW5nIG9mIHNlbnRlbmNlcyBvciBzaG9ydCBkb2N1bWVudHMgaGF2ZSBwcm92ZW4gdXNlLSBmdWwgZm9yIHRhc2tzIHN1Y2ggYXMgc2VtYW50aWMgc2VhcmNoIGFuZCB0b3BpYyBtb2RlbGluZy4iLCJkYXRlIjoiTWF5IDEzLCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNTA1LjEyODMxdjEgW2NzLkNMXSAxOSBNYXkgMjAyNSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUwNS4xMjgzMSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBpbnRyb2R1Y2UgQ29udHJhc3RpdmUgUHJvbXB0aW5nLCBhIHBsdWctYW5kLXBsYXkgaW5mZXJlbmNlLXRpbWUgc3RlZXJpbmcgbWV0aG9kLCB0byBleHRyYWN0IGhpZ2gtcXVhbGl0eSBzZW50ZW5jZSBlbWJlZGRpbmdzIGZyb20uIExMTXMgLi4uIiwiZGF0ZSI6Ik1heSAxOSwgMjAyNSIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "composition contrastive sentence embeddings before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[PDF] arXiv:2307.07380v1 [cs.CL] 14 Jul 2023",
+        "link": "https://arxiv.org/pdf/2307.07380",
+        "snippet": "Composition-contrastive Learning for Sentence Embeddings … a simple yet effective framework for un- supervised learning of sentence embeddings. Here, we make a ...",
+        "date": "Jul 14, 2023",
+        "position": 1
+      },
+      {
+        "title": "[PDF] SemCSE: Semantic Contrastive Sentence Embeddings Using LLM ...",
+        "link": "https://arxiv.org/pdf/2507.13105",
+        "snippet": "We introduce SemCSE, an unsupervised method for learning semantic embeddings of scientific texts. Building on recent advances in contrastive learning for ...",
+        "date": "Jul 17, 2025",
+        "position": 2
+      },
+      {
+        "title": "Evaluating Unsupervised Dimensionality Reduction Methods for ...",
+        "link": "https://arxiv.org/html/2403.14001v1",
+        "snippet": "Sentence embedding models represent a given input sentence using a fixed dimensional vector, a composition coding approach. Simple contrastive learning of ...",
+        "date": "Mar 20, 2024",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2305.14599v2 [cs.CL] 5 Nov 2023",
+        "link": "https://arxiv.org/pdf/2305.14599",
+        "snippet": "In this work, we present INTERSENT, an end- to-end framework for learning interpretable sen- tence embeddings that support sentence opera- tions, including ...",
+        "date": "Nov 5, 2023",
+        "position": 4
+      },
+      {
+        "title": "[PDF] Scaling Sentence Embeddings with Large Language Models - arXiv",
+        "link": "https://arxiv.org/pdf/2307.16645",
+        "snippet": "A significant amount of research has been devoted to refining the contrastive learning framework in order to further improve sentence embed- dings [CDL+22, WTS+ ...",
+        "date": "Jul 31, 2023",
+        "position": 5
+      },
+      {
+        "title": "A Dual-domain Contrastive Framework for Representation Learning",
+        "link": "https://arxiv.org/html/2602.09066v1",
+        "snippet": "It is a novel framework designed to disentangle and enhance the spectral structure of the feature space within multimodal contrastive learning.",
+        "date": "Feb 9, 2026",
+        "position": 6
+      },
+      {
+        "title": "[PDF] CSE-SFP: Enabling Unsupervised Sentence Representation ... - arXiv",
+        "link": "https://arxiv.org/pdf/2505.00389",
+        "snippet": "CSE-SFP: an unsuper- vised Contrastive Sentence Embedding framework that requires only a Single Forward Pass to facilitate effective contrastive training.",
+        "date": "May 1, 2025",
+        "position": 7
+      },
+      {
+        "title": "[PDF] arXiv:2309.08929v2 [cs.CL] 31 Jan 2024",
+        "link": "https://arxiv.org/pdf/2309.08929",
+        "snippet": "multi-lingual sentence embeddings are mainly based on contrastive learning (CL) among an anchor, one positive, and multiple negative instances.",
+        "date": "Jan 31, 2024",
+        "position": 8
+      },
+      {
+        "title": "[PDF] arXiv:2405.07513v1 [cs.CL] 13 May 2024",
+        "link": "https://arxiv.org/pdf/2405.07513",
+        "snippet": "Encoder models trained for the embedding of sentences or short documents have proven use- ful for tasks such as semantic search and topic modeling.",
+        "date": "May 13, 2024",
+        "position": 9
+      },
+      {
+        "title": "[PDF] arXiv:2505.12831v1 [cs.CL] 19 May 2025",
+        "link": "https://arxiv.org/pdf/2505.12831",
+        "snippet": "In this paper, we introduce Contrastive Prompting, a plug-and-play inference-time steering method, to extract high-quality sentence embeddings from. LLMs ...",
+        "date": "May 19, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[PDF] arXiv:2307.07380v1 [cs.CL] 14 Jul 2023",
+      "snippet": "Composition-contrastive Learning for Sentence Embeddings … a simple yet effective framework for un- supervised learning of sentence embeddings. Here, we make a ...",
+      "link": "https://arxiv.org/pdf/2307.07380",
+      "arxiv_id": "2307.07380"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] SemCSE: Semantic Contrastive Sentence Embeddings Using LLM ...",
+      "snippet": "We introduce SemCSE, an unsupervised method for learning semantic embeddings of scientific texts. Building on recent advances in contrastive learning for ...",
+      "link": "https://arxiv.org/pdf/2507.13105",
+      "arxiv_id": "2507.13105"
+    },
+    {
+      "rank": 3,
+      "title": "Evaluating Unsupervised Dimensionality Reduction Methods for ...",
+      "snippet": "Sentence embedding models represent a given input sentence using a fixed dimensional vector, a composition coding approach. Simple contrastive learning of ...",
+      "link": "https://arxiv.org/html/2403.14001v1",
+      "arxiv_id": "2403.14001"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2305.14599v2 [cs.CL] 5 Nov 2023",
+      "snippet": "In this work, we present INTERSENT, an end- to-end framework for learning interpretable sen- tence embeddings that support sentence opera- tions, including ...",
+      "link": "https://arxiv.org/pdf/2305.14599",
+      "arxiv_id": "2305.14599"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] Scaling Sentence Embeddings with Large Language Models - arXiv",
+      "snippet": "A significant amount of research has been devoted to refining the contrastive learning framework in order to further improve sentence embed- dings [CDL+22, WTS+ ...",
+      "link": "https://arxiv.org/pdf/2307.16645",
+      "arxiv_id": "2307.16645"
+    },
+    {
+      "rank": 6,
+      "title": "A Dual-domain Contrastive Framework for Representation Learning",
+      "snippet": "It is a novel framework designed to disentangle and enhance the spectral structure of the feature space within multimodal contrastive learning.",
+      "link": "https://arxiv.org/html/2602.09066v1",
+      "arxiv_id": "2602.09066"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] CSE-SFP: Enabling Unsupervised Sentence Representation ... - arXiv",
+      "snippet": "CSE-SFP: an unsuper- vised Contrastive Sentence Embedding framework that requires only a Single Forward Pass to facilitate effective contrastive training.",
+      "link": "https://arxiv.org/pdf/2505.00389",
+      "arxiv_id": "2505.00389"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] arXiv:2309.08929v2 [cs.CL] 31 Jan 2024",
+      "snippet": "multi-lingual sentence embeddings are mainly based on contrastive learning (CL) among an anchor, one positive, and multiple negative instances.",
+      "link": "https://arxiv.org/pdf/2309.08929",
+      "arxiv_id": "2309.08929"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] arXiv:2405.07513v1 [cs.CL] 13 May 2024",
+      "snippet": "Encoder models trained for the embedding of sentences or short documents have proven use- ful for tasks such as semantic search and topic modeling.",
+      "link": "https://arxiv.org/pdf/2405.07513",
+      "arxiv_id": "2405.07513"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] arXiv:2505.12831v1 [cs.CL] 19 May 2025",
+      "snippet": "In this paper, we introduce Contrastive Prompting, a plug-and-play inference-time steering method, to extract high-quality sentence embeddings from. LLMs ...",
+      "link": "https://arxiv.org/pdf/2505.12831",
+      "arxiv_id": "2505.12831"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:14.020661+00:00",
+  "elapsed_seconds": 2.0765938609838486,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q20_gt_core_phrase_attempt1.json",
+      "sha256": "f617c84ca6c278e8039cb0bfd9eef71e2c201fe054210cf6d225ecc521075e34",
+      "status": "PASS"
+    }
+  ]
+}

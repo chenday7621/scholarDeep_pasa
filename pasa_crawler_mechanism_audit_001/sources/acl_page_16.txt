@@ -1,0 +1,47 @@
+The prompt for AutoScholarQuery generation
+You are provided a ‘Related Work’ section of a research paper. The researcher reviewed the relevant work, conducted a
+literature survey, and cited corresponding references in this text (enclosed by ‘\cite’ tags with IDs). Can you guess what
+research questions the researcher might have posed when preparing this text? The answers to these questions should be the
+references cited in this passage. Please list questions and provide the corresponding answers.
+[Requirements:]
+1. Craft questions similar to those a researcher would pose when reviewing related works, such as “Which paper studied ...?”,
+“Any works about...?”, “Could you provide me some works...?”
+2. Construct the question-answer pairs based on [Section from A Research Paper]. The answer should be the cited papers in
+[Section from A Research Paper].
+3. Do not ask questions including "or" or "and" that may involve more than one condition.
+4. Clarity: Formulate questions clearly and unambiguously to prevent confusion.
+5. Contextual Definitions: Include explanations or definitions for specialized terms and concepts used in the questions.
+6. Format the output as a JSON array containing five objects corresponding to the three question-answer pairs.
+Here are some examples:
+[Begin of examples]
+{Section from A Research Paper-1}
+{OUTPUT-1}
+{Section from A Research Paper-2}
+{OUTPUT-2}
+{Section from A Research Paper-3}
+{OUTPUT-3}
+[End of examples]
+{Section from A Research Paper}
+[OUTPUT]:
+Table 16: The prompt used with GPT-4o to automatically synthesize AutoScholarQuery.
+The prompt for search query paraphrase
+Generate a search query suitable for Google based on the given academic paper-related query. Here’s the structure and
+requirements for generating the search query:
+Understand the Query: Read and understand the given specific academic query.
+Identify Key Elements: Extract the main research field and the specific approaches or topics mentioned in the query.
+Formulate the Search Query: Combine these elements into a concise query that includes terms indicating academic sources.
+Do not add any site limitations to your query.
+[User’s Query]: {user_query}
+[Generated Search Query]:
+Table 17: The search query paraphrasing prompt used for the Google with GPT-4o baseline.
+The prompt for ChatGPT (search-enabled GPT-4o)
+[User’s Query]
+You should return the Arxiv papers. You should provide more than 10 papers you searched in JSON format:
+{"paper_1": {"title": , ’authors’: , ’link’: }, "paper_2": {"title": , ’authors’: , ’link’: }}
+Table 18: The prompt for ChatGPT baseline (search-enabled GPT-4o).
+The prompt for GPT-o1
+{user_query}
+You should return arxiv papers. You should provide more than 10 paper you searched in JSON format: {"paper_1": {"title": ,
+"authors": , "link": }, "paper_2": {"title": , "authors": , "link": }}. Do not return any other description.
+Table 19: The prompt for GPT-o1 baseline.
+11678

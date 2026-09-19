@@ -1,0 +1,2012 @@
+{
+  "purpose": "Existing outcome/rank evidence for retrospective interpretation only; NEVER input-only features or trigger inputs. No evaluator, title normalization or matching was rerun or modified.",
+  "source_sha256": {
+    "/home/chenyi/pasa/QUERY_PLANNER_V1_2_A5_B6_REPLAY_001.json": "746f50bb24c90f17a707041b38b62e751b91cf25ee725576329ab17c38db0d1f",
+    "/home/chenyi/pasa/QUERY_PLANNER_V1_2_SEARCH_AB_001.json": "2e005d174c8b8014661364e4da0b4db7221985f1bac8adad851faf97b83f8940",
+    "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q13_anchor_attempt1.json": "1d62ec2736d7418ee2f47260f19dc37ed125b7e8bc27754236b17c1183ac94c4",
+    "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q19_anchor_attempt1.json": "b6b3d10f6edd9be815f78960bbcee7b43cb3e1599f4814f1aa53c0d454b3ef8a",
+    "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q28_anchor_attempt1.json": "fe244cb8188740dfbbf02624d1a8bfe71431c8d2b7a980cc3fba4987a581196a",
+    "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q44_anchor_attempt1.json": "9e13d8fc32ed9367b59ebcc56c854487a051042dea4770baa2d979c99e9e55a0",
+    "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q45_anchor_attempt1.json": "0280122e0ef5427998de7e6d2e59ad88474d5075f3046ed2e8108ea3cf3d6445",
+    "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q48_anchor_attempt1.json": "02ac11d3a38bb63ae6130fc74a75725334814087507191b081a953507f11aab3"
+  },
+  "script_sha256": "c28900baff867e0f2e16d7a46be2b4b71613bf36c7c88b70e24b51220ae839ec",
+  "text_only_features_sha256": "192817c46ca77803270fbdda3777eda0e25990e100cd6d5c377518f7c3970bd0",
+  "execution": {
+    "new_network_requests": 0,
+    "new_serper_requests": 0,
+    "new_crawler_generations": 0,
+    "blocked_events": []
+  },
+  "cases": [
+    {
+      "query_id": "Q13",
+      "original_question": "Provide papers demonstrating that the self-correction of LLMs does not enhance their performance.",
+      "native_queries": [
+        "Studies on the limitations of self-correction in language models",
+        "Impact of self-correction on language model performance",
+        "Survey papers on self-correction not enhancing LLM performance",
+        "Academic papers on the ineffectiveness of self-correction in LLMs",
+        "Research on self-correction mechanisms in LLMs and their impact on performance"
+      ],
+      "gt": {
+        "total": 12,
+        "raw_titles": [
+          "Can Large Language Models Really Improve by Self-critiquing Their Own   Plans?",
+          "Are You Sure? Challenging LLMs Leads to Performance Drops in The   FlipFlop Experiment",
+          "A Closer Look at the Self-Verification Abilities of Large Language   Models in Logical Reasoning",
+          "SELF-[IN]CORRECT: LLMs Struggle with Discriminating Self-Generated Responses",
+          "Large Language Models Cannot Self-Correct Reasoning Yet",
+          "Is Self-Repair a Silver Bullet for Code Generation?",
+          "On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks",
+          "The Counterfeit Conundrum: Can Code Language Models Grasp the Nuances of   Their Incorrect Generations?",
+          "When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs",
+          "On the Intrinsic Self-Correction Capability of LLMs: Uncertainty and Latent Concept",
+          "Pride and Prejudice: LLM Amplifies Self-Bias in Self-Refinement",
+          "GPT-4 Doesn't Know It's Wrong: An Analysis of Iterative Prompting for Reasoning Problems"
+        ],
+        "normalized_groups": {
+          "canlargelanguagemodelsreallyimprovebyselfcritiquingtheirownplans": [
+            {
+              "title": "Can Large Language Models Really Improve by Self-critiquing Their Own   Plans?",
+              "arxiv_id": "2310.08118"
+            }
+          ],
+          "areyousurechallengingllmsleadstoperformancedropsintheflipflopexperiment": [
+            {
+              "title": "Are You Sure? Challenging LLMs Leads to Performance Drops in The   FlipFlop Experiment",
+              "arxiv_id": "2311.08596"
+            }
+          ],
+          "acloserlookattheselfverificationabilitiesoflargelanguagemodelsinlogicalreasoning": [
+            {
+              "title": "A Closer Look at the Self-Verification Abilities of Large Language   Models in Logical Reasoning",
+              "arxiv_id": "2311.07954"
+            }
+          ],
+          "selfincorrectllmsstrugglewithdiscriminatingselfgeneratedresponses": [
+            {
+              "title": "SELF-[IN]CORRECT: LLMs Struggle with Discriminating Self-Generated Responses",
+              "arxiv_id": "2404.04298"
+            }
+          ],
+          "largelanguagemodelscannotselfcorrectreasoningyet": [
+            {
+              "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+              "arxiv_id": "2310.01798"
+            }
+          ],
+          "isselfrepairasilverbulletforcodegeneration": [
+            {
+              "title": "Is Self-Repair a Silver Bullet for Code Generation?",
+              "arxiv_id": "2306.09896"
+            }
+          ],
+          "ontheselfverificationlimitationsoflargelanguagemodelsonreasoningandplanningtasks": [
+            {
+              "title": "On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks",
+              "arxiv_id": "2402.08115"
+            }
+          ],
+          "thecounterfeitconundrumcancodelanguagemodelsgraspthenuancesoftheirincorrectgenerations": [
+            {
+              "title": "The Counterfeit Conundrum: Can Code Language Models Grasp the Nuances of   Their Incorrect Generations?",
+              "arxiv_id": "2402.19475"
+            }
+          ],
+          "whencanllmsactuallycorrecttheirownmistakesacriticalsurveyofselfcorrectionofllms": [
+            {
+              "title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs",
+              "arxiv_id": "2406.01297"
+            }
+          ],
+          "ontheintrinsicselfcorrectioncapabilityofllmsuncertaintyandlatentconcept": [
+            {
+              "title": "On the Intrinsic Self-Correction Capability of LLMs: Uncertainty and Latent Concept",
+              "arxiv_id": "2406.02378"
+            }
+          ],
+          "prideandprejudicellmamplifiesselfbiasinselfrefinement": [
+            {
+              "title": "Pride and Prejudice: LLM Amplifies Self-Bias in Self-Refinement",
+              "arxiv_id": "2402.11436"
+            }
+          ],
+          "gptdoesntknowitswrongananalysisofiterativepromptingforreasoningproblems": [
+            {
+              "title": "GPT-4 Doesn't Know It's Wrong: An Analysis of Iterative Prompting for Reasoning Problems",
+              "arxiv_id": "2310.12397"
+            }
+          ]
+        }
+      },
+      "full_native_gt_found": 3,
+      "full_native_plus_anchor_gt_found": 4,
+      "added_gt_evidence": {
+        "ontheintrinsicselfcorrectioncapabilityofllmsuncertaintyandlatentconcept": [
+          {
+            "arxiv_id": "2406.02378",
+            "organic_index": 7,
+            "position": 8,
+            "link": "https://arxiv.org/abs/2406.02378",
+            "title": "[2406.02378] On the Intrinsic Self-Correction Capability of LLMs - arXiv",
+            "snippet": "In this paper, we unveil that intrinsic self-correction can be progressively improved, allowing it to approach a converged state.",
+            "normalized_gt_title": "ontheintrinsicselfcorrectioncapabilityofllmsuncertaintyandlatentconcept",
+            "metadata_title": "On the Intrinsic Self-Correction Capability of LLMs: Uncertainty and Latent Concept",
+            "response_artifact": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q13_anchor_attempt1.json"
+          }
+        ]
+      },
+      "anchor": {
+        "status": "PASS",
+        "request_payload": {
+          "q": "Provide papers demonstrating that the self-correction of LLMs does not enhance their performance. before:2024-09-24 site:arxiv.org",
+          "num": 10,
+          "page": 1
+        },
+        "http_statuses": [
+          200
+        ],
+        "matched_gt": [
+          "largelanguagemodelscannotselfcorrectreasoningyet",
+          "ontheintrinsicselfcorrectioncapabilityofllmsuncertaintyandlatentconcept",
+          "whencanllmsactuallycorrecttheirownmistakesacriticalsurveyofselfcorrectionofllms"
+        ],
+        "missing_metadata_ids": [
+          "2402.13035"
+        ],
+        "returned_arxiv_ids": [
+          "2210.11610",
+          "2310.01798",
+          "2311.01041",
+          "2311.02801",
+          "2402.13035",
+          "2405.06682",
+          "2406.01297",
+          "2406.02378",
+          "2406.15673"
+        ],
+        "hits_with_existing_metadata": [
+          {
+            "arxiv_id": "2406.01297",
+            "organic_index": 0,
+            "position": 1,
+            "link": "https://arxiv.org/abs/2406.01297",
+            "title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical ...",
+            "snippet": "In this work, we critically survey broad papers and discuss the conditions required for successful self-correction. We first find that prior studies often do ...",
+            "metadata_status": "PASS",
+            "metadata_title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs"
+          },
+          {
+            "arxiv_id": "2310.01798",
+            "organic_index": 1,
+            "position": 2,
+            "link": "https://arxiv.org/pdf/2310.01798",
+            "title": "[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv",
+            "snippet": "In this work, we demonstrate that current LLMs cannot improve their reasoning performance through intrinsic self-correction.",
+            "metadata_status": "PASS",
+            "metadata_title": "Large Language Models Cannot Self-Correct Reasoning Yet"
+          },
+          {
+            "arxiv_id": "2406.01297",
+            "organic_index": 2,
+            "position": 3,
+            "link": "https://arxiv.org/html/2406.01297v1",
+            "title": "When Can LLMs Actually Correct Their Own Mistakes?A Critical ...",
+            "snippet": "However, recent studies report that intrinsic self-correction does not improve or even degrade the performance in tasks such as arithmetic reasoning, closed ...",
+            "metadata_status": "PASS",
+            "metadata_title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs"
+          },
+          {
+            "arxiv_id": "2311.02801",
+            "organic_index": 3,
+            "position": 4,
+            "link": "https://arxiv.org/html/2311.02801v1",
+            "title": "On the Intersection of Self-Correction and Trust in Language Models",
+            "snippet": "In this work, we investigate whether these self-correction capabilities can be harnessed to improve the trustworthiness of LLMs. We conduct experiments focusing ...",
+            "metadata_status": "PASS",
+            "metadata_title": "On the Intersection of Self-Correction and Trust in Language Models"
+          },
+          {
+            "arxiv_id": "2406.15673",
+            "organic_index": 4,
+            "position": 5,
+            "link": "https://arxiv.org/abs/2406.15673",
+            "title": "Large Language Models have Intrinsic Self-Correction Ability - arXiv",
+            "snippet": "In this paper, we present a novel perspective on the intrinsic self-correction capabilities of LLMs through theoretical analyses and empirical experiments. In ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Large Language Models have Intrinsic Self-Correction Ability"
+          },
+          {
+            "arxiv_id": "2405.06682",
+            "organic_index": 5,
+            "position": 6,
+            "link": "https://arxiv.org/pdf/2405.06682",
+            "title": "[PDF] Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv",
+            "snippet": "Abstract. In this study, we investigated the effects of self-reflection in large language models (LLMs) on problem-solving performance.",
+            "metadata_status": "PASS",
+            "metadata_title": "Self-Reflection in LLM Agents: Effects on Problem-Solving Performance"
+          },
+          {
+            "arxiv_id": "2402.13035",
+            "organic_index": 6,
+            "position": 7,
+            "link": "https://arxiv.org/abs/2402.13035",
+            "title": "Unleashing Potentials for Self-Correction in Large Language Models",
+            "snippet": "In this paper, we aim to enhance the self-checking capabilities of LLMs by constructing training data for checking tasks. Specifically, we apply the Chain of ...",
+            "metadata_status": "UNRESOLVED",
+            "metadata_title": null
+          },
+          {
+            "arxiv_id": "2406.02378",
+            "organic_index": 7,
+            "position": 8,
+            "link": "https://arxiv.org/abs/2406.02378",
+            "title": "[2406.02378] On the Intrinsic Self-Correction Capability of LLMs - arXiv",
+            "snippet": "In this paper, we unveil that intrinsic self-correction can be progressively improved, allowing it to approach a converged state.",
+            "metadata_status": "PASS",
+            "metadata_title": "On the Intrinsic Self-Correction Capability of LLMs: Uncertainty and Latent Concept"
+          },
+          {
+            "arxiv_id": "2210.11610",
+            "organic_index": 8,
+            "position": 9,
+            "link": "https://arxiv.org/html/2210.11610v2",
+            "title": "Large Language Models Can Self-Improve - arXiv",
+            "snippet": "We demonstrate that a large language model can self-improve by taking datasets without ground truth outputs, by leveraging CoT reasoning (Wei et al., 2022b) and ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Large Language Models Can Self-Improve"
+          },
+          {
+            "arxiv_id": "2311.01041",
+            "organic_index": 9,
+            "position": 10,
+            "link": "https://arxiv.org/html/2311.01041v2",
+            "title": "Learn to Refuse: Making Large Language Models More Controllable ...",
+            "snippet": "Self-knowledge refers to LLMs' awareness of the knowledge they possess and their ability to identify unanswerable or unknowable questions based on their own ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Learn to Refuse: Making Large Language Models More Controllable and Reliable through Knowledge Scope Limitation and Refusal Mechanism"
+          }
+        ],
+        "response_artifacts": [
+          "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q13_anchor_attempt1.json"
+        ]
+      }
+    },
+    {
+      "query_id": "Q19",
+      "original_question": "Provide papers on methods that protect the generation quality of LLMs under vocabulary watermarking settings.",
+      "native_queries": [
+        "Survey papers on protecting generation quality of LLMs under vocabulary watermarking",
+        "Research on methods to maintain generation quality in LLMs during vocabulary watermarking",
+        "Studies on the use of word embeddings in LLMs for detecting and mitigating vocabulary-based watermarking attacks",
+        "Impact of vocabulary watermarking on LLMs generation quality",
+        "Techniques to mitigate vocabulary watermarking effects on LLM generation"
+      ],
+      "gt": {
+        "total": 37,
+        "raw_titles": [
+          "A Resilient and Accessible Distribution-Preserving Watermark for Large\n  Language Models",
+          "REMARK-LLM: A Robust and Efficient Watermarking Framework for Generative   Large Language Models",
+          "WaterJudge: Quality-Detection Trade-off when Watermarking Large Language   Models",
+          "Token-Specific Watermarking with Enhanced Detectability and Semantic   Coherence for Large Language Models",
+          "CATER: Intellectual Property Protection on Text Generation APIs via   Conditional Watermarks",
+          "Protecting Intellectual Property of Language Generation APIs with   Lexical Watermark",
+          "WatME: Towards Lossless Watermarking Through Lexical Redundancy",
+          "Duwak: Dual Watermarks in Large Language Models",
+          "Provable Robust Watermarking for AI-Generated Text",
+          "Adaptive Text Watermark for Large Language Models",
+          "A Watermark for Large Language Models",
+          "Less is More: Sparse Watermarking in LLMs with Enhanced Text Quality",
+          "Optimizing watermarks for large language models",
+          "PostMark: A Robust Blackbox Watermark for Large Language Models",
+          "Necessary and Sufficient Watermark for Large Language Models",
+          "Undetectable Watermarks for Language Models",
+          "Protecting Language Generation Models via Invisible Watermarking",
+          "Unbiased Watermark for Large Language Models",
+          "Embarrassingly Simple Text Watermarks",
+          "A Watermark for Low-entropy and Unbiased Generation in Large Language Models",
+          "Mark My Words: Analyzing and Evaluating Language Model Watermarks",
+          "Topic-Based Watermarks for LLM-Generated Text",
+          "Watermarking Language Models with Error Correcting Codes",
+          "PersonaMark: Personalized LLM watermarking for model protection and user attribution",
+          "Adversarial Watermarking Transformer: Towards Tracing Text Provenance   with Data Hiding",
+          "ModelShield: Adaptive and Robust Watermark against Model Extraction Attack",
+          "Improving the Generation Quality of Watermarked Large Language Models   via Word Importance Scoring",
+          "WaterMax: breaking the LLM watermark detectability-robustness-quality   trade-off",
+          "Watermarking Conditional Text Generation for AI Detection: Unveiling   Challenges and a Semantic-Aware Watermark Remedy",
+          "Towards Codable Watermarking for Injecting Multi-bits Information to LLMs",
+          "Watermarking Text Generated by Black-Box Language Models",
+          "A Semantic Invariant Robust Watermark for Large Language Models",
+          "Provably Robust Multi-bit Watermarking for AI-generated Text via Error   Correction Code",
+          "Advancing Beyond Identification: Multi-bit Watermark for Large Language Models",
+          "Cross-Attention Watermarking of Large Language Models",
+          "SemStamp: A Semantic Watermark with Paraphrastic Robustness for Text Generation",
+          "Who wrote this code? watermarking for code generation."
+        ],
+        "normalized_groups": {
+          "aresilientandaccessibledistributionpreservingwatermarkforlargelanguagemodels": [
+            {
+              "title": "A Resilient and Accessible Distribution-Preserving Watermark for Large\n  Language Models",
+              "arxiv_id": "2310.07710"
+            }
+          ],
+          "remarkllmarobustandefficientwatermarkingframeworkforgenerativelargelanguagemodels": [
+            {
+              "title": "REMARK-LLM: A Robust and Efficient Watermarking Framework for Generative   Large Language Models",
+              "arxiv_id": "2310.12362"
+            }
+          ],
+          "waterjudgequalitydetectiontradeoffwhenwatermarkinglargelanguagemodels": [
+            {
+              "title": "WaterJudge: Quality-Detection Trade-off when Watermarking Large Language   Models",
+              "arxiv_id": "2403.19548"
+            }
+          ],
+          "tokenspecificwatermarkingwithenhanceddetectabilityandsemanticcoherenceforlargelanguagemodels": [
+            {
+              "title": "Token-Specific Watermarking with Enhanced Detectability and Semantic   Coherence for Large Language Models",
+              "arxiv_id": "2402.18059"
+            }
+          ],
+          "caterintellectualpropertyprotectionontextgenerationapisviaconditionalwatermarks": [
+            {
+              "title": "CATER: Intellectual Property Protection on Text Generation APIs via   Conditional Watermarks",
+              "arxiv_id": "2209.08773"
+            }
+          ],
+          "protectingintellectualpropertyoflanguagegenerationapiswithlexicalwatermark": [
+            {
+              "title": "Protecting Intellectual Property of Language Generation APIs with   Lexical Watermark",
+              "arxiv_id": "2112.02701"
+            }
+          ],
+          "watmetowardslosslesswatermarkingthroughlexicalredundancy": [
+            {
+              "title": "WatME: Towards Lossless Watermarking Through Lexical Redundancy",
+              "arxiv_id": "2311.09832"
+            }
+          ],
+          "duwakdualwatermarksinlargelanguagemodels": [
+            {
+              "title": "Duwak: Dual Watermarks in Large Language Models",
+              "arxiv_id": "2403.13000"
+            }
+          ],
+          "provablerobustwatermarkingforaigeneratedtext": [
+            {
+              "title": "Provable Robust Watermarking for AI-Generated Text",
+              "arxiv_id": "2306.17439"
+            }
+          ],
+          "adaptivetextwatermarkforlargelanguagemodels": [
+            {
+              "title": "Adaptive Text Watermark for Large Language Models",
+              "arxiv_id": "2401.13927"
+            }
+          ],
+          "awatermarkforlargelanguagemodels": [
+            {
+              "title": "A Watermark for Large Language Models",
+              "arxiv_id": "2301.10226"
+            }
+          ],
+          "lessismoresparsewatermarkinginllmswithenhancedtextquality": [
+            {
+              "title": "Less is More: Sparse Watermarking in LLMs with Enhanced Text Quality",
+              "arxiv_id": "2407.13803"
+            }
+          ],
+          "optimizingwatermarksforlargelanguagemodels": [
+            {
+              "title": "Optimizing watermarks for large language models",
+              "arxiv_id": "2312.17295"
+            }
+          ],
+          "postmarkarobustblackboxwatermarkforlargelanguagemodels": [
+            {
+              "title": "PostMark: A Robust Blackbox Watermark for Large Language Models",
+              "arxiv_id": "2406.14517"
+            }
+          ],
+          "necessaryandsufficientwatermarkforlargelanguagemodels": [
+            {
+              "title": "Necessary and Sufficient Watermark for Large Language Models",
+              "arxiv_id": "2310.00833"
+            }
+          ],
+          "undetectablewatermarksforlanguagemodels": [
+            {
+              "title": "Undetectable Watermarks for Language Models",
+              "arxiv_id": "2306.09194"
+            }
+          ],
+          "protectinglanguagegenerationmodelsviainvisiblewatermarking": [
+            {
+              "title": "Protecting Language Generation Models via Invisible Watermarking",
+              "arxiv_id": "2302.03162"
+            }
+          ],
+          "unbiasedwatermarkforlargelanguagemodels": [
+            {
+              "title": "Unbiased Watermark for Large Language Models",
+              "arxiv_id": "2310.10669"
+            }
+          ],
+          "embarrassinglysimpletextwatermarks": [
+            {
+              "title": "Embarrassingly Simple Text Watermarks",
+              "arxiv_id": "2310.08920"
+            }
+          ],
+          "awatermarkforlowentropyandunbiasedgenerationinlargelanguagemodels": [
+            {
+              "title": "A Watermark for Low-entropy and Unbiased Generation in Large Language Models",
+              "arxiv_id": "2405.14604"
+            }
+          ],
+          "markmywordsanalyzingandevaluatinglanguagemodelwatermarks": [
+            {
+              "title": "Mark My Words: Analyzing and Evaluating Language Model Watermarks",
+              "arxiv_id": "2312.00273"
+            }
+          ],
+          "topicbasedwatermarksforllmgeneratedtext": [
+            {
+              "title": "Topic-Based Watermarks for LLM-Generated Text",
+              "arxiv_id": "2404.02138"
+            }
+          ],
+          "watermarkinglanguagemodelswitherrorcorrectingcodes": [
+            {
+              "title": "Watermarking Language Models with Error Correcting Codes",
+              "arxiv_id": "2406.10281"
+            }
+          ],
+          "personamarkpersonalizedllmwatermarkingformodelprotectionanduserattribution": [
+            {
+              "title": "PersonaMark: Personalized LLM watermarking for model protection and user attribution",
+              "arxiv_id": "2409.09739"
+            }
+          ],
+          "adversarialwatermarkingtransformertowardstracingtextprovenancewithdatahiding": [
+            {
+              "title": "Adversarial Watermarking Transformer: Towards Tracing Text Provenance   with Data Hiding",
+              "arxiv_id": "2009.03015"
+            }
+          ],
+          "modelshieldadaptiveandrobustwatermarkagainstmodelextractionattack": [
+            {
+              "title": "ModelShield: Adaptive and Robust Watermark against Model Extraction Attack",
+              "arxiv_id": "2405.02365"
+            }
+          ],
+          "improvingthegenerationqualityofwatermarkedlargelanguagemodelsviawordimportancescoring": [
+            {
+              "title": "Improving the Generation Quality of Watermarked Large Language Models   via Word Importance Scoring",
+              "arxiv_id": "2311.09668"
+            }
+          ],
+          "watermaxbreakingthellmwatermarkdetectabilityrobustnessqualitytradeoff": [
+            {
+              "title": "WaterMax: breaking the LLM watermark detectability-robustness-quality   trade-off",
+              "arxiv_id": "2403.04808"
+            }
+          ],
+          "watermarkingconditionaltextgenerationforaidetectionunveilingchallengesandasemanticawarewatermarkremedy": [
+            {
+              "title": "Watermarking Conditional Text Generation for AI Detection: Unveiling   Challenges and a Semantic-Aware Watermark Remedy",
+              "arxiv_id": "2307.13808"
+            }
+          ],
+          "towardscodablewatermarkingforinjectingmultibitsinformationtollms": [
+            {
+              "title": "Towards Codable Watermarking for Injecting Multi-bits Information to LLMs",
+              "arxiv_id": "2307.15992"
+            }
+          ],
+          "watermarkingtextgeneratedbyblackboxlanguagemodels": [
+            {
+              "title": "Watermarking Text Generated by Black-Box Language Models",
+              "arxiv_id": "2305.08883"
+            }
+          ],
+          "asemanticinvariantrobustwatermarkforlargelanguagemodels": [
+            {
+              "title": "A Semantic Invariant Robust Watermark for Large Language Models",
+              "arxiv_id": "2310.06356"
+            }
+          ],
+          "provablyrobustmultibitwatermarkingforaigeneratedtextviaerrorcorrectioncode": [
+            {
+              "title": "Provably Robust Multi-bit Watermarking for AI-generated Text via Error   Correction Code",
+              "arxiv_id": "2401.16820"
+            }
+          ],
+          "advancingbeyondidentificationmultibitwatermarkforlargelanguagemodels": [
+            {
+              "title": "Advancing Beyond Identification: Multi-bit Watermark for Large Language Models",
+              "arxiv_id": "2308.00221"
+            }
+          ],
+          "crossattentionwatermarkingoflargelanguagemodels": [
+            {
+              "title": "Cross-Attention Watermarking of Large Language Models",
+              "arxiv_id": "2401.06829"
+            }
+          ],
+          "semstampasemanticwatermarkwithparaphrasticrobustnessfortextgeneration": [
+            {
+              "title": "SemStamp: A Semantic Watermark with Paraphrastic Robustness for Text Generation",
+              "arxiv_id": "2310.03991"
+            }
+          ],
+          "whowrotethiscodewatermarkingforcodegeneration": [
+            {
+              "title": "Who wrote this code? watermarking for code generation.",
+              "arxiv_id": "2305.15060"
+            }
+          ]
+        }
+      },
+      "full_native_gt_found": 4,
+      "full_native_plus_anchor_gt_found": 5,
+      "added_gt_evidence": {
+        "remarkllmarobustandefficientwatermarkingframeworkforgenerativelargelanguagemodels": [
+          {
+            "arxiv_id": "2310.12362",
+            "organic_index": 8,
+            "position": 9,
+            "link": "https://arxiv.org/pdf/2310.12362",
+            "title": "[PDF] arXiv:2310.12362v2 [cs.CR] 8 Apr 2024",
+            "snippet": "This paper proposes REMARK-LLM, a new robust and efficient watermarking framework to insert watermarks into. LLM-generated texts without compromising the ...",
+            "normalized_gt_title": "remarkllmarobustandefficientwatermarkingframeworkforgenerativelargelanguagemodels",
+            "metadata_title": "REMARK-LLM: A Robust and Efficient Watermarking Framework for Generative Large Language Models",
+            "response_artifact": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q19_anchor_attempt1.json"
+          }
+        ]
+      },
+      "anchor": {
+        "status": "PASS",
+        "request_payload": {
+          "q": "Provide papers on methods that protect the generation quality of LLMs under vocabulary watermarking settings. before:2024-09-24 site:arxiv.org",
+          "num": 10,
+          "page": 1
+        },
+        "http_statuses": [
+          200
+        ],
+        "matched_gt": [
+          "lessismoresparsewatermarkinginllmswithenhancedtextquality",
+          "protectinglanguagegenerationmodelsviainvisiblewatermarking",
+          "remarkllmarobustandefficientwatermarkingframeworkforgenerativelargelanguagemodels",
+          "tokenspecificwatermarkingwithenhanceddetectabilityandsemanticcoherenceforlargelanguagemodels"
+        ],
+        "missing_metadata_ids": [
+          "2310.10669",
+          "2409.00089"
+        ],
+        "returned_arxiv_ids": [
+          "2301.10226",
+          "2302.03162",
+          "2310.10669",
+          "2310.12362",
+          "2311.08721",
+          "2312.07913",
+          "2402.16187",
+          "2402.18059",
+          "2407.13803",
+          "2409.00089"
+        ],
+        "hits_with_existing_metadata": [
+          {
+            "arxiv_id": "2409.00089",
+            "organic_index": 0,
+            "position": 1,
+            "link": "https://arxiv.org/html/2409.00089v1",
+            "title": "Watermarking Techniques for Large Language Models: A Survey",
+            "snippet": "By analyzing their inheritance and relevance, this review can provide research with ideas for applying traditional digital watermarking techniques to LLM ...",
+            "metadata_status": "UNRESOLVED",
+            "metadata_title": null
+          },
+          {
+            "arxiv_id": "2407.13803",
+            "organic_index": 1,
+            "position": 2,
+            "link": "https://arxiv.org/pdf/2407.13803",
+            "title": "[PDF] Sparse Watermarking in LLMs with Enhanced Text Quality - arXiv",
+            "snippet": "We propose a method of watermarking using Part-of-Speech (POS) tags, embedding and detecting watermarks based on the POS tags of words within the generated text ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Less is More: Sparse Watermarking in LLMs with Enhanced Text Quality"
+          },
+          {
+            "arxiv_id": "2312.07913",
+            "organic_index": 2,
+            "position": 3,
+            "link": "https://arxiv.org/pdf/2312.07913",
+            "title": "[PDF] A Survey of Text Watermarking in the Era of Large Language Models",
+            "snippet": "In aligning with the three critical phases of text generation using LLMs, watermarking techniques for LLMs are similarly categorized into three distinct types.",
+            "metadata_status": "PASS",
+            "metadata_title": "A Survey of Text Watermarking in the Era of Large Language Models"
+          },
+          {
+            "arxiv_id": "2310.10669",
+            "organic_index": 3,
+            "position": 4,
+            "link": "https://arxiv.org/pdf/2310.10669",
+            "title": "[PDF] Unbiased Watermark for Large Language Models - arXiv",
+            "snippet": "One approach to mitigating this risk is to incorporate watermarking techniques into LLMs, allowing for the tracking and attribution of model outputs. This study.",
+            "metadata_status": "UNRESOLVED",
+            "metadata_title": null
+          },
+          {
+            "arxiv_id": "2301.10226",
+            "organic_index": 4,
+            "position": 5,
+            "link": "https://arxiv.org/pdf/2301.10226",
+            "title": "[PDF] A Watermark for Large Language Models - arXiv",
+            "snippet": "Abstract. Potential harms of large language models can be mitigated by watermarking model output, i.e., embedding signals into generated text that are ...",
+            "metadata_status": "PASS",
+            "metadata_title": "1 Introduction"
+          },
+          {
+            "arxiv_id": "2402.16187",
+            "organic_index": 5,
+            "position": 6,
+            "link": "https://arxiv.org/html/2402.16187v1",
+            "title": "Attacking LLM Watermarks by Exploiting Their Strengths - arXiv",
+            "snippet": "In essence, to remove the watermark, an attacker only needs to query the watermarked LLM 7 times for each token under different keys. Fig. 2(b) suggests that ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Attacking LLM Watermarks by Exploiting Their Strengths"
+          },
+          {
+            "arxiv_id": "2311.08721",
+            "organic_index": 6,
+            "position": 7,
+            "link": "https://arxiv.org/pdf/2311.08721",
+            "title": "[PDF] arXiv:2311.08721v2 [cs.CR] 1 Apr 2024",
+            "snippet": "Watermarking is an effective strat- egy to detect the LLM-generated content by encoding a pre-defined secret watermark to fa- cilitate the detection process.",
+            "metadata_status": "PASS",
+            "metadata_title": "A Robust Semantics-based Watermark for Large Language Model against Paraphrasing"
+          },
+          {
+            "arxiv_id": "2302.03162",
+            "organic_index": 7,
+            "position": 8,
+            "link": "https://arxiv.org/pdf/2302.03162",
+            "title": "[PDF] Protecting Language Generation Models via Invisible Watermarking",
+            "snippet": "In this paper, we propose generative invisible sequence watermarking (GINSEW), a method to protect text genera- tion models and detect stolen ones. Figure 1 ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Protecting Language Generation Models via Invisible Watermarking"
+          },
+          {
+            "arxiv_id": "2310.12362",
+            "organic_index": 8,
+            "position": 9,
+            "link": "https://arxiv.org/pdf/2310.12362",
+            "title": "[PDF] arXiv:2310.12362v2 [cs.CR] 8 Apr 2024",
+            "snippet": "This paper proposes REMARK-LLM, a new robust and efficient watermarking framework to insert watermarks into. LLM-generated texts without compromising the ...",
+            "metadata_status": "PASS",
+            "metadata_title": "REMARK-LLM: A Robust and Efficient Watermarking Framework for Generative Large Language Models"
+          },
+          {
+            "arxiv_id": "2402.18059",
+            "organic_index": 9,
+            "position": 10,
+            "link": "https://arxiv.org/pdf/2402.18059",
+            "title": "[PDF] Token-Specific Watermarking with Enhanced Detectability ... - arXiv",
+            "snippet": "These techniques embed hid- den patterns in LLM-generated texts that, while impercepti- ble to humans, can be detected by algorithms. Kirchenbauer et al. (2023a) ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Token-Specific Watermarking with Enhanced Detectability and Semantic Coherence for Large Language Models"
+          }
+        ],
+        "response_artifacts": [
+          "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q19_anchor_attempt1.json"
+        ]
+      }
+    },
+    {
+      "query_id": "Q28",
+      "original_question": "Show me code evaluation datasets with a mid-level hardness. It show be harder than HumanEval and MBPP, but easier than code_contests.",
+      "native_queries": [
+        "Survey papers on code evaluation datasets",
+        "Middle difficulty level code evaluation datasets",
+        "Code evaluation datasets with mid-level hardness",
+        "Comparison studies on difficulty levels of different code evaluation datasets"
+      ],
+      "gt": {
+        "total": 4,
+        "raw_titles": [
+          "PythonSaga: Redefining the Benchmark to Evaluate Code Generating LLM",
+          "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+          "CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution",
+          "NaturalCodeBench: Examining Coding Performance Mismatch on HumanEval and   Natural User Prompts"
+        ],
+        "normalized_groups": {
+          "pythonsagaredefiningthebenchmarktoevaluatecodegeneratingllm": [
+            {
+              "title": "PythonSaga: Redefining the Benchmark to Evaluate Code Generating LLM",
+              "arxiv_id": "2401.03855"
+            }
+          ],
+          "swebenchcanlanguagemodelsresolverealworldgithubissues": [
+            {
+              "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+              "arxiv_id": "2310.06770"
+            }
+          ],
+          "cruxevalabenchmarkforcodereasoningunderstandingandexecution": [
+            {
+              "title": "CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution",
+              "arxiv_id": "2401.03065"
+            }
+          ],
+          "naturalcodebenchexaminingcodingperformancemismatchonhumanevalandnaturaluserprompts": [
+            {
+              "title": "NaturalCodeBench: Examining Coding Performance Mismatch on HumanEval and   Natural User Prompts",
+              "arxiv_id": "2405.04520"
+            }
+          ]
+        }
+      },
+      "full_native_gt_found": 0,
+      "full_native_plus_anchor_gt_found": 0,
+      "added_gt_evidence": {},
+      "anchor": {
+        "status": "PASS",
+        "request_payload": {
+          "q": "Show me code evaluation datasets with a mid-level hardness. It show be harder than HumanEval and MBPP, but easier than code_contests. before:2024-09-24 site:arxiv.org",
+          "num": 10,
+          "page": 1
+        },
+        "http_statuses": [
+          200
+        ],
+        "matched_gt": [],
+        "missing_metadata_ids": [],
+        "returned_arxiv_ids": [
+          "2107.03374",
+          "2202.13169",
+          "2207.10397",
+          "2301.09043",
+          "2303.17568",
+          "2402.14852",
+          "2406.04712",
+          "2407.21227"
+        ],
+        "hits_with_existing_metadata": [
+          {
+            "arxiv_id": "2301.09043",
+            "organic_index": 0,
+            "position": 1,
+            "link": "https://arxiv.org/pdf/2301.09043",
+            "title": "[PDF] arXiv:2301.09043v1 [cs.SE] 22 Jan 2023",
+            "snippet": "We construct three code evaluation datasets based on three public benchmark datasets in code generation, called MBPP-Eval, APPS-. Eval, and HE-Eval respectively ...",
+            "metadata_status": "PASS",
+            "metadata_title": "CodeScore: Evaluating Code Generation by Learning Code Execution"
+          },
+          {
+            "arxiv_id": "2402.14852",
+            "organic_index": 1,
+            "position": 2,
+            "link": "https://arxiv.org/html/2402.14852v1",
+            "title": "HumanEval on LLMs Revisted in Late 2023 - arXiv",
+            "snippet": "This benchmark features 160 diverse problem sets factorized into multistep prompts that our analysis shows significantly improves program synthesis over single- ...",
+            "metadata_status": "PASS",
+            "metadata_title": "HumanEval on LLMs Revisted in Late 2023"
+          },
+          {
+            "arxiv_id": "2207.10397",
+            "organic_index": 2,
+            "position": 3,
+            "link": "https://arxiv.org/pdf/2207.10397",
+            "title": "[PDF] arXiv:2207.10397v2 [cs.CL] 23 Nov 2022",
+            "snippet": "We con- duct comprehensive experiments on four benchmarks, HumanEval, MBPP, APPS, and CodeContests, CODET can significantly improve the performance of code ...",
+            "metadata_status": "PASS",
+            "metadata_title": "CodeT: Code Generation with Generated Tests"
+          },
+          {
+            "arxiv_id": "2303.17568",
+            "organic_index": 3,
+            "position": 4,
+            "link": "https://arxiv.org/pdf/2303.17568",
+            "title": "[PDF] CodeGeeX: A Pre-Trained Model for Code Generation with ... - arXiv",
+            "snippet": "CodeGeeX outperforms multilingual code models of similar scale for both the tasks of code generation and translation on HumanEval-X.",
+            "metadata_status": "PASS",
+            "metadata_title": "CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X"
+          },
+          {
+            "arxiv_id": "2107.03374",
+            "organic_index": 4,
+            "position": 5,
+            "link": "https://arxiv.org/abs/2107.03374",
+            "title": "Evaluating Large Language Models Trained on Code - arXiv",
+            "snippet": "On HumanEval, a new evaluation set we release to measure functional correctness our model solves 28.8% of the problems,",
+            "metadata_status": "PASS",
+            "metadata_title": "Evaluating Large Language Models Trained on Code"
+          },
+          {
+            "arxiv_id": "2406.04712",
+            "organic_index": 5,
+            "position": 6,
+            "link": "https://arxiv.org/pdf/2406.04712",
+            "title": "[PDF] Improving AI Domain Code Generation of Large Language Models",
+            "snippet": "To facilitate automated evaluation, we design our dataset structure inspired by the HumanEval [6] benchmark. Our primary focus is on generating Python code ...",
+            "metadata_status": "PASS",
+            "metadata_title": "AICoderEval: Improving AI Domain Code Generation of Large Language Models"
+          },
+          {
+            "arxiv_id": "2407.21227",
+            "organic_index": 6,
+            "position": 7,
+            "link": "https://arxiv.org/abs/2407.21227",
+            "title": "TaskEval: Assessing Difficulty of Code Generation Tasks for Large ...",
+            "snippet": "This paper introduces a generalist approach, TaskEval, a framework using diverse prompts and Item Response Theory (IRT) to efficiently assess LLMs' capabilities",
+            "metadata_status": "PASS",
+            "metadata_title": "Assessing Programming Task Difficulty for Efficient Evaluation of Large Language Models"
+          },
+          {
+            "arxiv_id": "2202.13169",
+            "organic_index": 7,
+            "position": 8,
+            "link": "https://arxiv.org/pdf/2202.13169",
+            "title": "[PDF] arXiv:2202.13169v3 [cs.PL] 4 May 2022",
+            "snippet": "Following Chen et al. (2021), we evaluate all models on the HumanEval dataset. The dataset contains 164 prompts with descriptions 424GB. This only reduced the ...",
+            "metadata_status": "PASS",
+            "metadata_title": "A Systematic Evaluation of Large Language Models of Code"
+          }
+        ],
+        "response_artifacts": [
+          "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q28_anchor_attempt1.json"
+        ]
+      }
+    },
+    {
+      "query_id": "Q44",
+      "original_question": "What are the researches that have explored the application of Crypto-based Private Learning in privacy-preserving machine learning?.",
+      "native_queries": [
+        "Survey papers on Crypto-based Private Learning in machine learning",
+        "Application of cryptographic techniques in private machine learning",
+        "Research on encryption methods in privacy-preserving machine learning",
+        "Use of homomorphic encryption in private learning for machine learning",
+        "Research articles on privacy-preserving machine learning using cryptography"
+      ],
+      "gt": {
+        "total": 25,
+        "raw_titles": [
+          "CryptoDL: Deep Neural Networks over Encrypted Data",
+          "Privacy-Preserving Machine Learning with Fully Homomorphic Encryption\n  for Deep Neural Network",
+          "Faster CryptoNets: Leveraging Sparsity for Real-World Encrypted\n  Inference",
+          "Neural Network Training With Homomorphic Encryption",
+          "SecureBoost: A Lossless Federated Learning Framework",
+          "Glyph: Fast and Accurately Training Deep Neural Networks on Encrypted\n  Data",
+          "Towards the AlexNet Moment for Homomorphic Encryption: HCNN, theFirst\n  Homomorphic CNN on Encrypted Data with GPUs",
+          "POSEIDON: Privacy-Preserving Federated Neural Network Learning",
+          "SoK: Privacy Preserving Machine Learning using Functional Encryption:\n  Opportunities and Challenges",
+          "Efficient Privacy-Preserving KAN Inference Using Homomorphic Encryption",
+          "TAPAS: Tricks to Accelerate (encrypted) Prediction As a Service",
+          "CryptoNN: Training Neural Networks over Encrypted Data",
+          "Blind Faith: Privacy-Preserving Machine Learning using Function\n  Approximation",
+          "Privacy-Preserving Logistic Regression Training on Large Datasets",
+          "CryptoGCN: Fast and Scalable Homomorphically Encrypted Graph\n  Convolutional Network Inference",
+          "Decentralised, Collaborative, and Privacy-preserving Machine Learning\n  for Multi-Hospital Data",
+          "Privacy-Preserving Machine Learning: Methods, Challenges and Directions",
+          "Homomorphic Encryption and Federated Learning based Privacy-Preserving\n  CNN Training: COVID-19 Detection Use-Case",
+          "A Pervasive, Efficient and Private Future: Realizing Privacy-Preserving   Machine Learning Through Hybrid Homomorphic Encryption",
+          "Crypto-Nets: Neural Networks over Encrypted Data",
+          "SHE: A Fast and Accurate Deep Neural Network for Encrypted Data",
+          "Private and Reliable Neural Network Inference",
+          "Learning in the Dark: Privacy-Preserving Machine Learning using Function\n  Approximation",
+          "Hawk: Accurate and Fast Privacy-Preserving Machine Learning Using Secure\n  Lookup Table Computation",
+          "Partially Encrypted Machine Learning using Functional Encryption"
+        ],
+        "normalized_groups": {
+          "cryptodldeepneuralnetworksoverencrypteddata": [
+            {
+              "title": "CryptoDL: Deep Neural Networks over Encrypted Data",
+              "arxiv_id": "1711.05189"
+            }
+          ],
+          "privacypreservingmachinelearningwithfullyhomomorphicencryptionfordeepneuralnetwork": [
+            {
+              "title": "Privacy-Preserving Machine Learning with Fully Homomorphic Encryption\n  for Deep Neural Network",
+              "arxiv_id": "2106.07229"
+            }
+          ],
+          "fastercryptonetsleveragingsparsityforrealworldencryptedinference": [
+            {
+              "title": "Faster CryptoNets: Leveraging Sparsity for Real-World Encrypted\n  Inference",
+              "arxiv_id": "1811.09953"
+            }
+          ],
+          "neuralnetworktrainingwithhomomorphicencryption": [
+            {
+              "title": "Neural Network Training With Homomorphic Encryption",
+              "arxiv_id": "2012.13552"
+            }
+          ],
+          "secureboostalosslessfederatedlearningframework": [
+            {
+              "title": "SecureBoost: A Lossless Federated Learning Framework",
+              "arxiv_id": "1901.08755"
+            }
+          ],
+          "glyphfastandaccuratelytrainingdeepneuralnetworksonencrypteddata": [
+            {
+              "title": "Glyph: Fast and Accurately Training Deep Neural Networks on Encrypted\n  Data",
+              "arxiv_id": "1911.07101"
+            }
+          ],
+          "towardsthealexnetmomentforhomomorphicencryptionhcnnthefirsthomomorphiccnnonencrypteddatawithgpus": [
+            {
+              "title": "Towards the AlexNet Moment for Homomorphic Encryption: HCNN, theFirst\n  Homomorphic CNN on Encrypted Data with GPUs",
+              "arxiv_id": "1811.00778"
+            }
+          ],
+          "poseidonprivacypreservingfederatedneuralnetworklearning": [
+            {
+              "title": "POSEIDON: Privacy-Preserving Federated Neural Network Learning",
+              "arxiv_id": "2009.00349"
+            }
+          ],
+          "sokprivacypreservingmachinelearningusingfunctionalencryptionopportunitiesandchallenges": [
+            {
+              "title": "SoK: Privacy Preserving Machine Learning using Functional Encryption:\n  Opportunities and Challenges",
+              "arxiv_id": "2204.05136"
+            }
+          ],
+          "efficientprivacypreservingkaninferenceusinghomomorphicencryption": [
+            {
+              "title": "Efficient Privacy-Preserving KAN Inference Using Homomorphic Encryption",
+              "arxiv_id": "2409.07751"
+            }
+          ],
+          "tapastrickstoaccelerateencryptedpredictionasaservice": [
+            {
+              "title": "TAPAS: Tricks to Accelerate (encrypted) Prediction As a Service",
+              "arxiv_id": "1806.03461"
+            }
+          ],
+          "cryptonntrainingneuralnetworksoverencrypteddata": [
+            {
+              "title": "CryptoNN: Training Neural Networks over Encrypted Data",
+              "arxiv_id": "1904.07303"
+            }
+          ],
+          "blindfaithprivacypreservingmachinelearningusingfunctionapproximation": [
+            {
+              "title": "Blind Faith: Privacy-Preserving Machine Learning using Function\n  Approximation",
+              "arxiv_id": "2107.14338"
+            }
+          ],
+          "privacypreservinglogisticregressiontrainingonlargedatasets": [
+            {
+              "title": "Privacy-Preserving Logistic Regression Training on Large Datasets",
+              "arxiv_id": "2406.13221"
+            }
+          ],
+          "cryptogcnfastandscalablehomomorphicallyencryptedgraphconvolutionalnetworkinference": [
+            {
+              "title": "CryptoGCN: Fast and Scalable Homomorphically Encrypted Graph\n  Convolutional Network Inference",
+              "arxiv_id": "2209.11904"
+            }
+          ],
+          "decentralisedcollaborativeandprivacypreservingmachinelearningformultihospitaldata": [
+            {
+              "title": "Decentralised, Collaborative, and Privacy-preserving Machine Learning\n  for Multi-Hospital Data",
+              "arxiv_id": "2402.00205"
+            }
+          ],
+          "privacypreservingmachinelearningmethodschallengesanddirections": [
+            {
+              "title": "Privacy-Preserving Machine Learning: Methods, Challenges and Directions",
+              "arxiv_id": "2108.04417"
+            }
+          ],
+          "homomorphicencryptionandfederatedlearningbasedprivacypreservingcnntrainingcoviddetectionusecase": [
+            {
+              "title": "Homomorphic Encryption and Federated Learning based Privacy-Preserving\n  CNN Training: COVID-19 Detection Use-Case",
+              "arxiv_id": "2204.07752"
+            }
+          ],
+          "apervasiveefficientandprivatefuturerealizingprivacypreservingmachinelearningthroughhybridhomomorphicencryption": [
+            {
+              "title": "A Pervasive, Efficient and Private Future: Realizing Privacy-Preserving   Machine Learning Through Hybrid Homomorphic Encryption",
+              "arxiv_id": "2409.06422"
+            }
+          ],
+          "cryptonetsneuralnetworksoverencrypteddata": [
+            {
+              "title": "Crypto-Nets: Neural Networks over Encrypted Data",
+              "arxiv_id": "1412.6181"
+            }
+          ],
+          "sheafastandaccuratedeepneuralnetworkforencrypteddata": [
+            {
+              "title": "SHE: A Fast and Accurate Deep Neural Network for Encrypted Data",
+              "arxiv_id": "1906.00148"
+            }
+          ],
+          "privateandreliableneuralnetworkinference": [
+            {
+              "title": "Private and Reliable Neural Network Inference",
+              "arxiv_id": "2210.15614"
+            }
+          ],
+          "learninginthedarkprivacypreservingmachinelearningusingfunctionapproximation": [
+            {
+              "title": "Learning in the Dark: Privacy-Preserving Machine Learning using Function\n  Approximation",
+              "arxiv_id": "2309.08190"
+            }
+          ],
+          "hawkaccurateandfastprivacypreservingmachinelearningusingsecurelookuptablecomputation": [
+            {
+              "title": "Hawk: Accurate and Fast Privacy-Preserving Machine Learning Using Secure\n  Lookup Table Computation",
+              "arxiv_id": "2403.17296"
+            }
+          ],
+          "partiallyencryptedmachinelearningusingfunctionalencryption": [
+            {
+              "title": "Partially Encrypted Machine Learning using Functional Encryption",
+              "arxiv_id": "1905.10214"
+            }
+          ]
+        }
+      },
+      "full_native_gt_found": 6,
+      "full_native_plus_anchor_gt_found": 7,
+      "added_gt_evidence": {
+        "hawkaccurateandfastprivacypreservingmachinelearningusingsecurelookuptablecomputation": [
+          {
+            "arxiv_id": "2403.17296",
+            "organic_index": 9,
+            "position": 10,
+            "link": "https://arxiv.org/pdf/2403.17296?",
+            "title": "[PDF] Accurate and Fast Privacy-Preserving Machine Learning Using ...",
+            "snippet": "Training machine learning models on data from multiple entities without direct data sharing can unlock applications otherwise hin- dered by business, legal, or ...",
+            "normalized_gt_title": "hawkaccurateandfastprivacypreservingmachinelearningusingsecurelookuptablecomputation",
+            "metadata_title": "Hawk: Accurate and Fast Privacy-Preserving Machine Learning Using Secure Lookup Table Computation",
+            "response_artifact": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q44_anchor_attempt1.json"
+          }
+        ]
+      },
+      "anchor": {
+        "status": "PASS",
+        "request_payload": {
+          "q": "What are the researches that have explored the application of Crypto-based Private Learning in privacy-preserving machine learning?. before:2024-09-24 site:arxiv.org",
+          "num": 10,
+          "page": 1
+        },
+        "http_statuses": [
+          200
+        ],
+        "matched_gt": [
+          "cryptonntrainingneuralnetworksoverencrypteddata",
+          "hawkaccurateandfastprivacypreservingmachinelearningusingsecurelookuptablecomputation"
+        ],
+        "missing_metadata_ids": [
+          "2407.17699"
+        ],
+        "returned_arxiv_ids": [
+          "1904.07303",
+          "2202.02817",
+          "2303.15563",
+          "2305.03928",
+          "2401.03552",
+          "2403.03592",
+          "2403.04410",
+          "2403.17296",
+          "2407.17699"
+        ],
+        "hits_with_existing_metadata": [
+          {
+            "arxiv_id": "2401.03552",
+            "organic_index": 0,
+            "position": 1,
+            "link": "https://arxiv.org/html/2401.03552v1",
+            "title": "Privacy-preserving in Blockchain-based Federated Learning Systems",
+            "snippet": "This paper explores the research efforts carried out by the scientific community to define privacy solutions in scenarios adopting Blockchain-Enabled FL.",
+            "metadata_status": "PASS",
+            "metadata_title": "Privacy-preserving in Blockchain-based Federated Learning Systems"
+          },
+          {
+            "arxiv_id": "2401.03552",
+            "organic_index": 1,
+            "position": 2,
+            "link": "https://arxiv.org/abs/2401.03552",
+            "title": "Privacy-Preserving in Blockchain-based Federated Learning Systems",
+            "snippet": "This paper explores the research efforts carried out by the scientific community to define privacy solutions in scenarios adopting Blockchain-Enabled FL.",
+            "metadata_status": "PASS",
+            "metadata_title": "Privacy-preserving in Blockchain-based Federated Learning Systems"
+          },
+          {
+            "arxiv_id": "2303.15563",
+            "organic_index": 2,
+            "position": 3,
+            "link": "https://arxiv.org/pdf/2303.15563",
+            "title": "[PDF] privacy-preserving - arXiv",
+            "snippet": "The aim of this review is to guide the development of private and ef- ficient ML models in healthcare, with the prospects of translating research efforts into ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Privacy-preserving machine learning for healthcare: open challenges and future perspectives"
+          },
+          {
+            "arxiv_id": "2403.03592",
+            "organic_index": 3,
+            "position": 4,
+            "link": "https://arxiv.org/pdf/2403.03592",
+            "title": "[PDF] Wildest Dreams: Reproducible Research in Privacy-preserving ...",
+            "snippet": "Privacy-Preserving Machine Learning (PPML) is a research field focused on enhancing data privacy in ML using Privacy-Preserving Techniques (PPTs).",
+            "metadata_status": "PASS",
+            "metadata_title": "Wildest Dreams: Reproducible Research in Privacy-preserving Neural Network Training"
+          },
+          {
+            "arxiv_id": "2305.03928",
+            "organic_index": 4,
+            "position": 5,
+            "link": "https://arxiv.org/pdf/2305.03928",
+            "title": "[PDF] An Overview of AI and Blockchain Integration for Privacy-Preserving",
+            "snippet": "Ali et al. [49] proposed a privacy-preserving and intrusion detection frame- work based on blockchain and deep learning. This",
+            "metadata_status": "PASS",
+            "metadata_title": "An Overview of AI and Blockchain Integration for Privacy-Preserving1footnote 11footnote 1"
+          },
+          {
+            "arxiv_id": "1904.07303",
+            "organic_index": 5,
+            "position": 6,
+            "link": "https://arxiv.org/pdf/1904.07303",
+            "title": "[PDF] CryptoNN: Training Neural Networks over Encrypted Data - arXiv",
+            "snippet": "Existing privacy-preserving machine learning approaches are essentially of two types : (i) non-crypto based approaches such as SecureML [6], DeepSecure [5], and ...",
+            "metadata_status": "PASS",
+            "metadata_title": "CryptoNN: Training Neural Networks over Encrypted Data"
+          },
+          {
+            "arxiv_id": "2202.02817",
+            "organic_index": 6,
+            "position": 7,
+            "link": "https://arxiv.org/pdf/2202.02817",
+            "title": "[PDF] BEAS: Blockchain Enabled Asynchronous & Secure Federated ...",
+            "snippet": "BEAS proposes efficient privacy-preserving federated learning framework in decentralized settings with stronger security and privacy guarantees. BEAS also ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Beas: Blockchain Enabled Asynchronous & Secure Federated Machine Learning"
+          },
+          {
+            "arxiv_id": "2403.04410",
+            "organic_index": 7,
+            "position": 8,
+            "link": "https://arxiv.org/pdf/2403.04410",
+            "title": "[PDF] Collaborative Cybersecurity Using Blockchain: A Survey - Loïc Miller",
+            "snippet": "Abdel-Basset et al. [1] study both non-blockchain and blockchain solutions to achieve a privacy-preserved intrusion detection system for the Industrial Edge of ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Collaborative Cybersecurity Using Blockchain: A Survey"
+          },
+          {
+            "arxiv_id": "2407.17699",
+            "organic_index": 8,
+            "position": 9,
+            "link": "https://arxiv.org/pdf/2407.17699",
+            "title": "[PDF] SOK: Blockchain for Provenance - arXiv",
+            "snippet": "In these designs it is crucial to address provenance, collaboration, privacy, confidentiality, and domain-specific issues such as legitimate product ...",
+            "metadata_status": "UNRESOLVED",
+            "metadata_title": null
+          },
+          {
+            "arxiv_id": "2403.17296",
+            "organic_index": 9,
+            "position": 10,
+            "link": "https://arxiv.org/pdf/2403.17296?",
+            "title": "[PDF] Accurate and Fast Privacy-Preserving Machine Learning Using ...",
+            "snippet": "Training machine learning models on data from multiple entities without direct data sharing can unlock applications otherwise hin- dered by business, legal, or ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Hawk: Accurate and Fast Privacy-Preserving Machine Learning Using Secure Lookup Table Computation"
+          }
+        ],
+        "response_artifacts": [
+          "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q44_anchor_attempt1.json"
+        ]
+      }
+    },
+    {
+      "query_id": "Q45",
+      "original_question": "All papers about controllability of video generation.",
+      "native_queries": [
+        "Survey papers on controllability of video generation",
+        "Research papers on video generation controllability",
+        "Latest research on controllability of video generation",
+        "Studies on the control aspects of video production",
+        "Papers on techniques for controlling video generation"
+      ],
+      "gt": {
+        "total": 57,
+        "raw_titles": [
+          "Motion-Conditioned Diffusion Model for Controllable Video Synthesis",
+          "Panacea+: Panoramic and Controllable Video Generation for Autonomous   Driving",
+          "Cinemo: Consistent and Controllable Image Animation with Motion   Diffusion Models",
+          "Magic-Me: Identity-Specific Video Customized Diffusion",
+          "AnimateLCM: Accelerating the Animation of Personalized Diffusion Models\n  and Adapters with Decoupled Consistency Learning",
+          "DrivingDiffusion: Layout-Guided multi-view driving scene video\n  generation with latent diffusion model",
+          "TrailBlazer: Trajectory Control for Diffusion-Based Video Generation",
+          "MoCoGAN: Decomposing Motion and Content for Video Generation",
+          "Genie: Generative Interactive Environments",
+          "Direct-a-Video: Customized Video Generation with User-Directed Camera\n  Movement and Object Motion",
+          "Click to Move: Controlling Video Generation with Sparse Motion",
+          "LaMD: Latent Motion Diffusion for Video Generation",
+          "Structure and Content-Guided Video Synthesis with Diffusion Models",
+          "Collaborative Video Diffusion: Consistent Multi-video Generation with   Camera Control",
+          "Control-A-Video: Controllable Text-to-Video Generation with Diffusion\n  Models",
+          "Text-Animator: Controllable Visual Text Video Generation",
+          "DiVE: DiT-based Video Generation with Enhanced Control",
+          "Understanding Object Dynamics for Interactive Image-to-Video Synthesis",
+          "ControlVideo: Training-free Controllable Text-to-Video Generation",
+          "Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for\n  Character Animation",
+          "DriveScape: Towards High-Resolution Controllable Multi-View Driving   Video Generation",
+          "CamCo: Camera-Controllable 3D-Consistent Image-to-Video Generation",
+          "PEEKABOO: Interactive Video Generation via Masked-Diffusion",
+          "CameraCtrl: Enabling Camera Control for Text-to-Video Generation",
+          "Video Generation Beyond a Single Clip",
+          "VideoComposer: Compositional Video Synthesis with Motion Controllability",
+          "DragAnything: Motion Control for Anything using Entity Representation",
+          "RefDrop: Controllable Consistency in Image or Video Generation via   Reference Feature Guidance",
+          "Make-Your-Video: Customized Video Generation Using Textual and\n  Structural Guidance",
+          "DreamVideo: High-Fidelity Image-to-Video Generation with Image Retention\n  and Text Guidance",
+          "DragNUWA: Fine-grained Control in Video Generation by Integrating Text,\n  Image, and Trajectory",
+          "MagicDrive: Street View Generation with Diverse 3D Geometry Control",
+          "FreeTraj: Tuning-Free Trajectory Control in Video Diffusion Models",
+          "Fine-grained Controllable Video Generation via Object Appearance and\n  Context",
+          "Panacea: Panoramic and Controllable Video Generation for Autonomous\n  Driving",
+          "Ctrl-V: Higher Fidelity Video Generation with Bounding-Box Controlled   Object Motion",
+          "LLM-grounded Video Diffusion Models",
+          "Boximator: Generating Rich and Controllable Motions for Video Synthesis",
+          "TrackGo: A Flexible and Efficient Method for Controllable Video   Generation",
+          "Make It Move: Controllable Image-to-Video Generation with Text\n  Descriptions",
+          "MotionCtrl: A Unified and Flexible Motion Controller for Video\n  Generation",
+          "AMG: Avatar Motion Guided Video Generation",
+          "Imagen Video: High Definition Video Generation with Diffusion Models",
+          "VideoControlNet: A Motion-Guided Video-to-Video Translation Framework by\n  Using Diffusion Model with ControlNet",
+          "ControlNeXt: Powerful and Efficient Control for Image and Video   Generation",
+          "MyGo: Consistent and Controllable Multi-View Driving Video Generation   with Camera Control",
+          "Follow Your Pose: Pose-Guided Text-to-Video Generation using Pose-Free\n  Videos",
+          "Moonshot: Towards Controllable Video Generation and Editing with\n  Multimodal Conditions",
+          "Training-free Camera Control for Video Generation",
+          "MotionDirector: Motion Customization of Text-to-Video Diffusion Models",
+          "Stochastic Image-to-Video Synthesis using cINNs",
+          "SparseCtrl: Adding Sparse Controls to Text-to-Video Diffusion Models",
+          "MotionClone: Training-Free Motion Cloning for Controllable Video Generation",
+          "MagicStick: Controllable Video Editing via Control Handle Transformations",
+          "VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models",
+          "DreamVideo: Composing Your Dream Videos with Customized Subject and Motion",
+          "Motion-I2V: Consistent and Controllable Image-to-Video Generation with Explicit Motion Modeling",
+          "MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model"
+        ],
+        "normalized_groups": {
+          "motionconditioneddiffusionmodelforcontrollablevideosynthesis": [
+            {
+              "title": "Motion-Conditioned Diffusion Model for Controllable Video Synthesis",
+              "arxiv_id": "2304.14404"
+            }
+          ],
+          "panaceapanoramicandcontrollablevideogenerationforautonomousdriving": [
+            {
+              "title": "Panacea+: Panoramic and Controllable Video Generation for Autonomous   Driving",
+              "arxiv_id": "2408.07605"
+            },
+            {
+              "title": "Panacea: Panoramic and Controllable Video Generation for Autonomous\n  Driving",
+              "arxiv_id": "2311.16813"
+            }
+          ],
+          "cinemoconsistentandcontrollableimageanimationwithmotiondiffusionmodels": [
+            {
+              "title": "Cinemo: Consistent and Controllable Image Animation with Motion   Diffusion Models",
+              "arxiv_id": "2407.15642"
+            }
+          ],
+          "magicmeidentityspecificvideocustomizeddiffusion": [
+            {
+              "title": "Magic-Me: Identity-Specific Video Customized Diffusion",
+              "arxiv_id": "2402.09368"
+            }
+          ],
+          "animatelcmacceleratingtheanimationofpersonalizeddiffusionmodelsandadapterswithdecoupledconsistencylearning": [
+            {
+              "title": "AnimateLCM: Accelerating the Animation of Personalized Diffusion Models\n  and Adapters with Decoupled Consistency Learning",
+              "arxiv_id": "2402.00769"
+            }
+          ],
+          "drivingdiffusionlayoutguidedmultiviewdrivingscenevideogenerationwithlatentdiffusionmodel": [
+            {
+              "title": "DrivingDiffusion: Layout-Guided multi-view driving scene video\n  generation with latent diffusion model",
+              "arxiv_id": "2310.07771"
+            }
+          ],
+          "trailblazertrajectorycontrolfordiffusionbasedvideogeneration": [
+            {
+              "title": "TrailBlazer: Trajectory Control for Diffusion-Based Video Generation",
+              "arxiv_id": "2401.00896"
+            }
+          ],
+          "mocogandecomposingmotionandcontentforvideogeneration": [
+            {
+              "title": "MoCoGAN: Decomposing Motion and Content for Video Generation",
+              "arxiv_id": "1707.04993"
+            }
+          ],
+          "geniegenerativeinteractiveenvironments": [
+            {
+              "title": "Genie: Generative Interactive Environments",
+              "arxiv_id": "2402.15391"
+            }
+          ],
+          "directavideocustomizedvideogenerationwithuserdirectedcameramovementandobjectmotion": [
+            {
+              "title": "Direct-a-Video: Customized Video Generation with User-Directed Camera\n  Movement and Object Motion",
+              "arxiv_id": "2402.03162"
+            }
+          ],
+          "clicktomovecontrollingvideogenerationwithsparsemotion": [
+            {
+              "title": "Click to Move: Controlling Video Generation with Sparse Motion",
+              "arxiv_id": "2108.08815"
+            }
+          ],
+          "lamdlatentmotiondiffusionforvideogeneration": [
+            {
+              "title": "LaMD: Latent Motion Diffusion for Video Generation",
+              "arxiv_id": "2304.11603"
+            }
+          ],
+          "structureandcontentguidedvideosynthesiswithdiffusionmodels": [
+            {
+              "title": "Structure and Content-Guided Video Synthesis with Diffusion Models",
+              "arxiv_id": "2302.03011"
+            }
+          ],
+          "collaborativevideodiffusionconsistentmultivideogenerationwithcameracontrol": [
+            {
+              "title": "Collaborative Video Diffusion: Consistent Multi-video Generation with   Camera Control",
+              "arxiv_id": "2405.17414"
+            }
+          ],
+          "controlavideocontrollabletexttovideogenerationwithdiffusionmodels": [
+            {
+              "title": "Control-A-Video: Controllable Text-to-Video Generation with Diffusion\n  Models",
+              "arxiv_id": "2305.13840"
+            }
+          ],
+          "textanimatorcontrollablevisualtextvideogeneration": [
+            {
+              "title": "Text-Animator: Controllable Visual Text Video Generation",
+              "arxiv_id": "2406.17777"
+            }
+          ],
+          "diveditbasedvideogenerationwithenhancedcontrol": [
+            {
+              "title": "DiVE: DiT-based Video Generation with Enhanced Control",
+              "arxiv_id": "2409.01595"
+            }
+          ],
+          "understandingobjectdynamicsforinteractiveimagetovideosynthesis": [
+            {
+              "title": "Understanding Object Dynamics for Interactive Image-to-Video Synthesis",
+              "arxiv_id": "2106.11303"
+            }
+          ],
+          "controlvideotrainingfreecontrollabletexttovideogeneration": [
+            {
+              "title": "ControlVideo: Training-free Controllable Text-to-Video Generation",
+              "arxiv_id": "2305.13077"
+            }
+          ],
+          "animateanyoneconsistentandcontrollableimagetovideosynthesisforcharacteranimation": [
+            {
+              "title": "Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for\n  Character Animation",
+              "arxiv_id": "2311.17117"
+            }
+          ],
+          "drivescapetowardshighresolutioncontrollablemultiviewdrivingvideogeneration": [
+            {
+              "title": "DriveScape: Towards High-Resolution Controllable Multi-View Driving   Video Generation",
+              "arxiv_id": "2409.05463"
+            }
+          ],
+          "camcocameracontrollabledconsistentimagetovideogeneration": [
+            {
+              "title": "CamCo: Camera-Controllable 3D-Consistent Image-to-Video Generation",
+              "arxiv_id": "2406.02509"
+            }
+          ],
+          "peekaboointeractivevideogenerationviamaskeddiffusion": [
+            {
+              "title": "PEEKABOO: Interactive Video Generation via Masked-Diffusion",
+              "arxiv_id": "2312.07509"
+            }
+          ],
+          "cameractrlenablingcameracontrolfortexttovideogeneration": [
+            {
+              "title": "CameraCtrl: Enabling Camera Control for Text-to-Video Generation",
+              "arxiv_id": "2404.02101"
+            }
+          ],
+          "videogenerationbeyondasingleclip": [
+            {
+              "title": "Video Generation Beyond a Single Clip",
+              "arxiv_id": "2304.07483"
+            }
+          ],
+          "videocomposercompositionalvideosynthesiswithmotioncontrollability": [
+            {
+              "title": "VideoComposer: Compositional Video Synthesis with Motion Controllability",
+              "arxiv_id": "2306.02018"
+            }
+          ],
+          "draganythingmotioncontrolforanythingusingentityrepresentation": [
+            {
+              "title": "DragAnything: Motion Control for Anything using Entity Representation",
+              "arxiv_id": "2403.07420"
+            }
+          ],
+          "refdropcontrollableconsistencyinimageorvideogenerationviareferencefeatureguidance": [
+            {
+              "title": "RefDrop: Controllable Consistency in Image or Video Generation via   Reference Feature Guidance",
+              "arxiv_id": "2405.17661"
+            }
+          ],
+          "makeyourvideocustomizedvideogenerationusingtextualandstructuralguidance": [
+            {
+              "title": "Make-Your-Video: Customized Video Generation Using Textual and\n  Structural Guidance",
+              "arxiv_id": "2306.00943"
+            }
+          ],
+          "dreamvideohighfidelityimagetovideogenerationwithimageretentionandtextguidance": [
+            {
+              "title": "DreamVideo: High-Fidelity Image-to-Video Generation with Image Retention\n  and Text Guidance",
+              "arxiv_id": "2312.03018"
+            }
+          ],
+          "dragnuwafinegrainedcontrolinvideogenerationbyintegratingtextimageandtrajectory": [
+            {
+              "title": "DragNUWA: Fine-grained Control in Video Generation by Integrating Text,\n  Image, and Trajectory",
+              "arxiv_id": "2308.08089"
+            }
+          ],
+          "magicdrivestreetviewgenerationwithdiversedgeometrycontrol": [
+            {
+              "title": "MagicDrive: Street View Generation with Diverse 3D Geometry Control",
+              "arxiv_id": "2310.02601"
+            }
+          ],
+          "freetrajtuningfreetrajectorycontrolinvideodiffusionmodels": [
+            {
+              "title": "FreeTraj: Tuning-Free Trajectory Control in Video Diffusion Models",
+              "arxiv_id": "2406.16863"
+            }
+          ],
+          "finegrainedcontrollablevideogenerationviaobjectappearanceandcontext": [
+            {
+              "title": "Fine-grained Controllable Video Generation via Object Appearance and\n  Context",
+              "arxiv_id": "2312.02919"
+            }
+          ],
+          "ctrlvhigherfidelityvideogenerationwithboundingboxcontrolledobjectmotion": [
+            {
+              "title": "Ctrl-V: Higher Fidelity Video Generation with Bounding-Box Controlled   Object Motion",
+              "arxiv_id": "2406.05630"
+            }
+          ],
+          "llmgroundedvideodiffusionmodels": [
+            {
+              "title": "LLM-grounded Video Diffusion Models",
+              "arxiv_id": "2309.17444"
+            }
+          ],
+          "boximatorgeneratingrichandcontrollablemotionsforvideosynthesis": [
+            {
+              "title": "Boximator: Generating Rich and Controllable Motions for Video Synthesis",
+              "arxiv_id": "2402.01566"
+            }
+          ],
+          "trackgoaflexibleandefficientmethodforcontrollablevideogeneration": [
+            {
+              "title": "TrackGo: A Flexible and Efficient Method for Controllable Video   Generation",
+              "arxiv_id": "2408.11475"
+            }
+          ],
+          "makeitmovecontrollableimagetovideogenerationwithtextdescriptions": [
+            {
+              "title": "Make It Move: Controllable Image-to-Video Generation with Text\n  Descriptions",
+              "arxiv_id": "2112.02815"
+            }
+          ],
+          "motionctrlaunifiedandflexiblemotioncontrollerforvideogeneration": [
+            {
+              "title": "MotionCtrl: A Unified and Flexible Motion Controller for Video\n  Generation",
+              "arxiv_id": "2312.03641"
+            }
+          ],
+          "amgavatarmotionguidedvideogeneration": [
+            {
+              "title": "AMG: Avatar Motion Guided Video Generation",
+              "arxiv_id": "2409.01502"
+            }
+          ],
+          "imagenvideohighdefinitionvideogenerationwithdiffusionmodels": [
+            {
+              "title": "Imagen Video: High Definition Video Generation with Diffusion Models",
+              "arxiv_id": "2210.02303"
+            }
+          ],
+          "videocontrolnetamotionguidedvideotovideotranslationframeworkbyusingdiffusionmodelwithcontrolnet": [
+            {
+              "title": "VideoControlNet: A Motion-Guided Video-to-Video Translation Framework by\n  Using Diffusion Model with ControlNet",
+              "arxiv_id": "2307.14073"
+            }
+          ],
+          "controlnextpowerfulandefficientcontrolforimageandvideogeneration": [
+            {
+              "title": "ControlNeXt: Powerful and Efficient Control for Image and Video   Generation",
+              "arxiv_id": "2408.06070"
+            }
+          ],
+          "mygoconsistentandcontrollablemultiviewdrivingvideogenerationwithcameracontrol": [
+            {
+              "title": "MyGo: Consistent and Controllable Multi-View Driving Video Generation   with Camera Control",
+              "arxiv_id": "2409.06189"
+            }
+          ],
+          "followyourposeposeguidedtexttovideogenerationusingposefreevideos": [
+            {
+              "title": "Follow Your Pose: Pose-Guided Text-to-Video Generation using Pose-Free\n  Videos",
+              "arxiv_id": "2304.01186"
+            }
+          ],
+          "moonshottowardscontrollablevideogenerationandeditingwithmultimodalconditions": [
+            {
+              "title": "Moonshot: Towards Controllable Video Generation and Editing with\n  Multimodal Conditions",
+              "arxiv_id": "2401.01827"
+            }
+          ],
+          "trainingfreecameracontrolforvideogeneration": [
+            {
+              "title": "Training-free Camera Control for Video Generation",
+              "arxiv_id": "2406.10126"
+            }
+          ],
+          "motiondirectormotioncustomizationoftexttovideodiffusionmodels": [
+            {
+              "title": "MotionDirector: Motion Customization of Text-to-Video Diffusion Models",
+              "arxiv_id": "2310.08465"
+            }
+          ],
+          "stochasticimagetovideosynthesisusingcinns": [
+            {
+              "title": "Stochastic Image-to-Video Synthesis using cINNs",
+              "arxiv_id": "2105.04551"
+            }
+          ],
+          "sparsectrladdingsparsecontrolstotexttovideodiffusionmodels": [
+            {
+              "title": "SparseCtrl: Adding Sparse Controls to Text-to-Video Diffusion Models",
+              "arxiv_id": "2311.16933"
+            }
+          ],
+          "motionclonetrainingfreemotioncloningforcontrollablevideogeneration": [
+            {
+              "title": "MotionClone: Training-Free Motion Cloning for Controllable Video Generation",
+              "arxiv_id": "2406.05338"
+            }
+          ],
+          "magicstickcontrollablevideoeditingviacontrolhandletransformations": [
+            {
+              "title": "MagicStick: Controllable Video Editing via Control Handle Transformations",
+              "arxiv_id": "2312.03047"
+            }
+          ],
+          "vmcvideomotioncustomizationusingtemporalattentionadaptionfortexttovideodiffusionmodels": [
+            {
+              "title": "VMC: Video Motion Customization using Temporal Attention Adaption for Text-to-Video Diffusion Models",
+              "arxiv_id": "2312.00845"
+            }
+          ],
+          "dreamvideocomposingyourdreamvideoswithcustomizedsubjectandmotion": [
+            {
+              "title": "DreamVideo: Composing Your Dream Videos with Customized Subject and Motion",
+              "arxiv_id": "2312.04433"
+            }
+          ],
+          "motionivconsistentandcontrollableimagetovideogenerationwithexplicitmotionmodeling": [
+            {
+              "title": "Motion-I2V: Consistent and Controllable Image-to-Video Generation with Explicit Motion Modeling",
+              "arxiv_id": "2401.15977"
+            }
+          ],
+          "mofavideocontrollableimageanimationviagenerativemotionfieldadaptionsinfrozenimagetovideodiffusionmodel": [
+            {
+              "title": "MOFA-Video: Controllable Image Animation via Generative Motion Field Adaptions in Frozen Image-to-Video Diffusion Model",
+              "arxiv_id": "2405.20222"
+            }
+          ]
+        }
+      },
+      "full_native_gt_found": 12,
+      "full_native_plus_anchor_gt_found": 13,
+      "added_gt_evidence": {
+        "trainingfreecameracontrolforvideogeneration": [
+          {
+            "arxiv_id": "2406.10126",
+            "organic_index": 8,
+            "position": 9,
+            "link": "https://arxiv.org/abs/2406.10126",
+            "title": "[2406.10126] Training-free Camera Control for Video Generation",
+            "snippet": "Abstract:We propose a training-free and robust solution to offer camera movement control for off-the-shelf video diffusion models.",
+            "normalized_gt_title": "trainingfreecameracontrolforvideogeneration",
+            "metadata_title": "Training-free Camera Control for Video Generation",
+            "response_artifact": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q45_anchor_attempt1.json"
+          }
+        ]
+      },
+      "anchor": {
+        "status": "PASS",
+        "request_payload": {
+          "q": "All papers about controllability of video generation. before:2024-09-24 site:arxiv.org",
+          "num": 10,
+          "page": 1
+        },
+        "http_statuses": [
+          200
+        ],
+        "matched_gt": [
+          "cameractrlenablingcameracontrolfortexttovideogeneration",
+          "collaborativevideodiffusionconsistentmultivideogenerationwithcameracontrol",
+          "controlavideocontrollabletexttovideogenerationwithdiffusionmodels",
+          "controlvideotrainingfreecontrollabletexttovideogeneration",
+          "finegrainedcontrollablevideogenerationviaobjectappearanceandcontext",
+          "makeitmovecontrollableimagetovideogenerationwithtextdescriptions",
+          "moonshottowardscontrollablevideogenerationandeditingwithmultimodalconditions",
+          "trackgoaflexibleandefficientmethodforcontrollablevideogeneration",
+          "trainingfreecameracontrolforvideogeneration"
+        ],
+        "missing_metadata_ids": [],
+        "returned_arxiv_ids": [
+          "2112.02815",
+          "2305.13077",
+          "2305.13840",
+          "2312.01409",
+          "2312.02919",
+          "2401.01827",
+          "2404.02101",
+          "2405.17414",
+          "2406.10126",
+          "2408.11475"
+        ],
+        "hits_with_existing_metadata": [
+          {
+            "arxiv_id": "2404.02101",
+            "organic_index": 0,
+            "position": 1,
+            "link": "https://arxiv.org/abs/2404.02101",
+            "title": "CameraCtrl: Enabling Camera Control for Text-to-Video Generation",
+            "snippet": "Abstract:Controllability plays a crucial role in video generation, as it allows users to create and edit content more precisely. Existing models, however ...",
+            "metadata_status": "PASS",
+            "metadata_title": "CameraCtrl: Enabling Camera Control for Text-to-Video Generation"
+          },
+          {
+            "arxiv_id": "2312.02919",
+            "organic_index": 1,
+            "position": 2,
+            "link": "https://arxiv.org/abs/2312.02919",
+            "title": "[2312.02919] Fine-grained Controllable Video Generation via Object ...",
+            "snippet": "In this work, we propose fine-grained controllable video generation (FACTOR) to achieve detailed control. Specifically, FACTOR aims to control objects' ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Fine-grained Controllable Video Generation via Object Appearance and Context"
+          },
+          {
+            "arxiv_id": "2405.17414",
+            "organic_index": 2,
+            "position": 3,
+            "link": "https://arxiv.org/abs/2405.17414",
+            "title": "Consistent Multi-video Generation with Camera Control - arXiv",
+            "snippet": "Adding control to the video generation process is an important goal moving forward and recent approaches that condition video generation models on camera ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Collaborative Video Diffusion: Consistent Multi-video Generation with Camera Control"
+          },
+          {
+            "arxiv_id": "2305.13077",
+            "organic_index": 3,
+            "position": 4,
+            "link": "https://arxiv.org/abs/2305.13077",
+            "title": "ControlVideo: Training-free Controllable Text-to-Video Generation",
+            "snippet": "To address these challenges, we design a \\emph{training-free} framework called \\textbf{ControlVideo} to enable natural and efficient text-to-video generation.",
+            "metadata_status": "PASS",
+            "metadata_title": "ControlVideo: Training-free Controllable Text-to-Video Generation"
+          },
+          {
+            "arxiv_id": "2112.02815",
+            "organic_index": 4,
+            "position": 5,
+            "link": "https://arxiv.org/abs/2112.02815",
+            "title": "Controllable Image-to-Video Generation with Text Descriptions - arXiv",
+            "snippet": "Abstract:Generating controllable videos conforming to user intentions is an appealing yet challenging topic in computer vision.",
+            "metadata_status": "PASS",
+            "metadata_title": "Make It Move: Controllable Image-to-Video Generation with Text Descriptions"
+          },
+          {
+            "arxiv_id": "2408.11475",
+            "organic_index": 5,
+            "position": 6,
+            "link": "https://arxiv.org/abs/2408.11475",
+            "title": "A Flexible and Efficient Method for Controllable Video Generation",
+            "snippet": "In this paper, we introduce TrackGo, a novel approach that leverages free-form masks and arrows for conditional video generation.",
+            "metadata_status": "PASS",
+            "metadata_title": "TrackGo: A Flexible and Efficient Method for Controllable Video Generation"
+          },
+          {
+            "arxiv_id": "2305.13840",
+            "organic_index": 6,
+            "position": 7,
+            "link": "https://arxiv.org/abs/2305.13840",
+            "title": "Controllable Text-to-Video Diffusion Models with Motion Prior ... - arXiv",
+            "snippet": "In this work, we introduce Control-A-Video, a controllable T2V diffusion model that can generate videos conditioned on text prompts and reference control",
+            "metadata_status": "PASS",
+            "metadata_title": "Control-A-Video: Controllable Text-to-Video Generation with Diffusion Models"
+          },
+          {
+            "arxiv_id": "2401.01827",
+            "organic_index": 7,
+            "position": 8,
+            "link": "https://arxiv.org/abs/2401.01827",
+            "title": "Towards Controllable Video Generation and Editing with Multimodal ...",
+            "snippet": "This work presents Moonshot, a new video generation model that conditions simultaneously on multimodal inputs of image and text.",
+            "metadata_status": "PASS",
+            "metadata_title": "MoonShot: Towards Controllable Video Generation and Editing with Multimodal Conditions"
+          },
+          {
+            "arxiv_id": "2406.10126",
+            "organic_index": 8,
+            "position": 9,
+            "link": "https://arxiv.org/abs/2406.10126",
+            "title": "[2406.10126] Training-free Camera Control for Video Generation",
+            "snippet": "Abstract:We propose a training-free and robust solution to offer camera movement control for off-the-shelf video diffusion models.",
+            "metadata_status": "PASS",
+            "metadata_title": "Training-free Camera Control for Video Generation"
+          },
+          {
+            "arxiv_id": "2312.01409",
+            "organic_index": 9,
+            "position": 10,
+            "link": "https://arxiv.org/abs/2312.01409",
+            "title": "Controllable 4D-Guided Video Generation with 2D Diffusion Models",
+            "snippet": "Access Paper: View a PDF of the paper titled Generative Rendering: Controllable 4D-Guided Video Generation with 2D Diffusion Models, by Shengqu Cai and ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Generative Rendering: Controllable 4D-Guided Video Generation with 2D Diffusion Models"
+          }
+        ],
+        "response_artifacts": [
+          "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q45_anchor_attempt1.json"
+        ]
+      }
+    },
+    {
+      "query_id": "Q48",
+      "original_question": "Papers that explore using large language models for mining factors in stock exchange analysis.",
+      "native_queries": [
+        "Application of large language models in stock market analysis",
+        "Role of AI and language models in stock prediction",
+        "Impact of large language models on stock exchange analysis",
+        "Use of GPT-3 in stock market trend analysis",
+        "Survey papers on large language models in stock exchange analysis"
+      ],
+      "gt": {
+        "total": 8,
+        "raw_titles": [
+          "Unveiling the Potential of Sentiment: Can Large Language Models Predict Chinese Stock Price Movements?",
+          "Automate Strategy Finding with LLM in Quant investment",
+          "LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction",
+          "Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models",
+          "Linking microblogging sentiments to stock price movement: An application of GPT-4",
+          "Alpha-GPT: Human-AI Interactive Alpha Mining for Quantitative Investment",
+          "FinLlama: Financial Sentiment Classification for Algorithmic Trading Applications",
+          "Background-aware Multi-source Fusion Financial Trend Forecasting Mechanism"
+        ],
+        "normalized_groups": {
+          "unveilingthepotentialofsentimentcanlargelanguagemodelspredictchinesestockpricemovements": [
+            {
+              "title": "Unveiling the Potential of Sentiment: Can Large Language Models Predict Chinese Stock Price Movements?",
+              "arxiv_id": "2306.14222"
+            }
+          ],
+          "automatestrategyfindingwithllminquantinvestment": [
+            {
+              "title": "Automate Strategy Finding with LLM in Quant investment",
+              "arxiv_id": "2409.06289"
+            }
+          ],
+          "llmfactorextractingprofitablefactorsthroughpromptsforexplainablestockmovementprediction": [
+            {
+              "title": "LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction",
+              "arxiv_id": "2406.10811"
+            }
+          ],
+          "canchatgptforecaststockpricemovementsreturnpredictabilityandlargelanguagemodels": [
+            {
+              "title": "Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models",
+              "arxiv_id": "2304.07619"
+            }
+          ],
+          "linkingmicrobloggingsentimentstostockpricemovementanapplicationofgpt": [
+            {
+              "title": "Linking microblogging sentiments to stock price movement: An application of GPT-4",
+              "arxiv_id": "2308.16771"
+            }
+          ],
+          "alphagpthumanaiinteractivealphaminingforquantitativeinvestment": [
+            {
+              "title": "Alpha-GPT: Human-AI Interactive Alpha Mining for Quantitative Investment",
+              "arxiv_id": "2308.00016"
+            }
+          ],
+          "finllamafinancialsentimentclassificationforalgorithmictradingapplications": [
+            {
+              "title": "FinLlama: Financial Sentiment Classification for Algorithmic Trading Applications",
+              "arxiv_id": "2403.12285"
+            }
+          ],
+          "backgroundawaremultisourcefusionfinancialtrendforecastingmechanism": [
+            {
+              "title": "Background-aware Multi-source Fusion Financial Trend Forecasting Mechanism",
+              "arxiv_id": "2407.00904"
+            }
+          ]
+        }
+      },
+      "full_native_gt_found": 1,
+      "full_native_plus_anchor_gt_found": 2,
+      "added_gt_evidence": {
+        "automatestrategyfindingwithllminquantinvestment": [
+          {
+            "arxiv_id": "2409.06289",
+            "organic_index": 1,
+            "position": 2,
+            "link": "https://arxiv.org/html/2409.06289v1",
+            "title": "Automate Strategy Finding with LLM in Quant investment - arXiv",
+            "snippet": "This paper proposes a framework where large language models (LLMs) mine alpha factors from multimodal financial data, ensuring a comprehensive understanding of ...",
+            "normalized_gt_title": "automatestrategyfindingwithllminquantinvestment",
+            "metadata_title": "Automate Strategy Finding with LLM in Quant investment",
+            "response_artifact": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q48_anchor_attempt1.json"
+          }
+        ]
+      },
+      "anchor": {
+        "status": "PASS",
+        "request_payload": {
+          "q": "Papers that explore using large language models for mining factors in stock exchange analysis. before:2024-09-24 site:arxiv.org",
+          "num": 10,
+          "page": 1
+        },
+        "http_statuses": [
+          200
+        ],
+        "matched_gt": [
+          "automatestrategyfindingwithllminquantinvestment",
+          "llmfactorextractingprofitablefactorsthroughpromptsforexplainablestockmovementprediction"
+        ],
+        "missing_metadata_ids": [],
+        "returned_arxiv_ids": [
+          "2402.03659",
+          "2404.07452",
+          "2406.10811",
+          "2406.11903",
+          "2406.19966",
+          "2407.15788",
+          "2407.18103",
+          "2408.06361",
+          "2409.06289",
+          "2409.08281"
+        ],
+        "hits_with_existing_metadata": [
+          {
+            "arxiv_id": "2406.11903",
+            "organic_index": 0,
+            "position": 1,
+            "link": "https://arxiv.org/html/2406.11903v1",
+            "title": "A Survey of Large Language Models for Financial Applications - arXiv",
+            "snippet": "Abstract. Recent advances in large language models (LLMs) have unlocked novel opportunities for machine learning applications in the financial domain.",
+            "metadata_status": "PASS",
+            "metadata_title": "A Survey of Large Language Models for Financial Applications: Progress, Prospects and Challenges"
+          },
+          {
+            "arxiv_id": "2409.06289",
+            "organic_index": 1,
+            "position": 2,
+            "link": "https://arxiv.org/html/2409.06289v1",
+            "title": "Automate Strategy Finding with LLM in Quant investment - arXiv",
+            "snippet": "This paper proposes a framework where large language models (LLMs) mine alpha factors from multimodal financial data, ensuring a comprehensive understanding of ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Automate Strategy Finding with LLM in Quant investment"
+          },
+          {
+            "arxiv_id": "2402.03659",
+            "organic_index": 2,
+            "position": 3,
+            "link": "https://arxiv.org/html/2402.03659v3",
+            "title": "Learning to Generate Explainable Stock Predictions using Self ...",
+            "snippet": "More recent works have explored the use of LLMs to make stock predictions using sequences of stock-related texts, via instruction-tuning (Yu et al., 2023) or ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Learning to Generate Explainable Stock Predictions using Self-Reflective Large Language Models"
+          },
+          {
+            "arxiv_id": "2408.06361",
+            "organic_index": 3,
+            "position": 4,
+            "link": "https://arxiv.org/html/2408.06361v1",
+            "title": "Large Language Model Agent in Financial Trading: A Survey - arXiv",
+            "snippet": "In this survey, we reviewed 27 papers that study using LLMs for financial trading with seven of which explicitly include the term \"agent\" in their titles.",
+            "metadata_status": "PASS",
+            "metadata_title": "Large Language Model Agent in Financial Trading: A Survey"
+          },
+          {
+            "arxiv_id": "2409.08281",
+            "organic_index": 4,
+            "position": 5,
+            "link": "https://arxiv.org/html/2409.08281v1",
+            "title": "StockTime: A Time Series Specialized Large Language Model ...",
+            "snippet": "In this paper, we introduce StockTime, a novel LLM-based architecture designed specifically for stock price data.",
+            "metadata_status": "PASS",
+            "metadata_title": "StockTime: A Time Series Specialized Large Language Model Architecture for Stock Price Prediction"
+          },
+          {
+            "arxiv_id": "2407.18103",
+            "organic_index": 5,
+            "position": 6,
+            "link": "https://arxiv.org/html/2407.18103v1",
+            "title": "Fine-Tuning Large Language Models for Stock Return Prediction ...",
+            "snippet": "This paper explores fine-tuning LLMs for stock return forecasting with financial newsflow. include text representation and forecasting modules.",
+            "metadata_status": "PASS",
+            "metadata_title": "Fine-Tuning Large Language Models for Stock Return Prediction Using Newsflow"
+          },
+          {
+            "arxiv_id": "2406.10811",
+            "organic_index": 6,
+            "position": 7,
+            "link": "https://arxiv.org/html/2406.10811v1",
+            "title": "LLMFactor: Extracting Profitable Factors through Prompts for ... - arXiv",
+            "snippet": "In this study, we introduce a novel framework called LLMFactor, which employs Sequential Knowledge-Guided Prompting (SKGP) to identify factors that influence ...",
+            "metadata_status": "PASS",
+            "metadata_title": "LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction"
+          },
+          {
+            "arxiv_id": "2404.07452",
+            "organic_index": 7,
+            "position": 8,
+            "link": "https://arxiv.org/html/2404.07452v1",
+            "title": "RiskLabs: Predicting Financial Risk Using Large Language Model ...",
+            "snippet": "Yu et al. (2023) explores the usage of LLMs in mining extensive media news to derive trading recommendations, highlighting the models' ability to understand ...",
+            "metadata_status": "PASS",
+            "metadata_title": "RiskLabs: Predicting Financial Risk Using Large Language Model Based on Multi-Sources Data"
+          },
+          {
+            "arxiv_id": "2407.15788",
+            "organic_index": 8,
+            "position": 9,
+            "link": "https://arxiv.org/html/2407.15788v1",
+            "title": "Extracting Structured Insights from Financial News - arXiv",
+            "snippet": "This paper presents a novel approach to financial news processing that leverages Large Language Models (LLMs) to overcome limitations that previously prevented ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Extracting Structured Insights from Financial News: An Augmented LLM Driven Approach"
+          },
+          {
+            "arxiv_id": "2406.19966",
+            "organic_index": 9,
+            "position": 10,
+            "link": "https://arxiv.org/html/2406.19966v1",
+            "title": "Simulating Financial Market via Large Language Model based Agents",
+            "snippet": "In this paper, we propose Agent-based Simulated Financial Market (ASFM), which first constructs a simulated stock market with a real order matching system. Then ...",
+            "metadata_status": "PASS",
+            "metadata_title": "Simulating Financial Market via Large Language Model based Agents"
+          }
+        ],
+        "response_artifacts": [
+          "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q48_anchor_attempt1.json"
+        ]
+      }
+    }
+  ]
+}

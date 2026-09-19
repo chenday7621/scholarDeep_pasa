@@ -1,0 +1,173 @@
+{
+  "experiment": "PAGE2_ROUTING_PREREG_VALIDATION_003B",
+  "status": "SNAPSHOT_COMPLETE",
+  "started_utc": "2026-09-17T08:48:35.664797+00:00",
+  "resumed_utc": [],
+  "registration_manifest_sha256": "16cd50dab6ca19ca184b10496b8cf9b57d6e789b3f7375e93d0f9c4b820313c7",
+  "input_manifest_sha256": "cdeaf4d6cb1b263038bdebec77fa73258e33905f5ac6f5415d680a38adac4fdb",
+  "questions_sha256": "3f8a07df5857c3d2484c353c3303b5baa018da4f57599f77e9048080b0344938",
+  "runner_sha256": "5aae608334186a315db976677382f009daa5c22298111578f84869cef0b11301",
+  "common_sha256": "340a9d311c1dd9e8c140d9c7e16752feee51ffc30b4c519735badcef6ed70a9d",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "torch": "2.5.1+cu124",
+  "transformers": "4.47.0.dev0",
+  "requests": "2.34.2",
+  "numpy": "2.2.6",
+  "cuda_visible_devices": "2",
+  "visible_gpu": "NVIDIA A100-PCIE-40GB",
+  "checkpoint": "/home/chenyi/pasa/checkpoints/pasa-7b-crawler",
+  "checkpoint_files": {
+    "LICENSE": {
+      "bytes": 20848,
+      "sha256": "9e502ba75fd0fd30cea5497b438a4bc12f07f02bc932a7a6041fd6a18b8f46a0"
+    },
+    "config.json": {
+      "bytes": 691,
+      "sha256": "9baabfeba8888dca1b1161c93f7b03efd3da37ca7600eca6a3a93d79d0958e0c"
+    },
+    "generation_config.json": {
+      "bytes": 226,
+      "sha256": "1ebe1a0cc782cc141a402e15fc29189af25fb56a244115062124e94dd36c0d31"
+    },
+    "merges.txt": {
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    "model-00001-of-00004.safetensors": {
+      "bytes": 4877660776,
+      "sha256": "6a5cf0fc96ccf3f4dfb528e45fca947540c35e3ab925498783566e7ce0a110b5"
+    },
+    "model-00002-of-00004.safetensors": {
+      "bytes": 4932751008,
+      "sha256": "0aef156d9e7fc593dea678ca06a7ea10a77cf1f9c0cbfd9258d3fddf9aac3d2f"
+    },
+    "model-00003-of-00004.safetensors": {
+      "bytes": 4330865200,
+      "sha256": "9e1e9aefbfa1bf1e912d430b17cae981b4cfc27d569e997f741dd3cd3afe3f96"
+    },
+    "model-00004-of-00004.safetensors": {
+      "bytes": 1089994880,
+      "sha256": "0cda0e5e185af3e5d22771e06d2a82ec244eba046eff2e3e44afd7bfa5a11bb6"
+    },
+    "model.safetensors.index.json": {
+      "bytes": 27752,
+      "sha256": "998a078123ffc97763690de7f2a677eb89168af5eaf8a5e12e6bc24d18e25bdb"
+    },
+    "special_tokens_map.json": {
+      "bytes": 758,
+      "sha256": "c27c358c771c6eb2303f90c96fc7db8e69295cc3c78e33ba656dd785427b97bc"
+    },
+    "tokenizer.json": {
+      "bytes": 11422063,
+      "sha256": "5eee858c5123a4279c3e1f7b81247343f356ac767940b2692a928ad929543214"
+    },
+    "tokenizer_config.json": {
+      "bytes": 5135,
+      "sha256": "a60d89e368da9269bba2f8b6742303571d144a4c8291e91b7e31c6b23269e158"
+    },
+    "vocab.json": {
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "credential_source": "local protected serper_api_key file",
+  "model_seed_per_question": 42,
+  "native_query_regex": "Search\\](.*?)\\[",
+  "native_query_cap": 5,
+  "end_date": "2026-09-17",
+  "search_parameters": {
+    "num": 10,
+    "pages": [
+      1,
+      2
+    ]
+  },
+  "gt_isolation": "Collector reads questions.json only; dataset_manifest.json is not read or imported.",
+  "prior_environment_preflight": {
+    "formal_experiment_attempt": false,
+    "search_requests": 0,
+    "generated_tokens": 0,
+    "outcome": "CPU checkpoint load succeeded, then first forward failed before token generation because the fixed FlashAttention path requires CUDA."
+  },
+  "startup_attempts_before_run_manifest": [
+    {
+      "generated_tokens": 0,
+      "search_requests": 0,
+      "outcome": "Initial CUDA launch exited before model load because isolated runner lacked repository import path; harness import path corrected without changing protocol or formal sources."
+    }
+  ],
+  "successful_generations": 50,
+  "successful_page1": 222,
+  "successful_page2": 222,
+  "http_attempts": 444,
+  "effective_generation_config": {
+    "max_length": 20,
+    "max_new_tokens": null,
+    "min_length": 0,
+    "min_new_tokens": null,
+    "early_stopping": false,
+    "max_time": null,
+    "stop_strings": null,
+    "do_sample": true,
+    "num_beams": 1,
+    "num_beam_groups": 1,
+    "penalty_alpha": null,
+    "dola_layers": null,
+    "use_cache": true,
+    "cache_implementation": null,
+    "cache_config": null,
+    "return_legacy_cache": null,
+    "temperature": 0.7,
+    "top_k": 20,
+    "top_p": 0.8,
+    "min_p": null,
+    "typical_p": 1.0,
+    "epsilon_cutoff": 0.0,
+    "eta_cutoff": 0.0,
+    "diversity_penalty": 0.0,
+    "repetition_penalty": 1.05,
+    "encoder_repetition_penalty": 1.0,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 0,
+    "bad_words_ids": null,
+    "force_words_ids": null,
+    "renormalize_logits": false,
+    "constraints": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "remove_invalid_values": false,
+    "exponential_decay_length_penalty": null,
+    "suppress_tokens": null,
+    "begin_suppress_tokens": null,
+    "forced_decoder_ids": null,
+    "sequence_bias": null,
+    "token_healing": false,
+    "guidance_scale": null,
+    "low_memory": null,
+    "watermarking_config": null,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "output_logits": null,
+    "return_dict_in_generate": false,
+    "pad_token_id": 151643,
+    "bos_token_id": 151644,
+    "eos_token_id": 151645,
+    "encoder_no_repeat_ngram_size": 0,
+    "decoder_start_token_id": null,
+    "is_assistant": false,
+    "num_assistant_tokens": 20,
+    "num_assistant_tokens_schedule": "constant",
+    "assistant_confidence_threshold": 0.4,
+    "prompt_lookup_num_tokens": null,
+    "max_matching_ngram_size": null,
+    "generation_kwargs": {},
+    "_from_model_config": false,
+    "transformers_version": "4.47.0.dev0"
+  },
+  "generation_call_override": {
+    "max_new_tokens": 512
+  },
+  "finished_utc": "2026-09-17T09:02:29.829669+00:00"
+}

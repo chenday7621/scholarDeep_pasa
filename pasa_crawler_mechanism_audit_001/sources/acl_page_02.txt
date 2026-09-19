@@ -1,0 +1,83 @@
+Paper Queue
+Crawler
+ UserQuery
+ Selector
+UserQuery
+Select/Drop
+[Search]
+[Expand][Stop]
+Figure 1: Architecture of PaSa. The system consists of two LLM agents, Crawler and Selector. The Crawler
+processes the user query and can access papers from the paper queue. It can autonomously invoke the search tool,
+expand citations, or stop processing of the current paper. All papers collected by the Crawler are appended to the
+paper queue. The Selector reads each paper in the paper queue to determine whether it meets the criteria specified in
+the user query.
+Effective training requires high-quality academic
+search data. Fortunately, human scientists have al-
+ready created a vast amount of high-quality aca-
+demic papers, which contain extensive surveys on
+a wide range of research topics. We build a syn-
+thetic but high-quality academic search dataset,
+AutoScholarQuery, which collects fine-grained
+scholar queries and their corresponding relevant
+papers from the related work sections of papers
+published at ICLR 2023 1, ICML 2023 2, NeurIPS
+2023 3, ACL 2024 4, and CVPR 2024 5. Au-
+toScholarQuery includes 33,511 / 1,000 / 1,000
+query-paper pairs in the training / development /
+test split.
+Although AutoScholarQuery only provides
+query and paper answers, without demonstrating
+the path by which scientists collect the papers, we
+can utilize it to perform RL training to improve
+PaSa. In addition, we design a new session-level
+PPO (Proximal Policy Optimization (Schulman
+et al., 2017)) training method to address the unique
+challenges of the paper search task: 1) sparse re-
+ward: The papers in AutoScholarQuery are col-
+lected via citations, making it a smaller subset of
+the actual qualified paper set. 2) long trajectories:
+The complete trajectory of the Crawler may involve
+hundreds of papers, which is too long to directly
+input into the LLM context.
+To evaluate PaSa, besides the test set of Au-
+toScholarQuery, we also develop a benchmark, Re-
+alScholarQuery. It contains 50 real-world academic
+1https://iclr.cc/Conferences/2023
+2https://icml.cc/Conferences/2023
+3https://neurips.cc/Conferences/2023
+4https://2024.aclweb.org/
+5https://cvpr.thecvf.com/Conferences/2024
+queries with annotated relevant papers, to assess
+PaSa in real-world scenarios. We compare PaSa
+with several baselines including Google, Google
+Scholar, Google paired with GPT-4o for para-
+phrased queries, ChatGPT (search-enabled GPT-
+4o), GPT-o1 and PaSa-GPT-4o (PaSa agent real-
+ized by prompting GPT-4o). Our experiments show
+that PaSa-7b significantly outperforms all baselines.
+Specifically, for AutoScholarQuery test set, PaSa-
+7b achieves a 34.05% improvement in Recall@20
+and a 39.36% improvement in Recall@50 com-
+pared to Google with GPT-4o, the strongest Google-
+based baseline. PaSa-7b surpasses PaSa-GPT-4o
+by 11.12% in recall, with similar precision. For
+RealScholarQuery, PaSa-7b outperforms Google
+with GPT-4o by 37.78% in Recall@20 and 39.90%
+in Recall@50. PaSa-7b surpasses PaSa-GPT-4o by
+30.36% in recall and 4.25% in precision.
+The main contributions of this paper are summa-
+rized as follows:
+• We introduce PaSa, a comprehensive and accu-
+rate paper search agent that can autonomously
+use online search tools, read entire papers, and
+navigate citation networks.
+• We develop two high-quality datasets for com-
+plex academic search, AutoScholarQuery and
+RealScholarQuery.
+• Although PaSa is trained solely on synthetic
+data, it achieves remarkable real-world perfor-
+mance. Experiments demonstrate that PaSa,
+built on 7B LLM, significantly outperforms
+all baselines, including GPT-4 agent, Google-
+based search, and ChatGPT.
+11664

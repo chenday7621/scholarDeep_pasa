@@ -1,0 +1,197 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q36",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2107.00061",
+  "request_payload": {
+    "q": "all human not gold evaluating human before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 77,
+  "started_utc": "2026-09-17T12:34:53.077716+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648215",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "d94cff65520ad105ae113aadfb0dd09c",
+    "date": "Thu, 17 Sep 2026 12:30:14 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3374",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3374,
+  "response_bytes_sha256": "58f0a08adbf95311665d6dace587224b9dd9b46d1bd0e6ef4c316646a86dd35c",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJhbGwgaHVtYW4gbm90IGdvbGQgZXZhbHVhdGluZyBodW1hbiBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJbMjEwNy4wMDA2MV0gQWxsIFRoYXQncyAnSHVtYW4nIElzIE5vdCBHb2xkOiBFdmFsdWF0aW5nIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMTA3LjAwMDYxIiwic25pcHBldCI6IldlIHJ1biBhIHN0dWR5IGFzc2Vzc2luZyBub24tZXhwZXJ0cycgYWJpbGl0eSB0byBkaXN0aW5ndWlzaCBiZXR3ZWVuIGh1bWFuLSBhbmQgbWFjaGluZS1hdXRob3JlZCB0ZXh0IChHUFQyIGFuZCBHUFQzKSBpbiB0aHJlZSBkb21haW5zIChzdG9yaWVzLCBuZXdzIGFydGljbGVzLCAuLi4iLCJkYXRlIjoiSnVuIDMwLCAyMDIxIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJFdmFsdWF0aW5nIEh1bWFuIEV2YWx1YXRpb24gb2YgR2VuZXJhdGVkIFRleHQgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIxMDcuMDAwNjF2MiIsInNuaXBwZXQiOiJBbGwgVGhhdCdzICdIdW1hbicgSXMgTm90IEdvbGQ6IEV2YWx1YXRpbmcgSHVtYW4gRXZhbHVhdGlvbiBvZiBHZW5lcmF0ZWQgVGV4dC4gRWxpemFiZXRoIENsYXJrIEFmZmlsaWF0aW9uOiBQYXVsIEcuIEFsbGVuIFNjaG9vbCBvZiBDb21wdXRlciBTY2llbmNlIC4uLiIsImRhdGUiOiJKdWwgNywgMjAyMSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiWzIzMDkuMTYzNDldIEh1bWFuIEZlZWRiYWNrIGlzIG5vdCBHb2xkIFN0YW5kYXJkIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDkuMTYzNDkiLCJzbmlwcGV0IjoiSHVtYW4gZmVlZGJhY2sgaGFzIGJlY29tZSB0aGUgZGUgZmFjdG8gc3RhbmRhcmQgZm9yIGV2YWx1YXRpbmcgdGhlIHBlcmZvcm1hbmNlIG9mIExhcmdlIExhbmd1YWdlIE1vZGVscywgYW5kIGlzIGluY3JlYXNpbmdseSBiZWluZyB1c2VkIGFzIGEgdHJhaW5pbmcgb2JqZWN0aXZlLiIsImRhdGUiOiJTZXAgMjgsIDIwMjMiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkFuIEFuYWx5c2lzIG9mIEF1dG9tYXRlZCwgSHVtYW4sIGFuZCBMTE0tQmFzZWQgQXBwcm9hY2hlcyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMDMzMzl2MiIsInNuaXBwZXQiOiJTbWl0aCwgQWxsIFRoYXQncyAnSHVtYW4nIElzIE5vdCBHb2xkOiBFdmFsdWF0aW5nIEh1bWFuIEV2YWx1YXRpb24gb2YgR2VuZXJhdGVkIFRleHQsIDIwMjEuIFVSTDogaHR0cDovL2FyeGl2Lm9yZy9hYnMvMjEwNy4wMDA2MSwgYXJYaXY6MjEwNy4wMDA2MSBbY3NdIC4uLiIsImRhdGUiOiJKdW4gMTMsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlRoZSBJbGx1c2lvbiBvZiBhIFBlcmZlY3QgTWV0cmljOiBXaHkgRXZhbHVhdGluZyBBSSdzIFdvcmRzIElzIEhhcmRlciAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA4LjEzODE2djEiLCJzbmlwcGV0IjoiQWxsIHRoYXQncyAnaHVtYW4nIGlzIG5vdCBnb2xkOiBFdmFsdWF0aW5nIGh1bWFuIGV2YWx1YXRpb24gb2YgZ2VuZXJhdGVkIHRleHQuIEluIDU5dGggQUNMLiBDbGFyayBldCBhbC4gKDIwMTkpIEUuIENsYXJrLCBBLiBDZWxpa3lpbG1heiwgYW5kIE4uIEEuIFNtaXRoIC4uLiIsImRhdGUiOiJBdWcgMTksIDIwMjUiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDkuMTYzNDl2MiBbY3MuQ0xdIDE2IEphbiAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA5LjE2MzQ5Iiwic25pcHBldCI6Ik92ZXJhbGwsIG91ciBhbmFseXNpcyBzaG93cyB0aGF0IGh1bWFuIGZlZWRiYWNrIGlzIG5vdCB0aGUgZ29sZCBzdGFuZGFyZCB0aGF0IGl0IGlzIGdlbmVyYWxseSBwZXItIGNlaXZlZCB0byBiZS4gSHVtYW4gZXZhbHVhdGlvbiBpcyBuZWNlc3NhcnksIGJ1dCBhbm5vdGF0b3JzIC4uLiIsImRhdGUiOiJKYW4gMTYsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlwiQWxsIHRoYXQgR2xpdHRlcnNcIjogQXBwcm9hY2hlcyB0byBFdmFsdWF0aW9ucyB3aXRoIFVucmVsaWFibGUgTW9kZWwgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDExLjE1NjM0Iiwic25pcHBldCI6IlwiR29sZFwiIGFuZCBcImdyb3VuZCB0cnV0aFwiIGh1bWFuLW1lZGlhdGVkIGxhYmVscyBoYXZlIGVycm9yLiBUaGUgZWZmZWN0cyBvZiB0aGlzIGVycm9yIGNhbiBlc2NhcGUgY29tbW9ubHkgcmVwb3J0ZWQgbWV0cmljcyBvZiBsYWJlbCBxdWFsaXR5IG9yIG9ic2N1cmUgcXVlc3Rpb25zIC4uLiIsImRhdGUiOiJOb3YgMjMsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkxMTS1iYXNlZCBSZWxldmFuY2UgQXNzZXNzbWVudCBTdGlsbCBDYW4ndCBSZXBsYWNlIEh1bWFuIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTIuMTcxNTZ2MyIsInNuaXBwZXQiOiJMTE0tYmFzZWQgcmVsZXZhbmNlIGFzc2Vzc21lbnRzIGNhbm5vdCBzZXJ2ZSBhcyBhIGdvbGQgc3RhbmRhcmQgYmVjYXVzZSB0aGV5IGxhY2sgdGhlIGdyb3VuZGluZyBvZiBhIGh1bWFuIGNhcnJ5aW5nIG91dCBhbiBpbmZvcm1hdGlvbiB0YXNrIG5lY2Vzc2FyeSB0byAuLi4iLCJkYXRlIjoiSmFuIDE5LCAyMDI2IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMjEyLjA3OTgxdjIgW2NzLkNMXSA2IEp1biAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjEyLjA3OTgxIiwic25pcHBldCI6IkFsbCB0aGF0J3MgJ2h1bWFuJyBpcyBub3QgZ29sZDogRXZhbHVhdGluZyDCtyBodW1hbiBldmFsdWF0aW9uIG9mIGdlbmVyYXRlZCB0ZXh0LiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgNTl0aCBBbm51YWwgTWVldGluZyBvZiB0aGUgQXNzb2NpYXRpb24gZm9yLiIsImRhdGUiOiJKdW4gNiwgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiUmVmZXJlbmNlLWZyZWUgRXZhbHVhdGlvbiBNZXRyaWNzIGZvciBUZXh0IEdlbmVyYXRpb246IEEgU3VydmV5IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwMS4xMjAxMXYxIiwic25pcHBldCI6IkFsbCBUaGF0J3MgJ0h1bWFuJyBJcyBOb3QgR29sZDogRXZhbHVhdGluZyBIdW1hbiBFdmFsdWF0aW9uIG9mIEdlbmVyYXRlZCBUZXh0LiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgNTl0aCBBbm51YWwgTWVldGluZyBvZiB0aGUgQXNzb2NpYXRpb24gZm9yIC4uLiIsImRhdGUiOiJKYW4gMjEsIDIwMjUiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "all human not gold evaluating human before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[2107.00061] All That's 'Human' Is Not Gold: Evaluating ... - arXiv",
+        "link": "https://arxiv.org/abs/2107.00061",
+        "snippet": "We run a study assessing non-experts' ability to distinguish between human- and machine-authored text (GPT2 and GPT3) in three domains (stories, news articles, ...",
+        "date": "Jun 30, 2021",
+        "position": 1
+      },
+      {
+        "title": "Evaluating Human Evaluation of Generated Text - arXiv",
+        "link": "https://arxiv.org/html/2107.00061v2",
+        "snippet": "All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text. Elizabeth Clark Affiliation: Paul G. Allen School of Computer Science ...",
+        "date": "Jul 7, 2021",
+        "position": 2
+      },
+      {
+        "title": "[2309.16349] Human Feedback is not Gold Standard - arXiv",
+        "link": "https://arxiv.org/abs/2309.16349",
+        "snippet": "Human feedback has become the de facto standard for evaluating the performance of Large Language Models, and is increasingly being used as a training objective.",
+        "date": "Sep 28, 2023",
+        "position": 3
+      },
+      {
+        "title": "An Analysis of Automated, Human, and LLM-Based Approaches",
+        "link": "https://arxiv.org/html/2406.03339v2",
+        "snippet": "Smith, All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text, 2021. URL: http://arxiv.org/abs/2107.00061, arXiv:2107.00061 [cs] ...",
+        "date": "Jun 13, 2024",
+        "position": 4
+      },
+      {
+        "title": "The Illusion of a Perfect Metric: Why Evaluating AI's Words Is Harder ...",
+        "link": "https://arxiv.org/html/2508.13816v1",
+        "snippet": "All that's 'human' is not gold: Evaluating human evaluation of generated text. In 59th ACL. Clark et al. (2019) E. Clark, A. Celikyilmaz, and N. A. Smith ...",
+        "date": "Aug 19, 2025",
+        "position": 5
+      },
+      {
+        "title": "[PDF] arXiv:2309.16349v2 [cs.CL] 16 Jan 2024",
+        "link": "https://arxiv.org/pdf/2309.16349",
+        "snippet": "Overall, our analysis shows that human feedback is not the gold standard that it is generally per- ceived to be. Human evaluation is necessary, but annotators ...",
+        "date": "Jan 16, 2024",
+        "position": 6
+      },
+      {
+        "title": "\"All that Glitters\": Approaches to Evaluations with Unreliable Model ...",
+        "link": "https://arxiv.org/abs/2411.15634",
+        "snippet": "\"Gold\" and \"ground truth\" human-mediated labels have error. The effects of this error can escape commonly reported metrics of label quality or obscure questions ...",
+        "date": "Nov 23, 2024",
+        "position": 7
+      },
+      {
+        "title": "LLM-based Relevance Assessment Still Can't Replace Human ...",
+        "link": "https://arxiv.org/html/2412.17156v3",
+        "snippet": "LLM-based relevance assessments cannot serve as a gold standard because they lack the grounding of a human carrying out an information task necessary to ...",
+        "date": "Jan 19, 2026",
+        "position": 8
+      },
+      {
+        "title": "[PDF] arXiv:2212.07981v2 [cs.CL] 6 Jun 2023",
+        "link": "https://arxiv.org/pdf/2212.07981",
+        "snippet": "All that's 'human' is not gold: Evaluating · human evaluation of generated text. In Proceedings of the 59th Annual Meeting of the Association for.",
+        "date": "Jun 6, 2023",
+        "position": 9
+      },
+      {
+        "title": "Reference-free Evaluation Metrics for Text Generation: A Survey",
+        "link": "https://arxiv.org/html/2501.12011v1",
+        "snippet": "All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text. In Proceedings of the 59th Annual Meeting of the Association for ...",
+        "date": "Jan 21, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[2107.00061] All That's 'Human' Is Not Gold: Evaluating ... - arXiv",
+      "snippet": "We run a study assessing non-experts' ability to distinguish between human- and machine-authored text (GPT2 and GPT3) in three domains (stories, news articles, ...",
+      "link": "https://arxiv.org/abs/2107.00061",
+      "arxiv_id": "2107.00061"
+    },
+    {
+      "rank": 2,
+      "title": "Evaluating Human Evaluation of Generated Text - arXiv",
+      "snippet": "All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text. Elizabeth Clark Affiliation: Paul G. Allen School of Computer Science ...",
+      "link": "https://arxiv.org/html/2107.00061v2",
+      "arxiv_id": "2107.00061"
+    },
+    {
+      "rank": 3,
+      "title": "[2309.16349] Human Feedback is not Gold Standard - arXiv",
+      "snippet": "Human feedback has become the de facto standard for evaluating the performance of Large Language Models, and is increasingly being used as a training objective.",
+      "link": "https://arxiv.org/abs/2309.16349",
+      "arxiv_id": "2309.16349"
+    },
+    {
+      "rank": 4,
+      "title": "An Analysis of Automated, Human, and LLM-Based Approaches",
+      "snippet": "Smith, All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text, 2021. URL: http://arxiv.org/abs/2107.00061, arXiv:2107.00061 [cs] ...",
+      "link": "https://arxiv.org/html/2406.03339v2",
+      "arxiv_id": "2406.03339"
+    },
+    {
+      "rank": 5,
+      "title": "The Illusion of a Perfect Metric: Why Evaluating AI's Words Is Harder ...",
+      "snippet": "All that's 'human' is not gold: Evaluating human evaluation of generated text. In 59th ACL. Clark et al. (2019) E. Clark, A. Celikyilmaz, and N. A. Smith ...",
+      "link": "https://arxiv.org/html/2508.13816v1",
+      "arxiv_id": "2508.13816"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] arXiv:2309.16349v2 [cs.CL] 16 Jan 2024",
+      "snippet": "Overall, our analysis shows that human feedback is not the gold standard that it is generally per- ceived to be. Human evaluation is necessary, but annotators ...",
+      "link": "https://arxiv.org/pdf/2309.16349",
+      "arxiv_id": "2309.16349"
+    },
+    {
+      "rank": 7,
+      "title": "\"All that Glitters\": Approaches to Evaluations with Unreliable Model ...",
+      "snippet": "\"Gold\" and \"ground truth\" human-mediated labels have error. The effects of this error can escape commonly reported metrics of label quality or obscure questions ...",
+      "link": "https://arxiv.org/abs/2411.15634",
+      "arxiv_id": "2411.15634"
+    },
+    {
+      "rank": 8,
+      "title": "LLM-based Relevance Assessment Still Can't Replace Human ...",
+      "snippet": "LLM-based relevance assessments cannot serve as a gold standard because they lack the grounding of a human carrying out an information task necessary to ...",
+      "link": "https://arxiv.org/html/2412.17156v3",
+      "arxiv_id": "2412.17156"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] arXiv:2212.07981v2 [cs.CL] 6 Jun 2023",
+      "snippet": "All that's 'human' is not gold: Evaluating · human evaluation of generated text. In Proceedings of the 59th Annual Meeting of the Association for.",
+      "link": "https://arxiv.org/pdf/2212.07981",
+      "arxiv_id": "2212.07981"
+    },
+    {
+      "rank": 10,
+      "title": "Reference-free Evaluation Metrics for Text Generation: A Survey",
+      "snippet": "All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text. In Proceedings of the 59th Annual Meeting of the Association for ...",
+      "link": "https://arxiv.org/html/2501.12011v1",
+      "arxiv_id": "2501.12011"
+    }
+  ],
+  "gold_hit_ranks": [
+    1,
+    2
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:53.874323+00:00",
+  "elapsed_seconds": 0.7966071404516697
+}

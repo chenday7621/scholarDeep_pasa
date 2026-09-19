@@ -1,0 +1,1319 @@
+{
+  "query_id": "Q13",
+  "query_index": 13,
+  "dataset_qid": "RealScholarQuery_13",
+  "original_question": "Provide papers demonstrating that the self-correction of LLMs does not enhance their performance.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Studies on the limitations of self-correction in language models",
+    "Impact of self-correction on language model performance",
+    "Survey papers on self-correction not enhancing LLM performance",
+    "Academic papers on the ineffectiveness of self-correction in LLMs",
+    "Research on self-correction mechanisms in LLMs and their impact on performance"
+  ],
+  "anchor": "Provide papers demonstrating that the self-correction of LLMs does not enhance their performance.",
+  "source_generation_id": "Q13_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Studies on the limitations of self-correction in language models",
+        "Impact of self-correction on language model performance",
+        "Survey papers on self-correction not enhancing LLM performance",
+        "Academic papers on the ineffectiveness of self-correction in LLMs",
+        "Research on self-correction mechanisms in LLMs and their impact on performance"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "Provide papers demonstrating that the self-correction of LLMs does not enhance their performance.",
+        "Studies on the limitations of self-correction in language models",
+        "Impact of self-correction on language model performance",
+        "Survey papers on self-correction not enhancing LLM performance",
+        "Academic papers on the ineffectiveness of self-correction in LLMs"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Studies on the limitations of self-correction in language models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 80,
+          "query_id": "Q13",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Studies on the limitations of self-correction in language models",
+          "request_payload": {
+            "q": "Studies on the limitations of self-correction in language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q13_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:26:07.796011+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Studies on the limitations of self-correction in language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"When Can LLMs Actually Correct Their Own Mistakes?A Critical ...\",\"link\":\"https://arxiv.org/html/2406.01297v1\",\"snippet\":\"In this work, we focus on categorizing self-correction frameworks that do not involve multiple language models with different architectures. Cross-model ...\",\"date\":\"Jun 3, 2024\",\"position\":1},{\"title\":\"Training Language Models to Self-Correct via Reinforcement Learning\",\"link\":\"https://arxiv.org/abs/2409.12917\",\"snippet\":\"Abstract:Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in ...\",\"date\":\"Sep 19, 2024\",\"position\":2},{\"title\":\"When Can LLMs Actually Correct Their Own Mistakes? A Critical ...\",\"link\":\"https://arxiv.org/abs/2406.01297\",\"snippet\":\"In this work, we critically survey broad papers and discuss the conditions required for successful self-correction. We first find that prior studies often do ...\",\"date\":\"Jun 3, 2024\",\"position\":3},{\"title\":\"On the Intersection of Self-Correction and Trust in Language Models\",\"link\":\"https://arxiv.org/html/2311.02801v1\",\"snippet\":\"Our findings reveal that self-correction can lead to improvements in toxicity and truthfulness, but the extent of these improvements varies depending … ...\",\"date\":\"Nov 6, 2023\",\"position\":4},{\"title\":\"[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv\",\"link\":\"https://arxiv.org/pdf/2310.01798\",\"snippet\":\"LLMs struggle to self- correct their responses without external feedback, and at times, their performance even degrades after self-correction.\",\"date\":\"Mar 14, 2024\",\"position\":5},{\"title\":\"Small Language Models Need Strong Verifiers to Self-Correct ...\",\"link\":\"https://arxiv.org/abs/2404.17140\",\"snippet\":\"This work explores whether small (<= 13B) language models (LMs) have the ability of self-correction on reasoning tasks with minimal inputs from stronger LMs. ...\",\"date\":\"Apr 26, 2024\",\"position\":6},{\"title\":\"The Capacity for Moral Self-Correction in Large Language Models\",\"link\":\"https://arxiv.org/html/2302.07459v2\",\"snippet\":\"We find that the capacity for moral self-correction emerges at 22B model parameters, and that we can steer sufficiently large models to avoid harmful outputs ...\",\"date\":\"Feb 18, 2023\",\"position\":7},{\"title\":\"Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv\",\"link\":\"https://arxiv.org/html/2405.06682v1\",\"snippet\":\"Some research studies have indicated that LLMs using self-reflection are able to identify and correct their mistakes. LLMs cannot identify errors in their ...\",\"date\":\"May 5, 2024\",\"position\":8},{\"title\":\"Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...\",\"link\":\"https://arxiv.org/html/2407.03181v1\",\"snippet\":\"Intrinsic self-correction refers to the ability of an LLM to revise or correct its initial response using only its inherent capabilities without relying on ...\",\"date\":\"Jul 3, 2024\",\"position\":9},{\"title\":\"Reasoning with Large Language Models,a Survey - arXiv\",\"link\":\"https://arxiv.org/html/2407.11511v1\",\"snippet\":\"Inspired by Chain-of-thought and Self-consistency, this work studies which prompts achieve the best results on math word and other reasoning problems. Their ...\",\"date\":\"Jul 16, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdHVkaWVzIG9uIHRoZSBsaW1pdGF0aW9ucyBvZiBzZWxmLWNvcnJlY3Rpb24gaW4gbGFuZ3VhZ2UgbW9kZWxzIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IldoZW4gQ2FuIExMTXMgQWN0dWFsbHkgQ29ycmVjdCBUaGVpciBPd24gTWlzdGFrZXM/QSBDcml0aWNhbCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjAxMjk3djEiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBmb2N1cyBvbiBjYXRlZ29yaXppbmcgc2VsZi1jb3JyZWN0aW9uIGZyYW1ld29ya3MgdGhhdCBkbyBub3QgaW52b2x2ZSBtdWx0aXBsZSBsYW5ndWFnZSBtb2RlbHMgd2l0aCBkaWZmZXJlbnQgYXJjaGl0ZWN0dXJlcy4gQ3Jvc3MtbW9kZWwgLi4uIiwiZGF0ZSI6Ikp1biAzLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJUcmFpbmluZyBMYW5ndWFnZSBNb2RlbHMgdG8gU2VsZi1Db3JyZWN0IHZpYSBSZWluZm9yY2VtZW50IExlYXJuaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA5LjEyOTE3Iiwic25pcHBldCI6IkFic3RyYWN0OlNlbGYtY29ycmVjdGlvbiBpcyBhIGhpZ2hseSBkZXNpcmFibGUgY2FwYWJpbGl0eSBvZiBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpLCB5ZXQgaXQgaGFzIGNvbnNpc3RlbnRseSBiZWVuIGZvdW5kIHRvIGJlIGxhcmdlbHkgaW5lZmZlY3RpdmUgaW4gLi4uIiwiZGF0ZSI6IlNlcCAxOSwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiV2hlbiBDYW4gTExNcyBBY3R1YWxseSBDb3JyZWN0IFRoZWlyIE93biBNaXN0YWtlcz8gQSBDcml0aWNhbCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDYuMDEyOTciLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBjcml0aWNhbGx5IHN1cnZleSBicm9hZCBwYXBlcnMgYW5kIGRpc2N1c3MgdGhlIGNvbmRpdGlvbnMgcmVxdWlyZWQgZm9yIHN1Y2Nlc3NmdWwgc2VsZi1jb3JyZWN0aW9uLiBXZSBmaXJzdCBmaW5kIHRoYXQgcHJpb3Igc3R1ZGllcyBvZnRlbiBkbyAuLi4iLCJkYXRlIjoiSnVuIDMsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6Ik9uIHRoZSBJbnRlcnNlY3Rpb24gb2YgU2VsZi1Db3JyZWN0aW9uIGFuZCBUcnVzdCBpbiBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjAyODAxdjEiLCJzbmlwcGV0IjoiT3VyIGZpbmRpbmdzIHJldmVhbCB0aGF0IHNlbGYtY29ycmVjdGlvbiBjYW4gbGVhZCB0byBpbXByb3ZlbWVudHMgaW4gdG94aWNpdHkgYW5kIHRydXRoZnVsbmVzcywgYnV0IHRoZSBleHRlbnQgb2YgdGhlc2UgaW1wcm92ZW1lbnRzIHZhcmllcyBkZXBlbmRpbmcg4oCmIC4uLiIsImRhdGUiOiJOb3YgNiwgMjAyMyIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiW1BERl0gTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIENhbm5vdCBTZWxmLUNvcnJlY3QgUmVhc29uaW5nIFlldCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzEwLjAxNzk4Iiwic25pcHBldCI6IkxMTXMgc3RydWdnbGUgdG8gc2VsZi0gY29ycmVjdCB0aGVpciByZXNwb25zZXMgd2l0aG91dCBleHRlcm5hbCBmZWVkYmFjaywgYW5kIGF0IHRpbWVzLCB0aGVpciBwZXJmb3JtYW5jZSBldmVuIGRlZ3JhZGVzIGFmdGVyIHNlbGYtY29ycmVjdGlvbi4iLCJkYXRlIjoiTWFyIDE0LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJTbWFsbCBMYW5ndWFnZSBNb2RlbHMgTmVlZCBTdHJvbmcgVmVyaWZpZXJzIHRvIFNlbGYtQ29ycmVjdCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDQuMTcxNDAiLCJzbmlwcGV0IjoiVGhpcyB3b3JrIGV4cGxvcmVzIHdoZXRoZXIgc21hbGwgKDw9IDEzQikgbGFuZ3VhZ2UgbW9kZWxzIChMTXMpIGhhdmUgdGhlIGFiaWxpdHkgb2Ygc2VsZi1jb3JyZWN0aW9uIG9uIHJlYXNvbmluZyB0YXNrcyB3aXRoIG1pbmltYWwgaW5wdXRzIGZyb20gc3Ryb25nZXIgTE1zLiAuLi4iLCJkYXRlIjoiQXByIDI2LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJUaGUgQ2FwYWNpdHkgZm9yIE1vcmFsIFNlbGYtQ29ycmVjdGlvbiBpbiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzAyLjA3NDU5djIiLCJzbmlwcGV0IjoiV2UgZmluZCB0aGF0IHRoZSBjYXBhY2l0eSBmb3IgbW9yYWwgc2VsZi1jb3JyZWN0aW9uIGVtZXJnZXMgYXQgMjJCIG1vZGVsIHBhcmFtZXRlcnMsIGFuZCB0aGF0IHdlIGNhbiBzdGVlciBzdWZmaWNpZW50bHkgbGFyZ2UgbW9kZWxzIHRvIGF2b2lkIGhhcm1mdWwgb3V0cHV0cyAuLi4iLCJkYXRlIjoiRmViIDE4LCAyMDIzIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJTZWxmLVJlZmxlY3Rpb24gaW4gTExNIEFnZW50czogRWZmZWN0cyBvbiBQcm9ibGVtLVNvbHZpbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjA2NjgydjEiLCJzbmlwcGV0IjoiU29tZSByZXNlYXJjaCBzdHVkaWVzIGhhdmUgaW5kaWNhdGVkIHRoYXQgTExNcyB1c2luZyBzZWxmLXJlZmxlY3Rpb24gYXJlIGFibGUgdG8gaWRlbnRpZnkgYW5kIGNvcnJlY3QgdGhlaXIgbWlzdGFrZXMuIExMTXMgY2Fubm90IGlkZW50aWZ5IGVycm9ycyBpbiB0aGVpciAuLi4iLCJkYXRlIjoiTWF5IDUsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkZpbmUtVHVuaW5nIHdpdGggRGl2ZXJnZW50IENoYWlucyBvZiBUaG91Z2h0IEJvb3N0cyBSZWFzb25pbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4wMzE4MXYxIiwic25pcHBldCI6IkludHJpbnNpYyBzZWxmLWNvcnJlY3Rpb24gcmVmZXJzIHRvIHRoZSBhYmlsaXR5IG9mIGFuIExMTSB0byByZXZpc2Ugb3IgY29ycmVjdCBpdHMgaW5pdGlhbCByZXNwb25zZSB1c2luZyBvbmx5IGl0cyBpbmhlcmVudCBjYXBhYmlsaXRpZXMgd2l0aG91dCByZWx5aW5nIG9uIC4uLiIsImRhdGUiOiJKdWwgMywgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiUmVhc29uaW5nIHdpdGggTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzLGEgU3VydmV5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjExNTExdjEiLCJzbmlwcGV0IjoiSW5zcGlyZWQgYnkgQ2hhaW4tb2YtdGhvdWdodCBhbmQgU2VsZi1jb25zaXN0ZW5jeSwgdGhpcyB3b3JrIHN0dWRpZXMgd2hpY2ggcHJvbXB0cyBhY2hpZXZlIHRoZSBiZXN0IHJlc3VsdHMgb24gbWF0aCB3b3JkIGFuZCBvdGhlciByZWFzb25pbmcgcHJvYmxlbXMuIFRoZWlyIC4uLiIsImRhdGUiOiJKdWwgMTYsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "b428157b55b2d4f8e32122dcf8e4910b48b3954db11c1c8161cee6bc6cc0a182",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Studies on the limitations of self-correction in language models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "When Can LLMs Actually Correct Their Own Mistakes?A Critical ...",
+                "link": "https://arxiv.org/html/2406.01297v1",
+                "snippet": "In this work, we focus on categorizing self-correction frameworks that do not involve multiple language models with different architectures. Cross-model ...",
+                "date": "Jun 3, 2024",
+                "position": 1
+              },
+              {
+                "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+                "link": "https://arxiv.org/abs/2409.12917",
+                "snippet": "Abstract:Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in ...",
+                "date": "Sep 19, 2024",
+                "position": 2
+              },
+              {
+                "title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical ...",
+                "link": "https://arxiv.org/abs/2406.01297",
+                "snippet": "In this work, we critically survey broad papers and discuss the conditions required for successful self-correction. We first find that prior studies often do ...",
+                "date": "Jun 3, 2024",
+                "position": 3
+              },
+              {
+                "title": "On the Intersection of Self-Correction and Trust in Language Models",
+                "link": "https://arxiv.org/html/2311.02801v1",
+                "snippet": "Our findings reveal that self-correction can lead to improvements in toxicity and truthfulness, but the extent of these improvements varies depending … ...",
+                "date": "Nov 6, 2023",
+                "position": 4
+              },
+              {
+                "title": "[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv",
+                "link": "https://arxiv.org/pdf/2310.01798",
+                "snippet": "LLMs struggle to self- correct their responses without external feedback, and at times, their performance even degrades after self-correction.",
+                "date": "Mar 14, 2024",
+                "position": 5
+              },
+              {
+                "title": "Small Language Models Need Strong Verifiers to Self-Correct ...",
+                "link": "https://arxiv.org/abs/2404.17140",
+                "snippet": "This work explores whether small (<= 13B) language models (LMs) have the ability of self-correction on reasoning tasks with minimal inputs from stronger LMs. ...",
+                "date": "Apr 26, 2024",
+                "position": 6
+              },
+              {
+                "title": "The Capacity for Moral Self-Correction in Large Language Models",
+                "link": "https://arxiv.org/html/2302.07459v2",
+                "snippet": "We find that the capacity for moral self-correction emerges at 22B model parameters, and that we can steer sufficiently large models to avoid harmful outputs ...",
+                "date": "Feb 18, 2023",
+                "position": 7
+              },
+              {
+                "title": "Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv",
+                "link": "https://arxiv.org/html/2405.06682v1",
+                "snippet": "Some research studies have indicated that LLMs using self-reflection are able to identify and correct their mistakes. LLMs cannot identify errors in their ...",
+                "date": "May 5, 2024",
+                "position": 8
+              },
+              {
+                "title": "Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...",
+                "link": "https://arxiv.org/html/2407.03181v1",
+                "snippet": "Intrinsic self-correction refers to the ability of an LLM to revise or correct its initial response using only its inherent capabilities without relying on ...",
+                "date": "Jul 3, 2024",
+                "position": 9
+              },
+              {
+                "title": "Reasoning with Large Language Models,a Survey - arXiv",
+                "link": "https://arxiv.org/html/2407.11511v1",
+                "snippet": "Inspired by Chain-of-thought and Self-consistency, this work studies which prompts achieve the best results on math word and other reasoning problems. Their ...",
+                "date": "Jul 16, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:26:09.311354+00:00",
+          "elapsed_seconds": 1.5153428949415684
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2302.07459",
+        "2310.01798",
+        "2311.02801",
+        "2404.17140",
+        "2405.06682",
+        "2406.01297",
+        "2407.03181",
+        "2407.11511",
+        "2409.12917"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2406.01297",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2406.01297v1",
+          "title": "When Can LLMs Actually Correct Their Own Mistakes?A Critical ...",
+          "snippet": "In this work, we focus on categorizing self-correction frameworks that do not involve multiple language models with different architectures. Cross-model ..."
+        },
+        {
+          "arxiv_id": "2409.12917",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2409.12917",
+          "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+          "snippet": "Abstract:Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in ..."
+        },
+        {
+          "arxiv_id": "2406.01297",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2406.01297",
+          "title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical ...",
+          "snippet": "In this work, we critically survey broad papers and discuss the conditions required for successful self-correction. We first find that prior studies often do ..."
+        },
+        {
+          "arxiv_id": "2311.02801",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2311.02801v1",
+          "title": "On the Intersection of Self-Correction and Trust in Language Models",
+          "snippet": "Our findings reveal that self-correction can lead to improvements in toxicity and truthfulness, but the extent of these improvements varies depending … ..."
+        },
+        {
+          "arxiv_id": "2310.01798",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2310.01798",
+          "title": "[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv",
+          "snippet": "LLMs struggle to self- correct their responses without external feedback, and at times, their performance even degrades after self-correction."
+        },
+        {
+          "arxiv_id": "2404.17140",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/abs/2404.17140",
+          "title": "Small Language Models Need Strong Verifiers to Self-Correct ...",
+          "snippet": "This work explores whether small (<= 13B) language models (LMs) have the ability of self-correction on reasoning tasks with minimal inputs from stronger LMs. ..."
+        },
+        {
+          "arxiv_id": "2302.07459",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2302.07459v2",
+          "title": "The Capacity for Moral Self-Correction in Large Language Models",
+          "snippet": "We find that the capacity for moral self-correction emerges at 22B model parameters, and that we can steer sufficiently large models to avoid harmful outputs ..."
+        },
+        {
+          "arxiv_id": "2405.06682",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2405.06682v1",
+          "title": "Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv",
+          "snippet": "Some research studies have indicated that LLMs using self-reflection are able to identify and correct their mistakes. LLMs cannot identify errors in their ..."
+        },
+        {
+          "arxiv_id": "2407.03181",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2407.03181v1",
+          "title": "Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...",
+          "snippet": "Intrinsic self-correction refers to the ability of an LLM to revise or correct its initial response using only its inherent capabilities without relying on ..."
+        },
+        {
+          "arxiv_id": "2407.11511",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2407.11511v1",
+          "title": "Reasoning with Large Language Models,a Survey - arXiv",
+          "snippet": "Inspired by Chain-of-thought and Self-consistency, this work studies which prompts achieve the best results on math word and other reasoning problems. Their ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Studies on the limitations of self-correction in language models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Impact of self-correction on language model performance",
+      "attempts": [
+        {
+          "global_attempt_sequence": 81,
+          "query_id": "Q13",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Impact of self-correction on language model performance",
+          "request_payload": {
+            "q": "Impact of self-correction on language model performance before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q13_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:26:09.386711+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Impact of self-correction on language model performance before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"On the Intersection of Self-Correction and Trust in Language Models\",\"link\":\"https://arxiv.org/html/2311.02801v1\",\"snippet\":\"Our findings reveal that self-correction can lead to improvements in toxicity and truthfulness, but\",\"date\":\"Nov 6, 2023\",\"position\":1},{\"title\":\"[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv\",\"link\":\"https://arxiv.org/pdf/2310.01798\",\"snippet\":\"LLMs struggle to self- correct their responses without external feedback, and at times, their performance even degrades after self-correction.\",\"date\":\"Mar 14, 2024\",\"position\":2},{\"title\":\"[PDF] Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2405.06682\",\"snippet\":\"Abstract. In this study, we investigated the effects of self-reflection in large language models (LLMs) on problem-solving performance.\",\"date\":\"May 14, 2024\",\"position\":3},{\"title\":\"Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...\",\"link\":\"https://arxiv.org/html/2407.03181v1\",\"snippet\":\"Intrinsic self-correction refers to the ability of an LLM to revise or correct its initial response using only its inherent capabilities without relying on ...\",\"date\":\"Jul 3, 2024\",\"position\":4},{\"title\":\"The Capacity for Moral Self-Correction in Large Language Models\",\"link\":\"https://arxiv.org/html/2302.07459v2\",\"snippet\":\"We find that the capability for moral self-correction emerges at 22B model parameters, and typically improves with increasing model size and RLHF training.\",\"date\":\"Feb 18, 2023\",\"position\":5},{\"title\":\"Are You Sure? Challenging LLMs Leads to Performance Drops in ...\",\"link\":\"https://arxiv.org/html/2311.08596v2\",\"snippet\":\"We conduct finetuning experiments on an open-source LLM and find that finetuning on synthetically created data can mitigate – reducing performance deterioration ...\",\"date\":\"Feb 21, 2024\",\"position\":6},{\"title\":\"Self-Improvement for Multi-Step Reasoning LLM Agent - arXiv\",\"link\":\"https://arxiv.org/html/2312.10003v1\",\"snippet\":\"What is the performance impact of using several trajectories per question ... Large language models cannot self-correct reasoning yet, 2023.\",\"date\":\"Dec 15, 2023\",\"position\":7},{\"title\":\"[PDF] An Empirical Study on Self-correcting Large Language Models for ...\",\"link\":\"https://arxiv.org/pdf/2408.15658\",\"snippet\":\"In RQ3, we experienced an increasing number of iterations from 1 to 5 that was associated with the improvement of model performance from 14.0% to 83.2%. The ...\",\"date\":\"Aug 28, 2024\",\"position\":8},{\"title\":\"[PDF] On the Convergence of Moral Self-Correction in Large Language ...\",\"link\":\"https://arxiv.org/pdf/2510.07290?\",\"snippet\":\"In summary, we demonstrate that (1) Multi- round intrinsic self-correction can achieve con- verged performance across various tasks and mod- els, answering RQ1; ...\",\"date\":\"Jun 4, 2024\",\"position\":9},{\"title\":\"Reasoning with Large Language Models,a Survey - arXiv\",\"link\":\"https://arxiv.org/html/2407.11511v1\",\"snippet\":\"We find that self-improvement, self-reflection, and some metacognitive abilities of the reasoning processes are possible through the judicious use of prompts.\",\"date\":\"Jul 16, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJJbXBhY3Qgb2Ygc2VsZi1jb3JyZWN0aW9uIG9uIGxhbmd1YWdlIG1vZGVsIHBlcmZvcm1hbmNlIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6Ik9uIHRoZSBJbnRlcnNlY3Rpb24gb2YgU2VsZi1Db3JyZWN0aW9uIGFuZCBUcnVzdCBpbiBMYW5ndWFnZSBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjAyODAxdjEiLCJzbmlwcGV0IjoiT3VyIGZpbmRpbmdzIHJldmVhbCB0aGF0IHNlbGYtY29ycmVjdGlvbiBjYW4gbGVhZCB0byBpbXByb3ZlbWVudHMgaW4gdG94aWNpdHkgYW5kIHRydXRoZnVsbmVzcywgYnV0IiwiZGF0ZSI6Ik5vdiA2LCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgQ2Fubm90IFNlbGYtQ29ycmVjdCBSZWFzb25pbmcgWWV0IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMTAuMDE3OTgiLCJzbmlwcGV0IjoiTExNcyBzdHJ1Z2dsZSB0byBzZWxmLSBjb3JyZWN0IHRoZWlyIHJlc3BvbnNlcyB3aXRob3V0IGV4dGVybmFsIGZlZWRiYWNrLCBhbmQgYXQgdGltZXMsIHRoZWlyIHBlcmZvcm1hbmNlIGV2ZW4gZGVncmFkZXMgYWZ0ZXIgc2VsZi1jb3JyZWN0aW9uLiIsImRhdGUiOiJNYXIgMTQsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIFNlbGYtUmVmbGVjdGlvbiBpbiBMTE0gQWdlbnRzOiBFZmZlY3RzIG9uIFByb2JsZW0tU29sdmluZyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNS4wNjY4MiIsInNuaXBwZXQiOiJBYnN0cmFjdC4gSW4gdGhpcyBzdHVkeSwgd2UgaW52ZXN0aWdhdGVkIHRoZSBlZmZlY3RzIG9mIHNlbGYtcmVmbGVjdGlvbiBpbiBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpIG9uIHByb2JsZW0tc29sdmluZyBwZXJmb3JtYW5jZS4iLCJkYXRlIjoiTWF5IDE0LCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJGaW5lLVR1bmluZyB3aXRoIERpdmVyZ2VudCBDaGFpbnMgb2YgVGhvdWdodCBCb29zdHMgUmVhc29uaW5nIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMDMxODF2MSIsInNuaXBwZXQiOiJJbnRyaW5zaWMgc2VsZi1jb3JyZWN0aW9uIHJlZmVycyB0byB0aGUgYWJpbGl0eSBvZiBhbiBMTE0gdG8gcmV2aXNlIG9yIGNvcnJlY3QgaXRzIGluaXRpYWwgcmVzcG9uc2UgdXNpbmcgb25seSBpdHMgaW5oZXJlbnQgY2FwYWJpbGl0aWVzIHdpdGhvdXQgcmVseWluZyBvbiAuLi4iLCJkYXRlIjoiSnVsIDMsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlRoZSBDYXBhY2l0eSBmb3IgTW9yYWwgU2VsZi1Db3JyZWN0aW9uIGluIExhcmdlIExhbmd1YWdlIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDIuMDc0NTl2MiIsInNuaXBwZXQiOiJXZSBmaW5kIHRoYXQgdGhlIGNhcGFiaWxpdHkgZm9yIG1vcmFsIHNlbGYtY29ycmVjdGlvbiBlbWVyZ2VzIGF0IDIyQiBtb2RlbCBwYXJhbWV0ZXJzLCBhbmQgdHlwaWNhbGx5IGltcHJvdmVzIHdpdGggaW5jcmVhc2luZyBtb2RlbCBzaXplIGFuZCBSTEhGIHRyYWluaW5nLiIsImRhdGUiOiJGZWIgMTgsIDIwMjMiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkFyZSBZb3UgU3VyZT8gQ2hhbGxlbmdpbmcgTExNcyBMZWFkcyB0byBQZXJmb3JtYW5jZSBEcm9wcyBpbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjA4NTk2djIiLCJzbmlwcGV0IjoiV2UgY29uZHVjdCBmaW5ldHVuaW5nIGV4cGVyaW1lbnRzIG9uIGFuIG9wZW4tc291cmNlIExMTSBhbmQgZmluZCB0aGF0IGZpbmV0dW5pbmcgb24gc3ludGhldGljYWxseSBjcmVhdGVkIGRhdGEgY2FuIG1pdGlnYXRlIOKAkyByZWR1Y2luZyBwZXJmb3JtYW5jZSBkZXRlcmlvcmF0aW9uIC4uLiIsImRhdGUiOiJGZWIgMjEsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlNlbGYtSW1wcm92ZW1lbnQgZm9yIE11bHRpLVN0ZXAgUmVhc29uaW5nIExMTSBBZ2VudCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4xMDAwM3YxIiwic25pcHBldCI6IldoYXQgaXMgdGhlIHBlcmZvcm1hbmNlIGltcGFjdCBvZiB1c2luZyBzZXZlcmFsIHRyYWplY3RvcmllcyBwZXIgcXVlc3Rpb24gLi4uIExhcmdlIGxhbmd1YWdlIG1vZGVscyBjYW5ub3Qgc2VsZi1jb3JyZWN0IHJlYXNvbmluZyB5ZXQsIDIwMjMuIiwiZGF0ZSI6IkRlYyAxNSwgMjAyMyIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gQW4gRW1waXJpY2FsIFN0dWR5IG9uIFNlbGYtY29ycmVjdGluZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgZm9yIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwOC4xNTY1OCIsInNuaXBwZXQiOiJJbiBSUTMsIHdlIGV4cGVyaWVuY2VkIGFuIGluY3JlYXNpbmcgbnVtYmVyIG9mIGl0ZXJhdGlvbnMgZnJvbSAxIHRvIDUgdGhhdCB3YXMgYXNzb2NpYXRlZCB3aXRoIHRoZSBpbXByb3ZlbWVudCBvZiBtb2RlbCBwZXJmb3JtYW5jZSBmcm9tIDE0LjAlIHRvIDgzLjIlLiBUaGUgLi4uIiwiZGF0ZSI6IkF1ZyAyOCwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gT24gdGhlIENvbnZlcmdlbmNlIG9mIE1vcmFsIFNlbGYtQ29ycmVjdGlvbiBpbiBMYXJnZSBMYW5ndWFnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MTAuMDcyOTA/Iiwic25pcHBldCI6IkluIHN1bW1hcnksIHdlIGRlbW9uc3RyYXRlIHRoYXQgKDEpIE11bHRpLSByb3VuZCBpbnRyaW5zaWMgc2VsZi1jb3JyZWN0aW9uIGNhbiBhY2hpZXZlIGNvbi0gdmVyZ2VkIHBlcmZvcm1hbmNlIGFjcm9zcyB2YXJpb3VzIHRhc2tzIGFuZCBtb2QtIGVscywgYW5zd2VyaW5nIFJRMTsgLi4uIiwiZGF0ZSI6Ikp1biA0LCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJSZWFzb25pbmcgd2l0aCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMsYSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMTE1MTF2MSIsInNuaXBwZXQiOiJXZSBmaW5kIHRoYXQgc2VsZi1pbXByb3ZlbWVudCwgc2VsZi1yZWZsZWN0aW9uLCBhbmQgc29tZSBtZXRhY29nbml0aXZlIGFiaWxpdGllcyBvZiB0aGUgcmVhc29uaW5nIHByb2Nlc3NlcyBhcmUgcG9zc2libGUgdGhyb3VnaCB0aGUganVkaWNpb3VzIHVzZSBvZiBwcm9tcHRzLiIsImRhdGUiOiJKdWwgMTYsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "f0e7aae31b571df39f9f7b0698d9af35b1a822ae9029b545de99952b500c63c8",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Impact of self-correction on language model performance before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "On the Intersection of Self-Correction and Trust in Language Models",
+                "link": "https://arxiv.org/html/2311.02801v1",
+                "snippet": "Our findings reveal that self-correction can lead to improvements in toxicity and truthfulness, but",
+                "date": "Nov 6, 2023",
+                "position": 1
+              },
+              {
+                "title": "[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv",
+                "link": "https://arxiv.org/pdf/2310.01798",
+                "snippet": "LLMs struggle to self- correct their responses without external feedback, and at times, their performance even degrades after self-correction.",
+                "date": "Mar 14, 2024",
+                "position": 2
+              },
+              {
+                "title": "[PDF] Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv",
+                "link": "https://arxiv.org/pdf/2405.06682",
+                "snippet": "Abstract. In this study, we investigated the effects of self-reflection in large language models (LLMs) on problem-solving performance.",
+                "date": "May 14, 2024",
+                "position": 3
+              },
+              {
+                "title": "Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...",
+                "link": "https://arxiv.org/html/2407.03181v1",
+                "snippet": "Intrinsic self-correction refers to the ability of an LLM to revise or correct its initial response using only its inherent capabilities without relying on ...",
+                "date": "Jul 3, 2024",
+                "position": 4
+              },
+              {
+                "title": "The Capacity for Moral Self-Correction in Large Language Models",
+                "link": "https://arxiv.org/html/2302.07459v2",
+                "snippet": "We find that the capability for moral self-correction emerges at 22B model parameters, and typically improves with increasing model size and RLHF training.",
+                "date": "Feb 18, 2023",
+                "position": 5
+              },
+              {
+                "title": "Are You Sure? Challenging LLMs Leads to Performance Drops in ...",
+                "link": "https://arxiv.org/html/2311.08596v2",
+                "snippet": "We conduct finetuning experiments on an open-source LLM and find that finetuning on synthetically created data can mitigate – reducing performance deterioration ...",
+                "date": "Feb 21, 2024",
+                "position": 6
+              },
+              {
+                "title": "Self-Improvement for Multi-Step Reasoning LLM Agent - arXiv",
+                "link": "https://arxiv.org/html/2312.10003v1",
+                "snippet": "What is the performance impact of using several trajectories per question ... Large language models cannot self-correct reasoning yet, 2023.",
+                "date": "Dec 15, 2023",
+                "position": 7
+              },
+              {
+                "title": "[PDF] An Empirical Study on Self-correcting Large Language Models for ...",
+                "link": "https://arxiv.org/pdf/2408.15658",
+                "snippet": "In RQ3, we experienced an increasing number of iterations from 1 to 5 that was associated with the improvement of model performance from 14.0% to 83.2%. The ...",
+                "date": "Aug 28, 2024",
+                "position": 8
+              },
+              {
+                "title": "[PDF] On the Convergence of Moral Self-Correction in Large Language ...",
+                "link": "https://arxiv.org/pdf/2510.07290?",
+                "snippet": "In summary, we demonstrate that (1) Multi- round intrinsic self-correction can achieve con- verged performance across various tasks and mod- els, answering RQ1; ...",
+                "date": "Jun 4, 2024",
+                "position": 9
+              },
+              {
+                "title": "Reasoning with Large Language Models,a Survey - arXiv",
+                "link": "https://arxiv.org/html/2407.11511v1",
+                "snippet": "We find that self-improvement, self-reflection, and some metacognitive abilities of the reasoning processes are possible through the judicious use of prompts.",
+                "date": "Jul 16, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:26:11.005450+00:00",
+          "elapsed_seconds": 1.6187406070530415
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2302.07459",
+        "2310.01798",
+        "2311.02801",
+        "2311.08596",
+        "2312.10003",
+        "2405.06682",
+        "2407.03181",
+        "2407.11511",
+        "2408.15658",
+        "2510.07290"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2311.02801",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2311.02801v1",
+          "title": "On the Intersection of Self-Correction and Trust in Language Models",
+          "snippet": "Our findings reveal that self-correction can lead to improvements in toxicity and truthfulness, but"
+        },
+        {
+          "arxiv_id": "2310.01798",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/pdf/2310.01798",
+          "title": "[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv",
+          "snippet": "LLMs struggle to self- correct their responses without external feedback, and at times, their performance even degrades after self-correction."
+        },
+        {
+          "arxiv_id": "2405.06682",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2405.06682",
+          "title": "[PDF] Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv",
+          "snippet": "Abstract. In this study, we investigated the effects of self-reflection in large language models (LLMs) on problem-solving performance."
+        },
+        {
+          "arxiv_id": "2407.03181",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2407.03181v1",
+          "title": "Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...",
+          "snippet": "Intrinsic self-correction refers to the ability of an LLM to revise or correct its initial response using only its inherent capabilities without relying on ..."
+        },
+        {
+          "arxiv_id": "2302.07459",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2302.07459v2",
+          "title": "The Capacity for Moral Self-Correction in Large Language Models",
+          "snippet": "We find that the capability for moral self-correction emerges at 22B model parameters, and typically improves with increasing model size and RLHF training."
+        },
+        {
+          "arxiv_id": "2311.08596",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2311.08596v2",
+          "title": "Are You Sure? Challenging LLMs Leads to Performance Drops in ...",
+          "snippet": "We conduct finetuning experiments on an open-source LLM and find that finetuning on synthetically created data can mitigate – reducing performance deterioration ..."
+        },
+        {
+          "arxiv_id": "2312.10003",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2312.10003v1",
+          "title": "Self-Improvement for Multi-Step Reasoning LLM Agent - arXiv",
+          "snippet": "What is the performance impact of using several trajectories per question ... Large language models cannot self-correct reasoning yet, 2023."
+        },
+        {
+          "arxiv_id": "2408.15658",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2408.15658",
+          "title": "[PDF] An Empirical Study on Self-correcting Large Language Models for ...",
+          "snippet": "In RQ3, we experienced an increasing number of iterations from 1 to 5 that was associated with the improvement of model performance from 14.0% to 83.2%. The ..."
+        },
+        {
+          "arxiv_id": "2510.07290",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2510.07290?",
+          "title": "[PDF] On the Convergence of Moral Self-Correction in Large Language ...",
+          "snippet": "In summary, we demonstrate that (1) Multi- round intrinsic self-correction can achieve con- verged performance across various tasks and mod- els, answering RQ1; ..."
+        },
+        {
+          "arxiv_id": "2407.11511",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2407.11511v1",
+          "title": "Reasoning with Large Language Models,a Survey - arXiv",
+          "snippet": "We find that self-improvement, self-reflection, and some metacognitive abilities of the reasoning processes are possible through the judicious use of prompts."
+        }
+      ],
+      "request_payload": {
+        "q": "Impact of self-correction on language model performance before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Survey papers on self-correction not enhancing LLM performance",
+      "attempts": [
+        {
+          "global_attempt_sequence": 82,
+          "query_id": "Q13",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Survey papers on self-correction not enhancing LLM performance",
+          "request_payload": {
+            "q": "Survey papers on self-correction not enhancing LLM performance before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q13_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:26:11.085059+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on self-correction not enhancing LLM performance before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"When Can LLMs Actually Correct Their Own Mistakes?A Critical ...\",\"link\":\"https://arxiv.org/html/2406.01297v1\",\"snippet\":\"However, recent studies report that intrinsic self-correction does not improve or even degrade the performance in tasks such as arithmetic reasoning, closed- ...\",\"date\":\"Jun 3, 2024\",\"position\":1},{\"title\":\"On the Intersection of Self-Correction and Trust in Language Models\",\"link\":\"https://arxiv.org/html/2311.02801v1\",\"snippet\":\"In this work, we investigate whether these self-correction capabilities can be harnessed to improve the trustworthiness of LLMs. We conduct experiments focusing ...\",\"date\":\"Nov 6, 2023\",\"position\":2},{\"title\":\"[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv\",\"link\":\"https://arxiv.org/pdf/2310.01798\",\"snippet\":\", this paper critically examines the role and efficacy of self-correction within LLMs, LLMs struggle to self- correct their responses without external feedback ...\",\"date\":\"Mar 14, 2024\",\"position\":3},{\"title\":\"Training Language Models to Self-Correct via Reinforcement Learning\",\"link\":\"https://arxiv.org/abs/2409.12917\",\"snippet\":\"Abstract:Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in ...\",\"date\":\"Sep 19, 2024\",\"position\":4},{\"title\":\"[PDF] Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2405.06682\",\"snippet\":\"Abstract. In this study, we investigated the effects of self-reflection in large language models (LLMs) on problem-solving performance.\",\"date\":\"May 14, 2024\",\"position\":5},{\"title\":\"Reasoning with Large Language Models,a Survey - arXiv\",\"link\":\"https://arxiv.org/html/2407.11511v1\",\"snippet\":\"The Chain-of-thought paper showed how a simple command could prompt an LLM to perform reasoning steps, yielding much better performance in math word problems.\",\"date\":\"Jul 16, 2024\",\"position\":6},{\"title\":\"From LLMs to LLM-based Agents for Software Engineering - arXiv\",\"link\":\"https://arxiv.org/html/2408.02479v1\",\"snippet\":\"We filtered out non-LLM-related papers. Although there are not many papers on LLM-based agents, significantly enhanced task performance by learning to call ...\",\"date\":\"Aug 5, 2024\",\"position\":7},{\"title\":\"Understanding the planning of LLM agents: A survey - ar5iv - arXiv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.\",\"date\":\"Apr 15, 2024\",\"position\":8},{\"title\":\"LLMs cannot find reasoning errors, but can correct them given the ...\",\"link\":\"https://arxiv.org/abs/2311.08516\",\"snippet\":\"In this paper, we show that poor self-correction performance stems from LLMs' inability to find logical mistakes, rather than their ability to correct a known ...\",\"date\":\"Nov 14, 2023\",\"position\":9},{\"title\":\"Trustworthiness in Retrieval-Augmented Generation Systems - arXiv\",\"link\":\"https://arxiv.org/html/2409.10102v1\",\"snippet\":\"These methods extend the number of LLM's reasoning paths, thereby improving the likelihood of arriving at the correct result during the decoding process.\",\"date\":\"Sep 16, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIHNlbGYtY29ycmVjdGlvbiBub3QgZW5oYW5jaW5nIExMTSBwZXJmb3JtYW5jZSBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJXaGVuIENhbiBMTE1zIEFjdHVhbGx5IENvcnJlY3QgVGhlaXIgT3duIE1pc3Rha2VzP0EgQ3JpdGljYWwgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4wMTI5N3YxIiwic25pcHBldCI6Ikhvd2V2ZXIsIHJlY2VudCBzdHVkaWVzIHJlcG9ydCB0aGF0IGludHJpbnNpYyBzZWxmLWNvcnJlY3Rpb24gZG9lcyBub3QgaW1wcm92ZSBvciBldmVuIGRlZ3JhZGUgdGhlIHBlcmZvcm1hbmNlIGluIHRhc2tzIHN1Y2ggYXMgYXJpdGhtZXRpYyByZWFzb25pbmcsIGNsb3NlZC0gLi4uIiwiZGF0ZSI6Ikp1biAzLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJPbiB0aGUgSW50ZXJzZWN0aW9uIG9mIFNlbGYtQ29ycmVjdGlvbiBhbmQgVHJ1c3QgaW4gTGFuZ3VhZ2UgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMS4wMjgwMXYxIiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgaW52ZXN0aWdhdGUgd2hldGhlciB0aGVzZSBzZWxmLWNvcnJlY3Rpb24gY2FwYWJpbGl0aWVzIGNhbiBiZSBoYXJuZXNzZWQgdG8gaW1wcm92ZSB0aGUgdHJ1c3R3b3J0aGluZXNzIG9mIExMTXMuIFdlIGNvbmR1Y3QgZXhwZXJpbWVudHMgZm9jdXNpbmcgLi4uIiwiZGF0ZSI6Ik5vdiA2LCAyMDIzIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJbUERGXSBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgQ2Fubm90IFNlbGYtQ29ycmVjdCBSZWFzb25pbmcgWWV0IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMTAuMDE3OTgiLCJzbmlwcGV0IjoiLCB0aGlzIHBhcGVyIGNyaXRpY2FsbHkgZXhhbWluZXMgdGhlIHJvbGUgYW5kIGVmZmljYWN5IG9mIHNlbGYtY29ycmVjdGlvbiB3aXRoaW4gTExNcywgTExNcyBzdHJ1Z2dsZSB0byBzZWxmLSBjb3JyZWN0IHRoZWlyIHJlc3BvbnNlcyB3aXRob3V0IGV4dGVybmFsIGZlZWRiYWNrIC4uLiIsImRhdGUiOiJNYXIgMTQsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IlRyYWluaW5nIExhbmd1YWdlIE1vZGVscyB0byBTZWxmLUNvcnJlY3QgdmlhIFJlaW5mb3JjZW1lbnQgTGVhcm5pbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDkuMTI5MTciLCJzbmlwcGV0IjoiQWJzdHJhY3Q6U2VsZi1jb3JyZWN0aW9uIGlzIGEgaGlnaGx5IGRlc2lyYWJsZSBjYXBhYmlsaXR5IG9mIGxhcmdlIGxhbmd1YWdlIG1vZGVscyAoTExNcyksIHlldCBpdCBoYXMgY29uc2lzdGVudGx5IGJlZW4gZm91bmQgdG8gYmUgbGFyZ2VseSBpbmVmZmVjdGl2ZSBpbiAuLi4iLCJkYXRlIjoiU2VwIDE5LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBTZWxmLVJlZmxlY3Rpb24gaW4gTExNIEFnZW50czogRWZmZWN0cyBvbiBQcm9ibGVtLVNvbHZpbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDUuMDY2ODIiLCJzbmlwcGV0IjoiQWJzdHJhY3QuIEluIHRoaXMgc3R1ZHksIHdlIGludmVzdGlnYXRlZCB0aGUgZWZmZWN0cyBvZiBzZWxmLXJlZmxlY3Rpb24gaW4gbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSBvbiBwcm9ibGVtLXNvbHZpbmcgcGVyZm9ybWFuY2UuIiwiZGF0ZSI6Ik1heSAxNCwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiUmVhc29uaW5nIHdpdGggTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzLGEgU3VydmV5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjExNTExdjEiLCJzbmlwcGV0IjoiVGhlIENoYWluLW9mLXRob3VnaHQgcGFwZXIgc2hvd2VkIGhvdyBhIHNpbXBsZSBjb21tYW5kIGNvdWxkIHByb21wdCBhbiBMTE0gdG8gcGVyZm9ybSByZWFzb25pbmcgc3RlcHMsIHlpZWxkaW5nIG11Y2ggYmV0dGVyIHBlcmZvcm1hbmNlIGluIG1hdGggd29yZCBwcm9ibGVtcy4iLCJkYXRlIjoiSnVsIDE2LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJGcm9tIExMTXMgdG8gTExNLWJhc2VkIEFnZW50cyBmb3IgU29mdHdhcmUgRW5naW5lZXJpbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMDI0Nzl2MSIsInNuaXBwZXQiOiJXZSBmaWx0ZXJlZCBvdXQgbm9uLUxMTS1yZWxhdGVkIHBhcGVycy4gQWx0aG91Z2ggdGhlcmUgYXJlIG5vdCBtYW55IHBhcGVycyBvbiBMTE0tYmFzZWQgYWdlbnRzLCBzaWduaWZpY2FudGx5IGVuaGFuY2VkIHRhc2sgcGVyZm9ybWFuY2UgYnkgbGVhcm5pbmcgdG8gY2FsbCAuLi4iLCJkYXRlIjoiQXVnIDUsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlVuZGVyc3RhbmRpbmcgdGhlIHBsYW5uaW5nIG9mIExMTSBhZ2VudHM6IEEgc3VydmV5IC0gYXI1aXYgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjQwMi4wMjcxNiIsInNuaXBwZXQiOiJUaGlzIHN1cnZleSBwcm92aWRlcyB0aGUgZmlyc3Qgc3lzdGVtYXRpYyB2aWV3IG9mIExMTS1iYXNlZCBhZ2VudHMgcGxhbm5pbmcsIGNvdmVyaW5nIHJlY2VudCB3b3JrcyBhaW1pbmcgdG8gaW1wcm92ZSBwbGFubmluZyBhYmlsaXR5LiIsImRhdGUiOiJBcHIgMTUsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkxMTXMgY2Fubm90IGZpbmQgcmVhc29uaW5nIGVycm9ycywgYnV0IGNhbiBjb3JyZWN0IHRoZW0gZ2l2ZW4gdGhlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMxMS4wODUxNiIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBzaG93IHRoYXQgcG9vciBzZWxmLWNvcnJlY3Rpb24gcGVyZm9ybWFuY2Ugc3RlbXMgZnJvbSBMTE1zJyBpbmFiaWxpdHkgdG8gZmluZCBsb2dpY2FsIG1pc3Rha2VzLCByYXRoZXIgdGhhbiB0aGVpciBhYmlsaXR5IHRvIGNvcnJlY3QgYSBrbm93biAuLi4iLCJkYXRlIjoiTm92IDE0LCAyMDIzIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJUcnVzdHdvcnRoaW5lc3MgaW4gUmV0cmlldmFsLUF1Z21lbnRlZCBHZW5lcmF0aW9uIFN5c3RlbXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDkuMTAxMDJ2MSIsInNuaXBwZXQiOiJUaGVzZSBtZXRob2RzIGV4dGVuZCB0aGUgbnVtYmVyIG9mIExMTSdzIHJlYXNvbmluZyBwYXRocywgdGhlcmVieSBpbXByb3ZpbmcgdGhlIGxpa2VsaWhvb2Qgb2YgYXJyaXZpbmcgYXQgdGhlIGNvcnJlY3QgcmVzdWx0IGR1cmluZyB0aGUgZGVjb2RpbmcgcHJvY2Vzcy4iLCJkYXRlIjoiU2VwIDE2LCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "ae1a4962fadddfbc0f5ba283cfb806d93dc5e88981849619a55eb596d9221658",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey papers on self-correction not enhancing LLM performance before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "When Can LLMs Actually Correct Their Own Mistakes?A Critical ...",
+                "link": "https://arxiv.org/html/2406.01297v1",
+                "snippet": "However, recent studies report that intrinsic self-correction does not improve or even degrade the performance in tasks such as arithmetic reasoning, closed- ...",
+                "date": "Jun 3, 2024",
+                "position": 1
+              },
+              {
+                "title": "On the Intersection of Self-Correction and Trust in Language Models",
+                "link": "https://arxiv.org/html/2311.02801v1",
+                "snippet": "In this work, we investigate whether these self-correction capabilities can be harnessed to improve the trustworthiness of LLMs. We conduct experiments focusing ...",
+                "date": "Nov 6, 2023",
+                "position": 2
+              },
+              {
+                "title": "[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv",
+                "link": "https://arxiv.org/pdf/2310.01798",
+                "snippet": ", this paper critically examines the role and efficacy of self-correction within LLMs, LLMs struggle to self- correct their responses without external feedback ...",
+                "date": "Mar 14, 2024",
+                "position": 3
+              },
+              {
+                "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+                "link": "https://arxiv.org/abs/2409.12917",
+                "snippet": "Abstract:Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in ...",
+                "date": "Sep 19, 2024",
+                "position": 4
+              },
+              {
+                "title": "[PDF] Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv",
+                "link": "https://arxiv.org/pdf/2405.06682",
+                "snippet": "Abstract. In this study, we investigated the effects of self-reflection in large language models (LLMs) on problem-solving performance.",
+                "date": "May 14, 2024",
+                "position": 5
+              },
+              {
+                "title": "Reasoning with Large Language Models,a Survey - arXiv",
+                "link": "https://arxiv.org/html/2407.11511v1",
+                "snippet": "The Chain-of-thought paper showed how a simple command could prompt an LLM to perform reasoning steps, yielding much better performance in math word problems.",
+                "date": "Jul 16, 2024",
+                "position": 6
+              },
+              {
+                "title": "From LLMs to LLM-based Agents for Software Engineering - arXiv",
+                "link": "https://arxiv.org/html/2408.02479v1",
+                "snippet": "We filtered out non-LLM-related papers. Although there are not many papers on LLM-based agents, significantly enhanced task performance by learning to call ...",
+                "date": "Aug 5, 2024",
+                "position": 7
+              },
+              {
+                "title": "Understanding the planning of LLM agents: A survey - ar5iv - arXiv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2402.02716",
+                "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.",
+                "date": "Apr 15, 2024",
+                "position": 8
+              },
+              {
+                "title": "LLMs cannot find reasoning errors, but can correct them given the ...",
+                "link": "https://arxiv.org/abs/2311.08516",
+                "snippet": "In this paper, we show that poor self-correction performance stems from LLMs' inability to find logical mistakes, rather than their ability to correct a known ...",
+                "date": "Nov 14, 2023",
+                "position": 9
+              },
+              {
+                "title": "Trustworthiness in Retrieval-Augmented Generation Systems - arXiv",
+                "link": "https://arxiv.org/html/2409.10102v1",
+                "snippet": "These methods extend the number of LLM's reasoning paths, thereby improving the likelihood of arriving at the correct result during the decoding process.",
+                "date": "Sep 16, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:26:12.026202+00:00",
+          "elapsed_seconds": 0.9411376900970936
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2310.01798",
+        "2311.02801",
+        "2311.08516",
+        "2402.02716",
+        "2405.06682",
+        "2406.01297",
+        "2407.11511",
+        "2408.02479",
+        "2409.10102",
+        "2409.12917"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2406.01297",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2406.01297v1",
+          "title": "When Can LLMs Actually Correct Their Own Mistakes?A Critical ...",
+          "snippet": "However, recent studies report that intrinsic self-correction does not improve or even degrade the performance in tasks such as arithmetic reasoning, closed- ..."
+        },
+        {
+          "arxiv_id": "2311.02801",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2311.02801v1",
+          "title": "On the Intersection of Self-Correction and Trust in Language Models",
+          "snippet": "In this work, we investigate whether these self-correction capabilities can be harnessed to improve the trustworthiness of LLMs. We conduct experiments focusing ..."
+        },
+        {
+          "arxiv_id": "2310.01798",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2310.01798",
+          "title": "[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv",
+          "snippet": ", this paper critically examines the role and efficacy of self-correction within LLMs, LLMs struggle to self- correct their responses without external feedback ..."
+        },
+        {
+          "arxiv_id": "2409.12917",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2409.12917",
+          "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+          "snippet": "Abstract:Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in ..."
+        },
+        {
+          "arxiv_id": "2405.06682",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2405.06682",
+          "title": "[PDF] Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv",
+          "snippet": "Abstract. In this study, we investigated the effects of self-reflection in large language models (LLMs) on problem-solving performance."
+        },
+        {
+          "arxiv_id": "2407.11511",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2407.11511v1",
+          "title": "Reasoning with Large Language Models,a Survey - arXiv",
+          "snippet": "The Chain-of-thought paper showed how a simple command could prompt an LLM to perform reasoning steps, yielding much better performance in math word problems."
+        },
+        {
+          "arxiv_id": "2408.02479",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2408.02479v1",
+          "title": "From LLMs to LLM-based Agents for Software Engineering - arXiv",
+          "snippet": "We filtered out non-LLM-related papers. Although there are not many papers on LLM-based agents, significantly enhanced task performance by learning to call ..."
+        },
+        {
+          "arxiv_id": "2402.02716",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://ar5iv.labs.arxiv.org/html/2402.02716",
+          "title": "Understanding the planning of LLM agents: A survey - ar5iv - arXiv",
+          "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability."
+        },
+        {
+          "arxiv_id": "2311.08516",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2311.08516",
+          "title": "LLMs cannot find reasoning errors, but can correct them given the ...",
+          "snippet": "In this paper, we show that poor self-correction performance stems from LLMs' inability to find logical mistakes, rather than their ability to correct a known ..."
+        },
+        {
+          "arxiv_id": "2409.10102",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2409.10102v1",
+          "title": "Trustworthiness in Retrieval-Augmented Generation Systems - arXiv",
+          "snippet": "These methods extend the number of LLM's reasoning paths, thereby improving the likelihood of arriving at the correct result during the decoding process."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey papers on self-correction not enhancing LLM performance before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Academic papers on the ineffectiveness of self-correction in LLMs",
+      "attempts": [
+        {
+          "global_attempt_sequence": 83,
+          "query_id": "Q13",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Academic papers on the ineffectiveness of self-correction in LLMs",
+          "request_payload": {
+            "q": "Academic papers on the ineffectiveness of self-correction in LLMs before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q13_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:26:12.103992+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Academic papers on the ineffectiveness of self-correction in LLMs before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"When Can LLMs Actually Correct Their Own Mistakes?A Critical ...\",\"link\":\"https://arxiv.org/html/2406.01297v1\",\"snippet\":\"In this work, we critically survey broad papers and discuss the conditions required for successful self-correction. We first find that prior studies often do ...\",\"date\":\"Jun 3, 2024\",\"position\":1},{\"title\":\"Training Language Models to Self-Correct via Reinforcement Learning\",\"link\":\"https://arxiv.org/abs/2409.12917\",\"snippet\":\"Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in modern LLMs.\",\"date\":\"Sep 19, 2024\",\"position\":2},{\"title\":\"[2407.15286] Intrinsic Self-correction for Enhanced Morality - arXiv\",\"link\":\"https://arxiv.org/abs/2407.15286\",\"snippet\":\"We argue that self-correction can help LLMs find a shortcut to more morally correct output, rather than truly reducing the immorality stored in hidden states.\",\"date\":\"Jul 21, 2024\",\"position\":3},{\"title\":\"Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...\",\"link\":\"https://arxiv.org/html/2407.03181v1\",\"snippet\":\"Intrinsic self-correction refers to the ability of an LLM to revise or correct its initial response using only its inherent capabilities without relying on ...\",\"date\":\"Jul 3, 2024\",\"position\":4},{\"title\":\"Reasoning with Large Language Models,a Survey - arXiv\",\"link\":\"https://arxiv.org/html/2407.11511v1\",\"snippet\":\"We find that self-improvement, self-reflection, and some metacognitive abilities of the reasoning processes are possible through the judicious use of prompts.\",\"date\":\"Jul 16, 2024\",\"position\":5},{\"title\":\"Factuality of Large Language Models in the Year 2024 - arXiv\",\"link\":\"https://arxiv.org/html/2402.02420v2\",\"snippet\":\"LLM responses are factually incorrect, which limits their applicability in real-world scenarios. self-reflection, and early refinement. Another line of ...\",\"date\":\"Feb 9, 2024\",\"position\":6},{\"title\":\"[PDF] On the Convergence of Moral Self-Correction in Large Language ...\",\"link\":\"https://arxiv.org/pdf/2510.07290?\",\"snippet\":\"In this paper, we validate the con- vergence phenomenon of intrinsic self-correction across various tasks and LLMs/VLMs, the effectiveness of intrinsic self- ...\",\"date\":\"Jun 4, 2024\",\"position\":7},{\"title\":\"[PDF] Learning From Mistakes Makes LLM Better Reasoner - arXiv\",\"link\":\"https://arxiv.org/pdf/2310.20689\",\"snippet\":\"This work explores whether the reasoning capabilities of LLMs can be further improved by learning from mistakes. LLMs for Self-Correction Recently, much work ...\",\"date\":\"Mar 15, 2024\",\"position\":8},{\"title\":\"[PDF] LLMs can Find Mathematical Reasoning Mistakes by Pedagogical ...\",\"link\":\"https://arxiv.org/pdf/2405.06705\",\"snippet\":\"Self-correction is emerging as a promising ap- proach to mitigate the issue of hallucination in. Large Language Models (LLMs). To facilitate effective self- ...\",\"date\":\"May 13, 2024\",\"position\":9},{\"title\":\"On the Self-Verification Limitations of Large Language Models on ...\",\"link\":\"https://arxiv.org/abs/2402.08115\",\"snippet\":\"In this paper, we set out to systematically investigate the effectiveness of iterative prompting in the context of reasoning and planning. We present a ...\",\"date\":\"Feb 12, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBY2FkZW1pYyBwYXBlcnMgb24gdGhlIGluZWZmZWN0aXZlbmVzcyBvZiBzZWxmLWNvcnJlY3Rpb24gaW4gTExNcyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJXaGVuIENhbiBMTE1zIEFjdHVhbGx5IENvcnJlY3QgVGhlaXIgT3duIE1pc3Rha2VzP0EgQ3JpdGljYWwgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4wMTI5N3YxIiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgY3JpdGljYWxseSBzdXJ2ZXkgYnJvYWQgcGFwZXJzIGFuZCBkaXNjdXNzIHRoZSBjb25kaXRpb25zIHJlcXVpcmVkIGZvciBzdWNjZXNzZnVsIHNlbGYtY29ycmVjdGlvbi4gV2UgZmlyc3QgZmluZCB0aGF0IHByaW9yIHN0dWRpZXMgb2Z0ZW4gZG8gLi4uIiwiZGF0ZSI6Ikp1biAzLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJUcmFpbmluZyBMYW5ndWFnZSBNb2RlbHMgdG8gU2VsZi1Db3JyZWN0IHZpYSBSZWluZm9yY2VtZW50IExlYXJuaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA5LjEyOTE3Iiwic25pcHBldCI6IlNlbGYtY29ycmVjdGlvbiBpcyBhIGhpZ2hseSBkZXNpcmFibGUgY2FwYWJpbGl0eSBvZiBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpLCB5ZXQgaXQgaGFzIGNvbnNpc3RlbnRseSBiZWVuIGZvdW5kIHRvIGJlIGxhcmdlbHkgaW5lZmZlY3RpdmUgaW4gbW9kZXJuIExMTXMuIiwiZGF0ZSI6IlNlcCAxOSwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiWzI0MDcuMTUyODZdIEludHJpbnNpYyBTZWxmLWNvcnJlY3Rpb24gZm9yIEVuaGFuY2VkIE1vcmFsaXR5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDcuMTUyODYiLCJzbmlwcGV0IjoiV2UgYXJndWUgdGhhdCBzZWxmLWNvcnJlY3Rpb24gY2FuIGhlbHAgTExNcyBmaW5kIGEgc2hvcnRjdXQgdG8gbW9yZSBtb3JhbGx5IGNvcnJlY3Qgb3V0cHV0LCByYXRoZXIgdGhhbiB0cnVseSByZWR1Y2luZyB0aGUgaW1tb3JhbGl0eSBzdG9yZWQgaW4gaGlkZGVuIHN0YXRlcy4iLCJkYXRlIjoiSnVsIDIxLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJGaW5lLVR1bmluZyB3aXRoIERpdmVyZ2VudCBDaGFpbnMgb2YgVGhvdWdodCBCb29zdHMgUmVhc29uaW5nIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMDMxODF2MSIsInNuaXBwZXQiOiJJbnRyaW5zaWMgc2VsZi1jb3JyZWN0aW9uIHJlZmVycyB0byB0aGUgYWJpbGl0eSBvZiBhbiBMTE0gdG8gcmV2aXNlIG9yIGNvcnJlY3QgaXRzIGluaXRpYWwgcmVzcG9uc2UgdXNpbmcgb25seSBpdHMgaW5oZXJlbnQgY2FwYWJpbGl0aWVzIHdpdGhvdXQgcmVseWluZyBvbiAuLi4iLCJkYXRlIjoiSnVsIDMsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlJlYXNvbmluZyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVscyxhIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4xMTUxMXYxIiwic25pcHBldCI6IldlIGZpbmQgdGhhdCBzZWxmLWltcHJvdmVtZW50LCBzZWxmLXJlZmxlY3Rpb24sIGFuZCBzb21lIG1ldGFjb2duaXRpdmUgYWJpbGl0aWVzIG9mIHRoZSByZWFzb25pbmcgcHJvY2Vzc2VzIGFyZSBwb3NzaWJsZSB0aHJvdWdoIHRoZSBqdWRpY2lvdXMgdXNlIG9mIHByb21wdHMuIiwiZGF0ZSI6Ikp1bCAxNiwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiRmFjdHVhbGl0eSBvZiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgaW4gdGhlIFllYXIgMjAyNCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wMjQyMHYyIiwic25pcHBldCI6IkxMTSByZXNwb25zZXMgYXJlIGZhY3R1YWxseSBpbmNvcnJlY3QsIHdoaWNoIGxpbWl0cyB0aGVpciBhcHBsaWNhYmlsaXR5IGluIHJlYWwtd29ybGQgc2NlbmFyaW9zLiBzZWxmLXJlZmxlY3Rpb24sIGFuZCBlYXJseSByZWZpbmVtZW50LiBBbm90aGVyIGxpbmUgb2YgLi4uIiwiZGF0ZSI6IkZlYiA5LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBPbiB0aGUgQ29udmVyZ2VuY2Ugb2YgTW9yYWwgU2VsZi1Db3JyZWN0aW9uIGluIExhcmdlIExhbmd1YWdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUxMC4wNzI5MD8iLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgdmFsaWRhdGUgdGhlIGNvbi0gdmVyZ2VuY2UgcGhlbm9tZW5vbiBvZiBpbnRyaW5zaWMgc2VsZi1jb3JyZWN0aW9uIGFjcm9zcyB2YXJpb3VzIHRhc2tzIGFuZCBMTE1zL1ZMTXMsIHRoZSBlZmZlY3RpdmVuZXNzIG9mIGludHJpbnNpYyBzZWxmLSAuLi4iLCJkYXRlIjoiSnVuIDQsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIExlYXJuaW5nIEZyb20gTWlzdGFrZXMgTWFrZXMgTExNIEJldHRlciBSZWFzb25lciAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzEwLjIwNjg5Iiwic25pcHBldCI6IlRoaXMgd29yayBleHBsb3JlcyB3aGV0aGVyIHRoZSByZWFzb25pbmcgY2FwYWJpbGl0aWVzIG9mIExMTXMgY2FuIGJlIGZ1cnRoZXIgaW1wcm92ZWQgYnkgbGVhcm5pbmcgZnJvbSBtaXN0YWtlcy4gTExNcyBmb3IgU2VsZi1Db3JyZWN0aW9uIFJlY2VudGx5LCBtdWNoIHdvcmsgLi4uIiwiZGF0ZSI6Ik1hciAxNSwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gTExNcyBjYW4gRmluZCBNYXRoZW1hdGljYWwgUmVhc29uaW5nIE1pc3Rha2VzIGJ5IFBlZGFnb2dpY2FsIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNS4wNjcwNSIsInNuaXBwZXQiOiJTZWxmLWNvcnJlY3Rpb24gaXMgZW1lcmdpbmcgYXMgYSBwcm9taXNpbmcgYXAtIHByb2FjaCB0byBtaXRpZ2F0ZSB0aGUgaXNzdWUgb2YgaGFsbHVjaW5hdGlvbiBpbi4gTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIChMTE1zKS4gVG8gZmFjaWxpdGF0ZSBlZmZlY3RpdmUgc2VsZi0gLi4uIiwiZGF0ZSI6Ik1heSAxMywgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiT24gdGhlIFNlbGYtVmVyaWZpY2F0aW9uIExpbWl0YXRpb25zIG9mIExhcmdlIExhbmd1YWdlIE1vZGVscyBvbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDIuMDgxMTUiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2Ugc2V0IG91dCB0byBzeXN0ZW1hdGljYWxseSBpbnZlc3RpZ2F0ZSB0aGUgZWZmZWN0aXZlbmVzcyBvZiBpdGVyYXRpdmUgcHJvbXB0aW5nIGluIHRoZSBjb250ZXh0IG9mIHJlYXNvbmluZyBhbmQgcGxhbm5pbmcuIFdlIHByZXNlbnQgYSAuLi4iLCJkYXRlIjoiRmViIDEyLCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "e1666e0c2d30cdf2f098771d3f76173828615b9aa1b23d25c4033673f7ef1851",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Academic papers on the ineffectiveness of self-correction in LLMs before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "When Can LLMs Actually Correct Their Own Mistakes?A Critical ...",
+                "link": "https://arxiv.org/html/2406.01297v1",
+                "snippet": "In this work, we critically survey broad papers and discuss the conditions required for successful self-correction. We first find that prior studies often do ...",
+                "date": "Jun 3, 2024",
+                "position": 1
+              },
+              {
+                "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+                "link": "https://arxiv.org/abs/2409.12917",
+                "snippet": "Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in modern LLMs.",
+                "date": "Sep 19, 2024",
+                "position": 2
+              },
+              {
+                "title": "[2407.15286] Intrinsic Self-correction for Enhanced Morality - arXiv",
+                "link": "https://arxiv.org/abs/2407.15286",
+                "snippet": "We argue that self-correction can help LLMs find a shortcut to more morally correct output, rather than truly reducing the immorality stored in hidden states.",
+                "date": "Jul 21, 2024",
+                "position": 3
+              },
+              {
+                "title": "Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...",
+                "link": "https://arxiv.org/html/2407.03181v1",
+                "snippet": "Intrinsic self-correction refers to the ability of an LLM to revise or correct its initial response using only its inherent capabilities without relying on ...",
+                "date": "Jul 3, 2024",
+                "position": 4
+              },
+              {
+                "title": "Reasoning with Large Language Models,a Survey - arXiv",
+                "link": "https://arxiv.org/html/2407.11511v1",
+                "snippet": "We find that self-improvement, self-reflection, and some metacognitive abilities of the reasoning processes are possible through the judicious use of prompts.",
+                "date": "Jul 16, 2024",
+                "position": 5
+              },
+              {
+                "title": "Factuality of Large Language Models in the Year 2024 - arXiv",
+                "link": "https://arxiv.org/html/2402.02420v2",
+                "snippet": "LLM responses are factually incorrect, which limits their applicability in real-world scenarios. self-reflection, and early refinement. Another line of ...",
+                "date": "Feb 9, 2024",
+                "position": 6
+              },
+              {
+                "title": "[PDF] On the Convergence of Moral Self-Correction in Large Language ...",
+                "link": "https://arxiv.org/pdf/2510.07290?",
+                "snippet": "In this paper, we validate the con- vergence phenomenon of intrinsic self-correction across various tasks and LLMs/VLMs, the effectiveness of intrinsic self- ...",
+                "date": "Jun 4, 2024",
+                "position": 7
+              },
+              {
+                "title": "[PDF] Learning From Mistakes Makes LLM Better Reasoner - arXiv",
+                "link": "https://arxiv.org/pdf/2310.20689",
+                "snippet": "This work explores whether the reasoning capabilities of LLMs can be further improved by learning from mistakes. LLMs for Self-Correction Recently, much work ...",
+                "date": "Mar 15, 2024",
+                "position": 8
+              },
+              {
+                "title": "[PDF] LLMs can Find Mathematical Reasoning Mistakes by Pedagogical ...",
+                "link": "https://arxiv.org/pdf/2405.06705",
+                "snippet": "Self-correction is emerging as a promising ap- proach to mitigate the issue of hallucination in. Large Language Models (LLMs). To facilitate effective self- ...",
+                "date": "May 13, 2024",
+                "position": 9
+              },
+              {
+                "title": "On the Self-Verification Limitations of Large Language Models on ...",
+                "link": "https://arxiv.org/abs/2402.08115",
+                "snippet": "In this paper, we set out to systematically investigate the effectiveness of iterative prompting in the context of reasoning and planning. We present a ...",
+                "date": "Feb 12, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:26:13.119975+00:00",
+          "elapsed_seconds": 1.0159843116998672
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2310.20689",
+        "2402.02420",
+        "2402.08115",
+        "2405.06705",
+        "2406.01297",
+        "2407.03181",
+        "2407.11511",
+        "2407.15286",
+        "2409.12917",
+        "2510.07290"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2406.01297",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2406.01297v1",
+          "title": "When Can LLMs Actually Correct Their Own Mistakes?A Critical ...",
+          "snippet": "In this work, we critically survey broad papers and discuss the conditions required for successful self-correction. We first find that prior studies often do ..."
+        },
+        {
+          "arxiv_id": "2409.12917",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2409.12917",
+          "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+          "snippet": "Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in modern LLMs."
+        },
+        {
+          "arxiv_id": "2407.15286",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2407.15286",
+          "title": "[2407.15286] Intrinsic Self-correction for Enhanced Morality - arXiv",
+          "snippet": "We argue that self-correction can help LLMs find a shortcut to more morally correct output, rather than truly reducing the immorality stored in hidden states."
+        },
+        {
+          "arxiv_id": "2407.03181",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2407.03181v1",
+          "title": "Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...",
+          "snippet": "Intrinsic self-correction refers to the ability of an LLM to revise or correct its initial response using only its inherent capabilities without relying on ..."
+        },
+        {
+          "arxiv_id": "2407.11511",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2407.11511v1",
+          "title": "Reasoning with Large Language Models,a Survey - arXiv",
+          "snippet": "We find that self-improvement, self-reflection, and some metacognitive abilities of the reasoning processes are possible through the judicious use of prompts."
+        },
+        {
+          "arxiv_id": "2402.02420",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2402.02420v2",
+          "title": "Factuality of Large Language Models in the Year 2024 - arXiv",
+          "snippet": "LLM responses are factually incorrect, which limits their applicability in real-world scenarios. self-reflection, and early refinement. Another line of ..."
+        },
+        {
+          "arxiv_id": "2510.07290",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2510.07290?",
+          "title": "[PDF] On the Convergence of Moral Self-Correction in Large Language ...",
+          "snippet": "In this paper, we validate the con- vergence phenomenon of intrinsic self-correction across various tasks and LLMs/VLMs, the effectiveness of intrinsic self- ..."
+        },
+        {
+          "arxiv_id": "2310.20689",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2310.20689",
+          "title": "[PDF] Learning From Mistakes Makes LLM Better Reasoner - arXiv",
+          "snippet": "This work explores whether the reasoning capabilities of LLMs can be further improved by learning from mistakes. LLMs for Self-Correction Recently, much work ..."
+        },
+        {
+          "arxiv_id": "2405.06705",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2405.06705",
+          "title": "[PDF] LLMs can Find Mathematical Reasoning Mistakes by Pedagogical ...",
+          "snippet": "Self-correction is emerging as a promising ap- proach to mitigate the issue of hallucination in. Large Language Models (LLMs). To facilitate effective self- ..."
+        },
+        {
+          "arxiv_id": "2402.08115",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/abs/2402.08115",
+          "title": "On the Self-Verification Limitations of Large Language Models on ...",
+          "snippet": "In this paper, we set out to systematically investigate the effectiveness of iterative prompting in the context of reasoning and planning. We present a ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Academic papers on the ineffectiveness of self-correction in LLMs before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Research on self-correction mechanisms in LLMs and their impact on performance",
+      "attempts": [
+        {
+          "global_attempt_sequence": 85,
+          "query_id": "Q13",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Research on self-correction mechanisms in LLMs and their impact on performance",
+          "request_payload": {
+            "q": "Research on self-correction mechanisms in LLMs and their impact on performance before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q13_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:26:14.182577+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Research on self-correction mechanisms in LLMs and their impact on performance before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"On the Intersection of Self-Correction and Trust in Language Models\",\"link\":\"https://arxiv.org/html/2311.02801v1\",\"snippet\":\"Recent research has explored the self-correction capabilities of LLMs to enhance their performance. In this work, we investigate whether these self-correction ...\",\"date\":\"Nov 6, 2023\",\"position\":1},{\"title\":\"When Can LLMs Actually Correct Their Own Mistakes?A Critical ...\",\"link\":\"https://arxiv.org/html/2406.01297v1\",\"snippet\":\"However, recent studies report that intrinsic self-correction does not improve or even degrade the performance in tasks such as arithmetic reasoning, closed- ...\",\"date\":\"Jun 3, 2024\",\"position\":2},{\"title\":\"[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv\",\"link\":\"https://arxiv.org/pdf/2310.01798\",\"snippet\":\"LLMs struggle to self- correct their responses without external feedback, and at times, their performance even degrades after self-correction.\",\"date\":\"Mar 14, 2024\",\"position\":3},{\"title\":\"[PDF] Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2405.06682\",\"snippet\":\"Based on these results, all types of self-reflection improve the performance of LLM agents. In addition, these effects were observed across every LLM we tested.\",\"date\":\"May 14, 2024\",\"position\":4},{\"title\":\"Large Language Models have Intrinsic Self-Correction Ability - arXiv\",\"link\":\"https://arxiv.org/abs/2406.15673\",\"snippet\":\"One promising solution to improve the LLMs' performance is to ask LLMs to revise their answer after generation, a technique known as self-correction.\",\"date\":\"Jun 21, 2024\",\"position\":5},{\"title\":\"Training Language Models to Self-Correct via Reinforcement Learning\",\"link\":\"https://arxiv.org/abs/2409.12917\",\"snippet\":\"Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in modern LLMs.\",\"date\":\"Sep 19, 2024\",\"position\":6},{\"title\":\"[2407.15286] Intrinsic Self-correction for Enhanced Morality - arXiv\",\"link\":\"https://arxiv.org/abs/2407.15286\",\"snippet\":\"We argue that self-correction can help LLMs find a shortcut to more morally correct output, rather than truly reducing the immorality stored in hidden states.\",\"date\":\"Jul 21, 2024\",\"position\":7},{\"title\":\"Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...\",\"link\":\"https://arxiv.org/html/2407.03181v1\",\"snippet\":\"Intrinsic self-correction refers to the ability of an LLM to revise or correct its initial response using only its inherent capabilities without relying on ...\",\"date\":\"Jul 3, 2024\",\"position\":8},{\"title\":\"Surveying the landscape of diverse self-correction strategies - arXiv\",\"link\":\"https://arxiv.org/abs/2308.03188\",\"snippet\":\"Large language models (LLMs) have demonstrated remarkable performance across a wide array of NLP tasks. However, their efficacy is undermined by undesired and ...\",\"date\":\"Aug 6, 2023\",\"position\":9},{\"title\":\"Reasoning with Large Language Models,a Survey - arXiv\",\"link\":\"https://arxiv.org/html/2407.11511v1\",\"snippet\":\"We find that self-improvement, self-reflection, and some metacognitive abilities of the reasoning processes are possible through the judicious use of prompts.\",\"date\":\"Jul 16, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZXNlYXJjaCBvbiBzZWxmLWNvcnJlY3Rpb24gbWVjaGFuaXNtcyBpbiBMTE1zIGFuZCB0aGVpciBpbXBhY3Qgb24gcGVyZm9ybWFuY2UgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiT24gdGhlIEludGVyc2VjdGlvbiBvZiBTZWxmLUNvcnJlY3Rpb24gYW5kIFRydXN0IGluIExhbmd1YWdlIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMDI4MDF2MSIsInNuaXBwZXQiOiJSZWNlbnQgcmVzZWFyY2ggaGFzIGV4cGxvcmVkIHRoZSBzZWxmLWNvcnJlY3Rpb24gY2FwYWJpbGl0aWVzIG9mIExMTXMgdG8gZW5oYW5jZSB0aGVpciBwZXJmb3JtYW5jZS4gSW4gdGhpcyB3b3JrLCB3ZSBpbnZlc3RpZ2F0ZSB3aGV0aGVyIHRoZXNlIHNlbGYtY29ycmVjdGlvbiAuLi4iLCJkYXRlIjoiTm92IDYsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IldoZW4gQ2FuIExMTXMgQWN0dWFsbHkgQ29ycmVjdCBUaGVpciBPd24gTWlzdGFrZXM/QSBDcml0aWNhbCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjAxMjk3djEiLCJzbmlwcGV0IjoiSG93ZXZlciwgcmVjZW50IHN0dWRpZXMgcmVwb3J0IHRoYXQgaW50cmluc2ljIHNlbGYtY29ycmVjdGlvbiBkb2VzIG5vdCBpbXByb3ZlIG9yIGV2ZW4gZGVncmFkZSB0aGUgcGVyZm9ybWFuY2UgaW4gdGFza3Mgc3VjaCBhcyBhcml0aG1ldGljIHJlYXNvbmluZywgY2xvc2VkLSAuLi4iLCJkYXRlIjoiSnVuIDMsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIExhcmdlIExhbmd1YWdlIE1vZGVscyBDYW5ub3QgU2VsZi1Db3JyZWN0IFJlYXNvbmluZyBZZXQgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMxMC4wMTc5OCIsInNuaXBwZXQiOiJMTE1zIHN0cnVnZ2xlIHRvIHNlbGYtIGNvcnJlY3QgdGhlaXIgcmVzcG9uc2VzIHdpdGhvdXQgZXh0ZXJuYWwgZmVlZGJhY2ssIGFuZCBhdCB0aW1lcywgdGhlaXIgcGVyZm9ybWFuY2UgZXZlbiBkZWdyYWRlcyBhZnRlciBzZWxmLWNvcnJlY3Rpb24uIiwiZGF0ZSI6Ik1hciAxNCwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gU2VsZi1SZWZsZWN0aW9uIGluIExMTSBBZ2VudHM6IEVmZmVjdHMgb24gUHJvYmxlbS1Tb2x2aW5nIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA1LjA2NjgyIiwic25pcHBldCI6IkJhc2VkIG9uIHRoZXNlIHJlc3VsdHMsIGFsbCB0eXBlcyBvZiBzZWxmLXJlZmxlY3Rpb24gaW1wcm92ZSB0aGUgcGVyZm9ybWFuY2Ugb2YgTExNIGFnZW50cy4gSW4gYWRkaXRpb24sIHRoZXNlIGVmZmVjdHMgd2VyZSBvYnNlcnZlZCBhY3Jvc3MgZXZlcnkgTExNIHdlIHRlc3RlZC4iLCJkYXRlIjoiTWF5IDE0LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJMYXJnZSBMYW5ndWFnZSBNb2RlbHMgaGF2ZSBJbnRyaW5zaWMgU2VsZi1Db3JyZWN0aW9uIEFiaWxpdHkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNi4xNTY3MyIsInNuaXBwZXQiOiJPbmUgcHJvbWlzaW5nIHNvbHV0aW9uIHRvIGltcHJvdmUgdGhlIExMTXMnIHBlcmZvcm1hbmNlIGlzIHRvIGFzayBMTE1zIHRvIHJldmlzZSB0aGVpciBhbnN3ZXIgYWZ0ZXIgZ2VuZXJhdGlvbiwgYSB0ZWNobmlxdWUga25vd24gYXMgc2VsZi1jb3JyZWN0aW9uLiIsImRhdGUiOiJKdW4gMjEsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IlRyYWluaW5nIExhbmd1YWdlIE1vZGVscyB0byBTZWxmLUNvcnJlY3QgdmlhIFJlaW5mb3JjZW1lbnQgTGVhcm5pbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDkuMTI5MTciLCJzbmlwcGV0IjoiU2VsZi1jb3JyZWN0aW9uIGlzIGEgaGlnaGx5IGRlc2lyYWJsZSBjYXBhYmlsaXR5IG9mIGxhcmdlIGxhbmd1YWdlIG1vZGVscyAoTExNcyksIHlldCBpdCBoYXMgY29uc2lzdGVudGx5IGJlZW4gZm91bmQgdG8gYmUgbGFyZ2VseSBpbmVmZmVjdGl2ZSBpbiBtb2Rlcm4gTExNcy4iLCJkYXRlIjoiU2VwIDE5LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbMjQwNy4xNTI4Nl0gSW50cmluc2ljIFNlbGYtY29ycmVjdGlvbiBmb3IgRW5oYW5jZWQgTW9yYWxpdHkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNy4xNTI4NiIsInNuaXBwZXQiOiJXZSBhcmd1ZSB0aGF0IHNlbGYtY29ycmVjdGlvbiBjYW4gaGVscCBMTE1zIGZpbmQgYSBzaG9ydGN1dCB0byBtb3JlIG1vcmFsbHkgY29ycmVjdCBvdXRwdXQsIHJhdGhlciB0aGFuIHRydWx5IHJlZHVjaW5nIHRoZSBpbW1vcmFsaXR5IHN0b3JlZCBpbiBoaWRkZW4gc3RhdGVzLiIsImRhdGUiOiJKdWwgMjEsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkZpbmUtVHVuaW5nIHdpdGggRGl2ZXJnZW50IENoYWlucyBvZiBUaG91Z2h0IEJvb3N0cyBSZWFzb25pbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4wMzE4MXYxIiwic25pcHBldCI6IkludHJpbnNpYyBzZWxmLWNvcnJlY3Rpb24gcmVmZXJzIHRvIHRoZSBhYmlsaXR5IG9mIGFuIExMTSB0byByZXZpc2Ugb3IgY29ycmVjdCBpdHMgaW5pdGlhbCByZXNwb25zZSB1c2luZyBvbmx5IGl0cyBpbmhlcmVudCBjYXBhYmlsaXRpZXMgd2l0aG91dCByZWx5aW5nIG9uIC4uLiIsImRhdGUiOiJKdWwgMywgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiU3VydmV5aW5nIHRoZSBsYW5kc2NhcGUgb2YgZGl2ZXJzZSBzZWxmLWNvcnJlY3Rpb24gc3RyYXRlZ2llcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzA4LjAzMTg4Iiwic25pcHBldCI6IkxhcmdlIGxhbmd1YWdlIG1vZGVscyAoTExNcykgaGF2ZSBkZW1vbnN0cmF0ZWQgcmVtYXJrYWJsZSBwZXJmb3JtYW5jZSBhY3Jvc3MgYSB3aWRlIGFycmF5IG9mIE5MUCB0YXNrcy4gSG93ZXZlciwgdGhlaXIgZWZmaWNhY3kgaXMgdW5kZXJtaW5lZCBieSB1bmRlc2lyZWQgYW5kIC4uLiIsImRhdGUiOiJBdWcgNiwgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiUmVhc29uaW5nIHdpdGggTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzLGEgU3VydmV5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjExNTExdjEiLCJzbmlwcGV0IjoiV2UgZmluZCB0aGF0IHNlbGYtaW1wcm92ZW1lbnQsIHNlbGYtcmVmbGVjdGlvbiwgYW5kIHNvbWUgbWV0YWNvZ25pdGl2ZSBhYmlsaXRpZXMgb2YgdGhlIHJlYXNvbmluZyBwcm9jZXNzZXMgYXJlIHBvc3NpYmxlIHRocm91Z2ggdGhlIGp1ZGljaW91cyB1c2Ugb2YgcHJvbXB0cy4iLCJkYXRlIjoiSnVsIDE2LCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "c4688751c6082f017eb9814146a6739822ce9a79838e58dbf8a2eadad09e520b",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Research on self-correction mechanisms in LLMs and their impact on performance before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "On the Intersection of Self-Correction and Trust in Language Models",
+                "link": "https://arxiv.org/html/2311.02801v1",
+                "snippet": "Recent research has explored the self-correction capabilities of LLMs to enhance their performance. In this work, we investigate whether these self-correction ...",
+                "date": "Nov 6, 2023",
+                "position": 1
+              },
+              {
+                "title": "When Can LLMs Actually Correct Their Own Mistakes?A Critical ...",
+                "link": "https://arxiv.org/html/2406.01297v1",
+                "snippet": "However, recent studies report that intrinsic self-correction does not improve or even degrade the performance in tasks such as arithmetic reasoning, closed- ...",
+                "date": "Jun 3, 2024",
+                "position": 2
+              },
+              {
+                "title": "[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv",
+                "link": "https://arxiv.org/pdf/2310.01798",
+                "snippet": "LLMs struggle to self- correct their responses without external feedback, and at times, their performance even degrades after self-correction.",
+                "date": "Mar 14, 2024",
+                "position": 3
+              },
+              {
+                "title": "[PDF] Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv",
+                "link": "https://arxiv.org/pdf/2405.06682",
+                "snippet": "Based on these results, all types of self-reflection improve the performance of LLM agents. In addition, these effects were observed across every LLM we tested.",
+                "date": "May 14, 2024",
+                "position": 4
+              },
+              {
+                "title": "Large Language Models have Intrinsic Self-Correction Ability - arXiv",
+                "link": "https://arxiv.org/abs/2406.15673",
+                "snippet": "One promising solution to improve the LLMs' performance is to ask LLMs to revise their answer after generation, a technique known as self-correction.",
+                "date": "Jun 21, 2024",
+                "position": 5
+              },
+              {
+                "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+                "link": "https://arxiv.org/abs/2409.12917",
+                "snippet": "Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in modern LLMs.",
+                "date": "Sep 19, 2024",
+                "position": 6
+              },
+              {
+                "title": "[2407.15286] Intrinsic Self-correction for Enhanced Morality - arXiv",
+                "link": "https://arxiv.org/abs/2407.15286",
+                "snippet": "We argue that self-correction can help LLMs find a shortcut to more morally correct output, rather than truly reducing the immorality stored in hidden states.",
+                "date": "Jul 21, 2024",
+                "position": 7
+              },
+              {
+                "title": "Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...",
+                "link": "https://arxiv.org/html/2407.03181v1",
+                "snippet": "Intrinsic self-correction refers to the ability of an LLM to revise or correct its initial response using only its inherent capabilities without relying on ...",
+                "date": "Jul 3, 2024",
+                "position": 8
+              },
+              {
+                "title": "Surveying the landscape of diverse self-correction strategies - arXiv",
+                "link": "https://arxiv.org/abs/2308.03188",
+                "snippet": "Large language models (LLMs) have demonstrated remarkable performance across a wide array of NLP tasks. However, their efficacy is undermined by undesired and ...",
+                "date": "Aug 6, 2023",
+                "position": 9
+              },
+              {
+                "title": "Reasoning with Large Language Models,a Survey - arXiv",
+                "link": "https://arxiv.org/html/2407.11511v1",
+                "snippet": "We find that self-improvement, self-reflection, and some metacognitive abilities of the reasoning processes are possible through the judicious use of prompts.",
+                "date": "Jul 16, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:26:15.507026+00:00",
+          "elapsed_seconds": 1.3244493789970875
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2308.03188",
+        "2310.01798",
+        "2311.02801",
+        "2405.06682",
+        "2406.01297",
+        "2406.15673",
+        "2407.03181",
+        "2407.11511",
+        "2407.15286",
+        "2409.12917"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2311.02801",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2311.02801v1",
+          "title": "On the Intersection of Self-Correction and Trust in Language Models",
+          "snippet": "Recent research has explored the self-correction capabilities of LLMs to enhance their performance. In this work, we investigate whether these self-correction ..."
+        },
+        {
+          "arxiv_id": "2406.01297",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2406.01297v1",
+          "title": "When Can LLMs Actually Correct Their Own Mistakes?A Critical ...",
+          "snippet": "However, recent studies report that intrinsic self-correction does not improve or even degrade the performance in tasks such as arithmetic reasoning, closed- ..."
+        },
+        {
+          "arxiv_id": "2310.01798",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2310.01798",
+          "title": "[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv",
+          "snippet": "LLMs struggle to self- correct their responses without external feedback, and at times, their performance even degrades after self-correction."
+        },
+        {
+          "arxiv_id": "2405.06682",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2405.06682",
+          "title": "[PDF] Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv",
+          "snippet": "Based on these results, all types of self-reflection improve the performance of LLM agents. In addition, these effects were observed across every LLM we tested."
+        },
+        {
+          "arxiv_id": "2406.15673",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2406.15673",
+          "title": "Large Language Models have Intrinsic Self-Correction Ability - arXiv",
+          "snippet": "One promising solution to improve the LLMs' performance is to ask LLMs to revise their answer after generation, a technique known as self-correction."
+        },
+        {
+          "arxiv_id": "2409.12917",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/abs/2409.12917",
+          "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+          "snippet": "Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in modern LLMs."
+        },
+        {
+          "arxiv_id": "2407.15286",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/abs/2407.15286",
+          "title": "[2407.15286] Intrinsic Self-correction for Enhanced Morality - arXiv",
+          "snippet": "We argue that self-correction can help LLMs find a shortcut to more morally correct output, rather than truly reducing the immorality stored in hidden states."
+        },
+        {
+          "arxiv_id": "2407.03181",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2407.03181v1",
+          "title": "Fine-Tuning with Divergent Chains of Thought Boosts Reasoning ...",
+          "snippet": "Intrinsic self-correction refers to the ability of an LLM to revise or correct its initial response using only its inherent capabilities without relying on ..."
+        },
+        {
+          "arxiv_id": "2308.03188",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2308.03188",
+          "title": "Surveying the landscape of diverse self-correction strategies - arXiv",
+          "snippet": "Large language models (LLMs) have demonstrated remarkable performance across a wide array of NLP tasks. However, their efficacy is undermined by undesired and ..."
+        },
+        {
+          "arxiv_id": "2407.11511",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2407.11511v1",
+          "title": "Reasoning with Large Language Models,a Survey - arXiv",
+          "snippet": "We find that self-improvement, self-reflection, and some metacognitive abilities of the reasoning processes are possible through the judicious use of prompts."
+        }
+      ],
+      "request_payload": {
+        "q": "Research on self-correction mechanisms in LLMs and their impact on performance before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "Provide papers demonstrating that the self-correction of LLMs does not enhance their performance.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 84,
+          "query_id": "Q13",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "Provide papers demonstrating that the self-correction of LLMs does not enhance their performance.",
+          "request_payload": {
+            "q": "Provide papers demonstrating that the self-correction of LLMs does not enhance their performance. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q13_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:26:13.197506+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Provide papers demonstrating that the self-correction of LLMs does not enhance their performance. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"When Can LLMs Actually Correct Their Own Mistakes? A Critical ...\",\"link\":\"https://arxiv.org/abs/2406.01297\",\"snippet\":\"In this work, we critically survey broad papers and discuss the conditions required for successful self-correction. We first find that prior studies often do ...\",\"date\":\"Jun 3, 2024\",\"position\":1},{\"title\":\"[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv\",\"link\":\"https://arxiv.org/pdf/2310.01798\",\"snippet\":\"In this work, we demonstrate that current LLMs cannot improve their reasoning performance through intrinsic self-correction.\",\"date\":\"Mar 14, 2024\",\"position\":2},{\"title\":\"When Can LLMs Actually Correct Their Own Mistakes?A Critical ...\",\"link\":\"https://arxiv.org/html/2406.01297v1\",\"snippet\":\"However, recent studies report that intrinsic self-correction does not improve or even degrade the performance in tasks such as arithmetic reasoning, closed ...\",\"date\":\"Jun 3, 2024\",\"position\":3},{\"title\":\"On the Intersection of Self-Correction and Trust in Language Models\",\"link\":\"https://arxiv.org/html/2311.02801v1\",\"snippet\":\"In this work, we investigate whether these self-correction capabilities can be harnessed to improve the trustworthiness of LLMs. We conduct experiments focusing ...\",\"date\":\"Nov 6, 2023\",\"position\":4},{\"title\":\"Large Language Models have Intrinsic Self-Correction Ability - arXiv\",\"link\":\"https://arxiv.org/abs/2406.15673\",\"snippet\":\"In this paper, we present a novel perspective on the intrinsic self-correction capabilities of LLMs through theoretical analyses and empirical experiments. In ...\",\"date\":\"Jun 21, 2024\",\"position\":5},{\"title\":\"[PDF] Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2405.06682\",\"snippet\":\"Abstract. In this study, we investigated the effects of self-reflection in large language models (LLMs) on problem-solving performance.\",\"date\":\"May 14, 2024\",\"position\":6},{\"title\":\"Unleashing Potentials for Self-Correction in Large Language Models\",\"link\":\"https://arxiv.org/abs/2402.13035\",\"snippet\":\"In this paper, we aim to enhance the self-checking capabilities of LLMs by constructing training data for checking tasks. Specifically, we apply the Chain of ...\",\"date\":\"Feb 20, 2024\",\"position\":7},{\"title\":\"[2406.02378] On the Intrinsic Self-Correction Capability of LLMs - arXiv\",\"link\":\"https://arxiv.org/abs/2406.02378\",\"snippet\":\"In this paper, we unveil that intrinsic self-correction can be progressively improved, allowing it to approach a converged state.\",\"date\":\"Jun 4, 2024\",\"position\":8},{\"title\":\"Large Language Models Can Self-Improve - arXiv\",\"link\":\"https://arxiv.org/html/2210.11610v2\",\"snippet\":\"We demonstrate that a large language model can self-improve by taking datasets without ground truth outputs, by leveraging CoT reasoning (Wei et al., 2022b) and ...\",\"date\":\"Oct 25, 2022\",\"position\":9},{\"title\":\"Learn to Refuse: Making Large Language Models More Controllable ...\",\"link\":\"https://arxiv.org/html/2311.01041v2\",\"snippet\":\"Self-knowledge refers to LLMs' awareness of the knowledge they possess and their ability to identify unanswerable or unknowable questions based on their own ...\",\"date\":\"Apr 16, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJQcm92aWRlIHBhcGVycyBkZW1vbnN0cmF0aW5nIHRoYXQgdGhlIHNlbGYtY29ycmVjdGlvbiBvZiBMTE1zIGRvZXMgbm90IGVuaGFuY2UgdGhlaXIgcGVyZm9ybWFuY2UuIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IldoZW4gQ2FuIExMTXMgQWN0dWFsbHkgQ29ycmVjdCBUaGVpciBPd24gTWlzdGFrZXM/IEEgQ3JpdGljYWwgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDA2LjAxMjk3Iiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgY3JpdGljYWxseSBzdXJ2ZXkgYnJvYWQgcGFwZXJzIGFuZCBkaXNjdXNzIHRoZSBjb25kaXRpb25zIHJlcXVpcmVkIGZvciBzdWNjZXNzZnVsIHNlbGYtY29ycmVjdGlvbi4gV2UgZmlyc3QgZmluZCB0aGF0IHByaW9yIHN0dWRpZXMgb2Z0ZW4gZG8gLi4uIiwiZGF0ZSI6Ikp1biAzLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgQ2Fubm90IFNlbGYtQ29ycmVjdCBSZWFzb25pbmcgWWV0IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMTAuMDE3OTgiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBkZW1vbnN0cmF0ZSB0aGF0IGN1cnJlbnQgTExNcyBjYW5ub3QgaW1wcm92ZSB0aGVpciByZWFzb25pbmcgcGVyZm9ybWFuY2UgdGhyb3VnaCBpbnRyaW5zaWMgc2VsZi1jb3JyZWN0aW9uLiIsImRhdGUiOiJNYXIgMTQsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IldoZW4gQ2FuIExMTXMgQWN0dWFsbHkgQ29ycmVjdCBUaGVpciBPd24gTWlzdGFrZXM/QSBDcml0aWNhbCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjAxMjk3djEiLCJzbmlwcGV0IjoiSG93ZXZlciwgcmVjZW50IHN0dWRpZXMgcmVwb3J0IHRoYXQgaW50cmluc2ljIHNlbGYtY29ycmVjdGlvbiBkb2VzIG5vdCBpbXByb3ZlIG9yIGV2ZW4gZGVncmFkZSB0aGUgcGVyZm9ybWFuY2UgaW4gdGFza3Mgc3VjaCBhcyBhcml0aG1ldGljIHJlYXNvbmluZywgY2xvc2VkIC4uLiIsImRhdGUiOiJKdW4gMywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiT24gdGhlIEludGVyc2VjdGlvbiBvZiBTZWxmLUNvcnJlY3Rpb24gYW5kIFRydXN0IGluIExhbmd1YWdlIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMDI4MDF2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIGludmVzdGlnYXRlIHdoZXRoZXIgdGhlc2Ugc2VsZi1jb3JyZWN0aW9uIGNhcGFiaWxpdGllcyBjYW4gYmUgaGFybmVzc2VkIHRvIGltcHJvdmUgdGhlIHRydXN0d29ydGhpbmVzcyBvZiBMTE1zLiBXZSBjb25kdWN0IGV4cGVyaW1lbnRzIGZvY3VzaW5nIC4uLiIsImRhdGUiOiJOb3YgNiwgMjAyMyIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGhhdmUgSW50cmluc2ljIFNlbGYtQ29ycmVjdGlvbiBBYmlsaXR5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDYuMTU2NzMiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgcHJlc2VudCBhIG5vdmVsIHBlcnNwZWN0aXZlIG9uIHRoZSBpbnRyaW5zaWMgc2VsZi1jb3JyZWN0aW9uIGNhcGFiaWxpdGllcyBvZiBMTE1zIHRocm91Z2ggdGhlb3JldGljYWwgYW5hbHlzZXMgYW5kIGVtcGlyaWNhbCBleHBlcmltZW50cy4gSW4gLi4uIiwiZGF0ZSI6Ikp1biAyMSwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiW1BERl0gU2VsZi1SZWZsZWN0aW9uIGluIExMTSBBZ2VudHM6IEVmZmVjdHMgb24gUHJvYmxlbS1Tb2x2aW5nIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA1LjA2NjgyIiwic25pcHBldCI6IkFic3RyYWN0LiBJbiB0aGlzIHN0dWR5LCB3ZSBpbnZlc3RpZ2F0ZWQgdGhlIGVmZmVjdHMgb2Ygc2VsZi1yZWZsZWN0aW9uIGluIGxhcmdlIGxhbmd1YWdlIG1vZGVscyAoTExNcykgb24gcHJvYmxlbS1zb2x2aW5nIHBlcmZvcm1hbmNlLiIsImRhdGUiOiJNYXkgMTQsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlVubGVhc2hpbmcgUG90ZW50aWFscyBmb3IgU2VsZi1Db3JyZWN0aW9uIGluIExhcmdlIExhbmd1YWdlIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwMi4xMzAzNSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBhaW0gdG8gZW5oYW5jZSB0aGUgc2VsZi1jaGVja2luZyBjYXBhYmlsaXRpZXMgb2YgTExNcyBieSBjb25zdHJ1Y3RpbmcgdHJhaW5pbmcgZGF0YSBmb3IgY2hlY2tpbmcgdGFza3MuIFNwZWNpZmljYWxseSwgd2UgYXBwbHkgdGhlIENoYWluIG9mIC4uLiIsImRhdGUiOiJGZWIgMjAsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlsyNDA2LjAyMzc4XSBPbiB0aGUgSW50cmluc2ljIFNlbGYtQ29ycmVjdGlvbiBDYXBhYmlsaXR5IG9mIExMTXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNi4wMjM3OCIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSB1bnZlaWwgdGhhdCBpbnRyaW5zaWMgc2VsZi1jb3JyZWN0aW9uIGNhbiBiZSBwcm9ncmVzc2l2ZWx5IGltcHJvdmVkLCBhbGxvd2luZyBpdCB0byBhcHByb2FjaCBhIGNvbnZlcmdlZCBzdGF0ZS4iLCJkYXRlIjoiSnVuIDQsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkxhcmdlIExhbmd1YWdlIE1vZGVscyBDYW4gU2VsZi1JbXByb3ZlIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjEwLjExNjEwdjIiLCJzbmlwcGV0IjoiV2UgZGVtb25zdHJhdGUgdGhhdCBhIGxhcmdlIGxhbmd1YWdlIG1vZGVsIGNhbiBzZWxmLWltcHJvdmUgYnkgdGFraW5nIGRhdGFzZXRzIHdpdGhvdXQgZ3JvdW5kIHRydXRoIG91dHB1dHMsIGJ5IGxldmVyYWdpbmcgQ29UIHJlYXNvbmluZyAoV2VpIGV0IGFsLiwgMjAyMmIpIGFuZCAuLi4iLCJkYXRlIjoiT2N0IDI1LCAyMDIyIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJMZWFybiB0byBSZWZ1c2U6IE1ha2luZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgTW9yZSBDb250cm9sbGFibGUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMS4wMTA0MXYyIiwic25pcHBldCI6IlNlbGYta25vd2xlZGdlIHJlZmVycyB0byBMTE1zJyBhd2FyZW5lc3Mgb2YgdGhlIGtub3dsZWRnZSB0aGV5IHBvc3Nlc3MgYW5kIHRoZWlyIGFiaWxpdHkgdG8gaWRlbnRpZnkgdW5hbnN3ZXJhYmxlIG9yIHVua25vd2FibGUgcXVlc3Rpb25zIGJhc2VkIG9uIHRoZWlyIG93biAuLi4iLCJkYXRlIjoiQXByIDE2LCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "6c71cb9eecb6e14191df2d2e7f214b6097b4b5356bf76c34d53084f4d44d2023",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Provide papers demonstrating that the self-correction of LLMs does not enhance their performance. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical ...",
+                "link": "https://arxiv.org/abs/2406.01297",
+                "snippet": "In this work, we critically survey broad papers and discuss the conditions required for successful self-correction. We first find that prior studies often do ...",
+                "date": "Jun 3, 2024",
+                "position": 1
+              },
+              {
+                "title": "[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv",
+                "link": "https://arxiv.org/pdf/2310.01798",
+                "snippet": "In this work, we demonstrate that current LLMs cannot improve their reasoning performance through intrinsic self-correction.",
+                "date": "Mar 14, 2024",
+                "position": 2
+              },
+              {
+                "title": "When Can LLMs Actually Correct Their Own Mistakes?A Critical ...",
+                "link": "https://arxiv.org/html/2406.01297v1",
+                "snippet": "However, recent studies report that intrinsic self-correction does not improve or even degrade the performance in tasks such as arithmetic reasoning, closed ...",
+                "date": "Jun 3, 2024",
+                "position": 3
+              },
+              {
+                "title": "On the Intersection of Self-Correction and Trust in Language Models",
+                "link": "https://arxiv.org/html/2311.02801v1",
+                "snippet": "In this work, we investigate whether these self-correction capabilities can be harnessed to improve the trustworthiness of LLMs. We conduct experiments focusing ...",
+                "date": "Nov 6, 2023",
+                "position": 4
+              },
+              {
+                "title": "Large Language Models have Intrinsic Self-Correction Ability - arXiv",
+                "link": "https://arxiv.org/abs/2406.15673",
+                "snippet": "In this paper, we present a novel perspective on the intrinsic self-correction capabilities of LLMs through theoretical analyses and empirical experiments. In ...",
+                "date": "Jun 21, 2024",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv",
+                "link": "https://arxiv.org/pdf/2405.06682",
+                "snippet": "Abstract. In this study, we investigated the effects of self-reflection in large language models (LLMs) on problem-solving performance.",
+                "date": "May 14, 2024",
+                "position": 6
+              },
+              {
+                "title": "Unleashing Potentials for Self-Correction in Large Language Models",
+                "link": "https://arxiv.org/abs/2402.13035",
+                "snippet": "In this paper, we aim to enhance the self-checking capabilities of LLMs by constructing training data for checking tasks. Specifically, we apply the Chain of ...",
+                "date": "Feb 20, 2024",
+                "position": 7
+              },
+              {
+                "title": "[2406.02378] On the Intrinsic Self-Correction Capability of LLMs - arXiv",
+                "link": "https://arxiv.org/abs/2406.02378",
+                "snippet": "In this paper, we unveil that intrinsic self-correction can be progressively improved, allowing it to approach a converged state.",
+                "date": "Jun 4, 2024",
+                "position": 8
+              },
+              {
+                "title": "Large Language Models Can Self-Improve - arXiv",
+                "link": "https://arxiv.org/html/2210.11610v2",
+                "snippet": "We demonstrate that a large language model can self-improve by taking datasets without ground truth outputs, by leveraging CoT reasoning (Wei et al., 2022b) and ...",
+                "date": "Oct 25, 2022",
+                "position": 9
+              },
+              {
+                "title": "Learn to Refuse: Making Large Language Models More Controllable ...",
+                "link": "https://arxiv.org/html/2311.01041v2",
+                "snippet": "Self-knowledge refers to LLMs' awareness of the knowledge they possess and their ability to identify unanswerable or unknowable questions based on their own ...",
+                "date": "Apr 16, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:26:14.103119+00:00",
+          "elapsed_seconds": 0.905615221709013
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2210.11610",
+        "2310.01798",
+        "2311.01041",
+        "2311.02801",
+        "2402.13035",
+        "2405.06682",
+        "2406.01297",
+        "2406.02378",
+        "2406.15673"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2406.01297",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2406.01297",
+          "title": "When Can LLMs Actually Correct Their Own Mistakes? A Critical ...",
+          "snippet": "In this work, we critically survey broad papers and discuss the conditions required for successful self-correction. We first find that prior studies often do ..."
+        },
+        {
+          "arxiv_id": "2310.01798",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/pdf/2310.01798",
+          "title": "[PDF] Large Language Models Cannot Self-Correct Reasoning Yet - arXiv",
+          "snippet": "In this work, we demonstrate that current LLMs cannot improve their reasoning performance through intrinsic self-correction."
+        },
+        {
+          "arxiv_id": "2406.01297",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2406.01297v1",
+          "title": "When Can LLMs Actually Correct Their Own Mistakes?A Critical ...",
+          "snippet": "However, recent studies report that intrinsic self-correction does not improve or even degrade the performance in tasks such as arithmetic reasoning, closed ..."
+        },
+        {
+          "arxiv_id": "2311.02801",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2311.02801v1",
+          "title": "On the Intersection of Self-Correction and Trust in Language Models",
+          "snippet": "In this work, we investigate whether these self-correction capabilities can be harnessed to improve the trustworthiness of LLMs. We conduct experiments focusing ..."
+        },
+        {
+          "arxiv_id": "2406.15673",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2406.15673",
+          "title": "Large Language Models have Intrinsic Self-Correction Ability - arXiv",
+          "snippet": "In this paper, we present a novel perspective on the intrinsic self-correction capabilities of LLMs through theoretical analyses and empirical experiments. In ..."
+        },
+        {
+          "arxiv_id": "2405.06682",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2405.06682",
+          "title": "[PDF] Self-Reflection in LLM Agents: Effects on Problem-Solving ... - arXiv",
+          "snippet": "Abstract. In this study, we investigated the effects of self-reflection in large language models (LLMs) on problem-solving performance."
+        },
+        {
+          "arxiv_id": "2402.13035",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/abs/2402.13035",
+          "title": "Unleashing Potentials for Self-Correction in Large Language Models",
+          "snippet": "In this paper, we aim to enhance the self-checking capabilities of LLMs by constructing training data for checking tasks. Specifically, we apply the Chain of ..."
+        },
+        {
+          "arxiv_id": "2406.02378",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2406.02378",
+          "title": "[2406.02378] On the Intrinsic Self-Correction Capability of LLMs - arXiv",
+          "snippet": "In this paper, we unveil that intrinsic self-correction can be progressively improved, allowing it to approach a converged state."
+        },
+        {
+          "arxiv_id": "2210.11610",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2210.11610v2",
+          "title": "Large Language Models Can Self-Improve - arXiv",
+          "snippet": "We demonstrate that a large language model can self-improve by taking datasets without ground truth outputs, by leveraging CoT reasoning (Wei et al., 2022b) and ..."
+        },
+        {
+          "arxiv_id": "2311.01041",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2311.01041v2",
+          "title": "Learn to Refuse: Making Large Language Models More Controllable ...",
+          "snippet": "Self-knowledge refers to LLMs' awareness of the knowledge they possess and their ability to identify unanswerable or unknowable questions based on their own ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Provide papers demonstrating that the self-correction of LLMs does not enhance their performance. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "anchor",
+    "q5"
+  ]
+}

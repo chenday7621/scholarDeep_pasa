@@ -1,0 +1,215 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q20",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2307.07380",
+  "request_payload": {
+    "q": "What are some data-efficient ways to learn text embeddings thru contrastive learning? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 42,
+  "started_utc": "2026-09-17T12:34:14.021339+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648175",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "1b83015265f44de13bc9978101f3f17b",
+    "date": "Thu, 17 Sep 2026 12:29:35 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3817",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3817,
+  "response_bytes_sha256": "ac8df425588b8201fd1c912120ee85cdefb0e4716f6ab58c24ff09d4a16f6683",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJXaGF0IGFyZSBzb21lIGRhdGEtZWZmaWNpZW50IHdheXMgdG8gbGVhcm4gdGV4dCBlbWJlZGRpbmdzIHRocnUgY29udHJhc3RpdmUgbGVhcm5pbmc/IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlRleHQgRW1iZWRkaW5ncyBieSBXZWFrbHktU3VwZXJ2aXNlZCBDb250cmFzdGl2ZSBQcmUtdHJhaW5pbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjEyLjAzNTMzdjIiLCJzbmlwcGV0IjoiT3VyIGVtYmVkZGluZ3MgY2FuIGJlIHRyYWluZWQgd2l0aCBvbmx5IHVubGFiZWxlZCB0ZXh0IHBhaXJzIGZyb20gQ0NQYWlycyB3aXRoIGNvbnRyYXN0aXZlIHByZS10cmFpbmluZy4gQSBzZWNvbmQtc3RhZ2UgZmluZS10dW5pbmcgb24gc21hbGwsIGhpZ2gtcXVhbGl0eSAuLi4iLCJkYXRlIjoiRmViIDIyLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJFZmZpY2llbnQgRmluZS10dW5pbmcgTWV0aG9kb2xvZ3kgb2YgVGV4dCBFbWJlZGRpbmcgTW9kZWxzIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMi4xNzM2NHYxIiwic25pcHBldCI6IlRoaXMgc3R1ZHkgcHJlc2VudHMgYW4gZWZmaWNpZW50IGZpbmUtdHVuaW5nIG1ldGhvZG9sb2d5IGVuY29tcGFzc2luZyBkYXRhIHNlbGVjdGlvbiwgbG9zcyBmdW5jdGlvbiwgYW5kIG1vZGVsIGFyY2hpdGVjdHVyZSB0byBlbmhhbmNlIHRoZSBpbmZvcm1hdGlvbiByZXRyaWV2YWwgLi4uIiwiZGF0ZSI6IkRlYyAyMywgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiRW5oYW5jaW5nIE5lZ2F0aW9uIEF3YXJlbmVzcyBpbiBVbml2ZXJzYWwgVGV4dCBFbWJlZGRpbmdzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA0LjAwNTg0djEiLCJzbmlwcGV0IjoiTnVtZXJvdXMgcHJpb3Igc3R1ZGllcyBoYXZlIGZvdW5kIHRoYXQgY29udGV4dHVhbCB0ZXh0IGVtYmVkZGluZyBtb2RlbHMgc3VjaCBhcyBCRVJULCBFTE1PLCBSb0JFUlRhIG9yIFhMTmV0IGZhY2UgY2hhbGxlbmdlcyBpbiBhY2N1cmF0ZWx5IHVuZGVyc3RhbmRpbmcgLi4uIiwiZGF0ZSI6IkFwciAxLCAyMDI1IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJXaGVuIFRleHQgRW1iZWRkaW5nIE1lZXRzIExhcmdlIExhbmd1YWdlIE1vZGVsIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDEyLjA5MTY1djIiLCJzbmlwcGV0IjoiVW5kZXIgdGhlIGVtYmVkZGluZyB0cmFpbmluZyBmcmFtZXdvcmsgb2YgY29udHJhc3RpdmUgbGVhcm5pbmcsIHRoZSBtb2RlbCBhaW1zIHRvIGxlYXJuIGFwcHJvcHJpYXRlIGVtYmVkZGluZ3MgYnkgcHVsbGluZyBwb3NpdGl2ZSBzYW1wbGUgcGFpcnMgY2xvc2VyIiwiZGF0ZSI6Ik1hciAxMywgMjAyNSIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiUmVjZW50IGFkdmFuY2VzIGluIHVuaXZlcnNhbCB0ZXh0IGVtYmVkZGluZ3MgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMDE2MDd2MiIsInNuaXBwZXQiOiJPbmUgd2F5IHRvIGxlYXJuIHRoZSB1bml2ZXJzYWwgdGV4dCBlbWJlZGRpbmcgaXMgdXNpbmcgYSBtdWx0aS1zdGFnZSBjb250cmFzdGl2ZSBsZWFybmluZyBzdHJhdGVneSB3aXRoIGltcHJvdmVkIHRyYWluaW5nIGRhdGEgbWl4dHVyZSBpbiB0ZXJtcyBvZiBkYXRhIC4uLiIsImRhdGUiOiJKdW4gMTksIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IlsyMjA2LjAwMzg0XSBHZW5lcmFsaXplZCBTdXBlcnZpc2VkIENvbnRyYXN0aXZlIExlYXJuaW5nIC0gYXI1aXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIyMDYuMDAzODQiLCJzbmlwcGV0IjoiTGVhcm5pbmcgd29yZCBlbWJlZGRpbmdzIGVmZmljaWVudGx5IHdpdGggbm9pc2UtY29udHJhc3RpdmUgZXN0aW1hdGlvbi4gQWR2YW5jZXMgaW4gbmV1cmFsIGluZm9ybWF0aW9uIHByb2Nlc3Npbmcgc3lzdGVtcywgMjYsIDIwMTMuIFszMF0gUmFmYWVsIE3DvGxsZXIgLi4uIiwiZGF0ZSI6Ikp1biAxMCwgMjAyMyIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiTG9uZy1Gb3JtIFZpZGVvLUxhbmd1YWdlIFByZS1UcmFpbmluZyB3aXRoIE11bHRpbW9kYWwgVGVtcG9yYWwgLi4uIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMjEwLjA2MDMxIiwic25pcHBldCI6IkFic3RyYWN0LiBMYXJnZS1zY2FsZSB2aWRlby1sYW5ndWFnZSBwcmUtdHJhaW5pbmcgaGFzIHNob3duIHNpZ25pZmljYW50IGltcHJvdmVtZW50IGluIHZpZGVvLWxhbmd1YWdlIHVuZGVyc3RhbmRpbmcgdGFza3MuIiwiZGF0ZSI6Ik9jdCAxNywgMjAyMiIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiQWRhcHRpbmcgVGV4dCBFbWJlZGRpbmdzIGZvciBMb3ctUmVzb3VyY2UgTGFuZ3VhZ2VzIHdpdGggU21hbGwgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwMy4yMjI5MHYxIiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgY2hhbGxlbmdlIHRoZSBwcmV2YWlsaW5nIGFzc3VtcHRpb24gdGhhdCBlZmZlY3RpdmUgc2VtYW50aWMgYWxpZ25tZW50IHJlcXVpcmVzIG1hc3NpdmUgZGF0YXNldHMgb3IgcHJpc3RpbmUsIGh1bWFuLXZlcmlmaWVkIHRyYW5zbGF0aW9ucy4iLCJkYXRlIjoiTWFyIDQsIDIwMjYiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6Ik1JTEFOOiBNYXNrZWQgSW1hZ2UgUHJldHJhaW5pbmcgb24gTGFuZ3VhZ2UgQXNzaXN0ZWQgLi4uIC0gYXI1aXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIyMDguMDYwNDkiLCJzbmlwcGV0IjoiSG93ZXZlciwgY29udHJhc3RpdmUgbGVhcm5pbmcgaGVhdmlseSBkZXBlbmRzIG9uIHN0cm9uZyBkYXRhIGF1Z21lbnRhdGlvbnMgYW5kIGVmZmVjdGl2ZSBuZWdhdGl2ZSBzYW1wbGluZy4gSW4gY29udHJhc3QsIE1JTEFOIHVzZXMgYSBtYXNrZWQgcHJlZGljdGlvbiAuLi4iLCJkYXRlIjoiQXVnIDE1LCAyMDIyIiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjIgTWV0aG9kb2xvZ3kiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIyMDguMDYwNDkjOn46dGV4dD0yJTIwTWV0aG9kb2xvZ3kifSx7InRpdGxlIjoiMyBFeHBlcmltZW50cyIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjIwOC4wNjA0OSM6fjp0ZXh0PTMlMjBFeHBlcmltZW50cyJ9LHsidGl0bGUiOiJBLiAyIE1vcmUgUmVzdWx0cyIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjIwOC4wNjA0OSM6fjp0ZXh0PUEuJTIwMiUyME1vcmUlMjByZXN1bHRzIn1dLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlZpc2lvbiBUcmFuc2Zvcm1lcnM6IFN0YXRlIG9mIHRoZSBBcnQgYW5kIFJlc2VhcmNoIENoYWxsZW5nZXMgLSBhcjVpdiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjIwNy4wMzA0MSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHByZXNlbnRzIGEgY29tcHJlaGVuc2l2ZSBvdmVydmlldyBvZiB0aGUgbGl0ZXJhdHVyZSBvbiBkaWZmZXJlbnQgYXJjaGl0ZWN0dXJlIGRlc2lnbnMgYW5kIHRyYWluaW5nIHRyaWNrcyAoaW5jbHVkaW5nIHNlbGYtc3VwZXJ2aXNlZCBsZWFybmluZykgZm9yIC4uLiIsImRhdGUiOiJKdWwgOCwgMjAyMiIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "What are some data-efficient ways to learn text embeddings thru contrastive learning? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Text Embeddings by Weakly-Supervised Contrastive Pre-training",
+        "link": "https://arxiv.org/html/2212.03533v2",
+        "snippet": "Our embeddings can be trained with only unlabeled text pairs from CCPairs with contrastive pre-training. A second-stage fine-tuning on small, high-quality ...",
+        "date": "Feb 22, 2024",
+        "position": 1
+      },
+      {
+        "title": "Efficient Fine-tuning Methodology of Text Embedding Models ... - arXiv",
+        "link": "https://arxiv.org/html/2412.17364v1",
+        "snippet": "This study presents an efficient fine-tuning methodology encompassing data selection, loss function, and model architecture to enhance the information retrieval ...",
+        "date": "Dec 23, 2024",
+        "position": 2
+      },
+      {
+        "title": "Enhancing Negation Awareness in Universal Text Embeddings - arXiv",
+        "link": "https://arxiv.org/html/2504.00584v1",
+        "snippet": "Numerous prior studies have found that contextual text embedding models such as BERT, ELMO, RoBERTa or XLNet face challenges in accurately understanding ...",
+        "date": "Apr 1, 2025",
+        "position": 3
+      },
+      {
+        "title": "When Text Embedding Meets Large Language Model - arXiv",
+        "link": "https://arxiv.org/html/2412.09165v2",
+        "snippet": "Under the embedding training framework of contrastive learning, the model aims to learn appropriate embeddings by pulling positive sample pairs closer",
+        "date": "Mar 13, 2025",
+        "position": 4
+      },
+      {
+        "title": "Recent advances in universal text embeddings - arXiv",
+        "link": "https://arxiv.org/html/2406.01607v2",
+        "snippet": "One way to learn the universal text embedding is using a multi-stage contrastive learning strategy with improved training data mixture in terms of data ...",
+        "date": "Jun 19, 2024",
+        "position": 5
+      },
+      {
+        "title": "[2206.00384] Generalized Supervised Contrastive Learning - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2206.00384",
+        "snippet": "Learning word embeddings efficiently with noise-contrastive estimation. Advances in neural information processing systems, 26, 2013. [30] Rafael Müller ...",
+        "date": "Jun 10, 2023",
+        "position": 6
+      },
+      {
+        "title": "Long-Form Video-Language Pre-Training with Multimodal Temporal ...",
+        "link": "https://ar5iv.labs.arxiv.org/html/2210.06031",
+        "snippet": "Abstract. Large-scale video-language pre-training has shown significant improvement in video-language understanding tasks.",
+        "date": "Oct 17, 2022",
+        "position": 7
+      },
+      {
+        "title": "Adapting Text Embeddings for Low-Resource Languages with Small ...",
+        "link": "https://arxiv.org/html/2603.22290v1",
+        "snippet": "In this work, we challenge the prevailing assumption that effective semantic alignment requires massive datasets or pristine, human-verified translations.",
+        "date": "Mar 4, 2026",
+        "position": 8
+      },
+      {
+        "title": "MILAN: Masked Image Pretraining on Language Assisted ... - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2208.06049",
+        "snippet": "However, contrastive learning heavily depends on strong data augmentations and effective negative sampling. In contrast, MILAN uses a masked prediction ...",
+        "date": "Aug 15, 2022",
+        "sitelinks": [
+          {
+            "title": "2 Methodology",
+            "link": "https://ar5iv.labs.arxiv.org/html/2208.06049#:~:text=2%20Methodology"
+          },
+          {
+            "title": "3 Experiments",
+            "link": "https://ar5iv.labs.arxiv.org/html/2208.06049#:~:text=3%20Experiments"
+          },
+          {
+            "title": "A. 2 More Results",
+            "link": "https://ar5iv.labs.arxiv.org/html/2208.06049#:~:text=A.%202%20More%20results"
+          }
+        ],
+        "position": 9
+      },
+      {
+        "title": "Vision Transformers: State of the Art and Research Challenges - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2207.03041",
+        "snippet": "This paper presents a comprehensive overview of the literature on different architecture designs and training tricks (including self-supervised learning) for ...",
+        "date": "Jul 8, 2022",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Text Embeddings by Weakly-Supervised Contrastive Pre-training",
+      "snippet": "Our embeddings can be trained with only unlabeled text pairs from CCPairs with contrastive pre-training. A second-stage fine-tuning on small, high-quality ...",
+      "link": "https://arxiv.org/html/2212.03533v2",
+      "arxiv_id": "2212.03533"
+    },
+    {
+      "rank": 2,
+      "title": "Efficient Fine-tuning Methodology of Text Embedding Models ... - arXiv",
+      "snippet": "This study presents an efficient fine-tuning methodology encompassing data selection, loss function, and model architecture to enhance the information retrieval ...",
+      "link": "https://arxiv.org/html/2412.17364v1",
+      "arxiv_id": "2412.17364"
+    },
+    {
+      "rank": 3,
+      "title": "Enhancing Negation Awareness in Universal Text Embeddings - arXiv",
+      "snippet": "Numerous prior studies have found that contextual text embedding models such as BERT, ELMO, RoBERTa or XLNet face challenges in accurately understanding ...",
+      "link": "https://arxiv.org/html/2504.00584v1",
+      "arxiv_id": "2504.00584"
+    },
+    {
+      "rank": 4,
+      "title": "When Text Embedding Meets Large Language Model - arXiv",
+      "snippet": "Under the embedding training framework of contrastive learning, the model aims to learn appropriate embeddings by pulling positive sample pairs closer",
+      "link": "https://arxiv.org/html/2412.09165v2",
+      "arxiv_id": "2412.09165"
+    },
+    {
+      "rank": 5,
+      "title": "Recent advances in universal text embeddings - arXiv",
+      "snippet": "One way to learn the universal text embedding is using a multi-stage contrastive learning strategy with improved training data mixture in terms of data ...",
+      "link": "https://arxiv.org/html/2406.01607v2",
+      "arxiv_id": "2406.01607"
+    },
+    {
+      "rank": 6,
+      "title": "[2206.00384] Generalized Supervised Contrastive Learning - ar5iv",
+      "snippet": "Learning word embeddings efficiently with noise-contrastive estimation. Advances in neural information processing systems, 26, 2013. [30] Rafael Müller ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2206.00384",
+      "arxiv_id": "2206.00384"
+    },
+    {
+      "rank": 7,
+      "title": "Long-Form Video-Language Pre-Training with Multimodal Temporal ...",
+      "snippet": "Abstract. Large-scale video-language pre-training has shown significant improvement in video-language understanding tasks.",
+      "link": "https://ar5iv.labs.arxiv.org/html/2210.06031",
+      "arxiv_id": "2210.06031"
+    },
+    {
+      "rank": 8,
+      "title": "Adapting Text Embeddings for Low-Resource Languages with Small ...",
+      "snippet": "In this work, we challenge the prevailing assumption that effective semantic alignment requires massive datasets or pristine, human-verified translations.",
+      "link": "https://arxiv.org/html/2603.22290v1",
+      "arxiv_id": "2603.22290"
+    },
+    {
+      "rank": 9,
+      "title": "MILAN: Masked Image Pretraining on Language Assisted ... - ar5iv",
+      "snippet": "However, contrastive learning heavily depends on strong data augmentations and effective negative sampling. In contrast, MILAN uses a masked prediction ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2208.06049",
+      "arxiv_id": "2208.06049"
+    },
+    {
+      "rank": 10,
+      "title": "Vision Transformers: State of the Art and Research Challenges - ar5iv",
+      "snippet": "This paper presents a comprehensive overview of the literature on different architecture designs and training tricks (including self-supervised learning) for ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2207.03041",
+      "arxiv_id": "2207.03041"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:15.223028+00:00",
+  "elapsed_seconds": 1.20168961212039,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q20_original_question_attempt1.json",
+      "sha256": "eec0caddd360528b794a9b5bdc562d5f811f647b8714ec76fa6bdf029bf514d5",
+      "status": "PASS"
+    }
+  ]
+}

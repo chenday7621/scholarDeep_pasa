@@ -1,0 +1,203 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q46",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "1909.01441",
+  "request_payload": {
+    "q": "crossweigh named entity tagger imperfect annotations before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 104,
+  "started_utc": "2026-09-17T12:35:22.351269+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648245",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "283f2803f5174f846a44effa40b9747b",
+    "date": "Thu, 17 Sep 2026 12:30:43 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3346",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3346,
+  "response_bytes_sha256": "095ac4c9649f971ae8ee550a34d64cd59b9f42e6939b56441300d35e80e44be4",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJjcm9zc3dlaWdoIG5hbWVkIGVudGl0eSB0YWdnZXIgaW1wZXJmZWN0IGFubm90YXRpb25zIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkNyb3NzV2VpZ2g6IFRyYWluaW5nIE5hbWVkIEVudGl0eSBUYWdnZXIgZnJvbSBJbXBlcmZlY3QgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzE5MDkuMDE0NDEiLCJzbmlwcGV0IjoiSW4gdGhpcyBzdHVkeSwgd2UgZGl2ZSBkZWVwIGludG8gb25lIG9mIHRoZSB3aWRlbHktYWRvcHRlZCBORVIgYmVuY2htYXJrIGRhdGFzZXRzLCBDb05MTDAzIE5FUi4gV2UgYXJlIGFibGUgdG8gaWRlbnRpZnkgbGFiZWwgbWlzdGFrZXMgaW4gYWJvdXQgNS4zOCUgdGVzdCAuLi4iLCJkYXRlIjoiU2VwIDMsIDIwMTkiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkFubm90YXRpb24gRXJyb3JzIGFuZCBORVI6IEEgU3R1ZHkgd2l0aCBPbnRvTm90ZXMgNS4wIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjE5MTcydjEiLCJzbmlwcGV0IjoiQ3Jvc3NXZWlnaDogVHJhaW5pbmcgbmFtZWQgZW50aXR5IHRhZ2dlciBmcm9tIGltcGVyZmVjdCBhbm5vdGF0aW9ucy4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMTkgQ29uZmVyZW5jZSBvbiBFbXBpcmljYWwgTWV0aG9kcyBpbiBOYXR1cmFsIExhbmd1YWdlIFByb2Nlc3NpbmciLCJkYXRlIjoiSnVuIDI3LCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDA1LjExODY1djEgW2NzLkNMXSAyMCBNYXkgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNS4xMTg2NSIsInNuaXBwZXQiOiJDcm9zc1dlaWdoOiDCtyBUcmFpbmluZyBuYW1lZCBlbnRpdHkgdGFnZ2VyIGZyb20gaW1wZXJmZWN0IGFuLSDCtyBub3RhdGlvbnMuIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDE5IENvbmZlci0gZW5jZSBvbiBFbXBpcmljYWwgTWV0aG9kcyBpbiBOYXR1cmFsIExhbmd1YWdlLiIsImRhdGUiOiJNYXkgMjAsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIFNvZnR3YXJlIEVudGl0eSBSZWNvZ25pdGlvbiB3aXRoIE5vaXNlLVJvYnVzdCBMZWFybmluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA4LjEwNTY0Iiwic25pcHBldCI6IuKAnENyb3Nzd2VpZ2g6IFRyYWluaW5nIG5hbWVkIGVudGl0eSB0YWdnZXIgZnJvbSBpbXBlcmZlY3QgYW5ub3RhdGlvbnMs4oCdIGluIEVNTkxQLSBJSkNOTFAsIDIwMTksIHBwLiA1MTU04oCTNTE2My4iLCJkYXRlIjoiQXVnIDIxLCAyMDIzIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJWYXJpRXJyIE5MSTogU2VwYXJhdGluZyBBbm5vdGF0aW9uIEVycm9yIGZyb20gSHVtYW4gTGFiZWwgVmFyaWF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4wMTkzMXYyIiwic25pcHBldCI6IkNyb3NzV2VpZ2g6IFRyYWluaW5nIE5hbWVkIEVudGl0eSBUYWdnZXIgZnJvbSBJbXBlcmZlY3QgQW5ub3RhdGlvbnMuIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDE5IENvbmZlcmVuY2Ugb24gRW1waXJpY2FsIE1ldGhvZHMgaW4gTmF0dXJhbCBMYW5ndWFnZSBQcm9jZXNzaW5nIC4uLiIsImRhdGUiOiJKdW4gNiwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwMi4wMTQyM3YxIFtjcy5DTF0gMiBGZWIgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMi4wMTQyMyIsInNuaXBwZXQiOiJDcm9zc1dlaWdoOiBUcmFpbmluZyBOYW1lZCBFbnRpdHkgVGFnZ2VyIGZyb20gSW1wZXJmZWN0IEFubm8tIHRhdGlvbnMuIEluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDE5IENvbmZlcmVuY2Ugb24gRW1waXJpY2FsIE1ldGhvZHMgaW4gTmF0dXJhbCBMYW5ndWFnZSBQcm9jZXNzaW5nIiwiZGF0ZSI6IkZlYiAyLCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBCdW5kbGluZyBTZXF1ZW5jZSBhbmQgU3BhbiBNb2RlbHMgZm9yIE5hbWVkIEVudGl0eSBSZWNvZ25pdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIwNy4wMzMwMCIsInNuaXBwZXQiOiLigJxDcm9zc3dlaWdoOiBUcmFpbi0gaW5nIG5hbWVkIGVudGl0eSB0YWdnZXIgZnJvbSBpbXBlcmZlY3QgYW5ub3RhdGlvbnMs4oCdIGluIFByb2NlZWRpbmdzIG9mIHRoZSAyMDE5IENvbmZlcmVuY2Ugb24gRW1waXJpY2FsIE1ldGhvZHMgaW4gTmF0dXJhbCBMYW5ndWFnZSIsImRhdGUiOiJKdWwgMTYsIDIwMjIiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDIuMTY2MDJ2MiBbY3MuQ0xdIDE5IEp1biAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAyLjE2NjAyIiwic25pcHBldCI6IkNyb3Nzd2VpZ2g6IFRyYWluaW5nIG5hbWVkIGVudGl0eSB0YWdnZXIgZnJvbSBpbXBlcmZlY3QgYW5uby0gdGF0aW9ucy4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMTkgQ29uZmVyZW5jZSBvbiBFbXBpcmljYWwgTWV0aG9kcyBpbiBOYXR1cmFsIExhbmd1YWdlIFByb2Nlc3NpbmciLCJkYXRlIjoiSnVuIDE5LCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBJbmZvcm1lZCBOYW1lZCBFbnRpdHkgUmVjb2duaXRpb24gRGVjb2RpbmcgZm9yIEdlbmVyYXRpdmUgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDguMDc3OTEiLCJzbmlwcGV0IjoiQ3Jvc3NXZWlnaDogVHJhaW5pbmcgbmFtZWQgZW50aXR5IHRhZ2dlciBmcm9tIGltcGVyZmVjdCBhbm5vdGF0aW9ucy4gSW4gUHJvYy4gRU1OTFAtSUpDTkxQLCBwYWdlcyA1MTU04oCTNTE2MywgMjAxOS4gZG9pOjEwLjE4NjUzL3YxL0QxOS0xNTE5LiBKYXNvbiBXZWksIFlpIC4uLiIsImRhdGUiOiJBdWcgMTUsIDIwMjMiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDYuMTkxNzJ2MSBbY3MuQ0xdIDI3IEp1biAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA2LjE5MTcyIiwic25pcHBldCI6IkNyb3NzV2VpZ2g6IFRyYWluaW5nIG5hbWVkIGVuLSB0aXR5IHRhZ2dlciBmcm9tIGltcGVyZmVjdCBhbm5vdGF0aW9ucy4gSW4gUHJvY2VlZC0gaW5ncyBvZiB0aGUgMjAxOSBDb25mZXJlbmNlIG9uIEVtcGlyaWNhbCBNZXRob2RzIGluIE5hdHVyYWwgTGFuZ3VhZ2UgLi4uIiwiZGF0ZSI6Ikp1biAyNywgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "crossweigh named entity tagger imperfect annotations before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "CrossWeigh: Training Named Entity Tagger from Imperfect ... - arXiv",
+        "link": "https://arxiv.org/abs/1909.01441",
+        "snippet": "In this study, we dive deep into one of the widely-adopted NER benchmark datasets, CoNLL03 NER. We are able to identify label mistakes in about 5.38% test ...",
+        "date": "Sep 3, 2019",
+        "position": 1
+      },
+      {
+        "title": "Annotation Errors and NER: A Study with OntoNotes 5.0 - arXiv",
+        "link": "https://arxiv.org/html/2406.19172v1",
+        "snippet": "CrossWeigh: Training named entity tagger from imperfect annotations. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
+        "date": "Jun 27, 2024",
+        "position": 2
+      },
+      {
+        "title": "[PDF] arXiv:2405.11865v1 [cs.CL] 20 May 2024",
+        "link": "https://arxiv.org/pdf/2405.11865",
+        "snippet": "CrossWeigh: · Training named entity tagger from imperfect an- · notations. In Proceedings of the 2019 Confer- ence on Empirical Methods in Natural Language.",
+        "date": "May 20, 2024",
+        "position": 3
+      },
+      {
+        "title": "[PDF] Software Entity Recognition with Noise-Robust Learning - arXiv",
+        "link": "https://arxiv.org/pdf/2308.10564",
+        "snippet": "“Crossweigh: Training named entity tagger from imperfect annotations,” in EMNLP- IJCNLP, 2019, pp. 5154–5163.",
+        "date": "Aug 21, 2023",
+        "position": 4
+      },
+      {
+        "title": "VariErr NLI: Separating Annotation Error from Human Label Variation",
+        "link": "https://arxiv.org/html/2403.01931v2",
+        "snippet": "CrossWeigh: Training Named Entity Tagger from Imperfect Annotations. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing ...",
+        "date": "Jun 6, 2024",
+        "position": 5
+      },
+      {
+        "title": "[PDF] arXiv:2402.01423v1 [cs.CL] 2 Feb 2024",
+        "link": "https://arxiv.org/pdf/2402.01423",
+        "snippet": "CrossWeigh: Training Named Entity Tagger from Imperfect Anno- tations. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
+        "date": "Feb 2, 2024",
+        "position": 6
+      },
+      {
+        "title": "[PDF] Bundling Sequence and Span Models for Named Entity Recognition",
+        "link": "https://arxiv.org/pdf/2207.03300",
+        "snippet": "“Crossweigh: Train- ing named entity tagger from imperfect annotations,” in Proceedings of the 2019 Conference on Empirical Methods in Natural Language",
+        "date": "Jul 16, 2022",
+        "position": 7
+      },
+      {
+        "title": "[PDF] arXiv:2402.16602v2 [cs.CL] 19 Jun 2024",
+        "link": "https://arxiv.org/pdf/2402.16602",
+        "snippet": "Crossweigh: Training named entity tagger from imperfect anno- tations. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
+        "date": "Jun 19, 2024",
+        "position": 8
+      },
+      {
+        "title": "[PDF] Informed Named Entity Recognition Decoding for Generative ... - arXiv",
+        "link": "https://arxiv.org/pdf/2308.07791",
+        "snippet": "CrossWeigh: Training named entity tagger from imperfect annotations. In Proc. EMNLP-IJCNLP, pages 5154–5163, 2019. doi:10.18653/v1/D19-1519. Jason Wei, Yi ...",
+        "date": "Aug 15, 2023",
+        "position": 9
+      },
+      {
+        "title": "[PDF] arXiv:2406.19172v1 [cs.CL] 27 Jun 2024",
+        "link": "https://arxiv.org/pdf/2406.19172",
+        "snippet": "CrossWeigh: Training named en- tity tagger from imperfect annotations. In Proceed- ings of the 2019 Conference on Empirical Methods in Natural Language ...",
+        "date": "Jun 27, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "CrossWeigh: Training Named Entity Tagger from Imperfect ... - arXiv",
+      "snippet": "In this study, we dive deep into one of the widely-adopted NER benchmark datasets, CoNLL03 NER. We are able to identify label mistakes in about 5.38% test ...",
+      "link": "https://arxiv.org/abs/1909.01441",
+      "arxiv_id": "1909.01441"
+    },
+    {
+      "rank": 2,
+      "title": "Annotation Errors and NER: A Study with OntoNotes 5.0 - arXiv",
+      "snippet": "CrossWeigh: Training named entity tagger from imperfect annotations. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
+      "link": "https://arxiv.org/html/2406.19172v1",
+      "arxiv_id": "2406.19172"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] arXiv:2405.11865v1 [cs.CL] 20 May 2024",
+      "snippet": "CrossWeigh: · Training named entity tagger from imperfect an- · notations. In Proceedings of the 2019 Confer- ence on Empirical Methods in Natural Language.",
+      "link": "https://arxiv.org/pdf/2405.11865",
+      "arxiv_id": "2405.11865"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] Software Entity Recognition with Noise-Robust Learning - arXiv",
+      "snippet": "“Crossweigh: Training named entity tagger from imperfect annotations,” in EMNLP- IJCNLP, 2019, pp. 5154–5163.",
+      "link": "https://arxiv.org/pdf/2308.10564",
+      "arxiv_id": "2308.10564"
+    },
+    {
+      "rank": 5,
+      "title": "VariErr NLI: Separating Annotation Error from Human Label Variation",
+      "snippet": "CrossWeigh: Training Named Entity Tagger from Imperfect Annotations. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing ...",
+      "link": "https://arxiv.org/html/2403.01931v2",
+      "arxiv_id": "2403.01931"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] arXiv:2402.01423v1 [cs.CL] 2 Feb 2024",
+      "snippet": "CrossWeigh: Training Named Entity Tagger from Imperfect Anno- tations. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
+      "link": "https://arxiv.org/pdf/2402.01423",
+      "arxiv_id": "2402.01423"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] Bundling Sequence and Span Models for Named Entity Recognition",
+      "snippet": "“Crossweigh: Train- ing named entity tagger from imperfect annotations,” in Proceedings of the 2019 Conference on Empirical Methods in Natural Language",
+      "link": "https://arxiv.org/pdf/2207.03300",
+      "arxiv_id": "2207.03300"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] arXiv:2402.16602v2 [cs.CL] 19 Jun 2024",
+      "snippet": "Crossweigh: Training named entity tagger from imperfect anno- tations. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
+      "link": "https://arxiv.org/pdf/2402.16602",
+      "arxiv_id": "2402.16602"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] Informed Named Entity Recognition Decoding for Generative ... - arXiv",
+      "snippet": "CrossWeigh: Training named entity tagger from imperfect annotations. In Proc. EMNLP-IJCNLP, pages 5154–5163, 2019. doi:10.18653/v1/D19-1519. Jason Wei, Yi ...",
+      "link": "https://arxiv.org/pdf/2308.07791",
+      "arxiv_id": "2308.07791"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] arXiv:2406.19172v1 [cs.CL] 27 Jun 2024",
+      "snippet": "CrossWeigh: Training named en- tity tagger from imperfect annotations. In Proceed- ings of the 2019 Conference on Empirical Methods in Natural Language ...",
+      "link": "https://arxiv.org/pdf/2406.19172",
+      "arxiv_id": "2406.19172"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:23.243987+00:00",
+  "elapsed_seconds": 0.8927183412015438,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q46_gt_core_phrase_attempt1.json",
+      "sha256": "a1dfab9cde33d3f2156744ab06203b013fb5da9376c654551ac79128f4fc4b23",
+      "status": "PASS"
+    }
+  ]
+}

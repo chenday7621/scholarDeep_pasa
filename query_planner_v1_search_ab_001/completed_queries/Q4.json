@@ -1,0 +1,1338 @@
+{
+  "query_id": "Q4",
+  "query_index": 4,
+  "dataset_qid": "RealScholarQuery_4",
+  "original_question": "Provide me with all papers that discuss reinforcement learning training for Large Language Model agent tasks.",
+  "published_time": "20241001",
+  "before_date": "2024-09-24",
+  "groups": {
+    "A": {
+      "prompt": "Please generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Provide me with all papers that discuss reinforcement learning training for Large Language Model agent tasks.",
+      "searches": [
+        {
+          "query_sequence": 1,
+          "crawler_query": "Survey papers on reinforcement learning training for large language models",
+          "request_payload": {
+            "q": "Survey papers on reinforcement learning training for large language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 28,
+              "query_id": "Q4",
+              "group": "A",
+              "query_sequence": 1,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Survey papers on reinforcement learning training for large language models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:50.407528+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on reinforcement learning training for large language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"A Survey of Reinforcement Learning from Human Feedback - arXiv\",\"link\":\"https://arxiv.org/abs/2312.14925\",\"snippet\":\"This article provides an overview of the fundamentals of RLHF, exploring how RL agents interact with human feedback.\",\"date\":\"Dec 22, 2023\",\"position\":1},{\"title\":\"[2407.16216] Reinforcement Learning for LLM Post-Training: A Survey\",\"link\":\"https://arxiv.org/abs/2407.16216\",\"snippet\":\"Abstract:Large language models (LLMs) trained via pretraining and supervised fine-tuning (SFT) can still produce harmful and misaligned outputs, ...\",\"date\":\"Jul 23, 2024\",\"position\":2},{\"title\":\"Reasoning with Large Language Models,a Survey - arXiv\",\"link\":\"https://arxiv.org/html/2407.11511v1\",\"snippet\":\"Scaling up language models. Reinforcement Learning with Human Feedback. High-accuracy model-based reinforcement learning, a survey.\",\"date\":\"Jul 16, 2024\",\"position\":3},{\"title\":\"Large Language Models for Information Retrieval: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2308.07107v4\",\"snippet\":\"Reinforcement Learning (RL) presents an alternative training mechanism for the query rewriter. Query rewriters can receive feedback signals from ranking models ...\",\"date\":\"Aug 16, 2023\",\"position\":4},{\"title\":\"Continual Learning for Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/abs/2402.01364\",\"snippet\":\"This paper surveys recent works on continual learning for LLMs. Due to the unique nature of LLMs, we catalog continue learning techniques in a novel multi- ...\",\"date\":\"Feb 2, 2024\",\"position\":5},{\"title\":\"[PDF] A Brief Survey of Deep Reinforcement Learning - The Index Investor\",\"link\":\"https://arxiv.org/pdf/1708.05866\",\"snippet\":\"The aim of this survey is to cover both seminal and recent developments in DRL, conveying the innovative ways in which neural networks can be used to bring us ...\",\"date\":\"Sep 28, 2017\",\"position\":6},{\"title\":\"[2308.14328] Reinforcement Learning for Generative AI: A Survey\",\"link\":\"https://arxiv.org/abs/2308.14328\",\"snippet\":\"Notably, we also surveyed the fast-developing large language model area. We conclude this survey by showing the potential directions that might tackle the limit ...\",\"date\":\"Aug 28, 2023\",\"position\":7},{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v1\",\"snippet\":\"The method is known Reinforcement Learning from Human Feedback (RLHF), as shown in 10. A suite for analyzing large language models across training and scaling, ...\",\"date\":\"Feb 9, 2024\",\"position\":8},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set ...\",\"date\":\"Jan 27, 2022\",\"position\":9},{\"title\":\"Large Language Models for Education: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2405.13001v1\",\"snippet\":\"As powerful auxiliary tools, LLMs incorporate various technologies such as deep learning, pre-training, fine-tuning, and reinforcement learning. The use of ...\",\"date\":\"May 12, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "8433911cb0ebd8a7da43cbd1c703e843b1179bf9cf21a1a47b1375d6b15682af",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Survey papers on reinforcement learning training for large language models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "A Survey of Reinforcement Learning from Human Feedback - arXiv",
+                    "link": "https://arxiv.org/abs/2312.14925",
+                    "snippet": "This article provides an overview of the fundamentals of RLHF, exploring how RL agents interact with human feedback.",
+                    "date": "Dec 22, 2023",
+                    "position": 1
+                  },
+                  {
+                    "title": "[2407.16216] Reinforcement Learning for LLM Post-Training: A Survey",
+                    "link": "https://arxiv.org/abs/2407.16216",
+                    "snippet": "Abstract:Large language models (LLMs) trained via pretraining and supervised fine-tuning (SFT) can still produce harmful and misaligned outputs, ...",
+                    "date": "Jul 23, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Reasoning with Large Language Models,a Survey - arXiv",
+                    "link": "https://arxiv.org/html/2407.11511v1",
+                    "snippet": "Scaling up language models. Reinforcement Learning with Human Feedback. High-accuracy model-based reinforcement learning, a survey.",
+                    "date": "Jul 16, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2308.07107v4",
+                    "snippet": "Reinforcement Learning (RL) presents an alternative training mechanism for the query rewriter. Query rewriters can receive feedback signals from ranking models ...",
+                    "date": "Aug 16, 2023",
+                    "position": 4
+                  },
+                  {
+                    "title": "Continual Learning for Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/abs/2402.01364",
+                    "snippet": "This paper surveys recent works on continual learning for LLMs. Due to the unique nature of LLMs, we catalog continue learning techniques in a novel multi- ...",
+                    "date": "Feb 2, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "[PDF] A Brief Survey of Deep Reinforcement Learning - The Index Investor",
+                    "link": "https://arxiv.org/pdf/1708.05866",
+                    "snippet": "The aim of this survey is to cover both seminal and recent developments in DRL, conveying the innovative ways in which neural networks can be used to bring us ...",
+                    "date": "Sep 28, 2017",
+                    "position": 6
+                  },
+                  {
+                    "title": "[2308.14328] Reinforcement Learning for Generative AI: A Survey",
+                    "link": "https://arxiv.org/abs/2308.14328",
+                    "snippet": "Notably, we also surveyed the fast-developing large language model area. We conclude this survey by showing the potential directions that might tackle the limit ...",
+                    "date": "Aug 28, 2023",
+                    "position": 7
+                  },
+                  {
+                    "title": "Large Language Models: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2402.06196v1",
+                    "snippet": "The method is known Reinforcement Learning from Human Feedback (RLHF), as shown in 10. A suite for analyzing large language models across training and scaling, ...",
+                    "date": "Feb 9, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set ...",
+                    "date": "Jan 27, 2022",
+                    "position": 9
+                  },
+                  {
+                    "title": "Large Language Models for Education: A Survey - arXiv",
+                    "link": "https://arxiv.org/html/2405.13001v1",
+                    "snippet": "As powerful auxiliary tools, LLMs incorporate various technologies such as deep learning, pre-training, fine-tuning, and reinforcement learning. The use of ...",
+                    "date": "May 12, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:51.672332+00:00",
+              "elapsed_seconds": 1.2648183293640614,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q4_A_01_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "1708.05866",
+            "2203.02155",
+            "2308.07107",
+            "2308.14328",
+            "2312.14925",
+            "2402.01364",
+            "2402.06196",
+            "2405.13001",
+            "2407.11511",
+            "2407.16216"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2312.14925",
+              "organic_index": 0,
+              "position": 1,
+              "title": "A Survey of Reinforcement Learning from Human Feedback - arXiv",
+              "link": "https://arxiv.org/abs/2312.14925",
+              "snippet": "This article provides an overview of the fundamentals of RLHF, exploring how RL agents interact with human feedback."
+            },
+            {
+              "arxiv_id": "2407.16216",
+              "organic_index": 1,
+              "position": 2,
+              "title": "[2407.16216] Reinforcement Learning for LLM Post-Training: A Survey",
+              "link": "https://arxiv.org/abs/2407.16216",
+              "snippet": "Abstract:Large language models (LLMs) trained via pretraining and supervised fine-tuning (SFT) can still produce harmful and misaligned outputs, ..."
+            },
+            {
+              "arxiv_id": "2407.11511",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Reasoning with Large Language Models,a Survey - arXiv",
+              "link": "https://arxiv.org/html/2407.11511v1",
+              "snippet": "Scaling up language models. Reinforcement Learning with Human Feedback. High-accuracy model-based reinforcement learning, a survey."
+            },
+            {
+              "arxiv_id": "2308.07107",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Large Language Models for Information Retrieval: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2308.07107v4",
+              "snippet": "Reinforcement Learning (RL) presents an alternative training mechanism for the query rewriter. Query rewriters can receive feedback signals from ranking models ..."
+            },
+            {
+              "arxiv_id": "2402.01364",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Continual Learning for Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/abs/2402.01364",
+              "snippet": "This paper surveys recent works on continual learning for LLMs. Due to the unique nature of LLMs, we catalog continue learning techniques in a novel multi- ..."
+            },
+            {
+              "arxiv_id": "1708.05866",
+              "organic_index": 5,
+              "position": 6,
+              "title": "[PDF] A Brief Survey of Deep Reinforcement Learning - The Index Investor",
+              "link": "https://arxiv.org/pdf/1708.05866",
+              "snippet": "The aim of this survey is to cover both seminal and recent developments in DRL, conveying the innovative ways in which neural networks can be used to bring us ..."
+            },
+            {
+              "arxiv_id": "2308.14328",
+              "organic_index": 6,
+              "position": 7,
+              "title": "[2308.14328] Reinforcement Learning for Generative AI: A Survey",
+              "link": "https://arxiv.org/abs/2308.14328",
+              "snippet": "Notably, we also surveyed the fast-developing large language model area. We conclude this survey by showing the potential directions that might tackle the limit ..."
+            },
+            {
+              "arxiv_id": "2402.06196",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Large Language Models: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2402.06196v1",
+              "snippet": "The method is known Reinforcement Learning from Human Feedback (RLHF), as shown in 10. A suite for analyzing large language models across training and scaling, ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set ..."
+            },
+            {
+              "arxiv_id": "2405.13001",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Large Language Models for Education: A Survey - arXiv",
+              "link": "https://arxiv.org/html/2405.13001v1",
+              "snippet": "As powerful auxiliary tools, LLMs incorporate various technologies such as deep learning, pre-training, fine-tuning, and reinforcement learning. The use of ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 2,
+          "crawler_query": "Research on task-agnostic rewards in reinforcement learning training for large language models",
+          "request_payload": {
+            "q": "Research on task-agnostic rewards in reinforcement learning training for large language models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 29,
+              "query_id": "Q4",
+              "group": "A",
+              "query_sequence": 2,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Research on task-agnostic rewards in reinforcement learning training for large language models before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:51.672877+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Research on task-agnostic rewards in reinforcement learning training for large language models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Personalizing Reinforcement Learning from Human Feedback with ...\",\"link\":\"https://arxiv.org/html/2408.10075v1\",\"snippet\":\"Reinforcement Learning from Human Feedback (RLHF) is a powerful paradigm for aligning foundation models to human values and preferences.\",\"date\":\"Aug 19, 2024\",\"position\":1},{\"title\":\"[PDF] the rl/llm taxonomy tree: reviewing synergies between reinforcement ...\",\"link\":\"https://arxiv.org/pdf/2402.01874\",\"snippet\":\"In this work, we review research studies that combine Reinforcement Learning (RL) and Large Language Models (LLMs), two areas that owe their momentum\",\"date\":\"Feb 2, 2024\",\"position\":2},{\"title\":\"Comprehensive Overview of Reward Engineering and Shaping in ...\",\"link\":\"https://arxiv.org/html/2408.10215v1\",\"snippet\":\"This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning algorithms ...\",\"date\":\"Jul 22, 2024\",\"position\":3},{\"title\":\"Reinforcement Learning for Generative AI: State of the Art ... - arXiv\",\"link\":\"https://arxiv.org/html/2308.00031v3\",\"snippet\":\"In general, RL offers the opportunity to use non-differentiable functions as rewards (?). Examples include chemistry (?) and dialogue systems (?). We believe ...\",\"date\":\"Jan 11, 2024\",\"position\":4},{\"title\":\"Training RL Agents to Query External Knowledge Using Language\",\"link\":\"https://arxiv.org/html/2205.06111v2\",\"snippet\":\"Abstract. To solve difficult tasks, humans ask questions to acquire knowledge from external sources. In contrast, classical reinforcement learning agents ...\",\"date\":\"Jul 3, 2022\",\"position\":5},{\"title\":\"Learning to Modulate pre-trained Models in RL - arXiv\",\"link\":\"https://arxiv.org/html/2306.14884v2\",\"snippet\":\"Recently, pre-training on multiple tasks has been gaining traction in RL. However, fine-tuning a pre-trained model often suffers from catastrophic forgetting.\",\"date\":\"Oct 27, 2023\",\"position\":6},{\"title\":\"Improving Sample Efficiency of Reinforcement Learning with ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.03964v1\",\"snippet\":\"In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ...\",\"date\":\"Jul 4, 2024\",\"position\":7},{\"title\":\"[PDF] Provable Reward-Agnostic Preference-Based Reinforcement Learning\",\"link\":\"https://arxiv.org/pdf/2305.18505\",\"snippet\":\"Abstract. Preference-based Reinforcement Learning (PbRL) is a paradigm in which an RL agent learns to optimize a task using pair-wise preference-based ...\",\"date\":\"Apr 17, 2024\",\"position\":8},{\"title\":\"Dense Reward for Free in Reinforcement Learning from Human ...\",\"link\":\"https://arxiv.org/html/2402.00782v1\",\"snippet\":\"We demonstrate that, theoretically, this approach is equivalent to potential-based reward shaping, ensuring that the optimal policy remains unchanged.\",\"date\":\"Feb 1, 2024\",\"position\":9},{\"title\":\"[PDF] Language-based Automatic Reward and Goal Generation - arXiv\",\"link\":\"https://arxiv.org/pdf/2306.10985\",\"snippet\":\"To leverage reinforcement learning with text-based task descriptions, we need to produce reward functions associated with individual tasks in a scalable manner.\",\"date\":\"Jun 19, 2023\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "6b12ac0cf2e5be5af1a457837cd457e441dc5e52844d08e1e760ea58dd6b04d6",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Research on task-agnostic rewards in reinforcement learning training for large language models before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Personalizing Reinforcement Learning from Human Feedback with ...",
+                    "link": "https://arxiv.org/html/2408.10075v1",
+                    "snippet": "Reinforcement Learning from Human Feedback (RLHF) is a powerful paradigm for aligning foundation models to human values and preferences.",
+                    "date": "Aug 19, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "[PDF] the rl/llm taxonomy tree: reviewing synergies between reinforcement ...",
+                    "link": "https://arxiv.org/pdf/2402.01874",
+                    "snippet": "In this work, we review research studies that combine Reinforcement Learning (RL) and Large Language Models (LLMs), two areas that owe their momentum",
+                    "date": "Feb 2, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+                    "link": "https://arxiv.org/html/2408.10215v1",
+                    "snippet": "This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning algorithms ...",
+                    "date": "Jul 22, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Reinforcement Learning for Generative AI: State of the Art ... - arXiv",
+                    "link": "https://arxiv.org/html/2308.00031v3",
+                    "snippet": "In general, RL offers the opportunity to use non-differentiable functions as rewards (?). Examples include chemistry (?) and dialogue systems (?). We believe ...",
+                    "date": "Jan 11, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Training RL Agents to Query External Knowledge Using Language",
+                    "link": "https://arxiv.org/html/2205.06111v2",
+                    "snippet": "Abstract. To solve difficult tasks, humans ask questions to acquire knowledge from external sources. In contrast, classical reinforcement learning agents ...",
+                    "date": "Jul 3, 2022",
+                    "position": 5
+                  },
+                  {
+                    "title": "Learning to Modulate pre-trained Models in RL - arXiv",
+                    "link": "https://arxiv.org/html/2306.14884v2",
+                    "snippet": "Recently, pre-training on multiple tasks has been gaining traction in RL. However, fine-tuning a pre-trained model often suffers from catastrophic forgetting.",
+                    "date": "Oct 27, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+                    "link": "https://arxiv.org/html/2407.03964v1",
+                    "snippet": "In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ...",
+                    "date": "Jul 4, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "[PDF] Provable Reward-Agnostic Preference-Based Reinforcement Learning",
+                    "link": "https://arxiv.org/pdf/2305.18505",
+                    "snippet": "Abstract. Preference-based Reinforcement Learning (PbRL) is a paradigm in which an RL agent learns to optimize a task using pair-wise preference-based ...",
+                    "date": "Apr 17, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "Dense Reward for Free in Reinforcement Learning from Human ...",
+                    "link": "https://arxiv.org/html/2402.00782v1",
+                    "snippet": "We demonstrate that, theoretically, this approach is equivalent to potential-based reward shaping, ensuring that the optimal policy remains unchanged.",
+                    "date": "Feb 1, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "[PDF] Language-based Automatic Reward and Goal Generation - arXiv",
+                    "link": "https://arxiv.org/pdf/2306.10985",
+                    "snippet": "To leverage reinforcement learning with text-based task descriptions, we need to produce reward functions associated with individual tasks in a scalable manner.",
+                    "date": "Jun 19, 2023",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:53.119907+00:00",
+              "elapsed_seconds": 1.447043053805828,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q4_A_02_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2205.06111",
+            "2305.18505",
+            "2306.10985",
+            "2306.14884",
+            "2308.00031",
+            "2402.00782",
+            "2402.01874",
+            "2407.03964",
+            "2408.10075",
+            "2408.10215"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2408.10075",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Personalizing Reinforcement Learning from Human Feedback with ...",
+              "link": "https://arxiv.org/html/2408.10075v1",
+              "snippet": "Reinforcement Learning from Human Feedback (RLHF) is a powerful paradigm for aligning foundation models to human values and preferences."
+            },
+            {
+              "arxiv_id": "2402.01874",
+              "organic_index": 1,
+              "position": 2,
+              "title": "[PDF] the rl/llm taxonomy tree: reviewing synergies between reinforcement ...",
+              "link": "https://arxiv.org/pdf/2402.01874",
+              "snippet": "In this work, we review research studies that combine Reinforcement Learning (RL) and Large Language Models (LLMs), two areas that owe their momentum"
+            },
+            {
+              "arxiv_id": "2408.10215",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Comprehensive Overview of Reward Engineering and Shaping in ...",
+              "link": "https://arxiv.org/html/2408.10215v1",
+              "snippet": "This paper emphasizes the importance of reward engineering and reward shaping in enhancing the efficiency and effectiveness of reinforcement learning algorithms ..."
+            },
+            {
+              "arxiv_id": "2308.00031",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Reinforcement Learning for Generative AI: State of the Art ... - arXiv",
+              "link": "https://arxiv.org/html/2308.00031v3",
+              "snippet": "In general, RL offers the opportunity to use non-differentiable functions as rewards (?). Examples include chemistry (?) and dialogue systems (?). We believe ..."
+            },
+            {
+              "arxiv_id": "2205.06111",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Training RL Agents to Query External Knowledge Using Language",
+              "link": "https://arxiv.org/html/2205.06111v2",
+              "snippet": "Abstract. To solve difficult tasks, humans ask questions to acquire knowledge from external sources. In contrast, classical reinforcement learning agents ..."
+            },
+            {
+              "arxiv_id": "2306.14884",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Learning to Modulate pre-trained Models in RL - arXiv",
+              "link": "https://arxiv.org/html/2306.14884v2",
+              "snippet": "Recently, pre-training on multiple tasks has been gaining traction in RL. However, fine-tuning a pre-trained model often suffers from catastrophic forgetting."
+            },
+            {
+              "arxiv_id": "2407.03964",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+              "link": "https://arxiv.org/html/2407.03964v1",
+              "snippet": "In our paper, we propose a general framework to utilize background knowledge for reward shaping, thereby improving sample efficiency for various downstream RL ..."
+            },
+            {
+              "arxiv_id": "2305.18505",
+              "organic_index": 7,
+              "position": 8,
+              "title": "[PDF] Provable Reward-Agnostic Preference-Based Reinforcement Learning",
+              "link": "https://arxiv.org/pdf/2305.18505",
+              "snippet": "Abstract. Preference-based Reinforcement Learning (PbRL) is a paradigm in which an RL agent learns to optimize a task using pair-wise preference-based ..."
+            },
+            {
+              "arxiv_id": "2402.00782",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Dense Reward for Free in Reinforcement Learning from Human ...",
+              "link": "https://arxiv.org/html/2402.00782v1",
+              "snippet": "We demonstrate that, theoretically, this approach is equivalent to potential-based reward shaping, ensuring that the optimal policy remains unchanged."
+            },
+            {
+              "arxiv_id": "2306.10985",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[PDF] Language-based Automatic Reward and Goal Generation - arXiv",
+              "link": "https://arxiv.org/pdf/2306.10985",
+              "snippet": "To leverage reinforcement learning with text-based task descriptions, we need to produce reward functions associated with individual tasks in a scalable manner."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 3,
+          "crawler_query": "Reinforcement learning approaches for optimizing Large Language Model agents",
+          "request_payload": {
+            "q": "Reinforcement learning approaches for optimizing Large Language Model agents before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 30,
+              "query_id": "Q4",
+              "group": "A",
+              "query_sequence": 3,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Reinforcement learning approaches for optimizing Large Language Model agents before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:53.120455+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Reinforcement learning approaches for optimizing Large Language Model agents before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"LLM-based Multi-Agent Reinforcement Learning: Current and ... - arXiv\",\"link\":\"https://arxiv.org/html/2405.11106v1\",\"snippet\":\"LLM can be applied to Reinforcement Learning (RL) and achieve decent results, the extension of LLM-based RL to Multi-Agent System (MAS\",\"date\":\"May 17, 2024\",\"position\":1},{\"title\":\"RL-GPT: Integrating Reinforcement Learning and Code-as-policy\",\"link\":\"https://arxiv.org/html/2402.19299v1\",\"snippet\":\"RL-GPT, a novel approach that integrates Large Language Models (LLMs) and Reinforcement Learning (RL) to empower LLMs agents on challenging tasks within ...\",\"date\":\"Feb 29, 2024\",\"position\":2},{\"title\":\"When Large Language Model Meets Optimization - arXiv\",\"link\":\"https://arxiv.org/html/2405.10098v1\",\"snippet\":\"Reinforcement learning learns and improves its strategy by interacting with the environment, aiming to maximize long-term cumulative rewards.\",\"date\":\"May 16, 2024\",\"position\":3},{\"title\":\"An Introduction to Reinforcement Learning: Fundamental Concepts ...\",\"link\":\"https://arxiv.org/html/2408.07712v1\",\"snippet\":\"RL approaches that use models are called model-based methods, whereas those relying solely on trial-and-error learning are model-free methods. To cement ...\",\"date\":\"Aug 13, 2024\",\"position\":4},{\"title\":\"An Extremely Data-efficient and Generative LLM-based ... - arXiv\",\"link\":\"https://arxiv.org/abs/2408.16032\",\"snippet\":\"The RL agents are developed by fine-tuning a pre-trained BERT model with various objectives, learning from preferences without a reward model, and employing\",\"date\":\"Aug 28, 2024\",\"position\":5},{\"title\":\"Reinforcement Learning in the Era of LLMs - arXiv\",\"link\":\"https://arxiv.org/html/2310.06147\",\"snippet\":\"Prompt-OIRL is a novel approach grounded in offline inverse reinforcement learning, designed to reconcile effective and cost-efficient query-dependent prompt ...\",\"date\":\"Oct 9, 2023\",\"position\":6},{\"title\":\"Empowering Large Language Model Agents through Action Learning\",\"link\":\"https://arxiv.org/html/2402.15809v2\",\"snippet\":\"We introduce a framework LearnAct with an iterative learning strategy to create and improve actions in the form of Python functions.\",\"date\":\"Aug 8, 2024\",\"position\":7},{\"title\":\"Algorithm Evolution Using Large Language Model - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2311.15249\",\"snippet\":\"It utilizes a large language model (LLM) to automatically generate optimization algorithms via an evolutionary framework. AEL does algorithm-level evolution ...\",\"date\":\"Nov 27, 2023\",\"sitelinks\":[{\"title\":\"Iv-A Ael Implementation\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=IV%2DA%20AEL%20Implementation\"},{\"title\":\"Iv-B Experiments\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=IV%2DB%20Experiments\"},{\"title\":\"Iv-B2 Experimental Results\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=IV%2DB2%20Experimental%20Results\"}],\"position\":8},{\"title\":\"Controlling Large Language Model-based Agents for Large-Scale ...\",\"link\":\"https://arxiv.org/html/2311.13884v3\",\"snippet\":\"This approach eliminates the need for training from scratch by providing an acceptable initial strategy based on common knowledge. Examples of such applications ...\",\"date\":\"Jan 23, 2024\",\"sitelinks\":[{\"title\":\"1 Introduction\",\"link\":\"https://arxiv.org/html/2311.13884v3#:~:text=1%20Introduction,-Relying%20on%20training%20from%20massive\"},{\"title\":\"3 Llamac\",\"link\":\"https://arxiv.org/html/2311.13884v3#:~:text=3%20LLaMAC,-In%20this%20section%2C%20we\"},{\"title\":\"4 Evaluation\",\"link\":\"https://arxiv.org/html/2311.13884v3#:~:text=4%20Evaluation,-In%20this%20section%2C%20we\"}],\"position\":9},{\"title\":\"Exploring Large Language Model based Intelligent Agents - arXiv\",\"link\":\"https://arxiv.org/html/2401.03428v1\",\"snippet\":\"The fundamental reinforcement learning framework includes the Agent, Environment, State, Action, and Reward. The agent performs actions in the environment, and ...\",\"date\":\"Jan 7, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "5f079ece8c3b6edd02bba9d87c680887b40e0e47eacf72654be170068db5ad28",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Reinforcement learning approaches for optimizing Large Language Model agents before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "LLM-based Multi-Agent Reinforcement Learning: Current and ... - arXiv",
+                    "link": "https://arxiv.org/html/2405.11106v1",
+                    "snippet": "LLM can be applied to Reinforcement Learning (RL) and achieve decent results, the extension of LLM-based RL to Multi-Agent System (MAS",
+                    "date": "May 17, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "RL-GPT: Integrating Reinforcement Learning and Code-as-policy",
+                    "link": "https://arxiv.org/html/2402.19299v1",
+                    "snippet": "RL-GPT, a novel approach that integrates Large Language Models (LLMs) and Reinforcement Learning (RL) to empower LLMs agents on challenging tasks within ...",
+                    "date": "Feb 29, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "When Large Language Model Meets Optimization - arXiv",
+                    "link": "https://arxiv.org/html/2405.10098v1",
+                    "snippet": "Reinforcement learning learns and improves its strategy by interacting with the environment, aiming to maximize long-term cumulative rewards.",
+                    "date": "May 16, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "An Introduction to Reinforcement Learning: Fundamental Concepts ...",
+                    "link": "https://arxiv.org/html/2408.07712v1",
+                    "snippet": "RL approaches that use models are called model-based methods, whereas those relying solely on trial-and-error learning are model-free methods. To cement ...",
+                    "date": "Aug 13, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "An Extremely Data-efficient and Generative LLM-based ... - arXiv",
+                    "link": "https://arxiv.org/abs/2408.16032",
+                    "snippet": "The RL agents are developed by fine-tuning a pre-trained BERT model with various objectives, learning from preferences without a reward model, and employing",
+                    "date": "Aug 28, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+                    "link": "https://arxiv.org/html/2310.06147",
+                    "snippet": "Prompt-OIRL is a novel approach grounded in offline inverse reinforcement learning, designed to reconcile effective and cost-efficient query-dependent prompt ...",
+                    "date": "Oct 9, 2023",
+                    "position": 6
+                  },
+                  {
+                    "title": "Empowering Large Language Model Agents through Action Learning",
+                    "link": "https://arxiv.org/html/2402.15809v2",
+                    "snippet": "We introduce a framework LearnAct with an iterative learning strategy to create and improve actions in the form of Python functions.",
+                    "date": "Aug 8, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Algorithm Evolution Using Large Language Model - ar5iv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2311.15249",
+                    "snippet": "It utilizes a large language model (LLM) to automatically generate optimization algorithms via an evolutionary framework. AEL does algorithm-level evolution ...",
+                    "date": "Nov 27, 2023",
+                    "sitelinks": [
+                      {
+                        "title": "Iv-A Ael Implementation",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=IV%2DA%20AEL%20Implementation"
+                      },
+                      {
+                        "title": "Iv-B Experiments",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=IV%2DB%20Experiments"
+                      },
+                      {
+                        "title": "Iv-B2 Experimental Results",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2311.15249#:~:text=IV%2DB2%20Experimental%20Results"
+                      }
+                    ],
+                    "position": 8
+                  },
+                  {
+                    "title": "Controlling Large Language Model-based Agents for Large-Scale ...",
+                    "link": "https://arxiv.org/html/2311.13884v3",
+                    "snippet": "This approach eliminates the need for training from scratch by providing an acceptable initial strategy based on common knowledge. Examples of such applications ...",
+                    "date": "Jan 23, 2024",
+                    "sitelinks": [
+                      {
+                        "title": "1 Introduction",
+                        "link": "https://arxiv.org/html/2311.13884v3#:~:text=1%20Introduction,-Relying%20on%20training%20from%20massive"
+                      },
+                      {
+                        "title": "3 Llamac",
+                        "link": "https://arxiv.org/html/2311.13884v3#:~:text=3%20LLaMAC,-In%20this%20section%2C%20we"
+                      },
+                      {
+                        "title": "4 Evaluation",
+                        "link": "https://arxiv.org/html/2311.13884v3#:~:text=4%20Evaluation,-In%20this%20section%2C%20we"
+                      }
+                    ],
+                    "position": 9
+                  },
+                  {
+                    "title": "Exploring Large Language Model based Intelligent Agents - arXiv",
+                    "link": "https://arxiv.org/html/2401.03428v1",
+                    "snippet": "The fundamental reinforcement learning framework includes the Agent, Environment, State, Action, and Reward. The agent performs actions in the environment, and ...",
+                    "date": "Jan 7, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:54.041991+00:00",
+              "elapsed_seconds": 0.9215422160923481,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q4_A_03_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2310.06147",
+            "2311.13884",
+            "2311.15249",
+            "2401.03428",
+            "2402.15809",
+            "2402.19299",
+            "2405.10098",
+            "2405.11106",
+            "2408.07712",
+            "2408.16032"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2405.11106",
+              "organic_index": 0,
+              "position": 1,
+              "title": "LLM-based Multi-Agent Reinforcement Learning: Current and ... - arXiv",
+              "link": "https://arxiv.org/html/2405.11106v1",
+              "snippet": "LLM can be applied to Reinforcement Learning (RL) and achieve decent results, the extension of LLM-based RL to Multi-Agent System (MAS"
+            },
+            {
+              "arxiv_id": "2402.19299",
+              "organic_index": 1,
+              "position": 2,
+              "title": "RL-GPT: Integrating Reinforcement Learning and Code-as-policy",
+              "link": "https://arxiv.org/html/2402.19299v1",
+              "snippet": "RL-GPT, a novel approach that integrates Large Language Models (LLMs) and Reinforcement Learning (RL) to empower LLMs agents on challenging tasks within ..."
+            },
+            {
+              "arxiv_id": "2405.10098",
+              "organic_index": 2,
+              "position": 3,
+              "title": "When Large Language Model Meets Optimization - arXiv",
+              "link": "https://arxiv.org/html/2405.10098v1",
+              "snippet": "Reinforcement learning learns and improves its strategy by interacting with the environment, aiming to maximize long-term cumulative rewards."
+            },
+            {
+              "arxiv_id": "2408.07712",
+              "organic_index": 3,
+              "position": 4,
+              "title": "An Introduction to Reinforcement Learning: Fundamental Concepts ...",
+              "link": "https://arxiv.org/html/2408.07712v1",
+              "snippet": "RL approaches that use models are called model-based methods, whereas those relying solely on trial-and-error learning are model-free methods. To cement ..."
+            },
+            {
+              "arxiv_id": "2408.16032",
+              "organic_index": 4,
+              "position": 5,
+              "title": "An Extremely Data-efficient and Generative LLM-based ... - arXiv",
+              "link": "https://arxiv.org/abs/2408.16032",
+              "snippet": "The RL agents are developed by fine-tuning a pre-trained BERT model with various objectives, learning from preferences without a reward model, and employing"
+            },
+            {
+              "arxiv_id": "2310.06147",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+              "link": "https://arxiv.org/html/2310.06147",
+              "snippet": "Prompt-OIRL is a novel approach grounded in offline inverse reinforcement learning, designed to reconcile effective and cost-efficient query-dependent prompt ..."
+            },
+            {
+              "arxiv_id": "2402.15809",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Empowering Large Language Model Agents through Action Learning",
+              "link": "https://arxiv.org/html/2402.15809v2",
+              "snippet": "We introduce a framework LearnAct with an iterative learning strategy to create and improve actions in the form of Python functions."
+            },
+            {
+              "arxiv_id": "2311.15249",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Algorithm Evolution Using Large Language Model - ar5iv",
+              "link": "https://ar5iv.labs.arxiv.org/html/2311.15249",
+              "snippet": "It utilizes a large language model (LLM) to automatically generate optimization algorithms via an evolutionary framework. AEL does algorithm-level evolution ..."
+            },
+            {
+              "arxiv_id": "2311.13884",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Controlling Large Language Model-based Agents for Large-Scale ...",
+              "link": "https://arxiv.org/html/2311.13884v3",
+              "snippet": "This approach eliminates the need for training from scratch by providing an acceptable initial strategy based on common knowledge. Examples of such applications ..."
+            },
+            {
+              "arxiv_id": "2401.03428",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Exploring Large Language Model based Intelligent Agents - arXiv",
+              "link": "https://arxiv.org/html/2401.03428v1",
+              "snippet": "The fundamental reinforcement learning framework includes the Agent, Environment, State, Action, and Reward. The agent performs actions in the environment, and ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 4,
+          "crawler_query": "Case studies of Large Language Model agents trained using reinforcement learning",
+          "request_payload": {
+            "q": "Case studies of Large Language Model agents trained using reinforcement learning before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 31,
+              "query_id": "Q4",
+              "group": "A",
+              "query_sequence": 4,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Case studies of Large Language Model agents trained using reinforcement learning before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:54.042503+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Case studies of Large Language Model agents trained using reinforcement learning before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"LLM-based Multi-Agent Reinforcement Learning: Current and ... - arXiv\",\"link\":\"https://arxiv.org/html/2405.11106v1\",\"snippet\":\"In recent years, Large Language Models (LLMs) have shown great abilities in various tasks, including question answering, arithmetic problem solving, and poem ...\",\"date\":\"May 17, 2024\",\"position\":1},{\"title\":\"Training Language Model Agents via Hierarchical Multi-Turn RL\",\"link\":\"https://arxiv.org/abs/2402.19446\",\"snippet\":\"A broad use case of large language models (LLMs) is in goal-directed decision-making tasks (or \\\"agent\\\" tasks), where an LLM needs to not just generate ...\",\"date\":\"Feb 29, 2024\",\"position\":2},{\"title\":\"Empowering Large Language Model Agents through Action Learning\",\"link\":\"https://arxiv.org/html/2402.15809v2\",\"snippet\":\"We introduce a framework LearnAct with an iterative learning strategy to create and improve actions in the form of Python functions. In each iteration, LLM ...\",\"date\":\"Aug 8, 2024\",\"position\":3},{\"title\":\"RL-GPT: Integrating Reinforcement Learning and Code-as-policy\",\"link\":\"https://arxiv.org/html/2402.19299v1\",\"snippet\":\"Large Language Models (LLMs) have demonstrated proficiency in utilizing various tools by coding, yet they face limitations in handling intricate logic and ...\",\"date\":\"Feb 29, 2024\",\"position\":4},{\"title\":\"Exploring Large Language Model based Intelligent Agents - arXiv\",\"link\":\"https://arxiv.org/html/2401.03428v1\",\"snippet\":\"The fundamental reinforcement learning framework includes the Agent, Environment, State, Action, and Reward. The agent performs actions in the environment, and ...\",\"date\":\"Jan 7, 2024\",\"position\":5},{\"title\":\"An Introduction to Reinforcement Learning: Fundamental Concepts ...\",\"link\":\"https://arxiv.org/html/2408.07712v1\",\"snippet\":\"The paper also provides examples of various RL algorithms, including model-free and model-based methods. In addition, RL algorithms are introduced and resources ...\",\"date\":\"Aug 13, 2024\",\"position\":6},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.\",\"date\":\"Jan 27, 2022\",\"position\":7},{\"title\":\"Reflexion: Language Agents with Verbal Reinforcement Learning\",\"link\":\"https://arxiv.org/html/2303.11366\",\"snippet\":\"We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback.\",\"date\":\"Oct 10, 2023\",\"sitelinks\":[{\"title\":\"4 Experiments\",\"link\":\"https://arxiv.org/html/2303.11366#:~:text=4%20Experiments,-We%20evaluate%20various%20natural%20language\"},{\"title\":\"4.1 Sequential Decision...\",\"link\":\"https://arxiv.org/html/2303.11366#:~:text=4.1%20Sequential%20decision%20making%3A%20ALFWorld,-AlfWorld%20is%20a%20suite%20of\"},{\"title\":\"4.2 Reasoning: Hotpotqa\",\"link\":\"https://arxiv.org/html/2303.11366#:~:text=4.2%20Reasoning%3A%20HotpotQA,-HotPotQA%20%28Yang%20et%20al.\"}],\"position\":8},{\"title\":\"Improving Sample Efficiency of Reinforcement Learning with ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.03964v1\",\"snippet\":\"Low sample efficiency is an enduring challenge of reinforcement learning (RL). With the advent of versatile large language models (LLMs), recent works impart ...\",\"date\":\"Jul 4, 2024\",\"sitelinks\":[{\"title\":\"Iii Framework\",\"link\":\"https://arxiv.org/html/2407.03964v1#:~:text=III%20Framework,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"Iii-B Reward Shaping With...\",\"link\":\"https://arxiv.org/html/2407.03964v1#:~:text=III%2DB%20Reward%20Shaping%20with%20Background%20Knowledge,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"V Experiments\",\"link\":\"https://arxiv.org/html/2407.03964v1#:~:text=V%20Experiments,-Report%20issue%20for%20preceding%20element\"}],\"position\":9},{\"title\":\"Give Us the Facts: Enhancing Large Language Models with ... - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489\",\"snippet\":\"This paper reviews the studies on enhancing PLMs with KGs, detailing existing knowledge graph enhanced pre-trained language models (KGPLMs) as well as their ...\",\"date\":\"Nov 30, 2022\",\"sitelinks\":[{\"title\":\"Ii Background\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=II%20Background\"},{\"title\":\"Ii-D Pros And Cons Of Llms\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=II%2DD%20Pros%20and%20Cons%20of%20LLMs\"},{\"title\":\"Iii Kgplms\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=III%20KGPLMs\"}],\"position\":10}],\"credits\":1}",
+              "response_sha256": "7660770181f9c1c8f9e57a7c0eb76fde85534a769e27728580c98dd6ad38f97b",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Case studies of Large Language Model agents trained using reinforcement learning before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "LLM-based Multi-Agent Reinforcement Learning: Current and ... - arXiv",
+                    "link": "https://arxiv.org/html/2405.11106v1",
+                    "snippet": "In recent years, Large Language Models (LLMs) have shown great abilities in various tasks, including question answering, arithmetic problem solving, and poem ...",
+                    "date": "May 17, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Training Language Model Agents via Hierarchical Multi-Turn RL",
+                    "link": "https://arxiv.org/abs/2402.19446",
+                    "snippet": "A broad use case of large language models (LLMs) is in goal-directed decision-making tasks (or \"agent\" tasks), where an LLM needs to not just generate ...",
+                    "date": "Feb 29, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Empowering Large Language Model Agents through Action Learning",
+                    "link": "https://arxiv.org/html/2402.15809v2",
+                    "snippet": "We introduce a framework LearnAct with an iterative learning strategy to create and improve actions in the form of Python functions. In each iteration, LLM ...",
+                    "date": "Aug 8, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "RL-GPT: Integrating Reinforcement Learning and Code-as-policy",
+                    "link": "https://arxiv.org/html/2402.19299v1",
+                    "snippet": "Large Language Models (LLMs) have demonstrated proficiency in utilizing various tools by coding, yet they face limitations in handling intricate logic and ...",
+                    "date": "Feb 29, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Exploring Large Language Model based Intelligent Agents - arXiv",
+                    "link": "https://arxiv.org/html/2401.03428v1",
+                    "snippet": "The fundamental reinforcement learning framework includes the Agent, Environment, State, Action, and Reward. The agent performs actions in the environment, and ...",
+                    "date": "Jan 7, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "An Introduction to Reinforcement Learning: Fundamental Concepts ...",
+                    "link": "https://arxiv.org/html/2408.07712v1",
+                    "snippet": "The paper also provides examples of various RL algorithms, including model-free and model-based methods. In addition, RL algorithms are introduced and resources ...",
+                    "date": "Aug 13, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.",
+                    "date": "Jan 27, 2022",
+                    "position": 7
+                  },
+                  {
+                    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+                    "link": "https://arxiv.org/html/2303.11366",
+                    "snippet": "We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback.",
+                    "date": "Oct 10, 2023",
+                    "sitelinks": [
+                      {
+                        "title": "4 Experiments",
+                        "link": "https://arxiv.org/html/2303.11366#:~:text=4%20Experiments,-We%20evaluate%20various%20natural%20language"
+                      },
+                      {
+                        "title": "4.1 Sequential Decision...",
+                        "link": "https://arxiv.org/html/2303.11366#:~:text=4.1%20Sequential%20decision%20making%3A%20ALFWorld,-AlfWorld%20is%20a%20suite%20of"
+                      },
+                      {
+                        "title": "4.2 Reasoning: Hotpotqa",
+                        "link": "https://arxiv.org/html/2303.11366#:~:text=4.2%20Reasoning%3A%20HotpotQA,-HotPotQA%20%28Yang%20et%20al."
+                      }
+                    ],
+                    "position": 8
+                  },
+                  {
+                    "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+                    "link": "https://arxiv.org/html/2407.03964v1",
+                    "snippet": "Low sample efficiency is an enduring challenge of reinforcement learning (RL). With the advent of versatile large language models (LLMs), recent works impart ...",
+                    "date": "Jul 4, 2024",
+                    "sitelinks": [
+                      {
+                        "title": "Iii Framework",
+                        "link": "https://arxiv.org/html/2407.03964v1#:~:text=III%20Framework,-Report%20issue%20for%20preceding%20element"
+                      },
+                      {
+                        "title": "Iii-B Reward Shaping With...",
+                        "link": "https://arxiv.org/html/2407.03964v1#:~:text=III%2DB%20Reward%20Shaping%20with%20Background%20Knowledge,-Report%20issue%20for%20preceding%20element"
+                      },
+                      {
+                        "title": "V Experiments",
+                        "link": "https://arxiv.org/html/2407.03964v1#:~:text=V%20Experiments,-Report%20issue%20for%20preceding%20element"
+                      }
+                    ],
+                    "position": 9
+                  },
+                  {
+                    "title": "Give Us the Facts: Enhancing Large Language Models with ... - ar5iv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2306.11489",
+                    "snippet": "This paper reviews the studies on enhancing PLMs with KGs, detailing existing knowledge graph enhanced pre-trained language models (KGPLMs) as well as their ...",
+                    "date": "Nov 30, 2022",
+                    "sitelinks": [
+                      {
+                        "title": "Ii Background",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=II%20Background"
+                      },
+                      {
+                        "title": "Ii-D Pros And Cons Of Llms",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=II%2DD%20Pros%20and%20Cons%20of%20LLMs"
+                      },
+                      {
+                        "title": "Iii Kgplms",
+                        "link": "https://ar5iv.labs.arxiv.org/html/2306.11489#:~:text=III%20KGPLMs"
+                      }
+                    ],
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:55.869168+00:00",
+              "elapsed_seconds": 1.8266704864799976,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q4_A_04_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2203.02155",
+            "2303.11366",
+            "2306.11489",
+            "2401.03428",
+            "2402.15809",
+            "2402.19299",
+            "2402.19446",
+            "2405.11106",
+            "2407.03964",
+            "2408.07712"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2405.11106",
+              "organic_index": 0,
+              "position": 1,
+              "title": "LLM-based Multi-Agent Reinforcement Learning: Current and ... - arXiv",
+              "link": "https://arxiv.org/html/2405.11106v1",
+              "snippet": "In recent years, Large Language Models (LLMs) have shown great abilities in various tasks, including question answering, arithmetic problem solving, and poem ..."
+            },
+            {
+              "arxiv_id": "2402.19446",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Training Language Model Agents via Hierarchical Multi-Turn RL",
+              "link": "https://arxiv.org/abs/2402.19446",
+              "snippet": "A broad use case of large language models (LLMs) is in goal-directed decision-making tasks (or \"agent\" tasks), where an LLM needs to not just generate ..."
+            },
+            {
+              "arxiv_id": "2402.15809",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Empowering Large Language Model Agents through Action Learning",
+              "link": "https://arxiv.org/html/2402.15809v2",
+              "snippet": "We introduce a framework LearnAct with an iterative learning strategy to create and improve actions in the form of Python functions. In each iteration, LLM ..."
+            },
+            {
+              "arxiv_id": "2402.19299",
+              "organic_index": 3,
+              "position": 4,
+              "title": "RL-GPT: Integrating Reinforcement Learning and Code-as-policy",
+              "link": "https://arxiv.org/html/2402.19299v1",
+              "snippet": "Large Language Models (LLMs) have demonstrated proficiency in utilizing various tools by coding, yet they face limitations in handling intricate logic and ..."
+            },
+            {
+              "arxiv_id": "2401.03428",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Exploring Large Language Model based Intelligent Agents - arXiv",
+              "link": "https://arxiv.org/html/2401.03428v1",
+              "snippet": "The fundamental reinforcement learning framework includes the Agent, Environment, State, Action, and Reward. The agent performs actions in the environment, and ..."
+            },
+            {
+              "arxiv_id": "2408.07712",
+              "organic_index": 5,
+              "position": 6,
+              "title": "An Introduction to Reinforcement Learning: Fundamental Concepts ...",
+              "link": "https://arxiv.org/html/2408.07712v1",
+              "snippet": "The paper also provides examples of various RL algorithms, including model-free and model-based methods. In addition, RL algorithms are introduced and resources ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback."
+            },
+            {
+              "arxiv_id": "2303.11366",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+              "link": "https://arxiv.org/html/2303.11366",
+              "snippet": "We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback."
+            },
+            {
+              "arxiv_id": "2407.03964",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+              "link": "https://arxiv.org/html/2407.03964v1",
+              "snippet": "Low sample efficiency is an enduring challenge of reinforcement learning (RL). With the advent of versatile large language models (LLMs), recent works impart ..."
+            },
+            {
+              "arxiv_id": "2306.11489",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Give Us the Facts: Enhancing Large Language Models with ... - ar5iv",
+              "link": "https://ar5iv.labs.arxiv.org/html/2306.11489",
+              "snippet": "This paper reviews the studies on enhancing PLMs with KGs, detailing existing knowledge graph enhanced pre-trained language models (KGPLMs) as well as their ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 5,
+          "crawler_query": "Experiences in training Large Language Model agents using reinforcement learning",
+          "request_payload": {
+            "q": "Experiences in training Large Language Model agents using reinforcement learning before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 32,
+              "query_id": "Q4",
+              "group": "A",
+              "query_sequence": 5,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Experiences in training Large Language Model agents using reinforcement learning before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:52:55.869841+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Experiences in training Large Language Model agents using reinforcement learning before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Empowering Large Language Model Agents through Action Learning\",\"link\":\"https://arxiv.org/html/2402.15809v2\",\"snippet\":\"In this work, we propose a novel learning paradigm for LLM agents that focuses on learning to expand and iteratively refine the action space, thereby aligning ...\",\"date\":\"Aug 8, 2024\",\"position\":1},{\"title\":\"ExpeL: LLM Agents Are Experiential Learners - arXiv\",\"link\":\"https://arxiv.org/html/2308.10144v2\",\"snippet\":\"Our agent autonomously gathers experiences and extracts knowledge using natural language from a collection of training tasks.\",\"date\":\"Dec 18, 2023\",\"position\":2},{\"title\":\"Large Language Model as a Policy Teacher for Training ... - arXiv\",\"link\":\"https://arxiv.org/abs/2311.13373\",\"snippet\":\"reinforcement learning (RL) approaches train agents that specialize in the target task but often suffer from low sampling efficiency and high exploration costs.\",\"date\":\"Nov 22, 2023\",\"position\":3},{\"title\":\"Reflexion: Language Agents with Verbal Reinforcement Learning\",\"link\":\"https://arxiv.org/abs/2303.11366\",\"snippet\":\"We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback.\",\"date\":\"Mar 20, 2023\",\"position\":4},{\"title\":\"Reflexion: Language Agents with Verbal Reinforcement Learning\",\"link\":\"https://arxiv.org/html/2303.11366\",\"snippet\":\"We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback. Reflexion that uses ...\",\"date\":\"Oct 10, 2023\",\"position\":5},{\"title\":\"LLM-based Multi-Agent Reinforcement Learning: Current and ... - arXiv\",\"link\":\"https://arxiv.org/html/2405.11106v1\",\"snippet\":\"Large Language Models (LLMs) have shown great abilities in various tasks, including question answering, arithmetic problem solving, and poem writing, among ...\",\"date\":\"May 17, 2024\",\"position\":6},{\"title\":\"[PDF] grounded language instruction through demonstration in rl - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.02991\",\"snippet\":\"Several advances in reinforcement learning, curriculum learning, continual learning, language models have independently contributed to effective training of ...\",\"date\":\"Jan 3, 2024\",\"position\":7},{\"title\":\"An Introduction to Reinforcement Learning: Fundamental Concepts ...\",\"link\":\"https://arxiv.org/html/2408.07712v1\",\"snippet\":\"Reinforcement Learning (RL) is a branch of Artificial Intelligence (AI) which focuses on training agents to make decisions by interacting with their environment\",\"date\":\"Aug 13, 2024\",\"position\":8},{\"title\":\"Improving Sample Efficiency of Reinforcement Learning with ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.03964v1\",\"snippet\":\"In this paper, we introduce a framework that harnesses LLMs to extract background knowledge of an environment, which contains general understandings of the ...\",\"date\":\"Jul 4, 2024\",\"sitelinks\":[{\"title\":\"Iii Framework\",\"link\":\"https://arxiv.org/html/2407.03964v1#:~:text=III%20Framework,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"Iii-B Reward Shaping With...\",\"link\":\"https://arxiv.org/html/2407.03964v1#:~:text=III%2DB%20Reward%20Shaping%20with%20Background%20Knowledge,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"V Experiments\",\"link\":\"https://arxiv.org/html/2407.03964v1#:~:text=V%20Experiments,-Report%20issue%20for%20preceding%20element\"}],\"position\":9},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that ...\",\"date\":\"Jan 27, 2022\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "e3fa19520dbf67a780a171376e2d80ab8be641edb4c2aa28dd66faf153a6eb78",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Experiences in training Large Language Model agents using reinforcement learning before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "Empowering Large Language Model Agents through Action Learning",
+                    "link": "https://arxiv.org/html/2402.15809v2",
+                    "snippet": "In this work, we propose a novel learning paradigm for LLM agents that focuses on learning to expand and iteratively refine the action space, thereby aligning ...",
+                    "date": "Aug 8, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "ExpeL: LLM Agents Are Experiential Learners - arXiv",
+                    "link": "https://arxiv.org/html/2308.10144v2",
+                    "snippet": "Our agent autonomously gathers experiences and extracts knowledge using natural language from a collection of training tasks.",
+                    "date": "Dec 18, 2023",
+                    "position": 2
+                  },
+                  {
+                    "title": "Large Language Model as a Policy Teacher for Training ... - arXiv",
+                    "link": "https://arxiv.org/abs/2311.13373",
+                    "snippet": "reinforcement learning (RL) approaches train agents that specialize in the target task but often suffer from low sampling efficiency and high exploration costs.",
+                    "date": "Nov 22, 2023",
+                    "position": 3
+                  },
+                  {
+                    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+                    "link": "https://arxiv.org/abs/2303.11366",
+                    "snippet": "We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback.",
+                    "date": "Mar 20, 2023",
+                    "position": 4
+                  },
+                  {
+                    "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+                    "link": "https://arxiv.org/html/2303.11366",
+                    "snippet": "We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback. Reflexion that uses ...",
+                    "date": "Oct 10, 2023",
+                    "position": 5
+                  },
+                  {
+                    "title": "LLM-based Multi-Agent Reinforcement Learning: Current and ... - arXiv",
+                    "link": "https://arxiv.org/html/2405.11106v1",
+                    "snippet": "Large Language Models (LLMs) have shown great abilities in various tasks, including question answering, arithmetic problem solving, and poem writing, among ...",
+                    "date": "May 17, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "[PDF] grounded language instruction through demonstration in rl - arXiv",
+                    "link": "https://arxiv.org/pdf/2401.02991",
+                    "snippet": "Several advances in reinforcement learning, curriculum learning, continual learning, language models have independently contributed to effective training of ...",
+                    "date": "Jan 3, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "An Introduction to Reinforcement Learning: Fundamental Concepts ...",
+                    "link": "https://arxiv.org/html/2408.07712v1",
+                    "snippet": "Reinforcement Learning (RL) is a branch of Artificial Intelligence (AI) which focuses on training agents to make decisions by interacting with their environment",
+                    "date": "Aug 13, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+                    "link": "https://arxiv.org/html/2407.03964v1",
+                    "snippet": "In this paper, we introduce a framework that harnesses LLMs to extract background knowledge of an environment, which contains general understandings of the ...",
+                    "date": "Jul 4, 2024",
+                    "sitelinks": [
+                      {
+                        "title": "Iii Framework",
+                        "link": "https://arxiv.org/html/2407.03964v1#:~:text=III%20Framework,-Report%20issue%20for%20preceding%20element"
+                      },
+                      {
+                        "title": "Iii-B Reward Shaping With...",
+                        "link": "https://arxiv.org/html/2407.03964v1#:~:text=III%2DB%20Reward%20Shaping%20with%20Background%20Knowledge,-Report%20issue%20for%20preceding%20element"
+                      },
+                      {
+                        "title": "V Experiments",
+                        "link": "https://arxiv.org/html/2407.03964v1#:~:text=V%20Experiments,-Report%20issue%20for%20preceding%20element"
+                      }
+                    ],
+                    "position": 9
+                  },
+                  {
+                    "title": "Training language models to follow instructions with human feedback",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+                    "snippet": "Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that ...",
+                    "date": "Jan 27, 2022",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:52:57.038426+00:00",
+              "elapsed_seconds": 1.1686313785612583,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q4_A_05_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2203.02155",
+            "2303.11366",
+            "2308.10144",
+            "2311.13373",
+            "2401.02991",
+            "2402.15809",
+            "2405.11106",
+            "2407.03964",
+            "2408.07712"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2402.15809",
+              "organic_index": 0,
+              "position": 1,
+              "title": "Empowering Large Language Model Agents through Action Learning",
+              "link": "https://arxiv.org/html/2402.15809v2",
+              "snippet": "In this work, we propose a novel learning paradigm for LLM agents that focuses on learning to expand and iteratively refine the action space, thereby aligning ..."
+            },
+            {
+              "arxiv_id": "2308.10144",
+              "organic_index": 1,
+              "position": 2,
+              "title": "ExpeL: LLM Agents Are Experiential Learners - arXiv",
+              "link": "https://arxiv.org/html/2308.10144v2",
+              "snippet": "Our agent autonomously gathers experiences and extracts knowledge using natural language from a collection of training tasks."
+            },
+            {
+              "arxiv_id": "2311.13373",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Large Language Model as a Policy Teacher for Training ... - arXiv",
+              "link": "https://arxiv.org/abs/2311.13373",
+              "snippet": "reinforcement learning (RL) approaches train agents that specialize in the target task but often suffer from low sampling efficiency and high exploration costs."
+            },
+            {
+              "arxiv_id": "2303.11366",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+              "link": "https://arxiv.org/abs/2303.11366",
+              "snippet": "We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback."
+            },
+            {
+              "arxiv_id": "2303.11366",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+              "link": "https://arxiv.org/html/2303.11366",
+              "snippet": "We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback. Reflexion that uses ..."
+            },
+            {
+              "arxiv_id": "2405.11106",
+              "organic_index": 5,
+              "position": 6,
+              "title": "LLM-based Multi-Agent Reinforcement Learning: Current and ... - arXiv",
+              "link": "https://arxiv.org/html/2405.11106v1",
+              "snippet": "Large Language Models (LLMs) have shown great abilities in various tasks, including question answering, arithmetic problem solving, and poem writing, among ..."
+            },
+            {
+              "arxiv_id": "2401.02991",
+              "organic_index": 6,
+              "position": 7,
+              "title": "[PDF] grounded language instruction through demonstration in rl - arXiv",
+              "link": "https://arxiv.org/pdf/2401.02991",
+              "snippet": "Several advances in reinforcement learning, curriculum learning, continual learning, language models have independently contributed to effective training of ..."
+            },
+            {
+              "arxiv_id": "2408.07712",
+              "organic_index": 7,
+              "position": 8,
+              "title": "An Introduction to Reinforcement Learning: Fundamental Concepts ...",
+              "link": "https://arxiv.org/html/2408.07712v1",
+              "snippet": "Reinforcement Learning (RL) is a branch of Artificial Intelligence (AI) which focuses on training agents to make decisions by interacting with their environment"
+            },
+            {
+              "arxiv_id": "2407.03964",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Improving Sample Efficiency of Reinforcement Learning with ... - arXiv",
+              "link": "https://arxiv.org/html/2407.03964v1",
+              "snippet": "In this paper, we introduce a framework that harnesses LLMs to extract background knowledge of an environment, which contains general understandings of the ..."
+            },
+            {
+              "arxiv_id": "2203.02155",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Training language models to follow instructions with human feedback",
+              "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+              "snippet": "Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that ..."
+            }
+          ],
+          "organic_result_count": 10
+        }
+      ],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Provide me with all papers that discuss reinforcement learning training for Large Language Model agent tasks.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "81046ec53f944c2cf4b40d98eba8eeeba0d8353a171517857b82b18f388f5913",
+      "raw_output": "[Search]Survey papers on reinforcement learning training for large language models\n[Search]Research on task-agnostic rewards in reinforcement learning training for large language models\n[Search]Reinforcement learning approaches for optimizing Large Language Model agents\n[Search]Case studies of Large Language Model agents trained using reinforcement learning\n[Search]Experiences in training Large Language Model agents using reinforcement learning\n[StopSearch]",
+      "raw_output_with_special_tokens": "[Search]Survey papers on reinforcement learning training for large language models\n[Search]Research on task-agnostic rewards in reinforcement learning training for large language models\n[Search]Reinforcement learning approaches for optimizing Large Language Model agents\n[Search]Case studies of Large Language Model agents trained using reinforcement learning\n[Search]Experiences in training Large Language Model agents using reinforcement learning\n[StopSearch]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        5890,
+        60,
+        68015,
+        15689,
+        389,
+        71278,
+        6832,
+        4862,
+        369,
+        3460,
+        4128,
+        4119,
+        198,
+        58,
+        5890,
+        60,
+        27428,
+        389,
+        3383,
+        12,
+        11953,
+        21160,
+        304,
+        71278,
+        6832,
+        4862,
+        369,
+        3460,
+        4128,
+        4119,
+        198,
+        58,
+        5890,
+        60,
+        693,
+        258,
+        10927,
+        6832,
+        19827,
+        369,
+        73042,
+        20286,
+        11434,
+        4903,
+        13009,
+        198,
+        58,
+        5890,
+        60,
+        4207,
+        7822,
+        315,
+        20286,
+        11434,
+        4903,
+        13009,
+        16176,
+        1667,
+        71278,
+        6832,
+        198,
+        58,
+        5890,
+        60,
+        840,
+        68497,
+        304,
+        4862,
+        20286,
+        11434,
+        4903,
+        13009,
+        1667,
+        71278,
+        6832,
+        198,
+        58,
+        10674,
+        5890,
+        60,
+        151645
+      ],
+      "generated_token_count": 82,
+      "ended_with_eos": true,
+      "input_token_count": 72,
+      "generation_seconds": 2.748468678444624,
+      "all_parsed_queries": [
+        "Survey papers on reinforcement learning training for large language models",
+        "Research on task-agnostic rewards in reinforcement learning training for large language models",
+        "Reinforcement learning approaches for optimizing Large Language Model agents",
+        "Case studies of Large Language Model agents trained using reinforcement learning",
+        "Experiences in training Large Language Model agents using reinforcement learning"
+      ],
+      "queries": [
+        "Survey papers on reinforcement learning training for large language models",
+        "Research on task-agnostic rewards in reinforcement learning training for large language models",
+        "Reinforcement learning approaches for optimizing Large Language Model agents",
+        "Case studies of Large Language Model agents trained using reinforcement learning",
+        "Experiences in training Large Language Model agents using reinforcement learning"
+      ],
+      "discarded_queries": []
+    },
+    "B": {
+      "prompt": "Please generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Provide me with all papers that discuss reinforcement learning training for Large Language Model agent tasks.",
+      "searches": [],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Provide me with all papers that discuss reinforcement learning training for Large Language Model agent tasks.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "572c0b6e6ecfa8f777fba9f3d1bd4fb9f3655600a25fe8298413bb69108485de",
+      "raw_output": "[Expand]Reinforcement learning approaches for Large Language Model optimization[Expand]Exploration techniques in reinforcement learning for Large Language Models[Expand]Case studies on reinforcement learning training for language model agents[Expand]Benchmark studies on reinforcement learning training for large language models[StopExpand]",
+      "raw_output_with_special_tokens": "[Expand]Reinforcement learning approaches for Large Language Model optimization[Expand]Exploration techniques in reinforcement learning for Large Language Models[Expand]Case studies on reinforcement learning training for language model agents[Expand]Benchmark studies on reinforcement learning training for large language models[StopExpand]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        38946,
+        60,
+        693,
+        258,
+        10927,
+        6832,
+        19827,
+        369,
+        20286,
+        11434,
+        4903,
+        25262,
+        58,
+        38946,
+        60,
+        43953,
+        7614,
+        12538,
+        304,
+        71278,
+        6832,
+        369,
+        20286,
+        11434,
+        26874,
+        58,
+        38946,
+        60,
+        4207,
+        7822,
+        389,
+        71278,
+        6832,
+        4862,
+        369,
+        4128,
+        1614,
+        13009,
+        58,
+        38946,
+        60,
+        84971,
+        7822,
+        389,
+        71278,
+        6832,
+        4862,
+        369,
+        3460,
+        4128,
+        4119,
+        58,
+        10674,
+        38946,
+        60,
+        151645
+      ],
+      "generated_token_count": 57,
+      "ended_with_eos": true,
+      "input_token_count": 162,
+      "generation_seconds": 1.9163873568177223,
+      "all_parsed_queries": [],
+      "queries": [],
+      "discarded_queries": []
+    }
+  },
+  "started_utc": "2026-09-14T02:52:45.738305+00:00",
+  "search_order_first_group": "A",
+  "search_started_utc": "2026-09-14T02:52:50.407490+00:00",
+  "search_finished_utc": "2026-09-14T02:52:57.039327+00:00",
+  "search_seconds": 6.631862200796604,
+  "finished_utc": "2026-09-14T02:52:57.039341+00:00",
+  "elapsed_seconds": 11.301041562110186
+}

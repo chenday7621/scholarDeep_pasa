@@ -1,0 +1,1388 @@
+{
+  "query_id": "Q27",
+  "query_index": 27,
+  "dataset_qid": "RealScholarQuery_27",
+  "original_question": "Show me research on rejection sampling finetuning.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Survey papers on rejection sampling fine-tuning",
+    "Research articles on fine-tuning techniques in rejection sampling",
+    "Academic studies on rejection sampling optimization",
+    "Rejection sampling fine-tuning in machine learning",
+    "Studies on improving rejection sampling efficiency in fine-tuning"
+  ],
+  "anchor": "Show me research on rejection sampling finetuning.",
+  "source_generation_id": "Q27_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Survey papers on rejection sampling fine-tuning",
+        "Research articles on fine-tuning techniques in rejection sampling",
+        "Academic studies on rejection sampling optimization",
+        "Rejection sampling fine-tuning in machine learning",
+        "Studies on improving rejection sampling efficiency in fine-tuning"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "Show me research on rejection sampling finetuning.",
+        "Survey papers on rejection sampling fine-tuning",
+        "Research articles on fine-tuning techniques in rejection sampling",
+        "Academic studies on rejection sampling optimization",
+        "Rejection sampling fine-tuning in machine learning"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Survey papers on rejection sampling fine-tuning",
+      "attempts": [
+        {
+          "global_attempt_sequence": 163,
+          "query_id": "Q27",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Survey papers on rejection sampling fine-tuning",
+          "request_payload": {
+            "q": "Survey papers on rejection sampling fine-tuning before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q27_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:28:04.254337+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on rejection sampling fine-tuning before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[PDF] arXiv:2308.01825v1 [cs.CL] 3 Aug 2023\",\"link\":\"https://arxiv.org/pdf/2308.01825\",\"snippet\":\"Rejection sampling is a simple-yet-effective fine-tuning augmentation technique and is also used for LLM alignment with human preference (Bai et al., 2022; Yuan ...\",\"date\":\"Aug 4, 2023\",\"position\":1},{\"title\":\"Scaling Relationship on Learning Mathematical Reasoning with ...\",\"link\":\"https://arxiv.org/abs/2308.01825\",\"snippet\":\"To augment more data samples for improving model performances without any human effort, we propose to apply Rejection sampling Fine-Tuning (RFT). RFT uses ...\",\"date\":\"Aug 3, 2023\",\"position\":2},{\"title\":\"RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.10038v2\",\"snippet\":\"In this paper, we addresses both challenges by systematically combining rejection sampling (RS) and DPO. Our proposed method, RS-DPO, initiates with the ...\",\"date\":\"Mar 30, 2024\",\"position\":3},{\"title\":\"[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024\",\"link\":\"https://arxiv.org/pdf/2402.03300\",\"snippet\":\"Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions. RFT ...\",\"date\":\"Apr 27, 2024\",\"position\":4},{\"title\":\"[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2307.09288\",\"snippet\":\"In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ...\",\"date\":\"Jul 19, 2023\",\"position\":5},{\"title\":\"[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024\",\"link\":\"https://arxiv.org/pdf/2404.17140\",\"snippet\":\"Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated.\",\"date\":\"Jun 6, 2024\",\"position\":6},{\"title\":\"DeepSeekMath: Pushing the Limits of Mathematical Reasoning in ...\",\"link\":\"https://arxiv.org/html/2402.03300v3\",\"snippet\":\"Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions. RFT ...\",\"date\":\"Apr 27, 2024\",\"position\":7},{\"title\":\"V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv\",\"link\":\"https://arxiv.org/html/2402.06457v2\",\"snippet\":\"This fine-tuned generator is used in subsequent iterations. Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the ...\",\"date\":\"Aug 14, 2024\",\"position\":8},{\"title\":\"A Survey on Data Selection for Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2402.16827v1\",\"snippet\":\"Touvron et al. (2023b) use rejection sampling as part of a continued instruction-tuning by selecting the top percentage of their instruction dataset to continue ...\",\"date\":\"Feb 26, 2024\",\"position\":9},{\"title\":\"[PDF] arXiv:2402.18571v3 [cs.LG] 6 Mar 2024\",\"link\":\"https://arxiv.org/pdf/2402.18571\",\"snippet\":\"Our method involves training a multi-objective reward model and then fine-tuning the LLM with a preference-conditioned variant of Rejection Sampling Finetuning ...\",\"date\":\"Mar 6, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIHJlamVjdGlvbiBzYW1wbGluZyBmaW5lLXR1bmluZyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJbUERGXSBhclhpdjoyMzA4LjAxODI1djEgW2NzLkNMXSAzIEF1ZyAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA4LjAxODI1Iiwic25pcHBldCI6IlJlamVjdGlvbiBzYW1wbGluZyBpcyBhIHNpbXBsZS15ZXQtZWZmZWN0aXZlIGZpbmUtdHVuaW5nIGF1Z21lbnRhdGlvbiB0ZWNobmlxdWUgYW5kIGlzIGFsc28gdXNlZCBmb3IgTExNIGFsaWdubWVudCB3aXRoIGh1bWFuIHByZWZlcmVuY2UgKEJhaSBldCBhbC4sIDIwMjI7IFl1YW4gLi4uIiwiZGF0ZSI6IkF1ZyA0LCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJTY2FsaW5nIFJlbGF0aW9uc2hpcCBvbiBMZWFybmluZyBNYXRoZW1hdGljYWwgUmVhc29uaW5nIHdpdGggLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzA4LjAxODI1Iiwic25pcHBldCI6IlRvIGF1Z21lbnQgbW9yZSBkYXRhIHNhbXBsZXMgZm9yIGltcHJvdmluZyBtb2RlbCBwZXJmb3JtYW5jZXMgd2l0aG91dCBhbnkgaHVtYW4gZWZmb3J0LCB3ZSBwcm9wb3NlIHRvIGFwcGx5IFJlamVjdGlvbiBzYW1wbGluZyBGaW5lLVR1bmluZyAoUkZUKS4gUkZUIHVzZXMgLi4uIiwiZGF0ZSI6IkF1ZyAzLCAyMDIzIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJSUy1EUE86IEEgSHlicmlkIFJlamVjdGlvbiBTYW1wbGluZyBhbmQgRGlyZWN0IFByZWZlcmVuY2UgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjEwMDM4djIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgYWRkcmVzc2VzIGJvdGggY2hhbGxlbmdlcyBieSBzeXN0ZW1hdGljYWxseSBjb21iaW5pbmcgcmVqZWN0aW9uIHNhbXBsaW5nIChSUykgYW5kIERQTy4gT3VyIHByb3Bvc2VkIG1ldGhvZCwgUlMtRFBPLCBpbml0aWF0ZXMgd2l0aCB0aGUgLi4uIiwiZGF0ZSI6Ik1hciAzMCwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwMi4wMzMwMHYzIFtjcy5DTF0gMjcgQXByIDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDIuMDMzMDAiLCJzbmlwcGV0IjoiUmVqZWN0aW9uIFNhbXBsaW5nIEZpbmUtdHVuaW5nIChSRlQpOiBSRlQgZnVydGhlciBmaW5lLXR1bmVzIHRoZSBTRlQgbW9kZWwgb24gdGhlIGZpbHRlcmVkIG91dHB1dHMgc2FtcGxlZCBmcm9tIHRoZSBTRlQgbW9kZWwgYmFzZWQgb24gU0ZUIHF1ZXN0aW9ucy4gUkZUIC4uLiIsImRhdGUiOiJBcHIgMjcsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIExsYW1hIDI6IE9wZW4gRm91bmRhdGlvbiBhbmQgRmluZS1UdW5lZCBDaGF0IE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA3LjA5Mjg4Iiwic25pcHBldCI6IkluIFJlamVjdGlvbiBTYW1wbGluZyBmaW5lLXR1bmluZywgd2Ugc2FtcGxlIGFsbCB0aGUgb3V0cHV0cyBnaXZlbiB0aGUgaW5pdGlhbCBwb2xpY3kgb2Ygb3VyIG1vZGVsIHRvIGNvbGxlY3QgYSBuZXcgZGF0YXNldCwgYmVmb3JlIGFwcGx5aW5nIHRoZSBmaW5lLXR1bmluZyAuLi4iLCJkYXRlIjoiSnVsIDE5LCAyMDIzIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDA0LjE3MTQwdjIgW2NzLkNMXSA2IEp1biAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA0LjE3MTQwIiwic25pcHBldCI6Ik91ciBhcHByb2FjaCBpcyBpbnNwaXJlZCBieSByZWplY3Rpb24gc2FtcGxpbmcgZmluZS0gdHVuaW5nIChSRlQpOiBzYW1wbGluZyBkaXZlcnNlIHNvbHV0aW9ucyBmb3IgZWFjaCBxdWVzdGlvbiBhbmQgZmluZS10dW5lIExMTXMgb24gdGhlIHNlbGYtZ2VuZXJhdGVkLiIsImRhdGUiOiJKdW4gNiwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiRGVlcFNlZWtNYXRoOiBQdXNoaW5nIHRoZSBMaW1pdHMgb2YgTWF0aGVtYXRpY2FsIFJlYXNvbmluZyBpbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjAzMzAwdjMiLCJzbmlwcGV0IjoiUmVqZWN0aW9uIFNhbXBsaW5nIEZpbmUtdHVuaW5nIChSRlQpOiBSRlQgZnVydGhlciBmaW5lLXR1bmVzIHRoZSBTRlQgbW9kZWwgb24gdGhlIGZpbHRlcmVkIG91dHB1dHMgc2FtcGxlZCBmcm9tIHRoZSBTRlQgbW9kZWwgYmFzZWQgb24gU0ZUIHF1ZXN0aW9ucy4gUkZUIC4uLiIsImRhdGUiOiJBcHIgMjcsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlYtU1RhUjogVHJhaW5pbmcgVmVyaWZpZXJzIGZvciBTZWxmLVRhdWdodCBSZWFzb25lcnMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDY0NTd2MiIsInNuaXBwZXQiOiJUaGlzIGZpbmUtdHVuZWQgZ2VuZXJhdG9yIGlzIHVzZWQgaW4gc3Vic2VxdWVudCBpdGVyYXRpb25zLiBSZWplY3Rpb24gU2FtcGxpbmcgRmluZS10dW5pbmcgKFl1YW4gZXQgYWwuLCAyMDIzLCBSRlQ7KSBmaXJzdCBmaW5lLXR1bmVzIGEgcHJldHJhaW5lZCBMTSBvbiB0aGUgLi4uIiwiZGF0ZSI6IkF1ZyAxNCwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gRGF0YSBTZWxlY3Rpb24gZm9yIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4xNjgyN3YxIiwic25pcHBldCI6IlRvdXZyb24gZXQgYWwuICgyMDIzYikgdXNlIHJlamVjdGlvbiBzYW1wbGluZyBhcyBwYXJ0IG9mIGEgY29udGludWVkIGluc3RydWN0aW9uLXR1bmluZyBieSBzZWxlY3RpbmcgdGhlIHRvcCBwZXJjZW50YWdlIG9mIHRoZWlyIGluc3RydWN0aW9uIGRhdGFzZXQgdG8gY29udGludWUgLi4uIiwiZGF0ZSI6IkZlYiAyNiwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwMi4xODU3MXYzIFtjcy5MR10gNiBNYXIgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMi4xODU3MSIsInNuaXBwZXQiOiJPdXIgbWV0aG9kIGludm9sdmVzIHRyYWluaW5nIGEgbXVsdGktb2JqZWN0aXZlIHJld2FyZCBtb2RlbCBhbmQgdGhlbiBmaW5lLXR1bmluZyB0aGUgTExNIHdpdGggYSBwcmVmZXJlbmNlLWNvbmRpdGlvbmVkIHZhcmlhbnQgb2YgUmVqZWN0aW9uIFNhbXBsaW5nIEZpbmV0dW5pbmcgLi4uIiwiZGF0ZSI6Ik1hciA2LCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "b96dbe5156a98dde3f5ddde84e3db36777f122bf214451d2f1ab85d209c101da",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey papers on rejection sampling fine-tuning before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "[PDF] arXiv:2308.01825v1 [cs.CL] 3 Aug 2023",
+                "link": "https://arxiv.org/pdf/2308.01825",
+                "snippet": "Rejection sampling is a simple-yet-effective fine-tuning augmentation technique and is also used for LLM alignment with human preference (Bai et al., 2022; Yuan ...",
+                "date": "Aug 4, 2023",
+                "position": 1
+              },
+              {
+                "title": "Scaling Relationship on Learning Mathematical Reasoning with ...",
+                "link": "https://arxiv.org/abs/2308.01825",
+                "snippet": "To augment more data samples for improving model performances without any human effort, we propose to apply Rejection sampling Fine-Tuning (RFT). RFT uses ...",
+                "date": "Aug 3, 2023",
+                "position": 2
+              },
+              {
+                "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+                "link": "https://arxiv.org/html/2402.10038v2",
+                "snippet": "In this paper, we addresses both challenges by systematically combining rejection sampling (RS) and DPO. Our proposed method, RS-DPO, initiates with the ...",
+                "date": "Mar 30, 2024",
+                "position": 3
+              },
+              {
+                "title": "[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024",
+                "link": "https://arxiv.org/pdf/2402.03300",
+                "snippet": "Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions. RFT ...",
+                "date": "Apr 27, 2024",
+                "position": 4
+              },
+              {
+                "title": "[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv",
+                "link": "https://arxiv.org/pdf/2307.09288",
+                "snippet": "In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ...",
+                "date": "Jul 19, 2023",
+                "position": 5
+              },
+              {
+                "title": "[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024",
+                "link": "https://arxiv.org/pdf/2404.17140",
+                "snippet": "Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated.",
+                "date": "Jun 6, 2024",
+                "position": 6
+              },
+              {
+                "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in ...",
+                "link": "https://arxiv.org/html/2402.03300v3",
+                "snippet": "Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions. RFT ...",
+                "date": "Apr 27, 2024",
+                "position": 7
+              },
+              {
+                "title": "V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv",
+                "link": "https://arxiv.org/html/2402.06457v2",
+                "snippet": "This fine-tuned generator is used in subsequent iterations. Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the ...",
+                "date": "Aug 14, 2024",
+                "position": 8
+              },
+              {
+                "title": "A Survey on Data Selection for Language Models - arXiv",
+                "link": "https://arxiv.org/html/2402.16827v1",
+                "snippet": "Touvron et al. (2023b) use rejection sampling as part of a continued instruction-tuning by selecting the top percentage of their instruction dataset to continue ...",
+                "date": "Feb 26, 2024",
+                "position": 9
+              },
+              {
+                "title": "[PDF] arXiv:2402.18571v3 [cs.LG] 6 Mar 2024",
+                "link": "https://arxiv.org/pdf/2402.18571",
+                "snippet": "Our method involves training a multi-objective reward model and then fine-tuning the LLM with a preference-conditioned variant of Rejection Sampling Finetuning ...",
+                "date": "Mar 6, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:05.421222+00:00",
+          "elapsed_seconds": 1.1668862104415894
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2307.09288",
+        "2308.01825",
+        "2402.03300",
+        "2402.06457",
+        "2402.10038",
+        "2402.16827",
+        "2402.18571",
+        "2404.17140"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2308.01825",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/pdf/2308.01825",
+          "title": "[PDF] arXiv:2308.01825v1 [cs.CL] 3 Aug 2023",
+          "snippet": "Rejection sampling is a simple-yet-effective fine-tuning augmentation technique and is also used for LLM alignment with human preference (Bai et al., 2022; Yuan ..."
+        },
+        {
+          "arxiv_id": "2308.01825",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2308.01825",
+          "title": "Scaling Relationship on Learning Mathematical Reasoning with ...",
+          "snippet": "To augment more data samples for improving model performances without any human effort, we propose to apply Rejection sampling Fine-Tuning (RFT). RFT uses ..."
+        },
+        {
+          "arxiv_id": "2402.10038",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2402.10038v2",
+          "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+          "snippet": "In this paper, we addresses both challenges by systematically combining rejection sampling (RS) and DPO. Our proposed method, RS-DPO, initiates with the ..."
+        },
+        {
+          "arxiv_id": "2402.03300",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2402.03300",
+          "title": "[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024",
+          "snippet": "Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions. RFT ..."
+        },
+        {
+          "arxiv_id": "2307.09288",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2307.09288",
+          "title": "[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv",
+          "snippet": "In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ..."
+        },
+        {
+          "arxiv_id": "2404.17140",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2404.17140",
+          "title": "[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024",
+          "snippet": "Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated."
+        },
+        {
+          "arxiv_id": "2402.03300",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2402.03300v3",
+          "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in ...",
+          "snippet": "Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions. RFT ..."
+        },
+        {
+          "arxiv_id": "2402.06457",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2402.06457v2",
+          "title": "V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv",
+          "snippet": "This fine-tuned generator is used in subsequent iterations. Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the ..."
+        },
+        {
+          "arxiv_id": "2402.16827",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2402.16827v1",
+          "title": "A Survey on Data Selection for Language Models - arXiv",
+          "snippet": "Touvron et al. (2023b) use rejection sampling as part of a continued instruction-tuning by selecting the top percentage of their instruction dataset to continue ..."
+        },
+        {
+          "arxiv_id": "2402.18571",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2402.18571",
+          "title": "[PDF] arXiv:2402.18571v3 [cs.LG] 6 Mar 2024",
+          "snippet": "Our method involves training a multi-objective reward model and then fine-tuning the LLM with a preference-conditioned variant of Rejection Sampling Finetuning ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey papers on rejection sampling fine-tuning before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Research articles on fine-tuning techniques in rejection sampling",
+      "attempts": [
+        {
+          "global_attempt_sequence": 164,
+          "query_id": "Q27",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Research articles on fine-tuning techniques in rejection sampling",
+          "request_payload": {
+            "q": "Research articles on fine-tuning techniques in rejection sampling before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q27_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:28:05.580248+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Research articles on fine-tuning techniques in rejection sampling before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[PDF] arXiv:2308.01825v1 [cs.CL] 3 Aug 2023\",\"link\":\"https://arxiv.org/pdf/2308.01825\",\"snippet\":\"Rejection sampling is a simple-yet-effective fine-tuning augmentation technique and is also used for LLM alignment with human preference\",\"date\":\"Aug 4, 2023\",\"position\":1},{\"title\":\"RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.10038v2\",\"snippet\":\"Our experiments indicate that our proposed method effectively fine-tunes LLMs with limited resource environments, leading to improved alignment with user ...\",\"date\":\"Mar 30, 2024\",\"position\":2},{\"title\":\"[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2307.09288\",\"snippet\":\"In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ...\",\"date\":\"Jul 19, 2023\",\"position\":3},{\"title\":\"[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024\",\"link\":\"https://arxiv.org/pdf/2402.03300\",\"snippet\":\"Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions.\",\"date\":\"Apr 27, 2024\",\"position\":4},{\"title\":\"[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024\",\"link\":\"https://arxiv.org/pdf/2404.17140\",\"snippet\":\"Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated.\",\"date\":\"Jun 6, 2024\",\"position\":5},{\"title\":\"[PDF] arXiv:2312.02179v1 [cs.LG] 28 Nov 2023\",\"link\":\"https://arxiv.org/pdf/2312.02179\",\"snippet\":\"We compare against four baseline prompt-tuning methods: direct prompt tuning, CoT prompt tuning, rejection sampling, and STaR (Zelikman et al., 2022). All ...\",\"date\":\"Nov 28, 2023\",\"position\":6},{\"title\":\"Apple Intelligence Foundation Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2407.21075v1\",\"snippet\":\"We present two new post-training algorithms: (1) a rejection sampling fine-tuning algorithm with teacher committee (iTeC), and (2) a reinforcement learning from ...\",\"date\":\"Jul 29, 2024\",\"position\":7},{\"title\":\"Detecting and Preventing Hallucinations in Large Vision Language ...\",\"link\":\"https://arxiv.org/html/2308.06394v3\",\"snippet\":\"Therefore, in this paper we focus on measuring the quality of these reward models, exploring classification metrics and using best-of-n rejection sampling as an ...\",\"date\":\"Feb 11, 2024\",\"sitelinks\":[{\"title\":\"Detecting And Preventing...\",\"link\":\"https://arxiv.org/html/2308.06394v3#:~:text=2024-,Detecting%20and%20Preventing%20Hallucinations%20in\"},{\"title\":\"Method\",\"link\":\"https://arxiv.org/html/2308.06394v3#:~:text=.-,Method\"},{\"title\":\"Fine-Grained Direct...\",\"link\":\"https://arxiv.org/html/2308.06394v3#:~:text=Fine%2Dgrained%20Direct%20Preference%20Optimization,-While%20we%20train%20a%20reward\"}],\"position\":8},{\"title\":\"V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv\",\"link\":\"https://arxiv.org/html/2402.06457v2\",\"snippet\":\"This fine-tuned generator is used in subsequent iterations. Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the ...\",\"date\":\"Aug 14, 2024\",\"sitelinks\":[{\"title\":\"V-Star: Training Verifiers...\",\"link\":\"https://arxiv.org/html/2402.06457v2#:~:text=V%2DSTaR%3A%20Training%20Verifiers%20for%20Self%2DTaught%20Reasoners,-Arian%20Hosseini\"},{\"title\":\"3 V-Star: Verifiers For...\",\"link\":\"https://arxiv.org/html/2402.06457v2#:~:text=3%20V%2DSTaR%3A%20Verifiers%20for%20self%2Dtaught%20reasoners,-Existing%20self%2Dimprovement%20methods\"},{\"title\":\"4 Empirical Results\",\"link\":\"https://arxiv.org/html/2402.06457v2#:~:text=4%20Empirical%20results,-To%20demonstrate%20the%20effectiveness%20of\"}],\"position\":9},{\"title\":\"[PDF] arXiv:2402.18571v3 [cs.LG] 6 Mar 2024\",\"link\":\"https://arxiv.org/pdf/2402.18571\",\"snippet\":\"Our method involves training a multi-objective reward model and then fine-tuning the LLM with a preference-conditioned variant of Rejection Sampling Finetuning ...\",\"date\":\"Mar 6, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZXNlYXJjaCBhcnRpY2xlcyBvbiBmaW5lLXR1bmluZyB0ZWNobmlxdWVzIGluIHJlamVjdGlvbiBzYW1wbGluZyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJbUERGXSBhclhpdjoyMzA4LjAxODI1djEgW2NzLkNMXSAzIEF1ZyAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA4LjAxODI1Iiwic25pcHBldCI6IlJlamVjdGlvbiBzYW1wbGluZyBpcyBhIHNpbXBsZS15ZXQtZWZmZWN0aXZlIGZpbmUtdHVuaW5nIGF1Z21lbnRhdGlvbiB0ZWNobmlxdWUgYW5kIGlzIGFsc28gdXNlZCBmb3IgTExNIGFsaWdubWVudCB3aXRoIGh1bWFuIHByZWZlcmVuY2UiLCJkYXRlIjoiQXVnIDQsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlJTLURQTzogQSBIeWJyaWQgUmVqZWN0aW9uIFNhbXBsaW5nIGFuZCBEaXJlY3QgUHJlZmVyZW5jZSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMTAwMzh2MiIsInNuaXBwZXQiOiJPdXIgZXhwZXJpbWVudHMgaW5kaWNhdGUgdGhhdCBvdXIgcHJvcG9zZWQgbWV0aG9kIGVmZmVjdGl2ZWx5IGZpbmUtdHVuZXMgTExNcyB3aXRoIGxpbWl0ZWQgcmVzb3VyY2UgZW52aXJvbm1lbnRzLCBsZWFkaW5nIHRvIGltcHJvdmVkIGFsaWdubWVudCB3aXRoIHVzZXIgLi4uIiwiZGF0ZSI6Ik1hciAzMCwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiW1BERl0gTGxhbWEgMjogT3BlbiBGb3VuZGF0aW9uIGFuZCBGaW5lLVR1bmVkIENoYXQgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDcuMDkyODgiLCJzbmlwcGV0IjoiSW4gUmVqZWN0aW9uIFNhbXBsaW5nIGZpbmUtdHVuaW5nLCB3ZSBzYW1wbGUgYWxsIHRoZSBvdXRwdXRzIGdpdmVuIHRoZSBpbml0aWFsIHBvbGljeSBvZiBvdXIgbW9kZWwgdG8gY29sbGVjdCBhIG5ldyBkYXRhc2V0LCBiZWZvcmUgYXBwbHlpbmcgdGhlIGZpbmUtdHVuaW5nIC4uLiIsImRhdGUiOiJKdWwgMTksIDIwMjMiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDIuMDMzMDB2MyBbY3MuQ0xdIDI3IEFwciAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAyLjAzMzAwIiwic25pcHBldCI6IlJlamVjdGlvbiBTYW1wbGluZyBGaW5lLXR1bmluZyAoUkZUKTogUkZUIGZ1cnRoZXIgZmluZS10dW5lcyB0aGUgU0ZUIG1vZGVsIG9uIHRoZSBmaWx0ZXJlZCBvdXRwdXRzIHNhbXBsZWQgZnJvbSB0aGUgU0ZUIG1vZGVsIGJhc2VkIG9uIFNGVCBxdWVzdGlvbnMuIiwiZGF0ZSI6IkFwciAyNywgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwNC4xNzE0MHYyIFtjcy5DTF0gNiBKdW4gMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNC4xNzE0MCIsInNuaXBwZXQiOiJPdXIgYXBwcm9hY2ggaXMgaW5zcGlyZWQgYnkgcmVqZWN0aW9uIHNhbXBsaW5nIGZpbmUtIHR1bmluZyAoUkZUKTogc2FtcGxpbmcgZGl2ZXJzZSBzb2x1dGlvbnMgZm9yIGVhY2ggcXVlc3Rpb24gYW5kIGZpbmUtdHVuZSBMTE1zIG9uIHRoZSBzZWxmLWdlbmVyYXRlZC4iLCJkYXRlIjoiSnVuIDYsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMTIuMDIxNzl2MSBbY3MuTEddIDI4IE5vdiAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzEyLjAyMTc5Iiwic25pcHBldCI6IldlIGNvbXBhcmUgYWdhaW5zdCBmb3VyIGJhc2VsaW5lIHByb21wdC10dW5pbmcgbWV0aG9kczogZGlyZWN0IHByb21wdCB0dW5pbmcsIENvVCBwcm9tcHQgdHVuaW5nLCByZWplY3Rpb24gc2FtcGxpbmcsIGFuZCBTVGFSIChaZWxpa21hbiBldCBhbC4sIDIwMjIpLiBBbGwgLi4uIiwiZGF0ZSI6Ik5vdiAyOCwgMjAyMyIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiQXBwbGUgSW50ZWxsaWdlbmNlIEZvdW5kYXRpb24gTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjIxMDc1djEiLCJzbmlwcGV0IjoiV2UgcHJlc2VudCB0d28gbmV3IHBvc3QtdHJhaW5pbmcgYWxnb3JpdGhtczogKDEpIGEgcmVqZWN0aW9uIHNhbXBsaW5nIGZpbmUtdHVuaW5nIGFsZ29yaXRobSB3aXRoIHRlYWNoZXIgY29tbWl0dGVlIChpVGVDKSwgYW5kICgyKSBhIHJlaW5mb3JjZW1lbnQgbGVhcm5pbmcgZnJvbSAuLi4iLCJkYXRlIjoiSnVsIDI5LCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJEZXRlY3RpbmcgYW5kIFByZXZlbnRpbmcgSGFsbHVjaW5hdGlvbnMgaW4gTGFyZ2UgVmlzaW9uIExhbmd1YWdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDguMDYzOTR2MyIsInNuaXBwZXQiOiJUaGVyZWZvcmUsIGluIHRoaXMgcGFwZXIgd2UgZm9jdXMgb24gbWVhc3VyaW5nIHRoZSBxdWFsaXR5IG9mIHRoZXNlIHJld2FyZCBtb2RlbHMsIGV4cGxvcmluZyBjbGFzc2lmaWNhdGlvbiBtZXRyaWNzIGFuZCB1c2luZyBiZXN0LW9mLW4gcmVqZWN0aW9uIHNhbXBsaW5nIGFzIGFuIC4uLiIsImRhdGUiOiJGZWIgMTEsIDIwMjQiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiRGV0ZWN0aW5nIEFuZCBQcmV2ZW50aW5nLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4wNjM5NHYzIzp+OnRleHQ9MjAyNC0sRGV0ZWN0aW5nJTIwYW5kJTIwUHJldmVudGluZyUyMEhhbGx1Y2luYXRpb25zJTIwaW4ifSx7InRpdGxlIjoiTWV0aG9kIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4wNjM5NHYzIzp+OnRleHQ9Li0sTWV0aG9kIn0seyJ0aXRsZSI6IkZpbmUtR3JhaW5lZCBEaXJlY3QuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA4LjA2Mzk0djMjOn46dGV4dD1GaW5lJTJEZ3JhaW5lZCUyMERpcmVjdCUyMFByZWZlcmVuY2UlMjBPcHRpbWl6YXRpb24sLVdoaWxlJTIwd2UlMjB0cmFpbiUyMGElMjByZXdhcmQifV0sInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiVi1TVGFSOiBUcmFpbmluZyBWZXJpZmllcnMgZm9yIFNlbGYtVGF1Z2h0IFJlYXNvbmVycyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNjQ1N3YyIiwic25pcHBldCI6IlRoaXMgZmluZS10dW5lZCBnZW5lcmF0b3IgaXMgdXNlZCBpbiBzdWJzZXF1ZW50IGl0ZXJhdGlvbnMuIFJlamVjdGlvbiBTYW1wbGluZyBGaW5lLXR1bmluZyAoWXVhbiBldCBhbC4sIDIwMjMsIFJGVDspIGZpcnN0IGZpbmUtdHVuZXMgYSBwcmV0cmFpbmVkIExNIG9uIHRoZSAuLi4iLCJkYXRlIjoiQXVnIDE0LCAyMDI0Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IlYtU3RhcjogVHJhaW5pbmcgVmVyaWZpZXJzLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNjQ1N3YyIzp+OnRleHQ9ViUyRFNUYVIlM0ElMjBUcmFpbmluZyUyMFZlcmlmaWVycyUyMGZvciUyMFNlbGYlMkRUYXVnaHQlMjBSZWFzb25lcnMsLUFyaWFuJTIwSG9zc2VpbmkifSx7InRpdGxlIjoiMyBWLVN0YXI6IFZlcmlmaWVycyBGb3IuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjA2NDU3djIjOn46dGV4dD0zJTIwViUyRFNUYVIlM0ElMjBWZXJpZmllcnMlMjBmb3IlMjBzZWxmJTJEdGF1Z2h0JTIwcmVhc29uZXJzLC1FeGlzdGluZyUyMHNlbGYlMkRpbXByb3ZlbWVudCUyMG1ldGhvZHMifSx7InRpdGxlIjoiNCBFbXBpcmljYWwgUmVzdWx0cyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDY0NTd2MiM6fjp0ZXh0PTQlMjBFbXBpcmljYWwlMjByZXN1bHRzLC1UbyUyMGRlbW9uc3RyYXRlJTIwdGhlJTIwZWZmZWN0aXZlbmVzcyUyMG9mIn1dLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDIuMTg1NzF2MyBbY3MuTEddIDYgTWFyIDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDIuMTg1NzEiLCJzbmlwcGV0IjoiT3VyIG1ldGhvZCBpbnZvbHZlcyB0cmFpbmluZyBhIG11bHRpLW9iamVjdGl2ZSByZXdhcmQgbW9kZWwgYW5kIHRoZW4gZmluZS10dW5pbmcgdGhlIExMTSB3aXRoIGEgcHJlZmVyZW5jZS1jb25kaXRpb25lZCB2YXJpYW50IG9mIFJlamVjdGlvbiBTYW1wbGluZyBGaW5ldHVuaW5nIC4uLiIsImRhdGUiOiJNYXIgNiwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "af9e6e3082d3ca25fa8cc19c53c132f5ddaf1ff0afbaa48e718b6639e6d6241e",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Research articles on fine-tuning techniques in rejection sampling before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "[PDF] arXiv:2308.01825v1 [cs.CL] 3 Aug 2023",
+                "link": "https://arxiv.org/pdf/2308.01825",
+                "snippet": "Rejection sampling is a simple-yet-effective fine-tuning augmentation technique and is also used for LLM alignment with human preference",
+                "date": "Aug 4, 2023",
+                "position": 1
+              },
+              {
+                "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+                "link": "https://arxiv.org/html/2402.10038v2",
+                "snippet": "Our experiments indicate that our proposed method effectively fine-tunes LLMs with limited resource environments, leading to improved alignment with user ...",
+                "date": "Mar 30, 2024",
+                "position": 2
+              },
+              {
+                "title": "[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv",
+                "link": "https://arxiv.org/pdf/2307.09288",
+                "snippet": "In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ...",
+                "date": "Jul 19, 2023",
+                "position": 3
+              },
+              {
+                "title": "[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024",
+                "link": "https://arxiv.org/pdf/2402.03300",
+                "snippet": "Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions.",
+                "date": "Apr 27, 2024",
+                "position": 4
+              },
+              {
+                "title": "[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024",
+                "link": "https://arxiv.org/pdf/2404.17140",
+                "snippet": "Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated.",
+                "date": "Jun 6, 2024",
+                "position": 5
+              },
+              {
+                "title": "[PDF] arXiv:2312.02179v1 [cs.LG] 28 Nov 2023",
+                "link": "https://arxiv.org/pdf/2312.02179",
+                "snippet": "We compare against four baseline prompt-tuning methods: direct prompt tuning, CoT prompt tuning, rejection sampling, and STaR (Zelikman et al., 2022). All ...",
+                "date": "Nov 28, 2023",
+                "position": 6
+              },
+              {
+                "title": "Apple Intelligence Foundation Language Models - arXiv",
+                "link": "https://arxiv.org/html/2407.21075v1",
+                "snippet": "We present two new post-training algorithms: (1) a rejection sampling fine-tuning algorithm with teacher committee (iTeC), and (2) a reinforcement learning from ...",
+                "date": "Jul 29, 2024",
+                "position": 7
+              },
+              {
+                "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+                "link": "https://arxiv.org/html/2308.06394v3",
+                "snippet": "Therefore, in this paper we focus on measuring the quality of these reward models, exploring classification metrics and using best-of-n rejection sampling as an ...",
+                "date": "Feb 11, 2024",
+                "sitelinks": [
+                  {
+                    "title": "Detecting And Preventing...",
+                    "link": "https://arxiv.org/html/2308.06394v3#:~:text=2024-,Detecting%20and%20Preventing%20Hallucinations%20in"
+                  },
+                  {
+                    "title": "Method",
+                    "link": "https://arxiv.org/html/2308.06394v3#:~:text=.-,Method"
+                  },
+                  {
+                    "title": "Fine-Grained Direct...",
+                    "link": "https://arxiv.org/html/2308.06394v3#:~:text=Fine%2Dgrained%20Direct%20Preference%20Optimization,-While%20we%20train%20a%20reward"
+                  }
+                ],
+                "position": 8
+              },
+              {
+                "title": "V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv",
+                "link": "https://arxiv.org/html/2402.06457v2",
+                "snippet": "This fine-tuned generator is used in subsequent iterations. Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the ...",
+                "date": "Aug 14, 2024",
+                "sitelinks": [
+                  {
+                    "title": "V-Star: Training Verifiers...",
+                    "link": "https://arxiv.org/html/2402.06457v2#:~:text=V%2DSTaR%3A%20Training%20Verifiers%20for%20Self%2DTaught%20Reasoners,-Arian%20Hosseini"
+                  },
+                  {
+                    "title": "3 V-Star: Verifiers For...",
+                    "link": "https://arxiv.org/html/2402.06457v2#:~:text=3%20V%2DSTaR%3A%20Verifiers%20for%20self%2Dtaught%20reasoners,-Existing%20self%2Dimprovement%20methods"
+                  },
+                  {
+                    "title": "4 Empirical Results",
+                    "link": "https://arxiv.org/html/2402.06457v2#:~:text=4%20Empirical%20results,-To%20demonstrate%20the%20effectiveness%20of"
+                  }
+                ],
+                "position": 9
+              },
+              {
+                "title": "[PDF] arXiv:2402.18571v3 [cs.LG] 6 Mar 2024",
+                "link": "https://arxiv.org/pdf/2402.18571",
+                "snippet": "Our method involves training a multi-objective reward model and then fine-tuning the LLM with a preference-conditioned variant of Rejection Sampling Finetuning ...",
+                "date": "Mar 6, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:06.568544+00:00",
+          "elapsed_seconds": 0.9882936030626297
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2307.09288",
+        "2308.01825",
+        "2308.06394",
+        "2312.02179",
+        "2402.03300",
+        "2402.06457",
+        "2402.10038",
+        "2402.18571",
+        "2404.17140",
+        "2407.21075"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2308.01825",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/pdf/2308.01825",
+          "title": "[PDF] arXiv:2308.01825v1 [cs.CL] 3 Aug 2023",
+          "snippet": "Rejection sampling is a simple-yet-effective fine-tuning augmentation technique and is also used for LLM alignment with human preference"
+        },
+        {
+          "arxiv_id": "2402.10038",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2402.10038v2",
+          "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+          "snippet": "Our experiments indicate that our proposed method effectively fine-tunes LLMs with limited resource environments, leading to improved alignment with user ..."
+        },
+        {
+          "arxiv_id": "2307.09288",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2307.09288",
+          "title": "[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv",
+          "snippet": "In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ..."
+        },
+        {
+          "arxiv_id": "2402.03300",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2402.03300",
+          "title": "[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024",
+          "snippet": "Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions."
+        },
+        {
+          "arxiv_id": "2404.17140",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2404.17140",
+          "title": "[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024",
+          "snippet": "Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated."
+        },
+        {
+          "arxiv_id": "2312.02179",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2312.02179",
+          "title": "[PDF] arXiv:2312.02179v1 [cs.LG] 28 Nov 2023",
+          "snippet": "We compare against four baseline prompt-tuning methods: direct prompt tuning, CoT prompt tuning, rejection sampling, and STaR (Zelikman et al., 2022). All ..."
+        },
+        {
+          "arxiv_id": "2407.21075",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2407.21075v1",
+          "title": "Apple Intelligence Foundation Language Models - arXiv",
+          "snippet": "We present two new post-training algorithms: (1) a rejection sampling fine-tuning algorithm with teacher committee (iTeC), and (2) a reinforcement learning from ..."
+        },
+        {
+          "arxiv_id": "2308.06394",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2308.06394v3",
+          "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+          "snippet": "Therefore, in this paper we focus on measuring the quality of these reward models, exploring classification metrics and using best-of-n rejection sampling as an ..."
+        },
+        {
+          "arxiv_id": "2402.06457",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2402.06457v2",
+          "title": "V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv",
+          "snippet": "This fine-tuned generator is used in subsequent iterations. Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the ..."
+        },
+        {
+          "arxiv_id": "2402.18571",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2402.18571",
+          "title": "[PDF] arXiv:2402.18571v3 [cs.LG] 6 Mar 2024",
+          "snippet": "Our method involves training a multi-objective reward model and then fine-tuning the LLM with a preference-conditioned variant of Rejection Sampling Finetuning ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Research articles on fine-tuning techniques in rejection sampling before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Academic studies on rejection sampling optimization",
+      "attempts": [
+        {
+          "global_attempt_sequence": 165,
+          "query_id": "Q27",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Academic studies on rejection sampling optimization",
+          "request_payload": {
+            "q": "Academic studies on rejection sampling optimization before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q27_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:28:06.729559+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Academic studies on rejection sampling optimization before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Statistical Rejection Sampling Improves Preference Optimization\",\"link\":\"https://arxiv.org/abs/2309.06657\",\"snippet\":\"Statistical Rejection Sampling Optimization (RSO) that aims to source preference data from the target optimal policy using rejection sampling,\",\"date\":\"Sep 13, 2023\",\"position\":1},{\"title\":\"RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.10038v2\",\"snippet\":\"Our proposed method systematically combines rejection sampling (RS) and direct preference optimization (DPO). We start by creating a SFT model and use it to ...\",\"date\":\"Mar 30, 2024\",\"position\":2},{\"title\":\"Reparameterization Gradients through Acceptance-Rejection ... - arXiv\",\"link\":\"https://arxiv.org/abs/1610.05683\",\"snippet\":\"We propose a new method that lets us leverage reparameterization gradients even when variables are outputs of a acceptance-rejection sampling algorithm.\",\"date\":\"Oct 18, 2016\",\"position\":3},{\"title\":\"[PDF] A Proximal Algorithm for Sampling - arXiv\",\"link\":\"https://arxiv.org/pdf/2202.13975\",\"snippet\":\"We develop a sampling algorithm that resembles. The proposal of rejection sampling used in Liang & Chen (2022) is a Gaussian distribution centered at an ( ...\",\"date\":\"Jun 30, 2023\",\"position\":4},{\"title\":\"[PDF] An Easy Rejection Sampling Baseline via Gradient Refined Proposals\",\"link\":\"https://arxiv.org/pdf/2310.00300\",\"snippet\":\"Rejection sampling is a common tool for low dimen- sional problems (d ≤ 2), often touted as an “easy” way to obtain valid samples from a distribution f(·) of ...\",\"date\":\"Sep 30, 2023\",\"position\":5},{\"title\":\"[PDF] Weak Multi-Objective Recommendations Using Rejection Sampling\",\"link\":\"https://arxiv.org/pdf/2008.10277\",\"snippet\":\"In this section we will give an overview of recommender systems optimizing multiple objectives, multistakeholder rec- ommender systems, sampling methods in ...\",\"date\":\"Aug 24, 2020\",\"position\":6},{\"title\":\"SimPO: Simple Preference Optimization with a Reference-Free ...\",\"link\":\"https://arxiv.org/html/2405.14734v1\",\"snippet\":\"Statistical rejection sampling improves preference optimization. In The Twelfth International Conference on Learning Representations, 2024. [56] Haipeng Luo ...\",\"date\":\"May 23, 2024\",\"position\":7},{\"title\":\"Triple Preference Optimization: Achieving Better Alignment with ...\",\"link\":\"https://arxiv.org/html/2405.16681v1\",\"snippet\":\"Statistical rejection sampling improves preference optimization. Lotov and Miettinen (2008) Alexander V. Lotov and Kaisa Miettinen. 2008. Visualizing the ...\",\"date\":\"May 26, 2024\",\"position\":8},{\"title\":\"[2302.04658] The Sample Complexity of Approximate Rejection ...\",\"link\":\"https://arxiv.org/abs/2302.04658\",\"snippet\":\"The Sample Complexity of Approximate Rejection Sampling with Applications to Smoothed Online Learning. Authors:Adam Block, Yury Polyanskiy.\",\"date\":\"Feb 9, 2023\",\"position\":9},{\"title\":\"[PDF] Iterative Preference Learning from Human Feedback - arXiv\",\"link\":\"https://arxiv.org/pdf/2312.11456\",\"snippet\":\"Abstract. This paper studies the alignment process of generative models with Reinforcement Learning from Hu- man Feedback (RLHF).\",\"date\":\"May 1, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBY2FkZW1pYyBzdHVkaWVzIG9uIHJlamVjdGlvbiBzYW1wbGluZyBvcHRpbWl6YXRpb24gYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiU3RhdGlzdGljYWwgUmVqZWN0aW9uIFNhbXBsaW5nIEltcHJvdmVzIFByZWZlcmVuY2UgT3B0aW1pemF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzA5LjA2NjU3Iiwic25pcHBldCI6IlN0YXRpc3RpY2FsIFJlamVjdGlvbiBTYW1wbGluZyBPcHRpbWl6YXRpb24gKFJTTykgdGhhdCBhaW1zIHRvIHNvdXJjZSBwcmVmZXJlbmNlIGRhdGEgZnJvbSB0aGUgdGFyZ2V0IG9wdGltYWwgcG9saWN5IHVzaW5nIHJlamVjdGlvbiBzYW1wbGluZywiLCJkYXRlIjoiU2VwIDEzLCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJSUy1EUE86IEEgSHlicmlkIFJlamVjdGlvbiBTYW1wbGluZyBhbmQgRGlyZWN0IFByZWZlcmVuY2UgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjEwMDM4djIiLCJzbmlwcGV0IjoiT3VyIHByb3Bvc2VkIG1ldGhvZCBzeXN0ZW1hdGljYWxseSBjb21iaW5lcyByZWplY3Rpb24gc2FtcGxpbmcgKFJTKSBhbmQgZGlyZWN0IHByZWZlcmVuY2Ugb3B0aW1pemF0aW9uIChEUE8pLiBXZSBzdGFydCBieSBjcmVhdGluZyBhIFNGVCBtb2RlbCBhbmQgdXNlIGl0IHRvIC4uLiIsImRhdGUiOiJNYXIgMzAsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlJlcGFyYW1ldGVyaXphdGlvbiBHcmFkaWVudHMgdGhyb3VnaCBBY2NlcHRhbmNlLVJlamVjdGlvbiAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMTYxMC4wNTY4MyIsInNuaXBwZXQiOiJXZSBwcm9wb3NlIGEgbmV3IG1ldGhvZCB0aGF0IGxldHMgdXMgbGV2ZXJhZ2UgcmVwYXJhbWV0ZXJpemF0aW9uIGdyYWRpZW50cyBldmVuIHdoZW4gdmFyaWFibGVzIGFyZSBvdXRwdXRzIG9mIGEgYWNjZXB0YW5jZS1yZWplY3Rpb24gc2FtcGxpbmcgYWxnb3JpdGhtLiIsImRhdGUiOiJPY3QgMTgsIDIwMTYiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIEEgUHJveGltYWwgQWxnb3JpdGhtIGZvciBTYW1wbGluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjAyLjEzOTc1Iiwic25pcHBldCI6IldlIGRldmVsb3AgYSBzYW1wbGluZyBhbGdvcml0aG0gdGhhdCByZXNlbWJsZXMuIFRoZSBwcm9wb3NhbCBvZiByZWplY3Rpb24gc2FtcGxpbmcgdXNlZCBpbiBMaWFuZyAmIENoZW4gKDIwMjIpIGlzIGEgR2F1c3NpYW4gZGlzdHJpYnV0aW9uIGNlbnRlcmVkIGF0IGFuICggLi4uIiwiZGF0ZSI6Ikp1biAzMCwgMjAyMyIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiW1BERl0gQW4gRWFzeSBSZWplY3Rpb24gU2FtcGxpbmcgQmFzZWxpbmUgdmlhIEdyYWRpZW50IFJlZmluZWQgUHJvcG9zYWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzEwLjAwMzAwIiwic25pcHBldCI6IlJlamVjdGlvbiBzYW1wbGluZyBpcyBhIGNvbW1vbiB0b29sIGZvciBsb3cgZGltZW4tIHNpb25hbCBwcm9ibGVtcyAoZCDiiaQgMiksIG9mdGVuIHRvdXRlZCBhcyBhbiDigJxlYXN54oCdIHdheSB0byBvYnRhaW4gdmFsaWQgc2FtcGxlcyBmcm9tIGEgZGlzdHJpYnV0aW9uIGYowrcpIG9mIC4uLiIsImRhdGUiOiJTZXAgMzAsIDIwMjMiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIFdlYWsgTXVsdGktT2JqZWN0aXZlIFJlY29tbWVuZGF0aW9ucyBVc2luZyBSZWplY3Rpb24gU2FtcGxpbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIwMDguMTAyNzciLCJzbmlwcGV0IjoiSW4gdGhpcyBzZWN0aW9uIHdlIHdpbGwgZ2l2ZSBhbiBvdmVydmlldyBvZiByZWNvbW1lbmRlciBzeXN0ZW1zIG9wdGltaXppbmcgbXVsdGlwbGUgb2JqZWN0aXZlcywgbXVsdGlzdGFrZWhvbGRlciByZWMtIG9tbWVuZGVyIHN5c3RlbXMsIHNhbXBsaW5nIG1ldGhvZHMgaW4gLi4uIiwiZGF0ZSI6IkF1ZyAyNCwgMjAyMCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiU2ltUE86IFNpbXBsZSBQcmVmZXJlbmNlIE9wdGltaXphdGlvbiB3aXRoIGEgUmVmZXJlbmNlLUZyZWUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xNDczNHYxIiwic25pcHBldCI6IlN0YXRpc3RpY2FsIHJlamVjdGlvbiBzYW1wbGluZyBpbXByb3ZlcyBwcmVmZXJlbmNlIG9wdGltaXphdGlvbi4gSW4gVGhlIFR3ZWxmdGggSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIExlYXJuaW5nIFJlcHJlc2VudGF0aW9ucywgMjAyNC4gWzU2XSBIYWlwZW5nIEx1byAuLi4iLCJkYXRlIjoiTWF5IDIzLCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJUcmlwbGUgUHJlZmVyZW5jZSBPcHRpbWl6YXRpb246IEFjaGlldmluZyBCZXR0ZXIgQWxpZ25tZW50IHdpdGggLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xNjY4MXYxIiwic25pcHBldCI6IlN0YXRpc3RpY2FsIHJlamVjdGlvbiBzYW1wbGluZyBpbXByb3ZlcyBwcmVmZXJlbmNlIG9wdGltaXphdGlvbi4gTG90b3YgYW5kIE1pZXR0aW5lbiAoMjAwOCkgQWxleGFuZGVyIFYuIExvdG92IGFuZCBLYWlzYSBNaWV0dGluZW4uIDIwMDguIFZpc3VhbGl6aW5nIHRoZSAuLi4iLCJkYXRlIjoiTWF5IDI2LCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbMjMwMi4wNDY1OF0gVGhlIFNhbXBsZSBDb21wbGV4aXR5IG9mIEFwcHJveGltYXRlIFJlamVjdGlvbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDIuMDQ2NTgiLCJzbmlwcGV0IjoiVGhlIFNhbXBsZSBDb21wbGV4aXR5IG9mIEFwcHJveGltYXRlIFJlamVjdGlvbiBTYW1wbGluZyB3aXRoIEFwcGxpY2F0aW9ucyB0byBTbW9vdGhlZCBPbmxpbmUgTGVhcm5pbmcuIEF1dGhvcnM6QWRhbSBCbG9jaywgWXVyeSBQb2x5YW5za2l5LiIsImRhdGUiOiJGZWIgOSwgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gSXRlcmF0aXZlIFByZWZlcmVuY2UgTGVhcm5pbmcgZnJvbSBIdW1hbiBGZWVkYmFjayAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzEyLjExNDU2Iiwic25pcHBldCI6IkFic3RyYWN0LiBUaGlzIHBhcGVyIHN0dWRpZXMgdGhlIGFsaWdubWVudCBwcm9jZXNzIG9mIGdlbmVyYXRpdmUgbW9kZWxzIHdpdGggUmVpbmZvcmNlbWVudCBMZWFybmluZyBmcm9tIEh1LSBtYW4gRmVlZGJhY2sgKFJMSEYpLiIsImRhdGUiOiJNYXkgMSwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "42eaa9763688cd750c5b6cfddbb8fffd64cc8216f86738930c85c01afcee0fac",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Academic studies on rejection sampling optimization before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Statistical Rejection Sampling Improves Preference Optimization",
+                "link": "https://arxiv.org/abs/2309.06657",
+                "snippet": "Statistical Rejection Sampling Optimization (RSO) that aims to source preference data from the target optimal policy using rejection sampling,",
+                "date": "Sep 13, 2023",
+                "position": 1
+              },
+              {
+                "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+                "link": "https://arxiv.org/html/2402.10038v2",
+                "snippet": "Our proposed method systematically combines rejection sampling (RS) and direct preference optimization (DPO). We start by creating a SFT model and use it to ...",
+                "date": "Mar 30, 2024",
+                "position": 2
+              },
+              {
+                "title": "Reparameterization Gradients through Acceptance-Rejection ... - arXiv",
+                "link": "https://arxiv.org/abs/1610.05683",
+                "snippet": "We propose a new method that lets us leverage reparameterization gradients even when variables are outputs of a acceptance-rejection sampling algorithm.",
+                "date": "Oct 18, 2016",
+                "position": 3
+              },
+              {
+                "title": "[PDF] A Proximal Algorithm for Sampling - arXiv",
+                "link": "https://arxiv.org/pdf/2202.13975",
+                "snippet": "We develop a sampling algorithm that resembles. The proposal of rejection sampling used in Liang & Chen (2022) is a Gaussian distribution centered at an ( ...",
+                "date": "Jun 30, 2023",
+                "position": 4
+              },
+              {
+                "title": "[PDF] An Easy Rejection Sampling Baseline via Gradient Refined Proposals",
+                "link": "https://arxiv.org/pdf/2310.00300",
+                "snippet": "Rejection sampling is a common tool for low dimen- sional problems (d ≤ 2), often touted as an “easy” way to obtain valid samples from a distribution f(·) of ...",
+                "date": "Sep 30, 2023",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Weak Multi-Objective Recommendations Using Rejection Sampling",
+                "link": "https://arxiv.org/pdf/2008.10277",
+                "snippet": "In this section we will give an overview of recommender systems optimizing multiple objectives, multistakeholder rec- ommender systems, sampling methods in ...",
+                "date": "Aug 24, 2020",
+                "position": 6
+              },
+              {
+                "title": "SimPO: Simple Preference Optimization with a Reference-Free ...",
+                "link": "https://arxiv.org/html/2405.14734v1",
+                "snippet": "Statistical rejection sampling improves preference optimization. In The Twelfth International Conference on Learning Representations, 2024. [56] Haipeng Luo ...",
+                "date": "May 23, 2024",
+                "position": 7
+              },
+              {
+                "title": "Triple Preference Optimization: Achieving Better Alignment with ...",
+                "link": "https://arxiv.org/html/2405.16681v1",
+                "snippet": "Statistical rejection sampling improves preference optimization. Lotov and Miettinen (2008) Alexander V. Lotov and Kaisa Miettinen. 2008. Visualizing the ...",
+                "date": "May 26, 2024",
+                "position": 8
+              },
+              {
+                "title": "[2302.04658] The Sample Complexity of Approximate Rejection ...",
+                "link": "https://arxiv.org/abs/2302.04658",
+                "snippet": "The Sample Complexity of Approximate Rejection Sampling with Applications to Smoothed Online Learning. Authors:Adam Block, Yury Polyanskiy.",
+                "date": "Feb 9, 2023",
+                "position": 9
+              },
+              {
+                "title": "[PDF] Iterative Preference Learning from Human Feedback - arXiv",
+                "link": "https://arxiv.org/pdf/2312.11456",
+                "snippet": "Abstract. This paper studies the alignment process of generative models with Reinforcement Learning from Hu- man Feedback (RLHF).",
+                "date": "May 1, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:07.861333+00:00",
+          "elapsed_seconds": 1.1317708566784859
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1610.05683",
+        "2008.10277",
+        "2202.13975",
+        "2302.04658",
+        "2309.06657",
+        "2310.00300",
+        "2312.11456",
+        "2402.10038",
+        "2405.14734",
+        "2405.16681"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2309.06657",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2309.06657",
+          "title": "Statistical Rejection Sampling Improves Preference Optimization",
+          "snippet": "Statistical Rejection Sampling Optimization (RSO) that aims to source preference data from the target optimal policy using rejection sampling,"
+        },
+        {
+          "arxiv_id": "2402.10038",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2402.10038v2",
+          "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+          "snippet": "Our proposed method systematically combines rejection sampling (RS) and direct preference optimization (DPO). We start by creating a SFT model and use it to ..."
+        },
+        {
+          "arxiv_id": "1610.05683",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/1610.05683",
+          "title": "Reparameterization Gradients through Acceptance-Rejection ... - arXiv",
+          "snippet": "We propose a new method that lets us leverage reparameterization gradients even when variables are outputs of a acceptance-rejection sampling algorithm."
+        },
+        {
+          "arxiv_id": "2202.13975",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2202.13975",
+          "title": "[PDF] A Proximal Algorithm for Sampling - arXiv",
+          "snippet": "We develop a sampling algorithm that resembles. The proposal of rejection sampling used in Liang & Chen (2022) is a Gaussian distribution centered at an ( ..."
+        },
+        {
+          "arxiv_id": "2310.00300",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2310.00300",
+          "title": "[PDF] An Easy Rejection Sampling Baseline via Gradient Refined Proposals",
+          "snippet": "Rejection sampling is a common tool for low dimen- sional problems (d ≤ 2), often touted as an “easy” way to obtain valid samples from a distribution f(·) of ..."
+        },
+        {
+          "arxiv_id": "2008.10277",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2008.10277",
+          "title": "[PDF] Weak Multi-Objective Recommendations Using Rejection Sampling",
+          "snippet": "In this section we will give an overview of recommender systems optimizing multiple objectives, multistakeholder rec- ommender systems, sampling methods in ..."
+        },
+        {
+          "arxiv_id": "2405.14734",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2405.14734v1",
+          "title": "SimPO: Simple Preference Optimization with a Reference-Free ...",
+          "snippet": "Statistical rejection sampling improves preference optimization. In The Twelfth International Conference on Learning Representations, 2024. [56] Haipeng Luo ..."
+        },
+        {
+          "arxiv_id": "2405.16681",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2405.16681v1",
+          "title": "Triple Preference Optimization: Achieving Better Alignment with ...",
+          "snippet": "Statistical rejection sampling improves preference optimization. Lotov and Miettinen (2008) Alexander V. Lotov and Kaisa Miettinen. 2008. Visualizing the ..."
+        },
+        {
+          "arxiv_id": "2302.04658",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2302.04658",
+          "title": "[2302.04658] The Sample Complexity of Approximate Rejection ...",
+          "snippet": "The Sample Complexity of Approximate Rejection Sampling with Applications to Smoothed Online Learning. Authors:Adam Block, Yury Polyanskiy."
+        },
+        {
+          "arxiv_id": "2312.11456",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2312.11456",
+          "title": "[PDF] Iterative Preference Learning from Human Feedback - arXiv",
+          "snippet": "Abstract. This paper studies the alignment process of generative models with Reinforcement Learning from Hu- man Feedback (RLHF)."
+        }
+      ],
+      "request_payload": {
+        "q": "Academic studies on rejection sampling optimization before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Rejection sampling fine-tuning in machine learning",
+      "attempts": [
+        {
+          "global_attempt_sequence": 166,
+          "query_id": "Q27",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Rejection sampling fine-tuning in machine learning",
+          "request_payload": {
+            "q": "Rejection sampling fine-tuning in machine learning before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q27_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:28:08.021315+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Rejection sampling fine-tuning in machine learning before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Scaling Relationship on Learning Mathematical Reasoning with ...\",\"link\":\"https://arxiv.org/abs/2308.01825\",\"snippet\":\"Rejection sampling Fine-Tuning (RFT). RFT uses supervised models to generate and collect correct reasoning paths as augmented fine-tuning datasets.\",\"date\":\"Aug 3, 2023\",\"position\":1},{\"title\":\"[PDF] arXiv:2308.01825v1 [cs.CL] 3 Aug 2023\",\"link\":\"https://arxiv.org/pdf/2308.01825\",\"snippet\":\"Rejection sampling is a simple-yet-effective fine-tuning augmentation technique and is also used for LLM alignment with human preference\",\"date\":\"Aug 4, 2023\",\"position\":2},{\"title\":\"RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.10038v2\",\"snippet\":\"LLMs are fine-tuned to learn to maximize the reward of their responses using reinforcement learning algorithms, rejection sampling to select the best samples\",\"date\":\"Mar 30, 2024\",\"position\":3},{\"title\":\"[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024\",\"link\":\"https://arxiv.org/pdf/2402.03300\",\"snippet\":\"Fine-tuning first samples multiple outputs from the supervised fine-tuned LLMs for each question, and then trains LLMs on the sampled outputs\",\"date\":\"Apr 27, 2024\",\"position\":4},{\"title\":\"DPOK: Reinforcement Learning for Fine-tuning Text-to-Image ... - arXiv\",\"link\":\"https://arxiv.org/abs/2305.16381\",\"snippet\":\"In this work, we propose using online reinforcement learning (RL) to fine-tune text-to-image models. We focus on diffusion models, defining the fine-tuning task ...\",\"date\":\"May 25, 2023\",\"position\":5},{\"title\":\"Apple Intelligence Foundation Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2407.21075v1\",\"snippet\":\"We present two new post-training algorithms: (1) a rejection sampling fine-tuning algorithm with teacher committee (iTeC), and (2) a reinforcement learning from ...\",\"date\":\"Jul 29, 2024\",\"position\":6},{\"title\":\"Self-play with Execution Feedback: Improving Instruction-following ...\",\"link\":\"https://arxiv.org/abs/2406.13542\",\"snippet\":\"execution feedback-based rejection sampling can generate data for Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF) training.\",\"date\":\"Jun 19, 2024\",\"position\":7},{\"title\":\"V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv\",\"link\":\"https://arxiv.org/html/2402.06457v2\",\"snippet\":\"Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the training dataset ・ using a combination of language modeling. ...\",\"date\":\"Aug 14, 2024\",\"position\":8},{\"title\":\"[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2307.09288\",\"snippet\":\"In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ...\",\"date\":\"Jul 19, 2023\",\"position\":9},{\"title\":\"[PDF] CPSample: Classifier Protected Sampling for Guarding Training ...\",\"link\":\"https://arxiv.org/pdf/2409.07025?\",\"snippet\":\"Unlike rejection sampling, CPSample offers protection against some membership inference attacks during the generation process rather than only protecting the.\",\"date\":\"Sep 11, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZWplY3Rpb24gc2FtcGxpbmcgZmluZS10dW5pbmcgaW4gbWFjaGluZSBsZWFybmluZyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJTY2FsaW5nIFJlbGF0aW9uc2hpcCBvbiBMZWFybmluZyBNYXRoZW1hdGljYWwgUmVhc29uaW5nIHdpdGggLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzA4LjAxODI1Iiwic25pcHBldCI6IlJlamVjdGlvbiBzYW1wbGluZyBGaW5lLVR1bmluZyAoUkZUKS4gUkZUIHVzZXMgc3VwZXJ2aXNlZCBtb2RlbHMgdG8gZ2VuZXJhdGUgYW5kIGNvbGxlY3QgY29ycmVjdCByZWFzb25pbmcgcGF0aHMgYXMgYXVnbWVudGVkIGZpbmUtdHVuaW5nIGRhdGFzZXRzLiIsImRhdGUiOiJBdWcgMywgMjAyMyIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMwOC4wMTgyNXYxIFtjcy5DTF0gMyBBdWcgMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwOC4wMTgyNSIsInNuaXBwZXQiOiJSZWplY3Rpb24gc2FtcGxpbmcgaXMgYSBzaW1wbGUteWV0LWVmZmVjdGl2ZSBmaW5lLXR1bmluZyBhdWdtZW50YXRpb24gdGVjaG5pcXVlIGFuZCBpcyBhbHNvIHVzZWQgZm9yIExMTSBhbGlnbm1lbnQgd2l0aCBodW1hbiBwcmVmZXJlbmNlIiwiZGF0ZSI6IkF1ZyA0LCAyMDIzIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJSUy1EUE86IEEgSHlicmlkIFJlamVjdGlvbiBTYW1wbGluZyBhbmQgRGlyZWN0IFByZWZlcmVuY2UgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjEwMDM4djIiLCJzbmlwcGV0IjoiTExNcyBhcmUgZmluZS10dW5lZCB0byBsZWFybiB0byBtYXhpbWl6ZSB0aGUgcmV3YXJkIG9mIHRoZWlyIHJlc3BvbnNlcyB1c2luZyByZWluZm9yY2VtZW50IGxlYXJuaW5nIGFsZ29yaXRobXMsIHJlamVjdGlvbiBzYW1wbGluZyB0byBzZWxlY3QgdGhlIGJlc3Qgc2FtcGxlcyIsImRhdGUiOiJNYXIgMzAsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDIuMDMzMDB2MyBbY3MuQ0xdIDI3IEFwciAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAyLjAzMzAwIiwic25pcHBldCI6IkZpbmUtdHVuaW5nIGZpcnN0IHNhbXBsZXMgbXVsdGlwbGUgb3V0cHV0cyBmcm9tIHRoZSBzdXBlcnZpc2VkIGZpbmUtdHVuZWQgTExNcyBmb3IgZWFjaCBxdWVzdGlvbiwgYW5kIHRoZW4gdHJhaW5zIExMTXMgb24gdGhlIHNhbXBsZWQgb3V0cHV0cyIsImRhdGUiOiJBcHIgMjcsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkRQT0s6IFJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgZm9yIEZpbmUtdHVuaW5nIFRleHQtdG8tSW1hZ2UgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDUuMTYzODEiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBwcm9wb3NlIHVzaW5nIG9ubGluZSByZWluZm9yY2VtZW50IGxlYXJuaW5nIChSTCkgdG8gZmluZS10dW5lIHRleHQtdG8taW1hZ2UgbW9kZWxzLiBXZSBmb2N1cyBvbiBkaWZmdXNpb24gbW9kZWxzLCBkZWZpbmluZyB0aGUgZmluZS10dW5pbmcgdGFzayAuLi4iLCJkYXRlIjoiTWF5IDI1LCAyMDIzIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJBcHBsZSBJbnRlbGxpZ2VuY2UgRm91bmRhdGlvbiBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMjEwNzV2MSIsInNuaXBwZXQiOiJXZSBwcmVzZW50IHR3byBuZXcgcG9zdC10cmFpbmluZyBhbGdvcml0aG1zOiAoMSkgYSByZWplY3Rpb24gc2FtcGxpbmcgZmluZS10dW5pbmcgYWxnb3JpdGhtIHdpdGggdGVhY2hlciBjb21taXR0ZWUgKGlUZUMpLCBhbmQgKDIpIGEgcmVpbmZvcmNlbWVudCBsZWFybmluZyBmcm9tIC4uLiIsImRhdGUiOiJKdWwgMjksIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlNlbGYtcGxheSB3aXRoIEV4ZWN1dGlvbiBGZWVkYmFjazogSW1wcm92aW5nIEluc3RydWN0aW9uLWZvbGxvd2luZyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDYuMTM1NDIiLCJzbmlwcGV0IjoiZXhlY3V0aW9uIGZlZWRiYWNrLWJhc2VkIHJlamVjdGlvbiBzYW1wbGluZyBjYW4gZ2VuZXJhdGUgZGF0YSBmb3IgU3VwZXJ2aXNlZCBGaW5lLVR1bmluZyAoU0ZUKSBhbmQgUmVpbmZvcmNlbWVudCBMZWFybmluZyBmcm9tIEh1bWFuIEZlZWRiYWNrIChSTEhGKSB0cmFpbmluZy4iLCJkYXRlIjoiSnVuIDE5LCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJWLVNUYVI6IFRyYWluaW5nIFZlcmlmaWVycyBmb3IgU2VsZi1UYXVnaHQgUmVhc29uZXJzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjA2NDU3djIiLCJzbmlwcGV0IjoiUmVqZWN0aW9uIFNhbXBsaW5nIEZpbmUtdHVuaW5nIChZdWFuIGV0IGFsLiwgMjAyMywgUkZUOykgZmlyc3QgZmluZS10dW5lcyBhIHByZXRyYWluZWQgTE0gb24gdGhlIHRyYWluaW5nIGRhdGFzZXQg44O7IHVzaW5nIGEgY29tYmluYXRpb24gb2YgbGFuZ3VhZ2UgbW9kZWxpbmcuIC4uLiIsImRhdGUiOiJBdWcgMTQsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIExsYW1hIDI6IE9wZW4gRm91bmRhdGlvbiBhbmQgRmluZS1UdW5lZCBDaGF0IE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA3LjA5Mjg4Iiwic25pcHBldCI6IkluIFJlamVjdGlvbiBTYW1wbGluZyBmaW5lLXR1bmluZywgd2Ugc2FtcGxlIGFsbCB0aGUgb3V0cHV0cyBnaXZlbiB0aGUgaW5pdGlhbCBwb2xpY3kgb2Ygb3VyIG1vZGVsIHRvIGNvbGxlY3QgYSBuZXcgZGF0YXNldCwgYmVmb3JlIGFwcGx5aW5nIHRoZSBmaW5lLXR1bmluZyAuLi4iLCJkYXRlIjoiSnVsIDE5LCAyMDIzIiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBDUFNhbXBsZTogQ2xhc3NpZmllciBQcm90ZWN0ZWQgU2FtcGxpbmcgZm9yIEd1YXJkaW5nIFRyYWluaW5nIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwOS4wNzAyNT8iLCJzbmlwcGV0IjoiVW5saWtlIHJlamVjdGlvbiBzYW1wbGluZywgQ1BTYW1wbGUgb2ZmZXJzIHByb3RlY3Rpb24gYWdhaW5zdCBzb21lIG1lbWJlcnNoaXAgaW5mZXJlbmNlIGF0dGFja3MgZHVyaW5nIHRoZSBnZW5lcmF0aW9uIHByb2Nlc3MgcmF0aGVyIHRoYW4gb25seSBwcm90ZWN0aW5nIHRoZS4iLCJkYXRlIjoiU2VwIDExLCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "1d2bc3eb973e679ede889c1b57530f2a97223ec47a26a0c224166285fad4c688",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Rejection sampling fine-tuning in machine learning before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Scaling Relationship on Learning Mathematical Reasoning with ...",
+                "link": "https://arxiv.org/abs/2308.01825",
+                "snippet": "Rejection sampling Fine-Tuning (RFT). RFT uses supervised models to generate and collect correct reasoning paths as augmented fine-tuning datasets.",
+                "date": "Aug 3, 2023",
+                "position": 1
+              },
+              {
+                "title": "[PDF] arXiv:2308.01825v1 [cs.CL] 3 Aug 2023",
+                "link": "https://arxiv.org/pdf/2308.01825",
+                "snippet": "Rejection sampling is a simple-yet-effective fine-tuning augmentation technique and is also used for LLM alignment with human preference",
+                "date": "Aug 4, 2023",
+                "position": 2
+              },
+              {
+                "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+                "link": "https://arxiv.org/html/2402.10038v2",
+                "snippet": "LLMs are fine-tuned to learn to maximize the reward of their responses using reinforcement learning algorithms, rejection sampling to select the best samples",
+                "date": "Mar 30, 2024",
+                "position": 3
+              },
+              {
+                "title": "[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024",
+                "link": "https://arxiv.org/pdf/2402.03300",
+                "snippet": "Fine-tuning first samples multiple outputs from the supervised fine-tuned LLMs for each question, and then trains LLMs on the sampled outputs",
+                "date": "Apr 27, 2024",
+                "position": 4
+              },
+              {
+                "title": "DPOK: Reinforcement Learning for Fine-tuning Text-to-Image ... - arXiv",
+                "link": "https://arxiv.org/abs/2305.16381",
+                "snippet": "In this work, we propose using online reinforcement learning (RL) to fine-tune text-to-image models. We focus on diffusion models, defining the fine-tuning task ...",
+                "date": "May 25, 2023",
+                "position": 5
+              },
+              {
+                "title": "Apple Intelligence Foundation Language Models - arXiv",
+                "link": "https://arxiv.org/html/2407.21075v1",
+                "snippet": "We present two new post-training algorithms: (1) a rejection sampling fine-tuning algorithm with teacher committee (iTeC), and (2) a reinforcement learning from ...",
+                "date": "Jul 29, 2024",
+                "position": 6
+              },
+              {
+                "title": "Self-play with Execution Feedback: Improving Instruction-following ...",
+                "link": "https://arxiv.org/abs/2406.13542",
+                "snippet": "execution feedback-based rejection sampling can generate data for Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF) training.",
+                "date": "Jun 19, 2024",
+                "position": 7
+              },
+              {
+                "title": "V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv",
+                "link": "https://arxiv.org/html/2402.06457v2",
+                "snippet": "Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the training dataset ・ using a combination of language modeling. ...",
+                "date": "Aug 14, 2024",
+                "position": 8
+              },
+              {
+                "title": "[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv",
+                "link": "https://arxiv.org/pdf/2307.09288",
+                "snippet": "In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ...",
+                "date": "Jul 19, 2023",
+                "position": 9
+              },
+              {
+                "title": "[PDF] CPSample: Classifier Protected Sampling for Guarding Training ...",
+                "link": "https://arxiv.org/pdf/2409.07025?",
+                "snippet": "Unlike rejection sampling, CPSample offers protection against some membership inference attacks during the generation process rather than only protecting the.",
+                "date": "Sep 11, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:09.075637+00:00",
+          "elapsed_seconds": 1.054319839924574
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2305.16381",
+        "2307.09288",
+        "2308.01825",
+        "2402.03300",
+        "2402.06457",
+        "2402.10038",
+        "2406.13542",
+        "2407.21075",
+        "2409.07025"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2308.01825",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2308.01825",
+          "title": "Scaling Relationship on Learning Mathematical Reasoning with ...",
+          "snippet": "Rejection sampling Fine-Tuning (RFT). RFT uses supervised models to generate and collect correct reasoning paths as augmented fine-tuning datasets."
+        },
+        {
+          "arxiv_id": "2308.01825",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/pdf/2308.01825",
+          "title": "[PDF] arXiv:2308.01825v1 [cs.CL] 3 Aug 2023",
+          "snippet": "Rejection sampling is a simple-yet-effective fine-tuning augmentation technique and is also used for LLM alignment with human preference"
+        },
+        {
+          "arxiv_id": "2402.10038",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2402.10038v2",
+          "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+          "snippet": "LLMs are fine-tuned to learn to maximize the reward of their responses using reinforcement learning algorithms, rejection sampling to select the best samples"
+        },
+        {
+          "arxiv_id": "2402.03300",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2402.03300",
+          "title": "[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024",
+          "snippet": "Fine-tuning first samples multiple outputs from the supervised fine-tuned LLMs for each question, and then trains LLMs on the sampled outputs"
+        },
+        {
+          "arxiv_id": "2305.16381",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2305.16381",
+          "title": "DPOK: Reinforcement Learning for Fine-tuning Text-to-Image ... - arXiv",
+          "snippet": "In this work, we propose using online reinforcement learning (RL) to fine-tune text-to-image models. We focus on diffusion models, defining the fine-tuning task ..."
+        },
+        {
+          "arxiv_id": "2407.21075",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2407.21075v1",
+          "title": "Apple Intelligence Foundation Language Models - arXiv",
+          "snippet": "We present two new post-training algorithms: (1) a rejection sampling fine-tuning algorithm with teacher committee (iTeC), and (2) a reinforcement learning from ..."
+        },
+        {
+          "arxiv_id": "2406.13542",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/abs/2406.13542",
+          "title": "Self-play with Execution Feedback: Improving Instruction-following ...",
+          "snippet": "execution feedback-based rejection sampling can generate data for Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF) training."
+        },
+        {
+          "arxiv_id": "2402.06457",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2402.06457v2",
+          "title": "V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv",
+          "snippet": "Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the training dataset ・ using a combination of language modeling. ..."
+        },
+        {
+          "arxiv_id": "2307.09288",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2307.09288",
+          "title": "[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv",
+          "snippet": "In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ..."
+        },
+        {
+          "arxiv_id": "2409.07025",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2409.07025?",
+          "title": "[PDF] CPSample: Classifier Protected Sampling for Guarding Training ...",
+          "snippet": "Unlike rejection sampling, CPSample offers protection against some membership inference attacks during the generation process rather than only protecting the."
+        }
+      ],
+      "request_payload": {
+        "q": "Rejection sampling fine-tuning in machine learning before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Studies on improving rejection sampling efficiency in fine-tuning",
+      "attempts": [
+        {
+          "global_attempt_sequence": 168,
+          "query_id": "Q27",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Studies on improving rejection sampling efficiency in fine-tuning",
+          "request_payload": {
+            "q": "Studies on improving rejection sampling efficiency in fine-tuning before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q27_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:28:10.335304+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Studies on improving rejection sampling efficiency in fine-tuning before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[PDF] arXiv:2308.01825v1 [cs.CL] 3 Aug 2023\",\"link\":\"https://arxiv.org/pdf/2308.01825\",\"snippet\":\"Rejection sampling is a simple-yet-effective fine-tuning augmentation technique and is also used for LLM alignment with human preference (Bai et al., 2022; Yuan ...\",\"date\":\"Aug 4, 2023\",\"position\":1},{\"title\":\"RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.10038v2\",\"snippet\":\"In this paper, we addresses both challenges by systematically combining rejection sampling (RS) and DPO. Our proposed method, RS-DPO, initiates with the ...\",\"date\":\"Mar 30, 2024\",\"position\":2},{\"title\":\"[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024\",\"link\":\"https://arxiv.org/pdf/2404.17140\",\"snippet\":\"Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated.\",\"date\":\"Jun 6, 2024\",\"position\":3},{\"title\":\"Apple Intelligence Foundation Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2407.21075v1\",\"snippet\":\"We present two new post-training algorithms: (1) a rejection sampling fine-tuning algorithm with teacher committee (iTeC), and (2) a reinforcement learning from ...\",\"date\":\"Jul 29, 2024\",\"position\":4},{\"title\":\"V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv\",\"link\":\"https://arxiv.org/html/2402.06457v2\",\"snippet\":\"This fine-tuned generator is used in subsequent iterations. Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the ...\",\"date\":\"Aug 14, 2024\",\"position\":5},{\"title\":\"Watch Every Step! LLM Agent Learning via Iterative Step-Level ...\",\"link\":\"https://arxiv.org/html/2406.11176v2\",\"snippet\":\"RFT (Rejection sampling Fine-Tuning) (Yuan et al. 2023) augments the expert trajectory dataset with successful trajectories, subsequently training the agent\",\"date\":\"Sep 24, 2024\",\"position\":6},{\"title\":\"[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2307.09288\",\"snippet\":\"In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ...\",\"date\":\"Jul 19, 2023\",\"position\":7},{\"title\":\"[PDF] Self-Evolution Fine-Tuning for Policy Optimization - arXiv\",\"link\":\"https://arxiv.org/pdf/2406.10813\",\"snippet\":\"In the context of LLM alignment, rejection sampling is often employed for efficient data augmentation. This process generates multiple responses for each prompt ...\",\"date\":\"Jun 16, 2024\",\"position\":8},{\"title\":\"Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...\",\"link\":\"https://arxiv.org/html/2405.11870v1\",\"snippet\":\"IFT not only enjoys the second highest efficiency only lower than SFT, but also showcases comparable or even superior performance to other alignment algorithms.\",\"date\":\"May 20, 2024\",\"sitelinks\":[{\"title\":\"Intuitive Fine-Tuning\",\"link\":\"https://arxiv.org/html/2405.11870v1#:~:text=2024-,Intuitive%20Fine%2DTuning%3A\"},{\"title\":\"3 Preliminaries\",\"link\":\"https://arxiv.org/html/2405.11870v1#:~:text=.-,3%20Preliminaries\"},{\"title\":\"5 Experiments\",\"link\":\"https://arxiv.org/html/2405.11870v1#:~:text=5%20Experiments,-We%20conduct%20experiments%20mainly%20on\"}],\"position\":9},{\"title\":\"Detecting and Preventing Hallucinations in Large Vision Language ...\",\"link\":\"https://arxiv.org/html/2308.06394v3\",\"snippet\":\"We also see that rejection sampling with InstructBLIP manages to reduce hallucination rates for LLaVA and significantly for mPLUG-OWL. This shows that although ...\",\"date\":\"Feb 11, 2024\",\"sitelinks\":[{\"title\":\"Detecting And Preventing...\",\"link\":\"https://arxiv.org/html/2308.06394v3#:~:text=2024-,Detecting%20and%20Preventing%20Hallucinations%20in\"},{\"title\":\"Method\",\"link\":\"https://arxiv.org/html/2308.06394v3#:~:text=.-,Method\"},{\"title\":\"Fine-Grained Direct...\",\"link\":\"https://arxiv.org/html/2308.06394v3#:~:text=Fine%2Dgrained%20Direct%20Preference%20Optimization,-While%20we%20train%20a%20reward\"}],\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdHVkaWVzIG9uIGltcHJvdmluZyByZWplY3Rpb24gc2FtcGxpbmcgZWZmaWNpZW5jeSBpbiBmaW5lLXR1bmluZyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJbUERGXSBhclhpdjoyMzA4LjAxODI1djEgW2NzLkNMXSAzIEF1ZyAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA4LjAxODI1Iiwic25pcHBldCI6IlJlamVjdGlvbiBzYW1wbGluZyBpcyBhIHNpbXBsZS15ZXQtZWZmZWN0aXZlIGZpbmUtdHVuaW5nIGF1Z21lbnRhdGlvbiB0ZWNobmlxdWUgYW5kIGlzIGFsc28gdXNlZCBmb3IgTExNIGFsaWdubWVudCB3aXRoIGh1bWFuIHByZWZlcmVuY2UgKEJhaSBldCBhbC4sIDIwMjI7IFl1YW4gLi4uIiwiZGF0ZSI6IkF1ZyA0LCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJSUy1EUE86IEEgSHlicmlkIFJlamVjdGlvbiBTYW1wbGluZyBhbmQgRGlyZWN0IFByZWZlcmVuY2UgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjEwMDM4djIiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgYWRkcmVzc2VzIGJvdGggY2hhbGxlbmdlcyBieSBzeXN0ZW1hdGljYWxseSBjb21iaW5pbmcgcmVqZWN0aW9uIHNhbXBsaW5nIChSUykgYW5kIERQTy4gT3VyIHByb3Bvc2VkIG1ldGhvZCwgUlMtRFBPLCBpbml0aWF0ZXMgd2l0aCB0aGUgLi4uIiwiZGF0ZSI6Ik1hciAzMCwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwNC4xNzE0MHYyIFtjcy5DTF0gNiBKdW4gMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNC4xNzE0MCIsInNuaXBwZXQiOiJPdXIgYXBwcm9hY2ggaXMgaW5zcGlyZWQgYnkgcmVqZWN0aW9uIHNhbXBsaW5nIGZpbmUtIHR1bmluZyAoUkZUKTogc2FtcGxpbmcgZGl2ZXJzZSBzb2x1dGlvbnMgZm9yIGVhY2ggcXVlc3Rpb24gYW5kIGZpbmUtdHVuZSBMTE1zIG9uIHRoZSBzZWxmLWdlbmVyYXRlZC4iLCJkYXRlIjoiSnVuIDYsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkFwcGxlIEludGVsbGlnZW5jZSBGb3VuZGF0aW9uIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4yMTA3NXYxIiwic25pcHBldCI6IldlIHByZXNlbnQgdHdvIG5ldyBwb3N0LXRyYWluaW5nIGFsZ29yaXRobXM6ICgxKSBhIHJlamVjdGlvbiBzYW1wbGluZyBmaW5lLXR1bmluZyBhbGdvcml0aG0gd2l0aCB0ZWFjaGVyIGNvbW1pdHRlZSAoaVRlQyksIGFuZCAoMikgYSByZWluZm9yY2VtZW50IGxlYXJuaW5nIGZyb20gLi4uIiwiZGF0ZSI6Ikp1bCAyOSwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiVi1TVGFSOiBUcmFpbmluZyBWZXJpZmllcnMgZm9yIFNlbGYtVGF1Z2h0IFJlYXNvbmVycyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNjQ1N3YyIiwic25pcHBldCI6IlRoaXMgZmluZS10dW5lZCBnZW5lcmF0b3IgaXMgdXNlZCBpbiBzdWJzZXF1ZW50IGl0ZXJhdGlvbnMuIFJlamVjdGlvbiBTYW1wbGluZyBGaW5lLXR1bmluZyAoWXVhbiBldCBhbC4sIDIwMjMsIFJGVDspIGZpcnN0IGZpbmUtdHVuZXMgYSBwcmV0cmFpbmVkIExNIG9uIHRoZSAuLi4iLCJkYXRlIjoiQXVnIDE0LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJXYXRjaCBFdmVyeSBTdGVwISBMTE0gQWdlbnQgTGVhcm5pbmcgdmlhIEl0ZXJhdGl2ZSBTdGVwLUxldmVsIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTExNzZ2MiIsInNuaXBwZXQiOiJSRlQgKFJlamVjdGlvbiBzYW1wbGluZyBGaW5lLVR1bmluZykgKFl1YW4gZXQgYWwuIDIwMjMpIGF1Z21lbnRzIHRoZSBleHBlcnQgdHJhamVjdG9yeSBkYXRhc2V0IHdpdGggc3VjY2Vzc2Z1bCB0cmFqZWN0b3JpZXMsIHN1YnNlcXVlbnRseSB0cmFpbmluZyB0aGUgYWdlbnQiLCJkYXRlIjoiU2VwIDI0LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBMbGFtYSAyOiBPcGVuIEZvdW5kYXRpb24gYW5kIEZpbmUtVHVuZWQgQ2hhdCBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNy4wOTI4OCIsInNuaXBwZXQiOiJJbiBSZWplY3Rpb24gU2FtcGxpbmcgZmluZS10dW5pbmcsIHdlIHNhbXBsZSBhbGwgdGhlIG91dHB1dHMgZ2l2ZW4gdGhlIGluaXRpYWwgcG9saWN5IG9mIG91ciBtb2RlbCB0byBjb2xsZWN0IGEgbmV3IGRhdGFzZXQsIGJlZm9yZSBhcHBseWluZyB0aGUgZmluZS10dW5pbmcgLi4uIiwiZGF0ZSI6Ikp1bCAxOSwgMjAyMyIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gU2VsZi1Fdm9sdXRpb24gRmluZS1UdW5pbmcgZm9yIFBvbGljeSBPcHRpbWl6YXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNi4xMDgxMyIsInNuaXBwZXQiOiJJbiB0aGUgY29udGV4dCBvZiBMTE0gYWxpZ25tZW50LCByZWplY3Rpb24gc2FtcGxpbmcgaXMgb2Z0ZW4gZW1wbG95ZWQgZm9yIGVmZmljaWVudCBkYXRhIGF1Z21lbnRhdGlvbi4gVGhpcyBwcm9jZXNzIGdlbmVyYXRlcyBtdWx0aXBsZSByZXNwb25zZXMgZm9yIGVhY2ggcHJvbXB0IC4uLiIsImRhdGUiOiJKdW4gMTYsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkludHVpdGl2ZSBGaW5lLVR1bmluZzogVG93YXJkcyBVbmlmeWluZyBTRlQgYW5kIFJMSEYgaW50byBhIFNpbmdsZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjExODcwdjEiLCJzbmlwcGV0IjoiSUZUIG5vdCBvbmx5IGVuam95cyB0aGUgc2Vjb25kIGhpZ2hlc3QgZWZmaWNpZW5jeSBvbmx5IGxvd2VyIHRoYW4gU0ZULCBidXQgYWxzbyBzaG93Y2FzZXMgY29tcGFyYWJsZSBvciBldmVuIHN1cGVyaW9yIHBlcmZvcm1hbmNlIHRvIG90aGVyIGFsaWdubWVudCBhbGdvcml0aG1zLiIsImRhdGUiOiJNYXkgMjAsIDIwMjQiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiSW50dWl0aXZlIEZpbmUtVHVuaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xMTg3MHYxIzp+OnRleHQ9MjAyNC0sSW50dWl0aXZlJTIwRmluZSUyRFR1bmluZyUzQSJ9LHsidGl0bGUiOiIzIFByZWxpbWluYXJpZXMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjExODcwdjEjOn46dGV4dD0uLSwzJTIwUHJlbGltaW5hcmllcyJ9LHsidGl0bGUiOiI1IEV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xMTg3MHYxIzp+OnRleHQ9NSUyMEV4cGVyaW1lbnRzLC1XZSUyMGNvbmR1Y3QlMjBleHBlcmltZW50cyUyMG1haW5seSUyMG9uIn1dLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkRldGVjdGluZyBhbmQgUHJldmVudGluZyBIYWxsdWNpbmF0aW9ucyBpbiBMYXJnZSBWaXNpb24gTGFuZ3VhZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4wNjM5NHYzIiwic25pcHBldCI6IldlIGFsc28gc2VlIHRoYXQgcmVqZWN0aW9uIHNhbXBsaW5nIHdpdGggSW5zdHJ1Y3RCTElQIG1hbmFnZXMgdG8gcmVkdWNlIGhhbGx1Y2luYXRpb24gcmF0ZXMgZm9yIExMYVZBIGFuZCBzaWduaWZpY2FudGx5IGZvciBtUExVRy1PV0wuIFRoaXMgc2hvd3MgdGhhdCBhbHRob3VnaCAuLi4iLCJkYXRlIjoiRmViIDExLCAyMDI0Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IkRldGVjdGluZyBBbmQgUHJldmVudGluZy4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDguMDYzOTR2MyM6fjp0ZXh0PTIwMjQtLERldGVjdGluZyUyMGFuZCUyMFByZXZlbnRpbmclMjBIYWxsdWNpbmF0aW9ucyUyMGluIn0seyJ0aXRsZSI6Ik1ldGhvZCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDguMDYzOTR2MyM6fjp0ZXh0PS4tLE1ldGhvZCJ9LHsidGl0bGUiOiJGaW5lLUdyYWluZWQgRGlyZWN0Li4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4wNjM5NHYzIzp+OnRleHQ9RmluZSUyRGdyYWluZWQlMjBEaXJlY3QlMjBQcmVmZXJlbmNlJTIwT3B0aW1pemF0aW9uLC1XaGlsZSUyMHdlJTIwdHJhaW4lMjBhJTIwcmV3YXJkIn1dLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "df65b41d912ef326c7e4ae753ae61cc0c92e998669f33bf0a03055c8ebe2d5a3",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Studies on improving rejection sampling efficiency in fine-tuning before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "[PDF] arXiv:2308.01825v1 [cs.CL] 3 Aug 2023",
+                "link": "https://arxiv.org/pdf/2308.01825",
+                "snippet": "Rejection sampling is a simple-yet-effective fine-tuning augmentation technique and is also used for LLM alignment with human preference (Bai et al., 2022; Yuan ...",
+                "date": "Aug 4, 2023",
+                "position": 1
+              },
+              {
+                "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+                "link": "https://arxiv.org/html/2402.10038v2",
+                "snippet": "In this paper, we addresses both challenges by systematically combining rejection sampling (RS) and DPO. Our proposed method, RS-DPO, initiates with the ...",
+                "date": "Mar 30, 2024",
+                "position": 2
+              },
+              {
+                "title": "[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024",
+                "link": "https://arxiv.org/pdf/2404.17140",
+                "snippet": "Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated.",
+                "date": "Jun 6, 2024",
+                "position": 3
+              },
+              {
+                "title": "Apple Intelligence Foundation Language Models - arXiv",
+                "link": "https://arxiv.org/html/2407.21075v1",
+                "snippet": "We present two new post-training algorithms: (1) a rejection sampling fine-tuning algorithm with teacher committee (iTeC), and (2) a reinforcement learning from ...",
+                "date": "Jul 29, 2024",
+                "position": 4
+              },
+              {
+                "title": "V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv",
+                "link": "https://arxiv.org/html/2402.06457v2",
+                "snippet": "This fine-tuned generator is used in subsequent iterations. Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the ...",
+                "date": "Aug 14, 2024",
+                "position": 5
+              },
+              {
+                "title": "Watch Every Step! LLM Agent Learning via Iterative Step-Level ...",
+                "link": "https://arxiv.org/html/2406.11176v2",
+                "snippet": "RFT (Rejection sampling Fine-Tuning) (Yuan et al. 2023) augments the expert trajectory dataset with successful trajectories, subsequently training the agent",
+                "date": "Sep 24, 2024",
+                "position": 6
+              },
+              {
+                "title": "[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv",
+                "link": "https://arxiv.org/pdf/2307.09288",
+                "snippet": "In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ...",
+                "date": "Jul 19, 2023",
+                "position": 7
+              },
+              {
+                "title": "[PDF] Self-Evolution Fine-Tuning for Policy Optimization - arXiv",
+                "link": "https://arxiv.org/pdf/2406.10813",
+                "snippet": "In the context of LLM alignment, rejection sampling is often employed for efficient data augmentation. This process generates multiple responses for each prompt ...",
+                "date": "Jun 16, 2024",
+                "position": 8
+              },
+              {
+                "title": "Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...",
+                "link": "https://arxiv.org/html/2405.11870v1",
+                "snippet": "IFT not only enjoys the second highest efficiency only lower than SFT, but also showcases comparable or even superior performance to other alignment algorithms.",
+                "date": "May 20, 2024",
+                "sitelinks": [
+                  {
+                    "title": "Intuitive Fine-Tuning",
+                    "link": "https://arxiv.org/html/2405.11870v1#:~:text=2024-,Intuitive%20Fine%2DTuning%3A"
+                  },
+                  {
+                    "title": "3 Preliminaries",
+                    "link": "https://arxiv.org/html/2405.11870v1#:~:text=.-,3%20Preliminaries"
+                  },
+                  {
+                    "title": "5 Experiments",
+                    "link": "https://arxiv.org/html/2405.11870v1#:~:text=5%20Experiments,-We%20conduct%20experiments%20mainly%20on"
+                  }
+                ],
+                "position": 9
+              },
+              {
+                "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+                "link": "https://arxiv.org/html/2308.06394v3",
+                "snippet": "We also see that rejection sampling with InstructBLIP manages to reduce hallucination rates for LLaVA and significantly for mPLUG-OWL. This shows that although ...",
+                "date": "Feb 11, 2024",
+                "sitelinks": [
+                  {
+                    "title": "Detecting And Preventing...",
+                    "link": "https://arxiv.org/html/2308.06394v3#:~:text=2024-,Detecting%20and%20Preventing%20Hallucinations%20in"
+                  },
+                  {
+                    "title": "Method",
+                    "link": "https://arxiv.org/html/2308.06394v3#:~:text=.-,Method"
+                  },
+                  {
+                    "title": "Fine-Grained Direct...",
+                    "link": "https://arxiv.org/html/2308.06394v3#:~:text=Fine%2Dgrained%20Direct%20Preference%20Optimization,-While%20we%20train%20a%20reward"
+                  }
+                ],
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:11.612398+00:00",
+          "elapsed_seconds": 1.277092084288597
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2307.09288",
+        "2308.01825",
+        "2308.06394",
+        "2402.06457",
+        "2402.10038",
+        "2404.17140",
+        "2405.11870",
+        "2406.10813",
+        "2406.11176",
+        "2407.21075"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2308.01825",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/pdf/2308.01825",
+          "title": "[PDF] arXiv:2308.01825v1 [cs.CL] 3 Aug 2023",
+          "snippet": "Rejection sampling is a simple-yet-effective fine-tuning augmentation technique and is also used for LLM alignment with human preference (Bai et al., 2022; Yuan ..."
+        },
+        {
+          "arxiv_id": "2402.10038",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2402.10038v2",
+          "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+          "snippet": "In this paper, we addresses both challenges by systematically combining rejection sampling (RS) and DPO. Our proposed method, RS-DPO, initiates with the ..."
+        },
+        {
+          "arxiv_id": "2404.17140",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2404.17140",
+          "title": "[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024",
+          "snippet": "Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated."
+        },
+        {
+          "arxiv_id": "2407.21075",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2407.21075v1",
+          "title": "Apple Intelligence Foundation Language Models - arXiv",
+          "snippet": "We present two new post-training algorithms: (1) a rejection sampling fine-tuning algorithm with teacher committee (iTeC), and (2) a reinforcement learning from ..."
+        },
+        {
+          "arxiv_id": "2402.06457",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2402.06457v2",
+          "title": "V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv",
+          "snippet": "This fine-tuned generator is used in subsequent iterations. Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the ..."
+        },
+        {
+          "arxiv_id": "2406.11176",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2406.11176v2",
+          "title": "Watch Every Step! LLM Agent Learning via Iterative Step-Level ...",
+          "snippet": "RFT (Rejection sampling Fine-Tuning) (Yuan et al. 2023) augments the expert trajectory dataset with successful trajectories, subsequently training the agent"
+        },
+        {
+          "arxiv_id": "2307.09288",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2307.09288",
+          "title": "[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv",
+          "snippet": "In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ..."
+        },
+        {
+          "arxiv_id": "2406.10813",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2406.10813",
+          "title": "[PDF] Self-Evolution Fine-Tuning for Policy Optimization - arXiv",
+          "snippet": "In the context of LLM alignment, rejection sampling is often employed for efficient data augmentation. This process generates multiple responses for each prompt ..."
+        },
+        {
+          "arxiv_id": "2405.11870",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2405.11870v1",
+          "title": "Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...",
+          "snippet": "IFT not only enjoys the second highest efficiency only lower than SFT, but also showcases comparable or even superior performance to other alignment algorithms."
+        },
+        {
+          "arxiv_id": "2308.06394",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2308.06394v3",
+          "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+          "snippet": "We also see that rejection sampling with InstructBLIP manages to reduce hallucination rates for LLaVA and significantly for mPLUG-OWL. This shows that although ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Studies on improving rejection sampling efficiency in fine-tuning before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "Show me research on rejection sampling finetuning.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 167,
+          "query_id": "Q27",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "Show me research on rejection sampling finetuning.",
+          "request_payload": {
+            "q": "Show me research on rejection sampling finetuning. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q27_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:28:09.236476+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Show me research on rejection sampling finetuning. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.10038v2\",\"snippet\":\"Extensive experiments show the effectiveness of RS-DPO compared to existing methods including rejection sampling (RS), proximal policy optimization (PPO)\",\"date\":\"Mar 30, 2024\",\"position\":1},{\"title\":\"[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2307.09288\",\"snippet\":\"In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ...\",\"date\":\"Jul 19, 2023\",\"position\":2},{\"title\":\"[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024\",\"link\":\"https://arxiv.org/pdf/2402.03300\",\"snippet\":\"Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions.\",\"date\":\"Apr 27, 2024\",\"position\":3},{\"title\":\"[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024\",\"link\":\"https://arxiv.org/pdf/2404.17140\",\"snippet\":\"Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated.\",\"date\":\"Jun 6, 2024\",\"position\":4},{\"title\":\"Detecting and Preventing Hallucinations in Large Vision Language ...\",\"link\":\"https://arxiv.org/html/2308.06394v3\",\"snippet\":\"We perform human evaluation on both FDPO and rejection sampling, and find that they reduce hallucination rates in InstructBLIP by 41% and 55% respectively.\",\"date\":\"Feb 11, 2024\",\"position\":5},{\"title\":\"Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...\",\"link\":\"https://arxiv.org/html/2405.11870v1\",\"snippet\":\"Our experiments show that IFT performs comparably or even superiorly to sequential recipes of SFT and some typical alignment methods across several tasks, ...\",\"date\":\"May 20, 2024\",\"position\":6},{\"title\":\"V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv\",\"link\":\"https://arxiv.org/html/2402.06457v2\",\"snippet\":\"Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the training dataset 𝒟 SFT \\\\mathcal{D}_{\\\\text{SFT}} to obtain ...\",\"date\":\"Aug 14, 2024\",\"position\":7},{\"title\":\"Policy Filtration in RLHF to Fine-Tune LLM for Code Generation - arXiv\",\"link\":\"https://arxiv.org/html/2409.06957v1\",\"snippet\":\"Reject sampling is a simple but surprisingly strong inference-time strategy, fine-tuning LLMs. Reject sampling (or best-of-N sampling) is a popular and ...\",\"date\":\"Sep 11, 2024\",\"sitelinks\":[{\"title\":\"Policy Filtration In Rlhf To...\",\"link\":\"https://arxiv.org/html/2409.06957v1#:~:text=2024-,Policy%20Filtration%20in%20RLHF%20to%20Fine%2DTune%20LLM\"},{\"title\":\"2 Preliminary\",\"link\":\"https://arxiv.org/html/2409.06957v1#:~:text=2%20Preliminary,-Notations.%20We%20use%20%28\"},{\"title\":\"5 Experiments\",\"link\":\"https://arxiv.org/html/2409.06957v1#:~:text=.-,5%20Experiments\"}],\"position\":8},{\"title\":\"[PDF] A Lightweight Approach to Reward Maximization for Language Models\",\"link\":\"https://arxiv.org/pdf/2402.14688\",\"snippet\":\"Rejection sampling + finetuning. Another line of work finetunes or distills models on top of data that is acquired by rejection sampling (Singh et al., 2023 ...\",\"date\":\"Jun 2, 2024\",\"position\":9},{\"title\":\"[PDF] CPSample: Classifier Protected Sampling for Guarding Training ...\",\"link\":\"https://arxiv.org/pdf/2409.07025?\",\"snippet\":\"We show that CPSample behaves like a built-in rejection sampler, and we demonstrate its capabilities to prevent mode collapse in Stable Diffusion. 1 ...\",\"date\":\"Sep 11, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTaG93IG1lIHJlc2VhcmNoIG9uIHJlamVjdGlvbiBzYW1wbGluZyBmaW5ldHVuaW5nLiBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJSUy1EUE86IEEgSHlicmlkIFJlamVjdGlvbiBTYW1wbGluZyBhbmQgRGlyZWN0IFByZWZlcmVuY2UgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjEwMDM4djIiLCJzbmlwcGV0IjoiRXh0ZW5zaXZlIGV4cGVyaW1lbnRzIHNob3cgdGhlIGVmZmVjdGl2ZW5lc3Mgb2YgUlMtRFBPIGNvbXBhcmVkIHRvIGV4aXN0aW5nIG1ldGhvZHMgaW5jbHVkaW5nIHJlamVjdGlvbiBzYW1wbGluZyAoUlMpLCBwcm94aW1hbCBwb2xpY3kgb3B0aW1pemF0aW9uIChQUE8pIiwiZGF0ZSI6Ik1hciAzMCwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiW1BERl0gTGxhbWEgMjogT3BlbiBGb3VuZGF0aW9uIGFuZCBGaW5lLVR1bmVkIENoYXQgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDcuMDkyODgiLCJzbmlwcGV0IjoiSW4gUmVqZWN0aW9uIFNhbXBsaW5nIGZpbmUtdHVuaW5nLCB3ZSBzYW1wbGUgYWxsIHRoZSBvdXRwdXRzIGdpdmVuIHRoZSBpbml0aWFsIHBvbGljeSBvZiBvdXIgbW9kZWwgdG8gY29sbGVjdCBhIG5ldyBkYXRhc2V0LCBiZWZvcmUgYXBwbHlpbmcgdGhlIGZpbmUtdHVuaW5nIC4uLiIsImRhdGUiOiJKdWwgMTksIDIwMjMiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDIuMDMzMDB2MyBbY3MuQ0xdIDI3IEFwciAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAyLjAzMzAwIiwic25pcHBldCI6IlJlamVjdGlvbiBTYW1wbGluZyBGaW5lLXR1bmluZyAoUkZUKTogUkZUIGZ1cnRoZXIgZmluZS10dW5lcyB0aGUgU0ZUIG1vZGVsIG9uIHRoZSBmaWx0ZXJlZCBvdXRwdXRzIHNhbXBsZWQgZnJvbSB0aGUgU0ZUIG1vZGVsIGJhc2VkIG9uIFNGVCBxdWVzdGlvbnMuIiwiZGF0ZSI6IkFwciAyNywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwNC4xNzE0MHYyIFtjcy5DTF0gNiBKdW4gMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwNC4xNzE0MCIsInNuaXBwZXQiOiJPdXIgYXBwcm9hY2ggaXMgaW5zcGlyZWQgYnkgcmVqZWN0aW9uIHNhbXBsaW5nIGZpbmUtIHR1bmluZyAoUkZUKTogc2FtcGxpbmcgZGl2ZXJzZSBzb2x1dGlvbnMgZm9yIGVhY2ggcXVlc3Rpb24gYW5kIGZpbmUtdHVuZSBMTE1zIG9uIHRoZSBzZWxmLWdlbmVyYXRlZC4iLCJkYXRlIjoiSnVuIDYsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkRldGVjdGluZyBhbmQgUHJldmVudGluZyBIYWxsdWNpbmF0aW9ucyBpbiBMYXJnZSBWaXNpb24gTGFuZ3VhZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4wNjM5NHYzIiwic25pcHBldCI6IldlIHBlcmZvcm0gaHVtYW4gZXZhbHVhdGlvbiBvbiBib3RoIEZEUE8gYW5kIHJlamVjdGlvbiBzYW1wbGluZywgYW5kIGZpbmQgdGhhdCB0aGV5IHJlZHVjZSBoYWxsdWNpbmF0aW9uIHJhdGVzIGluIEluc3RydWN0QkxJUCBieSA0MSUgYW5kIDU1JSByZXNwZWN0aXZlbHkuIiwiZGF0ZSI6IkZlYiAxMSwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiSW50dWl0aXZlIEZpbmUtVHVuaW5nOiBUb3dhcmRzIFVuaWZ5aW5nIFNGVCBhbmQgUkxIRiBpbnRvIGEgU2luZ2xlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMTE4NzB2MSIsInNuaXBwZXQiOiJPdXIgZXhwZXJpbWVudHMgc2hvdyB0aGF0IElGVCBwZXJmb3JtcyBjb21wYXJhYmx5IG9yIGV2ZW4gc3VwZXJpb3JseSB0byBzZXF1ZW50aWFsIHJlY2lwZXMgb2YgU0ZUIGFuZCBzb21lIHR5cGljYWwgYWxpZ25tZW50IG1ldGhvZHMgYWNyb3NzIHNldmVyYWwgdGFza3MsIC4uLiIsImRhdGUiOiJNYXkgMjAsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlYtU1RhUjogVHJhaW5pbmcgVmVyaWZpZXJzIGZvciBTZWxmLVRhdWdodCBSZWFzb25lcnMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDY0NTd2MiIsInNuaXBwZXQiOiJSZWplY3Rpb24gU2FtcGxpbmcgRmluZS10dW5pbmcgKFl1YW4gZXQgYWwuLCAyMDIzLCBSRlQ7KSBmaXJzdCBmaW5lLXR1bmVzIGEgcHJldHJhaW5lZCBMTSBvbiB0aGUgdHJhaW5pbmcgZGF0YXNldCDwnZKfIFNGVCBcXG1hdGhjYWx7RH1fe1xcdGV4dHtTRlR9fSB0byBvYnRhaW4gLi4uIiwiZGF0ZSI6IkF1ZyAxNCwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiUG9saWN5IEZpbHRyYXRpb24gaW4gUkxIRiB0byBGaW5lLVR1bmUgTExNIGZvciBDb2RlIEdlbmVyYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDkuMDY5NTd2MSIsInNuaXBwZXQiOiJSZWplY3Qgc2FtcGxpbmcgaXMgYSBzaW1wbGUgYnV0IHN1cnByaXNpbmdseSBzdHJvbmcgaW5mZXJlbmNlLXRpbWUgc3RyYXRlZ3ksIGZpbmUtdHVuaW5nIExMTXMuIFJlamVjdCBzYW1wbGluZyAob3IgYmVzdC1vZi1OIHNhbXBsaW5nKSBpcyBhIHBvcHVsYXIgYW5kIC4uLiIsImRhdGUiOiJTZXAgMTEsIDIwMjQiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiUG9saWN5IEZpbHRyYXRpb24gSW4gUmxoZiBUby4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDkuMDY5NTd2MSM6fjp0ZXh0PTIwMjQtLFBvbGljeSUyMEZpbHRyYXRpb24lMjBpbiUyMFJMSEYlMjB0byUyMEZpbmUlMkRUdW5lJTIwTExNIn0seyJ0aXRsZSI6IjIgUHJlbGltaW5hcnkiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA5LjA2OTU3djEjOn46dGV4dD0yJTIwUHJlbGltaW5hcnksLU5vdGF0aW9ucy4lMjBXZSUyMHVzZSUyMCUyOCJ9LHsidGl0bGUiOiI1IEV4cGVyaW1lbnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOS4wNjk1N3YxIzp+OnRleHQ9Li0sNSUyMEV4cGVyaW1lbnRzIn1dLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIEEgTGlnaHR3ZWlnaHQgQXBwcm9hY2ggdG8gUmV3YXJkIE1heGltaXphdGlvbiBmb3IgTGFuZ3VhZ2UgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAyLjE0Njg4Iiwic25pcHBldCI6IlJlamVjdGlvbiBzYW1wbGluZyArIGZpbmV0dW5pbmcuIEFub3RoZXIgbGluZSBvZiB3b3JrIGZpbmV0dW5lcyBvciBkaXN0aWxscyBtb2RlbHMgb24gdG9wIG9mIGRhdGEgdGhhdCBpcyBhY3F1aXJlZCBieSByZWplY3Rpb24gc2FtcGxpbmcgKFNpbmdoIGV0IGFsLiwgMjAyMyAuLi4iLCJkYXRlIjoiSnVuIDIsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIENQU2FtcGxlOiBDbGFzc2lmaWVyIFByb3RlY3RlZCBTYW1wbGluZyBmb3IgR3VhcmRpbmcgVHJhaW5pbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA5LjA3MDI1PyIsInNuaXBwZXQiOiJXZSBzaG93IHRoYXQgQ1BTYW1wbGUgYmVoYXZlcyBsaWtlIGEgYnVpbHQtaW4gcmVqZWN0aW9uIHNhbXBsZXIsIGFuZCB3ZSBkZW1vbnN0cmF0ZSBpdHMgY2FwYWJpbGl0aWVzIHRvIHByZXZlbnQgbW9kZSBjb2xsYXBzZSBpbiBTdGFibGUgRGlmZnVzaW9uLiAxIC4uLiIsImRhdGUiOiJTZXAgMTEsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "613c729ca67cb11f67c4b74133d839e57979a93495c0d2928f340996dfc246eb",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Show me research on rejection sampling finetuning. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+                "link": "https://arxiv.org/html/2402.10038v2",
+                "snippet": "Extensive experiments show the effectiveness of RS-DPO compared to existing methods including rejection sampling (RS), proximal policy optimization (PPO)",
+                "date": "Mar 30, 2024",
+                "position": 1
+              },
+              {
+                "title": "[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv",
+                "link": "https://arxiv.org/pdf/2307.09288",
+                "snippet": "In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ...",
+                "date": "Jul 19, 2023",
+                "position": 2
+              },
+              {
+                "title": "[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024",
+                "link": "https://arxiv.org/pdf/2402.03300",
+                "snippet": "Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions.",
+                "date": "Apr 27, 2024",
+                "position": 3
+              },
+              {
+                "title": "[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024",
+                "link": "https://arxiv.org/pdf/2404.17140",
+                "snippet": "Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated.",
+                "date": "Jun 6, 2024",
+                "position": 4
+              },
+              {
+                "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+                "link": "https://arxiv.org/html/2308.06394v3",
+                "snippet": "We perform human evaluation on both FDPO and rejection sampling, and find that they reduce hallucination rates in InstructBLIP by 41% and 55% respectively.",
+                "date": "Feb 11, 2024",
+                "position": 5
+              },
+              {
+                "title": "Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...",
+                "link": "https://arxiv.org/html/2405.11870v1",
+                "snippet": "Our experiments show that IFT performs comparably or even superiorly to sequential recipes of SFT and some typical alignment methods across several tasks, ...",
+                "date": "May 20, 2024",
+                "position": 6
+              },
+              {
+                "title": "V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv",
+                "link": "https://arxiv.org/html/2402.06457v2",
+                "snippet": "Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the training dataset 𝒟 SFT \\mathcal{D}_{\\text{SFT}} to obtain ...",
+                "date": "Aug 14, 2024",
+                "position": 7
+              },
+              {
+                "title": "Policy Filtration in RLHF to Fine-Tune LLM for Code Generation - arXiv",
+                "link": "https://arxiv.org/html/2409.06957v1",
+                "snippet": "Reject sampling is a simple but surprisingly strong inference-time strategy, fine-tuning LLMs. Reject sampling (or best-of-N sampling) is a popular and ...",
+                "date": "Sep 11, 2024",
+                "sitelinks": [
+                  {
+                    "title": "Policy Filtration In Rlhf To...",
+                    "link": "https://arxiv.org/html/2409.06957v1#:~:text=2024-,Policy%20Filtration%20in%20RLHF%20to%20Fine%2DTune%20LLM"
+                  },
+                  {
+                    "title": "2 Preliminary",
+                    "link": "https://arxiv.org/html/2409.06957v1#:~:text=2%20Preliminary,-Notations.%20We%20use%20%28"
+                  },
+                  {
+                    "title": "5 Experiments",
+                    "link": "https://arxiv.org/html/2409.06957v1#:~:text=.-,5%20Experiments"
+                  }
+                ],
+                "position": 8
+              },
+              {
+                "title": "[PDF] A Lightweight Approach to Reward Maximization for Language Models",
+                "link": "https://arxiv.org/pdf/2402.14688",
+                "snippet": "Rejection sampling + finetuning. Another line of work finetunes or distills models on top of data that is acquired by rejection sampling (Singh et al., 2023 ...",
+                "date": "Jun 2, 2024",
+                "position": 9
+              },
+              {
+                "title": "[PDF] CPSample: Classifier Protected Sampling for Guarding Training ...",
+                "link": "https://arxiv.org/pdf/2409.07025?",
+                "snippet": "We show that CPSample behaves like a built-in rejection sampler, and we demonstrate its capabilities to prevent mode collapse in Stable Diffusion. 1 ...",
+                "date": "Sep 11, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:28:10.173126+00:00",
+          "elapsed_seconds": 0.9366478025913239
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2307.09288",
+        "2308.06394",
+        "2402.03300",
+        "2402.06457",
+        "2402.10038",
+        "2402.14688",
+        "2404.17140",
+        "2405.11870",
+        "2409.06957",
+        "2409.07025"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2402.10038",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2402.10038v2",
+          "title": "RS-DPO: A Hybrid Rejection Sampling and Direct Preference ... - arXiv",
+          "snippet": "Extensive experiments show the effectiveness of RS-DPO compared to existing methods including rejection sampling (RS), proximal policy optimization (PPO)"
+        },
+        {
+          "arxiv_id": "2307.09288",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/pdf/2307.09288",
+          "title": "[PDF] Llama 2: Open Foundation and Fine-Tuned Chat Models - arXiv",
+          "snippet": "In Rejection Sampling fine-tuning, we sample all the outputs given the initial policy of our model to collect a new dataset, before applying the fine-tuning ..."
+        },
+        {
+          "arxiv_id": "2402.03300",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2402.03300",
+          "title": "[PDF] arXiv:2402.03300v3 [cs.CL] 27 Apr 2024",
+          "snippet": "Rejection Sampling Fine-tuning (RFT): RFT further fine-tunes the SFT model on the filtered outputs sampled from the SFT model based on SFT questions."
+        },
+        {
+          "arxiv_id": "2404.17140",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2404.17140",
+          "title": "[PDF] arXiv:2404.17140v2 [cs.CL] 6 Jun 2024",
+          "snippet": "Our approach is inspired by rejection sampling fine- tuning (RFT): sampling diverse solutions for each question and fine-tune LLMs on the self-generated."
+        },
+        {
+          "arxiv_id": "2308.06394",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2308.06394v3",
+          "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+          "snippet": "We perform human evaluation on both FDPO and rejection sampling, and find that they reduce hallucination rates in InstructBLIP by 41% and 55% respectively."
+        },
+        {
+          "arxiv_id": "2405.11870",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2405.11870v1",
+          "title": "Intuitive Fine-Tuning: Towards Unifying SFT and RLHF into a Single ...",
+          "snippet": "Our experiments show that IFT performs comparably or even superiorly to sequential recipes of SFT and some typical alignment methods across several tasks, ..."
+        },
+        {
+          "arxiv_id": "2402.06457",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2402.06457v2",
+          "title": "V-STaR: Training Verifiers for Self-Taught Reasoners - arXiv",
+          "snippet": "Rejection Sampling Fine-tuning (Yuan et al., 2023, RFT;) first fine-tunes a pretrained LM on the training dataset 𝒟 SFT \\mathcal{D}_{\\text{SFT}} to obtain ..."
+        },
+        {
+          "arxiv_id": "2409.06957",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2409.06957v1",
+          "title": "Policy Filtration in RLHF to Fine-Tune LLM for Code Generation - arXiv",
+          "snippet": "Reject sampling is a simple but surprisingly strong inference-time strategy, fine-tuning LLMs. Reject sampling (or best-of-N sampling) is a popular and ..."
+        },
+        {
+          "arxiv_id": "2402.14688",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2402.14688",
+          "title": "[PDF] A Lightweight Approach to Reward Maximization for Language Models",
+          "snippet": "Rejection sampling + finetuning. Another line of work finetunes or distills models on top of data that is acquired by rejection sampling (Singh et al., 2023 ..."
+        },
+        {
+          "arxiv_id": "2409.07025",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2409.07025?",
+          "title": "[PDF] CPSample: Classifier Protected Sampling for Guarding Training ...",
+          "snippet": "We show that CPSample behaves like a built-in rejection sampler, and we demonstrate its capabilities to prevent mode collapse in Stable Diffusion. 1 ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Show me research on rejection sampling finetuning. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "anchor",
+    "q5"
+  ]
+}

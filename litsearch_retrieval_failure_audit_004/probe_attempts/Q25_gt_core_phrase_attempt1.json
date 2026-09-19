@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q25",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2104.08315",
+  "request_payload": {
+    "q": "surface form competition highest probability answer before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 50,
+  "started_utc": "2026-09-17T12:34:21.923180+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648185",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "bfe0f9bdf6a757a6df8a8888dfd9930c",
+    "date": "Thu, 17 Sep 2026 12:29:42 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3408",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3408,
+  "response_bytes_sha256": "aa795a707bcfb61737fa879d529a8c098ebb47acca2982ea413c2744d4525eac",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJzdXJmYWNlIGZvcm0gY29tcGV0aXRpb24gaGlnaGVzdCBwcm9iYWJpbGl0eSBhbnN3ZXIgYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiU3VyZmFjZSBGb3JtIENvbXBldGl0aW9uOiBXaHkgdGhlIEhpZ2hlc3QgUHJvYmFiaWxpdHkgQW5zd2VyIElzbid0IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjEwNC4wODMxNSIsInNuaXBwZXQiOiJBYnN0cmFjdCBwYWdlIGZvciBhclhpdiBwYXBlciAyMTA0LjA4MzE1OiBTdXJmYWNlIEZvcm0gQ29tcGV0aXRpb246IFdoeSB0aGUgSGlnaGVzdCBQcm9iYWJpbGl0eSBBbnN3ZXIgSXNuJ3QgQWx3YXlzIFJpZ2h0LiIsImRhdGUiOiJBcHIgMTYsIDIwMjEiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkluY3JlYXNpbmcgUHJvYmFiaWxpdHkgTWFzcyBvbiBBbnN3ZXIgQ2hvaWNlcyBEb2VzIE5vdCBBbHdheXMgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzA1LjE0NTk2Iiwic25pcHBldCI6IldlIHByb3Bvc2UgYSBtYXRoZW1hdGljYWwgZm9ybWFsaXNtIGZvciBTRkMgd2hpY2ggYWxsb3dzIHVzIHRvIHF1YW50aWZ5IGFuZCBib3VuZCBpdHMgaW1wYWN0IGZvciB0aGUgZmlyc3QgdGltZS4gV2UgaWRlbnRpZnkgYSBzaW1wbGUgbWV0aG9kIGZvciByZWR1Y2luZyBpdCAtLSAuLi4iLCJkYXRlIjoiTWF5IDI0LCAyMDIzIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMzA1LjE0NTk2djIgW2NzLkNMXSAzMSBPY3QgMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4xNDU5NiIsInNuaXBwZXQiOiLigJxzdXJmYWNlIGZvcm0gY29tcGV0aXRpb27igJ0gKFNGQykgaHlwb3RoZXNpcy4gVGhpcyBoYXMgbW90aXZhdGVkIHRoZSBpbnRyb2R1Y3Rpb24gb2YgdmFyaW91cyBwcm9iYWJpbGl0eSBub3JtYWxpemF0aW9uIG1ldGhvZHMuIEhvd2V2ZXIsIG1hbnkgY29yZSBxdWVzdGlvbnMgLi4uIiwiZGF0ZSI6Ik9jdCAzMSwgMjAyMyIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiTWFpZXV0aWMgUHJvbXB0aW5nOiBMb2dpY2FsbHkgQ29uc2lzdGVudCBSZWFzb25pbmcgd2l0aFJlY3Vyc2l2ZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjA1LjExODIydjIiLCJzbmlwcGV0IjoiU3VyZmFjZSBmb3JtIGNvbXBldGl0aW9uOiBXaHkgdGhlIGhpZ2hlc3QgcHJvYmFiaWxpdHkgYW5zd2VyIGlzbid0IGFsd2F5cyByaWdodC4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMjEgQ29uZmVyZW5jZSBvbiBFbXBpcmljYWwgTWV0aG9kcyBpbiBOYXR1cmFsIC4uLiIsImRhdGUiOiJPY3QgMjQsIDIwMjIiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDEuMDk3ODN2MSBbY3MuQ0xdIDE4IEphbiAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAxLjA5NzgzIiwic25pcHBldCI6IlpldHRsZW1veWVyLCDigJxTdXJmYWNlIGZvcm0gY29tcGV0aXRpb246IFdoeSB0aGUgaGlnaGVzdCBwcm9iYWJpbGl0eSBhbnN3ZXIgaXNuJ3QgYWx3YXlzIHJpZ2h0LOKAnSBpbiBQcm8tIGNlZWRpbmdzIG9mIHRoZSAyMDIxIENvbmZlcmVuY2Ugb24gRW1waXJpY2FsIE1ldGhvZHMuIiwiZGF0ZSI6IkphbiAxOCwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiQ29uY2VwdCBUcmFpbmluZyBmb3IgSHVtYW4tQWxpZ25lZCBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDMuMjkxMjN2MSIsInNuaXBwZXQiOiJaZXR0bGVtb3llciBTdXJmYWNlIGZvcm0gY29tcGV0aXRpb246IHdoeSB0aGUgaGlnaGVzdCBwcm9iYWJpbGl0eSBhbnN3ZXIgaXNuJ3QgYWx3YXlzIHJpZ2h0LiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgMjAyMSBDb25mZXJlbmNlIG9uIEVtcGlyaWNhbCBNZXRob2RzIGluIC4uLiIsImRhdGUiOiJNYXIgMzEsIDIwMjYiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IkxvZyBQcm9iYWJpbGl0aWVzIEFyZSBhIFJlbGlhYmxlIEVzdGltYXRlIG9mIFNlbWFudGljIFBsYXVzaWJpbGl0eSBpbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE0ODU5djIiLCJzbmlwcGV0IjoiU3VyZmFjZSBGb3JtIENvbXBldGl0aW9uOiBXaHkgdGhlIEhpZ2hlc3QgUHJvYmFiaWxpdHkgQW5zd2VyIElzbid0IEFsd2F5cyBSaWdodC4gSW4gUHJvY2VlZGluZ3Mgb2YgRU1OTFAuIEh1IGV0IGFsLiAoMjAyMCkgSmVubmlmZXIgSHUsIEpvbiBHYXV0aGllciwgUGVuZyAuLi4iLCJkYXRlIjoiT2N0IDIxLCAyMDI0IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJGcm9tIFJldHJpZXZhbCB0byBXZWlnaHRzOiBQYXJhbWV0cmljIEluZGl2aWR1YWxpemF0aW9uIG9mIFNtYWxsIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDkuMTAxNTV2MSIsInNuaXBwZXQiOiJaZXR0bGVtb3llciBTdXJmYWNlIGZvcm0gY29tcGV0aXRpb246IHdoeSB0aGUgaGlnaGVzdCBwcm9iYWJpbGl0eSBhbnN3ZXIgaXNuJ3QgYWx3YXlzIHJpZ2h0LiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgMjAyMSBDb25mZXJlbmNlIG9uIEVtcGlyaWNhbCBNZXRob2RzIGluIC4uLiIsImRhdGUiOiI3IGRheXMgYWdvIiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJNYWtpbmcgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIEJldHRlciBSZWFzb25lcnMgd2l0aCBTdGVwLUF3YXJlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDYuMDIzMzZ2MyIsInNuaXBwZXQiOiJTdXJmYWNlIGZvcm0gY29tcGV0aXRpb246IFdoeSB0aGUgaGlnaGVzdCBwcm9iYWJpbGl0eSBhbnN3ZXIgaXNuJ3QgYWx3YXlzIHJpZ2h0LiBIb3Vsc2J5IGV0IGFsLiAoMjAxOSkgTmVpbCBIb3Vsc2J5LCBBbmRyZWkgR2l1cmdpdSwgU3RhbmlzbGF3IEphc3RyemVic2tpIC4uLiIsImRhdGUiOiJNYXkgMjQsIDIwMjMiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkNhbiBsYW5ndWFnZSBtb2RlbHMgbGVhcm4gZnJvbSBleHBsYW5hdGlvbnMgaW4gY29udGV4dD8gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDQuMDIzMjl2NCIsInNuaXBwZXQiOiJTdXJmYWNlIGZvcm0gY29tcGV0aXRpb246IFdoeSB0aGUgaGlnaGVzdCBwcm9iYWJpbGl0eSBhbnN3ZXIgaXNuJ3QgYWx3YXlzIHJpZ2h0LiAuLi4gcXVlc3Rpb24sIHRoZW4gc2NvcmluZyB0aGUgYW5zd2VyIHRoYXQgcmVjZWl2ZWQgdGhlIGhpZ2hlc3QgbGlrZWxpaG9vZCAuLi4iLCJkYXRlIjoiT2N0IDEwLCAyMDIyIiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "surface form competition highest probability answer before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Surface Form Competition: Why the Highest Probability Answer Isn't ...",
+        "link": "https://arxiv.org/abs/2104.08315",
+        "snippet": "Abstract page for arXiv paper 2104.08315: Surface Form Competition: Why the Highest Probability Answer Isn't Always Right.",
+        "date": "Apr 16, 2021",
+        "position": 1
+      },
+      {
+        "title": "Increasing Probability Mass on Answer Choices Does Not Always ...",
+        "link": "https://arxiv.org/abs/2305.14596",
+        "snippet": "We propose a mathematical formalism for SFC which allows us to quantify and bound its impact for the first time. We identify a simple method for reducing it -- ...",
+        "date": "May 24, 2023",
+        "position": 2
+      },
+      {
+        "title": "[PDF] arXiv:2305.14596v2 [cs.CL] 31 Oct 2023",
+        "link": "https://arxiv.org/pdf/2305.14596",
+        "snippet": "“surface form competition” (SFC) hypothesis. This has motivated the introduction of various probability normalization methods. However, many core questions ...",
+        "date": "Oct 31, 2023",
+        "position": 3
+      },
+      {
+        "title": "Maieutic Prompting: Logically Consistent Reasoning withRecursive ...",
+        "link": "https://arxiv.org/html/2205.11822v2",
+        "snippet": "Surface form competition: Why the highest probability answer isn't always right. In Proceedings of the 2021 Conference on Empirical Methods in Natural ...",
+        "date": "Oct 24, 2022",
+        "position": 4
+      },
+      {
+        "title": "[PDF] arXiv:2401.09783v1 [cs.CL] 18 Jan 2024",
+        "link": "https://arxiv.org/pdf/2401.09783",
+        "snippet": "Zettlemoyer, “Surface form competition: Why the highest probability answer isn't always right,” in Pro- ceedings of the 2021 Conference on Empirical Methods.",
+        "date": "Jan 18, 2024",
+        "position": 5
+      },
+      {
+        "title": "Concept Training for Human-Aligned Language Models - arXiv",
+        "link": "https://arxiv.org/html/2603.29123v1",
+        "snippet": "Zettlemoyer Surface form competition: why the highest probability answer isn't always right. In Proceedings of the 2021 Conference on Empirical Methods in ...",
+        "date": "Mar 31, 2026",
+        "position": 6
+      },
+      {
+        "title": "Log Probabilities Are a Reliable Estimate of Semantic Plausibility in ...",
+        "link": "https://arxiv.org/html/2403.14859v2",
+        "snippet": "Surface Form Competition: Why the Highest Probability Answer Isn't Always Right. In Proceedings of EMNLP. Hu et al. (2020) Jennifer Hu, Jon Gauthier, Peng ...",
+        "date": "Oct 21, 2024",
+        "position": 7
+      },
+      {
+        "title": "From Retrieval to Weights: Parametric Individualization of Small ...",
+        "link": "https://arxiv.org/html/2609.10155v1",
+        "snippet": "Zettlemoyer Surface form competition: why the highest probability answer isn't always right. In Proceedings of the 2021 Conference on Empirical Methods in ...",
+        "date": "7 days ago",
+        "position": 8
+      },
+      {
+        "title": "Making Large Language Models Better Reasoners with Step-Aware ...",
+        "link": "https://arxiv.org/html/2206.02336v3",
+        "snippet": "Surface form competition: Why the highest probability answer isn't always right. Houlsby et al. (2019) Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski ...",
+        "date": "May 24, 2023",
+        "position": 9
+      },
+      {
+        "title": "Can language models learn from explanations in context? - arXiv",
+        "link": "https://arxiv.org/html/2204.02329v4",
+        "snippet": "Surface form competition: Why the highest probability answer isn't always right. ... question, then scoring the answer that received the highest likelihood ...",
+        "date": "Oct 10, 2022",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Surface Form Competition: Why the Highest Probability Answer Isn't ...",
+      "snippet": "Abstract page for arXiv paper 2104.08315: Surface Form Competition: Why the Highest Probability Answer Isn't Always Right.",
+      "link": "https://arxiv.org/abs/2104.08315",
+      "arxiv_id": "2104.08315"
+    },
+    {
+      "rank": 2,
+      "title": "Increasing Probability Mass on Answer Choices Does Not Always ...",
+      "snippet": "We propose a mathematical formalism for SFC which allows us to quantify and bound its impact for the first time. We identify a simple method for reducing it -- ...",
+      "link": "https://arxiv.org/abs/2305.14596",
+      "arxiv_id": "2305.14596"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] arXiv:2305.14596v2 [cs.CL] 31 Oct 2023",
+      "snippet": "“surface form competition” (SFC) hypothesis. This has motivated the introduction of various probability normalization methods. However, many core questions ...",
+      "link": "https://arxiv.org/pdf/2305.14596",
+      "arxiv_id": "2305.14596"
+    },
+    {
+      "rank": 4,
+      "title": "Maieutic Prompting: Logically Consistent Reasoning withRecursive ...",
+      "snippet": "Surface form competition: Why the highest probability answer isn't always right. In Proceedings of the 2021 Conference on Empirical Methods in Natural ...",
+      "link": "https://arxiv.org/html/2205.11822v2",
+      "arxiv_id": "2205.11822"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] arXiv:2401.09783v1 [cs.CL] 18 Jan 2024",
+      "snippet": "Zettlemoyer, “Surface form competition: Why the highest probability answer isn't always right,” in Pro- ceedings of the 2021 Conference on Empirical Methods.",
+      "link": "https://arxiv.org/pdf/2401.09783",
+      "arxiv_id": "2401.09783"
+    },
+    {
+      "rank": 6,
+      "title": "Concept Training for Human-Aligned Language Models - arXiv",
+      "snippet": "Zettlemoyer Surface form competition: why the highest probability answer isn't always right. In Proceedings of the 2021 Conference on Empirical Methods in ...",
+      "link": "https://arxiv.org/html/2603.29123v1",
+      "arxiv_id": "2603.29123"
+    },
+    {
+      "rank": 7,
+      "title": "Log Probabilities Are a Reliable Estimate of Semantic Plausibility in ...",
+      "snippet": "Surface Form Competition: Why the Highest Probability Answer Isn't Always Right. In Proceedings of EMNLP. Hu et al. (2020) Jennifer Hu, Jon Gauthier, Peng ...",
+      "link": "https://arxiv.org/html/2403.14859v2",
+      "arxiv_id": "2403.14859"
+    },
+    {
+      "rank": 8,
+      "title": "From Retrieval to Weights: Parametric Individualization of Small ...",
+      "snippet": "Zettlemoyer Surface form competition: why the highest probability answer isn't always right. In Proceedings of the 2021 Conference on Empirical Methods in ...",
+      "link": "https://arxiv.org/html/2609.10155v1",
+      "arxiv_id": "2609.10155"
+    },
+    {
+      "rank": 9,
+      "title": "Making Large Language Models Better Reasoners with Step-Aware ...",
+      "snippet": "Surface form competition: Why the highest probability answer isn't always right. Houlsby et al. (2019) Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski ...",
+      "link": "https://arxiv.org/html/2206.02336v3",
+      "arxiv_id": "2206.02336"
+    },
+    {
+      "rank": 10,
+      "title": "Can language models learn from explanations in context? - arXiv",
+      "snippet": "Surface form competition: Why the highest probability answer isn't always right. ... question, then scoring the answer that received the highest likelihood ...",
+      "link": "https://arxiv.org/html/2204.02329v4",
+      "arxiv_id": "2204.02329"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:22.649536+00:00",
+  "elapsed_seconds": 0.7263547144830227
+}

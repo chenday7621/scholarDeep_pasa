@@ -1,0 +1,1389 @@
+{
+  "query_id": "Q46",
+  "query_index": 46,
+  "dataset_qid": "RealScholarQuery_46",
+  "original_question": "Show me research on robot decision making and task planning, especially relevant datasets and benchmarks.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Survey papers on robot decision making",
+    "Research on task planning in robotics",
+    "Benchmark datasets for robot decision making",
+    "Relevant datasets for robot decision making",
+    "Benchmarks used in robot decision making research"
+  ],
+  "anchor": "Show me research on robot decision making and task planning, especially relevant datasets and benchmarks.",
+  "source_generation_id": "Q46_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Survey papers on robot decision making",
+        "Research on task planning in robotics",
+        "Benchmark datasets for robot decision making",
+        "Relevant datasets for robot decision making",
+        "Benchmarks used in robot decision making research"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "Show me research on robot decision making and task planning, especially relevant datasets and benchmarks.",
+        "Survey papers on robot decision making",
+        "Research on task planning in robotics",
+        "Benchmark datasets for robot decision making",
+        "Relevant datasets for robot decision making"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Survey papers on robot decision making",
+      "attempts": [
+        {
+          "global_attempt_sequence": 280,
+          "query_id": "Q46",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Survey papers on robot decision making",
+          "request_payload": {
+            "q": "Survey papers on robot decision making before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q46_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:31:16.069729+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on robot decision making before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Learning for Robot Decision Making under Distribution Shift: A Survey\",\"link\":\"https://arxiv.org/abs/2203.07558\",\"snippet\":\"In this paper, we discuss various techniques that have been proposed in the literature to aid or improve decision making under distribution shift for robotic ...\",\"date\":\"Mar 14, 2022\",\"position\":1},{\"title\":\"[PDF] Who's in Charge? Roles and Responsibilities of Decision-Making ...\",\"link\":\"https://arxiv.org/pdf/2303.08470\",\"snippet\":\"In this section, we review some seminal and recent research literature on decision making in sds and robotics. The reviews are by no means comprehensive ...\",\"date\":\"Mar 15, 2023\",\"position\":2},{\"title\":\"A Survey on Robotics with Foundation Models: toward Embodied AI\",\"link\":\"https://arxiv.org/abs/2402.02385\",\"snippet\":\"This survey aims to provide a comprehensive and up-to-date overview of foundation models in robotics, focusing on autonomous manipulation and encompassing high ...\",\"date\":\"Feb 4, 2024\",\"position\":3},{\"title\":\"[2311.07226] Large Language Models for Robotics: A Survey - arXiv\",\"link\":\"https://arxiv.org/abs/2311.07226\",\"snippet\":\"This survey first provides an overview of the background and development of LLMs for robotics, followed by a discussion of their benefits and recent ...\",\"date\":\"Nov 13, 2023\",\"position\":4},{\"title\":\"Deep Reinforcement Learning for Robotics: A Survey of Real-World ...\",\"link\":\"https://arxiv.org/html/2408.03539v1\",\"snippet\":\"This article provides a modern survey of DRL for robotics, with a particular focus on evaluating the real-world successes achieved with DRL in realizing ...\",\"date\":\"Aug 7, 2024\",\"position\":5},{\"title\":\"[PDF] Understanding the Uncertainty Loop of Human-Robot Interaction\",\"link\":\"https://arxiv.org/pdf/2303.07889\",\"snippet\":\"As collaborative robots are still a relatively new research topic, most humans' trust, and therefore, certainty or understand- ing of robots is still low [33].\",\"date\":\"Mar 14, 2023\",\"position\":6},{\"title\":\"[PDF] Learning for Robot Decision Making under Distribution Shift: A Survey\",\"link\":\"https://arxiv.org/pdf/2203.07558\",\"snippet\":\"In this paper, we discuss various techniques that have been proposed in the literature to aid or improve decision making under distribution shift for robotic ...\",\"date\":\"Mar 14, 2022\",\"position\":7},{\"title\":\"Leveraging Behavior Trees for Public, In-the-Wild Human-Robot ...\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2302.00191\",\"snippet\":\"Our work details our experience about the impact of architecture choice on behavior reusability and reactivity while deploying a public interactive system.\",\"date\":\"Feb 16, 2023\",\"position\":8},{\"title\":\"State-of-the-art in Robot Learning for Multi-Robot Collaboration - arXiv\",\"link\":\"https://arxiv.org/html/2408.11822v1\",\"snippet\":\"Joint decision-making can create a synergy effect, while also imposing more restrictions on each robot's decision-making, increasing the difficulty of learning.\",\"date\":\"Aug 3, 2024\",\"position\":9},{\"title\":\"DexArt: Benchmarking Generalizable Dexterous Manipulation with ...\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2305.05706\",\"snippet\":\"In this paper, we propose a new benchmark on learning generalizable manipulation policy on articulated objects with point cloud observations. Articulated Object ...\",\"date\":\"Feb 29, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIHJvYm90IGRlY2lzaW9uIG1ha2luZyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJMZWFybmluZyBmb3IgUm9ib3QgRGVjaXNpb24gTWFraW5nIHVuZGVyIERpc3RyaWJ1dGlvbiBTaGlmdDogQSBTdXJ2ZXkiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIyMDMuMDc1NTgiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgZGlzY3VzcyB2YXJpb3VzIHRlY2huaXF1ZXMgdGhhdCBoYXZlIGJlZW4gcHJvcG9zZWQgaW4gdGhlIGxpdGVyYXR1cmUgdG8gYWlkIG9yIGltcHJvdmUgZGVjaXNpb24gbWFraW5nIHVuZGVyIGRpc3RyaWJ1dGlvbiBzaGlmdCBmb3Igcm9ib3RpYyAuLi4iLCJkYXRlIjoiTWFyIDE0LCAyMDIyIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBXaG8ncyBpbiBDaGFyZ2U/IFJvbGVzIGFuZCBSZXNwb25zaWJpbGl0aWVzIG9mIERlY2lzaW9uLU1ha2luZyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDMuMDg0NzAiLCJzbmlwcGV0IjoiSW4gdGhpcyBzZWN0aW9uLCB3ZSByZXZpZXcgc29tZSBzZW1pbmFsIGFuZCByZWNlbnQgcmVzZWFyY2ggbGl0ZXJhdHVyZSBvbiBkZWNpc2lvbiBtYWtpbmcgaW4gc2RzIGFuZCByb2JvdGljcy4gVGhlIHJldmlld3MgYXJlIGJ5IG5vIG1lYW5zIGNvbXByZWhlbnNpdmUgLi4uIiwiZGF0ZSI6Ik1hciAxNSwgMjAyMyIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gUm9ib3RpY3Mgd2l0aCBGb3VuZGF0aW9uIE1vZGVsczogdG93YXJkIEVtYm9kaWVkIEFJIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDAyLjAyMzg1Iiwic25pcHBldCI6IlRoaXMgc3VydmV5IGFpbXMgdG8gcHJvdmlkZSBhIGNvbXByZWhlbnNpdmUgYW5kIHVwLXRvLWRhdGUgb3ZlcnZpZXcgb2YgZm91bmRhdGlvbiBtb2RlbHMgaW4gcm9ib3RpY3MsIGZvY3VzaW5nIG9uIGF1dG9ub21vdXMgbWFuaXB1bGF0aW9uIGFuZCBlbmNvbXBhc3NpbmcgaGlnaCAuLi4iLCJkYXRlIjoiRmViIDQsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IlsyMzExLjA3MjI2XSBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgZm9yIFJvYm90aWNzOiBBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzExLjA3MjI2Iiwic25pcHBldCI6IlRoaXMgc3VydmV5IGZpcnN0IHByb3ZpZGVzIGFuIG92ZXJ2aWV3IG9mIHRoZSBiYWNrZ3JvdW5kIGFuZCBkZXZlbG9wbWVudCBvZiBMTE1zIGZvciByb2JvdGljcywgZm9sbG93ZWQgYnkgYSBkaXNjdXNzaW9uIG9mIHRoZWlyIGJlbmVmaXRzIGFuZCByZWNlbnQgLi4uIiwiZGF0ZSI6Ik5vdiAxMywgMjAyMyIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiRGVlcCBSZWluZm9yY2VtZW50IExlYXJuaW5nIGZvciBSb2JvdGljczogQSBTdXJ2ZXkgb2YgUmVhbC1Xb3JsZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjAzNTM5djEiLCJzbmlwcGV0IjoiVGhpcyBhcnRpY2xlIHByb3ZpZGVzIGEgbW9kZXJuIHN1cnZleSBvZiBEUkwgZm9yIHJvYm90aWNzLCB3aXRoIGEgcGFydGljdWxhciBmb2N1cyBvbiBldmFsdWF0aW5nIHRoZSByZWFsLXdvcmxkIHN1Y2Nlc3NlcyBhY2hpZXZlZCB3aXRoIERSTCBpbiByZWFsaXppbmcgLi4uIiwiZGF0ZSI6IkF1ZyA3LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBVbmRlcnN0YW5kaW5nIHRoZSBVbmNlcnRhaW50eSBMb29wIG9mIEh1bWFuLVJvYm90IEludGVyYWN0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzAzLjA3ODg5Iiwic25pcHBldCI6IkFzIGNvbGxhYm9yYXRpdmUgcm9ib3RzIGFyZSBzdGlsbCBhIHJlbGF0aXZlbHkgbmV3IHJlc2VhcmNoIHRvcGljLCBtb3N0IGh1bWFucycgdHJ1c3QsIGFuZCB0aGVyZWZvcmUsIGNlcnRhaW50eSBvciB1bmRlcnN0YW5kLSBpbmcgb2Ygcm9ib3RzIGlzIHN0aWxsIGxvdyBbMzNdLiIsImRhdGUiOiJNYXIgMTQsIDIwMjMiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIExlYXJuaW5nIGZvciBSb2JvdCBEZWNpc2lvbiBNYWtpbmcgdW5kZXIgRGlzdHJpYnV0aW9uIFNoaWZ0OiBBIFN1cnZleSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIwMy4wNzU1OCIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBkaXNjdXNzIHZhcmlvdXMgdGVjaG5pcXVlcyB0aGF0IGhhdmUgYmVlbiBwcm9wb3NlZCBpbiB0aGUgbGl0ZXJhdHVyZSB0byBhaWQgb3IgaW1wcm92ZSBkZWNpc2lvbiBtYWtpbmcgdW5kZXIgZGlzdHJpYnV0aW9uIHNoaWZ0IGZvciByb2JvdGljIC4uLiIsImRhdGUiOiJNYXIgMTQsIDIwMjIiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkxldmVyYWdpbmcgQmVoYXZpb3IgVHJlZXMgZm9yIFB1YmxpYywgSW4tdGhlLVdpbGQgSHVtYW4tUm9ib3QgLi4uIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMzAyLjAwMTkxIiwic25pcHBldCI6Ik91ciB3b3JrIGRldGFpbHMgb3VyIGV4cGVyaWVuY2UgYWJvdXQgdGhlIGltcGFjdCBvZiBhcmNoaXRlY3R1cmUgY2hvaWNlIG9uIGJlaGF2aW9yIHJldXNhYmlsaXR5IGFuZCByZWFjdGl2aXR5IHdoaWxlIGRlcGxveWluZyBhIHB1YmxpYyBpbnRlcmFjdGl2ZSBzeXN0ZW0uIiwiZGF0ZSI6IkZlYiAxNiwgMjAyMyIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiU3RhdGUtb2YtdGhlLWFydCBpbiBSb2JvdCBMZWFybmluZyBmb3IgTXVsdGktUm9ib3QgQ29sbGFib3JhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOC4xMTgyMnYxIiwic25pcHBldCI6IkpvaW50IGRlY2lzaW9uLW1ha2luZyBjYW4gY3JlYXRlIGEgc3luZXJneSBlZmZlY3QsIHdoaWxlIGFsc28gaW1wb3NpbmcgbW9yZSByZXN0cmljdGlvbnMgb24gZWFjaCByb2JvdCdzIGRlY2lzaW9uLW1ha2luZywgaW5jcmVhc2luZyB0aGUgZGlmZmljdWx0eSBvZiBsZWFybmluZy4iLCJkYXRlIjoiQXVnIDMsIDIwMjQiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkRleEFydDogQmVuY2htYXJraW5nIEdlbmVyYWxpemFibGUgRGV4dGVyb3VzIE1hbmlwdWxhdGlvbiB3aXRoIC4uLiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjMwNS4wNTcwNiIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIGEgbmV3IGJlbmNobWFyayBvbiBsZWFybmluZyBnZW5lcmFsaXphYmxlIG1hbmlwdWxhdGlvbiBwb2xpY3kgb24gYXJ0aWN1bGF0ZWQgb2JqZWN0cyB3aXRoIHBvaW50IGNsb3VkIG9ic2VydmF0aW9ucy4gQXJ0aWN1bGF0ZWQgT2JqZWN0IC4uLiIsImRhdGUiOiJGZWIgMjksIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "f38e2c1e8d8a818be02259cd894dac7ff53391fa5a8df1d156b1cbcd6e22baa3",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey papers on robot decision making before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Learning for Robot Decision Making under Distribution Shift: A Survey",
+                "link": "https://arxiv.org/abs/2203.07558",
+                "snippet": "In this paper, we discuss various techniques that have been proposed in the literature to aid or improve decision making under distribution shift for robotic ...",
+                "date": "Mar 14, 2022",
+                "position": 1
+              },
+              {
+                "title": "[PDF] Who's in Charge? Roles and Responsibilities of Decision-Making ...",
+                "link": "https://arxiv.org/pdf/2303.08470",
+                "snippet": "In this section, we review some seminal and recent research literature on decision making in sds and robotics. The reviews are by no means comprehensive ...",
+                "date": "Mar 15, 2023",
+                "position": 2
+              },
+              {
+                "title": "A Survey on Robotics with Foundation Models: toward Embodied AI",
+                "link": "https://arxiv.org/abs/2402.02385",
+                "snippet": "This survey aims to provide a comprehensive and up-to-date overview of foundation models in robotics, focusing on autonomous manipulation and encompassing high ...",
+                "date": "Feb 4, 2024",
+                "position": 3
+              },
+              {
+                "title": "[2311.07226] Large Language Models for Robotics: A Survey - arXiv",
+                "link": "https://arxiv.org/abs/2311.07226",
+                "snippet": "This survey first provides an overview of the background and development of LLMs for robotics, followed by a discussion of their benefits and recent ...",
+                "date": "Nov 13, 2023",
+                "position": 4
+              },
+              {
+                "title": "Deep Reinforcement Learning for Robotics: A Survey of Real-World ...",
+                "link": "https://arxiv.org/html/2408.03539v1",
+                "snippet": "This article provides a modern survey of DRL for robotics, with a particular focus on evaluating the real-world successes achieved with DRL in realizing ...",
+                "date": "Aug 7, 2024",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Understanding the Uncertainty Loop of Human-Robot Interaction",
+                "link": "https://arxiv.org/pdf/2303.07889",
+                "snippet": "As collaborative robots are still a relatively new research topic, most humans' trust, and therefore, certainty or understand- ing of robots is still low [33].",
+                "date": "Mar 14, 2023",
+                "position": 6
+              },
+              {
+                "title": "[PDF] Learning for Robot Decision Making under Distribution Shift: A Survey",
+                "link": "https://arxiv.org/pdf/2203.07558",
+                "snippet": "In this paper, we discuss various techniques that have been proposed in the literature to aid or improve decision making under distribution shift for robotic ...",
+                "date": "Mar 14, 2022",
+                "position": 7
+              },
+              {
+                "title": "Leveraging Behavior Trees for Public, In-the-Wild Human-Robot ...",
+                "link": "https://ar5iv.labs.arxiv.org/html/2302.00191",
+                "snippet": "Our work details our experience about the impact of architecture choice on behavior reusability and reactivity while deploying a public interactive system.",
+                "date": "Feb 16, 2023",
+                "position": 8
+              },
+              {
+                "title": "State-of-the-art in Robot Learning for Multi-Robot Collaboration - arXiv",
+                "link": "https://arxiv.org/html/2408.11822v1",
+                "snippet": "Joint decision-making can create a synergy effect, while also imposing more restrictions on each robot's decision-making, increasing the difficulty of learning.",
+                "date": "Aug 3, 2024",
+                "position": 9
+              },
+              {
+                "title": "DexArt: Benchmarking Generalizable Dexterous Manipulation with ...",
+                "link": "https://ar5iv.labs.arxiv.org/html/2305.05706",
+                "snippet": "In this paper, we propose a new benchmark on learning generalizable manipulation policy on articulated objects with point cloud observations. Articulated Object ...",
+                "date": "Feb 29, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:31:18.276676+00:00",
+          "elapsed_seconds": 2.2069426216185093
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2203.07558",
+        "2302.00191",
+        "2303.07889",
+        "2303.08470",
+        "2305.05706",
+        "2311.07226",
+        "2402.02385",
+        "2408.03539",
+        "2408.11822"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2203.07558",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2203.07558",
+          "title": "Learning for Robot Decision Making under Distribution Shift: A Survey",
+          "snippet": "In this paper, we discuss various techniques that have been proposed in the literature to aid or improve decision making under distribution shift for robotic ..."
+        },
+        {
+          "arxiv_id": "2303.08470",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/pdf/2303.08470",
+          "title": "[PDF] Who's in Charge? Roles and Responsibilities of Decision-Making ...",
+          "snippet": "In this section, we review some seminal and recent research literature on decision making in sds and robotics. The reviews are by no means comprehensive ..."
+        },
+        {
+          "arxiv_id": "2402.02385",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2402.02385",
+          "title": "A Survey on Robotics with Foundation Models: toward Embodied AI",
+          "snippet": "This survey aims to provide a comprehensive and up-to-date overview of foundation models in robotics, focusing on autonomous manipulation and encompassing high ..."
+        },
+        {
+          "arxiv_id": "2311.07226",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2311.07226",
+          "title": "[2311.07226] Large Language Models for Robotics: A Survey - arXiv",
+          "snippet": "This survey first provides an overview of the background and development of LLMs for robotics, followed by a discussion of their benefits and recent ..."
+        },
+        {
+          "arxiv_id": "2408.03539",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2408.03539v1",
+          "title": "Deep Reinforcement Learning for Robotics: A Survey of Real-World ...",
+          "snippet": "This article provides a modern survey of DRL for robotics, with a particular focus on evaluating the real-world successes achieved with DRL in realizing ..."
+        },
+        {
+          "arxiv_id": "2303.07889",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2303.07889",
+          "title": "[PDF] Understanding the Uncertainty Loop of Human-Robot Interaction",
+          "snippet": "As collaborative robots are still a relatively new research topic, most humans' trust, and therefore, certainty or understand- ing of robots is still low [33]."
+        },
+        {
+          "arxiv_id": "2203.07558",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2203.07558",
+          "title": "[PDF] Learning for Robot Decision Making under Distribution Shift: A Survey",
+          "snippet": "In this paper, we discuss various techniques that have been proposed in the literature to aid or improve decision making under distribution shift for robotic ..."
+        },
+        {
+          "arxiv_id": "2302.00191",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://ar5iv.labs.arxiv.org/html/2302.00191",
+          "title": "Leveraging Behavior Trees for Public, In-the-Wild Human-Robot ...",
+          "snippet": "Our work details our experience about the impact of architecture choice on behavior reusability and reactivity while deploying a public interactive system."
+        },
+        {
+          "arxiv_id": "2408.11822",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2408.11822v1",
+          "title": "State-of-the-art in Robot Learning for Multi-Robot Collaboration - arXiv",
+          "snippet": "Joint decision-making can create a synergy effect, while also imposing more restrictions on each robot's decision-making, increasing the difficulty of learning."
+        },
+        {
+          "arxiv_id": "2305.05706",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://ar5iv.labs.arxiv.org/html/2305.05706",
+          "title": "DexArt: Benchmarking Generalizable Dexterous Manipulation with ...",
+          "snippet": "In this paper, we propose a new benchmark on learning generalizable manipulation policy on articulated objects with point cloud observations. Articulated Object ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey papers on robot decision making before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Research on task planning in robotics",
+      "attempts": [
+        {
+          "global_attempt_sequence": 281,
+          "query_id": "Q46",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Research on task planning in robotics",
+          "request_payload": {
+            "q": "Research on task planning in robotics before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q46_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:31:18.540249+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Research on task planning in robotics before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Robot Task Planning Based on Large Language Model ... - arXiv\",\"link\":\"https://arxiv.org/abs/2306.05171\",\"snippet\":\"By dividing different planning entities and separating the task from the actual machine binding process, the task planning process becomes more flexible.\",\"date\":\"Jun 8, 2023\",\"position\":1},{\"title\":\"[PDF] Robot Task Planning Based on Large Language Model ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2306.05171\",\"snippet\":\"Abstract — Traditional robot task planning methods face challenges when dealing with highly unstructured environments and complex tasks.\",\"date\":\"Feb 13, 2023\",\"position\":2},{\"title\":\"Robot Task Planning and Situation Handling in Open Worlds - arXiv\",\"link\":\"https://arxiv.org/abs/2210.01287\",\"snippet\":\"Abstract:Automated task planning algorithms have been developed to help robots complete complex tasks that require multiple actions.\",\"date\":\"Oct 4, 2022\",\"position\":3},{\"title\":\"To Lead or to Follow? Adaptive Robot Task Planning in Human ...\",\"link\":\"https://arxiv.org/abs/2401.01483\",\"snippet\":\"This paper introduces a robot task planning framework that takes into account both human leading/following preferences and performance, specifically focusing on ...\",\"date\":\"Jan 3, 2024\",\"position\":4},{\"title\":\"SMART-LLM: Smart Multi-Agent Robot Task Planning using ... - arXiv\",\"link\":\"https://arxiv.org/html/2309.10062v2\",\"snippet\":\"These plans involve assigning and sequencing tasks for individual robots based on their skills and the environment's condition. Our approach focuses on task ...\",\"date\":\"Mar 23, 2024\",\"position\":5},{\"title\":\"[2404.11267] Towards Human Awareness in Robot Task Planning ...\",\"link\":\"https://arxiv.org/abs/2404.11267\",\"snippet\":\"In this paper, we propose a novel approach to address this gap by incorporating human awareness into LLM-based robot task planning.\",\"date\":\"Apr 17, 2024\",\"position\":6},{\"title\":\"Visually Grounded Task and Motion Planning for Mobile Manipulation\",\"link\":\"https://arxiv.org/html/2202.10667v2\",\"snippet\":\"Task and motion planning (TAMP) algorithms aim to help robots achieve task-level goals, while maintaining motion-level feasibility. This paper focuses on TAMP ...\",\"date\":\"Feb 24, 2022\",\"position\":7},{\"title\":\"[2301.07550] Logic programming for deliberative robotic task planning\",\"link\":\"https://arxiv.org/abs/2301.07550\",\"snippet\":\"In this manuscript, we present a survey on recent advances in the application of logic programming to the problem of task planning. Logic programming offers ...\",\"date\":\"Jan 18, 2023\",\"position\":8},{\"title\":\"[PDF] Optimal task and motion planning and execution for multi-agent ...\",\"link\":\"https://arxiv.org/pdf/2303.14874\",\"snippet\":\"In this case study, the human and the robot perform tasks of the type PickPlacex, which consists of picking a cube and placing it in the slot with label x.\",\"date\":\"Mar 27, 2023\",\"position\":9},{\"title\":\"GRID: Scene-Graph-based Instruction-driven Robotic Task Planning\",\"link\":\"https://arxiv.org/html/2309.07726v2\",\"snippet\":\"Recent advancements in large language models (LLMs) have shown promising outcomes in robotic task planning with instructions [1, 2, 3] . LLM-based robotic task ...\",\"date\":\"Mar 11, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZXNlYXJjaCBvbiB0YXNrIHBsYW5uaW5nIGluIHJvYm90aWNzIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlJvYm90IFRhc2sgUGxhbm5pbmcgQmFzZWQgb24gTGFyZ2UgTGFuZ3VhZ2UgTW9kZWwgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDYuMDUxNzEiLCJzbmlwcGV0IjoiQnkgZGl2aWRpbmcgZGlmZmVyZW50IHBsYW5uaW5nIGVudGl0aWVzIGFuZCBzZXBhcmF0aW5nIHRoZSB0YXNrIGZyb20gdGhlIGFjdHVhbCBtYWNoaW5lIGJpbmRpbmcgcHJvY2VzcywgdGhlIHRhc2sgcGxhbm5pbmcgcHJvY2VzcyBiZWNvbWVzIG1vcmUgZmxleGlibGUuIiwiZGF0ZSI6Ikp1biA4LCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBSb2JvdCBUYXNrIFBsYW5uaW5nIEJhc2VkIG9uIExhcmdlIExhbmd1YWdlIE1vZGVsIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA2LjA1MTcxIiwic25pcHBldCI6IkFic3RyYWN0IOKAlCBUcmFkaXRpb25hbCByb2JvdCB0YXNrIHBsYW5uaW5nIG1ldGhvZHMgZmFjZSBjaGFsbGVuZ2VzIHdoZW4gZGVhbGluZyB3aXRoIGhpZ2hseSB1bnN0cnVjdHVyZWQgZW52aXJvbm1lbnRzIGFuZCBjb21wbGV4IHRhc2tzLiIsImRhdGUiOiJGZWIgMTMsIDIwMjMiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlJvYm90IFRhc2sgUGxhbm5pbmcgYW5kIFNpdHVhdGlvbiBIYW5kbGluZyBpbiBPcGVuIFdvcmxkcyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMjEwLjAxMjg3Iiwic25pcHBldCI6IkFic3RyYWN0OkF1dG9tYXRlZCB0YXNrIHBsYW5uaW5nIGFsZ29yaXRobXMgaGF2ZSBiZWVuIGRldmVsb3BlZCB0byBoZWxwIHJvYm90cyBjb21wbGV0ZSBjb21wbGV4IHRhc2tzIHRoYXQgcmVxdWlyZSBtdWx0aXBsZSBhY3Rpb25zLiIsImRhdGUiOiJPY3QgNCwgMjAyMiIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiVG8gTGVhZCBvciB0byBGb2xsb3c/IEFkYXB0aXZlIFJvYm90IFRhc2sgUGxhbm5pbmcgaW4gSHVtYW4gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNDAxLjAxNDgzIiwic25pcHBldCI6IlRoaXMgcGFwZXIgaW50cm9kdWNlcyBhIHJvYm90IHRhc2sgcGxhbm5pbmcgZnJhbWV3b3JrIHRoYXQgdGFrZXMgaW50byBhY2NvdW50IGJvdGggaHVtYW4gbGVhZGluZy9mb2xsb3dpbmcgcHJlZmVyZW5jZXMgYW5kIHBlcmZvcm1hbmNlLCBzcGVjaWZpY2FsbHkgZm9jdXNpbmcgb24gLi4uIiwiZGF0ZSI6IkphbiAzLCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJTTUFSVC1MTE06IFNtYXJ0IE11bHRpLUFnZW50IFJvYm90IFRhc2sgUGxhbm5pbmcgdXNpbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA5LjEwMDYydjIiLCJzbmlwcGV0IjoiVGhlc2UgcGxhbnMgaW52b2x2ZSBhc3NpZ25pbmcgYW5kIHNlcXVlbmNpbmcgdGFza3MgZm9yIGluZGl2aWR1YWwgcm9ib3RzIGJhc2VkIG9uIHRoZWlyIHNraWxscyBhbmQgdGhlIGVudmlyb25tZW50J3MgY29uZGl0aW9uLiBPdXIgYXBwcm9hY2ggZm9jdXNlcyBvbiB0YXNrIC4uLiIsImRhdGUiOiJNYXIgMjMsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IlsyNDA0LjExMjY3XSBUb3dhcmRzIEh1bWFuIEF3YXJlbmVzcyBpbiBSb2JvdCBUYXNrIFBsYW5uaW5nIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNC4xMTI2NyIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIGEgbm92ZWwgYXBwcm9hY2ggdG8gYWRkcmVzcyB0aGlzIGdhcCBieSBpbmNvcnBvcmF0aW5nIGh1bWFuIGF3YXJlbmVzcyBpbnRvIExMTS1iYXNlZCByb2JvdCB0YXNrIHBsYW5uaW5nLiIsImRhdGUiOiJBcHIgMTcsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlZpc3VhbGx5IEdyb3VuZGVkIFRhc2sgYW5kIE1vdGlvbiBQbGFubmluZyBmb3IgTW9iaWxlIE1hbmlwdWxhdGlvbiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDIuMTA2Njd2MiIsInNuaXBwZXQiOiJUYXNrIGFuZCBtb3Rpb24gcGxhbm5pbmcgKFRBTVApIGFsZ29yaXRobXMgYWltIHRvIGhlbHAgcm9ib3RzIGFjaGlldmUgdGFzay1sZXZlbCBnb2Fscywgd2hpbGUgbWFpbnRhaW5pbmcgbW90aW9uLWxldmVsIGZlYXNpYmlsaXR5LiBUaGlzIHBhcGVyIGZvY3VzZXMgb24gVEFNUCAuLi4iLCJkYXRlIjoiRmViIDI0LCAyMDIyIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbMjMwMS4wNzU1MF0gTG9naWMgcHJvZ3JhbW1pbmcgZm9yIGRlbGliZXJhdGl2ZSByb2JvdGljIHRhc2sgcGxhbm5pbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDEuMDc1NTAiLCJzbmlwcGV0IjoiSW4gdGhpcyBtYW51c2NyaXB0LCB3ZSBwcmVzZW50IGEgc3VydmV5IG9uIHJlY2VudCBhZHZhbmNlcyBpbiB0aGUgYXBwbGljYXRpb24gb2YgbG9naWMgcHJvZ3JhbW1pbmcgdG8gdGhlIHByb2JsZW0gb2YgdGFzayBwbGFubmluZy4gTG9naWMgcHJvZ3JhbW1pbmcgb2ZmZXJzIC4uLiIsImRhdGUiOiJKYW4gMTgsIDIwMjMiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIE9wdGltYWwgdGFzayBhbmQgbW90aW9uIHBsYW5uaW5nIGFuZCBleGVjdXRpb24gZm9yIG11bHRpLWFnZW50IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwMy4xNDg3NCIsInNuaXBwZXQiOiJJbiB0aGlzIGNhc2Ugc3R1ZHksIHRoZSBodW1hbiBhbmQgdGhlIHJvYm90IHBlcmZvcm0gdGFza3Mgb2YgdGhlIHR5cGUgUGlja1BsYWNleCwgd2hpY2ggY29uc2lzdHMgb2YgcGlja2luZyBhIGN1YmUgYW5kIHBsYWNpbmcgaXQgaW4gdGhlIHNsb3Qgd2l0aCBsYWJlbCB4LiIsImRhdGUiOiJNYXIgMjcsIDIwMjMiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IkdSSUQ6IFNjZW5lLUdyYXBoLWJhc2VkIEluc3RydWN0aW9uLWRyaXZlbiBSb2JvdGljIFRhc2sgUGxhbm5pbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA5LjA3NzI2djIiLCJzbmlwcGV0IjoiUmVjZW50IGFkdmFuY2VtZW50cyBpbiBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpIGhhdmUgc2hvd24gcHJvbWlzaW5nIG91dGNvbWVzIGluIHJvYm90aWMgdGFzayBwbGFubmluZyB3aXRoIGluc3RydWN0aW9ucyBbMSwgMiwgM10gLiBMTE0tYmFzZWQgcm9ib3RpYyB0YXNrIC4uLiIsImRhdGUiOiJNYXIgMTEsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "5715c4ef153ac38348a820b801c96e4eb5e08ca8647ce99d8cb31485c7762cb5",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Research on task planning in robotics before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Robot Task Planning Based on Large Language Model ... - arXiv",
+                "link": "https://arxiv.org/abs/2306.05171",
+                "snippet": "By dividing different planning entities and separating the task from the actual machine binding process, the task planning process becomes more flexible.",
+                "date": "Jun 8, 2023",
+                "position": 1
+              },
+              {
+                "title": "[PDF] Robot Task Planning Based on Large Language Model ... - arXiv",
+                "link": "https://arxiv.org/pdf/2306.05171",
+                "snippet": "Abstract — Traditional robot task planning methods face challenges when dealing with highly unstructured environments and complex tasks.",
+                "date": "Feb 13, 2023",
+                "position": 2
+              },
+              {
+                "title": "Robot Task Planning and Situation Handling in Open Worlds - arXiv",
+                "link": "https://arxiv.org/abs/2210.01287",
+                "snippet": "Abstract:Automated task planning algorithms have been developed to help robots complete complex tasks that require multiple actions.",
+                "date": "Oct 4, 2022",
+                "position": 3
+              },
+              {
+                "title": "To Lead or to Follow? Adaptive Robot Task Planning in Human ...",
+                "link": "https://arxiv.org/abs/2401.01483",
+                "snippet": "This paper introduces a robot task planning framework that takes into account both human leading/following preferences and performance, specifically focusing on ...",
+                "date": "Jan 3, 2024",
+                "position": 4
+              },
+              {
+                "title": "SMART-LLM: Smart Multi-Agent Robot Task Planning using ... - arXiv",
+                "link": "https://arxiv.org/html/2309.10062v2",
+                "snippet": "These plans involve assigning and sequencing tasks for individual robots based on their skills and the environment's condition. Our approach focuses on task ...",
+                "date": "Mar 23, 2024",
+                "position": 5
+              },
+              {
+                "title": "[2404.11267] Towards Human Awareness in Robot Task Planning ...",
+                "link": "https://arxiv.org/abs/2404.11267",
+                "snippet": "In this paper, we propose a novel approach to address this gap by incorporating human awareness into LLM-based robot task planning.",
+                "date": "Apr 17, 2024",
+                "position": 6
+              },
+              {
+                "title": "Visually Grounded Task and Motion Planning for Mobile Manipulation",
+                "link": "https://arxiv.org/html/2202.10667v2",
+                "snippet": "Task and motion planning (TAMP) algorithms aim to help robots achieve task-level goals, while maintaining motion-level feasibility. This paper focuses on TAMP ...",
+                "date": "Feb 24, 2022",
+                "position": 7
+              },
+              {
+                "title": "[2301.07550] Logic programming for deliberative robotic task planning",
+                "link": "https://arxiv.org/abs/2301.07550",
+                "snippet": "In this manuscript, we present a survey on recent advances in the application of logic programming to the problem of task planning. Logic programming offers ...",
+                "date": "Jan 18, 2023",
+                "position": 8
+              },
+              {
+                "title": "[PDF] Optimal task and motion planning and execution for multi-agent ...",
+                "link": "https://arxiv.org/pdf/2303.14874",
+                "snippet": "In this case study, the human and the robot perform tasks of the type PickPlacex, which consists of picking a cube and placing it in the slot with label x.",
+                "date": "Mar 27, 2023",
+                "position": 9
+              },
+              {
+                "title": "GRID: Scene-Graph-based Instruction-driven Robotic Task Planning",
+                "link": "https://arxiv.org/html/2309.07726v2",
+                "snippet": "Recent advancements in large language models (LLMs) have shown promising outcomes in robotic task planning with instructions [1, 2, 3] . LLM-based robotic task ...",
+                "date": "Mar 11, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:31:19.604191+00:00",
+          "elapsed_seconds": 1.0639387145638466
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2202.10667",
+        "2210.01287",
+        "2301.07550",
+        "2303.14874",
+        "2306.05171",
+        "2309.07726",
+        "2309.10062",
+        "2401.01483",
+        "2404.11267"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2306.05171",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2306.05171",
+          "title": "Robot Task Planning Based on Large Language Model ... - arXiv",
+          "snippet": "By dividing different planning entities and separating the task from the actual machine binding process, the task planning process becomes more flexible."
+        },
+        {
+          "arxiv_id": "2306.05171",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/pdf/2306.05171",
+          "title": "[PDF] Robot Task Planning Based on Large Language Model ... - arXiv",
+          "snippet": "Abstract — Traditional robot task planning methods face challenges when dealing with highly unstructured environments and complex tasks."
+        },
+        {
+          "arxiv_id": "2210.01287",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2210.01287",
+          "title": "Robot Task Planning and Situation Handling in Open Worlds - arXiv",
+          "snippet": "Abstract:Automated task planning algorithms have been developed to help robots complete complex tasks that require multiple actions."
+        },
+        {
+          "arxiv_id": "2401.01483",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2401.01483",
+          "title": "To Lead or to Follow? Adaptive Robot Task Planning in Human ...",
+          "snippet": "This paper introduces a robot task planning framework that takes into account both human leading/following preferences and performance, specifically focusing on ..."
+        },
+        {
+          "arxiv_id": "2309.10062",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2309.10062v2",
+          "title": "SMART-LLM: Smart Multi-Agent Robot Task Planning using ... - arXiv",
+          "snippet": "These plans involve assigning and sequencing tasks for individual robots based on their skills and the environment's condition. Our approach focuses on task ..."
+        },
+        {
+          "arxiv_id": "2404.11267",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/abs/2404.11267",
+          "title": "[2404.11267] Towards Human Awareness in Robot Task Planning ...",
+          "snippet": "In this paper, we propose a novel approach to address this gap by incorporating human awareness into LLM-based robot task planning."
+        },
+        {
+          "arxiv_id": "2202.10667",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2202.10667v2",
+          "title": "Visually Grounded Task and Motion Planning for Mobile Manipulation",
+          "snippet": "Task and motion planning (TAMP) algorithms aim to help robots achieve task-level goals, while maintaining motion-level feasibility. This paper focuses on TAMP ..."
+        },
+        {
+          "arxiv_id": "2301.07550",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2301.07550",
+          "title": "[2301.07550] Logic programming for deliberative robotic task planning",
+          "snippet": "In this manuscript, we present a survey on recent advances in the application of logic programming to the problem of task planning. Logic programming offers ..."
+        },
+        {
+          "arxiv_id": "2303.14874",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2303.14874",
+          "title": "[PDF] Optimal task and motion planning and execution for multi-agent ...",
+          "snippet": "In this case study, the human and the robot perform tasks of the type PickPlacex, which consists of picking a cube and placing it in the slot with label x."
+        },
+        {
+          "arxiv_id": "2309.07726",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2309.07726v2",
+          "title": "GRID: Scene-Graph-based Instruction-driven Robotic Task Planning",
+          "snippet": "Recent advancements in large language models (LLMs) have shown promising outcomes in robotic task planning with instructions [1, 2, 3] . LLM-based robotic task ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Research on task planning in robotics before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Benchmark datasets for robot decision making",
+      "attempts": [
+        {
+          "global_attempt_sequence": 282,
+          "query_id": "Q46",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Benchmark datasets for robot decision making",
+          "request_payload": {
+            "q": "Benchmark datasets for robot decision making before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q46_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:31:19.867674+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Benchmark datasets for robot decision making before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"BridgeData V2:A Dataset for Robot Learning at Scale - arXiv\",\"link\":\"https://arxiv.org/html/2308.12952v3\",\"snippet\":\"We propose a large-scale robotic manipulation dataset containing 60,096 trajectories across 24 environments. The dataset includes skills such as pick-and-place ...\",\"date\":\"Jan 17, 2024\",\"position\":1},{\"title\":\"RoboCAS: A Benchmark for Robotic Manipulation in Complex ...\",\"link\":\"https://arxiv.org/html/2407.06951v1\",\"snippet\":\"Unlike other benchmarks, this dataset specifically emphasizes spatial reasoning among objects and encourages robots to enhance their ability to predict chain ...\",\"date\":\"Jul 9, 2024\",\"position\":2},{\"title\":\"Open X-Embodiment: Robotic Learning Datasets and RT-X Models\",\"link\":\"https://arxiv.org/html/2310.08864v4\",\"snippet\":\"The dataset represents diverse behaviors, robot embodiments and environments, and enables learning generalized robotic policies.\",\"date\":\"Dec 18, 2023\",\"position\":3},{\"title\":\"A Review of Video-based Learning Approaches for Robot ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.07127v2\",\"snippet\":\"The survey summarizes video-based learning approaches, analyses their benefits over standard datasets, survey metrics, and benchmarks, and discusses open ...\",\"date\":\"Sep 18, 2024\",\"position\":4},{\"title\":\"DexArt: Benchmarking Generalizable Dexterous Manipulation with ...\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2305.05706\",\"snippet\":\"In this paper, we propose a new benchmark on learning generalizable manipulation policy on articulated objects with point cloud observations. Articulated Object ...\",\"date\":\"Feb 29, 2024\",\"position\":5},{\"title\":\"Sound Representation and Classification Benchmark for Domestic ...\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1402.3689\",\"snippet\":\"We addressed the problem of sound recognition by an autonomous humanoid robot, by benchmarking a large set of audio feature representations, post-processing, ...\",\"date\":\"Feb 17, 2014\",\"position\":6},{\"title\":\"Benchmarking Knowledge Transfer for Lifelong Robot Learning - arXiv\",\"link\":\"https://arxiv.org/abs/2306.03310\",\"snippet\":\"LIBERO, a novel benchmark of lifelong learning for robot manipulation. provide high-quality human-teleoperated demonstration data for all tasks. Check the ...\",\"date\":\"Jun 5, 2023\",\"position\":7},{\"title\":\"[2009.12293] robosuite: A Modular Simulation Framework ... - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2009.12293\",\"snippet\":\"It offers a modular design for creating robotic tasks as well as a suite of benchmark environments for reproducible research. This paper discusses the key ...\",\"date\":\"Sep 27, 2020\",\"sitelinks\":[{\"title\":\"2 System Modules\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2009.12293#:~:text=2%20System%20Modules\"},{\"title\":\"2.2 Robots\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2009.12293#:~:text=2.2%20Robots\"},{\"title\":\"2.3 Controllers\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2009.12293#:~:text=2.3%20Controllers\"}],\"position\":8},{\"title\":\"[PDF] ROBOPIANIST: A Benchmark for High-Dimensional Robot Control\",\"link\":\"https://arxiv.org/pdf/2304.04150\",\"snippet\":\"Abstract—We introduce a new benchmarking suite for high- dimensional control, targeted at testing high spatial and temporal precision, coordination, and ...\",\"date\":\"Mar 30, 2023\",\"position\":9},{\"title\":\"Learning to Walk in Minutes Using Massively Parallel Deep ... - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2109.11978\",\"snippet\":\"In this work, we present and study a training set-up that achieves fast policy generation for real-world robotic tasks by using massive parallelism on a single ...\",\"date\":\"May 15, 2017\",\"sitelinks\":[{\"title\":\"3 Task Description\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2109.11978#:~:text=3%20Task%20Description\"},{\"title\":\"4 Results\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2109.11978#:~:text=4%20Results\"},{\"title\":\"4.2 Simulation\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2109.11978#:~:text=4.2%20Simulation\"}],\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJCZW5jaG1hcmsgZGF0YXNldHMgZm9yIHJvYm90IGRlY2lzaW9uIG1ha2luZyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJCcmlkZ2VEYXRhIFYyOkEgRGF0YXNldCBmb3IgUm9ib3QgTGVhcm5pbmcgYXQgU2NhbGUgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDguMTI5NTJ2MyIsInNuaXBwZXQiOiJXZSBwcm9wb3NlIGEgbGFyZ2Utc2NhbGUgcm9ib3RpYyBtYW5pcHVsYXRpb24gZGF0YXNldCBjb250YWluaW5nIDYwLDA5NiB0cmFqZWN0b3JpZXMgYWNyb3NzIDI0IGVudmlyb25tZW50cy4gVGhlIGRhdGFzZXQgaW5jbHVkZXMgc2tpbGxzIHN1Y2ggYXMgcGljay1hbmQtcGxhY2UgLi4uIiwiZGF0ZSI6IkphbiAxNywgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiUm9ib0NBUzogQSBCZW5jaG1hcmsgZm9yIFJvYm90aWMgTWFuaXB1bGF0aW9uIGluIENvbXBsZXggLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4wNjk1MXYxIiwic25pcHBldCI6IlVubGlrZSBvdGhlciBiZW5jaG1hcmtzLCB0aGlzIGRhdGFzZXQgc3BlY2lmaWNhbGx5IGVtcGhhc2l6ZXMgc3BhdGlhbCByZWFzb25pbmcgYW1vbmcgb2JqZWN0cyBhbmQgZW5jb3VyYWdlcyByb2JvdHMgdG8gZW5oYW5jZSB0aGVpciBhYmlsaXR5IHRvIHByZWRpY3QgY2hhaW4gLi4uIiwiZGF0ZSI6Ikp1bCA5LCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJPcGVuIFgtRW1ib2RpbWVudDogUm9ib3RpYyBMZWFybmluZyBEYXRhc2V0cyBhbmQgUlQtWCBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEwLjA4ODY0djQiLCJzbmlwcGV0IjoiVGhlIGRhdGFzZXQgcmVwcmVzZW50cyBkaXZlcnNlIGJlaGF2aW9ycywgcm9ib3QgZW1ib2RpbWVudHMgYW5kIGVudmlyb25tZW50cywgYW5kIGVuYWJsZXMgbGVhcm5pbmcgZ2VuZXJhbGl6ZWQgcm9ib3RpYyBwb2xpY2llcy4iLCJkYXRlIjoiRGVjIDE4LCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJBIFJldmlldyBvZiBWaWRlby1iYXNlZCBMZWFybmluZyBBcHByb2FjaGVzIGZvciBSb2JvdCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDcxMjd2MiIsInNuaXBwZXQiOiJUaGUgc3VydmV5IHN1bW1hcml6ZXMgdmlkZW8tYmFzZWQgbGVhcm5pbmcgYXBwcm9hY2hlcywgYW5hbHlzZXMgdGhlaXIgYmVuZWZpdHMgb3ZlciBzdGFuZGFyZCBkYXRhc2V0cywgc3VydmV5IG1ldHJpY3MsIGFuZCBiZW5jaG1hcmtzLCBhbmQgZGlzY3Vzc2VzIG9wZW4gLi4uIiwiZGF0ZSI6IlNlcCAxOCwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiRGV4QXJ0OiBCZW5jaG1hcmtpbmcgR2VuZXJhbGl6YWJsZSBEZXh0ZXJvdXMgTWFuaXB1bGF0aW9uIHdpdGggLi4uIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMzA1LjA1NzA2Iiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHByb3Bvc2UgYSBuZXcgYmVuY2htYXJrIG9uIGxlYXJuaW5nIGdlbmVyYWxpemFibGUgbWFuaXB1bGF0aW9uIHBvbGljeSBvbiBhcnRpY3VsYXRlZCBvYmplY3RzIHdpdGggcG9pbnQgY2xvdWQgb2JzZXJ2YXRpb25zLiBBcnRpY3VsYXRlZCBPYmplY3QgLi4uIiwiZGF0ZSI6IkZlYiAyOSwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiU291bmQgUmVwcmVzZW50YXRpb24gYW5kIENsYXNzaWZpY2F0aW9uIEJlbmNobWFyayBmb3IgRG9tZXN0aWMgLi4uIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8xNDAyLjM2ODkiLCJzbmlwcGV0IjoiV2UgYWRkcmVzc2VkIHRoZSBwcm9ibGVtIG9mIHNvdW5kIHJlY29nbml0aW9uIGJ5IGFuIGF1dG9ub21vdXMgaHVtYW5vaWQgcm9ib3QsIGJ5IGJlbmNobWFya2luZyBhIGxhcmdlIHNldCBvZiBhdWRpbyBmZWF0dXJlIHJlcHJlc2VudGF0aW9ucywgcG9zdC1wcm9jZXNzaW5nLCAuLi4iLCJkYXRlIjoiRmViIDE3LCAyMDE0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJCZW5jaG1hcmtpbmcgS25vd2xlZGdlIFRyYW5zZmVyIGZvciBMaWZlbG9uZyBSb2JvdCBMZWFybmluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzA2LjAzMzEwIiwic25pcHBldCI6IkxJQkVSTywgYSBub3ZlbCBiZW5jaG1hcmsgb2YgbGlmZWxvbmcgbGVhcm5pbmcgZm9yIHJvYm90IG1hbmlwdWxhdGlvbi4gcHJvdmlkZSBoaWdoLXF1YWxpdHkgaHVtYW4tdGVsZW9wZXJhdGVkIGRlbW9uc3RyYXRpb24gZGF0YSBmb3IgYWxsIHRhc2tzLiBDaGVjayB0aGUgLi4uIiwiZGF0ZSI6Ikp1biA1LCAyMDIzIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbMjAwOS4xMjI5M10gcm9ib3N1aXRlOiBBIE1vZHVsYXIgU2ltdWxhdGlvbiBGcmFtZXdvcmsgLi4uIC0gYXI1aXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIwMDkuMTIyOTMiLCJzbmlwcGV0IjoiSXQgb2ZmZXJzIGEgbW9kdWxhciBkZXNpZ24gZm9yIGNyZWF0aW5nIHJvYm90aWMgdGFza3MgYXMgd2VsbCBhcyBhIHN1aXRlIG9mIGJlbmNobWFyayBlbnZpcm9ubWVudHMgZm9yIHJlcHJvZHVjaWJsZSByZXNlYXJjaC4gVGhpcyBwYXBlciBkaXNjdXNzZXMgdGhlIGtleSAuLi4iLCJkYXRlIjoiU2VwIDI3LCAyMDIwIiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjIgU3lzdGVtIE1vZHVsZXMiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIwMDkuMTIyOTMjOn46dGV4dD0yJTIwU3lzdGVtJTIwTW9kdWxlcyJ9LHsidGl0bGUiOiIyLjIgUm9ib3RzIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMDA5LjEyMjkzIzp+OnRleHQ9Mi4yJTIwUm9ib3RzIn0seyJ0aXRsZSI6IjIuMyBDb250cm9sbGVycyIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjAwOS4xMjI5MyM6fjp0ZXh0PTIuMyUyMENvbnRyb2xsZXJzIn1dLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IltQREZdIFJPQk9QSUFOSVNUOiBBIEJlbmNobWFyayBmb3IgSGlnaC1EaW1lbnNpb25hbCBSb2JvdCBDb250cm9sIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA0LjA0MTUwIiwic25pcHBldCI6IkFic3RyYWN04oCUV2UgaW50cm9kdWNlIGEgbmV3IGJlbmNobWFya2luZyBzdWl0ZSBmb3IgaGlnaC0gZGltZW5zaW9uYWwgY29udHJvbCwgdGFyZ2V0ZWQgYXQgdGVzdGluZyBoaWdoIHNwYXRpYWwgYW5kIHRlbXBvcmFsIHByZWNpc2lvbiwgY29vcmRpbmF0aW9uLCBhbmQgLi4uIiwiZGF0ZSI6Ik1hciAzMCwgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiTGVhcm5pbmcgdG8gV2FsayBpbiBNaW51dGVzIFVzaW5nIE1hc3NpdmVseSBQYXJhbGxlbCBEZWVwIC4uLiAtIGFyNWl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMTA5LjExOTc4Iiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgcHJlc2VudCBhbmQgc3R1ZHkgYSB0cmFpbmluZyBzZXQtdXAgdGhhdCBhY2hpZXZlcyBmYXN0IHBvbGljeSBnZW5lcmF0aW9uIGZvciByZWFsLXdvcmxkIHJvYm90aWMgdGFza3MgYnkgdXNpbmcgbWFzc2l2ZSBwYXJhbGxlbGlzbSBvbiBhIHNpbmdsZSAuLi4iLCJkYXRlIjoiTWF5IDE1LCAyMDE3Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjMgVGFzayBEZXNjcmlwdGlvbiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjEwOS4xMTk3OCM6fjp0ZXh0PTMlMjBUYXNrJTIwRGVzY3JpcHRpb24ifSx7InRpdGxlIjoiNCBSZXN1bHRzIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMTA5LjExOTc4Izp+OnRleHQ9NCUyMFJlc3VsdHMifSx7InRpdGxlIjoiNC4yIFNpbXVsYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIxMDkuMTE5NzgjOn46dGV4dD00LjIlMjBTaW11bGF0aW9uIn1dLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "cc69df11d79fb10c2d51559b1cb2fbfab2670b967f57da80e4cf29d3c8abeefa",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Benchmark datasets for robot decision making before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "BridgeData V2:A Dataset for Robot Learning at Scale - arXiv",
+                "link": "https://arxiv.org/html/2308.12952v3",
+                "snippet": "We propose a large-scale robotic manipulation dataset containing 60,096 trajectories across 24 environments. The dataset includes skills such as pick-and-place ...",
+                "date": "Jan 17, 2024",
+                "position": 1
+              },
+              {
+                "title": "RoboCAS: A Benchmark for Robotic Manipulation in Complex ...",
+                "link": "https://arxiv.org/html/2407.06951v1",
+                "snippet": "Unlike other benchmarks, this dataset specifically emphasizes spatial reasoning among objects and encourages robots to enhance their ability to predict chain ...",
+                "date": "Jul 9, 2024",
+                "position": 2
+              },
+              {
+                "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+                "link": "https://arxiv.org/html/2310.08864v4",
+                "snippet": "The dataset represents diverse behaviors, robot embodiments and environments, and enables learning generalized robotic policies.",
+                "date": "Dec 18, 2023",
+                "position": 3
+              },
+              {
+                "title": "A Review of Video-based Learning Approaches for Robot ... - arXiv",
+                "link": "https://arxiv.org/html/2402.07127v2",
+                "snippet": "The survey summarizes video-based learning approaches, analyses their benefits over standard datasets, survey metrics, and benchmarks, and discusses open ...",
+                "date": "Sep 18, 2024",
+                "position": 4
+              },
+              {
+                "title": "DexArt: Benchmarking Generalizable Dexterous Manipulation with ...",
+                "link": "https://ar5iv.labs.arxiv.org/html/2305.05706",
+                "snippet": "In this paper, we propose a new benchmark on learning generalizable manipulation policy on articulated objects with point cloud observations. Articulated Object ...",
+                "date": "Feb 29, 2024",
+                "position": 5
+              },
+              {
+                "title": "Sound Representation and Classification Benchmark for Domestic ...",
+                "link": "https://ar5iv.labs.arxiv.org/html/1402.3689",
+                "snippet": "We addressed the problem of sound recognition by an autonomous humanoid robot, by benchmarking a large set of audio feature representations, post-processing, ...",
+                "date": "Feb 17, 2014",
+                "position": 6
+              },
+              {
+                "title": "Benchmarking Knowledge Transfer for Lifelong Robot Learning - arXiv",
+                "link": "https://arxiv.org/abs/2306.03310",
+                "snippet": "LIBERO, a novel benchmark of lifelong learning for robot manipulation. provide high-quality human-teleoperated demonstration data for all tasks. Check the ...",
+                "date": "Jun 5, 2023",
+                "position": 7
+              },
+              {
+                "title": "[2009.12293] robosuite: A Modular Simulation Framework ... - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2009.12293",
+                "snippet": "It offers a modular design for creating robotic tasks as well as a suite of benchmark environments for reproducible research. This paper discusses the key ...",
+                "date": "Sep 27, 2020",
+                "sitelinks": [
+                  {
+                    "title": "2 System Modules",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2009.12293#:~:text=2%20System%20Modules"
+                  },
+                  {
+                    "title": "2.2 Robots",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2009.12293#:~:text=2.2%20Robots"
+                  },
+                  {
+                    "title": "2.3 Controllers",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2009.12293#:~:text=2.3%20Controllers"
+                  }
+                ],
+                "position": 8
+              },
+              {
+                "title": "[PDF] ROBOPIANIST: A Benchmark for High-Dimensional Robot Control",
+                "link": "https://arxiv.org/pdf/2304.04150",
+                "snippet": "Abstract—We introduce a new benchmarking suite for high- dimensional control, targeted at testing high spatial and temporal precision, coordination, and ...",
+                "date": "Mar 30, 2023",
+                "position": 9
+              },
+              {
+                "title": "Learning to Walk in Minutes Using Massively Parallel Deep ... - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2109.11978",
+                "snippet": "In this work, we present and study a training set-up that achieves fast policy generation for real-world robotic tasks by using massive parallelism on a single ...",
+                "date": "May 15, 2017",
+                "sitelinks": [
+                  {
+                    "title": "3 Task Description",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2109.11978#:~:text=3%20Task%20Description"
+                  },
+                  {
+                    "title": "4 Results",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2109.11978#:~:text=4%20Results"
+                  },
+                  {
+                    "title": "4.2 Simulation",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2109.11978#:~:text=4.2%20Simulation"
+                  }
+                ],
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:31:20.925893+00:00",
+          "elapsed_seconds": 1.0582170076668262
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1402.3689",
+        "2009.12293",
+        "2109.11978",
+        "2304.04150",
+        "2305.05706",
+        "2306.03310",
+        "2308.12952",
+        "2310.08864",
+        "2402.07127",
+        "2407.06951"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2308.12952",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2308.12952v3",
+          "title": "BridgeData V2:A Dataset for Robot Learning at Scale - arXiv",
+          "snippet": "We propose a large-scale robotic manipulation dataset containing 60,096 trajectories across 24 environments. The dataset includes skills such as pick-and-place ..."
+        },
+        {
+          "arxiv_id": "2407.06951",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2407.06951v1",
+          "title": "RoboCAS: A Benchmark for Robotic Manipulation in Complex ...",
+          "snippet": "Unlike other benchmarks, this dataset specifically emphasizes spatial reasoning among objects and encourages robots to enhance their ability to predict chain ..."
+        },
+        {
+          "arxiv_id": "2310.08864",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2310.08864v4",
+          "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+          "snippet": "The dataset represents diverse behaviors, robot embodiments and environments, and enables learning generalized robotic policies."
+        },
+        {
+          "arxiv_id": "2402.07127",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2402.07127v2",
+          "title": "A Review of Video-based Learning Approaches for Robot ... - arXiv",
+          "snippet": "The survey summarizes video-based learning approaches, analyses their benefits over standard datasets, survey metrics, and benchmarks, and discusses open ..."
+        },
+        {
+          "arxiv_id": "2305.05706",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://ar5iv.labs.arxiv.org/html/2305.05706",
+          "title": "DexArt: Benchmarking Generalizable Dexterous Manipulation with ...",
+          "snippet": "In this paper, we propose a new benchmark on learning generalizable manipulation policy on articulated objects with point cloud observations. Articulated Object ..."
+        },
+        {
+          "arxiv_id": "1402.3689",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://ar5iv.labs.arxiv.org/html/1402.3689",
+          "title": "Sound Representation and Classification Benchmark for Domestic ...",
+          "snippet": "We addressed the problem of sound recognition by an autonomous humanoid robot, by benchmarking a large set of audio feature representations, post-processing, ..."
+        },
+        {
+          "arxiv_id": "2306.03310",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/abs/2306.03310",
+          "title": "Benchmarking Knowledge Transfer for Lifelong Robot Learning - arXiv",
+          "snippet": "LIBERO, a novel benchmark of lifelong learning for robot manipulation. provide high-quality human-teleoperated demonstration data for all tasks. Check the ..."
+        },
+        {
+          "arxiv_id": "2009.12293",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://ar5iv.labs.arxiv.org/html/2009.12293",
+          "title": "[2009.12293] robosuite: A Modular Simulation Framework ... - ar5iv",
+          "snippet": "It offers a modular design for creating robotic tasks as well as a suite of benchmark environments for reproducible research. This paper discusses the key ..."
+        },
+        {
+          "arxiv_id": "2304.04150",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2304.04150",
+          "title": "[PDF] ROBOPIANIST: A Benchmark for High-Dimensional Robot Control",
+          "snippet": "Abstract—We introduce a new benchmarking suite for high- dimensional control, targeted at testing high spatial and temporal precision, coordination, and ..."
+        },
+        {
+          "arxiv_id": "2109.11978",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://ar5iv.labs.arxiv.org/html/2109.11978",
+          "title": "Learning to Walk in Minutes Using Massively Parallel Deep ... - ar5iv",
+          "snippet": "In this work, we present and study a training set-up that achieves fast policy generation for real-world robotic tasks by using massive parallelism on a single ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Benchmark datasets for robot decision making before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Relevant datasets for robot decision making",
+      "attempts": [
+        {
+          "global_attempt_sequence": 283,
+          "query_id": "Q46",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Relevant datasets for robot decision making",
+          "request_payload": {
+            "q": "Relevant datasets for robot decision making before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q46_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:31:21.194487+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Relevant datasets for robot decision making before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"BridgeData V2:A Dataset for Robot Learning at Scale - arXiv\",\"link\":\"https://arxiv.org/html/2308.12952v3\",\"snippet\":\"We propose a large-scale robotic manipulation dataset containing 60,096 trajectories across 24 environments. The dataset includes skills such as pick-and-place ...\",\"date\":\"Jan 17, 2024\",\"position\":1},{\"title\":\"Open X-Embodiment: Robotic Learning Datasets and RT-X Models\",\"link\":\"https://arxiv.org/html/2310.08864v4\",\"snippet\":\"The dataset represents diverse behaviors, robot embodiments and environments, and enables learning generalized robotic policies.\",\"date\":\"Dec 18, 2023\",\"position\":2},{\"title\":\"DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset ...\",\"link\":\"https://arxiv.org/html/2403.12945v1\",\"snippet\":\"In this work, we introduce DROID (Distributed Robot Interaction Dataset), a diverse robot manipulation dataset with 76k demonstration trajectories or 350 hours ...\",\"date\":\"Mar 19, 2024\",\"position\":3},{\"title\":\"Foundation Models in Robotics: Applications, Challenges, and the ...\",\"link\":\"https://arxiv.org/html/2312.07843v1\",\"snippet\":\"Traditional deep learning models in robotics are trained on small datasets tailored for specific tasks, which limits their adaptability across diverse ...\",\"date\":\"Dec 13, 2023\",\"position\":4},{\"title\":\"A Review of Video-based Learning Approaches for Robot ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.07127v2\",\"snippet\":\"RoboVQA: This dataset [88] is designed for Visual Action-awareness CycleGAN for bidirectional mapping between human and robot domains, and Self-Adaptive Meta- ...\",\"date\":\"Sep 18, 2024\",\"position\":5},{\"title\":\"Survey on Datasets for Perception in Unstructured Outdoor ... - arXiv\",\"link\":\"https://arxiv.org/html/2404.18750v1\",\"snippet\":\"We focus on datasets for common perception tasks in field robotics. Our survey categorizes and compares available research datasets.\",\"date\":\"Apr 29, 2024\",\"position\":6},{\"title\":\"Omnipush: accurate, diverse, real-world dataset of pushing ... - arXiv\",\"link\":\"https://arxiv.org/html/1910.00618v2\",\"snippet\":\"Omnipush includes a benchmark for meta-learning dynamic models, This dataset makes it possible to build predictive pushing models that generalize over object ...\",\"date\":\"Aug 25, 2019\",\"position\":7},{\"title\":\"[PDF] A Survey on Datasets for Decision-making of Autonomous Vehicle\",\"link\":\"https://arxiv.org/pdf/2306.16784\",\"snippet\":\"1) This paper presents a detailed summary of AV decision- making datasets, especially, many latest datasets that are not covered by other previous papers are ...\",\"date\":\"Sep 22, 2023\",\"position\":8},{\"title\":\"[PDF] A System-Level View on Out-of-Distribution Data in Robotics - arXiv\",\"link\":\"https://arxiv.org/pdf/2212.14020\",\"snippet\":\"For instance, decision-making algorithms in autonomous vehicles rely on. ML-based perception and prediction models to estimate and forecast the state of the ...\",\"date\":\"Aug 25, 2023\",\"position\":9},{\"title\":\"Deep Generative Models in Robotics: A Survey on Learning ... - arXiv\",\"link\":\"https://arxiv.org/html/2408.04380v1\",\"snippet\":\"In recent years, the robot learning community has shown increasing interest in using deep generative models to capture the complexity of large datasets. In this ...\",\"date\":\"Aug 8, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZWxldmFudCBkYXRhc2V0cyBmb3Igcm9ib3QgZGVjaXNpb24gbWFraW5nIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkJyaWRnZURhdGEgVjI6QSBEYXRhc2V0IGZvciBSb2JvdCBMZWFybmluZyBhdCBTY2FsZSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4xMjk1MnYzIiwic25pcHBldCI6IldlIHByb3Bvc2UgYSBsYXJnZS1zY2FsZSByb2JvdGljIG1hbmlwdWxhdGlvbiBkYXRhc2V0IGNvbnRhaW5pbmcgNjAsMDk2IHRyYWplY3RvcmllcyBhY3Jvc3MgMjQgZW52aXJvbm1lbnRzLiBUaGUgZGF0YXNldCBpbmNsdWRlcyBza2lsbHMgc3VjaCBhcyBwaWNrLWFuZC1wbGFjZSAuLi4iLCJkYXRlIjoiSmFuIDE3LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJPcGVuIFgtRW1ib2RpbWVudDogUm9ib3RpYyBMZWFybmluZyBEYXRhc2V0cyBhbmQgUlQtWCBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEwLjA4ODY0djQiLCJzbmlwcGV0IjoiVGhlIGRhdGFzZXQgcmVwcmVzZW50cyBkaXZlcnNlIGJlaGF2aW9ycywgcm9ib3QgZW1ib2RpbWVudHMgYW5kIGVudmlyb25tZW50cywgYW5kIGVuYWJsZXMgbGVhcm5pbmcgZ2VuZXJhbGl6ZWQgcm9ib3RpYyBwb2xpY2llcy4iLCJkYXRlIjoiRGVjIDE4LCAyMDIzIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJEUk9JRDogQSBMYXJnZS1TY2FsZSBJbi1UaGUtV2lsZCBSb2JvdCBNYW5pcHVsYXRpb24gRGF0YXNldCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjEyOTQ1djEiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBpbnRyb2R1Y2UgRFJPSUQgKERpc3RyaWJ1dGVkIFJvYm90IEludGVyYWN0aW9uIERhdGFzZXQpLCBhIGRpdmVyc2Ugcm9ib3QgbWFuaXB1bGF0aW9uIGRhdGFzZXQgd2l0aCA3NmsgZGVtb25zdHJhdGlvbiB0cmFqZWN0b3JpZXMgb3IgMzUwIGhvdXJzIC4uLiIsImRhdGUiOiJNYXIgMTksIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkZvdW5kYXRpb24gTW9kZWxzIGluIFJvYm90aWNzOiBBcHBsaWNhdGlvbnMsIENoYWxsZW5nZXMsIGFuZCB0aGUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4wNzg0M3YxIiwic25pcHBldCI6IlRyYWRpdGlvbmFsIGRlZXAgbGVhcm5pbmcgbW9kZWxzIGluIHJvYm90aWNzIGFyZSB0cmFpbmVkIG9uIHNtYWxsIGRhdGFzZXRzIHRhaWxvcmVkIGZvciBzcGVjaWZpYyB0YXNrcywgd2hpY2ggbGltaXRzIHRoZWlyIGFkYXB0YWJpbGl0eSBhY3Jvc3MgZGl2ZXJzZSAuLi4iLCJkYXRlIjoiRGVjIDEzLCAyMDIzIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJBIFJldmlldyBvZiBWaWRlby1iYXNlZCBMZWFybmluZyBBcHByb2FjaGVzIGZvciBSb2JvdCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDcxMjd2MiIsInNuaXBwZXQiOiJSb2JvVlFBOiBUaGlzIGRhdGFzZXQgWzg4XSBpcyBkZXNpZ25lZCBmb3IgVmlzdWFsIEFjdGlvbi1hd2FyZW5lc3MgQ3ljbGVHQU4gZm9yIGJpZGlyZWN0aW9uYWwgbWFwcGluZyBiZXR3ZWVuIGh1bWFuIGFuZCByb2JvdCBkb21haW5zLCBhbmQgU2VsZi1BZGFwdGl2ZSBNZXRhLSAuLi4iLCJkYXRlIjoiU2VwIDE4LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJTdXJ2ZXkgb24gRGF0YXNldHMgZm9yIFBlcmNlcHRpb24gaW4gVW5zdHJ1Y3R1cmVkIE91dGRvb3IgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjE4NzUwdjEiLCJzbmlwcGV0IjoiV2UgZm9jdXMgb24gZGF0YXNldHMgZm9yIGNvbW1vbiBwZXJjZXB0aW9uIHRhc2tzIGluIGZpZWxkIHJvYm90aWNzLiBPdXIgc3VydmV5IGNhdGVnb3JpemVzIGFuZCBjb21wYXJlcyBhdmFpbGFibGUgcmVzZWFyY2ggZGF0YXNldHMuIiwiZGF0ZSI6IkFwciAyOSwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiT21uaXB1c2g6IGFjY3VyYXRlLCBkaXZlcnNlLCByZWFsLXdvcmxkIGRhdGFzZXQgb2YgcHVzaGluZyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzE5MTAuMDA2MTh2MiIsInNuaXBwZXQiOiJPbW5pcHVzaCBpbmNsdWRlcyBhIGJlbmNobWFyayBmb3IgbWV0YS1sZWFybmluZyBkeW5hbWljIG1vZGVscywgVGhpcyBkYXRhc2V0IG1ha2VzIGl0IHBvc3NpYmxlIHRvIGJ1aWxkIHByZWRpY3RpdmUgcHVzaGluZyBtb2RlbHMgdGhhdCBnZW5lcmFsaXplIG92ZXIgb2JqZWN0IC4uLiIsImRhdGUiOiJBdWcgMjUsIDIwMTkiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIEEgU3VydmV5IG9uIERhdGFzZXRzIGZvciBEZWNpc2lvbi1tYWtpbmcgb2YgQXV0b25vbW91cyBWZWhpY2xlIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA2LjE2Nzg0Iiwic25pcHBldCI6IjEpIFRoaXMgcGFwZXIgcHJlc2VudHMgYSBkZXRhaWxlZCBzdW1tYXJ5IG9mIEFWIGRlY2lzaW9uLSBtYWtpbmcgZGF0YXNldHMsIGVzcGVjaWFsbHksIG1hbnkgbGF0ZXN0IGRhdGFzZXRzIHRoYXQgYXJlIG5vdCBjb3ZlcmVkIGJ5IG90aGVyIHByZXZpb3VzIHBhcGVycyBhcmUgLi4uIiwiZGF0ZSI6IlNlcCAyMiwgMjAyMyIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gQSBTeXN0ZW0tTGV2ZWwgVmlldyBvbiBPdXQtb2YtRGlzdHJpYnV0aW9uIERhdGEgaW4gUm9ib3RpY3MgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjIxMi4xNDAyMCIsInNuaXBwZXQiOiJGb3IgaW5zdGFuY2UsIGRlY2lzaW9uLW1ha2luZyBhbGdvcml0aG1zIGluIGF1dG9ub21vdXMgdmVoaWNsZXMgcmVseSBvbi4gTUwtYmFzZWQgcGVyY2VwdGlvbiBhbmQgcHJlZGljdGlvbiBtb2RlbHMgdG8gZXN0aW1hdGUgYW5kIGZvcmVjYXN0IHRoZSBzdGF0ZSBvZiB0aGUgLi4uIiwiZGF0ZSI6IkF1ZyAyNSwgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiRGVlcCBHZW5lcmF0aXZlIE1vZGVscyBpbiBSb2JvdGljczogQSBTdXJ2ZXkgb24gTGVhcm5pbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjA0MzgwdjEiLCJzbmlwcGV0IjoiSW4gcmVjZW50IHllYXJzLCB0aGUgcm9ib3QgbGVhcm5pbmcgY29tbXVuaXR5IGhhcyBzaG93biBpbmNyZWFzaW5nIGludGVyZXN0IGluIHVzaW5nIGRlZXAgZ2VuZXJhdGl2ZSBtb2RlbHMgdG8gY2FwdHVyZSB0aGUgY29tcGxleGl0eSBvZiBsYXJnZSBkYXRhc2V0cy4gSW4gdGhpcyAuLi4iLCJkYXRlIjoiQXVnIDgsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "0033776d8ce9c7e5953b174ac4efb5e37cf5ef7884202e304675c7d489a13fc7",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Relevant datasets for robot decision making before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "BridgeData V2:A Dataset for Robot Learning at Scale - arXiv",
+                "link": "https://arxiv.org/html/2308.12952v3",
+                "snippet": "We propose a large-scale robotic manipulation dataset containing 60,096 trajectories across 24 environments. The dataset includes skills such as pick-and-place ...",
+                "date": "Jan 17, 2024",
+                "position": 1
+              },
+              {
+                "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+                "link": "https://arxiv.org/html/2310.08864v4",
+                "snippet": "The dataset represents diverse behaviors, robot embodiments and environments, and enables learning generalized robotic policies.",
+                "date": "Dec 18, 2023",
+                "position": 2
+              },
+              {
+                "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset ...",
+                "link": "https://arxiv.org/html/2403.12945v1",
+                "snippet": "In this work, we introduce DROID (Distributed Robot Interaction Dataset), a diverse robot manipulation dataset with 76k demonstration trajectories or 350 hours ...",
+                "date": "Mar 19, 2024",
+                "position": 3
+              },
+              {
+                "title": "Foundation Models in Robotics: Applications, Challenges, and the ...",
+                "link": "https://arxiv.org/html/2312.07843v1",
+                "snippet": "Traditional deep learning models in robotics are trained on small datasets tailored for specific tasks, which limits their adaptability across diverse ...",
+                "date": "Dec 13, 2023",
+                "position": 4
+              },
+              {
+                "title": "A Review of Video-based Learning Approaches for Robot ... - arXiv",
+                "link": "https://arxiv.org/html/2402.07127v2",
+                "snippet": "RoboVQA: This dataset [88] is designed for Visual Action-awareness CycleGAN for bidirectional mapping between human and robot domains, and Self-Adaptive Meta- ...",
+                "date": "Sep 18, 2024",
+                "position": 5
+              },
+              {
+                "title": "Survey on Datasets for Perception in Unstructured Outdoor ... - arXiv",
+                "link": "https://arxiv.org/html/2404.18750v1",
+                "snippet": "We focus on datasets for common perception tasks in field robotics. Our survey categorizes and compares available research datasets.",
+                "date": "Apr 29, 2024",
+                "position": 6
+              },
+              {
+                "title": "Omnipush: accurate, diverse, real-world dataset of pushing ... - arXiv",
+                "link": "https://arxiv.org/html/1910.00618v2",
+                "snippet": "Omnipush includes a benchmark for meta-learning dynamic models, This dataset makes it possible to build predictive pushing models that generalize over object ...",
+                "date": "Aug 25, 2019",
+                "position": 7
+              },
+              {
+                "title": "[PDF] A Survey on Datasets for Decision-making of Autonomous Vehicle",
+                "link": "https://arxiv.org/pdf/2306.16784",
+                "snippet": "1) This paper presents a detailed summary of AV decision- making datasets, especially, many latest datasets that are not covered by other previous papers are ...",
+                "date": "Sep 22, 2023",
+                "position": 8
+              },
+              {
+                "title": "[PDF] A System-Level View on Out-of-Distribution Data in Robotics - arXiv",
+                "link": "https://arxiv.org/pdf/2212.14020",
+                "snippet": "For instance, decision-making algorithms in autonomous vehicles rely on. ML-based perception and prediction models to estimate and forecast the state of the ...",
+                "date": "Aug 25, 2023",
+                "position": 9
+              },
+              {
+                "title": "Deep Generative Models in Robotics: A Survey on Learning ... - arXiv",
+                "link": "https://arxiv.org/html/2408.04380v1",
+                "snippet": "In recent years, the robot learning community has shown increasing interest in using deep generative models to capture the complexity of large datasets. In this ...",
+                "date": "Aug 8, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:31:22.232908+00:00",
+          "elapsed_seconds": 1.0384173765778542
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1910.00618",
+        "2212.14020",
+        "2306.16784",
+        "2308.12952",
+        "2310.08864",
+        "2312.07843",
+        "2402.07127",
+        "2403.12945",
+        "2404.18750",
+        "2408.04380"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2308.12952",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2308.12952v3",
+          "title": "BridgeData V2:A Dataset for Robot Learning at Scale - arXiv",
+          "snippet": "We propose a large-scale robotic manipulation dataset containing 60,096 trajectories across 24 environments. The dataset includes skills such as pick-and-place ..."
+        },
+        {
+          "arxiv_id": "2310.08864",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2310.08864v4",
+          "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+          "snippet": "The dataset represents diverse behaviors, robot embodiments and environments, and enables learning generalized robotic policies."
+        },
+        {
+          "arxiv_id": "2403.12945",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2403.12945v1",
+          "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset ...",
+          "snippet": "In this work, we introduce DROID (Distributed Robot Interaction Dataset), a diverse robot manipulation dataset with 76k demonstration trajectories or 350 hours ..."
+        },
+        {
+          "arxiv_id": "2312.07843",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2312.07843v1",
+          "title": "Foundation Models in Robotics: Applications, Challenges, and the ...",
+          "snippet": "Traditional deep learning models in robotics are trained on small datasets tailored for specific tasks, which limits their adaptability across diverse ..."
+        },
+        {
+          "arxiv_id": "2402.07127",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2402.07127v2",
+          "title": "A Review of Video-based Learning Approaches for Robot ... - arXiv",
+          "snippet": "RoboVQA: This dataset [88] is designed for Visual Action-awareness CycleGAN for bidirectional mapping between human and robot domains, and Self-Adaptive Meta- ..."
+        },
+        {
+          "arxiv_id": "2404.18750",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2404.18750v1",
+          "title": "Survey on Datasets for Perception in Unstructured Outdoor ... - arXiv",
+          "snippet": "We focus on datasets for common perception tasks in field robotics. Our survey categorizes and compares available research datasets."
+        },
+        {
+          "arxiv_id": "1910.00618",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/1910.00618v2",
+          "title": "Omnipush: accurate, diverse, real-world dataset of pushing ... - arXiv",
+          "snippet": "Omnipush includes a benchmark for meta-learning dynamic models, This dataset makes it possible to build predictive pushing models that generalize over object ..."
+        },
+        {
+          "arxiv_id": "2306.16784",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2306.16784",
+          "title": "[PDF] A Survey on Datasets for Decision-making of Autonomous Vehicle",
+          "snippet": "1) This paper presents a detailed summary of AV decision- making datasets, especially, many latest datasets that are not covered by other previous papers are ..."
+        },
+        {
+          "arxiv_id": "2212.14020",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2212.14020",
+          "title": "[PDF] A System-Level View on Out-of-Distribution Data in Robotics - arXiv",
+          "snippet": "For instance, decision-making algorithms in autonomous vehicles rely on. ML-based perception and prediction models to estimate and forecast the state of the ..."
+        },
+        {
+          "arxiv_id": "2408.04380",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2408.04380v1",
+          "title": "Deep Generative Models in Robotics: A Survey on Learning ... - arXiv",
+          "snippet": "In recent years, the robot learning community has shown increasing interest in using deep generative models to capture the complexity of large datasets. In this ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Relevant datasets for robot decision making before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Benchmarks used in robot decision making research",
+      "attempts": [
+        {
+          "global_attempt_sequence": 284,
+          "query_id": "Q46",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Benchmarks used in robot decision making research",
+          "request_payload": {
+            "q": "Benchmarks used in robot decision making research before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q46_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:31:22.501577+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Benchmarks used in robot decision making research before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Abstract - arXiv\",\"link\":\"https://arxiv.org/html/2201.05765v1\",\"snippet\":\"Here we propose a novel evaluation method that improves the data efficiency of collected experimental data when benchmarking approaches generating such legible ...\",\"date\":\"Jan 15, 2022\",\"position\":1},{\"title\":\"RoboCAS: A Benchmark for Robotic Manipulation in Complex ...\",\"link\":\"https://arxiv.org/html/2407.06951v1\",\"snippet\":\"RoboCAS benchmark, the first benchmark specifically designed for complex object arrangement scenarios in robotic manipulation.\",\"date\":\"Jul 9, 2024\",\"position\":2},{\"title\":\"DexArt: Benchmarking Generalizable Dexterous Manipulation with ...\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2305.05706\",\"snippet\":\"In our benchmark, we define multiple complex manipulation tasks, and the robot hand will need to manipulate diverse articulated objects within each task.\",\"date\":\"Feb 29, 2024\",\"position\":3},{\"title\":\"Collaborative Perception in Multi-Robot Systems: Case Studies in ...\",\"link\":\"https://arxiv.org/html/2408.14039v1\",\"snippet\":\"The case studies validate the effectiveness of CP in enhancing multi-robot coordination, task completion, and overall system performance and its potential\",\"date\":\"Aug 26, 2024\",\"position\":4},{\"title\":\"[PDF] ROBOPIANIST: A Benchmark for High-Dimensional Robot Control\",\"link\":\"https://arxiv.org/pdf/2304.04150\",\"snippet\":\"Agents in ROBOPIANIST are evaluated based on precision, recall and F1 scores. These metrics are computed by com- “In-hand dexterous manipulation of piecewise- ...\",\"date\":\"Mar 30, 2023\",\"position\":5},{\"title\":\"[2009.12293] robosuite: A Modular Simulation Framework ... - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2009.12293\",\"snippet\":\"It offers a modular design for creating robotic tasks as well as a suite of benchmark environments for reproducible research. This paper discusses the key ...\",\"date\":\"Sep 27, 2020\",\"position\":6},{\"title\":\"Sound Representation and Classification Benchmark for Domestic ...\",\"link\":\"https://ar5iv.labs.arxiv.org/html/1402.3689\",\"snippet\":\"We addressed the problem of sound recognition by an autonomous humanoid robot, by benchmarking a large set of audio feature representations, post-processing, ...\",\"date\":\"Feb 17, 2014\",\"position\":7},{\"title\":\"Benchmarking and Learning for Robotic Bimanual Manipulation Tasks\",\"link\":\"https://arxiv.org/html/2407.00278v1\",\"snippet\":\"RLBench is a robot learning benchmark suite featuring over more than 100 tasks to facilitate robot learning, which is widely used in the community.\",\"date\":\"Jun 29, 2024\",\"position\":8},{\"title\":\"Learning to Walk in Minutes Using Massively Parallel Deep ... - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2109.11978\",\"snippet\":\"In this work, we present and study a training set-up that achieves fast policy generation for real-world robotic tasks by using massive parallelism on a single ...\",\"date\":\"May 15, 2017\",\"sitelinks\":[{\"title\":\"3 Task Description\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2109.11978#:~:text=3%20Task%20Description\"},{\"title\":\"4 Results\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2109.11978#:~:text=4%20Results\"},{\"title\":\"4.2 Simulation\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2109.11978#:~:text=4.2%20Simulation\"}],\"position\":9},{\"title\":\"Adapting to Human Preferences to Lead or Follow in Human-Robot ...\",\"link\":\"https://arxiv.org/html/2307.11192v1\",\"snippet\":\"This paper focuses on task planning for human-robot collaboration, taking into account the human's performance and their preference for following or leading.\",\"date\":\"Jul 20, 2023\",\"sitelinks\":[{\"title\":\"Adapting To Human...\",\"link\":\"https://arxiv.org/html/2307.11192v1#:~:text=2023-,Adapting%20to%20Human%20Preferences%20to%20Lead%20or%20Follow%20in\"},{\"title\":\"Iii Envisaged User Study...\",\"link\":\"https://arxiv.org/html/2307.11192v1#:~:text=III%20Envisaged%20User%20Study%20Setup,-In%20this%20section%2C%20to\"},{\"title\":\"Iv System Validation Study\",\"link\":\"https://arxiv.org/html/2307.11192v1#:~:text=IV%20System%20Validation%20Study,-To%20evaluate%20the%20planning%20framework\"}],\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJCZW5jaG1hcmtzIHVzZWQgaW4gcm9ib3QgZGVjaXNpb24gbWFraW5nIHJlc2VhcmNoIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkFic3RyYWN0IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjAxLjA1NzY1djEiLCJzbmlwcGV0IjoiSGVyZSB3ZSBwcm9wb3NlIGEgbm92ZWwgZXZhbHVhdGlvbiBtZXRob2QgdGhhdCBpbXByb3ZlcyB0aGUgZGF0YSBlZmZpY2llbmN5IG9mIGNvbGxlY3RlZCBleHBlcmltZW50YWwgZGF0YSB3aGVuIGJlbmNobWFya2luZyBhcHByb2FjaGVzIGdlbmVyYXRpbmcgc3VjaCBsZWdpYmxlIC4uLiIsImRhdGUiOiJKYW4gMTUsIDIwMjIiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlJvYm9DQVM6IEEgQmVuY2htYXJrIGZvciBSb2JvdGljIE1hbmlwdWxhdGlvbiBpbiBDb21wbGV4IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMDY5NTF2MSIsInNuaXBwZXQiOiJSb2JvQ0FTIGJlbmNobWFyaywgdGhlIGZpcnN0IGJlbmNobWFyayBzcGVjaWZpY2FsbHkgZGVzaWduZWQgZm9yIGNvbXBsZXggb2JqZWN0IGFycmFuZ2VtZW50IHNjZW5hcmlvcyBpbiByb2JvdGljIG1hbmlwdWxhdGlvbi4iLCJkYXRlIjoiSnVsIDksIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkRleEFydDogQmVuY2htYXJraW5nIEdlbmVyYWxpemFibGUgRGV4dGVyb3VzIE1hbmlwdWxhdGlvbiB3aXRoIC4uLiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjMwNS4wNTcwNiIsInNuaXBwZXQiOiJJbiBvdXIgYmVuY2htYXJrLCB3ZSBkZWZpbmUgbXVsdGlwbGUgY29tcGxleCBtYW5pcHVsYXRpb24gdGFza3MsIGFuZCB0aGUgcm9ib3QgaGFuZCB3aWxsIG5lZWQgdG8gbWFuaXB1bGF0ZSBkaXZlcnNlIGFydGljdWxhdGVkIG9iamVjdHMgd2l0aGluIGVhY2ggdGFzay4iLCJkYXRlIjoiRmViIDI5LCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJDb2xsYWJvcmF0aXZlIFBlcmNlcHRpb24gaW4gTXVsdGktUm9ib3QgU3lzdGVtczogQ2FzZSBTdHVkaWVzIGluIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTQwMzl2MSIsInNuaXBwZXQiOiJUaGUgY2FzZSBzdHVkaWVzIHZhbGlkYXRlIHRoZSBlZmZlY3RpdmVuZXNzIG9mIENQIGluIGVuaGFuY2luZyBtdWx0aS1yb2JvdCBjb29yZGluYXRpb24sIHRhc2sgY29tcGxldGlvbiwgYW5kIG92ZXJhbGwgc3lzdGVtIHBlcmZvcm1hbmNlIGFuZCBpdHMgcG90ZW50aWFsIiwiZGF0ZSI6IkF1ZyAyNiwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiW1BERl0gUk9CT1BJQU5JU1Q6IEEgQmVuY2htYXJrIGZvciBIaWdoLURpbWVuc2lvbmFsIFJvYm90IENvbnRyb2wiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDQuMDQxNTAiLCJzbmlwcGV0IjoiQWdlbnRzIGluIFJPQk9QSUFOSVNUIGFyZSBldmFsdWF0ZWQgYmFzZWQgb24gcHJlY2lzaW9uLCByZWNhbGwgYW5kIEYxIHNjb3Jlcy4gVGhlc2UgbWV0cmljcyBhcmUgY29tcHV0ZWQgYnkgY29tLSDigJxJbi1oYW5kIGRleHRlcm91cyBtYW5pcHVsYXRpb24gb2YgcGllY2V3aXNlLSAuLi4iLCJkYXRlIjoiTWFyIDMwLCAyMDIzIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbMjAwOS4xMjI5M10gcm9ib3N1aXRlOiBBIE1vZHVsYXIgU2ltdWxhdGlvbiBGcmFtZXdvcmsgLi4uIC0gYXI1aXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIwMDkuMTIyOTMiLCJzbmlwcGV0IjoiSXQgb2ZmZXJzIGEgbW9kdWxhciBkZXNpZ24gZm9yIGNyZWF0aW5nIHJvYm90aWMgdGFza3MgYXMgd2VsbCBhcyBhIHN1aXRlIG9mIGJlbmNobWFyayBlbnZpcm9ubWVudHMgZm9yIHJlcHJvZHVjaWJsZSByZXNlYXJjaC4gVGhpcyBwYXBlciBkaXNjdXNzZXMgdGhlIGtleSAuLi4iLCJkYXRlIjoiU2VwIDI3LCAyMDIwIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJTb3VuZCBSZXByZXNlbnRhdGlvbiBhbmQgQ2xhc3NpZmljYXRpb24gQmVuY2htYXJrIGZvciBEb21lc3RpYyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzE0MDIuMzY4OSIsInNuaXBwZXQiOiJXZSBhZGRyZXNzZWQgdGhlIHByb2JsZW0gb2Ygc291bmQgcmVjb2duaXRpb24gYnkgYW4gYXV0b25vbW91cyBodW1hbm9pZCByb2JvdCwgYnkgYmVuY2htYXJraW5nIGEgbGFyZ2Ugc2V0IG9mIGF1ZGlvIGZlYXR1cmUgcmVwcmVzZW50YXRpb25zLCBwb3N0LXByb2Nlc3NpbmcsIC4uLiIsImRhdGUiOiJGZWIgMTcsIDIwMTQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkJlbmNobWFya2luZyBhbmQgTGVhcm5pbmcgZm9yIFJvYm90aWMgQmltYW51YWwgTWFuaXB1bGF0aW9uIFRhc2tzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4wMDI3OHYxIiwic25pcHBldCI6IlJMQmVuY2ggaXMgYSByb2JvdCBsZWFybmluZyBiZW5jaG1hcmsgc3VpdGUgZmVhdHVyaW5nIG92ZXIgbW9yZSB0aGFuIDEwMCB0YXNrcyB0byBmYWNpbGl0YXRlIHJvYm90IGxlYXJuaW5nLCB3aGljaCBpcyB3aWRlbHkgdXNlZCBpbiB0aGUgY29tbXVuaXR5LiIsImRhdGUiOiJKdW4gMjksIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkxlYXJuaW5nIHRvIFdhbGsgaW4gTWludXRlcyBVc2luZyBNYXNzaXZlbHkgUGFyYWxsZWwgRGVlcCAuLi4gLSBhcjVpdiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjEwOS4xMTk3OCIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIHByZXNlbnQgYW5kIHN0dWR5IGEgdHJhaW5pbmcgc2V0LXVwIHRoYXQgYWNoaWV2ZXMgZmFzdCBwb2xpY3kgZ2VuZXJhdGlvbiBmb3IgcmVhbC13b3JsZCByb2JvdGljIHRhc2tzIGJ5IHVzaW5nIG1hc3NpdmUgcGFyYWxsZWxpc20gb24gYSBzaW5nbGUgLi4uIiwiZGF0ZSI6Ik1heSAxNSwgMjAxNyIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiIzIFRhc2sgRGVzY3JpcHRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIxMDkuMTE5NzgjOn46dGV4dD0zJTIwVGFzayUyMERlc2NyaXB0aW9uIn0seyJ0aXRsZSI6IjQgUmVzdWx0cyIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjEwOS4xMTk3OCM6fjp0ZXh0PTQlMjBSZXN1bHRzIn0seyJ0aXRsZSI6IjQuMiBTaW11bGF0aW9uIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMTA5LjExOTc4Izp+OnRleHQ9NC4yJTIwU2ltdWxhdGlvbiJ9XSwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJBZGFwdGluZyB0byBIdW1hbiBQcmVmZXJlbmNlcyB0byBMZWFkIG9yIEZvbGxvdyBpbiBIdW1hbi1Sb2JvdCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA3LjExMTkydjEiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBmb2N1c2VzIG9uIHRhc2sgcGxhbm5pbmcgZm9yIGh1bWFuLXJvYm90IGNvbGxhYm9yYXRpb24sIHRha2luZyBpbnRvIGFjY291bnQgdGhlIGh1bWFuJ3MgcGVyZm9ybWFuY2UgYW5kIHRoZWlyIHByZWZlcmVuY2UgZm9yIGZvbGxvd2luZyBvciBsZWFkaW5nLiIsImRhdGUiOiJKdWwgMjAsIDIwMjMiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiQWRhcHRpbmcgVG8gSHVtYW4uLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA3LjExMTkydjEjOn46dGV4dD0yMDIzLSxBZGFwdGluZyUyMHRvJTIwSHVtYW4lMjBQcmVmZXJlbmNlcyUyMHRvJTIwTGVhZCUyMG9yJTIwRm9sbG93JTIwaW4ifSx7InRpdGxlIjoiSWlpIEVudmlzYWdlZCBVc2VyIFN0dWR5Li4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwNy4xMTE5MnYxIzp+OnRleHQ9SUlJJTIwRW52aXNhZ2VkJTIwVXNlciUyMFN0dWR5JTIwU2V0dXAsLUluJTIwdGhpcyUyMHNlY3Rpb24lMkMlMjB0byJ9LHsidGl0bGUiOiJJdiBTeXN0ZW0gVmFsaWRhdGlvbiBTdHVkeSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDcuMTExOTJ2MSM6fjp0ZXh0PUlWJTIwU3lzdGVtJTIwVmFsaWRhdGlvbiUyMFN0dWR5LC1UbyUyMGV2YWx1YXRlJTIwdGhlJTIwcGxhbm5pbmclMjBmcmFtZXdvcmsifV0sInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "411124261c4dd1ad1714434a9f9cf3068fe9ce31fc3c3a2c51d0f7ff4aebcd16",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Benchmarks used in robot decision making research before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Abstract - arXiv",
+                "link": "https://arxiv.org/html/2201.05765v1",
+                "snippet": "Here we propose a novel evaluation method that improves the data efficiency of collected experimental data when benchmarking approaches generating such legible ...",
+                "date": "Jan 15, 2022",
+                "position": 1
+              },
+              {
+                "title": "RoboCAS: A Benchmark for Robotic Manipulation in Complex ...",
+                "link": "https://arxiv.org/html/2407.06951v1",
+                "snippet": "RoboCAS benchmark, the first benchmark specifically designed for complex object arrangement scenarios in robotic manipulation.",
+                "date": "Jul 9, 2024",
+                "position": 2
+              },
+              {
+                "title": "DexArt: Benchmarking Generalizable Dexterous Manipulation with ...",
+                "link": "https://ar5iv.labs.arxiv.org/html/2305.05706",
+                "snippet": "In our benchmark, we define multiple complex manipulation tasks, and the robot hand will need to manipulate diverse articulated objects within each task.",
+                "date": "Feb 29, 2024",
+                "position": 3
+              },
+              {
+                "title": "Collaborative Perception in Multi-Robot Systems: Case Studies in ...",
+                "link": "https://arxiv.org/html/2408.14039v1",
+                "snippet": "The case studies validate the effectiveness of CP in enhancing multi-robot coordination, task completion, and overall system performance and its potential",
+                "date": "Aug 26, 2024",
+                "position": 4
+              },
+              {
+                "title": "[PDF] ROBOPIANIST: A Benchmark for High-Dimensional Robot Control",
+                "link": "https://arxiv.org/pdf/2304.04150",
+                "snippet": "Agents in ROBOPIANIST are evaluated based on precision, recall and F1 scores. These metrics are computed by com- “In-hand dexterous manipulation of piecewise- ...",
+                "date": "Mar 30, 2023",
+                "position": 5
+              },
+              {
+                "title": "[2009.12293] robosuite: A Modular Simulation Framework ... - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2009.12293",
+                "snippet": "It offers a modular design for creating robotic tasks as well as a suite of benchmark environments for reproducible research. This paper discusses the key ...",
+                "date": "Sep 27, 2020",
+                "position": 6
+              },
+              {
+                "title": "Sound Representation and Classification Benchmark for Domestic ...",
+                "link": "https://ar5iv.labs.arxiv.org/html/1402.3689",
+                "snippet": "We addressed the problem of sound recognition by an autonomous humanoid robot, by benchmarking a large set of audio feature representations, post-processing, ...",
+                "date": "Feb 17, 2014",
+                "position": 7
+              },
+              {
+                "title": "Benchmarking and Learning for Robotic Bimanual Manipulation Tasks",
+                "link": "https://arxiv.org/html/2407.00278v1",
+                "snippet": "RLBench is a robot learning benchmark suite featuring over more than 100 tasks to facilitate robot learning, which is widely used in the community.",
+                "date": "Jun 29, 2024",
+                "position": 8
+              },
+              {
+                "title": "Learning to Walk in Minutes Using Massively Parallel Deep ... - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2109.11978",
+                "snippet": "In this work, we present and study a training set-up that achieves fast policy generation for real-world robotic tasks by using massive parallelism on a single ...",
+                "date": "May 15, 2017",
+                "sitelinks": [
+                  {
+                    "title": "3 Task Description",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2109.11978#:~:text=3%20Task%20Description"
+                  },
+                  {
+                    "title": "4 Results",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2109.11978#:~:text=4%20Results"
+                  },
+                  {
+                    "title": "4.2 Simulation",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2109.11978#:~:text=4.2%20Simulation"
+                  }
+                ],
+                "position": 9
+              },
+              {
+                "title": "Adapting to Human Preferences to Lead or Follow in Human-Robot ...",
+                "link": "https://arxiv.org/html/2307.11192v1",
+                "snippet": "This paper focuses on task planning for human-robot collaboration, taking into account the human's performance and their preference for following or leading.",
+                "date": "Jul 20, 2023",
+                "sitelinks": [
+                  {
+                    "title": "Adapting To Human...",
+                    "link": "https://arxiv.org/html/2307.11192v1#:~:text=2023-,Adapting%20to%20Human%20Preferences%20to%20Lead%20or%20Follow%20in"
+                  },
+                  {
+                    "title": "Iii Envisaged User Study...",
+                    "link": "https://arxiv.org/html/2307.11192v1#:~:text=III%20Envisaged%20User%20Study%20Setup,-In%20this%20section%2C%20to"
+                  },
+                  {
+                    "title": "Iv System Validation Study",
+                    "link": "https://arxiv.org/html/2307.11192v1#:~:text=IV%20System%20Validation%20Study,-To%20evaluate%20the%20planning%20framework"
+                  }
+                ],
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:31:23.517569+00:00",
+          "elapsed_seconds": 1.0159882940351963
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "1402.3689",
+        "2009.12293",
+        "2109.11978",
+        "2201.05765",
+        "2304.04150",
+        "2305.05706",
+        "2307.11192",
+        "2407.00278",
+        "2407.06951",
+        "2408.14039"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2201.05765",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2201.05765v1",
+          "title": "Abstract - arXiv",
+          "snippet": "Here we propose a novel evaluation method that improves the data efficiency of collected experimental data when benchmarking approaches generating such legible ..."
+        },
+        {
+          "arxiv_id": "2407.06951",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2407.06951v1",
+          "title": "RoboCAS: A Benchmark for Robotic Manipulation in Complex ...",
+          "snippet": "RoboCAS benchmark, the first benchmark specifically designed for complex object arrangement scenarios in robotic manipulation."
+        },
+        {
+          "arxiv_id": "2305.05706",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://ar5iv.labs.arxiv.org/html/2305.05706",
+          "title": "DexArt: Benchmarking Generalizable Dexterous Manipulation with ...",
+          "snippet": "In our benchmark, we define multiple complex manipulation tasks, and the robot hand will need to manipulate diverse articulated objects within each task."
+        },
+        {
+          "arxiv_id": "2408.14039",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2408.14039v1",
+          "title": "Collaborative Perception in Multi-Robot Systems: Case Studies in ...",
+          "snippet": "The case studies validate the effectiveness of CP in enhancing multi-robot coordination, task completion, and overall system performance and its potential"
+        },
+        {
+          "arxiv_id": "2304.04150",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2304.04150",
+          "title": "[PDF] ROBOPIANIST: A Benchmark for High-Dimensional Robot Control",
+          "snippet": "Agents in ROBOPIANIST are evaluated based on precision, recall and F1 scores. These metrics are computed by com- “In-hand dexterous manipulation of piecewise- ..."
+        },
+        {
+          "arxiv_id": "2009.12293",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://ar5iv.labs.arxiv.org/html/2009.12293",
+          "title": "[2009.12293] robosuite: A Modular Simulation Framework ... - ar5iv",
+          "snippet": "It offers a modular design for creating robotic tasks as well as a suite of benchmark environments for reproducible research. This paper discusses the key ..."
+        },
+        {
+          "arxiv_id": "1402.3689",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://ar5iv.labs.arxiv.org/html/1402.3689",
+          "title": "Sound Representation and Classification Benchmark for Domestic ...",
+          "snippet": "We addressed the problem of sound recognition by an autonomous humanoid robot, by benchmarking a large set of audio feature representations, post-processing, ..."
+        },
+        {
+          "arxiv_id": "2407.00278",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2407.00278v1",
+          "title": "Benchmarking and Learning for Robotic Bimanual Manipulation Tasks",
+          "snippet": "RLBench is a robot learning benchmark suite featuring over more than 100 tasks to facilitate robot learning, which is widely used in the community."
+        },
+        {
+          "arxiv_id": "2109.11978",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://ar5iv.labs.arxiv.org/html/2109.11978",
+          "title": "Learning to Walk in Minutes Using Massively Parallel Deep ... - ar5iv",
+          "snippet": "In this work, we present and study a training set-up that achieves fast policy generation for real-world robotic tasks by using massive parallelism on a single ..."
+        },
+        {
+          "arxiv_id": "2307.11192",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2307.11192v1",
+          "title": "Adapting to Human Preferences to Lead or Follow in Human-Robot ...",
+          "snippet": "This paper focuses on task planning for human-robot collaboration, taking into account the human's performance and their preference for following or leading."
+        }
+      ],
+      "request_payload": {
+        "q": "Benchmarks used in robot decision making research before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "Show me research on robot decision making and task planning, especially relevant datasets and benchmarks.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 285,
+          "query_id": "Q46",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "Show me research on robot decision making and task planning, especially relevant datasets and benchmarks.",
+          "request_payload": {
+            "q": "Show me research on robot decision making and task planning, especially relevant datasets and benchmarks. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q46_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:31:23.785671+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Show me research on robot decision making and task planning, especially relevant datasets and benchmarks. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Foundation Models in Robotics: Applications, Challenges, and the ...\",\"link\":\"https://arxiv.org/html/2312.07843v1\",\"snippet\":\"In the decision-making or planning domain, LLMs and VLMs have been found to assist robots in task specification for high-level planning\",\"date\":\"Dec 13, 2023\",\"position\":1},{\"title\":\"A Review of Video-based Learning Approaches for Robot ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.07127v2\",\"snippet\":\"Task-specific and multi-modal datasets are designed to study particular tasks or provide multiple modalities of data, such as video, audio, and annotations.\",\"date\":\"Sep 18, 2024\",\"position\":2},{\"title\":\"Search-based versus Sampling-based Robot Motion Planning - arXiv\",\"link\":\"https://arxiv.org/html/2406.09623v2\",\"snippet\":\"Robot motion planning is a challenging domain as it involves dealing with high-dimensional and continuous search space. In this study, we benchmark two such ...\",\"date\":\"Jun 17, 2024\",\"position\":3},{\"title\":\"Collaborative Perception in Multi-Robot Systems: Case Studies in ...\",\"link\":\"https://arxiv.org/html/2408.14039v1\",\"snippet\":\"This paper explores the paradigm of Collaborative Perception (CP), where multiple robots and sensors in the environment share and integrate sensor data to ...\",\"date\":\"Aug 26, 2024\",\"position\":4},{\"title\":\"What Matters in Learning from Offline Human Demonstrations ... - arXiv\",\"link\":\"https://arxiv.org/html/2108.03298v2\",\"snippet\":\"In this paper, we address this need by presenting a study of data-driven offline policy learning methods on several human-provided robot manipulation datasets.\",\"date\":\"Sep 25, 2021\",\"position\":5},{\"title\":\"FMB: a Functional Manipulation Benchmark for Generalizable ...\",\"link\":\"https://arxiv.org/html/2401.08553v3\",\"snippet\":\"In this paper, we propose a real-world benchmark for studying robotic learning in the context of functional manipulation: a robot needs to accomplish complex ...\",\"date\":\"Sep 3, 2024\",\"position\":6},{\"title\":\"SMART-LLM: Smart Multi-Agent Robot Task Planning using ... - arXiv\",\"link\":\"https://arxiv.org/html/2309.10062v2\",\"snippet\":\"We create a benchmark dataset designed for validating the multi-robot task planning problem, encompassing four distinct categories of high-level instructions\",\"date\":\"Mar 23, 2024\",\"position\":7},{\"title\":\"Benchmarking and Learning for Robotic Bimanual Manipulation Tasks\",\"link\":\"https://arxiv.org/html/2407.00278v1\",\"snippet\":\"In this work, we presented a robotic manipulation benchmark specifically designed for bimanual robotic manipulation tasks. We open-source 13 new tasks with 23 ...\",\"date\":\"Jun 29, 2024\",\"position\":8},{\"title\":\"BridgeData V2:A Dataset for Robot Learning at Scale - arXiv\",\"link\":\"https://arxiv.org/html/2308.12952v3\",\"snippet\":\"First, collect a large dataset of demonstrations of robot behaviors. Then, train an expressive policy to extract the desirable behaviors with behavioral cloning ...\",\"date\":\"Jan 17, 2024\",\"sitelinks\":[{\"title\":\"Bridgedata V2\",\"link\":\"https://arxiv.org/html/2308.12952v3#:~:text=BridgeData%20V2%3A,-A%20Dataset%20for%20Robot%20Learning\"},{\"title\":\"5 Experiments\",\"link\":\"https://arxiv.org/html/2308.12952v3#:~:text=5%20Experiments,-The%20goal%20of%20our%20experiments\"},{\"title\":\"Appendix B Learning Method...\",\"link\":\"https://arxiv.org/html/2308.12952v3#:~:text=Appendix%20B%20Learning%20Method%20Implementation%20Details\"}],\"position\":9},{\"title\":\"RoboMamba: Multimodal State Space Model for Efficient Robot ...\",\"link\":\"https://arxiv.org/html/2406.04339v1\",\"snippet\":\"In our extensive experiments, RoboMamba excels in reasoning on general and robotic evaluation benchmarks, and showcases impressive pose prediction results in ...\",\"date\":\"Jun 6, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTaG93IG1lIHJlc2VhcmNoIG9uIHJvYm90IGRlY2lzaW9uIG1ha2luZyBhbmQgdGFzayBwbGFubmluZywgZXNwZWNpYWxseSByZWxldmFudCBkYXRhc2V0cyBhbmQgYmVuY2htYXJrcy4gYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiRm91bmRhdGlvbiBNb2RlbHMgaW4gUm9ib3RpY3M6IEFwcGxpY2F0aW9ucywgQ2hhbGxlbmdlcywgYW5kIHRoZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEyLjA3ODQzdjEiLCJzbmlwcGV0IjoiSW4gdGhlIGRlY2lzaW9uLW1ha2luZyBvciBwbGFubmluZyBkb21haW4sIExMTXMgYW5kIFZMTXMgaGF2ZSBiZWVuIGZvdW5kIHRvIGFzc2lzdCByb2JvdHMgaW4gdGFzayBzcGVjaWZpY2F0aW9uIGZvciBoaWdoLWxldmVsIHBsYW5uaW5nIiwiZGF0ZSI6IkRlYyAxMywgMjAyMyIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiQSBSZXZpZXcgb2YgVmlkZW8tYmFzZWQgTGVhcm5pbmcgQXBwcm9hY2hlcyBmb3IgUm9ib3QgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjA3MTI3djIiLCJzbmlwcGV0IjoiVGFzay1zcGVjaWZpYyBhbmQgbXVsdGktbW9kYWwgZGF0YXNldHMgYXJlIGRlc2lnbmVkIHRvIHN0dWR5IHBhcnRpY3VsYXIgdGFza3Mgb3IgcHJvdmlkZSBtdWx0aXBsZSBtb2RhbGl0aWVzIG9mIGRhdGEsIHN1Y2ggYXMgdmlkZW8sIGF1ZGlvLCBhbmQgYW5ub3RhdGlvbnMuIiwiZGF0ZSI6IlNlcCAxOCwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiU2VhcmNoLWJhc2VkIHZlcnN1cyBTYW1wbGluZy1iYXNlZCBSb2JvdCBNb3Rpb24gUGxhbm5pbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMDk2MjN2MiIsInNuaXBwZXQiOiJSb2JvdCBtb3Rpb24gcGxhbm5pbmcgaXMgYSBjaGFsbGVuZ2luZyBkb21haW4gYXMgaXQgaW52b2x2ZXMgZGVhbGluZyB3aXRoIGhpZ2gtZGltZW5zaW9uYWwgYW5kIGNvbnRpbnVvdXMgc2VhcmNoIHNwYWNlLiBJbiB0aGlzIHN0dWR5LCB3ZSBiZW5jaG1hcmsgdHdvIHN1Y2ggLi4uIiwiZGF0ZSI6Ikp1biAxNywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiQ29sbGFib3JhdGl2ZSBQZXJjZXB0aW9uIGluIE11bHRpLVJvYm90IFN5c3RlbXM6IENhc2UgU3R1ZGllcyBpbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjE0MDM5djEiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBleHBsb3JlcyB0aGUgcGFyYWRpZ20gb2YgQ29sbGFib3JhdGl2ZSBQZXJjZXB0aW9uIChDUCksIHdoZXJlIG11bHRpcGxlIHJvYm90cyBhbmQgc2Vuc29ycyBpbiB0aGUgZW52aXJvbm1lbnQgc2hhcmUgYW5kIGludGVncmF0ZSBzZW5zb3IgZGF0YSB0byAuLi4iLCJkYXRlIjoiQXVnIDI2LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJXaGF0IE1hdHRlcnMgaW4gTGVhcm5pbmcgZnJvbSBPZmZsaW5lIEh1bWFuIERlbW9uc3RyYXRpb25zIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjEwOC4wMzI5OHYyIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGFkZHJlc3MgdGhpcyBuZWVkIGJ5IHByZXNlbnRpbmcgYSBzdHVkeSBvZiBkYXRhLWRyaXZlbiBvZmZsaW5lIHBvbGljeSBsZWFybmluZyBtZXRob2RzIG9uIHNldmVyYWwgaHVtYW4tcHJvdmlkZWQgcm9ib3QgbWFuaXB1bGF0aW9uIGRhdGFzZXRzLiIsImRhdGUiOiJTZXAgMjUsIDIwMjEiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkZNQjogYSBGdW5jdGlvbmFsIE1hbmlwdWxhdGlvbiBCZW5jaG1hcmsgZm9yIEdlbmVyYWxpemFibGUgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4wODU1M3YzIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHByb3Bvc2UgYSByZWFsLXdvcmxkIGJlbmNobWFyayBmb3Igc3R1ZHlpbmcgcm9ib3RpYyBsZWFybmluZyBpbiB0aGUgY29udGV4dCBvZiBmdW5jdGlvbmFsIG1hbmlwdWxhdGlvbjogYSByb2JvdCBuZWVkcyB0byBhY2NvbXBsaXNoIGNvbXBsZXggLi4uIiwiZGF0ZSI6IlNlcCAzLCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJTTUFSVC1MTE06IFNtYXJ0IE11bHRpLUFnZW50IFJvYm90IFRhc2sgUGxhbm5pbmcgdXNpbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA5LjEwMDYydjIiLCJzbmlwcGV0IjoiV2UgY3JlYXRlIGEgYmVuY2htYXJrIGRhdGFzZXQgZGVzaWduZWQgZm9yIHZhbGlkYXRpbmcgdGhlIG11bHRpLXJvYm90IHRhc2sgcGxhbm5pbmcgcHJvYmxlbSwgZW5jb21wYXNzaW5nIGZvdXIgZGlzdGluY3QgY2F0ZWdvcmllcyBvZiBoaWdoLWxldmVsIGluc3RydWN0aW9ucyIsImRhdGUiOiJNYXIgMjMsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IkJlbmNobWFya2luZyBhbmQgTGVhcm5pbmcgZm9yIFJvYm90aWMgQmltYW51YWwgTWFuaXB1bGF0aW9uIFRhc2tzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNy4wMDI3OHYxIiwic25pcHBldCI6IkluIHRoaXMgd29yaywgd2UgcHJlc2VudGVkIGEgcm9ib3RpYyBtYW5pcHVsYXRpb24gYmVuY2htYXJrIHNwZWNpZmljYWxseSBkZXNpZ25lZCBmb3IgYmltYW51YWwgcm9ib3RpYyBtYW5pcHVsYXRpb24gdGFza3MuIFdlIG9wZW4tc291cmNlIDEzIG5ldyB0YXNrcyB3aXRoIDIzIC4uLiIsImRhdGUiOiJKdW4gMjksIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkJyaWRnZURhdGEgVjI6QSBEYXRhc2V0IGZvciBSb2JvdCBMZWFybmluZyBhdCBTY2FsZSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4xMjk1MnYzIiwic25pcHBldCI6IkZpcnN0LCBjb2xsZWN0IGEgbGFyZ2UgZGF0YXNldCBvZiBkZW1vbnN0cmF0aW9ucyBvZiByb2JvdCBiZWhhdmlvcnMuIFRoZW4sIHRyYWluIGFuIGV4cHJlc3NpdmUgcG9saWN5IHRvIGV4dHJhY3QgdGhlIGRlc2lyYWJsZSBiZWhhdmlvcnMgd2l0aCBiZWhhdmlvcmFsIGNsb25pbmcgLi4uIiwiZGF0ZSI6IkphbiAxNywgMjAyNCIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiJCcmlkZ2VkYXRhIFYyIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4xMjk1MnYzIzp+OnRleHQ9QnJpZGdlRGF0YSUyMFYyJTNBLC1BJTIwRGF0YXNldCUyMGZvciUyMFJvYm90JTIwTGVhcm5pbmcifSx7InRpdGxlIjoiNSBFeHBlcmltZW50cyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDguMTI5NTJ2MyM6fjp0ZXh0PTUlMjBFeHBlcmltZW50cywtVGhlJTIwZ29hbCUyMG9mJTIwb3VyJTIwZXhwZXJpbWVudHMifSx7InRpdGxlIjoiQXBwZW5kaXggQiBMZWFybmluZyBNZXRob2QuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA4LjEyOTUydjMjOn46dGV4dD1BcHBlbmRpeCUyMEIlMjBMZWFybmluZyUyME1ldGhvZCUyMEltcGxlbWVudGF0aW9uJTIwRGV0YWlscyJ9XSwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJSb2JvTWFtYmE6IE11bHRpbW9kYWwgU3RhdGUgU3BhY2UgTW9kZWwgZm9yIEVmZmljaWVudCBSb2JvdCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjA0MzM5djEiLCJzbmlwcGV0IjoiSW4gb3VyIGV4dGVuc2l2ZSBleHBlcmltZW50cywgUm9ib01hbWJhIGV4Y2VscyBpbiByZWFzb25pbmcgb24gZ2VuZXJhbCBhbmQgcm9ib3RpYyBldmFsdWF0aW9uIGJlbmNobWFya3MsIGFuZCBzaG93Y2FzZXMgaW1wcmVzc2l2ZSBwb3NlIHByZWRpY3Rpb24gcmVzdWx0cyBpbiAuLi4iLCJkYXRlIjoiSnVuIDYsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "6def3fe0af087a37184d7c10f230936daa1421a2c419bde119a234dd78e2f2ab",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Show me research on robot decision making and task planning, especially relevant datasets and benchmarks. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Foundation Models in Robotics: Applications, Challenges, and the ...",
+                "link": "https://arxiv.org/html/2312.07843v1",
+                "snippet": "In the decision-making or planning domain, LLMs and VLMs have been found to assist robots in task specification for high-level planning",
+                "date": "Dec 13, 2023",
+                "position": 1
+              },
+              {
+                "title": "A Review of Video-based Learning Approaches for Robot ... - arXiv",
+                "link": "https://arxiv.org/html/2402.07127v2",
+                "snippet": "Task-specific and multi-modal datasets are designed to study particular tasks or provide multiple modalities of data, such as video, audio, and annotations.",
+                "date": "Sep 18, 2024",
+                "position": 2
+              },
+              {
+                "title": "Search-based versus Sampling-based Robot Motion Planning - arXiv",
+                "link": "https://arxiv.org/html/2406.09623v2",
+                "snippet": "Robot motion planning is a challenging domain as it involves dealing with high-dimensional and continuous search space. In this study, we benchmark two such ...",
+                "date": "Jun 17, 2024",
+                "position": 3
+              },
+              {
+                "title": "Collaborative Perception in Multi-Robot Systems: Case Studies in ...",
+                "link": "https://arxiv.org/html/2408.14039v1",
+                "snippet": "This paper explores the paradigm of Collaborative Perception (CP), where multiple robots and sensors in the environment share and integrate sensor data to ...",
+                "date": "Aug 26, 2024",
+                "position": 4
+              },
+              {
+                "title": "What Matters in Learning from Offline Human Demonstrations ... - arXiv",
+                "link": "https://arxiv.org/html/2108.03298v2",
+                "snippet": "In this paper, we address this need by presenting a study of data-driven offline policy learning methods on several human-provided robot manipulation datasets.",
+                "date": "Sep 25, 2021",
+                "position": 5
+              },
+              {
+                "title": "FMB: a Functional Manipulation Benchmark for Generalizable ...",
+                "link": "https://arxiv.org/html/2401.08553v3",
+                "snippet": "In this paper, we propose a real-world benchmark for studying robotic learning in the context of functional manipulation: a robot needs to accomplish complex ...",
+                "date": "Sep 3, 2024",
+                "position": 6
+              },
+              {
+                "title": "SMART-LLM: Smart Multi-Agent Robot Task Planning using ... - arXiv",
+                "link": "https://arxiv.org/html/2309.10062v2",
+                "snippet": "We create a benchmark dataset designed for validating the multi-robot task planning problem, encompassing four distinct categories of high-level instructions",
+                "date": "Mar 23, 2024",
+                "position": 7
+              },
+              {
+                "title": "Benchmarking and Learning for Robotic Bimanual Manipulation Tasks",
+                "link": "https://arxiv.org/html/2407.00278v1",
+                "snippet": "In this work, we presented a robotic manipulation benchmark specifically designed for bimanual robotic manipulation tasks. We open-source 13 new tasks with 23 ...",
+                "date": "Jun 29, 2024",
+                "position": 8
+              },
+              {
+                "title": "BridgeData V2:A Dataset for Robot Learning at Scale - arXiv",
+                "link": "https://arxiv.org/html/2308.12952v3",
+                "snippet": "First, collect a large dataset of demonstrations of robot behaviors. Then, train an expressive policy to extract the desirable behaviors with behavioral cloning ...",
+                "date": "Jan 17, 2024",
+                "sitelinks": [
+                  {
+                    "title": "Bridgedata V2",
+                    "link": "https://arxiv.org/html/2308.12952v3#:~:text=BridgeData%20V2%3A,-A%20Dataset%20for%20Robot%20Learning"
+                  },
+                  {
+                    "title": "5 Experiments",
+                    "link": "https://arxiv.org/html/2308.12952v3#:~:text=5%20Experiments,-The%20goal%20of%20our%20experiments"
+                  },
+                  {
+                    "title": "Appendix B Learning Method...",
+                    "link": "https://arxiv.org/html/2308.12952v3#:~:text=Appendix%20B%20Learning%20Method%20Implementation%20Details"
+                  }
+                ],
+                "position": 9
+              },
+              {
+                "title": "RoboMamba: Multimodal State Space Model for Efficient Robot ...",
+                "link": "https://arxiv.org/html/2406.04339v1",
+                "snippet": "In our extensive experiments, RoboMamba excels in reasoning on general and robotic evaluation benchmarks, and showcases impressive pose prediction results in ...",
+                "date": "Jun 6, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:31:25.480062+00:00",
+          "elapsed_seconds": 1.6943884789943695
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2108.03298",
+        "2308.12952",
+        "2309.10062",
+        "2312.07843",
+        "2401.08553",
+        "2402.07127",
+        "2406.04339",
+        "2406.09623",
+        "2407.00278",
+        "2408.14039"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2312.07843",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2312.07843v1",
+          "title": "Foundation Models in Robotics: Applications, Challenges, and the ...",
+          "snippet": "In the decision-making or planning domain, LLMs and VLMs have been found to assist robots in task specification for high-level planning"
+        },
+        {
+          "arxiv_id": "2402.07127",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2402.07127v2",
+          "title": "A Review of Video-based Learning Approaches for Robot ... - arXiv",
+          "snippet": "Task-specific and multi-modal datasets are designed to study particular tasks or provide multiple modalities of data, such as video, audio, and annotations."
+        },
+        {
+          "arxiv_id": "2406.09623",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2406.09623v2",
+          "title": "Search-based versus Sampling-based Robot Motion Planning - arXiv",
+          "snippet": "Robot motion planning is a challenging domain as it involves dealing with high-dimensional and continuous search space. In this study, we benchmark two such ..."
+        },
+        {
+          "arxiv_id": "2408.14039",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2408.14039v1",
+          "title": "Collaborative Perception in Multi-Robot Systems: Case Studies in ...",
+          "snippet": "This paper explores the paradigm of Collaborative Perception (CP), where multiple robots and sensors in the environment share and integrate sensor data to ..."
+        },
+        {
+          "arxiv_id": "2108.03298",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2108.03298v2",
+          "title": "What Matters in Learning from Offline Human Demonstrations ... - arXiv",
+          "snippet": "In this paper, we address this need by presenting a study of data-driven offline policy learning methods on several human-provided robot manipulation datasets."
+        },
+        {
+          "arxiv_id": "2401.08553",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2401.08553v3",
+          "title": "FMB: a Functional Manipulation Benchmark for Generalizable ...",
+          "snippet": "In this paper, we propose a real-world benchmark for studying robotic learning in the context of functional manipulation: a robot needs to accomplish complex ..."
+        },
+        {
+          "arxiv_id": "2309.10062",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2309.10062v2",
+          "title": "SMART-LLM: Smart Multi-Agent Robot Task Planning using ... - arXiv",
+          "snippet": "We create a benchmark dataset designed for validating the multi-robot task planning problem, encompassing four distinct categories of high-level instructions"
+        },
+        {
+          "arxiv_id": "2407.00278",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2407.00278v1",
+          "title": "Benchmarking and Learning for Robotic Bimanual Manipulation Tasks",
+          "snippet": "In this work, we presented a robotic manipulation benchmark specifically designed for bimanual robotic manipulation tasks. We open-source 13 new tasks with 23 ..."
+        },
+        {
+          "arxiv_id": "2308.12952",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2308.12952v3",
+          "title": "BridgeData V2:A Dataset for Robot Learning at Scale - arXiv",
+          "snippet": "First, collect a large dataset of demonstrations of robot behaviors. Then, train an expressive policy to extract the desirable behaviors with behavioral cloning ..."
+        },
+        {
+          "arxiv_id": "2406.04339",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2406.04339v1",
+          "title": "RoboMamba: Multimodal State Space Model for Efficient Robot ...",
+          "snippet": "In our extensive experiments, RoboMamba excels in reasoning on general and robotic evaluation benchmarks, and showcases impressive pose prediction results in ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Show me research on robot decision making and task planning, especially relevant datasets and benchmarks. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "anchor"
+  ]
+}

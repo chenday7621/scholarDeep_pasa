@@ -1,0 +1,203 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q26",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2106.08433",
+  "request_payload": {
+    "q": "combining lexical dense retrieval computationally multi before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 53,
+  "started_utc": "2026-09-17T12:34:25.487101+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648190",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "0a2e2eb30e1d60f1df8a8888dfd990a4",
+    "date": "Thu, 17 Sep 2026 12:29:46 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3440",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3440,
+  "response_bytes_sha256": "f91facdf711df585249cea2103e71e27ee2fad94db13357d8793312f5012db2c",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJjb21iaW5pbmcgbGV4aWNhbCBkZW5zZSByZXRyaWV2YWwgY29tcHV0YXRpb25hbGx5IG11bHRpIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkNvbWJpbmluZyBMZXhpY2FsIGFuZCBEZW5zZSBSZXRyaWV2YWwgZm9yIENvbXB1dGF0aW9uYWxseSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjEwNi4wODQzMyIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIGludHJvZHVjZSBhIGh5YnJpZCAobGV4aWNhbCBhbmQgZGVuc2UpIHJldHJpZXZhbCBhcHByb2FjaCB0aGF0IGlzIGhpZ2hseSBjb21wZXRpdGl2ZSB3aXRoIHRoZSBzdGF0ZS1vZi10aGUtYXJ0IGRlbnNlIHJldHJpZXZhbCBtb2RlbHMsIiwiZGF0ZSI6Ikp1biAxNSwgMjAyMSIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiRWZmaWNpZW50IGFuZCBFZmZlY3RpdmUgUmV0cmlldmFsIG9mIERlbnNlLVNwYXJzZSBIeWJyaWQgVmVjdG9ycyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDEwLjIwMzgxdjEiLCJzbmlwcGV0IjoiVGhlIHByZXZhaWxpbmcgYXBwcm9hY2ggZm9yIGh5YnJpZCB2ZWN0b3Igc2VhcmNoIGlzIHRvIGN1bmR1Y3QgdGhlIHNwYXJzZSBhbmQgZGVuc2UgdmVjdG9yIHNlYXJjaCBzZXBhcmF0ZWx5LCB0aGVuIG1lcmdlIHRoZSByZXN1bHRzLiBIb3dldmVyLCB0aGUgdHdvLXJvdXRlIC4uLiIsImRhdGUiOiJPY3QgMjcsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkV4cDRGdXNlOiBBIFJhbmsgRnVzaW9uIEZyYW1ld29yayBmb3IgRW5oYW5jZWQgU3BhcnNlIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNi4wNDc2MHYxIiwic25pcHBldCI6IlRoZSBmcmFtZXdvcmsgY29uc2lzdHMgb2YgdHdvIHN0YWdlczogbXVsdGktcm91dGUgcXVlcnkgZXhwYW5zaW9uIGFuZCBmdXNpb24gcmFua2luZy4gSW4gdGhlIGZpcnN0IHN0YWdlLCB3ZSBlbXBsb3kgdHdvIHJldHJpZXZhbCByb3V0ZXMgdXNpbmcgYSBzcGFyc2UgLi4uIiwiZGF0ZSI6Ikp1biA1LCAyMDI1IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJTaWZlaSBhdCBTZW1FdmFsLTIwMjYgVGFzayA4OiBIeWJyaWQgUmV0cmlldmFsIGFuZCBRdWVyeSBSZXdyaXRpbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNi4yODM1MnYxIiwic25pcHBldCI6IlRvIHJlZHVjZSBub2lzZSBpbiBkZW5zZSByZXRyaWV2YWwsIHdlIGJ1aWxkIGEgY2xlYW5lZCBjb3JwdXMgYnkgcmVtb3Zpbmcgbm9uLUVuZ2xpc2ggcGFzc2FnZXMsIG5lYXItZHVwbGljYXRlcyAoZGV0ZWN0ZWQgdmlhIG5vcm1hbGl6ZWQtdGV4dCBoYXNoaW5nLCBlLmcuLCAuLi4iLCJkYXRlIjoiSnVuIDUsIDIwMjYiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkEgUmVmZXJlbmNlIEFyY2hpdGVjdHVyZSBmb3IgQWdlbnRpYyBIeWJyaWQgUmV0cmlldmFsIGluIERhdGFzZXQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNC4xNjM5NHYxIiwic25pcHBldCI6IlRoaXMgd29yayBwcmVzZW50cyBhIHJlZmVyZW5jZSBhcmNoaXRlY3R1cmUgZm9yIGFnZW50aWMgaHlicmlkIHJldHJpZXZhbCBpbiBhZCBob2MgZGF0YXNldCBzZWFyY2gsIGNvbWJpbmluZyBCTTI1IGFuZCBkZW5zZSByZXRyaWV2YWwgdW5kZXIgYW4gTExNLW9yY2hlc3RyYXRlZCAuLi4iLCJkYXRlIjoiTWFyIDI4LCAyMDI2IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBMZXhpY2FsbHktQWNjZWxlcmF0ZWQgRGVuc2UgUmV0cmlldmFsIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDcuMTY3NzkiLCJzbmlwcGV0IjoiTGV4aWNhbGx5IEFjY2VsZXJhdGVkIERlbnNlIFJldHJpZXZhbCAoTEFEUikgaXMgYSBzaW1wbGUgdGVjaC0gbmlxdWUgdGhhdCBjb21iaW5lcyB0aGUgc3RyZW5ndGhzIG9mIHR3byBsZWFkaW5nIGRlbnNlIHJldHJpZXZhbCB0ZWNobmlxdWVzOiByZS1yYW5raW5nLCIsImRhdGUiOiJKdWwgMzEsIDIwMjMiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlJFQUwtTU0tUkFHOiBBIFJlYWwtV29ybGQgTXVsdGktTW9kYWwgUmV0cmlldmFsIEJlbmNobWFyayIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDIuMTIzNDJ2MSIsInNuaXBwZXQiOiJIeWJyaWQgbWV0aG9kcywgdGhhdCBjb21iaW5lIGxleGljYWwgYW5kIGRlbnNlIHJldHJpZXZhbCwgb2Z0ZW4gYWNoaWV2aW5nIHN0YXRlLW9mLXRoZS1hcnQgcGVyZm9ybWFuY2UuICwgYWNoaWV2aW5nIHN0cm9uZyByZXRyaWV2YWwgcGVyZm9ybWFuY2UuIiwiZGF0ZSI6IkZlYiAxNywgMjAyNSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiV2hlbiBTbWFsbCBFbWJlZGRpbmdzIGFuZCBMTE0gUmUtcmFua2luZyBCZWF0IEJpZ2dlciBNb2RlbHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA2LjAwMDQ5djEiLCJzbmlwcGV0IjoiV2UgaW52ZXN0aWdhdGUgdGhlIGZ1c2lvbiBvZiBkZW5zZSBzZW1hbnRpYywgc3BhcnNlIGxleGljYWwsIGFuZCBncmFwaC1iYXNlZCBlbWJlZGRpbmdzLCBmb2N1c2luZyBvbiB0aGUgcGVyZm9ybWFuY2Ugb2YgdGhlIE1pbmlMTS12NiBhbmQgQkdFLUxhcmdlIHY2IC4uLiIsImRhdGUiOiJNYXkgMjgsIDIwMjUiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkdyZXBTZWVrOiBUcmFpbmluZyBTZWFyY2ggQWdlbnRzIGZvciBEaXJlY3QgQ29ycHVzIEludGVyYWN0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA1LjI5MzA3djEiLCJzbmlwcGV0IjoiTm90YWJseSwgdGhlIGxhcmdlc3QgZ2FpbnMgYXJlIG9ic2VydmVkIG9uIG11bHRpLWhvcCByZWFzb25pbmcgYmVuY2htYXJrcywgd2hlcmUgR3JlcFNlZWsgaW4gbW9zdCBjYXNlcyBvdXRwZXJmb3JtcyBkZW5zZSByZXRyaWV2YWwgYmFzZWxpbmVzLiBUaGlzIHN1Z2dlc3RzIC4uLiIsImRhdGUiOiJNYXkgMjgsIDIwMjYiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlJldGhpbmtpbmcgQWdlbnRpYyBSQUc6IFRvd2FyZCBMTE0tRHJpdmVuIExvZ2ljYWwgUmV0cmlldmFsIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDUuMjcxMjN2MSIsInNuaXBwZXQiOiJXaHkgbm90IGNvbWJpbmUgZGVuc2UgYW5kIGxvZ2ljYWwgdG9vbHM/IEEgbmF0dXJhbCBleHRlbnNpb24gaXMgdG8gZXhwb3NlIGJvdGggZGVuc2UgcmV0cmlldmFsIGFuZCBsb2dpY2FsIHNlYXJjaCB0byB0aGUgYWdlbnQgKER1IGV0IGFsLiwgMjAyNikgLiBTdWNoIC4uLiIsImRhdGUiOiJNYXkgMjYsIDIwMjYiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "combining lexical dense retrieval computationally multi before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Combining Lexical and Dense Retrieval for Computationally ... - arXiv",
+        "link": "https://arxiv.org/abs/2106.08433",
+        "snippet": "In this work, we introduce a hybrid (lexical and dense) retrieval approach that is highly competitive with the state-of-the-art dense retrieval models,",
+        "date": "Jun 15, 2021",
+        "position": 1
+      },
+      {
+        "title": "Efficient and Effective Retrieval of Dense-Sparse Hybrid Vectors ...",
+        "link": "https://arxiv.org/html/2410.20381v1",
+        "snippet": "The prevailing approach for hybrid vector search is to cunduct the sparse and dense vector search separately, then merge the results. However, the two-route ...",
+        "date": "Oct 27, 2024",
+        "position": 2
+      },
+      {
+        "title": "Exp4Fuse: A Rank Fusion Framework for Enhanced Sparse ... - arXiv",
+        "link": "https://arxiv.org/html/2506.04760v1",
+        "snippet": "The framework consists of two stages: multi-route query expansion and fusion ranking. In the first stage, we employ two retrieval routes using a sparse ...",
+        "date": "Jun 5, 2025",
+        "position": 3
+      },
+      {
+        "title": "Sifei at SemEval-2026 Task 8: Hybrid Retrieval and Query Rewriting ...",
+        "link": "https://arxiv.org/html/2606.28352v1",
+        "snippet": "To reduce noise in dense retrieval, we build a cleaned corpus by removing non-English passages, near-duplicates (detected via normalized-text hashing, e.g., ...",
+        "date": "Jun 5, 2026",
+        "position": 4
+      },
+      {
+        "title": "A Reference Architecture for Agentic Hybrid Retrieval in Dataset ...",
+        "link": "https://arxiv.org/html/2604.16394v1",
+        "snippet": "This work presents a reference architecture for agentic hybrid retrieval in ad hoc dataset search, combining BM25 and dense retrieval under an LLM-orchestrated ...",
+        "date": "Mar 28, 2026",
+        "position": 5
+      },
+      {
+        "title": "[PDF] Lexically-Accelerated Dense Retrieval - arXiv",
+        "link": "https://arxiv.org/pdf/2307.16779",
+        "snippet": "Lexically Accelerated Dense Retrieval (LADR) is a simple tech- nique that combines the strengths of two leading dense retrieval techniques: re-ranking,",
+        "date": "Jul 31, 2023",
+        "position": 6
+      },
+      {
+        "title": "REAL-MM-RAG: A Real-World Multi-Modal Retrieval Benchmark",
+        "link": "https://arxiv.org/html/2502.12342v1",
+        "snippet": "Hybrid methods, that combine lexical and dense retrieval, often achieving state-of-the-art performance. , achieving strong retrieval performance.",
+        "date": "Feb 17, 2025",
+        "position": 7
+      },
+      {
+        "title": "When Small Embeddings and LLM Re-ranking Beat Bigger Models",
+        "link": "https://arxiv.org/html/2506.00049v1",
+        "snippet": "We investigate the fusion of dense semantic, sparse lexical, and graph-based embeddings, focusing on the performance of the MiniLM-v6 and BGE-Large v6 ...",
+        "date": "May 28, 2025",
+        "position": 8
+      },
+      {
+        "title": "GrepSeek: Training Search Agents for Direct Corpus Interaction - arXiv",
+        "link": "https://arxiv.org/html/2605.29307v1",
+        "snippet": "Notably, the largest gains are observed on multi-hop reasoning benchmarks, where GrepSeek in most cases outperforms dense retrieval baselines. This suggests ...",
+        "date": "May 28, 2026",
+        "position": 9
+      },
+      {
+        "title": "Rethinking Agentic RAG: Toward LLM-Driven Logical Retrieval ...",
+        "link": "https://arxiv.org/html/2605.27123v1",
+        "snippet": "Why not combine dense and logical tools? A natural extension is to expose both dense retrieval and logical search to the agent (Du et al., 2026) . Such ...",
+        "date": "May 26, 2026",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Combining Lexical and Dense Retrieval for Computationally ... - arXiv",
+      "snippet": "In this work, we introduce a hybrid (lexical and dense) retrieval approach that is highly competitive with the state-of-the-art dense retrieval models,",
+      "link": "https://arxiv.org/abs/2106.08433",
+      "arxiv_id": "2106.08433"
+    },
+    {
+      "rank": 2,
+      "title": "Efficient and Effective Retrieval of Dense-Sparse Hybrid Vectors ...",
+      "snippet": "The prevailing approach for hybrid vector search is to cunduct the sparse and dense vector search separately, then merge the results. However, the two-route ...",
+      "link": "https://arxiv.org/html/2410.20381v1",
+      "arxiv_id": "2410.20381"
+    },
+    {
+      "rank": 3,
+      "title": "Exp4Fuse: A Rank Fusion Framework for Enhanced Sparse ... - arXiv",
+      "snippet": "The framework consists of two stages: multi-route query expansion and fusion ranking. In the first stage, we employ two retrieval routes using a sparse ...",
+      "link": "https://arxiv.org/html/2506.04760v1",
+      "arxiv_id": "2506.04760"
+    },
+    {
+      "rank": 4,
+      "title": "Sifei at SemEval-2026 Task 8: Hybrid Retrieval and Query Rewriting ...",
+      "snippet": "To reduce noise in dense retrieval, we build a cleaned corpus by removing non-English passages, near-duplicates (detected via normalized-text hashing, e.g., ...",
+      "link": "https://arxiv.org/html/2606.28352v1",
+      "arxiv_id": "2606.28352"
+    },
+    {
+      "rank": 5,
+      "title": "A Reference Architecture for Agentic Hybrid Retrieval in Dataset ...",
+      "snippet": "This work presents a reference architecture for agentic hybrid retrieval in ad hoc dataset search, combining BM25 and dense retrieval under an LLM-orchestrated ...",
+      "link": "https://arxiv.org/html/2604.16394v1",
+      "arxiv_id": "2604.16394"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] Lexically-Accelerated Dense Retrieval - arXiv",
+      "snippet": "Lexically Accelerated Dense Retrieval (LADR) is a simple tech- nique that combines the strengths of two leading dense retrieval techniques: re-ranking,",
+      "link": "https://arxiv.org/pdf/2307.16779",
+      "arxiv_id": "2307.16779"
+    },
+    {
+      "rank": 7,
+      "title": "REAL-MM-RAG: A Real-World Multi-Modal Retrieval Benchmark",
+      "snippet": "Hybrid methods, that combine lexical and dense retrieval, often achieving state-of-the-art performance. , achieving strong retrieval performance.",
+      "link": "https://arxiv.org/html/2502.12342v1",
+      "arxiv_id": "2502.12342"
+    },
+    {
+      "rank": 8,
+      "title": "When Small Embeddings and LLM Re-ranking Beat Bigger Models",
+      "snippet": "We investigate the fusion of dense semantic, sparse lexical, and graph-based embeddings, focusing on the performance of the MiniLM-v6 and BGE-Large v6 ...",
+      "link": "https://arxiv.org/html/2506.00049v1",
+      "arxiv_id": "2506.00049"
+    },
+    {
+      "rank": 9,
+      "title": "GrepSeek: Training Search Agents for Direct Corpus Interaction - arXiv",
+      "snippet": "Notably, the largest gains are observed on multi-hop reasoning benchmarks, where GrepSeek in most cases outperforms dense retrieval baselines. This suggests ...",
+      "link": "https://arxiv.org/html/2605.29307v1",
+      "arxiv_id": "2605.29307"
+    },
+    {
+      "rank": 10,
+      "title": "Rethinking Agentic RAG: Toward LLM-Driven Logical Retrieval ...",
+      "snippet": "Why not combine dense and logical tools? A natural extension is to expose both dense retrieval and logical search to the agent (Du et al., 2026) . Such ...",
+      "link": "https://arxiv.org/html/2605.27123v1",
+      "arxiv_id": "2605.27123"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:26.210323+00:00",
+  "elapsed_seconds": 0.7232266552746296,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q26_gt_core_phrase_attempt1.json",
+      "sha256": "a3da828aeb46bdb914d7c47cd02ced7b135cfb1c63e81f40190523e31bf25cf5",
+      "status": "PASS"
+    }
+  ]
+}

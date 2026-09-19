@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q16",
+  "group": "author-written",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2303.14897",
+  "request_payload": {
+    "q": "seer instructed video prediction latent diffusion before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 35,
+  "started_utc": "2026-09-17T12:34:02.674239+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648165",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "c47be951c70492667a3ec8f4a4edb0b1",
+    "date": "Thu, 17 Sep 2026 12:29:23 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3440",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3440,
+  "response_bytes_sha256": "ea89724d25a9d7b64663655820472b3a2762075273436593bc3b0ca90b4dac85",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJzZWVyIGluc3RydWN0ZWQgdmlkZW8gcHJlZGljdGlvbiBsYXRlbnQgZGlmZnVzaW9uIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6Ikxhbmd1YWdlIEluc3RydWN0ZWQgVmlkZW8gUHJlZGljdGlvbiB3aXRoIExhdGVudCBEaWZmdXNpb24gTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzAzLjE0ODk3Iiwic25pcHBldCI6IlNlZXI6IExhbmd1YWdlIEluc3RydWN0ZWQgVmlkZW8gUHJlZGljdGlvbiB3aXRoIExhdGVudCBEaWZmdXNpb24gTW9kZWxzLiB0ZXh0LWNvbmRpdGlvbmVkIHZpZGVvIHByZWRpY3Rpb24gKFRWUCkgaXMgYW4gZXNzZW50aWFsIHRhc2sgdG8gZmFjaWxpdGF0ZSBnZW5lcmFsIC4uLiIsImRhdGUiOiJNYXIgMjcsIDIwMjMiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkEgU3VydmV5IG9uIFZpZGVvIFByZWRpY3Rpb246IEZyb20gRGV0ZXJtaW5pc3RpYyB0byBHZW5lcmF0aXZlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMTQ3MTh2MyIsInNuaXBwZXQiOiJUaGlzIGFwcHJvYWNoIHJlc3BlY3RzIHRleHR1YWwsIHNwYXRpYWwsIGFuZCB0ZW1wb3JhbCBjb25zdHJhaW50cywgbGV2ZXJhZ2luZyB2aWRlbyBsYXRlbnQgZGlmZnVzaW9uIG1vZGVscyBhbmQgbW90aW9uIHZlY3RvcnMgZm9yIGV4cGxpY2l0IGR5bmFtaWMgZ3VpZGFuY2UuIiwiZGF0ZSI6Ikp1bCAyMiwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiRW1wb3dlcmluZyBXb3JsZCBNb2RlbHMgd2l0aCBSZWZsZWN0aW9uIGZvciBFbWJvZGllZCBWaWRlbyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDEwLjE1NDYxdjIiLCJzbmlwcGV0IjoiU3RhYmxlIHZpZGVvIGRpZmZ1c2lvbjogU2NhbGluZyBsYXRlbnQgdmlkZW8gZGlmZnVzaW9uIG1vZGVscyB0byBsYXJnZSAuLi4gU2VlcjogTGFuZ3VhZ2UgaW5zdHJ1Y3RlZCB2aWRlbyBwcmVkaWN0aW9uIHdpdGggbGF0ZW50IGRpZmZ1c2lvbiBtb2RlbHMsIDIwMjQuIiwiZGF0ZSI6Ikp1biAxMCwgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiRVZBOiBBbiBFbWJvZGllZCBXb3JsZCBNb2RlbCBmb3IgRnV0dXJlIFZpZGVvIEFudGljaXBhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMC4xNTQ2MXYxIiwic25pcHBldCI6IlN0YWJsZSB2aWRlbyBkaWZmdXNpb246IFNjYWxpbmcgbGF0ZW50IHZpZGVvIGRpZmZ1c2lvbiBtb2RlbHMgdG8gbGFyZ2UgLi4uIFNlZXI6IExhbmd1YWdlIGluc3RydWN0ZWQgdmlkZW8gcHJlZGljdGlvbiB3aXRoIGxhdGVudCBkaWZmdXNpb24gbW9kZWxzLCAyMDI0LiIsImRhdGUiOiJPY3QgMjAsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIEEgU3VydmV5IG9uIFZpZGVvIERpZmZ1c2lvbiBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMxMC4xMDY0NyIsInNuaXBwZXQiOiJTdGFibGUgdmlkZW8gZGlmZnVzaW9uOiBTY2FsaW5nIGxhdGVudCB2aWRlbyBkaWZmdXNpb24gbW9kZWxzIHRvIGxhcmdlIGRhdGFzZXRzLiAuLi4gU2VlcjogTGFuZ3VhZ2UgaW5zdHJ1Y3RlZCB2aWRlbyBwcmVkaWN0aW9uIHdpdGggbGF0ZW50IGRpZmZ1c2lvbiBtb2RlbHMuIiwiZGF0ZSI6IlNlcCAxNCwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiRWdvRXhvLUdlbjogRWdvLWNlbnRyaWMgVmlkZW8gUHJlZGljdGlvbiBieSBXYXRjaGluZyBFeG8gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA0LjExNzMydjEiLCJzbmlwcGV0IjoiU2NhbGluZyBsYXRlbnQgdmlkZW8gZGlmZnVzaW9uIG1vZGVscyB0byBsYXJnZSBkYXRhc2V0cy4gU2VlcjogTGFuZ3VhZ2UgaW5zdHJ1Y3RlZCB2aWRlbyBwcmVkaWN0aW9uIHdpdGggbGF0ZW50IGRpZmZ1c2lvbiBtb2RlbHMuIHBhcnNlIGNvbnRyb2xzIHRvIHRleHQtdG8tIC4uLiIsImRhdGUiOiJBcHIgMTYsIDIwMjUiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlNheSwgRHJlYW0sIGFuZCBBY3Q6IExlYXJuaW5nIFZpZGVvIFdvcmxkIE1vZGVscyBmb3IgSW5zdHJ1Y3Rpb24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwMi4xMDcxN3YxIiwic25pcHBldCI6IldlIGludHJvZHVjZSBhIGxhdGVudC1zcGFjZSBhZHZlcnNhcmlhbCBsb3NzIHRvIGVuYWJsZSBmZXctc3RlcCBkZW5vaXNpbmcsIHJlZHVjaW5nIGNvbXB1dGF0aW9uYWwgY29zdCB3aGlsZSBtYWludGFpbmluZyBwcmVkaWN0aW9uIGZpZGVsaXR5LiBFdmVuIHN0YXRlLW9mLXRoZS0gLi4uIiwiZGF0ZSI6IkZlYiAxMSwgMjAyNiIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gUGl4ZWwgTW90aW9uIERpZmZ1c2lvbiBpcyBXaGF0IFdlIE5lZWQgZm9yIFJvYm90IENvbnRyb2wgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUwOS4yMjY1Mj8iLCJzbmlwcGV0IjoiVGhlIGhpZ2gtbGV2ZWwgbW90aW9uIGRpcmVjdG9yLCB3aGljaCBpcyBhIGxhdGVudCBkaWZmdXNpb24gbW9kdWxlLCBwcmVkaWN0cyBkZXNpcmVkIGRlbnNlIHBpeGVsIG1vdGlvbi4gU2VlcjogTGFuZ3VhZ2UgaW5zdHJ1Y3RlZCB2aWRlbyBwcmVkaWN0aW9uIHdpdGggbGF0ZW50IC4uLiIsImRhdGUiOiJTZXAgMjYsIDIwMjUiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkRpc2VudGFuZ2xlZCBSb2JvdCBMZWFybmluZyB2aWEgU2VwYXJhdGUgRm9yd2FyZCBhbmQgSW52ZXJzZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNjA0LjE2MzkxdjEiLCJzbmlwcGV0IjoiQWRkaXRpb25hbGx5LCBEZUZJIHN1cnBhc3NlcyBVUC1WTEEgYW5kIFNlZXIsIHdoaWNoIGludGVncmF0ZSB0aGUgdmlzdWFsL2xhdGVudCBmZWF0dXJlIGZvcmVjYXN0aW5nIGFuZCBhY3Rpb24gcmVhc29uaW5nIGludG8gYSBzaW5nbGUgVkxBIGZyYW1ld29yay4gVGhlIC4uLiIsImRhdGUiOiJNYXIgMjcsIDIwMjYiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI1MDMuMTg5MzN2MSBbY3MuQ1ZdIDI0IE1hciAyMDI1IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTAzLjE4OTMzIiwic25pcHBldCI6IlNlZXI6IExhbmd1YWdlIGluc3RydWN0ZWQgdmlkZW8gcHJlZGljdGlvbiB3aXRoIGxhdGVudCBkaWZmdXNpb24gbW9kZWxzLiBJbiBUaGUgVHdlbGZ0aCBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gTGVhcm5pbmcgUmVwcmVzZW50YXRpb25zLCAyMDIzLiAxLiBbMTVdIC4uLiIsImRhdGUiOiJNYXIgMjQsIDIwMjUiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "seer instructed video prediction latent diffusion before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Language Instructed Video Prediction with Latent Diffusion Models",
+        "link": "https://arxiv.org/abs/2303.14897",
+        "snippet": "Seer: Language Instructed Video Prediction with Latent Diffusion Models. text-conditioned video prediction (TVP) is an essential task to facilitate general ...",
+        "date": "Mar 27, 2023",
+        "position": 1
+      },
+      {
+        "title": "A Survey on Video Prediction: From Deterministic to Generative ...",
+        "link": "https://arxiv.org/html/2401.14718v3",
+        "snippet": "This approach respects textual, spatial, and temporal constraints, leveraging video latent diffusion models and motion vectors for explicit dynamic guidance.",
+        "date": "Jul 22, 2024",
+        "position": 2
+      },
+      {
+        "title": "Empowering World Models with Reflection for Embodied Video ...",
+        "link": "https://arxiv.org/html/2410.15461v2",
+        "snippet": "Stable video diffusion: Scaling latent video diffusion models to large ... Seer: Language instructed video prediction with latent diffusion models, 2024.",
+        "date": "Jun 10, 2025",
+        "position": 3
+      },
+      {
+        "title": "EVA: An Embodied World Model for Future Video Anticipation - arXiv",
+        "link": "https://arxiv.org/html/2410.15461v1",
+        "snippet": "Stable video diffusion: Scaling latent video diffusion models to large ... Seer: Language instructed video prediction with latent diffusion models, 2024.",
+        "date": "Oct 20, 2024",
+        "position": 4
+      },
+      {
+        "title": "[PDF] A Survey on Video Diffusion Models - arXiv",
+        "link": "https://arxiv.org/pdf/2310.10647",
+        "snippet": "Stable video diffusion: Scaling latent video diffusion models to large datasets. ... Seer: Language instructed video prediction with latent diffusion models.",
+        "date": "Sep 14, 2024",
+        "position": 5
+      },
+      {
+        "title": "EgoExo-Gen: Ego-centric Video Prediction by Watching Exo ... - arXiv",
+        "link": "https://arxiv.org/html/2504.11732v1",
+        "snippet": "Scaling latent video diffusion models to large datasets. Seer: Language instructed video prediction with latent diffusion models. parse controls to text-to- ...",
+        "date": "Apr 16, 2025",
+        "position": 6
+      },
+      {
+        "title": "Say, Dream, and Act: Learning Video World Models for Instruction ...",
+        "link": "https://arxiv.org/html/2602.10717v1",
+        "snippet": "We introduce a latent-space adversarial loss to enable few-step denoising, reducing computational cost while maintaining prediction fidelity. Even state-of-the- ...",
+        "date": "Feb 11, 2026",
+        "position": 7
+      },
+      {
+        "title": "[PDF] Pixel Motion Diffusion is What We Need for Robot Control - arXiv",
+        "link": "https://arxiv.org/pdf/2509.22652?",
+        "snippet": "The high-level motion director, which is a latent diffusion module, predicts desired dense pixel motion. Seer: Language instructed video prediction with latent ...",
+        "date": "Sep 26, 2025",
+        "position": 8
+      },
+      {
+        "title": "Disentangled Robot Learning via Separate Forward and Inverse ...",
+        "link": "https://arxiv.org/html/2604.16391v1",
+        "snippet": "Additionally, DeFI surpasses UP-VLA and Seer, which integrate the visual/latent feature forecasting and action reasoning into a single VLA framework. The ...",
+        "date": "Mar 27, 2026",
+        "position": 9
+      },
+      {
+        "title": "[PDF] arXiv:2503.18933v1 [cs.CV] 24 Mar 2025",
+        "link": "https://arxiv.org/pdf/2503.18933",
+        "snippet": "Seer: Language instructed video prediction with latent diffusion models. In The Twelfth International Conference on Learning Representations, 2023. 1. [15] ...",
+        "date": "Mar 24, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Language Instructed Video Prediction with Latent Diffusion Models",
+      "snippet": "Seer: Language Instructed Video Prediction with Latent Diffusion Models. text-conditioned video prediction (TVP) is an essential task to facilitate general ...",
+      "link": "https://arxiv.org/abs/2303.14897",
+      "arxiv_id": "2303.14897"
+    },
+    {
+      "rank": 2,
+      "title": "A Survey on Video Prediction: From Deterministic to Generative ...",
+      "snippet": "This approach respects textual, spatial, and temporal constraints, leveraging video latent diffusion models and motion vectors for explicit dynamic guidance.",
+      "link": "https://arxiv.org/html/2401.14718v3",
+      "arxiv_id": "2401.14718"
+    },
+    {
+      "rank": 3,
+      "title": "Empowering World Models with Reflection for Embodied Video ...",
+      "snippet": "Stable video diffusion: Scaling latent video diffusion models to large ... Seer: Language instructed video prediction with latent diffusion models, 2024.",
+      "link": "https://arxiv.org/html/2410.15461v2",
+      "arxiv_id": "2410.15461"
+    },
+    {
+      "rank": 4,
+      "title": "EVA: An Embodied World Model for Future Video Anticipation - arXiv",
+      "snippet": "Stable video diffusion: Scaling latent video diffusion models to large ... Seer: Language instructed video prediction with latent diffusion models, 2024.",
+      "link": "https://arxiv.org/html/2410.15461v1",
+      "arxiv_id": "2410.15461"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] A Survey on Video Diffusion Models - arXiv",
+      "snippet": "Stable video diffusion: Scaling latent video diffusion models to large datasets. ... Seer: Language instructed video prediction with latent diffusion models.",
+      "link": "https://arxiv.org/pdf/2310.10647",
+      "arxiv_id": "2310.10647"
+    },
+    {
+      "rank": 6,
+      "title": "EgoExo-Gen: Ego-centric Video Prediction by Watching Exo ... - arXiv",
+      "snippet": "Scaling latent video diffusion models to large datasets. Seer: Language instructed video prediction with latent diffusion models. parse controls to text-to- ...",
+      "link": "https://arxiv.org/html/2504.11732v1",
+      "arxiv_id": "2504.11732"
+    },
+    {
+      "rank": 7,
+      "title": "Say, Dream, and Act: Learning Video World Models for Instruction ...",
+      "snippet": "We introduce a latent-space adversarial loss to enable few-step denoising, reducing computational cost while maintaining prediction fidelity. Even state-of-the- ...",
+      "link": "https://arxiv.org/html/2602.10717v1",
+      "arxiv_id": "2602.10717"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] Pixel Motion Diffusion is What We Need for Robot Control - arXiv",
+      "snippet": "The high-level motion director, which is a latent diffusion module, predicts desired dense pixel motion. Seer: Language instructed video prediction with latent ...",
+      "link": "https://arxiv.org/pdf/2509.22652?",
+      "arxiv_id": "2509.22652"
+    },
+    {
+      "rank": 9,
+      "title": "Disentangled Robot Learning via Separate Forward and Inverse ...",
+      "snippet": "Additionally, DeFI surpasses UP-VLA and Seer, which integrate the visual/latent feature forecasting and action reasoning into a single VLA framework. The ...",
+      "link": "https://arxiv.org/html/2604.16391v1",
+      "arxiv_id": "2604.16391"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] arXiv:2503.18933v1 [cs.CV] 24 Mar 2025",
+      "snippet": "Seer: Language instructed video prediction with latent diffusion models. In The Twelfth International Conference on Learning Representations, 2023. 1. [15] ...",
+      "link": "https://arxiv.org/pdf/2503.18933",
+      "arxiv_id": "2503.18933"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:03.909502+00:00",
+  "elapsed_seconds": 1.2352638095617294
+}

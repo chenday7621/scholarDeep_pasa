@@ -1,0 +1,201 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q11",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2310.04948",
+  "request_payload": {
+    "q": "Which foundation model paper first proposed a time series model with proposed financial time series and text data? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 24,
+  "started_utc": "2026-09-17T12:33:50.528938+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648155",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "edd33051d731977d6d8c0e0b5fa819e3",
+    "date": "Thu, 17 Sep 2026 12:29:11 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3508",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3508,
+  "response_bytes_sha256": "71e9b9479733372ed9663cada1cb909dff3876ff4caafc39c18c1bbfd5afe209",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJXaGljaCBmb3VuZGF0aW9uIG1vZGVsIHBhcGVyIGZpcnN0IHByb3Bvc2VkIGEgdGltZSBzZXJpZXMgbW9kZWwgd2l0aCBwcm9wb3NlZCBmaW5hbmNpYWwgdGltZSBzZXJpZXMgYW5kIHRleHQgZGF0YT8gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiUmUoVmlzaXRpbmcpIFRpbWUgU2VyaWVzIEZvdW5kYXRpb24gTW9kZWxzIGluIEZpbmFuY2UgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MTEuMTg1Nzh2MSIsInNuaXBwZXQiOiJDaHJvbm9zIChBbnNhcmkgZXQgYWwuLCAyMDI0KSAsIHByb3Bvc2VkIGJ5IEFtYXpvbiwgaXMgb25lIG9mIHRoZSBtb3N0IHBvcHVsYXIgZm91bmRhdGlvbiBtb2RlbHMgZm9yIHRpbWUgc2VyaWVzLiBJdCBjbG9zZWx5IGZvbGxvd3MgdGhlIExMTSBhcmNoaXRlY3R1cmUsIC4uLiIsImRhdGUiOiJOb3YgMjMsIDIwMjUiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkZvdW5kYXRpb24gTW9kZWxzIGZvciBUaW1lIFNlcmllczogQSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDQuMDQwMTF2MSIsInNuaXBwZXQiOiJUcmFuc2Zvcm1lci1iYXNlZCBmb3VuZGF0aW9uIG1vZGVscyBoYXZlIGVtZXJnZWQgYXMgYSBkb21pbmFudCBwYXJhZGlnbSBpbiB0aW1lIHNlcmllcyBhbmFseXNpcywgb2ZmZXJpbmcgdW5wcmVjZWRlbnRlZCBjYXBhYmlsaXRpZXMgaW4gdGFza3Mgc3VjaCBhcyAuLi4iLCJkYXRlIjoiQXByIDUsIDIwMjUiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlRpbWUtU2VyaWVzIEZvdW5kYXRpb24gTW9kZWwgZm9yIFZhbHVlLWF0LVJpc2sgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTAuMTE3NzN2MSIsInNuaXBwZXQiOiJUaGlzIHN0dWR5IGlzIHRoZSBmaXJzdCB0byBleHBsb3JlIHRoZSBhcHBsaWNhdGlvbiBvZiBhIHRpbWUtc2VyaWVzIGZvdW5kYXRpb24gbW9kZWwgZm9yIFZhUiBlc3RpbWF0aW9uLiBGb3VuZGF0aW9uIG1vZGVscywgcHJlLXRyYWluZWQgb24gdmFzdCBhbmQgdmFyaWVkIC4uLiIsImRhdGUiOiJPY3QgMTUsIDIwMjQiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkZpbkNhc3Q6IEEgRm91bmRhdGlvbiBNb2RlbCBmb3IgRmluYW5jaWFsIFRpbWUtU2VyaWVzIEZvcmVjYXN0aW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwOC4xOTYwOXYxIiwic25pcHBldCI6IkluIHN1bW1hcnksIHdlIGludHJvZHVjZWQgRmluQ2FzdCwgdGhlIGZpcnN0IGZvdW5kYXRpb24gbW9kZWwgdGFpbG9yZWQgZm9yIGZpbmFuY2lhbCB0aW1lIHNlcmllcyBmb3JlY2FzdGluZy4gRmluQ2FzdCBpcyBkZXNpZ25lZCB0byBhZGRyZXNzIHRoZSBjb3JlIC4uLiIsImRhdGUiOiJBdWcgMjcsIDIwMjUiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlRpbWUgU2VyaWVzIEZvdW5kYXRpb24gTW9kZWxzIGZvciBNdWx0aXZhcmlhdGUgRmluYW5jaWFsIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNy4wNzI5NnYxIiwic25pcHBldCI6IlRpbWUgU2VyaWVzIEZvdW5kYXRpb24gTW9kZWxzIChUU0ZNcykgb2ZmZXIgYSBwcm9taXNpbmcgc29sdXRpb24gdGhyb3VnaCBwcmV0cmFpbmluZyBvbiBkaXZlcnNlIHRpbWUgc2VyaWVzIGNvcnBvcmEgZm9sbG93ZWQgYnkgdGFzayBzcGVjaWZpYyBhZGFwdGF0aW9uLiBUaGlzIC4uLiIsImRhdGUiOiJKdWwgOSwgMjAyNSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiWzI1MTEuMTg1NzhdIFJlKFZpc2l0aW5nKSBUaW1lIFNlcmllcyBGb3VuZGF0aW9uIE1vZGVscyBpbiBGaW5hbmNlIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNTExLjE4NTc4Iiwic25pcHBldCI6IlRoaXMgcGFwZXIgcHJlc2VudHMgdGhlIGZpcnN0IGNvbXByZWhlbnNpdmUgZW1waXJpY2FsIHN0dWR5IG9mIFRTRk1zIGluIGdsb2JhbCBmaW5hbmNpYWwgbWFya2V0cy4gVXNpbmcgYSBsYXJnZS1zY2FsZSBkYXRhc2V0IG9mIGRhaWx5IGV4Y2VzcyByZXR1cm5zIGFjcm9zcyAuLi4iLCJkYXRlIjoiTm92IDIzLCAyMDI1IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJFbXBvd2VyaW5nIFRpbWUgU2VyaWVzIEFuYWx5c2lzIHdpdGggRm91bmRhdGlvbiBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMDIzNTh2MyIsInNuaXBwZXQiOiJUaGlzIHNlY3Rpb24gZm9jdXNlcyBvbiBUaW1lIFNlcmllcy1iYXNlZCBGb3VuZGF0aW9uIE1vZGVsIChUU0ZNKeKAlGZvdW5kYXRpb24gbW9kZWwgcHJlLXRyYWluZWQgZW50aXJlbHkgb24gdGltZSBzZXJpZXMgZGF0YSBmcm9tIHNjcmF0Y2guIFRoZWlyIGdvYWwgaXMgdG8gLi4uIiwiZGF0ZSI6IlNlcCAxNiwgMjAyNSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiQSBkZWNvZGVyLW9ubHkgZm91bmRhdGlvbiBtb2RlbCBmb3IgdGltZS1zZXJpZXMgZm9yZWNhc3RpbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTAuMTA2ODh2MiIsInNuaXBwZXQiOiJUbyB0aGUgYmVzdCBvZiBvdXIga25vd2xlZGdlLCB0aGUgdmVyeSByZWNlbnQgd29yayBpbiBUaW1lR1BULTEgWzddIGlzIHRoZSBvbmx5IG90aGVyIHBhcmFsbGVsIHdvcmsgb24gYSB6ZXJvLXNob3QgZm91bmRhdGlvbiBtb2RlbCBmb3IgdGltZS1zZXJpZXMgZm9yZWNhc3RpbmcuIiwiZGF0ZSI6IkphbiAzMSwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiR2VuZXJhbGl6aW5nIFRpbWUgU2VyaWVzIFJlcHJlc2VudGF0aW9uIHdpdGggTGFyZ2UgTGFuZ3VhZ2UgTW9kZWwiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjAyMzU4djEiLCJzbmlwcGV0IjoiVGhlcmUgYXJlIHR3byBtYWluIHJlc2VhcmNoIGxpbmVzLCBuYW1lbHkgcHJlLXRyYWluaW5nIGZvdW5kYXRpb24gbW9kZWxzIGZyb20gc2NyYXRjaCBmb3IgdGltZSBzZXJpZXMgYW5kIGFkYXB0aW5nIGxhcmdlIGxhbmd1YWdlIGZvdW5kYXRpb24gbW9kZWxzIGZvciB0aW1lIC4uLiIsImRhdGUiOiJNYXkgMywgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiRmluYW5jaWFsIEZpbmUtdHVuaW5nIGEgTGFyZ2UgVGltZSBTZXJpZXMgTW9kZWwgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTIuMDk4ODB2MSIsInNuaXBwZXQiOiJUaGlzIGlzIGRvbmUgYnkgY29udGludWFsIHByZS10cmFpbmluZyBvZiB0aGUgbGF0ZXN0IHRpbWUgc2VyaWVzIGZvdW5kYXRpb24gbW9kZWwgVGltZXNGTSBvbiBwcmljZSBkYXRhIGNvbnRhaW5pbmcgMTAwIG1pbGxpb24gdGltZSBwb2ludHMsIHNwYW5uaW5nIGEgcmFuZ2Ugb2YgLi4uIiwiZGF0ZSI6IkRlYyAxMywgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Which foundation model paper first proposed a time series model with proposed financial time series and text data? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Re(Visiting) Time Series Foundation Models in Finance - arXiv",
+        "link": "https://arxiv.org/html/2511.18578v1",
+        "snippet": "Chronos (Ansari et al., 2024) , proposed by Amazon, is one of the most popular foundation models for time series. It closely follows the LLM architecture, ...",
+        "date": "Nov 23, 2025",
+        "position": 1
+      },
+      {
+        "title": "Foundation Models for Time Series: A Survey - arXiv",
+        "link": "https://arxiv.org/html/2504.04011v1",
+        "snippet": "Transformer-based foundation models have emerged as a dominant paradigm in time series analysis, offering unprecedented capabilities in tasks such as ...",
+        "date": "Apr 5, 2025",
+        "position": 2
+      },
+      {
+        "title": "Time-Series Foundation Model for Value-at-Risk - arXiv",
+        "link": "https://arxiv.org/html/2410.11773v1",
+        "snippet": "This study is the first to explore the application of a time-series foundation model for VaR estimation. Foundation models, pre-trained on vast and varied ...",
+        "date": "Oct 15, 2024",
+        "position": 3
+      },
+      {
+        "title": "FinCast: A Foundation Model for Financial Time-Series Forecasting",
+        "link": "https://arxiv.org/html/2508.19609v1",
+        "snippet": "In summary, we introduced FinCast, the first foundation model tailored for financial time series forecasting. FinCast is designed to address the core ...",
+        "date": "Aug 27, 2025",
+        "position": 4
+      },
+      {
+        "title": "Time Series Foundation Models for Multivariate Financial ... - arXiv",
+        "link": "https://arxiv.org/html/2507.07296v1",
+        "snippet": "Time Series Foundation Models (TSFMs) offer a promising solution through pretraining on diverse time series corpora followed by task specific adaptation. This ...",
+        "date": "Jul 9, 2025",
+        "position": 5
+      },
+      {
+        "title": "[2511.18578] Re(Visiting) Time Series Foundation Models in Finance",
+        "link": "https://arxiv.org/abs/2511.18578",
+        "snippet": "This paper presents the first comprehensive empirical study of TSFMs in global financial markets. Using a large-scale dataset of daily excess returns across ...",
+        "date": "Nov 23, 2025",
+        "position": 6
+      },
+      {
+        "title": "Empowering Time Series Analysis with Foundation Models - arXiv",
+        "link": "https://arxiv.org/html/2405.02358v3",
+        "snippet": "This section focuses on Time Series-based Foundation Model (TSFM)—foundation model pre-trained entirely on time series data from scratch. Their goal is to ...",
+        "date": "Sep 16, 2025",
+        "position": 7
+      },
+      {
+        "title": "A decoder-only foundation model for time-series forecasting - arXiv",
+        "link": "https://arxiv.org/html/2310.10688v2",
+        "snippet": "To the best of our knowledge, the very recent work in TimeGPT-1 [7] is the only other parallel work on a zero-shot foundation model for time-series forecasting.",
+        "date": "Jan 31, 2024",
+        "position": 8
+      },
+      {
+        "title": "Generalizing Time Series Representation with Large Language Model",
+        "link": "https://arxiv.org/html/2405.02358v1",
+        "snippet": "There are two main research lines, namely pre-training foundation models from scratch for time series and adapting large language foundation models for time ...",
+        "date": "May 3, 2024",
+        "position": 9
+      },
+      {
+        "title": "Financial Fine-tuning a Large Time Series Model - arXiv",
+        "link": "https://arxiv.org/html/2412.09880v1",
+        "snippet": "This is done by continual pre-training of the latest time series foundation model TimesFM on price data containing 100 million time points, spanning a range of ...",
+        "date": "Dec 13, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Re(Visiting) Time Series Foundation Models in Finance - arXiv",
+      "snippet": "Chronos (Ansari et al., 2024) , proposed by Amazon, is one of the most popular foundation models for time series. It closely follows the LLM architecture, ...",
+      "link": "https://arxiv.org/html/2511.18578v1",
+      "arxiv_id": "2511.18578"
+    },
+    {
+      "rank": 2,
+      "title": "Foundation Models for Time Series: A Survey - arXiv",
+      "snippet": "Transformer-based foundation models have emerged as a dominant paradigm in time series analysis, offering unprecedented capabilities in tasks such as ...",
+      "link": "https://arxiv.org/html/2504.04011v1",
+      "arxiv_id": "2504.04011"
+    },
+    {
+      "rank": 3,
+      "title": "Time-Series Foundation Model for Value-at-Risk - arXiv",
+      "snippet": "This study is the first to explore the application of a time-series foundation model for VaR estimation. Foundation models, pre-trained on vast and varied ...",
+      "link": "https://arxiv.org/html/2410.11773v1",
+      "arxiv_id": "2410.11773"
+    },
+    {
+      "rank": 4,
+      "title": "FinCast: A Foundation Model for Financial Time-Series Forecasting",
+      "snippet": "In summary, we introduced FinCast, the first foundation model tailored for financial time series forecasting. FinCast is designed to address the core ...",
+      "link": "https://arxiv.org/html/2508.19609v1",
+      "arxiv_id": "2508.19609"
+    },
+    {
+      "rank": 5,
+      "title": "Time Series Foundation Models for Multivariate Financial ... - arXiv",
+      "snippet": "Time Series Foundation Models (TSFMs) offer a promising solution through pretraining on diverse time series corpora followed by task specific adaptation. This ...",
+      "link": "https://arxiv.org/html/2507.07296v1",
+      "arxiv_id": "2507.07296"
+    },
+    {
+      "rank": 6,
+      "title": "[2511.18578] Re(Visiting) Time Series Foundation Models in Finance",
+      "snippet": "This paper presents the first comprehensive empirical study of TSFMs in global financial markets. Using a large-scale dataset of daily excess returns across ...",
+      "link": "https://arxiv.org/abs/2511.18578",
+      "arxiv_id": "2511.18578"
+    },
+    {
+      "rank": 7,
+      "title": "Empowering Time Series Analysis with Foundation Models - arXiv",
+      "snippet": "This section focuses on Time Series-based Foundation Model (TSFM)—foundation model pre-trained entirely on time series data from scratch. Their goal is to ...",
+      "link": "https://arxiv.org/html/2405.02358v3",
+      "arxiv_id": "2405.02358"
+    },
+    {
+      "rank": 8,
+      "title": "A decoder-only foundation model for time-series forecasting - arXiv",
+      "snippet": "To the best of our knowledge, the very recent work in TimeGPT-1 [7] is the only other parallel work on a zero-shot foundation model for time-series forecasting.",
+      "link": "https://arxiv.org/html/2310.10688v2",
+      "arxiv_id": "2310.10688"
+    },
+    {
+      "rank": 9,
+      "title": "Generalizing Time Series Representation with Large Language Model",
+      "snippet": "There are two main research lines, namely pre-training foundation models from scratch for time series and adapting large language foundation models for time ...",
+      "link": "https://arxiv.org/html/2405.02358v1",
+      "arxiv_id": "2405.02358"
+    },
+    {
+      "rank": 10,
+      "title": "Financial Fine-tuning a Large Time Series Model - arXiv",
+      "snippet": "This is done by continual pre-training of the latest time series foundation model TimesFM on price data containing 100 million time points, spanning a range of ...",
+      "link": "https://arxiv.org/html/2412.09880v1",
+      "arxiv_id": "2412.09880"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:51.451139+00:00",
+  "elapsed_seconds": 0.9222068153321743,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q11_original_question_attempt1.json",
+      "sha256": "c3695dcf8f8ae35bdfa01127c5e7326369c5d15f7af2832d70454cc31e662f08",
+      "status": "PASS"
+    }
+  ]
+}

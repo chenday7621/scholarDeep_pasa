@@ -1,0 +1,65 @@
+{
+  "experiment": "SCHOLARQUEST_PAGE2_OPPORTUNITY_PROBE_005",
+  "status": "COMPLETE",
+  "dataset_manifest_sha256": "e53230e1a207323c98678459e17a4e3c875f4d064f83aed7c35f9bb8b2bc6ba3",
+  "snapshot_id": "7afa3caf0806ce26c5ba8c304dd79fccca4c53130ee7581604f450eb7add1bb6",
+  "snapshot_manifest_sha256": "f4568e3154fae13ed9c6c18dac03369096fbf2e8e5128a34079cd6646b8d73f8",
+  "questions_requested": 50,
+  "questions_complete": 50,
+  "native_query_count": 250,
+  "total_gt": 2740,
+  "policies": {
+    "Native Page1": {
+      "gt_found": 125,
+      "macro_search_recall": 0.07987888584801257,
+      "micro_search_recall": 0.04562043795620438,
+      "extra_page2_calls": 0
+    },
+    "Always Page2": {
+      "gt_found": 126,
+      "macro_search_recall": 0.08141734738647412,
+      "micro_search_recall": 0.04598540145985401,
+      "extra_page2_calls": 250
+    }
+  },
+  "delta_gt": 1,
+  "incremental_macro_search_recall": 0.001538461538461544,
+  "incremental_micro_search_recall": 0.000364963503649635,
+  "questions_with_page2_gain": 1,
+  "queries_with_page2_isolated_gain": 1,
+  "queries_with_page2_pair_local_gain": 2,
+  "extra_page2_calls": 250,
+  "delta_gt_per_extra_page2_call": 0.004,
+  "http_attempts": 500,
+  "successful_page1_responses": 250,
+  "successful_page2_responses": 250,
+  "source_adherence": {
+    "1": {
+      "organic_results": 2497,
+      "parseable_arxiv_results": 2483,
+      "queries_with_non_arxiv_results": 5,
+      "parseable_arxiv_fraction": 0.9943932719263116
+    },
+    "2": {
+      "organic_results": 2332,
+      "parseable_arxiv_results": 394,
+      "queries_with_non_arxiv_results": 206,
+      "parseable_arxiv_fraction": 0.16895368782161235
+    }
+  },
+  "page_pair_gap_seconds": {
+    "min": 0.001263,
+    "mean": 0.00170434,
+    "max": 0.002526
+  },
+  "opportunity_gate": {
+    "minimum_delta_gt": 10,
+    "minimum_gain_questions": 5,
+    "minimum_delta_gt_per_page2_call": 0.05
+  },
+  "opportunity_gate_passed": false,
+  "recommend_independent_fixed_max_jaccard_top1_validation": false,
+  "router_implemented_or_evaluated": false,
+  "isolated_gain_definition": "GT intersect (query Page2 IDs minus all native Page1 IDs of this question)",
+  "pair_local_gain_definition": "GT intersect (query Page2 IDs minus this query Page1 IDs)"
+}

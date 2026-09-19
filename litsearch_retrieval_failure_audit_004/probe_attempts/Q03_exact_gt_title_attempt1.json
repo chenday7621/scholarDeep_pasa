@@ -1,0 +1,196 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q03",
+  "group": "author-written",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2306.15164",
+  "request_payload": {
+    "q": "DSRM: Boost Textual Adversarial Training with Distribution Shift Risk Minimization before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 4,
+  "started_utc": "2026-09-17T12:33:26.211514+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648130",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "b3fab4c4fffd13e8b4d17ba350dbade8",
+    "date": "Thu, 17 Sep 2026 12:28:47 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3394",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3394,
+  "response_bytes_sha256": "75bc2290de574326ed443dbfd4ae33d1c911a5dfce94f8baba9609d5d6833b15",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJEU1JNOiBCb29zdCBUZXh0dWFsIEFkdmVyc2FyaWFsIFRyYWluaW5nIHdpdGggRGlzdHJpYnV0aW9uIFNoaWZ0IFJpc2sgTWluaW1pemF0aW9uIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDYuMTUxNjR2MSBbY3MuQ0xdIDI3IEp1biAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA2LjE1MTY0Iiwic25pcHBldCI6Ik91ciBwcm9jZWR1cmUsIGRpc3RyaWJ1dGlvbiBzaGlmdCByaXNrIG1pbi0gaW1pemF0aW9uIChEU1JNKSwgZXN0aW1hdGVzIHRoZSBhZHZlcnNhcmlhbCBsb3NzIGJ5IHBlcnR1cmJpbmcgdGhlIGlucHV0IGRhdGEncyBwcm9iYWJpbC0gaXR5IGRpc3RyaWJ1dGlvbi4gRFNSTSwgYSAuLi4iLCJkYXRlIjoiSnVuIDI3LCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNDAzLjE4NDIzdjEgW2NzLkNMXSAyNyBNYXIgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMy4xODQyMyIsInNuaXBwZXQiOiJEU1JNOiBCb29zdCB0ZXh0dWFsIGFkdmVyc2FyaWFsIHRyYWluaW5nIHdpdGggZGlzdHJpYnV0aW9uIHNoaWZ0IHJpc2sgbWluaW1pemF0aW9uLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgNjFzdCBBbm51YWwgTWVldGluZyBvZiB0aGUgQXNzb2NpYXRpb24gZm9yIC4uLiIsImRhdGUiOiJNYXIgMjcsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDcuMDAyNDh2MiBbY3MuQ0xdIDE3IE1heSAyMDI1IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA3LjAwMjQ4Iiwic25pcHBldCI6IkRTUk06IEJvb3N0IHRleHR1YWwgYWR2ZXJzYXJpYWwgdHJhaW5pbmcgd2l0aCBkaXN0cmlidXRpb24gc2hpZnQgcmlzayBtaW5pbWl6YXRpb24uIEluIFByb2NlZWRpbmdzIG9mIHRoZSA2MXN0IEFubnVhbCBNZWV0aW5nIG9mIHRoZSBBc3NvY2lhdGlvbiBmb3IgLi4uIiwiZGF0ZSI6Ik1heSAxNywgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiUmlzay1BdmVyc2UgV2Fzc2Vyc3RlaW4gRGlzdHJpYnV0aW9uYWxseSBSb2J1c3QgT25saW5lIExlYXJuaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwMi4yMDQwM3YyIiwic25pcHBldCI6IldlIHN0dWR5IGRpc3RyaWJ1dGlvbmFsbHkgcm9idXN0IG9ubGluZSBsZWFybmluZywgd2hlcmUgYSByaXNrLWF2ZXJzZSBsZWFybmVyIHVwZGF0ZXMgZGVjaXNpb25zIHNlcXVlbnRpYWxseSB0byBndWFyZCBhZ2FpbnN0IHdvcnN0LWNhc2UgZGlzdHJpYnV0aW9ucyBkcmF3biAuLi4iLCJkYXRlIjoiQXVnIDExLCAyMDI2IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBUb3dhcmRzIHRoZSBXb3JzdC1jYXNlIFJvYnVzdG5lc3Mgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTAxLjE5MDQwIiwic25pcHBldCI6IkRTUk06IEJvb3N0IHRleHR1YWwgYWR2ZXJzYXJpYWwgdHJhaW5pbmcgd2l0aCBkaXN0cmlidXRpb24gc2hpZnQgcmlzayBtaW5pbWl6YXRpb24uIEEgZnJhbWV3b3JrIGZvciBhZHZlcnNhcmlhbCBhdHRhY2tzLCBkYXRhIGF1Z21lbnRhdGlvbiwgYW5kIGFkdmVyc2FyaWFsIC4uLiIsImRhdGUiOiJPY3QgOCwgMjAyNSIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiRGlzdHJpYnV0aW9uYWwgQWR2ZXJzYXJpYWwgQXR0YWNrcyBhbmQgVHJhaW5pbmcgaW4gRGVlcCBIZWRnaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yNTA4LjE0NzU3Iiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHN0dWR5IHRoZSByb2J1c3RuZXNzIG9mIGNsYXNzaWNhbCBkZWVwIGhlZGdpbmcgc3RyYXRlZ2llcyB1bmRlciBkaXN0cmlidXRpb25hbCBzaGlmdHMgYnkgbGV2ZXJhZ2luZyB0aGUgY29uY2VwdCBvZiBhZHZlcnNhcmlhbCBhdHRhY2tzLiBXZSAuLi4iLCJkYXRlIjoiQXVnIDIwLCAyMDI1IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBPcHRpbWFsIEVtcGlyaWNhbCBSaXNrIE1pbmltaXphdGlvbiB1bmRlciBUZW1wb3JhbCBEaXN0cmlidXRpb24gU2hpZnRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA3LjEzMjg3Iiwic25pcHBldCI6IlRvIGFkZHJlc3MgdGhlIGNoYWxsZW5nZSBvZiB0ZW1wb3JhbCBzaGlmdHMsIHdlIGVtcGxveSBhIHdlaWdodGVkIGVtcGlyaWNhbCByaXNrIG1pbmltaXphdGlvbiBmcmFtZXdvcmssIHdoZXJlIHdlIGFzc2lnbiBkaWZmZXJlbnQgd2VpZ2h0cyB0byBlYWNoIHBhc3QgdHJhaW5pbmcgLi4uIiwiZGF0ZSI6Ikp1bCAxOCwgMjAyNSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQxMC4wNjMwM3YyIFtjcy5MR10gMTAgRmViIDIwMjUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MTAuMDYzMDMiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSB0YWNrbGUgYSBjaGFsbGVuZ2luZyBmb3JtIG9mIGRpc3RyaWJ1dGlvbiBzaGlmdCwgdGVybWVkIGNvbXBvc2l0aW9uYWwgc2hpZnQsIHdoZXJlIHNvbWUgYXR0cmlidXRlIGNvbWJpbmF0aW9ucyBhcmUgY29tcGxldGVseSBhYnNlbnQgYXQgLi4uIiwiZGF0ZSI6IkZlYiAxMCwgMjAyNSIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gUXVhbnRpZnlpbmcgRGlzdHJpYnV0aW9uIFNoaWZ0cyBhbmQgVW5jZXJ0YWludGllcyBmb3IgRW5oYW5jZWQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDA1LjAxOTc4Iiwic25pcHBldCI6IkRpc3RyaWJ1dGlvbiBzaGlmdHMsIHdoZXJlIHN0YXRpc3RpY2FsIHByb3BlcnRpZXMgZGlmZmVyIGJldHdlZW4gdHJhaW5pbmcgYW5kIHRlc3QgZGF0YXNldHMsIHByZXNlbnQgYSBzaWduaWZpY2FudCBjaGFsbGVuZ2UgaW4gcmVhbC13b3JsZCBtYWNoaW5lIGxlYXJuaW5nIC4uLiIsImRhdGUiOiJNYXkgMywgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjUwNC4wOTQ0OHYyIFtjcy5DVl0gMjIgQXByIDIwMjUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI1MDQuMDk0NDgiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgaGF2ZSBwcm9wb3NlZCB0aGUgQmF5ZXMtQ0FMIG1ldGhvZCB3aXRoIGludmFyaWFudCByaXNrIG1pbmltaXphdGlvbiBhbmQgZ3JhZGllbnQgb3J0aG9nb25hbGl6YS0gdGlvbiBsb3NzIHVuZGVyIHRoZSBCYXllc2lhbiBmcmFtZXdvcmsgdG8gLi4uIiwiZGF0ZSI6IkFwciAyMiwgMjAyNSIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "DSRM: Boost Textual Adversarial Training with Distribution Shift Risk Minimization before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[PDF] arXiv:2306.15164v1 [cs.CL] 27 Jun 2023",
+        "link": "https://arxiv.org/pdf/2306.15164",
+        "snippet": "Our procedure, distribution shift risk min- imization (DSRM), estimates the adversarial loss by perturbing the input data's probabil- ity distribution. DSRM, a ...",
+        "date": "Jun 27, 2023",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2403.18423v1 [cs.CL] 27 Mar 2024",
+        "link": "https://arxiv.org/pdf/2403.18423",
+        "snippet": "DSRM: Boost textual adversarial training with distribution shift risk minimization. In Proceedings of the 61st Annual Meeting of the Association for ...",
+        "date": "Mar 27, 2024",
+        "position": 2
+      },
+      {
+        "title": "[PDF] arXiv:2407.00248v2 [cs.CL] 17 May 2025",
+        "link": "https://arxiv.org/pdf/2407.00248",
+        "snippet": "DSRM: Boost textual adversarial training with distribution shift risk minimization. In Proceedings of the 61st Annual Meeting of the Association for ...",
+        "date": "May 17, 2025",
+        "position": 3
+      },
+      {
+        "title": "Risk-Averse Wasserstein Distributionally Robust Online Learning",
+        "link": "https://arxiv.org/html/2602.20403v2",
+        "snippet": "We study distributionally robust online learning, where a risk-averse learner updates decisions sequentially to guard against worst-case distributions drawn ...",
+        "date": "Aug 11, 2026",
+        "position": 4
+      },
+      {
+        "title": "[PDF] Towards the Worst-case Robustness of Large Language Models",
+        "link": "https://arxiv.org/pdf/2501.19040",
+        "snippet": "DSRM: Boost textual adversarial training with distribution shift risk minimization. A framework for adversarial attacks, data augmentation, and adversarial ...",
+        "date": "Oct 8, 2025",
+        "position": 5
+      },
+      {
+        "title": "Distributional Adversarial Attacks and Training in Deep Hedging",
+        "link": "https://arxiv.org/abs/2508.14757",
+        "snippet": "In this paper, we study the robustness of classical deep hedging strategies under distributional shifts by leveraging the concept of adversarial attacks. We ...",
+        "date": "Aug 20, 2025",
+        "position": 6
+      },
+      {
+        "title": "[PDF] Optimal Empirical Risk Minimization under Temporal Distribution Shifts",
+        "link": "https://arxiv.org/pdf/2507.13287",
+        "snippet": "To address the challenge of temporal shifts, we employ a weighted empirical risk minimization framework, where we assign different weights to each past training ...",
+        "date": "Jul 18, 2025",
+        "position": 7
+      },
+      {
+        "title": "[PDF] arXiv:2410.06303v2 [cs.LG] 10 Feb 2025",
+        "link": "https://arxiv.org/pdf/2410.06303",
+        "snippet": "In this work, we tackle a challenging form of distribution shift, termed compositional shift, where some attribute combinations are completely absent at ...",
+        "date": "Feb 10, 2025",
+        "position": 8
+      },
+      {
+        "title": "[PDF] Quantifying Distribution Shifts and Uncertainties for Enhanced ...",
+        "link": "https://arxiv.org/pdf/2405.01978",
+        "snippet": "Distribution shifts, where statistical properties differ between training and test datasets, present a significant challenge in real-world machine learning ...",
+        "date": "May 3, 2024",
+        "position": 9
+      },
+      {
+        "title": "[PDF] arXiv:2504.09448v2 [cs.CV] 22 Apr 2025",
+        "link": "https://arxiv.org/pdf/2504.09448",
+        "snippet": "In this paper, we have proposed the Bayes-CAL method with invariant risk minimization and gradient orthogonaliza- tion loss under the Bayesian framework to ...",
+        "date": "Apr 22, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[PDF] arXiv:2306.15164v1 [cs.CL] 27 Jun 2023",
+      "snippet": "Our procedure, distribution shift risk min- imization (DSRM), estimates the adversarial loss by perturbing the input data's probabil- ity distribution. DSRM, a ...",
+      "link": "https://arxiv.org/pdf/2306.15164",
+      "arxiv_id": "2306.15164"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2403.18423v1 [cs.CL] 27 Mar 2024",
+      "snippet": "DSRM: Boost textual adversarial training with distribution shift risk minimization. In Proceedings of the 61st Annual Meeting of the Association for ...",
+      "link": "https://arxiv.org/pdf/2403.18423",
+      "arxiv_id": "2403.18423"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] arXiv:2407.00248v2 [cs.CL] 17 May 2025",
+      "snippet": "DSRM: Boost textual adversarial training with distribution shift risk minimization. In Proceedings of the 61st Annual Meeting of the Association for ...",
+      "link": "https://arxiv.org/pdf/2407.00248",
+      "arxiv_id": "2407.00248"
+    },
+    {
+      "rank": 4,
+      "title": "Risk-Averse Wasserstein Distributionally Robust Online Learning",
+      "snippet": "We study distributionally robust online learning, where a risk-averse learner updates decisions sequentially to guard against worst-case distributions drawn ...",
+      "link": "https://arxiv.org/html/2602.20403v2",
+      "arxiv_id": "2602.20403"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] Towards the Worst-case Robustness of Large Language Models",
+      "snippet": "DSRM: Boost textual adversarial training with distribution shift risk minimization. A framework for adversarial attacks, data augmentation, and adversarial ...",
+      "link": "https://arxiv.org/pdf/2501.19040",
+      "arxiv_id": "2501.19040"
+    },
+    {
+      "rank": 6,
+      "title": "Distributional Adversarial Attacks and Training in Deep Hedging",
+      "snippet": "In this paper, we study the robustness of classical deep hedging strategies under distributional shifts by leveraging the concept of adversarial attacks. We ...",
+      "link": "https://arxiv.org/abs/2508.14757",
+      "arxiv_id": "2508.14757"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] Optimal Empirical Risk Minimization under Temporal Distribution Shifts",
+      "snippet": "To address the challenge of temporal shifts, we employ a weighted empirical risk minimization framework, where we assign different weights to each past training ...",
+      "link": "https://arxiv.org/pdf/2507.13287",
+      "arxiv_id": "2507.13287"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] arXiv:2410.06303v2 [cs.LG] 10 Feb 2025",
+      "snippet": "In this work, we tackle a challenging form of distribution shift, termed compositional shift, where some attribute combinations are completely absent at ...",
+      "link": "https://arxiv.org/pdf/2410.06303",
+      "arxiv_id": "2410.06303"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] Quantifying Distribution Shifts and Uncertainties for Enhanced ...",
+      "snippet": "Distribution shifts, where statistical properties differ between training and test datasets, present a significant challenge in real-world machine learning ...",
+      "link": "https://arxiv.org/pdf/2405.01978",
+      "arxiv_id": "2405.01978"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] arXiv:2504.09448v2 [cs.CV] 22 Apr 2025",
+      "snippet": "In this paper, we have proposed the Bayes-CAL method with invariant risk minimization and gradient orthogonaliza- tion loss under the Bayesian framework to ...",
+      "link": "https://arxiv.org/pdf/2504.09448",
+      "arxiv_id": "2504.09448"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:27.360315+00:00",
+  "elapsed_seconds": 1.1488030962646008
+}

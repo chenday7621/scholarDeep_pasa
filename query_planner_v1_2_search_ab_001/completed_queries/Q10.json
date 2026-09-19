@@ -1,0 +1,1329 @@
+{
+  "query_id": "Q10",
+  "query_index": 10,
+  "dataset_qid": "RealScholarQuery_10",
+  "original_question": "Is there any work that analyzes the scaling law of the multi-module models, such as video-text, image-text models?",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Survey papers on scaling law of multi-module models",
+    "Analysis of scaling law in video-text models",
+    "Research on scaling law in image-text models",
+    "Scaling behavior of multi-modal transformer models in video-text tasks",
+    "Empirical studies on the scaling laws of text-to-video generation models"
+  ],
+  "anchor": "Is there any work that analyzes the scaling law of the multi-module models, such as video-text, image-text models?",
+  "source_generation_id": "Q10_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Survey papers on scaling law of multi-module models",
+        "Analysis of scaling law in video-text models",
+        "Research on scaling law in image-text models",
+        "Scaling behavior of multi-modal transformer models in video-text tasks",
+        "Empirical studies on the scaling laws of text-to-video generation models"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "Is there any work that analyzes the scaling law of the multi-module models, such as video-text, image-text models?",
+        "Survey papers on scaling law of multi-module models",
+        "Analysis of scaling law in video-text models",
+        "Research on scaling law in image-text models",
+        "Scaling behavior of multi-modal transformer models in video-text tasks"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Survey papers on scaling law of multi-module models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 62,
+          "query_id": "Q10",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Survey papers on scaling law of multi-module models",
+          "request_payload": {
+            "q": "Survey papers on scaling law of multi-module models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q10_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:25:47.253511+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on scaling law of multi-module models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2001.08361] Scaling Laws for Neural Language Models - arXiv\",\"link\":\"https://arxiv.org/abs/2001.08361\",\"snippet\":\"We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the ...\",\"date\":\"Jan 23, 2020\",\"position\":1},{\"title\":\"Scaling Large Language Model-based Multi-Agent Collaboration\",\"link\":\"https://arxiv.org/abs/2406.07155\",\"snippet\":\"Inspired by the neural scaling law--increasing neurons enhances performance, this study explores whether the continuous addition of collaborative agents can ...\",\"date\":\"Jun 11, 2024\",\"position\":2},{\"title\":\"Scaling Laws for Generative Mixed-Modal Language Models - arXiv\",\"link\":\"https://arxiv.org/abs/2301.03728\",\"snippet\":\"We report new mixed-modal scaling laws that unify the contributions of individual modalities and the interactions between them. Specifically, we explicitly ...\",\"date\":\"Jan 10, 2023\",\"position\":3},{\"title\":\"[PDF] Scaling Laws for Neural Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2001.08361\",\"snippet\":\"We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and ...\",\"date\":\"Jan 23, 2020\",\"position\":4},{\"title\":\"Scaling Laws for a Multi-Agent Reinforcement Learning Model - arXiv\",\"link\":\"https://arxiv.org/abs/2210.00849\",\"snippet\":\"In this paper we present an extensive study of performance scaling for a cornerstone reinforcement learning algorithm, AlphaZero. On the basis of a relationship ...\",\"date\":\"Sep 29, 2022\",\"position\":5},{\"title\":\"Scaling Laws Do Not Scale - arXiv\",\"link\":\"https://arxiv.org/html/2307.03201v2\",\"snippet\":\"In this paper, we draw on literature from the social sciences and machine learning to critically interrogate these claims. We argue that this scaling law ...\",\"date\":\"Jul 28, 2024\",\"position\":6},{\"title\":\"Reasoning with Large Language Models,a Survey - arXiv\",\"link\":\"https://arxiv.org/html/2407.11511v1\",\"snippet\":\"This paper reviews the rapidly expanding field of prompt-based reasoning with LLMs. Our taxonomy identifies different ways to generate, evaluate, and control ...\",\"date\":\"Jul 16, 2024\",\"position\":7},{\"title\":\"[2305.16264] Scaling Data-Constrained Language Models - arXiv\",\"link\":\"https://arxiv.org/abs/2305.16264\",\"snippet\":\"We propose and empirically validate a scaling law for compute optimality that accounts for the decreasing value of repeated tokens and excess parameters.\",\"date\":\"May 25, 2023\",\"position\":8},{\"title\":\"When Scaling Meets LLM Finetuning: The Effect of Data, Model and ...\",\"link\":\"https://arxiv.org/html/2402.17193v1\",\"snippet\":\"In this paper, we systematically studied the scaling for LLM finetuning, considering different factors including LLM model size, pretraining data size, ...\",\"date\":\"Feb 27, 2024\",\"position\":9},{\"title\":\"[PDF] scaling laws for generative mixed-modal language models - arXiv\",\"link\":\"https://arxiv.org/pdf/2301.03728\",\"snippet\":\"Overall, our research provides valuable insights into the design and training of mixed-modal generative models, an important new class of unified models that.\",\"date\":\"Jan 10, 2023\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIHNjYWxpbmcgbGF3IG9mIG11bHRpLW1vZHVsZSBtb2RlbHMgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiWzIwMDEuMDgzNjFdIFNjYWxpbmcgTGF3cyBmb3IgTmV1cmFsIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMDAxLjA4MzYxIiwic25pcHBldCI6IldlIHN0dWR5IGVtcGlyaWNhbCBzY2FsaW5nIGxhd3MgZm9yIGxhbmd1YWdlIG1vZGVsIHBlcmZvcm1hbmNlIG9uIHRoZSBjcm9zcy1lbnRyb3B5IGxvc3MuIFRoZSBsb3NzIHNjYWxlcyBhcyBhIHBvd2VyLWxhdyB3aXRoIG1vZGVsIHNpemUsIGRhdGFzZXQgc2l6ZSwgYW5kIHRoZSAuLi4iLCJkYXRlIjoiSmFuIDIzLCAyMDIwIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJTY2FsaW5nIExhcmdlIExhbmd1YWdlIE1vZGVsLWJhc2VkIE11bHRpLUFnZW50IENvbGxhYm9yYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDYuMDcxNTUiLCJzbmlwcGV0IjoiSW5zcGlyZWQgYnkgdGhlIG5ldXJhbCBzY2FsaW5nIGxhdy0taW5jcmVhc2luZyBuZXVyb25zIGVuaGFuY2VzIHBlcmZvcm1hbmNlLCB0aGlzIHN0dWR5IGV4cGxvcmVzIHdoZXRoZXIgdGhlIGNvbnRpbnVvdXMgYWRkaXRpb24gb2YgY29sbGFib3JhdGl2ZSBhZ2VudHMgY2FuIC4uLiIsImRhdGUiOiJKdW4gMTEsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlNjYWxpbmcgTGF3cyBmb3IgR2VuZXJhdGl2ZSBNaXhlZC1Nb2RhbCBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwMS4wMzcyOCIsInNuaXBwZXQiOiJXZSByZXBvcnQgbmV3IG1peGVkLW1vZGFsIHNjYWxpbmcgbGF3cyB0aGF0IHVuaWZ5IHRoZSBjb250cmlidXRpb25zIG9mIGluZGl2aWR1YWwgbW9kYWxpdGllcyBhbmQgdGhlIGludGVyYWN0aW9ucyBiZXR3ZWVuIHRoZW0uIFNwZWNpZmljYWxseSwgd2UgZXhwbGljaXRseSAuLi4iLCJkYXRlIjoiSmFuIDEwLCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSBTY2FsaW5nIExhd3MgZm9yIE5ldXJhbCBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjAwMS4wODM2MSIsInNuaXBwZXQiOiJXZSBzdHVkeSBlbXBpcmljYWwgc2NhbGluZyBsYXdzIGZvciBsYW5ndWFnZSBtb2RlbCBwZXJmb3JtYW5jZSBvbiB0aGUgY3Jvc3MtZW50cm9weSBsb3NzLiBUaGUgbG9zcyBzY2FsZXMgYXMgYSBwb3dlci1sYXcgd2l0aCBtb2RlbCBzaXplLCBkYXRhc2V0IHNpemUsIGFuZCAuLi4iLCJkYXRlIjoiSmFuIDIzLCAyMDIwIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJTY2FsaW5nIExhd3MgZm9yIGEgTXVsdGktQWdlbnQgUmVpbmZvcmNlbWVudCBMZWFybmluZyBNb2RlbCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMjEwLjAwODQ5Iiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIgd2UgcHJlc2VudCBhbiBleHRlbnNpdmUgc3R1ZHkgb2YgcGVyZm9ybWFuY2Ugc2NhbGluZyBmb3IgYSBjb3JuZXJzdG9uZSByZWluZm9yY2VtZW50IGxlYXJuaW5nIGFsZ29yaXRobSwgQWxwaGFaZXJvLiBPbiB0aGUgYmFzaXMgb2YgYSByZWxhdGlvbnNoaXAgLi4uIiwiZGF0ZSI6IlNlcCAyOSwgMjAyMiIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiU2NhbGluZyBMYXdzIERvIE5vdCBTY2FsZSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwNy4wMzIwMXYyIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGRyYXcgb24gbGl0ZXJhdHVyZSBmcm9tIHRoZSBzb2NpYWwgc2NpZW5jZXMgYW5kIG1hY2hpbmUgbGVhcm5pbmcgdG8gY3JpdGljYWxseSBpbnRlcnJvZ2F0ZSB0aGVzZSBjbGFpbXMuIFdlIGFyZ3VlIHRoYXQgdGhpcyBzY2FsaW5nIGxhdyAuLi4iLCJkYXRlIjoiSnVsIDI4LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJSZWFzb25pbmcgd2l0aCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMsYSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMTE1MTF2MSIsInNuaXBwZXQiOiJUaGlzIHBhcGVyIHJldmlld3MgdGhlIHJhcGlkbHkgZXhwYW5kaW5nIGZpZWxkIG9mIHByb21wdC1iYXNlZCByZWFzb25pbmcgd2l0aCBMTE1zLiBPdXIgdGF4b25vbXkgaWRlbnRpZmllcyBkaWZmZXJlbnQgd2F5cyB0byBnZW5lcmF0ZSwgZXZhbHVhdGUsIGFuZCBjb250cm9sIC4uLiIsImRhdGUiOiJKdWwgMTYsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlsyMzA1LjE2MjY0XSBTY2FsaW5nIERhdGEtQ29uc3RyYWluZWQgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDUuMTYyNjQiLCJzbmlwcGV0IjoiV2UgcHJvcG9zZSBhbmQgZW1waXJpY2FsbHkgdmFsaWRhdGUgYSBzY2FsaW5nIGxhdyBmb3IgY29tcHV0ZSBvcHRpbWFsaXR5IHRoYXQgYWNjb3VudHMgZm9yIHRoZSBkZWNyZWFzaW5nIHZhbHVlIG9mIHJlcGVhdGVkIHRva2VucyBhbmQgZXhjZXNzIHBhcmFtZXRlcnMuIiwiZGF0ZSI6Ik1heSAyNSwgMjAyMyIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiV2hlbiBTY2FsaW5nIE1lZXRzIExMTSBGaW5ldHVuaW5nOiBUaGUgRWZmZWN0IG9mIERhdGEsIE1vZGVsIGFuZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjE3MTkzdjEiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2Ugc3lzdGVtYXRpY2FsbHkgc3R1ZGllZCB0aGUgc2NhbGluZyBmb3IgTExNIGZpbmV0dW5pbmcsIGNvbnNpZGVyaW5nIGRpZmZlcmVudCBmYWN0b3JzIGluY2x1ZGluZyBMTE0gbW9kZWwgc2l6ZSwgcHJldHJhaW5pbmcgZGF0YSBzaXplLCAuLi4iLCJkYXRlIjoiRmViIDI3LCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJbUERGXSBzY2FsaW5nIGxhd3MgZm9yIGdlbmVyYXRpdmUgbWl4ZWQtbW9kYWwgbGFuZ3VhZ2UgbW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDEuMDM3MjgiLCJzbmlwcGV0IjoiT3ZlcmFsbCwgb3VyIHJlc2VhcmNoIHByb3ZpZGVzIHZhbHVhYmxlIGluc2lnaHRzIGludG8gdGhlIGRlc2lnbiBhbmQgdHJhaW5pbmcgb2YgbWl4ZWQtbW9kYWwgZ2VuZXJhdGl2ZSBtb2RlbHMsIGFuIGltcG9ydGFudCBuZXcgY2xhc3Mgb2YgdW5pZmllZCBtb2RlbHMgdGhhdC4iLCJkYXRlIjoiSmFuIDEwLCAyMDIzIiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "4983101c77f723a14159863be67ac16571cba632ccdffe75ec0425b6b19078ef",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey papers on scaling law of multi-module models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "[2001.08361] Scaling Laws for Neural Language Models - arXiv",
+                "link": "https://arxiv.org/abs/2001.08361",
+                "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the ...",
+                "date": "Jan 23, 2020",
+                "position": 1
+              },
+              {
+                "title": "Scaling Large Language Model-based Multi-Agent Collaboration",
+                "link": "https://arxiv.org/abs/2406.07155",
+                "snippet": "Inspired by the neural scaling law--increasing neurons enhances performance, this study explores whether the continuous addition of collaborative agents can ...",
+                "date": "Jun 11, 2024",
+                "position": 2
+              },
+              {
+                "title": "Scaling Laws for Generative Mixed-Modal Language Models - arXiv",
+                "link": "https://arxiv.org/abs/2301.03728",
+                "snippet": "We report new mixed-modal scaling laws that unify the contributions of individual modalities and the interactions between them. Specifically, we explicitly ...",
+                "date": "Jan 10, 2023",
+                "position": 3
+              },
+              {
+                "title": "[PDF] Scaling Laws for Neural Language Models - arXiv",
+                "link": "https://arxiv.org/pdf/2001.08361",
+                "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and ...",
+                "date": "Jan 23, 2020",
+                "position": 4
+              },
+              {
+                "title": "Scaling Laws for a Multi-Agent Reinforcement Learning Model - arXiv",
+                "link": "https://arxiv.org/abs/2210.00849",
+                "snippet": "In this paper we present an extensive study of performance scaling for a cornerstone reinforcement learning algorithm, AlphaZero. On the basis of a relationship ...",
+                "date": "Sep 29, 2022",
+                "position": 5
+              },
+              {
+                "title": "Scaling Laws Do Not Scale - arXiv",
+                "link": "https://arxiv.org/html/2307.03201v2",
+                "snippet": "In this paper, we draw on literature from the social sciences and machine learning to critically interrogate these claims. We argue that this scaling law ...",
+                "date": "Jul 28, 2024",
+                "position": 6
+              },
+              {
+                "title": "Reasoning with Large Language Models,a Survey - arXiv",
+                "link": "https://arxiv.org/html/2407.11511v1",
+                "snippet": "This paper reviews the rapidly expanding field of prompt-based reasoning with LLMs. Our taxonomy identifies different ways to generate, evaluate, and control ...",
+                "date": "Jul 16, 2024",
+                "position": 7
+              },
+              {
+                "title": "[2305.16264] Scaling Data-Constrained Language Models - arXiv",
+                "link": "https://arxiv.org/abs/2305.16264",
+                "snippet": "We propose and empirically validate a scaling law for compute optimality that accounts for the decreasing value of repeated tokens and excess parameters.",
+                "date": "May 25, 2023",
+                "position": 8
+              },
+              {
+                "title": "When Scaling Meets LLM Finetuning: The Effect of Data, Model and ...",
+                "link": "https://arxiv.org/html/2402.17193v1",
+                "snippet": "In this paper, we systematically studied the scaling for LLM finetuning, considering different factors including LLM model size, pretraining data size, ...",
+                "date": "Feb 27, 2024",
+                "position": 9
+              },
+              {
+                "title": "[PDF] scaling laws for generative mixed-modal language models - arXiv",
+                "link": "https://arxiv.org/pdf/2301.03728",
+                "snippet": "Overall, our research provides valuable insights into the design and training of mixed-modal generative models, an important new class of unified models that.",
+                "date": "Jan 10, 2023",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:48.464299+00:00",
+          "elapsed_seconds": 1.2107888422906399
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2001.08361",
+        "2210.00849",
+        "2301.03728",
+        "2305.16264",
+        "2307.03201",
+        "2402.17193",
+        "2406.07155",
+        "2407.11511"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2001.08361",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2001.08361",
+          "title": "[2001.08361] Scaling Laws for Neural Language Models - arXiv",
+          "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the ..."
+        },
+        {
+          "arxiv_id": "2406.07155",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2406.07155",
+          "title": "Scaling Large Language Model-based Multi-Agent Collaboration",
+          "snippet": "Inspired by the neural scaling law--increasing neurons enhances performance, this study explores whether the continuous addition of collaborative agents can ..."
+        },
+        {
+          "arxiv_id": "2301.03728",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2301.03728",
+          "title": "Scaling Laws for Generative Mixed-Modal Language Models - arXiv",
+          "snippet": "We report new mixed-modal scaling laws that unify the contributions of individual modalities and the interactions between them. Specifically, we explicitly ..."
+        },
+        {
+          "arxiv_id": "2001.08361",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2001.08361",
+          "title": "[PDF] Scaling Laws for Neural Language Models - arXiv",
+          "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and ..."
+        },
+        {
+          "arxiv_id": "2210.00849",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2210.00849",
+          "title": "Scaling Laws for a Multi-Agent Reinforcement Learning Model - arXiv",
+          "snippet": "In this paper we present an extensive study of performance scaling for a cornerstone reinforcement learning algorithm, AlphaZero. On the basis of a relationship ..."
+        },
+        {
+          "arxiv_id": "2307.03201",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2307.03201v2",
+          "title": "Scaling Laws Do Not Scale - arXiv",
+          "snippet": "In this paper, we draw on literature from the social sciences and machine learning to critically interrogate these claims. We argue that this scaling law ..."
+        },
+        {
+          "arxiv_id": "2407.11511",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2407.11511v1",
+          "title": "Reasoning with Large Language Models,a Survey - arXiv",
+          "snippet": "This paper reviews the rapidly expanding field of prompt-based reasoning with LLMs. Our taxonomy identifies different ways to generate, evaluate, and control ..."
+        },
+        {
+          "arxiv_id": "2305.16264",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2305.16264",
+          "title": "[2305.16264] Scaling Data-Constrained Language Models - arXiv",
+          "snippet": "We propose and empirically validate a scaling law for compute optimality that accounts for the decreasing value of repeated tokens and excess parameters."
+        },
+        {
+          "arxiv_id": "2402.17193",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2402.17193v1",
+          "title": "When Scaling Meets LLM Finetuning: The Effect of Data, Model and ...",
+          "snippet": "In this paper, we systematically studied the scaling for LLM finetuning, considering different factors including LLM model size, pretraining data size, ..."
+        },
+        {
+          "arxiv_id": "2301.03728",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2301.03728",
+          "title": "[PDF] scaling laws for generative mixed-modal language models - arXiv",
+          "snippet": "Overall, our research provides valuable insights into the design and training of mixed-modal generative models, an important new class of unified models that."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey papers on scaling law of multi-module models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Analysis of scaling law in video-text models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 63,
+          "query_id": "Q10",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Analysis of scaling law in video-text models",
+          "request_payload": {
+            "q": "Analysis of scaling law in video-text models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q10_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:25:48.526148+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Analysis of scaling law in video-text models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Video In-context Learning - arXiv\",\"link\":\"https://arxiv.org/html/2407.07356v1\",\"snippet\":\"Our model follows the scaling law and generates high-quality video clips that accurately align with the semantic guidance provided by in-context examples.\",\"date\":\"Jul 10, 2024\",\"position\":1},{\"title\":\"Video Understanding with Large Language Models:A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.17432v4\",\"snippet\":\"In-context learning allows the model to learn and make predictions based on the context provided within the input text without requiring explicit retraining.\",\"date\":\"Jul 24, 2024\",\"position\":2},{\"title\":\"[PDF] Scaling Laws for Neural Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2001.08361\",\"snippet\":\"We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, ...\",\"date\":\"Jan 23, 2020\",\"position\":3},{\"title\":\"Scaling Laws with Vocabulary:Larger Models Deserve Larger ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.13623v1\",\"snippet\":\"Scaling laws aim to develop a predictive framework to find the best allocation of compute resources to maximize model performance. Besides language models, they ...\",\"date\":\"Jul 18, 2024\",\"position\":4},{\"title\":\"[PDF] Scaling Laws for Forgetting When Fine-Tuning Large ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.05605\",\"snippet\":\"We study and quantify the problem of forgetting when fine-tuning pre-trained large language models (LLMs) on a downstream task.\",\"date\":\"Jan 11, 2024\",\"position\":5},{\"title\":\"Will we run out of data? Limits of LLM scaling based on human ...\",\"link\":\"https://arxiv.org/html/2211.04325v2\",\"snippet\":\"In order to scale the size of models and training runs efficiently, large language models (LLMs) are typically trained according to neural scaling laws (Kaplan ...\",\"date\":\"Jun 4, 2024\",\"position\":6},{\"title\":\"InternVideo2: Scaling Video Foundation Models for Multimodal ...\",\"link\":\"https://arxiv.org/html/2403.15377v1\",\"snippet\":\"This improves the alignment between video and text. We scale both data and model size for our InternVideo2. Through extensive experiments, we validate our ...\",\"date\":\"Mar 22, 2024\",\"position\":7},{\"title\":\"[PDF] Reproducible scaling laws for contrastive language-image learning\",\"link\":\"https://arxiv.org/pdf/2212.07143\",\"snippet\":\"Predictions for model performance on larger scales made on the basis of the scaling laws estimate 81.9% zero-shot top-1 accuracy on ImageNet for a ViT-G/14 CLIP.\",\"date\":\"Dec 15, 2022\",\"position\":8},{\"title\":\"Video Understanding with Large Language Models:A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.17432v2\",\"snippet\":\"This collaborative approach enables the model to acquire skills beyond text generation, such as object segmentation and other complex video analysis tasks.\",\"date\":\"Jan 4, 2024\",\"position\":9},{\"title\":\"Scaling Laws for Autoregressive Generative Modeling - arXiv\",\"link\":\"https://arxiv.org/abs/2010.14701\",\"snippet\":\"We identify empirical scaling laws for the cross-entropy loss in four domains: generative image modeling, video modeling, multimodal image\\\\leftrightarrowtext ...\",\"date\":\"Oct 28, 2020\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBbmFseXNpcyBvZiBzY2FsaW5nIGxhdyBpbiB2aWRlby10ZXh0IG1vZGVscyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJWaWRlbyBJbi1jb250ZXh0IExlYXJuaW5nIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjA3MzU2djEiLCJzbmlwcGV0IjoiT3VyIG1vZGVsIGZvbGxvd3MgdGhlIHNjYWxpbmcgbGF3IGFuZCBnZW5lcmF0ZXMgaGlnaC1xdWFsaXR5IHZpZGVvIGNsaXBzIHRoYXQgYWNjdXJhdGVseSBhbGlnbiB3aXRoIHRoZSBzZW1hbnRpYyBndWlkYW5jZSBwcm92aWRlZCBieSBpbi1jb250ZXh0IGV4YW1wbGVzLiIsImRhdGUiOiJKdWwgMTAsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlZpZGVvIFVuZGVyc3RhbmRpbmcgd2l0aCBMYXJnZSBMYW5ndWFnZSBNb2RlbHM6QSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTIuMTc0MzJ2NCIsInNuaXBwZXQiOiJJbi1jb250ZXh0IGxlYXJuaW5nIGFsbG93cyB0aGUgbW9kZWwgdG8gbGVhcm4gYW5kIG1ha2UgcHJlZGljdGlvbnMgYmFzZWQgb24gdGhlIGNvbnRleHQgcHJvdmlkZWQgd2l0aGluIHRoZSBpbnB1dCB0ZXh0IHdpdGhvdXQgcmVxdWlyaW5nIGV4cGxpY2l0IHJldHJhaW5pbmcuIiwiZGF0ZSI6Ikp1bCAyNCwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiW1BERl0gU2NhbGluZyBMYXdzIGZvciBOZXVyYWwgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIwMDEuMDgzNjEiLCJzbmlwcGV0IjoiV2Ugc3R1ZHkgZW1waXJpY2FsIHNjYWxpbmcgbGF3cyBmb3IgbGFuZ3VhZ2UgbW9kZWwgcGVyZm9ybWFuY2Ugb24gdGhlIGNyb3NzLWVudHJvcHkgbG9zcy4gVGhlIGxvc3Mgc2NhbGVzIGFzIGEgcG93ZXItbGF3IHdpdGggbW9kZWwgc2l6ZSwgZGF0YXNldCBzaXplLCAuLi4iLCJkYXRlIjoiSmFuIDIzLCAyMDIwIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJTY2FsaW5nIExhd3Mgd2l0aCBWb2NhYnVsYXJ5OkxhcmdlciBNb2RlbHMgRGVzZXJ2ZSBMYXJnZXIgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjEzNjIzdjEiLCJzbmlwcGV0IjoiU2NhbGluZyBsYXdzIGFpbSB0byBkZXZlbG9wIGEgcHJlZGljdGl2ZSBmcmFtZXdvcmsgdG8gZmluZCB0aGUgYmVzdCBhbGxvY2F0aW9uIG9mIGNvbXB1dGUgcmVzb3VyY2VzIHRvIG1heGltaXplIG1vZGVsIHBlcmZvcm1hbmNlLiBCZXNpZGVzIGxhbmd1YWdlIG1vZGVscywgdGhleSAuLi4iLCJkYXRlIjoiSnVsIDE4LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBTY2FsaW5nIExhd3MgZm9yIEZvcmdldHRpbmcgV2hlbiBGaW5lLVR1bmluZyBMYXJnZSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMS4wNTYwNSIsInNuaXBwZXQiOiJXZSBzdHVkeSBhbmQgcXVhbnRpZnkgdGhlIHByb2JsZW0gb2YgZm9yZ2V0dGluZyB3aGVuIGZpbmUtdHVuaW5nIHByZS10cmFpbmVkIGxhcmdlIGxhbmd1YWdlIG1vZGVscyAoTExNcykgb24gYSBkb3duc3RyZWFtIHRhc2suIiwiZGF0ZSI6IkphbiAxMSwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiV2lsbCB3ZSBydW4gb3V0IG9mIGRhdGE/IExpbWl0cyBvZiBMTE0gc2NhbGluZyBiYXNlZCBvbiBodW1hbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjExLjA0MzI1djIiLCJzbmlwcGV0IjoiSW4gb3JkZXIgdG8gc2NhbGUgdGhlIHNpemUgb2YgbW9kZWxzIGFuZCB0cmFpbmluZyBydW5zIGVmZmljaWVudGx5LCBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpIGFyZSB0eXBpY2FsbHkgdHJhaW5lZCBhY2NvcmRpbmcgdG8gbmV1cmFsIHNjYWxpbmcgbGF3cyAoS2FwbGFuIC4uLiIsImRhdGUiOiJKdW4gNCwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiSW50ZXJuVmlkZW8yOiBTY2FsaW5nIFZpZGVvIEZvdW5kYXRpb24gTW9kZWxzIGZvciBNdWx0aW1vZGFsIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMTUzNzd2MSIsInNuaXBwZXQiOiJUaGlzIGltcHJvdmVzIHRoZSBhbGlnbm1lbnQgYmV0d2VlbiB2aWRlbyBhbmQgdGV4dC4gV2Ugc2NhbGUgYm90aCBkYXRhIGFuZCBtb2RlbCBzaXplIGZvciBvdXIgSW50ZXJuVmlkZW8yLiBUaHJvdWdoIGV4dGVuc2l2ZSBleHBlcmltZW50cywgd2UgdmFsaWRhdGUgb3VyIC4uLiIsImRhdGUiOiJNYXIgMjIsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIFJlcHJvZHVjaWJsZSBzY2FsaW5nIGxhd3MgZm9yIGNvbnRyYXN0aXZlIGxhbmd1YWdlLWltYWdlIGxlYXJuaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMjEyLjA3MTQzIiwic25pcHBldCI6IlByZWRpY3Rpb25zIGZvciBtb2RlbCBwZXJmb3JtYW5jZSBvbiBsYXJnZXIgc2NhbGVzIG1hZGUgb24gdGhlIGJhc2lzIG9mIHRoZSBzY2FsaW5nIGxhd3MgZXN0aW1hdGUgODEuOSUgemVyby1zaG90IHRvcC0xIGFjY3VyYWN5IG9uIEltYWdlTmV0IGZvciBhIFZpVC1HLzE0IENMSVAuIiwiZGF0ZSI6IkRlYyAxNSwgMjAyMiIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiVmlkZW8gVW5kZXJzdGFuZGluZyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVsczpBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4xNzQzMnYyIiwic25pcHBldCI6IlRoaXMgY29sbGFib3JhdGl2ZSBhcHByb2FjaCBlbmFibGVzIHRoZSBtb2RlbCB0byBhY3F1aXJlIHNraWxscyBiZXlvbmQgdGV4dCBnZW5lcmF0aW9uLCBzdWNoIGFzIG9iamVjdCBzZWdtZW50YXRpb24gYW5kIG90aGVyIGNvbXBsZXggdmlkZW8gYW5hbHlzaXMgdGFza3MuIiwiZGF0ZSI6IkphbiA0LCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJTY2FsaW5nIExhd3MgZm9yIEF1dG9yZWdyZXNzaXZlIEdlbmVyYXRpdmUgTW9kZWxpbmcgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjAxMC4xNDcwMSIsInNuaXBwZXQiOiJXZSBpZGVudGlmeSBlbXBpcmljYWwgc2NhbGluZyBsYXdzIGZvciB0aGUgY3Jvc3MtZW50cm9weSBsb3NzIGluIGZvdXIgZG9tYWluczogZ2VuZXJhdGl2ZSBpbWFnZSBtb2RlbGluZywgdmlkZW8gbW9kZWxpbmcsIG11bHRpbW9kYWwgaW1hZ2VcXGxlZnRyaWdodGFycm93dGV4dCAuLi4iLCJkYXRlIjoiT2N0IDI4LCAyMDIwIiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "460107851b13215c3b0fdb6c213cc058810463280a391a7082dc5d0fd5c1ee01",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Analysis of scaling law in video-text models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Video In-context Learning - arXiv",
+                "link": "https://arxiv.org/html/2407.07356v1",
+                "snippet": "Our model follows the scaling law and generates high-quality video clips that accurately align with the semantic guidance provided by in-context examples.",
+                "date": "Jul 10, 2024",
+                "position": 1
+              },
+              {
+                "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+                "link": "https://arxiv.org/html/2312.17432v4",
+                "snippet": "In-context learning allows the model to learn and make predictions based on the context provided within the input text without requiring explicit retraining.",
+                "date": "Jul 24, 2024",
+                "position": 2
+              },
+              {
+                "title": "[PDF] Scaling Laws for Neural Language Models - arXiv",
+                "link": "https://arxiv.org/pdf/2001.08361",
+                "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, ...",
+                "date": "Jan 23, 2020",
+                "position": 3
+              },
+              {
+                "title": "Scaling Laws with Vocabulary:Larger Models Deserve Larger ... - arXiv",
+                "link": "https://arxiv.org/html/2407.13623v1",
+                "snippet": "Scaling laws aim to develop a predictive framework to find the best allocation of compute resources to maximize model performance. Besides language models, they ...",
+                "date": "Jul 18, 2024",
+                "position": 4
+              },
+              {
+                "title": "[PDF] Scaling Laws for Forgetting When Fine-Tuning Large ... - arXiv",
+                "link": "https://arxiv.org/pdf/2401.05605",
+                "snippet": "We study and quantify the problem of forgetting when fine-tuning pre-trained large language models (LLMs) on a downstream task.",
+                "date": "Jan 11, 2024",
+                "position": 5
+              },
+              {
+                "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+                "link": "https://arxiv.org/html/2211.04325v2",
+                "snippet": "In order to scale the size of models and training runs efficiently, large language models (LLMs) are typically trained according to neural scaling laws (Kaplan ...",
+                "date": "Jun 4, 2024",
+                "position": 6
+              },
+              {
+                "title": "InternVideo2: Scaling Video Foundation Models for Multimodal ...",
+                "link": "https://arxiv.org/html/2403.15377v1",
+                "snippet": "This improves the alignment between video and text. We scale both data and model size for our InternVideo2. Through extensive experiments, we validate our ...",
+                "date": "Mar 22, 2024",
+                "position": 7
+              },
+              {
+                "title": "[PDF] Reproducible scaling laws for contrastive language-image learning",
+                "link": "https://arxiv.org/pdf/2212.07143",
+                "snippet": "Predictions for model performance on larger scales made on the basis of the scaling laws estimate 81.9% zero-shot top-1 accuracy on ImageNet for a ViT-G/14 CLIP.",
+                "date": "Dec 15, 2022",
+                "position": 8
+              },
+              {
+                "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+                "link": "https://arxiv.org/html/2312.17432v2",
+                "snippet": "This collaborative approach enables the model to acquire skills beyond text generation, such as object segmentation and other complex video analysis tasks.",
+                "date": "Jan 4, 2024",
+                "position": 9
+              },
+              {
+                "title": "Scaling Laws for Autoregressive Generative Modeling - arXiv",
+                "link": "https://arxiv.org/abs/2010.14701",
+                "snippet": "We identify empirical scaling laws for the cross-entropy loss in four domains: generative image modeling, video modeling, multimodal image\\leftrightarrowtext ...",
+                "date": "Oct 28, 2020",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:49.488651+00:00",
+          "elapsed_seconds": 0.9625026024878025
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2001.08361",
+        "2010.14701",
+        "2211.04325",
+        "2212.07143",
+        "2312.17432",
+        "2401.05605",
+        "2403.15377",
+        "2407.07356",
+        "2407.13623"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2407.07356",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2407.07356v1",
+          "title": "Video In-context Learning - arXiv",
+          "snippet": "Our model follows the scaling law and generates high-quality video clips that accurately align with the semantic guidance provided by in-context examples."
+        },
+        {
+          "arxiv_id": "2312.17432",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2312.17432v4",
+          "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+          "snippet": "In-context learning allows the model to learn and make predictions based on the context provided within the input text without requiring explicit retraining."
+        },
+        {
+          "arxiv_id": "2001.08361",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2001.08361",
+          "title": "[PDF] Scaling Laws for Neural Language Models - arXiv",
+          "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, ..."
+        },
+        {
+          "arxiv_id": "2407.13623",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2407.13623v1",
+          "title": "Scaling Laws with Vocabulary:Larger Models Deserve Larger ... - arXiv",
+          "snippet": "Scaling laws aim to develop a predictive framework to find the best allocation of compute resources to maximize model performance. Besides language models, they ..."
+        },
+        {
+          "arxiv_id": "2401.05605",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2401.05605",
+          "title": "[PDF] Scaling Laws for Forgetting When Fine-Tuning Large ... - arXiv",
+          "snippet": "We study and quantify the problem of forgetting when fine-tuning pre-trained large language models (LLMs) on a downstream task."
+        },
+        {
+          "arxiv_id": "2211.04325",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2211.04325v2",
+          "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+          "snippet": "In order to scale the size of models and training runs efficiently, large language models (LLMs) are typically trained according to neural scaling laws (Kaplan ..."
+        },
+        {
+          "arxiv_id": "2403.15377",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2403.15377v1",
+          "title": "InternVideo2: Scaling Video Foundation Models for Multimodal ...",
+          "snippet": "This improves the alignment between video and text. We scale both data and model size for our InternVideo2. Through extensive experiments, we validate our ..."
+        },
+        {
+          "arxiv_id": "2212.07143",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2212.07143",
+          "title": "[PDF] Reproducible scaling laws for contrastive language-image learning",
+          "snippet": "Predictions for model performance on larger scales made on the basis of the scaling laws estimate 81.9% zero-shot top-1 accuracy on ImageNet for a ViT-G/14 CLIP."
+        },
+        {
+          "arxiv_id": "2312.17432",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2312.17432v2",
+          "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+          "snippet": "This collaborative approach enables the model to acquire skills beyond text generation, such as object segmentation and other complex video analysis tasks."
+        },
+        {
+          "arxiv_id": "2010.14701",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/abs/2010.14701",
+          "title": "Scaling Laws for Autoregressive Generative Modeling - arXiv",
+          "snippet": "We identify empirical scaling laws for the cross-entropy loss in four domains: generative image modeling, video modeling, multimodal image\\leftrightarrowtext ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Analysis of scaling law in video-text models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Research on scaling law in image-text models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 64,
+          "query_id": "Q10",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Research on scaling law in image-text models",
+          "request_payload": {
+            "q": "Research on scaling law in image-text models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q10_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:25:49.552514+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Research on scaling law in image-text models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2312.04567] Scaling Laws of Synthetic Images for Model Training ...\",\"link\":\"https://arxiv.org/abs/2312.04567\",\"snippet\":\"In this paper we study the scaling laws of synthetic images generated by state of the art text-to-image models, for the training of supervised models:\",\"date\":\"7 Dec 2023\",\"position\":1},{\"title\":\"On the Scalability of Diffusion-based Text-to-Image Generation - arXiv\",\"link\":\"https://arxiv.org/abs/2404.02883\",\"snippet\":\"In this work, we empirically study the scaling properties of diffusion based T2I models by performing extensive and rigours ablations on scaling both denoising ...\",\"date\":\"3 Apr 2024\",\"position\":2},{\"title\":\"Reproducible scaling laws for contrastive language-image learning\",\"link\":\"https://arxiv.org/abs/2212.07143\",\"snippet\":\"Our large-scale experiments involve models trained on up to two billion image-text pairs and identify power law scaling for multiple downstream tasks\",\"date\":\"14 Dec 2022\",\"position\":3},{\"title\":\"[PDF] Scaling Laws for Neural Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2001.08361\",\"snippet\":\"We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the ...\",\"date\":\"23 Jan 2020\",\"position\":4},{\"title\":\"Scaling Laws For Deep Learning Based Image Reconstruction - arXiv\",\"link\":\"https://arxiv.org/abs/2209.13435\",\"snippet\":\"In this work, we study whether major performance gains are expected from scaling up the training set size. . For all three tasks we find that an initially ...\",\"date\":\"27 Sept 2022\",\"position\":5},{\"title\":\"[PDF] scaling laws for generative mixed-modal language models - arXiv\",\"link\":\"https://arxiv.org/pdf/2301.03728\",\"snippet\":\"We develop neural scaling laws for mixed-modalities models that include text, speech, images, code, and their numerous couplings.\",\"date\":\"10 Jan 2023\",\"position\":6},{\"title\":\"[2001.08361] Scaling Laws for Neural Language Models - arXiv\",\"link\":\"https://arxiv.org/abs/2001.08361\",\"snippet\":\"We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the ...\",\"date\":\"23 Jan 2020\",\"position\":7},{\"title\":\"[2308.00678] Applicability of scaling laws to vision encoding models\",\"link\":\"https://arxiv.org/abs/2308.00678\",\"snippet\":\"The results show that as the sample size used during training increases, the prediction accuracy improves according to the scaling law.\",\"date\":\"1 Aug 2023\",\"position\":8},{\"title\":\"[2209.06640] Revisiting Neural Scaling Laws in Language and Vision\",\"link\":\"https://arxiv.org/abs/2209.06640\",\"snippet\":\"Abstract:The remarkable progress in deep learning in recent years is largely driven by improvements in scale, where bigger models are trained on larger datasets ...\",\"date\":\"13 Sept 2022\",\"position\":9},{\"title\":\"Scaling Laws Do Not Scale - arXiv\",\"link\":\"https://arxiv.org/html/2307.03201v2\",\"snippet\":\"Scaling laws, which are aggregate evaluations of models' performance across the entire evaluation dataset U U , may similarly hide failures or inverse ...\",\"date\":\"28 Jul 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZXNlYXJjaCBvbiBzY2FsaW5nIGxhdyBpbiBpbWFnZS10ZXh0IG1vZGVscyBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJbMjMxMi4wNDU2N10gU2NhbGluZyBMYXdzIG9mIFN5bnRoZXRpYyBJbWFnZXMgZm9yIE1vZGVsIFRyYWluaW5nIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMxMi4wNDU2NyIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyIHdlIHN0dWR5IHRoZSBzY2FsaW5nIGxhd3Mgb2Ygc3ludGhldGljIGltYWdlcyBnZW5lcmF0ZWQgYnkgc3RhdGUgb2YgdGhlIGFydCB0ZXh0LXRvLWltYWdlIG1vZGVscywgZm9yIHRoZSB0cmFpbmluZyBvZiBzdXBlcnZpc2VkIG1vZGVsczoiLCJkYXRlIjoiNyBEZWMgMjAyMyIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiT24gdGhlIFNjYWxhYmlsaXR5IG9mIERpZmZ1c2lvbi1iYXNlZCBUZXh0LXRvLUltYWdlIEdlbmVyYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNC4wMjg4MyIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIGVtcGlyaWNhbGx5IHN0dWR5IHRoZSBzY2FsaW5nIHByb3BlcnRpZXMgb2YgZGlmZnVzaW9uIGJhc2VkIFQySSBtb2RlbHMgYnkgcGVyZm9ybWluZyBleHRlbnNpdmUgYW5kIHJpZ291cnMgYWJsYXRpb25zIG9uIHNjYWxpbmcgYm90aCBkZW5vaXNpbmcgLi4uIiwiZGF0ZSI6IjMgQXByIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlJlcHJvZHVjaWJsZSBzY2FsaW5nIGxhd3MgZm9yIGNvbnRyYXN0aXZlIGxhbmd1YWdlLWltYWdlIGxlYXJuaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMjEyLjA3MTQzIiwic25pcHBldCI6Ik91ciBsYXJnZS1zY2FsZSBleHBlcmltZW50cyBpbnZvbHZlIG1vZGVscyB0cmFpbmVkIG9uIHVwIHRvIHR3byBiaWxsaW9uIGltYWdlLXRleHQgcGFpcnMgYW5kIGlkZW50aWZ5IHBvd2VyIGxhdyBzY2FsaW5nIGZvciBtdWx0aXBsZSBkb3duc3RyZWFtIHRhc2tzIiwiZGF0ZSI6IjE0IERlYyAyMDIyIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJbUERGXSBTY2FsaW5nIExhd3MgZm9yIE5ldXJhbCBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjAwMS4wODM2MSIsInNuaXBwZXQiOiJXZSBzdHVkeSBlbXBpcmljYWwgc2NhbGluZyBsYXdzIGZvciBsYW5ndWFnZSBtb2RlbCBwZXJmb3JtYW5jZSBvbiB0aGUgY3Jvc3MtZW50cm9weSBsb3NzLiBUaGUgbG9zcyBzY2FsZXMgYXMgYSBwb3dlci1sYXcgd2l0aCBtb2RlbCBzaXplLCBkYXRhc2V0IHNpemUsIGFuZCB0aGUgLi4uIiwiZGF0ZSI6IjIzIEphbiAyMDIwIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJTY2FsaW5nIExhd3MgRm9yIERlZXAgTGVhcm5pbmcgQmFzZWQgSW1hZ2UgUmVjb25zdHJ1Y3Rpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjIwOS4xMzQzNSIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIHN0dWR5IHdoZXRoZXIgbWFqb3IgcGVyZm9ybWFuY2UgZ2FpbnMgYXJlIGV4cGVjdGVkIGZyb20gc2NhbGluZyB1cCB0aGUgdHJhaW5pbmcgc2V0IHNpemUuIC4gRm9yIGFsbCB0aHJlZSB0YXNrcyB3ZSBmaW5kIHRoYXQgYW4gaW5pdGlhbGx5IC4uLiIsImRhdGUiOiIyNyBTZXB0IDIwMjIiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IltQREZdIHNjYWxpbmcgbGF3cyBmb3IgZ2VuZXJhdGl2ZSBtaXhlZC1tb2RhbCBsYW5ndWFnZSBtb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwMS4wMzcyOCIsInNuaXBwZXQiOiJXZSBkZXZlbG9wIG5ldXJhbCBzY2FsaW5nIGxhd3MgZm9yIG1peGVkLW1vZGFsaXRpZXMgbW9kZWxzIHRoYXQgaW5jbHVkZSB0ZXh0LCBzcGVlY2gsIGltYWdlcywgY29kZSwgYW5kIHRoZWlyIG51bWVyb3VzIGNvdXBsaW5ncy4iLCJkYXRlIjoiMTAgSmFuIDIwMjMiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlsyMDAxLjA4MzYxXSBTY2FsaW5nIExhd3MgZm9yIE5ldXJhbCBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjAwMS4wODM2MSIsInNuaXBwZXQiOiJXZSBzdHVkeSBlbXBpcmljYWwgc2NhbGluZyBsYXdzIGZvciBsYW5ndWFnZSBtb2RlbCBwZXJmb3JtYW5jZSBvbiB0aGUgY3Jvc3MtZW50cm9weSBsb3NzLiBUaGUgbG9zcyBzY2FsZXMgYXMgYSBwb3dlci1sYXcgd2l0aCBtb2RlbCBzaXplLCBkYXRhc2V0IHNpemUsIGFuZCB0aGUgLi4uIiwiZGF0ZSI6IjIzIEphbiAyMDIwIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbMjMwOC4wMDY3OF0gQXBwbGljYWJpbGl0eSBvZiBzY2FsaW5nIGxhd3MgdG8gdmlzaW9uIGVuY29kaW5nIG1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwOC4wMDY3OCIsInNuaXBwZXQiOiJUaGUgcmVzdWx0cyBzaG93IHRoYXQgYXMgdGhlIHNhbXBsZSBzaXplIHVzZWQgZHVyaW5nIHRyYWluaW5nIGluY3JlYXNlcywgdGhlIHByZWRpY3Rpb24gYWNjdXJhY3kgaW1wcm92ZXMgYWNjb3JkaW5nIHRvIHRoZSBzY2FsaW5nIGxhdy4iLCJkYXRlIjoiMSBBdWcgMjAyMyIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiWzIyMDkuMDY2NDBdIFJldmlzaXRpbmcgTmV1cmFsIFNjYWxpbmcgTGF3cyBpbiBMYW5ndWFnZSBhbmQgVmlzaW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMjA5LjA2NjQwIiwic25pcHBldCI6IkFic3RyYWN0OlRoZSByZW1hcmthYmxlIHByb2dyZXNzIGluIGRlZXAgbGVhcm5pbmcgaW4gcmVjZW50IHllYXJzIGlzIGxhcmdlbHkgZHJpdmVuIGJ5IGltcHJvdmVtZW50cyBpbiBzY2FsZSwgd2hlcmUgYmlnZ2VyIG1vZGVscyBhcmUgdHJhaW5lZCBvbiBsYXJnZXIgZGF0YXNldHMgLi4uIiwiZGF0ZSI6IjEzIFNlcHQgMjAyMiIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiU2NhbGluZyBMYXdzIERvIE5vdCBTY2FsZSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwNy4wMzIwMXYyIiwic25pcHBldCI6IlNjYWxpbmcgbGF3cywgd2hpY2ggYXJlIGFnZ3JlZ2F0ZSBldmFsdWF0aW9ucyBvZiBtb2RlbHMnIHBlcmZvcm1hbmNlIGFjcm9zcyB0aGUgZW50aXJlIGV2YWx1YXRpb24gZGF0YXNldCBVIFUgLCBtYXkgc2ltaWxhcmx5IGhpZGUgZmFpbHVyZXMgb3IgaW52ZXJzZSAuLi4iLCJkYXRlIjoiMjggSnVsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "c3fece0324124ab9d3f15af43c794b0d09b4561cde88a3d0318cdb1b70075347",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Research on scaling law in image-text models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "[2312.04567] Scaling Laws of Synthetic Images for Model Training ...",
+                "link": "https://arxiv.org/abs/2312.04567",
+                "snippet": "In this paper we study the scaling laws of synthetic images generated by state of the art text-to-image models, for the training of supervised models:",
+                "date": "7 Dec 2023",
+                "position": 1
+              },
+              {
+                "title": "On the Scalability of Diffusion-based Text-to-Image Generation - arXiv",
+                "link": "https://arxiv.org/abs/2404.02883",
+                "snippet": "In this work, we empirically study the scaling properties of diffusion based T2I models by performing extensive and rigours ablations on scaling both denoising ...",
+                "date": "3 Apr 2024",
+                "position": 2
+              },
+              {
+                "title": "Reproducible scaling laws for contrastive language-image learning",
+                "link": "https://arxiv.org/abs/2212.07143",
+                "snippet": "Our large-scale experiments involve models trained on up to two billion image-text pairs and identify power law scaling for multiple downstream tasks",
+                "date": "14 Dec 2022",
+                "position": 3
+              },
+              {
+                "title": "[PDF] Scaling Laws for Neural Language Models - arXiv",
+                "link": "https://arxiv.org/pdf/2001.08361",
+                "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the ...",
+                "date": "23 Jan 2020",
+                "position": 4
+              },
+              {
+                "title": "Scaling Laws For Deep Learning Based Image Reconstruction - arXiv",
+                "link": "https://arxiv.org/abs/2209.13435",
+                "snippet": "In this work, we study whether major performance gains are expected from scaling up the training set size. . For all three tasks we find that an initially ...",
+                "date": "27 Sept 2022",
+                "position": 5
+              },
+              {
+                "title": "[PDF] scaling laws for generative mixed-modal language models - arXiv",
+                "link": "https://arxiv.org/pdf/2301.03728",
+                "snippet": "We develop neural scaling laws for mixed-modalities models that include text, speech, images, code, and their numerous couplings.",
+                "date": "10 Jan 2023",
+                "position": 6
+              },
+              {
+                "title": "[2001.08361] Scaling Laws for Neural Language Models - arXiv",
+                "link": "https://arxiv.org/abs/2001.08361",
+                "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the ...",
+                "date": "23 Jan 2020",
+                "position": 7
+              },
+              {
+                "title": "[2308.00678] Applicability of scaling laws to vision encoding models",
+                "link": "https://arxiv.org/abs/2308.00678",
+                "snippet": "The results show that as the sample size used during training increases, the prediction accuracy improves according to the scaling law.",
+                "date": "1 Aug 2023",
+                "position": 8
+              },
+              {
+                "title": "[2209.06640] Revisiting Neural Scaling Laws in Language and Vision",
+                "link": "https://arxiv.org/abs/2209.06640",
+                "snippet": "Abstract:The remarkable progress in deep learning in recent years is largely driven by improvements in scale, where bigger models are trained on larger datasets ...",
+                "date": "13 Sept 2022",
+                "position": 9
+              },
+              {
+                "title": "Scaling Laws Do Not Scale - arXiv",
+                "link": "https://arxiv.org/html/2307.03201v2",
+                "snippet": "Scaling laws, which are aggregate evaluations of models' performance across the entire evaluation dataset U U , may similarly hide failures or inverse ...",
+                "date": "28 Jul 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:50.428050+00:00",
+          "elapsed_seconds": 0.8755369260907173
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2001.08361",
+        "2209.06640",
+        "2209.13435",
+        "2212.07143",
+        "2301.03728",
+        "2307.03201",
+        "2308.00678",
+        "2312.04567",
+        "2404.02883"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2312.04567",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2312.04567",
+          "title": "[2312.04567] Scaling Laws of Synthetic Images for Model Training ...",
+          "snippet": "In this paper we study the scaling laws of synthetic images generated by state of the art text-to-image models, for the training of supervised models:"
+        },
+        {
+          "arxiv_id": "2404.02883",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2404.02883",
+          "title": "On the Scalability of Diffusion-based Text-to-Image Generation - arXiv",
+          "snippet": "In this work, we empirically study the scaling properties of diffusion based T2I models by performing extensive and rigours ablations on scaling both denoising ..."
+        },
+        {
+          "arxiv_id": "2212.07143",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2212.07143",
+          "title": "Reproducible scaling laws for contrastive language-image learning",
+          "snippet": "Our large-scale experiments involve models trained on up to two billion image-text pairs and identify power law scaling for multiple downstream tasks"
+        },
+        {
+          "arxiv_id": "2001.08361",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2001.08361",
+          "title": "[PDF] Scaling Laws for Neural Language Models - arXiv",
+          "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the ..."
+        },
+        {
+          "arxiv_id": "2209.13435",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2209.13435",
+          "title": "Scaling Laws For Deep Learning Based Image Reconstruction - arXiv",
+          "snippet": "In this work, we study whether major performance gains are expected from scaling up the training set size. . For all three tasks we find that an initially ..."
+        },
+        {
+          "arxiv_id": "2301.03728",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2301.03728",
+          "title": "[PDF] scaling laws for generative mixed-modal language models - arXiv",
+          "snippet": "We develop neural scaling laws for mixed-modalities models that include text, speech, images, code, and their numerous couplings."
+        },
+        {
+          "arxiv_id": "2001.08361",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/abs/2001.08361",
+          "title": "[2001.08361] Scaling Laws for Neural Language Models - arXiv",
+          "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the ..."
+        },
+        {
+          "arxiv_id": "2308.00678",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2308.00678",
+          "title": "[2308.00678] Applicability of scaling laws to vision encoding models",
+          "snippet": "The results show that as the sample size used during training increases, the prediction accuracy improves according to the scaling law."
+        },
+        {
+          "arxiv_id": "2209.06640",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2209.06640",
+          "title": "[2209.06640] Revisiting Neural Scaling Laws in Language and Vision",
+          "snippet": "Abstract:The remarkable progress in deep learning in recent years is largely driven by improvements in scale, where bigger models are trained on larger datasets ..."
+        },
+        {
+          "arxiv_id": "2307.03201",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2307.03201v2",
+          "title": "Scaling Laws Do Not Scale - arXiv",
+          "snippet": "Scaling laws, which are aggregate evaluations of models' performance across the entire evaluation dataset U U , may similarly hide failures or inverse ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Research on scaling law in image-text models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Scaling behavior of multi-modal transformer models in video-text tasks",
+      "attempts": [
+        {
+          "global_attempt_sequence": 65,
+          "query_id": "Q10",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Scaling behavior of multi-modal transformer models in video-text tasks",
+          "request_payload": {
+            "q": "Scaling behavior of multi-modal transformer models in video-text tasks before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q10_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:25:50.490717+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Scaling behavior of multi-modal transformer models in video-text tasks before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[PDF] Multimodal Learning with Transformers: A Survey - arXiv\",\"link\":\"https://arxiv.org/pdf/2206.06488\",\"snippet\":\"In Section 4, we provide a review of multimodal Transformer applications, via two important paradigms, i.e., for multimodal pretraining and for specific ...\",\"date\":\"May 10, 2023\",\"position\":1},{\"title\":\"Multimodal Diffusion Transformer: Learning Versatile Behavior from ...\",\"link\":\"https://arxiv.org/html/2407.05996v1\",\"snippet\":\"MDT excels in learning from multimodal goals and sets a new state-of-the-art performance on the CALVIN Challenge and across all LIBERO task suites.\",\"date\":\"Jul 8, 2024\",\"position\":2},{\"title\":\"InternVideo2: Scaling Video Foundation Models for Multimodal ...\",\"link\":\"https://arxiv.org/html/2403.15377v1\",\"snippet\":\"We introduce InternVideo2, a new video foundation model (ViFM) that achieves the state-of-the-art performance in action recognition, video-text tasks, and ...\",\"date\":\"Mar 22, 2024\",\"position\":3},{\"title\":\"Efficient End-to-End Video Question Answering with Pyramidal ...\",\"link\":\"https://arxiv.org/html/2302.02136v2\",\"snippet\":\"Our ablation study shows the scalability of our model that achieves competitive results for text-to-video retrieval by leveraging feature extractors with ...\",\"date\":\"Mar 5, 2023\",\"position\":4},{\"title\":\"[PDF] Contrastive Video Question Answering via Video Graph Transformer\",\"link\":\"https://arxiv.org/pdf/2302.13668\",\"snippet\":\"It designs separate video and text transformers for contrastive learning between the video and text to perform QA, instead of multi-modal transformer for ...\",\"date\":\"Feb 28, 2023\",\"position\":5},{\"title\":\"UniT: Multimodal Multitask Learning with a Unified Transformer - arXiv\",\"link\":\"https://arxiv.org/html/2102.10772v3\",\"snippet\":\"We propose UniT, a Unified Transformer model to simultaneously learn the most prominent tasks across different domains, ranging from object detection to natural ...\",\"date\":\"Aug 18, 2021\",\"position\":6},{\"title\":\"CLIP2Video: Mastering Video-Text Retrieval via Image CLIP - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2106.11097\",\"snippet\":\"We present CLIP2Video network to transfer the image-language pre-training model to video-text retrieval in an end-to-end manner. multi-modal learning and ...\",\"date\":\"Jun 22, 2021\",\"position\":7},{\"title\":\"[PDF] InternVideo2: Scaling Foundation Models for Multimodal Video ...\",\"link\":\"https://arxiv.org/pdf/2403.15377?\",\"snippet\":\"We introduce InternVideo2, a new family of video foundation models (ViFM) that achieve the state- of-the-art results in video recognition, video-text tasks, and ...\",\"date\":\"Aug 14, 2024\",\"position\":8},{\"title\":\"[2106.13230] Video Swin Transformer - ar5iv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2106.13230\",\"snippet\":\"MViT [9] is a multi-scale vision transformer for video recognition trained from scratch that reduces computation by pooling attention for spatiotemporal ...\",\"date\":\"Jun 24, 2021\",\"sitelinks\":[{\"title\":\"3.2 3d Shifted Window Based...\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2106.13230#:~:text=3.2%203D%20Shifted%20Window%20based%20MSA%20Module\"},{\"title\":\"4 Experiments\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2106.13230#:~:text=4%20Experiments\"},{\"title\":\"4.3 Ablation Study\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2106.13230#:~:text=4.3%20Ablation%20Study\"}],\"position\":9},{\"title\":\"[PDF] arXiv:2308.08414v1 [cs.CV] 16 Aug 2023\",\"link\":\"https://arxiv.org/pdf/2308.08414\",\"snippet\":\"These methods pre-train mod- els by aligning the video and language domains and then apply them to VideoQA tasks via fine-tuning or even zero- shot learning.\",\"date\":\"Aug 16, 2023\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTY2FsaW5nIGJlaGF2aW9yIG9mIG11bHRpLW1vZGFsIHRyYW5zZm9ybWVyIG1vZGVscyBpbiB2aWRlby10ZXh0IHRhc2tzIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IltQREZdIE11bHRpbW9kYWwgTGVhcm5pbmcgd2l0aCBUcmFuc2Zvcm1lcnM6IEEgU3VydmV5IC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMDYuMDY0ODgiLCJzbmlwcGV0IjoiSW4gU2VjdGlvbiA0LCB3ZSBwcm92aWRlIGEgcmV2aWV3IG9mIG11bHRpbW9kYWwgVHJhbnNmb3JtZXIgYXBwbGljYXRpb25zLCB2aWEgdHdvIGltcG9ydGFudCBwYXJhZGlnbXMsIGkuZS4sIGZvciBtdWx0aW1vZGFsIHByZXRyYWluaW5nIGFuZCBmb3Igc3BlY2lmaWMgLi4uIiwiZGF0ZSI6Ik1heSAxMCwgMjAyMyIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiTXVsdGltb2RhbCBEaWZmdXNpb24gVHJhbnNmb3JtZXI6IExlYXJuaW5nIFZlcnNhdGlsZSBCZWhhdmlvciBmcm9tIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDcuMDU5OTZ2MSIsInNuaXBwZXQiOiJNRFQgZXhjZWxzIGluIGxlYXJuaW5nIGZyb20gbXVsdGltb2RhbCBnb2FscyBhbmQgc2V0cyBhIG5ldyBzdGF0ZS1vZi10aGUtYXJ0IHBlcmZvcm1hbmNlIG9uIHRoZSBDQUxWSU4gQ2hhbGxlbmdlIGFuZCBhY3Jvc3MgYWxsIExJQkVSTyB0YXNrIHN1aXRlcy4iLCJkYXRlIjoiSnVsIDgsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkludGVyblZpZGVvMjogU2NhbGluZyBWaWRlbyBGb3VuZGF0aW9uIE1vZGVscyBmb3IgTXVsdGltb2RhbCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE1Mzc3djEiLCJzbmlwcGV0IjoiV2UgaW50cm9kdWNlIEludGVyblZpZGVvMiwgYSBuZXcgdmlkZW8gZm91bmRhdGlvbiBtb2RlbCAoVmlGTSkgdGhhdCBhY2hpZXZlcyB0aGUgc3RhdGUtb2YtdGhlLWFydCBwZXJmb3JtYW5jZSBpbiBhY3Rpb24gcmVjb2duaXRpb24sIHZpZGVvLXRleHQgdGFza3MsIGFuZCAuLi4iLCJkYXRlIjoiTWFyIDIyLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJFZmZpY2llbnQgRW5kLXRvLUVuZCBWaWRlbyBRdWVzdGlvbiBBbnN3ZXJpbmcgd2l0aCBQeXJhbWlkYWwgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwMi4wMjEzNnYyIiwic25pcHBldCI6Ik91ciBhYmxhdGlvbiBzdHVkeSBzaG93cyB0aGUgc2NhbGFiaWxpdHkgb2Ygb3VyIG1vZGVsIHRoYXQgYWNoaWV2ZXMgY29tcGV0aXRpdmUgcmVzdWx0cyBmb3IgdGV4dC10by12aWRlbyByZXRyaWV2YWwgYnkgbGV2ZXJhZ2luZyBmZWF0dXJlIGV4dHJhY3RvcnMgd2l0aCAuLi4iLCJkYXRlIjoiTWFyIDUsIDIwMjMiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIENvbnRyYXN0aXZlIFZpZGVvIFF1ZXN0aW9uIEFuc3dlcmluZyB2aWEgVmlkZW8gR3JhcGggVHJhbnNmb3JtZXIiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDIuMTM2NjgiLCJzbmlwcGV0IjoiSXQgZGVzaWducyBzZXBhcmF0ZSB2aWRlbyBhbmQgdGV4dCB0cmFuc2Zvcm1lcnMgZm9yIGNvbnRyYXN0aXZlIGxlYXJuaW5nIGJldHdlZW4gdGhlIHZpZGVvIGFuZCB0ZXh0IHRvIHBlcmZvcm0gUUEsIGluc3RlYWQgb2YgbXVsdGktbW9kYWwgdHJhbnNmb3JtZXIgZm9yIC4uLiIsImRhdGUiOiJGZWIgMjgsIDIwMjMiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IlVuaVQ6IE11bHRpbW9kYWwgTXVsdGl0YXNrIExlYXJuaW5nIHdpdGggYSBVbmlmaWVkIFRyYW5zZm9ybWVyIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMTAyLjEwNzcydjMiLCJzbmlwcGV0IjoiV2UgcHJvcG9zZSBVbmlULCBhIFVuaWZpZWQgVHJhbnNmb3JtZXIgbW9kZWwgdG8gc2ltdWx0YW5lb3VzbHkgbGVhcm4gdGhlIG1vc3QgcHJvbWluZW50IHRhc2tzIGFjcm9zcyBkaWZmZXJlbnQgZG9tYWlucywgcmFuZ2luZyBmcm9tIG9iamVjdCBkZXRlY3Rpb24gdG8gbmF0dXJhbCAuLi4iLCJkYXRlIjoiQXVnIDE4LCAyMDIxIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJDTElQMlZpZGVvOiBNYXN0ZXJpbmcgVmlkZW8tVGV4dCBSZXRyaWV2YWwgdmlhIEltYWdlIENMSVAgLSBhcjVpdiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjEwNi4xMTA5NyIsInNuaXBwZXQiOiJXZSBwcmVzZW50IENMSVAyVmlkZW8gbmV0d29yayB0byB0cmFuc2ZlciB0aGUgaW1hZ2UtbGFuZ3VhZ2UgcHJlLXRyYWluaW5nIG1vZGVsIHRvIHZpZGVvLXRleHQgcmV0cmlldmFsIGluIGFuIGVuZC10by1lbmQgbWFubmVyLiBtdWx0aS1tb2RhbCBsZWFybmluZyBhbmQgLi4uIiwiZGF0ZSI6Ikp1biAyMiwgMjAyMSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gSW50ZXJuVmlkZW8yOiBTY2FsaW5nIEZvdW5kYXRpb24gTW9kZWxzIGZvciBNdWx0aW1vZGFsIFZpZGVvIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjQwMy4xNTM3Nz8iLCJzbmlwcGV0IjoiV2UgaW50cm9kdWNlIEludGVyblZpZGVvMiwgYSBuZXcgZmFtaWx5IG9mIHZpZGVvIGZvdW5kYXRpb24gbW9kZWxzIChWaUZNKSB0aGF0IGFjaGlldmUgdGhlIHN0YXRlLSBvZi10aGUtYXJ0IHJlc3VsdHMgaW4gdmlkZW8gcmVjb2duaXRpb24sIHZpZGVvLXRleHQgdGFza3MsIGFuZCAuLi4iLCJkYXRlIjoiQXVnIDE0LCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbMjEwNi4xMzIzMF0gVmlkZW8gU3dpbiBUcmFuc2Zvcm1lciAtIGFyNWl2IiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMTA2LjEzMjMwIiwic25pcHBldCI6Ik1WaVQgWzldIGlzIGEgbXVsdGktc2NhbGUgdmlzaW9uIHRyYW5zZm9ybWVyIGZvciB2aWRlbyByZWNvZ25pdGlvbiB0cmFpbmVkIGZyb20gc2NyYXRjaCB0aGF0IHJlZHVjZXMgY29tcHV0YXRpb24gYnkgcG9vbGluZyBhdHRlbnRpb24gZm9yIHNwYXRpb3RlbXBvcmFsIC4uLiIsImRhdGUiOiJKdW4gMjQsIDIwMjEiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiMy4yIDNkIFNoaWZ0ZWQgV2luZG93IEJhc2VkLi4uIiwibGluayI6Imh0dHBzOi8vYXI1aXYubGFicy5hcnhpdi5vcmcvaHRtbC8yMTA2LjEzMjMwIzp+OnRleHQ9My4yJTIwM0QlMjBTaGlmdGVkJTIwV2luZG93JTIwYmFzZWQlMjBNU0ElMjBNb2R1bGUifSx7InRpdGxlIjoiNCBFeHBlcmltZW50cyIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjEwNi4xMzIzMCM6fjp0ZXh0PTQlMjBFeHBlcmltZW50cyJ9LHsidGl0bGUiOiI0LjMgQWJsYXRpb24gU3R1ZHkiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIxMDYuMTMyMzAjOn46dGV4dD00LjMlMjBBYmxhdGlvbiUyMFN0dWR5In1dLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDguMDg0MTR2MSBbY3MuQ1ZdIDE2IEF1ZyAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA4LjA4NDE0Iiwic25pcHBldCI6IlRoZXNlIG1ldGhvZHMgcHJlLXRyYWluIG1vZC0gZWxzIGJ5IGFsaWduaW5nIHRoZSB2aWRlbyBhbmQgbGFuZ3VhZ2UgZG9tYWlucyBhbmQgdGhlbiBhcHBseSB0aGVtIHRvIFZpZGVvUUEgdGFza3MgdmlhIGZpbmUtdHVuaW5nIG9yIGV2ZW4gemVyby0gc2hvdCBsZWFybmluZy4iLCJkYXRlIjoiQXVnIDE2LCAyMDIzIiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "66c4d257712ddb3c82d23898ff31357d002af791376883e45923b70117fade15",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Scaling behavior of multi-modal transformer models in video-text tasks before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "[PDF] Multimodal Learning with Transformers: A Survey - arXiv",
+                "link": "https://arxiv.org/pdf/2206.06488",
+                "snippet": "In Section 4, we provide a review of multimodal Transformer applications, via two important paradigms, i.e., for multimodal pretraining and for specific ...",
+                "date": "May 10, 2023",
+                "position": 1
+              },
+              {
+                "title": "Multimodal Diffusion Transformer: Learning Versatile Behavior from ...",
+                "link": "https://arxiv.org/html/2407.05996v1",
+                "snippet": "MDT excels in learning from multimodal goals and sets a new state-of-the-art performance on the CALVIN Challenge and across all LIBERO task suites.",
+                "date": "Jul 8, 2024",
+                "position": 2
+              },
+              {
+                "title": "InternVideo2: Scaling Video Foundation Models for Multimodal ...",
+                "link": "https://arxiv.org/html/2403.15377v1",
+                "snippet": "We introduce InternVideo2, a new video foundation model (ViFM) that achieves the state-of-the-art performance in action recognition, video-text tasks, and ...",
+                "date": "Mar 22, 2024",
+                "position": 3
+              },
+              {
+                "title": "Efficient End-to-End Video Question Answering with Pyramidal ...",
+                "link": "https://arxiv.org/html/2302.02136v2",
+                "snippet": "Our ablation study shows the scalability of our model that achieves competitive results for text-to-video retrieval by leveraging feature extractors with ...",
+                "date": "Mar 5, 2023",
+                "position": 4
+              },
+              {
+                "title": "[PDF] Contrastive Video Question Answering via Video Graph Transformer",
+                "link": "https://arxiv.org/pdf/2302.13668",
+                "snippet": "It designs separate video and text transformers for contrastive learning between the video and text to perform QA, instead of multi-modal transformer for ...",
+                "date": "Feb 28, 2023",
+                "position": 5
+              },
+              {
+                "title": "UniT: Multimodal Multitask Learning with a Unified Transformer - arXiv",
+                "link": "https://arxiv.org/html/2102.10772v3",
+                "snippet": "We propose UniT, a Unified Transformer model to simultaneously learn the most prominent tasks across different domains, ranging from object detection to natural ...",
+                "date": "Aug 18, 2021",
+                "position": 6
+              },
+              {
+                "title": "CLIP2Video: Mastering Video-Text Retrieval via Image CLIP - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2106.11097",
+                "snippet": "We present CLIP2Video network to transfer the image-language pre-training model to video-text retrieval in an end-to-end manner. multi-modal learning and ...",
+                "date": "Jun 22, 2021",
+                "position": 7
+              },
+              {
+                "title": "[PDF] InternVideo2: Scaling Foundation Models for Multimodal Video ...",
+                "link": "https://arxiv.org/pdf/2403.15377?",
+                "snippet": "We introduce InternVideo2, a new family of video foundation models (ViFM) that achieve the state- of-the-art results in video recognition, video-text tasks, and ...",
+                "date": "Aug 14, 2024",
+                "position": 8
+              },
+              {
+                "title": "[2106.13230] Video Swin Transformer - ar5iv",
+                "link": "https://ar5iv.labs.arxiv.org/html/2106.13230",
+                "snippet": "MViT [9] is a multi-scale vision transformer for video recognition trained from scratch that reduces computation by pooling attention for spatiotemporal ...",
+                "date": "Jun 24, 2021",
+                "sitelinks": [
+                  {
+                    "title": "3.2 3d Shifted Window Based...",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2106.13230#:~:text=3.2%203D%20Shifted%20Window%20based%20MSA%20Module"
+                  },
+                  {
+                    "title": "4 Experiments",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2106.13230#:~:text=4%20Experiments"
+                  },
+                  {
+                    "title": "4.3 Ablation Study",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2106.13230#:~:text=4.3%20Ablation%20Study"
+                  }
+                ],
+                "position": 9
+              },
+              {
+                "title": "[PDF] arXiv:2308.08414v1 [cs.CV] 16 Aug 2023",
+                "link": "https://arxiv.org/pdf/2308.08414",
+                "snippet": "These methods pre-train mod- els by aligning the video and language domains and then apply them to VideoQA tasks via fine-tuning or even zero- shot learning.",
+                "date": "Aug 16, 2023",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:51.574487+00:00",
+          "elapsed_seconds": 1.0837711170315742
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2102.10772",
+        "2106.11097",
+        "2106.13230",
+        "2206.06488",
+        "2302.02136",
+        "2302.13668",
+        "2308.08414",
+        "2403.15377",
+        "2407.05996"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2206.06488",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/pdf/2206.06488",
+          "title": "[PDF] Multimodal Learning with Transformers: A Survey - arXiv",
+          "snippet": "In Section 4, we provide a review of multimodal Transformer applications, via two important paradigms, i.e., for multimodal pretraining and for specific ..."
+        },
+        {
+          "arxiv_id": "2407.05996",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2407.05996v1",
+          "title": "Multimodal Diffusion Transformer: Learning Versatile Behavior from ...",
+          "snippet": "MDT excels in learning from multimodal goals and sets a new state-of-the-art performance on the CALVIN Challenge and across all LIBERO task suites."
+        },
+        {
+          "arxiv_id": "2403.15377",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2403.15377v1",
+          "title": "InternVideo2: Scaling Video Foundation Models for Multimodal ...",
+          "snippet": "We introduce InternVideo2, a new video foundation model (ViFM) that achieves the state-of-the-art performance in action recognition, video-text tasks, and ..."
+        },
+        {
+          "arxiv_id": "2302.02136",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2302.02136v2",
+          "title": "Efficient End-to-End Video Question Answering with Pyramidal ...",
+          "snippet": "Our ablation study shows the scalability of our model that achieves competitive results for text-to-video retrieval by leveraging feature extractors with ..."
+        },
+        {
+          "arxiv_id": "2302.13668",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2302.13668",
+          "title": "[PDF] Contrastive Video Question Answering via Video Graph Transformer",
+          "snippet": "It designs separate video and text transformers for contrastive learning between the video and text to perform QA, instead of multi-modal transformer for ..."
+        },
+        {
+          "arxiv_id": "2102.10772",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2102.10772v3",
+          "title": "UniT: Multimodal Multitask Learning with a Unified Transformer - arXiv",
+          "snippet": "We propose UniT, a Unified Transformer model to simultaneously learn the most prominent tasks across different domains, ranging from object detection to natural ..."
+        },
+        {
+          "arxiv_id": "2106.11097",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://ar5iv.labs.arxiv.org/html/2106.11097",
+          "title": "CLIP2Video: Mastering Video-Text Retrieval via Image CLIP - ar5iv",
+          "snippet": "We present CLIP2Video network to transfer the image-language pre-training model to video-text retrieval in an end-to-end manner. multi-modal learning and ..."
+        },
+        {
+          "arxiv_id": "2403.15377",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2403.15377?",
+          "title": "[PDF] InternVideo2: Scaling Foundation Models for Multimodal Video ...",
+          "snippet": "We introduce InternVideo2, a new family of video foundation models (ViFM) that achieve the state- of-the-art results in video recognition, video-text tasks, and ..."
+        },
+        {
+          "arxiv_id": "2106.13230",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://ar5iv.labs.arxiv.org/html/2106.13230",
+          "title": "[2106.13230] Video Swin Transformer - ar5iv",
+          "snippet": "MViT [9] is a multi-scale vision transformer for video recognition trained from scratch that reduces computation by pooling attention for spatiotemporal ..."
+        },
+        {
+          "arxiv_id": "2308.08414",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2308.08414",
+          "title": "[PDF] arXiv:2308.08414v1 [cs.CV] 16 Aug 2023",
+          "snippet": "These methods pre-train mod- els by aligning the video and language domains and then apply them to VideoQA tasks via fine-tuning or even zero- shot learning."
+        }
+      ],
+      "request_payload": {
+        "q": "Scaling behavior of multi-modal transformer models in video-text tasks before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Empirical studies on the scaling laws of text-to-video generation models",
+      "attempts": [
+        {
+          "global_attempt_sequence": 66,
+          "query_id": "Q10",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Empirical studies on the scaling laws of text-to-video generation models",
+          "request_payload": {
+            "q": "Empirical studies on the scaling laws of text-to-video generation models before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q10_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:25:51.637986+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Empirical studies on the scaling laws of text-to-video generation models before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"On the Scalability of Diffusion-based Text-to-Image Generation - arXiv\",\"link\":\"https://arxiv.org/abs/2404.02883\",\"snippet\":\"In this work, we empirically study the scaling properties of diffusion based T2I models by performing extensive and rigours ablations on scaling both denoising ...\",\"date\":\"Apr 3, 2024\",\"position\":1},{\"title\":\"Scaling Laws with Vocabulary:Larger Models Deserve Larger ... - arXiv\",\"link\":\"https://arxiv.org/html/2407.13623v1\",\"snippet\":\"We investigate how vocabulary size impacts LLM scaling laws by training models ranging from 33M to 3B parameters on up to 500B characters with various ...\",\"date\":\"Jul 18, 2024\",\"position\":2},{\"title\":\"[2312.15770] A Recipe for Scaling up Text-to-Video Generation with ...\",\"link\":\"https://arxiv.org/abs/2312.15770\",\"snippet\":\"Following such a pipeline, we study the effect of doubling the scale of training set (i.e., video-only WebVid10M) with some randomly collected text-free videos\",\"date\":\"Dec 25, 2023\",\"position\":3},{\"title\":\"[PDF] Scaling Laws for Neural Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2001.08361\",\"snippet\":\"We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size,\",\"date\":\"Jan 23, 2020\",\"position\":4},{\"title\":\"[2001.08361] Scaling Laws for Neural Language Models - arXiv\",\"link\":\"https://arxiv.org/abs/2001.08361\",\"snippet\":\"We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the ...\",\"date\":\"Jan 23, 2020\",\"position\":5},{\"title\":\"Will we run out of data? Limits of LLM scaling based on human ...\",\"link\":\"https://arxiv.org/html/2211.04325v2\",\"snippet\":\"We investigate the potential constraints on LLM scaling posed by the availability of public human-generated text data.\",\"date\":\"Jun 4, 2024\",\"position\":6},{\"title\":\": A Million-scale Real Prompt-Gallery Dataset for Text-to-Video ...\",\"link\":\"https://arxiv.org/html/2403.06098v2\",\"snippet\":\"In this paper, we introduce VidProM, the first large-scale dataset comprising 1.67 Million unique text-to- the need for a new prompt dataset specifically ...\",\"date\":\"Apr 21, 2024\",\"position\":7},{\"title\":\"Video Understanding with Large Language Models:A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.17432v4\",\"snippet\":\"Large language models typically exhibit the following characteristics: • Scaling Laws [ 145 ]: With a significant extension of the model size (number of ...\",\"date\":\"Jul 24, 2024\",\"position\":8},{\"title\":\"[PDF] Reproducible scaling laws for contrastive language-image learning\",\"link\":\"https://arxiv.org/pdf/2212.07143\",\"snippet\":\"In this work, we conduct a scaling laws study for contrastive language-vision learning by utilizing the recently released LAION-5B [65] dataset of 5 billion ...\",\"date\":\"Dec 15, 2022\",\"position\":9},{\"title\":\"[PDF] Scaling Laws for Forgetting When Fine-Tuning Large ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.05605\",\"snippet\":\"We study and quantify the problem of forgetting when fine-tuning pre-trained large language models (LLMs) on a downstream task.\",\"date\":\"Jan 11, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJFbXBpcmljYWwgc3R1ZGllcyBvbiB0aGUgc2NhbGluZyBsYXdzIG9mIHRleHQtdG8tdmlkZW8gZ2VuZXJhdGlvbiBtb2RlbHMgYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiT24gdGhlIFNjYWxhYmlsaXR5IG9mIERpZmZ1c2lvbi1iYXNlZCBUZXh0LXRvLUltYWdlIEdlbmVyYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNC4wMjg4MyIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIGVtcGlyaWNhbGx5IHN0dWR5IHRoZSBzY2FsaW5nIHByb3BlcnRpZXMgb2YgZGlmZnVzaW9uIGJhc2VkIFQySSBtb2RlbHMgYnkgcGVyZm9ybWluZyBleHRlbnNpdmUgYW5kIHJpZ291cnMgYWJsYXRpb25zIG9uIHNjYWxpbmcgYm90aCBkZW5vaXNpbmcgLi4uIiwiZGF0ZSI6IkFwciAzLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJTY2FsaW5nIExhd3Mgd2l0aCBWb2NhYnVsYXJ5OkxhcmdlciBNb2RlbHMgRGVzZXJ2ZSBMYXJnZXIgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA3LjEzNjIzdjEiLCJzbmlwcGV0IjoiV2UgaW52ZXN0aWdhdGUgaG93IHZvY2FidWxhcnkgc2l6ZSBpbXBhY3RzIExMTSBzY2FsaW5nIGxhd3MgYnkgdHJhaW5pbmcgbW9kZWxzIHJhbmdpbmcgZnJvbSAzM00gdG8gM0IgcGFyYW1ldGVycyBvbiB1cCB0byA1MDBCIGNoYXJhY3RlcnMgd2l0aCB2YXJpb3VzIC4uLiIsImRhdGUiOiJKdWwgMTgsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlsyMzEyLjE1NzcwXSBBIFJlY2lwZSBmb3IgU2NhbGluZyB1cCBUZXh0LXRvLVZpZGVvIEdlbmVyYXRpb24gd2l0aCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMTIuMTU3NzAiLCJzbmlwcGV0IjoiRm9sbG93aW5nIHN1Y2ggYSBwaXBlbGluZSwgd2Ugc3R1ZHkgdGhlIGVmZmVjdCBvZiBkb3VibGluZyB0aGUgc2NhbGUgb2YgdHJhaW5pbmcgc2V0IChpLmUuLCB2aWRlby1vbmx5IFdlYlZpZDEwTSkgd2l0aCBzb21lIHJhbmRvbWx5IGNvbGxlY3RlZCB0ZXh0LWZyZWUgdmlkZW9zIiwiZGF0ZSI6IkRlYyAyNSwgMjAyMyIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gU2NhbGluZyBMYXdzIGZvciBOZXVyYWwgTGFuZ3VhZ2UgTW9kZWxzIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIwMDEuMDgzNjEiLCJzbmlwcGV0IjoiV2Ugc3R1ZHkgZW1waXJpY2FsIHNjYWxpbmcgbGF3cyBmb3IgbGFuZ3VhZ2UgbW9kZWwgcGVyZm9ybWFuY2Ugb24gdGhlIGNyb3NzLWVudHJvcHkgbG9zcy4gVGhlIGxvc3Mgc2NhbGVzIGFzIGEgcG93ZXItbGF3IHdpdGggbW9kZWwgc2l6ZSwgZGF0YXNldCBzaXplLCIsImRhdGUiOiJKYW4gMjMsIDIwMjAiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlsyMDAxLjA4MzYxXSBTY2FsaW5nIExhd3MgZm9yIE5ldXJhbCBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjAwMS4wODM2MSIsInNuaXBwZXQiOiJXZSBzdHVkeSBlbXBpcmljYWwgc2NhbGluZyBsYXdzIGZvciBsYW5ndWFnZSBtb2RlbCBwZXJmb3JtYW5jZSBvbiB0aGUgY3Jvc3MtZW50cm9weSBsb3NzLiBUaGUgbG9zcyBzY2FsZXMgYXMgYSBwb3dlci1sYXcgd2l0aCBtb2RlbCBzaXplLCBkYXRhc2V0IHNpemUsIGFuZCB0aGUgLi4uIiwiZGF0ZSI6IkphbiAyMywgMjAyMCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiV2lsbCB3ZSBydW4gb3V0IG9mIGRhdGE/IExpbWl0cyBvZiBMTE0gc2NhbGluZyBiYXNlZCBvbiBodW1hbiAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjExLjA0MzI1djIiLCJzbmlwcGV0IjoiV2UgaW52ZXN0aWdhdGUgdGhlIHBvdGVudGlhbCBjb25zdHJhaW50cyBvbiBMTE0gc2NhbGluZyBwb3NlZCBieSB0aGUgYXZhaWxhYmlsaXR5IG9mIHB1YmxpYyBodW1hbi1nZW5lcmF0ZWQgdGV4dCBkYXRhLiIsImRhdGUiOiJKdW4gNCwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiOiBBIE1pbGxpb24tc2NhbGUgUmVhbCBQcm9tcHQtR2FsbGVyeSBEYXRhc2V0IGZvciBUZXh0LXRvLVZpZGVvIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMDYwOTh2MiIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBpbnRyb2R1Y2UgVmlkUHJvTSwgdGhlIGZpcnN0IGxhcmdlLXNjYWxlIGRhdGFzZXQgY29tcHJpc2luZyAxLjY3IE1pbGxpb24gdW5pcXVlIHRleHQtdG8tIHRoZSBuZWVkIGZvciBhIG5ldyBwcm9tcHQgZGF0YXNldCBzcGVjaWZpY2FsbHkgLi4uIiwiZGF0ZSI6IkFwciAyMSwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiVmlkZW8gVW5kZXJzdGFuZGluZyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVsczpBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4xNzQzMnY0Iiwic25pcHBldCI6IkxhcmdlIGxhbmd1YWdlIG1vZGVscyB0eXBpY2FsbHkgZXhoaWJpdCB0aGUgZm9sbG93aW5nIGNoYXJhY3RlcmlzdGljczog4oCiIFNjYWxpbmcgTGF3cyBbIDE0NSBdOiBXaXRoIGEgc2lnbmlmaWNhbnQgZXh0ZW5zaW9uIG9mIHRoZSBtb2RlbCBzaXplIChudW1iZXIgb2YgLi4uIiwiZGF0ZSI6Ikp1bCAyNCwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gUmVwcm9kdWNpYmxlIHNjYWxpbmcgbGF3cyBmb3IgY29udHJhc3RpdmUgbGFuZ3VhZ2UtaW1hZ2UgbGVhcm5pbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMTIuMDcxNDMiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBjb25kdWN0IGEgc2NhbGluZyBsYXdzIHN0dWR5IGZvciBjb250cmFzdGl2ZSBsYW5ndWFnZS12aXNpb24gbGVhcm5pbmcgYnkgdXRpbGl6aW5nIHRoZSByZWNlbnRseSByZWxlYXNlZCBMQUlPTi01QiBbNjVdIGRhdGFzZXQgb2YgNSBiaWxsaW9uIC4uLiIsImRhdGUiOiJEZWMgMTUsIDIwMjIiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIFNjYWxpbmcgTGF3cyBmb3IgRm9yZ2V0dGluZyBXaGVuIEZpbmUtVHVuaW5nIExhcmdlIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAxLjA1NjA1Iiwic25pcHBldCI6IldlIHN0dWR5IGFuZCBxdWFudGlmeSB0aGUgcHJvYmxlbSBvZiBmb3JnZXR0aW5nIHdoZW4gZmluZS10dW5pbmcgcHJlLXRyYWluZWQgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIChMTE1zKSBvbiBhIGRvd25zdHJlYW0gdGFzay4iLCJkYXRlIjoiSmFuIDExLCAyMDI0IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+          "response_sha256": "6d531ebc4909053b5894261e4febb969f23411e74a2636861dc448f0856bff74",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Empirical studies on the scaling laws of text-to-video generation models before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "On the Scalability of Diffusion-based Text-to-Image Generation - arXiv",
+                "link": "https://arxiv.org/abs/2404.02883",
+                "snippet": "In this work, we empirically study the scaling properties of diffusion based T2I models by performing extensive and rigours ablations on scaling both denoising ...",
+                "date": "Apr 3, 2024",
+                "position": 1
+              },
+              {
+                "title": "Scaling Laws with Vocabulary:Larger Models Deserve Larger ... - arXiv",
+                "link": "https://arxiv.org/html/2407.13623v1",
+                "snippet": "We investigate how vocabulary size impacts LLM scaling laws by training models ranging from 33M to 3B parameters on up to 500B characters with various ...",
+                "date": "Jul 18, 2024",
+                "position": 2
+              },
+              {
+                "title": "[2312.15770] A Recipe for Scaling up Text-to-Video Generation with ...",
+                "link": "https://arxiv.org/abs/2312.15770",
+                "snippet": "Following such a pipeline, we study the effect of doubling the scale of training set (i.e., video-only WebVid10M) with some randomly collected text-free videos",
+                "date": "Dec 25, 2023",
+                "position": 3
+              },
+              {
+                "title": "[PDF] Scaling Laws for Neural Language Models - arXiv",
+                "link": "https://arxiv.org/pdf/2001.08361",
+                "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size,",
+                "date": "Jan 23, 2020",
+                "position": 4
+              },
+              {
+                "title": "[2001.08361] Scaling Laws for Neural Language Models - arXiv",
+                "link": "https://arxiv.org/abs/2001.08361",
+                "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the ...",
+                "date": "Jan 23, 2020",
+                "position": 5
+              },
+              {
+                "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+                "link": "https://arxiv.org/html/2211.04325v2",
+                "snippet": "We investigate the potential constraints on LLM scaling posed by the availability of public human-generated text data.",
+                "date": "Jun 4, 2024",
+                "position": 6
+              },
+              {
+                "title": ": A Million-scale Real Prompt-Gallery Dataset for Text-to-Video ...",
+                "link": "https://arxiv.org/html/2403.06098v2",
+                "snippet": "In this paper, we introduce VidProM, the first large-scale dataset comprising 1.67 Million unique text-to- the need for a new prompt dataset specifically ...",
+                "date": "Apr 21, 2024",
+                "position": 7
+              },
+              {
+                "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+                "link": "https://arxiv.org/html/2312.17432v4",
+                "snippet": "Large language models typically exhibit the following characteristics: • Scaling Laws [ 145 ]: With a significant extension of the model size (number of ...",
+                "date": "Jul 24, 2024",
+                "position": 8
+              },
+              {
+                "title": "[PDF] Reproducible scaling laws for contrastive language-image learning",
+                "link": "https://arxiv.org/pdf/2212.07143",
+                "snippet": "In this work, we conduct a scaling laws study for contrastive language-vision learning by utilizing the recently released LAION-5B [65] dataset of 5 billion ...",
+                "date": "Dec 15, 2022",
+                "position": 9
+              },
+              {
+                "title": "[PDF] Scaling Laws for Forgetting When Fine-Tuning Large ... - arXiv",
+                "link": "https://arxiv.org/pdf/2401.05605",
+                "snippet": "We study and quantify the problem of forgetting when fine-tuning pre-trained large language models (LLMs) on a downstream task.",
+                "date": "Jan 11, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:52.688683+00:00",
+          "elapsed_seconds": 1.050696887075901
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2001.08361",
+        "2211.04325",
+        "2212.07143",
+        "2312.15770",
+        "2312.17432",
+        "2401.05605",
+        "2403.06098",
+        "2404.02883",
+        "2407.13623"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2404.02883",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/abs/2404.02883",
+          "title": "On the Scalability of Diffusion-based Text-to-Image Generation - arXiv",
+          "snippet": "In this work, we empirically study the scaling properties of diffusion based T2I models by performing extensive and rigours ablations on scaling both denoising ..."
+        },
+        {
+          "arxiv_id": "2407.13623",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2407.13623v1",
+          "title": "Scaling Laws with Vocabulary:Larger Models Deserve Larger ... - arXiv",
+          "snippet": "We investigate how vocabulary size impacts LLM scaling laws by training models ranging from 33M to 3B parameters on up to 500B characters with various ..."
+        },
+        {
+          "arxiv_id": "2312.15770",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2312.15770",
+          "title": "[2312.15770] A Recipe for Scaling up Text-to-Video Generation with ...",
+          "snippet": "Following such a pipeline, we study the effect of doubling the scale of training set (i.e., video-only WebVid10M) with some randomly collected text-free videos"
+        },
+        {
+          "arxiv_id": "2001.08361",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/pdf/2001.08361",
+          "title": "[PDF] Scaling Laws for Neural Language Models - arXiv",
+          "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size,"
+        },
+        {
+          "arxiv_id": "2001.08361",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2001.08361",
+          "title": "[2001.08361] Scaling Laws for Neural Language Models - arXiv",
+          "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the ..."
+        },
+        {
+          "arxiv_id": "2211.04325",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2211.04325v2",
+          "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+          "snippet": "We investigate the potential constraints on LLM scaling posed by the availability of public human-generated text data."
+        },
+        {
+          "arxiv_id": "2403.06098",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2403.06098v2",
+          "title": ": A Million-scale Real Prompt-Gallery Dataset for Text-to-Video ...",
+          "snippet": "In this paper, we introduce VidProM, the first large-scale dataset comprising 1.67 Million unique text-to- the need for a new prompt dataset specifically ..."
+        },
+        {
+          "arxiv_id": "2312.17432",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2312.17432v4",
+          "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+          "snippet": "Large language models typically exhibit the following characteristics: • Scaling Laws [ 145 ]: With a significant extension of the model size (number of ..."
+        },
+        {
+          "arxiv_id": "2212.07143",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2212.07143",
+          "title": "[PDF] Reproducible scaling laws for contrastive language-image learning",
+          "snippet": "In this work, we conduct a scaling laws study for contrastive language-vision learning by utilizing the recently released LAION-5B [65] dataset of 5 billion ..."
+        },
+        {
+          "arxiv_id": "2401.05605",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2401.05605",
+          "title": "[PDF] Scaling Laws for Forgetting When Fine-Tuning Large ... - arXiv",
+          "snippet": "We study and quantify the problem of forgetting when fine-tuning pre-trained large language models (LLMs) on a downstream task."
+        }
+      ],
+      "request_payload": {
+        "q": "Empirical studies on the scaling laws of text-to-video generation models before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "Is there any work that analyzes the scaling law of the multi-module models, such as video-text, image-text models?",
+      "attempts": [
+        {
+          "global_attempt_sequence": 67,
+          "query_id": "Q10",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "Is there any work that analyzes the scaling law of the multi-module models, such as video-text, image-text models?",
+          "request_payload": {
+            "q": "Is there any work that analyzes the scaling law of the multi-module models, such as video-text, image-text models? before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q10_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:25:52.753889+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Is there any work that analyzes the scaling law of the multi-module models, such as video-text, image-text models? before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Video Understanding with Large Language Models:A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2312.17432v4\",\"snippet\":\"Large language models typically exhibit the following characteristics: •. Scaling Laws [ 145 ]: With a significant extension of the model size (number of ...\",\"date\":\"Jul 24, 2024\",\"position\":1},{\"title\":\"InternVideo2: Scaling Video Foundation Models for Multimodal ...\",\"link\":\"https://arxiv.org/html/2403.15377v1\",\"snippet\":\"This paper extends upon this scheme by incorporating video-based next token prediction and scaling the entire training process, including models and data.\",\"date\":\"Mar 22, 2024\",\"position\":2},{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"by scaling laws. LLMs are expected to be multi-modal and handle a variety of data types, such as text, images, and videos, audio, in a unified manner.\",\"date\":\"Feb 20, 2024\",\"position\":3},{\"title\":\"A Review of Multi-Modal Large Language and Vision Models 1 - arXiv\",\"link\":\"https://arxiv.org/html/2404.01322v1\",\"snippet\":\"This paper provides an extensive review of the current state of those LLMs with multi-modal capabilities as well as the very recent MM-LLMs.\",\"date\":\"Mar 28, 2024\",\"position\":4},{\"title\":\"[PDF] Scaling Laws for Neural Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2001.08361\",\"snippet\":\"We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, ...\",\"date\":\"Jan 23, 2020\",\"position\":5},{\"title\":\"Segment Anything in Medical Images and Videos: Benchmark and ...\",\"link\":\"https://arxiv.org/html/2408.03322v1\",\"snippet\":\"In this work, we first present a comprehensive benchmarking of the Segment Anything Model 2 (SAM2) across 11 medical image modalities and videos and point out ...\",\"date\":\"Aug 6, 2024\",\"position\":6},{\"title\":\"From Sora What We Can See: A Survey of Text-to-Video Generation\",\"link\":\"https://arxiv.org/html/2405.10674v1\",\"snippet\":\"The video VAE compresses the video data into a lower-dimensional latent representation, which is then processed by the diffusion model to generate videos.\",\"date\":\"May 17, 2024\",\"position\":7},{\"title\":\"Will we run out of data? Limits of LLM scaling based on human ...\",\"link\":\"https://arxiv.org/html/2211.04325v2\",\"snippet\":\"In this paper, we argue that human-generated public text data cannot sustain scaling beyond this decade. To support this conclusion, we develop a model of the ...\",\"date\":\"Jun 4, 2024\",\"position\":8},{\"title\":\"Flamingo: a Visual Language Model for Few-Shot Learning - arXiv\",\"link\":\"https://arxiv.org/html/2204.14198v2\",\"snippet\":\"Thanks to their flexibility, Flamingo models can be trained on large-scale multimodal web corpora containing arbitrarily interleaved text and images, which is ...\",\"date\":\"Nov 15, 2022\",\"position\":9},{\"title\":\"[PDF] Scaling Scaling Laws with Board Games - arXiv\",\"link\":\"https://arxiv.org/pdf/2104.03113\",\"snippet\":\"In this work, we show that the behaviour of a model on a small problem instance predicts the behaviour of a model on a much larger problem instance. Our problem ...\",\"date\":\"Apr 15, 2021\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJJcyB0aGVyZSBhbnkgd29yayB0aGF0IGFuYWx5emVzIHRoZSBzY2FsaW5nIGxhdyBvZiB0aGUgbXVsdGktbW9kdWxlIG1vZGVscywgc3VjaCBhcyB2aWRlby10ZXh0LCBpbWFnZS10ZXh0IG1vZGVscz8gYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiVmlkZW8gVW5kZXJzdGFuZGluZyB3aXRoIExhcmdlIExhbmd1YWdlIE1vZGVsczpBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4xNzQzMnY0Iiwic25pcHBldCI6IkxhcmdlIGxhbmd1YWdlIG1vZGVscyB0eXBpY2FsbHkgZXhoaWJpdCB0aGUgZm9sbG93aW5nIGNoYXJhY3RlcmlzdGljczog4oCiLiBTY2FsaW5nIExhd3MgWyAxNDUgXTogV2l0aCBhIHNpZ25pZmljYW50IGV4dGVuc2lvbiBvZiB0aGUgbW9kZWwgc2l6ZSAobnVtYmVyIG9mIC4uLiIsImRhdGUiOiJKdWwgMjQsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkludGVyblZpZGVvMjogU2NhbGluZyBWaWRlbyBGb3VuZGF0aW9uIE1vZGVscyBmb3IgTXVsdGltb2RhbCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAzLjE1Mzc3djEiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBleHRlbmRzIHVwb24gdGhpcyBzY2hlbWUgYnkgaW5jb3Jwb3JhdGluZyB2aWRlby1iYXNlZCBuZXh0IHRva2VuIHByZWRpY3Rpb24gYW5kIHNjYWxpbmcgdGhlIGVudGlyZSB0cmFpbmluZyBwcm9jZXNzLCBpbmNsdWRpbmcgbW9kZWxzIGFuZCBkYXRhLiIsImRhdGUiOiJNYXIgMjIsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkxhcmdlIExhbmd1YWdlIE1vZGVsczogQSBTdXJ2ZXkgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDYxOTZ2MiIsInNuaXBwZXQiOiJieSBzY2FsaW5nIGxhd3MuIExMTXMgYXJlIGV4cGVjdGVkIHRvIGJlIG11bHRpLW1vZGFsIGFuZCBoYW5kbGUgYSB2YXJpZXR5IG9mIGRhdGEgdHlwZXMsIHN1Y2ggYXMgdGV4dCwgaW1hZ2VzLCBhbmQgdmlkZW9zLCBhdWRpbywgaW4gYSB1bmlmaWVkIG1hbm5lci4iLCJkYXRlIjoiRmViIDIwLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJBIFJldmlldyBvZiBNdWx0aS1Nb2RhbCBMYXJnZSBMYW5ndWFnZSBhbmQgVmlzaW9uIE1vZGVscyAxIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjAxMzIydjEiLCJzbmlwcGV0IjoiVGhpcyBwYXBlciBwcm92aWRlcyBhbiBleHRlbnNpdmUgcmV2aWV3IG9mIHRoZSBjdXJyZW50IHN0YXRlIG9mIHRob3NlIExMTXMgd2l0aCBtdWx0aS1tb2RhbCBjYXBhYmlsaXRpZXMgYXMgd2VsbCBhcyB0aGUgdmVyeSByZWNlbnQgTU0tTExNcy4iLCJkYXRlIjoiTWFyIDI4LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBTY2FsaW5nIExhd3MgZm9yIE5ldXJhbCBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjAwMS4wODM2MSIsInNuaXBwZXQiOiJXZSBzdHVkeSBlbXBpcmljYWwgc2NhbGluZyBsYXdzIGZvciBsYW5ndWFnZSBtb2RlbCBwZXJmb3JtYW5jZSBvbiB0aGUgY3Jvc3MtZW50cm9weSBsb3NzLiBUaGUgbG9zcyBzY2FsZXMgYXMgYSBwb3dlci1sYXcgd2l0aCBtb2RlbCBzaXplLCBkYXRhc2V0IHNpemUsIC4uLiIsImRhdGUiOiJKYW4gMjMsIDIwMjAiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IlNlZ21lbnQgQW55dGhpbmcgaW4gTWVkaWNhbCBJbWFnZXMgYW5kIFZpZGVvczogQmVuY2htYXJrIGFuZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjAzMzIydjEiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBmaXJzdCBwcmVzZW50IGEgY29tcHJlaGVuc2l2ZSBiZW5jaG1hcmtpbmcgb2YgdGhlIFNlZ21lbnQgQW55dGhpbmcgTW9kZWwgMiAoU0FNMikgYWNyb3NzIDExIG1lZGljYWwgaW1hZ2UgbW9kYWxpdGllcyBhbmQgdmlkZW9zIGFuZCBwb2ludCBvdXQgLi4uIiwiZGF0ZSI6IkF1ZyA2LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJGcm9tIFNvcmEgV2hhdCBXZSBDYW4gU2VlOiBBIFN1cnZleSBvZiBUZXh0LXRvLVZpZGVvIEdlbmVyYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjEwNjc0djEiLCJzbmlwcGV0IjoiVGhlIHZpZGVvIFZBRSBjb21wcmVzc2VzIHRoZSB2aWRlbyBkYXRhIGludG8gYSBsb3dlci1kaW1lbnNpb25hbCBsYXRlbnQgcmVwcmVzZW50YXRpb24sIHdoaWNoIGlzIHRoZW4gcHJvY2Vzc2VkIGJ5IHRoZSBkaWZmdXNpb24gbW9kZWwgdG8gZ2VuZXJhdGUgdmlkZW9zLiIsImRhdGUiOiJNYXkgMTcsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IldpbGwgd2UgcnVuIG91dCBvZiBkYXRhPyBMaW1pdHMgb2YgTExNIHNjYWxpbmcgYmFzZWQgb24gaHVtYW4gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIxMS4wNDMyNXYyIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGFyZ3VlIHRoYXQgaHVtYW4tZ2VuZXJhdGVkIHB1YmxpYyB0ZXh0IGRhdGEgY2Fubm90IHN1c3RhaW4gc2NhbGluZyBiZXlvbmQgdGhpcyBkZWNhZGUuIFRvIHN1cHBvcnQgdGhpcyBjb25jbHVzaW9uLCB3ZSBkZXZlbG9wIGEgbW9kZWwgb2YgdGhlIC4uLiIsImRhdGUiOiJKdW4gNCwgMjAyNCIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiRmxhbWluZ286IGEgVmlzdWFsIExhbmd1YWdlIE1vZGVsIGZvciBGZXctU2hvdCBMZWFybmluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwNC4xNDE5OHYyIiwic25pcHBldCI6IlRoYW5rcyB0byB0aGVpciBmbGV4aWJpbGl0eSwgRmxhbWluZ28gbW9kZWxzIGNhbiBiZSB0cmFpbmVkIG9uIGxhcmdlLXNjYWxlIG11bHRpbW9kYWwgd2ViIGNvcnBvcmEgY29udGFpbmluZyBhcmJpdHJhcmlseSBpbnRlcmxlYXZlZCB0ZXh0IGFuZCBpbWFnZXMsIHdoaWNoIGlzIC4uLiIsImRhdGUiOiJOb3YgMTUsIDIwMjIiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IltQREZdIFNjYWxpbmcgU2NhbGluZyBMYXdzIHdpdGggQm9hcmQgR2FtZXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjEwNC4wMzExMyIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIHNob3cgdGhhdCB0aGUgYmVoYXZpb3VyIG9mIGEgbW9kZWwgb24gYSBzbWFsbCBwcm9ibGVtIGluc3RhbmNlIHByZWRpY3RzIHRoZSBiZWhhdmlvdXIgb2YgYSBtb2RlbCBvbiBhIG11Y2ggbGFyZ2VyIHByb2JsZW0gaW5zdGFuY2UuIE91ciBwcm9ibGVtIC4uLiIsImRhdGUiOiJBcHIgMTUsIDIwMjEiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "f39f7b17aef7e9c71157ef4c6ff95c38e4d439351f75e14dfea302cc7751d78d",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Is there any work that analyzes the scaling law of the multi-module models, such as video-text, image-text models? before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+                "link": "https://arxiv.org/html/2312.17432v4",
+                "snippet": "Large language models typically exhibit the following characteristics: •. Scaling Laws [ 145 ]: With a significant extension of the model size (number of ...",
+                "date": "Jul 24, 2024",
+                "position": 1
+              },
+              {
+                "title": "InternVideo2: Scaling Video Foundation Models for Multimodal ...",
+                "link": "https://arxiv.org/html/2403.15377v1",
+                "snippet": "This paper extends upon this scheme by incorporating video-based next token prediction and scaling the entire training process, including models and data.",
+                "date": "Mar 22, 2024",
+                "position": 2
+              },
+              {
+                "title": "Large Language Models: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2402.06196v2",
+                "snippet": "by scaling laws. LLMs are expected to be multi-modal and handle a variety of data types, such as text, images, and videos, audio, in a unified manner.",
+                "date": "Feb 20, 2024",
+                "position": 3
+              },
+              {
+                "title": "A Review of Multi-Modal Large Language and Vision Models 1 - arXiv",
+                "link": "https://arxiv.org/html/2404.01322v1",
+                "snippet": "This paper provides an extensive review of the current state of those LLMs with multi-modal capabilities as well as the very recent MM-LLMs.",
+                "date": "Mar 28, 2024",
+                "position": 4
+              },
+              {
+                "title": "[PDF] Scaling Laws for Neural Language Models - arXiv",
+                "link": "https://arxiv.org/pdf/2001.08361",
+                "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, ...",
+                "date": "Jan 23, 2020",
+                "position": 5
+              },
+              {
+                "title": "Segment Anything in Medical Images and Videos: Benchmark and ...",
+                "link": "https://arxiv.org/html/2408.03322v1",
+                "snippet": "In this work, we first present a comprehensive benchmarking of the Segment Anything Model 2 (SAM2) across 11 medical image modalities and videos and point out ...",
+                "date": "Aug 6, 2024",
+                "position": 6
+              },
+              {
+                "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+                "link": "https://arxiv.org/html/2405.10674v1",
+                "snippet": "The video VAE compresses the video data into a lower-dimensional latent representation, which is then processed by the diffusion model to generate videos.",
+                "date": "May 17, 2024",
+                "position": 7
+              },
+              {
+                "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+                "link": "https://arxiv.org/html/2211.04325v2",
+                "snippet": "In this paper, we argue that human-generated public text data cannot sustain scaling beyond this decade. To support this conclusion, we develop a model of the ...",
+                "date": "Jun 4, 2024",
+                "position": 8
+              },
+              {
+                "title": "Flamingo: a Visual Language Model for Few-Shot Learning - arXiv",
+                "link": "https://arxiv.org/html/2204.14198v2",
+                "snippet": "Thanks to their flexibility, Flamingo models can be trained on large-scale multimodal web corpora containing arbitrarily interleaved text and images, which is ...",
+                "date": "Nov 15, 2022",
+                "position": 9
+              },
+              {
+                "title": "[PDF] Scaling Scaling Laws with Board Games - arXiv",
+                "link": "https://arxiv.org/pdf/2104.03113",
+                "snippet": "In this work, we show that the behaviour of a model on a small problem instance predicts the behaviour of a model on a much larger problem instance. Our problem ...",
+                "date": "Apr 15, 2021",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:54.321036+00:00",
+          "elapsed_seconds": 1.5671479031443596
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2001.08361",
+        "2104.03113",
+        "2204.14198",
+        "2211.04325",
+        "2312.17432",
+        "2402.06196",
+        "2403.15377",
+        "2404.01322",
+        "2405.10674",
+        "2408.03322"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2312.17432",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2312.17432v4",
+          "title": "Video Understanding with Large Language Models:A Survey - arXiv",
+          "snippet": "Large language models typically exhibit the following characteristics: •. Scaling Laws [ 145 ]: With a significant extension of the model size (number of ..."
+        },
+        {
+          "arxiv_id": "2403.15377",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2403.15377v1",
+          "title": "InternVideo2: Scaling Video Foundation Models for Multimodal ...",
+          "snippet": "This paper extends upon this scheme by incorporating video-based next token prediction and scaling the entire training process, including models and data."
+        },
+        {
+          "arxiv_id": "2402.06196",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2402.06196v2",
+          "title": "Large Language Models: A Survey - arXiv",
+          "snippet": "by scaling laws. LLMs are expected to be multi-modal and handle a variety of data types, such as text, images, and videos, audio, in a unified manner."
+        },
+        {
+          "arxiv_id": "2404.01322",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2404.01322v1",
+          "title": "A Review of Multi-Modal Large Language and Vision Models 1 - arXiv",
+          "snippet": "This paper provides an extensive review of the current state of those LLMs with multi-modal capabilities as well as the very recent MM-LLMs."
+        },
+        {
+          "arxiv_id": "2001.08361",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2001.08361",
+          "title": "[PDF] Scaling Laws for Neural Language Models - arXiv",
+          "snippet": "We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, ..."
+        },
+        {
+          "arxiv_id": "2408.03322",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2408.03322v1",
+          "title": "Segment Anything in Medical Images and Videos: Benchmark and ...",
+          "snippet": "In this work, we first present a comprehensive benchmarking of the Segment Anything Model 2 (SAM2) across 11 medical image modalities and videos and point out ..."
+        },
+        {
+          "arxiv_id": "2405.10674",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2405.10674v1",
+          "title": "From Sora What We Can See: A Survey of Text-to-Video Generation",
+          "snippet": "The video VAE compresses the video data into a lower-dimensional latent representation, which is then processed by the diffusion model to generate videos."
+        },
+        {
+          "arxiv_id": "2211.04325",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2211.04325v2",
+          "title": "Will we run out of data? Limits of LLM scaling based on human ...",
+          "snippet": "In this paper, we argue that human-generated public text data cannot sustain scaling beyond this decade. To support this conclusion, we develop a model of the ..."
+        },
+        {
+          "arxiv_id": "2204.14198",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2204.14198v2",
+          "title": "Flamingo: a Visual Language Model for Few-Shot Learning - arXiv",
+          "snippet": "Thanks to their flexibility, Flamingo models can be trained on large-scale multimodal web corpora containing arbitrarily interleaved text and images, which is ..."
+        },
+        {
+          "arxiv_id": "2104.03113",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2104.03113",
+          "title": "[PDF] Scaling Scaling Laws with Board Games - arXiv",
+          "snippet": "In this work, we show that the behaviour of a model on a small problem instance predicts the behaviour of a model on a much larger problem instance. Our problem ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Is there any work that analyzes the scaling law of the multi-module models, such as video-text, image-text models? before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "anchor"
+  ]
+}

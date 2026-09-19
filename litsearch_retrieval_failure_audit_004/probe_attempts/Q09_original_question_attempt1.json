@@ -1,0 +1,194 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q09",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2308.02585",
+  "request_payload": {
+    "q": "Which is one of the first papers to highlight and resolve the distribution shift in RLHF? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 18,
+  "started_utc": "2026-09-17T12:33:41.962440+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "22",
+    "x-ratelimit-reset": "1789648145",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "76b7d4a3f113c5ce0210d59a7167f357",
+    "date": "Thu, 17 Sep 2026 12:29:05 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3378",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3378,
+  "response_bytes_sha256": "7acf45c8779d01d128b8761cd9bbb0057c351e0bbef1b55edc00111f8f48e6ec",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJXaGljaCBpcyBvbmUgb2YgdGhlIGZpcnN0IHBhcGVycyB0byBoaWdobGlnaHQgYW5kIHJlc29sdmUgdGhlIGRpc3RyaWJ1dGlvbiBzaGlmdCBpbiBSTEhGPyBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJIb3cgUkxIRiBBbXBsaWZpZXMgU3ljb3BoYW5jeSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwMi4wMTAwMnYxIiwic25pcHBldCI6IldlIGZpcnN0IHRyZWF0IHRoZSBsZWFybmVkIHJld2FyZCBzaWduYWwgciDigaEgKCB4ICwgeSApIHIoeCx5KSBhcyBmaXhlZCBhbmQgc3R1ZHkgaG93IG9wdGltaXppbmcgaXQgcmVzaGFwZXMgdGhlIHJlc3BvbnNlIGRpc3RyaWJ1dGlvbiBhbmQgc2hpZnRzIHRoZSBleHBlY3RlZCAuLi4iLCJkYXRlIjoiRmViIDEsIDIwMjYiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkludmVzdGlnYXRpbmcgb24gUkxIRiBtZXRob2RvbG9neSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMC4wMTc4OXYxIiwic25pcHBldCI6IkFic3RyYWN0LiBJbiB0aGlzIGFydGljbGUsIHdlIGludmVzdGlnYXRlIHRoZSBhbGlnbm1lbnQgb2YgTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIGFjY29yZGluZyB0byBodW1hbiBwcmVmZXJlbmNlcy4gV2UgZGlzY3VzcyB0aGUgZmVhdHVyZXMgb2YgdHJhaW5pbmcgYSAuLi4iLCJkYXRlIjoiT2N0IDIsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlNlY3JldHMgb2YgUkxIRiBpbiBMYXJnZSBMYW5ndWFnZSBNb2RlbHNQYXJ0IElJOiBSZXdhcmQgTW9kZWxpbmciLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAxLjA2MDgwdjIiLCJzbmlwcGV0IjoiSW4gdGhpcyBzZWN0aW9uLCB3ZSBpbnRyb2R1Y2UgTWV0YVJNLCBhIG1ldGhvZCB0aGF0IGFsaWducyB0aGUgb3JpZ2luYWwgcHJlZmVyZW5jZSBwYWlycyB3aXRoIHRoZSBzaGlmdGVkIGRpc3RyaWJ1dGlvbiB0aHJvdWdoIG1ldGEtbGVhcm5pbmcuIiwiZGF0ZSI6IkphbiAxMiwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiUmVpbmZvcmNlbWVudCBMZWFybmluZyBmcm9tIEh1bWFuIEZlZWRiYWNrOiBBIFN0YXRpc3RpY2FsIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNC4wMjUwN3YxIiwic25pcHBldCI6IldlIGludHJvZHVjZSB0aGUgbWFpbiBjb21wb25lbnRzIG9mIFJMSEYsIGluY2x1ZGluZyBzdXBlcnZpc2VkIGZpbmUtdHVuaW5nLCByZXdhcmQgbW9kZWxpbmcsIGFuZCBwb2xpY3kgb3B0aW1pemF0aW9uLCBhbmQgcmVsYXRlIHRoZW0gdG8gZmFtaWxpYXIgc3RhdGlzdGljYWwgLi4uIiwiZGF0ZSI6IkFwciAyLCAyMDI2IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJSZWluZm9yY2VtZW50IExlYXJuaW5nIGZyb20gSHVtYW4gRmVlZGJhY2sgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDQuMTI1MDF2NSIsInNuaXBwZXQiOiJPbmUgb2YgdGhlIGZpcnN0IHBhcGVycyB3aXRoIGFuIGFwcHJvYWNoIHNpbWlsYXIgdG8gbW9kZXJuIFJMSEYgd2FzIFRBTUVSLiBUQU1FUjogVHJhaW5pbmcgYW4gQWdlbnQgTWFudWFsbHkgdmlhIEV2YWx1YXRpdmUgUmVpbmZvcmNlbWVudCBwcm9wb3NlZCBhbiAuLi4iLCJkYXRlIjoiSmFuIDE3LCAyMDI2IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJEb2VzIFJMSEYgU2NhbGU/IEV4cGxvcmluZyB0aGUgSW1wYWN0cyBmcm9tIERhdGEsIE1vZGVsIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMi4wNjAwMHYxIiwic25pcHBldCI6IlRoaXMgc3R1ZHkgZXhwbG9yZXMgdGhlIHNjYWxpbmcgcHJvcGVydGllcyBvZiBSZWluZm9yY2VtZW50IExlYXJuaW5nIGZyb20gSHVtYW4gRmVlZGJhY2sgKFJMSEYpIGluIExhcmdlIExhbmd1YWdlIE1vZGVscyAoTExNcykuIEFsdGhvdWdoIFJMSEYgaXMgY29uc2lkZXJlZCBhbiAuLi4iLCJkYXRlIjoiRGVjIDgsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IlJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgaW4gdGhlIEVyYSBvZiBMTE1zIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzEwLjA2MTQ3Iiwic25pcHBldCI6IlRoZSBlc3NlbnRpYWwgb2JzZXJ2YXRpb24gd2Ugd291bGQgaGlnaGxpZ2h0IGluIFJMSEYgaXMgdGhhdCB0aGUgZHluYW1pY3MgbW9kZWwgaW4gcmVzcG9uc2UgZ2VuZXJhdGlvbiBpcyBrbm93bi4gdGhlIGNvbXBvdW5kaW5nIGVycm9yIGFuZCBkaXN0cmlidXRpb25hbCBzaGlmdCAuLi4iLCJkYXRlIjoiT2N0IDksIDIwMjMiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIEV4cGxhaW5pbmcgYW5kIFByZXZlbnRpbmcgQWxpZ25tZW50IENvbGxhcHNlIGluIEl0ZXJhdGl2ZSBSTEhGIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNjA1LjA0MjY2Iiwic25pcHBldCI6IkFja2VybWFubiBldCBhbC4gWzIwMjVdIGFkZHJlc3MgdGhlIHJlbGF0ZWQgZGlzdHJpYnV0aW9uLXNoaWZ0IHByb2JsZW0gaW4gaXRlcmF0aXZlIFJMSEYgdmlhIGltcG9ydGFuY2Utd2VpZ2h0ZWQgUk0gdHJhaW5pbmcsIHdoaWNoIGlzIGNvbXBsZW1lbnRhcnkgdG8gb3VyIC4uLiIsImRhdGUiOiJNYXkgNywgMjAyNiIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiUmVpbmZvcmNlbWVudCBMZWFybmluZyBmcm9tIEh1bWFuIEZlZWRiYWNrIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA0LjEyNTAxdjMiLCJzbmlwcGV0IjoiUmVpbmZvcmNlbWVudCBsZWFybmluZyBmcm9tIGh1bWFuIGZlZWRiYWNrIChSTEhGKSBoYXMgYmVjb21lIGFuIGltcG9ydGFudCB0ZWNobmljYWwgYW5kIHN0b3J5dGVsbGluZyB0b29sIHRvIGRlcGxveSB0aGUgbGF0ZXN0IG1hY2hpbmUgbGVhcm5pbmcgc3lzdGVtcy4iLCJkYXRlIjoiTm92IDIsIDIwMjUiLCJwb3NpdGlvbiI6OX0seyJ0aXRsZSI6IlNGVCBNZW1vcml6ZXMsIFJMIEdlbmVyYWxpemVzOkEgQ29tcGFyYXRpdmUgU3R1ZHkgb2YgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAxLjE3MTYxdjEiLCJzbmlwcGV0IjoiQWJzdHJhY3QuIFN1cGVydmlzZWQgZmluZS10dW5pbmcgKFNGVCkgYW5kIHJlaW5mb3JjZW1lbnQgbGVhcm5pbmcgKFJMKSBhcmUgd2lkZWx5IHVzZWQgcG9zdC10cmFpbmluZyB0ZWNobmlxdWVzIGZvciBmb3VuZGF0aW9uIG1vZGVscy4iLCJkYXRlIjoiSmFuIDI4LCAyMDI1IiwicG9zaXRpb24iOjEwfV0sImNyZWRpdHMiOjF9",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Which is one of the first papers to highlight and resolve the distribution shift in RLHF? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "How RLHF Amplifies Sycophancy - arXiv",
+        "link": "https://arxiv.org/html/2602.01002v1",
+        "snippet": "We first treat the learned reward signal r ⁡ ( x , y ) r(x,y) as fixed and study how optimizing it reshapes the response distribution and shifts the expected ...",
+        "date": "Feb 1, 2026",
+        "position": 1
+      },
+      {
+        "title": "Investigating on RLHF methodology - arXiv",
+        "link": "https://arxiv.org/html/2410.01789v1",
+        "snippet": "Abstract. In this article, we investigate the alignment of Large Language Models according to human preferences. We discuss the features of training a ...",
+        "date": "Oct 2, 2024",
+        "position": 2
+      },
+      {
+        "title": "Secrets of RLHF in Large Language ModelsPart II: Reward Modeling",
+        "link": "https://arxiv.org/html/2401.06080v2",
+        "snippet": "In this section, we introduce MetaRM, a method that aligns the original preference pairs with the shifted distribution through meta-learning.",
+        "date": "Jan 12, 2024",
+        "position": 3
+      },
+      {
+        "title": "Reinforcement Learning from Human Feedback: A Statistical ... - arXiv",
+        "link": "https://arxiv.org/html/2604.02507v1",
+        "snippet": "We introduce the main components of RLHF, including supervised fine-tuning, reward modeling, and policy optimization, and relate them to familiar statistical ...",
+        "date": "Apr 2, 2026",
+        "position": 4
+      },
+      {
+        "title": "Reinforcement Learning from Human Feedback - arXiv",
+        "link": "https://arxiv.org/html/2504.12501v5",
+        "snippet": "One of the first papers with an approach similar to modern RLHF was TAMER. TAMER: Training an Agent Manually via Evaluative Reinforcement proposed an ...",
+        "date": "Jan 17, 2026",
+        "position": 5
+      },
+      {
+        "title": "Does RLHF Scale? Exploring the Impacts from Data, Model ... - arXiv",
+        "link": "https://arxiv.org/html/2412.06000v1",
+        "snippet": "This study explores the scaling properties of Reinforcement Learning from Human Feedback (RLHF) in Large Language Models (LLMs). Although RLHF is considered an ...",
+        "date": "Dec 8, 2024",
+        "position": 6
+      },
+      {
+        "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+        "link": "https://arxiv.org/html/2310.06147",
+        "snippet": "The essential observation we would highlight in RLHF is that the dynamics model in response generation is known. the compounding error and distributional shift ...",
+        "date": "Oct 9, 2023",
+        "position": 7
+      },
+      {
+        "title": "[PDF] Explaining and Preventing Alignment Collapse in Iterative RLHF",
+        "link": "https://arxiv.org/pdf/2605.04266",
+        "snippet": "Ackermann et al. [2025] address the related distribution-shift problem in iterative RLHF via importance-weighted RM training, which is complementary to our ...",
+        "date": "May 7, 2026",
+        "position": 8
+      },
+      {
+        "title": "Reinforcement Learning from Human Feedback - arXiv",
+        "link": "https://arxiv.org/html/2504.12501v3",
+        "snippet": "Reinforcement learning from human feedback (RLHF) has become an important technical and storytelling tool to deploy the latest machine learning systems.",
+        "date": "Nov 2, 2025",
+        "position": 9
+      },
+      {
+        "title": "SFT Memorizes, RL Generalizes:A Comparative Study of ... - arXiv",
+        "link": "https://arxiv.org/html/2501.17161v1",
+        "snippet": "Abstract. Supervised fine-tuning (SFT) and reinforcement learning (RL) are widely used post-training techniques for foundation models.",
+        "date": "Jan 28, 2025",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "How RLHF Amplifies Sycophancy - arXiv",
+      "snippet": "We first treat the learned reward signal r ⁡ ( x , y ) r(x,y) as fixed and study how optimizing it reshapes the response distribution and shifts the expected ...",
+      "link": "https://arxiv.org/html/2602.01002v1",
+      "arxiv_id": "2602.01002"
+    },
+    {
+      "rank": 2,
+      "title": "Investigating on RLHF methodology - arXiv",
+      "snippet": "Abstract. In this article, we investigate the alignment of Large Language Models according to human preferences. We discuss the features of training a ...",
+      "link": "https://arxiv.org/html/2410.01789v1",
+      "arxiv_id": "2410.01789"
+    },
+    {
+      "rank": 3,
+      "title": "Secrets of RLHF in Large Language ModelsPart II: Reward Modeling",
+      "snippet": "In this section, we introduce MetaRM, a method that aligns the original preference pairs with the shifted distribution through meta-learning.",
+      "link": "https://arxiv.org/html/2401.06080v2",
+      "arxiv_id": "2401.06080"
+    },
+    {
+      "rank": 4,
+      "title": "Reinforcement Learning from Human Feedback: A Statistical ... - arXiv",
+      "snippet": "We introduce the main components of RLHF, including supervised fine-tuning, reward modeling, and policy optimization, and relate them to familiar statistical ...",
+      "link": "https://arxiv.org/html/2604.02507v1",
+      "arxiv_id": "2604.02507"
+    },
+    {
+      "rank": 5,
+      "title": "Reinforcement Learning from Human Feedback - arXiv",
+      "snippet": "One of the first papers with an approach similar to modern RLHF was TAMER. TAMER: Training an Agent Manually via Evaluative Reinforcement proposed an ...",
+      "link": "https://arxiv.org/html/2504.12501v5",
+      "arxiv_id": "2504.12501"
+    },
+    {
+      "rank": 6,
+      "title": "Does RLHF Scale? Exploring the Impacts from Data, Model ... - arXiv",
+      "snippet": "This study explores the scaling properties of Reinforcement Learning from Human Feedback (RLHF) in Large Language Models (LLMs). Although RLHF is considered an ...",
+      "link": "https://arxiv.org/html/2412.06000v1",
+      "arxiv_id": "2412.06000"
+    },
+    {
+      "rank": 7,
+      "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+      "snippet": "The essential observation we would highlight in RLHF is that the dynamics model in response generation is known. the compounding error and distributional shift ...",
+      "link": "https://arxiv.org/html/2310.06147",
+      "arxiv_id": "2310.06147"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] Explaining and Preventing Alignment Collapse in Iterative RLHF",
+      "snippet": "Ackermann et al. [2025] address the related distribution-shift problem in iterative RLHF via importance-weighted RM training, which is complementary to our ...",
+      "link": "https://arxiv.org/pdf/2605.04266",
+      "arxiv_id": "2605.04266"
+    },
+    {
+      "rank": 9,
+      "title": "Reinforcement Learning from Human Feedback - arXiv",
+      "snippet": "Reinforcement learning from human feedback (RLHF) has become an important technical and storytelling tool to deploy the latest machine learning systems.",
+      "link": "https://arxiv.org/html/2504.12501v3",
+      "arxiv_id": "2504.12501"
+    },
+    {
+      "rank": 10,
+      "title": "SFT Memorizes, RL Generalizes:A Comparative Study of ... - arXiv",
+      "snippet": "Abstract. Supervised fine-tuning (SFT) and reinforcement learning (RL) are widely used post-training techniques for foundation models.",
+      "link": "https://arxiv.org/html/2501.17161v1",
+      "arxiv_id": "2501.17161"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:33:45.012353+00:00",
+  "elapsed_seconds": 3.049916870892048
+}

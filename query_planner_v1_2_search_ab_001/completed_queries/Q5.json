@@ -1,0 +1,1362 @@
+{
+  "query_id": "Q5",
+  "query_index": 5,
+  "dataset_qid": "RealScholarQuery_5",
+  "original_question": "Papers that apply RLHF to address the hallucination problem in image and video description.",
+  "before_date": "2024-09-24",
+  "native_queries": [
+    "Survey papers on RLHF for image description",
+    "Application of RLHF in video description",
+    "Use of RLHF in addressing hallucination in video content",
+    "Impact of RLHF on hallucination issue in image description",
+    "Role of RLHF in reducing hallucination in multimodal generation"
+  ],
+  "anchor": "Papers that apply RLHF to address the hallucination problem in image and video description.",
+  "source_generation_id": "Q5_native_001",
+  "cohort": "equal_budget_48Q",
+  "groups": {
+    "A": {
+      "queries": [
+        "Survey papers on RLHF for image description",
+        "Application of RLHF in video description",
+        "Use of RLHF in addressing hallucination in video content",
+        "Impact of RLHF on hallucination issue in image description",
+        "Role of RLHF in reducing hallucination in multimodal generation"
+      ],
+      "search_keys": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ]
+    },
+    "B": {
+      "queries": [
+        "Papers that apply RLHF to address the hallucination problem in image and video description.",
+        "Survey papers on RLHF for image description",
+        "Application of RLHF in video description",
+        "Use of RLHF in addressing hallucination in video content",
+        "Impact of RLHF on hallucination issue in image description"
+      ],
+      "search_keys": [
+        "anchor",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "searches": {
+    "q1": {
+      "query_key": "q1",
+      "query_text": "Survey papers on RLHF for image description",
+      "attempts": [
+        {
+          "global_attempt_sequence": 32,
+          "query_id": "Q5",
+          "query_key": "q1",
+          "attempt": 1,
+          "query_text": "Survey papers on RLHF for image description",
+          "request_payload": {
+            "q": "Survey papers on RLHF for image description before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q5_q1_attempt1.json",
+          "started_utc": "2026-09-15T06:25:12.661134+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on RLHF for image description before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Using Human Feedback to Fine-tune Diffusion Models without Any ...\",\"link\":\"https://arxiv.org/html/2311.13231v3\",\"snippet\":\"Using reinforcement learning with human feedback (RLHF) has shown significant promise in fine-tuning diffusion models. feedback with AI-generated feedback. ...\",\"date\":\"Mar 23, 2024\",\"position\":1},{\"title\":\"Enhancing Image Caption Generation Using Reinforcement ... - arXiv\",\"link\":\"https://arxiv.org/abs/2403.06735\",\"snippet\":\"In this research, we explored a potential method to amplify the performance of the Deep Neural Network Model to generate captions that are preferred by humans.\",\"date\":\"Mar 11, 2024\",\"position\":2},{\"title\":\"A Survey of Reinforcement Learning from Human Feedback - arXiv\",\"link\":\"https://arxiv.org/abs/2312.14925\",\"snippet\":\"This article provides an overview of the fundamentals of RLHF, exploring how RL agents interact with human feedback.\",\"date\":\"Dec 22, 2023\",\"position\":3},{\"title\":\"Rich Human Feedback for Text-to-Image Generation - arXiv\",\"link\":\"https://arxiv.org/abs/2312.10240\",\"snippet\":\"Reinforcement Learning with Human Feedback (RLHF) for large language models, prior works collected human-provided scores as feedback on generated images\",\"date\":\"Dec 15, 2023\",\"position\":4},{\"title\":\"ImageReward: Learning and Evaluating Human Preferences ... - arXiv\",\"link\":\"https://arxiv.org/html/2304.05977v4\",\"snippet\":\"Abstract. We present a comprehensive solution to learn and improve text-to-image models from human preference feedback.\",\"date\":\"Dec 28, 2023\",\"position\":5},{\"title\":\"Personalizing Reinforcement Learning from Human Feedback with ...\",\"link\":\"https://arxiv.org/html/2408.10075v1\",\"snippet\":\"Reinforcement Learning from Human Feedback (RLHF) is a powerful paradigm for aligning foundation models to human values and preferences.\",\"date\":\"Aug 19, 2024\",\"position\":6},{\"title\":\"Parameter Efficient Reinforcement Learning from Human Feedback\",\"link\":\"https://arxiv.org/html/2403.10704v2\",\"snippet\":\"We describe the datasets we used for training the reward models, and performing reinforcement learning, categorized by their respective tasks.\",\"date\":\"Sep 12, 2024\",\"position\":7},{\"title\":\"Open Problems and Fundamental Limitations of Reinforcement ...\",\"link\":\"https://arxiv.org/abs/2307.15217\",\"snippet\":\"In this paper, we (1) survey open problems and fundamental limitations of RLHF and related methods; (2) overview techniques to understand, improve, and ...\",\"date\":\"Jul 27, 2023\",\"position\":8},{\"title\":\"[PDF] A Systematic Survey of Prompt Engineering on Vision-Language ...\",\"link\":\"https://arxiv.org/pdf/2307.12980\",\"snippet\":\"Abstract—Prompt engineering is a technique that involves augmenting a large pre-trained model with task-specific hints, known as.\",\"date\":\"Jul 24, 2023\",\"position\":9},{\"title\":\"[2407.16216] Reinforcement Learning for LLM Post-Training: A Survey\",\"link\":\"https://arxiv.org/abs/2407.16216\",\"snippet\":\"The main contributions of our survey are as follows: (1) a self-contained introduction to MLE, RLHF, and RLVR foundations and the unified policy gradient ...\",\"date\":\"Jul 23, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdXJ2ZXkgcGFwZXJzIG9uIFJMSEYgZm9yIGltYWdlIGRlc2NyaXB0aW9uIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlVzaW5nIEh1bWFuIEZlZWRiYWNrIHRvIEZpbmUtdHVuZSBEaWZmdXNpb24gTW9kZWxzIHdpdGhvdXQgQW55IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMTMyMzF2MyIsInNuaXBwZXQiOiJVc2luZyByZWluZm9yY2VtZW50IGxlYXJuaW5nIHdpdGggaHVtYW4gZmVlZGJhY2sgKFJMSEYpIGhhcyBzaG93biBzaWduaWZpY2FudCBwcm9taXNlIGluIGZpbmUtdHVuaW5nIGRpZmZ1c2lvbiBtb2RlbHMuIGZlZWRiYWNrIHdpdGggQUktZ2VuZXJhdGVkIGZlZWRiYWNrLiAuLi4iLCJkYXRlIjoiTWFyIDIzLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJFbmhhbmNpbmcgSW1hZ2UgQ2FwdGlvbiBHZW5lcmF0aW9uIFVzaW5nIFJlaW5mb3JjZW1lbnQgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDMuMDY3MzUiLCJzbmlwcGV0IjoiSW4gdGhpcyByZXNlYXJjaCwgd2UgZXhwbG9yZWQgYSBwb3RlbnRpYWwgbWV0aG9kIHRvIGFtcGxpZnkgdGhlIHBlcmZvcm1hbmNlIG9mIHRoZSBEZWVwIE5ldXJhbCBOZXR3b3JrIE1vZGVsIHRvIGdlbmVyYXRlIGNhcHRpb25zIHRoYXQgYXJlIHByZWZlcnJlZCBieSBodW1hbnMuIiwiZGF0ZSI6Ik1hciAxMSwgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiQSBTdXJ2ZXkgb2YgUmVpbmZvcmNlbWVudCBMZWFybmluZyBmcm9tIEh1bWFuIEZlZWRiYWNrIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMTIuMTQ5MjUiLCJzbmlwcGV0IjoiVGhpcyBhcnRpY2xlIHByb3ZpZGVzIGFuIG92ZXJ2aWV3IG9mIHRoZSBmdW5kYW1lbnRhbHMgb2YgUkxIRiwgZXhwbG9yaW5nIGhvdyBSTCBhZ2VudHMgaW50ZXJhY3Qgd2l0aCBodW1hbiBmZWVkYmFjay4iLCJkYXRlIjoiRGVjIDIyLCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJSaWNoIEh1bWFuIEZlZWRiYWNrIGZvciBUZXh0LXRvLUltYWdlIEdlbmVyYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMxMi4xMDI0MCIsInNuaXBwZXQiOiJSZWluZm9yY2VtZW50IExlYXJuaW5nIHdpdGggSHVtYW4gRmVlZGJhY2sgKFJMSEYpIGZvciBsYXJnZSBsYW5ndWFnZSBtb2RlbHMsIHByaW9yIHdvcmtzIGNvbGxlY3RlZCBodW1hbi1wcm92aWRlZCBzY29yZXMgYXMgZmVlZGJhY2sgb24gZ2VuZXJhdGVkIGltYWdlcyIsImRhdGUiOiJEZWMgMTUsIDIwMjMiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkltYWdlUmV3YXJkOiBMZWFybmluZyBhbmQgRXZhbHVhdGluZyBIdW1hbiBQcmVmZXJlbmNlcyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDQuMDU5Nzd2NCIsInNuaXBwZXQiOiJBYnN0cmFjdC4gV2UgcHJlc2VudCBhIGNvbXByZWhlbnNpdmUgc29sdXRpb24gdG8gbGVhcm4gYW5kIGltcHJvdmUgdGV4dC10by1pbWFnZSBtb2RlbHMgZnJvbSBodW1hbiBwcmVmZXJlbmNlIGZlZWRiYWNrLiIsImRhdGUiOiJEZWMgMjgsIDIwMjMiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IlBlcnNvbmFsaXppbmcgUmVpbmZvcmNlbWVudCBMZWFybmluZyBmcm9tIEh1bWFuIEZlZWRiYWNrIHdpdGggLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwOC4xMDA3NXYxIiwic25pcHBldCI6IlJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgZnJvbSBIdW1hbiBGZWVkYmFjayAoUkxIRikgaXMgYSBwb3dlcmZ1bCBwYXJhZGlnbSBmb3IgYWxpZ25pbmcgZm91bmRhdGlvbiBtb2RlbHMgdG8gaHVtYW4gdmFsdWVzIGFuZCBwcmVmZXJlbmNlcy4iLCJkYXRlIjoiQXVnIDE5LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJQYXJhbWV0ZXIgRWZmaWNpZW50IFJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgZnJvbSBIdW1hbiBGZWVkYmFjayIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDMuMTA3MDR2MiIsInNuaXBwZXQiOiJXZSBkZXNjcmliZSB0aGUgZGF0YXNldHMgd2UgdXNlZCBmb3IgdHJhaW5pbmcgdGhlIHJld2FyZCBtb2RlbHMsIGFuZCBwZXJmb3JtaW5nIHJlaW5mb3JjZW1lbnQgbGVhcm5pbmcsIGNhdGVnb3JpemVkIGJ5IHRoZWlyIHJlc3BlY3RpdmUgdGFza3MuIiwiZGF0ZSI6IlNlcCAxMiwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiT3BlbiBQcm9ibGVtcyBhbmQgRnVuZGFtZW50YWwgTGltaXRhdGlvbnMgb2YgUmVpbmZvcmNlbWVudCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMDcuMTUyMTciLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgKDEpIHN1cnZleSBvcGVuIHByb2JsZW1zIGFuZCBmdW5kYW1lbnRhbCBsaW1pdGF0aW9ucyBvZiBSTEhGIGFuZCByZWxhdGVkIG1ldGhvZHM7ICgyKSBvdmVydmlldyB0ZWNobmlxdWVzIHRvIHVuZGVyc3RhbmQsIGltcHJvdmUsIGFuZCAuLi4iLCJkYXRlIjoiSnVsIDI3LCAyMDIzIiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbUERGXSBBIFN5c3RlbWF0aWMgU3VydmV5IG9mIFByb21wdCBFbmdpbmVlcmluZyBvbiBWaXNpb24tTGFuZ3VhZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA3LjEyOTgwIiwic25pcHBldCI6IkFic3RyYWN04oCUUHJvbXB0IGVuZ2luZWVyaW5nIGlzIGEgdGVjaG5pcXVlIHRoYXQgaW52b2x2ZXMgYXVnbWVudGluZyBhIGxhcmdlIHByZS10cmFpbmVkIG1vZGVsIHdpdGggdGFzay1zcGVjaWZpYyBoaW50cywga25vd24gYXMuIiwiZGF0ZSI6Ikp1bCAyNCwgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiWzI0MDcuMTYyMTZdIFJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgZm9yIExMTSBQb3N0LVRyYWluaW5nOiBBIFN1cnZleSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwNy4xNjIxNiIsInNuaXBwZXQiOiJUaGUgbWFpbiBjb250cmlidXRpb25zIG9mIG91ciBzdXJ2ZXkgYXJlIGFzIGZvbGxvd3M6ICgxKSBhIHNlbGYtY29udGFpbmVkIGludHJvZHVjdGlvbiB0byBNTEUsIFJMSEYsIGFuZCBSTFZSIGZvdW5kYXRpb25zIGFuZCB0aGUgdW5pZmllZCBwb2xpY3kgZ3JhZGllbnQgLi4uIiwiZGF0ZSI6Ikp1bCAyMywgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "7ce2f80efdc16efd6c8d37eecb6a241648e47e3b74fffe6919bf95555cf763a8",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Survey papers on RLHF for image description before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+                "link": "https://arxiv.org/html/2311.13231v3",
+                "snippet": "Using reinforcement learning with human feedback (RLHF) has shown significant promise in fine-tuning diffusion models. feedback with AI-generated feedback. ...",
+                "date": "Mar 23, 2024",
+                "position": 1
+              },
+              {
+                "title": "Enhancing Image Caption Generation Using Reinforcement ... - arXiv",
+                "link": "https://arxiv.org/abs/2403.06735",
+                "snippet": "In this research, we explored a potential method to amplify the performance of the Deep Neural Network Model to generate captions that are preferred by humans.",
+                "date": "Mar 11, 2024",
+                "position": 2
+              },
+              {
+                "title": "A Survey of Reinforcement Learning from Human Feedback - arXiv",
+                "link": "https://arxiv.org/abs/2312.14925",
+                "snippet": "This article provides an overview of the fundamentals of RLHF, exploring how RL agents interact with human feedback.",
+                "date": "Dec 22, 2023",
+                "position": 3
+              },
+              {
+                "title": "Rich Human Feedback for Text-to-Image Generation - arXiv",
+                "link": "https://arxiv.org/abs/2312.10240",
+                "snippet": "Reinforcement Learning with Human Feedback (RLHF) for large language models, prior works collected human-provided scores as feedback on generated images",
+                "date": "Dec 15, 2023",
+                "position": 4
+              },
+              {
+                "title": "ImageReward: Learning and Evaluating Human Preferences ... - arXiv",
+                "link": "https://arxiv.org/html/2304.05977v4",
+                "snippet": "Abstract. We present a comprehensive solution to learn and improve text-to-image models from human preference feedback.",
+                "date": "Dec 28, 2023",
+                "position": 5
+              },
+              {
+                "title": "Personalizing Reinforcement Learning from Human Feedback with ...",
+                "link": "https://arxiv.org/html/2408.10075v1",
+                "snippet": "Reinforcement Learning from Human Feedback (RLHF) is a powerful paradigm for aligning foundation models to human values and preferences.",
+                "date": "Aug 19, 2024",
+                "position": 6
+              },
+              {
+                "title": "Parameter Efficient Reinforcement Learning from Human Feedback",
+                "link": "https://arxiv.org/html/2403.10704v2",
+                "snippet": "We describe the datasets we used for training the reward models, and performing reinforcement learning, categorized by their respective tasks.",
+                "date": "Sep 12, 2024",
+                "position": 7
+              },
+              {
+                "title": "Open Problems and Fundamental Limitations of Reinforcement ...",
+                "link": "https://arxiv.org/abs/2307.15217",
+                "snippet": "In this paper, we (1) survey open problems and fundamental limitations of RLHF and related methods; (2) overview techniques to understand, improve, and ...",
+                "date": "Jul 27, 2023",
+                "position": 8
+              },
+              {
+                "title": "[PDF] A Systematic Survey of Prompt Engineering on Vision-Language ...",
+                "link": "https://arxiv.org/pdf/2307.12980",
+                "snippet": "Abstract—Prompt engineering is a technique that involves augmenting a large pre-trained model with task-specific hints, known as.",
+                "date": "Jul 24, 2023",
+                "position": 9
+              },
+              {
+                "title": "[2407.16216] Reinforcement Learning for LLM Post-Training: A Survey",
+                "link": "https://arxiv.org/abs/2407.16216",
+                "snippet": "The main contributions of our survey are as follows: (1) a self-contained introduction to MLE, RLHF, and RLVR foundations and the unified policy gradient ...",
+                "date": "Jul 23, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:13.816898+00:00",
+          "elapsed_seconds": 1.1557633727788925
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2304.05977",
+        "2307.12980",
+        "2307.15217",
+        "2311.13231",
+        "2312.10240",
+        "2312.14925",
+        "2403.06735",
+        "2403.10704",
+        "2407.16216",
+        "2408.10075"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2311.13231",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2311.13231v3",
+          "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+          "snippet": "Using reinforcement learning with human feedback (RLHF) has shown significant promise in fine-tuning diffusion models. feedback with AI-generated feedback. ..."
+        },
+        {
+          "arxiv_id": "2403.06735",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2403.06735",
+          "title": "Enhancing Image Caption Generation Using Reinforcement ... - arXiv",
+          "snippet": "In this research, we explored a potential method to amplify the performance of the Deep Neural Network Model to generate captions that are preferred by humans."
+        },
+        {
+          "arxiv_id": "2312.14925",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/abs/2312.14925",
+          "title": "A Survey of Reinforcement Learning from Human Feedback - arXiv",
+          "snippet": "This article provides an overview of the fundamentals of RLHF, exploring how RL agents interact with human feedback."
+        },
+        {
+          "arxiv_id": "2312.10240",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/abs/2312.10240",
+          "title": "Rich Human Feedback for Text-to-Image Generation - arXiv",
+          "snippet": "Reinforcement Learning with Human Feedback (RLHF) for large language models, prior works collected human-provided scores as feedback on generated images"
+        },
+        {
+          "arxiv_id": "2304.05977",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2304.05977v4",
+          "title": "ImageReward: Learning and Evaluating Human Preferences ... - arXiv",
+          "snippet": "Abstract. We present a comprehensive solution to learn and improve text-to-image models from human preference feedback."
+        },
+        {
+          "arxiv_id": "2408.10075",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2408.10075v1",
+          "title": "Personalizing Reinforcement Learning from Human Feedback with ...",
+          "snippet": "Reinforcement Learning from Human Feedback (RLHF) is a powerful paradigm for aligning foundation models to human values and preferences."
+        },
+        {
+          "arxiv_id": "2403.10704",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2403.10704v2",
+          "title": "Parameter Efficient Reinforcement Learning from Human Feedback",
+          "snippet": "We describe the datasets we used for training the reward models, and performing reinforcement learning, categorized by their respective tasks."
+        },
+        {
+          "arxiv_id": "2307.15217",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/abs/2307.15217",
+          "title": "Open Problems and Fundamental Limitations of Reinforcement ...",
+          "snippet": "In this paper, we (1) survey open problems and fundamental limitations of RLHF and related methods; (2) overview techniques to understand, improve, and ..."
+        },
+        {
+          "arxiv_id": "2307.12980",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/pdf/2307.12980",
+          "title": "[PDF] A Systematic Survey of Prompt Engineering on Vision-Language ...",
+          "snippet": "Abstract—Prompt engineering is a technique that involves augmenting a large pre-trained model with task-specific hints, known as."
+        },
+        {
+          "arxiv_id": "2407.16216",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/abs/2407.16216",
+          "title": "[2407.16216] Reinforcement Learning for LLM Post-Training: A Survey",
+          "snippet": "The main contributions of our survey are as follows: (1) a self-contained introduction to MLE, RLHF, and RLVR foundations and the unified policy gradient ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Survey papers on RLHF for image description before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q2": {
+      "query_key": "q2",
+      "query_text": "Application of RLHF in video description",
+      "attempts": [
+        {
+          "global_attempt_sequence": 33,
+          "query_id": "Q5",
+          "query_key": "q2",
+          "attempt": 1,
+          "query_text": "Application of RLHF in video description",
+          "request_payload": {
+            "q": "Application of RLHF in video description before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q5_q2_attempt1.json",
+          "started_utc": "2026-09-15T06:25:13.855871+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Application of RLHF in video description before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Using Human Feedback to Fine-tune Diffusion Models without Any ...\",\"link\":\"https://arxiv.org/html/2311.13231v3\",\"snippet\":\"Using reinforcement learning with human feedback (RLHF) has shown significant promise in fine-tuning diffusion models. Previous methods start by training a ...\",\"date\":\"Mar 23, 2024\",\"position\":1},{\"title\":\"Reinforcement Learning for Fine-tuning Text-to-speech Diffusion ...\",\"link\":\"https://arxiv.org/html/2405.14632v1\",\"snippet\":\"Reinforcement Learning with Human Feedback (RLHF) can enhance diffusion models for image synthesis. practical application of RLHF to diffusion-based text-to- ...\",\"date\":\"May 23, 2024\",\"position\":2},{\"title\":\"Reinforcement Learning in the Era of LLMs - arXiv\",\"link\":\"https://arxiv.org/html/2310.06147\",\"snippet\":\"RLHF is Online Inverse RL with Offline Demonstration Data. illustrates the learning procedure. RL algorithms like PPO can then be applied.\",\"date\":\"Oct 9, 2023\",\"position\":3},{\"title\":\"A Review of Multi-Modal Large Language and Vision Models 1 - arXiv\",\"link\":\"https://arxiv.org/html/2404.01322v1\",\"snippet\":\"This opens up applications like text-to-video generation, image captioning, text-to-speech, and more and is achieved either by retro-fitting an LLM with multi- ...\",\"date\":\"Mar 28, 2024\",\"position\":4},{\"title\":\"[2211.11602] Improving Multimodal Interactive Agents with ... - arXiv\",\"link\":\"https://arxiv.org/abs/2211.11602\",\"snippet\":\"Here we demonstrate how to use reinforcement learning from human feedback (RLHF) to improve upon simulated, embodied agents trained to a base level of ...\",\"date\":\"Nov 21, 2022\",\"position\":5},{\"title\":\"[PDF] Optimizing Adaptive Video Streaming with Human Feedback - arXiv\",\"link\":\"https://arxiv.org/pdf/2308.04132\",\"snippet\":\"In this paper, we propose Jade, which leverages reinforcement learning with human feedback (RLHF) technologies to better align the users' opinion scores.\",\"date\":\"Aug 9, 2023\",\"position\":6},{\"title\":\"[PDF] RLHF Fine-Tuning of LLMs for Alignment with Implicit User ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2508.05289?\",\"snippet\":\"The proposed RLHF fine-tuning loop overcomes this critical gap between implicit-feedback-driven alignment and language-model-based conversational recommenders ...\",\"date\":\"May 15, 2021\",\"position\":7},{\"title\":\"Fairness in Reinforcement Learning: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2405.06909v1\",\"snippet\":\"In Section Definitions of Fairness in RL, we introduce fairness definitions used in RL systems. We then show potential application domains for fair RL systems ...\",\"date\":\"May 11, 2024\",\"position\":8},{\"title\":\"Direct Preference Optimization: Your Language Model is Secretly a ...\",\"link\":\"https://arxiv.org/abs/2305.18290\",\"snippet\":\"In this paper we introduce a new parameterization of the reward model in RLHF that enables extraction of the corresponding optimal policy in closed form, ...\",\"date\":\"May 29, 2023\",\"position\":9},{\"title\":\"Primitive Skill-based Robot Learning from Human Evaluative ... - arXiv\",\"link\":\"https://arxiv.org/abs/2307.15801\",\"snippet\":\"Reinforcement learning (RL) algorithms face significant challenges when dealing with long-horizon robot manipulation tasks in real-world environments due to ...\",\"date\":\"Jul 28, 2023\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJBcHBsaWNhdGlvbiBvZiBSTEhGIGluIHZpZGVvIGRlc2NyaXB0aW9uIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlVzaW5nIEh1bWFuIEZlZWRiYWNrIHRvIEZpbmUtdHVuZSBEaWZmdXNpb24gTW9kZWxzIHdpdGhvdXQgQW55IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMTMyMzF2MyIsInNuaXBwZXQiOiJVc2luZyByZWluZm9yY2VtZW50IGxlYXJuaW5nIHdpdGggaHVtYW4gZmVlZGJhY2sgKFJMSEYpIGhhcyBzaG93biBzaWduaWZpY2FudCBwcm9taXNlIGluIGZpbmUtdHVuaW5nIGRpZmZ1c2lvbiBtb2RlbHMuIFByZXZpb3VzIG1ldGhvZHMgc3RhcnQgYnkgdHJhaW5pbmcgYSAuLi4iLCJkYXRlIjoiTWFyIDIzLCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJSZWluZm9yY2VtZW50IExlYXJuaW5nIGZvciBGaW5lLXR1bmluZyBUZXh0LXRvLXNwZWVjaCBEaWZmdXNpb24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4xNDYzMnYxIiwic25pcHBldCI6IlJlaW5mb3JjZW1lbnQgTGVhcm5pbmcgd2l0aCBIdW1hbiBGZWVkYmFjayAoUkxIRikgY2FuIGVuaGFuY2UgZGlmZnVzaW9uIG1vZGVscyBmb3IgaW1hZ2Ugc3ludGhlc2lzLiBwcmFjdGljYWwgYXBwbGljYXRpb24gb2YgUkxIRiB0byBkaWZmdXNpb24tYmFzZWQgdGV4dC10by0gLi4uIiwiZGF0ZSI6Ik1heSAyMywgMjAyNCIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiUmVpbmZvcmNlbWVudCBMZWFybmluZyBpbiB0aGUgRXJhIG9mIExMTXMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTAuMDYxNDciLCJzbmlwcGV0IjoiUkxIRiBpcyBPbmxpbmUgSW52ZXJzZSBSTCB3aXRoIE9mZmxpbmUgRGVtb25zdHJhdGlvbiBEYXRhLiBpbGx1c3RyYXRlcyB0aGUgbGVhcm5pbmcgcHJvY2VkdXJlLiBSTCBhbGdvcml0aG1zIGxpa2UgUFBPIGNhbiB0aGVuIGJlIGFwcGxpZWQuIiwiZGF0ZSI6Ik9jdCA5LCAyMDIzIiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJBIFJldmlldyBvZiBNdWx0aS1Nb2RhbCBMYXJnZSBMYW5ndWFnZSBhbmQgVmlzaW9uIE1vZGVscyAxIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjAxMzIydjEiLCJzbmlwcGV0IjoiVGhpcyBvcGVucyB1cCBhcHBsaWNhdGlvbnMgbGlrZSB0ZXh0LXRvLXZpZGVvIGdlbmVyYXRpb24sIGltYWdlIGNhcHRpb25pbmcsIHRleHQtdG8tc3BlZWNoLCBhbmQgbW9yZSBhbmQgaXMgYWNoaWV2ZWQgZWl0aGVyIGJ5IHJldHJvLWZpdHRpbmcgYW4gTExNIHdpdGggbXVsdGktIC4uLiIsImRhdGUiOiJNYXIgMjgsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlsyMjExLjExNjAyXSBJbXByb3ZpbmcgTXVsdGltb2RhbCBJbnRlcmFjdGl2ZSBBZ2VudHMgd2l0aCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjIxMS4xMTYwMiIsInNuaXBwZXQiOiJIZXJlIHdlIGRlbW9uc3RyYXRlIGhvdyB0byB1c2UgcmVpbmZvcmNlbWVudCBsZWFybmluZyBmcm9tIGh1bWFuIGZlZWRiYWNrIChSTEhGKSB0byBpbXByb3ZlIHVwb24gc2ltdWxhdGVkLCBlbWJvZGllZCBhZ2VudHMgdHJhaW5lZCB0byBhIGJhc2UgbGV2ZWwgb2YgLi4uIiwiZGF0ZSI6Ik5vdiAyMSwgMjAyMiIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiW1BERl0gT3B0aW1pemluZyBBZGFwdGl2ZSBWaWRlbyBTdHJlYW1pbmcgd2l0aCBIdW1hbiBGZWVkYmFjayAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA4LjA0MTMyIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIHByb3Bvc2UgSmFkZSwgd2hpY2ggbGV2ZXJhZ2VzIHJlaW5mb3JjZW1lbnQgbGVhcm5pbmcgd2l0aCBodW1hbiBmZWVkYmFjayAoUkxIRikgdGVjaG5vbG9naWVzIHRvIGJldHRlciBhbGlnbiB0aGUgdXNlcnMnIG9waW5pb24gc2NvcmVzLiIsImRhdGUiOiJBdWcgOSwgMjAyMyIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiW1BERl0gUkxIRiBGaW5lLVR1bmluZyBvZiBMTE1zIGZvciBBbGlnbm1lbnQgd2l0aCBJbXBsaWNpdCBVc2VyIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNTA4LjA1Mjg5PyIsInNuaXBwZXQiOiJUaGUgcHJvcG9zZWQgUkxIRiBmaW5lLXR1bmluZyBsb29wIG92ZXJjb21lcyB0aGlzIGNyaXRpY2FsIGdhcCBiZXR3ZWVuIGltcGxpY2l0LWZlZWRiYWNrLWRyaXZlbiBhbGlnbm1lbnQgYW5kIGxhbmd1YWdlLW1vZGVsLWJhc2VkIGNvbnZlcnNhdGlvbmFsIHJlY29tbWVuZGVycyAuLi4iLCJkYXRlIjoiTWF5IDE1LCAyMDIxIiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJGYWlybmVzcyBpbiBSZWluZm9yY2VtZW50IExlYXJuaW5nOiBBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4wNjkwOXYxIiwic25pcHBldCI6IkluIFNlY3Rpb24gRGVmaW5pdGlvbnMgb2YgRmFpcm5lc3MgaW4gUkwsIHdlIGludHJvZHVjZSBmYWlybmVzcyBkZWZpbml0aW9ucyB1c2VkIGluIFJMIHN5c3RlbXMuIFdlIHRoZW4gc2hvdyBwb3RlbnRpYWwgYXBwbGljYXRpb24gZG9tYWlucyBmb3IgZmFpciBSTCBzeXN0ZW1zIC4uLiIsImRhdGUiOiJNYXkgMTEsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkRpcmVjdCBQcmVmZXJlbmNlIE9wdGltaXphdGlvbjogWW91ciBMYW5ndWFnZSBNb2RlbCBpcyBTZWNyZXRseSBhIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNS4xODI5MCIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyIHdlIGludHJvZHVjZSBhIG5ldyBwYXJhbWV0ZXJpemF0aW9uIG9mIHRoZSByZXdhcmQgbW9kZWwgaW4gUkxIRiB0aGF0IGVuYWJsZXMgZXh0cmFjdGlvbiBvZiB0aGUgY29ycmVzcG9uZGluZyBvcHRpbWFsIHBvbGljeSBpbiBjbG9zZWQgZm9ybSwgLi4uIiwiZGF0ZSI6Ik1heSAyOSwgMjAyMyIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiUHJpbWl0aXZlIFNraWxsLWJhc2VkIFJvYm90IExlYXJuaW5nIGZyb20gSHVtYW4gRXZhbHVhdGl2ZSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjMwNy4xNTgwMSIsInNuaXBwZXQiOiJSZWluZm9yY2VtZW50IGxlYXJuaW5nIChSTCkgYWxnb3JpdGhtcyBmYWNlIHNpZ25pZmljYW50IGNoYWxsZW5nZXMgd2hlbiBkZWFsaW5nIHdpdGggbG9uZy1ob3Jpem9uIHJvYm90IG1hbmlwdWxhdGlvbiB0YXNrcyBpbiByZWFsLXdvcmxkIGVudmlyb25tZW50cyBkdWUgdG8gLi4uIiwiZGF0ZSI6Ikp1bCAyOCwgMjAyMyIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "1893b46396285f11216e128e70dfb4d5d8dc062dfe4b1f7199aec28050fe9c73",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Application of RLHF in video description before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+                "link": "https://arxiv.org/html/2311.13231v3",
+                "snippet": "Using reinforcement learning with human feedback (RLHF) has shown significant promise in fine-tuning diffusion models. Previous methods start by training a ...",
+                "date": "Mar 23, 2024",
+                "position": 1
+              },
+              {
+                "title": "Reinforcement Learning for Fine-tuning Text-to-speech Diffusion ...",
+                "link": "https://arxiv.org/html/2405.14632v1",
+                "snippet": "Reinforcement Learning with Human Feedback (RLHF) can enhance diffusion models for image synthesis. practical application of RLHF to diffusion-based text-to- ...",
+                "date": "May 23, 2024",
+                "position": 2
+              },
+              {
+                "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+                "link": "https://arxiv.org/html/2310.06147",
+                "snippet": "RLHF is Online Inverse RL with Offline Demonstration Data. illustrates the learning procedure. RL algorithms like PPO can then be applied.",
+                "date": "Oct 9, 2023",
+                "position": 3
+              },
+              {
+                "title": "A Review of Multi-Modal Large Language and Vision Models 1 - arXiv",
+                "link": "https://arxiv.org/html/2404.01322v1",
+                "snippet": "This opens up applications like text-to-video generation, image captioning, text-to-speech, and more and is achieved either by retro-fitting an LLM with multi- ...",
+                "date": "Mar 28, 2024",
+                "position": 4
+              },
+              {
+                "title": "[2211.11602] Improving Multimodal Interactive Agents with ... - arXiv",
+                "link": "https://arxiv.org/abs/2211.11602",
+                "snippet": "Here we demonstrate how to use reinforcement learning from human feedback (RLHF) to improve upon simulated, embodied agents trained to a base level of ...",
+                "date": "Nov 21, 2022",
+                "position": 5
+              },
+              {
+                "title": "[PDF] Optimizing Adaptive Video Streaming with Human Feedback - arXiv",
+                "link": "https://arxiv.org/pdf/2308.04132",
+                "snippet": "In this paper, we propose Jade, which leverages reinforcement learning with human feedback (RLHF) technologies to better align the users' opinion scores.",
+                "date": "Aug 9, 2023",
+                "position": 6
+              },
+              {
+                "title": "[PDF] RLHF Fine-Tuning of LLMs for Alignment with Implicit User ... - arXiv",
+                "link": "https://arxiv.org/pdf/2508.05289?",
+                "snippet": "The proposed RLHF fine-tuning loop overcomes this critical gap between implicit-feedback-driven alignment and language-model-based conversational recommenders ...",
+                "date": "May 15, 2021",
+                "position": 7
+              },
+              {
+                "title": "Fairness in Reinforcement Learning: A Survey - arXiv",
+                "link": "https://arxiv.org/html/2405.06909v1",
+                "snippet": "In Section Definitions of Fairness in RL, we introduce fairness definitions used in RL systems. We then show potential application domains for fair RL systems ...",
+                "date": "May 11, 2024",
+                "position": 8
+              },
+              {
+                "title": "Direct Preference Optimization: Your Language Model is Secretly a ...",
+                "link": "https://arxiv.org/abs/2305.18290",
+                "snippet": "In this paper we introduce a new parameterization of the reward model in RLHF that enables extraction of the corresponding optimal policy in closed form, ...",
+                "date": "May 29, 2023",
+                "position": 9
+              },
+              {
+                "title": "Primitive Skill-based Robot Learning from Human Evaluative ... - arXiv",
+                "link": "https://arxiv.org/abs/2307.15801",
+                "snippet": "Reinforcement learning (RL) algorithms face significant challenges when dealing with long-horizon robot manipulation tasks in real-world environments due to ...",
+                "date": "Jul 28, 2023",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:14.554483+00:00",
+          "elapsed_seconds": 0.6986146531999111
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2211.11602",
+        "2305.18290",
+        "2307.15801",
+        "2308.04132",
+        "2310.06147",
+        "2311.13231",
+        "2404.01322",
+        "2405.06909",
+        "2405.14632",
+        "2508.05289"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2311.13231",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2311.13231v3",
+          "title": "Using Human Feedback to Fine-tune Diffusion Models without Any ...",
+          "snippet": "Using reinforcement learning with human feedback (RLHF) has shown significant promise in fine-tuning diffusion models. Previous methods start by training a ..."
+        },
+        {
+          "arxiv_id": "2405.14632",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2405.14632v1",
+          "title": "Reinforcement Learning for Fine-tuning Text-to-speech Diffusion ...",
+          "snippet": "Reinforcement Learning with Human Feedback (RLHF) can enhance diffusion models for image synthesis. practical application of RLHF to diffusion-based text-to- ..."
+        },
+        {
+          "arxiv_id": "2310.06147",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2310.06147",
+          "title": "Reinforcement Learning in the Era of LLMs - arXiv",
+          "snippet": "RLHF is Online Inverse RL with Offline Demonstration Data. illustrates the learning procedure. RL algorithms like PPO can then be applied."
+        },
+        {
+          "arxiv_id": "2404.01322",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2404.01322v1",
+          "title": "A Review of Multi-Modal Large Language and Vision Models 1 - arXiv",
+          "snippet": "This opens up applications like text-to-video generation, image captioning, text-to-speech, and more and is achieved either by retro-fitting an LLM with multi- ..."
+        },
+        {
+          "arxiv_id": "2211.11602",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/abs/2211.11602",
+          "title": "[2211.11602] Improving Multimodal Interactive Agents with ... - arXiv",
+          "snippet": "Here we demonstrate how to use reinforcement learning from human feedback (RLHF) to improve upon simulated, embodied agents trained to a base level of ..."
+        },
+        {
+          "arxiv_id": "2308.04132",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2308.04132",
+          "title": "[PDF] Optimizing Adaptive Video Streaming with Human Feedback - arXiv",
+          "snippet": "In this paper, we propose Jade, which leverages reinforcement learning with human feedback (RLHF) technologies to better align the users' opinion scores."
+        },
+        {
+          "arxiv_id": "2508.05289",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2508.05289?",
+          "title": "[PDF] RLHF Fine-Tuning of LLMs for Alignment with Implicit User ... - arXiv",
+          "snippet": "The proposed RLHF fine-tuning loop overcomes this critical gap between implicit-feedback-driven alignment and language-model-based conversational recommenders ..."
+        },
+        {
+          "arxiv_id": "2405.06909",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2405.06909v1",
+          "title": "Fairness in Reinforcement Learning: A Survey - arXiv",
+          "snippet": "In Section Definitions of Fairness in RL, we introduce fairness definitions used in RL systems. We then show potential application domains for fair RL systems ..."
+        },
+        {
+          "arxiv_id": "2305.18290",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2305.18290",
+          "title": "Direct Preference Optimization: Your Language Model is Secretly a ...",
+          "snippet": "In this paper we introduce a new parameterization of the reward model in RLHF that enables extraction of the corresponding optimal policy in closed form, ..."
+        },
+        {
+          "arxiv_id": "2307.15801",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/abs/2307.15801",
+          "title": "Primitive Skill-based Robot Learning from Human Evaluative ... - arXiv",
+          "snippet": "Reinforcement learning (RL) algorithms face significant challenges when dealing with long-horizon robot manipulation tasks in real-world environments due to ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Application of RLHF in video description before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q3": {
+      "query_key": "q3",
+      "query_text": "Use of RLHF in addressing hallucination in video content",
+      "attempts": [
+        {
+          "global_attempt_sequence": 34,
+          "query_id": "Q5",
+          "query_key": "q3",
+          "attempt": 1,
+          "query_text": "Use of RLHF in addressing hallucination in video content",
+          "request_payload": {
+            "q": "Use of RLHF in addressing hallucination in video content before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q5_q3_attempt1.json",
+          "started_utc": "2026-09-15T06:25:14.592823+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Use of RLHF in addressing hallucination in video content before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Unveiling Hallucination in Text, Image, Video, and Audio Foundation ...\",\"link\":\"https://arxiv.org/html/2405.09589v1\",\"snippet\":\"LVMs face challenges with hallucinations, where misinterpretations of video frames can result in artificial or inaccurate visual data.\",\"date\":\"May 15, 2024\",\"position\":1},{\"title\":\"Evaluating Intrinsic and Extrinsic Hallucinations in Large ... - arXiv\",\"link\":\"https://arxiv.org/html/2406.16338v1\",\"snippet\":\"This work introduces VideoHallucer, the first comprehensive benchmark for hallucination detection in large video-language models (LVLMs).\",\"date\":\"Jun 24, 2024\",\"position\":2},{\"title\":\"Detecting and Preventing Hallucinations in Large Vision Language ...\",\"link\":\"https://arxiv.org/html/2308.06394v3\",\"snippet\":\"RLHF typically uses Proximal Policy Optimization (Schulman et al. 2017) , to optimize a policy model with rewards from a reward model. This reward model is ...\",\"date\":\"Feb 11, 2024\",\"position\":3},{\"title\":\"An Empirical Study on Factuality Hallucination in Large Language ...\",\"link\":\"https://arxiv.org/html/2401.03205v1\",\"snippet\":\"“3H alignment” (i.e., helpful, honest, and harmless) is widely used as the alignment criterion in RLHF, where honest is partially related to hallucination ...\",\"date\":\"Jan 6, 2024\",\"position\":4},{\"title\":\"Leveraging Self-awareness in LLMs for Hallucination Mitigation - arXiv\",\"link\":\"https://arxiv.org/html/2401.15449v1\",\"snippet\":\"We posit that RLKF is a promising solution to address LLM's hallucination issues and, combined with RLHF, offers significant potential for enhancing the model's ...\",\"date\":\"Jan 27, 2024\",\"position\":5},{\"title\":\"Can Knowledge Graphs Reduce Hallucinations in LLMs? : A Survey\",\"link\":\"https://arxiv.org/html/2311.07914v2\",\"snippet\":\"In this survey, we critically review KG augmentation methods used in specific stages to reduce hallucinations in LLMs and improve their performance and ...\",\"date\":\"Mar 16, 2024\",\"position\":6},{\"title\":\"Mitigating Object Hallucination via Data Augmented Contrastive ...\",\"link\":\"https://arxiv.org/html/2405.18654v1\",\"snippet\":\"we observe that our approach is more effective in mitigating hallucination than existing RLHF, SFT, or DPO-based methods.\",\"date\":\"May 28, 2024\",\"position\":7},{\"title\":\"[PDF] arXiv:2312.00849v2 [cs.CL] 8 Mar 2024\",\"link\":\"https://arxiv.org/pdf/2312.00849\",\"snippet\":\"RLHF-V significantly reduces the hallucination rate of the base MLLM by 34.8%, outperforming the receive stronger feedback to be factually grounded.\",\"date\":\"Mar 8, 2024\",\"position\":8},{\"title\":\"[2403.04769] Using Hallucinations to Bypass GPT4's Filter - arXiv\",\"link\":\"https://arxiv.org/abs/2403.04769\",\"snippet\":\"In this paper, we present a novel method to manipulate the fine-tuned version into reverting to its pre-RLHF behavior, effectively erasing the model's filters; ...\",\"date\":\"Feb 16, 2024\",\"position\":9},{\"title\":\"A Survey on Large Language Model Hallucination via a Creativity ...\",\"link\":\"https://arxiv.org/html/2402.06647v1\",\"snippet\":\"Hallucinations in large language models (LLMs) are always seen as limitations. However, could they also be a source of creativity? This survey explores this ...\",\"date\":\"Feb 2, 2024\",\"sitelinks\":[{\"title\":\"1 Introduction\",\"link\":\"https://arxiv.org/html/2402.06647v1#:~:text=1%20Introduction,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"2 Hallucination In The Era...\",\"link\":\"https://arxiv.org/html/2402.06647v1#:~:text=2%20Hallucination%20in%20the%20Era%20of%20LLM,-Report%20issue%20for%20preceding%20element\"},{\"title\":\"3 The Creativity Hidden In...\",\"link\":\"https://arxiv.org/html/2402.06647v1#:~:text=3%20The%20Creativity%20Hidden%20in%20Hallucination,-Report%20issue%20for%20preceding%20element\"}],\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJVc2Ugb2YgUkxIRiBpbiBhZGRyZXNzaW5nIGhhbGx1Y2luYXRpb24gaW4gdmlkZW8gY29udGVudCBiZWZvcmU6MjAyNC0wOS0yNCBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJVbnZlaWxpbmcgSGFsbHVjaW5hdGlvbiBpbiBUZXh0LCBJbWFnZSwgVmlkZW8sIGFuZCBBdWRpbyBGb3VuZGF0aW9uIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMDk1ODl2MSIsInNuaXBwZXQiOiJMVk1zIGZhY2UgY2hhbGxlbmdlcyB3aXRoIGhhbGx1Y2luYXRpb25zLCB3aGVyZSBtaXNpbnRlcnByZXRhdGlvbnMgb2YgdmlkZW8gZnJhbWVzIGNhbiByZXN1bHQgaW4gYXJ0aWZpY2lhbCBvciBpbmFjY3VyYXRlIHZpc3VhbCBkYXRhLiIsImRhdGUiOiJNYXkgMTUsIDIwMjQiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IkV2YWx1YXRpbmcgSW50cmluc2ljIGFuZCBFeHRyaW5zaWMgSGFsbHVjaW5hdGlvbnMgaW4gTGFyZ2UgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA2LjE2MzM4djEiLCJzbmlwcGV0IjoiVGhpcyB3b3JrIGludHJvZHVjZXMgVmlkZW9IYWxsdWNlciwgdGhlIGZpcnN0IGNvbXByZWhlbnNpdmUgYmVuY2htYXJrIGZvciBoYWxsdWNpbmF0aW9uIGRldGVjdGlvbiBpbiBsYXJnZSB2aWRlby1sYW5ndWFnZSBtb2RlbHMgKExWTE1zKS4iLCJkYXRlIjoiSnVuIDI0LCAyMDI0IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJEZXRlY3RpbmcgYW5kIFByZXZlbnRpbmcgSGFsbHVjaW5hdGlvbnMgaW4gTGFyZ2UgVmlzaW9uIExhbmd1YWdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDguMDYzOTR2MyIsInNuaXBwZXQiOiJSTEhGIHR5cGljYWxseSB1c2VzIFByb3hpbWFsIFBvbGljeSBPcHRpbWl6YXRpb24gKFNjaHVsbWFuIGV0IGFsLiAyMDE3KSAsIHRvIG9wdGltaXplIGEgcG9saWN5IG1vZGVsIHdpdGggcmV3YXJkcyBmcm9tIGEgcmV3YXJkIG1vZGVsLiBUaGlzIHJld2FyZCBtb2RlbCBpcyAuLi4iLCJkYXRlIjoiRmViIDExLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJBbiBFbXBpcmljYWwgU3R1ZHkgb24gRmFjdHVhbGl0eSBIYWxsdWNpbmF0aW9uIGluIExhcmdlIExhbmd1YWdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMDMyMDV2MSIsInNuaXBwZXQiOiLigJwzSCBhbGlnbm1lbnTigJ0gKGkuZS4sIGhlbHBmdWwsIGhvbmVzdCwgYW5kIGhhcm1sZXNzKSBpcyB3aWRlbHkgdXNlZCBhcyB0aGUgYWxpZ25tZW50IGNyaXRlcmlvbiBpbiBSTEhGLCB3aGVyZSBob25lc3QgaXMgcGFydGlhbGx5IHJlbGF0ZWQgdG8gaGFsbHVjaW5hdGlvbiAuLi4iLCJkYXRlIjoiSmFuIDYsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkxldmVyYWdpbmcgU2VsZi1hd2FyZW5lc3MgaW4gTExNcyBmb3IgSGFsbHVjaW5hdGlvbiBNaXRpZ2F0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAxLjE1NDQ5djEiLCJzbmlwcGV0IjoiV2UgcG9zaXQgdGhhdCBSTEtGIGlzIGEgcHJvbWlzaW5nIHNvbHV0aW9uIHRvIGFkZHJlc3MgTExNJ3MgaGFsbHVjaW5hdGlvbiBpc3N1ZXMgYW5kLCBjb21iaW5lZCB3aXRoIFJMSEYsIG9mZmVycyBzaWduaWZpY2FudCBwb3RlbnRpYWwgZm9yIGVuaGFuY2luZyB0aGUgbW9kZWwncyAuLi4iLCJkYXRlIjoiSmFuIDI3LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJDYW4gS25vd2xlZGdlIEdyYXBocyBSZWR1Y2UgSGFsbHVjaW5hdGlvbnMgaW4gTExNcz8gOiBBIFN1cnZleSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMDc5MTR2MiIsInNuaXBwZXQiOiJJbiB0aGlzIHN1cnZleSwgd2UgY3JpdGljYWxseSByZXZpZXcgS0cgYXVnbWVudGF0aW9uIG1ldGhvZHMgdXNlZCBpbiBzcGVjaWZpYyBzdGFnZXMgdG8gcmVkdWNlIGhhbGx1Y2luYXRpb25zIGluIExMTXMgYW5kIGltcHJvdmUgdGhlaXIgcGVyZm9ybWFuY2UgYW5kIC4uLiIsImRhdGUiOiJNYXIgMTYsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6Ik1pdGlnYXRpbmcgT2JqZWN0IEhhbGx1Y2luYXRpb24gdmlhIERhdGEgQXVnbWVudGVkIENvbnRyYXN0aXZlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMTg2NTR2MSIsInNuaXBwZXQiOiJ3ZSBvYnNlcnZlIHRoYXQgb3VyIGFwcHJvYWNoIGlzIG1vcmUgZWZmZWN0aXZlIGluIG1pdGlnYXRpbmcgaGFsbHVjaW5hdGlvbiB0aGFuIGV4aXN0aW5nIFJMSEYsIFNGVCwgb3IgRFBPLWJhc2VkIG1ldGhvZHMuIiwiZGF0ZSI6Ik1heSAyOCwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMxMi4wMDg0OXYyIFtjcy5DTF0gOCBNYXIgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMxMi4wMDg0OSIsInNuaXBwZXQiOiJSTEhGLVYgc2lnbmlmaWNhbnRseSByZWR1Y2VzIHRoZSBoYWxsdWNpbmF0aW9uIHJhdGUgb2YgdGhlIGJhc2UgTUxMTSBieSAzNC44JSwgb3V0cGVyZm9ybWluZyB0aGUgcmVjZWl2ZSBzdHJvbmdlciBmZWVkYmFjayB0byBiZSBmYWN0dWFsbHkgZ3JvdW5kZWQuIiwiZGF0ZSI6Ik1hciA4LCAyMDI0IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbMjQwMy4wNDc2OV0gVXNpbmcgSGFsbHVjaW5hdGlvbnMgdG8gQnlwYXNzIEdQVDQncyBGaWx0ZXIgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQwMy4wNDc2OSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcmVzZW50IGEgbm92ZWwgbWV0aG9kIHRvIG1hbmlwdWxhdGUgdGhlIGZpbmUtdHVuZWQgdmVyc2lvbiBpbnRvIHJldmVydGluZyB0byBpdHMgcHJlLVJMSEYgYmVoYXZpb3IsIGVmZmVjdGl2ZWx5IGVyYXNpbmcgdGhlIG1vZGVsJ3MgZmlsdGVyczsgLi4uIiwiZGF0ZSI6IkZlYiAxNiwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gTGFyZ2UgTGFuZ3VhZ2UgTW9kZWwgSGFsbHVjaW5hdGlvbiB2aWEgYSBDcmVhdGl2aXR5IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDIuMDY2NDd2MSIsInNuaXBwZXQiOiJIYWxsdWNpbmF0aW9ucyBpbiBsYXJnZSBsYW5ndWFnZSBtb2RlbHMgKExMTXMpIGFyZSBhbHdheXMgc2VlbiBhcyBsaW1pdGF0aW9ucy4gSG93ZXZlciwgY291bGQgdGhleSBhbHNvIGJlIGEgc291cmNlIG9mIGNyZWF0aXZpdHk/IFRoaXMgc3VydmV5IGV4cGxvcmVzIHRoaXMgLi4uIiwiZGF0ZSI6IkZlYiAyLCAyMDI0Iiwic2l0ZWxpbmtzIjpbeyJ0aXRsZSI6IjEgSW50cm9kdWN0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNjY0N3YxIzp+OnRleHQ9MSUyMEludHJvZHVjdGlvbiwtUmVwb3J0JTIwaXNzdWUlMjBmb3IlMjBwcmVjZWRpbmclMjBlbGVtZW50In0seyJ0aXRsZSI6IjIgSGFsbHVjaW5hdGlvbiBJbiBUaGUgRXJhLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNjY0N3YxIzp+OnRleHQ9MiUyMEhhbGx1Y2luYXRpb24lMjBpbiUyMHRoZSUyMEVyYSUyMG9mJTIwTExNLC1SZXBvcnQlMjBpc3N1ZSUyMGZvciUyMHByZWNlZGluZyUyMGVsZW1lbnQifSx7InRpdGxlIjoiMyBUaGUgQ3JlYXRpdml0eSBIaWRkZW4gSW4uLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjA2NjQ3djEjOn46dGV4dD0zJTIwVGhlJTIwQ3JlYXRpdml0eSUyMEhpZGRlbiUyMGluJTIwSGFsbHVjaW5hdGlvbiwtUmVwb3J0JTIwaXNzdWUlMjBmb3IlMjBwcmVjZWRpbmclMjBlbGVtZW50In1dLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+          "response_sha256": "7c41ef20d09b585a1a6e3f5aa5f3fe3fe9cb0a29e6d5d161887120e349a00d9f",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Use of RLHF in addressing hallucination in video content before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Unveiling Hallucination in Text, Image, Video, and Audio Foundation ...",
+                "link": "https://arxiv.org/html/2405.09589v1",
+                "snippet": "LVMs face challenges with hallucinations, where misinterpretations of video frames can result in artificial or inaccurate visual data.",
+                "date": "May 15, 2024",
+                "position": 1
+              },
+              {
+                "title": "Evaluating Intrinsic and Extrinsic Hallucinations in Large ... - arXiv",
+                "link": "https://arxiv.org/html/2406.16338v1",
+                "snippet": "This work introduces VideoHallucer, the first comprehensive benchmark for hallucination detection in large video-language models (LVLMs).",
+                "date": "Jun 24, 2024",
+                "position": 2
+              },
+              {
+                "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+                "link": "https://arxiv.org/html/2308.06394v3",
+                "snippet": "RLHF typically uses Proximal Policy Optimization (Schulman et al. 2017) , to optimize a policy model with rewards from a reward model. This reward model is ...",
+                "date": "Feb 11, 2024",
+                "position": 3
+              },
+              {
+                "title": "An Empirical Study on Factuality Hallucination in Large Language ...",
+                "link": "https://arxiv.org/html/2401.03205v1",
+                "snippet": "“3H alignment” (i.e., helpful, honest, and harmless) is widely used as the alignment criterion in RLHF, where honest is partially related to hallucination ...",
+                "date": "Jan 6, 2024",
+                "position": 4
+              },
+              {
+                "title": "Leveraging Self-awareness in LLMs for Hallucination Mitigation - arXiv",
+                "link": "https://arxiv.org/html/2401.15449v1",
+                "snippet": "We posit that RLKF is a promising solution to address LLM's hallucination issues and, combined with RLHF, offers significant potential for enhancing the model's ...",
+                "date": "Jan 27, 2024",
+                "position": 5
+              },
+              {
+                "title": "Can Knowledge Graphs Reduce Hallucinations in LLMs? : A Survey",
+                "link": "https://arxiv.org/html/2311.07914v2",
+                "snippet": "In this survey, we critically review KG augmentation methods used in specific stages to reduce hallucinations in LLMs and improve their performance and ...",
+                "date": "Mar 16, 2024",
+                "position": 6
+              },
+              {
+                "title": "Mitigating Object Hallucination via Data Augmented Contrastive ...",
+                "link": "https://arxiv.org/html/2405.18654v1",
+                "snippet": "we observe that our approach is more effective in mitigating hallucination than existing RLHF, SFT, or DPO-based methods.",
+                "date": "May 28, 2024",
+                "position": 7
+              },
+              {
+                "title": "[PDF] arXiv:2312.00849v2 [cs.CL] 8 Mar 2024",
+                "link": "https://arxiv.org/pdf/2312.00849",
+                "snippet": "RLHF-V significantly reduces the hallucination rate of the base MLLM by 34.8%, outperforming the receive stronger feedback to be factually grounded.",
+                "date": "Mar 8, 2024",
+                "position": 8
+              },
+              {
+                "title": "[2403.04769] Using Hallucinations to Bypass GPT4's Filter - arXiv",
+                "link": "https://arxiv.org/abs/2403.04769",
+                "snippet": "In this paper, we present a novel method to manipulate the fine-tuned version into reverting to its pre-RLHF behavior, effectively erasing the model's filters; ...",
+                "date": "Feb 16, 2024",
+                "position": 9
+              },
+              {
+                "title": "A Survey on Large Language Model Hallucination via a Creativity ...",
+                "link": "https://arxiv.org/html/2402.06647v1",
+                "snippet": "Hallucinations in large language models (LLMs) are always seen as limitations. However, could they also be a source of creativity? This survey explores this ...",
+                "date": "Feb 2, 2024",
+                "sitelinks": [
+                  {
+                    "title": "1 Introduction",
+                    "link": "https://arxiv.org/html/2402.06647v1#:~:text=1%20Introduction,-Report%20issue%20for%20preceding%20element"
+                  },
+                  {
+                    "title": "2 Hallucination In The Era...",
+                    "link": "https://arxiv.org/html/2402.06647v1#:~:text=2%20Hallucination%20in%20the%20Era%20of%20LLM,-Report%20issue%20for%20preceding%20element"
+                  },
+                  {
+                    "title": "3 The Creativity Hidden In...",
+                    "link": "https://arxiv.org/html/2402.06647v1#:~:text=3%20The%20Creativity%20Hidden%20in%20Hallucination,-Report%20issue%20for%20preceding%20element"
+                  }
+                ],
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:16.150270+00:00",
+          "elapsed_seconds": 1.5574494861066341
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2308.06394",
+        "2311.07914",
+        "2312.00849",
+        "2401.03205",
+        "2401.15449",
+        "2402.06647",
+        "2403.04769",
+        "2405.09589",
+        "2405.18654",
+        "2406.16338"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2405.09589",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2405.09589v1",
+          "title": "Unveiling Hallucination in Text, Image, Video, and Audio Foundation ...",
+          "snippet": "LVMs face challenges with hallucinations, where misinterpretations of video frames can result in artificial or inaccurate visual data."
+        },
+        {
+          "arxiv_id": "2406.16338",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2406.16338v1",
+          "title": "Evaluating Intrinsic and Extrinsic Hallucinations in Large ... - arXiv",
+          "snippet": "This work introduces VideoHallucer, the first comprehensive benchmark for hallucination detection in large video-language models (LVLMs)."
+        },
+        {
+          "arxiv_id": "2308.06394",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2308.06394v3",
+          "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+          "snippet": "RLHF typically uses Proximal Policy Optimization (Schulman et al. 2017) , to optimize a policy model with rewards from a reward model. This reward model is ..."
+        },
+        {
+          "arxiv_id": "2401.03205",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2401.03205v1",
+          "title": "An Empirical Study on Factuality Hallucination in Large Language ...",
+          "snippet": "“3H alignment” (i.e., helpful, honest, and harmless) is widely used as the alignment criterion in RLHF, where honest is partially related to hallucination ..."
+        },
+        {
+          "arxiv_id": "2401.15449",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2401.15449v1",
+          "title": "Leveraging Self-awareness in LLMs for Hallucination Mitigation - arXiv",
+          "snippet": "We posit that RLKF is a promising solution to address LLM's hallucination issues and, combined with RLHF, offers significant potential for enhancing the model's ..."
+        },
+        {
+          "arxiv_id": "2311.07914",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2311.07914v2",
+          "title": "Can Knowledge Graphs Reduce Hallucinations in LLMs? : A Survey",
+          "snippet": "In this survey, we critically review KG augmentation methods used in specific stages to reduce hallucinations in LLMs and improve their performance and ..."
+        },
+        {
+          "arxiv_id": "2405.18654",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2405.18654v1",
+          "title": "Mitigating Object Hallucination via Data Augmented Contrastive ...",
+          "snippet": "we observe that our approach is more effective in mitigating hallucination than existing RLHF, SFT, or DPO-based methods."
+        },
+        {
+          "arxiv_id": "2312.00849",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2312.00849",
+          "title": "[PDF] arXiv:2312.00849v2 [cs.CL] 8 Mar 2024",
+          "snippet": "RLHF-V significantly reduces the hallucination rate of the base MLLM by 34.8%, outperforming the receive stronger feedback to be factually grounded."
+        },
+        {
+          "arxiv_id": "2403.04769",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/abs/2403.04769",
+          "title": "[2403.04769] Using Hallucinations to Bypass GPT4's Filter - arXiv",
+          "snippet": "In this paper, we present a novel method to manipulate the fine-tuned version into reverting to its pre-RLHF behavior, effectively erasing the model's filters; ..."
+        },
+        {
+          "arxiv_id": "2402.06647",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2402.06647v1",
+          "title": "A Survey on Large Language Model Hallucination via a Creativity ...",
+          "snippet": "Hallucinations in large language models (LLMs) are always seen as limitations. However, could they also be a source of creativity? This survey explores this ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Use of RLHF in addressing hallucination in video content before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q4": {
+      "query_key": "q4",
+      "query_text": "Impact of RLHF on hallucination issue in image description",
+      "attempts": [
+        {
+          "global_attempt_sequence": 35,
+          "query_id": "Q5",
+          "query_key": "q4",
+          "attempt": 1,
+          "query_text": "Impact of RLHF on hallucination issue in image description",
+          "request_payload": {
+            "q": "Impact of RLHF on hallucination issue in image description before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q5_q4_attempt1.json",
+          "started_utc": "2026-09-15T06:25:16.189550+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Impact of RLHF on hallucination issue in image description before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Unveiling Hallucination in Text, Image, Video, and Audio Foundation ...\",\"link\":\"https://arxiv.org/html/2405.09589v1\",\"snippet\":\"This survey paper presents a comprehensive overview of recent developments that aim to identify and mitigate the problem of hallucination in FMs, spanning text, ...\",\"date\":\"May 15, 2024\",\"position\":1},{\"title\":\"Mitigating Open-Vocabulary Caption Hallucinations - arXiv\",\"link\":\"https://arxiv.org/html/2312.03631v3\",\"snippet\":\"RLHF training does not necessarily solve the hallucination problem of VLM models by showing a generation produced by LLaVa-RLHF Sun et al. (2023a) compared to ...\",\"date\":\"Apr 19, 2024\",\"position\":2},{\"title\":\"Detecting and Preventing Hallucinations in Large Vision Language ...\",\"link\":\"https://arxiv.org/html/2308.06394v3\",\"snippet\":\"reduce hallucination rates by 41%. using Reinforcement Learning with Human Feedback (RLHF) to address this problem ・ ically uses Proximal Policy Optimization ...\",\"date\":\"Feb 11, 2024\",\"position\":3},{\"title\":\"Mitigating Object Hallucination via Data Augmented Contrastive ...\",\"link\":\"https://arxiv.org/html/2405.18654v1\",\"snippet\":\"Multimodal Large Language Models (MLLMs) tend to hallucinate factually inaccurate information. resulting in poor performance in general vision-language tasks.\",\"date\":\"May 28, 2024\",\"position\":4},{\"title\":\"[PDF] A Survey on Hallucination in Large Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2311.05232\",\"snippet\":\"LLMs are prone to hallucination, generating plausible yet nonfactual content. This phenomenon raises significant concerns over the reliability of LLMs in real- ...\",\"date\":\"Dec 10, 2023\",\"position\":5},{\"title\":\"[PDF] arXiv:2312.00849v2 [cs.CL] 8 Mar 2024\",\"link\":\"https://arxiv.org/pdf/2312.00849\",\"snippet\":\"RLHF-V significantly reduces the hallucination rate of the base MLLM by the behav- ior from demonstration. RLHF-V reduces hallucination from correlation and ...\",\"date\":\"Mar 8, 2024\",\"position\":6},{\"title\":\"[PDF] A Survey of Hallucination in Large Visual Language Models - arXiv\",\"link\":\"https://arxiv.org/pdf/2410.15359\",\"snippet\":\"hallucinations may lead to mislead users with incorrect or inaccurate information and even lead to the dissemination of misinformation in content summarization\",\"date\":\"Apr 19, 2021\",\"position\":7},{\"title\":\"[PDF] arXiv:2409.01151v1 [cs.CV] 2 Sep 2024\",\"link\":\"https://arxiv.org/pdf/2409.01151\",\"snippet\":\"Hallucination is a common issue in Multimodal Large Language Models. (MLLMs), yet the underlying principles remain poorly understood. In this paper,.\",\"date\":\"Sep 2, 2024\",\"position\":8},{\"title\":\"Survey of Hallucination in Natural Language Generation - arXiv\",\"link\":\"https://arxiv.org/html/2202.03629v6\",\"snippet\":\"Hallucination in NLG is concerning because it hinders performance and raises safety concerns for real-world applications. For instance, in medical applications, ...\",\"date\":\"Feb 19, 2024\",\"position\":9},{\"title\":\"[PDF] arXiv:2311.16922v1 [cs.CV] 28 Nov 2023\",\"link\":\"https://arxiv.org/pdf/2311.16922\",\"snippet\":\"In this work, we analyze the effect of visual uncertainty on the two primary causes of object hallucinations in LVLMs, namely statistical bias and unimodal ...\",\"date\":\"Nov 28, 2023\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJJbXBhY3Qgb2YgUkxIRiBvbiBoYWxsdWNpbmF0aW9uIGlzc3VlIGluIGltYWdlIGRlc2NyaXB0aW9uIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlVudmVpbGluZyBIYWxsdWNpbmF0aW9uIGluIFRleHQsIEltYWdlLCBWaWRlbywgYW5kIEF1ZGlvIEZvdW5kYXRpb24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4wOTU4OXYxIiwic25pcHBldCI6IlRoaXMgc3VydmV5IHBhcGVyIHByZXNlbnRzIGEgY29tcHJlaGVuc2l2ZSBvdmVydmlldyBvZiByZWNlbnQgZGV2ZWxvcG1lbnRzIHRoYXQgYWltIHRvIGlkZW50aWZ5IGFuZCBtaXRpZ2F0ZSB0aGUgcHJvYmxlbSBvZiBoYWxsdWNpbmF0aW9uIGluIEZNcywgc3Bhbm5pbmcgdGV4dCwgLi4uIiwiZGF0ZSI6Ik1heSAxNSwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiTWl0aWdhdGluZyBPcGVuLVZvY2FidWxhcnkgQ2FwdGlvbiBIYWxsdWNpbmF0aW9ucyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMxMi4wMzYzMXYzIiwic25pcHBldCI6IlJMSEYgdHJhaW5pbmcgZG9lcyBub3QgbmVjZXNzYXJpbHkgc29sdmUgdGhlIGhhbGx1Y2luYXRpb24gcHJvYmxlbSBvZiBWTE0gbW9kZWxzIGJ5IHNob3dpbmcgYSBnZW5lcmF0aW9uIHByb2R1Y2VkIGJ5IExMYVZhLVJMSEYgU3VuIGV0IGFsLiAoMjAyM2EpIGNvbXBhcmVkIHRvIC4uLiIsImRhdGUiOiJBcHIgMTksIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkRldGVjdGluZyBhbmQgUHJldmVudGluZyBIYWxsdWNpbmF0aW9ucyBpbiBMYXJnZSBWaXNpb24gTGFuZ3VhZ2UgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjMwOC4wNjM5NHYzIiwic25pcHBldCI6InJlZHVjZSBoYWxsdWNpbmF0aW9uIHJhdGVzIGJ5IDQxJS4gdXNpbmcgUmVpbmZvcmNlbWVudCBMZWFybmluZyB3aXRoIEh1bWFuIEZlZWRiYWNrIChSTEhGKSB0byBhZGRyZXNzIHRoaXMgcHJvYmxlbSDjg7sgaWNhbGx5IHVzZXMgUHJveGltYWwgUG9saWN5IE9wdGltaXphdGlvbiAuLi4iLCJkYXRlIjoiRmViIDExLCAyMDI0IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJNaXRpZ2F0aW5nIE9iamVjdCBIYWxsdWNpbmF0aW9uIHZpYSBEYXRhIEF1Z21lbnRlZCBDb250cmFzdGl2ZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA1LjE4NjU0djEiLCJzbmlwcGV0IjoiTXVsdGltb2RhbCBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgKE1MTE1zKSB0ZW5kIHRvIGhhbGx1Y2luYXRlIGZhY3R1YWxseSBpbmFjY3VyYXRlIGluZm9ybWF0aW9uLiByZXN1bHRpbmcgaW4gcG9vciBwZXJmb3JtYW5jZSBpbiBnZW5lcmFsIHZpc2lvbi1sYW5ndWFnZSB0YXNrcy4iLCJkYXRlIjoiTWF5IDI4LCAyMDI0IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJbUERGXSBBIFN1cnZleSBvbiBIYWxsdWNpbmF0aW9uIGluIExhcmdlIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzExLjA1MjMyIiwic25pcHBldCI6IkxMTXMgYXJlIHByb25lIHRvIGhhbGx1Y2luYXRpb24sIGdlbmVyYXRpbmcgcGxhdXNpYmxlIHlldCBub25mYWN0dWFsIGNvbnRlbnQuIFRoaXMgcGhlbm9tZW5vbiByYWlzZXMgc2lnbmlmaWNhbnQgY29uY2VybnMgb3ZlciB0aGUgcmVsaWFiaWxpdHkgb2YgTExNcyBpbiByZWFsLSAuLi4iLCJkYXRlIjoiRGVjIDEwLCAyMDIzIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMzEyLjAwODQ5djIgW2NzLkNMXSA4IE1hciAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzEyLjAwODQ5Iiwic25pcHBldCI6IlJMSEYtViBzaWduaWZpY2FudGx5IHJlZHVjZXMgdGhlIGhhbGx1Y2luYXRpb24gcmF0ZSBvZiB0aGUgYmFzZSBNTExNIGJ5IHRoZSBiZWhhdi0gaW9yIGZyb20gZGVtb25zdHJhdGlvbi4gUkxIRi1WIHJlZHVjZXMgaGFsbHVjaW5hdGlvbiBmcm9tIGNvcnJlbGF0aW9uIGFuZCAuLi4iLCJkYXRlIjoiTWFyIDgsIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIEEgU3VydmV5IG9mIEhhbGx1Y2luYXRpb24gaW4gTGFyZ2UgVmlzdWFsIExhbmd1YWdlIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDEwLjE1MzU5Iiwic25pcHBldCI6ImhhbGx1Y2luYXRpb25zIG1heSBsZWFkIHRvIG1pc2xlYWQgdXNlcnMgd2l0aCBpbmNvcnJlY3Qgb3IgaW5hY2N1cmF0ZSBpbmZvcm1hdGlvbiBhbmQgZXZlbiBsZWFkIHRvIHRoZSBkaXNzZW1pbmF0aW9uIG9mIG1pc2luZm9ybWF0aW9uIGluIGNvbnRlbnQgc3VtbWFyaXphdGlvbiIsImRhdGUiOiJBcHIgMTksIDIwMjEiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDkuMDExNTF2MSBbY3MuQ1ZdIDIgU2VwIDIwMjQiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDkuMDExNTEiLCJzbmlwcGV0IjoiSGFsbHVjaW5hdGlvbiBpcyBhIGNvbW1vbiBpc3N1ZSBpbiBNdWx0aW1vZGFsIExhcmdlIExhbmd1YWdlIE1vZGVscy4gKE1MTE1zKSwgeWV0IHRoZSB1bmRlcmx5aW5nIHByaW5jaXBsZXMgcmVtYWluIHBvb3JseSB1bmRlcnN0b29kLiBJbiB0aGlzIHBhcGVyLC4iLCJkYXRlIjoiU2VwIDIsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IlN1cnZleSBvZiBIYWxsdWNpbmF0aW9uIGluIE5hdHVyYWwgTGFuZ3VhZ2UgR2VuZXJhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjIwMi4wMzYyOXY2Iiwic25pcHBldCI6IkhhbGx1Y2luYXRpb24gaW4gTkxHIGlzIGNvbmNlcm5pbmcgYmVjYXVzZSBpdCBoaW5kZXJzIHBlcmZvcm1hbmNlIGFuZCByYWlzZXMgc2FmZXR5IGNvbmNlcm5zIGZvciByZWFsLXdvcmxkIGFwcGxpY2F0aW9ucy4gRm9yIGluc3RhbmNlLCBpbiBtZWRpY2FsIGFwcGxpY2F0aW9ucywgLi4uIiwiZGF0ZSI6IkZlYiAxOSwgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMxMS4xNjkyMnYxIFtjcy5DVl0gMjggTm92IDIwMjMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMTEuMTY5MjIiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBhbmFseXplIHRoZSBlZmZlY3Qgb2YgdmlzdWFsIHVuY2VydGFpbnR5IG9uIHRoZSB0d28gcHJpbWFyeSBjYXVzZXMgb2Ygb2JqZWN0IGhhbGx1Y2luYXRpb25zIGluIExWTE1zLCBuYW1lbHkgc3RhdGlzdGljYWwgYmlhcyBhbmQgdW5pbW9kYWwgLi4uIiwiZGF0ZSI6Ik5vdiAyOCwgMjAyMyIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "3f124edb1e5c8a5bbd1452b7b32f427201b191c1620c67df135cec6fe512a7ad",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Impact of RLHF on hallucination issue in image description before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Unveiling Hallucination in Text, Image, Video, and Audio Foundation ...",
+                "link": "https://arxiv.org/html/2405.09589v1",
+                "snippet": "This survey paper presents a comprehensive overview of recent developments that aim to identify and mitigate the problem of hallucination in FMs, spanning text, ...",
+                "date": "May 15, 2024",
+                "position": 1
+              },
+              {
+                "title": "Mitigating Open-Vocabulary Caption Hallucinations - arXiv",
+                "link": "https://arxiv.org/html/2312.03631v3",
+                "snippet": "RLHF training does not necessarily solve the hallucination problem of VLM models by showing a generation produced by LLaVa-RLHF Sun et al. (2023a) compared to ...",
+                "date": "Apr 19, 2024",
+                "position": 2
+              },
+              {
+                "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+                "link": "https://arxiv.org/html/2308.06394v3",
+                "snippet": "reduce hallucination rates by 41%. using Reinforcement Learning with Human Feedback (RLHF) to address this problem ・ ically uses Proximal Policy Optimization ...",
+                "date": "Feb 11, 2024",
+                "position": 3
+              },
+              {
+                "title": "Mitigating Object Hallucination via Data Augmented Contrastive ...",
+                "link": "https://arxiv.org/html/2405.18654v1",
+                "snippet": "Multimodal Large Language Models (MLLMs) tend to hallucinate factually inaccurate information. resulting in poor performance in general vision-language tasks.",
+                "date": "May 28, 2024",
+                "position": 4
+              },
+              {
+                "title": "[PDF] A Survey on Hallucination in Large Language Models - arXiv",
+                "link": "https://arxiv.org/pdf/2311.05232",
+                "snippet": "LLMs are prone to hallucination, generating plausible yet nonfactual content. This phenomenon raises significant concerns over the reliability of LLMs in real- ...",
+                "date": "Dec 10, 2023",
+                "position": 5
+              },
+              {
+                "title": "[PDF] arXiv:2312.00849v2 [cs.CL] 8 Mar 2024",
+                "link": "https://arxiv.org/pdf/2312.00849",
+                "snippet": "RLHF-V significantly reduces the hallucination rate of the base MLLM by the behav- ior from demonstration. RLHF-V reduces hallucination from correlation and ...",
+                "date": "Mar 8, 2024",
+                "position": 6
+              },
+              {
+                "title": "[PDF] A Survey of Hallucination in Large Visual Language Models - arXiv",
+                "link": "https://arxiv.org/pdf/2410.15359",
+                "snippet": "hallucinations may lead to mislead users with incorrect or inaccurate information and even lead to the dissemination of misinformation in content summarization",
+                "date": "Apr 19, 2021",
+                "position": 7
+              },
+              {
+                "title": "[PDF] arXiv:2409.01151v1 [cs.CV] 2 Sep 2024",
+                "link": "https://arxiv.org/pdf/2409.01151",
+                "snippet": "Hallucination is a common issue in Multimodal Large Language Models. (MLLMs), yet the underlying principles remain poorly understood. In this paper,.",
+                "date": "Sep 2, 2024",
+                "position": 8
+              },
+              {
+                "title": "Survey of Hallucination in Natural Language Generation - arXiv",
+                "link": "https://arxiv.org/html/2202.03629v6",
+                "snippet": "Hallucination in NLG is concerning because it hinders performance and raises safety concerns for real-world applications. For instance, in medical applications, ...",
+                "date": "Feb 19, 2024",
+                "position": 9
+              },
+              {
+                "title": "[PDF] arXiv:2311.16922v1 [cs.CV] 28 Nov 2023",
+                "link": "https://arxiv.org/pdf/2311.16922",
+                "snippet": "In this work, we analyze the effect of visual uncertainty on the two primary causes of object hallucinations in LVLMs, namely statistical bias and unimodal ...",
+                "date": "Nov 28, 2023",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:16.965300+00:00",
+          "elapsed_seconds": 0.775750420987606
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2202.03629",
+        "2308.06394",
+        "2311.05232",
+        "2311.16922",
+        "2312.00849",
+        "2312.03631",
+        "2405.09589",
+        "2405.18654",
+        "2409.01151",
+        "2410.15359"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2405.09589",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2405.09589v1",
+          "title": "Unveiling Hallucination in Text, Image, Video, and Audio Foundation ...",
+          "snippet": "This survey paper presents a comprehensive overview of recent developments that aim to identify and mitigate the problem of hallucination in FMs, spanning text, ..."
+        },
+        {
+          "arxiv_id": "2312.03631",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2312.03631v3",
+          "title": "Mitigating Open-Vocabulary Caption Hallucinations - arXiv",
+          "snippet": "RLHF training does not necessarily solve the hallucination problem of VLM models by showing a generation produced by LLaVa-RLHF Sun et al. (2023a) compared to ..."
+        },
+        {
+          "arxiv_id": "2308.06394",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2308.06394v3",
+          "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+          "snippet": "reduce hallucination rates by 41%. using Reinforcement Learning with Human Feedback (RLHF) to address this problem ・ ically uses Proximal Policy Optimization ..."
+        },
+        {
+          "arxiv_id": "2405.18654",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2405.18654v1",
+          "title": "Mitigating Object Hallucination via Data Augmented Contrastive ...",
+          "snippet": "Multimodal Large Language Models (MLLMs) tend to hallucinate factually inaccurate information. resulting in poor performance in general vision-language tasks."
+        },
+        {
+          "arxiv_id": "2311.05232",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/pdf/2311.05232",
+          "title": "[PDF] A Survey on Hallucination in Large Language Models - arXiv",
+          "snippet": "LLMs are prone to hallucination, generating plausible yet nonfactual content. This phenomenon raises significant concerns over the reliability of LLMs in real- ..."
+        },
+        {
+          "arxiv_id": "2312.00849",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/pdf/2312.00849",
+          "title": "[PDF] arXiv:2312.00849v2 [cs.CL] 8 Mar 2024",
+          "snippet": "RLHF-V significantly reduces the hallucination rate of the base MLLM by the behav- ior from demonstration. RLHF-V reduces hallucination from correlation and ..."
+        },
+        {
+          "arxiv_id": "2410.15359",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2410.15359",
+          "title": "[PDF] A Survey of Hallucination in Large Visual Language Models - arXiv",
+          "snippet": "hallucinations may lead to mislead users with incorrect or inaccurate information and even lead to the dissemination of misinformation in content summarization"
+        },
+        {
+          "arxiv_id": "2409.01151",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2409.01151",
+          "title": "[PDF] arXiv:2409.01151v1 [cs.CV] 2 Sep 2024",
+          "snippet": "Hallucination is a common issue in Multimodal Large Language Models. (MLLMs), yet the underlying principles remain poorly understood. In this paper,."
+        },
+        {
+          "arxiv_id": "2202.03629",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2202.03629v6",
+          "title": "Survey of Hallucination in Natural Language Generation - arXiv",
+          "snippet": "Hallucination in NLG is concerning because it hinders performance and raises safety concerns for real-world applications. For instance, in medical applications, ..."
+        },
+        {
+          "arxiv_id": "2311.16922",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/pdf/2311.16922",
+          "title": "[PDF] arXiv:2311.16922v1 [cs.CV] 28 Nov 2023",
+          "snippet": "In this work, we analyze the effect of visual uncertainty on the two primary causes of object hallucinations in LVLMs, namely statistical bias and unimodal ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Impact of RLHF on hallucination issue in image description before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "q5": {
+      "query_key": "q5",
+      "query_text": "Role of RLHF in reducing hallucination in multimodal generation",
+      "attempts": [
+        {
+          "global_attempt_sequence": 37,
+          "query_id": "Q5",
+          "query_key": "q5",
+          "attempt": 1,
+          "query_text": "Role of RLHF in reducing hallucination in multimodal generation",
+          "request_payload": {
+            "q": "Role of RLHF in reducing hallucination in multimodal generation before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q5_q5_attempt1.json",
+          "started_utc": "2026-09-15T06:25:18.522239+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Role of RLHF in reducing hallucination in multimodal generation before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[PDF] arXiv:2312.00849v2 [cs.CL] 8 Mar 2024\",\"link\":\"https://arxiv.org/pdf/2312.00849\",\"snippet\":\"RLHF-V significantly reduces the hallucination rate of the base MLLM by 34.8%, outperforming the concur- rent LLaVA-RLHF trained on 10k annotated data.\",\"date\":\"Mar 8, 2024\",\"position\":1},{\"title\":\"[2312.00849] RLHF-V: Towards Trustworthy MLLMs via Behavior ...\",\"link\":\"https://arxiv.org/abs/2312.00849\",\"snippet\":\"RLHF-V significantly reduces the hallucination rate of the base MLLM by 34.8%, outperforming the concurrent LLaVA-RLHF trained on 10k annotated data.\",\"date\":\"Dec 1, 2023\",\"position\":2},{\"title\":\"[PDF] arXiv:2402.09801v3 [cs.CL] 23 Sep 2024\",\"link\":\"https://arxiv.org/pdf/2402.09801\",\"snippet\":\"Extensive experiments on different baselines show that our method ef- fectively reduces multimodal hallucinations while retaining the general performance of the ...\",\"date\":\"Sep 23, 2024\",\"position\":3},{\"title\":\"Detecting and Preventing Hallucinations in Large Vision Language ...\",\"link\":\"https://arxiv.org/html/2308.06394v3\",\"snippet\":\"We also find that our reward model generalizes to other multi-modal models, reducing hallucinations in LLaVA and mPLUG-OWL by 15% and 57% respectively, and has ...\",\"date\":\"Feb 11, 2024\",\"position\":4},{\"title\":\"Mitigating Object Hallucination via Data Augmented Contrastive ...\",\"link\":\"https://arxiv.org/html/2405.18654v1\",\"snippet\":\"Our proposed contrastive loss simply mitigates object hallucinations in MLLMs by lowering the relative probability of hallucinated tokens in generation. ...\",\"date\":\"May 28, 2024\",\"position\":5},{\"title\":\"Unveiling Hallucination in Text, Image, Video, and Audio Foundation ...\",\"link\":\"https://arxiv.org/html/2405.09589v1\",\"snippet\":\"Evaluations across six LVLMs revealed MARINE's effectiveness in reducing hallucinations. Through rebalancing data distribution actual visual instruction ...\",\"date\":\"May 15, 2024\",\"position\":6},{\"title\":\"Can Knowledge Graphs Reduce Hallucinations in LLMs? : A Survey\",\"link\":\"https://arxiv.org/html/2311.07914v2\",\"snippet\":\"The contemporary LLMs are prone to producing hallucinations, stemming mainly from the knowledge gaps within the models. To address this critical limitation, ...\",\"date\":\"Mar 16, 2024\",\"position\":7},{\"title\":\"[PDF] Automated Multi-level Preference for MLLMs - arXiv\",\"link\":\"https://arxiv.org/pdf/2405.11165?\",\"snippet\":\"To mitigate the hallucinations, some existing methods [11, 12, 13, 14] adopt Reinforcement Learning from Human Feedback (RLHF) methods, which collect human/AI.\",\"date\":\"May 29, 2024\",\"position\":8},{\"title\":\"Mitigating Open-Vocabulary Caption Hallucinations - arXiv\",\"link\":\"https://arxiv.org/html/2312.03631v3\",\"snippet\":\"LLaVa-RLHF Sun et al. (2023a) is a concurrent work, which aims to reduce hallucinations in instruction tuned models using factually-grounded RLHF. In Table ...\",\"date\":\"Apr 19, 2024\",\"position\":9},{\"title\":\"Survey of Hallucination in Natural Language Generation - arXiv\",\"link\":\"https://arxiv.org/html/2202.03629v6\",\"snippet\":\"(2021a) incorporate rationale extraction and the answer generation, which allows more confident and correct answers and reduces the hallucination problem.\",\"date\":\"Feb 19, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSb2xlIG9mIFJMSEYgaW4gcmVkdWNpbmcgaGFsbHVjaW5hdGlvbiBpbiBtdWx0aW1vZGFsIGdlbmVyYXRpb24gYmVmb3JlOjIwMjQtMDktMjQgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMxMi4wMDg0OXYyIFtjcy5DTF0gOCBNYXIgMjAyNCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMxMi4wMDg0OSIsInNuaXBwZXQiOiJSTEhGLVYgc2lnbmlmaWNhbnRseSByZWR1Y2VzIHRoZSBoYWxsdWNpbmF0aW9uIHJhdGUgb2YgdGhlIGJhc2UgTUxMTSBieSAzNC44JSwgb3V0cGVyZm9ybWluZyB0aGUgY29uY3VyLSByZW50IExMYVZBLVJMSEYgdHJhaW5lZCBvbiAxMGsgYW5ub3RhdGVkIGRhdGEuIiwiZGF0ZSI6Ik1hciA4LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbMjMxMi4wMDg0OV0gUkxIRi1WOiBUb3dhcmRzIFRydXN0d29ydGh5IE1MTE1zIHZpYSBCZWhhdmlvciAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIzMTIuMDA4NDkiLCJzbmlwcGV0IjoiUkxIRi1WIHNpZ25pZmljYW50bHkgcmVkdWNlcyB0aGUgaGFsbHVjaW5hdGlvbiByYXRlIG9mIHRoZSBiYXNlIE1MTE0gYnkgMzQuOCUsIG91dHBlcmZvcm1pbmcgdGhlIGNvbmN1cnJlbnQgTExhVkEtUkxIRiB0cmFpbmVkIG9uIDEwayBhbm5vdGF0ZWQgZGF0YS4iLCJkYXRlIjoiRGVjIDEsIDIwMjMiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDIuMDk4MDF2MyBbY3MuQ0xdIDIzIFNlcCAyMDI0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAyLjA5ODAxIiwic25pcHBldCI6IkV4dGVuc2l2ZSBleHBlcmltZW50cyBvbiBkaWZmZXJlbnQgYmFzZWxpbmVzIHNob3cgdGhhdCBvdXIgbWV0aG9kIGVmLSBmZWN0aXZlbHkgcmVkdWNlcyBtdWx0aW1vZGFsIGhhbGx1Y2luYXRpb25zIHdoaWxlIHJldGFpbmluZyB0aGUgZ2VuZXJhbCBwZXJmb3JtYW5jZSBvZiB0aGUgLi4uIiwiZGF0ZSI6IlNlcCAyMywgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiRGV0ZWN0aW5nIGFuZCBQcmV2ZW50aW5nIEhhbGx1Y2luYXRpb25zIGluIExhcmdlIFZpc2lvbiBMYW5ndWFnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA4LjA2Mzk0djMiLCJzbmlwcGV0IjoiV2UgYWxzbyBmaW5kIHRoYXQgb3VyIHJld2FyZCBtb2RlbCBnZW5lcmFsaXplcyB0byBvdGhlciBtdWx0aS1tb2RhbCBtb2RlbHMsIHJlZHVjaW5nIGhhbGx1Y2luYXRpb25zIGluIExMYVZBIGFuZCBtUExVRy1PV0wgYnkgMTUlIGFuZCA1NyUgcmVzcGVjdGl2ZWx5LCBhbmQgaGFzIC4uLiIsImRhdGUiOiJGZWIgMTEsIDIwMjQiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6Ik1pdGlnYXRpbmcgT2JqZWN0IEhhbGx1Y2luYXRpb24gdmlhIERhdGEgQXVnbWVudGVkIENvbnRyYXN0aXZlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMTg2NTR2MSIsInNuaXBwZXQiOiJPdXIgcHJvcG9zZWQgY29udHJhc3RpdmUgbG9zcyBzaW1wbHkgbWl0aWdhdGVzIG9iamVjdCBoYWxsdWNpbmF0aW9ucyBpbiBNTExNcyBieSBsb3dlcmluZyB0aGUgcmVsYXRpdmUgcHJvYmFiaWxpdHkgb2YgaGFsbHVjaW5hdGVkIHRva2VucyBpbiBnZW5lcmF0aW9uLiAuLi4iLCJkYXRlIjoiTWF5IDI4LCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJVbnZlaWxpbmcgSGFsbHVjaW5hdGlvbiBpbiBUZXh0LCBJbWFnZSwgVmlkZW8sIGFuZCBBdWRpbyBGb3VuZGF0aW9uIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMDk1ODl2MSIsInNuaXBwZXQiOiJFdmFsdWF0aW9ucyBhY3Jvc3Mgc2l4IExWTE1zIHJldmVhbGVkIE1BUklORSdzIGVmZmVjdGl2ZW5lc3MgaW4gcmVkdWNpbmcgaGFsbHVjaW5hdGlvbnMuIFRocm91Z2ggcmViYWxhbmNpbmcgZGF0YSBkaXN0cmlidXRpb24gYWN0dWFsIHZpc3VhbCBpbnN0cnVjdGlvbiAuLi4iLCJkYXRlIjoiTWF5IDE1LCAyMDI0IiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJDYW4gS25vd2xlZGdlIEdyYXBocyBSZWR1Y2UgSGFsbHVjaW5hdGlvbnMgaW4gTExNcz8gOiBBIFN1cnZleSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTEuMDc5MTR2MiIsInNuaXBwZXQiOiJUaGUgY29udGVtcG9yYXJ5IExMTXMgYXJlIHByb25lIHRvIHByb2R1Y2luZyBoYWxsdWNpbmF0aW9ucywgc3RlbW1pbmcgbWFpbmx5IGZyb20gdGhlIGtub3dsZWRnZSBnYXBzIHdpdGhpbiB0aGUgbW9kZWxzLiBUbyBhZGRyZXNzIHRoaXMgY3JpdGljYWwgbGltaXRhdGlvbiwgLi4uIiwiZGF0ZSI6Ik1hciAxNiwgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiW1BERl0gQXV0b21hdGVkIE11bHRpLWxldmVsIFByZWZlcmVuY2UgZm9yIE1MTE1zIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDUuMTExNjU/Iiwic25pcHBldCI6IlRvIG1pdGlnYXRlIHRoZSBoYWxsdWNpbmF0aW9ucywgc29tZSBleGlzdGluZyBtZXRob2RzIFsxMSwgMTIsIDEzLCAxNF0gYWRvcHQgUmVpbmZvcmNlbWVudCBMZWFybmluZyBmcm9tIEh1bWFuIEZlZWRiYWNrIChSTEhGKSBtZXRob2RzLCB3aGljaCBjb2xsZWN0IGh1bWFuL0FJLiIsImRhdGUiOiJNYXkgMjksIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6Ik1pdGlnYXRpbmcgT3Blbi1Wb2NhYnVsYXJ5IENhcHRpb24gSGFsbHVjaW5hdGlvbnMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTIuMDM2MzF2MyIsInNuaXBwZXQiOiJMTGFWYS1STEhGIFN1biBldCBhbC4gKDIwMjNhKSBpcyBhIGNvbmN1cnJlbnQgd29yaywgd2hpY2ggYWltcyB0byByZWR1Y2UgaGFsbHVjaW5hdGlvbnMgaW4gaW5zdHJ1Y3Rpb24gdHVuZWQgbW9kZWxzIHVzaW5nIGZhY3R1YWxseS1ncm91bmRlZCBSTEhGLiBJbiBUYWJsZSAuLi4iLCJkYXRlIjoiQXByIDE5LCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJTdXJ2ZXkgb2YgSGFsbHVjaW5hdGlvbiBpbiBOYXR1cmFsIExhbmd1YWdlIEdlbmVyYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDIuMDM2Mjl2NiIsInNuaXBwZXQiOiIoMjAyMWEpIGluY29ycG9yYXRlIHJhdGlvbmFsZSBleHRyYWN0aW9uIGFuZCB0aGUgYW5zd2VyIGdlbmVyYXRpb24sIHdoaWNoIGFsbG93cyBtb3JlIGNvbmZpZGVudCBhbmQgY29ycmVjdCBhbnN3ZXJzIGFuZCByZWR1Y2VzIHRoZSBoYWxsdWNpbmF0aW9uIHByb2JsZW0uIiwiZGF0ZSI6IkZlYiAxOSwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "cde424d6a1be72fbc5d429941c6f3bc65a13e02b81b52ff67dc6bf4510a1ac69",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Role of RLHF in reducing hallucination in multimodal generation before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "[PDF] arXiv:2312.00849v2 [cs.CL] 8 Mar 2024",
+                "link": "https://arxiv.org/pdf/2312.00849",
+                "snippet": "RLHF-V significantly reduces the hallucination rate of the base MLLM by 34.8%, outperforming the concur- rent LLaVA-RLHF trained on 10k annotated data.",
+                "date": "Mar 8, 2024",
+                "position": 1
+              },
+              {
+                "title": "[2312.00849] RLHF-V: Towards Trustworthy MLLMs via Behavior ...",
+                "link": "https://arxiv.org/abs/2312.00849",
+                "snippet": "RLHF-V significantly reduces the hallucination rate of the base MLLM by 34.8%, outperforming the concurrent LLaVA-RLHF trained on 10k annotated data.",
+                "date": "Dec 1, 2023",
+                "position": 2
+              },
+              {
+                "title": "[PDF] arXiv:2402.09801v3 [cs.CL] 23 Sep 2024",
+                "link": "https://arxiv.org/pdf/2402.09801",
+                "snippet": "Extensive experiments on different baselines show that our method ef- fectively reduces multimodal hallucinations while retaining the general performance of the ...",
+                "date": "Sep 23, 2024",
+                "position": 3
+              },
+              {
+                "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+                "link": "https://arxiv.org/html/2308.06394v3",
+                "snippet": "We also find that our reward model generalizes to other multi-modal models, reducing hallucinations in LLaVA and mPLUG-OWL by 15% and 57% respectively, and has ...",
+                "date": "Feb 11, 2024",
+                "position": 4
+              },
+              {
+                "title": "Mitigating Object Hallucination via Data Augmented Contrastive ...",
+                "link": "https://arxiv.org/html/2405.18654v1",
+                "snippet": "Our proposed contrastive loss simply mitigates object hallucinations in MLLMs by lowering the relative probability of hallucinated tokens in generation. ...",
+                "date": "May 28, 2024",
+                "position": 5
+              },
+              {
+                "title": "Unveiling Hallucination in Text, Image, Video, and Audio Foundation ...",
+                "link": "https://arxiv.org/html/2405.09589v1",
+                "snippet": "Evaluations across six LVLMs revealed MARINE's effectiveness in reducing hallucinations. Through rebalancing data distribution actual visual instruction ...",
+                "date": "May 15, 2024",
+                "position": 6
+              },
+              {
+                "title": "Can Knowledge Graphs Reduce Hallucinations in LLMs? : A Survey",
+                "link": "https://arxiv.org/html/2311.07914v2",
+                "snippet": "The contemporary LLMs are prone to producing hallucinations, stemming mainly from the knowledge gaps within the models. To address this critical limitation, ...",
+                "date": "Mar 16, 2024",
+                "position": 7
+              },
+              {
+                "title": "[PDF] Automated Multi-level Preference for MLLMs - arXiv",
+                "link": "https://arxiv.org/pdf/2405.11165?",
+                "snippet": "To mitigate the hallucinations, some existing methods [11, 12, 13, 14] adopt Reinforcement Learning from Human Feedback (RLHF) methods, which collect human/AI.",
+                "date": "May 29, 2024",
+                "position": 8
+              },
+              {
+                "title": "Mitigating Open-Vocabulary Caption Hallucinations - arXiv",
+                "link": "https://arxiv.org/html/2312.03631v3",
+                "snippet": "LLaVa-RLHF Sun et al. (2023a) is a concurrent work, which aims to reduce hallucinations in instruction tuned models using factually-grounded RLHF. In Table ...",
+                "date": "Apr 19, 2024",
+                "position": 9
+              },
+              {
+                "title": "Survey of Hallucination in Natural Language Generation - arXiv",
+                "link": "https://arxiv.org/html/2202.03629v6",
+                "snippet": "(2021a) incorporate rationale extraction and the answer generation, which allows more confident and correct answers and reduces the hallucination problem.",
+                "date": "Feb 19, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:19.318404+00:00",
+          "elapsed_seconds": 0.7961654476821423
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2202.03629",
+        "2308.06394",
+        "2311.07914",
+        "2312.00849",
+        "2312.03631",
+        "2402.09801",
+        "2405.09589",
+        "2405.11165",
+        "2405.18654"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2312.00849",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/pdf/2312.00849",
+          "title": "[PDF] arXiv:2312.00849v2 [cs.CL] 8 Mar 2024",
+          "snippet": "RLHF-V significantly reduces the hallucination rate of the base MLLM by 34.8%, outperforming the concur- rent LLaVA-RLHF trained on 10k annotated data."
+        },
+        {
+          "arxiv_id": "2312.00849",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/abs/2312.00849",
+          "title": "[2312.00849] RLHF-V: Towards Trustworthy MLLMs via Behavior ...",
+          "snippet": "RLHF-V significantly reduces the hallucination rate of the base MLLM by 34.8%, outperforming the concurrent LLaVA-RLHF trained on 10k annotated data."
+        },
+        {
+          "arxiv_id": "2402.09801",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/pdf/2402.09801",
+          "title": "[PDF] arXiv:2402.09801v3 [cs.CL] 23 Sep 2024",
+          "snippet": "Extensive experiments on different baselines show that our method ef- fectively reduces multimodal hallucinations while retaining the general performance of the ..."
+        },
+        {
+          "arxiv_id": "2308.06394",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2308.06394v3",
+          "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+          "snippet": "We also find that our reward model generalizes to other multi-modal models, reducing hallucinations in LLaVA and mPLUG-OWL by 15% and 57% respectively, and has ..."
+        },
+        {
+          "arxiv_id": "2405.18654",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2405.18654v1",
+          "title": "Mitigating Object Hallucination via Data Augmented Contrastive ...",
+          "snippet": "Our proposed contrastive loss simply mitigates object hallucinations in MLLMs by lowering the relative probability of hallucinated tokens in generation. ..."
+        },
+        {
+          "arxiv_id": "2405.09589",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2405.09589v1",
+          "title": "Unveiling Hallucination in Text, Image, Video, and Audio Foundation ...",
+          "snippet": "Evaluations across six LVLMs revealed MARINE's effectiveness in reducing hallucinations. Through rebalancing data distribution actual visual instruction ..."
+        },
+        {
+          "arxiv_id": "2311.07914",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/html/2311.07914v2",
+          "title": "Can Knowledge Graphs Reduce Hallucinations in LLMs? : A Survey",
+          "snippet": "The contemporary LLMs are prone to producing hallucinations, stemming mainly from the knowledge gaps within the models. To address this critical limitation, ..."
+        },
+        {
+          "arxiv_id": "2405.11165",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/pdf/2405.11165?",
+          "title": "[PDF] Automated Multi-level Preference for MLLMs - arXiv",
+          "snippet": "To mitigate the hallucinations, some existing methods [11, 12, 13, 14] adopt Reinforcement Learning from Human Feedback (RLHF) methods, which collect human/AI."
+        },
+        {
+          "arxiv_id": "2312.03631",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2312.03631v3",
+          "title": "Mitigating Open-Vocabulary Caption Hallucinations - arXiv",
+          "snippet": "LLaVa-RLHF Sun et al. (2023a) is a concurrent work, which aims to reduce hallucinations in instruction tuned models using factually-grounded RLHF. In Table ..."
+        },
+        {
+          "arxiv_id": "2202.03629",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2202.03629v6",
+          "title": "Survey of Hallucination in Natural Language Generation - arXiv",
+          "snippet": "(2021a) incorporate rationale extraction and the answer generation, which allows more confident and correct answers and reduces the hallucination problem."
+        }
+      ],
+      "request_payload": {
+        "q": "Role of RLHF in reducing hallucination in multimodal generation before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    "anchor": {
+      "query_key": "anchor",
+      "query_text": "Papers that apply RLHF to address the hallucination problem in image and video description.",
+      "attempts": [
+        {
+          "global_attempt_sequence": 36,
+          "query_id": "Q5",
+          "query_key": "anchor",
+          "attempt": 1,
+          "query_text": "Papers that apply RLHF to address the hallucination problem in image and video description.",
+          "request_payload": {
+            "q": "Papers that apply RLHF to address the hallucination problem in image and video description. before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q5_anchor_attempt1.json",
+          "started_utc": "2026-09-15T06:25:17.005143+00:00",
+          "http_status": 200,
+          "response_text": "{\"searchParameters\":{\"q\":\"Papers that apply RLHF to address the hallucination problem in image and video description. before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Unveiling Hallucination in Text, Image, Video, and Audio Foundation ...\",\"link\":\"https://arxiv.org/html/2405.09589v1\",\"snippet\":\"This survey paper presents a comprehensive overview of recent developments that aim to identify and mitigate the problem of hallucination in FMs, spanning text, ...\",\"date\":\"May 15, 2024\",\"position\":1},{\"title\":\"Detecting and Preventing Hallucinations in Large Vision Language ...\",\"link\":\"https://arxiv.org/html/2308.06394v3\",\"snippet\":\"In the context of VQA for LVLMs, hallucinations can manifest as responses containing references or descriptions of the input image that are incorrect (Li et al.\",\"date\":\"Feb 11, 2024\",\"position\":2},{\"title\":\"Mitigating Object Hallucination via Data Augmented Contrastive ...\",\"link\":\"https://arxiv.org/html/2405.18654v1\",\"snippet\":\"In this work, we address object hallucinations in MLLMs, where information is offered about an object that is not present in the model input. We introduce a ...\",\"date\":\"May 28, 2024\",\"position\":3},{\"title\":\"Evaluating Intrinsic and Extrinsic Hallucinations in Large ... - arXiv\",\"link\":\"https://arxiv.org/html/2406.16338v1\",\"snippet\":\"The concept of object hallucination in image captioning was first introduced by (Rohrbach et al., 2018) . They highlighted the issue of captions erroneously ...\",\"date\":\"Jun 24, 2024\",\"position\":4},{\"title\":\"Can Knowledge Graphs Reduce Hallucinations in LLMs? : A Survey\",\"link\":\"https://arxiv.org/html/2311.07914v2\",\"snippet\":\"Another stage where we can address hallucination issues in LLMs is to utilize KGs to optimize their learning either by improving the quality of training ...\",\"date\":\"Mar 16, 2024\",\"position\":5},{\"title\":\"Survey of Hallucination in Natural Language Generation - arXiv\",\"link\":\"https://arxiv.org/html/2202.03629v6\",\"snippet\":\"This survey serves to facilitate collaborative efforts among researchers in tackling the challenge of hallucinated texts in NLG. Keywords: Hallucination, ...\",\"date\":\"Feb 19, 2024\",\"position\":6},{\"title\":\"[PDF] arXiv:2309.05922v1 [cs.AI] 12 Sep 2023\",\"link\":\"https://arxiv.org/pdf/2309.05922\",\"snippet\":\"This survey paper provides an ex- tensive overview of recent efforts that aim to identify, elucidate, and tackle the problem of hallucination, with a particular ...\",\"date\":\"Sep 12, 2023\",\"position\":7},{\"title\":\"An Empirical Study on Factuality Hallucination in Large Language ...\",\"link\":\"https://arxiv.org/html/2401.03205v1\",\"snippet\":\"To tackle the LLM hallucination, three key questions should be well studied: how to detect hallucinations (detection), why do LLMs hallucinate (source), and ...\",\"date\":\"Jan 6, 2024\",\"sitelinks\":[{\"title\":\"4 Hallucination Detection\",\"link\":\"https://arxiv.org/html/2401.03205v1#:~:text=4%20Hallucination%20Detection,-To%20analyze%20and%20mitigate%20hallucinations\"},{\"title\":\"5 Hallucination Source\",\"link\":\"https://arxiv.org/html/2401.03205v1#:~:text=5%20Hallucination%20Source,-%28a%29%20Accuracy%20w.r.t.\"},{\"title\":\"6 Hallucination Mitigation\",\"link\":\"https://arxiv.org/html/2401.03205v1#:~:text=6%20Hallucination%20Mitigation,-Above%2C%20we%20have%20extensively\"}],\"position\":8},{\"title\":\"Leveraging Self-awareness in LLMs for Hallucination Mitigation - arXiv\",\"link\":\"https://arxiv.org/html/2401.15449v1\",\"snippet\":\"In this paper, we propose to mitigate the factual hallucination problem from the perspective of enhancing the model's utilization of internal knowledge.\",\"date\":\"Jan 27, 2024\",\"sitelinks\":[{\"title\":\"Learning To Trust Your...\",\"link\":\"https://arxiv.org/html/2401.15449v1#:~:text=Learning%20to%20Trust%20Your%20Feelings%3A,-Leveraging%20Self%2Dawareness%20in\"},{\"title\":\"3 Knowledge State Probing\",\"link\":\"https://arxiv.org/html/2401.15449v1#:~:text=3%20Knowledge%20State%20Probing,-This%20section%20delves%20into%20the\"},{\"title\":\"Appendix A Appendix\",\"link\":\"https://arxiv.org/html/2401.15449v1#:~:text=Appendix%20A%20Appendix\"}],\"position\":9},{\"title\":\"Exploring and Evaluating Hallucinations in LLM-Powered Code ...\",\"link\":\"https://arxiv.org/html/2404.00971v1\",\"snippet\":\"Hallucination recognition and mitigation experiments with HalluCode and HumanEval show existing LLMs face great challenges in recognizing hallucinations, ...\",\"date\":\"Apr 1, 2024\",\"position\":10}],\"credits\":1}",
+          "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJQYXBlcnMgdGhhdCBhcHBseSBSTEhGIHRvIGFkZHJlc3MgdGhlIGhhbGx1Y2luYXRpb24gcHJvYmxlbSBpbiBpbWFnZSBhbmQgdmlkZW8gZGVzY3JpcHRpb24uIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlVudmVpbGluZyBIYWxsdWNpbmF0aW9uIGluIFRleHQsIEltYWdlLCBWaWRlbywgYW5kIEF1ZGlvIEZvdW5kYXRpb24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNS4wOTU4OXYxIiwic25pcHBldCI6IlRoaXMgc3VydmV5IHBhcGVyIHByZXNlbnRzIGEgY29tcHJlaGVuc2l2ZSBvdmVydmlldyBvZiByZWNlbnQgZGV2ZWxvcG1lbnRzIHRoYXQgYWltIHRvIGlkZW50aWZ5IGFuZCBtaXRpZ2F0ZSB0aGUgcHJvYmxlbSBvZiBoYWxsdWNpbmF0aW9uIGluIEZNcywgc3Bhbm5pbmcgdGV4dCwgLi4uIiwiZGF0ZSI6Ik1heSAxNSwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiRGV0ZWN0aW5nIGFuZCBQcmV2ZW50aW5nIEhhbGx1Y2luYXRpb25zIGluIExhcmdlIFZpc2lvbiBMYW5ndWFnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzA4LjA2Mzk0djMiLCJzbmlwcGV0IjoiSW4gdGhlIGNvbnRleHQgb2YgVlFBIGZvciBMVkxNcywgaGFsbHVjaW5hdGlvbnMgY2FuIG1hbmlmZXN0IGFzIHJlc3BvbnNlcyBjb250YWluaW5nIHJlZmVyZW5jZXMgb3IgZGVzY3JpcHRpb25zIG9mIHRoZSBpbnB1dCBpbWFnZSB0aGF0IGFyZSBpbmNvcnJlY3QgKExpIGV0IGFsLiIsImRhdGUiOiJGZWIgMTEsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6Ik1pdGlnYXRpbmcgT2JqZWN0IEhhbGx1Y2luYXRpb24gdmlhIERhdGEgQXVnbWVudGVkIENvbnRyYXN0aXZlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDUuMTg2NTR2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHdvcmssIHdlIGFkZHJlc3Mgb2JqZWN0IGhhbGx1Y2luYXRpb25zIGluIE1MTE1zLCB3aGVyZSBpbmZvcm1hdGlvbiBpcyBvZmZlcmVkIGFib3V0IGFuIG9iamVjdCB0aGF0IGlzIG5vdCBwcmVzZW50IGluIHRoZSBtb2RlbCBpbnB1dC4gV2UgaW50cm9kdWNlIGEgLi4uIiwiZGF0ZSI6Ik1heSAyOCwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiRXZhbHVhdGluZyBJbnRyaW5zaWMgYW5kIEV4dHJpbnNpYyBIYWxsdWNpbmF0aW9ucyBpbiBMYXJnZSAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMTYzMzh2MSIsInNuaXBwZXQiOiJUaGUgY29uY2VwdCBvZiBvYmplY3QgaGFsbHVjaW5hdGlvbiBpbiBpbWFnZSBjYXB0aW9uaW5nIHdhcyBmaXJzdCBpbnRyb2R1Y2VkIGJ5IChSb2hyYmFjaCBldCBhbC4sIDIwMTgpIC4gVGhleSBoaWdobGlnaHRlZCB0aGUgaXNzdWUgb2YgY2FwdGlvbnMgZXJyb25lb3VzbHkgLi4uIiwiZGF0ZSI6Ikp1biAyNCwgMjAyNCIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiQ2FuIEtub3dsZWRnZSBHcmFwaHMgUmVkdWNlIEhhbGx1Y2luYXRpb25zIGluIExMTXM/IDogQSBTdXJ2ZXkiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMzExLjA3OTE0djIiLCJzbmlwcGV0IjoiQW5vdGhlciBzdGFnZSB3aGVyZSB3ZSBjYW4gYWRkcmVzcyBoYWxsdWNpbmF0aW9uIGlzc3VlcyBpbiBMTE1zIGlzIHRvIHV0aWxpemUgS0dzIHRvIG9wdGltaXplIHRoZWlyIGxlYXJuaW5nIGVpdGhlciBieSBpbXByb3ZpbmcgdGhlIHF1YWxpdHkgb2YgdHJhaW5pbmcgLi4uIiwiZGF0ZSI6Ik1hciAxNiwgMjAyNCIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiU3VydmV5IG9mIEhhbGx1Y2luYXRpb24gaW4gTmF0dXJhbCBMYW5ndWFnZSBHZW5lcmF0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yMjAyLjAzNjI5djYiLCJzbmlwcGV0IjoiVGhpcyBzdXJ2ZXkgc2VydmVzIHRvIGZhY2lsaXRhdGUgY29sbGFib3JhdGl2ZSBlZmZvcnRzIGFtb25nIHJlc2VhcmNoZXJzIGluIHRhY2tsaW5nIHRoZSBjaGFsbGVuZ2Ugb2YgaGFsbHVjaW5hdGVkIHRleHRzIGluIE5MRy4gS2V5d29yZHM6IEhhbGx1Y2luYXRpb24sIC4uLiIsImRhdGUiOiJGZWIgMTksIDIwMjQiLCJwb3NpdGlvbiI6Nn0seyJ0aXRsZSI6IltQREZdIGFyWGl2OjIzMDkuMDU5MjJ2MSBbY3MuQUldIDEyIFNlcCAyMDIzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yMzA5LjA1OTIyIiwic25pcHBldCI6IlRoaXMgc3VydmV5IHBhcGVyIHByb3ZpZGVzIGFuIGV4LSB0ZW5zaXZlIG92ZXJ2aWV3IG9mIHJlY2VudCBlZmZvcnRzIHRoYXQgYWltIHRvIGlkZW50aWZ5LCBlbHVjaWRhdGUsIGFuZCB0YWNrbGUgdGhlIHByb2JsZW0gb2YgaGFsbHVjaW5hdGlvbiwgd2l0aCBhIHBhcnRpY3VsYXIgLi4uIiwiZGF0ZSI6IlNlcCAxMiwgMjAyMyIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiQW4gRW1waXJpY2FsIFN0dWR5IG9uIEZhY3R1YWxpdHkgSGFsbHVjaW5hdGlvbiBpbiBMYXJnZSBMYW5ndWFnZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAxLjAzMjA1djEiLCJzbmlwcGV0IjoiVG8gdGFja2xlIHRoZSBMTE0gaGFsbHVjaW5hdGlvbiwgdGhyZWUga2V5IHF1ZXN0aW9ucyBzaG91bGQgYmUgd2VsbCBzdHVkaWVkOiBob3cgdG8gZGV0ZWN0IGhhbGx1Y2luYXRpb25zIChkZXRlY3Rpb24pLCB3aHkgZG8gTExNcyBoYWxsdWNpbmF0ZSAoc291cmNlKSwgYW5kIC4uLiIsImRhdGUiOiJKYW4gNiwgMjAyNCIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiI0IEhhbGx1Y2luYXRpb24gRGV0ZWN0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4wMzIwNXYxIzp+OnRleHQ9NCUyMEhhbGx1Y2luYXRpb24lMjBEZXRlY3Rpb24sLVRvJTIwYW5hbHl6ZSUyMGFuZCUyMG1pdGlnYXRlJTIwaGFsbHVjaW5hdGlvbnMifSx7InRpdGxlIjoiNSBIYWxsdWNpbmF0aW9uIFNvdXJjZSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMDMyMDV2MSM6fjp0ZXh0PTUlMjBIYWxsdWNpbmF0aW9uJTIwU291cmNlLC0lMjhhJTI5JTIwQWNjdXJhY3klMjB3LnIudC4ifSx7InRpdGxlIjoiNiBIYWxsdWNpbmF0aW9uIE1pdGlnYXRpb24iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAxLjAzMjA1djEjOn46dGV4dD02JTIwSGFsbHVjaW5hdGlvbiUyME1pdGlnYXRpb24sLUFib3ZlJTJDJTIwd2UlMjBoYXZlJTIwZXh0ZW5zaXZlbHkifV0sInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiTGV2ZXJhZ2luZyBTZWxmLWF3YXJlbmVzcyBpbiBMTE1zIGZvciBIYWxsdWNpbmF0aW9uIE1pdGlnYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMTU0NDl2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIHRvIG1pdGlnYXRlIHRoZSBmYWN0dWFsIGhhbGx1Y2luYXRpb24gcHJvYmxlbSBmcm9tIHRoZSBwZXJzcGVjdGl2ZSBvZiBlbmhhbmNpbmcgdGhlIG1vZGVsJ3MgdXRpbGl6YXRpb24gb2YgaW50ZXJuYWwga25vd2xlZGdlLiIsImRhdGUiOiJKYW4gMjcsIDIwMjQiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiTGVhcm5pbmcgVG8gVHJ1c3QgWW91ci4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMTU0NDl2MSM6fjp0ZXh0PUxlYXJuaW5nJTIwdG8lMjBUcnVzdCUyMFlvdXIlMjBGZWVsaW5ncyUzQSwtTGV2ZXJhZ2luZyUyMFNlbGYlMkRhd2FyZW5lc3MlMjBpbiJ9LHsidGl0bGUiOiIzIEtub3dsZWRnZSBTdGF0ZSBQcm9iaW5nIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4xNTQ0OXYxIzp+OnRleHQ9MyUyMEtub3dsZWRnZSUyMFN0YXRlJTIwUHJvYmluZywtVGhpcyUyMHNlY3Rpb24lMjBkZWx2ZXMlMjBpbnRvJTIwdGhlIn0seyJ0aXRsZSI6IkFwcGVuZGl4IEEgQXBwZW5kaXgiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAxLjE1NDQ5djEjOn46dGV4dD1BcHBlbmRpeCUyMEElMjBBcHBlbmRpeCJ9XSwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJFeHBsb3JpbmcgYW5kIEV2YWx1YXRpbmcgSGFsbHVjaW5hdGlvbnMgaW4gTExNLVBvd2VyZWQgQ29kZSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA0LjAwOTcxdjEiLCJzbmlwcGV0IjoiSGFsbHVjaW5hdGlvbiByZWNvZ25pdGlvbiBhbmQgbWl0aWdhdGlvbiBleHBlcmltZW50cyB3aXRoIEhhbGx1Q29kZSBhbmQgSHVtYW5FdmFsIHNob3cgZXhpc3RpbmcgTExNcyBmYWNlIGdyZWF0IGNoYWxsZW5nZXMgaW4gcmVjb2duaXppbmcgaGFsbHVjaW5hdGlvbnMsIC4uLiIsImRhdGUiOiJBcHIgMSwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+          "response_sha256": "d2ae4e4a236eb260f544c384a664689e597d9f1d04268ba7486f694831eddfba",
+          "structured_response": {
+            "searchParameters": {
+              "q": "Papers that apply RLHF to address the hallucination problem in image and video description. before:2024-09-24 site:arxiv.org",
+              "type": "search",
+              "num": 10,
+              "page": 1,
+              "engine": "google"
+            },
+            "organic": [
+              {
+                "title": "Unveiling Hallucination in Text, Image, Video, and Audio Foundation ...",
+                "link": "https://arxiv.org/html/2405.09589v1",
+                "snippet": "This survey paper presents a comprehensive overview of recent developments that aim to identify and mitigate the problem of hallucination in FMs, spanning text, ...",
+                "date": "May 15, 2024",
+                "position": 1
+              },
+              {
+                "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+                "link": "https://arxiv.org/html/2308.06394v3",
+                "snippet": "In the context of VQA for LVLMs, hallucinations can manifest as responses containing references or descriptions of the input image that are incorrect (Li et al.",
+                "date": "Feb 11, 2024",
+                "position": 2
+              },
+              {
+                "title": "Mitigating Object Hallucination via Data Augmented Contrastive ...",
+                "link": "https://arxiv.org/html/2405.18654v1",
+                "snippet": "In this work, we address object hallucinations in MLLMs, where information is offered about an object that is not present in the model input. We introduce a ...",
+                "date": "May 28, 2024",
+                "position": 3
+              },
+              {
+                "title": "Evaluating Intrinsic and Extrinsic Hallucinations in Large ... - arXiv",
+                "link": "https://arxiv.org/html/2406.16338v1",
+                "snippet": "The concept of object hallucination in image captioning was first introduced by (Rohrbach et al., 2018) . They highlighted the issue of captions erroneously ...",
+                "date": "Jun 24, 2024",
+                "position": 4
+              },
+              {
+                "title": "Can Knowledge Graphs Reduce Hallucinations in LLMs? : A Survey",
+                "link": "https://arxiv.org/html/2311.07914v2",
+                "snippet": "Another stage where we can address hallucination issues in LLMs is to utilize KGs to optimize their learning either by improving the quality of training ...",
+                "date": "Mar 16, 2024",
+                "position": 5
+              },
+              {
+                "title": "Survey of Hallucination in Natural Language Generation - arXiv",
+                "link": "https://arxiv.org/html/2202.03629v6",
+                "snippet": "This survey serves to facilitate collaborative efforts among researchers in tackling the challenge of hallucinated texts in NLG. Keywords: Hallucination, ...",
+                "date": "Feb 19, 2024",
+                "position": 6
+              },
+              {
+                "title": "[PDF] arXiv:2309.05922v1 [cs.AI] 12 Sep 2023",
+                "link": "https://arxiv.org/pdf/2309.05922",
+                "snippet": "This survey paper provides an ex- tensive overview of recent efforts that aim to identify, elucidate, and tackle the problem of hallucination, with a particular ...",
+                "date": "Sep 12, 2023",
+                "position": 7
+              },
+              {
+                "title": "An Empirical Study on Factuality Hallucination in Large Language ...",
+                "link": "https://arxiv.org/html/2401.03205v1",
+                "snippet": "To tackle the LLM hallucination, three key questions should be well studied: how to detect hallucinations (detection), why do LLMs hallucinate (source), and ...",
+                "date": "Jan 6, 2024",
+                "sitelinks": [
+                  {
+                    "title": "4 Hallucination Detection",
+                    "link": "https://arxiv.org/html/2401.03205v1#:~:text=4%20Hallucination%20Detection,-To%20analyze%20and%20mitigate%20hallucinations"
+                  },
+                  {
+                    "title": "5 Hallucination Source",
+                    "link": "https://arxiv.org/html/2401.03205v1#:~:text=5%20Hallucination%20Source,-%28a%29%20Accuracy%20w.r.t."
+                  },
+                  {
+                    "title": "6 Hallucination Mitigation",
+                    "link": "https://arxiv.org/html/2401.03205v1#:~:text=6%20Hallucination%20Mitigation,-Above%2C%20we%20have%20extensively"
+                  }
+                ],
+                "position": 8
+              },
+              {
+                "title": "Leveraging Self-awareness in LLMs for Hallucination Mitigation - arXiv",
+                "link": "https://arxiv.org/html/2401.15449v1",
+                "snippet": "In this paper, we propose to mitigate the factual hallucination problem from the perspective of enhancing the model's utilization of internal knowledge.",
+                "date": "Jan 27, 2024",
+                "sitelinks": [
+                  {
+                    "title": "Learning To Trust Your...",
+                    "link": "https://arxiv.org/html/2401.15449v1#:~:text=Learning%20to%20Trust%20Your%20Feelings%3A,-Leveraging%20Self%2Dawareness%20in"
+                  },
+                  {
+                    "title": "3 Knowledge State Probing",
+                    "link": "https://arxiv.org/html/2401.15449v1#:~:text=3%20Knowledge%20State%20Probing,-This%20section%20delves%20into%20the"
+                  },
+                  {
+                    "title": "Appendix A Appendix",
+                    "link": "https://arxiv.org/html/2401.15449v1#:~:text=Appendix%20A%20Appendix"
+                  }
+                ],
+                "position": 9
+              },
+              {
+                "title": "Exploring and Evaluating Hallucinations in LLM-Powered Code ...",
+                "link": "https://arxiv.org/html/2404.00971v1",
+                "snippet": "Hallucination recognition and mitigation experiments with HalluCode and HumanEval show existing LLMs face great challenges in recognizing hallucinations, ...",
+                "date": "Apr 1, 2024",
+                "position": 10
+              }
+            ],
+            "credits": 1
+          },
+          "echoed_parameter_mismatches": {},
+          "status": "PASS",
+          "finished_utc": "2026-09-15T06:25:18.481224+00:00",
+          "elapsed_seconds": 1.476082507520914
+        }
+      ],
+      "status": "PASS",
+      "returned_arxiv_ids": [
+        "2202.03629",
+        "2308.06394",
+        "2309.05922",
+        "2311.07914",
+        "2401.03205",
+        "2401.15449",
+        "2404.00971",
+        "2405.09589",
+        "2405.18654",
+        "2406.16338"
+      ],
+      "organic_hits": [
+        {
+          "arxiv_id": "2405.09589",
+          "organic_index": 0,
+          "position": 1,
+          "link": "https://arxiv.org/html/2405.09589v1",
+          "title": "Unveiling Hallucination in Text, Image, Video, and Audio Foundation ...",
+          "snippet": "This survey paper presents a comprehensive overview of recent developments that aim to identify and mitigate the problem of hallucination in FMs, spanning text, ..."
+        },
+        {
+          "arxiv_id": "2308.06394",
+          "organic_index": 1,
+          "position": 2,
+          "link": "https://arxiv.org/html/2308.06394v3",
+          "title": "Detecting and Preventing Hallucinations in Large Vision Language ...",
+          "snippet": "In the context of VQA for LVLMs, hallucinations can manifest as responses containing references or descriptions of the input image that are incorrect (Li et al."
+        },
+        {
+          "arxiv_id": "2405.18654",
+          "organic_index": 2,
+          "position": 3,
+          "link": "https://arxiv.org/html/2405.18654v1",
+          "title": "Mitigating Object Hallucination via Data Augmented Contrastive ...",
+          "snippet": "In this work, we address object hallucinations in MLLMs, where information is offered about an object that is not present in the model input. We introduce a ..."
+        },
+        {
+          "arxiv_id": "2406.16338",
+          "organic_index": 3,
+          "position": 4,
+          "link": "https://arxiv.org/html/2406.16338v1",
+          "title": "Evaluating Intrinsic and Extrinsic Hallucinations in Large ... - arXiv",
+          "snippet": "The concept of object hallucination in image captioning was first introduced by (Rohrbach et al., 2018) . They highlighted the issue of captions erroneously ..."
+        },
+        {
+          "arxiv_id": "2311.07914",
+          "organic_index": 4,
+          "position": 5,
+          "link": "https://arxiv.org/html/2311.07914v2",
+          "title": "Can Knowledge Graphs Reduce Hallucinations in LLMs? : A Survey",
+          "snippet": "Another stage where we can address hallucination issues in LLMs is to utilize KGs to optimize their learning either by improving the quality of training ..."
+        },
+        {
+          "arxiv_id": "2202.03629",
+          "organic_index": 5,
+          "position": 6,
+          "link": "https://arxiv.org/html/2202.03629v6",
+          "title": "Survey of Hallucination in Natural Language Generation - arXiv",
+          "snippet": "This survey serves to facilitate collaborative efforts among researchers in tackling the challenge of hallucinated texts in NLG. Keywords: Hallucination, ..."
+        },
+        {
+          "arxiv_id": "2309.05922",
+          "organic_index": 6,
+          "position": 7,
+          "link": "https://arxiv.org/pdf/2309.05922",
+          "title": "[PDF] arXiv:2309.05922v1 [cs.AI] 12 Sep 2023",
+          "snippet": "This survey paper provides an ex- tensive overview of recent efforts that aim to identify, elucidate, and tackle the problem of hallucination, with a particular ..."
+        },
+        {
+          "arxiv_id": "2401.03205",
+          "organic_index": 7,
+          "position": 8,
+          "link": "https://arxiv.org/html/2401.03205v1",
+          "title": "An Empirical Study on Factuality Hallucination in Large Language ...",
+          "snippet": "To tackle the LLM hallucination, three key questions should be well studied: how to detect hallucinations (detection), why do LLMs hallucinate (source), and ..."
+        },
+        {
+          "arxiv_id": "2401.15449",
+          "organic_index": 8,
+          "position": 9,
+          "link": "https://arxiv.org/html/2401.15449v1",
+          "title": "Leveraging Self-awareness in LLMs for Hallucination Mitigation - arXiv",
+          "snippet": "In this paper, we propose to mitigate the factual hallucination problem from the perspective of enhancing the model's utilization of internal knowledge."
+        },
+        {
+          "arxiv_id": "2404.00971",
+          "organic_index": 9,
+          "position": 10,
+          "link": "https://arxiv.org/html/2404.00971v1",
+          "title": "Exploring and Evaluating Hallucinations in LLM-Powered Code ...",
+          "snippet": "Hallucination recognition and mitigation experiments with HalluCode and HumanEval show existing LLMs face great challenges in recognizing hallucinations, ..."
+        }
+      ],
+      "request_payload": {
+        "q": "Papers that apply RLHF to address the hallucination problem in image and video description. before:2024-09-24 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  },
+  "execution_order": [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "anchor",
+    "q5"
+  ]
+}

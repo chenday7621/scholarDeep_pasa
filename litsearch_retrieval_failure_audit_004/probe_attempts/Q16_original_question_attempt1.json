@@ -1,0 +1,222 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q16",
+  "group": "author-written",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2303.14897",
+  "request_payload": {
+    "q": "In video diffusion models, is there any paper that tried decomposing video instruction into sub instructions of different time? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 36,
+  "started_utc": "2026-09-17T12:34:03.910090+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648165",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "c7fa81f03d1ab5bd7a3ec8f4a4edbc90",
+    "date": "Thu, 17 Sep 2026 12:29:26 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "4384",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 4384,
+  "response_bytes_sha256": "f00e84c5185c8fa2570909b0203242ee6c44b27b51a1f6d6126456c0e2441c69",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJJbiB2aWRlbyBkaWZmdXNpb24gbW9kZWxzLCBpcyB0aGVyZSBhbnkgcGFwZXIgdGhhdCB0cmllZCBkZWNvbXBvc2luZyB2aWRlbyBpbnN0cnVjdGlvbiBpbnRvIHN1YiBpbnN0cnVjdGlvbnMgb2YgZGlmZmVyZW50IHRpbWU/IGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkZyb20gU2xvdyBCaWRpcmVjdGlvbmFsIHRvIEZhc3QgQ2F1c2FsIFZpZGVvIEdlbmVyYXRvcnMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MTIuMDc3NzJ2MSIsInNuaXBwZXQiOiJDdXJyZW50IHZpZGVvIGRpZmZ1c2lvbiBtb2RlbHMgYWNoaWV2ZSBpbXByZXNzaXZlIGdlbmVyYXRpb24gcXVhbGl0eSBidXQgc3RydWdnbGUgaW4gaW50ZXJhY3RpdmUgYXBwbGljYXRpb25zIGR1ZSB0byBiaWRpcmVjdGlvbmFsIGF0dGVudGlvbiBkZXBlbmRlbmNpZXMuIiwiZGF0ZSI6IkRlYyAxMCwgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiQmVybmluaTogTGF0ZW50IFNlbWFudGljIFBsYW5uaW5nIGZvciBWaWRlbyBEaWZmdXNpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDUuMjIzNDR2MSIsInNuaXBwZXQiOiJkZWNvbXBvc2luZyB2aWRlbyBlZGl0aW5nIGludG8gdHdvIHN0YWdlczogaW1hZ2UtbGV2ZWwgcmVhc29uaW5nIGFuZCB2aWRlby1sZXZlbCBnZW5lcmF0aW9uLiBUaGUgcmVuZGVyZXIgcGVyZm9ybXMgNjAgZGVub2lzaW5nIHN0ZXBzIGZvciB0ZXh0LXRvLXZpZGVvIC4uLiIsImRhdGUiOiJBdWcgMjQsIDIwMjYiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IlRleHQtdG8tTXVsdGktU2hvdCBWaWRlbyBHZW5lcmF0aW9uIHdpdGggRGlmZnVzaW9uIE1vZGVscyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNS4wNzY1MnYxIiwic25pcHBldCI6IkN1cnJlbnQgZGlmZnVzaW9uLWJhc2VkIHRleHQtdG8tdmlkZW8gbWV0aG9kcyBhcmUgbGltaXRlZCB0byBwcm9kdWNpbmcgc2hvcnQgdmlkZW8gY2xpcHMgb2YgYSBzaW5nbGUgc2hvdCBhbmQgbGFjayB0aGUgY2FwYWJpbGl0eSB0byBnZW5lcmF0ZSBtdWx0aS1zaG90IHZpZGVvcyAuLi4iLCJkYXRlIjoiTWF5IDEyLCAyMDI1IiwicG9zaXRpb24iOjN9LHsidGl0bGUiOiJSb2xsaW5nIEZvcmNpbmc6IEF1dG9yZWdyZXNzaXZlIExvbmcgVmlkZW8gRGlmZnVzaW9uIGluIFJlYWwgVGltZSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDkuMjUxNjF2MSIsInNuaXBwZXQiOiJBbiBhdXRvcmVncmVzc2l2ZSB2aWRlbyBkaWZmdXNpb24gbW9kZWwgaXMgYSBoeWJyaWQgZ2VuZXJhdGl2ZSBmcmFtZXdvcmsgdGhhdCBpbnRlZ3JhdGVzIGF1dG9yZWdyZXNzaXZlIGNoYWluLXJ1bGUgZGVjb21wb3NpdGlvbiB3aXRoIGRlbm9pc2luZyBkaWZmdXNpb24gZm9yIC4uLiIsImRhdGUiOiJTZXAgMjksIDIwMjUiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkRpc3RpbGxpbmcgVmlkZW8gRGlmZnVzaW9uIE1vZGVsIHRvIEdlbmVyYXRlIDNEIFNjZW5lcyBpbiBPbmUgU3RlcCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDQuMDE5NTZ2MSIsInNuaXBwZXQiOiJJbiB0aGlzIHBhcGVyLCB3ZSBwcm9wb3NlIFZpZGVvU2NlbmUgdG8gZGlzdGlsbCB0aGUgdmlkZW8gZGlmZnVzaW9uIG1vZGVsIHRvIGdlbmVyYXRlIDNEIHNjZW5lcyBpbiBvbmUgc3RlcCwgYWltaW5nIHRvIGJ1aWxkIGFuIGVmZmljaWVudCBhbmQgZWZmZWN0aXZlIHRvb2wiLCJkYXRlIjoiQXByIDIsIDIwMjUiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkFUSTogQW55IFRyYWplY3RvcnkgSW5zdHJ1Y3Rpb24gZm9yIENvbnRyb2xsYWJsZSBWaWRlbyBHZW5lcmF0aW9uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNS4yMjk0NHYzIiwic25pcHBldCI6IldlIHByb3Bvc2UgQVRJIChGaWd1cmUgMiksIGEgZGlmZnVzaW9uLWJhc2VkIHZpZGVvIGdlbmVyYXRpb24gZnJhbWV3b3JrIHRoYXQgZW5hYmxlcyBGaW5lLWdyYWluZWQgZmVhdHVyZS1sZXZlbCBJbnN0cnVjdGlvbiBvZiBUcmFqZWN0b3JpZXMuIiwiZGF0ZSI6Ikp1biAxMCwgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiR2VuZXJhdGl2ZSBWaWRlbyBQcm9wYWdhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMi4xOTc2MXYxIiwic25pcHBldCI6IkluIHRoaXMgcGFwZXIsIHdlIGRlbW9uc3RyYXRlIHRoYXQgdGhyb3VnaCBhIGNhcmVmdWwgZGVzaWduIG9mIGEgZ2VuZXJhdGl2ZSB2aWRlbyBwcm9wYWdhdGlvbiBmcmFtZXdvcmssIHZhcmlvdXMgdmlkZW8gdGFza3MgY2FuIGJlIGFkZHJlc3NlZCBpbiBhIHVuaWZpZWQgd2F5IiwiZGF0ZSI6IkRlYyAyNywgMjAyNCIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiU2VsZiBGb3JjaW5nOiBCcmlkZ2luZyB0aGUgVHJhaW4tVGVzdCBHYXAgaW4gQXV0b3JlZ3Jlc3NpdmUgVmlkZW8gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNi4wODAwOXYxIiwic25pcHBldCI6IkFic3RyYWN0LiBXZSBpbnRyb2R1Y2UgU2VsZiBGb3JjaW5nLCBhIG5vdmVsIHRyYWluaW5nIHBhcmFkaWdtIGZvciBhdXRvcmVncmVzc2l2ZSB2aWRlbyBkaWZmdXNpb24gbW9kZWxzLiBJdCBhZGRyZXNzZXMgdGhlIGxvbmdzdGFuZGluZyBpc3N1ZSBvZiBleHBvc3VyZSAuLi4iLCJkYXRlIjoiSnVuIDksIDIwMjUiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiMy4yIEF1dG9yZWdyZXNzaXZlIERpZmZ1c2lvbi4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDYuMDgwMDl2MSM6fjp0ZXh0PTMuMiUyMEF1dG9yZWdyZXNzaXZlJTIwRGlmZnVzaW9uJTIwUG9zdCUyRFRyYWluaW5nJTIwdmlhJTIwU2VsZiUyRFJvbGxvdXQsLVRoZSUyMGNvcmUlMjBpZGVhJTIwb2YlMjBTZWxmIn0seyJ0aXRsZSI6IjMuNCBMb25nIFZpZGVvIEdlbmVyYXRpb24uLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA2LjA4MDA5djEjOn46dGV4dD0zLjQlMjBMb25nJTIwVmlkZW8lMjBHZW5lcmF0aW9uJTIwd2l0aCUyMFJvbGxpbmclMjBLViUyMENhY2hlLC1BJTIwa2V5JTIwYWR2YW50YWdlJTIwb2YlMjBhdXRvcmVncmVzc2l2ZSJ9LHsidGl0bGUiOiJBY2tub3dsZWRnbWVudHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTA2LjA4MDA5djEjOn46dGV4dD1BY2tub3dsZWRnbWVudHMifV0sInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiVHJhaW5pbmctRnJlZSBNb3Rpb24tR3VpZGVkIFZpZGVvIEdlbmVyYXRpb24gd2l0aCBFbmhhbmNlZCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAxLjA3NTYzdjEiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2UgYWRkcmVzcyB0aGUgY2hhbGxlbmdlIG9mIGdlbmVyYXRpbmcgdGVtcG9yYWxseSBjb25zaXN0ZW50IHZpZGVvcyB3aXRoIG1vdGlvbiBndWlkYW5jZS4gV2hpbGUgbWFueSBleGlzdGluZyBtZXRob2RzIGRlcGVuZCBvbiBhZGRpdGlvbmFsIC4uLiIsImRhdGUiOiJKYW4gMTMsIDIwMjUiLCJzaXRlbGlua3MiOlt7InRpdGxlIjoiMyBNZXRob2QiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAxLjA3NTYzdjEjOn46dGV4dD0uLSwzJTIwTWV0aG9kIn0seyJ0aXRsZSI6IjMuMyBNb3Rpb24gUGF0dGVybi4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDEuMDc1NjN2MSM6fjp0ZXh0PTMuMyUyME1vdGlvbiUyMFBhdHRlcm4lMjBFeHRyYWN0aW9uLC1BcyUyMGRpc2N1c3NlZCUyMGluJTIwdGhlJTIwSW50cm9kdWN0aW9uIn0seyJ0aXRsZSI6IjQgRXhwZXJpbWVudHMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAxLjA3NTYzdjEjOn46dGV4dD0uLSw0JTIwRXhwZXJpbWVudHMifV0sInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiVHJhbnNpdGlvbiBNYXRjaGluZyBEaXN0aWxsYXRpb24gZm9yIEZhc3QgVmlkZW8gR2VuZXJhdGlvbiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwMS4wOTg4MXYxIiwic25pcHBldCI6IkEgbm92ZWwgZGlzdGlsbGF0aW9uIGZyYW1ld29yayBmb3IgdmlkZW8gZGlmZnVzaW9uOiBXZSBwcm9wb3NlIFRyYW5zaXRpb24gTWF0Y2hpbmcgRGlzdGlsbGF0aW9uIChUTUQpLCB3aGljaCBkaXN0aWxscyBsb25nIGRlbm9pc2luZyB0cmFqZWN0b3JpZXMgaW50byBhIGNvbXBhY3QgLi4uIiwiZGF0ZSI6IkphbiAxNCwgMjAyNiIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "structured_response": {
+    "searchParameters": {
+      "q": "In video diffusion models, is there any paper that tried decomposing video instruction into sub instructions of different time? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "From Slow Bidirectional to Fast Causal Video Generators - arXiv",
+        "link": "https://arxiv.org/html/2412.07772v1",
+        "snippet": "Current video diffusion models achieve impressive generation quality but struggle in interactive applications due to bidirectional attention dependencies.",
+        "date": "Dec 10, 2024",
+        "position": 1
+      },
+      {
+        "title": "Bernini: Latent Semantic Planning for Video Diffusion - arXiv",
+        "link": "https://arxiv.org/html/2605.22344v1",
+        "snippet": "decomposing video editing into two stages: image-level reasoning and video-level generation. The renderer performs 60 denoising steps for text-to-video ...",
+        "date": "Aug 24, 2026",
+        "position": 2
+      },
+      {
+        "title": "Text-to-Multi-Shot Video Generation with Diffusion Models - arXiv",
+        "link": "https://arxiv.org/html/2505.07652v1",
+        "snippet": "Current diffusion-based text-to-video methods are limited to producing short video clips of a single shot and lack the capability to generate multi-shot videos ...",
+        "date": "May 12, 2025",
+        "position": 3
+      },
+      {
+        "title": "Rolling Forcing: Autoregressive Long Video Diffusion in Real Time",
+        "link": "https://arxiv.org/html/2509.25161v1",
+        "snippet": "An autoregressive video diffusion model is a hybrid generative framework that integrates autoregressive chain-rule decomposition with denoising diffusion for ...",
+        "date": "Sep 29, 2025",
+        "position": 4
+      },
+      {
+        "title": "Distilling Video Diffusion Model to Generate 3D Scenes in One Step",
+        "link": "https://arxiv.org/html/2504.01956v1",
+        "snippet": "In this paper, we propose VideoScene to distill the video diffusion model to generate 3D scenes in one step, aiming to build an efficient and effective tool",
+        "date": "Apr 2, 2025",
+        "position": 5
+      },
+      {
+        "title": "ATI: Any Trajectory Instruction for Controllable Video Generation",
+        "link": "https://arxiv.org/html/2505.22944v3",
+        "snippet": "We propose ATI (Figure 2), a diffusion-based video generation framework that enables Fine-grained feature-level Instruction of Trajectories.",
+        "date": "Jun 10, 2025",
+        "position": 6
+      },
+      {
+        "title": "Generative Video Propagation - arXiv",
+        "link": "https://arxiv.org/html/2412.19761v1",
+        "snippet": "In this paper, we demonstrate that through a careful design of a generative video propagation framework, various video tasks can be addressed in a unified way",
+        "date": "Dec 27, 2024",
+        "position": 7
+      },
+      {
+        "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video ...",
+        "link": "https://arxiv.org/html/2506.08009v1",
+        "snippet": "Abstract. We introduce Self Forcing, a novel training paradigm for autoregressive video diffusion models. It addresses the longstanding issue of exposure ...",
+        "date": "Jun 9, 2025",
+        "sitelinks": [
+          {
+            "title": "3.2 Autoregressive Diffusion...",
+            "link": "https://arxiv.org/html/2506.08009v1#:~:text=3.2%20Autoregressive%20Diffusion%20Post%2DTraining%20via%20Self%2DRollout,-The%20core%20idea%20of%20Self"
+          },
+          {
+            "title": "3.4 Long Video Generation...",
+            "link": "https://arxiv.org/html/2506.08009v1#:~:text=3.4%20Long%20Video%20Generation%20with%20Rolling%20KV%20Cache,-A%20key%20advantage%20of%20autoregressive"
+          },
+          {
+            "title": "Acknowledgments",
+            "link": "https://arxiv.org/html/2506.08009v1#:~:text=Acknowledgments"
+          }
+        ],
+        "position": 8
+      },
+      {
+        "title": "Training-Free Motion-Guided Video Generation with Enhanced ...",
+        "link": "https://arxiv.org/html/2501.07563v1",
+        "snippet": "In this paper, we address the challenge of generating temporally consistent videos with motion guidance. While many existing methods depend on additional ...",
+        "date": "Jan 13, 2025",
+        "sitelinks": [
+          {
+            "title": "3 Method",
+            "link": "https://arxiv.org/html/2501.07563v1#:~:text=.-,3%20Method"
+          },
+          {
+            "title": "3.3 Motion Pattern...",
+            "link": "https://arxiv.org/html/2501.07563v1#:~:text=3.3%20Motion%20Pattern%20Extraction,-As%20discussed%20in%20the%20Introduction"
+          },
+          {
+            "title": "4 Experiments",
+            "link": "https://arxiv.org/html/2501.07563v1#:~:text=.-,4%20Experiments"
+          }
+        ],
+        "position": 9
+      },
+      {
+        "title": "Transition Matching Distillation for Fast Video Generation - arXiv",
+        "link": "https://arxiv.org/html/2601.09881v1",
+        "snippet": "A novel distillation framework for video diffusion: We propose Transition Matching Distillation (TMD), which distills long denoising trajectories into a compact ...",
+        "date": "Jan 14, 2026",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "From Slow Bidirectional to Fast Causal Video Generators - arXiv",
+      "snippet": "Current video diffusion models achieve impressive generation quality but struggle in interactive applications due to bidirectional attention dependencies.",
+      "link": "https://arxiv.org/html/2412.07772v1",
+      "arxiv_id": "2412.07772"
+    },
+    {
+      "rank": 2,
+      "title": "Bernini: Latent Semantic Planning for Video Diffusion - arXiv",
+      "snippet": "decomposing video editing into two stages: image-level reasoning and video-level generation. The renderer performs 60 denoising steps for text-to-video ...",
+      "link": "https://arxiv.org/html/2605.22344v1",
+      "arxiv_id": "2605.22344"
+    },
+    {
+      "rank": 3,
+      "title": "Text-to-Multi-Shot Video Generation with Diffusion Models - arXiv",
+      "snippet": "Current diffusion-based text-to-video methods are limited to producing short video clips of a single shot and lack the capability to generate multi-shot videos ...",
+      "link": "https://arxiv.org/html/2505.07652v1",
+      "arxiv_id": "2505.07652"
+    },
+    {
+      "rank": 4,
+      "title": "Rolling Forcing: Autoregressive Long Video Diffusion in Real Time",
+      "snippet": "An autoregressive video diffusion model is a hybrid generative framework that integrates autoregressive chain-rule decomposition with denoising diffusion for ...",
+      "link": "https://arxiv.org/html/2509.25161v1",
+      "arxiv_id": "2509.25161"
+    },
+    {
+      "rank": 5,
+      "title": "Distilling Video Diffusion Model to Generate 3D Scenes in One Step",
+      "snippet": "In this paper, we propose VideoScene to distill the video diffusion model to generate 3D scenes in one step, aiming to build an efficient and effective tool",
+      "link": "https://arxiv.org/html/2504.01956v1",
+      "arxiv_id": "2504.01956"
+    },
+    {
+      "rank": 6,
+      "title": "ATI: Any Trajectory Instruction for Controllable Video Generation",
+      "snippet": "We propose ATI (Figure 2), a diffusion-based video generation framework that enables Fine-grained feature-level Instruction of Trajectories.",
+      "link": "https://arxiv.org/html/2505.22944v3",
+      "arxiv_id": "2505.22944"
+    },
+    {
+      "rank": 7,
+      "title": "Generative Video Propagation - arXiv",
+      "snippet": "In this paper, we demonstrate that through a careful design of a generative video propagation framework, various video tasks can be addressed in a unified way",
+      "link": "https://arxiv.org/html/2412.19761v1",
+      "arxiv_id": "2412.19761"
+    },
+    {
+      "rank": 8,
+      "title": "Self Forcing: Bridging the Train-Test Gap in Autoregressive Video ...",
+      "snippet": "Abstract. We introduce Self Forcing, a novel training paradigm for autoregressive video diffusion models. It addresses the longstanding issue of exposure ...",
+      "link": "https://arxiv.org/html/2506.08009v1",
+      "arxiv_id": "2506.08009"
+    },
+    {
+      "rank": 9,
+      "title": "Training-Free Motion-Guided Video Generation with Enhanced ...",
+      "snippet": "In this paper, we address the challenge of generating temporally consistent videos with motion guidance. While many existing methods depend on additional ...",
+      "link": "https://arxiv.org/html/2501.07563v1",
+      "arxiv_id": "2501.07563"
+    },
+    {
+      "rank": 10,
+      "title": "Transition Matching Distillation for Fast Video Generation - arXiv",
+      "snippet": "A novel distillation framework for video diffusion: We propose Transition Matching Distillation (TMD), which distills long denoising trajectories into a compact ...",
+      "link": "https://arxiv.org/html/2601.09881v1",
+      "arxiv_id": "2601.09881"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:06.142262+00:00",
+  "elapsed_seconds": 2.232176758348942
+}

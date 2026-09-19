@@ -1,0 +1,204 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q29",
+  "group": "inline-citation",
+  "probe_kind": "exact_gt_title",
+  "gold_arxiv_id": "2305.17696",
+  "request_payload": {
+    "q": "SQUARE: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 58,
+  "started_utc": "2026-09-17T12:34:30.240975+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648195",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "e4aee2862b6b7fc3ef4e195cadbc4bc5",
+    "date": "Thu, 17 Sep 2026 12:29:51 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3404",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3404,
+  "response_bytes_sha256": "efaac84eaee86096008e95427362924dd2ae8d81cfe891dcf7df64cabc109560",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTUVVBUkU6IEEgTGFyZ2UtU2NhbGUgRGF0YXNldCBvZiBTZW5zaXRpdmUgUXVlc3Rpb25zIGFuZCBBY2NlcHRhYmxlIFJlc3BvbnNlcyBDcmVhdGVkIFRocm91Z2ggSHVtYW4tTWFjaGluZSBDb2xsYWJvcmF0aW9uIGJlZm9yZToyMDI2LTA5LTE3IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IlNRdUFSZTogQSBMYXJnZS1TY2FsZSBEYXRhc2V0IG9mIFNlbnNpdGl2ZSBRdWVzdGlvbnMgYW5kIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2Ficy8yMzA1LjE3Njk2Iiwic25pcHBldCI6IlNlbnNpdGl2ZSBRdWVzdGlvbnMgYW5kIEFjY2VwdGFibGUgUmVzcG9uc2UgKFNRdUFSZSkgZGF0YXNldCwgYSBsYXJnZS1zY2FsZSBLb3JlYW4gZGF0YXNldCBvZiA0OWsgc2Vuc2l0aXZlIHF1ZXN0aW9ucyB3aXRoIDQyayBhY2NlcHRhYmxlIGFuZCA0Nmsgbm9uLSAuLi4iLCJkYXRlIjoiTWF5IDI4LCAyMDIzIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyMzA1LjE3Njk2djEgW2NzLkNMXSAyOCBNYXkgMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4xNzY5NiIsInNuaXBwZXQiOiJXZSBwcmVzZW50IChTUVVBUkUpIGEgbGFyZ2Utc2NhbGUgS29yZWFuIGRhdGFzZXQgb2YgNDlrIHNlbnNpdGl2ZSBxdWVzdGlvbnMgd2l0aCA0MmsgYWNjZXB0YWJsZSBhbmQgNDZrIG5vbi1hY2NlcHRhYmxlIHJlc3BvbnNlcy4gVGhpcyBpcyB0aGUgZmlyc3QgZGF0YXNldCAuLi4iLCJkYXRlIjoiTWF5IDI4LCAyMDIzIiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJLU0FGRS1NTTogQSBNdWx0aW1vZGFsIFNhZmV0eSBCZW5jaG1hcmsgdmlhIExvY2FsaXplZCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDUuMjgwMTN2MSIsInNuaXBwZXQiOiJTUXVBUmU6IGEgbGFyZ2Utc2NhbGUgZGF0YXNldCBvZiBzZW5zaXRpdmUgcXVlc3Rpb25zIGFuZCBhY2NlcHRhYmxlIHJlc3BvbnNlcyBjcmVhdGVkIHRocm91Z2ggaHVtYW4tbWFjaGluZSBjb2xsYWJvcmF0aW9uLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgNjFzdCBBbm51YWwgLi4uIiwiZGF0ZSI6Ik1heSAyNywgMjAyNiIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjQwNC4wODY3MnYyIFtjcy5JUl0gMTggRmViIDIwMjUiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDQuMDg2NzI/Iiwic25pcHBldCI6IlNxdWFyZTogQSBsYXJnZS1zY2FsZSBkYXRhc2V0IG9mIHNlbnNpdGl2ZSBxdWVzdGlvbnMgYW5kIGFjY2VwdGFibGUgcmVzcG9uc2VzIGNyZWF0ZWQgdGhyb3VnaCBQYWdlIDExIGh1bWFuLW1hY2hpbmUgY29sbGFib3JhdGlvbi4iLCJkYXRlIjoiRmViIDE4LCAyMDI1IiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJBIFN1cnZleSBvbiBIYXJtZnVsIENvbnRlbnQgR2VuZXJhdGlvbiBhbmQgU2FmZXR5IE1pdGlnYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDguMDU3NzV2MSIsInNuaXBwZXQiOiJTUXVBUmU6IEEgbGFyZ2Utc2NhbGUgZGF0YXNldCBvZiBzZW5zaXRpdmUgcXVlc3Rpb25zIGFuZCBhY2NlcHRhYmxlIHJlc3BvbnNlcyBjcmVhdGVkIHRocm91Z2ggaHVtYW4tbWFjaGluZSBjb2xsYWJvcmF0aW9uLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgNjFzdCBBbm51YWwgLi4uIiwiZGF0ZSI6IkF1ZyA3LCAyMDI1IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJbUERGXSBBdXRvbWF0aWMgQ29uc3RydWN0aW9uIG9mIGEgS29yZWFuIFRveGljIEluc3RydWN0aW9uIERhdGFzZXQgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMTEuMTgyMTUiLCJzbmlwcGV0IjoiU3F1YXJlOiBBIGxhcmdlLXNjYWxlIGRhdGFzZXQgb2Ygc2Vuc2l0aXZlIHF1ZXN0aW9ucyBhbmQgYWNjZXB0YWJsZSByZXNwb25zZXMgY3JlYXRlZCB0aHJvdWdoIGh1bWFuLW1hY2hpbmUgY29sbGFib3JhdGlvbiwgMjAyM2EuIEh3YXJhbiBMZWUsIFNlb2toZWUgSG9uZyAuLi4iLCJkYXRlIjoiTm92IDMwLCAyMDIzIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJbUERGXSBhclhpdjoyNTAzLjE5NDI2djEgW2NzLkNMXSAyNSBNYXIgMjAyNSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjUwMy4xOTQyNiIsInNuaXBwZXQiOiJTUVVBUkUgZGF0YXNldCAoTGVlIGV0IGFsLiwgMjAyMyksIGEgbGFyZ2Utc2NhbGUgZGF0YXNldCBjb25zaXN0aW5nIG9mIHR3byB0eXBlcyBvZiBzZW50ZW5jZXM6IHNlbnNpdGl2ZSBxdWVzdGlvbnMgKFEpIGFuZCBhY2NlcHRhYmxlIHJlc3BvbnNlcyAoUikuIiwiZGF0ZSI6Ik1hciAyNSwgMjAyNSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiQSBTdXJ2ZXkgb24gSHVtYW4tQUkgQ29sbGFib3JhdGlvbiB3aXRoIExhcmdlIEZvdW5kYXRpb24gTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4wNDkzMXYzIiwic25pcHBldCI6IkVuc3VyaW5nIGNvbnNpc3RlbmN5IGFuZCBhY2N1cmFjeSBvZiBodW1hbiBmZWVkYmFjaywgc2NhbGluZyBSTEhGIGVmZmVjdGl2ZWx5IHRvIGxhcmdlIGRhdGFzZXRzLCBhbmQgYWxpZ25pbmcgaHVtYW4gaW5zaWdodHMgd2l0aCBhbGdvcml0aG1pYyBwcm9jZXNzZXMgYXJlIC4uLiIsImRhdGUiOiJTZXAgMiwgMjAyNSIsInBvc2l0aW9uIjo4fSx7InRpdGxlIjoiW1BERl0gcGRmIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMTEuMDk1ODUiLCJzbmlwcGV0IjoiU1F1QVJlOiDCtyBBIGxhcmdlLXNjYWxlIGRhdGFzZXQgb2Ygc2Vuc2l0aXZlIHF1ZXN0aW9ucyBhbmQgYWMtIMK3IGNlcHRhYmxlIHJlc3BvbnNlcyBjcmVhdGVkIHRocm91Z2ggaHVtYW4tbWFjaGluZSDCtyBjb2xsYWJvcmF0aW9uLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgNjFzdCAuLi4iLCJkYXRlIjoiTWFyIDI4LCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJBIFN1cnZleSBvbiBIdW1hbi1BSSBUZWFtaW5nIHdpdGggTGFyZ2UgUHJlLVRyYWluZWQgTW9kZWxzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMy4wNDkzMXYxIiwic25pcHBldCI6IlRoaXMgcGFwZXIgc3VydmV5cyB0aGUgcGl2b3RhbCBpbnRlZ3JhdGlvbiBvZiBMUHRNcyB3aXRoIEhBSSwgZW1waGFzaXppbmcgaG93IHRoZXNlIG1vZGVscyBlbmhhbmNlIGNvbGxhYm9yYXRpdmUgaW50ZWxsaWdlbmNlIGJleW9uZCB0cmFkaXRpb25hbCBhcHByb2FjaGVzLiBJdCAuLi4iLCJkYXRlIjoiTWFyIDcsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "SQUARE: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "SQuARe: A Large-Scale Dataset of Sensitive Questions and ... - arXiv",
+        "link": "https://arxiv.org/abs/2305.17696",
+        "snippet": "Sensitive Questions and Acceptable Response (SQuARe) dataset, a large-scale Korean dataset of 49k sensitive questions with 42k acceptable and 46k non- ...",
+        "date": "May 28, 2023",
+        "position": 1
+      },
+      {
+        "title": "[PDF] arXiv:2305.17696v1 [cs.CL] 28 May 2023",
+        "link": "https://arxiv.org/pdf/2305.17696",
+        "snippet": "We present (SQUARE) a large-scale Korean dataset of 49k sensitive questions with 42k acceptable and 46k non-acceptable responses. This is the first dataset ...",
+        "date": "May 28, 2023",
+        "position": 2
+      },
+      {
+        "title": "KSAFE-MM: A Multimodal Safety Benchmark via Localized ... - arXiv",
+        "link": "https://arxiv.org/html/2605.28013v1",
+        "snippet": "SQuARe: a large-scale dataset of sensitive questions and acceptable responses created through human-machine collaboration. In Proceedings of the 61st Annual ...",
+        "date": "May 27, 2026",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2404.08672v2 [cs.IR] 18 Feb 2025",
+        "link": "https://arxiv.org/pdf/2404.08672?",
+        "snippet": "Square: A large-scale dataset of sensitive questions and acceptable responses created through Page 11 human-machine collaboration.",
+        "date": "Feb 18, 2025",
+        "position": 4
+      },
+      {
+        "title": "A Survey on Harmful Content Generation and Safety Mitigation - arXiv",
+        "link": "https://arxiv.org/html/2508.05775v1",
+        "snippet": "SQuARe: A large-scale dataset of sensitive questions and acceptable responses created through human-machine collaboration. In Proceedings of the 61st Annual ...",
+        "date": "Aug 7, 2025",
+        "position": 5
+      },
+      {
+        "title": "[PDF] Automatic Construction of a Korean Toxic Instruction Dataset ... - arXiv",
+        "link": "https://arxiv.org/pdf/2311.18215",
+        "snippet": "Square: A large-scale dataset of sensitive questions and acceptable responses created through human-machine collaboration, 2023a. Hwaran Lee, Seokhee Hong ...",
+        "date": "Nov 30, 2023",
+        "position": 6
+      },
+      {
+        "title": "[PDF] arXiv:2503.19426v1 [cs.CL] 25 Mar 2025",
+        "link": "https://arxiv.org/pdf/2503.19426",
+        "snippet": "SQUARE dataset (Lee et al., 2023), a large-scale dataset consisting of two types of sentences: sensitive questions (Q) and acceptable responses (R).",
+        "date": "Mar 25, 2025",
+        "position": 7
+      },
+      {
+        "title": "A Survey on Human-AI Collaboration with Large Foundation Models",
+        "link": "https://arxiv.org/html/2403.04931v3",
+        "snippet": "Ensuring consistency and accuracy of human feedback, scaling RLHF effectively to large datasets, and aligning human insights with algorithmic processes are ...",
+        "date": "Sep 2, 2025",
+        "position": 8
+      },
+      {
+        "title": "[PDF] pdf - arXiv",
+        "link": "https://arxiv.org/pdf/2311.09585",
+        "snippet": "SQuARe: · A large-scale dataset of sensitive questions and ac- · ceptable responses created through human-machine · collaboration. In Proceedings of the 61st ...",
+        "date": "Mar 28, 2024",
+        "position": 9
+      },
+      {
+        "title": "A Survey on Human-AI Teaming with Large Pre-Trained Models",
+        "link": "https://arxiv.org/html/2403.04931v1",
+        "snippet": "This paper surveys the pivotal integration of LPtMs with HAI, emphasizing how these models enhance collaborative intelligence beyond traditional approaches. It ...",
+        "date": "Mar 7, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "SQuARe: A Large-Scale Dataset of Sensitive Questions and ... - arXiv",
+      "snippet": "Sensitive Questions and Acceptable Response (SQuARe) dataset, a large-scale Korean dataset of 49k sensitive questions with 42k acceptable and 46k non- ...",
+      "link": "https://arxiv.org/abs/2305.17696",
+      "arxiv_id": "2305.17696"
+    },
+    {
+      "rank": 2,
+      "title": "[PDF] arXiv:2305.17696v1 [cs.CL] 28 May 2023",
+      "snippet": "We present (SQUARE) a large-scale Korean dataset of 49k sensitive questions with 42k acceptable and 46k non-acceptable responses. This is the first dataset ...",
+      "link": "https://arxiv.org/pdf/2305.17696",
+      "arxiv_id": "2305.17696"
+    },
+    {
+      "rank": 3,
+      "title": "KSAFE-MM: A Multimodal Safety Benchmark via Localized ... - arXiv",
+      "snippet": "SQuARe: a large-scale dataset of sensitive questions and acceptable responses created through human-machine collaboration. In Proceedings of the 61st Annual ...",
+      "link": "https://arxiv.org/html/2605.28013v1",
+      "arxiv_id": "2605.28013"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2404.08672v2 [cs.IR] 18 Feb 2025",
+      "snippet": "Square: A large-scale dataset of sensitive questions and acceptable responses created through Page 11 human-machine collaboration.",
+      "link": "https://arxiv.org/pdf/2404.08672?",
+      "arxiv_id": "2404.08672"
+    },
+    {
+      "rank": 5,
+      "title": "A Survey on Harmful Content Generation and Safety Mitigation - arXiv",
+      "snippet": "SQuARe: A large-scale dataset of sensitive questions and acceptable responses created through human-machine collaboration. In Proceedings of the 61st Annual ...",
+      "link": "https://arxiv.org/html/2508.05775v1",
+      "arxiv_id": "2508.05775"
+    },
+    {
+      "rank": 6,
+      "title": "[PDF] Automatic Construction of a Korean Toxic Instruction Dataset ... - arXiv",
+      "snippet": "Square: A large-scale dataset of sensitive questions and acceptable responses created through human-machine collaboration, 2023a. Hwaran Lee, Seokhee Hong ...",
+      "link": "https://arxiv.org/pdf/2311.18215",
+      "arxiv_id": "2311.18215"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] arXiv:2503.19426v1 [cs.CL] 25 Mar 2025",
+      "snippet": "SQUARE dataset (Lee et al., 2023), a large-scale dataset consisting of two types of sentences: sensitive questions (Q) and acceptable responses (R).",
+      "link": "https://arxiv.org/pdf/2503.19426",
+      "arxiv_id": "2503.19426"
+    },
+    {
+      "rank": 8,
+      "title": "A Survey on Human-AI Collaboration with Large Foundation Models",
+      "snippet": "Ensuring consistency and accuracy of human feedback, scaling RLHF effectively to large datasets, and aligning human insights with algorithmic processes are ...",
+      "link": "https://arxiv.org/html/2403.04931v3",
+      "arxiv_id": "2403.04931"
+    },
+    {
+      "rank": 9,
+      "title": "[PDF] pdf - arXiv",
+      "snippet": "SQuARe: · A large-scale dataset of sensitive questions and ac- · ceptable responses created through human-machine · collaboration. In Proceedings of the 61st ...",
+      "link": "https://arxiv.org/pdf/2311.09585",
+      "arxiv_id": "2311.09585"
+    },
+    {
+      "rank": 10,
+      "title": "A Survey on Human-AI Teaming with Large Pre-Trained Models",
+      "snippet": "This paper surveys the pivotal integration of LPtMs with HAI, emphasizing how these models enhance collaborative intelligence beyond traditional approaches. It ...",
+      "link": "https://arxiv.org/html/2403.04931v1",
+      "arxiv_id": "2403.04931"
+    }
+  ],
+  "gold_hit_ranks": [
+    1,
+    2
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:31.805827+00:00",
+  "elapsed_seconds": 1.5648581087589264,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q29_exact_gt_title_attempt1.json",
+      "sha256": "36e0592404218835925a68c5d4b1cfc1d20d7110fd8b8f130f4515cb367833ac",
+      "status": "PASS"
+    }
+  ]
+}

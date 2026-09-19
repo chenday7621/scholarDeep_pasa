@@ -1,0 +1,201 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q30",
+  "group": "inline-citation",
+  "probe_kind": "original_question",
+  "gold_arxiv_id": "2101.00190",
+  "request_payload": {
+    "q": "Which method involves training additional prompt tokens for every layer during the fine-tuning of language models, specifically evaluating their performance on generation tasks? before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 63,
+  "started_utc": "2026-09-17T12:34:35.583296+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648200",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "510aaeb0fd8a0f61ef4e195cadbc4c6f",
+    "date": "Thu, 17 Sep 2026 12:29:57 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3572",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3572,
+  "response_bytes_sha256": "4ca2b92e8e5ddd827964af2d7166bc671441fbac6c088e948f935da268e6b1d1",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJXaGljaCBtZXRob2QgaW52b2x2ZXMgdHJhaW5pbmcgYWRkaXRpb25hbCBwcm9tcHQgdG9rZW5zIGZvciBldmVyeSBsYXllciBkdXJpbmcgdGhlIGZpbmUtdHVuaW5nIG9mIGxhbmd1YWdlIG1vZGVscywgc3BlY2lmaWNhbGx5IGV2YWx1YXRpbmcgdGhlaXIgcGVyZm9ybWFuY2Ugb24gZ2VuZXJhdGlvbiB0YXNrcz8gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiVGhlIFVsdGltYXRlIEd1aWRlIHRvIEZpbmUtVHVuaW5nIExMTXMgZnJvbSBCYXNpY3MgdG8gQnJlYWt0aHJvdWdocyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDguMTMyOTZ2MSIsInNuaXBwZXQiOiJGaW5lLXR1bmluZyB1c2VzIGEgcHJlLXRyYWluZWQgbW9kZWwsIHN1Y2ggYXMgT3BlbkFJJ3MgR1BUIHNlcmllcywgYXMgYSBmb3VuZGF0aW9uLiBUaGUgcHJvY2VzcyBpbnZvbHZlcyBmdXJ0aGVyIHRyYWluaW5nIG9uIGEgc21hbGxlciwgZG9tYWluLXNwZWNpZmljIGRhdGFzZXQuIiwiZGF0ZSI6IkF1ZyAyMywgMjAyNCIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiV2hhdCBNYWtlcyBMTE0gRmluZS10dW5pbmcgUm9idXN0PyBBIFN0dWR5IG9mIFRva2VuIFBlcnBsZXhpdHkiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTAxLjE0MzE1djEiLCJzbmlwcGV0IjoiU2VsZWN0aXZlIFRva2VuIE1hc2tpbmcgKFNUTSksIGEgc2ltcGxlIHlldCBlZmZlY3RpdmUgdHJhaW5pbmcgc3RyYXRlZ3kgdG8gZmlsdGVyIG91dCBoaWdoIHBlcnBsZXhpdHkgdG9rZW5zIHRvIGFjaGlldmUgbG93IHBlcnBsZXhpdHkgdHJhaW5pbmcuIiwiZGF0ZSI6IkphbiAyNCwgMjAyNSIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiRmluZS1UdW5pbmcgQ2F1c2FsIExMTXMgZm9yIFRleHQgQ2xhc3NpZmljYXRpb24gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MTIuMTI2Nzd2MSIsInNuaXBwZXQiOiJUaGUgaW5zdHJ1Y3Rpb24tdHVuaW5nIG1ldGhvZCwgZHVlIHRvIHRoZSBzZXF1ZW50aWFsIGRlY29kaW5nIG5hdHVyZSBvZiBnZW5lcmF0aW9uLCBjYW4gYmUgc2xvd2VyIGF0IGluZmVyZW5jZSB0aW1lICh0aGUgbW9kZWwgbXVzdCBvdXRwdXQgdG9rZW5zIG9uZS1ieS1vbmUgZm9yIC4uLiIsImRhdGUiOiJEZWMgMTQsIDIwMjUiLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IlRyYWluaW5nIGxhbmd1YWdlIG1vZGVscyB0byBmb2xsb3cgaW5zdHJ1Y3Rpb25zIHdpdGggaHVtYW4gZmVlZGJhY2siLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzIyMDMuMDIxNTUiLCJzbmlwcGV0IjoiSW4gdGhpcyBwYXBlciwgd2Ugc2hvdyBhbiBhdmVudWUgZm9yIGFsaWduaW5nIGxhbmd1YWdlIG1vZGVscyB3aXRoIHVzZXIgaW50ZW50IG9uIGEgd2lkZSByYW5nZSBvZiB0YXNrcyBieSBmaW5lLXR1bmluZyB3aXRoIGh1bWFuIGZlZWRiYWNrLiIsImRhdGUiOiJKYW4gMjcsIDIwMjIiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IkEgQ29tcHJlaGVuc2l2ZSBPdmVydmlldyBvZiBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMDcuMDY0MzV2MTAiLCJzbmlwcGV0IjoiUHJvbXB0aW5nIGlzIGEgbWV0aG9kIHRvIHF1ZXJ5IHRyYWluZWQgTExNcyBmb3IgZ2VuZXJhdGluZyByZXNwb25zZXMsIGFzIGlsbHVzdHJhdGVkIGluIEZpZ3VyZSA2LiBMTE1zIGNhbiBiZSBwcm9tcHRlZCBpbiB2YXJpb3VzIHByb21wdCBzZXR1cHMsIHdoZXJlIHRoZXkgY2FuIC4uLiIsImRhdGUiOiJPY3QgMTcsIDIwMjQiLCJwb3NpdGlvbiI6NX0seyJ0aXRsZSI6IkFuYWx5emluZyB0aGUgUmVsYXRpb25zaGlwIGJldHdlZW4gUHJlLVRyYWluaW5nIGFuZCBGaW5lLVR1bmluZyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDA4LjA2NjYzdjUiLCJzbmlwcGV0IjoiVGhlIHN1cGVydmlzZWQgZmluZS10dW5pbmcgaXMgY29uZHVjdGVkIHNlcGFyYXRlbHkgZm9yIGVhY2ggbW9kZWwgY2hlY2twb2ludCBhbmQgZGF0YXNldCwgd2hpbGUgdGhlIGluc3RydWN0aW9uIGZpbmUtdHVuaW5nLiBUaGUgaW5zdHJ1Y3Rpb24tdHVuZWQgbW9kZWwgaXMgLi4uIiwiZGF0ZSI6Ik1hciAxOCwgMjAyNSIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiW1BERl0gQnJpZGdpbmcgTExNcyBhbmQgS0dzIHdpdGhvdXQgRmluZS1UdW5pbmciLCJsaW5rIjoiaHR0cHM6Ly93d3cuYXJ4aXYub3JnL3BkZi8yNDA4LjA2Nzg3djQiLCJzbmlwcGV0IjoiVGhpcyBtZXRob2QgaW52b2x2ZXMgZmluZS10dW5pbmcgTExNcywgc3VjaCBhcyBMTGFNQSwgdGhyb3VnaCB0aGUgdXNlIG9mIHRyYWluaW5nIHNhbS0gcGxlcyBbNDBdLCB3aGljaCBjYW4gbGVhZCB0byBpbXByb3ZlZCBwZXJmb3JtYW5jZSBieSBhbGlnbmluZyB0aGUgbW9kZWxzIC4uLiIsImRhdGUiOiJBdWcgNSwgMjAyNSIsInBvc2l0aW9uIjo3fSx7InRpdGxlIjoiUGFyYW1ldGVyLUVmZmljaWVudCBGaW5lLVR1bmluZyBpbiBMYXJnZSBNb2RlbHM6IEEgU3VydmV5IG9mIC4uLiAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQxMC4xOTg3OHYzIiwic25pcHBldCI6IlBhcmFtZXRlci1FZmZpY2llbnQgRmluZS1UdW5pbmcgKFBFRlQpIGlzIGEgdHJhbnNmZXIgbGVhcm5pbmcgbWV0aG9kIHNwZWNpZmljYWxseSBkZXZlbG9wZWQgdG8gYWRhcHQgdGhlIHBhcmFtZXRlcnMgb2YgdGhlIGxhcmdlIHByZS10cmFpbmVkIG1vZGVscyB0byBzdWl0IG5ldyAuLi4iLCJkYXRlIjoiQXByIDI0LCAyMDI1IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJbMjQwMS4wNDA4OF0gTWl4dHJhbCBvZiBFeHBlcnRzIC0gYXI1aXYiLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzI0MDEuMDQwODgiLCJzbmlwcGV0IjoiTWl4dHJhbCB3YXMgdHJhaW5lZCB3aXRoIGEgY29udGV4dCBzaXplIG9mIDMyayB0b2tlbnMgYW5kIGl0IG91dHBlcmZvcm1zIG9yIG1hdGNoZXMgTGxhbWEgMiA3MEIgYW5kIEdQVC0zLjUgYWNyb3NzIGFsbCBldmFsdWF0ZWQgYmVuY2htYXJrcy4gSW4gcGFydGljdWxhciwgLi4uIiwiZGF0ZSI6IkphbiA4LCAyMDI0IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJVbmlmeWluZyBMYXJnZSBMYW5ndWFnZSBNb2RlbHMgYW5kIEtub3dsZWRnZSBHcmFwaHMgLSBhcjVpdiIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjMwNi4wODMwMiIsInNuaXBwZXQiOiJPdXIgcm9hZG1hcCBjb25zaXN0cyBvZiB0aHJlZSBnZW5lcmFsIGZyYW1ld29ya3MsIG5hbWVseSwgMSkgS0ctZW5oYW5jZWQgTExNcywgd2hpY2ggaW5jb3Jwb3JhdGUgS0dzIGR1cmluZyB0aGUgcHJlLXRyYWluaW5nIGFuZCBpbmZlcmVuY2UgcGhhc2VzIG9mIExMTXMsIG9yIC4uLiIsImRhdGUiOiJKdW4gMTUsIDIwMjMiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Which method involves training additional prompt tokens for every layer during the fine-tuning of language models, specifically evaluating their performance on generation tasks? before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+        "link": "https://arxiv.org/html/2408.13296v1",
+        "snippet": "Fine-tuning uses a pre-trained model, such as OpenAI's GPT series, as a foundation. The process involves further training on a smaller, domain-specific dataset.",
+        "date": "Aug 23, 2024",
+        "position": 1
+      },
+      {
+        "title": "What Makes LLM Fine-tuning Robust? A Study of Token Perplexity",
+        "link": "https://arxiv.org/html/2501.14315v1",
+        "snippet": "Selective Token Masking (STM), a simple yet effective training strategy to filter out high perplexity tokens to achieve low perplexity training.",
+        "date": "Jan 24, 2025",
+        "position": 2
+      },
+      {
+        "title": "Fine-Tuning Causal LLMs for Text Classification - arXiv",
+        "link": "https://arxiv.org/html/2512.12677v1",
+        "snippet": "The instruction-tuning method, due to the sequential decoding nature of generation, can be slower at inference time (the model must output tokens one-by-one for ...",
+        "date": "Dec 14, 2025",
+        "position": 3
+      },
+      {
+        "title": "Training language models to follow instructions with human feedback",
+        "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+        "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.",
+        "date": "Jan 27, 2022",
+        "position": 4
+      },
+      {
+        "title": "A Comprehensive Overview of Large Language Models - arXiv",
+        "link": "https://arxiv.org/html/2307.06435v10",
+        "snippet": "Prompting is a method to query trained LLMs for generating responses, as illustrated in Figure 6. LLMs can be prompted in various prompt setups, where they can ...",
+        "date": "Oct 17, 2024",
+        "position": 5
+      },
+      {
+        "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+        "link": "https://arxiv.org/html/2408.06663v5",
+        "snippet": "The supervised fine-tuning is conducted separately for each model checkpoint and dataset, while the instruction fine-tuning. The instruction-tuned model is ...",
+        "date": "Mar 18, 2025",
+        "position": 6
+      },
+      {
+        "title": "[PDF] Bridging LLMs and KGs without Fine-Tuning",
+        "link": "https://www.arxiv.org/pdf/2408.06787v4",
+        "snippet": "This method involves fine-tuning LLMs, such as LLaMA, through the use of training sam- ples [40], which can lead to improved performance by aligning the models ...",
+        "date": "Aug 5, 2025",
+        "position": 7
+      },
+      {
+        "title": "Parameter-Efficient Fine-Tuning in Large Models: A Survey of ... - arXiv",
+        "link": "https://arxiv.org/html/2410.19878v3",
+        "snippet": "Parameter-Efficient Fine-Tuning (PEFT) is a transfer learning method specifically developed to adapt the parameters of the large pre-trained models to suit new ...",
+        "date": "Apr 24, 2025",
+        "position": 8
+      },
+      {
+        "title": "[2401.04088] Mixtral of Experts - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2401.04088",
+        "snippet": "Mixtral was trained with a context size of 32k tokens and it outperforms or matches Llama 2 70B and GPT-3.5 across all evaluated benchmarks. In particular, ...",
+        "date": "Jan 8, 2024",
+        "position": 9
+      },
+      {
+        "title": "Unifying Large Language Models and Knowledge Graphs - ar5iv",
+        "link": "https://ar5iv.labs.arxiv.org/html/2306.08302",
+        "snippet": "Our roadmap consists of three general frameworks, namely, 1) KG-enhanced LLMs, which incorporate KGs during the pre-training and inference phases of LLMs, or ...",
+        "date": "Jun 15, 2023",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs",
+      "snippet": "Fine-tuning uses a pre-trained model, such as OpenAI's GPT series, as a foundation. The process involves further training on a smaller, domain-specific dataset.",
+      "link": "https://arxiv.org/html/2408.13296v1",
+      "arxiv_id": "2408.13296"
+    },
+    {
+      "rank": 2,
+      "title": "What Makes LLM Fine-tuning Robust? A Study of Token Perplexity",
+      "snippet": "Selective Token Masking (STM), a simple yet effective training strategy to filter out high perplexity tokens to achieve low perplexity training.",
+      "link": "https://arxiv.org/html/2501.14315v1",
+      "arxiv_id": "2501.14315"
+    },
+    {
+      "rank": 3,
+      "title": "Fine-Tuning Causal LLMs for Text Classification - arXiv",
+      "snippet": "The instruction-tuning method, due to the sequential decoding nature of generation, can be slower at inference time (the model must output tokens one-by-one for ...",
+      "link": "https://arxiv.org/html/2512.12677v1",
+      "arxiv_id": "2512.12677"
+    },
+    {
+      "rank": 4,
+      "title": "Training language models to follow instructions with human feedback",
+      "snippet": "In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback.",
+      "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+      "arxiv_id": "2203.02155"
+    },
+    {
+      "rank": 5,
+      "title": "A Comprehensive Overview of Large Language Models - arXiv",
+      "snippet": "Prompting is a method to query trained LLMs for generating responses, as illustrated in Figure 6. LLMs can be prompted in various prompt setups, where they can ...",
+      "link": "https://arxiv.org/html/2307.06435v10",
+      "arxiv_id": "2307.06435"
+    },
+    {
+      "rank": 6,
+      "title": "Analyzing the Relationship between Pre-Training and Fine-Tuning ...",
+      "snippet": "The supervised fine-tuning is conducted separately for each model checkpoint and dataset, while the instruction fine-tuning. The instruction-tuned model is ...",
+      "link": "https://arxiv.org/html/2408.06663v5",
+      "arxiv_id": "2408.06663"
+    },
+    {
+      "rank": 7,
+      "title": "[PDF] Bridging LLMs and KGs without Fine-Tuning",
+      "snippet": "This method involves fine-tuning LLMs, such as LLaMA, through the use of training sam- ples [40], which can lead to improved performance by aligning the models ...",
+      "link": "https://www.arxiv.org/pdf/2408.06787v4",
+      "arxiv_id": "2408.06787"
+    },
+    {
+      "rank": 8,
+      "title": "Parameter-Efficient Fine-Tuning in Large Models: A Survey of ... - arXiv",
+      "snippet": "Parameter-Efficient Fine-Tuning (PEFT) is a transfer learning method specifically developed to adapt the parameters of the large pre-trained models to suit new ...",
+      "link": "https://arxiv.org/html/2410.19878v3",
+      "arxiv_id": "2410.19878"
+    },
+    {
+      "rank": 9,
+      "title": "[2401.04088] Mixtral of Experts - ar5iv",
+      "snippet": "Mixtral was trained with a context size of 32k tokens and it outperforms or matches Llama 2 70B and GPT-3.5 across all evaluated benchmarks. In particular, ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2401.04088",
+      "arxiv_id": "2401.04088"
+    },
+    {
+      "rank": 10,
+      "title": "Unifying Large Language Models and Knowledge Graphs - ar5iv",
+      "snippet": "Our roadmap consists of three general frameworks, namely, 1) KG-enhanced LLMs, which incorporate KGs during the pre-training and inference phases of LLMs, or ...",
+      "link": "https://ar5iv.labs.arxiv.org/html/2306.08302",
+      "arxiv_id": "2306.08302"
+    }
+  ],
+  "gold_hit_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:34:37.574890+00:00",
+  "elapsed_seconds": 1.991602011024952,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q30_original_question_attempt1.json",
+      "sha256": "7f1c74721b49a07e838861c026f9d4db1c037a6b25eeb92f305f69bde0f75799",
+      "status": "PASS"
+    }
+  ]
+}

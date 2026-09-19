@@ -1,0 +1,1198 @@
+{
+  "query_id": "Q37",
+  "query_index": 37,
+  "dataset_qid": "RealScholarQuery_37",
+  "original_question": "Give me some papers showing that LLM agents can do schedule planning.",
+  "published_time": "20241001",
+  "before_date": "2024-09-24",
+  "groups": {
+    "A": {
+      "prompt": "Please generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Give me some papers showing that LLM agents can do schedule planning.",
+      "searches": [
+        {
+          "query_sequence": 1,
+          "crawler_query": "Survey papers on schedule planning with Language Model agents",
+          "request_payload": {
+            "q": "Survey papers on schedule planning with Language Model agents before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 253,
+              "query_id": "Q37",
+              "group": "A",
+              "query_sequence": 1,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Survey papers on schedule planning with Language Model agents before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:59:43.429778+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Survey papers on schedule planning with Language Model agents before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2402.02716] Understanding the planning of LLM agents: A survey\",\"link\":\"https://arxiv.org/abs/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.\",\"date\":\"Feb 5, 2024\",\"position\":1},{\"title\":\"Understanding the planning of LLM agents: A survey - ar5iv - arXiv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.\",\"date\":\"Apr 15, 2024\",\"position\":2},{\"title\":\"Large Language Model based Multi-Agents: A Survey of Progress ...\",\"link\":\"https://arxiv.org/html/2402.01680v1\",\"snippet\":\"Timely survey papers systematically summarize the progress of LLM-based agents, , dedicated to the research on LLM-based multi-agent systems. task planning and ...\",\"date\":\"Jan 21, 2024\",\"position\":3},{\"title\":\"A Survey on Large Language Model based Autonomous Agents\",\"link\":\"https://arxiv.org/abs/2308.11432\",\"snippet\":\"In this paper, we present a comprehensive survey of these studies, delivering a systematic review of the field of LLM-based autonomous agents from a holistic ...\",\"date\":\"Aug 22, 2023\",\"position\":4},{\"title\":\"[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024\",\"link\":\"https://arxiv.org/pdf/2401.02500\",\"snippet\":\"this paper investigates eight categories based on the unique applications of LLMs in addressing various as- pects of planning problems:\",\"date\":\"Jan 20, 2024\",\"position\":5},{\"title\":\"[2402.01680] Large Language Model based Multi-Agents - arXiv\",\"link\":\"https://arxiv.org/abs/2402.01680\",\"snippet\":\"we present this survey to offer an in-depth discussion on the essential aspects of multi-agent systems based on LLMs, as well as the challenges.\",\"date\":\"Jan 21, 2024\",\"position\":6},{\"title\":\"Large Language Models Empowered Agent-based Modeling ... - arXiv\",\"link\":\"https://arxiv.org/html/2312.11970v1\",\"snippet\":\"This paper surveys the landscape of utilizing large language models in agent-based modeling and simulation, examining their challenges and promising future ...\",\"date\":\"Dec 19, 2023\",\"position\":7},{\"title\":\"Meta-Task Planning for Language Agents - arXiv\",\"link\":\"https://arxiv.org/html/2405.16510v1\",\"snippet\":\"This paper introduces Meta-Task Planning (MTP), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex task planning\",\"date\":\"May 26, 2024\",\"position\":8},{\"title\":\"Large Language Models for Education: A Survey and Outlook - arXiv\",\"link\":\"https://arxiv.org/html/2403.18105v2\",\"snippet\":\"This survey paper summarizes the various technologies of LLMs in educational settings from multifaceted perspectives, encompassing student and teacher ...\",\"date\":\"Apr 1, 2024\",\"position\":9},{\"title\":\"Reasoning with Language Model is Planning with World Model - arXiv\",\"link\":\"https://arxiv.org/abs/2305.14992\",\"snippet\":\"RAP repurposes the LLM as both a world model and a reasoning agent, and incorporates a principled planning algorithm (based on Monto Carlo Tree Search) for ...\",\"date\":\"May 24, 2023\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "aae83d8e9f3a46e1dc9ad486eb78c814ca1a90e20d560a213a115e83f06b7c41",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Survey papers on schedule planning with Language Model agents before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "[2402.02716] Understanding the planning of LLM agents: A survey",
+                    "link": "https://arxiv.org/abs/2402.02716",
+                    "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.",
+                    "date": "Feb 5, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Understanding the planning of LLM agents: A survey - ar5iv - arXiv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2402.02716",
+                    "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.",
+                    "date": "Apr 15, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Large Language Model based Multi-Agents: A Survey of Progress ...",
+                    "link": "https://arxiv.org/html/2402.01680v1",
+                    "snippet": "Timely survey papers systematically summarize the progress of LLM-based agents, , dedicated to the research on LLM-based multi-agent systems. task planning and ...",
+                    "date": "Jan 21, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "A Survey on Large Language Model based Autonomous Agents",
+                    "link": "https://arxiv.org/abs/2308.11432",
+                    "snippet": "In this paper, we present a comprehensive survey of these studies, delivering a systematic review of the field of LLM-based autonomous agents from a holistic ...",
+                    "date": "Aug 22, 2023",
+                    "position": 4
+                  },
+                  {
+                    "title": "[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024",
+                    "link": "https://arxiv.org/pdf/2401.02500",
+                    "snippet": "this paper investigates eight categories based on the unique applications of LLMs in addressing various as- pects of planning problems:",
+                    "date": "Jan 20, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "[2402.01680] Large Language Model based Multi-Agents - arXiv",
+                    "link": "https://arxiv.org/abs/2402.01680",
+                    "snippet": "we present this survey to offer an in-depth discussion on the essential aspects of multi-agent systems based on LLMs, as well as the challenges.",
+                    "date": "Jan 21, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Large Language Models Empowered Agent-based Modeling ... - arXiv",
+                    "link": "https://arxiv.org/html/2312.11970v1",
+                    "snippet": "This paper surveys the landscape of utilizing large language models in agent-based modeling and simulation, examining their challenges and promising future ...",
+                    "date": "Dec 19, 2023",
+                    "position": 7
+                  },
+                  {
+                    "title": "Meta-Task Planning for Language Agents - arXiv",
+                    "link": "https://arxiv.org/html/2405.16510v1",
+                    "snippet": "This paper introduces Meta-Task Planning (MTP), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex task planning",
+                    "date": "May 26, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "Large Language Models for Education: A Survey and Outlook - arXiv",
+                    "link": "https://arxiv.org/html/2403.18105v2",
+                    "snippet": "This survey paper summarizes the various technologies of LLMs in educational settings from multifaceted perspectives, encompassing student and teacher ...",
+                    "date": "Apr 1, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Reasoning with Language Model is Planning with World Model - arXiv",
+                    "link": "https://arxiv.org/abs/2305.14992",
+                    "snippet": "RAP repurposes the LLM as both a world model and a reasoning agent, and incorporates a principled planning algorithm (based on Monto Carlo Tree Search) for ...",
+                    "date": "May 24, 2023",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:59:44.197354+00:00",
+              "elapsed_seconds": 0.7675850242376328,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q37_A_01_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2305.14992",
+            "2308.11432",
+            "2312.11970",
+            "2401.02500",
+            "2402.01680",
+            "2402.02716",
+            "2403.18105",
+            "2405.16510"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2402.02716",
+              "organic_index": 0,
+              "position": 1,
+              "title": "[2402.02716] Understanding the planning of LLM agents: A survey",
+              "link": "https://arxiv.org/abs/2402.02716",
+              "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability."
+            },
+            {
+              "arxiv_id": "2402.02716",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Understanding the planning of LLM agents: A survey - ar5iv - arXiv",
+              "link": "https://ar5iv.labs.arxiv.org/html/2402.02716",
+              "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability."
+            },
+            {
+              "arxiv_id": "2402.01680",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Large Language Model based Multi-Agents: A Survey of Progress ...",
+              "link": "https://arxiv.org/html/2402.01680v1",
+              "snippet": "Timely survey papers systematically summarize the progress of LLM-based agents, , dedicated to the research on LLM-based multi-agent systems. task planning and ..."
+            },
+            {
+              "arxiv_id": "2308.11432",
+              "organic_index": 3,
+              "position": 4,
+              "title": "A Survey on Large Language Model based Autonomous Agents",
+              "link": "https://arxiv.org/abs/2308.11432",
+              "snippet": "In this paper, we present a comprehensive survey of these studies, delivering a systematic review of the field of LLM-based autonomous agents from a holistic ..."
+            },
+            {
+              "arxiv_id": "2401.02500",
+              "organic_index": 4,
+              "position": 5,
+              "title": "[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024",
+              "link": "https://arxiv.org/pdf/2401.02500",
+              "snippet": "this paper investigates eight categories based on the unique applications of LLMs in addressing various as- pects of planning problems:"
+            },
+            {
+              "arxiv_id": "2402.01680",
+              "organic_index": 5,
+              "position": 6,
+              "title": "[2402.01680] Large Language Model based Multi-Agents - arXiv",
+              "link": "https://arxiv.org/abs/2402.01680",
+              "snippet": "we present this survey to offer an in-depth discussion on the essential aspects of multi-agent systems based on LLMs, as well as the challenges."
+            },
+            {
+              "arxiv_id": "2312.11970",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Large Language Models Empowered Agent-based Modeling ... - arXiv",
+              "link": "https://arxiv.org/html/2312.11970v1",
+              "snippet": "This paper surveys the landscape of utilizing large language models in agent-based modeling and simulation, examining their challenges and promising future ..."
+            },
+            {
+              "arxiv_id": "2405.16510",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Meta-Task Planning for Language Agents - arXiv",
+              "link": "https://arxiv.org/html/2405.16510v1",
+              "snippet": "This paper introduces Meta-Task Planning (MTP), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex task planning"
+            },
+            {
+              "arxiv_id": "2403.18105",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Large Language Models for Education: A Survey and Outlook - arXiv",
+              "link": "https://arxiv.org/html/2403.18105v2",
+              "snippet": "This survey paper summarizes the various technologies of LLMs in educational settings from multifaceted perspectives, encompassing student and teacher ..."
+            },
+            {
+              "arxiv_id": "2305.14992",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Reasoning with Language Model is Planning with World Model - arXiv",
+              "link": "https://arxiv.org/abs/2305.14992",
+              "snippet": "RAP repurposes the LLM as both a world model and a reasoning agent, and incorporates a principled planning algorithm (based on Monto Carlo Tree Search) for ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 2,
+          "crawler_query": "Research articles on LLM-based schedule planning",
+          "request_payload": {
+            "q": "Research articles on LLM-based schedule planning before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 254,
+              "query_id": "Q37",
+              "group": "A",
+              "query_sequence": 2,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Research articles on LLM-based schedule planning before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:59:44.197745+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Research articles on LLM-based schedule planning before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"LLMs can Schedule - arXiv\",\"link\":\"https://arxiv.org/html/2408.06993v1\",\"snippet\":\"This paper presents a comparative analysis that demonstrates the efficacy of LLM-based scheduling. Our findings indicate that LLMs have the potential to ...\",\"date\":\"Aug 13, 2024\",\"position\":1},{\"title\":\"[2402.02716] Understanding the planning of LLM agents: A survey\",\"link\":\"https://arxiv.org/abs/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.\",\"date\":\"Feb 5, 2024\",\"position\":2},{\"title\":\"[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024\",\"link\":\"https://arxiv.org/pdf/2401.02500\",\"snippet\":\"this paper investigates eight categories based on the unique applications of LLMs in addressing various as- pects of planning problems:\",\"date\":\"Jan 20, 2024\",\"position\":3},{\"title\":\"LLM-Supported Planning, Drafting, and Revising of Research-Paper ...\",\"link\":\"https://arxiv.org/html/2406.10370v1\",\"snippet\":\"Thus, in this paper we ask: how best can an LLM tool provide assistance in dealing with the challenges of writing long-form summaries of scientific long ...\",\"date\":\"Jun 14, 2024\",\"position\":4},{\"title\":\"LLMs Can't Plan,But Can Help Planning in LLM-Modulo Frameworks\",\"link\":\"https://arxiv.org/html/2402.01817v3\",\"snippet\":\"The central position of the paper is that LLMs cannot plan themselves but can play a variety of constructive roles in solving planning tasks–especially as ...\",\"date\":\"Jun 12, 2024\",\"position\":5},{\"title\":\"Natural Plan: Benchmarking LLMs on Natural Language Planning\",\"link\":\"https://arxiv.org/html/2406.04520v1\",\"snippet\":\"In this paper we introduce Natural Plan, a new benchmark specifically designed to assess how well LLMs can handle planning tasks described in natural language.\",\"date\":\"Jun 6, 2024\",\"position\":6},{\"title\":\"Can Large Language Models Reason and Plan? - arXiv\",\"link\":\"https://arxiv.org/html/2403.04121v1\",\"snippet\":\"LLMs do excel in idea generation for any task–including those involving reasoning, and as I pointed out, this can be effectively leveraged to support reasoning ...\",\"date\":\"Mar 7, 2024\",\"position\":7},{\"title\":\"Meta-Task Planning for Language Agents - arXiv\",\"link\":\"https://arxiv.org/html/2405.16510v1\",\"snippet\":\"This paper presents Meta-Task Planning (MTP), an innovative zero-shot methodology for collaborative LLM-based multi-agent systems.\",\"date\":\"May 26, 2024\",\"position\":8},{\"title\":\"[PDF] Benchmarking LLMs on Natural Language Planning - arXiv\",\"link\":\"https://arxiv.org/pdf/2406.04520?\",\"snippet\":\"In this paper we introduce NATURAL PLAN, a new benchmark specifically designed to assess how well LLMs can handle planning tasks described in natural language.\",\"date\":\"Jun 6, 2024\",\"position\":9},{\"title\":\"[PDF] Large Language Models for Power Scheduling: A User-Centric ...\",\"link\":\"https://arxiv.org/pdf/2407.00476\",\"snippet\":\"The main contributions of this paper are summarized as follows: • We develop a new methodology. (based on LLM) to design a scheduling scheme for power.\",\"date\":\"Jul 1, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "8f641f116d8e5a714d598fc7cfa8f8bafaed5934e5d9477244d1398f5b8ac247",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Research articles on LLM-based schedule planning before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "LLMs can Schedule - arXiv",
+                    "link": "https://arxiv.org/html/2408.06993v1",
+                    "snippet": "This paper presents a comparative analysis that demonstrates the efficacy of LLM-based scheduling. Our findings indicate that LLMs have the potential to ...",
+                    "date": "Aug 13, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "[2402.02716] Understanding the planning of LLM agents: A survey",
+                    "link": "https://arxiv.org/abs/2402.02716",
+                    "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.",
+                    "date": "Feb 5, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024",
+                    "link": "https://arxiv.org/pdf/2401.02500",
+                    "snippet": "this paper investigates eight categories based on the unique applications of LLMs in addressing various as- pects of planning problems:",
+                    "date": "Jan 20, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "LLM-Supported Planning, Drafting, and Revising of Research-Paper ...",
+                    "link": "https://arxiv.org/html/2406.10370v1",
+                    "snippet": "Thus, in this paper we ask: how best can an LLM tool provide assistance in dealing with the challenges of writing long-form summaries of scientific long ...",
+                    "date": "Jun 14, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "LLMs Can't Plan,But Can Help Planning in LLM-Modulo Frameworks",
+                    "link": "https://arxiv.org/html/2402.01817v3",
+                    "snippet": "The central position of the paper is that LLMs cannot plan themselves but can play a variety of constructive roles in solving planning tasks–especially as ...",
+                    "date": "Jun 12, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "Natural Plan: Benchmarking LLMs on Natural Language Planning",
+                    "link": "https://arxiv.org/html/2406.04520v1",
+                    "snippet": "In this paper we introduce Natural Plan, a new benchmark specifically designed to assess how well LLMs can handle planning tasks described in natural language.",
+                    "date": "Jun 6, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "Can Large Language Models Reason and Plan? - arXiv",
+                    "link": "https://arxiv.org/html/2403.04121v1",
+                    "snippet": "LLMs do excel in idea generation for any task–including those involving reasoning, and as I pointed out, this can be effectively leveraged to support reasoning ...",
+                    "date": "Mar 7, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "Meta-Task Planning for Language Agents - arXiv",
+                    "link": "https://arxiv.org/html/2405.16510v1",
+                    "snippet": "This paper presents Meta-Task Planning (MTP), an innovative zero-shot methodology for collaborative LLM-based multi-agent systems.",
+                    "date": "May 26, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] Benchmarking LLMs on Natural Language Planning - arXiv",
+                    "link": "https://arxiv.org/pdf/2406.04520?",
+                    "snippet": "In this paper we introduce NATURAL PLAN, a new benchmark specifically designed to assess how well LLMs can handle planning tasks described in natural language.",
+                    "date": "Jun 6, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "[PDF] Large Language Models for Power Scheduling: A User-Centric ...",
+                    "link": "https://arxiv.org/pdf/2407.00476",
+                    "snippet": "The main contributions of this paper are summarized as follows: • We develop a new methodology. (based on LLM) to design a scheduling scheme for power.",
+                    "date": "Jul 1, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:59:45.350783+00:00",
+              "elapsed_seconds": 1.153045479208231,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q37_A_02_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2401.02500",
+            "2402.01817",
+            "2402.02716",
+            "2403.04121",
+            "2405.16510",
+            "2406.04520",
+            "2406.10370",
+            "2407.00476",
+            "2408.06993"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2408.06993",
+              "organic_index": 0,
+              "position": 1,
+              "title": "LLMs can Schedule - arXiv",
+              "link": "https://arxiv.org/html/2408.06993v1",
+              "snippet": "This paper presents a comparative analysis that demonstrates the efficacy of LLM-based scheduling. Our findings indicate that LLMs have the potential to ..."
+            },
+            {
+              "arxiv_id": "2402.02716",
+              "organic_index": 1,
+              "position": 2,
+              "title": "[2402.02716] Understanding the planning of LLM agents: A survey",
+              "link": "https://arxiv.org/abs/2402.02716",
+              "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability."
+            },
+            {
+              "arxiv_id": "2401.02500",
+              "organic_index": 2,
+              "position": 3,
+              "title": "[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024",
+              "link": "https://arxiv.org/pdf/2401.02500",
+              "snippet": "this paper investigates eight categories based on the unique applications of LLMs in addressing various as- pects of planning problems:"
+            },
+            {
+              "arxiv_id": "2406.10370",
+              "organic_index": 3,
+              "position": 4,
+              "title": "LLM-Supported Planning, Drafting, and Revising of Research-Paper ...",
+              "link": "https://arxiv.org/html/2406.10370v1",
+              "snippet": "Thus, in this paper we ask: how best can an LLM tool provide assistance in dealing with the challenges of writing long-form summaries of scientific long ..."
+            },
+            {
+              "arxiv_id": "2402.01817",
+              "organic_index": 4,
+              "position": 5,
+              "title": "LLMs Can't Plan,But Can Help Planning in LLM-Modulo Frameworks",
+              "link": "https://arxiv.org/html/2402.01817v3",
+              "snippet": "The central position of the paper is that LLMs cannot plan themselves but can play a variety of constructive roles in solving planning tasks–especially as ..."
+            },
+            {
+              "arxiv_id": "2406.04520",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Natural Plan: Benchmarking LLMs on Natural Language Planning",
+              "link": "https://arxiv.org/html/2406.04520v1",
+              "snippet": "In this paper we introduce Natural Plan, a new benchmark specifically designed to assess how well LLMs can handle planning tasks described in natural language."
+            },
+            {
+              "arxiv_id": "2403.04121",
+              "organic_index": 6,
+              "position": 7,
+              "title": "Can Large Language Models Reason and Plan? - arXiv",
+              "link": "https://arxiv.org/html/2403.04121v1",
+              "snippet": "LLMs do excel in idea generation for any task–including those involving reasoning, and as I pointed out, this can be effectively leveraged to support reasoning ..."
+            },
+            {
+              "arxiv_id": "2405.16510",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Meta-Task Planning for Language Agents - arXiv",
+              "link": "https://arxiv.org/html/2405.16510v1",
+              "snippet": "This paper presents Meta-Task Planning (MTP), an innovative zero-shot methodology for collaborative LLM-based multi-agent systems."
+            },
+            {
+              "arxiv_id": "2406.04520",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] Benchmarking LLMs on Natural Language Planning - arXiv",
+              "link": "https://arxiv.org/pdf/2406.04520?",
+              "snippet": "In this paper we introduce NATURAL PLAN, a new benchmark specifically designed to assess how well LLMs can handle planning tasks described in natural language."
+            },
+            {
+              "arxiv_id": "2407.00476",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[PDF] Large Language Models for Power Scheduling: A User-Centric ...",
+              "link": "https://arxiv.org/pdf/2407.00476",
+              "snippet": "The main contributions of this paper are summarized as follows: • We develop a new methodology. (based on LLM) to design a scheduling scheme for power."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 3,
+          "crawler_query": "LLM agents in schedule planning research papers",
+          "request_payload": {
+            "q": "LLM agents in schedule planning research papers before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 255,
+              "query_id": "Q37",
+              "group": "A",
+              "query_sequence": 3,
+              "attempt": 1,
+              "request_payload": {
+                "q": "LLM agents in schedule planning research papers before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:59:45.351395+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"LLM agents in schedule planning research papers before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2402.02716] Understanding the planning of LLM agents: A survey\",\"link\":\"https://arxiv.org/abs/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.\",\"date\":\"Feb 5, 2024\",\"position\":1},{\"title\":\"Meta-Task Planning for Language Agents - arXiv\",\"link\":\"https://arxiv.org/html/2405.16510v1\",\"snippet\":\"This paper introduces Meta-Task Planning (MTP), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex task planning\",\"date\":\"May 26, 2024\",\"position\":2},{\"title\":\"Understanding the planning of LLM agents: A survey - ar5iv - arXiv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.\",\"date\":\"Apr 15, 2024\",\"position\":3},{\"title\":\"LLM Agent Operating System - arXiv\",\"link\":\"https://arxiv.org/html/2403.16971v1\",\"snippet\":\"This paper proposes the AIOS architecture, demonstrating the potential to facilitate the development and deployment of LLM-based agents, fostering a more ...\",\"date\":\"Mar 25, 2024\",\"position\":4},{\"title\":\"[PDF] arXiv:2402.02716v1 [cs.AI] 5 Feb 2024\",\"link\":\"https://arxiv.org/pdf/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.\",\"date\":\"Feb 5, 2024\",\"position\":5},{\"title\":\"A Human-Like Reasoning Framework for Multi-Phases Planning ...\",\"link\":\"https://arxiv.org/abs/2405.18208\",\"snippet\":\"Our research aims to address this challenge by developing a human-like planning framework for LLM agents, i.e., guiding the LLM agent to simulate various steps ...\",\"date\":\"May 28, 2024\",\"position\":6},{\"title\":\"The Landscape of Emerging AI Agent Architectures for Reasoning ...\",\"link\":\"https://arxiv.org/html/2404.11584v1\",\"snippet\":\"In this section, we examine a few key studies and sample frameworks with multi-agent architectures, such as Embodied LLM Agents Learn to Cooperate in Organized ...\",\"date\":\"Apr 17, 2024\",\"position\":7},{\"title\":\"[PDF] Automating Project Planning Using Large Language Model Programs\",\"link\":\"https://arxiv.org/pdf/2306.03197\",\"snippet\":\"In this paper we leverage this ability for designing complex project plans. Large Language Models (LLMs) with text-based knowledge and memory,\",\"date\":\"Jun 5, 2023\",\"position\":8},{\"title\":\"Planning with Multi-Constraints via Collaborative Language Agents\",\"link\":\"https://arxiv.org/abs/2405.16510\",\"snippet\":\"This paper introduces Planning with Multi-Constraints (PMC), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex ...\",\"date\":\"May 26, 2024\",\"position\":9},{\"title\":\"[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024\",\"link\":\"https://arxiv.org/pdf/2401.02500\",\"snippet\":\"Abstract. Automated Planning and Scheduling is among the growing areas in Artificial Intelligence (AI) where mention of LLMs has gained popularity.\",\"date\":\"Jan 20, 2024\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "1afbd43436e90329b75702980a479d96661710a09c4b4c1d35dca771417df271",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "LLM agents in schedule planning research papers before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "[2402.02716] Understanding the planning of LLM agents: A survey",
+                    "link": "https://arxiv.org/abs/2402.02716",
+                    "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.",
+                    "date": "Feb 5, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Meta-Task Planning for Language Agents - arXiv",
+                    "link": "https://arxiv.org/html/2405.16510v1",
+                    "snippet": "This paper introduces Meta-Task Planning (MTP), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex task planning",
+                    "date": "May 26, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Understanding the planning of LLM agents: A survey - ar5iv - arXiv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2402.02716",
+                    "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.",
+                    "date": "Apr 15, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "LLM Agent Operating System - arXiv",
+                    "link": "https://arxiv.org/html/2403.16971v1",
+                    "snippet": "This paper proposes the AIOS architecture, demonstrating the potential to facilitate the development and deployment of LLM-based agents, fostering a more ...",
+                    "date": "Mar 25, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "[PDF] arXiv:2402.02716v1 [cs.AI] 5 Feb 2024",
+                    "link": "https://arxiv.org/pdf/2402.02716",
+                    "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.",
+                    "date": "Feb 5, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "A Human-Like Reasoning Framework for Multi-Phases Planning ...",
+                    "link": "https://arxiv.org/abs/2405.18208",
+                    "snippet": "Our research aims to address this challenge by developing a human-like planning framework for LLM agents, i.e., guiding the LLM agent to simulate various steps ...",
+                    "date": "May 28, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "The Landscape of Emerging AI Agent Architectures for Reasoning ...",
+                    "link": "https://arxiv.org/html/2404.11584v1",
+                    "snippet": "In this section, we examine a few key studies and sample frameworks with multi-agent architectures, such as Embodied LLM Agents Learn to Cooperate in Organized ...",
+                    "date": "Apr 17, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "[PDF] Automating Project Planning Using Large Language Model Programs",
+                    "link": "https://arxiv.org/pdf/2306.03197",
+                    "snippet": "In this paper we leverage this ability for designing complex project plans. Large Language Models (LLMs) with text-based knowledge and memory,",
+                    "date": "Jun 5, 2023",
+                    "position": 8
+                  },
+                  {
+                    "title": "Planning with Multi-Constraints via Collaborative Language Agents",
+                    "link": "https://arxiv.org/abs/2405.16510",
+                    "snippet": "This paper introduces Planning with Multi-Constraints (PMC), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex ...",
+                    "date": "May 26, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024",
+                    "link": "https://arxiv.org/pdf/2401.02500",
+                    "snippet": "Abstract. Automated Planning and Scheduling is among the growing areas in Artificial Intelligence (AI) where mention of LLMs has gained popularity.",
+                    "date": "Jan 20, 2024",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:59:46.349223+00:00",
+              "elapsed_seconds": 0.9978287778794765,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q37_A_03_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2306.03197",
+            "2401.02500",
+            "2402.02716",
+            "2403.16971",
+            "2404.11584",
+            "2405.16510",
+            "2405.18208"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2402.02716",
+              "organic_index": 0,
+              "position": 1,
+              "title": "[2402.02716] Understanding the planning of LLM agents: A survey",
+              "link": "https://arxiv.org/abs/2402.02716",
+              "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability."
+            },
+            {
+              "arxiv_id": "2405.16510",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Meta-Task Planning for Language Agents - arXiv",
+              "link": "https://arxiv.org/html/2405.16510v1",
+              "snippet": "This paper introduces Meta-Task Planning (MTP), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex task planning"
+            },
+            {
+              "arxiv_id": "2402.02716",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Understanding the planning of LLM agents: A survey - ar5iv - arXiv",
+              "link": "https://ar5iv.labs.arxiv.org/html/2402.02716",
+              "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability."
+            },
+            {
+              "arxiv_id": "2403.16971",
+              "organic_index": 3,
+              "position": 4,
+              "title": "LLM Agent Operating System - arXiv",
+              "link": "https://arxiv.org/html/2403.16971v1",
+              "snippet": "This paper proposes the AIOS architecture, demonstrating the potential to facilitate the development and deployment of LLM-based agents, fostering a more ..."
+            },
+            {
+              "arxiv_id": "2402.02716",
+              "organic_index": 4,
+              "position": 5,
+              "title": "[PDF] arXiv:2402.02716v1 [cs.AI] 5 Feb 2024",
+              "link": "https://arxiv.org/pdf/2402.02716",
+              "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability."
+            },
+            {
+              "arxiv_id": "2405.18208",
+              "organic_index": 5,
+              "position": 6,
+              "title": "A Human-Like Reasoning Framework for Multi-Phases Planning ...",
+              "link": "https://arxiv.org/abs/2405.18208",
+              "snippet": "Our research aims to address this challenge by developing a human-like planning framework for LLM agents, i.e., guiding the LLM agent to simulate various steps ..."
+            },
+            {
+              "arxiv_id": "2404.11584",
+              "organic_index": 6,
+              "position": 7,
+              "title": "The Landscape of Emerging AI Agent Architectures for Reasoning ...",
+              "link": "https://arxiv.org/html/2404.11584v1",
+              "snippet": "In this section, we examine a few key studies and sample frameworks with multi-agent architectures, such as Embodied LLM Agents Learn to Cooperate in Organized ..."
+            },
+            {
+              "arxiv_id": "2306.03197",
+              "organic_index": 7,
+              "position": 8,
+              "title": "[PDF] Automating Project Planning Using Large Language Model Programs",
+              "link": "https://arxiv.org/pdf/2306.03197",
+              "snippet": "In this paper we leverage this ability for designing complex project plans. Large Language Models (LLMs) with text-based knowledge and memory,"
+            },
+            {
+              "arxiv_id": "2405.16510",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Planning with Multi-Constraints via Collaborative Language Agents",
+              "link": "https://arxiv.org/abs/2405.16510",
+              "snippet": "This paper introduces Planning with Multi-Constraints (PMC), a zero-shot methodology for collaborative LLM-based multi-agent systems that simplifies complex ..."
+            },
+            {
+              "arxiv_id": "2401.02500",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024",
+              "link": "https://arxiv.org/pdf/2401.02500",
+              "snippet": "Abstract. Automated Planning and Scheduling is among the growing areas in Artificial Intelligence (AI) where mention of LLMs has gained popularity."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 4,
+          "crawler_query": "Use of LLM agents in schedule planning studies",
+          "request_payload": {
+            "q": "Use of LLM agents in schedule planning studies before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 256,
+              "query_id": "Q37",
+              "group": "A",
+              "query_sequence": 4,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Use of LLM agents in schedule planning studies before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:59:46.349634+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Use of LLM agents in schedule planning studies before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2402.02716] Understanding the planning of LLM agents: A survey\",\"link\":\"https://arxiv.org/abs/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.\",\"date\":\"Feb 5, 2024\",\"position\":1},{\"title\":\"Meta-Task Planning for Language Agents - arXiv\",\"link\":\"https://arxiv.org/html/2405.16510v1\",\"snippet\":\"In this work, we propose Meta-Task Planning (MTP), a zero-shot planning method for collaborative LLM-based multi-agent systems. MTP simplifies complex task ...\",\"date\":\"May 26, 2024\",\"position\":2},{\"title\":\"Understanding the planning of LLM agents: A survey - ar5iv - arXiv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.\",\"date\":\"Apr 15, 2024\",\"position\":3},{\"title\":\"LLM Agent Operating System - arXiv\",\"link\":\"https://arxiv.org/html/2403.16971v1\",\"snippet\":\"LLM-based single-agent systems (SAS) use a single LLM agent for complex task solving, such as travel planning, personalized recommendation, and artistic design\",\"date\":\"Mar 25, 2024\",\"position\":4},{\"title\":\"[PDF] arXiv:2402.02716v1 [cs.AI] 5 Feb 2024\",\"link\":\"https://arxiv.org/pdf/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability. Memory-enhanced LLM- ...\",\"date\":\"Feb 5, 2024\",\"position\":5},{\"title\":\"Natural Plan: Benchmarking LLMs on Natural Language Planning\",\"link\":\"https://arxiv.org/html/2406.04520v1\",\"snippet\":\"We introduce Natural Plan, a realistic planning benchmark in natural language containing 3 key tasks: Trip Planning, Meeting Planning, and Calendar Scheduling.\",\"date\":\"Jun 6, 2024\",\"position\":6},{\"title\":\"[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024\",\"link\":\"https://arxiv.org/pdf/2401.02500\",\"snippet\":\"this paper investigates eight categories based on the unique applications of LLMs in addressing various as- pects of planning problems:\",\"date\":\"Jan 20, 2024\",\"position\":7},{\"title\":\"AGILE: A Novel Framework of LLM Agents - arXiv\",\"link\":\"https://arxiv.org/html/2405.14751v1\",\"snippet\":\"LLM agents named AGILE … designed to perform complex conversational tasks with users, leveraging LLMs, memory, tools, and interactions with experts.\",\"date\":\"May 23, 2024\",\"position\":8},{\"title\":\"[PDF] AgentGen: Enhancing Planning Abilities for Large Language Model ...\",\"link\":\"https://arxiv.org/pdf/2408.00764?\",\"snippet\":\"This paper investigates enhancing the planning abilities of LLM-based agents through instruction tuning, referred to as agent train- ing. Recent studies on ...\",\"date\":\"Aug 1, 2024\",\"position\":9},{\"title\":\"[PDF] Automating Project Planning Using Large Language Model Programs\",\"link\":\"https://arxiv.org/pdf/2306.03197\",\"snippet\":\"Recent advancements in the field of large language models have made it possible to use language models for advanced reasoning. In this paper we leverage ...\",\"date\":\"Jun 5, 2023\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "bf00198eb8bbe33c165500b1e32fe06a078d6a3c97e74ea1910572373361ff2f",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Use of LLM agents in schedule planning studies before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "[2402.02716] Understanding the planning of LLM agents: A survey",
+                    "link": "https://arxiv.org/abs/2402.02716",
+                    "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.",
+                    "date": "Feb 5, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "Meta-Task Planning for Language Agents - arXiv",
+                    "link": "https://arxiv.org/html/2405.16510v1",
+                    "snippet": "In this work, we propose Meta-Task Planning (MTP), a zero-shot planning method for collaborative LLM-based multi-agent systems. MTP simplifies complex task ...",
+                    "date": "May 26, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Understanding the planning of LLM agents: A survey - ar5iv - arXiv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2402.02716",
+                    "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.",
+                    "date": "Apr 15, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "LLM Agent Operating System - arXiv",
+                    "link": "https://arxiv.org/html/2403.16971v1",
+                    "snippet": "LLM-based single-agent systems (SAS) use a single LLM agent for complex task solving, such as travel planning, personalized recommendation, and artistic design",
+                    "date": "Mar 25, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "[PDF] arXiv:2402.02716v1 [cs.AI] 5 Feb 2024",
+                    "link": "https://arxiv.org/pdf/2402.02716",
+                    "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability. Memory-enhanced LLM- ...",
+                    "date": "Feb 5, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "Natural Plan: Benchmarking LLMs on Natural Language Planning",
+                    "link": "https://arxiv.org/html/2406.04520v1",
+                    "snippet": "We introduce Natural Plan, a realistic planning benchmark in natural language containing 3 key tasks: Trip Planning, Meeting Planning, and Calendar Scheduling.",
+                    "date": "Jun 6, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024",
+                    "link": "https://arxiv.org/pdf/2401.02500",
+                    "snippet": "this paper investigates eight categories based on the unique applications of LLMs in addressing various as- pects of planning problems:",
+                    "date": "Jan 20, 2024",
+                    "position": 7
+                  },
+                  {
+                    "title": "AGILE: A Novel Framework of LLM Agents - arXiv",
+                    "link": "https://arxiv.org/html/2405.14751v1",
+                    "snippet": "LLM agents named AGILE … designed to perform complex conversational tasks with users, leveraging LLMs, memory, tools, and interactions with experts.",
+                    "date": "May 23, 2024",
+                    "position": 8
+                  },
+                  {
+                    "title": "[PDF] AgentGen: Enhancing Planning Abilities for Large Language Model ...",
+                    "link": "https://arxiv.org/pdf/2408.00764?",
+                    "snippet": "This paper investigates enhancing the planning abilities of LLM-based agents through instruction tuning, referred to as agent train- ing. Recent studies on ...",
+                    "date": "Aug 1, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "[PDF] Automating Project Planning Using Large Language Model Programs",
+                    "link": "https://arxiv.org/pdf/2306.03197",
+                    "snippet": "Recent advancements in the field of large language models have made it possible to use language models for advanced reasoning. In this paper we leverage ...",
+                    "date": "Jun 5, 2023",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:59:47.600370+00:00",
+              "elapsed_seconds": 1.2507415413856506,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q37_A_04_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2306.03197",
+            "2401.02500",
+            "2402.02716",
+            "2403.16971",
+            "2405.14751",
+            "2405.16510",
+            "2406.04520",
+            "2408.00764"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2402.02716",
+              "organic_index": 0,
+              "position": 1,
+              "title": "[2402.02716] Understanding the planning of LLM agents: A survey",
+              "link": "https://arxiv.org/abs/2402.02716",
+              "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability."
+            },
+            {
+              "arxiv_id": "2405.16510",
+              "organic_index": 1,
+              "position": 2,
+              "title": "Meta-Task Planning for Language Agents - arXiv",
+              "link": "https://arxiv.org/html/2405.16510v1",
+              "snippet": "In this work, we propose Meta-Task Planning (MTP), a zero-shot planning method for collaborative LLM-based multi-agent systems. MTP simplifies complex task ..."
+            },
+            {
+              "arxiv_id": "2402.02716",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Understanding the planning of LLM agents: A survey - ar5iv - arXiv",
+              "link": "https://ar5iv.labs.arxiv.org/html/2402.02716",
+              "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability."
+            },
+            {
+              "arxiv_id": "2403.16971",
+              "organic_index": 3,
+              "position": 4,
+              "title": "LLM Agent Operating System - arXiv",
+              "link": "https://arxiv.org/html/2403.16971v1",
+              "snippet": "LLM-based single-agent systems (SAS) use a single LLM agent for complex task solving, such as travel planning, personalized recommendation, and artistic design"
+            },
+            {
+              "arxiv_id": "2402.02716",
+              "organic_index": 4,
+              "position": 5,
+              "title": "[PDF] arXiv:2402.02716v1 [cs.AI] 5 Feb 2024",
+              "link": "https://arxiv.org/pdf/2402.02716",
+              "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability. Memory-enhanced LLM- ..."
+            },
+            {
+              "arxiv_id": "2406.04520",
+              "organic_index": 5,
+              "position": 6,
+              "title": "Natural Plan: Benchmarking LLMs on Natural Language Planning",
+              "link": "https://arxiv.org/html/2406.04520v1",
+              "snippet": "We introduce Natural Plan, a realistic planning benchmark in natural language containing 3 key tasks: Trip Planning, Meeting Planning, and Calendar Scheduling."
+            },
+            {
+              "arxiv_id": "2401.02500",
+              "organic_index": 6,
+              "position": 7,
+              "title": "[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024",
+              "link": "https://arxiv.org/pdf/2401.02500",
+              "snippet": "this paper investigates eight categories based on the unique applications of LLMs in addressing various as- pects of planning problems:"
+            },
+            {
+              "arxiv_id": "2405.14751",
+              "organic_index": 7,
+              "position": 8,
+              "title": "AGILE: A Novel Framework of LLM Agents - arXiv",
+              "link": "https://arxiv.org/html/2405.14751v1",
+              "snippet": "LLM agents named AGILE … designed to perform complex conversational tasks with users, leveraging LLMs, memory, tools, and interactions with experts."
+            },
+            {
+              "arxiv_id": "2408.00764",
+              "organic_index": 8,
+              "position": 9,
+              "title": "[PDF] AgentGen: Enhancing Planning Abilities for Large Language Model ...",
+              "link": "https://arxiv.org/pdf/2408.00764?",
+              "snippet": "This paper investigates enhancing the planning abilities of LLM-based agents through instruction tuning, referred to as agent train- ing. Recent studies on ..."
+            },
+            {
+              "arxiv_id": "2306.03197",
+              "organic_index": 9,
+              "position": 10,
+              "title": "[PDF] Automating Project Planning Using Large Language Model Programs",
+              "link": "https://arxiv.org/pdf/2306.03197",
+              "snippet": "Recent advancements in the field of large language models have made it possible to use language models for advanced reasoning. In this paper we leverage ..."
+            }
+          ],
+          "organic_result_count": 10
+        },
+        {
+          "query_sequence": 5,
+          "crawler_query": "Language Model agents and their application in schedule planning",
+          "request_payload": {
+            "q": "Language Model agents and their application in schedule planning before:2024-09-24 site:arxiv.org",
+            "num": 10,
+            "page": 1
+          },
+          "attempts": [
+            {
+              "global_attempt_sequence": 257,
+              "query_id": "Q37",
+              "group": "A",
+              "query_sequence": 5,
+              "attempt": 1,
+              "request_payload": {
+                "q": "Language Model agents and their application in schedule planning before:2024-09-24 site:arxiv.org",
+                "num": 10,
+                "page": 1
+              },
+              "started_utc": "2026-09-14T02:59:47.600852+00:00",
+              "http_status": 200,
+              "response_text": "{\"searchParameters\":{\"q\":\"Language Model agents and their application in schedule planning before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"[2402.02716] Understanding the planning of LLM agents: A survey\",\"link\":\"https://arxiv.org/abs/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.\",\"date\":\"Feb 5, 2024\",\"position\":1},{\"title\":\"[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024\",\"link\":\"https://arxiv.org/pdf/2401.02500\",\"snippet\":\"Abstract. Automated Planning and Scheduling is among the growing areas in Artificial Intelligence (AI) where mention of LLMs has gained popularity.\",\"date\":\"Jan 20, 2024\",\"position\":2},{\"title\":\"Meta-Task Planning for Language Agents - arXiv\",\"link\":\"https://arxiv.org/html/2405.16510v1\",\"snippet\":\"Effective planning is crucial for the success of LLM agents in real-world tasks, making it a highly pursued topic in the community.\",\"date\":\"May 26, 2024\",\"position\":3},{\"title\":\"Large Language Model based Multi-Agents: A Survey of Progress ...\",\"link\":\"https://arxiv.org/html/2402.01680v1\",\"snippet\":\"Large Language Models (LLMs) have recently shown remarkable potential in reaching a level of reasoning and planning capabilities comparable to humans. This ...\",\"date\":\"Jan 21, 2024\",\"position\":4},{\"title\":\"Understanding the planning of LLM agents: A survey - ar5iv - arXiv\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2402.02716\",\"snippet\":\"This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.\",\"date\":\"Apr 15, 2024\",\"position\":5},{\"title\":\"[2408.05478] Multi-Agent Planning Using Visual Language Models\",\"link\":\"https://arxiv.org/abs/2408.05478\",\"snippet\":\"In this paper, we propose a multi-agent architecture for embodied task planning that operates without the need for specific data structures as input.\",\"date\":\"Aug 10, 2024\",\"position\":6},{\"title\":\"TPTU: Large Language Model-based AI Agents for Task Planning ...\",\"link\":\"https://arxiv.org/abs/2308.03427\",\"snippet\":\"In this paper, we first propose a structured framework tailored for LLM-based AI Agents and discuss the crucial capabilities necessary for tackling intricate ...\",\"date\":\"Aug 7, 2023\",\"position\":7},{\"title\":\"Planning with Large Language Models for Conversational Agents\",\"link\":\"https://arxiv.org/html/2407.03884v1\",\"snippet\":\"we propose a new framework for planning-based conversational agents (PCA) powered by large language models (LLMs), which only requires humans to define tasks ...\",\"date\":\"Jul 4, 2024\",\"sitelinks\":[{\"title\":\"4 Dataset Construction\",\"link\":\"https://arxiv.org/html/2407.03884v1#:~:text=.-,4%20Dataset%20Construction\"},{\"title\":\"5 Our Approach\",\"link\":\"https://arxiv.org/html/2407.03884v1#:~:text=.-,5%20Our%20Approach\"},{\"title\":\"6 Experiments\",\"link\":\"https://arxiv.org/html/2407.03884v1#:~:text=6%20Experiments,-Train\"}],\"position\":8},{\"title\":\"Exploring Large Language Model based Intelligent Agents - arXiv\",\"link\":\"https://arxiv.org/html/2401.03428v1\",\"snippet\":\"Unlike other agents, LLM-based agents use LLMs for cognitive and strategic processes, encouraging smart behavior. The merits of LLM-based agents in comparison ...\",\"date\":\"Jan 7, 2024\",\"position\":9},{\"title\":\"Large Language Models Empowered Agent-based Modeling ... - arXiv\",\"link\":\"https://arxiv.org/html/2312.11970v1\",\"snippet\":\"Integrating large language models into agent-based modeling and simulation presents a promising avenue for enhancing simulation capabilities. This paper surveys ...\",\"date\":\"Dec 19, 2023\",\"position\":10}],\"credits\":1}",
+              "response_sha256": "2ad2f10d0d1673be52e4d78a51e08702723acb1d5cf191dd86003452306bcaea",
+              "structured_response": {
+                "searchParameters": {
+                  "q": "Language Model agents and their application in schedule planning before:2024-09-24 site:arxiv.org",
+                  "type": "search",
+                  "num": 10,
+                  "page": 1,
+                  "engine": "google"
+                },
+                "organic": [
+                  {
+                    "title": "[2402.02716] Understanding the planning of LLM agents: A survey",
+                    "link": "https://arxiv.org/abs/2402.02716",
+                    "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.",
+                    "date": "Feb 5, 2024",
+                    "position": 1
+                  },
+                  {
+                    "title": "[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024",
+                    "link": "https://arxiv.org/pdf/2401.02500",
+                    "snippet": "Abstract. Automated Planning and Scheduling is among the growing areas in Artificial Intelligence (AI) where mention of LLMs has gained popularity.",
+                    "date": "Jan 20, 2024",
+                    "position": 2
+                  },
+                  {
+                    "title": "Meta-Task Planning for Language Agents - arXiv",
+                    "link": "https://arxiv.org/html/2405.16510v1",
+                    "snippet": "Effective planning is crucial for the success of LLM agents in real-world tasks, making it a highly pursued topic in the community.",
+                    "date": "May 26, 2024",
+                    "position": 3
+                  },
+                  {
+                    "title": "Large Language Model based Multi-Agents: A Survey of Progress ...",
+                    "link": "https://arxiv.org/html/2402.01680v1",
+                    "snippet": "Large Language Models (LLMs) have recently shown remarkable potential in reaching a level of reasoning and planning capabilities comparable to humans. This ...",
+                    "date": "Jan 21, 2024",
+                    "position": 4
+                  },
+                  {
+                    "title": "Understanding the planning of LLM agents: A survey - ar5iv - arXiv",
+                    "link": "https://ar5iv.labs.arxiv.org/html/2402.02716",
+                    "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.",
+                    "date": "Apr 15, 2024",
+                    "position": 5
+                  },
+                  {
+                    "title": "[2408.05478] Multi-Agent Planning Using Visual Language Models",
+                    "link": "https://arxiv.org/abs/2408.05478",
+                    "snippet": "In this paper, we propose a multi-agent architecture for embodied task planning that operates without the need for specific data structures as input.",
+                    "date": "Aug 10, 2024",
+                    "position": 6
+                  },
+                  {
+                    "title": "TPTU: Large Language Model-based AI Agents for Task Planning ...",
+                    "link": "https://arxiv.org/abs/2308.03427",
+                    "snippet": "In this paper, we first propose a structured framework tailored for LLM-based AI Agents and discuss the crucial capabilities necessary for tackling intricate ...",
+                    "date": "Aug 7, 2023",
+                    "position": 7
+                  },
+                  {
+                    "title": "Planning with Large Language Models for Conversational Agents",
+                    "link": "https://arxiv.org/html/2407.03884v1",
+                    "snippet": "we propose a new framework for planning-based conversational agents (PCA) powered by large language models (LLMs), which only requires humans to define tasks ...",
+                    "date": "Jul 4, 2024",
+                    "sitelinks": [
+                      {
+                        "title": "4 Dataset Construction",
+                        "link": "https://arxiv.org/html/2407.03884v1#:~:text=.-,4%20Dataset%20Construction"
+                      },
+                      {
+                        "title": "5 Our Approach",
+                        "link": "https://arxiv.org/html/2407.03884v1#:~:text=.-,5%20Our%20Approach"
+                      },
+                      {
+                        "title": "6 Experiments",
+                        "link": "https://arxiv.org/html/2407.03884v1#:~:text=6%20Experiments,-Train"
+                      }
+                    ],
+                    "position": 8
+                  },
+                  {
+                    "title": "Exploring Large Language Model based Intelligent Agents - arXiv",
+                    "link": "https://arxiv.org/html/2401.03428v1",
+                    "snippet": "Unlike other agents, LLM-based agents use LLMs for cognitive and strategic processes, encouraging smart behavior. The merits of LLM-based agents in comparison ...",
+                    "date": "Jan 7, 2024",
+                    "position": 9
+                  },
+                  {
+                    "title": "Large Language Models Empowered Agent-based Modeling ... - arXiv",
+                    "link": "https://arxiv.org/html/2312.11970v1",
+                    "snippet": "Integrating large language models into agent-based modeling and simulation presents a promising avenue for enhancing simulation capabilities. This paper surveys ...",
+                    "date": "Dec 19, 2023",
+                    "position": 10
+                  }
+                ],
+                "credits": 1
+              },
+              "echoed_parameter_mismatches": {},
+              "status": "PASS",
+              "finished_utc": "2026-09-14T02:59:48.476394+00:00",
+              "elapsed_seconds": 0.8755467236042023,
+              "artifact_path": "/home/chenyi/pasa/query_planner_v1_search_ab_001/requests/Q37_A_05_attempt1.json"
+            }
+          ],
+          "status": "PASS",
+          "returned_arxiv_ids": [
+            "2308.03427",
+            "2312.11970",
+            "2401.02500",
+            "2401.03428",
+            "2402.01680",
+            "2402.02716",
+            "2405.16510",
+            "2407.03884",
+            "2408.05478"
+          ],
+          "organic_hits": [
+            {
+              "arxiv_id": "2402.02716",
+              "organic_index": 0,
+              "position": 1,
+              "title": "[2402.02716] Understanding the planning of LLM agents: A survey",
+              "link": "https://arxiv.org/abs/2402.02716",
+              "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability."
+            },
+            {
+              "arxiv_id": "2401.02500",
+              "organic_index": 1,
+              "position": 2,
+              "title": "[PDF] arXiv:2401.02500v2 [cs.AI] 20 Jan 2024",
+              "link": "https://arxiv.org/pdf/2401.02500",
+              "snippet": "Abstract. Automated Planning and Scheduling is among the growing areas in Artificial Intelligence (AI) where mention of LLMs has gained popularity."
+            },
+            {
+              "arxiv_id": "2405.16510",
+              "organic_index": 2,
+              "position": 3,
+              "title": "Meta-Task Planning for Language Agents - arXiv",
+              "link": "https://arxiv.org/html/2405.16510v1",
+              "snippet": "Effective planning is crucial for the success of LLM agents in real-world tasks, making it a highly pursued topic in the community."
+            },
+            {
+              "arxiv_id": "2402.01680",
+              "organic_index": 3,
+              "position": 4,
+              "title": "Large Language Model based Multi-Agents: A Survey of Progress ...",
+              "link": "https://arxiv.org/html/2402.01680v1",
+              "snippet": "Large Language Models (LLMs) have recently shown remarkable potential in reaching a level of reasoning and planning capabilities comparable to humans. This ..."
+            },
+            {
+              "arxiv_id": "2402.02716",
+              "organic_index": 4,
+              "position": 5,
+              "title": "Understanding the planning of LLM agents: A survey - ar5iv - arXiv",
+              "link": "https://ar5iv.labs.arxiv.org/html/2402.02716",
+              "snippet": "This survey provides the first systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability."
+            },
+            {
+              "arxiv_id": "2408.05478",
+              "organic_index": 5,
+              "position": 6,
+              "title": "[2408.05478] Multi-Agent Planning Using Visual Language Models",
+              "link": "https://arxiv.org/abs/2408.05478",
+              "snippet": "In this paper, we propose a multi-agent architecture for embodied task planning that operates without the need for specific data structures as input."
+            },
+            {
+              "arxiv_id": "2308.03427",
+              "organic_index": 6,
+              "position": 7,
+              "title": "TPTU: Large Language Model-based AI Agents for Task Planning ...",
+              "link": "https://arxiv.org/abs/2308.03427",
+              "snippet": "In this paper, we first propose a structured framework tailored for LLM-based AI Agents and discuss the crucial capabilities necessary for tackling intricate ..."
+            },
+            {
+              "arxiv_id": "2407.03884",
+              "organic_index": 7,
+              "position": 8,
+              "title": "Planning with Large Language Models for Conversational Agents",
+              "link": "https://arxiv.org/html/2407.03884v1",
+              "snippet": "we propose a new framework for planning-based conversational agents (PCA) powered by large language models (LLMs), which only requires humans to define tasks ..."
+            },
+            {
+              "arxiv_id": "2401.03428",
+              "organic_index": 8,
+              "position": 9,
+              "title": "Exploring Large Language Model based Intelligent Agents - arXiv",
+              "link": "https://arxiv.org/html/2401.03428v1",
+              "snippet": "Unlike other agents, LLM-based agents use LLMs for cognitive and strategic processes, encouraging smart behavior. The merits of LLM-based agents in comparison ..."
+            },
+            {
+              "arxiv_id": "2312.11970",
+              "organic_index": 9,
+              "position": 10,
+              "title": "Large Language Models Empowered Agent-based Modeling ... - arXiv",
+              "link": "https://arxiv.org/html/2312.11970v1",
+              "snippet": "Integrating large language models into agent-based modeling and simulation presents a promising avenue for enhancing simulation capabilities. This paper surveys ..."
+            }
+          ],
+          "organic_result_count": 10
+        }
+      ],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate some mutually exclusive queries in a list to search the relevant papers according to the User Query. Searching for survey papers would be better.\nUser Query: Give me some papers showing that LLM agents can do schedule planning.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "a1dd0ef9245c2adf7f58ea74c2a6f5d54fdd97cb07320681ca21a4d0c1b5dd8a",
+      "raw_output": "[Search]Survey papers on schedule planning with Language Model agents\n[Search]Research articles on LLM-based schedule planning\n[Search]LLM agents in schedule planning research papers\n[Search]Use of LLM agents in schedule planning studies\n[Search]Language Model agents and their application in schedule planning\n[StopSearch]",
+      "raw_output_with_special_tokens": "[Search]Survey papers on schedule planning with Language Model agents\n[Search]Research articles on LLM-based schedule planning\n[Search]LLM agents in schedule planning research papers\n[Search]Use of LLM agents in schedule planning studies\n[Search]Language Model agents and their application in schedule planning\n[StopSearch]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        5890,
+        60,
+        68015,
+        15689,
+        389,
+        9700,
+        9115,
+        448,
+        11434,
+        4903,
+        13009,
+        198,
+        58,
+        5890,
+        60,
+        27428,
+        9709,
+        389,
+        444,
+        10994,
+        5980,
+        9700,
+        9115,
+        198,
+        58,
+        5890,
+        60,
+        4086,
+        44,
+        13009,
+        304,
+        9700,
+        9115,
+        3412,
+        15689,
+        198,
+        58,
+        5890,
+        60,
+        10253,
+        315,
+        444,
+        10994,
+        13009,
+        304,
+        9700,
+        9115,
+        7822,
+        198,
+        58,
+        5890,
+        60,
+        13806,
+        4903,
+        13009,
+        323,
+        862,
+        3766,
+        304,
+        9700,
+        9115,
+        198,
+        58,
+        10674,
+        5890,
+        60,
+        151645
+      ],
+      "generated_token_count": 68,
+      "ended_with_eos": true,
+      "input_token_count": 69,
+      "generation_seconds": 2.2787600569427013,
+      "all_parsed_queries": [
+        "Survey papers on schedule planning with Language Model agents",
+        "Research articles on LLM-based schedule planning",
+        "LLM agents in schedule planning research papers",
+        "Use of LLM agents in schedule planning studies",
+        "Language Model agents and their application in schedule planning"
+      ],
+      "queries": [
+        "Survey papers on schedule planning with Language Model agents",
+        "Research articles on LLM-based schedule planning",
+        "LLM agents in schedule planning research papers",
+        "Use of LLM agents in schedule planning studies",
+        "Language Model agents and their application in schedule planning"
+      ],
+      "discarded_queries": []
+    },
+    "B": {
+      "prompt": "Please generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Give me some papers showing that LLM agents can do schedule planning.",
+      "searches": [],
+      "seed": 42,
+      "formatted_prompt": "<|im_start|>system\nYou are an elite researcher in the field of AI.<|im_end|>\n<|im_start|>user\nPlease generate up to 5 mutually complementary search queries to find relevant papers according to the User Query.\n\nRequirements:\n\n- Preserve important entities, benchmarks, methods, tasks, comparison relations, exclusions, and negations from the user query across the query set.\n- If the user query contains an acronym, preserve the original acronym in at least one search query.\n- Do not invent datasets, models, methods, benchmarks, or technical mechanisms not supported by the user query.\n- Avoid superficial paraphrases or highly redundant queries.\n- Generate fewer than 5 queries if additional queries would only be redundant.\n\nUser Query: Give me some papers showing that LLM agents can do schedule planning.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "e9c79f6bd75cd553bafa861086cd4ffae8b64d5bc5588a999b0234292e5b23f8",
+      "raw_output": "[Expand]Search[StopSearch]",
+      "raw_output_with_special_tokens": "[Expand]Search[StopSearch]<|im_end|>",
+      "generated_token_ids": [
+        58,
+        38946,
+        60,
+        5890,
+        58,
+        10674,
+        5890,
+        60,
+        151645
+      ],
+      "generated_token_count": 9,
+      "ended_with_eos": true,
+      "input_token_count": 159,
+      "generation_seconds": 0.30834589898586273,
+      "all_parsed_queries": [],
+      "queries": [],
+      "discarded_queries": []
+    }
+  },
+  "started_utc": "2026-09-14T02:59:40.838103+00:00",
+  "search_order_first_group": "B",
+  "search_started_utc": "2026-09-14T02:59:43.429744+00:00",
+  "search_finished_utc": "2026-09-14T02:59:48.476965+00:00",
+  "search_seconds": 5.047247968614101,
+  "finished_utc": "2026-09-14T02:59:48.476980+00:00",
+  "elapsed_seconds": 7.638890445232391
+}

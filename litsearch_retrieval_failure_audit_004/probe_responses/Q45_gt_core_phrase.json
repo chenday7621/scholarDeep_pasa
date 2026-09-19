@@ -1,0 +1,203 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q45",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2007.03875",
+  "request_payload": {
+    "q": "kqa pro explicit compositional programs complex before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 101,
+  "started_utc": "2026-09-17T12:35:18.348177+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "21",
+    "x-ratelimit-reset": "1789648240",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "4abf9ac6b697592d6a44effa40b97c60",
+    "date": "Thu, 17 Sep 2026 12:30:39 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3287",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3287,
+  "response_bytes_sha256": "242a7a972e721c7be19d47d37f6d698fa89adca2fa41527918c5ddc3bd338f86",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJrcWEgcHJvIGV4cGxpY2l0IGNvbXBvc2l0aW9uYWwgcHJvZ3JhbXMgY29tcGxleCBiZWZvcmU6MjAyNi0wOS0xNyBzaXRlOmFyeGl2Lm9yZyIsInR5cGUiOiJzZWFyY2giLCJudW0iOjEwLCJwYWdlIjoxLCJlbmdpbmUiOiJnb29nbGUifSwib3JnYW5pYyI6W3sidGl0bGUiOiJbMjAwNy4wMzg3NV0gS1FBIFBybzogQSBEYXRhc2V0IHdpdGggRXhwbGljaXQgQ29tcG9zaXRpb25hbCAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjAwNy4wMzg3NSIsInNuaXBwZXQiOiJLUUEgUHJvLCBhIGRhdGFzZXQgZm9yIENvbXBsZXggS0JRQSBpbmNsdWRpbmcgfjEyMEsgZGl2ZXJzZSBuYXR1cmFsIGxhbmd1YWdlIHF1ZXN0aW9ucy4gV2UgaW50cm9kdWNlIGEgY29tcG9zaXRpb25hbCBhbmQgaW50ZXJwcmV0YWJsZSBwcm9ncmFtbWluZyBsYW5ndWFnZSBLb1BMIiwiZGF0ZSI6Ikp1bCA4LCAyMDIwIiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJIT01FLUtHUUE6IEEgQmVuY2htYXJrIERhdGFzZXQgZm9yIE11bHRpbW9kYWwgS25vd2xlZGdlIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDUuMDkzNDh2MSIsInNuaXBwZXQiOiJLUUEgUHJvOiBBIERhdGFzZXQgd2l0aCBFeHBsaWNpdCBDb21wb3NpdGlvbmFsIFByb2dyYW1zIGZvciBDb21wbGV4IFF1ZXN0aW9uIEFuc3dlcmluZyBvdmVyIEtub3dsZWRnZSBCYXNlLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgNjB0aCBBbm51YWwgTWVldGluZyBvZiB0aGUgLi4uIiwiZGF0ZSI6Ik1heSAxMCwgMjAyNiIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMwNS4wMzM1NnYxIFtjcy5DTF0gNSBNYXkgMjAyMyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjMwNS4wMzM1NiIsInNuaXBwZXQiOiJLUUFQcm8gaXMgYSBsYXJnZS1zY2FsZSBkYXRhc2V0IGZvciBjb21wbGV4IEtCUUEgYW5kIHByb3ZpZGVzIGV4cGxpY2l0IHJlYXNvaW5nIHByb2Nlc3MgZm9yIGVhY2ggUUEgcGFpci4gaXMgYSBjb21wb3NpdGlvbmFsIGFuZCBpbnRlcnByZXRhYmxlIHByb2dyYW1taW5nIC4uLiIsImRhdGUiOiJNYXkgNSwgMjAyMyIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiW1BERl0gYXJYaXY6MjMwNS4xNTA1NnYxIFtjcy5DTF0gMjQgTWF5IDIwMjMiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIzMDUuMTUwNTYiLCJzbmlwcGV0IjoiS1FBIFBybyAoQ2FvIGV0IGFsLiwgMjAyMmEpIHByb3Bvc2VzIHRvIGRlY29tcG9zZSBhIGNvbXBsZXggcXVlc3Rpb24gaW50byBhIG11bHRpLXN0ZXAgcHJvZ3JhbSBLb1BMLCB3aGljaCBjYW4gYmUgZXhlY3V0ZWQgb24gS0JzLiIsImRhdGUiOiJNYXkgMjQsIDIwMjMiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IltQREZdIFJlYXNvbkNoYWluUUE6IFRleHQtYmFzZWQgQ29tcGxleCBRdWVzdGlvbiBBbnN3ZXJpbmcgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzIyMTAuMDg3NjMiLCJzbmlwcGV0IjoiS3FhIHBybzogQSBkYXRhc2V0IHdpdGggZXhwbGljaXQgY29tcG9zaXRpb25hbCBwcm9ncmFtcyBmb3IgY29tcGxleCBxdWVzdGlvbiBhbnN3ZXJpbmcgb3ZlciBrbm93bGVkZ2UgYmFzZS4iLCJkYXRlIjoiT2N0IDE3LCAyMDIyIiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJLbm93bGVkZ2UgQmFzZSBRdWVzdGlvbiBBbnN3ZXJpbmc6IEEgU2VtYW50aWMgUGFyc2luZyAuLi4gLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIyMDkuMDQ5OTR2NCIsInNuaXBwZXQiOiJLcWEgcHJvOiBBIGRhdGFzZXQgd2l0aCBleHBsaWNpdCBjb21wb3NpdGlvbmFsIHByb2dyYW1zIGZvciBjb21wbGV4IHF1ZXN0aW9uIGFuc3dlcmluZyBvdmVyIGtub3dsZWRnZSBiYXNlLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgNjB0aCBBbm51YWwgTWVldGluZyBvZiB0aGUgLi4uIiwiZGF0ZSI6Ik9jdCAyNCwgMjAyMiIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiUUEgRGF0YXNldCBFeHBsb3Npb246IEEgVGF4b25vbXkgb2YgTkxQIFJlc291cmNlcyBmb3IgUXVlc3Rpb24gLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjEwNy4xMjcwOHYyIiwic25pcHBldCI6IktRQSBQcm86IEEgRGF0YXNldCB3aXRoIEV4cGxpY2l0IENvbXBvc2l0aW9uYWwgUHJvZ3JhbXMgZm9yIENvbXBsZXggUXVlc3Rpb24gQW5zd2VyaW5nIG92ZXIgS25vd2xlZGdlIEJhc2UuIEluIFByb2MuIG9mIEFDTC4gQUNMLCBEdWJsaW4sIElyZWxhbmQsIDYxMDHigJM2MTE5LiIsImRhdGUiOiJTZXAgMTksIDIwMjIiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IltQREZdIGFyWGl2OjI0MDIuMTUxMzF2MyBbY3MuQ0xdIDEyIE1hciAyMDI1IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNDAyLjE1MTMxIiwic25pcHBldCI6IktRQSBwcm86IEEgZGF0YXNldCB3aXRoIGV4cGxpY2l0IFBhZ2UgMTAgY29tcG9zaXRpb25hbCBwcm9ncmFtcyBmb3IgY29tcGxleCBxdWVzdGlvbiBhbi0gc3dlcmluZyBvdmVyIGtub3dsZWRnZSBiYXNlLiIsImRhdGUiOiJNYXIgMTIsIDIwMjUiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6IkEgU3VydmV5IG9uIENvbXBvc2l0aW9uYWwgTGVhcm5pbmcgb2YgQUkgTW9kZWxzOiBUaGVvcmV0aWNhbCBhbmQgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4wODc4N3YxIiwic25pcHBldCI6IktxYSBwcm86IEEgZGF0YXNldCB3aXRoIGV4cGxpY2l0IGNvbXBvc2l0aW9uYWwgcHJvZ3JhbXMgZm9yIGNvbXBsZXggcXVlc3Rpb24gYW5zd2VyaW5nIG92ZXIga25vd2xlZGdlIGJhc2UsIDIwMjIuIFs5XSDihpEgVGEtQ2h1bmcgQ2hpLCBUaW5nLUhhbiBGYW4gLi4uIiwiZGF0ZSI6Ikp1biAxMywgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiW1BERl0gRW5oYW5jaW5nIENvbXBsZXggUXVlc3Rpb24gQW5zd2VyaW5nIG92ZXIgS25vd2xlZGdlIEdyYXBocyAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDIuMDIxNzUiLCJzbmlwcGV0IjoiS1FBIFBybzogQSBEYXRhc2V0IHdpdGggRXhwbGljaXQuIENvbXBvc2l0aW9uYWwgUHJvZ3JhbXMgZm9yIENvbXBsZXggUXVlc3Rpb24gQW5zd2VyaW5nIG92ZXIgS25vd2xlZGdlIEJhc2UuIEluIFByb2NlZWRpbmdzIG9mIHRoZSA2MHRoIEFubnVhbCBNZWV0aW5nIG9mIHRoZSAuLi4iLCJkYXRlIjoiRmViIDMsIDIwMjQiLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "kqa pro explicit compositional programs complex before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[2007.03875] KQA Pro: A Dataset with Explicit Compositional ... - arXiv",
+        "link": "https://arxiv.org/abs/2007.03875",
+        "snippet": "KQA Pro, a dataset for Complex KBQA including ~120K diverse natural language questions. We introduce a compositional and interpretable programming language KoPL",
+        "date": "Jul 8, 2020",
+        "position": 1
+      },
+      {
+        "title": "HOME-KGQA: A Benchmark Dataset for Multimodal Knowledge ...",
+        "link": "https://arxiv.org/html/2605.09348v1",
+        "snippet": "KQA Pro: A Dataset with Explicit Compositional Programs for Complex Question Answering over Knowledge Base. In Proceedings of the 60th Annual Meeting of the ...",
+        "date": "May 10, 2026",
+        "position": 2
+      },
+      {
+        "title": "[PDF] arXiv:2305.03356v1 [cs.CL] 5 May 2023",
+        "link": "https://arxiv.org/pdf/2305.03356",
+        "snippet": "KQAPro is a large-scale dataset for complex KBQA and provides explicit reasoing process for each QA pair. is a compositional and interpretable programming ...",
+        "date": "May 5, 2023",
+        "position": 3
+      },
+      {
+        "title": "[PDF] arXiv:2305.15056v1 [cs.CL] 24 May 2023",
+        "link": "https://arxiv.org/pdf/2305.15056",
+        "snippet": "KQA Pro (Cao et al., 2022a) proposes to decompose a complex question into a multi-step program KoPL, which can be executed on KBs.",
+        "date": "May 24, 2023",
+        "position": 4
+      },
+      {
+        "title": "[PDF] ReasonChainQA: Text-based Complex Question Answering ... - arXiv",
+        "link": "https://arxiv.org/pdf/2210.08763",
+        "snippet": "Kqa pro: A dataset with explicit compositional programs for complex question answering over knowledge base.",
+        "date": "Oct 17, 2022",
+        "position": 5
+      },
+      {
+        "title": "Knowledge Base Question Answering: A Semantic Parsing ... - arXiv",
+        "link": "https://arxiv.org/html/2209.04994v4",
+        "snippet": "Kqa pro: A dataset with explicit compositional programs for complex question answering over knowledge base. In Proceedings of the 60th Annual Meeting of the ...",
+        "date": "Oct 24, 2022",
+        "position": 6
+      },
+      {
+        "title": "QA Dataset Explosion: A Taxonomy of NLP Resources for Question ...",
+        "link": "https://arxiv.org/html/2107.12708v2",
+        "snippet": "KQA Pro: A Dataset with Explicit Compositional Programs for Complex Question Answering over Knowledge Base. In Proc. of ACL. ACL, Dublin, Ireland, 6101–6119.",
+        "date": "Sep 19, 2022",
+        "position": 7
+      },
+      {
+        "title": "[PDF] arXiv:2402.15131v3 [cs.CL] 12 Mar 2025",
+        "link": "https://arxiv.org/pdf/2402.15131",
+        "snippet": "KQA pro: A dataset with explicit Page 10 compositional programs for complex question an- swering over knowledge base.",
+        "date": "Mar 12, 2025",
+        "position": 8
+      },
+      {
+        "title": "A Survey on Compositional Learning of AI Models: Theoretical and ...",
+        "link": "https://arxiv.org/html/2406.08787v1",
+        "snippet": "Kqa pro: A dataset with explicit compositional programs for complex question answering over knowledge base, 2022. [9] ↑ Ta-Chung Chi, Ting-Han Fan ...",
+        "date": "Jun 13, 2024",
+        "position": 9
+      },
+      {
+        "title": "[PDF] Enhancing Complex Question Answering over Knowledge Graphs ...",
+        "link": "https://arxiv.org/pdf/2402.02175",
+        "snippet": "KQA Pro: A Dataset with Explicit. Compositional Programs for Complex Question Answering over Knowledge Base. In Proceedings of the 60th Annual Meeting of the ...",
+        "date": "Feb 3, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "[2007.03875] KQA Pro: A Dataset with Explicit Compositional ... - arXiv",
+      "snippet": "KQA Pro, a dataset for Complex KBQA including ~120K diverse natural language questions. We introduce a compositional and interpretable programming language KoPL",
+      "link": "https://arxiv.org/abs/2007.03875",
+      "arxiv_id": "2007.03875"
+    },
+    {
+      "rank": 2,
+      "title": "HOME-KGQA: A Benchmark Dataset for Multimodal Knowledge ...",
+      "snippet": "KQA Pro: A Dataset with Explicit Compositional Programs for Complex Question Answering over Knowledge Base. In Proceedings of the 60th Annual Meeting of the ...",
+      "link": "https://arxiv.org/html/2605.09348v1",
+      "arxiv_id": "2605.09348"
+    },
+    {
+      "rank": 3,
+      "title": "[PDF] arXiv:2305.03356v1 [cs.CL] 5 May 2023",
+      "snippet": "KQAPro is a large-scale dataset for complex KBQA and provides explicit reasoing process for each QA pair. is a compositional and interpretable programming ...",
+      "link": "https://arxiv.org/pdf/2305.03356",
+      "arxiv_id": "2305.03356"
+    },
+    {
+      "rank": 4,
+      "title": "[PDF] arXiv:2305.15056v1 [cs.CL] 24 May 2023",
+      "snippet": "KQA Pro (Cao et al., 2022a) proposes to decompose a complex question into a multi-step program KoPL, which can be executed on KBs.",
+      "link": "https://arxiv.org/pdf/2305.15056",
+      "arxiv_id": "2305.15056"
+    },
+    {
+      "rank": 5,
+      "title": "[PDF] ReasonChainQA: Text-based Complex Question Answering ... - arXiv",
+      "snippet": "Kqa pro: A dataset with explicit compositional programs for complex question answering over knowledge base.",
+      "link": "https://arxiv.org/pdf/2210.08763",
+      "arxiv_id": "2210.08763"
+    },
+    {
+      "rank": 6,
+      "title": "Knowledge Base Question Answering: A Semantic Parsing ... - arXiv",
+      "snippet": "Kqa pro: A dataset with explicit compositional programs for complex question answering over knowledge base. In Proceedings of the 60th Annual Meeting of the ...",
+      "link": "https://arxiv.org/html/2209.04994v4",
+      "arxiv_id": "2209.04994"
+    },
+    {
+      "rank": 7,
+      "title": "QA Dataset Explosion: A Taxonomy of NLP Resources for Question ...",
+      "snippet": "KQA Pro: A Dataset with Explicit Compositional Programs for Complex Question Answering over Knowledge Base. In Proc. of ACL. ACL, Dublin, Ireland, 6101–6119.",
+      "link": "https://arxiv.org/html/2107.12708v2",
+      "arxiv_id": "2107.12708"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] arXiv:2402.15131v3 [cs.CL] 12 Mar 2025",
+      "snippet": "KQA pro: A dataset with explicit Page 10 compositional programs for complex question an- swering over knowledge base.",
+      "link": "https://arxiv.org/pdf/2402.15131",
+      "arxiv_id": "2402.15131"
+    },
+    {
+      "rank": 9,
+      "title": "A Survey on Compositional Learning of AI Models: Theoretical and ...",
+      "snippet": "Kqa pro: A dataset with explicit compositional programs for complex question answering over knowledge base, 2022. [9] ↑ Ta-Chung Chi, Ting-Han Fan ...",
+      "link": "https://arxiv.org/html/2406.08787v1",
+      "arxiv_id": "2406.08787"
+    },
+    {
+      "rank": 10,
+      "title": "[PDF] Enhancing Complex Question Answering over Knowledge Graphs ...",
+      "snippet": "KQA Pro: A Dataset with Explicit. Compositional Programs for Complex Question Answering over Knowledge Base. In Proceedings of the 60th Annual Meeting of the ...",
+      "link": "https://arxiv.org/pdf/2402.02175",
+      "arxiv_id": "2402.02175"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:19.578853+00:00",
+  "elapsed_seconds": 1.2306806407868862,
+  "attempts": [
+    {
+      "path": "probe_attempts/Q45_gt_core_phrase_attempt1.json",
+      "sha256": "a20df9a4174a9193e217c20db7c636b05263f2e69d9c8ead7afaf3cff55a4da4",
+      "status": "PASS"
+    }
+  ]
+}

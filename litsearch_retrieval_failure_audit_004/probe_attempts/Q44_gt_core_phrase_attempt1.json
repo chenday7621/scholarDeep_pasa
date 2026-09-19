@@ -1,0 +1,210 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "not_a_deployable_policy": true,
+  "question_id": "Q44",
+  "group": "inline-citation",
+  "probe_kind": "gt_core_phrase",
+  "gold_arxiv_id": "2112.01488",
+  "request_payload": {
+    "q": "colbertv2 retrieval lightweight late interaction before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 98,
+  "started_utc": "2026-09-17T12:35:15.063173+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "24",
+    "x-ratelimit-reset": "1789648240",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "76c1910777d9b89932a5a46ec8979491",
+    "date": "Thu, 17 Sep 2026 12:30:36 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3779",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3779,
+  "response_bytes_sha256": "4dca1f52d2737a04063614c843823331352fa8ab180898f76065ce74fe880bf7",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJjb2xiZXJ0djIgcmV0cmlldmFsIGxpZ2h0d2VpZ2h0IGxhdGUgaW50ZXJhY3Rpb24gYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6MSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiRWZmZWN0aXZlIGFuZCBFZmZpY2llbnQgUmV0cmlldmFsIHZpYSBMaWdodHdlaWdodCBMYXRlIEludGVyYWN0aW9uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzIxMTIuMDE0ODgiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBpbnRyb2R1Y2UgQ29sQkVSVHYyLCBhIHJldHJpZXZlciB0aGF0IGNvdXBsZXMgYW4gYWdncmVzc2l2ZSByZXNpZHVhbCBjb21wcmVzc2lvbiBtZWNoYW5pc20gd2l0aCBhIGRlbm9pc2VkIHN1cGVydmlzaW9uIHN0cmF0ZWd5IHRvIC4uLiIsImRhdGUiOiJEZWMgMiwgMjAyMSIsInBvc2l0aW9uIjoxfSx7InRpdGxlIjoiUHlMYXRlOiBGbGV4aWJsZSBUcmFpbmluZyBhbmQgUmV0cmlldmFsIGZvciBMYXRlIEludGVyYWN0aW9uIE1vZGVscyIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MDguMDM1NTV2MSIsInNuaXBwZXQiOiJDb2xCRVJUdjI6IEVmZmVjdGl2ZSBhbmQgRWZmaWNpZW50IFJldHJpZXZhbCB2aWEgTGlnaHR3ZWlnaHQgTGF0ZSBJbnRlcmFjdGlvbi4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMjIgQ29uZmVyZW5jZSBvZiB0aGUgTm9ydGggQW1lcmljYW4gQ2hhcHRlciBvZiB0aGUgLi4uIiwiZGF0ZSI6IkF1ZyA1LCAyMDI1IiwicG9zaXRpb24iOjJ9LHsidGl0bGUiOiJMSVI6IFRoZSBGaXJzdCBXb3Jrc2hvcCBvbiBMYXRlIEludGVyYWN0aW9uIGFuZCBNdWx0aSBWZWN0b3IgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNTExLjAwNDQ0Iiwic25pcHBldCI6IkxhdGUgaW50ZXJhY3Rpb24gcmV0cmlldmFsIG1ldGhvZHMsIHBpb25lZXJlZCBieSBDb2xCRVJULCBoYXZlIGVtZXJnZWQgYXMgYSBwb3dlcmZ1bCBhbHRlcm5hdGl2ZSB0byBzaW5nbGUtdmVjdG9yIG5ldXJhbCBJUi4gQnkgbGV2ZXJhZ2luZyBmaW5lLWdyYWluZWQsIC4uLiIsImRhdGUiOiJOb3YgMSwgMjAyNSIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiWzIyMDUuMDk3MDddIFBMQUlEOiBBbiBFZmZpY2llbnQgRW5naW5lIGZvciBMYXRlIEludGVyYWN0aW9uIFJldHJpZXZhbCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjIwNS4wOTcwNyIsInNuaXBwZXQiOiJUaGlzIGFsbG93cyB0aGUgUExBSUQgZW5naW5lIHdpdGggQ29sQkVSVHYyIHRvIGFjaGlldmUgbGF0ZW5jeSBvZiB0ZW5zIG9mIG1pbGxpc2Vjb25kcyBvbiBhIEdQVSBhbmQgdGVucyBvciBqdXN0IGZldyBodW5kcmVkcyBvZiBtaWxsaXNlY29uZHMgb24gYSBDUFUgYXQgbGFyZ2UgLi4uIiwiZGF0ZSI6Ik1heSAxOSwgMjAyMiIsInBvc2l0aW9uIjo0fSx7InRpdGxlIjoiWzI0MDQuMTM5NTBdIFNQTEFURTogU3BhcnNlIExhdGUgSW50ZXJhY3Rpb24gUmV0cmlldmFsIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MDQuMTM5NTAiLCJzbmlwcGV0IjoiSW4gdGhpcyB3b3JrLCB3ZSBpbnRyb2R1Y2UgU1BMQVRFLCBhIHNpbXBsZSBhbmQgbGlnaHR3ZWlnaHQgYWRhcHRhdGlvbiBvZiB0aGUgQ29sQkVSVHYyIG1vZGVsIHdoaWNoIGxlYXJucyBhbiBgYE1MTSBhZGFwdGVyJycsIG1hcHBpbmcgaXRzIGZyb3plbiB0b2tlbiAuLi4iLCJkYXRlIjoiQXByIDIyLCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJHZW5lcmF0aXZlIExhdGUtSW50ZXJhY3Rpb24gRW1iZWRkaW5ncyBGb3IgVmlzdWFsIERvY3VtZW50IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDkuMTE4MDh2MSIsInNuaXBwZXQiOiJaYWhhcmlhIENvbEJFUlR2MjogZWZmZWN0aXZlIGFuZCBlZmZpY2llbnQgcmV0cmlldmFsIHZpYSBsaWdodHdlaWdodCBsYXRlIGludGVyYWN0aW9uLiBJbiBQcm9jZWVkaW5ncyBvZiB0aGUgMjAyMiBDb25mZXJlbmNlIG9mIHRoZSBOb3J0aCBBbWVyaWNhbiBDaGFwdGVyIC4uLiIsImRhdGUiOiI2IGRheXMgYWdvIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJteGJhaS1lZGdlLWNvbGJlcnQtdjAgVGVjaCBSZXBvcnQgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI1MTAuMTQ4ODB2MSIsInNuaXBwZXQiOiIuLi4gQ29sYmVydHYyOiBFZmZlY3RpdmUgYW5kIGVmZmljaWVudCByZXRyaWV2YWwgdmlhIGxpZ2h0d2VpZ2h0IGxhdGUgaW50ZXJhY3Rpb24uIEluOiBQcm9jZWVkaW5ncyBvZiB0aGUgMjAyMiBDb25mZXJlbmNlIG9mIHRoZSBOb3J0aCBBbWVyaWNhbiBDaGFwdGVyIG9mIHRoZSAuLi4iLCJkYXRlIjoiT2N0IDE2LCAyMDI1IiwicG9zaXRpb24iOjd9LHsidGl0bGUiOiJbUERGXSBWaVNBUjogVHJhaW5pbmctRnJlZSBBZGFwdGl2ZS1rIFJldHJpZXZhbCBmb3IgVmlzdWFsIERvY3VtZW50IC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjYwOS4wMjQ4NiIsInNuaXBwZXQiOiJDb2xiZXJ0djI6IEVmZmVjdGl2ZSBhbmQgZWZmaWNpZW50IHJldHJpZXZhbCB2aWEgbGlnaHR3ZWlnaHQgbGF0ZSBpbnRlcmFjdGlvbi4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMjIgQ29uZmVyZW5jZSBvZiB0aGUgTm9ydGggQW1lcmljYW4gQ2hhcHRlciBvZiB0aGUgLi4uIiwiZGF0ZSI6IlNlcCAzLCAyMDI2IiwicG9zaXRpb24iOjh9LHsidGl0bGUiOiJFZmZpY2llbnQgQ29uc3RhbnQtU3BhY2UgTXVsdGktVmVjdG9yIFJldHJpZXZhbCAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjUwNC4wMTgxOHYxIiwic25pcHBldCI6IlRvIHNwZWVkIHVwIHRoZSBzZWFyY2ggbGF0ZW5jeSBvZiBDb2xCRVJUdjIsIFBMQUlEIFsyMl0gdXNlcyBhIGNlbnRyb2lkIGludGVyYWN0aW9uIG1lY2hhbmlzbSBhbmQgY2VudHJvaWQgcHJ1bmluZyB0byBlbGltaW5hdGUgbG93LXNjb3JpbmcgcGFzc2FnZXMgZWFybHkgaW4gLi4uIiwiZGF0ZSI6IkFwciAyLCAyMDI1IiwicG9zaXRpb24iOjl9LHsidGl0bGUiOiJGR1ItQ29sQkVSVDogSWRlbnRpZnlpbmcgRmluZS1HcmFpbmVkIFJlbGV2YW5jZSBUb2tlbnMgRHVyaW5nIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDQuMDAyNDJ2MSIsInNuaXBwZXQiOiJaYWhhcmlhICgyMDIyKSBDb2xiZXJ0djI6IGVmZmVjdGl2ZSBhbmQgZWZmaWNpZW50IHJldHJpZXZhbCB2aWEgbGlnaHR3ZWlnaHQgbGF0ZSBpbnRlcmFjdGlvbi4gSW4gUHJvY2VlZGluZ3Mgb2YgdGhlIDIwMjIgQ29uZmVyZW5jZSBvZiB0aGUgTm9ydGggQW1lcmljYW4gLi4uIiwiZGF0ZSI6Ik1hciAzMSwgMjAyNiIsInNpdGVsaW5rcyI6W3sidGl0bGUiOiIyIE1ldGhvZCIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI2MDQuMDAyNDJ2MSM6fjp0ZXh0PTIlMjBNZXRob2QsLUxldCUyMFEifSx7InRpdGxlIjoiMi4xIEZnci1Db2xiZXJ0IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNC4wMDI0MnYxIzp+OnRleHQ9Mi4xJTIwRkdSJTJEQ29sQkVSVCwtT3VyJTIwbWV0aG9kJTIwYnVpbGRzJTIwb24lMjB0aGUifSx7InRpdGxlIjoiNCBSZXN1bHRzIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjYwNC4wMDI0MnYxIzp+OnRleHQ9NCUyMFJlc3VsdHMsLU1vZGVsIn1dLCJwb3NpdGlvbiI6MTB9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "colbertv2 retrieval lightweight late interaction before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Effective and Efficient Retrieval via Lightweight Late Interaction - arXiv",
+        "link": "https://arxiv.org/abs/2112.01488",
+        "snippet": "In this work, we introduce ColBERTv2, a retriever that couples an aggressive residual compression mechanism with a denoised supervision strategy to ...",
+        "date": "Dec 2, 2021",
+        "position": 1
+      },
+      {
+        "title": "PyLate: Flexible Training and Retrieval for Late Interaction Models",
+        "link": "https://arxiv.org/html/2508.03555v1",
+        "snippet": "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction. In Proceedings of the 2022 Conference of the North American Chapter of the ...",
+        "date": "Aug 5, 2025",
+        "position": 2
+      },
+      {
+        "title": "LIR: The First Workshop on Late Interaction and Multi Vector ... - arXiv",
+        "link": "https://arxiv.org/html/2511.00444",
+        "snippet": "Late interaction retrieval methods, pioneered by ColBERT, have emerged as a powerful alternative to single-vector neural IR. By leveraging fine-grained, ...",
+        "date": "Nov 1, 2025",
+        "position": 3
+      },
+      {
+        "title": "[2205.09707] PLAID: An Efficient Engine for Late Interaction Retrieval",
+        "link": "https://arxiv.org/abs/2205.09707",
+        "snippet": "This allows the PLAID engine with ColBERTv2 to achieve latency of tens of milliseconds on a GPU and tens or just few hundreds of milliseconds on a CPU at large ...",
+        "date": "May 19, 2022",
+        "position": 4
+      },
+      {
+        "title": "[2404.13950] SPLATE: Sparse Late Interaction Retrieval - arXiv",
+        "link": "https://arxiv.org/abs/2404.13950",
+        "snippet": "In this work, we introduce SPLATE, a simple and lightweight adaptation of the ColBERTv2 model which learns an ``MLM adapter'', mapping its frozen token ...",
+        "date": "Apr 22, 2024",
+        "position": 5
+      },
+      {
+        "title": "Generative Late-Interaction Embeddings For Visual Document ...",
+        "link": "https://arxiv.org/html/2609.11808v1",
+        "snippet": "Zaharia ColBERTv2: effective and efficient retrieval via lightweight late interaction. In Proceedings of the 2022 Conference of the North American Chapter ...",
+        "date": "6 days ago",
+        "position": 6
+      },
+      {
+        "title": "mxbai-edge-colbert-v0 Tech Report - arXiv",
+        "link": "https://arxiv.org/html/2510.14880v1",
+        "snippet": "... Colbertv2: Effective and efficient retrieval via lightweight late interaction. In: Proceedings of the 2022 Conference of the North American Chapter of the ...",
+        "date": "Oct 16, 2025",
+        "position": 7
+      },
+      {
+        "title": "[PDF] ViSAR: Training-Free Adaptive-k Retrieval for Visual Document ...",
+        "link": "https://arxiv.org/pdf/2609.02486",
+        "snippet": "Colbertv2: Effective and efficient retrieval via lightweight late interaction. In Proceedings of the 2022 Conference of the North American Chapter of the ...",
+        "date": "Sep 3, 2026",
+        "position": 8
+      },
+      {
+        "title": "Efficient Constant-Space Multi-Vector Retrieval - arXiv",
+        "link": "https://arxiv.org/html/2504.01818v1",
+        "snippet": "To speed up the search latency of ColBERTv2, PLAID [22] uses a centroid interaction mechanism and centroid pruning to eliminate low-scoring passages early in ...",
+        "date": "Apr 2, 2025",
+        "position": 9
+      },
+      {
+        "title": "FGR-ColBERT: Identifying Fine-Grained Relevance Tokens During ...",
+        "link": "https://arxiv.org/html/2604.00242v1",
+        "snippet": "Zaharia (2022) Colbertv2: effective and efficient retrieval via lightweight late interaction. In Proceedings of the 2022 Conference of the North American ...",
+        "date": "Mar 31, 2026",
+        "sitelinks": [
+          {
+            "title": "2 Method",
+            "link": "https://arxiv.org/html/2604.00242v1#:~:text=2%20Method,-Let%20Q"
+          },
+          {
+            "title": "2.1 Fgr-Colbert",
+            "link": "https://arxiv.org/html/2604.00242v1#:~:text=2.1%20FGR%2DColBERT,-Our%20method%20builds%20on%20the"
+          },
+          {
+            "title": "4 Results",
+            "link": "https://arxiv.org/html/2604.00242v1#:~:text=4%20Results,-Model"
+          }
+        ],
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank": 1,
+      "title": "Effective and Efficient Retrieval via Lightweight Late Interaction - arXiv",
+      "snippet": "In this work, we introduce ColBERTv2, a retriever that couples an aggressive residual compression mechanism with a denoised supervision strategy to ...",
+      "link": "https://arxiv.org/abs/2112.01488",
+      "arxiv_id": "2112.01488"
+    },
+    {
+      "rank": 2,
+      "title": "PyLate: Flexible Training and Retrieval for Late Interaction Models",
+      "snippet": "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction. In Proceedings of the 2022 Conference of the North American Chapter of the ...",
+      "link": "https://arxiv.org/html/2508.03555v1",
+      "arxiv_id": "2508.03555"
+    },
+    {
+      "rank": 3,
+      "title": "LIR: The First Workshop on Late Interaction and Multi Vector ... - arXiv",
+      "snippet": "Late interaction retrieval methods, pioneered by ColBERT, have emerged as a powerful alternative to single-vector neural IR. By leveraging fine-grained, ...",
+      "link": "https://arxiv.org/html/2511.00444",
+      "arxiv_id": "2511.00444"
+    },
+    {
+      "rank": 4,
+      "title": "[2205.09707] PLAID: An Efficient Engine for Late Interaction Retrieval",
+      "snippet": "This allows the PLAID engine with ColBERTv2 to achieve latency of tens of milliseconds on a GPU and tens or just few hundreds of milliseconds on a CPU at large ...",
+      "link": "https://arxiv.org/abs/2205.09707",
+      "arxiv_id": "2205.09707"
+    },
+    {
+      "rank": 5,
+      "title": "[2404.13950] SPLATE: Sparse Late Interaction Retrieval - arXiv",
+      "snippet": "In this work, we introduce SPLATE, a simple and lightweight adaptation of the ColBERTv2 model which learns an ``MLM adapter'', mapping its frozen token ...",
+      "link": "https://arxiv.org/abs/2404.13950",
+      "arxiv_id": "2404.13950"
+    },
+    {
+      "rank": 6,
+      "title": "Generative Late-Interaction Embeddings For Visual Document ...",
+      "snippet": "Zaharia ColBERTv2: effective and efficient retrieval via lightweight late interaction. In Proceedings of the 2022 Conference of the North American Chapter ...",
+      "link": "https://arxiv.org/html/2609.11808v1",
+      "arxiv_id": "2609.11808"
+    },
+    {
+      "rank": 7,
+      "title": "mxbai-edge-colbert-v0 Tech Report - arXiv",
+      "snippet": "... Colbertv2: Effective and efficient retrieval via lightweight late interaction. In: Proceedings of the 2022 Conference of the North American Chapter of the ...",
+      "link": "https://arxiv.org/html/2510.14880v1",
+      "arxiv_id": "2510.14880"
+    },
+    {
+      "rank": 8,
+      "title": "[PDF] ViSAR: Training-Free Adaptive-k Retrieval for Visual Document ...",
+      "snippet": "Colbertv2: Effective and efficient retrieval via lightweight late interaction. In Proceedings of the 2022 Conference of the North American Chapter of the ...",
+      "link": "https://arxiv.org/pdf/2609.02486",
+      "arxiv_id": "2609.02486"
+    },
+    {
+      "rank": 9,
+      "title": "Efficient Constant-Space Multi-Vector Retrieval - arXiv",
+      "snippet": "To speed up the search latency of ColBERTv2, PLAID [22] uses a centroid interaction mechanism and centroid pruning to eliminate low-scoring passages early in ...",
+      "link": "https://arxiv.org/html/2504.01818v1",
+      "arxiv_id": "2504.01818"
+    },
+    {
+      "rank": 10,
+      "title": "FGR-ColBERT: Identifying Fine-Grained Relevance Tokens During ...",
+      "snippet": "Zaharia (2022) Colbertv2: effective and efficient retrieval via lightweight late interaction. In Proceedings of the 2022 Conference of the North American ...",
+      "link": "https://arxiv.org/html/2604.00242v1",
+      "arxiv_id": "2604.00242"
+    }
+  ],
+  "gold_hit_ranks": [
+    1
+  ],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:35:16.212163+00:00",
+  "elapsed_seconds": 1.1489925533533096
+}

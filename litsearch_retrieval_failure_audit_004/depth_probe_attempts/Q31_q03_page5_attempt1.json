@@ -1,0 +1,157 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "diagnostic_only": true,
+  "gt_aware_query_selection": true,
+  "not_a_deployable_policy": true,
+  "sequence": 27,
+  "question_id": "Q31",
+  "group": "inline-citation",
+  "native_query_index": 3,
+  "native_query": "Research on structured dataset for table-to-text model training",
+  "selection_reason": "Fixed eligibility thresholds plus highest GT-metadata TF-IDF native query; GT-aware diagnostic only.",
+  "gold_arxiv_id": "2007.02871",
+  "page": 5,
+  "payload": {
+    "q": "Research on structured dataset for table-to-text model training before:2026-09-17 site:arxiv.org",
+    "num": 10,
+    "page": 5
+  },
+  "attempt": 1,
+  "global_attempt_sequence": 27,
+  "started_utc": "2026-09-17T12:44:46.516817+00:00",
+  "status": "PASS",
+  "http_status": 200,
+  "response_headers": {
+    "access-control-allow-origin": "*",
+    "x-ratelimit-limit": "25",
+    "x-ratelimit-remaining": "23",
+    "x-ratelimit-reset": "1789648810",
+    "content-type": "application/json; charset=utf-8",
+    "x-cloud-trace-context": "f309c34e0165340c97fc71ff5df7fe02",
+    "date": "Thu, 17 Sep 2026 12:40:10 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "3434",
+    "via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "response_bytes": 3434,
+  "response_bytes_sha256": "d65b9659495f5ed89c192f2a9140b152d4c591b8f2ce399488758bd086819a34",
+  "raw_response_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJSZXNlYXJjaCBvbiBzdHJ1Y3R1cmVkIGRhdGFzZXQgZm9yIHRhYmxlLXRvLXRleHQgbW9kZWwgdHJhaW5pbmcgYmVmb3JlOjIwMjYtMDktMTcgc2l0ZTphcnhpdi5vcmciLCJ0eXBlIjoic2VhcmNoIiwibnVtIjoxMCwicGFnZSI6NSwiZW5naW5lIjoiZ29vZ2xlIn0sIm9yZ2FuaWMiOlt7InRpdGxlIjoiWzI2MDUuMTU4NDJdIFJlY29uc3RydWN0aW5nIHRlbXBvcmFsIG11bHRpLXJlbGF0aW9uYWwgZmlybSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcjVpdi5sYWJzLmFyeGl2Lm9yZy9odG1sLzI2MDUuMTU4NDIiLCJzbmlwcGV0IjoiVGhlIHNlbWljb25kdWN0b3IgaW5kdXN0cnkgaXMgZm91bmRhdGlvbmFsIHRvIG1vZGVybiB0ZWNobm9sb2d5LCB5ZXQgaXRzIGNvbXBsZXggZ2xvYmFsIG11bHRpLXJlbGF0aW9uYWwgZmlybSBuZXR3b3JrIHJlbWFpbnMgcG9vcmx5IHVuZGVyc3Rvb2QsIHBvc2luZyBjaGFsbGVuZ2VzIHRvIHNjaWVudGlzdHMsIGZpcm1zIGFuZCBwb2xpY3ltYWtlcnMuIFRyYWRpdGlvbmFsIGFuYWzigKYiLCJwb3NpdGlvbiI6MX0seyJ0aXRsZSI6IlhTS0lMTDogQ29udGludWFsIExlYXJuaW5nIGZyb20gRXhwZXJpZW5jZSBhbmQgU2tpbGxzIGluIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjYwMy4xMjA1NiIsInNuaXBwZXQiOiJYU0tJTEwgbWFpbnRhaW5zIHR3byBjb21wbGVtZW50YXJ5IGZvcm1zIG9mIGtub3dsZWRnZTogc2tpbGxzIGFuZCBleHBlcmllbmNlcy4gU2tpbGxzIHByb3ZpZGUgc3RydWN0dXJlZCB0YXNrLWxldmVsIGd1aWRhbmNlIGZvciBwbGFubmluZyBhbmQgdG9vbCBvcmNoZXN0cmF0aW9uLCB3aGlsZSBleHBlcmllbmNlcyBwcm92aWRlIGNvbmNpc2UgYWN0aW9uLWxldmVsIGd1aWRhbmNlIHRpZWQgdG8gZXhlY3V0aW9uIGNvbnRleHQgYW5kIGZhaWx1cmUgcGF0dGVybnMuIFRoZSBmcmFtZXdvcmsgdGhlbiB1c2VzIHRoZXNlIHR3byBrbm93bGVkZ2Ugc3RyZWFtcyBpbiBhIGNvbnRpbnVhbCBsZWFybmluZyBsb29wLiIsInBvc2l0aW9uIjoyfSx7InRpdGxlIjoiVHVybmluZyBWaWRlbyBNb2RlbHMgaW50byBHZW5lcmFsaXN0IFJvYm90IFBvbGljaWVzIC0gYXJYaXYub3JnIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL3BkZi8yNjA1LjI3ODE3Iiwic25pcHBldCI6IlJlY2VudCB3b3JrIHByb3Bvc2VzIHJvYm90IGZvdW5kYXRpb24gbW9kZWxzIHRoYXQgam9pbnRseSBwcmVkaWN0IGZ1dHVyZSBvYnNlcnZhdGlvbnMgYW5kIGFjdGlvbnMgYnkgZmluZXR1bmluZyB2aWRlbyBtb2RlbHMgd2l0aCBhY3Rpb24tbGFiZWxlZCBkYXRhLiBJbiB0aGlzIHBhcGVyLCB3ZSB0ZXN0IHRoZSBsaW1pdHMgb2YgYW4gYWx0ZXJuYXRpdmUgYXBwcm9hY2g6IGxlYXZlIHRoZSB2aWRlbyBwbGFubmVyIGFzLWlzIHdoaWxlIHRyYWluaW5nIGFuIGVtYm9kaW1lbnQtc3BlY2lmaWMgaW52ZXJzZSBkeW5hbWljcyBtb2RlbCAoSURNKS4iLCJwb3NpdGlvbiI6M30seyJ0aXRsZSI6IkJleW9uZCBJc29sYXRlZCBUYXNrczogQSBGcmFtZXdvcmsgZm9yIEV2YWx1YXRpbmcgQ29kaW5nIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjYwNC4wMzAzNSIsInNuaXBwZXQiOiJFeGlzdGluZyBkYXRhc2V0cyBmb3IgY29kaW5nIGFnZW50cyBldmFsdWF0ZSBwZXJmb3JtYW5jZSBvbiBpc29sYXRlZCwgc2luZ2xlIHB1bGwgcmVxdWVzdCAoUFIpIHRhc2tzIGluIGEgc3RhdGVsZXNzIG1hbm5lciwgZmFpbGluZyB0byBjYXB0dXJlIHRoZSByZWFsaXR5IG9mIHJlYWwtd29ybGQgc29mdHdhcmUgZGV2ZWxvcG1lbnQgd2hlcmUgY29kZSBjaGFuZ2VzIGFjY3VtdWxhdGUsIHRlY2huaWNhbCBkZWJ0IGFjY3J1ZXMsIGFuZCB0ZXN0IHN1aXRlcyBncm93IG92ZXIgdGltZS4gVG8gYnJpZGdlIHRoaXMgZ2FwLCB3ZSBpbnRyb2R1Y2UgYW4gYXV0b21hdGVkIGNvZGluZyB0YXNrIGdlbmVyYXRpb24gZnJhbWV3b3JrLCB3aGljaCBoZWxwcyBnZW5lcmF0ZSBvdXIgZGF0YXNldCBTV0UgLi4uIiwicG9zaXRpb24iOjR9LHsidGl0bGUiOiJEQVJUOiBEZWNvZGVkIEF0dGVudGlvbiBvdmVyIFJlY3VycmVudCBTdGF0ZXMgZm9yIEVmZmljaWVudCAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI2MDguMDIwMzIiLCJzbmlwcGV0IjoiVGFibGUgMSByZXBvcnRzIFBpbGUgdmFsaWRhdGlvbiBwZXJwbGV4aXR5IGFuZCBhY2N1cmFjeSBmb3IgdGhlIHRyYWluZWQgbW9kZWxzLCB3aGlsZSBUYWJsZSAyIHJlcG9ydHMgemVyby1zaG90IGRvd25zdHJlYW0gcmVzdWx0cy4gRm9yIGEgcHVibGljIGZ1bGwtYXR0ZW50aW9uIHJlZmVyZW5jZSB0cmFpbmVkIHVuZGVyIGEgY29tcGFyYWJsZSB0b2tlbiBidWRnZXQsIHdlIGFsc28gaW5jbHVkZSBQeXRoaWEgY2hlY2twb2ludHMgKEJpZGVybWFuIGV0IGFsLiwgMjAyMykgcmVsZWFzZWQgYXQgYXBwcm94aW1hdGVseSAxMDBCIHByZXRyYWluaW5nIHRva2VucyBpbiB0aGUgZG93bnN0cmVhbSBldmFsdWF0aW9uLiIsInBvc2l0aW9uIjo1fSx7InRpdGxlIjoiTWVtb0hhcm5lc3M6IEFnZW50IEhhcm5lc3NlcyBUaGF0IExlYXJuIGZyb20gRXhwZXJpZW5jZSIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9wZGYvMjYwNy4xNDE1OSIsInNuaXBwZXQiOiJFbXBpcmljYWwgcmVzdWx0cyBhY3Jvc3MgaW4tZG9tYWluLCBjcm9zcy1kYXRhc2V0LCBhbmQgY3Jvc3MtbW9kZWwgZXZhbHVhdGlvbnMgc2hvd2luZyBpbXByb3ZlZCB0YXNrIHN1Y2Nlc3MgdW5kZXIgb3VyIHByb3RvY29sLCBzZWxlY3RpdmUgcG9zaXRpdmUgdHJhbnNmZXIgYWNyb3NzIHVuc2VlbiBldmFsdWF0aW9uIHN1aXRlcywgZ2FpbnMgb24gdGhlIGV2YWx1YXRlZCBiYXNlLW1vZGVsIGZhbWlsaWVzLCBhbmQgZmF2b3JhYmxlIGNvc3QgYmVoYXZpb3Igd2hlbiByZXRyaWV2ZWQgY29udGV4dCBpcyByZXVzYWJsZSB0aHJvdWdoIGNhY2hpbmcgKMKnMykuIiwicG9zaXRpb24iOjZ9LHsidGl0bGUiOiJObyBHYXVzc2lhbiBSZXF1aXJlZDogQ29udHJhc3RpdmUgSW52ZXJzZSBEeW5hbWljcyBmb3IgSkVQQSAuLi4iLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI2MDguMTc1NDIiLCJzbmlwcGV0IjoiVGhlIGVudGlyZSBpbnZlcnNlIGJyYW5jaCBpcyBkaXNjYXJkZWQgYWZ0ZXIgdHJhaW5pbmcsIGxlYXZpbmcgdGhlIGRlcGxveWVkIG1vZGVsIGlkZW50aWNhbCB0byBMZVdNLiBXZSBldmFsdWF0ZSBBQy1NVE0gYXMgYSBjb250cm9sbGVkIExlV00gbW9kaWZpY2F0aW9uIGFnYWluc3QgU0lHUmVnLCBhIG5vbi1jb250cmFzdGl2ZSBpbnZlcnNlLXJlZ3Jlc3Npb24gYWJsYXRpb24gKE1UTS1NU0UpLCBhbmQgYSBjb250cmFzdGl2ZSBmb3J3YXJkLXByZWRpY3Rpb24gYWx0ZXJuYXRpdmUgKEFDLUNQQykuIiwicG9zaXRpb24iOjd9XSwiY3JlZGl0cyI6MX0=",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Research on structured dataset for table-to-text model training before:2026-09-17 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 5,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "[2605.15842] Reconstructing temporal multi-relational firm ...",
+        "link": "https://ar5iv.labs.arxiv.org/html/2605.15842",
+        "snippet": "The semiconductor industry is foundational to modern technology, yet its complex global multi-relational firm network remains poorly understood, posing challenges to scientists, firms and policymakers. Traditional anal…",
+        "position": 1
+      },
+      {
+        "title": "XSKILL: Continual Learning from Experience and Skills in ...",
+        "link": "https://arxiv.org/pdf/2603.12056",
+        "snippet": "XSKILL maintains two complementary forms of knowledge: skills and experiences. Skills provide structured task-level guidance for planning and tool orchestration, while experiences provide concise action-level guidance tied to execution context and failure patterns. The framework then uses these two knowledge streams in a continual learning loop.",
+        "position": 2
+      },
+      {
+        "title": "Turning Video Models into Generalist Robot Policies - arXiv.org",
+        "link": "https://arxiv.org/pdf/2605.27817",
+        "snippet": "Recent work proposes robot foundation models that jointly predict future observations and actions by finetuning video models with action-labeled data. In this paper, we test the limits of an alternative approach: leave the video planner as-is while training an embodiment-specific inverse dynamics model (IDM).",
+        "position": 3
+      },
+      {
+        "title": "Beyond Isolated Tasks: A Framework for Evaluating Coding ...",
+        "link": "https://arxiv.org/pdf/2604.03035",
+        "snippet": "Existing datasets for coding agents evaluate performance on isolated, single pull request (PR) tasks in a stateless manner, failing to capture the reality of real-world software development where code changes accumulate, technical debt accrues, and test suites grow over time. To bridge this gap, we introduce an automated coding task generation framework, which helps generate our dataset SWE ...",
+        "position": 4
+      },
+      {
+        "title": "DART: Decoded Attention over Recurrent States for Efficient ...",
+        "link": "https://arxiv.org/pdf/2608.02032",
+        "snippet": "Table 1 reports Pile validation perplexity and accuracy for the trained models, while Table 2 reports zero-shot downstream results. For a public full-attention reference trained under a comparable token budget, we also include Pythia checkpoints (Biderman et al., 2023) released at approximately 100B pretraining tokens in the downstream evaluation.",
+        "position": 5
+      },
+      {
+        "title": "MemoHarness: Agent Harnesses That Learn from Experience",
+        "link": "https://arxiv.org/pdf/2607.14159",
+        "snippet": "Empirical results across in-domain, cross-dataset, and cross-model evaluations showing improved task success under our protocol, selective positive transfer across unseen evaluation suites, gains on the evaluated base-model families, and favorable cost behavior when retrieved context is reusable through caching (§3).",
+        "position": 6
+      },
+      {
+        "title": "No Gaussian Required: Contrastive Inverse Dynamics for JEPA ...",
+        "link": "https://arxiv.org/pdf/2608.17542",
+        "snippet": "The entire inverse branch is discarded after training, leaving the deployed model identical to LeWM. We evaluate AC-MTM as a controlled LeWM modification against SIGReg, a non-contrastive inverse-regression ablation (MTM-MSE), and a contrastive forward-prediction alternative (AC-CPC).",
+        "position": 7
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "hits": [
+    {
+      "rank_on_page": 1,
+      "nominal_rank": 41,
+      "title": "[2605.15842] Reconstructing temporal multi-relational firm ...",
+      "snippet": "The semiconductor industry is foundational to modern technology, yet its complex global multi-relational firm network remains poorly understood, posing challenges to scientists, firms and policymakers. Traditional anal…",
+      "link": "https://ar5iv.labs.arxiv.org/html/2605.15842",
+      "arxiv_id": "2605.15842"
+    },
+    {
+      "rank_on_page": 2,
+      "nominal_rank": 42,
+      "title": "XSKILL: Continual Learning from Experience and Skills in ...",
+      "snippet": "XSKILL maintains two complementary forms of knowledge: skills and experiences. Skills provide structured task-level guidance for planning and tool orchestration, while experiences provide concise action-level guidance tied to execution context and failure patterns. The framework then uses these two knowledge streams in a continual learning loop.",
+      "link": "https://arxiv.org/pdf/2603.12056",
+      "arxiv_id": "2603.12056"
+    },
+    {
+      "rank_on_page": 3,
+      "nominal_rank": 43,
+      "title": "Turning Video Models into Generalist Robot Policies - arXiv.org",
+      "snippet": "Recent work proposes robot foundation models that jointly predict future observations and actions by finetuning video models with action-labeled data. In this paper, we test the limits of an alternative approach: leave the video planner as-is while training an embodiment-specific inverse dynamics model (IDM).",
+      "link": "https://arxiv.org/pdf/2605.27817",
+      "arxiv_id": "2605.27817"
+    },
+    {
+      "rank_on_page": 4,
+      "nominal_rank": 44,
+      "title": "Beyond Isolated Tasks: A Framework for Evaluating Coding ...",
+      "snippet": "Existing datasets for coding agents evaluate performance on isolated, single pull request (PR) tasks in a stateless manner, failing to capture the reality of real-world software development where code changes accumulate, technical debt accrues, and test suites grow over time. To bridge this gap, we introduce an automated coding task generation framework, which helps generate our dataset SWE ...",
+      "link": "https://arxiv.org/pdf/2604.03035",
+      "arxiv_id": "2604.03035"
+    },
+    {
+      "rank_on_page": 5,
+      "nominal_rank": 45,
+      "title": "DART: Decoded Attention over Recurrent States for Efficient ...",
+      "snippet": "Table 1 reports Pile validation perplexity and accuracy for the trained models, while Table 2 reports zero-shot downstream results. For a public full-attention reference trained under a comparable token budget, we also include Pythia checkpoints (Biderman et al., 2023) released at approximately 100B pretraining tokens in the downstream evaluation.",
+      "link": "https://arxiv.org/pdf/2608.02032",
+      "arxiv_id": "2608.02032"
+    },
+    {
+      "rank_on_page": 6,
+      "nominal_rank": 46,
+      "title": "MemoHarness: Agent Harnesses That Learn from Experience",
+      "snippet": "Empirical results across in-domain, cross-dataset, and cross-model evaluations showing improved task success under our protocol, selective positive transfer across unseen evaluation suites, gains on the evaluated base-model families, and favorable cost behavior when retrieved context is reusable through caching (§3).",
+      "link": "https://arxiv.org/pdf/2607.14159",
+      "arxiv_id": "2607.14159"
+    },
+    {
+      "rank_on_page": 7,
+      "nominal_rank": 47,
+      "title": "No Gaussian Required: Contrastive Inverse Dynamics for JEPA ...",
+      "snippet": "The entire inverse branch is discarded after training, leaving the deployed model identical to LeWM. We evaluate AC-MTM as a controlled LeWM modification against SIGReg, a non-contrastive inverse-regression ablation (MTM-MSE), and a contrastive forward-prediction alternative (AC-CPC).",
+      "link": "https://arxiv.org/pdf/2608.17542",
+      "arxiv_id": "2608.17542"
+    }
+  ],
+  "gold_hit_nominal_ranks": [],
+  "retryable": false,
+  "finished_utc": "2026-09-17T12:44:50.385242+00:00",
+  "elapsed_seconds": 3.8684573471546173
+}

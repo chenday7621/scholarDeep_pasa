@@ -1,0 +1,1508 @@
+{
+  "experiment": "LITSEARCH_RETRIEVAL_FAILURE_AUDIT_004",
+  "status": "FROZEN_BEFORE_REQUESTS",
+  "frozen_utc": "2026-09-17T12:22:43.503758+00:00",
+  "offline_evidence_sha256": "6781e90f05caf54347f4eb3ce25fa34db259d0417a2428d54f0f727a1cb9d7d1",
+  "input_manifest_sha256": "8dfb7c7cac747dd3a8e750077c61f2eef235790e7fc37d21720eb11e7829e111",
+  "gt_aware": true,
+  "not_a_deployable_policy": true,
+  "purpose": "Failure attribution only; never a controller, performance estimate, or candidate replacement.",
+  "probe_panel": [
+    "exact_gt_title",
+    "gt_core_phrase",
+    "original_question"
+  ],
+  "request_parameters": {
+    "provider": "Serper",
+    "num": 10,
+    "page": 1,
+    "before": "2026-09-17",
+    "site": "arxiv.org"
+  },
+  "retry_policy": "At most 3 attempts for transport, HTTP 429, or HTTP 5xx; never repeat a successful response.",
+  "probes": [
+    {
+      "sequence": 1,
+      "question_id": "Q01",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "EEL: Efficiently Encoding Lattices for Reranking",
+      "gold_arxiv_id": "2306.00947",
+      "payload": {
+        "q": "EEL: Efficiently Encoding Lattices for Reranking before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 2,
+      "question_id": "Q01",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "eel efficiently encoding lattices reranking",
+      "gold_arxiv_id": "2306.00947",
+      "payload": {
+        "q": "eel efficiently encoding lattices reranking before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 3,
+      "question_id": "Q01",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "Is there any work that allows large numbers of model outputs to be encoded and compared by causal language models in a single forward pass?",
+      "gold_arxiv_id": "2306.00947",
+      "payload": {
+        "q": "Is there any work that allows large numbers of model outputs to be encoded and compared by causal language models in a single forward pass? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 4,
+      "question_id": "Q03",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "DSRM: Boost Textual Adversarial Training with Distribution Shift Risk Minimization",
+      "gold_arxiv_id": "2306.15164",
+      "payload": {
+        "q": "DSRM: Boost Textual Adversarial Training with Distribution Shift Risk Minimization before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 5,
+      "question_id": "Q03",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "dsrm boost textual adversarial distribution shift",
+      "gold_arxiv_id": "2306.15164",
+      "payload": {
+        "q": "dsrm boost textual adversarial distribution shift before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 6,
+      "question_id": "Q03",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "Which paper introduce a DRO (distribution robust optimization) like training objective for doing adversarial training without constructing adversarial samples.",
+      "gold_arxiv_id": "2306.15164",
+      "payload": {
+        "q": "Which paper introduce a DRO (distribution robust optimization) like training objective for doing adversarial training without constructing adversarial samples. before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 7,
+      "question_id": "Q05",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "One Network, Many Masks: Towards More Parameter-Efficient Transfer Learning",
+      "gold_arxiv_id": "2305.17682",
+      "payload": {
+        "q": "One Network, Many Masks: Towards More Parameter-Efficient Transfer Learning before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 8,
+      "question_id": "Q05",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "one network many masks parameter transfer",
+      "gold_arxiv_id": "2305.17682",
+      "payload": {
+        "q": "one network many masks parameter transfer before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 9,
+      "question_id": "Q05",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "Which paper first proposed shared adapter module across layers?",
+      "gold_arxiv_id": "2305.17682",
+      "payload": {
+        "q": "Which paper first proposed shared adapter module across layers? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 10,
+      "question_id": "Q06",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "Chain-of-Skills: A Configurable Model for Open-Domain Question Answering",
+      "gold_arxiv_id": "2305.03130",
+      "payload": {
+        "q": "Chain-of-Skills: A Configurable Model for Open-Domain Question Answering before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 11,
+      "question_id": "Q06",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "chain skills configurable open domain question",
+      "gold_arxiv_id": "2305.03130",
+      "payload": {
+        "q": "chain skills configurable open domain question before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 12,
+      "question_id": "Q06",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "Are there any papers that build dense retrievers with mixture-of-experts architecture where each expert is responsible for different types of queries?",
+      "gold_arxiv_id": "2305.03130",
+      "payload": {
+        "q": "Are there any papers that build dense retrievers with mixture-of-experts architecture where each expert is responsible for different types of queries? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 13,
+      "question_id": "Q08",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "HOW TO CATCH AN AI LIAR: LIE DETECTION IN BLACK-BOX LLMS BY ASKING UNRELATED QUESTIONS",
+      "gold_arxiv_id": "2309.15840",
+      "payload": {
+        "q": "HOW TO CATCH AN AI LIAR: LIE DETECTION IN BLACK-BOX LLMS BY ASKING UNRELATED QUESTIONS before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 14,
+      "question_id": "Q08",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "catch ai liar lie detection black",
+      "gold_arxiv_id": "2309.15840",
+      "payload": {
+        "q": "catch ai liar lie detection black before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 15,
+      "question_id": "Q08",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "Are there any papers that study whether you can identify if a LLM has been instructed to hide some information?",
+      "gold_arxiv_id": "2309.15840",
+      "payload": {
+        "q": "Are there any papers that study whether you can identify if a LLM has been instructed to hide some information? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 16,
+      "question_id": "Q09",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "PARL: A Unified Framework for Policy Alignment in Reinforcement Learning",
+      "gold_arxiv_id": "2308.02585",
+      "payload": {
+        "q": "PARL: A Unified Framework for Policy Alignment in Reinforcement Learning before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 17,
+      "question_id": "Q09",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "parl unified policy alignment reinforcement",
+      "gold_arxiv_id": "2308.02585",
+      "payload": {
+        "q": "parl unified policy alignment reinforcement before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 18,
+      "question_id": "Q09",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "Which is one of the first papers to highlight and resolve the distribution shift in RLHF?",
+      "gold_arxiv_id": "2308.02585",
+      "payload": {
+        "q": "Which is one of the first papers to highlight and resolve the distribution shift in RLHF? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 19,
+      "question_id": "Q10",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "Learning Dynamic Contextualised Word Embeddings via Template-based Temporal Adaptation",
+      "gold_arxiv_id": "2208.10734",
+      "payload": {
+        "q": "Learning Dynamic Contextualised Word Embeddings via Template-based Temporal Adaptation before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 20,
+      "question_id": "Q10",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "dynamic contextualised word embeddings template temporal",
+      "gold_arxiv_id": "2208.10734",
+      "payload": {
+        "q": "dynamic contextualised word embeddings template temporal before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 21,
+      "question_id": "Q10",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "Which paper used both automatically generated and manual templates with word tuples to adapt language models from one timestamp to another?",
+      "gold_arxiv_id": "2208.10734",
+      "payload": {
+        "q": "Which paper used both automatically generated and manual templates with word tuples to adapt language models from one timestamp to another? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 22,
+      "question_id": "Q11",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "TEMPO: PROMPT-BASED GENERATIVE PRE-TRAINED TRANSFORMER FOR TIME SERIES FORECASTING",
+      "gold_arxiv_id": "2310.04948",
+      "payload": {
+        "q": "TEMPO: PROMPT-BASED GENERATIVE PRE-TRAINED TRANSFORMER FOR TIME SERIES FORECASTING before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 23,
+      "question_id": "Q11",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "tempo prompt generative pre trained transformer",
+      "gold_arxiv_id": "2310.04948",
+      "payload": {
+        "q": "tempo prompt generative pre trained transformer before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 24,
+      "question_id": "Q11",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "Which foundation model paper first proposed a time series model with proposed financial time series and text data?",
+      "gold_arxiv_id": "2310.04948",
+      "payload": {
+        "q": "Which foundation model paper first proposed a time series model with proposed financial time series and text data? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 25,
+      "question_id": "Q12",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "Headless Language Models: Learning without Predicting with Contrastive Weight Tying",
+      "gold_arxiv_id": "2309.08351",
+      "payload": {
+        "q": "Headless Language Models: Learning without Predicting with Contrastive Weight Tying before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 26,
+      "question_id": "Q12",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "headless without predicting contrastive weight tying",
+      "gold_arxiv_id": "2309.08351",
+      "payload": {
+        "q": "headless without predicting contrastive weight tying before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 27,
+      "question_id": "Q12",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "What paper mitigates the vocabulary size limitation when pretraining multilingual masked language models using a contrastive loss?",
+      "gold_arxiv_id": "2309.08351",
+      "payload": {
+        "q": "What paper mitigates the vocabulary size limitation when pretraining multilingual masked language models using a contrastive loss? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 28,
+      "question_id": "Q14",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "On the Blind Spots of Model-Based Evaluation Metrics for Text Generation",
+      "gold_arxiv_id": "2212.10020",
+      "payload": {
+        "q": "On the Blind Spots of Model-Based Evaluation Metrics for Text Generation before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 29,
+      "question_id": "Q14",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "blind spots metrics",
+      "gold_arxiv_id": "2212.10020",
+      "payload": {
+        "q": "blind spots metrics before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 30,
+      "question_id": "Q14",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "Which paper first conducted the positioned error test for the MAUVE metric?",
+      "gold_arxiv_id": "2212.10020",
+      "payload": {
+        "q": "Which paper first conducted the positioned error test for the MAUVE metric? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 31,
+      "question_id": "Q15",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "ControlVideo: Training-free Controllable Text-to-Video Generation",
+      "gold_arxiv_id": "2305.13077",
+      "payload": {
+        "q": "ControlVideo: Training-free Controllable Text-to-Video Generation before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 32,
+      "question_id": "Q15",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "controlvideo free controllable video",
+      "gold_arxiv_id": "2305.13077",
+      "payload": {
+        "q": "controlvideo free controllable video before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 33,
+      "question_id": "Q15",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "What paper first adapted ControlNet to generate continuous videos in a training-free manner?",
+      "gold_arxiv_id": "2305.13077",
+      "payload": {
+        "q": "What paper first adapted ControlNet to generate continuous videos in a training-free manner? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 34,
+      "question_id": "Q16",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "Seer: Language Instructed Video Prediction with Latent Diffusion Models",
+      "gold_arxiv_id": "2303.14897",
+      "payload": {
+        "q": "Seer: Language Instructed Video Prediction with Latent Diffusion Models before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 35,
+      "question_id": "Q16",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "seer instructed video prediction latent diffusion",
+      "gold_arxiv_id": "2303.14897",
+      "payload": {
+        "q": "seer instructed video prediction latent diffusion before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 36,
+      "question_id": "Q16",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "In video diffusion models, is there any paper that tried decomposing video instruction into sub instructions of different time?",
+      "gold_arxiv_id": "2303.14897",
+      "payload": {
+        "q": "In video diffusion models, is there any paper that tried decomposing video instruction into sub instructions of different time? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 37,
+      "question_id": "Q18",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "MAMMOTH: BUILDING MATH GENERALIST MODELS THROUGH HYBRID INSTRUCTION TUNING",
+      "gold_arxiv_id": "2309.05653",
+      "payload": {
+        "q": "MAMMOTH: BUILDING MATH GENERALIST MODELS THROUGH HYBRID INSTRUCTION TUNING before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 38,
+      "question_id": "Q18",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "mammoth building math generalist hybrid instruction",
+      "gold_arxiv_id": "2309.05653",
+      "payload": {
+        "q": "mammoth building math generalist hybrid instruction before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 39,
+      "question_id": "Q18",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "Which paper first tried to fine-tune LLMs with chain-of-thoughts and program-of-thoughts for math reasoning?",
+      "gold_arxiv_id": "2309.05653",
+      "payload": {
+        "q": "Which paper first tried to fine-tune LLMs with chain-of-thoughts and program-of-thoughts for math reasoning? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 40,
+      "question_id": "Q20",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "Composition-contrastive Learning for Sentence Embeddings",
+      "gold_arxiv_id": "2307.07380",
+      "payload": {
+        "q": "Composition-contrastive Learning for Sentence Embeddings before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 41,
+      "question_id": "Q20",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "composition contrastive sentence embeddings",
+      "gold_arxiv_id": "2307.07380",
+      "payload": {
+        "q": "composition contrastive sentence embeddings before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 42,
+      "question_id": "Q20",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "What are some data-efficient ways to learn text embeddings thru contrastive learning?",
+      "gold_arxiv_id": "2307.07380",
+      "payload": {
+        "q": "What are some data-efficient ways to learn text embeddings thru contrastive learning? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 43,
+      "question_id": "Q21",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "Query-Efficient Black-Box Red Teaming via Bayesian Optimization",
+      "gold_arxiv_id": "2305.17444",
+      "payload": {
+        "q": "Query-Efficient Black-Box Red Teaming via Bayesian Optimization before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 44,
+      "question_id": "Q21",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "query black box red teaming bayesian",
+      "gold_arxiv_id": "2305.17444",
+      "payload": {
+        "q": "query black box red teaming bayesian before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 45,
+      "question_id": "Q21",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "Is there any paper that utilizes Gaussian processes to analyze the vulnerability of text-conditioned generative models?",
+      "gold_arxiv_id": "2305.17444",
+      "payload": {
+        "q": "Is there any paper that utilizes Gaussian processes to analyze the vulnerability of text-conditioned generative models? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 46,
+      "question_id": "Q23",
+      "group": "author-written",
+      "kind": "exact_gt_title",
+      "query": "MPCHAT: Towards Multimodal Persona-Grounded Conversation",
+      "gold_arxiv_id": "2305.17388",
+      "payload": {
+        "q": "MPCHAT: Towards Multimodal Persona-Grounded Conversation before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 47,
+      "question_id": "Q23",
+      "group": "author-written",
+      "kind": "gt_core_phrase",
+      "query": "mpchat multimodal persona grounded conversation",
+      "gold_arxiv_id": "2305.17388",
+      "payload": {
+        "q": "mpchat multimodal persona grounded conversation before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 48,
+      "question_id": "Q23",
+      "group": "author-written",
+      "kind": "original_question",
+      "query": "Is there a dialogue dataset where a speaker's utterance is grounded in their persona, consisting of image-text pairs representing their episodic memories?",
+      "gold_arxiv_id": "2305.17388",
+      "payload": {
+        "q": "Is there a dialogue dataset where a speaker's utterance is grounded in their persona, consisting of image-text pairs representing their episodic memories? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 49,
+      "question_id": "Q25",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "Surface Form Competition: Why the Highest Probability Answer Isn't Always Right",
+      "gold_arxiv_id": "2104.08315",
+      "payload": {
+        "q": "Surface Form Competition: Why the Highest Probability Answer Isn't Always Right before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 50,
+      "question_id": "Q25",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "surface form competition highest probability answer",
+      "gold_arxiv_id": "2104.08315",
+      "payload": {
+        "q": "surface form competition highest probability answer before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 51,
+      "question_id": "Q25",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Are there papers that propose contextualized calibration for the probability of answers in language models?",
+      "gold_arxiv_id": "2104.08315",
+      "payload": {
+        "q": "Are there papers that propose contextualized calibration for the probability of answers in language models? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 52,
+      "question_id": "Q26",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "Combining Lexical and Dense Retrieval for Computationally Efficient Multi-hop Question Answering",
+      "gold_arxiv_id": "2106.08433",
+      "payload": {
+        "q": "Combining Lexical and Dense Retrieval for Computationally Efficient Multi-hop Question Answering before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 53,
+      "question_id": "Q26",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "combining lexical dense retrieval computationally multi",
+      "gold_arxiv_id": "2106.08433",
+      "payload": {
+        "q": "combining lexical dense retrieval computationally multi before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 54,
+      "question_id": "Q26",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "In multi-hop question answering, is there a paper that explores \"per-hop\" retrieval evaluation that treats each hop of retrieval independently?",
+      "gold_arxiv_id": "2106.08433",
+      "payload": {
+        "q": "In multi-hop question answering, is there a paper that explores \"per-hop\" retrieval evaluation that treats each hop of retrieval independently? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 55,
+      "question_id": "Q27",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "Dynabench: Rethinking Benchmarking in NLP",
+      "gold_arxiv_id": "2104.14337",
+      "payload": {
+        "q": "Dynabench: Rethinking Benchmarking in NLP before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 56,
+      "question_id": "Q27",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "dynabench rethinking benchmarking nlp",
+      "gold_arxiv_id": "2104.14337",
+      "payload": {
+        "q": "dynabench rethinking benchmarking nlp before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 57,
+      "question_id": "Q27",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Which paper presents a platform that emphasizes evaluating the robustness of models on benchmarks?",
+      "gold_arxiv_id": "2104.14337",
+      "payload": {
+        "q": "Which paper presents a platform that emphasizes evaluating the robustness of models on benchmarks? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 58,
+      "question_id": "Q29",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "SQUARE: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration",
+      "gold_arxiv_id": "2305.17696",
+      "payload": {
+        "q": "SQUARE: A Large-Scale Dataset of Sensitive Questions and Acceptable Responses Created Through Human-Machine Collaboration before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 59,
+      "question_id": "Q29",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "square scale sensitive questions acceptable responses",
+      "gold_arxiv_id": "2305.17696",
+      "payload": {
+        "q": "square scale sensitive questions acceptable responses before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 60,
+      "question_id": "Q29",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "*Could you suggest a dataset with legally or ethically contentious content, and labels for acceptable and non-acceptable questions.",
+      "gold_arxiv_id": "2305.17696",
+      "payload": {
+        "q": "*Could you suggest a dataset with legally or ethically contentious content, and labels for acceptable and non-acceptable questions. before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 61,
+      "question_id": "Q30",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
+      "gold_arxiv_id": "2101.00190",
+      "payload": {
+        "q": "Prefix-Tuning: Optimizing Continuous Prompts for Generation before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 62,
+      "question_id": "Q30",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "prefix tuning optimizing continuous prompts",
+      "gold_arxiv_id": "2101.00190",
+      "payload": {
+        "q": "prefix tuning optimizing continuous prompts before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 63,
+      "question_id": "Q30",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Which method involves training additional prompt tokens for every layer during the fine-tuning of language models, specifically evaluating their performance on generation tasks?",
+      "gold_arxiv_id": "2101.00190",
+      "payload": {
+        "q": "Which method involves training additional prompt tokens for every layer during the fine-tuning of language models, specifically evaluating their performance on generation tasks? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 64,
+      "question_id": "Q31",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "DART: Open-Domain Structured Data Record to Text Generation",
+      "gold_arxiv_id": "2007.02871",
+      "payload": {
+        "q": "DART: Open-Domain Structured Data Record to Text Generation before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 65,
+      "question_id": "Q31",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "dart open domain structured record",
+      "gold_arxiv_id": "2007.02871",
+      "payload": {
+        "q": "dart open domain structured record before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 66,
+      "question_id": "Q31",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Could you suggest a triplet-formatted structured dataset suitable for training table-to-text generation models?",
+      "gold_arxiv_id": "2007.02871",
+      "payload": {
+        "q": "Could you suggest a triplet-formatted structured dataset suitable for training table-to-text generation models? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 67,
+      "question_id": "Q32",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "Structured Pruning Learns Compact and Accurate Models",
+      "gold_arxiv_id": "2204.00408",
+      "payload": {
+        "q": "Structured Pruning Learns Compact and Accurate Models before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 68,
+      "question_id": "Q32",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "structured pruning learns compact accurate",
+      "gold_arxiv_id": "2204.00408",
+      "payload": {
+        "q": "structured pruning learns compact accurate before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 69,
+      "question_id": "Q32",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Could you recommend research that employs a relaxed l0 regularization for structured pruning to downsize language models with transformer architectures?",
+      "gold_arxiv_id": "2204.00408",
+      "payload": {
+        "q": "Could you recommend research that employs a relaxed l0 regularization for structured pruning to downsize language models with transformer architectures? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 70,
+      "question_id": "Q34",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "IGA: An Intent-Guided Authoring Assistant",
+      "gold_arxiv_id": "2104.07000",
+      "payload": {
+        "q": "IGA: An Intent-Guided Authoring Assistant before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 71,
+      "question_id": "Q34",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "iga intent guided authoring assistant",
+      "gold_arxiv_id": "2104.07000",
+      "payload": {
+        "q": "iga intent guided authoring assistant before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 72,
+      "question_id": "Q34",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Could you recommend a paper that builds a writing assistant with autocomplete capabilities conditioned on user intent?",
+      "gold_arxiv_id": "2104.07000",
+      "payload": {
+        "q": "Could you recommend a paper that builds a writing assistant with autocomplete capabilities conditioned on user intent? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 73,
+      "question_id": "Q35",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "Hierarchical Transformer for Task Oriented Dialog Systems",
+      "gold_arxiv_id": "2011.08067",
+      "payload": {
+        "q": "Hierarchical Transformer for Task Oriented Dialog Systems before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 74,
+      "question_id": "Q35",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "hierarchical transformer oriented dialog",
+      "gold_arxiv_id": "2011.08067",
+      "payload": {
+        "q": "hierarchical transformer oriented dialog before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 75,
+      "question_id": "Q35",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Could you suggest research that investigates how hierarchical structures within transformers enhance task-oriented dialogue systems?",
+      "gold_arxiv_id": "2011.08067",
+      "payload": {
+        "q": "Could you suggest research that investigates how hierarchical structures within transformers enhance task-oriented dialogue systems? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 76,
+      "question_id": "Q36",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text",
+      "gold_arxiv_id": "2107.00061",
+      "payload": {
+        "q": "All That's 'Human' Is Not Gold: Evaluating Human Evaluation of Generated Text before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 77,
+      "question_id": "Q36",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "all human not gold evaluating human",
+      "gold_arxiv_id": "2107.00061",
+      "payload": {
+        "q": "all human not gold evaluating human before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 78,
+      "question_id": "Q36",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Have any research papers investigated human capacity to distinguish AI-generated text from human-authored text?",
+      "gold_arxiv_id": "2107.00061",
+      "payload": {
+        "q": "Have any research papers investigated human capacity to distinguish AI-generated text from human-authored text? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 79,
+      "question_id": "Q37",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "OpenPrompt: An Open-source Framework for Prompt-learning",
+      "gold_arxiv_id": "2111.01998",
+      "payload": {
+        "q": "OpenPrompt: An Open-source Framework for Prompt-learning before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 80,
+      "question_id": "Q37",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "openprompt open source prompt",
+      "gold_arxiv_id": "2111.01998",
+      "payload": {
+        "q": "openprompt open source prompt before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 81,
+      "question_id": "Q37",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Where can I find a database of good prompts to use for prompting language models for in-context learning?",
+      "gold_arxiv_id": "2111.01998",
+      "payload": {
+        "q": "Where can I find a database of good prompts to use for prompting language models for in-context learning? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 82,
+      "question_id": "Q39",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "SSD-LM: Semi-autoregressive Simplex-based Diffusion Language Model for Text Generation and Modular Control",
+      "gold_arxiv_id": "2210.17432",
+      "payload": {
+        "q": "SSD-LM: Semi-autoregressive Simplex-based Diffusion Language Model for Text Generation and Modular Control before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 83,
+      "question_id": "Q39",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "ssd lm semi autoregressive simplex diffusion",
+      "gold_arxiv_id": "2210.17432",
+      "payload": {
+        "q": "ssd lm semi autoregressive simplex diffusion before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 84,
+      "question_id": "Q39",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Could you suggest research that examines the effects of starting language models with weights from pretrained nondiffusion models on the convergence behavior of diffusion losses?",
+      "gold_arxiv_id": "2210.17432",
+      "payload": {
+        "q": "Could you suggest research that examines the effects of starting language models with weights from pretrained nondiffusion models on the convergence behavior of diffusion losses? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 85,
+      "question_id": "Q40",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "Action-Based Conversations Dataset: A Corpus for Building More In-Depth Task-Oriented Dialogue Systems",
+      "gold_arxiv_id": "2104.00783",
+      "payload": {
+        "q": "Action-Based Conversations Dataset: A Corpus for Building More In-Depth Task-Oriented Dialogue Systems before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 86,
+      "question_id": "Q40",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "action conversations corpus building depth oriented",
+      "gold_arxiv_id": "2104.00783",
+      "payload": {
+        "q": "action conversations corpus building depth oriented before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 87,
+      "question_id": "Q40",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Is there a research paper that has developed a customer service conversation dataset aimed at forecasting customer intentions, taking into account the limitations imposed by agent protocols?",
+      "gold_arxiv_id": "2104.00783",
+      "payload": {
+        "q": "Is there a research paper that has developed a customer service conversation dataset aimed at forecasting customer intentions, taking into account the limitations imposed by agent protocols? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 88,
+      "question_id": "Q41",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "SPLAT: Speech-Language Joint Pre-Training for Spoken Language Understanding",
+      "gold_arxiv_id": "2010.02295",
+      "payload": {
+        "q": "SPLAT: Speech-Language Joint Pre-Training for Spoken Language Understanding before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 89,
+      "question_id": "Q41",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "splat speech joint pre spoken understanding",
+      "gold_arxiv_id": "2010.02295",
+      "payload": {
+        "q": "splat speech joint pre spoken understanding before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 90,
+      "question_id": "Q41",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Could you recommend a study that investigates enhancing token alignment in speech processing by employing inverse document frequency (idf)?",
+      "gold_arxiv_id": "2010.02295",
+      "payload": {
+        "q": "Could you recommend a study that investigates enhancing token alignment in speech processing by employing inverse document frequency (idf)? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 91,
+      "question_id": "Q42",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "mT5: A massively multilingual pre-trained text-to-text transformer",
+      "gold_arxiv_id": "2010.11934",
+      "payload": {
+        "q": "mT5: A massively multilingual pre-trained text-to-text transformer before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 92,
+      "question_id": "Q42",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "mt5 massively multilingual pre trained transformer",
+      "gold_arxiv_id": "2010.11934",
+      "payload": {
+        "q": "mt5 massively multilingual pre trained transformer before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 93,
+      "question_id": "Q42",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Could you recommend a study that explores a pre-trained multilingual text-to-text transformer applicable to text summarization tasks?",
+      "gold_arxiv_id": "2010.11934",
+      "payload": {
+        "q": "Could you recommend a study that explores a pre-trained multilingual text-to-text transformer applicable to text summarization tasks? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 94,
+      "question_id": "Q43",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "GenIE: Generative Information Extraction",
+      "gold_arxiv_id": "2112.08340",
+      "payload": {
+        "q": "GenIE: Generative Information Extraction before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 95,
+      "question_id": "Q43",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "genie generative information extraction",
+      "gold_arxiv_id": "2112.08340",
+      "payload": {
+        "q": "genie generative information extraction before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 96,
+      "question_id": "Q43",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Could you suggest a research article that explores generative methods for extracting information, specifically one that covers the generation of surface forms, labeling of entities, and classification of entity types?",
+      "gold_arxiv_id": "2112.08340",
+      "payload": {
+        "q": "Could you suggest a research article that explores generative methods for extracting information, specifically one that covers the generation of surface forms, labeling of entities, and classification of entity types? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 97,
+      "question_id": "Q44",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction",
+      "gold_arxiv_id": "2112.01488",
+      "payload": {
+        "q": "ColBERTv2: Effective and Efficient Retrieval via Lightweight Late Interaction before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 98,
+      "question_id": "Q44",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "colbertv2 retrieval lightweight late interaction",
+      "gold_arxiv_id": "2112.01488",
+      "payload": {
+        "q": "colbertv2 retrieval lightweight late interaction before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 99,
+      "question_id": "Q44",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "What are some scholarly articles that explore the enhancement of dense retrieval in student models through the application of prediction distributions from teacher models?",
+      "gold_arxiv_id": "2112.01488",
+      "payload": {
+        "q": "What are some scholarly articles that explore the enhancement of dense retrieval in student models through the application of prediction distributions from teacher models? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 100,
+      "question_id": "Q45",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "KQA Pro: A Dataset with Explicit Compositional Programs for Complex Question Answering over Knowledge Base",
+      "gold_arxiv_id": "2007.03875",
+      "payload": {
+        "q": "KQA Pro: A Dataset with Explicit Compositional Programs for Complex Question Answering over Knowledge Base before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 101,
+      "question_id": "Q45",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "kqa pro explicit compositional programs complex",
+      "gold_arxiv_id": "2007.03875",
+      "payload": {
+        "q": "kqa pro explicit compositional programs complex before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 102,
+      "question_id": "Q45",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Could you suggest a dataset containing diverse, intricate natural language queries that necessitate multi-step reasoning, comparing attributes, and performing set operations for answering questions from a knowledge base, without depending on entity linking?",
+      "gold_arxiv_id": "2007.03875",
+      "payload": {
+        "q": "Could you suggest a dataset containing diverse, intricate natural language queries that necessitate multi-step reasoning, comparing attributes, and performing set operations for answering questions from a knowledge base, without depending on entity linking? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 103,
+      "question_id": "Q46",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "CrossWeigh: Training Named Entity Tagger from Imperfect Annotations",
+      "gold_arxiv_id": "1909.01441",
+      "payload": {
+        "q": "CrossWeigh: Training Named Entity Tagger from Imperfect Annotations before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 104,
+      "question_id": "Q46",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "crossweigh named entity tagger imperfect annotations",
+      "gold_arxiv_id": "1909.01441",
+      "payload": {
+        "q": "crossweigh named entity tagger imperfect annotations before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 105,
+      "question_id": "Q46",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "In the context of Named Entity Recognition tasks across multiple languages, which work highlights the necessity of retrieving related knowledge to aid in the annotation of ambiguous named entities?",
+      "gold_arxiv_id": "1909.01441",
+      "payload": {
+        "q": "In the context of Named Entity Recognition tasks across multiple languages, which work highlights the necessity of retrieving related knowledge to aid in the annotation of ambiguous named entities? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 106,
+      "question_id": "Q47",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "Prevent the Language Model from being Overconfident in Neural Machine Translation",
+      "gold_arxiv_id": "2105.11098",
+      "payload": {
+        "q": "Prevent the Language Model from being Overconfident in Neural Machine Translation before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 107,
+      "question_id": "Q47",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "prevent overconfident machine translation",
+      "gold_arxiv_id": "2105.11098",
+      "payload": {
+        "q": "prevent overconfident machine translation before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 108,
+      "question_id": "Q47",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Which work suggests that machine translation models might get too confident and generate coherent but inadequant translations?",
+      "gold_arxiv_id": "2105.11098",
+      "payload": {
+        "q": "Which work suggests that machine translation models might get too confident and generate coherent but inadequant translations? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 109,
+      "question_id": "Q48",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "Predicting Native Language from Gaze",
+      "gold_arxiv_id": "1704.07398",
+      "payload": {
+        "q": "Predicting Native Language from Gaze before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 110,
+      "question_id": "Q48",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "predicting native gaze",
+      "gold_arxiv_id": "1704.07398",
+      "payload": {
+        "q": "predicting native gaze before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 111,
+      "question_id": "Q48",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts?",
+      "gold_arxiv_id": "1704.07398",
+      "payload": {
+        "q": "Could you direct me towards a study that explores the potential to predict a reader's native language based on their eye movement patterns while reading English texts? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 112,
+      "question_id": "Q49",
+      "group": "inline-citation",
+      "kind": "exact_gt_title",
+      "query": "A Top-Down Neural Architecture towards Text-Level Parsing of Discourse Rhetorical Structure",
+      "gold_arxiv_id": "2005.02680",
+      "payload": {
+        "q": "A Top-Down Neural Architecture towards Text-Level Parsing of Discourse Rhetorical Structure before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 113,
+      "question_id": "Q49",
+      "group": "inline-citation",
+      "kind": "gt_core_phrase",
+      "query": "top down architecture level parsing discourse",
+      "gold_arxiv_id": "2005.02680",
+      "payload": {
+        "q": "top down architecture level parsing discourse before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    },
+    {
+      "sequence": 114,
+      "question_id": "Q49",
+      "group": "inline-citation",
+      "kind": "original_question",
+      "query": "In discourse parsing literature, which works have explored parser performance by adopting the original Parseval procedure and reporting micro-averaged F1 scores?",
+      "gold_arxiv_id": "2005.02680",
+      "payload": {
+        "q": "In discourse parsing literature, which works have explored parser performance by adopting the original Parseval procedure and reporting micro-averaged F1 scores? before:2026-09-17 site:arxiv.org",
+        "num": 10,
+        "page": 1
+      }
+    }
+  ],
+  "requests_at_freeze": 0
+}

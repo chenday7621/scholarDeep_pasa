@@ -1,0 +1,104 @@
+{
+  "global_attempt_sequence": 130,
+  "query_id": "Q21",
+  "query_key": "q4",
+  "attempt": 1,
+  "query_text": "Studies on how different responses to the same prompt affect SFT model",
+  "request_payload": {
+    "q": "Studies on how different responses to the same prompt affect SFT model before:2024-09-24 site:arxiv.org",
+    "num": 10,
+    "page": 1
+  },
+  "artifact_path": "/home/chenyi/pasa/query_planner_v1_2_search_ab_001/requests/Q21_q4_attempt1.json",
+  "started_utc": "2026-09-15T06:27:19.351020+00:00",
+  "http_status": 200,
+  "response_text": "{\"searchParameters\":{\"q\":\"Studies on how different responses to the same prompt affect SFT model before:2024-09-24 site:arxiv.org\",\"type\":\"search\",\"num\":10,\"page\":1,\"engine\":\"google\"},\"organic\":[{\"title\":\"Enhancing Large Language Model Performance To Answer ... - arXiv\",\"link\":\"https://arxiv.org/html/2402.01722v1\",\"snippet\":\"Large Language Models (LLMs) generate responses to questions; however, their effectiveness is often hindered by sub-optimal quality of answers and occasional ...\",\"date\":\"Jan 27, 2024\",\"position\":1},{\"title\":\"[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv\",\"link\":\"https://arxiv.org/pdf/2401.01335\",\"snippet\":\"Specifically, when presented with two responses y and y′ to the same prompt x, ft+1 assesses the values ft+1(x, y) and ft+1(x, y′). Starting from iteration 1, ...\",\"date\":\"Jun 14, 2024\",\"position\":2},{\"title\":\"A Closer Look at the Limitations of Instruction Tuning - arXiv\",\"link\":\"https://arxiv.org/html/2402.05119v5\",\"snippet\":\"SFT and style imitation lead the model to inaccurately include tokens from the IT dataset in its responses, negatively affecting response quality.\",\"date\":\"Jul 14, 2024\",\"position\":3},{\"title\":\"Training language models to follow instructions with human feedback\",\"link\":\"https://ar5iv.labs.arxiv.org/html/2203.02155\",\"snippet\":\"From these prompts, we produce three different datasets used in our fine-tuning procedure: (1) our SFT dataset, with labeler demonstrations used to train our ...\",\"date\":\"Jan 27, 2022\",\"position\":4},{\"title\":\"Unpacking DPO and PPO: Disentangling Best Practices for Learning ...\",\"link\":\"https://arxiv.org/html/2406.09279v1\",\"snippet\":\"Using unlabelled prompts that better match the test setting during policy can further improve model performance in domain-specific settings\",\"date\":\"Jun 13, 2024\",\"position\":5},{\"title\":\"Self-Rewarding Language Models - arXiv\",\"link\":\"https://arxiv.org/html/2401.10020v1/\",\"snippet\":\"Abstract. We posit that to achieve superhuman agents, future models require superhuman feedback in order to provide an adequate training signal.\",\"date\":\"Jan 18, 2024\",\"position\":6},{\"title\":\"When Can LLMs Actually Correct Their Own Mistakes?A Critical ...\",\"link\":\"https://arxiv.org/html/2406.01297v1\",\"snippet\":\"Cross-model correction generates feedback or refines the responses using models different from the model that generates initial responses.\",\"date\":\"Jun 3, 2024\",\"position\":7},{\"title\":\"UltraFeedback: Boosting Language Models with Scaled AI Feedback\",\"link\":\"https://arxiv.org/html/2310.01377v2\",\"snippet\":\"Preference data, which rates and compares different responses given the same prompt, is central to feedback learning. When scaled sufficiently, preference ...\",\"date\":\"Jul 16, 2024\",\"position\":8},{\"title\":\"Lower-Resource Languages Raise More Safety Concerns - arXiv\",\"link\":\"https://arxiv.org/html/2401.13136v1\",\"snippet\":\"We use the same translation model to translate the response back into English and evaluate whether the responses exhibit safety concerns. Report issue for ...\",\"date\":\"Jan 23, 2024\",\"position\":9},{\"title\":\"Large Language Models: A Survey - arXiv\",\"link\":\"https://arxiv.org/html/2402.06196v2\",\"snippet\":\"If you send the same prompt to an LLM several times, you are likely to get different responses. While there are parameters, and in particular the ...\",\"date\":\"Feb 20, 2024\",\"position\":10}],\"credits\":1}",
+  "response_bytes_base64": "eyJzZWFyY2hQYXJhbWV0ZXJzIjp7InEiOiJTdHVkaWVzIG9uIGhvdyBkaWZmZXJlbnQgcmVzcG9uc2VzIHRvIHRoZSBzYW1lIHByb21wdCBhZmZlY3QgU0ZUIG1vZGVsIGJlZm9yZToyMDI0LTA5LTI0IHNpdGU6YXJ4aXYub3JnIiwidHlwZSI6InNlYXJjaCIsIm51bSI6MTAsInBhZ2UiOjEsImVuZ2luZSI6Imdvb2dsZSJ9LCJvcmdhbmljIjpbeyJ0aXRsZSI6IkVuaGFuY2luZyBMYXJnZSBMYW5ndWFnZSBNb2RlbCBQZXJmb3JtYW5jZSBUbyBBbnN3ZXIgLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvaHRtbC8yNDAyLjAxNzIydjEiLCJzbmlwcGV0IjoiTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzIChMTE1zKSBnZW5lcmF0ZSByZXNwb25zZXMgdG8gcXVlc3Rpb25zOyBob3dldmVyLCB0aGVpciBlZmZlY3RpdmVuZXNzIGlzIG9mdGVuIGhpbmRlcmVkIGJ5IHN1Yi1vcHRpbWFsIHF1YWxpdHkgb2YgYW5zd2VycyBhbmQgb2NjYXNpb25hbCAuLi4iLCJkYXRlIjoiSmFuIDI3LCAyMDI0IiwicG9zaXRpb24iOjF9LHsidGl0bGUiOiJbUERGXSBTZWxmLVBsYXkgRmluZS1UdW5pbmcgQ29udmVydHMgV2VhayBMYW5ndWFnZSBNb2RlbHMgdG8gLi4uIC0gYXJYaXYiLCJsaW5rIjoiaHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI0MDEuMDEzMzUiLCJzbmlwcGV0IjoiU3BlY2lmaWNhbGx5LCB3aGVuIHByZXNlbnRlZCB3aXRoIHR3byByZXNwb25zZXMgeSBhbmQgeeKAsiB0byB0aGUgc2FtZSBwcm9tcHQgeCwgZnQrMSBhc3Nlc3NlcyB0aGUgdmFsdWVzIGZ0KzEoeCwgeSkgYW5kIGZ0KzEoeCwgeeKAsikuIFN0YXJ0aW5nIGZyb20gaXRlcmF0aW9uIDEsIC4uLiIsImRhdGUiOiJKdW4gMTQsIDIwMjQiLCJwb3NpdGlvbiI6Mn0seyJ0aXRsZSI6IkEgQ2xvc2VyIExvb2sgYXQgdGhlIExpbWl0YXRpb25zIG9mIEluc3RydWN0aW9uIFR1bmluZyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNTExOXY1Iiwic25pcHBldCI6IlNGVCBhbmQgc3R5bGUgaW1pdGF0aW9uIGxlYWQgdGhlIG1vZGVsIHRvIGluYWNjdXJhdGVseSBpbmNsdWRlIHRva2VucyBmcm9tIHRoZSBJVCBkYXRhc2V0IGluIGl0cyByZXNwb25zZXMsIG5lZ2F0aXZlbHkgYWZmZWN0aW5nIHJlc3BvbnNlIHF1YWxpdHkuIiwiZGF0ZSI6Ikp1bCAxNCwgMjAyNCIsInBvc2l0aW9uIjozfSx7InRpdGxlIjoiVHJhaW5pbmcgbGFuZ3VhZ2UgbW9kZWxzIHRvIGZvbGxvdyBpbnN0cnVjdGlvbnMgd2l0aCBodW1hbiBmZWVkYmFjayIsImxpbmsiOiJodHRwczovL2FyNWl2LmxhYnMuYXJ4aXYub3JnL2h0bWwvMjIwMy4wMjE1NSIsInNuaXBwZXQiOiJGcm9tIHRoZXNlIHByb21wdHMsIHdlIHByb2R1Y2UgdGhyZWUgZGlmZmVyZW50IGRhdGFzZXRzIHVzZWQgaW4gb3VyIGZpbmUtdHVuaW5nIHByb2NlZHVyZTogKDEpIG91ciBTRlQgZGF0YXNldCwgd2l0aCBsYWJlbGVyIGRlbW9uc3RyYXRpb25zIHVzZWQgdG8gdHJhaW4gb3VyIC4uLiIsImRhdGUiOiJKYW4gMjcsIDIwMjIiLCJwb3NpdGlvbiI6NH0seyJ0aXRsZSI6IlVucGFja2luZyBEUE8gYW5kIFBQTzogRGlzZW50YW5nbGluZyBCZXN0IFByYWN0aWNlcyBmb3IgTGVhcm5pbmcgLi4uIiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwNi4wOTI3OXYxIiwic25pcHBldCI6IlVzaW5nIHVubGFiZWxsZWQgcHJvbXB0cyB0aGF0IGJldHRlciBtYXRjaCB0aGUgdGVzdCBzZXR0aW5nIGR1cmluZyBwb2xpY3kgY2FuIGZ1cnRoZXIgaW1wcm92ZSBtb2RlbCBwZXJmb3JtYW5jZSBpbiBkb21haW4tc3BlY2lmaWMgc2V0dGluZ3MiLCJkYXRlIjoiSnVuIDEzLCAyMDI0IiwicG9zaXRpb24iOjV9LHsidGl0bGUiOiJTZWxmLVJld2FyZGluZyBMYW5ndWFnZSBNb2RlbHMgLSBhclhpdiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDEuMTAwMjB2MS8iLCJzbmlwcGV0IjoiQWJzdHJhY3QuIFdlIHBvc2l0IHRoYXQgdG8gYWNoaWV2ZSBzdXBlcmh1bWFuIGFnZW50cywgZnV0dXJlIG1vZGVscyByZXF1aXJlIHN1cGVyaHVtYW4gZmVlZGJhY2sgaW4gb3JkZXIgdG8gcHJvdmlkZSBhbiBhZGVxdWF0ZSB0cmFpbmluZyBzaWduYWwuIiwiZGF0ZSI6IkphbiAxOCwgMjAyNCIsInBvc2l0aW9uIjo2fSx7InRpdGxlIjoiV2hlbiBDYW4gTExNcyBBY3R1YWxseSBDb3JyZWN0IFRoZWlyIE93biBNaXN0YWtlcz9BIENyaXRpY2FsIC4uLiIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzI0MDYuMDEyOTd2MSIsInNuaXBwZXQiOiJDcm9zcy1tb2RlbCBjb3JyZWN0aW9uIGdlbmVyYXRlcyBmZWVkYmFjayBvciByZWZpbmVzIHRoZSByZXNwb25zZXMgdXNpbmcgbW9kZWxzIGRpZmZlcmVudCBmcm9tIHRoZSBtb2RlbCB0aGF0IGdlbmVyYXRlcyBpbml0aWFsIHJlc3BvbnNlcy4iLCJkYXRlIjoiSnVuIDMsIDIwMjQiLCJwb3NpdGlvbiI6N30seyJ0aXRsZSI6IlVsdHJhRmVlZGJhY2s6IEJvb3N0aW5nIExhbmd1YWdlIE1vZGVscyB3aXRoIFNjYWxlZCBBSSBGZWVkYmFjayIsImxpbmsiOiJodHRwczovL2FyeGl2Lm9yZy9odG1sLzIzMTAuMDEzNzd2MiIsInNuaXBwZXQiOiJQcmVmZXJlbmNlIGRhdGEsIHdoaWNoIHJhdGVzIGFuZCBjb21wYXJlcyBkaWZmZXJlbnQgcmVzcG9uc2VzIGdpdmVuIHRoZSBzYW1lIHByb21wdCwgaXMgY2VudHJhbCB0byBmZWVkYmFjayBsZWFybmluZy4gV2hlbiBzY2FsZWQgc3VmZmljaWVudGx5LCBwcmVmZXJlbmNlIC4uLiIsImRhdGUiOiJKdWwgMTYsIDIwMjQiLCJwb3NpdGlvbiI6OH0seyJ0aXRsZSI6Ikxvd2VyLVJlc291cmNlIExhbmd1YWdlcyBSYWlzZSBNb3JlIFNhZmV0eSBDb25jZXJucyAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMS4xMzEzNnYxIiwic25pcHBldCI6IldlIHVzZSB0aGUgc2FtZSB0cmFuc2xhdGlvbiBtb2RlbCB0byB0cmFuc2xhdGUgdGhlIHJlc3BvbnNlIGJhY2sgaW50byBFbmdsaXNoIGFuZCBldmFsdWF0ZSB3aGV0aGVyIHRoZSByZXNwb25zZXMgZXhoaWJpdCBzYWZldHkgY29uY2VybnMuIFJlcG9ydCBpc3N1ZSBmb3IgLi4uIiwiZGF0ZSI6IkphbiAyMywgMjAyNCIsInBvc2l0aW9uIjo5fSx7InRpdGxlIjoiTGFyZ2UgTGFuZ3VhZ2UgTW9kZWxzOiBBIFN1cnZleSAtIGFyWGl2IiwibGluayI6Imh0dHBzOi8vYXJ4aXYub3JnL2h0bWwvMjQwMi4wNjE5NnYyIiwic25pcHBldCI6IklmIHlvdSBzZW5kIHRoZSBzYW1lIHByb21wdCB0byBhbiBMTE0gc2V2ZXJhbCB0aW1lcywgeW91IGFyZSBsaWtlbHkgdG8gZ2V0IGRpZmZlcmVudCByZXNwb25zZXMuIFdoaWxlIHRoZXJlIGFyZSBwYXJhbWV0ZXJzLCBhbmQgaW4gcGFydGljdWxhciB0aGUgLi4uIiwiZGF0ZSI6IkZlYiAyMCwgMjAyNCIsInBvc2l0aW9uIjoxMH1dLCJjcmVkaXRzIjoxfQ==",
+  "response_sha256": "b92c6a06ab1f76704f13fb3864463b37d4f8eda3cd1a828c3750ade78308fefa",
+  "structured_response": {
+    "searchParameters": {
+      "q": "Studies on how different responses to the same prompt affect SFT model before:2024-09-24 site:arxiv.org",
+      "type": "search",
+      "num": 10,
+      "page": 1,
+      "engine": "google"
+    },
+    "organic": [
+      {
+        "title": "Enhancing Large Language Model Performance To Answer ... - arXiv",
+        "link": "https://arxiv.org/html/2402.01722v1",
+        "snippet": "Large Language Models (LLMs) generate responses to questions; however, their effectiveness is often hindered by sub-optimal quality of answers and occasional ...",
+        "date": "Jan 27, 2024",
+        "position": 1
+      },
+      {
+        "title": "[PDF] Self-Play Fine-Tuning Converts Weak Language Models to ... - arXiv",
+        "link": "https://arxiv.org/pdf/2401.01335",
+        "snippet": "Specifically, when presented with two responses y and y′ to the same prompt x, ft+1 assesses the values ft+1(x, y) and ft+1(x, y′). Starting from iteration 1, ...",
+        "date": "Jun 14, 2024",
+        "position": 2
+      },
+      {
+        "title": "A Closer Look at the Limitations of Instruction Tuning - arXiv",
+        "link": "https://arxiv.org/html/2402.05119v5",
+        "snippet": "SFT and style imitation lead the model to inaccurately include tokens from the IT dataset in its responses, negatively affecting response quality.",
+        "date": "Jul 14, 2024",
+        "position": 3
+      },
+      {
+        "title": "Training language models to follow instructions with human feedback",
+        "link": "https://ar5iv.labs.arxiv.org/html/2203.02155",
+        "snippet": "From these prompts, we produce three different datasets used in our fine-tuning procedure: (1) our SFT dataset, with labeler demonstrations used to train our ...",
+        "date": "Jan 27, 2022",
+        "position": 4
+      },
+      {
+        "title": "Unpacking DPO and PPO: Disentangling Best Practices for Learning ...",
+        "link": "https://arxiv.org/html/2406.09279v1",
+        "snippet": "Using unlabelled prompts that better match the test setting during policy can further improve model performance in domain-specific settings",
+        "date": "Jun 13, 2024",
+        "position": 5
+      },
+      {
+        "title": "Self-Rewarding Language Models - arXiv",
+        "link": "https://arxiv.org/html/2401.10020v1/",
+        "snippet": "Abstract. We posit that to achieve superhuman agents, future models require superhuman feedback in order to provide an adequate training signal.",
+        "date": "Jan 18, 2024",
+        "position": 6
+      },
+      {
+        "title": "When Can LLMs Actually Correct Their Own Mistakes?A Critical ...",
+        "link": "https://arxiv.org/html/2406.01297v1",
+        "snippet": "Cross-model correction generates feedback or refines the responses using models different from the model that generates initial responses.",
+        "date": "Jun 3, 2024",
+        "position": 7
+      },
+      {
+        "title": "UltraFeedback: Boosting Language Models with Scaled AI Feedback",
+        "link": "https://arxiv.org/html/2310.01377v2",
+        "snippet": "Preference data, which rates and compares different responses given the same prompt, is central to feedback learning. When scaled sufficiently, preference ...",
+        "date": "Jul 16, 2024",
+        "position": 8
+      },
+      {
+        "title": "Lower-Resource Languages Raise More Safety Concerns - arXiv",
+        "link": "https://arxiv.org/html/2401.13136v1",
+        "snippet": "We use the same translation model to translate the response back into English and evaluate whether the responses exhibit safety concerns. Report issue for ...",
+        "date": "Jan 23, 2024",
+        "position": 9
+      },
+      {
+        "title": "Large Language Models: A Survey - arXiv",
+        "link": "https://arxiv.org/html/2402.06196v2",
+        "snippet": "If you send the same prompt to an LLM several times, you are likely to get different responses. While there are parameters, and in particular the ...",
+        "date": "Feb 20, 2024",
+        "position": 10
+      }
+    ],
+    "credits": 1
+  },
+  "echoed_parameter_mismatches": {},
+  "status": "PASS",
+  "finished_utc": "2026-09-15T06:27:20.547853+00:00",
+  "elapsed_seconds": 1.196831613779068
+}
